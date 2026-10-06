@@ -9,6 +9,7 @@ enter artifacts/baseline.json.
 from collections import Counter, defaultdict
 from itertools import product
 import math
+from operator import mul
 import random
 
 from .baseline import advantage, fit_logistic, scores
@@ -17,6 +18,7 @@ from .estimates import SIDES
 from .estimates_v2 import check as check_strength
 from .imputation import (BATTLES, CAMPAIGNS, COMMAND, DESIGN, STRENGTH, build as build_imputation, impute, quantile)
 from .ratings import TAU, RatingError, attach, cholesky, components, fit, predict, summarize
+from .parallel import pmap
 from .replay import bound_view
 from .sources import digest, read_csv, read_json, safe_path
 
@@ -80,6 +82,18 @@ def base_rows(root, imputation):
                      'labels': sorted(labels),
                      'graded_row': all(spec[s]['grade'] in 'ABC' for s in SIDES) and 'post_start_information' not in labels})
     return rows, sorted(nested), unresolved
+
+
+def attributions(root):
+    """{commander: [(battle_id, side)]} over every in-scope ledger engagement, nested records included
+    (design §3 coverage: every battle attributed, and which were dropped as nested)."""
+    out = defaultdict(list)
+    for e in read_json(safe_path(root, COMMAND))['engagements']:
+        for s in SIDES:
+            c = e['sides'][s]['commander_id']
+            if c:
+                out[c].append((e['battle_id'], s))
+    return out
 
 
 def e_value(spec, u, sd_scale=1.0):
@@ -147,7 +161,7 @@ def pooled(rows_by_m, side_of, tau=TAU, alpha_sd=1.0, use_force=True):
         pos = {c: k for k, c in enumerate(rc)}
         for _ in range(DRAWS_PER):
             e = [rng.gauss(0, 1) for _ in idx]
-            v = [mode[i] + sum(low[i][k] * e[k] for k in range(i + 1)) for i in range(len(idx))]
+            v = [mode[i] + sum(map(mul, low[i][:i + 1], e[:i + 1])) for i in range(len(idx))]
             for side in ranked.values():
                 for r_, c in enumerate(sorted(side, key=lambda c: -v[pos[c]]), 1):
                     ranks[c].append(r_)
@@ -172,6 +186,15 @@ def pooled(rows_by_m, side_of, tau=TAU, alpha_sd=1.0, use_force=True):
     return {'alpha': sum(alphas) / len(alphas), 'beta': sum(betas) / len(betas), 'ratings': out}
 
 
+def _single_task(item, side_of):
+    rows, params = item
+    return single(rows, side_of, **params)
+
+
+def _pooled_task(rows_by_m, side_of):
+    return pooled(rows_by_m, side_of)
+
+
 def single(rows, side_of, **params):
     """One fit summarized exactly as run 2 does (analytic intervals, 20,000 rank draws)."""
     model = fit(rows, **params)
@@ -183,25 +206,41 @@ def single(rows, side_of, **params):
 
 # ---------- held-out verdict ----------
 
+def slim(rows):
+    """The fields a fit, prediction or score reads; workers get these instead of whole ledger rows."""
+    return [{k: r[k] for k in ('battle_id', 'campaign', 'year', 'x', 'y', 'us', 'cs')} for r in rows]
+
+
+def _heldout_campaign(camp, rows_by_m):
+    """One held-out campaign: both models fitted on the other campaigns in every imputation."""
+    probs, effective = {}, []
+    for mi, rows in enumerate(rows_by_m):
+        train = [r for r in rows if r['campaign'] != camp]
+        test = [r for r in rows if r['campaign'] == camp]
+        model = fit(train, covariance=False)  # predictions use the mode only
+        logit = fit_logistic([r['x'] for r in train], [r['y'] for r in train])
+        for r in test:
+            p = probs.setdefault(r['battle_id'], {'commander_model': [], 'strength_only': []})
+            p['commander_model'].append(predict(model, r))
+            p['strength_only'].append(logit.predict(r['x']))
+        if mi == 0:
+            seen = set(model['theta'])
+            effective += [{'battle_id': r['battle_id'], 'commanders': [c for c in (r['us'], r['cs']) if c in seen]}
+                          for r in test if any(c in seen for c in (r['us'], r['cs']) if c)]
+    return probs, effective
+
+
 def heldout(rows_by_m):
-    """Leave one campaign out; probabilities averaged over imputations, then scored (§5)."""
+    """Leave one campaign out; probabilities averaged over imputations, then scored (§5).
+
+    Campaigns run in parallel and are gathered in sorted order, which is the serial order."""
+    rows_by_m = [slim(rows) for rows in rows_by_m]
     base = rows_by_m[0]
     camps = sorted({r['campaign'] for r in base})
-    probs = defaultdict(lambda: {'commander_model': [], 'strength_only': []})
-    effective = []
-    for camp in camps:
-        for mi, rows in enumerate(rows_by_m):
-            train = [r for r in rows if r['campaign'] != camp]
-            test = [r for r in rows if r['campaign'] == camp]
-            model = fit(train)
-            logit = fit_logistic([r['x'] for r in train], [r['y'] for r in train])
-            for r in test:
-                probs[r['battle_id']]['commander_model'].append(predict(model, r))
-                probs[r['battle_id']]['strength_only'].append(logit.predict(r['x']))
-            if mi == 0:
-                seen = set(model['theta'])
-                effective += [{'battle_id': r['battle_id'], 'commanders': [c for c in (r['us'], r['cs']) if c in seen]}
-                              for r in test if any(c in seen for c in (r['us'], r['cs']) if c)]
+    probs, effective = {}, []
+    for p, e in pmap(_heldout_campaign, camps, shared=rows_by_m):
+        probs.update(p)
+        effective += e
     preds = [{'battle_id': r['battle_id'], 'campaign': r['campaign'], 'union_outcome': r['y'],
               'commander_model': sum(probs[r['battle_id']]['commander_model']) / len(rows_by_m),
               'strength_only': sum(probs[r['battle_id']]['strength_only']) / len(rows_by_m),
@@ -209,7 +248,8 @@ def heldout(rows_by_m):
     result = score(preds)
     # Monte Carlo check (descriptive): imputations 1-10 and 11-20
     halves = {}
-    for name, sl in (('imputations_1_10', slice(0, len(rows_by_m) // 2)), ('imputations_11_20', slice(len(rows_by_m) // 2, None))):
+    for name, sl in ((('imputations_1_10', slice(0, len(rows_by_m) // 2)), ('imputations_11_20', slice(len(rows_by_m) // 2, None)))
+                     if len(rows_by_m) >= 2 else ()):
         ps = [{**p, 'commander_model': mean(p['per_imputation']['commander_model'][sl]),
                'strength_only': mean(p['per_imputation']['strength_only'][sl])} for p in preds]
         s = score(ps)
@@ -241,11 +281,15 @@ def score(preds):
 
 
 def temporal(rows_by_m, years=(('1861', '1862', '1863'), ('1864', '1865'))):
+    first = rows_by_m[0]
+    train0 = [r for r in first if r['year'] in years[0]]
+    if not train0 or not any(r['year'] in years[1] for r in first) or len({r['y'] for r in train0}) < 2:
+        return {'evaluable': False, 'verdict': None, 'years': years}
     preds = defaultdict(lambda: [[], []])
     for rows in rows_by_m:
         train = [r for r in rows if r['year'] in years[0]]
         test = [r for r in rows if r['year'] in years[1]]
-        model = fit(train)
+        model = fit(train, covariance=False)
         logit = fit_logistic([r['x'] for r in train], [r['y'] for r in train])
         for r in test:
             preds[r['battle_id']][0].append(predict(model, r))
@@ -273,15 +317,13 @@ def rate3(root, m=M):
     imps = imputations(rows, m)
     primary_by_m = [with_x(rows, s) for s in imps]
     test = heldout(primary_by_m)
-    primary = pooled(primary_by_m, side_of)
     median_rows = with_x(rows, None)
-    views = {'median_imputation': {'rows': len(median_rows), **single(median_rows, side_of)}}
-    robust = []
+    # Views (§6) in their declared order. The fits are independent, so they run in parallel and are
+    # gathered back in this order; each is computed exactly as it would be serially.
+    specs = [('median_imputation', median_rows, False, None)]
 
     def view(name, vrows, robustness=False, **params):
-        views[name] = {'rows': len(vrows), 'params': params, **single(vrows, side_of, **params)}
-        if robustness:
-            robust.append(name)
+        specs.append((name, vrows, robustness, params))
     view('tau_0.25', median_rows, True, tau=0.25)
     view('tau_1.0', median_rows, True, tau=1.0)
     view('alpha_sd_3', median_rows, True, alpha_sd=3.0)
@@ -296,35 +338,36 @@ def rate3(root, m=M):
             for cand in r['sides'][s]['candidates']:
                 if cand != r['sides'][s]['commander_id']:
                     view(f'alternative_{r["battle_id"]}_{s}_{cand}', with_x(rows, None, alt=(r['battle_id'], s, cand)), True)
-    graded = [r for r in median_rows if r['graded_row']]
-    view('strength_graded_only', graded)
-    run2 = read_json(safe_path(root, RUN2))
-    diffs = [abs(views['strength_graded_only']['ratings'][c]['theta_pooled'] - v['theta_mode'])
-             for c, v in run2['commanders'].items() if 'theta_mode' in v and c in views['strength_graded_only']['ratings']]
-    views['strength_graded_only']['reproduces_run2'] = {'max_abs_theta_difference': max(diffs), 'reproduces': max(diffs) < 1e-9,
-                                                        'rows_run2': run2['model']['rows']}
+    view('strength_graded_only', [r for r in median_rows if r['graded_row']])
     view('no_post_start', [r for r in median_rows if 'post_start_information' not in r['labels']])
     view('no_bound_conflict', [r for r in median_rows if 'bound_conflict' not in r['labels']])
     view('no_naval_grade_e', [r for r in median_rows if 'naval_side' not in r['labels']])
     view('drop_nesting_unresolved', [r for r in median_rows if r['battle_id'] not in unresolved])
     view('outcome_only_all', median_rows, use_force=False)
-
-    def mi_view(name, imputation=None, sd_scale=1.0):
-        vrows = rows if imputation is None else base_rows(root, imputation)[0]
-        by_m = [with_x(vrows, s) for s in imputations(vrows, m, sd_scale=sd_scale)]
-        views[name] = {'rows': len(vrows), 'multiple_imputation': True, **pooled(by_m, side_of)}
-    mi_view('wide_imputation', sd_scale=2.0)
-    mi_view('train_graded_ab', impute(root, train_grades='AB', verify=False))
-    mi_view('all_bounds', impute(root, all_bounds=True, verify=False))
-    mi_view('ledger_echelon_joint', impute(root, joint_ledger_echelon=True, verify=False))
+    mi_specs = [('wide_imputation', rows, 2.0),
+                ('train_graded_ab', base_rows(root, impute(root, train_grades='AB', verify=False))[0], 1.0),
+                ('all_bounds', base_rows(root, impute(root, all_bounds=True, verify=False))[0], 1.0),
+                ('ledger_echelon_joint', base_rows(root, impute(root, joint_ledger_echelon=True, verify=False))[0], 1.0)]
+    by_m_sets = [primary_by_m] + [[with_x(vrows, s) for s in imputations(vrows, m, sd_scale=sd)] for _, vrows, sd in mi_specs]
+    pooled_out = pmap(_pooled_task, [[slim(r) for r in by_m] for by_m in by_m_sets], shared=side_of)
+    primary = pooled_out[0]
+    singles = pmap(_single_task, [(slim(vrows), params or {}) for _, vrows, _, params in specs], shared=side_of)
+    views, robust = {}, []
+    for (name, vrows, robustness, params), res in zip(specs, singles):
+        views[name] = {'rows': len(vrows), **res} if params is None else {'rows': len(vrows), 'params': params, **res}
+        if robustness:
+            robust.append(name)
+    run2 = read_json(safe_path(root, RUN2))
+    diffs = [abs(views['strength_graded_only']['ratings'][c]['theta_pooled'] - v['theta_mode'])
+             for c, v in run2['commanders'].items() if 'theta_mode' in v and c in views['strength_graded_only']['ratings']]
+    views['strength_graded_only']['reproduces_run2'] = {'max_abs_theta_difference': max(diffs), 'reproduces': max(diffs) < 1e-9,
+                                                        'rows_run2': run2['model']['rows']}
+    for (name, vrows, _), res in zip(mi_specs, pooled_out[1:]):
+        views[name] = {'rows': len(vrows), 'multiple_imputation': True, **res}
     ref = views['median_imputation']['ratings']
     out = {}
     p_by = {p['battle_id']: p['strength_only'] for p in test['predictions']}
-    attributed = defaultdict(list)
-    for r in rows:
-        for s in SIDES:
-            if r['sides'][s]['commander_id']:
-                attributed[r['sides'][s]['commander_id']].append((r['battle_id'], s, r['sides'][s]))
+    attributed = attributions(root)  # every in-scope ledger side, so nested-dropped battles stay counted
     for c, pr in primary['ratings'].items():
         sens, unranked = [], []
         base_ref = ref.get(c)
@@ -345,13 +388,19 @@ def rate3(root, m=M):
         if not test['improved']:
             labels.append('no_heldout_signal')
         out[c] = {'name': registry[c]['name'], 'side': side_of[c], **pr, 'labels': labels,
-                  'battles_attributed': len(attributed[c]), 'wins_in_model': wins, 'losses_in_model': len(rows_c) - wins,
+                  'battles_attributed': len(attributed[c]),
+                  'dropped_as_nested': sorted(b for b, _ in attributed[c] if b in nested),
+                  'wins_in_model': wins, 'losses_in_model': len(rows_c) - wins,
                   'modelled_strength_rows': sum('modelled_strength' in r['labels'] for r, _ in rows_c),
                   'raw_residual_sum': sum((r['y'] - p_by[r['battle_id']]) * (1 if s == 'US' else -1) for r, s in rows_c),
                   'view_sensitive': sens, 'unranked_in_view': unranked,
                   'posterior_prior_sd_ratio': pr['sd_pooled'] / TAU,
                   'views': {n: (dict(v['ratings'][c], theta_minus_primary=v['ratings'][c]['theta_pooled'] - pr['theta_pooled'])
                                 if c in v['ratings'] else None) for n, v in views.items()}}
+    for c in sorted(set(attributed) - set(out)):  # credited only on battles outside the model (coverage only)
+        out[c] = {'name': registry[c]['name'], 'side': side_of[c], 'ranked': False, 'battles_modelled': 0,
+                  'battles_attributed': len(attributed[c]),
+                  'dropped_as_nested': sorted(b for b, _ in attributed[c] if b in nested), 'labels': ['coverage_only']}
     return {'kind': 'commander_residual_ratings', 'run_version': 3,
             'status': 'exploratory_diagnostic_not_skill_not_ranking_of_record',
             'authorization': {'path': AUTHORIZATION, 'sha256': digest(safe_path(root, AUTHORIZATION)),

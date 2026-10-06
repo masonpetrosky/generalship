@@ -26,8 +26,9 @@ As of 2026-10-05:
   ([record](docs/research/ledgers-v2.md)). The other 79 are inconclusive, aggregate records, or
   involve a Native American belligerent, which the two-sided model does not cover.
 - **Latest result.** [Rating run 3](docs/research/commander-ratings-v3.md) found slightly better
-  held-out predictions with commander identity than with force size alone. It is not a ranking
-  of skill ([results](#results-so-far)).
+  held-out predictions with commander identity than with force size alone. The gain is fragile:
+  under a campaign bootstrap, its campaign-weighted part cannot be told apart from zero. It is not
+  a ranking of skill ([results](#results-so-far)).
 - **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and not yet
   started. The [scoping note](docs/napoleonic-scoping.md) lists the decisions needed before
   research begins.
@@ -74,10 +75,10 @@ of skill or a causal estimate, and the later runs leave the frozen baseline unch
 | [Strength evaluation](docs/research/estimate-evaluation-v1.md) | 21–37 pilot battles with graded strengths | Do reviewed strength estimates predict results? | Weakly: worse than equal odds on the 21 grade A rows; on the 37 A–C rows, better than equal odds but not than the training prior (campaign-weighted) |
 | [Rating run 1](docs/research/commander-ratings-v1.md) | 37 pilot battles | Does adding commanders lower held-out log loss? | No detectable commander signal, so no ordered list |
 | [Rating run 2](docs/research/commander-ratings-v2.md) | 126 full-war battles with graded strengths | The same test on the full war | Lower under both weightings (0.6540 vs 0.6633 by battle, 0.6795 vs 0.6844 by campaign); every commander's interval includes zero |
-| [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651); only Forrest's 80% interval excludes zero, and rank intervals overlap widely |
+| [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651), but fragile: the campaign-weighted gain's 95% bootstrap interval includes zero, and Forrest's and Grant's rows carry much of the gain ([uncertainty](artifacts/commander-ratings-v3-uncertainty.md)); only Forrest's 80% interval excludes zero |
 
 Runs 2 and 3 pass the test fixed in advance, which is read only as lower held-out log loss on
-those rows. The residual still mixes command with army quality, subordinates, theater,
+those rows; that test has no uncertainty threshold. The residual still mixes command with army quality, subordinates, theater,
 opponents, coding choices and modelling error, so the ordered lists in those reports are point
 summaries, not rankings. Each record names the `make` target that reproduces it.
 

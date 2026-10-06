@@ -82,6 +82,48 @@ campaign out, probabilities averaged over 20 imputations.
 - **Individual places are uncertain.** Rank intervals overlap widely; the report's order is a point
   summary under the design.
 
+## How sure is the verdict? (2026-10-06)
+
+The design reads the verdict only as "held-out log loss was lower on these rows", with no
+significance test. A descriptive [uncertainty analysis](../../artifacts/commander-ratings-v3-uncertainty.md)
+(`make rating-uncertainty`) asks how firm that is. It uses the committed held-out predictions;
+nothing is refitted, and the verdict above stands as recorded.
+
+- **Battle-weighted gain:** 0.0121, with a campaign-bootstrap 95% interval of 0.0005 to 0.0241.
+  Commanders do better in 98% of the resamples.
+- **Campaign-weighted gain:** 0.0065, with a 95% interval of −0.0102 to 0.0226. The interval
+  includes zero, and 22% of the resamples favour the strength-only model.
+- **Campaigns:** the commander model did better in 61 of 108 (exact two-sided sign-test
+  p = 0.21).
+- **Concentration:** Forrest's 12 rows carry 38% of the net gain. Without Forrest's and Grant's
+  23 rows, the gain falls to 0.0046 (battle-weighted) and 0.0024 (campaign-weighted).
+- **Leakage-prone rows:** two kinds of row may carry outcome information:
+  - the 17 rows with a post-start strength side;
+  - the 18 rows with a joint-command side, whose commander rule 5 chooses by "the force
+    compelling the result".
+
+  Without both, the stored predictions give 0.0088 and 0.0021.
+
+So the battle-weighted improvement is marginal and the campaign-weighted one cannot be told
+apart from zero. Most of either rests on a few well-known commanders and on rows that may
+carry outcome information. The successor design for run 4 sets an uncertainty rule and the
+leakage handling in advance.
+
+## Coverage correction (2026-10-06)
+
+The per-commander coverage counted only the 301 modelled rows, so battles dropped as `nested`
+(GA012, LA009, VA033, VA034) vanished from it:
+
+- Sedgwick, Augur and Powers were missing entirely;
+- Lee showed 18 battles attributed instead of 19, and Early (8 for 9), Cleburne (2 for 3) and
+  Howard (1 for 2) were each one short.
+
+`battles_attributed` now counts every in-scope ledger attribution. Each commander lists their
+`dropped_as_nested` battles, and the three commanders with no modelled battle appear as
+`coverage_only`. The run was re-emitted with the corrected code. Every estimate, interval, rank,
+view and held-out prediction is bit-identical, and the Markdown report is unchanged. Only these
+coverage fields differ (primary-verified by a structural diff).
+
 ## Limits
 
 - Grade E is a typical size, not an observation; it can pull unusual forces toward the typical,

@@ -3,6 +3,7 @@
 import argparse
 import json
 from pathlib import Path
+import platform
 import sys
 
 from .baseline import evaluate
@@ -15,6 +16,7 @@ from .command import DEFAULT_LEDGER as COMMAND_LEDGER, check as check_command
 COMMAND_LEDGER_V2 = 'data/command/responsibility-v2.json'
 from .ratings import RUNS as RATING_RUNS, rate, report_text as ratings_report
 from .ratings_v3 import rate3, report_text as ratings3_report
+from .uncertainty import analyse as rating_uncertainty, report_text as uncertainty_report
 from .imputation import COMMAND as IMPUTATION_COMMAND, STRENGTH as IMPUTATION_STRENGTH, build as build_imputation
 from .dataset import build_dataset
 from .evidence import validate_all
@@ -139,6 +141,9 @@ def run_build(root, write=False):
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json"]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
+            # Floating-point results can differ in the last bits across Python versions (for example,
+            # sum() became compensated in 3.12 and NormalDist.cdf changed in 3.14).
+            "environment": {"python": platform.python_version(), "implementation": platform.python_implementation()},
             "input_sha256": {str(p.relative_to(root)): digest(p) for p in inputs},
             "source_sha256": profile["source_hashes"],
             "output_sha256": {name: digest(output / name) for name in outputs},
@@ -194,6 +199,8 @@ def main(argv=None):
     rat_parser.add_argument('--version', type=int, default=1, choices=(1, 2, 3),
                             help='Run 1 (cohort v1 ledgers), 2 (cohort v2 ledgers) or 3 (all battles with grade E strengths)')
     sub.add_parser('strength-imputation', help='Fit the grade E strength model and write artifacts/strength-imputation-v1.json')
+    unc_parser = sub.add_parser('rating-uncertainty', help="Bootstrap a committed rating run's held-out verdict; refits nothing")
+    unc_parser.add_argument('--version', type=int, default=3, choices=(2, 3), help='Rating run to analyse')
     cmd_parser = sub.add_parser('command-check', help='Replay the command-responsibility ledger checks; never rates anyone')
     cmd_parser.add_argument('--ledger', default=COMMAND_LEDGER, help='Ledger path (v1 or v2)')
     eval_parser = sub.add_parser('estimate-evaluate', help='Owner-authorized estimate-layer diagnostic (design §6); never changes the baseline')
@@ -230,6 +237,14 @@ def main(argv=None):
             write_json(root / f'{out}.json', ratings)
             (root / f'{out}.md').write_text(text, encoding='utf-8')
             result = {'heldout_improved': ratings['heldout_test']['improved'], 'outputs': [f'{out}.json', f'{out}.md']}
+        elif args.command == 'rating-uncertainty':
+            analysis = rating_uncertainty(root, args.version)
+            out = f'artifacts/commander-ratings-v{args.version}-uncertainty'
+            write_json(root / f'{out}.json', analysis)
+            (root / f'{out}.md').write_text(uncertainty_report(analysis), encoding='utf-8')
+            result = {'point': analysis['point'], 'bootstrap_95': {w: [analysis['bootstrap'][w]['q0.025'], analysis['bootstrap'][w]['q0.975']]
+                                                                for w in ('battle_weighted', 'campaign_weighted')},
+                      'outputs': [f'{out}.json', f'{out}.md']}
         elif args.command == 'strength-imputation':
             with bound_view(root, IMPUTATION_STRENGTH, IMPUTATION_COMMAND) as replay_root:
                 imputation = build_imputation(replay_root)  # frozen impute replays both ledgers

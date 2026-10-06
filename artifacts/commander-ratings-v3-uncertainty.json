@@ -1,0 +1,2613 @@
+{
+  "kind": "rating_verdict_uncertainty",
+  "version": 1,
+  "run_version": 3,
+  "status": "descriptive_from_committed_predictions_no_refit",
+  "run": {
+    "path": "artifacts/commander-ratings-v3.json",
+    "sha256": "24f1040ec9a746db1db0b8e83c2fc5c54f575e0759941fae2efd2ba6f20d8335"
+  },
+  "bindings": {
+    "command": {
+      "path": "data/command/responsibility-v2.json",
+      "sha256": "495cef30b475920c2bd02991a4a107dfb3f3079fa494d43512a216dc82da06ac"
+    },
+    "strength": {
+      "path": "data/estimates/side-strength-v2.json",
+      "sha256": "7855d4d3c8853f7eb94849cb3701c0ca3e3bd759df11b8ffcb5e086cc92deed8"
+    }
+  },
+  "convention": "difference = commander-model log loss minus strength-only log loss; negative favours commanders",
+  "rows": 301,
+  "campaigns": 108,
+  "point": {
+    "battle_weighted": -0.012101657679842502,
+    "campaign_weighted": -0.006479131450016536
+  },
+  "bootstrap": {
+    "resamples": 20000,
+    "seed": 20261006,
+    "unit": "campaign",
+    "battle_weighted": {
+      "q0.025": -0.024096065485693232,
+      "q0.05": -0.022184297295005605,
+      "q0.1": -0.019893036439945607,
+      "q0.5": -0.012072158864662761,
+      "q0.9": -0.004523171547711641,
+      "q0.95": -0.00231562869784809,
+      "q0.975": -0.00046429342092017405,
+      "share_at_or_above_zero": 0.02125
+    },
+    "campaign_weighted": {
+      "q0.025": -0.022635508751289304,
+      "q0.05": -0.01997409955059446,
+      "q0.1": -0.017012109806653315,
+      "q0.5": -0.006589324347407171,
+      "q0.9": 0.004369896643957258,
+      "q0.95": 0.007431778093482556,
+      "q0.975": 0.010181685568969893,
+      "share_at_or_above_zero": 0.2173
+    }
+  },
+  "sign_test": {
+    "commander_model_better": 61,
+    "strength_only_better": 47,
+    "ties": 0,
+    "two_sided_p": 0.21076579397878198
+  },
+  "total_net_gain": 3.642598961632593,
+  "commander_contributions": [
+    {
+      "commander": "cs-nathan-bedford-forrest",
+      "name": "Nathan Bedford Forrest",
+      "rows": 12,
+      "net_gain": 1.389097521577464
+    },
+    {
+      "commander": "us-ulysses-s-grant",
+      "name": "Ulysses S. Grant",
+      "rows": 11,
+      "net_gain": 0.9824062169335088
+    },
+    {
+      "commander": "cs-p-g-t-beauregard",
+      "name": "P.G.T. Beauregard",
+      "rows": 7,
+      "net_gain": 0.9125858074628153
+    },
+    {
+      "commander": "us-benjamin-franklin-butler",
+      "name": "Benjamin Franklin Butler",
+      "rows": 6,
+      "net_gain": 0.7157413928514307
+    },
+    {
+      "commander": "cs-thomas-j-jackson",
+      "name": "Thomas J. Jackson",
+      "rows": 8,
+      "net_gain": 0.6936435564926124
+    },
+    {
+      "commander": "cs-john-bell-hood",
+      "name": "John Bell Hood",
+      "rows": 9,
+      "net_gain": 0.6006973655688254
+    },
+    {
+      "commander": "us-john-mcneil",
+      "name": "John McNeil",
+      "rows": 3,
+      "net_gain": 0.3397185538828698
+    },
+    {
+      "commander": "us-david-g-farragut",
+      "name": "David G. Farragut",
+      "rows": 4,
+      "net_gain": 0.33150335858379787
+    },
+    {
+      "commander": "us-irvin-mcdowell",
+      "name": "Irvin McDowell",
+      "rows": 2,
+      "net_gain": 0.326191570263359
+    },
+    {
+      "commander": "us-samuel-d-sturgis",
+      "name": "Samuel D. Sturgis",
+      "rows": 4,
+      "net_gain": 0.3161802246059542
+    },
+    {
+      "commander": "us-william-sooy-smith",
+      "name": "William Sooy Smith",
+      "rows": 1,
+      "net_gain": 0.30967655434816754
+    },
+    {
+      "commander": "cs-joseph-wheeler",
+      "name": "Joseph Wheeler",
+      "rows": 5,
+      "net_gain": 0.30170222439181277
+    },
+    {
+      "commander": "us-c-c-washburn",
+      "name": "C.C. Washburn",
+      "rows": 1,
+      "net_gain": 0.2797537877670966
+    },
+    {
+      "commander": "us-thomas-t-crittenden",
+      "name": "Thomas T. Crittenden",
+      "rows": 1,
+      "net_gain": 0.2782052587664193
+    },
+    {
+      "commander": "us-cyrus-l-dunham",
+      "name": "Cyrus L. Dunham",
+      "rows": 1,
+      "net_gain": 0.27722867751136826
+    },
+    {
+      "commander": "us-nathaniel-p-banks",
+      "name": "Nathaniel P. Banks",
+      "rows": 7,
+      "net_gain": 0.2619491553281426
+    },
+    {
+      "commander": "us-adolph-englemann",
+      "name": "Adolph Englemann",
+      "rows": 1,
+      "net_gain": 0.2607993767398217
+    },
+    {
+      "commander": "us-g-k-warren",
+      "name": "G.K. Warren",
+      "rows": 4,
+      "net_gain": 0.2553982528178324
+    },
+    {
+      "commander": "us-stephen-g-hicks",
+      "name": "Stephen G. Hicks",
+      "rows": 1,
+      "net_gain": 0.2550396957759286
+    },
+    {
+      "commander": "us-edward-bloodgood",
+      "name": "Edward Bloodgood",
+      "rows": 1,
+      "net_gain": 0.23475123411317278
+    },
+    {
+      "commander": "us-george-h-thomas",
+      "name": "George H. Thomas",
+      "rows": 5,
+      "net_gain": 0.21802616444987183
+    },
+    {
+      "commander": "us-erastus-tyler",
+      "name": "Erastus Tyler",
+      "rows": 2,
+      "net_gain": 0.21681398435280608
+    },
+    {
+      "commander": "us-robert-milroy",
+      "name": "Robert Milroy",
+      "rows": 2,
+      "net_gain": 0.21444519857338573
+    },
+    {
+      "commander": "us-robert-anderson",
+      "name": "Robert Anderson",
+      "rows": 1,
+      "net_gain": 0.21161410223659527
+    },
+    {
+      "commander": "us-dahlgren",
+      "name": "Dahlgren",
+      "rows": 1,
+      "net_gain": 0.2066200823260087
+    },
+    {
+      "commander": "us-dixon-s-miles",
+      "name": "Dixon S. Miles",
+      "rows": 1,
+      "net_gain": 0.19618715158108035
+    },
+    {
+      "commander": "us-joseph-a-mower",
+      "name": "Joseph A. Mower",
+      "rows": 2,
+      "net_gain": 0.19095916369115262
+    },
+    {
+      "commander": "cs-gideon-pillow",
+      "name": "Gideon Pillow",
+      "rows": 1,
+      "net_gain": 0.18684368826142767
+    },
+    {
+      "commander": "cs-richard-taylor",
+      "name": "Richard Taylor",
+      "rows": 7,
+      "net_gain": 0.16651678360374417
+    },
+    {
+      "commander": "us-charles-c-doolittle",
+      "name": "Charles C. Doolittle",
+      "rows": 1,
+      "net_gain": 0.1597673036476851
+    },
+    {
+      "commander": "cs-patrick-r-cleburne",
+      "name": "Patrick R. Cleburne",
+      "rows": 2,
+      "net_gain": 0.15628726135659055
+    },
+    {
+      "commander": "cs-albert-sidney-johnston",
+      "name": "Albert Sidney Johnston",
+      "rows": 1,
+      "net_gain": 0.15339352425092667
+    },
+    {
+      "commander": "cs-james-longstreet",
+      "name": "James Longstreet",
+      "rows": 7,
+      "net_gain": 0.1499037283162436
+    },
+    {
+      "commander": "us-a-c-harding",
+      "name": "A.C. Harding",
+      "rows": 1,
+      "net_gain": 0.14333995045705572
+    },
+    {
+      "commander": "cs-william-c-quantrill",
+      "name": "William C. Quantrill",
+      "rows": 2,
+      "net_gain": 0.14157962366462595
+    },
+    {
+      "commander": "us-william-w-averell",
+      "name": "William W. Averell",
+      "rows": 3,
+      "net_gain": 0.14040230184727553
+    },
+    {
+      "commander": "us-bernard-laiboldt",
+      "name": "Bernard Laiboldt",
+      "rows": 1,
+      "net_gain": 0.13100019299666255
+    },
+    {
+      "commander": "cs-thomas-c-hindman",
+      "name": "Thomas C. Hindman",
+      "rows": 2,
+      "net_gain": 0.12750646955790834
+    },
+    {
+      "commander": "us-james-negley",
+      "name": "James Negley",
+      "rows": 2,
+      "net_gain": 0.12628433769816794
+    },
+    {
+      "commander": "cs-earl-van-dorn",
+      "name": "Earl Van Dorn",
+      "rows": 5,
+      "net_gain": 0.12373392267811983
+    },
+    {
+      "commander": "cs-john-b-magruder",
+      "name": "John B. Magruder",
+      "rows": 2,
+      "net_gain": 0.12277373157880234
+    },
+    {
+      "commander": "cs-joseph-e-johnston",
+      "name": "Joseph E. Johnston",
+      "rows": 9,
+      "net_gain": 0.1215502764483875
+    },
+    {
+      "commander": "cs-wise",
+      "name": "Wise",
+      "rows": 1,
+      "net_gain": 0.11924485232934856
+    },
+    {
+      "commander": "us-alexander-mcdowell-mccook",
+      "name": "Alexander McDowell McCook",
+      "rows": 1,
+      "net_gain": 0.10866891055210148
+    },
+    {
+      "commander": "cs-john-s-williams",
+      "name": "John S. Williams",
+      "rows": 2,
+      "net_gain": 0.10603804682226325
+    },
+    {
+      "commander": "us-edward-o-c-ord",
+      "name": "Edward O.C. Ord",
+      "rows": 2,
+      "net_gain": 0.1056784715195554
+    },
+    {
+      "commander": "us-gordon-granger",
+      "name": "Gordon Granger",
+      "rows": 1,
+      "net_gain": 0.10198499768292502
+    },
+    {
+      "commander": "us-a-a-humphreys",
+      "name": "A.A. Humphreys",
+      "rows": 1,
+      "net_gain": 0.10013037323355956
+    },
+    {
+      "commander": "us-benjamin-m-prentiss",
+      "name": "Benjamin M. Prentiss",
+      "rows": 2,
+      "net_gain": 0.09986748994808259
+    },
+    {
+      "commander": "us-john-r-kenly",
+      "name": "John R. Kenly",
+      "rows": 1,
+      "net_gain": 0.0974974449857311
+    },
+    {
+      "commander": "cs-john-s-bowen",
+      "name": "John S. Bowen",
+      "rows": 3,
+      "net_gain": 0.09616740723436462
+    },
+    {
+      "commander": "cs-franklin-buchanan",
+      "name": "Franklin Buchanan",
+      "rows": 1,
+      "net_gain": 0.09583822290333599
+    },
+    {
+      "commander": "cs-joseph-c-porter",
+      "name": "Joseph C. Porter",
+      "rows": 1,
+      "net_gain": 0.09518606769995752
+    },
+    {
+      "commander": "us-james-shackelford",
+      "name": "James Shackelford",
+      "rows": 2,
+      "net_gain": 0.09383278148823099
+    },
+    {
+      "commander": "cs-phillippe-landry",
+      "name": "Phillippe Landry",
+      "rows": 1,
+      "net_gain": 0.09234496829569905
+    },
+    {
+      "commander": "cs-william-lamb",
+      "name": "William Lamb",
+      "rows": 1,
+      "net_gain": 0.09164797488651688
+    },
+    {
+      "commander": "cs-john-c-pemberton",
+      "name": "John C. Pemberton",
+      "rows": 3,
+      "net_gain": 0.09055855722966738
+    },
+    {
+      "commander": "cs-john-b-floyd",
+      "name": "John B. Floyd",
+      "rows": 2,
+      "net_gain": 0.0857356152854446
+    },
+    {
+      "commander": "us-franz-sigel",
+      "name": "Franz Sigel",
+      "rows": 2,
+      "net_gain": 0.08195389525764174
+    },
+    {
+      "commander": "us-oliver-o-howard",
+      "name": "Oliver O. Howard",
+      "rows": 1,
+      "net_gain": 0.08178904685410093
+    },
+    {
+      "commander": "us-alfred-torbert",
+      "name": "Alfred Torbert",
+      "rows": 2,
+      "net_gain": 0.08146948550573219
+    },
+    {
+      "commander": "us-charles-c-walcutt",
+      "name": "Charles C. Walcutt",
+      "rows": 1,
+      "net_gain": 0.07793009627154762
+    },
+    {
+      "commander": "cs-john-pegram",
+      "name": "John Pegram",
+      "rows": 1,
+      "net_gain": 0.07784133173862678
+    },
+    {
+      "commander": "us-george-b-mcclellan",
+      "name": "George B. McClellan",
+      "rows": 3,
+      "net_gain": 0.07702040823128609
+    },
+    {
+      "commander": "us-james-b-pond",
+      "name": "James B. Pond",
+      "rows": 1,
+      "net_gain": 0.07573327671684382
+    },
+    {
+      "commander": "cs-bushrod-r-johnson",
+      "name": "Bushrod R. Johnson",
+      "rows": 1,
+      "net_gain": 0.07521736224676856
+    },
+    {
+      "commander": "cs-mansfield-lovell",
+      "name": "Mansfield Lovell",
+      "rows": 1,
+      "net_gain": 0.07478705245381617
+    },
+    {
+      "commander": "us-joseph-hooker",
+      "name": "Joseph Hooker",
+      "rows": 3,
+      "net_gain": 0.07009753727612072
+    },
+    {
+      "commander": "us-egbert-b-brown",
+      "name": "Egbert B. Brown",
+      "rows": 1,
+      "net_gain": 0.06960300027625183
+    },
+    {
+      "commander": "us-john-g-parke",
+      "name": "John G. Parke",
+      "rows": 2,
+      "net_gain": 0.06956096009748075
+    },
+    {
+      "commander": "cs-johnson-k-duncan",
+      "name": "Johnson K. Duncan",
+      "rows": 1,
+      "net_gain": 0.06853311493094666
+    },
+    {
+      "commander": "us-a-j-smith",
+      "name": "A.J. Smith",
+      "rows": 2,
+      "net_gain": 0.06759314842334391
+    },
+    {
+      "commander": "cs-clairborne-jackson",
+      "name": "Clairborne Jackson",
+      "rows": 1,
+      "net_gain": 0.06503121405321932
+    },
+    {
+      "commander": "cs-john-echols",
+      "name": "John Echols",
+      "rows": 1,
+      "net_gain": 0.06341128905414539
+    },
+    {
+      "commander": "us-frederick-steele",
+      "name": "Frederick Steele",
+      "rows": 3,
+      "net_gain": 0.06225533201259531
+    },
+    {
+      "commander": "us-mahlon-d-manson",
+      "name": "Mahlon D. Manson",
+      "rows": 1,
+      "net_gain": 0.0604554741941169
+    },
+    {
+      "commander": "us-james-ricketts",
+      "name": "James Ricketts",
+      "rows": 1,
+      "net_gain": 0.060262407752840086
+    },
+    {
+      "commander": "cs-d-h-hill",
+      "name": "D. H. Hill",
+      "rows": 2,
+      "net_gain": 0.05663538004586921
+    },
+    {
+      "commander": "us-ebenezer-pierce",
+      "name": "Ebenezer Pierce",
+      "rows": 1,
+      "net_gain": 0.05338948729372439
+    },
+    {
+      "commander": "us-hiram-anderson",
+      "name": "Hiram Anderson",
+      "rows": 1,
+      "net_gain": 0.05108468469499039
+    },
+    {
+      "commander": "cs-theophilus-h-holmes",
+      "name": "Theophilus H. Holmes",
+      "rows": 1,
+      "net_gain": 0.05047946335437392
+    },
+    {
+      "commander": "cs-caleb-dorsey",
+      "name": "Caleb Dorsey",
+      "rows": 1,
+      "net_gain": 0.04938802659370867
+    },
+    {
+      "commander": "us-francis-j-herron",
+      "name": "Francis J. Herron",
+      "rows": 1,
+      "net_gain": 0.04910930470762731
+    },
+    {
+      "commander": "cs-leadbetter",
+      "name": "Leadbetter",
+      "rows": 1,
+      "net_gain": 0.047887172847886905
+    },
+    {
+      "commander": "cs-john-b-gordon",
+      "name": "John B. Gordon",
+      "rows": 2,
+      "net_gain": 0.04310181861774981
+    },
+    {
+      "commander": "us-william-nelson",
+      "name": "William Nelson",
+      "rows": 1,
+      "net_gain": 0.042802041582279404
+    },
+    {
+      "commander": "cs-colton-greene",
+      "name": "Colton Greene",
+      "rows": 1,
+      "net_gain": 0.0425008072897175
+    },
+    {
+      "commander": "cs-thomas-rosser",
+      "name": "Thomas Rosser",
+      "rows": 1,
+      "net_gain": 0.04234178910139402
+    },
+    {
+      "commander": "cs-a-p-hill",
+      "name": "A.P. Hill",
+      "rows": 3,
+      "net_gain": 0.04214516769790949
+    },
+    {
+      "commander": "cs-s-d-ramseur",
+      "name": "S.D. Ramseur",
+      "rows": 1,
+      "net_gain": 0.040159251101764326
+    },
+    {
+      "commander": "cs-matthew-c-butler",
+      "name": "Matthew C. Butler",
+      "rows": 1,
+      "net_gain": 0.039127696404338164
+    },
+    {
+      "commander": "cs-moses-j-white",
+      "name": "Moses J. White",
+      "rows": 1,
+      "net_gain": 0.03844544409871692
+    },
+    {
+      "commander": "cs-bate",
+      "name": "Bate",
+      "rows": 1,
+      "net_gain": 0.03817180008287635
+    },
+    {
+      "commander": "cs-william-byrd",
+      "name": "William Byrd",
+      "rows": 1,
+      "net_gain": 0.037645104227173765
+    },
+    {
+      "commander": "cs-john-mccausland",
+      "name": "John McCausland",
+      "rows": 1,
+      "net_gain": 0.036831761691365816
+    },
+    {
+      "commander": "us-powell-clayton",
+      "name": "Powell Clayton",
+      "rows": 1,
+      "net_gain": 0.035671699711748106
+    },
+    {
+      "commander": "us-alvan-c-gillem",
+      "name": "Alvan C. Gillem",
+      "rows": 1,
+      "net_gain": 0.0352499977502565
+    },
+    {
+      "commander": "us-charles-p-stone",
+      "name": "Charles P. Stone",
+      "rows": 1,
+      "net_gain": 0.035148493720896457
+    },
+    {
+      "commander": "cs-lawrence-obryan-branch",
+      "name": "Lawrence O'Bryan Branch",
+      "rows": 2,
+      "net_gain": 0.03448332740418608
+    },
+    {
+      "commander": "cs-stephen-d-lee",
+      "name": "Stephen D. Lee",
+      "rows": 1,
+      "net_gain": 0.029948044196170143
+    },
+    {
+      "commander": "us-alfred-pleasonton",
+      "name": "Alfred Pleasonton",
+      "rows": 3,
+      "net_gain": 0.02986606353687732
+    },
+    {
+      "commander": "us-william-t-sherman",
+      "name": "William T. Sherman",
+      "rows": 10,
+      "net_gain": 0.029091316850086424
+    },
+    {
+      "commander": "cs-george-b-crittenden",
+      "name": "George B. Crittenden",
+      "rows": 1,
+      "net_gain": 0.02796740402308473
+    },
+    {
+      "commander": "us-nathaniel-lyon",
+      "name": "Nathaniel Lyon",
+      "rows": 2,
+      "net_gain": 0.027063239987951015
+    },
+    {
+      "commander": "us-edward-h-hobson",
+      "name": "Edward H. Hobson",
+      "rows": 1,
+      "net_gain": 0.025967660155471528
+    },
+    {
+      "commander": "us-samuel-r-curtis",
+      "name": "Samuel R. Curtis",
+      "rows": 3,
+      "net_gain": 0.025768229537265874
+    },
+    {
+      "commander": "cs-h-m-shaw",
+      "name": "H. M. Shaw",
+      "rows": 1,
+      "net_gain": 0.021668423939433135
+    },
+    {
+      "commander": "us-henry-benham",
+      "name": "Henry Benham",
+      "rows": 1,
+      "net_gain": 0.021256801937026726
+    },
+    {
+      "commander": "us-j-b-leake",
+      "name": "J.B. Leake",
+      "rows": 1,
+      "net_gain": 0.02071094864868317
+    },
+    {
+      "commander": "cs-joseph-shelby",
+      "name": "Joseph Shelby",
+      "rows": 1,
+      "net_gain": 0.019825595688367725
+    },
+    {
+      "commander": "cs-lindsay-walker",
+      "name": "Lindsay Walker",
+      "rows": 1,
+      "net_gain": 0.017597755804475812
+    },
+    {
+      "commander": "us-george-a-custer",
+      "name": "George A. Custer",
+      "rows": 1,
+      "net_gain": 0.017597755804475812
+    },
+    {
+      "commander": "us-conrad-garis",
+      "name": "Conrad Garis",
+      "rows": 1,
+      "net_gain": 0.01731425471177439
+    },
+    {
+      "commander": "cs-john-gregg",
+      "name": "John Gregg",
+      "rows": 1,
+      "net_gain": 0.01656551132651718
+    },
+    {
+      "commander": "us-james-b-mcpherson",
+      "name": "James B. McPherson",
+      "rows": 1,
+      "net_gain": 0.01656551132651718
+    },
+    {
+      "commander": "cs-hamilton-p-bee",
+      "name": "Hamilton P. Bee",
+      "rows": 1,
+      "net_gain": 0.016262141256983664
+    },
+    {
+      "commander": "us-william-h-emory",
+      "name": "William H. Emory",
+      "rows": 1,
+      "net_gain": 0.016262141256983664
+    },
+    {
+      "commander": "cs-joseph-fry",
+      "name": "Joseph Fry",
+      "rows": 1,
+      "net_gain": 0.016154744801507304
+    },
+    {
+      "commander": "us-graham-n-fitch",
+      "name": "Graham N. Fitch",
+      "rows": 1,
+      "net_gain": 0.016154744801507304
+    },
+    {
+      "commander": "cs-lloyd-tilghman",
+      "name": "Lloyd Tilghman",
+      "rows": 1,
+      "net_gain": 0.01606631561701427
+    },
+    {
+      "commander": "us-andrew-h-foote",
+      "name": "Andrew H. Foote",
+      "rows": 1,
+      "net_gain": 0.01606631561701427
+    },
+    {
+      "commander": "cs-james-e-carter",
+      "name": "James E. Carter",
+      "rows": 1,
+      "net_gain": 0.015630124915250843
+    },
+    {
+      "commander": "us-john-w-foster",
+      "name": "John W. Foster",
+      "rows": 1,
+      "net_gain": 0.015630124915250843
+    },
+    {
+      "commander": "cs-william-f-martin",
+      "name": "William F. Martin",
+      "rows": 1,
+      "net_gain": 0.015606283215241767
+    },
+    {
+      "commander": "us-silas-stringham",
+      "name": "Silas Stringham",
+      "rows": 1,
+      "net_gain": 0.015606283215241767
+    },
+    {
+      "commander": "cs-thomas-j-churchill",
+      "name": "Thomas J. Churchill",
+      "rows": 1,
+      "net_gain": 0.014998848454666702
+    },
+    {
+      "commander": "cs-joseph-j-cook",
+      "name": "Joseph J. Cook",
+      "rows": 1,
+      "net_gain": 0.014983438268497684
+    },
+    {
+      "commander": "us-w-b-renshaw",
+      "name": "W.B. Renshaw",
+      "rows": 1,
+      "net_gain": 0.014983438268497684
+    },
+    {
+      "commander": "cs-lafayette-mclaws",
+      "name": "Lafayette McLaws",
+      "rows": 1,
+      "net_gain": 0.014937088910237872
+    },
+    {
+      "commander": "us-francis-p-blair",
+      "name": "Francis P. Blair",
+      "rows": 1,
+      "net_gain": 0.014937088910237872
+    },
+    {
+      "commander": "cs-polk",
+      "name": "Polk",
+      "rows": 1,
+      "net_gain": 0.014852325066305572
+    },
+    {
+      "commander": "us-don-carlos-buell",
+      "name": "Don Carlos Buell",
+      "rows": 1,
+      "net_gain": 0.014852325066305572
+    },
+    {
+      "commander": "cs-alfred-mouton",
+      "name": "Alfred Mouton",
+      "rows": 1,
+      "net_gain": 0.014638078713516578
+    },
+    {
+      "commander": "us-godfrey-weitzel",
+      "name": "Godfrey Weitzel",
+      "rows": 1,
+      "net_gain": 0.014638078713516578
+    },
+    {
+      "commander": "cs-m-jeff-thompson",
+      "name": "M. Jeff Thompson",
+      "rows": 1,
+      "net_gain": 0.01446431917491442
+    },
+    {
+      "commander": "us-j-b-plummer",
+      "name": "J.B. Plummer",
+      "rows": 1,
+      "net_gain": 0.01446431917491442
+    },
+    {
+      "commander": "cs-john-westcott",
+      "name": "John Westcott",
+      "rows": 1,
+      "net_gain": 0.014452547980293218
+    },
+    {
+      "commander": "us-a-a-semmes",
+      "name": "A. A. Semmes",
+      "rows": 1,
+      "net_gain": 0.014452547980293218
+    },
+    {
+      "commander": "cs-george-a-porterfield",
+      "name": "George A. Porterfield",
+      "rows": 1,
+      "net_gain": 0.014197598968767433
+    },
+    {
+      "commander": "us-b-f-kelley",
+      "name": "B. F. Kelley",
+      "rows": 1,
+      "net_gain": 0.014197598968767433
+    },
+    {
+      "commander": "us-john-a-mcclernand",
+      "name": "John A. McClernand",
+      "rows": 1,
+      "net_gain": 0.014161425580315301
+    },
+    {
+      "commander": "cs-robert-preston",
+      "name": "Robert Preston",
+      "rows": 1,
+      "net_gain": 0.013894411148948682
+    },
+    {
+      "commander": "cs-charles-f-hopkins",
+      "name": "Charles F. Hopkins",
+      "rows": 1,
+      "net_gain": 0.013878929150871633
+    },
+    {
+      "commander": "us-john-m-brannan",
+      "name": "John M. Brannan",
+      "rows": 1,
+      "net_gain": 0.013878929150871633
+    },
+    {
+      "commander": "cs-a-s-dobbin",
+      "name": "A. S. Dobbin",
+      "rows": 1,
+      "net_gain": 0.013865418800305507
+    },
+    {
+      "commander": "us-john-w-davidson",
+      "name": "John W. Davidson",
+      "rows": 1,
+      "net_gain": 0.013865418800305507
+    },
+    {
+      "commander": "cs-henry-heth",
+      "name": "Henry Heth",
+      "rows": 3,
+      "net_gain": 0.013512687692876835
+    },
+    {
+      "commander": "cs-william-e-jones",
+      "name": "William E. Jones",
+      "rows": 1,
+      "net_gain": 0.013074102727734405
+    },
+    {
+      "commander": "cs-thomas-clingman",
+      "name": "Thomas Clingman",
+      "rows": 1,
+      "net_gain": 0.012979064238517746
+    },
+    {
+      "commander": "cs-felix-zollicoffer",
+      "name": "Felix Zollicoffer",
+      "rows": 1,
+      "net_gain": 0.012970730509847483
+    },
+    {
+      "commander": "us-albin-f-schoepf",
+      "name": "Albin F. Schoepf",
+      "rows": 1,
+      "net_gain": 0.012970730509847483
+    },
+    {
+      "commander": "cs-edward-l-parker",
+      "name": "Edward L. Parker",
+      "rows": 1,
+      "net_gain": 0.01296285964560534
+    },
+    {
+      "commander": "us-a-c-rhind",
+      "name": "A.C. Rhind",
+      "rows": 1,
+      "net_gain": 0.01296285964560534
+    },
+    {
+      "commander": "cs-samuel-g-french",
+      "name": "Samuel G. French",
+      "rows": 1,
+      "net_gain": 0.012768023984194965
+    },
+    {
+      "commander": "us-john-m-corse",
+      "name": "John M. Corse",
+      "rows": 1,
+      "net_gain": 0.012768023984194965
+    },
+    {
+      "commander": "cs-e-kirby-smith",
+      "name": "E. Kirby Smith",
+      "rows": 1,
+      "net_gain": 0.01231381827496636
+    },
+    {
+      "commander": "cs-w-l-cabell",
+      "name": "W.L. Cabell",
+      "rows": 1,
+      "net_gain": 0.012053521847832871
+    },
+    {
+      "commander": "us-william-f-cloud",
+      "name": "William F. Cloud",
+      "rows": 1,
+      "net_gain": 0.012053521847832871
+    },
+    {
+      "commander": "cs-james-e-montgomery",
+      "name": "James E. Montgomery",
+      "rows": 1,
+      "net_gain": 0.011889833365301528
+    },
+    {
+      "commander": "cs-charles-l-pyron",
+      "name": "Charles L. Pyron",
+      "rows": 1,
+      "net_gain": 0.011834005718901919
+    },
+    {
+      "commander": "us-john-chivington",
+      "name": "John Chivington",
+      "rows": 1,
+      "net_gain": 0.011834005718901919
+    },
+    {
+      "commander": "us-lionel-f-booth",
+      "name": "Lionel F. Booth",
+      "rows": 1,
+      "net_gain": 0.011809385294536234
+    },
+    {
+      "commander": "cs-william-b-taliaferro",
+      "name": "William B. Taliaferro",
+      "rows": 1,
+      "net_gain": 0.011220260805227866
+    },
+    {
+      "commander": "cs-buster",
+      "name": "Buster",
+      "rows": 1,
+      "net_gain": 0.009277465030617382
+    },
+    {
+      "commander": "cs-henry-e-mcculloch",
+      "name": "Henry E. McCulloch",
+      "rows": 1,
+      "net_gain": 0.00904008978064208
+    },
+    {
+      "commander": "us-hermann-lieb",
+      "name": "Hermann Lieb",
+      "rows": 1,
+      "net_gain": 0.00904008978064208
+    },
+    {
+      "commander": "cs-j-a-poindexter",
+      "name": "J.A. Poindexter",
+      "rows": 1,
+      "net_gain": 0.008788186411692545
+    },
+    {
+      "commander": "us-w-m-g-torrence",
+      "name": "W.M.G. Torrence",
+      "rows": 1,
+      "net_gain": 0.008788186411692545
+    },
+    {
+      "commander": "cs-james-p-major",
+      "name": "James P. Major",
+      "rows": 1,
+      "net_gain": 0.007632305039363629
+    },
+    {
+      "commander": "us-albert-stickney",
+      "name": "Albert Stickney",
+      "rows": 1,
+      "net_gain": 0.007632305039363629
+    },
+    {
+      "commander": "cs-fitzhugh-lee",
+      "name": "Fitzhugh Lee",
+      "rows": 1,
+      "net_gain": 0.006916904261710544
+    },
+    {
+      "commander": "us-edward-wild",
+      "name": "Edward Wild",
+      "rows": 1,
+      "net_gain": 0.006916904261710544
+    },
+    {
+      "commander": "cs-r-f-graham",
+      "name": "R. F. Graham",
+      "rows": 1,
+      "net_gain": 0.006229637163927215
+    },
+    {
+      "commander": "cs-john-jumper",
+      "name": "John Jumper",
+      "rows": 1,
+      "net_gain": 0.006163683753571569
+    },
+    {
+      "commander": "us-charles-willette",
+      "name": "Charles Willette",
+      "rows": 1,
+      "net_gain": 0.006163683753571569
+    },
+    {
+      "commander": "cs-james-frazier",
+      "name": "James Frazier",
+      "rows": 1,
+      "net_gain": 0.006110576322776229
+    },
+    {
+      "commander": "us-james-zagonyi",
+      "name": "James Zagonyi",
+      "rows": 1,
+      "net_gain": 0.006110576322776229
+    },
+    {
+      "commander": "cs-george-singletary",
+      "name": "George Singletary",
+      "rows": 1,
+      "net_gain": 0.006052420671909697
+    },
+    {
+      "commander": "us-f-a-osborn",
+      "name": "F. A. Osborn",
+      "rows": 1,
+      "net_gain": 0.006052420671909697
+    },
+    {
+      "commander": "cs-rust",
+      "name": "Rust",
+      "rows": 1,
+      "net_gain": 0.0029030527504266823
+    },
+    {
+      "commander": "us-charles-hovey",
+      "name": "Charles Hovey",
+      "rows": 1,
+      "net_gain": 0.0029030527504266823
+    },
+    {
+      "commander": "cs-roddey",
+      "name": "Roddey",
+      "rows": 1,
+      "net_gain": 0.0018929173660557908
+    },
+    {
+      "commander": "us-emil-adams",
+      "name": "Emil Adams",
+      "rows": 1,
+      "net_gain": 0.0018929173660557908
+    },
+    {
+      "commander": "cs-pollard",
+      "name": "Pollard",
+      "rows": 1,
+      "net_gain": -0.0018862534521238983
+    },
+    {
+      "commander": "us-ulric-dahlgren",
+      "name": "Ulric Dahlgren",
+      "rows": 1,
+      "net_gain": -0.0018862534521238983
+    },
+    {
+      "commander": "cs-louis-hebert",
+      "name": "Louis Hebert",
+      "rows": 1,
+      "net_gain": -0.0034371011393241613
+    },
+    {
+      "commander": "us-albert-s-hall",
+      "name": "Albert S. Hall",
+      "rows": 1,
+      "net_gain": -0.0038581374368887866
+    },
+    {
+      "commander": "cs-d-r-atchison",
+      "name": "D. R. Atchison",
+      "rows": 1,
+      "net_gain": -0.005435280897906125
+    },
+    {
+      "commander": "us-john-scott",
+      "name": "John Scott",
+      "rows": 1,
+      "net_gain": -0.005435280897906125
+    },
+    {
+      "commander": "us-nelson-a-miles",
+      "name": "Nelson A. Miles",
+      "rows": 1,
+      "net_gain": -0.005986101478832273
+    },
+    {
+      "commander": "cs-john-q-burbridge",
+      "name": "John Q. Burbridge",
+      "rows": 1,
+      "net_gain": -0.007519192599266256
+    },
+    {
+      "commander": "us-hiram-e-barstow",
+      "name": "Hiram E. Barstow",
+      "rows": 1,
+      "net_gain": -0.007519192599266256
+    },
+    {
+      "commander": "cs-james-b-fagan",
+      "name": "James B. Fagan",
+      "rows": 1,
+      "net_gain": -0.007649045755348416
+    },
+    {
+      "commander": "us-francis-drake",
+      "name": "Francis Drake",
+      "rows": 1,
+      "net_gain": -0.007649045755348416
+    },
+    {
+      "commander": "cs-joel-a-battle",
+      "name": "Joel A. Battle",
+      "rows": 1,
+      "net_gain": -0.007875613724052433
+    },
+    {
+      "commander": "us-isaac-j-black",
+      "name": "Isaac J. Black",
+      "rows": 1,
+      "net_gain": -0.007875613724052433
+    },
+    {
+      "commander": "us-john-m-schofield",
+      "name": "John M. Schofield",
+      "rows": 4,
+      "net_gain": -0.010345192722073682
+    },
+    {
+      "commander": "cs-ben-mcculloch",
+      "name": "Ben McCulloch",
+      "rows": 1,
+      "net_gain": -0.011669292381021656
+    },
+    {
+      "commander": "cs-nathan-evans",
+      "name": "Nathan Evans",
+      "rows": 3,
+      "net_gain": -0.013238248617653048
+    },
+    {
+      "commander": "cs-j-t-coffee",
+      "name": "J. T. Coffee",
+      "rows": 1,
+      "net_gain": -0.01351939262757973
+    },
+    {
+      "commander": "us-emory-s-foster",
+      "name": "Emory S. Foster",
+      "rows": 1,
+      "net_gain": -0.01351939262757973
+    },
+    {
+      "commander": "us-chester-harding",
+      "name": "Chester Harding",
+      "rows": 1,
+      "net_gain": -0.01384848226058466
+    },
+    {
+      "commander": "cs-j-t-hughes",
+      "name": "J.T. Hughes",
+      "rows": 1,
+      "net_gain": -0.014670029677727792
+    },
+    {
+      "commander": "us-james-t-buel",
+      "name": "James T. Buel",
+      "rows": 1,
+      "net_gain": -0.014670029677727792
+    },
+    {
+      "commander": "cs-sam-jones",
+      "name": "Sam Jones",
+      "rows": 1,
+      "net_gain": -0.015664471250927847
+    },
+    {
+      "commander": "us-john-newton",
+      "name": "John Newton",
+      "rows": 1,
+      "net_gain": -0.015664471250927847
+    },
+    {
+      "commander": "cs-john-s-rip-ford",
+      "name": "John S. \"Rip\" Ford",
+      "rows": 1,
+      "net_gain": -0.015838349443745847
+    },
+    {
+      "commander": "us-david-branson",
+      "name": "David Branson",
+      "rows": 1,
+      "net_gain": -0.015838349443745847
+    },
+    {
+      "commander": "cs-william-h-jackson",
+      "name": "William H. Jackson",
+      "rows": 1,
+      "net_gain": -0.016260547563731742
+    },
+    {
+      "commander": "us-quincy-a-gillmore",
+      "name": "Quincy A. Gillmore",
+      "rows": 4,
+      "net_gain": -0.01806183998493427
+    },
+    {
+      "commander": "cs-joseph-finegan",
+      "name": "Joseph Finegan",
+      "rows": 1,
+      "net_gain": -0.01985085795066399
+    },
+    {
+      "commander": "us-truman-seymour",
+      "name": "Truman Seymour",
+      "rows": 1,
+      "net_gain": -0.01985085795066399
+    },
+    {
+      "commander": "us-william-b-hazen",
+      "name": "William B. Hazen",
+      "rows": 1,
+      "net_gain": -0.020078240569610384
+    },
+    {
+      "commander": "cs-james-f-fagan",
+      "name": "James F. Fagan",
+      "rows": 1,
+      "net_gain": -0.020920337801159983
+    },
+    {
+      "commander": "us-john-pope",
+      "name": "John Pope",
+      "rows": 2,
+      "net_gain": -0.021706223936070912
+    },
+    {
+      "commander": "cs-randall-l-gibson",
+      "name": "Randall L. Gibson",
+      "rows": 1,
+      "net_gain": -0.021923360791855917
+    },
+    {
+      "commander": "cs-e-farrand",
+      "name": "E. Farrand",
+      "rows": 1,
+      "net_gain": -0.022237753670702687
+    },
+    {
+      "commander": "us-john-rodgers",
+      "name": "John Rodgers",
+      "rows": 1,
+      "net_gain": -0.022237753670702687
+    },
+    {
+      "commander": "cs-ripley",
+      "name": "Ripley",
+      "rows": 1,
+      "net_gain": -0.023209902608708144
+    },
+    {
+      "commander": "us-s-f-du-pont",
+      "name": "S. F. Du Pont",
+      "rows": 1,
+      "net_gain": -0.023209902608708144
+    },
+    {
+      "commander": "us-lewis-jordan",
+      "name": "Lewis Jordan",
+      "rows": 1,
+      "net_gain": -0.0237388392967276
+    },
+    {
+      "commander": "us-david-d-porter",
+      "name": "David D. Porter",
+      "rows": 1,
+      "net_gain": -0.024240559070304535
+    },
+    {
+      "commander": "us-thomas-ewing-jr",
+      "name": "Thomas Ewing Jr.",
+      "rows": 1,
+      "net_gain": -0.024321477432571292
+    },
+    {
+      "commander": "cs-john-w-pearson",
+      "name": "John W. Pearson",
+      "rows": 1,
+      "net_gain": -0.026606926920546448
+    },
+    {
+      "commander": "us-a-j-drake",
+      "name": "A.J. Drake",
+      "rows": 1,
+      "net_gain": -0.026606926920546448
+    },
+    {
+      "commander": "cs-charles-field",
+      "name": "Charles Field",
+      "rows": 1,
+      "net_gain": -0.02718470110056148
+    },
+    {
+      "commander": "cs-alfred-e-jackson",
+      "name": "Alfred E. Jackson",
+      "rows": 1,
+      "net_gain": -0.027799705338668712
+    },
+    {
+      "commander": "us-stephen-gano-burbridge",
+      "name": "Stephen Gano Burbridge",
+      "rows": 1,
+      "net_gain": -0.027799705338668712
+    },
+    {
+      "commander": "cs-stand-watie",
+      "name": "Stand Watie",
+      "rows": 1,
+      "net_gain": -0.02804833305034571
+    },
+    {
+      "commander": "cs-john-r-liddell",
+      "name": "John R. Liddell",
+      "rows": 1,
+      "net_gain": -0.028376453745812602
+    },
+    {
+      "commander": "us-joseph-d-bullen",
+      "name": "Joseph D. Bullen",
+      "rows": 1,
+      "net_gain": -0.029088128989967377
+    },
+    {
+      "commander": "cs-john-p-mccown",
+      "name": "John P. McCown",
+      "rows": 1,
+      "net_gain": -0.030062657586912067
+    },
+    {
+      "commander": "cs-j-s-irvine",
+      "name": "J.S. Irvine",
+      "rows": 1,
+      "net_gain": -0.032102966543208156
+    },
+    {
+      "commander": "us-james-garfield",
+      "name": "James Garfield",
+      "rows": 1,
+      "net_gain": -0.032997315649895886
+    },
+    {
+      "commander": "cs-charles-colcock",
+      "name": "Charles Colcock",
+      "rows": 1,
+      "net_gain": -0.03443145963904182
+    },
+    {
+      "commander": "us-john-hatch",
+      "name": "John Hatch",
+      "rows": 1,
+      "net_gain": -0.03443145963904182
+    },
+    {
+      "commander": "cs-j-e-b-stuart",
+      "name": "J.E.B. Stuart",
+      "rows": 3,
+      "net_gain": -0.03749466295496301
+    },
+    {
+      "commander": "cs-albert-jenkins",
+      "name": "Albert Jenkins",
+      "rows": 1,
+      "net_gain": -0.04001392368815326
+    },
+    {
+      "commander": "cs-franklin-gardner",
+      "name": "Franklin Gardner",
+      "rows": 1,
+      "net_gain": -0.0431352737728824
+    },
+    {
+      "commander": "us-john-t-wilder",
+      "name": "John T. Wilder",
+      "rows": 2,
+      "net_gain": -0.04322279095396664
+    },
+    {
+      "commander": "cs-graham",
+      "name": "Graham",
+      "rows": 1,
+      "net_gain": -0.0443709892321551
+    },
+    {
+      "commander": "us-fitz-john-porter",
+      "name": "Fitz John Porter",
+      "rows": 4,
+      "net_gain": -0.04496961027148533
+    },
+    {
+      "commander": "cs-samuel-bell-maxey",
+      "name": "Samuel Bell Maxey",
+      "rows": 1,
+      "net_gain": -0.051587599958969776
+    },
+    {
+      "commander": "us-david-hunter",
+      "name": "David Hunter",
+      "rows": 2,
+      "net_gain": -0.05221260166271219
+    },
+    {
+      "commander": "us-p-drayton",
+      "name": "P. Drayton",
+      "rows": 1,
+      "net_gain": -0.053424015503775846
+    },
+    {
+      "commander": "cs-wade-hampton",
+      "name": "Wade Hampton",
+      "rows": 2,
+      "net_gain": -0.05384403316190134
+    },
+    {
+      "commander": "us-john-c-fr-mont",
+      "name": "John C. Frémont",
+      "rows": 1,
+      "net_gain": -0.054164186074233456
+    },
+    {
+      "commander": "us-henry-w-wessells",
+      "name": "Henry W. Wessells",
+      "rows": 1,
+      "net_gain": -0.05451872446972528
+    },
+    {
+      "commander": "us-nathan-kimball",
+      "name": "Nathan Kimball",
+      "rows": 1,
+      "net_gain": -0.05526255965733434
+    },
+    {
+      "commander": "us-friedrich-salomon",
+      "name": "Friedrich Salomon",
+      "rows": 1,
+      "net_gain": -0.055569835068530526
+    },
+    {
+      "commander": "us-john-g-foster",
+      "name": "John G. Foster",
+      "rows": 2,
+      "net_gain": -0.056664480037058484
+    },
+    {
+      "commander": "us-august-kautz",
+      "name": "August Kautz",
+      "rows": 1,
+      "net_gain": -0.05873104674263252
+    },
+    {
+      "commander": "us-harvey-brown",
+      "name": "Harvey Brown",
+      "rows": 1,
+      "net_gain": -0.06055395903815708
+    },
+    {
+      "commander": "cs-william-pendleton",
+      "name": "William Pendleton",
+      "rows": 1,
+      "net_gain": -0.0656400646080233
+    },
+    {
+      "commander": "cs-william-t-martin",
+      "name": "William T. Martin",
+      "rows": 2,
+      "net_gain": -0.06972138895365332
+    },
+    {
+      "commander": "cs-william-j-hardee",
+      "name": "William J. Hardee",
+      "rows": 1,
+      "net_gain": -0.07204985831144062
+    },
+    {
+      "commander": "cs-george-a-anderson",
+      "name": "George A. Anderson",
+      "rows": 2,
+      "net_gain": -0.07350225607338623
+    },
+    {
+      "commander": "cs-george-pickett",
+      "name": "George Pickett",
+      "rows": 2,
+      "net_gain": -0.07447247417299396
+    },
+    {
+      "commander": "us-james-m-williams",
+      "name": "James M. Williams",
+      "rows": 2,
+      "net_gain": -0.07963593300931548
+    },
+    {
+      "commander": "cs-douglas-h-cooper",
+      "name": "Douglas H. Cooper",
+      "rows": 2,
+      "net_gain": -0.08343371448319914
+    },
+    {
+      "commander": "cs-micah-jenkins",
+      "name": "Micah Jenkins",
+      "rows": 1,
+      "net_gain": -0.08361198207678927
+    },
+    {
+      "commander": "us-cuvier-grover",
+      "name": "Cuvier Grover",
+      "rows": 3,
+      "net_gain": -0.08540523584709092
+    },
+    {
+      "commander": "cs-william-h-f-rooney-lee",
+      "name": "William H.F. \"Rooney\" Lee",
+      "rows": 1,
+      "net_gain": -0.08769511776353456
+    },
+    {
+      "commander": "us-joseph-reynolds",
+      "name": "Joseph Reynolds",
+      "rows": 1,
+      "net_gain": -0.0890608318673971
+    },
+    {
+      "commander": "cs-leonidas-polk",
+      "name": "Leonidas Polk",
+      "rows": 1,
+      "net_gain": -0.09047796273706032
+    },
+    {
+      "commander": "us-samuel-merrill",
+      "name": "Samuel Merrill",
+      "rows": 1,
+      "net_gain": -0.09217734444795556
+    },
+    {
+      "commander": "cs-richard-w-dowling",
+      "name": "Richard W. Dowling",
+      "rows": 1,
+      "net_gain": -0.09266558691289584
+    },
+    {
+      "commander": "us-jacob-d-cox",
+      "name": "Jacob D. Cox",
+      "rows": 2,
+      "net_gain": -0.09305562176199783
+    },
+    {
+      "commander": "us-philip-sheridan",
+      "name": "Philip Sheridan",
+      "rows": 8,
+      "net_gain": -0.09377449314654601
+    },
+    {
+      "commander": "us-john-gibbon",
+      "name": "John Gibbon",
+      "rows": 1,
+      "net_gain": -0.09419751710787644
+    },
+    {
+      "commander": "cs-robert-hoke",
+      "name": "Robert Hoke",
+      "rows": 2,
+      "net_gain": -0.09428123778617709
+    },
+    {
+      "commander": "us-winfield-scott-hancock",
+      "name": "Winfield Scott Hancock",
+      "rows": 4,
+      "net_gain": -0.10359939984624567
+    },
+    {
+      "commander": "us-j-h-lane",
+      "name": "J.H. Lane",
+      "rows": 1,
+      "net_gain": -0.10401585300497274
+    },
+    {
+      "commander": "us-e-r-s-canby",
+      "name": "E. R. S. Canby",
+      "rows": 3,
+      "net_gain": -0.10688879828759812
+    },
+    {
+      "commander": "us-edward-hatch",
+      "name": "Edward Hatch",
+      "rows": 1,
+      "net_gain": -0.10937771724093359
+    },
+    {
+      "commander": "us-thomas-williams",
+      "name": "Thomas Williams",
+      "rows": 1,
+      "net_gain": -0.10984564161603638
+    },
+    {
+      "commander": "us-james-a-mulligan",
+      "name": "James A. Mulligan",
+      "rows": 1,
+      "net_gain": -0.11629255249055293
+    },
+    {
+      "commander": "cs-john-s-marmaduke",
+      "name": "John S. Marmaduke",
+      "rows": 10,
+      "net_gain": -0.1169793813270551
+    },
+    {
+      "commander": "cs-john-hunt-morgan",
+      "name": "John Hunt Morgan",
+      "rows": 6,
+      "net_gain": -0.11730884341210635
+    },
+    {
+      "commander": "us-absalom-b-moore",
+      "name": "Absalom B. Moore",
+      "rows": 1,
+      "net_gain": -0.11935415892151235
+    },
+    {
+      "commander": "us-henry-slocum",
+      "name": "Henry Slocum",
+      "rows": 1,
+      "net_gain": -0.12231935870750721
+    },
+    {
+      "commander": "us-frederick-crocker",
+      "name": "Frederick Crocker",
+      "rows": 2,
+      "net_gain": -0.12476855345610399
+    },
+    {
+      "commander": "cs-humphrey-marshall",
+      "name": "Humphrey Marshall",
+      "rows": 2,
+      "net_gain": -0.12633018081938524
+    },
+    {
+      "commander": "us-george-stoneman",
+      "name": "George Stoneman",
+      "rows": 2,
+      "net_gain": -0.12720642771575935
+    },
+    {
+      "commander": "us-william-vandever",
+      "name": "William Vandever",
+      "rows": 1,
+      "net_gain": -0.13178818031374273
+    },
+    {
+      "commander": "us-john-coburn",
+      "name": "John Coburn",
+      "rows": 1,
+      "net_gain": -0.14095500323885346
+    },
+    {
+      "commander": "cs-james-r-chalmers",
+      "name": "James R. Chalmers",
+      "rows": 3,
+      "net_gain": -0.14634181825124282
+    },
+    {
+      "commander": "cs-braxton-bragg",
+      "name": "Braxton Bragg",
+      "rows": 5,
+      "net_gain": -0.1505584375086894
+    },
+    {
+      "commander": "cs-charles-h-olmstead",
+      "name": "Charles H. Olmstead",
+      "rows": 1,
+      "net_gain": -0.1547565902834379
+    },
+    {
+      "commander": "cs-sterling-price",
+      "name": "Sterling Price",
+      "rows": 10,
+      "net_gain": -0.16496014283762478
+    },
+    {
+      "commander": "us-lew-wallace",
+      "name": "Lew Wallace",
+      "rows": 1,
+      "net_gain": -0.16792984936209043
+    },
+    {
+      "commander": "cs-robert-e-lee",
+      "name": "Robert E. Lee",
+      "rows": 18,
+      "net_gain": -0.16999079473830553
+    },
+    {
+      "commander": "cs-richard-s-ewell",
+      "name": "Richard S. Ewell",
+      "rows": 4,
+      "net_gain": -0.17101344429095028
+    },
+    {
+      "commander": "us-alfred-h-terry",
+      "name": "Alfred H. Terry",
+      "rows": 2,
+      "net_gain": -0.17197861820883342
+    },
+    {
+      "commander": "us-robert-patterson",
+      "name": "Robert Patterson",
+      "rows": 1,
+      "net_gain": -0.18444209162244524
+    },
+    {
+      "commander": "us-h-judson-kilpatrick",
+      "name": "H. Judson Kilpatrick",
+      "rows": 4,
+      "net_gain": -0.1878928472880802
+    },
+    {
+      "commander": "cs-richard-h-anderson",
+      "name": "Richard H. Anderson",
+      "rows": 2,
+      "net_gain": -0.2040854226110448
+    },
+    {
+      "commander": "us-william-s-rosecrans",
+      "name": "William S. Rosecrans",
+      "rows": 5,
+      "net_gain": -0.22062824664727526
+    },
+    {
+      "commander": "us-george-g-meade",
+      "name": "George G. Meade",
+      "rows": 4,
+      "net_gain": -0.22543855094488086
+    },
+    {
+      "commander": "us-henry-w-halleck",
+      "name": "Henry W. Halleck",
+      "rows": 1,
+      "net_gain": -0.22692802628095504
+    },
+    {
+      "commander": "cs-tom-green",
+      "name": "Tom Green",
+      "rows": 5,
+      "net_gain": -0.24003914971744755
+    },
+    {
+      "commander": "cs-john-c-breckinridge",
+      "name": "John C. Breckinridge",
+      "rows": 5,
+      "net_gain": -0.2640605059165121
+    },
+    {
+      "commander": "us-george-crook",
+      "name": "George Crook",
+      "rows": 2,
+      "net_gain": -0.2711135774185137
+    },
+    {
+      "commander": "us-lovell-h-rousseau",
+      "name": "Lovell H. Rousseau",
+      "rows": 1,
+      "net_gain": -0.27780380148100164
+    },
+    {
+      "commander": "us-james-g-blunt",
+      "name": "James G. Blunt",
+      "rows": 6,
+      "net_gain": -0.29570619030415285
+    },
+    {
+      "commander": "us-horatio-g-wright",
+      "name": "Horatio G. Wright",
+      "rows": 2,
+      "net_gain": -0.3133621008781952
+    },
+    {
+      "commander": "us-abel-streight",
+      "name": "Abel Streight",
+      "rows": 1,
+      "net_gain": -0.31895380816780905
+    },
+    {
+      "commander": "us-ambrose-e-burnside",
+      "name": "Ambrose E. Burnside",
+      "rows": 7,
+      "net_gain": -0.3642497432260787
+    },
+    {
+      "commander": "us-james-h-wilson",
+      "name": "James H. Wilson",
+      "rows": 4,
+      "net_gain": -0.5890276780173277
+    },
+    {
+      "commander": "cs-jubal-a-early",
+      "name": "Jubal A. Early",
+      "rows": 8,
+      "net_gain": -0.6225439961215955
+    }
+  ],
+  "drop_one_commander": [
+    {
+      "commander": "cs-nathan-bedford-forrest",
+      "name": "Nathan Bedford Forrest",
+      "rows_dropped": 12,
+      "battle_weighted": -0.007797582837561002,
+      "campaign_weighted": -0.006122208557472319
+    },
+    {
+      "commander": "us-ulysses-s-grant",
+      "name": "Ulysses S. Grant",
+      "rows_dropped": 11,
+      "battle_weighted": -0.009173078429996843,
+      "campaign_weighted": -0.002867977326189967
+    },
+    {
+      "commander": "cs-p-g-t-beauregard",
+      "name": "P.G.T. Beauregard",
+      "rows_dropped": 7,
+      "battle_weighted": -0.00928575902778836,
+      "campaign_weighted": -0.001821965000860278
+    },
+    {
+      "commander": "us-benjamin-franklin-butler",
+      "name": "Benjamin Franklin Butler",
+      "rows_dropped": 6,
+      "battle_weighted": -0.009921551080614112,
+      "campaign_weighted": -0.003943271526335852
+    },
+    {
+      "commander": "cs-thomas-j-jackson",
+      "name": "Thomas J. Jackson",
+      "rows_dropped": 8,
+      "battle_weighted": -0.010064694215494815,
+      "campaign_weighted": -0.005225488829821051
+    },
+    {
+      "commander": "cs-john-bell-hood",
+      "name": "John Bell Hood",
+      "rows_dropped": 9,
+      "battle_weighted": -0.010417471219396466,
+      "campaign_weighted": -0.006034906889742992
+    },
+    {
+      "commander": "us-john-mcneil",
+      "name": "John McNeil",
+      "rows_dropped": 3,
+      "battle_weighted": -0.011083491301173568,
+      "campaign_weighted": -0.004863215221754418
+    },
+    {
+      "commander": "us-irvin-mcdowell",
+      "name": "Irvin McDowell",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011091663516285065,
+      "campaign_weighted": -0.004333835914497248
+    },
+    {
+      "commander": "us-david-g-farragut",
+      "name": "David G. Farragut",
+      "rows_dropped": 4,
+      "battle_weighted": -0.011148470043935337,
+      "campaign_weighted": -0.004067477217454725
+    },
+    {
+      "commander": "us-samuel-d-sturgis",
+      "name": "Samuel D. Sturgis",
+      "rows_dropped": 4,
+      "battle_weighted": -0.011200063087631782,
+      "campaign_weighted": -0.006037100564426907
+    },
+    {
+      "commander": "cs-joseph-wheeler",
+      "name": "Joseph Wheeler",
+      "rows_dropped": 5,
+      "battle_weighted": -0.011286813301489123,
+      "campaign_weighted": -0.006029287364117609
+    },
+    {
+      "commander": "us-g-k-warren",
+      "name": "G.K. Warren",
+      "rows_dropped": 4,
+      "battle_weighted": -0.01140471619129549,
+      "campaign_weighted": -0.005418936933929307
+    },
+    {
+      "commander": "us-erastus-tyler",
+      "name": "Erastus Tyler",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011457474840400626,
+      "campaign_weighted": -0.006227925309070089
+    },
+    {
+      "commander": "us-robert-milroy",
+      "name": "Robert Milroy",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011465397200866914,
+      "campaign_weighted": -0.005841706674153778
+    },
+    {
+      "commander": "us-nathaniel-p-banks",
+      "name": "Nathaniel P. Banks",
+      "rows_dropped": 7,
+      "battle_weighted": -0.011498808864981126,
+      "campaign_weighted": -0.006441809415455829
+    },
+    {
+      "commander": "us-joseph-a-mower",
+      "name": "Joseph A. Mower",
+      "rows_dropped": 2,
+      "battle_weighted": -0.01154394581251318,
+      "campaign_weighted": -0.005935213458352694
+    },
+    {
+      "commander": "us-george-h-thomas",
+      "name": "George H. Thomas",
+      "rows_dropped": 5,
+      "battle_weighted": -0.01156950269318487,
+      "campaign_weighted": -0.006648199173106421
+    },
+    {
+      "commander": "cs-patrick-r-cleburne",
+      "name": "Patrick R. Cleburne",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011659905352093655,
+      "campaign_weighted": -0.006946997832755882
+    },
+    {
+      "commander": "cs-william-c-quantrill",
+      "name": "William C. Quantrill",
+      "rows_dropped": 2,
+      "battle_weighted": -0.0117090947758126,
+      "campaign_weighted": -0.005265722386199622
+    },
+    {
+      "commander": "us-william-w-averell",
+      "name": "William W. Averell",
+      "rows_dropped": 3,
+      "battle_weighted": -0.011752337784514488,
+      "campaign_weighted": -0.005433357547950215
+    },
+    {
+      "commander": "cs-thomas-c-hindman",
+      "name": "Thomas C. Hindman",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011756162180851789,
+      "campaign_weighted": -0.00403877385973847
+    },
+    {
+      "commander": "us-james-negley",
+      "name": "James Negley",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011760249578376005,
+      "campaign_weighted": -0.005695588940481784
+    },
+    {
+      "commander": "cs-john-b-magruder",
+      "name": "John B. Magruder",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011771990735965857,
+      "campaign_weighted": -0.0054431364624809775
+    },
+    {
+      "commander": "cs-richard-taylor",
+      "name": "Richard Taylor",
+      "rows_dropped": 7,
+      "battle_weighted": -0.01182340876880561,
+      "campaign_weighted": -0.0062127540478736165
+    },
+    {
+      "commander": "cs-john-s-williams",
+      "name": "John S. Williams",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011827962925787056,
+      "campaign_weighted": -0.006134491623854558
+    },
+    {
+      "commander": "us-edward-o-c-ord",
+      "name": "Edward O.C. Ord",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011829165518772703,
+      "campaign_weighted": -0.006355179886465363
+    },
+    {
+      "commander": "us-benjamin-m-prentiss",
+      "name": "Benjamin M. Prentiss",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011848600239747528,
+      "campaign_weighted": -0.006273008657627004
+    },
+    {
+      "commander": "us-james-shackelford",
+      "name": "James Shackelford",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011868783211185157,
+      "campaign_weighted": -0.005740469892253868
+    },
+    {
+      "commander": "cs-james-longstreet",
+      "name": "James Longstreet",
+      "rows_dropped": 7,
+      "battle_weighted": -0.011879915759579422,
+      "campaign_weighted": -0.006708945223520311
+    },
+    {
+      "commander": "cs-earl-van-dorn",
+      "name": "Earl Van Dorn",
+      "rows_dropped": 5,
+      "battle_weighted": -0.011888057564035383,
+      "campaign_weighted": -0.006376139151774885
+    },
+    {
+      "commander": "cs-john-b-floyd",
+      "name": "John B. Floyd",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011895864034605848,
+      "campaign_weighted": -0.006324038457315092
+    },
+    {
+      "commander": "cs-john-s-bowen",
+      "name": "John S. Bowen",
+      "rows_dropped": 3,
+      "battle_weighted": -0.011900777028181975,
+      "campaign_weighted": -0.006482193305410843
+    },
+    {
+      "commander": "us-franz-sigel",
+      "name": "Franz Sigel",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011908511927675423,
+      "campaign_weighted": -0.006241609671916637
+    },
+    {
+      "commander": "us-alfred-torbert",
+      "name": "Alfred Torbert",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011910132027180139,
+      "campaign_weighted": -0.0061303556700973505
+    },
+    {
+      "commander": "cs-john-c-pemberton",
+      "name": "John C. Pemberton",
+      "rows_dropped": 3,
+      "battle_weighted": -0.01191959867249304,
+      "campaign_weighted": -0.006699425656768177
+    },
+    {
+      "commander": "us-john-g-parke",
+      "name": "John G. Parke",
+      "rows_dropped": 2,
+      "battle_weighted": -0.01194995987135489,
+      "campaign_weighted": -0.006422410112951998
+    },
+    {
+      "commander": "us-a-j-smith",
+      "name": "A.J. Smith",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011956541181301837,
+      "campaign_weighted": -0.007189497864271137
+    },
+    {
+      "commander": "us-george-b-mcclellan",
+      "name": "George B. McClellan",
+      "rows_dropped": 3,
+      "battle_weighted": -0.011965028702688951,
+      "campaign_weighted": -0.006547697153231685
+    },
+    {
+      "commander": "us-joseph-hooker",
+      "name": "Joseph Hooker",
+      "rows_dropped": 3,
+      "battle_weighted": -0.011988259813276754,
+      "campaign_weighted": -0.00729709950135871
+    },
+    {
+      "commander": "cs-d-h-hill",
+      "name": "D. H. Hill",
+      "rows_dropped": 2,
+      "battle_weighted": -0.011993189236076,
+      "campaign_weighted": -0.005558902912245056
+    },
+    {
+      "commander": "us-frederick-steele",
+      "name": "Frederick Steele",
+      "rows_dropped": 3,
+      "battle_weighted": -0.01201457593832214,
+      "campaign_weighted": -0.0061992975600460316
+    },
+    {
+      "commander": "cs-john-b-gordon",
+      "name": "John B. Gordon",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012038451983327236,
+      "campaign_weighted": -0.006435846419539317
+    },
+    {
+      "commander": "cs-joseph-e-johnston",
+      "name": "Joseph E. Johnston",
+      "rows_dropped": 9,
+      "battle_weighted": -0.012058385908165088,
+      "campaign_weighted": -0.007680298127958135
+    },
+    {
+      "commander": "cs-lawrence-obryan-branch",
+      "name": "Lawrence O'Bryan Branch",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012067276368656881,
+      "campaign_weighted": -0.006451292494034035
+    },
+    {
+      "commander": "cs-a-p-hill",
+      "name": "A.P. Hill",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012082059711190214,
+      "campaign_weighted": -0.005517232785553221
+    },
+    {
+      "commander": "us-nathaniel-lyon",
+      "name": "Nathaniel Lyon",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012092092714530576,
+      "campaign_weighted": -0.006393742832421485
+    },
+    {
+      "commander": "us-alfred-pleasonton",
+      "name": "Alfred Pleasonton",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012123264758710455,
+      "campaign_weighted": -0.006468117269087627
+    },
+    {
+      "commander": "us-samuel-r-curtis",
+      "name": "Samuel R. Curtis",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012137015879514521,
+      "campaign_weighted": -0.006177487863221825
+    },
+    {
+      "commander": "cs-henry-heth",
+      "name": "Henry Heth",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012178141858858108,
+      "campaign_weighted": -0.006470700537549628
+    },
+    {
+      "commander": "us-john-pope",
+      "name": "John Pope",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012255201289527305,
+      "campaign_weighted": -0.0070283067787531685
+    },
+    {
+      "commander": "cs-nathan-evans",
+      "name": "Nathan Evans",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012267910101510895,
+      "campaign_weighted": -0.006784898286395567
+    },
+    {
+      "commander": "us-john-m-schofield",
+      "name": "John M. Schofield",
+      "rows_dropped": 4,
+      "battle_weighted": -0.01229947526718743,
+      "campaign_weighted": -0.006719193692283246
+    },
+    {
+      "commander": "us-quincy-a-gillmore",
+      "name": "Quincy A. Gillmore",
+      "rows_dropped": 4,
+      "battle_weighted": -0.012325457244503459,
+      "campaign_weighted": -0.008302410088682306
+    },
+    {
+      "commander": "us-john-t-wilder",
+      "name": "John T. Wilder",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012327163052128963,
+      "campaign_weighted": -0.006256592639906638
+    },
+    {
+      "commander": "cs-j-e-b-stuart",
+      "name": "J.E.B. Stuart",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012349307465058914,
+      "campaign_weighted": -0.007305724091739895
+    },
+    {
+      "commander": "us-david-hunter",
+      "name": "David Hunter",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012357229308679952,
+      "campaign_weighted": -0.006744742450237391
+    },
+    {
+      "commander": "cs-wade-hampton",
+      "name": "Wade Hampton",
+      "rows_dropped": 2,
+      "battle_weighted": -0.01236268560131938,
+      "campaign_weighted": -0.006589953934169042
+    },
+    {
+      "commander": "us-john-g-foster",
+      "name": "John G. Foster",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012372118534012213,
+      "campaign_weighted": -0.00680447137028332
+    },
+    {
+      "commander": "cs-william-t-martin",
+      "name": "William T. Martin",
+      "rows_dropped": 2,
+      "battle_weighted": -0.01241578712570651,
+      "campaign_weighted": -0.00745475199037759
+    },
+    {
+      "commander": "us-fitz-john-porter",
+      "name": "Fitz John Porter",
+      "rows_dropped": 4,
+      "battle_weighted": -0.01241605579765683,
+      "campaign_weighted": -0.006887578317832758
+    },
+    {
+      "commander": "us-william-t-sherman",
+      "name": "William T. Sherman",
+      "rows_dropped": 10,
+      "battle_weighted": -0.01241755204392614,
+      "campaign_weighted": -0.008956584508929975
+    },
+    {
+      "commander": "cs-george-a-anderson",
+      "name": "George A. Anderson",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012428432166240734,
+      "campaign_weighted": -0.007073199918546136
+    },
+    {
+      "commander": "cs-george-pickett",
+      "name": "George Pickett",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012431677042828052,
+      "campaign_weighted": -0.0065923175571987215
+    },
+    {
+      "commander": "us-james-m-williams",
+      "name": "James M. Williams",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012448946135926117,
+      "campaign_weighted": -0.0066621149598341195
+    },
+    {
+      "commander": "cs-douglas-h-cooper",
+      "name": "Douglas H. Cooper",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012461647746206663,
+      "campaign_weighted": -0.006647424299184059
+    },
+    {
+      "commander": "us-jacob-d-cox",
+      "name": "Jacob D. Cox",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012493828038109,
+      "campaign_weighted": -0.0065333015570441764
+    },
+    {
+      "commander": "cs-robert-hoke",
+      "name": "Robert Hoke",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012497927088357091,
+      "campaign_weighted": -0.00710208037768004
+    },
+    {
+      "commander": "us-cuvier-grover",
+      "name": "Cuvier Grover",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012510081199596255,
+      "campaign_weighted": -0.006816801582510997
+    },
+    {
+      "commander": "us-e-r-s-canby",
+      "name": "E. R. S. Canby",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012582173691007354,
+      "campaign_weighted": -0.007094463538364822
+    },
+    {
+      "commander": "us-frederick-crocker",
+      "name": "Frederick Crocker",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012599891354811696,
+      "campaign_weighted": -0.0076257475319676145
+    },
+    {
+      "commander": "cs-humphrey-marshall",
+      "name": "Humphrey Marshall",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012605114188802604,
+      "campaign_weighted": -0.006982114698450341
+    },
+    {
+      "commander": "us-george-stoneman",
+      "name": "George Stoneman",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012608044780429272,
+      "campaign_weighted": -0.00713410663980996
+    },
+    {
+      "commander": "us-winfield-scott-hancock",
+      "name": "Winfield Scott Hancock",
+      "rows_dropped": 4,
+      "battle_weighted": -0.012613462496561747,
+      "campaign_weighted": -0.006498181082837151
+    },
+    {
+      "commander": "cs-james-r-chalmers",
+      "name": "James R. Chalmers",
+      "rows_dropped": 3,
+      "battle_weighted": -0.012714566375449115,
+      "campaign_weighted": -0.008977231569047863
+    },
+    {
+      "commander": "cs-john-hunt-morgan",
+      "name": "John Hunt Morgan",
+      "rows_dropped": 6,
+      "battle_weighted": -0.012745450186592202,
+      "campaign_weighted": -0.007563609801548117
+    },
+    {
+      "commander": "us-philip-sheridan",
+      "name": "Philip Sheridan",
+      "rows_dropped": 8,
+      "battle_weighted": -0.012752127832010714,
+      "campaign_weighted": -0.006311922325479965
+    },
+    {
+      "commander": "us-alfred-h-terry",
+      "name": "Alfred H. Terry",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012757784547964638,
+      "campaign_weighted": -0.006491224293009911
+    },
+    {
+      "commander": "cs-braxton-bragg",
+      "name": "Braxton Bragg",
+      "rows_dropped": 5,
+      "battle_weighted": -0.012814720943044873,
+      "campaign_weighted": -0.00624489428208908
+    },
+    {
+      "commander": "cs-richard-s-ewell",
+      "name": "Richard S. Ewell",
+      "rows_dropped": 4,
+      "battle_weighted": -0.012840445811190383,
+      "campaign_weighted": -0.0062780152160455075
+    },
+    {
+      "commander": "cs-richard-h-anderson",
+      "name": "Richard H. Anderson",
+      "rows_dropped": 2,
+      "battle_weighted": -0.012865165164694442,
+      "campaign_weighted": -0.007170690299284865
+    },
+    {
+      "commander": "us-h-judson-kilpatrick",
+      "name": "H. Judson Kilpatrick",
+      "rows_dropped": 4,
+      "battle_weighted": -0.012897278817914725,
+      "campaign_weighted": -0.007621435119797771
+    },
+    {
+      "commander": "cs-john-s-marmaduke",
+      "name": "John S. Marmaduke",
+      "rows_dropped": 10,
+      "battle_weighted": -0.012919513206046902,
+      "campaign_weighted": -0.007867425532143205
+    },
+    {
+      "commander": "us-george-g-meade",
+      "name": "George G. Meade",
+      "rows_dropped": 4,
+      "battle_weighted": -0.013023695328543684,
+      "campaign_weighted": -0.007167009668377934
+    },
+    {
+      "commander": "us-william-s-rosecrans",
+      "name": "William S. Rosecrans",
+      "rows_dropped": 5,
+      "battle_weighted": -0.013051443271215773,
+      "campaign_weighted": -0.007178797093345364
+    },
+    {
+      "commander": "cs-sterling-price",
+      "name": "Sterling Price",
+      "rows_dropped": 10,
+      "battle_weighted": -0.013084395548007622,
+      "campaign_weighted": -0.006920033323107211
+    },
+    {
+      "commander": "us-george-crook",
+      "name": "George Crook",
+      "rows_dropped": 2,
+      "battle_weighted": -0.013089339595488653,
+      "campaign_weighted": -0.007212083106061097
+    },
+    {
+      "commander": "cs-tom-green",
+      "name": "Tom Green",
+      "rows_dropped": 5,
+      "battle_weighted": -0.013117020646452841,
+      "campaign_weighted": -0.007229584168032542
+    },
+    {
+      "commander": "cs-john-c-breckinridge",
+      "name": "John C. Breckinridge",
+      "rows_dropped": 5,
+      "battle_weighted": -0.013198173876855086,
+      "campaign_weighted": -0.008111462975340093
+    },
+    {
+      "commander": "us-horatio-g-wright",
+      "name": "Horatio G. Wright",
+      "rows_dropped": 2,
+      "battle_weighted": -0.013230639005052804,
+      "campaign_weighted": -0.006968207287517292
+    },
+    {
+      "commander": "us-james-g-blunt",
+      "name": "James G. Blunt",
+      "rows_dropped": 6,
+      "battle_weighted": -0.013350186955717783,
+      "campaign_weighted": -0.008131778604630732
+    },
+    {
+      "commander": "cs-robert-e-lee",
+      "name": "Robert E. Lee",
+      "rows_dropped": 18,
+      "battle_weighted": -0.013472048609084448,
+      "campaign_weighted": -0.008372144629683838
+    },
+    {
+      "commander": "us-ambrose-e-burnside",
+      "name": "Ambrose E. Burnside",
+      "rows_dropped": 7,
+      "battle_weighted": -0.013628737091356025,
+      "campaign_weighted": -0.009033679972382885
+    },
+    {
+      "commander": "us-james-h-wilson",
+      "name": "James H. Wilson",
+      "rows_dropped": 4,
+      "battle_weighted": -0.014247901143602427,
+      "campaign_weighted": -0.01084711023053278
+    },
+    {
+      "commander": "cs-jubal-a-early",
+      "name": "Jubal A. Early",
+      "rows_dropped": 8,
+      "battle_weighted": -0.014556801903597915,
+      "campaign_weighted": -0.00793261472706338
+    }
+  ],
+  "subsets_no_refit": {
+    "without_post_start_rows": {
+      "rows": 284,
+      "battle_weighted": -0.01089739253079841,
+      "campaign_weighted": -0.005966701844244131
+    },
+    "without_joint_command_rows": {
+      "rows": 283,
+      "battle_weighted": -0.009702819488711472,
+      "campaign_weighted": -0.002106497530494458
+    },
+    "without_either": {
+      "rows": 267,
+      "battle_weighted": -0.008773133976751137,
+      "campaign_weighted": -0.0020746995738187323
+    },
+    "without_top_two_contributors": {
+      "commanders": [
+        "Nathan Bedford Forrest",
+        "Ulysses S. Grant"
+      ],
+      "rows": 278,
+      "battle_weighted": -0.004572284975257628,
+      "campaign_weighted": -0.002403454575337826
+    }
+  },
+  "limits": [
+    "Uses the committed held-out predictions; nothing is refitted, so a subset shows where the gain sits, not what a model fitted without those rows would give.",
+    "A row counts toward both of its credited commanders.",
+    "The bootstrap treats campaigns as exchangeable; it does not cover attribution, strength or source uncertainty.",
+    "Not a new verdict: the run's own rule and result stand as recorded."
+  ]
+}

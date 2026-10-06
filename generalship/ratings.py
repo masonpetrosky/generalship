@@ -9,6 +9,7 @@ artifacts/baseline.json.
 from collections import Counter, defaultdict
 from itertools import product
 import math
+from operator import mul
 import random
 
 from .baseline import advantage, fit_logistic, scores, sigmoid
@@ -45,44 +46,53 @@ class RatingError(ValueError):
 
 # ---------- linear algebra (standard library) ----------
 
+# The inner products use sum(map(mul, ...)) over the same terms in the same order as a generator
+# expression would, so results are bit-identical to the original loops, only faster.
+
 def cholesky(a):
     n = len(a)
     low = [[0.0] * n for _ in range(n)]
     for i in range(n):
+        ai, li = a[i], low[i]
         for j in range(i + 1):
-            s = a[i][j] - sum(low[i][k] * low[j][k] for k in range(j))
+            s = ai[j] - sum(map(mul, li[:j], low[j][:j]))
             if i == j:
                 if s <= 0:
                     raise RatingError('Hessian is not positive definite')
-                low[i][i] = math.sqrt(s)
+                li[i] = math.sqrt(s)
             else:
-                low[i][j] = s / low[j][j]
+                li[j] = s / low[j][j]
     return low
 
 
-def chol_solve(low, b):
+def chol_solve(low, b, cols=None):
+    """Solve L Lᵀ x = b; cols (the columns of L) may be passed to avoid recomputing them."""
     n = len(b)
     y = [0.0] * n
     for i in range(n):
-        y[i] = (b[i] - sum(low[i][k] * y[k] for k in range(i))) / low[i][i]
+        y[i] = (b[i] - sum(map(mul, low[i][:i], y[:i]))) / low[i][i]
+    cols = cols if cols is not None else list(zip(*low))
     x = [0.0] * n
     for i in reversed(range(n)):
-        x[i] = (y[i] - sum(low[k][i] * x[k] for k in range(i + 1, n))) / low[i][i]
+        x[i] = (y[i] - sum(map(mul, cols[i][i + 1:], x[i + 1:]))) / low[i][i]
     return x
 
 
 def chol_inverse(low):
     n = len(low)
-    cols = [chol_solve(low, [1.0 if i == j else 0.0 for i in range(n)]) for j in range(n)]
+    lcols = list(zip(*low))
+    cols = [chol_solve(low, [1.0 if i == j else 0.0 for i in range(n)], lcols) for j in range(n)]
     return [[cols[j][i] for j in range(n)] for i in range(n)]
 
 
 # ---------- model ----------
 
-def fit(rows, *, tau=TAU, alpha_sd=1.0, beta_sd=1.0, use_force=True):
+def fit(rows, *, tau=TAU, alpha_sd=1.0, beta_sd=1.0, use_force=True, covariance=True):
     """Posterior mode and Laplace covariance of logit P(US) = α + β·x + θ_US − θ_CS.
 
     rows: dicts with 'x' (force ratio), 'y' (1 for a Union win), 'us' and 'cs' (commander IDs or None).
+    With covariance=False only the mode is returned (enough for predictions), skipping the
+    O(n³) inverse; the mode is the same either way.
     """
     commanders = sorted({r[s] for r in rows for s in ('us', 'cs') if r[s]})
     index = {c: 2 + i for i, c in enumerate(commanders)}
@@ -125,6 +135,9 @@ def fit(rows, *, tau=TAU, alpha_sd=1.0, beta_sd=1.0, use_force=True):
         decrement = sum(g * di for g, di in zip(grad, d))
         if decrement < 1e-12:
             w = [wi - di for wi, di in zip(w, d)]
+            if not covariance:
+                return {'alpha': w[0], 'beta': w[1], 'theta': {c: w[index[c]] for c in commanders},
+                        'mode': w, 'index': index, 'commanders': commanders}
             return _result(w, cholesky(_hessian(w, design, prec, n)), commanders, index)
         step, current = 1.0, objective(w)
         while objective([wi - step * di for wi, di in zip(w, d)]) > current - 1e-4 * step * decrement:
@@ -174,7 +187,7 @@ def rank_intervals(model, ranked_by_side, draws=DRAWS, seed=SEED):
     ranks = defaultdict(list)
     for _ in range(draws):
         e = [rng.gauss(0, 1) for _ in idx]
-        v = [mean[i] + sum(low[i][k] * e[k] for k in range(i + 1)) for i in range(len(idx))]
+        v = [mean[i] + sum(map(mul, low[i][:i + 1], e[:i + 1])) for i in range(len(idx))]
         for side in ranked_by_side.values():
             order = sorted(side, key=lambda c: -v[pos[c]])
             for r, c in enumerate(order, 1):
