@@ -60,11 +60,11 @@ source independence. Preserve locators, hashes, alternative estimates and
 population/time distinctions. Check every passage actually cited. Missing or
 inaccessible evidence remains missing after the effort ceiling is reached.
 
-Review first-pass work by complete source campaign. Record source families and
-dimensions covered, deferred questions, and actual review scope; distinguish
-draft presence from completed first-pass work, separate review and feature
-admission. Correct extraction errors without requiring reviewers to resolve
-every historical dispute. Do not automatically create a new packet for each
+Verify first-pass work by complete source campaign. Record source families and
+dimensions covered, deferred questions, and what was actually verified; distinguish
+draft presence from completed first-pass work, verification and feature
+admission. Correct extraction errors without trying to resolve every historical
+dispute. Do not automatically create a new packet for each
 open question. Deeper follow-up should specify which admission or methodological
 decision it could change, why existing evidence is insufficient and where the
 investigation stops, or respond to an explicit owner request.
@@ -192,6 +192,11 @@ accepted 33 new claims for Fort Henry, Fort Donelson and Corinth; all three rema
 drafts with opening populations unresolved. AI review is not human historical adjudication or
 proof of source independence. Agreement with famous-generals lists is never an
 acceptance criterion.
+
+Since 2026-10-06, by owner policy ([AGENTS.md](../AGENTS.md#review-policy)), the primary agent
+verifies its own work before committing and labels it primary-verified. No separate review step
+runs unless the owner asks for one. Self-verification shares the author's blind spots, so it is
+not a substitute for an independent extraction sample (roadmap Milestone 2).
 
 ## Feature-admission design
 

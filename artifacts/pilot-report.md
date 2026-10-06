@@ -39,7 +39,7 @@ Strength sensitivity varies the held-out range endpoints with a fixed fitted mod
 
 ## Draft evidence dossiers
 
-Exact passage checks verify provenance only. These drafts do not modify model inputs. Shiloh's four source-review corrections and the focused validator follow-up are accepted; historical disputes remain open.
+Exact passage checks verify provenance only. These drafts do not modify model inputs; the historical disputes they record remain open.
 
 | Battle | Claims | Explicit unknowns | Quantities | Events | Status |
 |---|---:|---:|---:|---:|---|
@@ -435,12 +435,10 @@ It checks 40 Shiloh troop observations: 18 blocked, 22 excluded, 0 eligible cand
 There are 0 complete candidate rows and 0 promoted rows. Missing mappings remain unknown; no canonical opening force is inferred.
 The ledger separates dossier availability, candidate status, side coverage and baseline eligibility. These counts are mechanical checks, not historical adjudication or forecast improvement.
 
-## Next research action
+## Coverage and current priority
 
-The frozen v1 cohort is complete: 127/127 engagements have dossiers. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 384 have dossiers. Dossier presence, separate review, baseline eligibility and feature admission are different measures.
-The [Operations about Dandridge first pass](../docs/research/dandridge-first-pass-v1.md) adds all three frozen records: 27 claims, 3 explicit unknowns and 145 citations from NPS/CWSAC, Sturgis's, Martin's and Longstreet's Official Records reports. Strength attributions, the Mossy Creek withdrawal, Sturgis's differing loss and capture figures and the frozen/live casualty differences remain visible; its separate Opus review's seven corrections are applied. All frozen campaign groups now have first-pass dossiers. Earlier passes and reviews remain in the [current roadmap](../docs/roadmap.md).
-Use the [bounded first-pass protocol](../docs/methodology.md#research-depth-and-coverage): up to three source families per battle and one targeted follow-up for the most consequential gap. Keep unsupported dimensions unknown, move to the next engagement, and review by campaign. Deeper work requires a concrete decision and stopping point or an explicit owner request.
-Shiloh's Agate and overnight-provenance investigations are parked. The [completed research and review history](../docs/roadmap.md#milestone-1--first-independently-reviewed-campaign-dossiers-in-progress) retains all findings and unresolved questions; neither further article collation nor original-newspaper recovery is the next task. No historical feature is admitted by this change in research priority.
+The frozen v1 cohort has dossiers for 127 of its 127 engagements. The full-war research frame ([cohort v2](../docs/cohort-v2.md)) has 384 engagements; 384 have dossiers. Dossier presence, verification, baseline eligibility and feature admission are different measures.
+The current priority, open owner decisions and milestone status are in the [roadmap](../docs/roadmap.md); completed passes, reviews and source investigations are in the [research log](../docs/research-log.md). Commander ratings and estimate evaluations are separate owner-authorized diagnostics with their own reports in `artifacts/`; none of them changes this baseline.
 
 ## Reproduce and inspect
 

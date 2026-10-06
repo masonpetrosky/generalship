@@ -1,6 +1,6 @@
 ---
 name: evidence-reviewer
-description: Separate fresh-context source reviewer for Generalship evidence batches. Use for the bounded separate-review step required by AGENTS.md, with a self-contained assignment tied to exact commits and hashes.
+description: Separate fresh-context source reviewer for Generalship evidence. Use only when the owner explicitly asks for a separate review (AGENTS.md review policy, 2026-10-06); give it a self-contained assignment tied to exact commits and hashes.
 model: claude-opus-5-5
 effort: high
 tools: Read, Grep, Glob, Bash, Write

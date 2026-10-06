@@ -45,17 +45,18 @@ owner (the maintainer) sets the scope and authorizes each rating run.
    source snapshot is stored with its SHA-256. Gaps and disagreements become explicit unknowns
    or disputed claims, never model recollection. A first pass inspects up to three source
    families per battle, plus one targeted follow-up.
-3. **Separate AI review.** Each batch of campaign first passes goes to a fresh-context reviewer
-   model (Claude Opus 5.5 at `high` reasoning effort since 2026-09-24, GPT-6 Astra at `xhigh`
-   before), given only the frozen evidence and the review criteria. The authoring agent checks
-   each proposed correction against the source before applying it. Every dossier has now had
-   a separate AI review.
+3. **Verification.** Every Civil War dossier batch had a separate, fresh-context AI review
+   (GPT-6 Astra at `xhigh` reasoning effort, then Claude Opus 5.5 at `high` from 2026-09-24).
+   The authoring agent checked each proposed correction against the source before applying it.
+   Since 2026-10-06, by owner policy, the authoring agent verifies its own work against the
+   sources and checks before committing, and labels it primary-verified. A separate review runs
+   only when the owner asks for one.
 4. **Gated model inputs.** Draft dossiers never change model inputs. The frozen baseline uses
    only the pinned source tables. Rating runs use separately reviewed, versioned strength and
    command ledgers, and each is bound to the SHA-256 of its exact inputs by a recorded owner
    authorization.
 
-These are AI reviews, not human historical adjudication or proof that sources are
+AI reviews and AI verification are not human historical adjudication or proof that sources are
 independent; a passage-backed claim can still be historically wrong. The code itself never
 calls a model, and only the explicit `fetch` command uses the network. See
 [AI's role and validation](docs/methodology.md#ais-role-and-validation) and the

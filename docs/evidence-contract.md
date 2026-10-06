@@ -183,19 +183,20 @@ the baseline still ignores all typed research observations.
 2. Read the source passages; locate independent histories and original records.
 3. Add new source snapshots and metadata without overwriting earlier versions.
 4. Propose claims and preserve unknowns and conflicting estimates in a draft.
-5. Run automated checks, then review entailment, source quality, chronology,
-   command authority, and population definitions. Record reviewer, date, decision,
-   and disagreements. A status label alone is not proof that review happened.
-6. Build a separately reviewed feature-admission mapping tied to source/dossier
-   hashes and a particular estimand before using any new evidence in a model.
+5. Run automated checks, then verify entailment, source quality, chronology,
+   command authority, and population definitions against the inspected passages.
+   Record who verified, the date, the decision and any disagreements. A status label
+   alone is not proof that verification happened.
+6. Build a feature-admission mapping tied to source/dossier hashes and a particular
+   estimand before using any new evidence in a model.
 
-The owner authorizes a separate Claude Opus 5.5 `high` reviewer subagent (the
-`evidence-reviewer` agent; GPT-6 Astra `xhigh` before 2026-09-24) in the current task. Give it fresh context and an exact frozen evidence assignment;
-record its actual response, task identity, model/effort, date, input hashes and
-coverage. The primary agent checks proposed corrections against sources before
-changing the dossier. A separate user-managed chat is optional. An AI review
-must remain labeled AI: it does not establish human historical adjudication,
-source independence or automatic feature admission. See [AGENTS.md](../AGENTS.md).
+Since 2026-10-06, by owner policy ([AGENTS.md](../AGENTS.md#review-policy)), the primary agent
+verifies its own work and labels it primary-verified. No separate review step runs unless the
+owner asks for one. Earlier batches had separate AI reviews: Claude Opus 5.5 `high` from
+2026-09-24, and GPT-6 Astra `xhigh` before that. Their records keep the actual response, task
+identity, model and effort, date, input hashes and coverage. AI verification and AI review must
+remain labelled as AI work: neither establishes human historical adjudication, source
+independence or automatic feature admission.
 
 The current pipeline **never promotes dossiers into baseline inputs**, even if a
 dossier is marked reviewed. The [offline admission validator](admission-validator.md)
@@ -204,8 +205,8 @@ inputs. That boundary prevents draft interpretations from changing results.
 The [feature-admission design](feature-admission.md) specifies the future separate
 profile, candidate, evidence-use review and release-manifest gates. Its
 [Shiloh examples](research/shiloh-admission-examples.md) bind existing evidence
-without emitting model rows. Contract review does not approve historical inputs.
+without emitting model rows. Contract acceptance does not approve historical inputs.
 
 Automatic checks establish byte identity, reference integrity, and passage presence.
 They cannot establish truth, claim entailment, source independence, command
-causality, or the sincerity of a reviewer record. These limits should remain visible.
+causality, or the sincerity of a verification or review record. These limits should remain visible.

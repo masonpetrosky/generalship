@@ -89,6 +89,7 @@ class ReferenceTests(unittest.TestCase):
         baseline = json.loads((Path(__file__).resolve().parents[1] / 'artifacts/baseline.json').read_text())
         self.assertEqual(FROZEN_REFERENCE['battle_weighted_brier'], baseline['battle_weighted_metrics']['strength_logistic']['brier'])
         self.assertEqual(FROZEN_REFERENCE['campaign_weighted_brier'], baseline['campaign_weighted_metrics']['strength_logistic']['brier'])
+        self.assertEqual((FROZEN_REFERENCE['rows'], FROZEN_REFERENCE['campaigns']), (baseline['n_battles'], baseline['n_campaigns']))
         self.assertEqual(baseline['n_battles'], 23)
 
 

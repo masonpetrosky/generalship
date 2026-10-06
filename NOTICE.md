@@ -21,10 +21,46 @@ MIT licensing of Generalship code does not relicense third-party material.
 
 ## National Park Service text
 
-`data/raw/nps-*.txt` contains government-authored NPS battle-summary text retrieved
-on 2026-09-20. Source links and normalization details are in `data/sources.json`.
-No NPS images, marks, or logos are included. Dossiers quote and interpret the
-identified accounts; these are not independent corroboration of NPS-derived CSVs.
+`data/raw/nps-*` and the `nps-*` files in each `data/raw/<campaign>-v1/` directory contain
+government-authored NPS battle-summary pages for all 384 cohort-v2 engagements (765 registry
+entries: normalized text plus the retained HTML), retrieved between 2026-09-20 and 2026-09-25.
+Source links and normalization details are in `data/sources.json`. No NPS images, marks, or
+logos are included. Dossiers quote and interpret the identified accounts; these are not
+independent corroboration of NPS-derived CSVs.
+
+## Historical works retained for the full-war first passes
+
+The campaign directories under `data/raw/` hold OCR text, selected transcriptions and
+downscaled page images from public-domain works. Most were retrieved through Internet Archive
+scans of library copies, which `data/sources.json` identifies per file, together with its
+rights statement, parent hash, page mapping and transformation. They include:
+
+- U.S. War Department, *The War of the Rebellion: A Compilation of the Official Records of the
+  Union and Confederate Armies*, Series I. The registry cites 46 volumes or parts, from I to L
+  Part 1 (Government Printing Office, 1880–1897). Each volume's reports are registered as
+  separate sources.
+- Thomas L. Livermore, *Numbers and Losses in the Civil War in America, 1861–65* (1901): OCR text,
+  page images and Generalship's transcriptions of the pages used.
+- Retrospective histories, 1867–1911:
+  - Woodbury, *Burnside and the Ninth Army Corps*;
+  - Duke, *History of Morgan's Cavalry*;
+  - Andrews, *Campaign of Mobile*;
+  - Jordan and Pryor, *Campaigns of … Forrest*;
+  - Allan, *Jackson in the Shenandoah Valley*;
+  - campaign histories by Nicolay, Webb, Ropes, Palfrey, Greene, Cist, Doubleday, Cox (two
+    volumes), Humphreys (two volumes) and Pond;
+  - Snead, *The Fight for Missouri*;
+  - Bancroft, *History of Utah*;
+  - Britton, *The Civil War on the Border* (two volumes);
+  - Irwin, *History of the Nineteenth Army Corps*;
+  - Mahan, *The Gulf and Inland Waters*;
+  - Samuel Jones, *The Siege of Charleston*.
+- U.S. Congress, Joint Committee on the Conduct of the War, *Massacre of Cheyenne Indians*
+  (1865).
+
+These works are historical government publications or were published before 1929. Their
+inclusion here does not imply that their accounts are accurate or independent of one another;
+dependence is recorded through each source's `independence_group`.
 
 ## Inspiration
 

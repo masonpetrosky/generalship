@@ -29,7 +29,8 @@ MODELS = (('strength_logistic', 'diagnostic_union_score'), ('equal_odds', 'p_equ
 EXCLUSION_LABELS = ('opponent_estimate_point', 'applicability_unresolved', 'derivation_unknown', 'bound_conflict')
 ALT_BASIS_ORDER = ('reported_effective', 'present_for_duty', 'reported_present', 'reported_engaged', 'unknown')
 FLAGS = ['whole_engagement_leakage', 'conditional_on_source_availability']
-FROZEN_REFERENCE = {'battle_weighted_brier': 0.2768816348133779, 'campaign_weighted_brier': 0.2765271817053925}
+FROZEN_REFERENCE = {'battle_weighted_brier': 0.2768816348133779, 'campaign_weighted_brier': 0.2765271817053925,
+                    'rows': 23, 'campaigns': 13}
 
 
 def variant_estimates(ledger, **params):
@@ -223,7 +224,7 @@ def evaluate_estimates(root, version=1):
             'ledger': {'path': run['ledger'], 'sha256': ledger_sha}, **extra,
             'validation': 'leave_one_campaign_out', 'ridge': 1.0, 'rule4_factor_primary': str(OPPONENT_FACTOR),
             'rows_excluded_post_start_information': excluded_any,
-            'frozen_baseline_reference': {**FROZEN_REFERENCE, 'rows': 23, 'campaigns': 13, 'equal_odds_brier': 0.25},
+            'frozen_baseline_reference': {**FROZEN_REFERENCE, 'equal_odds_brier': 0.25},
             'row_sets': results, 'sensitivity': sensitivity(ledger, records), 'flags': FLAGS,
             'limitations': [
                 'Predictions are diagnostic_union_score values, not win probabilities or command effects.',
