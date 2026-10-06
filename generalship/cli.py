@@ -20,6 +20,7 @@ from .uncertainty import analyse as rating_uncertainty, report_text as uncertain
 from .imputation import COMMAND as IMPUTATION_COMMAND, STRENGTH as IMPUTATION_STRENGTH, build as build_imputation
 from .dataset import build_dataset
 from .evidence import validate_all
+from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
 from .replay import bound_view, repository_text
 from .sources import digest, fetch_sources, read_json, write_json
 
@@ -113,6 +114,12 @@ def run_build(root, write=False):
         raise ValueError('Default admission proposal has invalid bindings or scenarios')
     # A ledger bound to evidence that cannot be reached is reported, not fatal: `estimate-check`,
     # `command-check` and their unit tests enforce replay of the committed ledgers.
+    reviews = review_index(root)  # historical review records, in the controlled disposition vocabulary
+    try:  # like a frozen ledger, an audit whose audited bytes cannot be reached is reported, not fatal
+        audit = check_audit(root) if (root / AUDIT).is_file() else None
+    except AuditError as exc:
+        audit = {'status': 'stale_or_invalid', 'error': str(exc)}
+    audit_ok = audit is not None and 'status' not in audit
     estimates, command, estimates_v2, command_v2 = replay_frozen_ledgers(root, [
         (DEFAULT_LEDGER, check_estimates), (COMMAND_LEDGER, check_command),
         (ESTIMATE_LEDGER_V2, check_estimates_v2), (COMMAND_LEDGER_V2, check_command)])
@@ -132,13 +139,19 @@ def run_build(root, write=False):
             for r in records
         ])
         (output / "pilot-report.md").write_text(report_text(root, profile, evaluation, dossiers, admission), encoding="utf-8")
+        write_json(output / "review-index.json", reviews)
+        if audit_ok:
+            write_json(output / "extraction-audit-v1.json", audit)
+            (output / "extraction-audit-v1.md").write_text(audit_report(read_json(root / AUDIT), audit), encoding="utf-8")
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json",
                                                                root / "data/pilot/cohort-v2.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
         inputs += sorted(p for p in (root / "data/admission").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/estimates").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/command").rglob('*') if p.is_file())
-        outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json"]
+        inputs += sorted(p for p in (root / "data/audit").rglob('*') if p.is_file())
+        outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json",
+                   "review-index.json"] + (["extraction-audit-v1.json", "extraction-audit-v1.md"] if audit_ok else [])
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             # Floating-point results can differ in the last bits across Python versions (for example,
@@ -153,6 +166,9 @@ def run_build(root, write=False):
             "metrics": evaluation["battle_weighted_metrics"],
             "admission_candidate_statuses": admission['coverage']['status_counts'],
             "admission_promoted_rows": admission['promoted_rows'],
+            "review_records": {"reviews": len(reviews['reviews']), "findings_by_disposition": reviews['totals']},
+            "extraction_audit": ({k: audit[k] for k in ('audited', 'verdicts', 'material_error_rate_95', 'any_issue_rate_95')}
+                                 if audit_ok else audit),
             "estimate_ledger": estimates and ({k: estimates[k] for k in ('side_grades', 'rows_by_set_fit_eligible', 'fitted')}
                                               if 'side_grades' in estimates else estimates),
             "command_ledger": command and ({k: command[k] for k in ('side_grades', 'nesting', 'rated')}

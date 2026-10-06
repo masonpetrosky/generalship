@@ -1,0 +1,1228 @@
+{
+  "kind": "review_index",
+  "version": 1,
+  "vocabulary": [
+    "applied",
+    "partly_applied",
+    "primary_found_applied",
+    "not_applied",
+    "deferred",
+    "decided_by_primary"
+  ],
+  "mapping": {
+    "accepted_applied": "applied",
+    "accepted_and_applied_exactly": "applied",
+    "accepted_and_corrected_by_primary": "applied",
+    "accepted_verified_and_staged": "applied",
+    "accepted_verified_and_staged_with_wording_change": "applied",
+    "adopted": "applied",
+    "recommendation_adopted_by_primary": "applied",
+    "partly_adopted": "partly_applied",
+    "found_and_corrected_by_primary": "primary_found_applied",
+    "primary_found_and_corrected": "primary_found_applied",
+    "not_adopted": "not_applied",
+    "kept_as_is": "not_applied",
+    "kept_or_recorded": "not_applied",
+    "no_change": "not_applied",
+    "no_dossier_change": "not_applied",
+    "deferred": "deferred",
+    "primary_decision": "decided_by_primary"
+  },
+  "reviews": [
+    {
+      "id": "TN003-a42f063-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": null,
+      "dispatched_at": "2026-09-20T17:40:49.323492+00:00",
+      "has_review": true
+    },
+    {
+      "id": "TN003-corrections-54e7639-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": null,
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "TN003-corrections-5e23790-followup-v1",
+      "reviewer_model": null,
+      "effort": null,
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "admission-implementation-1264e21-followup-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "admission-implementation-7b41de1-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "antietam-fb00e7d-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-10-06T03:58:13Z",
+      "has_review": true,
+      "findings": 3,
+      "dispositions": {
+        "applied": 3
+      }
+    },
+    {
+      "id": "appomattox-review-02dde7d-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:48:32Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 12,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "atlanta-review-1191d32-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T16:59:11Z",
+      "has_review": true,
+      "findings": 19,
+      "dispositions": {
+        "applied": 16,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "atlantic-review-0e6063c-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T18:13:04Z",
+      "has_review": true,
+      "findings": 24,
+      "dispositions": {
+        "applied": 21,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "averell-raid-b305791-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:05:01Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 7,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "bristoe-dc77737-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:55:05Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 7,
+        "deferred": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "burnside-0b3337f-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T00:48:06.974348+00:00",
+      "has_review": true
+    },
+    {
+      "id": "carolinas-review-e83348c-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:36:14Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 14
+      }
+    },
+    {
+      "id": "champion-hill-fb00e7d-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-10-06T03:58:14Z",
+      "has_review": true,
+      "findings": 5,
+      "dispositions": {
+        "applied": 5
+      }
+    },
+    {
+      "id": "chancellorsville-c3a4911-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:53:02Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 15,
+        "deferred": 1
+      }
+    },
+    {
+      "id": "chattanooga-ringgold-450a5ba-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:20:22Z",
+      "has_review": true,
+      "findings": 10,
+      "dispositions": {
+        "applied": 8,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "chickamauga-93a2694-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:38:10Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 11,
+        "deferred": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "cmd-review-b1-a9520c2-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:38:02Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 14
+      }
+    },
+    {
+      "id": "cmd-review-b2-a9520c2-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:38:02Z",
+      "has_review": true,
+      "findings": 22,
+      "dispositions": {
+        "applied": 19,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "cmd-review-b3-a9520c2-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:38:02Z",
+      "has_review": true,
+      "findings": 18,
+      "dispositions": {
+        "applied": 16,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "cmd-review-b4-a9520c2-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:38:02Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 7,
+        "not_applied": 6
+      }
+    },
+    {
+      "id": "cockpit-point-1d96e40-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T00:01:41.495079+00:00",
+      "has_review": true
+    },
+    {
+      "id": "dandridge-668c58f-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:39:50Z",
+      "has_review": true,
+      "findings": 12,
+      "dispositions": {
+        "applied": 12
+      }
+    },
+    {
+      "id": "e1861-review-c298447-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:50:37Z",
+      "has_review": true,
+      "findings": 23,
+      "dispositions": {
+        "applied": 20,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "e1864-review-8642430-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T18:17:14Z",
+      "has_review": true,
+      "findings": 20,
+      "dispositions": {
+        "applied": 15,
+        "not_applied": 5
+      }
+    },
+    {
+      "id": "east-tennessee-49312d9-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:43:21Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 7,
+        "partly_applied": 1
+      }
+    },
+    {
+      "id": "eastern-kentucky-882aaa3-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T00:32:14.999123+00:00",
+      "has_review": true
+    },
+    {
+      "id": "est-eval-review-ce6da9a-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:47:47Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 13,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "est-review-b1-4fd1b51-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:00:51Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 11,
+        "not_applied": 5
+      }
+    },
+    {
+      "id": "est-review-b2-4fd1b51-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:00:51Z",
+      "has_review": true,
+      "findings": 23,
+      "dispositions": {
+        "applied": 19,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "est-review-b3-4fd1b51-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:00:51Z",
+      "has_review": true,
+      "findings": 19,
+      "dispositions": {
+        "applied": 15,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "est-review-b4-4fd1b51-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:00:51Z",
+      "has_review": true,
+      "findings": 17,
+      "dispositions": {
+        "applied": 14,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "est-review-engine-4fd1b51-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T14:00:51Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 9,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "feature-admission-838189f-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "fisher-review-c5bcb38-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:50:37Z",
+      "has_review": true,
+      "findings": 20,
+      "dispositions": {
+        "applied": 19,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "forrest-west-tennessee-e67e54b-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:56:05Z",
+      "has_review": true,
+      "findings": 3,
+      "dispositions": {
+        "applied": 3
+      }
+    },
+    {
+      "id": "fredericksburg-dbcd3da-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:42:35Z",
+      "has_review": true,
+      "findings": 7,
+      "dispositions": {
+        "applied": 7
+      }
+    },
+    {
+      "id": "frontier-review-d57de7e-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T18:20:27Z",
+      "has_review": true,
+      "findings": 29,
+      "dispositions": {
+        "applied": 26,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "gettysburg-48ea563-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:12:51Z",
+      "has_review": true,
+      "findings": 11,
+      "dispositions": {
+        "applied": 11
+      }
+    },
+    {
+      "id": "goldsboro-9de5b1d-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:48:46Z",
+      "has_review": true,
+      "findings": 5,
+      "dispositions": {
+        "applied": 5
+      }
+    },
+    {
+      "id": "gulf-review-be711a9-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:52:39Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 13,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "hancock-86abaf3-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T00:14:57.381110+00:00",
+      "has_review": true
+    },
+    {
+      "id": "heartland-fc79026-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:03:30Z",
+      "has_review": true,
+      "findings": 1,
+      "dispositions": {
+        "applied": 1
+      }
+    },
+    {
+      "id": "imputation-design-2779bb6-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T23:12:31Z",
+      "has_review": true,
+      "findings": 19,
+      "dispositions": {
+        "applied": 18,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "iuka-corinth-c55776a-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:31:39Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 8,
+        "primary_found_applied": 1
+      }
+    },
+    {
+      "id": "knoxville-5acbded-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:14:49Z",
+      "has_review": true,
+      "findings": 15,
+      "dispositions": {
+        "applied": 12,
+        "deferred": 3
+      }
+    },
+    {
+      "id": "ledger-replay-design-2a28afe-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-10-06T04:35:45Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 8
+      }
+    },
+    {
+      "id": "maryland-3796300-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:28:16Z",
+      "has_review": true,
+      "findings": 4,
+      "dispositions": {
+        "applied": 4
+      }
+    },
+    {
+      "id": "memphis-charleston-264aa2d-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:02:20Z",
+      "has_review": true,
+      "findings": 10,
+      "dispositions": {
+        "applied": 7,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "middle-tennessee-ba8d068-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:04:34Z",
+      "has_review": true,
+      "findings": 6,
+      "dispositions": {
+        "applied": 5,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "mine-run-aa9d89a-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T06:30:24Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 5,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "mississippi-joint-0433daa-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T01:28:51.715758+00:00",
+      "has_review": true
+    },
+    {
+      "id": "morgans-raid-11c96f5-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:30:28Z",
+      "has_review": true,
+      "findings": 10,
+      "dispositions": {
+        "applied": 9,
+        "primary_found_applied": 1
+      }
+    },
+    {
+      "id": "nashville-review-e03c87e-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:14:38Z",
+      "has_review": true,
+      "findings": 21,
+      "dispositions": {
+        "applied": 19,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "northern-virginia-280d5d7-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:23:37Z",
+      "has_review": true,
+      "findings": 2,
+      "dispositions": {
+        "applied": 2
+      }
+    },
+    {
+      "id": "overland-review-ec3f584-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T16:40:56Z",
+      "has_review": true,
+      "findings": 24,
+      "dispositions": {
+        "applied": 24
+      }
+    },
+    {
+      "id": "peninsula-aa30f97-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T01:51:48.002552+00:00",
+      "has_review": true
+    },
+    {
+      "id": "petersburg-review-40748ef-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:21:58Z",
+      "has_review": true,
+      "findings": 24,
+      "dispositions": {
+        "applied": 18,
+        "not_applied": 6
+      }
+    },
+    {
+      "id": "price-review-5d5bc1c-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:26:22Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 10,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "rappahannock-cavalry-21f4bb1-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:27:15Z",
+      "has_review": true,
+      "findings": 7,
+      "dispositions": {
+        "applied": 5,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "ratings-design-0de28bd-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:07:18Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 16
+      }
+    },
+    {
+      "id": "ratings-followup-a5a1cd1-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T15:18:29Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 13
+      }
+    },
+    {
+      "id": "ratings-run-review-14c8c3b-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T16:04:07Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 13,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "ratings-v2-review-8befd97-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T22:45:36Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 9,
+        "not_applied": 5
+      }
+    },
+    {
+      "id": "ratings-v3-review-e1e0784-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-26T00:53:34Z",
+      "has_review": true,
+      "findings": 15,
+      "dispositions": {
+        "applied": 10,
+        "not_applied": 5
+      }
+    },
+    {
+      "id": "redriver-review-35cf826-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:17:20Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 13,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "reopening-tennessee-a712311-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:59:54Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 6,
+        "deferred": 2
+      }
+    },
+    {
+      "id": "reported-strength-design-e335b75-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T12:44:54Z",
+      "has_review": true,
+      "findings": 15,
+      "dispositions": {
+        "applied": 14,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "reported-strength-followup-848fb78-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T12:55:52Z",
+      "has_review": true,
+      "findings": 11,
+      "dispositions": {
+        "applied": 11
+      }
+    },
+    {
+      "id": "river-campaign-0cc3b1b-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-20T23:48:04.331481+00:00",
+      "has_review": true
+    },
+    {
+      "id": "shiloh-agate-73e26d4-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-contact-518d394-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-howell-67b5c30-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-opening-330599b-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": null,
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-posts-dc669f4-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-precontact-327d222-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "shiloh-reid-1c498e0-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": null,
+      "has_review": true
+    },
+    {
+      "id": "stones-river-8005b6b-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:37:54Z",
+      "has_review": true,
+      "findings": 5,
+      "dispositions": {
+        "applied": 5
+      }
+    },
+    {
+      "id": "streights-raid-2dfb977-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:55:27Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 5,
+        "deferred": 1,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "strength-estimates-design-fff4103-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T13:26:22Z",
+      "has_review": true,
+      "findings": 17,
+      "dispositions": {
+        "applied": 17
+      }
+    },
+    {
+      "id": "strength-estimates-followup-0e5800b-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T13:37:26Z",
+      "has_review": true,
+      "findings": 12,
+      "dispositions": {
+        "applied": 12
+      }
+    },
+    {
+      "id": "tidewater-885bd3f-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:23:06Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 7,
+        "deferred": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "tm1862-review-3d36bfe-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:53:52Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 14
+      }
+    },
+    {
+      "id": "tm1863-review-29c2811-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T18:15:06Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 15,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "tullahoma-d6824e5-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T05:15:40Z",
+      "has_review": true,
+      "findings": 10,
+      "dispositions": {
+        "applied": 8,
+        "deferred": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "v2cmd-b1-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 11,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "v2cmd-b2-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 11,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "v2cmd-b3-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 11,
+        "decided_by_primary": 1,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "v2cmd-b4-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 11,
+      "dispositions": {
+        "applied": 9,
+        "decided_by_primary": 2
+      }
+    },
+    {
+      "id": "v2cmd-b5-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 12,
+      "dispositions": {
+        "applied": 8,
+        "decided_by_primary": 1,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "v2cmd-b6-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 5,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "v2cmd-b7-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 5,
+        "not_applied": 4
+      }
+    },
+    {
+      "id": "v2cmd-b8-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:18Z",
+      "has_review": true,
+      "findings": 14,
+      "dispositions": {
+        "applied": 10,
+        "decided_by_primary": 2,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "v2est-b1-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 13,
+      "dispositions": {
+        "applied": 5,
+        "decided_by_primary": 1,
+        "not_applied": 7
+      }
+    },
+    {
+      "id": "v2est-b2-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 17,
+      "dispositions": {
+        "applied": 10,
+        "decided_by_primary": 2,
+        "not_applied": 5
+      }
+    },
+    {
+      "id": "v2est-b3-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 6,
+        "decided_by_primary": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "v2est-b4-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 12,
+      "dispositions": {
+        "applied": 6,
+        "not_applied": 6
+      }
+    },
+    {
+      "id": "v2est-b5-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 8,
+      "dispositions": {
+        "applied": 6,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "v2est-b6-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 15,
+      "dispositions": {
+        "applied": 8,
+        "not_applied": 7
+      }
+    },
+    {
+      "id": "v2est-b7-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 6,
+      "dispositions": {
+        "applied": 4,
+        "decided_by_primary": 1,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "v2est-b8-11d4bc3-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T19:49:21Z",
+      "has_review": true,
+      "findings": 9,
+      "dispositions": {
+        "applied": 6,
+        "not_applied": 3
+      }
+    },
+    {
+      "id": "valley-0ceecd4-astra-xhigh-v1",
+      "reviewer_model": "gpt-6-astra",
+      "effort": "xhigh",
+      "dispatched_at": "2026-09-21T02:11:11.977078+00:00",
+      "has_review": true,
+      "findings": 1,
+      "dispositions": {
+        "applied": 1
+      }
+    },
+    {
+      "id": "valley-review-586811f-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T16:53:38Z",
+      "has_review": true,
+      "findings": 23,
+      "dispositions": {
+        "applied": 22,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "vicksburg-1862-7cbb971-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T03:58:35Z",
+      "has_review": true,
+      "findings": 6,
+      "dispositions": {
+        "applied": 6
+      }
+    },
+    {
+      "id": "vicksburg-1863-ddf392c-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T04:46:56Z",
+      "has_review": true,
+      "findings": 16,
+      "dispositions": {
+        "applied": 15,
+        "not_applied": 1
+      }
+    },
+    {
+      "id": "w1861-review-8a97ac1-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T17:45:40Z",
+      "has_review": true,
+      "findings": 26,
+      "dispositions": {
+        "applied": 24,
+        "not_applied": 2
+      }
+    },
+    {
+      "id": "w1864-review-4986724-opus-high-v1",
+      "reviewer_model": "claude-opus-5-5",
+      "effort": "high",
+      "dispatched_at": "2026-09-25T18:35:17Z",
+      "has_review": true,
+      "findings": 25,
+      "dispositions": {
+        "applied": 23,
+        "not_applied": 2
+      }
+    }
+  ],
+  "totals": {
+    "applied": 949,
+    "decided_by_primary": 11,
+    "deferred": 11,
+    "not_applied": 157,
+    "partly_applied": 1,
+    "primary_found_applied": 2
+  },
+  "by_reviewer_model": {
+    "claude-opus-5-5": {
+      "applied": 948,
+      "decided_by_primary": 11,
+      "deferred": 11,
+      "not_applied": 157,
+      "partly_applied": 1,
+      "primary_found_applied": 2
+    },
+    "gpt-6-astra": {
+      "applied": 1
+    }
+  },
+  "note": "Historical separate-review records, normalized. Counts include design, ledger and run reviews as well as dossier reviews; a finding may be advisory. Since 2026-10-06 the primary verifies its own work."
+}

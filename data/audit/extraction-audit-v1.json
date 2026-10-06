@@ -1,0 +1,2285 @@
+{
+  "kind": "extraction_audit",
+  "version": 1,
+  "date": "2026-10-06",
+  "auditor": "the primary agent (Claude Opus 5.5), self-audit",
+  "independence": "A primary self-audit, not an independent extraction sample: the auditor is the same model that drafted and verified the dossiers and that ran most of their separate reviews, so errors that model makes systematically are invisible to it.",
+  "seed": 20261006,
+  "sample_size": 150,
+  "population": 3116,
+  "population_rule": "Every supported or disputed dossier claim with at least one citation (explicit unknowns excluded), across all 384 dossiers, in file and claim order; a simple random sample without replacement (random.Random(seed).sample).",
+  "protocol": [
+    "Each cited quote was read in context (about 220 characters either side) and, where a detail lay outside that window, in its full cited section.",
+    "quote_supports_claim: every element of the value is supported by the claim's own citations or by text in the cited sections.",
+    "attribution: each statement is credited to the source that makes it, including relayed statements.",
+    "scope_and_time: populations, units, dates and intervals match the source.",
+    "status: supported or disputed fits what the sources show.",
+    "Verdicts: correct (all four hold); minor (wording, relayed attribution or a missing citation, with the meaning unchanged); material (an element unsupported or contradicted, misattributed, or wrong in scope, number or date)."
+  ],
+  "limits": [
+    "Explicit unknowns were not audited; whether a dimension is truly absent from the sources is a different check.",
+    "The audit tests extraction against the cited passages, not historical truth or the completeness of the sources inspected.",
+    "With no material errors in 150, the true rate could still be up to about 2.5% (Wilson 95% upper bound).",
+    "Dossier hashes are the audited versions; minor findings were corrected afterwards in versioned dossier revisions."
+  ],
+  "judgments": [
+    {
+      "battle_id": "AL001",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "70dbbfbbcbf2fead202b5d8ed2b89f69c865167d91a68b1df3a10fc434cd225a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Julian's Battalion dismounting is not in a cited quote but is in the cited Jordan and Pryor section ('Roddy having dismounted his own regiment and Julian's Battalion')."
+    },
+    {
+      "battle_id": "AL003",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "31613c6165740be39dbc8994d3b73725b1692243a909a77f7fd0d71de260a879",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AL005",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "22f9775539d22cc7aab0a48e9fe9080bcce7353ac428f8c406869b3ac5186e95",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Mid-March and Gibson's relief and reinforcement are in the cited sections outside the quotes."
+    },
+    {
+      "battle_id": "AL006",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "2d13295dbc753257566acc2f9bb67e08be5f5333588139f5a405c5a8e73fce0d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR005",
+      "claim_id": "destroy-before-junction",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "9b8f6629fde892fefc850edeb59e3151fd2e9184116ad578a54e129eebfbff9c",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR008",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "4f814f89885243ec1a9cde0db74c2c43da72311226313de87467a20fa4d20fb4",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR010",
+      "claim_id": "fordable-river-and-bend",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "bc9beb6de765d1f7cd2a9112758ed5b60e5fe2c842a69f670746a31a92ee0777",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR010",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "bc9beb6de765d1f7cd2a9112758ed5b60e5fe2c842a69f670746a31a92ee0777",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR013",
+      "claim_id": "prairie-and-works",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "2d7123ab8b70a1adc14ffcbedd9fb41c756af8d56c677f6396c9e5321f01bbcf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR013",
+      "claim_id": "price-deceived-on-direction",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "2d7123ab8b70a1adc14ffcbedd9fb41c756af8d56c677f6396c9e5321f01bbcf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR014",
+      "claim_id": "watched-train-and-unseen-attackers",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "4e0514992b7bcafe388450d74e7a1371806b95f2bdc8c8e9e01fd365d3378fcf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "AR017",
+      "claim_id": "bayou-timber-and-open-field",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "cde4ee3b8312ffe72efca579fd455344f5a2ee84ca54e878800caefde1e06ccd",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "FL002",
+      "claim_id": "surrender-demand",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "210aa5dd974c8c233bb70afabcad4e872f1a4236df8bc6cf8c5d8ed7d06138a4",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "FL005",
+      "claim_id": "estimates-before-battle",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "98244c5d856b6498cebadbd3f212533e850eb6ace3d40f312f26655a11c95958",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "FL006",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "15b2d59deece9deebca5c9b3e164a6d56dd5dfe426b90edf6d86fbd3621591eb",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA001",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "fe268187cabbd099c10bfd778d6b685bc65339a1dce50bd10cf8994835996bb5",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA002",
+      "claim_id": "fuzes-and-repairs",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "466a3887df9b9248289a1579320188ff8b8c5d308b9a433e70d99176e7624d97",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA004",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "8e652950c6d91acf646b001c38ffe77d5fd58448ea0c9a0559ec5bfb1bdd8a0c",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA005",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "2fce298797f7ae6ed02be3b24debdf4c7faa53bdc9319693a1a5814351761dd9",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA006",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "6db061729e3972fda6143f30fe2ff02eac77634ccea4fbcd2812395a7bfa31f1",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA007",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "870877856e091291994057fd957b213ef3a1c22f64454acd4add408f96418062",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA009",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "7dc7d273576d31e12ab5018411891536a2e79507638c27294fc35cde57397410",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA010",
+      "claim_id": "captured-despatch-and-appearances",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "396cac1b2b443e39f356884346756e390a950738f29c4a4244da514b17d55380",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA012",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "d0b7b341c02e541101b75d03851b616375cb3f1dea486b0ffce060924ad6255b",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Cox's 'would probably have been successful' completes the cited sentence after a footnote break."
+    },
+    {
+      "battle_id": "GA018",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "d57c690193c350046dc2e2fdaa6ab7a32098965196a5c38c0fa376f9521234c2",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA019",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "b4ce074a69c7af082f24dbc3d8a0b1a872c414671c964d001e7bb1aa830c5627",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA023",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "bb07fae586f24675dd6aac7c32beea3405e9a3a27ba906548bf06347626d3f63",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA023",
+      "claim_id": "fill-the-cut-and-bridge",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "bb07fae586f24675dd6aac7c32beea3405e9a3a27ba906548bf06347626d3f63",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Hood's fill-the-cut order is dated October 4, 7.30 a.m., and the bridge order 11.30 a.m., so 'a later order' holds."
+    },
+    {
+      "battle_id": "GA025",
+      "claim_id": "artillery-and-transport",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "f2e8165e70901f1d5d42c75592b60e85a2fb2d4c5b108c98bfcd9435193bce46",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA027",
+      "claim_id": "forage-and-trains",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "428ee302546720437a2cd11bc0c58560d7f9763b7b2f79b153f831fcd8518a8f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA028",
+      "claim_id": "fort-torpedoes-and-marsh",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "385f018c291969417e3ff5b74665a5b75285114847abc309edc0c19b4e4fd90b",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "GA028",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "385f018c291969417e3ff5b74665a5b75285114847abc309edc0c19b4e4fd90b",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "ID001",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "2bc70f0ef0641986d9236e3f5b7fd6c5886243e4625553283295638e93e5de98",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "IN001",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "7ad910235e1d15c27e8ae493de05120304a35036e3a5f59b7f23aa20bf400eba",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "KS003",
+      "claim_id": "creek-blocked-by-train",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "78afbd6ae71f68ab9bd50b57cc903c7a5ee61914cb6325ec9b91adc898c9e32a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "KY001",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "15e2dca088dee75ff01b83bb3a64f0cd07b1e74301c3d23c576cab362b5c2e67",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "KY002",
+      "claim_id": "stated-aims",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "070ff912cc735340c0206260762766f416c196e5b1309ae51c565d7d2ca8edb2",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "KY004",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "3f58e826b6ce294efe4f9fc171835d9eb906b27dd13a9a6ca725a0597cf17942",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "KY008",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "76dfedc6e87feab56375b8646618e00e436ae3bc2bd5bf46c86ec7bcf9e6b9ec",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA003",
+      "claim_id": "rations-water-and-sickness",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "933e97b63f431ed8057bace11f86c9eb90e9f242b1e39e1e795bb74369858652",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Breckinridge says he ordered the enemy's camps and stores 'to be destroyed'; the claim says he burned them. The source does not give the method.",
+      "correction": "Now 'ordered the enemy's camps and stores destroyed', as the report says. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/LA003.v2.json."
+    },
+    {
+      "battle_id": "LA005",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "751d9f1bf09db23b2750f969d1350d56e08a784fdab9fe422a29dc927de29674",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA008",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "1341c004b409a3c566f0dfe0954a0acb4a2d1d55be409555982bcf3fa8502101",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA009",
+      "claim_id": "uncertain-numbers-on-both-sides",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "29364b83a21ab8c6f0365c996eb7519fdfe4fe430b5265a649eb2ce19231cc88",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA011",
+      "claim_id": "hedges-and-levee",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "c3a2e9b622eb9a400765567dc29ede6b5a6cc0a37c2a3141fcb2095097a53d1a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA011",
+      "claim_id": "arms-and-gunboats",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "c3a2e9b622eb9a400765567dc29ede6b5a6cc0a37c2a3141fcb2095097a53d1a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA014",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "c9619f1d39c81e6538f87cd1bb25e665240e43c19d0ca42e4d3e671b283cebf7",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA017",
+      "claim_id": "estimates-of-the-landing",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "82771fd37c4d8344a91b208f99d3bfaa3fc2c14ddb96932cf52861fdd060b211",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA017",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "82771fd37c4d8344a91b208f99d3bfaa3fc2c14ddb96932cf52861fdd060b211",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "LA018",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "a29e0076e29b61852548f26ec87ea2586623ccb436d6b7f39858a1b977a6825e",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Irwin's 'In all twenty guns were lost' is in the cited section outside the quotes."
+    },
+    {
+      "battle_id": "MD002",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "ad610e3a4a8ea6d8fda32524c924c7a15986a8c7ba6a8e82eed6b606e458b685",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MN001",
+      "claim_id": "ammunition-and-transport",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "961673240d55e8014dca3ef529fcbcf83fb947a457b28d7bc50101e30aa7fb1e",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MN002",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "5bf973919558c7bdd335090943e64f08f288d867029110b99c7fab4a5a4522b2",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Sibley's cited report names 'The Renville Guards, under Lieutenant Gorman'; the claim calls them 'Gorman's Renville Rangers', the name used in other reports, without noting the variant.",
+      "correction": "Now names the Renville Guards under Lieutenant Gorman, as Sibley's report does. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/MN002.v2.json."
+    },
+    {
+      "battle_id": "MO003",
+      "claim_id": "stated-aims",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "96570eb594eec3cc3d68725611d4b972996bfb612d344538dccc90d04a78d963",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO008",
+      "claim_id": "march-and-horses",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "5c89b6876812abc53827e80d2ce90b7cd53dcb0e0f858c621b951337834f9c9f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO008",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "5c89b6876812abc53827e80d2ce90b7cd53dcb0e0f858c621b951337834f9c9f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO008",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "5c89b6876812abc53827e80d2ce90b7cd53dcb0e0f858c621b951337834f9c9f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO009",
+      "claim_id": "stated-aims",
+      "dimension": "objectives",
+      "status": "disputed",
+      "dossier_sha256": "0108d5a2ad65bc5a86f1a58996fde142cbcfd3dcb361a8f96885877c016c70bf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "W. H. L. Wallace's report precedes the cited Grant sentence in the same section."
+    },
+    {
+      "battle_id": "MO011",
+      "claim_id": "plan",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "2fcfa6dba21ed655cd127c041e6f8713d3b009e545520a3663598503ab356e32",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO012",
+      "claim_id": "distributed-command-and-replacement",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "d8dddfcb6d03c28866abb83764307b2faaada588140342e5c6e417f3caf24da9",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO017",
+      "claim_id": "canister-and-revolvers",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "0bb1324c28de928b0336cf85750f55ed484e3ce7c80cb824ab27664ace38e7fe",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO022",
+      "claim_id": "warning-of-the-crossing",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "43b0b59270ea489faeeb7432d27a38f6b87facf6f528e61da68deaac89c28760",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MO023",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "ad4b8f6f9dd2feb3fcb0c040c4cf947bdfbb62ccd73c86ad6bc7c7f6f475386b",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "The quote '0 total (US 0; CS 0;)' appears in both the forces and casualty fields of the live page; it matches the casualty claim, but the citation does not single out the field."
+    },
+    {
+      "battle_id": "MS002",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "51a005b99fa5ae68f80ca05e0401b7d9c9c88f0fb21eb04ecb5b81c4b640681f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MS009",
+      "claim_id": "information-left-flank",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "42d44bef4d89a2f55f80fd960a4cdcbb9f9319baaf73347027d2709f2c8f9449",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MS010",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "8af04e35a4a8031236702690cb23e0bd887228512416b97ba509e9d7211babd5",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MS011",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "ff097b34375fc3802991333a5c77d4218a8af46e0898eea50f5f78a30a797fed",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MS013",
+      "claim_id": "prairie-to-broken-hills",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "8ad95e61c2cdbd7ab1f7415691f152c0333a2bd39dda1a2f82caca236962f2b3",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "MS016",
+      "claim_id": "operation-window-and-result-text",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "d5e4f027c91abc96ee3f454ee7c33d6479e0ad09bcb97753ee60498932eeb78e",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "NC004",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "8b26db9213189acd7c0c748fb5a20c46c419bd2865d496b2d45e220f31b583a6",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "NC012",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "5391b7575a1c81228126cd08b4f3fe7422ecd033c6bd3e1e57ef87ee02f4009a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "NC016",
+      "claim_id": "wilmington-as-auxiliary-base",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "1d3507fd6f64a4f875d3313f8b5e2b6a40df13ef0383cc7b5856f884e2a9a129",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "NM001",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "0d657a931cddc89372a9f53c718b013683670bb52c01facefe862438f399469d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "OH002",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "c258f42a96a8027ba172bacd70acfdd2b2417791f179e04dab36f6da1ad89372",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "OK001",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "618e7e4cf712940d68e7a49df5b1d44dbc5ec90ae0fa9bc185cb28c431342ad0",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "OK006",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "c89f388bf0e9836fd10b935e025fef7cf231e7444d0522f819e0c41f88ec389b",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "PA001",
+      "claim_id": "army-location-unknown",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "17818d15c556ff1f0159c4e5c333a527175abae33d71488b84cbdab0ccb1bc1f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "SC007",
+      "claim_id": "underestimated-work",
+      "dimension": "information",
+      "status": "disputed",
+      "dossier_sha256": "08419b18ec87ba9587d1cd76e45b9ea50482ad334088a510ebddc1b80438e7f4",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Gillmore's intercepted signal is dated 'the afternoon of the 5th' in the cited Jones section."
+    },
+    {
+      "battle_id": "TN003",
+      "claim_id": "confederate-return-after",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN003",
+      "claim_id": "nelson-crossing-clock-dispute",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN003",
+      "claim_id": "wood-late-brigade-arrivals",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN003",
+      "claim_id": "ammen-night-formation",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "fb622c81b48110d1d7b25212b5c3f10881c4a7724a9ccbb93ef793816cf100ee",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN009",
+      "claim_id": "deception-of-numbers",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "9538892b127df1fa73667489c89291f079b305f5bf12484729f5bab406722bba",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN012",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "ee2bc871f8fbcba03ecbf3ea54891f1dfff0b55e99330517b93ced402e1c9b81",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN013",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "f9e612947233154a6802303105e48c60a000f2af0c771cb9f1778ba7136cf274",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN018",
+      "claim_id": "unwarned-town",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "8efcdd8e1fa130bbf503fbdd2f56a7fbc1384c8da8e5cecc6804edc13d418f4f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN023",
+      "claim_id": "trains-and-wagons",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "42fcf1817fc32fd77349cd3e486f00d5b6681171cbf6fc29207dd16ca67e5bc3",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN025",
+      "claim_id": "fort-ditch-and-wire",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "d69de637c71ea28cfcdd162c7585a60620af7b555140d3002258ae9232d4d241",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN025",
+      "claim_id": "rumors-and-warning",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "d69de637c71ea28cfcdd162c7585a60620af7b555140d3002258ae9232d4d241",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN027",
+      "claim_id": "open-fields-and-cover",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "15bec9338234cf77c467bff0b19b4a6b969132ade8a10ca1ac6102166e437c14",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN028",
+      "claim_id": "cross-roads-and-river-line",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "6f1edd2315a4f40254e273a1defa604688d1ae50be5f595135e8478412dee2bc",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Sturgis's January 16 dispatch names Kimbrough's Cross-Roads as 'these cross-roads'."
+    },
+    {
+      "battle_id": "TN029",
+      "claim_id": "strike-first-aim",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "ed51c4d47a1034195c7136b6291ee78311eec21c6e85b8a4ff7d63fb223680cb",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN032",
+      "claim_id": "depot-and-stores",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "43ef1ad9f948e32f3455ea2db97681ae3d6c9f3eddacb718b636ea1669cacb9d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN037",
+      "claim_id": "reconnaissance",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "5c1ca95961d7ec8c99aec2d5278c1a30d6a30a8b7f80349cf9f613ca964b4fdc",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Forrest's reconnaissance falls on the 6th in the cited section."
+    },
+    {
+      "battle_id": "TN037",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "5c1ca95961d7ec8c99aec2d5278c1a30d6a30a8b7f80349cf9f613ca964b4fdc",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TN038",
+      "claim_id": "confederate-works-and-ice",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "48e54bdd8162cc86491d23c5ef70ab7fc315394f6e8ca15261a6f36e1b10e327",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Cox's 'built under fire' is in the cited section."
+    },
+    {
+      "battle_id": "TX001",
+      "claim_id": "express-and-messenger",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "6e4b8a3e962d8f5576d8ddd5f4f8f3bb68305384087dbbab8cfb7f4607df4e36",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "'or Crocker's three' compares with Crocker's report, which this claim does not cite. The dossier's other claims cite Crocker, so the point is evidenced there, but this claim carries no citation for it.",
+      "correction": "Now names Crocker's Kensington and two schooners and cites Crocker's report. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/TX001.v2.json."
+    },
+    {
+      "battle_id": "TX003",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "ba2a8b0b214540556ba50b90a7a7ee0d28a36b1e00b43320414fcbcc997c1e3d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Green commanding 'the land forces on the steamers' and Davis's Westfield account are in the cited sections."
+    },
+    {
+      "battle_id": "TX005",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "d52c7650230090e02867103b07b4ace5f6cceb8aaf65d55be49aff8dda89e658",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TX006",
+      "claim_id": "water-rations-and-losses",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "b8cb3fdd58c33223909959839e87c823ac6fbd3160fc57054692e3ce98ebdd09",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "TX006",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "b8cb3fdd58c33223909959839e87c823ac6fbd3160fc57054692e3ce98ebdd09",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA001",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "0208f2692c7b56eb112475eec3c43388ec78ec23280bee7806bf79e8d7b30794",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA001",
+      "claim_id": "blockade-and-battery",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "0208f2692c7b56eb112475eec3c43388ec78ec23280bee7806bf79e8d7b30794",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA002",
+      "claim_id": "ammunition-and-supplies",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "634670443f68ae0a497f369a03baf4cb0e233aa6a99a7e4c79b153e45842377d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA004",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "61d3c71f6b1a69a493521b9ffa368510e257d64be50de9cb37abf703eb4bbcf4",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA007",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "88ca1b9762a62cec98a66b55a9515fedcc5559c122d85a47c1d2e22a76f46090",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "McCall's direction to continue and Stuart's placing of the regiments are in the cited sections."
+    },
+    {
+      "battle_id": "VA008",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "5225c582ba6ec136e654b8aef1b8605a2ae01a414ca67c2aef121f1df7da88de",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA008",
+      "claim_id": "listed-naval-commanders",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "5225c582ba6ec136e654b8aef1b8605a2ae01a414ca67c2aef121f1df7da88de",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA016",
+      "claim_id": "right-flank-offensive",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "fd8653862e77e265cb5917e4c5dc1a8e44da4a9ce40f7f3483972ea5607a8adf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA017",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "dd25a6aae05957173ab8f5b60082449ed6c06f4a2f106a34f966f1861ae3eaea",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA018",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "8155525116b092b9add97fe937f41f942da9f9cc31eb7e42544788b3bf0ac816",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA020",
+      "claim_id": "rearguard-and-retreat-route",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "ea837d4c67c96a79d3e7f922c71665418db483281ccefca60ec75aa46d56a035",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA022",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "fe53a328063f98e295270d996bd35c69e60938881832651da410eee873928101",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA023",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "e59f4cdd627673504d397af7f5941755e9661428fe4f22d38a106f4e19b4f1a5",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA025",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "bc67c9adafa60f4bcbaee59ccfd967a81bcb6e1e0ae29ec76bd872cdc49410a2",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA028",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "c5db86249f5e935c88678fdfd86b8867364d2fc650bfd44b3513d51b0e38b2cc",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA030",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "392aa61f93ea69b99bbd2d30a7062cd26f800a52c482375146e8de4e0e65bee9",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA032",
+      "claim_id": "warning-and-flank",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "e5a8bd5f5dcdbd5ee2e4ac54e52e372e39ed6111dd00866feafcb5439f273000",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA036",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "d9dfa903bd80de1418610684a7f86e522f0cdc8a660d75cbe23fbda00ee12f54",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "The claim says the live page gives the same commanders and ranks but cites only the frozen rows. The retained NPS snapshot does list Brigadier General Hugh Kilpatrick and Colonel Thomas Munford, so the statement is true but uncited.",
+      "correction": "Cites the live page's two commander lines. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/VA036.v2.json."
+    },
+    {
+      "battle_id": "VA040",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "d20cd193362c49e6215c7592a00735917a78f6148160362ddb20fc37f5b1c833",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Humphreys's 450 prisoners (captured at Bristoe) are in the cited section."
+    },
+    {
+      "battle_id": "VA043",
+      "claim_id": "tete-de-pont",
+      "dimension": "terrain",
+      "status": "disputed",
+      "dossier_sha256": "2b046195dc3d1143f715df02963673b18a9bd96a5f82435f820b3b0bf7586499",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA044",
+      "claim_id": "forest-rapidan-and-mine-run-line",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "7c014326b26d518bdb9f188823e4c0d840c3df87ba36880b5557673032149ebe",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA047",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "50e2815bf78d182c303b29db50cb99c793537266eec4a2930e6876f653b06c84",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA049",
+      "claim_id": "railroad-and-bridge",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "d008b96245eff0d28b9cf392cdd0447af8c2c5db850f2a1d3b738940b6e97983",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA050",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "disputed",
+      "dossier_sha256": "4022213632457d9aa2cf1dc77b3a2ef7d0c88988bdb73a295a7be213c8b0a2de",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA056",
+      "claim_id": "rush-then-siege",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "ccdfa30652f46c48d902801f1b38c6678cb39eaeac0f9985c9f1a071a4a86246",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA058",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "574cd683f2e0b9c1dbb57e8244239f3a157ee63b6fc9078764464591ff260875",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "partly",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Humphreys relays the point that Torbert's other brigades were not seriously engaged as Sheridan's ('General Sheridan says'); the claim attributes it to Humphreys alone.",
+      "correction": "Now attributes the 'not seriously engaged' statement to Sheridan, as relayed by Humphreys. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/VA058.v2.json."
+    },
+    {
+      "battle_id": "VA065",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "b108e40b6885855d02909b2c61cd501b49ccd5263e6ead6bb2fbd05a2f775c21",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA066",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "a276f69558f1cbc126e3623524ab9f8f0f44219bae315983c247c4dcd4d6704d",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA068",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "56a41d72bae2553c47b40345f2ac0e4b69d019dcde0fe13b89681b206bc39815",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA071",
+      "claim_id": "reported-force-scope",
+      "dimension": "strength",
+      "status": "supported",
+      "dossier_sha256": "5f07122070ea82cf9b5b67177ccc2dbe121a34d1eddb83704288df27d1000e30",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA071",
+      "claim_id": "steamers-and-tide",
+      "dimension": "logistics",
+      "status": "supported",
+      "dossier_sha256": "5f07122070ea82cf9b5b67177ccc2dbe121a34d1eddb83704288df27d1000e30",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA077",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "1cb7c359c396fddf67995b53874b7de806d7ba1cbf7ebcbced25474fb3013525",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA078",
+      "claim_id": "feel-the-line",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "04c039af9cea33e80a4a41c777c1076a57285b9a92b91b8fdf7ebbf03849e8bd",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA080",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "e2db26d1c4a77be6916a8c19dca696468e96310089fbc1373c6ebe331caf826a",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA084",
+      "claim_id": "close-lines-and-forts",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "901dd963982d68384fcd43e6f89b0b55bbcb85b6edc48143856791a3dce74ba4",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "partly",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "Humphreys gives the darkness statement as Parke's ('It was so dark, General Parke says'); the claim attributes it to Humphreys alone.",
+      "correction": "Now attributes the darkness statement to Parke, as relayed by Humphreys. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/VA084.v2.json."
+    },
+    {
+      "battle_id": "VA090",
+      "claim_id": "close-in-on-rear",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "f76b6f56664eda2a4881022aabe1915002d073dca60e676532e79ff2efad0b90",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA094",
+      "claim_id": "open-slope-and-ravines",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "e2e3e000353e354e706c3726d08cdbe70eb2a9e2ed5e5172e03171d7d8ec4c12",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA096",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "c7c8a433da007adaa24994991e8c0760291a8681c41f9ffa489b31e380ddd364",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "'Humphreys names Walker's train' has no citation in this claim; the dossier's reported-force-scope claim cites Humphreys's 'capturing Walker's train of artillery and wagons'.",
+      "correction": "Cites Humphreys's 'capturing Walker's train of artillery and wagons'. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/VA096.v2.json."
+    },
+    {
+      "battle_id": "VA101",
+      "claim_id": "reported-enemy-estimate",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "3b89e4aa21a3d09c859a322ebe7b8c8bfe3ab2fe6505763f416b8fdecf35dfbc",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA102",
+      "claim_id": "senior-command-and-attack",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "d39edf02021ca19e1546be81a96b6b7d26cb9497dacd3821da951809be0c86cb",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA107",
+      "claim_id": "command-roles",
+      "dimension": "responsibility",
+      "status": "supported",
+      "dossier_sha256": "6cf8d75182b3d7473fd0a34f397e49761c2a8539882074b6a6c06cf13d53e256",
+      "verdict": "minor",
+      "checks": {
+        "quote_supports_claim": "partly",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": "The claim says the live page gives the same commanders but cites only the frozen rows; the retained NPS snapshot does list Brigadier General Robert Milroy and Lieutenant General Richard Ewell.",
+      "correction": "Cites the live page's two commander lines. Dossier revision 'extraction-audit-correction-2026-10-06'; the audited version is archived at data/evidence/history/VA107.v2.json."
+    },
+    {
+      "battle_id": "VA113",
+      "claim_id": "recorded-result",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "1e7871d654e5bca31856dddadc2e2abeb7d8d59b58b43defe501f9dad83762a0",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA114",
+      "claim_id": "verify-retreat-and-turn",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "5e5df8437847610152dad7e2588a27d427ac7f93e90c6b8b66a4b9616c9bef51",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA114",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "supported",
+      "dossier_sha256": "5e5df8437847610152dad7e2588a27d427ac7f93e90c6b8b66a4b9616c9bef51",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA115",
+      "claim_id": "casualty-records",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "c21bf94dd1f706042fce23c678997e63ada46068069691fd873e76fb5589b570",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "VA125",
+      "claim_id": "raid-object-and-escape",
+      "dimension": "objectives",
+      "status": "supported",
+      "dossier_sha256": "19cd8916fdd80af4ad8e26c517bd5c023c9528dd693b53d1c9e723fbf7a40faf",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "WV005",
+      "claim_id": "prisoners-and-spies",
+      "dimension": "information",
+      "status": "supported",
+      "dossier_sha256": "619c148b0df67be3dcdd90a370c9f68b25a47404a68500fb63a3cca791734026",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "WV009",
+      "claim_id": "later-winchester-date-conflict",
+      "dimension": "outcome",
+      "status": "disputed",
+      "dossier_sha256": "8a32aeb461c781f1e40211472607b1417f457e73fe6669f2e0d77a8ff5315189",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "WV014",
+      "claim_id": "bad-position-and-halltown",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "95be2414f5dbd4e5696d7dc6f8dabe60bce99174fe95a21bfee94082a39b786e",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    },
+    {
+      "battle_id": "WV016",
+      "claim_id": "covered-fords",
+      "dimension": "terrain",
+      "status": "supported",
+      "dossier_sha256": "93a8533fa14cfbd8e8885dd53570222c592f4b12e4970daa02e8088bc9ab063f",
+      "verdict": "correct",
+      "checks": {
+        "quote_supports_claim": "yes",
+        "attribution": "yes",
+        "scope_and_time": "yes",
+        "status": "yes"
+      },
+      "note": ""
+    }
+  ]
+}

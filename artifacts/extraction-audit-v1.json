@@ -1,0 +1,59 @@
+{
+  "kind": "extraction_audit_score",
+  "audited": 150,
+  "population": 3116,
+  "verdicts": {
+    "correct": 142,
+    "minor": 8,
+    "material": 0
+  },
+  "material_error_rate": 0.0,
+  "material_error_rate_95": [
+    0.0,
+    0.0249702443680766
+  ],
+  "any_issue_rate": 0.05333333333333334,
+  "any_issue_rate_95": [
+    0.027269539920193826,
+    0.1017038783819546
+  ],
+  "by_dimension": {
+    "information": {
+      "correct": 17,
+      "minor": 1,
+      "material": 0
+    },
+    "logistics": {
+      "correct": 12,
+      "minor": 1,
+      "material": 0
+    },
+    "objectives": {
+      "correct": 18,
+      "minor": 0,
+      "material": 0
+    },
+    "outcome": {
+      "correct": 44,
+      "minor": 0,
+      "material": 0
+    },
+    "responsibility": {
+      "correct": 11,
+      "minor": 5,
+      "material": 0
+    },
+    "strength": {
+      "correct": 24,
+      "minor": 0,
+      "material": 0
+    },
+    "terrain": {
+      "correct": 16,
+      "minor": 1,
+      "material": 0
+    }
+  },
+  "auditor": "the primary agent (Claude Opus 5.5), self-audit",
+  "independence": "A primary self-audit, not an independent extraction sample: the auditor is the same model that drafted and verified the dossiers and that ran most of their separate reviews, so errors that model makes systematically are invisible to it."
+}

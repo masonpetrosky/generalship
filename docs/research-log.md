@@ -271,6 +271,21 @@ one added citation (Lee's CWSAC rank). Both v1 drafts are archived in `data/evid
 Both records still rest on one source family, and no model input changes. Every dossier has now
 had a separate AI review.
 
+## Extraction audit and corrections (2026-10-06)
+
+[Extraction audit v1](extraction-audit.md) drew a seeded random sample of 150 of the 3,116 cited
+dossier claims and checked each against its passages.
+
+- **Result:** 142 correct, 8 minor and 0 material. The material error rate's Wilson 95%
+  interval is 0% to 2.5%.
+- **Independence:** the auditor is the primary agent itself, not an independent sample, so errors
+  the model makes systematically are not covered.
+- **Corrections:** all eight minor findings were fixed in versioned dossier revisions (`LA003`,
+  `MN002`, `TX001`, `VA036`, `VA058`, `VA084`, `VA096`, `VA107`), with each audited version
+  archived as `.v2` in `data/evidence/history/`. All frozen ledgers still replay.
+- **Review records:** every historical review record is now indexed in one disposition
+  vocabulary (`artifacts/review-index.json`), and the build rejects unknown dispositions.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

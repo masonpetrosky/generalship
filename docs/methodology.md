@@ -198,6 +198,10 @@ verifies its own work before committing and labels it primary-verified. No separ
 runs unless the owner asks for one. Self-verification shares the author's blind spots, so it is
 not a substitute for an independent extraction sample (roadmap Milestone 2).
 
+A seeded random sample of 150 of the 3,116 cited claims found no material extraction error
+(Wilson 95% interval 0–2.5%) and 8 minor ones, all corrected. This was a primary self-audit,
+with the limits stated in the [extraction audit](extraction-audit.md).
+
 ## Feature-admission design
 
 The [v1 admission specification](feature-admission.md) defines a future
