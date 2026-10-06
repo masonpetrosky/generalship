@@ -4,6 +4,7 @@ from pathlib import Path
 import unittest
 
 from generalship import imputation as v1
+from generalship.compare import differences
 from generalship import imputation_v2 as v2
 from generalship.estimates import input_rows
 from generalship.frame import CIVIL_WAR
@@ -34,7 +35,8 @@ class ReproductionTests(unittest.TestCase):
         stored = read_json(ROOT / 'artifacts/strength-imputation-v1.json')
         for k in ('bindings', 'version'):
             stored.pop(k)
-        self.assertEqual(as_v1(v2.impute(ROOT, CIVIL_WAR, strength=LEDGER_V2, prestart=False)), stored)
+        # exact structure; floats to 1e-9, since the last bits vary by platform and Python version
+        self.assertEqual(differences(as_v1(v2.impute(ROOT, CIVIL_WAR, strength=LEDGER_V2, prestart=False)), stored), [])
 
 
 class PrestartViewTests(unittest.TestCase):

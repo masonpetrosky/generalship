@@ -47,6 +47,7 @@ class CommittedRunTests(unittest.TestCase):
         self.assertEqual(result['rows'], 301)
         self.assertLess(result['point']['battle_weighted'], 0)
         stored = ROOT / 'artifacts/commander-ratings-v3-uncertainty.json'
-        if stored.is_file():
+        if stored.is_file():  # exact structure; floats to 1e-9 (log loss uses the platform's maths library)
+            from generalship.compare import differences
             from generalship.sources import read_json
-            self.assertEqual(read_json(stored), result)
+            self.assertEqual(differences(read_json(stored), result), [])

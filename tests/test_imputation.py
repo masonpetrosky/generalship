@@ -6,6 +6,7 @@ import unittest
 
 from generalship import imputation as imp
 from generalship import ratings_v3 as r3
+from generalship.compare import differences
 from generalship.ratings import RatingError
 from generalship.sources import read_json
 
@@ -76,8 +77,8 @@ class RunThreeTests(unittest.TestCase):
 class ReplayTests(unittest.TestCase):
     def test_committed_imputation_reproduces(self):
         path = ROOT / 'artifacts/strength-imputation-v1.json'
-        if path.is_file():
-            self.assertEqual(imp.build(ROOT, verify=False), read_json(path))
+        if path.is_file():  # exact structure; floats to 1e-9, since the last bits vary by platform and version
+            self.assertEqual(differences(imp.build(ROOT, verify=False), read_json(path)), [])
 
 
 if __name__ == '__main__':
