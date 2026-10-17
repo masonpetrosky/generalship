@@ -1,0 +1,1004 @@
+{
+  "schema_version": 1,
+  "battle_id": "B365c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Verona entry (18 October 1805) in cohort v1's third-coalition 1805 group: Masséna's passage of the Adige at Castel Vecchio and the fighting on the left bank, at Campagnola, the suburb of S. Giorgio and the heights beyond, with the attack on Veronetta, from the blowing of the wall before dawn to nightfall. Verdier's demonstration on the lower Adige at Beccacivetta, the Archduke's march against it and the events of the 19th are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) about 12,000 men under Marshal Masséna and prints no strength for side B (Austrian) under FML Baron Vukassovich. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which of Masséna's troops he counted. Angeli gives Gardanne's division as 5600 men and Duhesme's as 6800 (claim angeli-side-a), together 12,400 (our sum), and Koch's order of battle gives them as 6,066 and 6,824 combattants (claim koch-side-a); the passages read do not say which figures Bodart used. Side B's strength is in claims side-b-forces and koch-side-b. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (about 12,000 men) under Marshal Masséna over the Austrians under FML Baron Vukassovich'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Masséna über die Österreicher unter FML. Fh. v. Vukassovich."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "koch-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own figures: Koch's order of battle of the Army of Italy at the time of 18 October 1805 (pièce justificative VI) gives Gardanne's 1st division of the right wing as 12 battalions and 3 squadrons, 6,066 combattants with 5 guns, and Duhesme's 4th division of the left wing as 13 battalions and 3 squadrons, 6,824 combattants with 6 guns. Duhesme's report of 19 October says that the voltigeurs of the 1st and 4th divisions under Generals Compère and Camus, supported by a brigade of Gardanne's, opened the attack; that his own division stood half in reserve before the bridgehead and half in Verona behind the bridges; and that the other 3 divisions and the grenadier division took no part.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's return and a participant's report, both printed by Koch and read from the page images. The order of battle states the army as it stood at the time of 18 October, so it does not show how many of these men crossed; Duhesme's report, an interested account, describes how the two divisions were used. Masséna placed these divisions for the crossing (claim side-a-command), so the claim is tagged commander_created. English renderings (ours): 'order of battle of the Army of Italy at the time of 18 October 1805'; 'right wing. 1st Gardanne'; 'total 12 [battalions] 3 [squadrons], giving 6,066 combatants with 5 pieces of ordnance'; 'left wing. 4th Duhesme'; 'total 13 3, giving 6,824 combatants with 6 pieces of ordnance'; the report's dateline, 'the 27 vendémiaire year XIV (19 October 1805)'; Duhesme, 'Marshal Masséna, commander-in-chief of the Army of Italy, having had the petard attached to the gate that closed the bridge over the Adige below the old castle of Verona, and having given the signal for the fight, the voltigeurs of the 1st and 4th divisions, under the orders of Generals Compère and Camus, at once rushed on the Austrian posts that sought to defend the outlet of this bridge, killed them or took them prisoner, and, supported by a brigade of General Gardanne's, advanced on the enemy redoubts with impetuosity, taking the guns that defended them and part of the troops shut up in them'; 'General Duhesme's division had meanwhile been placed half in reserve before the bridgehead, which, traced at once by General Chasseloup of the engineers, was rising with great speed, and the other half in the town of Verona, behind the bridges of the Adige'; 'the 3 other divisions and that of the grenadiers, formed a few days earlier, took no part in this affair'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p368-figures-v1",
+          "section": "p368",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 368 (transcribed from the page image)",
+          "quote": "ORDRE DE BATAILLE DE L'ARMÉE D'ITALIE A L'ÉPOQUE DU 18 OCTOBRE 1805."
+        },
+        {
+          "source_id": "koch-massena-t5-p368-figures-v1",
+          "section": "p368",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 368 (transcribed from the page image)",
+          "quote": "Aile droite.\n1re GARDANNE"
+        },
+        {
+          "source_id": "koch-massena-t5-p368-figures-v1",
+          "section": "p368",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 368 (transcribed from the page image)",
+          "quote": "Total | 12 | 3\nDonnant 6,066 combattants avec 5 bouches à feu."
+        },
+        {
+          "source_id": "koch-massena-t5-p369-figures-v1",
+          "section": "p369",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 369 (transcribed from the page image)",
+          "quote": "Aile gauche.\n4e DUHESME"
+        },
+        {
+          "source_id": "koch-massena-t5-p369-figures-v1",
+          "section": "p369",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 369 (transcribed from the page image)",
+          "quote": "Total | 13 | 3\nDonnant 6,824 combattants avec 6 bouches à feu."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "Le 27 vendémiaire an XIV (19 octobre 1805)."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "Monsieur le maréchal Massena, commandant en chef l'armée d'Italie, ayant fait attacher le pétard à la porte qui fermait le pont de l'Adige, sous le vieux château de Vérone, et ayant donné le signal du combat, les voltigeurs des 1re et 4e divisions, sous les ordres des généraux Compère et Camus, s'élancèrent aussitôt sur les postes autrichiens qui voulaient défendre le débouché de ce pont, les tuèrent ou les firent prisonniers, et soutenus par une brigade du général Gardanne, ils s'avancèrent sur les redoutes ennemies avec impétuosité en prenant les pièces qui les défendaient et une partie des troupes qui y étaient renfermées."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "La division du général Duhesme avait été placée sur ces entrefaites moitié en réserve devant la tête du pont qui de suite tracé par le général du génie Chasseloup se levait avec une grande rapidité, et l'autre moitié dans la ville de Vérone, derrière les ponts de l'Adige,"
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "les 3 autres divisions et celle des grenadiers formée depuis quelques jours ne prirent pas part à cette affaire."
+        }
+      ]
+    },
+    {
+      "id": "angeli-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Angeli: of the divisions destined for the main attack, Gardanne's stood ready for action on the alarm square in Verona with 12 battalions (5600 men), 3 squadrons and 1 sapper company, and held the other 3 bridges in the city with 1 battalion each; Duhesme's division (13 battalions or 6800 men) had been brought up from Dossobuono on the evening of the 17th. Verdier, with 13 battalions and 4 squadrons (4570 men) along the Adige below Verona, was to support the attack at Verona by a crossing on the morning of the 18th. Voltigeur companies crossed to the left bank first, followed by line regiments that General Compère led against the suburb of S. Giorgio.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page image except the opening words and the crossing troops (OCR); Angeli gives no source for these figures in the passages read, and his source note for the action (52) cites Koch's Mémoires de Masséna, V, 83 (page number read in the OCR), so he is not independent of Koch on side A. Verdier's demonstration on the lower Adige is context (boundary note). The divisions were assembled for this attack on Masséna's orders, so the claim is tagged commander_created. English renderings (ours): 'of the divisions destined for the main attack' (p. 87, OCR) 'Gardanne's stood with 12 battalions (5600 men), 3 squadrons and 1 sapper company ready for action on the alarm square in Verona and held the other 3 bridges within the town with 1 battalion each' (p. 88); 'the division Duhesme (13 battalions or 6800 men) had been brought up from Dossobuono on the evening of the 17th'; 'Verdier stood with 13 battalions, 4 squadrons (4570 men) down the Adige from Persacco to Roverchiara. He had the task of supporting the attack at Verona on the morning of the 18th by a crossing at the latter place or at Beccacivetta'; 'now the blown arch was bridged with the prepared material and ... (OCR) companies of voltigeurs crossed to the left bank, followed by ... (OCR) line regiments, which General Compère led against the suburb of S. Giorgio'; note 52, 'Masséna, V, 83' (OCR).",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "Von den zum Hauptangriffe"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "bestimmten Divisionen stand jene Gardanne's mit 12 Bataillonen (5600 Mann), 3 Escadronen und 1 Sappeur-Compagnie gefechtsbereit auf dem Alarmplatze in Verona und hielt die übrigen 3 Brücken innerhalb der Stadt mit je 1 Bataillon besetzt."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Die Division Duhesme (13 Bataillone oder 6800 Mann) war am 17. abends von Dossobuono herangezogen worden,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Verdier stand mit 13 Bataillonen, 4 Escadronen (4570 Mann) abwärts der Etsch von Persacco bis Roverchiara. Er hatte den Auftrag am 18. morgens durch einen Uebergang bei letzterem Orte oder Beccacivetta, den Angriff bei Verona zu unterstützen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Nun wurde der gesprengte Bogen mit dem vorbereiteten Materiale überbrückt und 24 Compagnien Voltigeure setzten auf das linke Ufer, wohin ihnen 3 Linien-Regimenter folgten, welche General Compere gegen die Vorstadt S. Giorgio vorführte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "source-notes-52-76",
+          "locator": "Angeli (1897), Bd. III, p. 246 (OCR page breaks; not checked against print)",
+          "quote": "Mass6na, V, 83."
+        }
+      ]
+    },
+    {
+      "id": "side-b-forces",
+      "dimension": "strength",
+      "value": "Side B (Austrian), its own figures in Angeli: in the order of battle of 13 October, Vukassovich's division of Bellegarde's right wing counted 8697 infantry and 466 cavalry, its brigade under GM Hillinger being the infantry regiments Davidovich and Auffenberg with 4 battalions each. On 18 October the division held a 54 km front on the left bank; its left, Hillinger's brigade, leaned on the Porta S. Giorgio, in touch with GM Soudain's brigade, which held Veronetta with the infantry regiment Hohenlohe. Since the night of the 14th the works before S. Giorgio had been held by the 1st battalion of Auffenberg; another battalion with Ottochaner Grenzer stood in the suburb and on the nearest heights, and the rest of the regiment with hussars of the Ferdinand regiment was quartered in Avesa and Quinzano. Veronetta was defended by troops of the regiments Hohenlohe and Coburg. At the deployment of 8-13 October, Angeli says, Auffenberg's 4 fusilier battalions counted only 1931 men against a prescribed war strength of 5064.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, written from the Kriegsarchiv; read from the page images except the posts of Auffenberg's other battalions and the garrison of Veronetta (OCR, whose numbers are not restated). The order of battle is five days before the action and gives no headcount for the troops engaged; Auffenberg's 1931 is for the deployment, not for 18 October. Angeli says this regiment bore almost the whole weight of the day (claim side-b-command). The force stood as deployed before the action, so the claim is tagged inherited. English renderings (ours): 'right wing at Caldiero: General of Cavalry Count Bellegarde'; 'division FML Baron von Vukassovich in Avesa. (8697 infantry, 466 cavalry.)'; 'GM Hillinger in Parona: Davidovich infantry no. 34, 4 [battalions], Gargagnano; Auffenberg infantry no. 37, 4, Quinzano'; 'on the left bank FML Vukassovich held the position given in the order of battle of the 13th'; 'on the 54 km long front the brigade of GM Hillinger leaned on the left on the Porta S. Giorgio and was in touch with the brigade of GM Soudain, which held Veronetta occupied with the infantry regiment Hohenlohe'; the works, as in claim fortification; 'since the night of the 14th they had been occupied by the 1st battalion of the' (p. 88) 'regiment Auffenberg; the ... (OCR) battalion with ... (OCR) company of Ottochaner stood in the suburb and on the nearest heights. The other two battalions of Auffenberg infantry and ... (OCR) squadron of Archduke Ferdinand hussars were quartered in Avesa and Quinzano, ... (OCR) company of Ottochaner in Parona' (p. 89); 'Veronetta, defended by ... (OCR) battalions of Hohenlohe and ... (OCR) company of Coburg infantry'; 'strategic deployment of the imperial army. 8-13 October' (heading); 'thus, for example, the Hungarian infantry regiments Auffenberg and Davidovich counted, instead of the prescribed war strength of 5064 men, only 1931 and 2026 men respectively in the 4 fusilier battalions'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p74-figures-v1",
+          "section": "p74",
+          "locator": "Angeli (1897), Bd. III, p. 74 (transcribed from the page image)",
+          "quote": "Rechter Flügel bei Caldiero: G. d. C. Graf Bellegarde."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p74-figures-v1",
+          "section": "p74",
+          "locator": "Angeli (1897), Bd. III, p. 74 (transcribed from the page image)",
+          "quote": "Division FML. Freiherr v. Vukassovich in Avesa.\n(8697 Infanterie, 466 Cavallerie.)"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p74-figures-v1",
+          "section": "p74",
+          "locator": "Angeli (1897), Bd. III, p. 74 (transcribed from the page image)",
+          "quote": "GM. Hillinger in Parona\nDavidovich-Inf. Nr. 34 | 4 | — | Gargagnano\nAuffenberg-Inf. » 37 | 4 | — | Quinzano"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Am linken Ufer hatte FML. Vukassovich die in der Ordre de bataille vom 13. angegebene Aufstellung inne."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "In der 54km langen Front lehnte sich links die Brigade GM. Hillinger an die Porta S. Giorgio und stand in Verbindung mit der Brigade GM. Soudain, welche mit dem Infanterie-Regimente Hohenlohe Veronetta besetzt hielt;"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Die Vorstadt S. Giorgio war durch eine, etwa 1200 Schritte vom Castel vecchio hart an der Etsch erbaute Redoute und drei zwischen den vordersten Häusern vertheilte Fleschen gedeckt, welche die Ebene von Campagnola in der Kehle abschlossen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Seit 14. nachts waren sie vom 1. Bataillon des"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Regiments Auffenberg besetzt; das 2. Bataillon mit i Compagnie Ottochaner stand in der Vorstadt und auf den zunächst liegenden Höhen. Die beiden andern Bataillone von Auffenberg- Infanterie und i Escadron Erzherzog Ferdinand-Husaren can- tonirten in Avesa und Quinzano, 1 Compagnie Ottochaner in Parona."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "das von 2 Bataillonen Hohenlohe- und I Compagnie Coburg -Infanterie vertheidigte Veronetta"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "Strategischer Aufmarsch der k. k. Armee. 8.—13. October."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "So z. B. zählten die ungarischen Infanterie-Regimenter Auffenberg und Davidovich statt der vorgeschriebenen Kriegsstärke von 5064 Mann, in den 4 Füsilier-Bataillonen nur 1931 respective 2026 Mann;"
+        }
+      ]
+    },
+    {
+      "id": "koch-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Koch says a company of the Banat regiment and one of Auffenberg held the suburb of San Gregorio, 2 companies of Auffenberg occupied the works, the regiment's other battalion and a squadron of hussars were posted at Aveza and Quinzano to support them, 8 battalions defended Veronetta and a company of the Banat held Parona. Later in the day Vukassovich attacked at the head of fresh battalions supported by cavalry and guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page images except Vukassovich's attack (OCR); Koch gives no source for these posts and no headcount. His 2 companies in the works and 8 battalions in Veronetta differ from Angeli's battalion in the works and the troops of Hohenlohe and Coburg in Veronetta (claim side-b-forces); both are kept. English renderings (ours): 'a company of the Banat and one of Auffenberg held the suburb of San Gregorio. 2 companies of this last regiment occupied the works; the other battalion and a squadron of hus-' (p. 83) '-sars were posted at Aveza and Quinzano to serve them as support; 8 battalions defended Veronetta, and a company of the Banat garrisoned Parona' (p. 84); 'it was General Vukassovich (OCR 'Vulfassovirieh') who was coming to attack us, at the head of fresh battalions supported by cavalry and ... (OCR) pieces of artillery'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "Une compagnie du Banat et une d'Auffenberg tenaient le faubourg de San Grégorio. 2 compagnies de ce dernier régiment occupaient les ouvrages; l'autre bataillon et un escadron de hou-"
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "sards étaient postés à Aveza et Quinzano pour leur servir d'appui; 8 bataillons défendaient Veronetta, et une compagnie du Banat garnissait Parona."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 87 (OCR running heads; not checked against print)",
+          "quote": "C'était le généra Vulfassovirieh qui v»ait nous attaquer, à la tète de bataillons frais sentenus par de la cavalerk et l pièces d'artillane."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Masséna as side A's commander and FML Baron Vukassovich as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both sides' accounts agree that Masséna directed side A's crossing in person (claim side-a-command) and that Vukassovich commanded side B's troops on the left bank, under Bellegarde's right wing, while the Archduke was elsewhere (claim side-b-command). English rendering (ours): 'under Marshal Masséna over the Austrians under FML Baron Vukassovich'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "unter Marschall Masséna über die Österreicher unter FML. Fh. v. Vukassovich."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Masséna commanded side A and planned the crossing: he fixed the night of 17 October for it, meaning to draw the Austrians' attention from the stone bridge of Verona by strengthening the cordon from Zevio to Legnago and by a feigned crossing by Verdier at Becca Civetta, to cross under the protection of Castel Vecchio and to build a bridgehead on the left bank. He went to Castel Vecchio and climbed its right-hand tower, and Duhesme's report says he had the petard attached to the gate that closed the bridge and gave the signal. General Solignac and the engineers led the sappers onto the bridge; General Compère attacked at the head of the first line (Koch). The voltigeurs of the 1st and 4th divisions under Generals Compère and Camus, supported by a brigade of Gardanne's, took the Austrian posts and redoubts, and a charge Gardanne ordered drove the Austrians from their entrenched posts and loopholed houses. When an Austrian column attacked side A's left, the commander-in-chief had Duhesme support Gardanne with a battalion of the 1st of the line, and a battery General Lacombe Saint-Michel had placed on the right bank took the column in flank (Duhesme). Masséna had a bridgehead traced behind Gardanne's division as soon as it had crossed (Koch, Angeli), traced by General Chasseloup (Duhesme); his intention, Duhesme writes, was to confine himself to establishing it.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions at the engagement from Koch's narrative, an account written from Masséna's papers, and Duhesme's report, an interested account (page images except the passages marked OCR below), with Angeli's agreement on the bridgehead (OCR). English renderings (ours): Koch, 'Masséna fixed the night of 17 October for this movement. His plan was to divert the Austrians' attention from the stone bridge of Verona by reinforcing the cordon from Zevio to Legnago, to have Verdier carry out a feigned crossing at Becca Civetta as a diversion, to make the crossing under the protection of Castel Vecchio, and to establish a bridgehead to give himself a point of support on the left bank'; 'he went on foot to Castel Vecchio and climbed the right-hand tower, which faces the enemy' (OCR); 'General Solignac, the colonel of engineers Sorbier (OCR 'S(ybier') and Captain ... rush onto the bridge' (OCR); 'General Compère (OCR 'Cotetm pare') attacked at daybreak at the head of the first' (OCR); Duhesme, as in claim koch-side-a, and 'a vigorous charge that General Gardanne had made there forced them successively from the entrenched posts and loopholed houses'; 'when the general-in-chief judged it proper to have him supported by General Duhesme, who went there first with a battalion of the 1st regiment of the line commanded by Colonel Desgraviers'; 'taken in flank by the battery that General Lacombe Saint-Michel had had placed on the right bank of the Adige'; Koch, 'that the marshal had a dovetail bridgehead traced behind it' (OCR); Angeli, 'immediately after the division Gardanne had passed the bridge, Masséna had begun the building of a bridgehead' (OCR); Duhesme, 'the intention of the Marshal being to keep to the establishment of this bridgehead'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "Massena fixa la nuit du 17 octobre pour ce mouvement. Son plan consistait à détourner l'attention des Autrichiens du pont de pierre de Verona, en renforçant le cordon de Zevio à Legnago, à faire exécuter un simulacre de passage à Becca Civetta par Verdier pour faire diversion, à effectuer le passage sous la protection de Castel Vecchio, et à établir une tête de pont pour se donner un point d'appui sur la rive gauche."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "il se rendit à pied an CAstel Vecchio et monta sur la tour de droite , qui fait face k r ennemi,"
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "Monsieur le maréchal Massena, commandant en chef l'armée d'Italie, ayant fait attacher le pétard à la porte qui fermait le pont de l'Adige, sous le vieux château de Vérone, et ayant donné le signal du combat, les voltigeurs des 1re et 4e divisions, sous les ordres des généraux Compère et Camus, s'élancèrent aussitôt sur les postes autrichiens qui voulaient défendre le débouché de ce pont, les tuèrent ou les firent prisonniers, et soutenus par une brigade du général Gardanne, ils s'avancèrent sur les redoutes ennemies avec impétuosité en prenant les pièces qui les défendaient et une partie des troupes qui y étaient renfermées."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "le général Solignac, le colonel du génie S(ybier et l© capitaine ûeUnaa s'élancent sur le pont"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 87 (OCR running heads; not checked against print)",
+          "quote": "Le général Cotetm pare attaqua au jour, à la téta de la première."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "une charge vigoureuse que le général Gardanne y fit faire les força successivement des postes retranchés et des maisons crénelées,"
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "lorsque le général en chef jugea à propos de le faire soutenir par le général Duhesme qui s'y porta d'abord avec un bataillon du 1er régiment de ligne commandé par le colonel Desgraviers"
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "prise en flanc par la batterie que le général Lacombe Saint-Michel avait fait placer sur la rive droite de l'Adige,"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 88 (OCR running heads; not checked against print)",
+          "quote": "que le maréchal fit tracer derrière elle une tête de pont en queue-d'aronde"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Mass6na hatte unmittelbar nachdem die Division Gar- danne die Brücke passirt hatte den Bau eines Brückenkopfes"
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "La division du général Duhesme avait été placée sur ces entrefaites moitié en réserve devant la tête du pont qui de suite tracé par le général du génie Chasseloup se levait avec une grande rapidité, et l'autre moitié dans la ville de Vérone, derrière les ponts de l'Adige,"
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "L'intention de M. le maréchal étant de s'en tenir à l'établissement de cette tête de pont,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Side B's troops at Verona were Vukassovich's division of Bellegarde's right wing; Koch calls Vukassovich charged with the defence of this part of the river. Vukassovich brought up battalions of Auffenberg and the Ferdinand hussars from Avesa and Quinzano and led them in a counterattack, which at first threw side A back toward the bridge; a flank attack that Oberst Kéler had been ordered to make with the whole 2nd Banal regiment he made with only part of it; later in the day a battalion of St. Georger Grenzer, advancing from S. Michele on Bellegarde's order, struck side A in the rear and, with the regiment Auffenberg, forced it back (Angeli). The Archduke was not on this part of the field: that evening he marched with the centre against Verdier's crossing. Angeli says the Archduke was highly displeased that, contrary to his definite orders, a pointless and disadvantageous engagement had been accepted; for this evident misreading of his task he relieved Vukassovich of his command, Prince Rosenberg taking his place on the 23rd, and removed Oberst Kéler of the 2nd Banal regiment on the 24th.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Angeli gives them, from Vukassovich's report and other Austrian files (source note 52), with Koch's description of Vukassovich's charge; read from the page images except the counterattack, Kéler's flank attack and the St. Georger battalion (OCR). Angeli's verdict is his own judgment, not a measured effect. English renderings (ours): Angeli, 'right wing at Caldiero: General of Cavalry Count Bellegarde'; 'division FML Baron von Vukassovich in Avesa'; Koch, 'but Vukassovich, charged with the defence of this part of the river'; Angeli, 'meanwhile FML Vukassovich had had the ... and ... (OCR) battalions of Auffenberg infantry, and the squadrons of Archduke Ferdinand hussars, come up from Avesa and Quinzano and led these troops with band playing to the counterattack' (OCR); 'at first the enemy gave way before the brilliantly executed thrust and, hotly pursued, fell back to near the bridge' (OCR); 'an attack on the French left flank, which Oberst Kéler, instead of undertaking it as ordered with the whole ... (OCR) Banal regiment, had carried out by only ... (OCR) battalion, could not stop the pursuit' (OCR); 'toward ... (OCR) in the afternoon a battalion of St. Georger Grenzer, advancing from S. Michele on the order of General of Cavalry Bellegarde, came into the rear of the French between Ca Albertina and Castel S. Felice and, together with the infantry regiment Auffenberg, forced them to retreat' (OCR); 'he marched on the evening of the 18th with 41 battalions, 17 squadrons of the centre to Ca del Selle and meant to attack the enemy on the morning of the 19th in 3 columns by Albaredo, Pilastro and S. Stefano di Minerbe'; 'these incidents aroused Archduke Charles's displeasure in a high degree. Contrary to his definite orders, an entirely useless and disadvantageous engagement had been accepted, even without prospect of being able to hinder the enemy's aims'; 'because of this evident misreading of the task given him, the Archduke relieved FML Vukassovich of his command and gave him the direction of the field hospitals; FML Prince Rosenberg took his place on the 23rd. Oberst Kéler of the 2nd Banal Grenz regiment was removed from his post on the 24th'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p74-figures-v1",
+          "section": "p74",
+          "locator": "Angeli (1897), Bd. III, p. 74 (transcribed from the page image)",
+          "quote": "Rechter Flügel bei Caldiero: G. d. C. Graf Bellegarde."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p74-figures-v1",
+          "section": "p74",
+          "locator": "Angeli (1897), Bd. III, p. 74 (transcribed from the page image)",
+          "quote": "Division FML. Freiherr v. Vukassovich in Avesa."
+        },
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "Mais Vukassowich, chargé de la défense de cette partie du fleuve,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Mittlerweile hatte FML. Vukassovich das 3. und 4. Ba- taillon Auffenberg-Infanterie, sowie die Escadronen Erzherzog Ferdinand-Husaren von Avesa und Quinzano herankommen lassen und führte diese Truppen unter klingendem Spiele zum Gegenangriffe."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Anfangs wich der Feind vor dem mit glänzender Bravour ausgeführten Stosse, lebhaft verfolgt bis in die Nähe der Brücke zurück,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Ein Angriff in die linke Flanke der Franzosen, den Oberst K61er statt ihn, wie angeordnet, mit dem ganzen 2. Banal-Grenz-Regimente zu unternehmen nur von i Bataillon ausführen Hess, konnte die Verfolgung nicht aufhalten,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Gegen 4 Uhr nachmittags kam ein, auf Anordnung des G. d. C. Bellegarde von S. Michele vorrückendes Bataillon St. Georger-Grenzer zwischen Ca Albertina und Castel S. Feiice den Franzosen in den Rücken und nöthigte sie im Vereine mit dem Infanterie-Regimente Auffenberg zum Rückzuge."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "er marschirte noch am Abende des 18. mit 41 Bataillonen, 17 Escadronen des Centrums nach Ca del Selle und wollte am 19. morgens den Feind in 3 Colonnen über Albaredo, Pilastro und S. Stefano di Minerbe angreifen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "Diese Vorfälle erregten im hohen Grade die Unzufriedenheit Erzherzog Carl's. Entgegen seinen bestimmten Anordnungen hatte man sich ganz nutzlos und selbst ohne Aussicht die Ziele des Gegners hindern zu können in ein nachtheiliges Gefecht eingelassen,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "Wegen dieses offenbaren Verkennens der übertragenen Aufgabe, enthob der Erzherzog den FML. Vukassovich von seinem Commando und übertrug ihm die Direction der Feldspitäler; an seine Stelle trat am 23. FML. Fürst Rosenberg. Oberst Kéler des 2. Banal-Grenz-Regimentes wurde am 24. seiner Charge entsetzt."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). Koch says Masséna's plan had completely succeeded: master of a bridgehead on the Adige, he held the initiative. Angeli agrees that Masséna fully achieved his intended purpose. Angeli adds that the attack on Veronetta was repulsed, that side A withdrew its outposts into Campagnola the next morning, and that side B then reoccupied its former position at S. Giorgio, the works being left unoccupied by both sides. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the agreeing statements of both sides' accounts (page images, except Angeli's sentences on Veronetta and on the 19th, OCR). English renderings (ours): Bodart, 'victory of the French (about 12,000 men) under Marshal Masséna'; Koch, 'thus the marshal's plan had completely succeeded; master of a bridgehead on the Adige, he had from then on the initiative and kept Prince Charles in complete uncertainty about his intentions, by means of a diversion at Bussolengo and another at Legnago'; Angeli, 'Masséna had fully achieved the intended purpose and, by his own statement, with the relatively small loss of 150 dead and 300 wounded'; 'the enemy had to give up the attack in the evening' (OCR); 'on the morning of the ... (OCR) he also took back into the Campagnola the outposts that had stood overnight at S. Leonardo, Tagliaferro, Avesa, Quinzano and Ca di Gozzi' (OCR); 'whereupon the Austrian troops reoccupied their former position at S. Giorgio; the works however remained unoccupied by both sides' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Masséna"
+        },
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "Ainsi le plan du maréchal avait complétement réussi; maître d'une tête de pont sur l'Adige, il avait dès lors l'initiative et tenait le prince Charles dans une complète incertitude sur ses intentions, au moyen d'une diversion à Bussolengo, et d'une autre à Legnago."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "Masséna hatte den beabsichtigten Zweck vollständig und — seiner Angabe nach — mit dem verhältnissmässig geringen Verluste von 150 Todten und 300 Verwundeten erreicht."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "musste der Feind am Abende den Angriff aufgeben."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 91 (OCR page breaks; not checked against print)",
+          "quote": "Am Morgen des 19. nahm er auch die Vorposten, welche die Nacht über bei S. Leonardo, Tagliaferro, Avesa, Quinzano und Ca di Gozzi standen, in die Campagnola zurück,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 91 (OCR page breaks; not checked against print)",
+          "quote": "worauf die öster- reichischen Truppen ihre frühere Stellung bei S. Giorgio wieder einnahmen; die Schanzen blieben jedoch von beiden Theilen unbesetzt."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as about 800 men (39 officers) killed and wounded and 100 prisoners, together about 900 men, and side B's as about 400 men (24 officers) killed and wounded and 800 prisoners, together 1,200 men, and 7 guns.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. English renderings (ours): 'French loss: about 800 men (39 officers) killed and wounded, 100 [men] prisoners, together about 900 men'; 'Austrian loss: about 400 men (24 officers) killed and wounded, 800 [men] prisoners, together 1,200 men, 7 guns'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Franz. Verl.: ca. 800 M. (39 Offz.) tot u. verw. 100 „ Gefg. zus. ca. 900 M."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Öst. Verl.: ca. 400 M. (24 Offz.) tot u. verw. 800 „ Gefg. zus. 1.200 M., 7 Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Koch says side A took 7 guns and 18 caissons and that side B lost 1,800 men killed, wounded or prisoners. Duhesme's report gives the general result as 1,500 prisoners, 7 or 8 guns and about a dozen caissons, and says the Austrian column that attacked the left lost 3 or 4 guns, several caissons and 300 to 400 prisoners. Angeli gives side B's loss as 1622 men at S. Giorgio, mostly of the regiment Auffenberg, and 76 at Veronetta; 4 guns of Auffenberg were left in the works and half a cavalry battery was taken. After the action the regiment was re-formed, on the Archduke's order, into only 2 battalions.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. Duhesme's 300 to 400 prisoners may be part of his 1,500; the passages read do not say. Angeli's figures come from Austrian files (source note 52). English renderings (ours): Koch, 'we collected on this day 7 guns and 18 caissons, and the enemy suffered a loss of 1,800 men, killed, wounded or prisoners'; Duhesme, 'the general result of this affair was 1,500 prisoners, 7 or 8 pieces of artillery and a dozen caissons'; 'so that it lost 3 or 4 guns that tried to support them, as well as several caissons and 300 to 400 prisoners' (printed '3 à 400', the French elliptical range); Angeli, 'the imperial troops suffered at S. Giorgio a loss of 1622 men, which fell mostly on the regiment Auffenberg' (p. 92), 'and at Veronetta of 76 men. Besides, 4 guns of the regiment Auffenberg remained standing in the works, and half a cavalry battery' (p. 93); 'after the action the regiment re-formed, on Archduke Charles's order, into only 2 battalions'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "Nous recueillîmes dans cette journée 7 pièces de canon et 18 caissons, et l'ennemi essuya une perte de 1,800 hommes, tués, blessés ou prisonniers."
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "Le résultat général de cette affaire a été de 1,500 prisonniers, 7 ou 8 pièces d'artillerie et une douzaine de caissons."
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "qu'elle perdit 3 ou 4 pièces de canon qui voulurent les soutenir, ainsi que plusieurs caissons et 3 à 400 prisonniers."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "Die kaiserlichen Truppen erlitten bei S. Giorgio einen Verlust von 1622 Mann, der zumeist auf das Regiment Auffenberg"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "entfiel, und bei Veronetta von 76 Mann. Ausserdem blieben 4 Geschütze des Regimentes Auffenberg in den Schanzen stehen und ½ Cavallerie-Batterie,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "Das Regiment formirte sich nach dem Gefechte über Anordnung Erzherzog Carl's nur mehr in 2 Bataillone."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts: Koch gives 150 killed and 300 wounded, and Angeli repeats these figures as Masséna's own statement. Duhesme's report says his 4th division lost hardly more than about thirty men killed or wounded.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's figures, read from the page images; Angeli's are Masséna's and not independent of Koch, and Duhesme's cover only his division. Bodart's 800 killed and wounded (claim bodart-losses) exceed Koch's 450 (our sum of 150 and 300). English renderings (ours): Koch, 'on our side we had 150 dead and 300 wounded'; Angeli, as in claim bodart-winner; Duhesme, 'the loss of the 4th division was hardly more than about thirty men killed or wounded'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "De notre côté, nous eûmes 150 morts et 300 blessés."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "Masséna hatte den beabsichtigten Zweck vollständig und — seiner Angabe nach — mit dem verhältnissmässig geringen Verluste von 150 Todten und 300 Verwundeten erreicht."
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "La perte de la 4e division n'a guère été que d'une trentaine d'hommes tués ou blessés"
+        }
+      ]
+    },
+    {
+      "id": "verona-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Verona as a town and fortress on the Adige in Venetia. Near the Porta San Giorgio the Adige, turning west, forms the peninsula of Campagnola, whose neck adjoined Austrian territory; it was swept by the guns of Castel Vecchio and of the bastion San Zeno, which Koch calls a favourable point for the crossing. The salient measures 1,200 to 1,500 m north to south and 600 to 800 m east to west; Borgo San Giorgio, at the back of the bend and at the foot of the hills, is commanded by the hamlets of San Leonardo and Tagliaferro on a spur of the hills; the bend is laid out in gardens and dotted with many isolated houses (Koch). Angeli calls the ground exceptionally favourable to the undertaking: a peninsula cut by many ditches and covered with trees and villas. Both describe fog that morning: Koch counts it and the ground covered with trees, vines and hedges and cut by ditches as the first obstacles, and Angeli calls the ground very broken and covered.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Koch and Angeli (page images, except Angeli's sentences and the fog, OCR); no map was inspected. Angeli's lengths in paces were seen only in the OCR and are not restated. English renderings (ours): Bodart, 'town and fortress in Upper Italy, Venetia, on the Adige, 108 km west of Venice'; Koch, 'the Adige, turning to the west near the San Giorgio gate, forms a peninsula called Campagnola, whose isthmus adjoined Austrian territory. Swept by the cannon of Castel Vecchio and of the San Zeno bastion of Verona, it offered us a favourable point for the crossing'; 'the salient of the Adige at this point measures 1,200 to 1,500 metres from north to south, and 600 to 800 from east to west' (printed '12 à 1,500' and '6 à 800', the French elliptical range); 'facing the castle, at the foot of the hills and at the back of the re-entrant, Borgo San Giorgio is commanded by the hamlets of San Leonardo and Tagliaferro, built on one of the spurs joined to Monte Malera, where the border of the Tyrol and the Vicentino runs'; 'this whole re-entrant is laid out in pleasure gardens'; 'it is moreover dotted with a great number of isolated houses'; Angeli, 'the ground conditions were exceptionally favourable to the undertaking'; 'a peninsula cut by numerous ditches and covered with trees and villas'; Koch, 'a very thick fog and ground covered with trees, vines and hedges and cut by ditches were the first obstacles to overcome'; Angeli, 'during a thick fog the barricade was cleared away in the night'; 'in the very broken and covered ground'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "(Stadt und Festung in Oberitalien, Venetien, an der Etsch, 108 km westl. von Venedig)."
+        },
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "L'Adige forme en tournant à l'ouest, près de la porte San Giorgio, une presqu'île nommée Campagnola, dont l'isthme attenait au territoire autrichien. Balayée par le canon du Castel Vecchio et du bastion San Zeno de Verona, elle nous offrait un point favorable pour le passage;"
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Le saillant de l'Adige, sur ce point, a de 12 à 1,500 mètres du nord au sud, et de 6 à 800 de l'est à l'ouest."
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "En face du château, au pied des collines et au fond du rentrant, Borgo San Giorgio est dominé par les hameaux de San Leonardo et Tagliaferro, bâtis sur l'un des contre-forts qui se rattachent au mont Malera où passe la limite du Tyrol et du Vicentin."
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Tout ce rentrant est cultivé en jardins d'agrément,"
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Il est en outre parsemé d'une infinité de maisons isolées."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "Die Terrainverhältnisse waren dem Unternehmen aus- nehmend günstig."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "eine von zahlreichen Gräben durchschnittene, mit Bäumen und Villen bedeckte Halbinsel"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 87 (OCR running heads; not checked against print)",
+          "quote": "Un bromUard très^^ais et un terrain Qonvfflrt d'arbres, de vignes, de haies, ^entrecoupé de Soasés, furent les premiers obe^acles à vaincre}"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Während eines dichten Nebels wurde in der Nacht die Verrammlung weggeräumt"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "in dem sehr coupirten und bedeckten Terrain"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B's army was not yet complete when it deployed on 8-13 October, and many deficiencies impaired its readiness for battle; Auffenberg's 4 fusilier battalions counted 1931 men against a war strength of 5064. Half a cavalry battery that, against express orders, left the road to the Tyrol for the mountains could not overcome the ground with its poor teams and was taken (Angeli). Side A had prepared its crossing: the blown arch was bridged with material made ready beforehand (Angeli), and the sappers brought fascines and eased the ramps (Koch).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the bridging, OCR). No ration, ammunition or transport return was inspected. English renderings (ours): Angeli, 'strategic deployment of the imperial army. 8-13 October' (heading); 'although the army was not yet complete and manifold deficiencies impaired its readiness for battle'; the footnote as in claim side-b-forces; 'which, despite the express order, left the road to the Tyrol and took the retreat into the mountains, could not overcome the difficulties of the ground with its poor teams and fell to the enemy as booty'; 'now the blown arch was bridged with the prepared material' (OCR); Koch, 'to bring fascines and ease the ramps' (OCR).",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "Strategischer Aufmarsch der k. k. Armee. 8.—13. October."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "obwohl die Armee noch nicht complet war und vielfache Mängel ihre Schlagfertigkeit beeinträchtigten."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "So z. B. zählten die ungarischen Infanterie-Regimenter Auffenberg und Davidovich statt der vorgeschriebenen Kriegsstärke von 5064 Mann, in den 4 Füsilier-Bataillonen nur 1931 respective 2026 Mann;"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "welche trotz des ausdrücklichen Befehles die Strasse nach Tirol verliess und den Rückzug ins Gebirge nahm, konnte mit ihrer schlechten Bespannung die Terrainschwierigkeiten nicht überwinden und wurde dem Feinde zur Beute."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Nun wurde der gesprengte Bogen mit dem vorbereiteten Materiale überbrückt"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "pour apporter des fascines et adoucir les rampes."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A prepared in secret: Angeli says that while all was kept quiet along the line, the ostentatious announcement of a feu de joie was meant to lull side B, and the preparations went on in silence. Koch says side A suspected the first arch of the bridge was mined, which it was not. Side A crossed in fog and could make out side B's dispositions only when the sun had dispersed it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Koch and Angeli give it (OCR passages; the date of the announcement is not restated). English renderings (ours): Angeli, 'while the greatest quiet was observed along the whole line, and on the ... (OCR) the ostentatious announcement of the intended feu de joie was to lull the enemy into security, the preparations were carried on in all silence, but with all the greater energy'; Koch, 'it was suspected besides that the first arch was mined and ready to blow'; 'the bridge (OCR 'popt') was not mined'; 'and when the fog had been dispersed by the sun, the enemy's dispositions were at last made out'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "Während man auf der ganzen Linie die grösste Ruhe beobachtete und noch am 16. die ostentative Bekanntgabe des beabsichtigten Freudenfeuers den Gegner in Sicherheit wiegen sollte, wurden die Vorbereitungen in aller Stille, aber mit um so grösserer Energie betrieben."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "çonuait d'aiUeura que la pre«oière arobe était mîpée «t prête à sauter"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "le popt n'était pas miné"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 87 (OCR running heads; not checked against print)",
+          "quote": "et quand le brouillard fut dissipé par le soleil , on reconnut enfin les dispositiona de l'ennemi."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B misread the attack. Koch says the Archduke, deceived by Verdier's feint, sent 39 battalions and 24 squadrons of the centre in three columns against Verdier, and that side A's lack of success against Veronetta kept him in his error until the night's reports led him to countermand them. Angeli says the Archduke could reach no sure conclusion about side A's first movements, especially Verdier's, because confused, exaggerated and often false outpost reports made any disposition impossible; once the reports of the 18th had come in he was reassured that the position of Caldiero could stop an advance from Verona, and he marched with 41 battalions and 17 squadrons of the centre to Ca del Selle to attack on the 19th. At the bridge itself, which could be watched by day, side B pushed forward only a small post at night. Side B's headquarters took the actions of the 18th and 19th for the opening of Masséna's long-expected offensive.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it (page images, except Angeli's sentences on the outpost reports and the bridge post, OCR, whose numbers are not restated). Koch's 39 battalions and 24 squadrons and Angeli's 41 battalions and 17 squadrons describe the same march and differ; both are kept. English renderings (ours): Koch, 'Archduke Charles, deceived by this false attack, disposed in three columns 39 battalions and 24 squadrons of the centre, under the Prince of Reuss and Generals Nordmann and Argenteau, who marched to meet Verdier'; 'Verdier's demonstration had misled the Archduke, and our lack of success in the attack on Veronetta kept him in his error'; 'better informed, however, by the reports of the night, the prince countermanded these columns before they had reached their destination'; Angeli, 'about the first movements of the French, especially Verdier's, Archduke Charles could come to no sure conclusion'; 'confused, exaggerated, often even quite false reports of the outpost commanders made the overview so difficult that it was impossible to base any disposition on them'; 'after the arrival of the reports of the 18th, which showed the enemy advancing along the whole line, he was entirely reassured that the position of the right wing at Caldiero was strong enough to stop, at the worst, the enemy's advance from Verona'; as in claim side-b-command for the march; 'as this object could in any case be watched by day, they contented themselves with pushing a post of ... (OCR) officer and ... (OCR) men of the Ottochaner Grenz regiment toward it only at night'; 'about the real purpose of the actions of the 18th and 19th October there was not a moment's doubt at the Austrian headquarters. They saw in them only the opening of Masséna's long-expected offensive'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "L'archiduc Charles, trompé par cette fausse attaque, disposa sur trois colonnes 39 bataillons et 24 escadrons du centre, sous le prince de Reuss et les généraux Nordmann et Argenteau, qui marchèrent à la rencontre de Verdier."
+        },
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "La démonstration de Verdier avait fait prendre le change à l'Archiduc, et notre peu de succès dans l'attaque de Veronetta le maintint dans son erreur."
+        },
+        {
+          "source_id": "koch-massena-t5-p89-figures-v1",
+          "section": "p89",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 89 (transcribed from the page image)",
+          "quote": "Mieux informé cependant par les rapports de la nuit, le prince donna contre-ordre à ces colonnes avant qu'elles fussent arrivées à destination."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 91 (OCR page breaks; not checked against print)",
+          "quote": "Ueber die ersten Bewegungen der Franzosen, insbesondere über jene Verdier's konnte Erzherzog Carl zu keinem sicheren Schlüsse gelangen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 91 (OCR page breaks; not checked against print)",
+          "quote": "Verworrene, übertriebene, oft auch ganz falsche Meldungen der Vorposten-Commandanten erschwerten die Uebersicht so sehr, dass es unmöglich war hierauf irgend eine Disposition zu basiren,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "Nach Einlangen der Meldungen vom 18., welche das Vorrücken des Feindes auf der ganzen Linie anzeigten war er vollkommen darüber beruhigt, dass die Position des rechten Flügels bei Caldiero stark genug sei, um im äussersten Falle dem Vordringen des Gegners von Verona her Schranken zu setzen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "er marschirte noch am Abende des 18. mit 41 Bataillonen, 17 Escadronen des Centrums nach Ca del Selle und wollte am 19. morgens den Feind in 3 Colonnen über Albaredo, Pilastro und S. Stefano di Minerbe angreifen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Da dieses Object bei Tage ohnehin eingesehen werden konnte, begnügte man sich nur des Nachts einen Posten von i Officier und 30 Mann des Ottochaner-Grenz- Regimentes gegen dasselbe vorzuschieben."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "Ueber den eigentlichen Zweck der Gefechte vom 18. und 19. October bestand im österreichischen Hauptquartiere keinen Augenblick ein Zweifel. Man sah darin nur die Einleitung der schon längst erwarteten Offensive Masséna's"
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Masséna's aim was to win a secure crossing of the Adige. Angeli says that with the news from Germany favourable it mattered all the more to him to keep the Austrian army in Italy from any diversion through the Tyrol, and that he acted in the sense of a letter from Napoleon; not feeling strong enough to combine the crossing with a decisive blow, he meant at first only to force the bridge at Castel Vecchio and hold side B off until a regular bridgehead secured it. Koch gives the plan as a diversion, a crossing under the protection of Castel Vecchio and a bridgehead as a point of support on the left bank, and Duhesme writes that Masséna's intention was to confine himself to establishing the bridgehead.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commander at this engagement, from Angeli (OCR) and Koch and Duhesme (page images). Napoleon's letter was not read and the passages do not give its terms. English renderings (ours): Angeli, 'and it was now all the more important for him to keep the Austrian army in Italy from any diversion through the Tyrol. He therefore set about gaining a secure crossing point in the sense of Napoleon's letter of ... (OCR) Vendémiaire'; 'since he did not feel strong enough for the moment to combine with it at the same time a decisive blow, he meant at first only to force the bridge at Castel Vecchio and to hold off the enemy there until it should be secured by a regular bridgehead'; Koch and Duhesme as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "es war nun für ihn um so wichtiger die öster- reichische Armee in Italien von jeder Diversion durch Tirol abzuhalten."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "Er ging deshalb daran, im Sinne des Schreibens Napol^on's vom i. Vend^miaire einen sicheren Uebergangs- punkt zu gewinnen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "Da er sich für den Augenblick nicht stark genug fühlte hiemit zugleich einen entscheidenden Schlag zu verbinden, so wollte er vorerst nur die Brücke beim Castel vecchio forciren und den Gegner dort so lange abhalten, bis selbe durch einen regelrechten Brückenkopf gesichert sein würde."
+        },
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "Massena fixa la nuit du 17 octobre pour ce mouvement. Son plan consistait à détourner l'attention des Autrichiens du pont de pierre de Verona, en renforçant le cordon de Zevio à Legnago, à faire exécuter un simulacre de passage à Becca Civetta par Verdier pour faire diversion, à effectuer le passage sous la protection de Castel Vecchio, et à établir une tête de pont pour se donner un point d'appui sur la rive gauche."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "L'intention de M. le maréchal étant de s'en tenir à l'établissement de cette tête de pont,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "The Archduke did not mean to stop Masséna's crossing at any price, so the Adige below Verona was held only by warning posts (Angeli); he regarded Veronetta and Legnago as outposts only and had ordered their commanders to evacuate them if seriously attacked (Koch). The corps in the Monti Lessini was there to intervene decisively when side A advanced against Caldiero, and Angeli says the action of the 18th, fought against the Archduke's orders, put that purpose in question. By Angeli's footnote, citing Archduke Maximilian's diary, the Archduke had inspected the works before S. Giorgio and, finding them so badly sited, ordered that they not be occupied at all.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's aims were set by the Archduke's orders before the action (page images); the decision to fight for S. Giorgio is in claim side-b-command, and the occupation of the works despite the footnote's order is in claims side-b-forces and fortification. English renderings (ours): Angeli, 'in general the Archduke did not intend to prevent a crossing by Masséna at any price, and for that reason the Adige below Verona was also held only weakly with warning posts'; Koch, 'the Archduke, regarding Veronetta and Legnago only as outposts, had ordered their commanders to evacuate them in case of a serious attack'; Angeli, 'and also put in question the real purpose of the corps' deployment in the Monti Lessini, namely its decisive intervention when the French were expected to break out against Caldiero'; 'the works were so ill-suited in their siting that Archduke Charles, when he inspected them, ordered that they should not be occupied at all'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Angeli (1897), Bd. III, p. 92 (transcribed from the page image)",
+          "quote": "Ueberhaupt hatte der Erzherzog nicht die Absicht einen Flussübergang Masséna's um jeden Preis zu hindern und deshalb war auch die Etsch abwärts von Verona nur schwach mit Avisoposten besetzt."
+        },
+        {
+          "source_id": "koch-massena-t5-p80-figures-v1",
+          "section": "p80",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 80 (transcribed from the page image)",
+          "quote": "L'Archiduc ne considérant Veronetta et Legnago que comme des avant-postes avait prescrit à leurs commandants de les évacuer en cas d'attaque sérieuse."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Angeli (1897), Bd. III, p. 93 (transcribed from the page image)",
+          "quote": "den eigentlichen Zweck der Aufstellung des Corps in den Monti Lessini, nämlich dessen entscheidendes Eingreifen bei dem zu erwartenden Vorbrechen der Franzosen gegen Caldiero, in Frage stellte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Die Schanzen waren so zweckwidrig angelegt, dass Erzherzog Carl als er sie besichtigte befahl, sie gar nicht zu besetzen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: it forced the bridge at Castel Vecchio, took the Austrian posts, redoubt and flèches before S. Giorgio and pushed on to the heights beyond, and attacked Veronetta. Side B counterattacked to regain the position: Vukassovich led battalions of Auffenberg and hussars from Avesa and Quinzano in a counterattack (Angeli), a column attacked side A's left flank (Duhesme), and later a battalion sent by Bellegarde struck side A's rear (Angeli).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' accounts describe side A taking the offensive. Side B's attacks were counterattacks to restore its own position at S. Giorgio, which under the brief do not make it an attacker. Masséna, side A's commander at the engagement, chose the night, the place and the plan (claim side-a-command), so the posture is tagged commander_created; Angeli places the operation in the sense of a letter from Napoleon (claim side-a-objectives), whose terms were not read. English renderings (ours): Koch, as in claims side-a-command and bodart-winner; Duhesme and Angeli, as in claims side-a-command and side-b-command; Angeli, 'at this point Masséna meant to make the crossing on the ... (OCR), while a simultaneous demonstration by Verdier below Verona was to divide the enemy's attention and so ease the real attack'; 'two (OCR) assaults on the Porta S. Giorgio were repulsed'; Duhesme, 'an enemy division come from the valleys of the Policella made a vigorous attack on our left flank'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "Massena fixa la nuit du 17 octobre pour ce mouvement. Son plan consistait à détourner l'attention des Autrichiens du pont de pierre de Verona, en renforçant le cordon de Zevio à Legnago, à faire exécuter un simulacre de passage à Becca Civetta par Verdier pour faire diversion, à effectuer le passage sous la protection de Castel Vecchio, et à établir une tête de pont pour se donner un point d'appui sur la rive gauche."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "Monsieur le maréchal Massena, commandant en chef l'armée d'Italie, ayant fait attacher le pétard à la porte qui fermait le pont de l'Adige, sous le vieux château de Vérone, et ayant donné le signal du combat, les voltigeurs des 1re et 4e divisions, sous les ordres des généraux Compère et Camus, s'élancèrent aussitôt sur les postes autrichiens qui voulaient défendre le débouché de ce pont, les tuèrent ou les firent prisonniers, et soutenus par une brigade du général Gardanne, ils s'avancèrent sur les redoutes ennemies avec impétuosité en prenant les pièces qui les défendaient et une partie des troupes qui y étaient renfermées."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 87 (OCR page breaks; not checked against print)",
+          "quote": "An diesem Punkte wollte Mass6na am 18. denüebergang ausführen, indes eine gleichzeitige Demonstration Verdier's unterhalb Verona's die Aufmerksamkeit des Gegners theilen und dadurch den eigentlichen Angriff erleichtern sollte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Zwei Stürme auf die Porta S. Giorgio wurden ab- gewiesen"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Mittlerweile hatte FML. Vukassovich das 3. und 4. Ba- taillon Auffenberg-Infanterie, sowie die Escadronen Erzherzog Ferdinand-Husaren von Avesa und Quinzano herankommen lassen und führte diese Truppen unter klingendem Spiele zum Gegenangriffe."
+        },
+        {
+          "source_id": "koch-massena-t5-p376-figures-v1",
+          "section": "p376",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 376 (transcribed from the page image)",
+          "quote": "division ennemie venue des vallées de Pollissella forma une attaque vigoureuse sur notre flanc gauche."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Gegen 4 Uhr nachmittags kam ein, auf Anordnung des G. d. C. Bellegarde von S. Michele vorrückendes Bataillon St. Georger-Grenzer zwischen Ca Albertina und Castel S. Feiice den Franzosen in den Rücken und nöthigte sie im Vereine mit dem Infanterie-Regimente Auffenberg zum Rückzuge."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Both sides fought from works. Side B: the Archduke had a line of entrenchments built on Campagnola 1,000 m from Castel Vecchio, a closed redoubt and three flèches with a demi-lune (Koch), or a redoubt about 1200 paces from the castle and three flèches among the foremost houses (Angeli); Veronetta had a bastioned enceinte flanked by towers, partly demolished, and two dismantled old forts (Koch); its bridges were closed by tambours, each with 1 gun, and a crenellated wall covered the passage along the bank (Angeli). Duhesme's report has side A take the enemy redoubts with their guns, force the entrenched posts and loopholed houses, and meet flanking fire from the fortifications of S. Giorgio; Angeli has the fire of the works check side A and the redoubt hold out until surrounded. Side A: its guns fired from Castel Vecchio, flanked by four towers with ditches, whose front facing Austria had recently been put in a state of defence, and from the intact bastion of Spain, whose heavy guns swept the left bank (Koch); Angeli says side A held its ground only with the help of the superior fire from the fortress. The bridges were barricaded at both ends (Koch).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Koch, Duhesme and Angeli agree on the works, so they are recorded in one claim (page images, except the passages marked OCR). Side A's part is its artillery in the castle and on the bastion, while its infantry attacked in the open; side B's infantry fought from the works and Veronetta. The permanent works (the castle, the bastion, Veronetta's walls and forts) are inherited, while the Campagnola works were built on the Archduke's orders before the action, not by side B's commander at this engagement, so the claim is tagged unresolved, as for B365a. Angeli's footnote says the Archduke had ordered these works not to be occupied (claim side-b-objectives), yet both accounts have them manned. English renderings (ours): Koch, 'but foreseeing the advantage we could draw from it, Archduke Charles had had raised there, 1,000 metres from Castel Vecchio, a line of entrenchments consisting of a closed redoubt at Artaglia and of three flèches thrown up between the houses of the suburb and the enceinte of Veronetta, with a demi-lune to defend their front and flanks'; Angeli, 'the suburb of S. Giorgio was covered by a redoubt built close to the Adige about 1200 paces from Castel Vecchio and by three flèches distributed among the foremost houses, which closed the plain of Campagnola at its neck'; Koch, 'three bridges, closed and barricaded at both ends, joined the Italian town to the Austrian town. Both had a bastioned enceinte flanked by large towers, but partly demolished by us during the last war, and two old forts, though dismantled, protected Veronetta'; Angeli, 'in Veronetta the bridge at Castel Vecchio was in any case closed off; the other three, which carried the communication with Verona, were closed by tambours and each received 1 gun for its defence. A crenellated wall secured the passage along the bank'; Duhesme, 'the left resting on the fortifications of Saint-Georges of Veronetta, where they had infantry and guns whose fire took our troops in flank'; and as in claim side-a-command; Angeli, 'an extremely strong fire from the Austrian works, in which the guns of Veronetta also took part, checked the advance of the French, who held their ground in the very broken and covered ground only with the help of the superior artillery fire from the fortress' (OCR); 'only the redoubt still held out and, with its ... (OCR) guns, did the enemy considerable damage until the garrison, completely surrounded, had to lay down its arms' (OCR); Koch, 'Castel Vecchio, flanked by four towers with ditches and placed on the right bank at the head of the salient of Campagnola, commanded the peninsula'; 'and quite recently the front facing the Austrian states had been put in a state of defence'; 'the bastion of Spain alone had remained intact in the Italian town, and guns of heavy calibre there swept the left bank of the Adige'; 'the artillery placed on the curtain of Castel Vecchio holds the enemy in check' (OCR); Angeli, 'shortly afterwards ... (OCR) heavy guns opened from the castle a violent fire of shell and canister on the Campagnola, which drove back the Austrian posts and kept the space before the bridge clear' (OCR).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p83-figures-v1",
+          "section": "p83",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 83 (transcribed from the page image)",
+          "quote": "mais prévoyant l'avantage que nous pourrions en tirer, l'archiduc Charles y avait fait élever, à 1,000 mètres du Castel Vecchio, une ligne de retranchements qui consistait en une redoute fermée à Artaglia, et en trois flèches jetées entre les maisons du faubourg et l'enceinte de Veronetta avec une demi-lune pour en défendre le front et les flancs."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Angeli (1897), Bd. III, p. 88 (transcribed from the page image)",
+          "quote": "Die Vorstadt S. Giorgio war durch eine, etwa 1200 Schritte vom Castel vecchio hart an der Etsch erbaute Redoute und drei zwischen den vordersten Häusern vertheilte Fleschen gedeckt, welche die Ebene von Campagnola in der Kehle abschlossen."
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Trois ponts fermés et barricadés aux deux extrémités joignaient la ville italienne à la ville autrichienne. Elles avaient l'une et l'autre une enceinte bastionnée et flanquée de grosses tours, mais démolies par nous en partie pendant la dernière guerre, et deux anciens forts, quoique démantelés, protégeaient Veronetta."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p73-figures-v1",
+          "section": "p73",
+          "locator": "Angeli (1897), Bd. III, p. 73 (transcribed from the page image)",
+          "quote": "In Veronetta war die Brücke beim Castel vecchio ohnehin abgesperrt, die übrigen drei, welche die Verbindung mit Verona vermittelten, wurden durch Tambourirungen geschlossen und erhielten je 1 Geschütz zur Vertheidigung. Die Passage längs dem Ufer sicherte eine crenelirte Mauer."
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "la gauche appuyée aux fortifications de Saint-Georges de Veronnette, où ils avaient de l'infanterie et des pièces dont le feu prenait en flanc nos troupes,"
+        },
+        {
+          "source_id": "koch-massena-t5-p375-figures-v1",
+          "section": "p375",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 375 (transcribed from the page image)",
+          "quote": "une charge vigoureuse que le général Gardanne y fit faire les força successivement des postes retranchés et des maisons crénelées,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Ein äusserst kräftiges Feuer aus den österreichischen Schanzen an welchem sich auch die Geschütze Veronetta's betheiligten, hemmte das Vorrücken der Franzosen, die sich in dem sehr coupirten und bedeckten Terrain nur mit Hilfe des überlegenen Geschützfeuers aus der Festung behaupteten."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 90 (OCR page breaks; not checked against print)",
+          "quote": "Nur die Redoute hielt noch stand und fügte mit ihren 2 Geschützen dem Feinde beträchtlichen Schaden zu bis die Besatzung, voll- ständig umringt, die Waffen strecken musste."
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Le Castel Vecchio, flanqué de quatre tours avec fossés, et situé sur la rive droite à la tête du saillant de Campagnola, commandait la presqu'île"
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "et tout récemment le front qui fait face aux États autrichiens avait été mis en état de défense."
+        },
+        {
+          "source_id": "koch-massena-t5-p84-figures-v1",
+          "section": "p84",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 84 (transcribed from the page image)",
+          "quote": "Le seul bastion d'Espagne était resté intact dans la ville italienne, et des pièces de gros calibre y battaient la rive gauche de l'Adige."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 86 (OCR running heads; not checked against print)",
+          "quote": "L'artiU^ie placée aur la oourtîpQ du Castel Yecchio oontient Tennemi."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "verona-18-oct",
+          "locator": "Angeli (1897), Bd. III, p. 89 (OCR page breaks; not checked against print)",
+          "quote": "Kurz darauf eröffneten 15 schwere Geschütze vom Castel ein heftiges Granat- und Kartätschfeuer auf die Campagnola, welches die österreichischen Posten zurücktrieb und den Raum vor der Brücke frei hielt."
+        }
+      ],
+      "code": "both_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Koch's narrative of the dispositions, the crossing and the counterattack (t. V, pp. 85-88) and Angeli's (Bd. III, pp. 87, 89-91) were read only in the OCR; the reports Angeli cites (source note 52: Vukassovich's of 21 October, Major Geppert's and Captain Hundt's, Kriegsarchiv F. A. X) and Archduke Maximilian's diary; Masséna's own report of the action; Bodart's officer-loss table (not transcribed). Figures seen only in the OCR and not restated in values: the hours of the petard and of the St. Georger battalion's arrival; the numbers of voltigeur companies, line regiments and heavy guns in Angeli; the battalion numbers of Auffenberg's counterattack and of Kéler's flank attack; the bridge post; the redoubt's guns; Koch's number of Vukassovich's guns; Angeli's lengths of the peninsula in paces.",
+    "Most consequential gap: side B's strength in the action. Bodart prints none; Angeli gives the division's strength on 13 October over a 54 km front and the units at S. Giorgio and in Veronetta without a headcount, with Auffenberg's 4 battalions at 1931 men at the deployment; Koch gives companies and battalions. An Austrian return for 18 October in the Kriegsarchiv files Angeli cites (F. A. X) could close it.",
+    "Disputes kept as separate claims or recorded in them: side B's loss as 1,200 men with 800 prisoners and 7 guns (Bodart), 1,800 killed, wounded or prisoners with 7 guns and 18 caissons (Koch), 1,500 prisoners with 7 or 8 guns (Duhesme) or 1622 men at S. Giorgio and 76 at Veronetta with 4 guns and half a cavalry battery (Angeli); side A's loss as about 900 with 100 prisoners (Bodart) or 150 dead and 300 wounded (Koch, and Angeli citing Masséna); the garrison of the works (2 companies, Koch; the 1st battalion of Auffenberg, Angeli) and of Veronetta (8 battalions, Koch; troops of Hohenlohe and Coburg, Angeli in the OCR); the centre's march against Verdier (39 battalions and 24 squadrons, Koch; 41 battalions and 17 squadrons, Angeli); the Archduke's order not to occupy the works (Angeli's footnote) against their occupation in both accounts.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his 7 guns agree with Koch); Koch (a French history written from Masséna's papers and the war ministry's depots, printing the army's order of battle and Duhesme's report, an interested account); Angeli (an Austrian history written from the Kriegsarchiv files, an interested account commissioned by the Archduke's family; his source note 52 cites Koch, V, 83 (page number read in the OCR), and he gives side A's losses as Masséna's statement, so he is not independent of Koch on side A)."
+  ]
+}

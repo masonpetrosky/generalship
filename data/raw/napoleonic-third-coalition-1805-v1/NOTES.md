@@ -43,6 +43,17 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   "downscaled" in error; see the erratum in `docs/source-additions.md`.
 - In renderings of OCR passages, counts, times and dates are elided ('...') or marked '(OCR)'. Number
   words in the OCR ('trois', 'drei') count as OCR figures too.
+- Batch 1c offsets, checked on the images: Koch t. V (mmoiresdemassen00massgoog) n = printed + 10 (pp.
+  80-376); Angeli Bd. III (erzherzogcarlvo02angegoog) n = printed + 16 (pp. 73-183). All 29 images were
+  served larger than 1600 px and downscaled.
+- Angeli: the registered copy is erzherzogcarlvo02angegoog (University of Michigan). The plan table's
+  erzherzogcarlvo03carlgoog is another copy of Bd. III and was not used.
+- Page of a quote in the OCR selections: Koch's from the running heads; Angeli's from the section's first
+  page plus the Google watermark lines ('Digitized by VjOOQIC') before the quote, one per page end.
+  Confirm on the image when a figure matters.
+- Ordinals and number words in the OCR ('erste', 'einen', 'zweiten'; 'first') count as OCR figures. A
+  battle day read on a page image may be used in a value. Page numbers in Angeli's source notes are read
+  in the OCR and marked so wherever they are cited.
 
 ## Status
 
@@ -53,6 +64,10 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   (B364d), Ulm (B365a), Neresheim (B365b), Trochtelfingen (B365d) and Eschenau (B366a), drafted from Bodart,
   Alombert and Colin (t. II, t. III vols. 1 and 2) and Krauss; primary-verified. 100 records registered (the
   t. III vol. 2 OCR parent, three selections, 48 page images with figure transcriptions).
-- Next: Italy (B365c Verona, B367a Caldiero, B367b Pojano, B369b Castelfranco; Koch, Angeli), then Tyrol and
-  Vorarlberg (B368a Scharnitz, B368d Dornbirn) and the Danube and Moravia entries (B368b Mariazell, B368c
-  Dürnstein, B369a Ober-Hollabrunn, B369c Austerlitz, B370a Steken; Schönhals, Correspondance).
+- 2026-10-17, batch 1c: Italy, Verona (B365c), Caldiero (B367a), Pojano (B367b) and Castelfranco (B369b),
+  drafted from Bodart, Koch (t. V) and Angeli (Bd. III); primary-verified. 62 records registered (the two
+  OCR parents, two selections, 29 page images with figure transcriptions). Angeli's source notes cite
+  Koch's pages for all four actions, so the two are not independent there.
+- Next: Tyrol and Vorarlberg (B368a Scharnitz, B368d Dornbirn), then the Danube and Moravia entries (B368b
+  Mariazell, B368c Dürnstein, B369a Ober-Hollabrunn, B369c Austerlitz, B370a Steken; Schönhals,
+  Correspondance), then verify the group.

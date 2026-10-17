@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "battle_id": "B367b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Pojano entry (2 November 1805; Bodart prints the year as 1905, and the frame dates the entry 1805 by a recorded override) in cohort v1's third-coalition 1805 group: the action north of Verona in which side A's troops, sent by Masséna and Seras, cut off GM Hillinger's Austrian brigade and took its capitulation (Angeli's 'Gefecht bei Fojano'). Rosenberg had left the brigade behind when the Austrian army withdrew from Caldiero. The battle of Caldiero (B367a), the Austrian retreat and side A's pursuit of the main army are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) about 12,000 men under Marshal Masséna and side B (Austrian) about 4,000 men under GM Hillinger. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Neither figure is in the passages read: Angeli gives Hillinger's brigade as 7 battalions and 2 squadrons with no number of men (claim angeli-side-b), Koch gives it as 8 battalions and 4 squadrons and reports a figure of 7,000 men among patrol reports he calls exaggerated (claim koch-side-b), and neither gives side A a total (claims angeli-side-a and koch-side-a); the passages read do not show Bodart's basis. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (about 12,000 men) under Marshal Masséna over the Austrians (about 4,000 men) under GM Hillinger'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p367",
+          "locator": "Bodart (1908), p. 367",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Masséna über die Österreicher (ca. 4.000 M.) unter GM. Hillinger."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "angeli-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), its own figures in Angeli: after FML Prince Rosenberg's departure from the Monti Lessini, GM Hillinger stayed at S. Anna with 7 battalions and 2 squadrons and then received the task of demonstrating against Veronetta; he left 2 companies at S. Anna to cover the guns and train Rosenberg had left behind and advanced to the heights of Fojano. Angeli gives no number of men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, written from the Kriegsarchiv (his source note 75, read in the OCR, cites Major Geppert's report and Hillinger's own), read from the page image. The brigade was what Rosenberg left behind (claim side-b-objectives), so the force present at the start is tagged inherited; the 2 companies left at S. Anna were Hillinger's own detachment. Angeli's narrative of the battle of Caldiero, seen only in the OCR, has Hillinger stay with battalions in the position at S. Anna to mask Rosenberg's march to Velo. English renderings (ours): 'as already mentioned, after the departure of FML Prince Rosenberg from the Monti Lessini, GM Hillinger stayed with 7 battalions, 2 squadrons at S. Anna and then received the task of demonstrating against Veronetta'; 'he left 2 companies in S. Anna to cover the guns and train left behind by FML Rosenberg and advanced as far as the heights of Fojano, but in doing so did not observe the caution that the presence of considerable enemy detachments in front and on the right flank urgently demanded'; 'to mask this march GM Hillinger stayed behind with ... (OCR) battalions in the position at S. Anna' (OCR); note 75, 'report of General Staff Major Geppert to FML Zach; Arzignano, ... (OCR) November, ... (OCR) in the forenoon, F. A. XI, ... (OCR), and GM Hillinger's. Treviso, ... (OCR) November. F. A. XI, ... (OCR)' (OCR).",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Wie schon früher erwähnt, blieb nach dem Abmarsche FML. Fürst Rosenberg's aus den Monti Lessini, GM. Hillinger mit 7 Bataillonen, 2 Escadronen bei S. Anna und erhielt dann den Auftrag gegen Veronetta zu demonstriren."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "caldiero-31-oct",
+          "locator": "Angeli (1897), Bd. III, p. 129 (OCR page breaks; not checked against print)",
+          "quote": "Zur Maskirung dieses Marsches blieb GM. Hillinger mit 7 Bataillonen in der Stellung bei S. Anna zurück."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "source-notes-52-76",
+          "locator": "Angeli (1897), Bd. III, p. 247 (OCR page breaks; not checked against print)",
+          "quote": "75. Bericht des Generalstabs-Majors Geppert an FML. Zach; Arzignano, 2. November, 10 Uhr vormittags, F. A, XI, 16, und GM. Hillinger's. Treviso, 22. November. F. A. XI, 241."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Koch says Rosenberg's corps followed the withdrawal as far as Arzignano after leaving General Hillinger as rear guard with 8 battalions and 4 squadrons to make a demonstration on Veronetta, the better to mask its retreat. He calls the reports of side A's patrols that night exaggerated, and among the movements that followed from them Hillinger was marching on Veronetta at the head of 7,000 men. Hillinger left 2 companies of Auffenberg at Santa Anna, and to mask his retreat formed a screen with about a thousand men of the Banat.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page images. Koch gives no source for the 8 battalions and 4 squadrons, which differ from Angeli's 7 and 2 (claim angeli-side-b). The 7,000 stands in the sentence after his remark on the exaggerated patrol reports, among the movements that worried side A; it is read here as one of those reports, not a count. The brigade was the rear guard Rosenberg's corps left, so the force present at the start is tagged inherited. English renderings (ours): 'Rosenberg's corps followed this movement as far as Arzignano, after leaving General Hillinger as rear guard with 8 battalions and 4 squadrons to make a demonstration on Veronetta, the better to mask its retreat'; 'meanwhile the exaggerated reports of the patrols pushed out during the night along the whole line were hardly reassuring'; 'General Hillinger was marching on Veronetta at the head of 7,000 men'; 'meanwhile General Hillinger had advanced on Ca Albertini, after leaving 2 companies of Auffenberg at Santa Anna'; 'Hillinger, to mask his retreat, formed a screen with about a thousand men of the Banat, which the same day, unknown to us, rejoined the 2 companies of Auffenberg left in Santa Anna, and continued its retrograde movement with the artillery and baggage' (the subject of 'continued' may be the screen or Hillinger).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Le corps de Rosenberg suivit ce mouvement jusqu'à Arzignano, après avoir laissé en arrière-garde le général Hillinger avec 8 bataillons et 4 escadrons pour faire une démonstration sur Veronetta, afin de mieux masquer sa retraite."
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Cependant les rapports exagérés des patrouilles poussées durant la nuit sur toute la ligne étaient peu rassurants."
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "le général Hillinger marchait sur Veronetta à la tête de 7,000 hommes;"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Cependant le général Hillinger s'était avancé sur Ca Albertini, après avoir laissé 2 compagnies d'Auffenberg à Santa Anna."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Hillinger, pour masquer sa retraite, forma un rideau avec un millier d'hommes du Banat qui rejoignit le même jour à notre insu les 2 compagnies d'Auffenberg laissées dans Santa Anna, et continua son mouvement rétrograde avec l'artillerie et les bagages."
+        }
+      ]
+    },
+    {
+      "id": "angeli-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Angeli: Masséna directed General Solignac with 4 grenadier battalions into the Val Pantena, while Serras at the same time sent 6 companies and 2 squadrons from Parona in the same direction, cutting off the Austrian brigade's retreat; when Hillinger refused a second summons, 8 battalions and 14 squadrons advanced to the attack from all sides. Angeli gives no number of men.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page images; the next source note (76, read in the OCR) cites the journal of the imperial army in Italy, the Oesterreichische militärische Zeitschrift and a page of Koch's volume V (page number read in the OCR). The troops were sent against Hillinger for this action on Masséna's and Serras's orders, so the claim is tagged commander_created. English renderings (ours): 'disturbed by the heavy fire in his rear and the report of the repulsed attack, Masséna directed General Solignac at 10 in the morning with 4 grenadier battalions into the Val Pantena, while Serras at the same time sent 6 companies and 2 squadrons from Parona' (p. 149) 'in the same direction, whereby the Austrian brigade's retreat was completely blocked' (p. 150); 'when GM Hillinger nevertheless refused a second summons too, 8 battalions and 14 squadrons advanced from all sides to the attack'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Durch das heftige Feuer in seinem Rücken und die Meldung von dem abgeschlagenen Angriffe beunruhigt, dirigirte Masséna um 10 Uhr vormittags den General Solignac mit 4 Grenadier-Bataillonen in das Val Pantena, während Serras zur selben Zeit 6 Compagnien und 2 Escadronen von Parona"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "aus in gleicher Richtung vorsandte, wodurch der österreichischen Brigade der Rückzug vollkommen verlegt wurde."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Als GM. Hillinger gleichwohl auch eine zweite Aufforderung zurückwies, rückten 8 Bataillone und 14 Escadronen von allen Seiten zum Angriffe vor."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account: Koch says General Charpentier, chief of the general staff, had Hillinger attacked at once by the 22nd, which was at hand; General Verdier gathered all the men he met in the château San Felice and moved against the enemy; Seras detached 6 companies of voltigeurs and 2 squadrons to Parona and San Rocco; Masséna sent General Solignac into the val Pantena with 4 battalions of grenadiers, and Solignac attacked supported by General Charpentier with 2 regiments of dragoons and by Frégeville's cuirassier brigade. Koch gives no total. In his account of the day's pursuit the divisions of Verdier and Pully, with another whose name the OCR garbles, remained between Verona and Caldiero.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's history, written from Masséna's papers, read from the page images except the sentence on the divisions (OCR); the passages read do not say which troops of those divisions engaged beyond the units named. Most of the troops Koch names were sent against Hillinger for this action by Masséna, Charpentier and Seras, so the claim is tagged commander_created; the 22nd was at hand and Verdier gathered the men he found in the château. English renderings (ours): 'cut off by the French army, he was summoned; unable to believe himself completely abandoned, he disdainfully sent back the envoy, and General Charpentier, chief of the general staff, had him attacked at once by the 22nd, which was at hand'; 'at the sound of this check General Verdier, forgetting his wound, gathered all the men he met in the castle and moved against the enemy'; 'the alarm was short; Seras, informed of Hillinger's movement, had detached 6 companies of voltigeurs and 2 squadrons to Parona and San Rocco to follow the Austrians into the val Pantena'; '[the] marshal. At ten o'clock he ordered General Solignac to move into the val Pantena with 4 battalions of grenadiers, to envelop General Hillinger and summon him anew'; 'on the return of the envoy, who again brought back a negative answer, General Solignac attacked, supported by General Charpentier with 2 regiments of dragoons and by Frégeville's brigade of cuirassiers; then Hillinger capitulated'; 'the divisions Verdier, ... (OCR 'Sierm') and Pully remained between Verona and' (OCR).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Au bruit de cet échec, le général Verdier, oubliant sa blessure, réunit tous les hommes qu'il rencontre dans le château et se porte à l'ennemi."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "maréchal. A dix heures il ordonna au général Solignac de se porter dans le val Pantena avec 4 bataillons de grenadiers, pour envelopper le général Hillinger et lui faire une sommation nouvelle."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "Au retour du parlementaire qui rapportait encore une réponse négative, le général Solignac attaqua, soutenu par le général Charpentier avec 2 régiments de dragons et par la brigade de cuirassiers de Frégeville; alors Hillinger capitula."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "caldiero-30-oct-to-2-nov",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 107 (OCR running heads; not checked against print)",
+          "quote": "les divisions Yerdier, Sierm et Poily restèrent entre Yerona et"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Masséna as side A's commander and GM Hillinger as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both other accounts have Masséna send Solignac against Hillinger, with Charpentier, Verdier and Seras or Serras acting before him, and Hillinger command side B's brigade (claims side-a-command and side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p367",
+          "locator": "Bodart (1908), p. 367",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Masséna über die Österreicher (ca. 4.000 M.) unter GM. Hillinger."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A was under Masséna. In Koch its first moves were its subordinates': when Hillinger, cut off and summoned, sent the envoy back, General Charpentier, chief of the general staff, had him attacked at once by the 22nd, which was thrown back onto the breaches of the château San Felice; General Verdier, though wounded, gathered the men he met in the château and moved against the enemy; and Seras, informed of Hillinger's movement, had detached voltigeurs and squadrons to follow the Austrians into the val Pantena, whose appearance forced Hillinger to fall back on Ca Albertini. Disturbed by the firing in his rear and the report of the repulsed attack (Angeli; Koch: the retreat of the 22nd and the firing in the rear), Masséna sent Solignac with 4 grenadier battalions into the Val Pantena (both), to envelop Hillinger and summon him anew (Koch); when Hillinger refused, Solignac attacked, supported by Charpentier with dragoons and by Frégeville's cuirassiers (Koch).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as both accounts give them, read from the page images. Koch names Charpentier as the officer who ordered the first attack and Masséna as the one who sent Solignac; Angeli names Masséna and Serras. English renderings (ours): Koch, as in claim koch-side-a; 'this brave regiment fell on the enemy without counting him; but, too inferior in number, it was thrown back onto the breaches of the castle San Felice'; 'the appearance of these troops forced General Hillinger to retreat on Ca Albertini'; 'the retreat of the 22nd and the fire heard in the rear gave the' (p. 108) 'marshal a moment's anxiety. At ten o'clock he ordered General Solignac ...' (p. 109); Angeli, as in claim angeli-side-a.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Ce brave régiment aborda l'ennemi sans le compter; mais, trop inférieur en nombre, il fut rejeté sur les brèches du château San Felice."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Au bruit de cet échec, le général Verdier, oubliant sa blessure, réunit tous les hommes qu'il rencontre dans le château et se porte à l'ennemi."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'apparition de ces troupes obligea le général Hillinger à battre en retraite sur Ca Albertini."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "La retraite du 22e et le feu qui se faisait entendre sur les derrières donnèrent un instant de l'inquiétude au"
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "maréchal. A dix heures il ordonna au général Solignac de se porter dans le val Pantena avec 4 bataillons de grenadiers, pour envelopper le général Hillinger et lui faire une sommation nouvelle."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "Au retour du parlementaire qui rapportait encore une réponse négative, le général Solignac attaqua, soutenu par le général Charpentier avec 2 régiments de dragons et par la brigade de cuirassiers de Frégeville; alors Hillinger capitula."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Durch das heftige Feuer in seinem Rücken und die Meldung von dem abgeschlagenen Angriffe beunruhigt, dirigirte Masséna um 10 Uhr vormittags den General Solignac mit 4 Grenadier-Bataillonen in das Val Pantena, während Serras zur selben Zeit 6 Compagnien und 2 Escadronen von Parona"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "GM Hillinger commanded side B's brigade, left behind by Rosenberg. Without precise knowledge of the events at Caldiero, he wanted to do his utmost to ease the main army's fight: he left 2 companies at S. Anna and advanced to the heights of Fojano, without the caution that the presence of considerable enemy detachments in front and on his right flank urgently demanded (Angeli). He refused a summons to surrender (Angeli: made on 1 November; Koch: cut off and summoned, unable to believe himself completely abandoned, he disdainfully sent the envoy back), awaited the attack on 2 November standing fast and repulsed it. Rosenberg's order to fall back on Ala arrived shortly afterwards, when it could no longer be carried out (Angeli); Koch says Hillinger received at nine in the morning the order to withdraw in all haste to Ala by Santa Anna and the val Freddo to join Hiller, and formed a screen of about a thousand men of the Banat to mask his retreat. He refused a second summons; his troops fought on until 4 in the afternoon, and when 400 men covered the field and ammunition began to run short he accepted the capitulation offered him for the third time (Angeli).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions at the engagement as both accounts give them, read from the page images. Angeli says Hillinger's conduct was not above reproach tactically; that is his judgment (claim bodart-winner). English renderings (ours): Angeli, 'without precise knowledge of the events at Caldiero, he wanted to do his utmost to ease the main army's fight'; as in claim angeli-side-b for the 2 companies and the heights of Fojano; 'notwithstanding this most dangerous situation GM Hillinger thought of no retreat, but firmly refused the summons to surrender made still on 1 November and on 2 November awaited the attack standing fast'; 'he did indeed repulse it bloodily, but when shortly afterwards the order came from FML Prince Rosenberg to go back to Ala and either join the army by forced marches through the Val Sugana at Bassano or join FML Hiller, carrying it out was already impossible. (75.)'; Koch, as in claim koch-side-a for the summons; 'his situation was becoming more and more critical when he received at nine in the morning the order to withdraw in all haste to Ala by Santa Anna and the val Freddo in order to join General Hiller's corps'; as in claim koch-side-b for the screen; Angeli, as in claim angeli-side-a for the second summons; 'until 4 in the afternoon the imperial troops fought the hopeless fight undaunted'; 'only when 400 men covered the field and ammunition began to run short did GM Hillinger accept the capitulation offered him for the third time; 1800 men laid down their arms and became prisoners of war, the officers released on their word of honour'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Ohne genaue Kenntniss von den Ereignissen bei Caldiero, wollte derselbe sein Möglichstes thun, der Haupt-Armee den Kampf zu erleichtern."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Ungeachtet dieser höchst gefährlichen Situation dachte GM. Hillinger an keinen Rückzug, sondern wies die noch am 1. November gestellte Aufforderung sich zu ergeben, entschieden ab und erwartete am 2. November stehenden Fusses den Angriff."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er wies denselben wohl blutig zurück, als aber kurz darauf von Seite FML. Fürst Rosenberg's der Befehl einlangte, nach Ala zurückzugehen und entweder in Eilmärschen durch das Val Sugana bei Bassano zur Armee zu stossen oder sich an FML. Hiller anzuschliessen, war die Ausführung bereits ein Ding der Unmöglichkeit. (75.)"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Sa situation devenait de plus en plus critique, lorsqu'il reçut à neuf heures du matin l'ordre de se retirer en toute diligence à Ala par Santa Anna et le val Freddo afin de se réunir au corps du général Hiller."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Hillinger, pour masquer sa retraite, forma un rideau avec un millier d'hommes du Banat qui rejoignit le même jour à notre insu les 2 compagnies d'Auffenberg laissées dans Santa Anna, et continua son mouvement rétrograde avec l'artillerie et les bagages."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Als GM. Hillinger gleichwohl auch eine zweite Aufforderung zurückwies, rückten 8 Bataillone und 14 Escadronen von allen Seiten zum Angriffe vor."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Bis 4 Uhr nachmittags führten die kaiserlichen Truppen unverzagt den aussichtslosen Kampf."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Erst als 400 Mann den Wahlplatz deckten und die Munition zu fehlen begann, nahm GM. Hillinger die ihm zum drittenmale angebotene Capitulation an, 1800 Mann streckten die Waffen und wurden kriegsgefangen, die Officiere auf Ehrenwort entlassen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Marshal Masséna over side B (Austrian) under GM Hillinger. Both other accounts end the action with Hillinger's capitulation (Koch; Angeli: he accepted the capitulation offered for the third time). Angeli judges that, though Hillinger's conduct was not above all reproach tactically, he gloriously preserved the honour of arms and considerably hindered the pursuit of the imperial army at its most dangerous stage; the sentence before his section on the action says Masséna's intention of following the Austrian army was held up for hours by an incident lying quite apart from the great events.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending (page images, except Angeli's sentences on Masséna's intention and the delay, OCR). No source read gives a different result. Angeli's verdict on Hillinger and on the delay is his own judgment, not a measured effect; his section 'Gefecht bei Fojano' follows the sentence on the incident directly. English renderings (ours): Bodart, as in claim bodart-strength; Koch, 'then Hillinger capitulated'; Angeli, as in claim side-b-command for the capitulation; 'even if GM Hillinger's conduct in tactical respects was not above all reproach, the merit remains his beyond dispute of having gloriously preserved the honour of arms and considerably hindered the pursuit of the imperial army in its most dangerous stage. (76.)'; 'unable to hinder his march, he wanted to lose no moment in at least getting on his heels again and hampering his already extremely difficult movement as far as he could' (OCR); 'to the advantage of the imperial army, however, this intention too was held up for hours by an' (p. 148, OCR) 'incident lying quite apart from the great events' (p. 149, OCR); 'action at Fojano' (p. 149).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p367",
+          "locator": "Bodart (1908), p. 367",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Masséna über die Österreicher (ca. 4.000 M.) unter GM. Hillinger."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "Au retour du parlementaire qui rapportait encore une réponse négative, le général Solignac attaqua, soutenu par le général Charpentier avec 2 régiments de dragons et par la brigade de cuirassiers de Frégeville; alors Hillinger capitula."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Erst als 400 Mann den Wahlplatz deckten und die Munition zu fehlen begann, nahm GM. Hillinger die ihm zum drittenmale angebotene Capitulation an, 1800 Mann streckten die Waffen und wurden kriegsgefangen, die Officiere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Mochte auch das Verhalten GM. Hillinger's in taktischer Beziehung nicht über jeden Tadel erhaben sein, so bleibt ihm doch unbestritten das Verdienst, die Waffenehre glänzend gewahrt und die Verfolgung der kaiserlichen Armee in dem gefährlichsten Stadium beträchtlich gehemmt zu haben. (76.)"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 148 (OCR page breaks; not checked against print)",
+          "quote": "Unvermögend dessen Marsch zu hindern, wollte er keinen Augenblick verlieren sich wenigstens ihm wieder an die Fersen zu heften und dessen ohnehin äusserst schwierige Bewegung nach Kräften zu hemmen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 148 (OCR page breaks; not checked against print)",
+          "quote": "Zum Vortheile für die k. k. Armee wurde aber auch dieses Vorhaben durch einen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 149 (OCR page breaks; not checked against print)",
+          "quote": "ganz abseits der grossen Ereignisse liegenden Zwischenfall auf Stunden zurückgehalten."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Gefecht bei Fojano."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as 600 men and side B's as 400 killed and wounded and 1,800 prisoners, together 2,200 men.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. His figures equal Angeli's 400 men on the field, 1800 prisoners and about 600 French dead and wounded (claims side-b-losses-reported and side-a-losses-reported). English rendering (ours): 'French loss: 600 men | Austrian loss: 400 men killed and wounded, 1,800 [men] prisoners, together 2,200 men'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p367",
+          "locator": "Bodart (1908), p. 367",
+          "quote": "Franz. Verl.: 600 M. | Österr. Verl.: 400 M. tot u. verw. 1.800 „ Gefg.) zus. 2.200 M."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Angeli says that when Hillinger capitulated 400 men covered the field, 1800 men laid down their arms and became prisoners of war, and the officers were released on their word of honour; only a battalion of the 2nd Banal Grenz regiment got through to S. Anna and, with the 2 companies of Auffenberg infantry there and the guns and train, reached Ala. Koch says Hillinger and 70 officers were sent back on parole but 5,000 men remained prisoners, and that the screen of about a thousand men of the Banat rejoined the 2 companies at Santa Anna the same day, unknown to side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. Koch's 5,000 prisoners are far more than Angeli's 1800 and Bodart's 1,800 (claim bodart-losses), and more than Bodart's strength of about 4,000 for side B (claim bodart-strength); the passages read do not explain the difference. Both accounts have a body of side B escape to S. Anna and join the 2 companies there, a battalion of the 2nd Banal Grenz regiment in Angeli and about a thousand men of the Banat in Koch; the passages read do not say whether these are the same troops. English renderings (ours): Angeli, as in claim side-b-command for the capitulation; 'only one battalion of the 2nd Banal Grenz regiment managed to get through to S. Anna and, with the 2 companies of Auffenberg infantry standing there, together with guns and train, to reach Ala'; Koch, 'this general and 70 officers were sent back on parole, but 5,000 men remained prisoners'; as in claim koch-side-b for the screen.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Erst als 400 Mann den Wahlplatz deckten und die Munition zu fehlen begann, nahm GM. Hillinger die ihm zum drittenmale angebotene Capitulation an, 1800 Mann streckten die Waffen und wurden kriegsgefangen, die Officiere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Nur einem Bataillon vom 2. Banal-Grenz-Regimente gelang es nach S. Anna durchzukommen und mit den dort stehenden 2 Compagnien Auffenberg-Infanterie, sammt Geschütz und Train Ala zu erreichen."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "Ce général et 70 officiers furent renvoyés sur parole, mais 5,000 hommes demeurèrent prisonniers."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Hillinger, pour masquer sa retraite, forma un rideau avec un millier d'hommes du Banat qui rejoignit le même jour à notre insu les 2 compagnies d'Auffenberg laissées dans Santa Anna, et continua son mouvement rétrograde avec l'artillerie et les bagages."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts: Angeli says the French paid for their success with about 600 dead and wounded. Koch gives no figure in the passages read; he says the 22nd, too inferior in number, was thrown back onto the breaches of the château San Felice.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Angeli's figure is side B's account of side A's loss, read from the page image; his source note for it (76, read in the OCR) cites the journal of the imperial army in Italy (Kriegsarchiv), the Oesterreichische militärische Zeitschrift and a page of Koch's volume V (page number read in the OCR), and Bodart's 600 equals it. English renderings (ours): Angeli, 'the French paid for their success with about 600 dead and wounded. (76.)'; note 76, 'Journal of the imperial army in Italy. F. A. XIII, ... (OCR). Oesterr. milit. Zeitschrift. ... (OCR). Masséna, V, ... (OCR)' (OCR); Koch, as in claims koch-side-a and side-a-command for the 22nd.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Die Franzosen zahlten ihren Erfolg mit ungefähr 600 Todten und Verwundeten. (76.)"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "source-notes-52-76",
+          "locator": "Angeli (1897), Bd. III, p. 247 (OCR page breaks; not checked against print)",
+          "quote": "76. Journal der k. k. Armee in Italien. F. A. XIII, 126. Oesterr. milit. Zeitschrift. 1823. V. Mass^na, V, 108."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Ce brave régiment aborda l'ennemi sans le compter; mais, trop inférieur en nombre, il fut rejeté sur les brèches du château San Felice."
+        }
+      ]
+    },
+    {
+      "id": "pojano-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Pojano as a village in Venetia north of Verona. Angeli has Hillinger advance from S. Anna to the heights of Fojano; after Masséna's retrograde movement on 1 November and the massing of the French army on the spurs of the Monti Lessini, Hillinger lost all connection to his left as well, while Serras threatened the rear communications from the Adige valley, and the troops sent into the Val Pantena and from Parona blocked his retreat. Koch names Ca Albertini, where Hillinger advanced and later fell back, the château San Felice, onto whose breaches the 22nd was thrown back, Parona and San Rocco, by which Seras's troops went to follow the Austrians into the val Pantena, and Hillinger's ordered line of retreat to Ala by Santa Anna and the val Freddo.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and the two accounts, read from the page images; no map was inspected. Koch does not name Pojano or Fojano in the passages read, and the passages do not say how the heights of Fojano, Ca Albertini, the château San Felice and the val Pantena lie to one another. English renderings (ours): Bodart, 'village in Upper Italy, Venetia, north of Verona'; Angeli, as in claim angeli-side-b for the heights of Fojano; 'as a result of Masséna's retrograde movement on 1 November and the massing of the French army on the spurs of the Monti Lessini, GM Hillinger lost all connection to the left as well, while Serras threatened the rear communications from the Adige valley'; as in claim angeli-side-a for the Val Pantena and Parona; Koch, as in claims koch-side-b, koch-side-a, side-a-command and side-b-command for Ca Albertini, the castle San Felice, Parona, San Rocco, the val Pantena, Santa Anna and the val Freddo.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p367",
+          "locator": "Bodart (1908), p. 367",
+          "quote": "(Dorf in Oberitalien, Venetien, nördlich von Verona)."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "In Folge der rückgängigen Bewegung Masséna's am 1. November und der Massirung der französischen Armee auf den Ausläufern der Monti Lessini, verlor GM. Hillinger auch nach links jede Verbindung, während Serras die rückwärtigen Communicationen vom Etsch-Thale her bedrohte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "aus in gleicher Richtung vorsandte, wodurch der österreichischen Brigade der Rückzug vollkommen verlegt wurde."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Cependant le général Hillinger s'était avancé sur Ca Albertini, après avoir laissé 2 compagnies d'Auffenberg à Santa Anna."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Ce brave régiment aborda l'ennemi sans le compter; mais, trop inférieur en nombre, il fut rejeté sur les brèches du château San Felice."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'apparition de ces troupes obligea le général Hillinger à battre en retraite sur Ca Albertini."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Sa situation devenait de plus en plus critique, lorsqu'il reçut à neuf heures du matin l'ordre de se retirer en toute diligence à Ala par Santa Anna et le val Freddo afin de se réunir au corps du général Hiller."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Hillinger left 2 companies at S. Anna to cover the guns and train Rosenberg had left behind there; by the end of the fight his brigade's ammunition was beginning to run short; the battalion that got through reached Ala with the 2 companies and the guns and train (Angeli). In Koch the screen that rejoined the 2 companies at Santa Anna continued its retrograde movement with the artillery and baggage (the sentence can also be read with Hillinger as the subject).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images). No ammunition or ration return was inspected. English renderings (ours): Angeli, as in claim angeli-side-b for the guns and train; as in claim side-b-command for the ammunition; as in claim side-b-losses-reported for the escape; Koch, as in claim koch-side-b for the artillery and baggage.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Erst als 400 Mann den Wahlplatz deckten und die Munition zu fehlen begann, nahm GM. Hillinger die ihm zum drittenmale angebotene Capitulation an, 1800 Mann streckten die Waffen und wurden kriegsgefangen, die Officiere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Nur einem Bataillon vom 2. Banal-Grenz-Regimente gelang es nach S. Anna durchzukommen und mit den dort stehenden 2 Compagnien Auffenberg-Infanterie, sammt Geschütz und Train Ala zu erreichen."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Hillinger, pour masquer sa retraite, forma un rideau avec un millier d'hommes du Banat qui rejoignit le même jour à notre insu les 2 compagnies d'Auffenberg laissées dans Santa Anna, et continua son mouvement rétrograde avec l'artillerie et les bagages."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information before the action was poor. Koch calls the reports of side A's patrols, pushed out along the whole line in the night the Austrian columns withdrew, exaggerated; among the movements that followed from them Hillinger was marching on Veronetta at the head of 7,000 men and Rosenberg was threatening side A's left. Koch asks whether the Archduke's movements were meant to mask his retreat, make a diversion beyond the Adige, seize Veronetta, isolate Seras to crush him or force Masséna to recross the river: Masséna's uncertainty was complete, he had no news of the Grande Armée on the Danube, and prudence led him to concentrate his army and reinforce the garrison of Veronetta. Angeli says Serras, misled by Hillinger's advance, had reported a movement of Rosenberg's against Veronetta. The care with which the Archduke surrounded his departure from Caldiero fully achieved its aim, and Masséna was told of it only in the forenoon (Angeli); Koch says he had notice of the Austrian movements too late to put serious obstacles in their way. Seras was informed of Hillinger's movement and sent troops after him (Koch). The firing in his rear and the report of the repulsed attack disturbed Masséna (Angeli; Koch: the retreat of the 22nd and the firing in the rear gave him a moment's anxiety), and he then sent Solignac. The screen of Banat men rejoined the 2 companies at Santa Anna unknown to side A (Koch).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as both accounts give it (page images, except Koch's sentences on Masséna's dispositions and on when he had notice of the Austrian movements, and Angeli's on Serras's report, on the Archduke's precautions and on when Masséna was told, all OCR; the hour, date and ordinal in Angeli's sentence are not restated). English renderings (ours): Koch, as in claim koch-side-b for the reports and the 7,000; 'Prince Rosenberg was threatening our left'; 'was the aim of all these movements of the Archduke to mask his retreat, or to make a diversion beyond the Adige, seize Veronetta, isolate Seras to crush him, or finally to force the marshal to recross the river?'; 'Masséna's uncertainty was complete; he had no news of the Grande Armée on the Danube'; 'and prudence bade him leave nothing to chance. He therefore concentrated his army, placed his reserve at San Martino, reinforced the garrison of Veronetta and held himself ready to act as circumstances required' (OCR); 'however vigilant our outposts were, Masséna had notice of these movements too late to put serious obstacles in their way' (OCR); Angeli, 'from the left wing Serras, misled by GM Hillinger's advance, reported a movement of Rosenberg's against Veronetta' (OCR); 'the caution with which Archduke Charles surrounded his departure from Caldiero fully achieved the intended purpose' (OCR); 'only at ... (OCR) in the forenoon of ... (OCR) November, when the main body of the Austrian army had long since reached the first (OCR) stage, was the departure of his opponent reported to Masséna' (OCR); as in claim angeli-side-a for the fire in his rear; Koch, as in claim koch-side-a for Seras; as in claim side-a-command for the marshal's anxiety; as in claim koch-side-b for the screen.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Cependant les rapports exagérés des patrouilles poussées durant la nuit sur toute la ligne étaient peu rassurants."
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "le général Hillinger marchait sur Veronetta à la tête de 7,000 hommes;"
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "le prince de Rosenberg menaçait notre gauche,"
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Le but de tous ces mouvements de l'Archiduc était-il de masquer sa retraite ou bien d'opérer une diversion au delà de l'Adige, de s'emparer de Veronetta, d'isoler Seras afin de l'écraser, ou enfin de forcer le maréchal à repasser le fleuve?"
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "L'incertitude de Massena était complète; il n'avait aucune nouvelle de la grande armée sur le Danube,"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "caldiero-30-oct-to-2-nov",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 106 (OCR running heads; not checked against print)",
+          "quote": "et la prudence lai commandait de ne rien donner au hasard. Il conœntra donc son armée, plaça sa réserve à San Martino, renforça la garnison de Yeronotta et se tint prêt à agir suivant les circonstances."
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "caldiero-30-oct-to-2-nov",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 106 (OCR running heads; not checked against print)",
+          "quote": "Quelle que fftt la vigilance de nos avant-postes, Mas- sena rat avis de ces mouvements trop tard pour y mettre de sérieux obstacles."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "caldiero-31-oct",
+          "locator": "Angeli (1897), Bd. III, p. 133 (OCR page breaks; not checked against print)",
+          "quote": "Vom linken Flügel meldete Serras, irregeführt durch den Vormarsch GM. Hillinger's, eine Bewegung Rosenberg's gegen Veronetta,"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 148 (OCR page breaks; not checked against print)",
+          "quote": "Die Vorsicht mit welcher Erzherzog Carl seinen Ab- marsch von Caldiero umgab, erreichte vollständig den an- gestrebten Zweck;"
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 148 (OCR page breaks; not checked against print)",
+          "quote": "erst um 9 Uhr vormittags des 2. November, als das Gros der österreichischen Armee längst schon die erste Etappe erreicht hatte, wurde Mass^na der Abzug seines Gegners gemeldet."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Durch das heftige Feuer in seinem Rücken und die Meldung von dem abgeschlagenen Angriffe beunruhigt, dirigirte Masséna um 10 Uhr vormittags den General Solignac mit 4 Grenadier-Bataillonen in das Val Pantena, während Serras zur selben Zeit 6 Compagnien und 2 Escadronen von Parona"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "La retraite du 22e et le feu qui se faisait entendre sur les derrières donnèrent un instant de l'inquiétude au"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Hillinger, pour masquer sa retraite, forma un rideau avec un millier d'hommes du Banat qui rejoignit le même jour à notre insu les 2 compagnies d'Auffenberg laissées dans Santa Anna, et continua son mouvement rétrograde avec l'artillerie et les bagages."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Hillinger acted without precise knowledge of the events at Caldiero (Angeli). After Masséna's retrograde movement and the massing of the French army on the spurs of the Monti Lessini he lost all connection to his left as well (Angeli); cut off, he could not believe himself completely abandoned (Koch). Rosenberg's order to fall back on Ala reached him shortly after he had repulsed the first attack, when it could no longer be carried out (Angeli); Koch says he received the order to withdraw at nine in the morning.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it, read from the page images. English renderings (ours): Angeli, as in claim side-b-command for his lack of knowledge and Rosenberg's order; as in claim pojano-ground for the lost connection; Koch, as in claim koch-side-a for 'unable to believe himself completely abandoned'; as in claim side-b-command for the order received at nine.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Ohne genaue Kenntniss von den Ereignissen bei Caldiero, wollte derselbe sein Möglichstes thun, der Haupt-Armee den Kampf zu erleichtern."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "In Folge der rückgängigen Bewegung Masséna's am 1. November und der Massirung der französischen Armee auf den Ausläufern der Monti Lessini, verlor GM. Hillinger auch nach links jede Verbindung, während Serras die rückwärtigen Communicationen vom Etsch-Thale her bedrohte."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er wies denselben wohl blutig zurück, als aber kurz darauf von Seite FML. Fürst Rosenberg's der Befehl einlangte, nach Ala zurückzugehen und entweder in Eilmärschen durch das Val Sugana bei Bassano zur Armee zu stossen oder sich an FML. Hiller anzuschliessen, war die Ausführung bereits ein Ding der Unmöglichkeit. (75.)"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Sa situation devenait de plus en plus critique, lorsqu'il reçut à neuf heures du matin l'ordre de se retirer en toute diligence à Ala par Santa Anna et le val Freddo afin de se réunir au corps du général Hiller."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Masséna, unable to hinder the Austrian army's march, wanted to lose no moment in at least getting on its heels again and hampering its movement (Angeli). Against Hillinger, Seras sent troops to follow the Austrians into the val Pantena, and Masséna sent Solignac to envelop Hillinger and summon him anew (Koch).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders from Angeli (OCR) and Koch (page images). English renderings (ours): Angeli, as in claim bodart-winner for the pursuit; Koch, as in claim koch-side-a for Seras's detachment and Solignac's orders.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "retreat-and-pojano",
+          "locator": "Angeli (1897), Bd. III, p. 148 (OCR page breaks; not checked against print)",
+          "quote": "Unvermögend dessen Marsch zu hindern, wollte er keinen Augenblick verlieren sich wenigstens ihm wieder an die Fersen zu heften und dessen ohnehin äusserst schwierige Bewegung nach Kräften zu hemmen."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "maréchal. A dix heures il ordonna au général Solignac de se porter dans le val Pantena avec 4 bataillons de grenadiers, pour envelopper le général Hillinger et lui faire une sommation nouvelle."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Hillinger's task was set from above. Koch says Rosenberg's corps left him as rear guard to make a demonstration on Veronetta, the better to mask its retreat. Angeli says that after Rosenberg's departure from the Monti Lessini Hillinger stayed at S. Anna and then received the task of demonstrating against Veronetta; his narrative of the battle of Caldiero, seen only in the OCR, has Rosenberg order Hillinger to advance on Ca Albertina to draw the enemy's attention away from the division's direction of march. Hillinger himself wanted to do his utmost to ease the main army's fight (Angeli). The later order was to fall back on Ala and either join the army through the Val Sugana at Bassano or join Hiller (Angeli; Koch: to withdraw to Ala and join Hiller's corps).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as both accounts give them (page images except Rosenberg's order, OCR, whose date, hour and number of battalions are not restated). The demonstration was ordered from above, so the claim is tagged inherited. English renderings (ours): Koch, as in claim koch-side-b for the rear guard; Angeli, as in claim angeli-side-b for the task; 'from Chiesa nuova he had sent GM Hillinger at ... (OCR) in the evening the order to advance early in the morning of ... (OCR) November with ... (OCR) Grenz battalions on Ca Albertina, to draw the enemy's attention away from the division's direction of march' (OCR); as in claim side-b-command for his own aim and for the order to fall back; Koch, as in claim side-b-command for the order.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Le corps de Rosenberg suivit ce mouvement jusqu'à Arzignano, après avoir laissé en arrière-garde le général Hillinger avec 8 bataillons et 4 escadrons pour faire une démonstration sur Veronetta, afin de mieux masquer sa retraite."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Wie schon früher erwähnt, blieb nach dem Abmarsche FML. Fürst Rosenberg's aus den Monti Lessini, GM. Hillinger mit 7 Bataillonen, 2 Escadronen bei S. Anna und erhielt dann den Auftrag gegen Veronetta zu demonstriren."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "caldiero-31-oct",
+          "locator": "Angeli (1897), Bd. III, p. 129 (OCR page breaks; not checked against print)",
+          "quote": "Von Chiesa nuova aus hatte er um 5 Uhr abends an GM. Hillinger den Befehl abgehen lassen, früh- morgens des I. November mit 6 Grenz-Bataillonen auf Ca Albertina vorzugehen, um die Aufmerksamkeit des Gegners von der Marschrichtung der Division abzuziehen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Ohne genaue Kenntniss von den Ereignissen bei Caldiero, wollte derselbe sein Möglichstes thun, der Haupt-Armee den Kampf zu erleichtern."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er wies denselben wohl blutig zurück, als aber kurz darauf von Seite FML. Fürst Rosenberg's der Befehl einlangte, nach Ala zurückzugehen und entweder in Eilmärschen durch das Val Sugana bei Bassano zur Armee zu stossen oder sich an FML. Hiller anzuschliessen, war die Ausführung bereits ein Ding der Unmöglichkeit. (75.)"
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Sa situation devenait de plus en plus critique, lorsqu'il reçut à neuf heures du matin l'ordre de se retirer en toute diligence à Ala par Santa Anna et le val Freddo afin de se réunir au corps du général Hiller."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. In Koch, Charpentier had Hillinger attacked at once by the 22nd, which was thrown back; Solignac, sent to envelop Hillinger, attacked when the new summons was refused, supported by dragoons and cuirassiers, and Hillinger capitulated. In Angeli, Hillinger awaited the attack on 2 November standing fast and repulsed it, and after he refused a second summons 8 battalions and 14 squadrons advanced to the attack from all sides. Side B's earlier advance to the heights of Fojano (Angeli) and on Ca Albertini (Koch) was the demonstration against Veronetta it had been ordered to make.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side A attack Hillinger's brigade, and Angeli says the brigade awaited the attack standing fast, so the code is A_attacked. Side B's advance was a demonstration ordered from above, and no passage read has it attack side A's positions; in Koch the 22nd attacked it and was thrown back onto the château's breaches. Side A's attacks were ordered by Charpentier, chief of the general staff, and by Masséna through Solignac (claim side-a-command), so the posture is tagged commander_created. English renderings (ours): Koch, as in claims koch-side-a and side-a-command; Angeli, as in claims side-b-command and angeli-side-a; the demonstration as in claims angeli-side-b and koch-side-b.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Ce brave régiment aborda l'ennemi sans le compter; mais, trop inférieur en nombre, il fut rejeté sur les brèches du château San Felice."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "maréchal. A dix heures il ordonna au général Solignac de se porter dans le val Pantena avec 4 bataillons de grenadiers, pour envelopper le général Hillinger et lui faire une sommation nouvelle."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "Au retour du parlementaire qui rapportait encore une réponse négative, le général Solignac attaqua, soutenu par le général Charpentier avec 2 régiments de dragons et par la brigade de cuirassiers de Frégeville; alors Hillinger capitula."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Ungeachtet dieser höchst gefährlichen Situation dachte GM. Hillinger an keinen Rückzug, sondern wies die noch am 1. November gestellte Aufforderung sich zu ergeben, entschieden ab und erwartete am 2. November stehenden Fusses den Angriff."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p150-figures-v1",
+          "section": "p150",
+          "locator": "Angeli (1897), Bd. III, p. 150 (transcribed from the page image)",
+          "quote": "Als GM. Hillinger gleichwohl auch eine zweite Aufforderung zurückwies, rückten 8 Bataillone und 14 Escadronen von allen Seiten zum Angriffe vor."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Wie schon früher erwähnt, blieb nach dem Abmarsche FML. Fürst Rosenberg's aus den Monti Lessini, GM. Hillinger mit 7 Bataillonen, 2 Escadronen bei S. Anna und erhielt dann den Auftrag gegen Veronetta zu demonstriren."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "koch-massena-t5-p105-figures-v1",
+          "section": "p105",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 105 (transcribed from the page image)",
+          "quote": "Le corps de Rosenberg suivit ce mouvement jusqu'à Arzignano, après avoir laissé en arrière-garde le général Hillinger avec 8 bataillons et 4 escadrons pour faire une démonstration sur Veronetta, afin de mieux masquer sa retraite."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Cependant le général Hillinger s'était avancé sur Ca Albertini, après avoir laissé 2 compagnies d'Auffenberg à Santa Anna."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read place side B on the heights of Fojano (Angeli) and at Ca Albertini (Koch), with 2 companies at S. Anna, and side A's men in the château San Felice, Seras's detachment sent by Parona and San Rocco and Solignac's column sent into the val Pantena; they name no works from which side B fought. The one work named is the château San Felice: Koch says the 22nd, too inferior in number, was thrown back onto its breaches, and Verdier gathered the men he met in the château and moved against the enemy; he does not say either side fought from it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code none_named: no passage read has either side fight from works. The castle's breaches are named only as the place onto which side A's beaten regiment was thrown back, and the castle as the place where Verdier gathered men before moving against the enemy, so they are recorded here and not coded as side A fighting from works. none_named reports the passages read, not proof that no works existed. English renderings (ours): Angeli, as in claim angeli-side-b for the heights of Fojano and S. Anna; Koch, as in claims koch-side-b and side-a-command for Ca Albertini, the 22nd and the castle; as in claim koch-side-a for the 22nd, Verdier, Seras and Solignac.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p149-figures-v1",
+          "section": "p149",
+          "locator": "Angeli (1897), Bd. III, p. 149 (transcribed from the page image)",
+          "quote": "Er liess 2 Compagnien zur Bedeckung des von FML. Rosenberg zurückgelassenen Geschützes und Trains in S. Anna und rückte bis auf die Höhen von Fojano vor, beobachtete aber hiebei nicht jene Vorsicht, welche die Anwesenheit bedeutender feindlicher Abtheilungen in Front und rechter Flanke dringend forderte."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Cependant le général Hillinger s'était avancé sur Ca Albertini, après avoir laissé 2 compagnies d'Auffenberg à Santa Anna."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Coupé par l'armée française, il fut sommé; ne pouvant se croire abandonné complétement, il renvoya dédaigneusement le parlementaire, et le général Charpentier, chef de l'état-major général, le fit attaquer sur-le-champ par le 22e qui se trouvait sous sa main."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Ce brave régiment aborda l'ennemi sans le compter; mais, trop inférieur en nombre, il fut rejeté sur les brèches du château San Felice."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "Au bruit de cet échec, le général Verdier, oubliant sa blessure, réunit tous les hommes qu'il rencontre dans le château et se porte à l'ennemi."
+        },
+        {
+          "source_id": "koch-massena-t5-p108-figures-v1",
+          "section": "p108",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 108 (transcribed from the page image)",
+          "quote": "L'alerte dura peu; Seras, informé du mouvement d'Hillinger, avait détaché 6 compagnies de voltigeurs et 2 escadrons sur Parona et San Rocco pour suivre les Autrichiens dans le val Pantena."
+        },
+        {
+          "source_id": "koch-massena-t5-p109-figures-v1",
+          "section": "p109",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 109 (transcribed from the page image)",
+          "quote": "maréchal. A dix heures il ordonna au général Solignac de se porter dans le val Pantena avec 4 bataillons de grenadiers, pour envelopper le général Hillinger et lui faire une sommation nouvelle."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Koch's p. 108 before the Hillinger passage (the defence of Vicenza; not transcribed) and his pp. 106-107 beyond the sentences cited, read in the OCR, which follow side A's pursuit of the Austrian rear guard; any French report of the action, such as Solignac's or Charpentier's, which the passages read do not cite; the sources Angeli cites (note 75: Major Geppert's report from Arzignano and Hillinger's own report from Treviso, Kriegsarchiv F. A. XI; note 76: the journal of the imperial army in Italy, F. A. XIII, the Oesterreichische militärische Zeitschrift and Koch's volume V; the notes read in the OCR). Figures seen only in the OCR and not restated in values: the hour and date at which Masséna was told of the Austrian departure and the ordinal of the stage the Austrian main body had reached by then; the date, hour and number of battalions in Rosenberg's order to Hillinger; the number of battalions with which Angeli's OCR has Hillinger mask Rosenberg's march to Velo.",
+    "Most consequential gap: side B's strength and loss. Angeli gives 7 battalions and 2 squadrons with no number of men, Koch 8 battalions and 4 squadrons, Bodart about 4,000 men, and side A's patrol reports 7,000; Angeli and Bodart give 1800 (1,800) prisoners and Koch 5,000, more than Bodart's strength. Hillinger's own report (Treviso, Kriegsarchiv F. A. XI, cited in Angeli's note 75, read in the OCR) or a French return of the prisoners could close it. Side A's total, Bodart's about 12,000, is not in the passages read either.",
+    "Disputes recorded in the claims: side B's prisoners (Koch 5,000, with Hillinger and 70 officers sent back on parole; Angeli 1800, with the officers released on their word; Bodart 1,800); side B's strength (Koch 8 battalions and 4 squadrons; Angeli 7 and 2; Bodart about 4,000). The accounts agree on the result, on a first attack by side A that side B threw back, and on a body of side B escaping to S. Anna (Angeli: a battalion of the 2nd Banal Grenz regiment; Koch: about a thousand men of the Banat).",
+    "Families and dependence: Bodart (a compilation; his losses for both sides equal Angeli's figures, and his two strengths are not in the passages read); Koch (a French history written from Masséna's papers); Angeli (an Austrian history from the Kriegsarchiv; by his notes, read in the OCR, written from Geppert's and Hillinger's reports and the army's journal; note 76 also cites a page of Koch's volume V, page number read in the OCR, so he is not wholly independent of Koch for this action)."
+  ]
+}

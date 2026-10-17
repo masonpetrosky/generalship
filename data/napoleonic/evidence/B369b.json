@@ -1,0 +1,712 @@
+{
+  "schema_version": 1,
+  "battle_id": "B369b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Castelfranco entry (24 November 1805) in cohort v1's third-coalition 1805 group: the engagement near Castelfranco in which side A's column under General of Division Gouvion St. Cyr met Prince Rohan's Austrian column, which had come south through Tyrol, and took its capitulation. Rohan's march through Tyrol, Masséna's dispositions against it and the Tyrol and Vorarlberg operations (Scharnitz, B368a; Dornbirn, B368d) are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 14 battalions and 12 squadrons, 9,000 men, under General of Division Gouvion St. Cyr, and side B (Austrian) 4,800 men under GM Prince Rohan. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 14 battalions are Angeli's for St. Cyr's column, but Angeli gives 8 squadrons, not 12 (claim angeli-side-a), and neither Angeli nor Koch gives side A a number of men in the passages read. His 4,800 for side B is not in the passages read and equals his own total loss for side B (claim bodart-losses); Angeli gives side B about 4000 men at the time of the fight (claim angeli-side-b). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (14 battalions, 12 squadrons = 9,000 men) under General of Division Gouvion St. Cyr over the Austrians (4,800 men) under GM Prince Rohan'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (14 Btln., 12 Esk. = 9.000 M.) unter Div.-Gen. Gouvion St. Cyr über die Österreicher (4 800 M.) unter GM. Pz. Rohan."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "angeli-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Angeli: St. Cyr, who was then directing the blockade of Venice, advanced against the approaching enemy troops on the morning of the 24th with 14 battalions and 8 squadrons. Angeli gives no number of men.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page image. Angeli's source note 95 (read in the OCR), placed at the end of the paragraph before, cites Koch's pages from 129 (page number read in the OCR); Koch's passages read give no battalions or squadrons for St. Cyr's column (claim koch-side-a). St. Cyr moved against Rohan on the first news of the enemy's approach, so the force is tagged commander_created. English rendering (ours): 'starting from the same assumptions as Masséna, St. Cyr, who now directed the blockade of Venice, had on the first news of the approach of enemy troops advanced against them on the morning of the 24th with 14 battalions, 8 squadrons'; note 95, '95. Masséna, ... (OCR) and following' (OCR).",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von den gleichen Voraussetzungen ausgehend wie Masséna, war St. Cyr der nun die Blockade Venedigs leitete, auf die erste Nachricht von dem Anmarsche feindlicher Truppen denselben am 24. morgens mit 14 Bataillonen, 8 Escadronen entgegengerückt."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "source-note-95",
+          "locator": "Angeli (1897), Bd. III, p. 248 (OCR page breaks; not checked against print)",
+          "quote": "95. Mass6na, 129 u. f."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account: Koch says General Saint-Cyr had formed a column drawn from the divisions of Reynier, Lecchi and Verdier and moved to Campo San Pietro with a Polish regiment, and Reynier had orders to march at daybreak from Noale on Castel Franco (Koch prints the date of that march as 4 December). Koch gives no number of battalions, squadrons or men.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's history, written from Masséna's papers, read from the page image. Saint-Cyr formed the column himself, so the claim is tagged commander_created. Koch's printed date for Reynier's march disagrees with Bodart's 24 November and with Angeli's 24th (claim angeli-side-a), and with Koch's own narrative, in which Rohan took Bassano on the 23rd and reached Castelfranco the day before the action (claim side-b-command); his errata list does not correct it, and it is recorded here, not resolved. English renderings (ours): 'but all these precautions became superfluous; General Saint-Cyr, after forming a column drawn from the divisions Reynier, Lecchi and Verdier, had already moved to Campo San Pietro with a Polish regiment'; 'Reynier had the order to march, on 4 December at daybreak, from Noale on Castel Franco'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Mais toutes ces précautions devinrent superflues; déjà le général Saint-Cyr, après avoir formé une colonne tirée des divisions Reynier, Lecchi et Verdier, s'était porté à Campo San Pietro avec un régiment polonais."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        }
+      ]
+    },
+    {
+      "id": "angeli-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), its own figure in Angeli: by the time of the fight the Austrians were only about 4000 strong, and they tried in a fight of several hours, exceedingly bloody, to break through side A's lines.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page image; Angeli gives no source note for the action in the passages read. His 'only about 4000' implies a force reduced on the march through Tyrol; the passages read do not give its strength at the start of the march. The force present at the start of the engagement is tagged inherited. English rendering (ours): 'now only about 4000 men strong, the Austrians tried in a fight of several hours, exceedingly bloody, to break through the enemy's lines, whose superiority finally also blocked their retreat through Castelfranco'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's account: Koch gives no strength for Rohan's column before the action. He says ill-informed emissaries had represented it to Masséna as very considerable, and among what fell into side A's hands at the capitulation he counts 6,000 infantry and 1,000 cavalry (claim side-b-losses-reported).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page images. The emissaries' description is a report Koch calls ill-informed, not a count. The column was the force Rohan brought to Castelfranco, so the claim is tagged inherited. English renderings (ours): 'Masséna had foreseen the event; but, deprived of direct communications with the Grande Armée and receiving the reports of ill-informed emissaries who had represented this column as very considerable, he would leave nothing to chance'; as in claim bodart-winner for the capitulation.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Massena avait prévu l'événement; mais privé de communications directes avec la grande armée, et recevant les rapports d'émissaires mal informés qui avaient représenté cette colonne comme très-considérable, il ne voulut rien donner au hasard."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Tout ce qui n'avait pas été tué ou pris sur le champ de bataille capitula; le prince de Rohan blessé, plusieurs colonels, un nombre considérable d'officiers, 6,000 fantassins et 1,000 cavaliers, six drapeaux, un étendard, douze bouches à feu et leurs caissons tombèrent entre nos mains ainsi que tous les bagages."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Gouvion St. Cyr as side A's commander and GM Prince Rohan as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both other accounts have St. Cyr (Koch: Saint-Cyr) lead side A's column and Rohan command side B (claims side-a-command and side-b-command); Masséna, the army commander, went to the Piave to direct the operation against Rohan, but both say his measures proved unnecessary. English rendering (ours): 'under General of Division Gouvion St. Cyr over the Austrians (4,800 men) under GM Prince Rohan'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "unter Div.-Gen. Gouvion St. Cyr über die Österreicher (4 800 M.) unter GM. Pz. Rohan."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A's column was led by St. Cyr. Masséna, the army commander, had sent troops toward the Piave (Koch) or Bassano (Angeli), left the rest of the troops on the Isonzo under Duhesme and gone to the Piave to supervise the movements (Koch) or direct the undertaking in person (Angeli). Both accounts say these measures proved unnecessary, because St. Cyr had already acted: he had formed a column from the divisions of Reynier, Lecchi and Verdier and moved to Campo San Pietro with a Polish regiment, and Reynier had orders to march at daybreak from Noale on Castel Franco (Koch, who prints the date as 4 December); Angeli says St. Cyr, now directing the blockade of Venice, advanced against the enemy on the morning of the 24th on the first news of its approach. In the action Reynier's division received Rohan's attack with vigour and repulsed it, and meanwhile the Poles turned him (Koch).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as both accounts give them, read from the page images. English renderings (ours): Koch, 'he had directed on the Piave by forced march the division Partonneaux and two brigades of infantry, as well as the division of cuirassiers and a brigade of dragoons'; 'the marshal had left the rest of the troops on the Isonzo under the command of General Duhesme, and was going in person to the Piave to supervise the execution of these movements'; as in claim koch-side-a; 'having arrived the day before, Prince Rohan, seeing the difficulty of his position, forestalled the attack and threw himself headlong on the division Reynier, which received him with vigour and repulsed him'; 'he returned to the charge several times without' (p. 129) 'more success; meanwhile the Poles turned him' (p. 130); Angeli, 'he at once directed the division Partouneaux (2 brigades of infantry, 8 squadrons of dragoons) and the cuirassier division Pully to Bassano, while Gardanne marched up the Fella valley by Venzone to block the enemy's retreat by Belluno and Pieve di Cadore to Villach as well'; 'the rest of the troops stayed under Duhesme on the Isonzo, but Masséna went to the Piave to direct the undertaking there in person. (95.)'; 'all these comprehensive measures, however, were to no purpose'; as in claim angeli-side-a.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Il avait dirigé sur la Piave à marche forcée la division Partonneaux et deux brigades d'infanterie, ainsi que la division de cuirassiers et une brigade de dragons."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Le maréchal avait laissé le reste des troupes sur l'Isonzo, sous le commandement du général Duhesme, et se portait en personne sur la Piave pour y surveiller l'exécution de ces mouvements."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Mais toutes ces précautions devinrent superflues; déjà le général Saint-Cyr, après avoir formé une colonne tirée des divisions Reynier, Lecchi et Verdier, s'était porté à Campo San Pietro avec un régiment polonais."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Arrivé de la veille, le prince de Rohan voyant la difficulté de sa position, prévint l'attaque et se jeta tête baissée sur la division Reynier qui le reçut avec vigueur et le repoussa."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Il revint plusieurs fois à la charge sans"
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "plus de succès; pendant ce temps les Polonais le tournèrent."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Er dirigirte sofort die Division Partouneaux — 2 Brigaden Infanterie, 8 Escadronen Dragoner — und die Kürassier-Division Pully nach Bassano, während Gardanne über Venzone im Fella-Thale aufwärts marschirte, um dem Gegner auch den Rückzug über Belluno und Pieve di Cadore nach Villach zu verlegen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Der Rest der Truppen blieb unter Duhesme am Isonzo, Masséna aber begab sich an die Piave, um dort das Unternehmen persönlich zu leiten. (95.)"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Alle diese umfassenden Vorkehrungen waren jedoch gegenstandslos."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von den gleichen Voraussetzungen ausgehend wie Masséna, war St. Cyr der nun die Blockade Venedigs leitete, auf die erste Nachricht von dem Anmarsche feindlicher Truppen denselben am 24. morgens mit 14 Bataillonen, 8 Escadronen entgegengerückt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "GM Prince Rohan commanded side B. Cut off in Tyrol from Archduke John by Ney's advance and completely isolated, he ventured to fight his way through to Venice (Angeli, OCR). On the way, Koch says, Loison, ordered to Bozen to oppose him, did not follow his instructions exactly, and Rohan, helped by the peasants of the valley, broke the weak post that barred his passage and went on to Lavis, heading for Venice, Hiller having already evacuated Trent (OCR); Angeli says Rohan beat General Loison at Bozen (OCR). Rohan threw himself on Bassano on the 23rd, took a post of 150 men there and made for Castelfranco, still hoping to join the garrison of Venice (Koch; Angeli: he reached Castelfranco by Trient and Bassano on the 23rd). Having arrived the day before, seeing the difficulty of his position, he forestalled the attack, threw himself headlong on Reynier's division and returned to the charge several times without success (Koch). Angeli says he had already begun the march to Noale when he came upon St. Cyr's advance troops just beyond Castelfranco, that the Austrians tried for several hours to break through, and that, surrounded on all sides, they laid down their arms after their brave leader had fallen badly wounded.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as both accounts give them (page images, except the march through Tyrol, OCR, whose dates and ordinals are not restated). Koch and Angeli differ on Loison at Bozen; the difference is recorded, not resolved. English renderings (ours): Angeli, 'GM Prince Rohan, after waiting in vain for FML Jellachich to join him, had reached Telfs on the march to Archduke John at Innsbruck when Ney's advance cut off the execution of this intention as well as the possibility of a later union with the Archduke' (OCR); 'completely isolated, GM Prince Rohan ventured the attempt to fight his way through to Venice' (OCR); 'one (OCR) of his opponents he escaped by quick, skilfully combined marches; the second (OCR), General Loison, he beat at Bozen on the ... (OCR) and pursued as far as Klausen' (OCR); Koch, 'as Prince Rohan wanted to join them [Archduke John and Saint-Julien], General Loison received orders to move on Bozen to oppose it' (OCR); 'this general not having followed exactly the instructions he had received, Prince Rohan, helped by the peasants of the valley, broke the weak post that barred his passage and went on to Lavis, heading for Venice, for General Hiller had already evacuated Trent' (OCR); 'Rohan threw himself on the 23rd on Bassano, where he took a post of 150 men, and made for Castelfranco, still in the hope of joining the garrison of Venice'; as in claim side-a-command for the attack; Angeli, 'freed of his opponents for the moment, Prince Rohan turned south again and reached Castelfranco by Trient and Bassano on the 23rd'; 'GM Prince Rohan had already begun the march to Noale when, just beyond Castelfranco, he came upon St. Cyr's advance troops'; as in claim angeli-side-b for the attempt to break through; 'surrounded on all sides, they finally had to lay down their arms, after their brave leader too had sunk to the ground badly wounded'.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "GM.PrinzRohanwar,nachdem er vergebens den Anschluss FML. Jellachich' erwartet hatte, auf dem Marsche zu Erz- herzog Johann nach Innsbruck, bei Telfs angelangt, als das Vordringen Ney's die Ausführung dieser Absicht, wie auch die Möglichkeit einer späteren Vereinigung mit dem Erzherzoge abschnitt."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "Vollkommen isolirt, wagte GM. Prinz Rohan den Versuch sich nach Venedig durchzuschlagen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 183 (OCR page breaks; not checked against print)",
+          "quote": "Dem einen seiner Gegner entzog er sich durch schnelle, geschickt combinirte Märsche, den zweiten — General Loison — schlug er am 18. bei Botzen und verfolgte ihn bis Klausen,"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "castelfranco",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 128 (OCR running heads; not checked against print)",
+          "quote": "Gomme le prince de Rohan voulait se réunir à eux , le général Loison reçut ordre de se porter sur Botzen pour s'y opposer,"
+        },
+        {
+          "source_id": "koch-massena-t5-selections-v1",
+          "section": "castelfranco",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 128 (OCR running heads; not checked against print)",
+          "quote": "Ce général n'ayant pas suivi exacte- ment les instructions qu'il avait reçues, le prince de Rohan aidé des paysans de la vallée rompit le faible poste qui lui barrait le passage et fila sur Lavis, se dirigeant vers Yenise, car le général Hiller avait déjà évacué Trente."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Rohan se jeta le 23 sur Bassano où il enleva un poste de 150 hommes, et se dirigea sur Castelfranco toujours dans l'espoir de se réunir à la garnison de Venise."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Für den Augenblick seiner Gegner entledigt, wandte sich Prinz Rohan wieder südlich und gelangte über Trient und Bassano am 23. nach Castelfranco."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Arrivé de la veille, le prince de Rohan voyant la difficulté de sa position, prévint l'attaque et se jeta tête baissée sur la division Reynier qui le reçut avec vigueur et le repoussa."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Il revint plusieurs fois à la charge sans"
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "plus de succès; pendant ce temps les Polonais le tournèrent."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "GM. Prinz Rohan hatte bereits den Marsch nach Noale angetreten, als er kurz hinter Castelfranco auf St. Cyr's Vortruppen stiess."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von allen Seiten umringt, mussten sie endlich, nachdem auch ihr tapferer Führer schwer verwundet zu Boden gesunken, die Waffen strecken."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under General of Division Gouvion St. Cyr over side B (Austrian) under GM Prince Rohan, and heads the entry 'engagement and capitulation at Castelfranco'. Koch says that after Rohan's attacks failed and the Poles turned him there was nothing but a general rout as far as Castel Franco, where side A's troops entered pell-mell with the Austrians, and all that had not been killed or taken on the battlefield capitulated. Angeli says side A's superiority finally blocked the Austrians' retreat through Castelfranco and, surrounded on all sides, they had to lay down their arms. Angeli also judges, of Rohan's march through Tyrol as a whole, that it so occupied Masséna and Ney that they had to limit their pursuit of the troops withdrawing from Italy and Tyrol to the least degree and turn all their attention to their own security, which let Archduke John's army join Archduke Charles's without disturbance.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending (page images, except Angeli's judgment on the march, OCR). No source read gives a different result. Angeli's judgment concerns the campaign effect of Rohan's march, not this engagement, and is his own judgment, not a measured effect. English renderings (ours): Bodart, as in claim bodart-strength; '1805 24/11. engagement and capitulation at Castelfranco (4.)'; Koch, 'then there was nothing more than a general rout as far as Castel Franco, where our troops entered pell-mell with the Austrians'; 'all that had not been killed or taken on the battlefield capitulated; Prince Rohan wounded, several colonels, a considerable number of officers, 6,000 infantry and 1,000 cavalry, six flags, a standard, twelve guns and their caissons fell into our hands, as well as all the baggage'; Angeli, as in claim angeli-side-b; as in claim side-b-command for the surrender; 'that this [the union of Archduke John's army with Archduke Charles's, just described] succeeded without disturbance and in the shortest time conceivable in the circumstances was owed to the fact that both Masséna and Ney were taken up by GM Prince Rohan's bold march through Tyrol to Italy in a way that obliged them to restrict the pursuit of the troops withdrawing from Italy and Tyrol to the least measure and to turn their whole attention to their own security' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (14 Btln., 12 Esk. = 9.000 M.) unter Div.-Gen. Gouvion St. Cyr über die Österreicher (4 800 M.) unter GM. Pz. Rohan."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1805 24./11. TREFFEN und KAPITULATION bei Castelfranco (4.)"
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "plus de succès; pendant ce temps les Polonais le tournèrent."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Ce ne fut plus alors qu'une déroute générale jusqu'à Castel Franco où nos troupes entrèrent pêle-mêle avec les Autrichiens."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Tout ce qui n'avait pas été tué ou pris sur le champ de bataille capitula; le prince de Rohan blessé, plusieurs colonels, un nombre considérable d'officiers, 6,000 fantassins et 1,000 cavaliers, six drapeaux, un étendard, douze bouches à feu et leurs caissons tombèrent entre nos mains ainsi que tous les bagages."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von allen Seiten umringt, mussten sie endlich, nachdem auch ihr tapferer Führer schwer verwundet zu Boden gesunken, die Waffen strecken."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "Dass dies ohne Störung und in der unter den gegebenen Verhältnissen denkbar kürzesten Zeit gelang war dem Um- stände zu verdanken, dass sowohl Mass^na als Ney von dem kühnen Zuge GM. Prinz Rohan's durch Tirol nach Italien, in einer Weise in Anspruch genommen wurden, welche sie nöthigte die Verfolgung der aus Italien und Tirol zurückgehen- den Truppen auf das geringste Mass zu beschränken und die ganze Aufmerksamkeit der eigenen Sicherung zuzuwenden."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as 600 men (1 field officer and 15 officers) and side B's as 400 men (1 general and 17 officers) killed and wounded and 4,400 taken prisoner under the capitulation, together 4,800 men, his figure for side B's whole strength.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. 'Stb.' is Stabsoffizier in Bodart's list of abbreviations. Neither Koch nor Angeli gives side A's loss in the passages read; Angeli calls the fight exceedingly bloody (claim angeli-side-b). English rendering (ours): 'French loss: 600 men (1 field officer, 15 officers) | Austrian loss: 400 men (1 general, 17 officers) killed and wounded, 4,400 [men] fell into captivity in consequence of the capitulation, together 4,800 men'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Fz. Verl.: 600 M. (1 Stb.-, 15 Offz.) | Öst. Verl.: 400 M. (1 Gen. 17 Offz.) tot u. verw. 4.400 „ gerieten infolge Kapitulation zus. 4.800 M. in Kriegsgefangenschaft."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Koch says all that had not been killed or taken on the battlefield capitulated, and that Prince Rohan, wounded, several colonels, a considerable number of officers, 6,000 infantry and 1,000 cavalry, six flags, a standard, twelve guns and their caissons fell into side A's hands with all the baggage; the French taken prisoner at Bassano were freed. Angeli says the Austrians, about 4000 strong, laid down their arms after a fight of several hours, exceedingly bloody, Rohan having fallen badly wounded; he gives no loss figure.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. Koch's 6,000 infantry and 1,000 cavalry are more than Bodart's 4,400 prisoners and his 4,800 for side B's whole strength (claims bodart-losses and bodart-strength), and more than Angeli's about 4000; the passages read do not explain the difference. English renderings (ours): Koch, as in claim bodart-winner; 'the French taken prisoner at Bassano were freed'; Angeli, as in claims angeli-side-b and side-b-command.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Tout ce qui n'avait pas été tué ou pris sur le champ de bataille capitula; le prince de Rohan blessé, plusieurs colonels, un nombre considérable d'officiers, 6,000 fantassins et 1,000 cavaliers, six drapeaux, un étendard, douze bouches à feu et leurs caissons tombèrent entre nos mains ainsi que tous les bagages."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Les Français faits prisonniers à Bassano furent délivrés."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von allen Seiten umringt, mussten sie endlich, nachdem auch ihr tapferer Führer schwer verwundet zu Boden gesunken, die Waffen strecken."
+        }
+      ]
+    },
+    {
+      "id": "castelfranco-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Castelfranco as a town in Venetia 24 km west of Treviso. Angeli has Rohan reach Castelfranco by Trient and Bassano, meet St. Cyr's advance troops just beyond it on the march to Noale, and find his retreat through Castelfranco blocked by side A's superiority. Koch has Saint-Cyr's column at Campo San Pietro and Reynier ordered to march from Noale on Castel Franco, and the rout run back to Castel Franco, where side A's troops entered with the Austrians.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and the two accounts, read from the page images; no map was inspected. The passages read do not describe the ground of the fight, and Koch does not say where Rohan met Reynier's division. English renderings (ours): Bodart, 'town in Upper Italy, Venetia, 24 km west of Treviso'; Angeli, as in claim side-b-command for Trient, Bassano and Noale; as in claim angeli-side-b for the retreat; Koch, as in claims koch-side-a and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "(Stadt in Oberitalien, Venetien, 24 km westl. von Treviso)."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Für den Augenblick seiner Gegner entledigt, wandte sich Prinz Rohan wieder südlich und gelangte über Trient und Bassano am 23. nach Castelfranco."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "GM. Prinz Rohan hatte bereits den Marsch nach Noale angetreten, als er kurz hinter Castelfranco auf St. Cyr's Vortruppen stiess."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Mais toutes ces précautions devinrent superflues; déjà le général Saint-Cyr, après avoir formé une colonne tirée des divisions Reynier, Lecchi et Verdier, s'était porté à Campo San Pietro avec un régiment polonais."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Ce ne fut plus alors qu'une déroute générale jusqu'à Castel Franco où nos troupes entrèrent pêle-mêle avec les Autrichiens."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Koch says twelve guns with their caissons and all the baggage fell into side A's hands at the capitulation. No passage read describes either side's supply or ammunition at the engagement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page image). No supply or ammunition return was inspected. English rendering (ours): Koch, as in claim bodart-winner.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Tout ce qui n'avait pas été tué ou pris sur le champ de bataille capitula; le prince de Rohan blessé, plusieurs colonels, un nombre considérable d'officiers, 6,000 fantassins et 1,000 cavaliers, six drapeaux, un étendard, douze bouches à feu et leurs caissons tombèrent entre nos mains ainsi que tous les bagages."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information on Rohan's column was poor. Masséna had foreseen the event, but, deprived of direct communications with the Grande Armée and receiving reports from ill-informed emissaries who represented the column as very considerable, he would leave nothing to chance (Koch); misled by incorrect information, he believed very considerable enemy forces to be advancing in the Val Sugana (Angeli). St. Cyr, starting from the same assumptions as Masséna, advanced on the first news of the enemy's approach (Angeli).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as both accounts give it, read from the page images. English renderings (ours): Koch, as in claim koch-side-b; Angeli, 'the news of the approach of Austrian troops disturbed Masséna all the more because, misled by incorrect information, he believed very considerable enemy forces to be advancing in the Val Sugana'; as in claim angeli-side-a.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Massena avait prévu l'événement; mais privé de communications directes avec la grande armée, et recevant les rapports d'émissaires mal informés qui avaient représenté cette colonne comme très-considérable, il ne voulut rien donner au hasard."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Die Nachricht von dem Anmarsche österreichischer Truppen beunruhigte Masséna umsomehr, als er, durch unrichtige Informationen irregeführt, sehr bedeutende feindliche Kräfte im Val Sugana vorrückend glaubte."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von den gleichen Voraussetzungen ausgehend wie Masséna, war St. Cyr der nun die Blockade Venedigs leitete, auf die erste Nachricht von dem Anmarsche feindlicher Truppen denselben am 24. morgens mit 14 Bataillonen, 8 Escadronen entgegengerückt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "The passages read say little about what Rohan knew of side A. Cut off from Archduke John by Ney's advance, he was completely isolated (Angeli, OCR); having arrived at Castelfranco the day before, he saw the difficulty of his position (Koch); he had already begun the march to Noale when he came upon St. Cyr's advance troops just beyond Castelfranco (Angeli).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it (page images except Angeli's sentences on the march through Tyrol, OCR). English renderings (ours): as in claims side-b-command and side-a-command.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "GM.PrinzRohanwar,nachdem er vergebens den Anschluss FML. Jellachich' erwartet hatte, auf dem Marsche zu Erz- herzog Johann nach Innsbruck, bei Telfs angelangt, als das Vordringen Ney's die Ausführung dieser Absicht, wie auch die Möglichkeit einer späteren Vereinigung mit dem Erzherzoge abschnitt."
+        },
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "Vollkommen isolirt, wagte GM. Prinz Rohan den Versuch sich nach Venedig durchzuschlagen."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Arrivé de la veille, le prince de Rohan voyant la difficulté de sa position, prévint l'attaque et se jeta tête baissée sur la division Reynier qui le reçut avec vigueur et le repoussa."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "GM. Prinz Rohan hatte bereits den Marsch nach Noale angetreten, als er kurz hinter Castelfranco auf St. Cyr's Vortruppen stiess."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Masséna, leaving nothing to chance (Koch), sent troops toward Bassano, while Gardanne marched by Venzone to block the enemy's retreat by Belluno and Pieve di Cadore to Villach as well (Angeli). St. Cyr advanced against the enemy troops on the first news of their approach (Angeli), and Reynier was ordered to march from Noale on Castel Franco (Koch).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders as both accounts give them, read from the page images; Masséna's measures were army-level and, both accounts say, proved unnecessary (claim side-a-command). English renderings (ours): as in claims side-a-command, koch-side-b, angeli-side-a and koch-side-a.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Massena avait prévu l'événement; mais privé de communications directes avec la grande armée, et recevant les rapports d'émissaires mal informés qui avaient représenté cette colonne comme très-considérable, il ne voulut rien donner au hasard."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Er dirigirte sofort die Division Partouneaux — 2 Brigaden Infanterie, 8 Escadronen Dragoner — und die Kürassier-Division Pully nach Bassano, während Gardanne über Venzone im Fella-Thale aufwärts marschirte, um dem Gegner auch den Rückzug über Belluno und Pieve di Cadore nach Villach zu verlegen."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von den gleichen Voraussetzungen ausgehend wie Masséna, war St. Cyr der nun die Blockade Venedigs leitete, auf die erste Nachricht von dem Anmarsche feindlicher Truppen denselben am 24. morgens mit 14 Bataillonen, 8 Escadronen entgegengerückt."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Rohan's aim was to reach Venice: completely isolated, he ventured to fight his way through to Venice (Angeli, OCR), and made for Castelfranco still hoping to join the garrison of Venice (Koch); at Castelfranco he had begun the march to Noale, and the Austrians tried to break through side A's lines (Angeli).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Rohan's own aim, chosen after Ney's advance cut him off from Archduke John (claim side-b-command), so the claim is tagged commander_created (page images except Angeli's sentence on the attempt, OCR). English renderings (ours): as in claims side-b-command and angeli-side-b.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-selections-v1",
+          "section": "rohan-march",
+          "locator": "Angeli (1897), Bd. III, p. 182 (OCR page breaks; not checked against print)",
+          "quote": "Vollkommen isolirt, wagte GM. Prinz Rohan den Versuch sich nach Venedig durchzuschlagen."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Rohan se jeta le 23 sur Bassano où il enleva un poste de 150 hommes, et se dirigea sur Castelfranco toujours dans l'espoir de se réunir à la garnison de Venise."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "GM. Prinz Rohan hatte bereits den Marsch nach Noale angetreten, als er kurz hinter Castelfranco auf St. Cyr's Vortruppen stiess."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Both sides attacked. Side A moved against side B: St. Cyr advanced against the approaching enemy (Angeli) and Reynier was ordered to march on Castel Franco (Koch). Side B attacked: Rohan forestalled the attack and threw himself on Reynier's division, returning to the charge several times (Koch), and the Austrians tried for several hours to break through side A's lines (Angeli). Meanwhile side A turned and enveloped side B: the Poles turned Rohan, and the rout ran back to Castel Franco (Koch); surrounded on all sides, the Austrians laid down their arms (Angeli).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side B attack to break through and side A advance against it and envelop it, so the code is both_attacked. Reynier's division received Rohan's attack and repulsed it, which by itself would be defence; the Poles' turning movement and the pursuit into Castel Franco (Koch) and side A's advance and encirclement (Angeli) are attacks outside any defended position. Each side's commander at the engagement decided to attack, Rohan to forestall side A's attack and St. Cyr to advance on the first news of the enemy, so the posture is tagged commander_created. English renderings (ours): as in claims side-a-command, side-b-command, angeli-side-a, angeli-side-b and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von den gleichen Voraussetzungen ausgehend wie Masséna, war St. Cyr der nun die Blockade Venedigs leitete, auf die erste Nachricht von dem Anmarsche feindlicher Truppen denselben am 24. morgens mit 14 Bataillonen, 8 Escadronen entgegengerückt."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Arrivé de la veille, le prince de Rohan voyant la difficulté de sa position, prévint l'attaque et se jeta tête baissée sur la division Reynier qui le reçut avec vigueur et le repoussa."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Il revint plusieurs fois à la charge sans"
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Nur noch etwa 4000 Mann stark, versuchten die Oesterreicher in einem mehrstündigen, überaus blutigen Gefechte die Linien des Gegners zu durchbrechen, dessen Uebermacht ihnen schliesslich auch den Rückzug durch Castelfranco versperrte."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "plus de succès; pendant ce temps les Polonais le tournèrent."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Ce ne fut plus alors qu'une déroute générale jusqu'à Castel Franco où nos troupes entrèrent pêle-mêle avec les Autrichiens."
+        },
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "Von allen Seiten umringt, mussten sie endlich, nachdem auch ihr tapferer Führer schwer verwundet zu Boden gesunken, die Waffen strecken."
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read place side B on the march from Castelfranco toward Noale (Angeli) and side A's column at Campo San Pietro and on the road from Noale (Koch), and end the fight with a rout back to Castel Franco, where side A's troops entered with the Austrians (Koch); they name no works from which either side fought.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code none_named: no passage read names works. Castelfranco is a town (Bodart), and side A's troops entered it pell-mell with the Austrians (Koch); no passage says either side defended it. none_named reports the passages read, not proof that no works existed. English renderings (ours): as in claims side-b-command, koch-side-a and bodart-winner; Bodart, as in claim castelfranco-ground.",
+      "citations": [
+        {
+          "source_id": "angeli-1897-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "Angeli (1897), Bd. III, p. 183 (transcribed from the page image)",
+          "quote": "GM. Prinz Rohan hatte bereits den Marsch nach Noale angetreten, als er kurz hinter Castelfranco auf St. Cyr's Vortruppen stiess."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Mais toutes ces précautions devinrent superflues; déjà le général Saint-Cyr, après avoir formé une colonne tirée des divisions Reynier, Lecchi et Verdier, s'était porté à Campo San Pietro avec un régiment polonais."
+        },
+        {
+          "source_id": "koch-massena-t5-p129-figures-v1",
+          "section": "p129",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 129 (transcribed from the page image)",
+          "quote": "Reynier avait l'ordre de marcher, le 4 décembre à la pointe du jour, de Noale sur Castel Franco."
+        },
+        {
+          "source_id": "koch-massena-t5-p130-figures-v1",
+          "section": "p130",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 130 (transcribed from the page image)",
+          "quote": "Ce ne fut plus alors qu'une déroute générale jusqu'à Castel Franco où nos troupes entrèrent pêle-mêle avec les Autrichiens."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "(Stadt in Oberitalien, Venetien, 24 km westl. von Treviso)."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Koch's p. 130 after the capitulation (the movements after the combat; not transcribed) and the sentences of p. 129 on the grenadiers' route and Gardanne's instructions (not transcribed; read in the OCR, not cited); Koch's and Angeli's narratives of Rohan's march before Bassano, read in the OCR and cited only for Rohan's aim and the Loison episode; any French report of the action (St. Cyr's or Reynier's) and the capitulation itself, which the passages read do not cite; Austrian sources for the action, for which Angeli gives no source note in the passages read (his note 95, read in the OCR, cites Koch's pages from 129). Figures seen only in the OCR and not restated in values: the date on which Angeli has Rohan beat Loison at Bozen and the ordinals he uses for Rohan's opponents.",
+    "Most consequential gap: side B's strength and loss. Bodart gives 4,800 men and 4,400 prisoners, Angeli about 4000 men at the time of the fight, and Koch 6,000 infantry and 1,000 cavalry among the prisoners. Side A's strength is also open: Bodart gives 14 battalions, 12 squadrons and 9,000 men, Angeli 14 battalions and 8 squadrons, Koch a column from the divisions of Reynier, Lecchi and Verdier with a Polish regiment and no figure. The capitulation's text, St. Cyr's report or an Austrian return for Rohan's column could close it.",
+    "Disputes recorded in the claims: the date (Koch prints 4 December for Reynier's ordered march from Noale on Castel Franco, against Bodart's 24 November and Angeli's 24th; Koch's own narrative has Rohan at Bassano on the 23rd and at Castelfranco the day before the action, and his errata list does not correct the date); side A's squadrons (Bodart 12; Angeli 8); side B's prisoners and strength (Koch 6,000 infantry and 1,000 cavalry; Bodart 4,400 prisoners of 4,800; Angeli about 4000); Loison at Bozen (Koch: a weak post broken after Loison failed to follow his instructions; Angeli: Loison beaten; both OCR). The accounts agree on the result: side B's attack failed, it was enveloped, and it capitulated with Rohan wounded.",
+    "Families and dependence: Bodart (a compilation; his 14 battalions are Angeli's, his 12 squadrons are not, and his men for side A and his strength for side B are not in the passages read); Koch (a French history written from Masséna's papers); Angeli (an Austrian history from the Kriegsarchiv; his only source note in this passage, 95, read in the OCR, cites Koch's pages from 129, so he is not independent of Koch for Masséna's measures and may not be for the action, though his 14 battalions, 8 squadrons and about 4000 are not in Koch's passages read)."
+  ]
+}

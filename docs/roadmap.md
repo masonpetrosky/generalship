@@ -37,11 +37,12 @@ and verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
 group.
 
-**Progress:** batch 1a (2026-10-17) drafted Wertingen, Günzburg and Haslach (B363a–c), and
-batch 1b (2026-10-17) the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and
-B366a), primary-verified; 11 of the group's 22 entries remain, in Italy, the Tyrol and Vorarlberg,
-and on the Danube and in Moravia. The Civil War work below is complete as
-recorded, and its cohorts, ledgers and runs are unchanged.
+**Progress:** batch 1a (2026-10-17) drafted Wertingen, Günzburg and Haslach (B363a–c), batch 1b
+(2026-10-17) the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a), and
+batch 1c (2026-10-17) the Italian engagements: Verona, Caldiero, Pojano and Castelfranco (B365c,
+B367a, B367b and B369b). All are primary-verified. 7 of the group's 22 entries remain, in the Tyrol
+and Vorarlberg and on the Danube and in Moravia. The Civil War work below is complete as recorded,
+and its cohorts, ledgers and runs are unchanged.
 
 ## Open owner decisions
 

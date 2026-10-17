@@ -1224,3 +1224,51 @@ hashes and transcriptions are unaffected.
 
 Rights: as in the entry above. Use: the drafts for B364a–d, B365a, B365b, B365d and B366a. No
 model inputs are changed.
+
+
+## Koch and Angeli for the Italian engagements of 1805, 2026-10-17
+
+62 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1c of the
+`third-coalition 1805` first pass (Verona, Caldiero, Pojano and Castelfranco):
+
+- **Koch**, *Mémoires de Masséna*, t. V (Paris, 1850), group `koch-memoires-massena`. A French
+  history of Masséna's campaigns, written by its title page from the papers he left and from the
+  Dépôt de la guerre and the Dépôt des fortifications. It prints French documents as pièces
+  justificatives.
+  - The Internet Archive OCR (`koch-massena-t5-ocr-v1`, item `mmoiresdemassen00massgoog`), of a New
+    York Public Library copy digitised by Google.
+  - The sectioned selection `koch-massena-t5-selections-v1`, with six sections: `verona-18-oct`,
+    `caldiero-prelude`, `caldiero-29-oct`, `caldiero-30-oct-to-2-nov`, `castelfranco` and `errata`.
+  - 18 page images, each with a transcription: pp. 80, 83, 84, 89, 94, 97, 103–105, 108, 109, 129
+    and 130 of the narrative; pp. 368–370, pièce justificative VI, the army's order of battle of
+    18 October 1805; and pp. 375 and 376, pièce justificative VII, General Duhesme's report.
+- **Angeli**, *Erzherzog Carl von Österreich als Feldherr und Heeresorganisator*, Bd. III (Vienna and
+  Leipzig, 1897), group `angeli-erzherzog-carl-1897`. An Austrian history written from the
+  Kriegsarchiv files on commission from the Archduke's sons and grandsons; its numbered source notes
+  cite the files.
+  - The OCR (`angeli-1897-bd3-ocr-v1`, item `erzherzogcarlvo02angegoog`), of a University of Michigan
+    copy digitised by Google.
+  - The selection `angeli-1897-bd3-selections-v1`, with nine sections: `verona-18-oct`,
+    `caldiero-position`, `caldiero-29-oct`, `caldiero-30-oct`, `caldiero-31-oct`,
+    `retreat-and-pojano`, `rohan-march`, `source-notes-52-76` and `source-note-95`.
+  - 11 page images with transcriptions: pp. 73, 74 (the first part of the table of the Austrian
+    army's positions on 13 October), 88, 92, 93, 115, 134, 135, 149, 150 and 183.
+
+**Dependence.** Angeli's source notes for all four actions cite pages of Koch's t. V (notes 52, 62,
+63, 65, 66, 68, 76 and 95; page numbers read in the OCR), and for Castelfranco Koch is the only
+source he cites in the passages read. Angeli is therefore not independent of Koch for these actions,
+and each parent's `dependency_note` says so. Bodart's figures match or round Angeli's at Caldiero and
+Pojano and are not treated as independent of them there; the Angeli record lists the figures of
+Bodart's that are not Angeli's.
+
+The page images are single pages, served larger than 1600 px and downscaled. Unlike batches 1a and
+1b, each transcription holds the whole page or a continuous passage of it, less any sentences its
+note names, read from the image rather than the OCR; tables are transcribed row by row. Each
+selection records its parent's character ranges. Both OCRs keep Google's front-matter notice, which
+asks for non-commercial use and for the attribution watermark to be kept; each record's `rights`
+text says so. The Internet Archive holds another copy of Angeli's Bd. III
+(`erzherzogcarlvo03carlgoog`, the item named in the pass's plan), which was not used.
+
+Rights: Koch was published in 1850, and Angeli in 1897 (the catalogue gives his dates as
+1829–1904); the Internet Archive marks both items NOT_IN_COPYRIGHT. Use: the drafts for B365c,
+B367a, B367b and B369b. No model inputs are changed. The registry now holds 2,084 records.

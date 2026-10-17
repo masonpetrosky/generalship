@@ -578,6 +578,80 @@ primary-verified; no separate review was made.
   million, and likely more, since they need new families (Koch, Angeli, Schönhals, the
   Correspondance).
 
+## 1805 first pass, batch 1c (2026-10-17)
+
+The Italian engagements of `third-coalition 1805`, four entries:
+
+| Entry | Engagement | Date (1805) | Claims |
+| --- | --- | --- | --- |
+| B365c | Verona | 18 October | 20 |
+| B367a | Caldiero | 29–31 October | 21 |
+| B367b | Pojano | 2 November | 20 |
+| B369b | Castelfranco | 24 November | 19 |
+
+The main session researched, drafted and verified them without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and two new families ([source additions](source-additions.md)): Koch's
+  *Mémoires de Masséna*, t. V (1850), the French account written from Masséna's papers, and
+  Angeli's *Erzherzog Carl*, Bd. III (1897), the Austrian account written from the Kriegsarchiv
+  files. Both are interested accounts. Angeli's source notes cite Koch's pages for all four
+  actions, and Bodart's figures match or round Angeli's at Caldiero and Pojano, so the three are
+  not fully independent here. Duhesme's report on Verona is read as Koch prints it.
+  - 62 records were registered, including 29 page images. Every figure in a strength value or a
+    recorded loss is read from a page image: Bodart's, through the frame transcription, or one of
+    the 29. The drafts cite all 29 figure transcriptions.
+  - Figures seen only in the OCR, now including ordinals, are not restated in values and are listed
+    as deferred in each draft's open questions. Page numbers in Angeli's source notes are read in
+    the OCR and marked so.
+- **Drafts.** 80 claims with 540 citations. 79 are supported and one is disputed; none is unknown.
+  Every draft covers the nine dimensions.
+  - Disputed: Koch's verdict on Caldiero, an indecisive and bloody day with balanced losses,
+    against the victory of side B in Bodart and Angeli.
+  - Phases: 21 unresolved, 16 inherited, 27 commander-created and 16 post-outcome.
+  - Posture: side A attacked at Verona and Pojano, and both sides attacked at Caldiero and
+    Castelfranco; all four codes are commander-created.
+  - Fortification: both sides fought from works at Verona, and side B from its entrenched position
+    at Caldiero. No works are named at Pojano or Castelfranco.
+- **Disputes kept visible.**
+  - Bodart's strengths against the sides' own figures:
+
+    | Engagement | Bodart | Other figures |
+    | --- | --- | --- |
+    | Caldiero, side A | 46,000 | 45,000 (Angeli); 41,355 in the field divisions on 18 October (Koch's order of battle) |
+    | Pojano, side B | about 4,000 | 8 battalions and 4 squadrons (Koch); 7 battalions and 2 squadrons (Angeli); 7,000 in side A's patrol reports, which Koch calls exaggerated |
+    | Castelfranco, side A | 14 battalions, 12 squadrons, 9,000 | 14 battalions and 8 squadrons (Angeli) |
+    | Castelfranco, side B | 4,800 | about 4000 (Angeli); 6,000 infantry and 1,000 cavalry taken (Koch) |
+
+  - Losses:
+    - Verona, side B: 1,200 with 800 prisoners (Bodart), 1,800 (Koch), 1,500 prisoners (Duhesme)
+      or 1622 at S. Giorgio and 76 at Veronetta (Angeli). Side A: about 900 (Bodart), or 150
+      killed and 300 wounded (Koch, and Angeli as Masséna's statement).
+    - Caldiero, side B: 5,700 killed and wounded and no prisoners (Bodart), 5,672 on the 30th
+      including 1,800 prisoners (Koch), or 120 officers and 5552 men in all (Angeli).
+    - Pojano's prisoners: 1,800 (Bodart) and 1800 (Angeli), or 5,000 (Koch), more than Bodart's
+      strength for side B.
+  - Castelfranco's date: Koch's page image prints 4 December for Reynier's march on Castel Franco,
+    against Bodart's 24 November and Angeli's 24th. Koch's own narrative has Rohan at Bassano on
+    the 23rd, and his errata list does not correct the date.
+  - Others: how the 30th ended at Caldiero (Gardanne bivouacked on the ground won, Koch; side A
+    driven back to Strà, Angeli); whether Verdier's demonstrations kept the Archduke from
+    weakening his centre (Koch) or not (Angeli); and Angeli's footnote that the Archduke ordered
+    the Verona works left unoccupied, against their occupation in both accounts.
+- **Gaps.** The most consequential are side B's strength at Verona, which Bodart does not print;
+  side A's strength at Caldiero on 29–31 October; and side B's strength and loss at Pojano and
+  Castelfranco. Austrian returns and Hillinger's report in the Kriegsarchiv files Angeli cites, a
+  French return of late October, or the Castelfranco capitulation could close them; none was read
+  in this pass.
+- **Verification.** The four drafts were checked as a campaign before release. The check removed
+  OCR-only dates and ordinals from values; added page-image citations for dates and headings that
+  values relied on, and Angeli's source notes 75 and 95; and, before registration, rewrote the
+  parents' dependency notes to name each note that cites Koch.
+- **Usage.** About 2.7 million tokens of the session's budget, roughly 680,000 an entry. The figure
+  includes registering two new families (62 records) and learning their page structure. About 7.6
+  million remain. At this rate the group's seven remaining entries would need about 4.8 million;
+  they need families not yet registered, such as Schönhals and the Correspondance.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
