@@ -37,8 +37,9 @@ and verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
 group.
 
-No dossiers have been drafted. The Civil War work below is complete as recorded, and its cohorts,
-ledgers and runs are unchanged.
+**Progress:** batch 1a (2026-10-17) drafted Wertingen, Günzburg and Haslach (B363a–c),
+primary-verified; 19 of the group's 22 entries remain. The Civil War work below is complete as
+recorded, and its cohorts, ledgers and runs are unchanged.
 
 ## Open owner decisions
 

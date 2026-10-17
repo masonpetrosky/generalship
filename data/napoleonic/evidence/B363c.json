@@ -1,0 +1,1839 @@
+{
+  "schema_version": 1,
+  "battle_id": "B363c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Haslach (= Albeck) entry (11 October 1805) in cohort v1's third-coalition 1805 group: Dupont's 1st division of Ney's 6th corps, with Sahuc's dragoon brigade and the 1st hussars, against the Austrian army at Ulm, Bodart naming FML Prince Schwarzenberg. The dragoons on foot's march, the Austrian cavalry's raid on the parks at Albeck and the night withdrawal to Albeck are within the boundary only as they bear on the action; Elchingen (B364b, 14 October) and the 1806 inquiry into Baraguey d'Hilliers' conduct are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Austrian) 25,000 men under FML Prince Schwarzenberg and side A (French) 6,000 men under General of Division Dupont. By his stated rule these are the forces available for the engagement, not only those that fought, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several (scoping decision 1). He does not say which formations he counted or at what moment. His 6,000 for side A is close to Alombert and Colin's 6,400 with patrols and detachments (claim alombert-composition) and to the returns' 6,194 infantry and cavalry (our sum; claim side-a-return). His 25,000 for side B is the figure Dupont gave for the Austrians he fought (claim french-figures-for-side-b) and lies above Krauss's estimate of the Austrians engaged (claim krauss-side-b-engaged); Krauss gives no total for the army at Ulm (claim krauss-side-b-army). The passages read do not say which figures Bodart used. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Sieg der Österreicher (25.000 M.) unter FML. Fürst Schwarzenberg über die Franzosen (6.000 M.) unter Div.-Gen. Dupont."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-a-return",
+      "dimension": "strength",
+      "value": "Side A's returns at the crossing of the Rhine, in the first days of vendémiaire year XIV (late September 1805), list the 6th corps' 1st division as the 9e légère (2 battalions, 1,763 men), the 32e de ligne (2 battalions, 1,662) and the 96e (2 battalions, 1,721): 6 battalions and 5,146 men by our sum. The corps' 1st hussars had 3 squadrons, 375 men and 408 troop horses. In the cavalry reserve's return the 4th dragoon division's 15th dragoons had 3 squadrons, 322 men and 317 horses, and its 17th 3 squadrons, 351 men and 352 horses. Both returns' totals are headed 'présents sous les armes' (present under arms). Ney's order for the action gives the 1st division as under General Dupont; Krauss says a dragoon brigade of two regiments was attached to Dupont's division at Albeck, and Dupont's journal names it as Sahuc's, of the 15th and 17th, joined the evening before the action.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's own figures for the troops at Haslach, read from the page images. They are some two weeks older than the action and show neither the losses of the march nor detachments: Ney left Dupont two squadrons of the 1st hussars, not three (claim side-a-orders), and half of Dupont's cavalry was out on reconnaissance (claim alombert-composition). The returns print no division subtotal, so 5,146 is our sum, the total Alombert and Colin also print; 6,194 is our sum of the division, the hussars and the two dragoon regiments. The corps' artillery is listed separately and is not added. The date conversion uses the editors' own equation of 19 vendémiaire with 11 October 1805. The force was attached before the action by Ney's orders, so the claim is tagged inherited. English renderings (ours): '6th army corps at the crossing of the Rhine in the first days of vendémiaire year XIV'; 'cavalry reserve at the crossing of the Rhine in the first days of vendémiaire year XIV'; 'total of those present under arms'; 'under the orders of General Dupont, will blockade Ulm on the left bank of the Danube'; Krauss, 'in the 6th corps (Ney) a dragoon brigade (two regiments) was attached to Dupont's division standing at Albeck'; 'the brigade of dragoons, commanded by General Sahuc, made up of the 15th and 17th regiments, which had joined the division the evening before'; 'day of 19 vendémiaire (11 October)'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "6e corps d'armée au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "1re division.\n9e légère | 2 | 1,763 | » | »\n32e de ligne | 2 | 1,662 | » | »\n96e id. | 2 | 1,721 | » | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "1er de hussards | 3 | 375 | 408 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 21,250 | 1,208 | 572"
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "Réserve de cavalerie au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "4e division de dragons.\n15e de dragons | 3 | 322 | 317 | »\n17e id. | 3 | 351 | 352 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. II, p. 166 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 20,950 | 13,523 | 640"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "aux ordres du général Dupont, blo- quera Llm sur la rive gauche du Danube"
+        },
+        {
+          "source_id": "krauss-1912-p387-figures-v1",
+          "section": "p387",
+          "locator": "Krauss (1912), p. 387 (transcribed from the page image)",
+          "quote": "Beim 6. Korps (Ney) wurde der bei Albeck stehenden Division Dupont eine Dragonerbrigade (zwei Regimenter) zugeteilt."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "La brigade de dragons, commandée par le général Sahuc, composée des 15° et 17e régiments, qu. la veille au soir, s'était réunie à la division,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "Journée du 19 vendémiaire (11 octobre)."
+        }
+      ]
+    },
+    {
+      "id": "alombert-composition",
+      "dimension": "strength",
+      "value": "Alombert and Colin give side A at Haslach as the 9e léger (1,763 present), the 32e de ligne (1,662 present) and the 96e de ligne (1,721 present), six battalions or 5,146 infantry; the 15th and 17th dragoons (673 horses) and the 1st hussars (375 horses), 'of which half was dispersed in reconnaissance', made up its cavalry; there may have been 250 gunners and train soldiers to serve the division's eleven pieces (two 12-pounders, six 8-pounders, two 4-pounders and a howitzer) and the three howitzers attached to the light cavalry. In all, patrols and detachments included, there were 6,400 men and fourteen pieces. A 4-pounder was under repair on 11 October, and their narrative has thirteen pieces in action.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The French official history's figures, read from the page image. The infantry figures are the return's (claim side-a-return). The '673 horses' and '375 horses' equal the returns' men (322 + 351 = 673, our sum; 375), not their horses (669, our sum; 408), and Sahuc's report counts his brigade's casualties 'out of 673' (claim side-a-losses-reported). The listed parts sum to 6,444 (our sum) against the printed 6,400. Which units the 'half' refers to is not clear from the sentence; elsewhere they say the 1st hussars had no more than 150 to 200 men engaged, the rest being on reconnaissance (claim side-a-engaged). The force was the division with the cavalry Ney left it (claim side-a-orders), present before the action, so the claim is tagged inherited. English renderings (ours): 'for his part he had the 9th light (1,763 present), the 32nd of the line (1,662 present) and the 96th of the line (1,721 present), that is six battalions or 5,146 men of infantry; the 15th and 17th dragoons (673 horses) and the 1st hussars (375 horses), of which half was dispersed in reconnaissance, made up his cavalry; there may have been 250 gunners and soldiers of the train to serve the eleven pieces of Dupont's division (two 12-pounders, six 8-pounders, two 4-pounders and a howitzer) and the three howitzers attached to the light cavalry (1). In all, patrols and detachments included, there were 6,400 men and fourteen pieces there'; 'the three howitzers remaining with the army corps accompany the light cavalry; a 4-pounder is under repair on 11 October'; 'our thirteen pieces hold their own against a superior artillery'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p47-figures-v1",
+          "section": "p47",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (transcribed from the page image)",
+          "quote": "Pour lui, il disposait du 9e léger (1,763 présents), du 32e de ligne (1,662 présents) et du 96e de ligne (1,721 présents), soit six bataillons ou 5,146 hommes d'infanterie; les 15e et 17e dragons (673 chevaux) et le 1er hussards (375 chevaux), dont la moitié se trouvait dispersée en reconnaissances, formaient sa cavalerie; il pouvait y avoir 250 artilleurs et soldats du train pour servir les onze pièces de la division Dupont (deux pièces de 12, six pièces de 8, deux pièces de 4 et un obusier) et les trois obusiers attachés à la cavalerie légère (1). Au total, patrouilles et détachements compris, il y avait là 6,400 hommes et quatorze bouches à feu."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p47-figures-v1",
+          "section": "p47",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (transcribed from the page image)",
+          "quote": "Les trois obusiers restant au corps d'armée accompagnent la cavalerie légère; une pièce de 4 se trouve en réparation le 11 octobre."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p47-figures-v1",
+          "section": "p47",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (transcribed from the page image)",
+          "quote": "Nos treize bouches à feu tiennent tête à une artillerie supérieure,"
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-a-strength",
+      "dimension": "strength",
+      "value": "Krauss gives side A, Dupont's division, as the 9th light and the 32nd and 96th line infantry regiments, each of 2 battalions, together 6 battalions with 5,150 men, and the 1st hussar and the 15th and 17th dragoon regiments, together 1,050 horse; the division had 14 guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "An Austrian history's figures for side A, read from the page image. They match the returns rounded (5,146 infantry; 375 + 322 + 351 = 1,048 cavalry, our sum; claim side-a-return); by his preface (registry dependency note) his account of the French side rests on the documents printed by Alombert and Colin, so it is not independent of them. English rendering (ours): 'it consisted of the 9th light, the 32nd and 96th line infantry regiments, each of 2 battalions, together 6 battalions with 5150 men, and of the 1st hussar, the 15th and 17th dragoon regiments, together 1050 horse. The division had 14 guns'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p402-figures-v1",
+          "section": "p402",
+          "locator": "Krauss (1912), p. 402 (transcribed from the page image)",
+          "quote": "Sie bestand aus dem 9. leichten, dem 32. und 96. Linieninfanterieregiment, jedes zu 2 Bataillonen, zusammen 6 Bataillone mit 5150 Mann, und aus dem 1. Husaren-, dem 15. und 17. Dragonerregiment, zusammen 1050 Reiter. Die Division hatte 14 Geschütze."
+        }
+      ]
+    },
+    {
+      "id": "side-a-engaged",
+      "dimension": "strength",
+      "value": "Side A's figures for its troops engaged: Dupont's division journal says 5,000 French came to fight 25,000 Austrians, the two other divisions not attacking on the right bank, and his report as the 6th corps journal gives it that 5,100 men fought for five hours against an army of 25,000. By the journal the 9th and 96th alone disputed the ground between Haslach and Jungingen for three hours, while a battalion of the 32nd and the two squadrons of the 1st hussars made up the whole left wing; Alombert and Colin say the 1st hussars had no more than 150 to 200 men engaged, the rest being on reconnaissance.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Engaged forces as side A's sources give them, read from the page images; the boundary is unresolved and the figures, which describe different parts of the field, are not added. The 5,000 and 5,100 are Dupont's own statements, made by the commander whose conduct they describe, and Krauss disputes when Dupont first gave his figures (claim french-figures-for-side-b). English renderings (ours): '5,000 French come to fight 25,000 Austrians, the two other divisions not attacking on the right bank (1)'; '5,100 men fought for five hours against an army of 25,000 men and beat it completely'; 'then the 9th and 96th regiments must redouble their efforts and activity'; 'it is with these two regiments alone that we had for three hours to dispute the ground that separates Haslach from Jungingen'; 'the battalion of the 32nd and the two squadrons of the 1st hussars, which made up our whole left wing, were overwhelmed by numbers (2)'; '(2) the Austrians take 69 prisoners from the 1st hussars, which had no more than 150 to 200 men engaged, the rest being on reconnaissance, etc.'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "5,000 Français arrivent à combattre 25,000 Autrichiens, les deux autres divisions n'attaquant pas sur la rive droite (1)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p516-figures-v1",
+          "section": "p516",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 516 (transcribed from the page image)",
+          "quote": "5,100 hommes ont combattu pendant cinq heures une armée de 25,000 hommes et l'ont battue complètement."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 49 (OCR running heads; not checked against print)",
+          "quote": "Alors il faut que les 9° et 96° régiments redoublent d'efforts et d'activité."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p49-figures-v1",
+          "section": "p49",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 49 (transcribed from the page image)",
+          "quote": "C'est avec ces deux régiments seuls que nous avons eu pendant trois heures à disputer le terrain qui sépare Haslach de Jungingen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "le bataillon du 32e et les deux escadrons du 1er hussards, qui formaient toute notre aile gauche, étaient accablés par le nombre (2),"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "(2) Les Autrichiens font 69 prisonniers au 1er hussards, qui n'avait pas plus de 150 à 200 hommes engagés, le reste étant en reconnaissance, etc."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-army",
+      "dimension": "strength",
+      "value": "Krauss says side B's whole army in Germany, except Kienmayer's corps, which continued its retreat to Munich on 10 October, and the small Wolfskeel detachment, was united at Ulm on 10 October; it had arrived early that day after the night retreat in a completely shattered state and had taken position with the greater part on the north bank of the Danube. By the morning report of 11 October the three-battalion infantry regiment Jellachich counted only 800 men instead of 2,800, of whom only 596 firearms; the regiment Kaunitz, with staff and four fusilier battalions, only 1,932 men instead of 3,700, of whom 1,693 firearms; and the grenadier battalion Jellachich only 4 officers and 108 men instead of 620, of whom 91 muskets.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's available force as Krauss gives it, read from the page image; the passages read give no total for the army at Ulm, which is not the force engaged (claim krauss-side-b-engaged). Alombert and Colin, citing an eyewitness, name Kaunitz among the first battalions engaged (claim side-b-units), but no passage says how many of its battalions fought. The army was at Ulm before the action, so the claim is tagged inherited. English renderings (ours): 'the Austrian army had arrived at Ulm early on the 10th, as already mentioned, after the night retreat in a completely shattered state and had taken up a position with the greater part on the northern bank of the Danube'; 'with the exception of Kienmayer's corps, which continued its retreat on 10 October as far as Munich, and with the exception of the small detachment of Wolfskeel, the whole German army was thus united at Ulm on 10 October'; 'thus the infantry regiment Jellachich, three battalions strong, counted by the morning report of 11 October only 800 men instead of 2800, among them only 596 firearms, that is 199 firearms per battalion. The regiment Kaunitz, with staff and four fusilier battalions, counted only 1932 men instead of 3700, among them 1693 firearms, that is 424 muskets per battalion. The grenadier battalion Jellachich counted instead of 620 men only 4 officers and 108 men, among them 91 muskets'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p377-figures-v1",
+          "section": "p377",
+          "locator": "Krauss (1912), p. 377 (transcribed from the page image)",
+          "quote": "Die österreichische Armee war am 10. früh, wie schon erwähnt, nach dem nächtlichen Rückzug in vollkommen zerrüttetem Zustande bei Ulm angelangt und hatte mit dem größten Teil auf dem nördlichen Donau-Ufer eine Aufstellung bezogen."
+        },
+        {
+          "source_id": "krauss-1912-p377-figures-v1",
+          "section": "p377",
+          "locator": "Krauss (1912), p. 377 (transcribed from the page image)",
+          "quote": "Mit Ausnahme des Korps Kienmayer, das seinen Rückzug am 10. Oktober bis München fortsetzte, und mit Ausnahme des kleinen Detachements Wolfskeel war somit am 10. Oktober die ganze deutsche Armee bei Ulm vereinigt."
+        },
+        {
+          "source_id": "krauss-1912-p377-figures-v1",
+          "section": "p377",
+          "locator": "Krauss (1912), p. 377 (transcribed from the page image)",
+          "quote": "So zählte das drei Bataillone starke Infanterieregiment Jellachich nach dem Frührapporte vom 11. Oktober anstatt 2800 Mann nur mehr 800 Mann, worunter nur 596 Feuergewehre, also 199 Feuergewehre bei einem Bataillon. Das Regiment Kaunitz zählte mit Stab und vier Füsilierbataillonen anstatt 3700 Mann nur 1932 Mann, darunter 1693 Feuergewehre, also 424 Gewehre bei einem Bataillon. Das Grenadierbataillon Jellachich zählte anstatt 620 Mann nur 4 Offiziere und 108 Mann, darunter 91 Gewehre."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-engaged",
+      "dimension": "strength",
+      "value": "Krauss estimates that at least 18,000-20,000 infantry and about 2,000-3,000 horse of side B (Austrian) may have taken part in the action at Haslach, and says the Austrian regiments entered the fight one after another.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Krauss's estimate ('mochten ... teilgenommen haben'), read from the page image; no return or basis is named in the passages read. It is separate from Bodart's 25,000 (claim bodart-strength) and from Dupont's figures (claim french-figures-for-side-b), and its parts are not added here. English renderings (ours): 'at least 18,000-20,000 infantry and about 2000-3000 horse may have taken part on the Austrian side in the action at Haslach'; 'had the result that the Austrian regiments entered the fight one after another'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "An dem Gefechte bei Haslach mochten österreichischerseits wenigstens 18.000—20.000 Mann Infanterie und etwa 2000—3000 Reiter teilgenommen haben."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 407 (OCR page markers; not checked against print)",
+          "quote": "hatten zur Folge, daß die österreichischen Regimenter nach und nach in den Kampf traten;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-units",
+      "dimension": "strength",
+      "value": "Units of side B named in the action: Alombert and Colin, citing Schönhals, have General Loudon, attacked at Jungingen, retake the village first with some battalions and then with the regiment Froon as reinforcement; citing an eyewitness, they name the first Austrian battalions engaged as A. Louis, A. Reynier and Kaunitz; and they identify the cavalry that reached the French rear as two cuirassier regiments (Mack and Archduke Albert) and the La Tour light horse. Sahuc's report, as they quote it, names the Rosenberg light horse. Krauss names battalions of the regiment Riese sent to support the outposts and the regiment Rosenberg as the first cavalry to attack, and says FML Gottesheim's regiments were spread over different points of the position, Rainer and Manfredini fighting out of his sight.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Unit names without strengths; neither history gives an order of battle for the action in the passages read, and the two name different units. The Kaunitz figures of the morning of 11 October (claim krauss-side-b-army) do not say how many of its battalions fought. Gottesheim's relation is known only through Krauss; its date is in the OCR and is not restated. English renderings (ours): '(1) journal of Dupont's division. According to the best Austrian relation that we have (Schönhals, Der Krieg 1805, Vienna 1873), General Loudon, attacked at Jungingen, retook this village a first time with some battalions, then a second time with the regiment Froon as reinforcement, and remained its master for good'; 'the first Austrian battalions engaged (A. Louis, A. Reynier and Kaunitz) fought rather slackly, by the account of an eyewitness (de Launay, staff captain in the Austrian service. A. G.)'; '(1) they were two regiments of cuirassiers (Mack and Archduke Albert) and the La Tour light horse'; 'at that moment the Rosenberg light horse moved off to charge a battalion of the 96th infantry regiment'; Krauss, 'the Austrians had sent some battalions of the regiment Riese forward to support the outposts'; 'first the regiment Rosenberg attacked the French infantry'; 'FML Gottesheim mentions in his relation of the action of Haslach, written on ... October, that his regiments \"were distributed over different points of the position\". The regiments Rainer and Manfredini fought outside his field of view'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "(1) Journal de la division Dupont. D'après la meilleure relation autrichienne que nous ayons (Schönha's, Der Krieg 1805, Vienne 1873), le général Loudon, attaqué à Jungingen, aurait repris ce village une première fois avec quelques bataillons, puis une seconde fois avec le régiment de Froon comme renfort, et il en serait resté définitivement maître."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "Les premiers bataillons autrichiens engagés (A. Louis, A. Reynier et Kaunitz) auraient combattu assez mollement, au dire d'un témoin oculaire (de Launay, capitaine d'état-major au service d'Autriche. A. G.)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p53-figures-v1",
+          "section": "p53",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 53 (transcribed from the page image)",
+          "quote": "(1) C'étaient deux régiments de cuirassiers (Mack et archiduc Albert) et les chevau-légers de La Tour."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 48 (OCR running heads; not checked against print)",
+          "quote": "les chevau-légers de Rosenberg s'ébraulèrent pour charger un bataillon du 96° régiment d'infanterie"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Die Österreicher hatten einige Bataillone des Regiments Riese zur Unterstützung der Vorposten vorgesandt."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Zuerst attackierte das Regiment Rosenberg die französische Inftinterie;"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 386 (OCR page markers; not checked against print)",
+          "quote": "FML. Gottesheim erwähnt in seiner am 12. Oktober verfaßten Relation über das Gefecht von Haslaeh, daß seine Regimenter „auf verschiedenen Punkten der Position verteilt waren\". Die Regimenter Rainer und Manfredini kämpften außerhalb seines Sehkreises."
+        }
+      ]
+    },
+    {
+      "id": "french-figures-for-side-b",
+      "dimension": "strength",
+      "value": "Side A's figures for side B: the 6th corps journal for 11 October says that when the 1st division reached Haslach the enemy deployed in high works on the Spitzberg considerable forces estimated at 20,000 to 25,000 men; Dupont's division journal says 5,000 French came to fight 25,000 Austrians; and Alombert and Colin say that the same evening Dupont wrote to Ney that 5,100 men had fought for five hours against an army of 25,000 and beaten it completely. Krauss says Dupont spoke only of a victory over more than 25,000 Austrians, that the first surviving document in which Dupont claims to have beaten 25,000 Austrians is dated 13 October, the day he sent his combat report to Ney, and that Ney's report to Berthier of 12 October, sent on Dupont's first news, gives no Austrian strength; on 10 October Dupont had reported only that his reconnaissance detachment had met superior forces and that considerable enemy troops were gathered at Ulm.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's statements about side B, kept separate; all figures are read from page images. When Dupont first gave the 25,000 is disputed between the two histories (open questions): Alombert and Colin date it to the evening of the action, and print the passage in the 6th corps journal for 19 vendémiaire (11 October), while Krauss's two notes refer to the Sanson letter and to Dupont's report 'sent on the 21st' (21 vendémiaire, 13 October by the editors' equation of 19 vendémiaire with 11 October). The corps journal and Dupont's figures come from the same side and, for the 25,000, from Dupont himself, so they are not independent. English renderings (ours): '1st division: the division moves forward to surround Ulm; it had hardly arrived at Haslach when the enemy brought the artillery of his entrenchments into play against the division and deployed in high works on the Spitzberg hill considerable forces estimated at 20,000 to 25,000 men'; '5,000 French come to fight 25,000 Austrians'; 'that same evening, seeing his adversary withdraw on Ulm, he wrote to Ney:'; '5,100 men fought for five hours against an army of 25,000 men and beat it completely'; Krauss, 'Dupont spoke in his report and in other letters only of the victory that his division, which held the field of battle, won over more than 25,000 Austrians'; 'about the strength of the Austrians at Ulm Dupont sent two reports on 10 October. In the first report he stated that the reconnaissance detachment had come upon superior forces, in the second report that considerable enemy troops were united at Ulm (p. 364)'; 'the first surviving document in which Dupont claims to have beaten 25,000 Austrians is dated 13 October. He mentions nothing in it of the \"whole Austrian army\". On the same day he sent his combat report to Ney, in which he states that captured officers testified that the whole army had camped on the Michelsberg'; 'Ney's report to Berthier of 12 October, which had gone off on the first news from Dupont, contains no figures for the strength of the Austrians at Ulm, which can only be explained by Dupont having mentioned nothing in his report to Ney about the strength of the forces that had stood against him'; '1) Dupont's letter to General Sanson. Alombert et Colin, III, p. 523'; '2) Alombert et Colin, III, p. 511, note 1'; '(1) the report sent on the 21st by Dupont to Marshal Ney is identical with the fragment of journal that we have reproduced'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "1re division : La division marche en avant pour cerner Ulm; à peine était-elle arrivée à Haslach, l'ennemi a fait jouer l'artillerie de ses retranchements sur la division et a déployé dans des ouvrages élevés sur la montagne du Spitzberg des forces considérables estimées de 20,000 à 25,000 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "5,000 Français arrivent à combattre 25,000 Autrichiens,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "Le soir même, voyant son adversaire se retirer sur Ulm, il écrivait à Ney :"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "5,100 hommes ont combattu pendant cinq heures une armée de 25,000 hommes et l'ont battue complètement"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Dupont sprach in seinem Bericht und in sonstigen Briefen nur von dem Siege, den seine Division, die das Gefechtsfeld behauptete, über mehr als 25.000 Österreicher davontrug."
+        },
+        {
+          "source_id": "krauss-1912-p409-figures-v1",
+          "section": "p409",
+          "locator": "Krauss (1912), p. 409 (transcribed from the page image)",
+          "quote": "Über die Stärke der Österreicher bei Ulm hat Dupont am 10. Oktober zwei Meldungen eingesandt. In der ersten Meldung gab er an, daß das Rekognoszierungsdetachement auf überlegene Kräfte gestoßen war, in der zweiten Meldung, daß bei Ulm beträchtliche feindliche Truppen vereinigt seien (S. 364)."
+        },
+        {
+          "source_id": "krauss-1912-p409-figures-v1",
+          "section": "p409",
+          "locator": "Krauss (1912), p. 409 (transcribed from the page image)",
+          "quote": "Das erste vorhandene Schriftstück, in dem Dupont behauptet, 25.000 Österreicher geschlagen zu haben, ist vom 13. Oktober datiert. Er erwähnt darin nichts von der „ganzen österreichischen Armee“. Am selben Tage sandte er seinen Gefechtsbericht an Ney, worin er angibt, daß gefangene Offiziere aussagten, die ganze Armee hätte auf dem Michelsberge gelagert."
+        },
+        {
+          "source_id": "krauss-1912-p409-figures-v1",
+          "section": "p409",
+          "locator": "Krauss (1912), p. 409 (transcribed from the page image)",
+          "quote": "Die Meldung Neys an Berthier vom 12. Oktober, die auf die erste Nachricht von Dupont abgegangen war, enthält keine Angaben über die Stärke der Österreicher bei Ulm, was nur damit erklärt werden kann, daß Dupont in seiner Meldung an Ney nichts über die Stärke der ihm gegenüber gestandenen Kräfte erwähnt hatte."
+        },
+        {
+          "source_id": "krauss-1912-p409-figures-v1",
+          "section": "p409",
+          "locator": "Krauss (1912), p. 409 (transcribed from the page image)",
+          "quote": "1) Brief Duponts an den General Sanson. Alombert et Colin, III, S. 523."
+        },
+        {
+          "source_id": "krauss-1912-p409-figures-v1",
+          "section": "p409",
+          "locator": "Krauss (1912), p. 409 (transcribed from the page image)",
+          "quote": "2) Alombert et Colin, III, S. 511, Fußnote 1."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p511-figures-v1",
+          "section": "p511",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 511 (transcribed from the page image)",
+          "quote": "(1) Le rapport envoyé le 21 par Dupont au maréchal Ney est identique au fragment de journal que nous avons reproduit,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names FML Prince Schwarzenberg as side B's commander and General of Division Dupont as side A's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders ('FML. Fürst Schwarzenberg', 'Div.-Gen. Dupont'). He names one commander per side; Archduke Ferdinand's report credits Schwarzenberg with ordering the turning of the right wing, while Mack's relation credits Mack, and Mack directed the army in fact (claims side-b-command and side-b-decisions).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "unter FML. Fürst Schwarzenberg über die Franzosen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "unter Div.-Gen. Dupont."
+        }
+      ]
+    },
+    {
+      "id": "side-a-orders",
+      "dimension": "responsibility",
+      "value": "The Emperor, going to Munich, put Ney under Murat but had him first take Ulm, writing to him directly: 'surround Ulm in the course of tomorrow'; the dragoons on foot stayed under Ney's orders. Ney left Dupont two squadrons of the 1st hussars and two dragoon regiments of Bourcier's division, and sent his orders for the 11th late on the evening of the 10th: the 1st division under General Dupont was to blockade Ulm on the left bank of the Danube. His instruction told Dupont to close in on Ulm as far as he could and summon its commandant, to push his right to the Blau, to occupy the wooded heights behind Haslacherhof and to agree with General Baraguey d'Hilliers on placing the dragoons on foot, who were to support his division and form its reserve; he was to avoid compromising his division against superior forces or splitting it too much, and to keep his posts well entrenched and covered by abatis. On the morning of the 11th a third instruction told him to get ladders and tackle to scale Ulm's walls. Dupont replied that he was marching at once on Ulm.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The chain from the Emperor through Ney to Dupont, from the orders printed by the French official history (OCR) and Krauss's summary of the same instruction. The orders set the investment; the decision to fight at Haslach was Dupont's (claim side-a-decision). English renderings (ours): 'Ney will be under Murat's orders, but he will begin by taking Ulm, and the Emperor gives him orders directly for this operation'; 'as the Emperor is going to Munich'; 'surround Ulm in the course of tomorrow'; 'the dragoons on foot will continue to remain under your orders'; 'I leave him two squadrons of the 1st hussars and two regiments of dragoons of General Bourcier's division'; 'Marshal Ney sends his orders for the 11th at a late hour of the evening of the 10th'; 'the 1st division, under the orders of General Dupont, will blockade Ulm on the left bank of the Danube'; 'you will please, my dear General, close in on the place of Ulm as much as you can, and make a summons to the commandant'; 'it is very important that you push your right tomorrow as far as the Blau, where it will be supported'; 'you will occupy the wooded heights behind Haslacherhof'; 'who are to support your division and form its reserve'; 'you must avoid, my dear General, compromising your division against superior forces and splitting it up too much'; 'your posts well entrenched and covered with abatis'; 'on the morning of the 11th a third instruction was sent to General Dupont'; 'all the tackle needed to scale the walls of Ulm'; Dupont, 'I am marching at once to move on Ulm'; Krauss, 'Dupont was to avoid playing his division against superior forces'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "Ney se trouvera sous les ordres de Murat, mais il commencera par enlever Ulm, et l'Empereur lui donne directement des ordres pour cette opération"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "Comme l'Empercur va se porter à Munich"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "cernez, dans la journée de demain, Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "Les dragons à pied continueront à rester sous vos ordres"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 38 (OCR running heads; not checked against print)",
+          "quote": "je lui laisse deux escadrons du 1% hussards et deux régi- ments de dragons de la division du général Bourcier"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Ney envoie ses ordres pour le 11 à une heure avancée de la soirée du 10."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "aux ordres du général Dupont, blo- quera Llm sur la rive gauche du Danube"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "Vous voudrez hien, mon cher Général, resserrer la place d'Ulm autant que vous le pourrez, et faire une sommation au commandant"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "poussiez demain votre droite jusque sur la Blau, où elle sera appuyée."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "Vous occuperez les hau- teurs boisées en arrière d'Haslacherhof"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "qui doivent soutenir votre division et en former la réserve."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "Vous devez éviter, mon cher Général, de compromettre votre division contre des forces supérieures et de Ja trop morceler."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "postes bien retranchés el couverts d'abatis."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "Le 11 au matin, une troisième instruction était encore envoyée au général Dupont"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "tous les agrès néces- saires pour escalader les murailles d'Ulm"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 504 (OCR running heads; not checked against print)",
+          "quote": "je marche à l'instant pour me porter sur Ulm."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 398 (OCR page markers; not checked against print)",
+          "quote": "Dupont sollte es vermeiden, seine Division gegen überlegene Kräfte auszuspielen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-decision",
+      "dimension": "responsibility",
+      "value": "Dupont's decisions on the field: at Haslach he chose to fight rather than retreat (Alombert and Colin: 'Dupont accepted battle'; his later letter: 'I decided for the latter course'). General Rouyer had placed the 9th light on the Ulm road in front of Haslach; General Marchand deployed the 32nd on the left and put the 96th in reserve, the 1st hussars covering the left; Colonel Darricau held Haslach with a battalion of the 32nd, and Marchand posted its other battalion at the point of the wood on the right. As the enemy gained on the French right, Dupont put the 96th in line on the 9th's right, told Colonel Meunier of the 9th that he meant to charge the advancing line, and ordered General Sahuc to charge the enemy cavalry. Krauss says Dupont brought his reserve up beside the 9th light and decided to forestall the Austrian attack, and that after holding at Haslach until dark he withdrew his exhausted troops to Albeck.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions as Dupont's division journal, his later letter, the French official history and Krauss give them. Alombert and Colin give Dupont's reason as not wanting to encourage the enemy to take the offensive or to reveal that the Nördlingen road was open; Krauss leaves open whether the order to avoid superior forces (claim side-a-orders) was simply hard to follow or Dupont disobeyed it deliberately. English renderings (ours): 'to withdraw would have been to encourage the enemy to take the offensive, to reveal to him that the road to Nördlingen was open'; 'Dupont accepted battle'; 'it was necessary to choose without deliberating between retreat and battle: I decided for the latter course'; 'General Rouyer had placed the 9th light infantry on the Ulm road in front of Haslach; General Marchand at once has the 32nd deploy on the left and places the 96th in reserve. The 1st hussar regiment covered the left'; 'Colonel Darrieau with a battalion of the 32nd held the position of Haslach'; 'the second battalion of the 32nd, commanded by M. Bouge, had been carried by General Marchand to the point of the wood which was on our right'; 'the enemy's progress on our right flank obliges the general to put the 96th regiment into line at once: it takes its place on the right of the 9th'; 'General Dupont informs Colonel Meunier, commanding the 9th regiment, that his intention is to charge that line, which was gaining ground'; 'General Dupont gave General Sahuc the order to charge the enemy cavalry, which far outflanked his right'; Krauss, 'Dupont, who brought the reserve forward on the right beside the 9th light regiment, decided to forestall this attack'; 'until nightfall Dupont held at Haslach, but then he withdrew his exhausted troops, who had suffered heavily, to Albeck'; 'the action at Haslach now gives proof either that such an order is hard to follow'; 'that Dupont was disobedient deliberately and in full awareness'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (OCR running heads; not checked against print)",
+          "quote": "Se retirer, c'eût été encourager l'ennemi à prendre l'offensive, lui révéler que la route de Nœrdlingen était ouverte."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (OCR running heads; not checked against print)",
+          "quote": "Dupont accepta le combat"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "Il fallait choisir sans délibérer entre la retraite et le combat : je me détermine pour ce dernier parti."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "Le général Rouyer avait placé le 9e d'infanterie légère sur la route d'Ulm en avant d'Haslach; le général Marchand fait déployer de suite le 32e à gauche et place le 96e en réserve. Le 1er régiment de hussards couvrait la gauche."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "le colonel Darrieau avec un bataillon du 32° tenait la position d'Haslach,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "Le second bataillon du 32°, commandé par M. Bouge, avait été porté par le général Marchand à la pointe du bois qui se trou- vait sur notre droite,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "Les progrès de l'ennemi sur notre flanc droit obligent le général à mettre sur-le-champ en ligne le 96e régiment : il se place à la droite du 9e;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 508 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont prévient le colonel Meunier, commandant le 9 régiment, que son intention est de charger celle ligne qui gagnait du terrain."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 48 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont donna l'ordre au général Sahuc de charger la cavalerie enne- ie, qui dépassait de beaucoup sa droite,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Dupont, der die Reserve rechts neben das 9. leichte Regiment vorzog, entschloß sich, diesem Angriffe zu- vorzukommen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 404 (OCR page markers; not checked against print)",
+          "quote": "Bis zum Einbrüche der Dunkelheit hielt sich Dupont bei Has- lach, dann aber zog er seine erschöpften Truppen, die schwer ge- litten hatten, nach Albeck zurück."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 407 (OCR page markers; not checked against print)",
+          "quote": "Das Gefecht von Haslach gibt nun den Beweis dafür, daß ent- weder ein solcher Befehl nur schwer zu befolgen ist,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 407 (OCR page markers; not checked against print)",
+          "quote": "daß Dupont mit Absicht und vollem Bewußtsein ungehorsam war"
+        }
+      ]
+    },
+    {
+      "id": "side-a-support",
+      "dimension": "responsibility",
+      "value": "No other side A troops joined the action. Ney's orders for the 11th to Dupont and to Baraguey d'Hilliers, whose dragoons on foot were to support Dupont, went by one staff officer, who lost his way at night in the flooded marshes and delivered Dupont's order first and Baraguey d'Hilliers' afterwards. Baraguey d'Hilliers, not thinking special haste was called for, sent his departure order only after midday and chose to wait for the men he had detached on Ney's order; his columns reached Albeck and Langenau only after dark, and the 6th corps journal has his division bivouac at Langenau to support the 1st division. He rode ahead to Albeck, arriving at about 4 o'clock by Alombert and Colin, but with his columns far behind could bring no help to the troops fighting; Dupont's letter announcing his march was the only one he received from Dupont that day. The corps' other divisions, on the right bank, did not attack. Krauss says Murat's and Lannes's dispositions ruled out their support; that Murat, in his report of the 12th, said Ney had ordered Dupont not to attack and to stay at Albeck, an order no one else mentions; that the discord between Murat and Ney may have caused disorder in the issue of orders; and that Dupont received Ney's order to cross to the right bank at Albeck in the evening.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Why Dupont fought alone, as the French official history and Krauss give it. They divide the responsibility between Ney's staff, which Alombert and Colin blame for sending one officer on a double errand through the marshes at night, Baraguey d'Hilliers and the marshals, so the phase is unresolved. The times of the orders' delivery are disputed ('as always the times do not agree', Krauss), and the hours given in the OCR are not restated. The 1806 inquiry into Baraguey d'Hilliers' conduct, whose papers Alombert and Colin print, was not read. English renderings (ours): Krauss, 'Ney's orders to Dupont and to Baraguay d'Hilliers were to be carried in the night to 11 October by a general staff officer from Günzburg to Albeck and Stotzingen'; 'but he lost his way in the night so badly in the water-covered moors'; 'this officer lost his way, took to the left and, after wandering in the marshes,'; 'that it was better first to hand General Dupont the order that concerned him'; 'the order was then handed to General Baraguey d'Hilliers, who, not believing he need bring any very special haste to its execution, sent off his order of departure only after midday'; 'thought it better to wait for the 1500 to 2,000 men that he had detached at Brenz, Lonthal, etc., on the Marshal's order'; 'the columns reached Albeck and Langenau only after nightfall'; 'as always the times do not agree'; 'it was a very culpable levity to send a single officer to carry out a double mission'; 'dragoons on foot: this division, leaving Stötzingen, went to Langenau, where it remained in bivouac to support the 1st division'; Krauss, 'the dragoons on foot could therefore not support Dupont's division in the fight at Haslach, which was over toward ... in the evening'; 'the testimony of General Baraguey d'Hilliers confirms the previous one; this general, going ahead of his division, arrived at Albeck at about 4 o'clock with a weak escort:'; Krauss, 'since his columns were still far behind, he could bring no help to the troops fighting in front'; Dupont to Baraguey d'Hilliers, 'the division I command is marching on Ulm. Arrived at Haslach, I will let you know my position'; Baraguey d'Hilliers' note, 'it is the only one I received from General Dupont on the day of the 19th'; 'the two other divisions not attacking on the right bank'; Krauss, 'a support of these troops by Murat and Lannes was ruled out by the dispositions of these two marshals'; 'is made very probable by the wording of Murat's report of the 12th to the Emperor, in which he tries to explain Dupont's isolated attack on Ulm'; Murat, 'he stayed on the 11th at Günzburg and Leipheim and sent Dupont the order to refrain from the attack and keep his position at Albeck; but that general was already in action with the enemy when he received this order'; 'this order, not to attack and to stay at Albeck, nobody else mentions, neither Ney nor Dupont'; 'at this time there were strong discords between Murat and Ney'; 'this relation between the two leaders may also have been the cause of some disorder in the issue of orders'; 'on the other hand Dupont received in the presence of the commander of the 1st brigade of the dragoons on foot, after ... in the evening at Albeck, the order of Ney quoted above to march to the right bank of the Danube'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 399 (OCR page markers; not checked against print)",
+          "quote": "Die Befehle Neys an Dupont und an Baraguay d'Hilliers waren in der Nacht zum 11. Oktober durch einen Generalstabsoffizier von Günzburg nach Albeck und Stotzingen zu überbringen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 399 (OCR page markers; not checked against print)",
+          "quote": "Er verirrte sich aber in der Nacht derart in den mit Wasser bedeckten Mooren,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 43 (OCR running heads; not checked against print)",
+          "quote": "cet officier s'égara, prit à gauche et, après avoir erré dans les marais,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 44 (OCR running heads; not checked against print)",
+          "quote": "lors qu'il valait mieux remettre d'abord au général Dupont l'ordre qui le concernait,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 44 (OCR running heads; not checked against print)",
+          "quote": "L'ordre fnt remis alors au général Baraguey-d'Hilliers qui, ne croyant pas devoir apporter une hâte toute spéciale à son exécution, n'expé- dia son ordre de départ qu'après midi."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 45 (OCR running heads; not checked against print)",
+          "quote": "crut préférable d'attendre les 1500 à 2,000 hommes qu'il avait détachés à Brenz, Lonthal, ete., sur l'ordre du Maréchal."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 45 (OCR running heads; not checked against print)",
+          "quote": "les colonnes n'arrivèrent à Albeck et Langenau qu'à la nuit close"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 399 (OCR page markers; not checked against print)",
+          "quote": "Wie immer stimmen die Zeitangaben nicht überein."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 46 (OCR running heads; not checked against print)",
+          "quote": "c'était une bien cou- pable légèreté que d'envoyer un officier seul remplir une double mission"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p516-figures-v1",
+          "section": "p516",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 516 (transcribed from the page image)",
+          "quote": "Dragons à pied : Cette division, partant de Stötzingen, s'est dirigée sur Langenau où elle resta au bivouac pour soutenir la 1re division."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 400 (OCR page markers; not checked against print)",
+          "quote": "Die Dragoner zu Fuß konnten daher die Division Dupont in dem Kampfe bei Haslach, der gegen 8^ abend beendet war, nicht unterstützen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p52-figures-v1",
+          "section": "p52",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 52 (transcribed from the page image)",
+          "quote": "Le témoignage du général Baraguey-d'Hilliers vient confirmer le précédent; ce général, devançant sa division, arriva à Albeck vers 4 heures avec une faible escorte :"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 404 (OCR page markers; not checked against print)",
+          "quote": "Da seine Kolonnen noch weit rückwärts waren, konnte er den vorne kämpfenden Truppen keine Hilfe bringen"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 506 (OCR running heads; not checked against print)",
+          "quote": "La division que je commandé marche sur Ulm, Arrivé à Haslach, je vous préviendrai de ma position."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 506 (OCR running heads; not checked against print)",
+          "quote": "Elle est la seule que j'aie recue du général Diüpoñt dans la journée du 19."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "les deux autres divisions n'attaquant pas sur la rive droite (1)."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 399 (OCR page markers; not checked against print)",
+          "quote": "Eine Unterstützung dieser Truppen durch Murat und Lannes war nach den Dispositionen dieser beiden Marschälle ausgeschlossen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "wird durch die Fassung der Meldung Murats vom 12, an den Kaiser sehr wahrscheinlich, in der er den isolierten Angriff Duponts auf Ulm zu erklären sucht."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "Er blieb am 11. bei Günzburg und Leipheim und sandte Dupont den Befehl, den Angriff zu unterlassen und seine Aufstellung bei Albeck zu behalten; aber dieser General war schon mit dem Feind im Gefecht, als er diesen Befehl erhielt."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "Diesen Befehl, nicht anzugreifen und bei Albeck stehenzu- bleiben, erwähnt sonst niemand, weder Ney noch Dupont;"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "bestanden zu dieser Zeit starke Mißhelligkeiten zwischen Murat und Ney."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "Dieses Verhältnis zwischen den beiden Führern mag auch die Ursache mancher Unordnung in der Befehlgebung gewesen sein."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "Dagegen erhielt Dupont in Gegenwart des Kommandanten der 1. Brigade der Dragoner zu Fuß nach 9*\" abend in Albeck den oben angeführten Befehl Neys, auf das rechte Donau-Ufer zu marschieren."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Krauss says that at the generals' conference on the evening of 10 October the Archduke told Mack he had just received the Emperor's note instructing him to follow Mack's advice at all times, which in effect put the army commander under Mack's command; from then on Mack acted wholly on his own, issuing all orders directly and as a rule telling the named army commander only afterwards or not at all. On the morning of the 11th Mack told Colonel Bianchi he alone had the Emperor's authority to command the army and the Archduke should not imagine himself to be the commanding general. Because all formations had been broken up, no general knew where he was to command, and Krauss judges that higher command almost wholly failed during the action, the army's leader preferring to charge at the head of his regiment. Archduke Ferdinand's report of 12 October says the turning of the right wing was actually ordered by Prince Schwarzenberg and carried out by him and FML Klenau, Mack being present.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Command relations from an Austrian history based on the Kriegsarchiv files, quoting Bianchi's diary and the Archduke's report; the relation of command was set by the Emperor's letter before the action, so the claim is tagged inherited. Who directed side B at Haslach is not settled: Bodart names Schwarzenberg, the Archduke credits Schwarzenberg with the decisive move and Mack's relation credits Mack (claim side-b-decisions). English renderings (ours): 'in the evening a conference of all the army's generals took place, at which Mack announced his plan to march off with the army by Heidenheim'; 'on this occasion the Archduke told FML Mack that he had just received a note from the Emperor of ... October'; 'after the conference on the evening of 10 October'; 'this note instructed the Archduke to follow FML Mack's advice at all times, that is, it in fact placed the army commander under the command of FML Mack'; 'from now on acted wholly independently; he issued all orders directly and as a rule brought them to the knowledge of the appointed army commander only afterwards or not at all'; 'when Colonel Bianchi came to Mack with FML Gyulai early on 11 October'; 'he had received from the Emperor the sole authority to command the army; he alone was responsible for every proceeding'; 'His Royal Highness should not imagine himself to be the commanding general'; 'because all formations had been torn apart, no general knew where he was actually to command'; 'so during the action the higher command seems to have failed almost entirely, all the more as the army leader too preferred to ride a charge at the head of his regiment instead of exercising the supreme command in the action'; the Archduke, 'only I must remark here that the number of the dead, prisoners and captured guns is exaggerated, and that the turning of the right wing was actually ordered by Prince Schwarzenberg and carried out by him and FML Klenau. FML Mack was present, however'; '(Mack charged with them at the head of his regiment.'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 379 (OCR page markers; not checked against print)",
+          "quote": "Am Abend fand eine Besprechung aller Generale der Armee statt, bei der Mack seinen Plan bekanntgab, mit der Armee über Heidenheim abzumarschieren."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 379 (OCR page markers; not checked against print)",
+          "quote": "Bei dieser Gelegenheit teilte der Erz- herzog dem FML. Mack mit, daß er soeben ein Handbillett des Kaisers vom 5. Oktober erhalten habe,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 380 (OCR page markers; not checked against print)",
+          "quote": "Nach der Besprechung am Abend des 10. Oktobers"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 379 (OCR page markers; not checked against print)",
+          "quote": "Dieses Handbillett wies den Erzherzog an, den Bat des FML. Mack jederzeit zu befolgen, d. h. es stellte den Armeekommandanten tatsächlich unter den Befehl des FML. Mack."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 383 (OCR page markers; not checked against print)",
+          "quote": "schaltete von jetzt an ganz selbständig; er gab alle Befehle direkt hinaus und brachte sie in der Regel erst nachträglich oder gar nicht zur Kenntnis des ernannten Armeekommandanten."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Als Oberst Bianchi mit FML. Gyulai am 11. Oktober früh zu Mack kam,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Er habe vom Kaiser die alleinige Vollmacht zum Kommando der Armee erhalten, er allein sei für jeden Vorgang verantwortlich."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Seine königliche Hoheit möge sich ja nicht einbilden, kommandierender General zu sein,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 386 (OCR page markers; not checked against print)",
+          "quote": "Weil alle Verbände zerrissen waren, wußte kein General, wo er eigentlich zu be- fehlen habe."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 406 (OCR page markers; not checked against print)",
+          "quote": "so scheint während des Gefechtes die obere Führung fast ganz versagt zu haben, umsomehr, als auch der Armeeführer es vorzog, an der Spitze seines Regiments eine Attacke zu reiten, anstatt die oberste Führung im Gefecht auszuüben."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "nur muß ich hier bemerken, daß die Anzahl der Toten, Gefangenen und eroberten Kanonen übertrieben ist und daß die Tournierung des rechten Flügels eigentlich durch den Fürsten Schwarzenberg angeordnet und durch ihn und FML. Klenau ausgeführt wurde. Jedoch war FML. Mack gegenwärtig."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "(Mack attackierte an der Spitze seines Regiments mit."
+        }
+      ]
+    },
+    {
+      "id": "side-b-decisions",
+      "dimension": "responsibility",
+      "value": "Side B's decisions in the action, as the sources give them: the Austrians sent some battalions of the regiment Riese forward to support their outposts and, when these were thrown back, threw all the battalions of their right wing and several squadrons against the French attack. After the fight on the southern wing had begun, troops were sent forward via Jungingen, apparently to envelop the French right, and fresh forces kept being brought up. The Archduke's report says the turning of the right wing was ordered by Prince Schwarzenberg and carried out by him and FML Klenau; Mack's relation says Mack had a considerable part of the left wing advance and led it into the rear of the enemy right. By Schönhals, as Alombert and Colin cite him, General Loudon retook Jungingen twice. Austrian cavalry pursued the French hussars and dragoons as far as Albeck. Dupont's journal says the enemy's movement was decided on the spot.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions as Krauss, the Archduke's and Mack's reports he quotes, Schönhals through Alombert and Colin, and Dupont's journal give them. Who ordered the envelopment is disputed between the Archduke's report and Mack's relation; Krauss's narrative gives the moves without naming who ordered them, and judges that higher command almost wholly failed (claim side-b-command). The moves were decided on the field, so the claim is tagged commander_created. English renderings (ours): 'the Austrians had sent some battalions of the regiment Riese forward to support the outposts'; 'against this attack all the battalions of the Austrian right wing and several squadrons were thrown one after another'; 'at the time when the fight on the southern wing had already begun, Austrian troops were directed forward over Jungingen, apparently to envelop the French right wing'; 'the Austrians, however, kept bringing up new forces'; the Archduke, 'the turning of the right wing was actually ordered by Prince Schwarzenberg and carried out by him and FML Klenau. FML Mack was present, however'; Mack, 'while the quartermaster general FML Mack had a considerable part of our left wing advance and led it into the rear of the enemy right'; for Loudon, claim side-b-units; 'while there was still fighting at Haslach, Austrian cavalry had pushed on in pursuit of the hussars and dragoons as far as Albeck'; 'the enemy's movement is decided on the spot'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Die Österreicher hatten einige Bataillone des Regiments Riese zur Unterstützung der Vorposten vorgesandt."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Diesem Angriff wurden nach und nach alle Bataillone des österreichischen rechten Flügels und mehrere Eskadronen entgegen- geworfen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Zur Zeit, als der Kampf am südlichen Flügel schon begonnen hatte, wurden österreichiseherseits Truppen über Jungingen vordirigiert, anscheinend um den rechten französi- schen Flügel zu umfassen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Die Österreicher zogen aber immer neue Kräfte heran."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "nur muß ich hier bemerken, daß die Anzahl der Toten, Gefangenen und eroberten Kanonen übertrieben ist und daß die Tournierung des rechten Flügels eigentlich durch den Fürsten Schwarzenberg angeordnet und durch ihn und FML. Klenau ausgeführt wurde. Jedoch war FML. Mack gegenwärtig."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "während der Generalquartiermeister FML. Mack einen beträchtlichen Teil unseres linken Flügels vorrücken ließ und der feindlichen Rechten in den Rücken führte,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "(1) Journal de la division Dupont. D'après la meilleure relation autrichienne que nous ayons (Schönha's, Der Krieg 1805, Vienne 1873), le général Loudon, attaqué à Jungingen, aurait repris ce village une première fois avec quelques bataillons, puis une seconde fois avec le régiment de Froon comme renfort, et il en serait resté définitivement maître."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Während noch bei Haslach gekämpft wurde, war österreichi- sche Kavallerie in der Verfolgung der Husaren und Dragoner bis Albeck vorgedrungen,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "Le mouvement de l'ennemi est décidé sur-le-champ;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side B (Austrian) under FML Prince Schwarzenberg over side A (French) under General Dupont.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (outcome_side_a 0). Side A's own reports claim the victory (claim side-a-victory-claim, disputed); both histories read reject or qualify that claim without reversing Bodart's result (claim histories-on-result).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Sieg der Österreicher (25.000 M.) unter FML. Fürst Schwarzenberg über die Franzosen (6.000 M.) unter Div.-Gen. Dupont."
+        }
+      ]
+    },
+    {
+      "id": "side-a-victory-claim",
+      "dimension": "outcome",
+      "value": "Side A's own reports claim a French victory. Dupont's report, as the 6th corps journal gives it, says the French remained masters of the battlefield, fighting went on until night and the enemy went back into his entrenchments, and that 5,100 men fought for five hours against an army of 25,000 and beat it completely; his division journal says that at nightfall the division re-formed on the battlefield. Krauss says Dupont spoke in his report and letters only of the victory his division won, holding the field, and kept silent about the loss of most of his artillery.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "A contemporary report by side A's commander giving the opposite result to Bodart's frozen outcome (claim bodart-winner), recorded as a dispute and not resolved. Both histories read treat the claim as overstated (claim histories-on-result). The report and the journal are Dupont's own account (open questions). English renderings (ours): 'we remained masters of the battlefield, fighting went on until night and the enemy went back into his entrenchments (and behind)'; '5,100 men fought for five hours against an army of 25,000 men and beat it completely'; 'night having come, the division re-formed on the battlefield'; Krauss, 'Dupont spoke in his report and in other letters only of the victory that his division, which held the field of battle, won'; 'on the other hand he kept silent about the loss of the greater part of his artillery'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "nous sommes restés maîtres du champ de bataille, on s'est battu jusqu'à la nuit et l'ennemi est rentré dans ses retranchements (et derrière)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p516-figures-v1",
+          "section": "p516",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 516 (transcribed from the page image)",
+          "quote": "5,100 hommes ont combattu pendant cinq heures une armée de 25,000 hommes et l'ont battue complètement."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 511 (OCR running heads; not checked against print)",
+          "quote": "La nuit étant urrivée, la division s'est reformée sur le champ de bataille,"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Dupont sprach in seinem Bericht und in sonstigen Briefen nur von dem Siege, den seine Division, die das Gefechtsfeld behauptete,"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Er verschwieg dagegen den Verlust des größten Teiles seiner Artillerie;"
+        }
+      ]
+    },
+    {
+      "id": "histories-on-result",
+      "dimension": "outcome",
+      "value": "Both histories read qualify the result. Krauss says both sides claimed the victory, that in reality Dupont suffered a sensible tactical defeat, shown by the loss of 9 guns, 31 ammunition vehicles and 2 eagles, and that the action was no French victory, though Dupont could claim the victory with some show of right, having taken rich trophies and evacuated Haslach of his own accord only after dark, when the fighting had died down. Alombert and Colin call Dupont's 'complete success' excessively optimistic: the French had not been driven back behind their starting point, but Jungingen remained the enemy's, and on the left there was no illusion possible; the enemy could consider himself victorious while Dupont still held in front of Jungingen, but did not use his forces to make his success decisive.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The histories' judgments of the result; neither reverses Bodart's winner, and Krauss's figures are read from the page image. English renderings (ours): 'both parties claimed the victory'; 'in reality Dupont, as could not be otherwise, suffered a sensible tactical defeat, to which the loss of 9 guns, 31 ammunition vehicles and 2 eagles bears clear witness'; 'although the action of Haslach was no victory of the French'; 'nevertheless Dupont could lay claim to the victory with a show of right: he had taken rich trophies and had evacuated Haslach voluntarily only after nightfall and after the fighting had died away'; '\"the success was complete,\" he says again, \"night came and we remained masters of the battlefield\". That was excessively optimistic. To tell the truth, we had not been driven back behind our starting point, but Jungingen remained the enemy's'; 'there was no illusion possible on our left'; 'and although the enemy could consider himself victorious, Dupont still held in front of Jungingen'; 'but he did not know how to use the forces at his disposal to make his success decisive'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 404 (OCR page markers; not checked against print)",
+          "quote": "Beide Teile schrieben sich den Sieg zu."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "In Wirklichkeit hat Dupont, wie nicht anders möglich, eine empfindliche taktische Niederlage erlitten, wofür der Verlust von 9 Geschützen, 31 Munitionsfuhrwerken und 2 Adlern deutlich Zeugnis ablegt."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 407 (OCR page markers; not checked against print)",
+          "quote": "Obwohl das Gefecht von Haslach kein Sieg der Franzosen war,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 406 (OCR page markers; not checked against print)",
+          "quote": "trotzdem konnte Dupont mit einem Schein von Anrecht auf den Sieg Anspruch erheben: Er hatte reiche Trophäen erbeutet und hatte Haslach erst nach Einbrach der Dunkelheit und nach dem Erlöschen des Kampfes freiv^illig geräumt."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (OCR running heads; not checked against print)",
+          "quote": "« Le succès a été complet, dit-il encore, la nuit est arrivée et nous somnies restés inailres du champ de bataille », C'était d’un optimisme excessif, À vrai dire, nous n'avions point été repoussés en arriére de notre point de départ, mais Jungingen demeurait à l'ennemi."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (OCR running heads; not checked against print)",
+          "quote": "Il n’y avait pas d'illusion possible à notre gauche."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 53 (OCR running heads; not checked against print)",
+          "quote": "et que l'ennemi püt se cousi- dérer comme victorieux, Dupont tenait foujours en face de Jungingen"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "mais il ne sut pas profiter des forces dont il disposait pour rendre son succès décisif;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's loss as 1,100 men, and side A's as 600 killed and wounded (43 officers) and 900 prisoners, together 1,500 men (= 32%), with 11 guns, 2 eagles and 17 ammunition wagons.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule; a post-outcome observation, never a predictor. His 1,500 is 25% of his printed 6,000 for side A (our arithmetic), so the basis of the printed 32% is not stated. His figures equal particular figures in the sources read: 600 killed and wounded, Dupont's journal; 900 prisoners, the top of the 800-900 in Mack's relation and in Alombert and Colin; 11 guns, 2 eagles and 17 wagons, the Austrian figures Alombert and Colin cite from Schönhals; 1,100, Krauss's wounded brought into Ulm (claims side-a-losses-reported, side-a-losses-austrian-accounts and side-b-losses-reported). The passages read do not say which he used.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Österr. Verl.: 1.100 M. | Franz. Verl.: 600 M. (43 Offz.) tot u. verw. 900 „ Gefg. zus. 1.500 M. (= 32%) 11 Kan., 2 Adler, 17 Munitionswägen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "French figures for side A's own loss: Dupont's journal says the division lost only 600 killed or wounded, Colonel Saint-Dizier of the 17th dragoons was killed and General Marchand lightly wounded. Sahuc's report gives his dragoon brigade 25 killed or missing, 3 of them officers, 54 wounded, 15 of them officers, and 73 taken prisoner, 152 out of action out of 673. Alombert and Colin say the infantry's losses are not known; from Martinien's tables the 9th light had 8 officers wounded, the 96th 4 officers wounded and the 32nd 1 killed and 2 wounded. They put the material lost at two 12-pounders (the carriages saved), six 8-pounders, one 4-pounder, three 12-pounder caissons, ten 8-pounder caissons, eight howitzer caissons, six infantry caissons, a spare carriage and four peasant carts loaded with infantry cartridges, and say the enemy took 800 to 900 prisoners, two eagles and nine guns.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, not combined; each read from a page image. The journal's 600 counts killed and wounded only. The material list gives 9 guns, and 31 caissons and carts without the spare carriage (our sums), the figures Krauss gives (claim histories-on-result). The identified officer casualties sum to 33 (our sum: Sahuc's 18 and Martinien's 15 for the infantry), against Bodart's 43; no officer figures were read for the hussars or the artillery. English renderings (ours): 'in this memorable day the division lost only 600 men killed or wounded. Colonel Saint-Dizier, commanding the 17th dragoons, was killed. General Marchand was slightly wounded'; '(1) report of General Sahuc. The brigade of dragoons had on this day 25 men killed or missing, 3 of them officers; 54 wounded, 15 of them officers; and 73 men taken prisoner, that is 152 men out of action out of 673'; 'the infantry's losses are not known. We know only from M. A. Martinien's work that the 9th light has 8 officers wounded, the 96th of the line 4 officers wounded, and the 32nd of the line 1 killed and 2 wounded. (Tables of the officers killed and wounded, etc.)'; 'the losses in material came to two 12-pounders (the carriages saved), six 8-pounders, one 4-pounder, three 12-pounder caissons, ten 8-pounder caissons, eight howitzer caissons, six infantry caissons, a spare carriage, four peasant carts loaded with infantry cartridges (1)'; 'he took 800 to 900 prisoners from us and took two eagles and nine guns'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p511-figures-v1",
+          "section": "p511",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 511 (transcribed from the page image)",
+          "quote": "Dans cette journée mémorable, la division n'a perdu que 600 hommes tués ou blessés. Le colonel Saint-Dizier, commandant le 17e de dragons, a été tué. Le général Marchand a été légèrement blessé."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p49-figures-v1",
+          "section": "p49",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 49 (transcribed from the page image)",
+          "quote": "(1) Rapport du général Sahuc. La brigade de dragons a, dans cette journée, 25 hommes tués ou disparus, dont 3 officiers; 54 blessés, dont 15 officiers; et 73 hommes faits prisonniers, soit 152 hommes hors de combat sur 673."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p52-figures-v1",
+          "section": "p52",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 52 (transcribed from the page image)",
+          "quote": "Les pertes de l'infanterie ne sont pas connues. Nous savons seulement par l'ouvrage de M. A. Martinien que le 9e léger a 8 officiers blessés, le 96e de ligne 4 officiers blessés, et le 32e de ligne 1 mort et 2 blessés. (Tableaux des officiers tués et blessés, etc.)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p52-figures-v1",
+          "section": "p52",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 52 (transcribed from the page image)",
+          "quote": "Les pertes en matériel s'élevèrent à deux pièces de 12 (les affûts sauvés), six pièces de 8, une pièce de 4, trois caissons de 12, dix caissons de 8, huit caissons d'obusiers, six caissons d'infanterie, un affût de rechange, quatre chariots de paysans chargés de cartouches d'infanterie (1)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "Il nous fit 800 à 900 prisonniers et nous prit deux aigles et neuf canons,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-austrian-accounts",
+      "dimension": "outcome",
+      "value": "Austrian figures for side A's loss: Mack's relation says the enemy left nearly 1,500 dead on the field, two enemy cavalry and two infantry regiments were almost wholly destroyed, and the Austrians took 800-900 prisoners, 11 guns and 20 ammunition wagons; the Archduke's report says the numbers of dead, prisoners and captured guns are exaggerated. As Alombert and Colin cite Schönhals, the Austrians claim 11 guns, 17 caissons and 2 eagles, and 69 prisoners from the 1st hussars. Krauss says only 5 guns and 23 artillery wagons actually fell into Austrian hands, and that Dupont lost only two guns in the fight but on the retreat all his 12- and 8-pounders, which overturned crossing ditches.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, not combined; each read from a page image. Krauss's 5 guns and 23 wagons are what the Austrians took, his 9 guns and 31 vehicles the whole loss (claim histories-on-result); he does not say how he reached either figure. English renderings (ours): Mack, 'the enemy withdrew in the greatest disorder along the Danube and left nearly 1500 dead on the battlefield'; 'of which two enemy cavalry and two infantry regiments were almost entirely destroyed'; 'we took 800-900 prisoners and captured 11 guns and 20 ammunition wagons'; the Archduke, 'that the number of the dead, prisoners and captured guns is exaggerated'; '(1) the Austrians say 11 pieces and 17 caissons. They declare, moreover, that they took 2 eagles (Schönhals, p. 73)'; '(2) the Austrians take 69 prisoners from the 1st hussars'; Krauss, 'in fact only 5 guns and 23 artillery wagons fell into the hands of the Austrians'; 'admittedly he lost only two guns in the fight'; 'on the retreat the division lost all the twelve- and eight-pounders, which overturned in crossing ditches and could not be righted again'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "„Der Feind zog sich in größter Unordnung längs der Donau zurück und ließ nahe an 1500 Tote auf dem Walplatz."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "von dem zwei feindliche Kavallerie- und zwei Infanterieregimenter fast gänzlich aufgerieben wurden."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "„Wir haben 800—900 Gefangene gemacht, 11 Kanonen und 20 Munitionswagen erobert."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "daß die Anzahl der Toten, Gefangenen und eroberten Kanonen übertrieben ist"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p52-figures-v1",
+          "section": "p52",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 52 (transcribed from the page image)",
+          "quote": "(1) Les Autrichiens disent 11 pièces et 17 caissons. Ils déclarent, en outre, avoir pris 2 aigles (Schönhals, p. 73)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p50-figures-v1",
+          "section": "p50",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (transcribed from the page image)",
+          "quote": "(2) Les Autrichiens font 69 prisonniers au 1er hussards,"
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "Tatsächlich fielen nur 5 Kanonen und 23 Artilleriewagen in die Hände der Österreicher.)"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "allerdings verlor er nur zwei Geschütze im Kampfe;"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Auf dem Rückzuge verlor die Division alle Zwölf- und Achtpfünder, die beim Übersetzen von Gräben umstürzten und nicht mehr aufgerichtet werden konnten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Figures for side B's loss: Dupont's journal says the French killed or wounded at least 2,000 of the enemy and took 4,000 prisoners, four guns and two flags, 2,000 of the prisoners nearly being retaken by the enemy cavalry; his report, as the 6th corps journal gives it, says about 2,000 killed or wounded, 4,000 prisoners and a flag, with three guns added in the artillery's note; and Alombert and Colin give Dupont 4,000 prisoners, three guns and a flag. Krauss says Dupont claimed 7,000 prisoners, 3 guns and 2 flags, 3,000 of the prisoners reportedly being retaken by the Austrian cavalry, that the French bulletin of 15 October gave only 1,500 prisoners and mentioned no guns or flags, and that by 12 October over 1,100 wounded had been brought into Ulm, the army having also lost numerous prisoners.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, not combined; each figure read from a page image. Dupont's figures are his own; Krauss sets the bulletin against them. Krauss's 1,100 counts wounded brought in by 12 October and includes no killed or prisoners. English renderings (ours): 'we killed or wounded at least 2,000 men of the enemy: we took 4,000 prisoners from him and took four pieces and two flags'; '2,000 prisoners, led by a weak detachment, were on the point of being retaken by the enemy cavalry, which had moved onto our rear'; 'we killed or wounded about 2,000 men of the enemy and took 4,000 prisoners of war, we took a flag [and three guns (note of the artillery)]'; 'proud of such a result, of 4,000 prisoners, three guns and a flag taken from the enemy, Dupont claimed the victory'; Krauss, 'he claimed to have taken 7000 men prisoner, 3 guns and 2 flags; of the prisoners 3000 are said to have been snatched back from him by the Austrian cavalry'; '2) in the French bulletin of 15 October 1805 the number of prisoners is given as only 1500; of captured guns and flags there is no mention at all'; 'but the Austrian army too had suffered heavily and paid very dearly for its success. By 12 October over 1100 wounded had already been brought into Ulm'; 'the army had certainly lost numerous prisoners against the inferior opponent'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p510-figures-v1",
+          "section": "p510",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 510 (transcribed from the page image)",
+          "quote": "Nous avons tué ou blessé à l'ennemi au moins 2,000 hommes : nous lui avons fait 4,000 prisonniers et pris quatre bouches à feu et deux drapeaux."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p510-figures-v1",
+          "section": "p510",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 510 (transcribed from the page image)",
+          "quote": "2,000 prisonniers, conduits par un faible détachement, étaient sur le point d'être repris par la cavalerie ennemie, qui s'était portée sur nos derrières;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "nous avons tué ou blessé à l'ennemi environ 2,000 hommes et fait 4,000 prisonniers de guerre, nous avons pris un drapeau [et trois canons (note de l'artillerie)],"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "Fier d'un pareil résultat, de 4,000 prisonniers, trois canons et un drapeau enlevés à l'ennemi, Dupont s'attribuait la victoire."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Er behauptete, 7000 Mann gefangen, 3 Kanonen und 2 Fahnen erbeutet zu haben; von den Gefangenen sollen ihm 3000 durch die österreichische Kavallerie wieder abgejagt worden sein."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "2) In dem französischen Bulletin vom 15. Oktober 1805 wird die Zahl der Gefangenen nur mit 1500 angegeben; von erbeuteten Kanonen und Fahnen ist darin gar nicht die Rede."
+        },
+        {
+          "source_id": "krauss-1912-p405-figures-v1",
+          "section": "p405",
+          "locator": "Krauss (1912), p. 405 (transcribed from the page image)",
+          "quote": "Aber auch die österreichische Armee hatte schwer gelitten und ihren Erfolg sehr teuer erkauft. Am 12. Oktober waren schon über 1100 Verwundete nach Ulm eingeliefert worden."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 405 (OCR page markers; not checked against print)",
+          "quote": "Die Armee hatte gegen den inferioren Gegner unbedingt zahlreiche Gefangene ein- gebüßt."
+        }
+      ]
+    },
+    {
+      "id": "haslach-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Haslach as a village in Württemberg 10 km northeast of Ulm. The French formed in front of Haslach, which served as the pivot of their movements, and fought over the plain and the ground between Haslach and the village of Jungingen; the Austrian line deployed on the heights of Jungingen and advanced into the plain. There were small woods on the French front, a wood at whose point the French right was posted, a small wood northeast of Jungingen with an Austrian battery, the woods north of Haslach into which the dragoons were driven, and a sunken road. The Austrian forces stood between Böfingen and Örlingen and, in side A's accounts, in high works on the Spitzberg. Snow and rain over several days had made the ground extremely difficult; the artillery report calls it broken, and on the retreat the guns overturned crossing ditches. Krauss notes that the lasting rain had flooded the Danube lowlands far and wide.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Terrain from the passages read for strength and responsibility; Krauss's map (Beilage 26) was not inspected. English renderings (ours): Bodart, 'village in Württemberg, 10 km northeast of Ulm'; 'form up in front of Haslach, which serves as the pivot of all our movements'; 'but the Austrian line deploying on the heights of Jungingen and advancing into the plain under the protection of a numerous artillery'; 'some companies thrown into the small woods that were on my front'; 'to the point of the wood which was on our right'; 'despite the murderous fire of a battery placed between Jungingen and the small wood northeast of that village'; 'which had just crossed a sunken road'; 'threw back against the woods north of Haslach'; Krauss, 'from the heights at Haslach considerable Austrian forces must have been visible, which were in position between Böfingen and Örlingen'; 'deployed in high works on the Spitzberg hill'; 'the snow and the rain, which had prevailed for several days, having made the ground extremely difficult'; 'in ground that was broken and made extremely difficult by the bad weather'; 'which overturned in crossing ditches'; 'the lasting rain had flooded the Danube lowlands far and wide'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "(Dorf in Württemberg, 10 km nordöstl. von Ulm)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "se forment devant Haslach, qui sert de pivot à tous nas mouve- ments;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "mais la ligne autrichienne se déployant sur les hauteurs de Jungingen et s'avançant dans la plaine sous la protection d'une artillerie nombreuse,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 50 (OCR running heads; not checked against print)",
+          "quote": "quelques compa- gnies jetées dans les petits bois qui se trouvaient sur mon front"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "à la pointe du bois qui se trou- vait sur notre droite,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 48 (OCR running heads; not checked against print)",
+          "quote": "malgré le feu meurtrier d’une batterie placée entre Jungingen et le petit bois au nord-est de ce village"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 48 (OCR running heads; not checked against print)",
+          "quote": "qui venait de passer un chemin creux"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "gegen die Waldungen nördlich Haslach zurückwarf."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 402 (OCR page markers; not checked against print)",
+          "quote": "Von den Höhen bei Haslach mußten beträchtliche österreichi- sche Kräfte sichtbar gewesen sein, die zwischen Böfingen und Ör- lingen in Stellung waren."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "a déployé dans des ouvrages élevés sur la montagne du Spitzberg"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p510-figures-v1",
+          "section": "p510",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 510 (transcribed from the page image)",
+          "quote": "la neige et la pluie, qui régnaient depuis plusieurs jours, ayant rendu le terrain extrêmement difficile,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 51 (OCR running heads; not checked against print)",
+          "quote": "dans un terrain coupé et rendu extrêémement difficile par le mau- vais temps,"
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "die beim Übersetzen von Gräben umstürzten"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 401 (OCR page markers; not checked against print)",
+          "quote": "Der anhaltende Regen hatte die Donau-Niederungen weithin über- schwemmt."
+        }
+      ]
+    },
+    {
+      "id": "side-a-march-and-means",
+      "dimension": "logistics",
+      "value": "Krauss says Dupont's division set out from Albeck toward Ulm at 11 a.m. on 11 October. Baraguey d'Hilliers, acknowledging Ney's orders, wrote that his dragoons on foot were somewhat dispersed and had marched or bivouacked all night in frightful weather, the roads were broken up and the artillery would have great difficulty arriving. Of Dupont's guns a 4-pounder was under repair; at Haslach the French artillery, much inferior to the enemy's, was partly dismounted and several pieces had their horses killed, the snow and rain of several days having made the ground extremely difficult. During the action enemy cavalry reached the division's rear, carried off the baggage and plundered the park, and on the retreat the division lost all its 12- and 8-pounders, overturned crossing ditches.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Movement and means as the sources report them; no supply return was inspected. The late start followed the late delivery of Ney's orders (claim side-a-support), so the phase is unresolved. English renderings (ours): Krauss, 'Dupont's division had set out from Albeck toward Ulm on 11 October at 11 a.m.'; Baraguey d'Hilliers, 'the troops are somewhat dispersed and will arrive rather late at their cantonments; they have marched or bivouacked all night in frightful weather; the roads are broken up and the artillery will have great difficulty in arriving'; 'a 4-pounder is under repair on 11 October'; 'our artillery, too inferior to the enemy's, was partly dismounted; several pieces had their horses killed; the snow and the rain, which had prevailed for several days, having made the ground extremely difficult, this inferiority was felt still more'; 'during the action the enemy cavalry moved onto the rear, carried off the baggage and plundered the objects of the park'; Krauss, 'where, coming upon the train of Dupont's division, it caused great confusion'; 'on the retreat the division lost all the twelve- and eight-pounders, which overturned in crossing ditches and could not be righted again'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p402-figures-v1",
+          "section": "p402",
+          "locator": "Krauss (1912), p. 402 (transcribed from the page image)",
+          "quote": "Die Division Dupont war am 11. Oktober um 11h vormittag von Albeck gegen Ulm aufgebrochen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 504 (OCR running heads; not checked against print)",
+          "quote": "Les troupes sont un peu dispersées el arriveront un peu tard à Jeurs eanlonnements ; elles out marché ou bivouaqué toute la nuit par un lemps allreux ; les chemins sont défoncés et l'artillerie aura beaucoup de peine à arriver."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p47-figures-v1",
+          "section": "p47",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (transcribed from the page image)",
+          "quote": "une pièce de 4 se trouve en réparation le 11 octobre."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p510-figures-v1",
+          "section": "p510",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 510 (transcribed from the page image)",
+          "quote": "Notre artillerie, trop inférieure à celle de l'ennemi, a été démontée en partie; plusieurs pièces ont eu leurs chevaux tués; la neige et la pluie, qui régnaient depuis plusieurs jours, ayant rendu le terrain extrêmement difficile, cette infériorité a été encore plus sensible."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 510 (OCR running heads; not checked against print)",
+          "quote": "Pendant le combat, la cavalerie ennemie s'est portée sur les derrières, à enlevé les bagages et pillé les objets du paro,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "wo sie, auf den Train der Division Dupont stoßend, große Verwirrung anrichtete."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Auf dem Rückzuge verlor die Division alle Zwölf- und Achtpfünder, die beim Übersetzen von Gräben umstürzten und nicht mehr aufgerichtet werden konnten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-condition",
+      "dimension": "logistics",
+      "value": "Krauss says all side B's troops, even those that had not been under fire, had already suffered heavily. FML Rouvroy, the army's artillery chief, reported on 11 October that the wretched state of the horses made the artillery reserve unfit to operate, almost unfit for any movement; Krauss calls such states the result of the marches back and forth and two insignificant actions, and cites Mack's statement at his trial that the army's disorder and fatigue allowed no movement at all in those days. Despite this, Mack threw the troops in the position at Ulm into complete confusion, breaking up corps, division and even brigade formations without cause, and the greatest disorder reigned at Ulm.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Condition as Krauss gives it from the Kriegsarchiv files; no supply return was inspected. The exhaustion came from the army's earlier marches and the disorder from Mack's arrangements before the action; Mack directed the army in fact, but Bodart names Schwarzenberg as side B's commander at Haslach (claim side-b-command), so the phase is unresolved. The trial's dates are in the OCR and are not restated. English renderings (ours): 'all troops, even those that had not yet been under fire, had already suffered heavily'; 'FML Rouvroy, the army's artillery chief, reported on 11 October that the wretched state of the horses made the artillery reserve unfit for operations, indeed almost unfit for any movement'; 'were here the result of the marches back and forth and of two insignificant actions'; 'appears from FML Mack's statement at his trial that the disorder and fatigue of the army on ... October permitted no movement at all'; 'despite this state of the troops Mack threw them into complete confusion in the position at Ulm. Corps, division and even brigade formations were torn apart without any cause and without any reason'; 'at Ulm the greatest disorder reigned'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 377 (OCR page markers; not checked against print)",
+          "quote": "Alle Truppen, auch die, die noch nicht im Feuer gestanden waren, hatten schon stark gelitten."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "FML. Rouvroj, der Artilleriechef der Armee, meldete am 11. Oktober, daß der elende Zustand der Pferde die Artilleriereserve operationsunfähig, ja fast unfähig zu jeder Bewegung mache."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "waren hier die Folge der Hin- und Hermärsche und zweier unbedeutender Gefechte."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "geht aus der Angabe des FML. Mack in seinem Prozesse hervor, daß die Zerrüttung und Ermüdung der Armee am 10., 11. und 12. Oktober gar keine Bewegung gestattet habe."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "Trotz diesem Zustande der Truppen warf Mack sie in der Auf- stellung bei Ulm gänzlich durcheinander. Korps-, Divisions- und selbst Brigadeverbände wurden ohne jeden Anlaß und ohne jeden Grund zerrissen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 386 (OCR page markers; not checked against print)",
+          "quote": "Bei Ulm herrschte die größte Unordnung."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Ney's letter to Dupont on the morning of the 11th said the enemy was struck by a terror with few examples and was retreating by Biberach to escape into the upper Tyrol, so the Archduke had probably left only a weak garrison in Ulm. On the march Dupont learned that the enemy held Thalfingen on his left, and his patrols met Austrian patrols toward Dornstadt; before entering Haslach he learned that a very numerous Austrian force was showing on the heights north of Ulm. Alombert and Colin say the enemy showed very superior forces and suggest that Dupont was perhaps counting on the reinforcement of 4,500 dragoons on foot with 10 guns and hoped the enemy had no more than 10,000 to 12,000 men. His journal says captured Austrian officers later stated that the whole army had bivouacked on the Michelsberg. Krauss says Dupont reported the concentration of the Austrian army at Ulm on none of the days before or after the action and seems to have realised only from captured officers' statements that he had had the whole Austrian army before him; Dupont's later letter claiming he learned on taking position at Albeck that the enemy army held the Michelsberg was, by Krauss, written long after the action.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge in the French official history, Dupont's journal and letters, and Krauss. Alombert and Colin's 4,500 and 10,000 to 12,000, read from the page image, are their conjecture about what Dupont expected ('peut-être'), not a report. Dupont's reports of 10 October on the enemy are in claim french-figures-for-side-b. English renderings (ours): 'is struck by a terror of which there are few examples: he is withdrawing by Biberach to be able to escape by the upper Tyrol'; 'it is therefore probable that Archduke Ferdinand will have left only a weak garrison in Ulm'; 'on the morning of the 11th a third instruction was sent to General Dupont'; 'during the march General Dupont learns that the enemy occupied Thalfingen on his left'; 'the reconnaissances on the right had likewise met Austrian patrols toward Dornstadt'; 'finally, before entering Haslach, Dupont learned that a very numerous Austrian troop was showing on the heights north of Ulm'; 'the enemy showed very superior forces, and the Marshal had prescribed not to risk an engagement in these conditions; but perhaps General Dupont was counting on the reinforcement of 4,500 dragoons on foot with 10 guns, and hoped that the enemy had no more than 10,000 to 12,000 men'; 'Austrian officers, prisoners of war, have since stated that their order of battle had been taken the day before and that the whole army had bivouacked on the hill of Saint-Michel'; Krauss, 'Dupont, however, remarkably reported the fact that the Austrian army was concentrated at Ulm neither on the 9th nor on the 10th and 11th, nor even on the 12th'; 'in short, it appears as if Dupont had become clear only through the statements of captured officers that he had had the whole Austrian army before him at Ulm'; Dupont, 'I learn at once that the enemy army, except its detached corps, occupies the Michelsberg before us, near Ulm'; Krauss, 'this error shows that the letter, whose date is not given, was in any case written long after the action'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "Le 11 au matin, une troisième instruction était encore envoyée au général Dupont"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "est frappé d'une terreur dont ïl y a peu d'exemples: il se retire sous Biberach pour pouvoir se sauver par le haut Tyrol"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "il est done probable que l'archiduc Ferdinand n'aura laissé qu'une faible garnison à Ulm"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 506 (OCR running heads; not checked against print)",
+          "quote": "Pendant la marche, le général Dupont apprend que l'ennemi occupait Thalfingen sur sa gauche"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 506 (OCR running heads; not checked against print)",
+          "quote": "Les reconnaissances de droite avaient également rencontré des patrouilles autrichiennes vers"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 46 (OCR running heads; not checked against print)",
+          "quote": "Enfin, avant d'entrer à Haslach, Dupont apprenait qu'une troupe"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (OCR running heads; not checked against print)",
+          "quote": "autrichienne très nombreuse se montrait sur les hau- teurs au nord d'Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p47-figures-v1",
+          "section": "p47",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (transcribed from the page image)",
+          "quote": "L'ennemi montrait des forces très supérieures, et le Maréchal avait prescrit de ne point risquer d'engagement dans ces conditions; mais peut-être le général Dupont comptait-il sur le renfort de 4,500 dragons à pied avec 10 bouches à feu, et espérait-il que l'ennemi n'avait pas plus de 10,000 à 12,000 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (OCR running heads; not checked against print)",
+          "quote": "des officiers autrichiens, prisonniers de guerre, ont assuré, depuis, que leur ordre de bataille avait été pris la veille et que toute l'armée avait bivonaqué sur la montagne de Saint-Michel."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 408 (OCR page markers; not checked against print)",
+          "quote": "Dupont hat die Tatsache, daß die österreichische Armee bei Ulm konzentriert steht, aber merkwürdigerweise weder am 9. noch am 10. und 11., ja selbst nicht einmal am 12. gemeldet."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 409 (OCR page markers; not checked against print)",
+          "quote": "Kurz und gut, es hat den Anschein, als ob Dupont erst durch die Aussagen gefangener Offiziere klar geworden wäre, daß er die ganze österreichische Armee bei Ulm vor sich gehabt habe."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "j'apprends aussiôl que l'armée ennemie, à lexceplion de ses corps détachés, occupe devant nous le Michelsberg, pres d'Ulm."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 408 (OCR page markers; not checked against print)",
+          "quote": "Dieser Irrtum läßt erkennen, daß der Brief, dessen Datum nicht angegeben ist, jeden- falls lange nach dem Gefechte geschrieben wurde."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Krauss says Mack would not believe he would be attacked at Ulm: it was raining and snowing, the enemy was sitting quietly in his quarters, and the Austrians would do the same. Austrian headquarters already knew that only part of Ney's corps had appeared at Günzburg. Mack's relation reported the attack as made by the French army of observation under Ney, and the Archduke wrote the next day that the Austrians had gained an advantage over one division of the enemy. Dupont later wrote that the enemy took his division for the advance guard of the French army following it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge in an Austrian history quoting Bianchi's diary and the Austrian reports, and in Dupont's later letter. English renderings (ours): 'Mack would not believe at all that he would be attacked at Ulm; he said: it is raining, it is snowing, the enemy is sitting quietly in his quarters and we will do the like'; 'also it was already known at that time in the Austrian headquarters that only part of Ney's corps had appeared at Günzburg'; 'by the French army of observation under Ney'; 'the Archduke, who suppressed all personal feelings, bowed to the imperial will; how hard this was made for him his letter to the Emperor of 12 October shows'; the Archduke, 'we did gain an advantage yesterday over one division of the enemy'; Dupont, 'made the enemy believe that my division was the advance guard of the French army that was following it'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Mack wollte gar nicht glauben, daß man ihn bei Ulm angreifen werde; er sagte: Es regnet, es schneit, der Feind steckt ruhig in seinen Wohnungen und wir werden ein ähnliches tun."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "Auch wußte man schon damals im österreichischen Hauptquartier, daß bei Günzburg nur ein Teil des Korps Ney aufgetreten war."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "von der französischen Observationsarmee unter Ney"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 383 (OCR page markers; not checked against print)",
+          "quote": "Der Erzherzog, der alle persönlichen Regungen unterdrückte, fügte sich dem kaiserlichen Willen; wie schwer ihm das gemacht worden ist, läßt sein Schreiben an den Kaiser vom 12. Oktober er- kennen"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 384 (OCR page markers; not checked against print)",
+          "quote": "wir erhielten zwar gestern einen Vorteil über eine Division des Feindes,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "faisait croire à l'ennemi que ma division élait l'avant-garde de l'armée francaise qui la suivait"
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's objective was set from above: the Emperor's order to surround Ulm, and Ney's order that Dupont's 1st division blockade Ulm on the left bank of the Danube, close in on it, summon its commandant and push its right to the Blau; a further instruction told Dupont to get the means to scale Ulm's walls. Dupont's journal says he had orders to surround Ulm resting his right on the Blau while the other divisions approached on the right bank, and the 6th corps journal that the division moved forward to surround Ulm. Krauss says Dupont sent the commandant of Ulm a written summons to surrender from Haslach. Dupont later wrote that the order was the effect of the error about the enemy's position and its execution evidently impossible.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Orders from above (claim side-a-orders), printed by the French official history, with the corps journal read from the page image. English renderings (ours): 'surround Ulm in the course of tomorrow'; 'will blockade Ulm on the left bank of the Danube'; 'close in on the place of Ulm as much as you can, and make a summons to the commandant'; 'push your right tomorrow as far as the Blau, where it will be supported'; 'to scale the walls of Ulm'; 'the general had orders to surround Ulm, resting his right on the Blau, while the other divisions of the army would present themselves before the place on the right bank of the Danube'; '1st division: the division moves forward to surround Ulm'; Krauss, 'from Haslach Dupont sent the commandant of Ulm the written summons to surrender the place, which the French had enclosed'; Dupont, 'this order was the effect of the error that prevailed about the enemy's position, and its execution was evidently impossible'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "cernez, dans la journée de demain, Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "quera Llm sur la rive gauche du Danube"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "resserrer la place d'Ulm autant que vous le pourrez, et faire une sommation au commandant"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "poussiez demain votre droite jusque sur la Blau, où elle sera appuyée."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 42 (OCR running heads; not checked against print)",
+          "quote": "pour escalader les murailles d'Ulm"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (OCR running heads; not checked against print)",
+          "quote": "Le général avait ordre de cerner Ulm, en appuyant sa droite à la Blau, tandis que les autres divisions de l'armée se présente- raient vers la place sur la rive droile du Danube;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "1re division : La division marche en avant pour cerner Ulm;"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 402 (OCR page markers; not checked against print)",
+          "quote": "Von Haslach aus sandte Dupont an den Kommandanten von Ulm die schriftliche Aufforderung zur Übergabe des von den Franzosen umschlossenen Ortes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "Cet ordre était l'effet de l'erreur qui régnait sur la position de l'ennemi, et son exécution était &vi- demment impossible,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Krauss says Mack resolved on 10 October to march the army to Heidenheim that day, changed his mind in the night and decided to stay at Ulm, wishing to send FML Werneck's corps toward Stuttgart and on to Strasbourg. In the action, Krauss says, Mack contented himself with fending off the enemy. Mack's relation announced that the next day the army would advance down the Danube against the French army of observation and actively pursue its victory. Alombert and Colin say the enemy did not use his forces to make his success decisive, and that Dupont's resistance cost him a day and decided him not to continue his movement toward Nördlingen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's plans as Krauss reconstructs them from the Kriegsarchiv files and as the French official history judges them; no passage read shows a plan for the action itself. Whether Mack's plans were those of side B's commander at Haslach is the responsibility question (claim side-b-command), so the phase is unresolved. English renderings (ours): 'on 10 October Mack resolved to march off to Heidenheim that same day'; 'Mack seems during the work, that is in the night to 11 October, to have changed his resolve and decided to stay at Ulm with the army'; 'he wanted to stay at Ulm, where he was in Abraham's bosom, and to send FML Werneck with his corps to Stuttgart and further as far as Strasbourg'; 'the planlessness of Mack, who contented himself with fending off the enemy'; Mack, 'tomorrow already we will advance down the Danube against this enemy army of observation and actively pursue our victory'; 'but he did not know how to use the forces at his disposal to make his success decisive'; 'Dupont's resistance made him lose a day, and decided him not to continue his movement toward Nördlingen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 378 (OCR page markers; not checked against print)",
+          "quote": "Am 10. Oktober faßte Mack den Entschluß, noch am selben Tage nach Heidenheim abzumarschieren."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 380 (OCR page markers; not checked against print)",
+          "quote": "Mack scheint während der Arbeit, also in der Nacht zum 11. Oktober, den Ent- schluß geändert und beschlossen zu haben, mit der Armee bei Ulm zu bleiben."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Er wolle bei Ulm bleiben, wo er in Abrahams Schoß sei und den FML. Werneck mit seinem Korps nach Stuttgart und weiter bis Straßburg senden."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 406 (OCR page markers; not checked against print)",
+          "quote": "die Plan- losigkeit Macks, der sich damit begnügte, den Feind abzuwehren."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 405 (OCR page markers; not checked against print)",
+          "quote": "„Gleich morgen werden wir längs der Donau abwärts gegen diese feindliche Observationsarmee vorrücken und unseren Sieg tätig verfolgen,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p54-figures-v1",
+          "section": "p54",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (transcribed from the page image)",
+          "quote": "mais il ne sut pas profiter des forces dont il disposait pour rendre son succès décisif;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 54 (OCR running heads; not checked against print)",
+          "quote": "lu résistance de Dupont lui fit perdre une journée, et le décida à ne pas continuer son mouvement vers Nœrdlingen,"
+        }
+      ]
+    },
+    {
+      "id": "posture-french-accounts",
+      "dimension": "posture",
+      "value": "In side A's accounts side B attacked. Dupont's division, ordered to surround Ulm, could not carry out the order and had only time to prepare for battle at Haslach: the enemy decided its movement on the spot, its artillery playing on the front of the French position while several infantry columns preceded by many squadrons came on against the French right and it deployed out of its entrenchments on the French left. Alombert and Colin say the division had been established at Haslach only a short time, its posts just placed, when the enemy attacked, and Dupont's later letter has the Archduke detach a large corps to attack him. The French bayonet charges and the fight for Jungingen, on which the French right rested, were made against these attacks.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded from Dupont's division journal (read from the page image), his later letter and the French official history: side B took the offensive and Dupont accepted battle at Haslach; his charges were counterattacks from his position, which by the brief's rule do not make side A the attacker. Dupont's orders were to invest Ulm, but these accounts say he could not begin to carry them out. The accounts show side B's attack decided on the field ('décidé sur-le-champ'; the Archduke in Dupont's letter), so the posture is tagged commander_created; who in side B's command decided it is disputed (claim side-b-decisions). Krauss's account, coded separately, has the French attack first (claim posture-krauss). The Jungingen passage is from Titeux's account drawn from Dupont's manuscript memoirs, which Alombert and Colin quote in a note. English renderings (ours): 'the general had orders to surround Ulm, resting his right on the Blau'; 'he cannot carry out this order, he has only time to prepare for battle'; 'the enemy's movement is decided on the spot; while his artillery plays on the front of our position, he carries several columns of infantry preceded by a great number of squadrons against our right. He also deploys out of his entrenchments on our left'; 'the division had been established at Haslach only a short time, its posts had just been placed, when the enemy attacked'; 'as soon as the Archduke sees that our movement has been halted at the sight of his order of battle, he detaches from his position a large corps of infantry and cavalry to attack us'; '[Jungingen,] on which our right rests, and whose possession is indispensable to us'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (OCR running heads; not checked against print)",
+          "quote": "Le général avait ordre de cerner Ulm, en appuyant sa droite à la Blau,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (OCR running heads; not checked against print)",
+          "quote": "il ne peut exéculer cel ordre, il u'a que le Lemps de se préparer au combat,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "Le mouvement de l'ennemi est décidé sur-le-champ; pendant que son artillerie joue sur le front de notre position, il porte sur notre droite plusieurs colonnes d'infanterie précédées par un grand nombre d'escadrons. Il se développe également hors de ses retranchements sur notre gauche."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (OCR running heads; not checked against print)",
+          "quote": "La division élail établie à Haslach depuis peu de temps, ses postes venaient d'être placés, quand l'ennemi attaqua."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 512 (OCR running heads; not checked against print)",
+          "quote": "Aussitôt que l'archiduc s'aperçoit que notre mouvement est suspendu à la vue de son ordre de bataille, il détache de sa position un grand corps d'infanterie et de cava- lerie pour nous attaquer."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "auquel est appuyée notre droite, et dont la possession nous est indispensable."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "posture-krauss",
+      "dimension": "posture",
+      "value": "In Krauss's account side A attacked first and side B attacked on another part of the field. Dupont's division drove in the Austrian outposts at Haslach, threw back the battalions of the regiment Riese sent to support them and continued its attack against the Austrian right wing as far as Böfingen; after the fight on the southern wing had begun, Austrian troops were sent forward via Jungingen, apparently to envelop the French right, and Dupont decided to forestall that attack. Krauss calls the action the attack of Dupont's division, and quotes Mack's report that the French attacked the army's right wing with great violence while Mack led a considerable part of the left wing into the rear of the enemy right.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded from Krauss's narrative and the Austrian report he quotes: main attacks by each side on different parts of the field, so both_attacked. Dupont's attack followed Ney's order to invest Ulm, which Krauss calls clear but impracticable, and the passages show Dupont deciding to forestall the Austrian attack; the Austrian envelopment was decided on the field, by Schwarzenberg according to the Archduke and by Mack according to Mack's relation (claim side-b-decisions). Both attacks were decided at this engagement, so the posture is tagged commander_created. Krauss also says Mack contented himself with fending off the enemy (claim side-b-objectives), and the French accounts are coded separately (claim posture-french-accounts). The hour in the OCR is not restated. English renderings (ours): 'the division came upon the enemy outposts at Haslach, which were driven back'; 'these, however, were thrown back by the French, who now continued their attack against the Austrian right wing as far as Böfingen'; 'at the time when the fight on the southern wing had already begun, Austrian troops were directed forward over Jungingen, apparently to envelop the French right wing'; 'decided to forestall this attack'; 'under these circumstances the attack of Dupont's division took place on 11 October at ... in the afternoon'; Mack, 'that the army was attacked at midday on the 11th before Ulm by the French army of observation under Ney on its right wing with great violence'; '\"our right wing repulsed all attacks with great steadfastness, while the quartermaster general FML Mack had a considerable part of our left wing advance and led it into the rear of the enemy right'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 402 (OCR page markers; not checked against print)",
+          "quote": "Die Division stieß bei Haslach auf die feindlichen Vorposten, die zurückgedrängt wurden."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Diese wurden aber von den Franzosen geworfen, die nun ihren Angriff gegen den rechten österreichischen Flügel bis BöJQngen fortsetzten."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Zur Zeit, als der Kampf am südlichen Flügel schon begonnen hatte, wurden österreichiseherseits Truppen über Jungingen vordirigiert, anscheinend um den rechten französi- schen Flügel zu umfassen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "entschloß sich, diesem Angriffe zu- vorzukommen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 386 (OCR page markers; not checked against print)",
+          "quote": "Unter diesen Verhältnissen erfolgte am 11. Oktober um 1\"^ nachmittag der Angrifif der Division Dupont."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "Mack wieder berichtete am 12. Oktober an den Kaiser, daß die Armee am 11. mittag vor Ulm von der französischen Observationsarmee unter Ney auf ihrem rechten Flügel mit großer Heftigkeit angegriffen wurde."
+        },
+        {
+          "source_id": "krauss-1912-p404-figures-v1",
+          "section": "p404",
+          "locator": "Krauss (1912), p. 404 (transcribed from the page image)",
+          "quote": "„Unser rechter Flügel schlug alle Angriffe mit großer Standhaftigkeit ab, während der Generalquartiermeister FML. Mack einen beträchtlichen Teil unseres linken Flügels vorrücken ließ und der feindlichen Rechten in den Rücken führte,"
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "fortification-french-accounts",
+      "dimension": "fortification",
+      "value": "In side A's accounts side B's artillery fought from works: the 6th corps journal says that when the 1st division reached Haslach the enemy brought the artillery of his entrenchments into play against it and deployed considerable forces in high works on the Spitzberg, and Dupont's report that at nightfall the enemy went back into his entrenchments; Dupont's journal has the enemy deploy out of his entrenchments on the French left. Side A held the village of Haslach, the ground toward Jungingen and the woods with no works named; Ney had told Dupont to keep his posts well entrenched and covered by abatis, but his posts had just been placed when the enemy attacked.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded B_fortified because cited passages have side B's artillery fire on the division from its entrenchments; its infantry and cavalry fought in front of them, so the works covered only part of side B's force. The passages do not say who built the works or when: the Emperor's order to Ney to take Ulm mentions works the Austrians had begun there, and Krauss says Colonel Bianchi inspected the entrenchments on the morning of the 11th, so the phase is unresolved. Krauss's account is coded separately (claim fortification-krauss). English renderings (ours): 'the enemy brought the artillery of his entrenchments into play against the division and deployed in high works on the Spitzberg hill considerable forces'; 'the enemy went back into his entrenchments (and behind)'; 'he also deploys out of his entrenchments on our left'; 'to finish the works that the Austrians have begun'; Krauss, 'Colonel Bianchi, who on the morning of the 11th had inspected the entrenchments and the positions of the troops'; 'your posts well entrenched and covered with abatis'; 'its posts had just been placed when the enemy attacked'; 'Colonel Darrieau with a battalion of the 32nd held the position of Haslach'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "l'ennemi a fait jouer l'artillerie de ses retranchements sur la division et a déployé dans des ouvrages élevés sur la montagne du Spitzberg des forces considérables"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p515-figures-v1",
+          "section": "p515",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 515 (transcribed from the page image)",
+          "quote": "l'ennemi est rentré dans ses retranchements (et derrière)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p507-figures-v1",
+          "section": "p507",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 507 (transcribed from the page image)",
+          "quote": "Il se développe également hors de ses retranchements sur notre gauche."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 40 (OCR running heads; not checked against print)",
+          "quote": "pour achever les travaux que les Autrichiens ont commencé"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Oberst Bianchi, der am Morgen des 11. die Verschanzungen und die Aufstellung der Truppen besichtigt hatte,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 41 (OCR running heads; not checked against print)",
+          "quote": "postes bien retranchés el couverts d'abatis."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 47 (OCR running heads; not checked against print)",
+          "quote": "ses postes venaient d'être placés, quand l'ennemi attaqua."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "haslach-documents",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 509 (OCR running heads; not checked against print)",
+          "quote": "le colonel Darrieau avec un bataillon du 32° tenait la position d'Haslach,"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "fortification-krauss",
+      "dimension": "fortification",
+      "value": "Krauss's account places side B's forces in position between Böfingen and Örlingen and side A at Haslach and toward Jungingen, with the 32nd establishing itself at Haslach, the village of Jungingen taken and lost five times, and the dragoons driven back to the woods north of Haslach. It mentions entrenchments only as inspected by Colonel Bianchi on the morning of the 11th, and names no works that either side fought from.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; the French accounts, coded separately, have side B's artillery fire from its entrenchments (claim fortification-french-accounts). English renderings (ours): 'considerable Austrian forces ... which were in position between Böfingen and Örlingen'; 'the 32nd regiment established itself at Haslach and held its ground there'; 'five times Jungingen was taken by the French and lost again'; 'threw back against the woods north of Haslach'; 'Colonel Bianchi, who on the morning of the 11th had inspected the entrenchments and the positions of the troops'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 402 (OCR page markers; not checked against print)",
+          "quote": "die zwischen Böfingen und Ör- lingen in Stellung waren."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Das 32. Regiment setzte sich bei Haslach fest und hielt dort stand."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "Fünfmal wurde Jungingen von den Franzosen genommen und wieder verloren."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "haslach-combat",
+          "locator": "Krauss (1912), p. 403 (OCR page markers; not checked against print)",
+          "quote": "gegen die Waldungen nördlich Haslach zurückwarf."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "austrians-10-11-oct",
+          "locator": "Krauss (1912), p. 382 (OCR page markers; not checked against print)",
+          "quote": "Oberst Bianchi, der am Morgen des 11. die Verschanzungen und die Aufstellung der Truppen besichtigt hatte,"
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the 1806 inquiry into Baraguey d'Hilliers' conduct and his justificatory memoir, whose papers Alombert and Colin print; the artillery commander's and Sahuc's reports beyond the passages they quote; Dupont's letters to General Sanson (Alombert and Colin, p. 523) and his manuscript memoirs (known through Titeux); Ney's report to Berthier of 12 October; Schönhals, Der Krieg 1805, and the relations of Mack, Gottesheim and Archduke Ferdinand, read only through Alombert and Colin and Krauss; Krauss's map (Beilage 26). Figures seen only in the OCR and not read from the page images are not recorded: the prisoners and guns in the artillery report (p. 51), the strengths and prisoners in Dupont's letter to the comte D. (pp. 512-513), the strengths and detachments of the dragoons on foot (pp. 38 and 45), and the hours in Alombert and Colin's narrative and in Krauss.",
+    "Most consequential gap: side B's engaged strength and loss. Krauss's 18,000-20,000 infantry and 2,000-3,000 horse is an estimate without a stated basis, and side B's loss is known only as the wounded brought into Ulm by 12 October and an unstated number of prisoners. The Austrian relations in the Kriegsarchiv (Mack's, Gottesheim's) or Schönhals, which Alombert and Colin call the best Austrian relation, could close it.",
+    "When Dupont first gave the 25,000: Alombert and Colin say he wrote it to Ney the same evening and print the passage in the 6th corps journal for 19 vendémiaire (11 October); Krauss says the first surviving document with the figure is the letter to Sanson dated 13 October, the day of the combat report to Ney (the report Alombert and Colin say was sent on the 21st, that is 21 vendémiaire, 13 October), and that Ney's report of 12 October gives no Austrian strength. The passages read do not say when the corps journal was compiled. Not resolved. The two printings of the evening letter also differ in one word: 'décisives' in Alombert and Colin's narrative (p. 54), 'dévouées' in the corps journal (p. 516), both read from the page images.",
+    "Disputes kept as separate claims: the result, Bodart's Austrian victory against Dupont's reports of a complete French victory, with both histories rejecting or qualifying his claim; Bodart's 25,000 for side B against Krauss's estimate of 18,000-20,000 infantry and 2,000-3,000 horse engaged and the French 20,000-25,000; Bodart's 6,000 for side A against the returns' 6,194 infantry and cavalry (our sum), Alombert and Colin's 6,400 and Krauss's 5,150 and 1,050; Bodart's 900 prisoners against Alombert and Colin's and Mack's 800-900 and Sahuc's 73 dragoons; Bodart's 11 guns and 17 wagons (Schönhals) against Mack's 11 guns and 20 wagons, Alombert and Colin's material list (9 guns and 31 caissons and carts, our sums) and Krauss's 5 guns and 23 wagons taken; Bodart's 43 officers against the 33 identified (our sum); side B's loss, Bodart's 1,100 against Dupont's 2,000 killed or wounded and 4,000 prisoners (7,000 in Krauss's account of his claims), the bulletin's 1,500 prisoners and Krauss's 1,100 wounded; and posture and fortification coded differently from the French accounts and from Krauss.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his figures equal particular figures in the sources read, claim bodart-losses); Alombert and Colin, t. II and t. III (the French official history, printing the returns, Ney's orders, Dupont's division journal, letters and later brochure, the 6th corps journal, Baraguey d'Hilliers' letters, and Sahuc's and the artillery reports; the division journal, the corps journal's quotation of Dupont's report and his letters are all Dupont's own account and not independent of one another; for side B they cite Schönhals and the eyewitness de Launay); Krauss (an Austrian history from the Kriegsarchiv files, quoting the Austrian relations, which depends on Alombert and Colin for French documents, so his French figures are not independent of theirs)."
+  ]
+}

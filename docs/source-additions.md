@@ -1141,3 +1141,40 @@ Rights: the Internet Archive marks both items with the Public Domain Mark 1.0. U
 [Napoleonic frame](napoleonic-frame.md). Arnold's machine-readable Bodart table, registered for
 ledger v3, is a separate derived file and is not used for the frame. No model inputs are changed.
 
+
+## Alombert and Colin and Krauss for the 1805 first pass, 2026-10-17
+
+73 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1a of the
+`third-coalition 1805` first pass (Wertingen, Günzburg and Haslach):
+
+- **Alombert and Colin**, *La campagne de 1805 en Allemagne* (Section historique de l'État-major
+  de l'armée, 1902–1908), group `alombert-colin-1805`. The French official history, which prints
+  French returns, orders, reports and journals.
+  - The Internet Archive OCR of t. II (`alombert-colin-t2-ocr-v1`, item
+    `alombert-la-campagne-de-1805-en-allemagne-v-2`) and of t. III vol. 1
+    (`alombert-colin-t3a-ocr-v1`, item `alombert-la-campagne-de-1805-en-allemagne-v-3-pt-1`).
+  - The sectioned selection `alombert-colin-t3a-selections-v1`, with ten sections:
+    `wertingen-intro`, `gunzburg-intro`, `haslach-intro`, `austrian-command`, `orders-8-oct`,
+    `murat-report-8-oct`, `belliard-and-klein-8-oct`, `orders-9-oct`, `malher-report-10-oct` and
+    `haslach-documents`.
+  - 22 page images, each with a transcription of its figures: t. II pp. 162, 163, 165 and 166 (the
+    corps returns at the crossing of the Rhine), and t. III vol. 1 pp. 29, 33–35, 47, 49, 50, 52–54,
+    313, 318, 329, 507, 510, 511, 515 and 516.
+- **Krauss**, *1805. Der Feldzug von Ulm* (Vienna, 1912), group `krauss-feldzug-ulm-1912`. An
+  Austrian general's history from the Kriegsarchiv files, which draws on Alombert and Colin for
+  French orders and movements.
+  - The OCR (`krauss-1912-ocr-v1`, item `1805ieachtzehnhu00krau`).
+  - The selection `krauss-1912-selections-v1`, with seven sections: `austrian-command`,
+    `wertingen-combat`, `wertingen-strength-and-mission`, `gunzburg-austrians-9-oct`,
+    `gunzburg-combat`, `austrians-10-11-oct` and `haslach-combat`.
+  - 12 page images with figure transcriptions: pp. 341, 342, 366, 368, 369, 371, 377, 387, 402,
+    404, 405 and 409.
+
+The page images are single pages downscaled to 1600 px. Each transcription holds only the
+sentences that carry figures, read from the image rather than the OCR. Each selection records its
+parent's character ranges, and the source check rebuilds it from them. The OCR of t. III vol. 2
+was fetched but is not registered, as it has not yet been read.
+
+Rights: the Internet Archive marks the Alombert and Colin items with the Public Domain Mark 1.0.
+Krauss was published in 1912; the catalogue gives the author's dates as 1862–1938. Use: the drafts
+for B363a–c. No model inputs are changed.

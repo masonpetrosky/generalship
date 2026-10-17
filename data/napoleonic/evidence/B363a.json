@@ -1,0 +1,878 @@
+{
+  "schema_version": 1,
+  "battle_id": "B363a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Wertingen entry (8 October 1805), the first action of the Ulm campaign in cohort v1's third-coalition 1805 group; Günzburg (B363b) follows on 9 October. Side A is Murat's reserve cavalry with Lannes's 5th corps, side B Auffenberg's division of Werneck's corps. The pursuit after dark and the next day's movements are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 7,000 cavalry ('Reiter') under Murat and side B (Austrian) 9 battalions and 2 squadrons, 8,000 men, under Auffenberg. By his stated rule these are the forces available for the engagement, not only those that fought, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several (scoping decision 1). 'Reiter' counts cavalry only, so the entry gives no French infantry. No moment is stated. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Sieg der Franzosen (7.000 Reiter) unter M. Pz. Murat über die Österreicher (9 Btln., 2 Esk. = 8.000 M.) unter FML. Fh. v. Auffenberg."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-strength",
+      "dimension": "strength",
+      "value": "Krauss (Austrian) puts side B, Auffenberg's division, at about 5,000 infantry and 400 cavalry, calculated from the strength return of 6 October. A captured officer gave it 6 guns, the French claimed to have taken 10, and its establishment called for 18; Krauss says the number it actually had cannot be established.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own figure, from an Austrian general's history based on the Kriegsarchiv files; the return itself was not inspected. The return predates the order of battle of 7 October that changed the division's composition (claim krauss-side-b-composition), and Krauss does not say how he carried it forward. English rendering (ours): 'The strength of Auffenberg's division amounted, calculated from the return of 6 October, to about 5000 infantry and 400 horse; according to a captured officer it had 6 guns, the French claimed to have captured 10 guns, and by its organisation the division should have had 18 guns' ... 'it cannot be established how many guns the division really had with it'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "Die Stärke der Division Auffenbergs betrug — nach dem Standesausweis vom 6. Oktober berechnet — etwa 5000 Mann Infanterie und 400 Reiter"
+        },
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "nach Angabe eines gefangenen Offiziers hatte sie 6 Geschütze, die Franzosen wollten 10 Geschütze erbeutet haben und nach der Organisation sollte die Division 18 Geschütze besitzen"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 341 (OCR page markers; not checked against print)",
+          "quote": "kann nicht festgestellt werden, wieviel Geschütze die Division wirklich bei sieh gehabt hat."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-composition",
+      "dimension": "strength",
+      "value": "Krauss says that on 6 October Auffenberg's division consisted of the infantry regiments Reuß-Greitz, Württemberg and Spork and the Latour light-horse regiment, and that the order of battle of 7 October replaced Spork and Württemberg with seven grenadier battalions and Latour with four and a half squadrons of Albert cuirassiers.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Krauss's footnote, read from the page image; a composition, not a headcount. English rendering (ours): 'On 6 October his division consisted of the infantry regiments Reuß-Greitz, Württemberg and Spork and the light-horse regiment Latour; with the order of battle of 7 October seven grenadier battalions took the place of the regiments Spork and Württemberg, and four and a half squadrons of Albert cuirassiers that of the regiment Latour.'",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p342-figures-v1",
+          "section": "p342",
+          "locator": "Krauss (1912), p. 342 (transcribed from the page image)",
+          "quote": "Am 6. Oktober bestand seine Division aus den Infanterieregimentern Reuß-Greitz, Württemberg und Spork und dem Chevauxlegersregiment Latour; mit der Ordre de bataille vom 7. Oktober traten an Stelle der Regimenter Spork und Württemberg sieben Grenadierbataillone und an Stelle des Regiments Latour viereinhalb Eskadronen Albert-Kürassiere."
+        }
+      ]
+    },
+    {
+      "id": "french-figures-for-side-b",
+      "dimension": "strength",
+      "value": "French documents describe side B as follows. A captured Hungarian officer, questioned by Compans: 9 battalions (7 grenadier, 2 fusilier), 2 'divisions' of cuirassiers and 6 six-pounder guns. The journal of the 1st dragoon division: a corps of 12,000 men, mostly grenadiers. Alombert and Colin's narrative: 7 grenadier battalions, 2 fusilier battalions and 4 squadrons of cuirassiers.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's statements about side B, kept separate from side B's own figure. The journal's 12,000 is an estimate made at the time and far above Krauss's return-based figure; the prisoner and the narrative agree on 9 battalions. All figures read from page images. English renderings (ours): p. 329, 'the corps of Austrian troops that defended Wertingen was composed of 9 battalions, 7 of them grenadiers and 2 fusiliers; of 2 divisions of cuirassiers and of 6 guns of calibre 6'; p. 318, 'where the enemy had a corps of 12,000 men, most of them grenadiers'; p. 29, 'the Austrian division, which comprised 7 battalions of grenadiers, 2 of fusiliers and 4 squadrons of cuirassiers'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p329-figures-v1",
+          "section": "p329",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 329 (transcribed from the page image)",
+          "quote": "Le corps de troupes autrichiennes qui défendait Wertingen était composé de 9 bataillons dont 7 de grenadiers et 2 de fusiliers ; de 2 divisions de cuirassiers et de 6 canons de calibre de 6."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "où l'ennemi avait un corps de 12,000 hommes, la plupart grenadiers,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p29-figures-v1",
+          "section": "p29",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 29 (transcribed from the page image)",
+          "quote": "division autrichienne, qui comprenait 7 bataillons de grenadiers, 2 de fusiliers et 4 escadrons de cuirassiers,"
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-a-strength",
+      "dimension": "strength",
+      "value": "Krauss puts side A at about 8,000 infantry and 6,000 cavalry with 21 guns, of which only part fought: of the cavalry only the two dragoon divisions and the light cavalry of Lannes's corps, about 4,000 horse, and of Oudinot's division probably only the leading battalions.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "An Austrian-side figure for side A, kept separate. Krauss's preface says his history rests on the orders and letters of Napoleon and his marshals printed by Alombert and Colin and on the Kriegsarchiv files, so this figure is not independent of French records. English rendering (ours): 'The strength of the French amounted on the other hand to about 8000 infantry and 6000 horse with 21 guns. Only part of this force came into the fight: of the cavalry only the two dragoon divisions and the light cavalry of Lannes's corps fought, that is about 4000 horse; of Oudinot's division too only the leading battalions can have come into action.'",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "Die Stärke der Franzosen betrug dagegen etwa 8000 Mann Infanterie und 6000 Reiter mit 21 Geschützen."
+        },
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "Von dieser Truppenmacht kam aber nur ein Teil in den Kampf; von der Kavallerie kämpften nur die beiden Dragonerdivisionen und die leichte Kavallerie des Korps Lannes, also etwa 4000 Reiter; auch von der Division Oudinot können nur die Tetebataillone ins Gefecht gekommen sein"
+        }
+      ]
+    },
+    {
+      "id": "side-a-return",
+      "dimension": "strength",
+      "value": "Side A's returns at the crossing of the Rhine, in the first days of vendémiaire year XIV (late September 1805), give these figures for the formations at Wertingen. 5th corps (Lannes): the 1st division of grenadiers and voltigeurs, 10 battalions and 7,048 men; the light cavalry, 12 squadrons with 1,349 men and 1,393 troop horses (printed subtotal). Cavalry reserve: the 1st dragoon division, 18 squadrons with 2,489 men and 2,362 horses; the 3rd dragoon division, 18 squadrons with 2,280 men and 2,140 horses; the 1st heavy cavalry division, 18 squadrons with 3,208 men and 2,732 horses. Figures without a printed subtotal are our sums of the printed rows. The returns' totals are headed 'présents sous les armes' (present under arms).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's own figures, read from the page images; they are some two weeks older than the action and show neither the losses of the march nor detachments. Identification of the formations: Berthier writes that Lannes attacked with 'the grenadiers forming his first division', and Alombert and Colin call them Oudinot's grenadiers; Krauss says the light cavalry of Lannes's corps fought. The 1st dragoon division's journal names Klein as its general and puts the 3rd dragoon division and 'the 1st of cuirassiers' in the same column; Alombert and Colin have Murat marching with the divisions Klein, Beaumont and Nansouty, and Beaumont's division included the 9th dragoons (OCR), which the return places in the 3rd dragoon division. We take 'the 1st of cuirassiers' to be the return's 1st heavy cavalry division; no passage read names its commander. By Krauss only the two dragoon divisions and Lannes's light cavalry fought among the cavalry (claim krauss-side-a-strength). The horse figures of the cavalry reserve page as read fall 5 short of its printed subtotal, so one of them may be misread (transcription note). English renderings (ours): '5th army corps at the crossing of the Rhine in the first days of vendémiaire year XIV'; '1st division (grenadiers and voltigeurs)'; 'light cavalry'; 'total of those present under arms'; 'cavalry reserve at the crossing of the Rhine in the first days of vendémiaire year XIV'; '1st dragoon division'; '3rd dragoon division'; '1st heavy cavalry division'; 'Marshal Lannes, with the grenadiers forming his first division'; 'Oudinot's grenadiers'; Krauss, 'of the cavalry only the two dragoon divisions and the light cavalry of Lannes's corps fought'; 'marches and historical reports of the 1st division of mounted dragoons'; 'at 9 o'clock it received the order to form the advance guard of a column composed of the 3rd dragoon division and the 1st of cuirassiers'; 'General Klein, wishing to attack the enemy outposts, had 60 dragoons dismount, taken from the three regiments of the 1st brigade'; 'with the divisions Klein, Beaumont, Nansouty'; 'Murat orders the 9th dragoons, of Beaumont's division'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "5e corps d'armée au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "1re division. (Grenadiers et voltigeurs).\n1er régimt d'élite.\ndu 13e de lig. | 1 | 684 | » | »\ndu 58e id. | 1 | 747 | » | »\n2e régimt d'élite.\ndu 9e id. | 1 | 662 | » | »\ndu 81e id. | 1 | 692 | » | »\n3e régimt d'élite.\ndu 2e légère | 1 | 702 | » | »\ndu 3e id. | 1 | 744 | » | »\n4e régimt d'élite.\ndu 28e id. | 1 | 719 | » | »\ndu 31e id. | 1 | 717 | » | »\n5e régimt d'élite.\ndu 12e id. | 1 | 682 | » | »\ndu 15e id. | 1 | 699 | » | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "Cavalerie légère.\n9e de hussards | 3 | 344 | 352 | »\n10e id. | 3 | 335 | 350 | »\n13e de chasseurs | 3 | 339 | 347 | »\n21e id. | 3 | 331 | 344 | »\n[subtotal] | 12 | 1,349 | 1,393 |"
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 25,689 | 1,453 | 408"
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "Réserve de cavalerie au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "1re division de dragons.\n1er de dragons | 3 | 374 | 387 | »\n2e id. | 3 | 410 | 342 | »\n20e id. | 3 | 413 | 425 | »\n4e id. | 3 | 396 | 403 | »\n14e id. | 3 | 342 | 322 | »\n26e id. | 3 | 554 | 483 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "3e division de dragons.\n5e de dragons | 3 | 429 | 382 | »\n8e id. | 3 | 341 | 315 | »\n12e id. | 3 | 365 | 425 | »\n9e id. | 3 | 365 | 313 | »\n16e id. | 3 | 345 | 313 | »\n21e id. | 3 | 435 | 392 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "1re division de grosse cavalerie.\n1er de carabiniers | 3 | 478 | 451 | »\n2e id. | 3 | 575 | 459 | »\n2e de cuirassiers | 3 | 532 | 469 | »\n9e id. | 3 | 513 | 378 | »\n3e id. | 3 | 520 | 475 | »\n12e id. | 3 | 590 | 500 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. II, p. 166 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 20,950 | 13,523 | 640"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "orders-9-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 365 (OCR running heads; not checked against print)",
+          "quote": "le maréchal Lannes, avec les grenadiers formant sa première division,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 28 (OCR running heads; not checked against print)",
+          "quote": "grenadiers d'Oudinot,"
+        },
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "von der Kavallerie kämpften nur die beiden Dragonerdivisionen und die leichte Kavallerie des Korps Lannes,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "Marches et rapports historiques de la 1re division de dragons montés."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "à 9 heures, elle reçut celui de faire l'avant-garde d'une colonne, composée de la 3e division de dragons et de la 1re de cuirassiers,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "Le général Klein, voulant attaquer les avant-postes ennemis, fit mettre pied à terre à 60 dragons, pris dans les trois régiments de la 1re brigade ;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 23 (OCR running heads; not checked against print)",
+          "quote": "avec les divisions Klein, Beaumont, Nansouty;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "ordonne au 9° dragons, de la division de Beaumont,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Prince Murat as side A's commander and FML Baron Auffenberg as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders ('M. Pz. Murat', 'FML. Fh. v. Auffenberg'). He names one commander per side.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "unter M. Pz. Murat"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "unter FML. Fh. v. Auffenberg."
+        }
+      ]
+    },
+    {
+      "id": "side-a-forces",
+      "dimension": "responsibility",
+      "value": "Napoleon's orders of 8 October, through Berthier, sent Murat with the three dragoon divisions and the two heavy cavalry divisions toward Zusmarshausen and Burgau, and sent Lannes with his corps to occupy Wertingen; Berthier authorised Murat to take two regiments of Lannes's cavalry division to scout for his heavy cavalry. Murat marched with the divisions Klein, Beaumont and Nansouty, with General Treilhard's hussar brigade (9th and 10th hussars) as advance guard from Mertingen, placed under his orders by the Emperor; d'Hautpoul's division was far behind. Saint-Hilaire's division, whose support Murat asked for, reached neither Wertingen nor Augsburg.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The French official history and the orders it prints. In the passages read Lannes was ordered to Wertingen by the Emperor and was not placed under Murat. The number of the corps Treilhard's brigade came from is illegible in the OCR ('#°'). English renderings (ours): 'Marshal Lannes will leave during the day with his army corps and will occupy Wertingen'; 'the Emperor's intention is that with the three divisions of dragoons and the two divisions of heavy cavalry ... you move on Zusmarshausen and Burgau. Marshal Lannes's cavalry division marching in the same direction, you are authorised to take two regiments of it to scout the march of your heavy cavalry'; 'the advance guard is formed, from Mertingen, by the hussar brigade of the [illegible] corps (General Treilhard, 9th and 10th hussars), which is placed under Murat's orders by the Emperor'; Saint-Hilaire 'in the end arrived neither at the combat of Wertingen nor at Augsburg'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "orders-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 312 (OCR running heads; not checked against print)",
+          "quote": "Mon Cousin, le maréchal Lannes partira dans la journée avec son corps d'armée et occupera Wertingen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p313-figures-v1",
+          "section": "p313",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 313 (transcribed from the page image)",
+          "quote": "L'intention de l'Empereur est qu'avec les trois divisions de dragons et les deux divisions de grosse cavalerie, et toute l'artillerie attachée à ces deux divisions, vous vous dirigiez sur Zusmarshausen et Burgau."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p313-figures-v1",
+          "section": "p313",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 313 (transcribed from the page image)",
+          "quote": "La division de cavalerie de M. le maréchal Lannes marchant dans la même direction, vous êtes autorisé à en prendre deux régiments pour éclairer la marche de votre grosse cavalerie."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 23 (OCR running heads; not checked against print)",
+          "quote": "avec les divisions Klein, Beaumont, Nansouty;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "la division d'Iautpoul était fort en arrière"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "par la brigade de hussards du #° corps (général Treilhard, 9° et 10° hussards,) qui est mise sous les or- dres de Murat par l'Empereur"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "Murat demande le concours de la division Saint-Ililaire"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "finit par n'arriver, ni au combat de Wertingen, ni À Augshourg"
+        }
+      ]
+    },
+    {
+      "id": "side-a-decisions",
+      "dimension": "responsibility",
+      "value": "On the field Murat ordered the troops forward once the enemy's position had been reconnoitred, and sent the 9th dragoons of Beaumont's division through the village at the gallop; Krauss says Murat later ordered the 3rd dragoon division to attack through Wertingen. The 1st dragoon division's journal says its commander, Klein, seeing the enemy trying to withdraw, conceived the plan of cutting off its retreat, and the division went by Roggden to turn the Austrians from the south. Lannes, hearing the first cannon shots, pressed his column forward and went ahead himself, and with Fauconnet's chasseur brigade and Oudinot's division tried to slip behind the Austrians along the woods. Krauss says it was the intention of both French leaders to envelop the enemy on all sides.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions as the French official history, the journal it prints and Krauss attribute them. Lannes acted on hearing the guns, not on an order from Murat in the passages read, and the journal credits the turning move to Klein, so decisions on side A were taken by two marshals and a division commander; Bodart names Murat alone. English renderings (ours): 'the enemy's position having been well reconnoitred, His Serene Highness ordered the troops to move'; 'Murat orders the 9th dragoons, of Beaumont's division, to cross the village at the gallop to charge whatever it found at the exit'; Krauss, 'Murat gave the 3rd dragoon division the order to advance to the attack through Wertingen'; 'General Klein, who saw from the enemy's movements that he was trying to withdraw by the heights and woods to the left of Wertingen, conceived the plan of cutting off his retreat'; 'pressing the march of his column, and going forward himself, he came within a few moments in sight of Wertingen'; 'Klein's division headed for Roggden to turn the Austrians from the south; at the same time Lannes was trying to slip behind them, along the woods, with his brigade of chasseurs à cheval (Fauconnet) and Oudinot's division'; Krauss: 'It was thus the intention of both French leaders to envelop the enemy from all sides.'",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "La position de l'ennemi ayant été bien reconnue, S, A. S. ordonna aux troupes de se mettre en mouve- meut,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "Murat ordonne au 9° dragons, de la division de Beaumont, de traverser le village au galop pour charger ce qu'il trouverait au débouché."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 340 (OCR page markers; not checked against print)",
+          "quote": "gab Murat der 3. Dragonerdivision Befehl, durch Wertingen zum Angriff vorzugehen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, qui voyait par les mouvements de l'ennemi qu'il cherchait à se retirer par les hauteurs et bois à gauche de"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 319 (OCR running heads; not checked against print)",
+          "quote": "concut le projet de lui couper la retraite ; il fallait pour cela passer ln Zusam ;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "Pressant la marche de sa colonne, et se portant lui-même en avant, il parvint en quelques instants en vue de Wertingen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "La division Klein se diri- gea sur Roggten pour tourner les Autrichiens par le Sud ; en même temps, Lannes s’efforcait de se glisser derrière eux, le long des bois, avec sa brigade de chas- seurs à cheval (Fauconnet\\ et la division Oudinot."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 339 (OCR page markers; not checked against print)",
+          "quote": "Somit war es Absicht der beiden französischen Führer, den Feind von allen Seiten zu umfassen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Krauss says Auffenberg's division belonged to Werneck's corps and was sent to Wertingen by Mack, whose order to him has not survived. GM Count Hohenfeld, commanding the grenadier brigade, deployed battalions on the report of the enemy's approach, and GM Dienersberg led a detachment to Pfaffenhofen. The captured Hungarian officer also named Auffenberg as the corps's commander.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Command chain from Krauss, who used the Kriegsarchiv files including Auffenberg's relation, and the prisoner's statement printed by the French official history. English renderings (ours): 'He came to Wertingen and apparently waited for the rest of Werneck's corps'; 'The order Mack gave him has unfortunately not been preserved'; 'on the report of the enemy's approach (when it arrived cannot be established), GM Count Hohenfeld, the commander of the grenadier brigade, placed'; 'a detachment ... under GM Dienersberg to Pfaffenhofen, to drive the enemy out'; p. 329, 'this corps, commanded by lieutenant general Auffenberg'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "Er kam nach Wertingen und wartete scheinbar auf den Rest des Werneckschen Korps."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "Der ihm von Mack erteilte Befehl ist leider nicht erhalten geblieben."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Auf die Meldung vom Anmärsche des Feindes — wann diese eingelangt war, ist nicht zu ermitteln — stellte GM. Graf Hohen- feld, der Kommandant der Grenadierbrigade,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "unter GM. Dienersberg nach Pfaffenhofen ab, um den Feind zu vertreiben."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p329-figures-v1",
+          "section": "p329",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 329 (transcribed from the page image)",
+          "quote": "Ce corps, commandé par le lieutenant général Auffenberg,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-decisions",
+      "dimension": "responsibility",
+      "value": "Krauss says Auffenberg, on arriving, had a grenadier battalion occupy each of the town's three gates and rested the other battalions in its streets; he issued no disposition for an enemy attack, sent Dienersberg's detachment to drive the French out of Pfaffenhofen, and, when Oudinot's division threatened, withdrew all his troops to the heights southwest of Wertingen to keep his retreat open.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Krauss's account of Auffenberg's own decisions, partly from Auffenberg's relation. English renderings (ours): 'had the three gates of the town each occupied at once by a grenadier battalion; the other seven battalions were drawn up in the streets of the town and rested'; 'FML Auffenberg issued no disposition for the case of an enemy attack'; 'the threatening approach of Oudinot's division moved Auffenberg, who wanted to keep his retreat open, to withdraw all troops to the heights southwest of Wertingen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 337 (OCR page markers; not checked against print)",
+          "quote": "ließ sofort die drei Tore der Stadt mit je"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "einem Grenadierbataillon besetzen: die übrigen sieben Bataillone wurden in den Gassen der Stadt aufgestellt und rasteten."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "FML. Auffenberg gab keine Disposition für den Fall des feindliehen Angriffes aus."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Er sandte daraufhin ein Detachement,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 340 (OCR page markers; not checked against print)",
+          "quote": "Der drohende Anmarsch der Division Oudinot bewog Aufifen- berg, der sich den Rückzug oÜenhalten wollte, alle Truppen auf die Höhen südwestlich Wertingen zurückzuziehen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). Murat's report of the 8th says the enemy was completely beaten, and Krauss calls the action a severe defeat of the Austrian arms; no source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome, with the agreeing statements of both sides' sources. English renderings (ours): 'Your Majesty's troops met the enemy and beat him completely'; 'The first action of the campaign had ended in a severe defeat of the Austrian arms.'",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Sieg der Franzosen (7.000 Reiter) unter M. Pz. Murat über die Österreicher"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "murat-report-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 316 (OCR running heads; not checked against print)",
+          "quote": "Les troupes de Votre Majesté ont rencontré l'ennemi et l'ont complètement battu."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 340 (OCR page markers; not checked against print)",
+          "quote": "Das erste Gefecht des Feldzuges hatte mit einer empfindlichen Niederlage der österreichischen Waffen geendet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as about 500 killed and wounded (24 officers), and side B's as 400 killed and wounded and 1,600 prisoners (52 officers), together 2,000 men (25%), with 6 guns and 3 colours lost.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule; a post-outcome observation, never a predictor.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "Fz. Verl.: ca. 500 M. (24 Offz.) tot u. verw. | Öst. Verl.: 400 M. tot u. verw. 1.600 „ (52 Offz.) (Gefg.) zus. 2.000 M. (= 25%) 6 Kan., 3 Fahnen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "French figures for side A's own loss: Alombert and Colin give the cavalry reserve 19 killed and 89 wounded and Oudinot's division some thirty killed or wounded; General Belliard, writing to Andréossy on 9 October, gives 60 or 80 wounded. Krauss gives Murat's corps about 100 men and 90 horses and Oudinot about 30 men.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, not combined; each read from a page image. English renderings (ours): 'in the cavalry reserve there are 19 killed and 89 wounded'; 'Oudinot's division has some thirty men killed or wounded'; 'we had on our side 60 or 80 wounded'; Krauss, 'Murat's corps lost only about 100 men and 90 horses, Oudinot about 30 men'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p29-figures-v1",
+          "section": "p29",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 29 (transcribed from the page image)",
+          "quote": "Il y a, à la réserve de cavalerie, 19 tués et 89 blessés;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p29-figures-v1",
+          "section": "p29",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 29 (transcribed from the page image)",
+          "quote": "La division Oudinot a une trentaine d'hommes tués ou blessés."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "Nous avons eu de notre côté 60 ou 80 blessés."
+        },
+        {
+          "source_id": "krauss-1912-p341-figures-v1",
+          "section": "p341",
+          "locator": "Krauss (1912), p. 341 (transcribed from the page image)",
+          "quote": "das Korps Murat verlor nur etwa 100 Mann und 90 Pferde, Oudinot etwa 30 Mann."
+        }
+      ]
+    },
+    {
+      "id": "side-b-prisoners-reported",
+      "dimension": "outcome",
+      "value": "Belliard wrote on 9 October that he was sending on 1,080 prisoners: 1 major, 8 officers, 2 medical officers and 1,080 soldiers or NCOs.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "A French count of prisoners forwarded, as printed; its components do not sum to its total. Austrian loss figures from Auffenberg's relation (Krauss, p. 340) were not read from the page image. English rendering (ours): 'I have the honour to send you 1080 prisoners, namely: 1 major, 8 officers, 2 medical officers, 1080 soldiers or NCOs.'",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous adresser 1080 prisonniers, savoir : 1 major, 8 officiers, 2 officiers de santé, 1080 soldats ou sous-officiers."
+        }
+      ]
+    },
+    {
+      "id": "wertingen-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Wertingen as a village in Bavarian Swabia, 40 km northwest of Augsburg; Krauss calls it a town with three gates. The Austrians held it, the heights on the left bank of the Zusam, the orchards and scattered houses on the slopes behind it, and outposts at Gottmannshofen, and fell back toward the woods of Binswangen. The Zusam, with steep or marshy banks cut by ditches, could not be crossed near the town, so Klein's division went upstream to a poor wooden bridge at Roggden.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Terrain from the passages read for strength and responsibility; no map was inspected. English renderings (ours): Bodart, 'village in Bavaria, Swabia, 40 km northwest of Augsburg'; 'the three gates of the town'; 'troops of all arms occupied Wertingen and the heights of the left bank of the Zusam, with posts at Gottmanshofen'; 'the enemy seemed to want to hold on the heights behind, in the orchards and the last houses scattered on the slopes'; 'since the Zusam could not be crossed because of its steep banks, the division had to swing out as far as Roggden, where it found a bridge'; 'its banks being marshy and cut by ditches ... where there is a poor little wooden bridge'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p363",
+          "locator": "Bodart (1908), p. 363",
+          "quote": "(Dorf in Bayern, Schwaben, 40 km nordwestl. von Augsburg)."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 337 (OCR page markers; not checked against print)",
+          "quote": "ließ sofort die drei Tore der Stadt mit je"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "des troupes de toutes armes occupaient Wer- tingen et les hauteurs de la rive gauche de la Zusam, avec des postes à Gottmanshofen,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "l'ennemi semblait vouloir tenir sur les hau- teurs en arrière, dans les vergers et les dernières maïi- sons éparpillées sur les pentes."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 339 (OCR page markers; not checked against print)",
+          "quote": "Da die Zusam wegen ihrer Steilufer nicht zu überschreiten war, mußte die Division bis Roggden ausbiegen, wo sie eine Brücke fand."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 319 (OCR running heads; not checked against print)",
+          "quote": "les bords en étant marécageux et coupés de fossés,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 319 (OCR running heads; not checked against print)",
+          "quote": "où se trouve un mauvais petit pont en bois"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 340 (OCR page markers; not checked against print)",
+          "quote": "Sie zogen sich daher gegen den Wald von Binswangen zurück."
+        }
+      ]
+    },
+    {
+      "id": "night-march-and-ambulance",
+      "dimension": "logistics",
+      "value": "Side B arrived after a night march: Krauss says Auffenberg reached Wertingen after an eleven-hour night march, and the captured officer said the corps left Günzburg at 9 p.m. on the 15th and reached Wertingen about 8 a.m. on the 16th. On side A, the official narrative says Murat sent his wounded to Donauwörth, having only a very badly organised ambulance, and Belliard wrote that their ambulance was very badly organised.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Movement and medical service as reported; no supply return inspected. The officer's 15th and 16th are read as days of vendémiaire, since his statement is headed 16 vendémiaire an XIV, which the editors give as 8 October 1805. English renderings (ours): 'after an eleven-hour night march'; 'had left Günzburg on the 15th at 9 in the evening and arrived at Wertingen on the 16th towards 8 in the morning'; 'having only a very badly organised ambulance'; 'our ambulance is very badly organised'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 337 (OCR page markers; not checked against print)",
+          "quote": "FML. Auffenberg, der nach elfstündigem Nachtmarsche bei Wertingen eingetroffen war,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p329-figures-v1",
+          "section": "p329",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 329 (transcribed from the page image)",
+          "quote": "était parti de Günzburg le 15, à 9 heures du soir et arrivé à Wertingen le 16, vers les 8 heures du matin,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p329-figures-v1",
+          "section": "p329",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 329 (transcribed from the page image)",
+          "quote": "Le 16 vendémiaire an XIV (8 octobre 1805)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p29-figures-v1",
+          "section": "p29",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 29 (transcribed from the page image)",
+          "quote": "n'ayant qu'une ambulance très mal organisée."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (OCR running heads; not checked against print)",
+          "quote": "Notre ambur- lance est très mal organisée."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Krauss, drawing on Auffenberg's relation, says Auffenberg learned at Wertingen that the French had crossed the Danube at Donauwörth on the 7th and advanced toward Augsburg as far as Nordendorf, yet all his patrols reported the enemy nowhere in sight; Krauss doubts that they went far. After noon Auffenberg heard that a few hundred French had entered Pfaffenhofen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge in an Austrian history; the relation itself was not inspected. The strength the report gave the French crossing is in the quote as OCR digits and is not restated. English renderings (ours): 'in the town Auffenberg learned that the French had crossed the Danube at Donauwörth on the 7th ... and advanced on the Augsburg road as far as Nordendorf'; 'all the patrols sent out reported that the enemy was nowhere to be seen'; 'the patrols cannot therefore have gone far'; 'after 12 noon Auffenberg received the news that a few hundred French had entered Pfaffenhofen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Im Ort erfuhr Auffenberg, daß die Franzosen die Donau am 7. bei Donauwörth mit 70.000 — 80.000 Mann tiberschritten hätten und auf der Straße nach Augsburg bis Nordendorf vorgerückt seien."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Alle ausgeschickten Patrouillen brachten Nachricht, daß der Feind nirgend zu sehen sei."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Die Patrouillen können daher nicht weit vorgerückt sein."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Nach 12 ^ mittag erhielt Auffenberg die Nachricht, daß einige hundert Franzosen in Pfaffenhofen eingerückt seien,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Murat had warned his divisions on leaving Donauwörth that they would meet the enemy. At Holzen he was told that the enemy held Wertingen with 12,000 men, and at about 2.30 p.m. his light cavalry reported troops of all arms in Wertingen and on the heights. The French official history says the French judged the enemy detachment inferior in number and apparently retreating.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge. The 12,000 appears as OCR digits in Krauss and, read from the page image, in the 1st dragoon division's journal. English renderings (ours): 'Murat, who had already told his divisions on leaving Donauwörth that they would certainly meet the enemy, received at Holzen the report that the enemy held Wertingen with 12,000 men'; 'it was about 2.30 when the light cavalry reported that troops of all arms occupied Wertingen'; 'which was judged inferior in number, and which seemed to be beginning to retreat'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "Murat, der schon beim Abmärsche von Donauwörth seine Divisionen verständigt hatte, daß man sicher auf den Feind treffen werde, erhielt bei Holzen die Meldung, daß der Feind Wertingen mit 12.000 Mann besetzt habe."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p318-figures-v1",
+          "section": "p318",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 318 (transcribed from the page image)",
+          "quote": "où l'ennemi avait un corps de 12,000 hommes, la plupart grenadiers,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 24 (OCR running heads; not checked against print)",
+          "quote": "Il était 2 h. 1/2 environ quand la cavalerie légère fit savoir que des troupes de toutes armes occupaient Wer- tingen"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "que l’on jugeait inférieur en nomhre, et qui semblait se mettre en re- traite."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Napoleon's orders of 8 October: Lannes was to occupy Wertingen and push his advance guard as far as he could on the Burgau road; Murat was to move on Zusmarshausen and Burgau, occupy Burgau if no enemy infantry held it, and otherwise learn the number and names of the regiments there.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Orders printed by the French official history (Correspondance no. 9351 and Berthier's letters). The action at Wertingen arose on the way to these objectives. English renderings (ours): 'he will push his advance guard as far as he can on the Burgau road'; 'the Emperor's intention, my Prince, is that you direct strong columns on Burgau, that you occupy that post provided there is no enemy infantry; if there were, you would try to learn the number and the names of the regiments'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "orders-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 312 (OCR running heads; not checked against print)",
+          "quote": "Il poussera son avant- garde aussi loin qu'il le pourra sur la route de Burgau ;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "orders-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 313 (OCR running heads; not checked against print)",
+          "quote": "L'intention de l'Empereur, mon Prince, est que vous dirigiez de fortes colonnes sur Burgau, que vous oceupiez ce poste si tou- tefois 1 n'y à pas d'infanterie ennemie. S'il y en avait, vous tâcheriez de connaitre le nombre et le nom des régiments."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Krauss says the division's task cannot be established: it was pushed forward to Wertingen as an advance guard on news of the coming French crossing at Donauwörth, without a definite purpose, and holding Wertingen was not its task. Under the operations plan of 7 October a strong advance guard at Wertingen was to make the bridges from Günzburg to the mouth of the Lech unusable and link up with Kienmayer, but Krauss thinks Auffenberg did not receive that task. The captured officer said the corps was bound for Donauwörth. Murat reported on the 8th that all his information showed the enemy retreating on Augsburg by Zusmarshausen and that Auffenberg was charged with flanking this march.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Krauss's reading of the Austrian files, the prisoner's statement and Murat's inference differ; none is the lost order itself. English renderings (ours): 'the task intended for the division cannot therefore be established'; 'pushed forward to Wertingen as an advance guard, without a definite, clear intention'; 'for holding Wertingen was not his task either'; 'by the operations plan of the morning of 7 October' ... 'a strong advance guard was to be pushed forward to Wertingen, which was to make all the bridges from Günzburg to the mouth of the Lech unusable and establish contact with Kienmayer. Auffenberg, however, seems not to have received this task'; 'it was destined to go to Donauwörth'; 'all the information I have gathered announces that the enemy is retreating on Augsburg by Zusmarshausen' ... 'General Auffenberg was charged with flanking this march'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "Die der Division zugedachte Aufgabe kann daher nicht festgestellt werden;"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "als Vorhut nach Wertingen vorgeschoben, ohne bestimmte, klare Absicht, ohne dort einen bestimmten Zweck zu erfüllen."
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "denn auch das Festhalten Wertingens war nicht seine Aufgabe"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "Nach dem Operationsplane vom 7. Oktober früh"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-strength-and-mission",
+          "locator": "Krauss (1912), p. 342 (OCR page markers; not checked against print)",
+          "quote": "Hiezu sollte eine starke Vorhut nach Wertingen vorgeschoben werden, die alle Brücken von Günzburg bis zur Lech-Mündung unbrauchbar machen und Verbindung mit Kienmayer herstellen sollte. Diese Aufgabe scheint aber Auffenberg nicht erhalten zu haben"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p329-figures-v1",
+          "section": "p329",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 329 (transcribed from the page image)",
+          "quote": "il était destiné à se rendre à Donauwörth."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "murat-report-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 316 (OCR running heads; not checked against print)",
+          "quote": "Tous les renseignements que j'ai recueillis annoncent que l'ennemi fait sa retraite sur Augsburg par Zus- marshausen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "murat-report-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 316 (OCR running heads; not checked against print)",
+          "quote": "Le général Anffenherg était chargé de flanquer cette marche."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Belliard writes that Murat attacked the enemy at once on meeting him at Wertingen. The French drove in the outposts at Gottmannshofen, seized the Zusam bridge and fought into the town, and attacked the Austrian battalions from Wertingen and Roggden at once as they fell back to the heights.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' sources describe the French as attacking a force that stood at Wertingen. Napoleon's orders sent Lannes to occupy Wertingen (claim side-a-objectives), but the passages show Murat ordering the advance once the position was reconnoitred and attacking at once (claim side-a-decisions), so the posture is tagged commander_created. English renderings (ours): 'the Prince attacked him at once, the enemy put up much resistance'; 'the hussars, supported by artillery, drove off the outposts standing at Gottmannshofen, which fell back on Wertingen'; 'dragoons had dismounted and were seizing the bridge of Wertingen'; 'so it came about that the Austrian battalions, in the act of falling back, were attacked simultaneously from Wertingen and from Roggden'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "belliard-and-klein-8-oct",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 317 (OCR running heads; not checked against print)",
+          "quote": "Le Prince l'a attaqué de suite, l'ennemi a fait beaucoup de résistance,"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 339 (OCR page markers; not checked against print)",
+          "quote": "Die Husaren, unterstützt durch Artillerie, vertrieben die bei Gottmannshofen stehenden Vorposten, die sich auf Wertingen zurückzogen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "Des dragons avaient mis pied à terre et s'emparaient du pont de Wertingen"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 340 (OCR page markers; not checked against print)",
+          "quote": "So kam es, daß die im Zurückgehen begriffenen österreichischen Bataillone gleichzeitig von Wertingen und Eoggden her angegriffen wurden."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read place side B in the town of Wertingen, with a grenadier battalion at each of its three gates, on the heights, in orchards and scattered houses, and on the edge of the Binswangen woods. They name no walls, entrenchments or other works for either side.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; the gates of the town are named but no walls. English renderings (ours): 'had the three gates of the town each occupied by a grenadier battalion'; 'in the orchards and the last houses scattered on the slopes'; 'an enemy force posted at the edge of the woods of Binswang'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 337 (OCR page markers; not checked against print)",
+          "quote": "ließ sofort die drei Tore der Stadt mit je"
+        },
+        {
+          "source_id": "krauss-1912-selections-v1",
+          "section": "wertingen-combat",
+          "locator": "Krauss (1912), p. 338 (OCR page markers; not checked against print)",
+          "quote": "einem Grenadierbataillon besetzen:"
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 25 (OCR running heads; not checked against print)",
+          "quote": "dans les vergers et les dernières maïi- sons éparpillées sur les pentes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-selections-v1",
+          "section": "wertingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 26 (OCR running heads; not checked against print)",
+          "quote": "en face d'une troupe ennemie établie à la lisière des bois de Binswang."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Auffenberg's relation and Archduke Ferdinand's report of 8 October (Krauss's Beilage 6), which Krauss paraphrases for Austrian losses. Loss and prisoner figures in Murat's report (p. 316), Belliard's letter (p. 317), Alombert and Colin's narrative (p. 28) and Krauss (p. 340) were seen only in the OCR and not read from the page images, so they are not recorded.",
+    "Most consequential gap: side A's own headcount of the force present on 8 October. The targeted follow-up found the returns at the crossing of the Rhine (t. II, claim side-a-return), about two weeks older than the action; a return nearer 8 October or Murat's detailed report could narrow them, and a passage naming Nansouty's division would settle which heavy cavalry division was present.",
+    "Battalion and squadron counts: Krauss's narrative (OCR, pp. 337-338, numbers in words, not read from the image) puts a grenadier battalion at each of three gates and seven more battalions in the streets, which with his footnote suggests ten battalions (the three-battalion regiment Reuß-Greitz and seven grenadier battalions), while the prisoner, Alombert and Colin and Bodart give nine. For cavalry Bodart gives 2 squadrons, the prisoner 2 'divisions', Alombert and Colin 4 squadrons and Krauss four and a half.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. II and t. III (the French official history, printing French returns, orders, reports and journals); Krauss (an Austrian history from the Kriegsarchiv files, which draws on Alombert and Colin for French movements, so his French figures are not independent of theirs)."
+  ]
+}

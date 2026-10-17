@@ -17,7 +17,7 @@ wins a commander caused. No validated commander ranking exists here yet.
 
 ## Status
 
-As of 2026-10-06:
+As of 2026-10-17:
 
 - **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
   is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
@@ -38,7 +38,8 @@ As of 2026-10-06:
 - **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and scoped on
   2026-10-06 ([scoping note](docs/napoleonic-scoping.md)). Bodart's 1908 list is transcribed and
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
-  cohort of 325 land engagements of 1805–1815. Research has not started.
+  cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17 with the
+  1805 campaign ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

@@ -464,6 +464,47 @@ Recorded on 2026-10-16; the work is commit `1435766`.
   - 69 of the 82 are linked in one network of opponents.
   - 268 of the 325 entries print a figure for both sides.
 
+## 1805 first pass, batch 1a (2026-10-17)
+
+The first three entries of `third-coalition 1805`: Wertingen (B363a, 8 October), Günzburg (B363b,
+9 October) and Haslach (B363c, 11 October). The main session researched, drafted and verified them
+without subagents. The work is primary-verified; no separate review was made.
+
+- **Sources.** Bodart and two further families: Alombert and Colin's French official history
+  (t. II and t. III vol. 1) and Krauss's Austrian history of 1912
+  ([source additions](source-additions.md)). Krauss draws on Alombert and Colin for French orders
+  and movements, so his French figures are not independent of theirs.
+  - Every figure in a strength value or a recorded loss is read from one of 34 registered page
+    images. Figures seen only in the OCR are listed as deferred in each draft's open questions.
+- **Drafts.** 82 claims with 524 citations: B363a has 23, B363b 26 and B363c 33. 81 are supported
+  and one is disputed; none is unknown. Every draft covers the nine dimensions.
+  - Phases: 28 unresolved, 27 inherited, 12 commander-created and 15 post-outcome.
+  - Posture: side A attacked at Wertingen and Günzburg. At Haslach the French accounts have the
+    Austrians attack and Krauss has both sides attack, so the draft carries both codes.
+  - Fortification: none is named at Wertingen or Günzburg. At Haslach the French accounts name
+    Austrian entrenchments and Krauss names none.
+- **Disputes kept visible.**
+  - Bodart's strengths against the sides' own figures. At Günzburg he gives side A 20,000,
+    against the 3rd division's return of 7,069 (our sum) and Krauss's 7,000–8,000. At Haslach he
+    gives side A 6,000, against 6,194 in the returns (our sum). His 25,000 for side B is the
+    figure Dupont reported; Krauss estimates 18,000–20,000 infantry and 2,000–3,000 horse engaged.
+  - Side A's loss at Wertingen: Bodart gives about 500 killed and wounded. Alombert and Colin give
+    the cavalry reserve 19 killed and 89 wounded and Oudinot's division some thirty.
+  - Haslach's result: Bodart records an Austrian victory, and Dupont's reports claim a complete
+    French one; this is the batch's one disputed claim. Both histories reject or qualify Dupont.
+  - Ney's report that the Austrians at Günzburg had been reinforced reads 1,500 men in Alombert
+    and Colin and 15,000 in Krauss, both read from the page images.
+  - Bodart's Haslach losses equal particular figures in the sources read (claim `bodart-losses`).
+    But his 32% does not follow from 1,500 of 6,000, and the passages read identify 33 of his 43
+    officers.
+- **Gaps.** The most consequential are side B's own engaged strength and loss at Günzburg and
+  Haslach, and side A's headcount nearer the day, as the returns read are of late September. The
+  Austrian relations in the Kriegsarchiv files and Schönhals (1873) could close some of them.
+- **Usage.** About 1.64 million tokens of the session's budget, roughly 550,000 an entry. The
+  figure includes registering the three parents and learning their page structure. At that rate
+  the group's 19 remaining entries would need about 10 million. Later batches reuse the
+  registered sources and should keep drafts leaner, within the brief's ceiling.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
