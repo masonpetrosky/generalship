@@ -21202,6 +21202,1037 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B369a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's engagement at Ober-Hollabrunn (16 November 1805) in cohort v1's third-coalition 1805 group: Murat's attack, with Lannes's and Soult's corps, on Bagration's Russian rearguard in its position behind Schöngrabern, from the late afternoon to eleven at night, and Walther's pursuit. The negotiations before it (the Austrian parley, Wintzingerode's convention and Napoleon's refusal of it), Kutusow's retreat on Pohrlitz and Bagration's junction with the army on the 17th are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 24,000 infantry and 6,000 cavalry, 30,000 men, under Marshal Prince Murat, and side B (Russians and Austrians) 5,500 infantry, 1,500 cavalry and 12 guns under Lieutenant-General Prince Bagration, 7,000 men (our arithmetic). By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 30,000 for side A is more than the twenty-two thousand French who attacked in Victoires et conquêtes (claim victoires-side-a), and Schönhals gives no figure for the force engaged (claim schoenhals-side-a). His 7,000 for side B is near the six thousand of both other accounts (claims victoires-side-b and schoenhals-side-b); his 12 guns equal the twelve guns Victoires has side A take (claim side-b-losses-reported), and neither other account gives side B's guns before the engagement. His infantry and cavalry figures are not in the passages read. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (24,000 infantry, 6,000 cavalry = 30,000 men) under Marshal Prince Murat over the Russians and Austrians (5,500 infantry, 1,500 cavalry, 12 guns) under Lieutenant-General Prince Bagration'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (24.000 Inft., 6.000 Kav. = 30.000 M.) unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account in Victoires et conquêtes: the three army corps of Prince Murat and Marshals Lannes and Soult were then united; the six thousand Russians fought against the twenty-two thousand French who attacked them. Napoleon had hastened the march of Soult's corps on Hollabrunn (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's compilation, read from the page images except Napoleon's order and Lannes's advance (pp. 211-213, OCR). The twenty-two thousand are the French who attacked; Victoires gives no figure for the three corps as a whole, and Murat's corps is the cavalry that had preceded Lannes's corps to Hollabrunn (OCR). The force engaged was the one Murat chose to attack with at once, at nightfall and against Soult's advice (claim side-a-command), after Napoleon had hastened Soult's corps, so the claim is tagged commander_created. English renderings (ours): 'the three army corps of Prince Murat and of Marshals Lannes and Soult were then united'; 'in fighting with so much resolution against the twenty-two thousand French who attacked them with no less intrepidity, these Russians repaired the breach made in their army's reputation by the outcome of the combat of Diernstein'; 'Napoleon accordingly left' (p. 212) 'Schoenbrunn to go to the outposts, and hastened the' (p. 213) 'march of Marshal Soult's army corps on Hollabrunn' (OCR); 'Marshal Lannes's corps, preceded by ... (OCR) brigades of light cavalry at whose head was Prince Murat, pushed on as far as Hollabrunn, where the rearguard of the Russian army was' (OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les trois corps d'armée du prince Murat et des maréchaux Lannes et Soult se trouvaient alors réunis."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "En combattant avec tant de résolution contre les vingt-deux mille Français qui les attaquaient avec non moins d'intrépidité, ces Russes réparaient la brèche faite à la réputation de leur armée par l'issue du combat de Diernstein."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Napoléon partit en conséquence"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "de Schoenbrunn pour se rendre aux avant-postes, et hâta la"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "marche du corps d’armée du maréchal Soult sur Hollabrunn."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "le corps du maréchal Lannrs, précédé de trois brigades de cavalerie légère, à la tète desquelles était lç prince Murat, poussa jusqu’à Hollabrunn, où se trouvait l’arrière-garde de l’armée russe."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Schönhals, the Austrian account: Murat attacked on the 16th with the united IV and V Corps; Oudinot's grenadier division, Suchet, Legrand's division and Vandamme, in reserve, are named in the attack. Schönhals gives no figure for the force engaged. On the 13th, he says, Murat had led his own and the V Corps, with two divisions of the IV Corps following half a march behind, 50.000 men in all, to the left bank of the Danube.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page images. The 50.000 are the force led across the Danube on the 13th, three days before the engagement, not the force engaged at Schöngrabern; in the same account Napoleon hastened the IV Corps' march and ordered his Guard to Hollabrunn and Caffarelli's division of the III Corps to Znaym after refusing the convention (claim side-a-command). The force engaged was the one Murat chose to attack with, so the claim is tagged commander_created. English renderings (ours): 'Murat recognised his deception after the Russians' departure and on the 16th attacked the 6000 Russians with the united IV and V Corps'; 'on the 13th Murat had led, besides his own and the V Corps, also two divisions of the IV Corps following him half a march behind, 50.000 men in all, to the left bank of the Danube and advanced, without troubling himself about Auersperg, in seven marches on the Znaym road to cut the Russians off from that town, while the I Corps was to follow them from Stein but had not yet crossed any troops on the 14th'; for the divisions named, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Suchet sollte ihren linken umgehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Vandamme folgte als Reserve."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat hatte am 13. nebst seinem und dem V. Corps auch zwei Divisionen des IV. ihm auf einen halben Marsch folgenden Corps, im Ganzen 50.000 Mann, auf das linke Donau-Ufer geführt und rückte, ohne sich um Auersperg zu kümmern, in sieben Märschen auf der Znaymer Strasse fort, um die Russen von dieser Stadt abzuschneiden, während das I. Corps ihnen von Stein nachfolgen sollte, aber den 14. noch keine Truppe übergesetzt hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-b",
+      "dimension": "strength",
+      "value": "Side B in Victoires et conquêtes: the Russians had taken position behind the village of Schoen Grabern, beyond a defile defended by six thousand men of their best troops; the six thousand Russians who fought at Guntersdorf were the rearguard under Prince Bagration. Victoires names only Russians in the combat. Before the engagement, it says (OCR), an Austrian officer came as a parlementaire and asked that the Emperor of Germany's troops be allowed to separate from the Russians, and Murat consented.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's compilation on side B, read from the page images except the Austrian parley (OCR). Victoires does not say whether the Austrian troops did separate or whether any fought at Guntersdorf; Schönhals has the Hessen-Homburg hussars of Nostitz's brigade distinguish themselves in the fight (claim schoenhals-side-b), and Bodart has Russians and Austrians (claim bodart-strength). The rearguard was the force Bagration commanded, so the claim is tagged inherited. English renderings (ours): 'the Russians had taken position behind the village of Schoen Grabern, beyond a defile, defended by six thousand men of their best troops'; 'the six thousand Russians who had just fought at Guntersdorf had shown themselves such as the great Frederick had depicted them, when he said that it was not enough to kill a Russian soldier, one still had to push him to make him fall'; 'Murat, by the emperor's orders, gave notice of the breaking of the armistice he had provisionally granted to Prince Bagration, commanding the rearguard of the Russian army'; 'Murat and Marshal Lannes intended to follow up this advantage and had made their dispositions accordingly, when an Austrian officer came forward as a parlementaire and asked that the troops of the Emperor of Germany be allowed to separate' (p. 211) 'from the Russians. Murat consented to it, reflecting that this act of condescension on his part might lead the Austrian monarch to sue for peace sooner' (p. 212) (OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Les six mille Russes qui venaient de combattre à Guntersdorf s'étaient montrés tels que les avait dépeints le grand Frédéric, quand il disait qu'il ne suffisait pas de tuer un soldat russe, qu'il fallait encore le pousser pour le faire tomber."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "des Russes. Murat y consentit, en réfléchissant que cet acte Aliem ugDe. de condescendance de sa part pourrait amener le monarque autrichien à solliciter plus tôt la paix."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-b",
+      "dimension": "strength",
+      "value": "Side B in Schönhals, its own account: Bagration stayed behind at Schöngrabern with a rearguard of 6000 men to cover the retreat, and Murat attacked the 6000 Russians; of Nostitz's brigade the Hessen-Homburg hussar regiment distinguished itself above all and suffered very much. General Nostitz had held the furthest outposts at Schöngrabern. Kutusow's army, joined by its sixth column, had grown to 32.000 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images. Schönhals does not say whether the 6000 included Nostitz's brigade or how many of it fought; the hussars of Nostitz's brigade are Austrian, as Bodart's 'Russians and Austrians' imply (claim bodart-strength), while Victoires names only Russians (claim victoires-side-b). The 32.000 are Kutusow's whole force, most of which had marched on (claim side-b-command). The rearguard was the force Kutusow left with Bagration, so the claim is tagged inherited. English renderings (ours): 'to cover the retreat Bagration stayed behind at Schöngrabern with a rearguard of 6000 men'; as in claim schoenhals-side-a for Murat's attack; 'of Nostitz's brigade the hussar regiment Hessen-Homburg distinguished itself above all, but it also suffered very much'; 'General Nostitz had the furthest outposts at Schöngrabern'; 'Murat arrived in Hollabrunn almost at the same time as the Russians; but since, through Kutusow's union with his sixth column, whose forces had grown to 32.000 men, he did not dare to attack him in front, but took refuge once more in the means of deceit that had just brought him such brilliant fruits'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Von der Brigade Nostitz zeichnete sich besonders das Huszaren-Regiment Hessen-Homburg aus, das aber auch sehr viel litt."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "General Nostitz hatte bei Schöngrabern die äussersten Vorposten."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat traf beinahe zugleich mit den Russen in Hollabrunn ein; da aber durch die Vereinigung Kutusow's mit seiner sechsten Colonne, dessen Streitkräfte auf 32.000 Mann angewachsen waren, so wagte er es nicht, ihn in der Front anzugreifen, sondern nahm seine Zuflucht noch einmal zu dem Mittel des Betrugs, das ihm erst eben so glänzende Früchte gebracht hatte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and Lieutenant-General Prince Bagration as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both other accounts have Murat order the attack and Bagration command the Russian rearguard (claims side-a-command and side-b-command); in both, Lannes and Soult (Victoires) or the IV and V Corps (Schönhals) fought under Murat, and Kutusow, the army commander, had marched on with the main body. English rendering (ours): 'under Marshal Prince Murat over the Russians and Austrians (5,500 infantry, 1,500 cavalry, 12 guns) under Lieutenant-General Prince Bagration'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Murat commanded side A and decided the attack; Napoleon refused the convention Murat had accepted and hastened his troops forward. Victoires: Murat accepted Wintzingerode's capitulation and had Belliard, his chief of staff, settle and sign it (OCR); Napoleon did not approve it, judging Wintzingerode not authorised to conclude it (OCR); by the emperor's orders Murat gave notice of the breaking of the armistice; on the 16th Murat, with his usual impetuosity, wanted to attack the defile at once though night had fallen, and Soult advised against a night action in vain; after cavalry skirmishes Lannes sent Oudinot's grenadier division to attack the position in front and on the left, Soult turned it on the right with Legrand's division, and Vandamme's division supported the grenadiers. Schönhals: Murat halted his troops and Winzingerode concluded a kind of convention with him; Napoleon, seeing through the Russians' ruse, refused to confirm it, hastened the IV Corps' march, ordered his Guard to Hollabrunn and Caffarelli's division of the III Corps to Znaym, and left Schönbrunn himself; at dusk Murat had Oudinot's grenadier division advance in two columns against the Russians' centre and right wing, Suchet was to turn their left, Legrand's division was formed in two columns against it, one to attack it, the other to cut the road beyond Grund, and Vandamme followed in reserve.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as both accounts give them, read from the page images except Victoires's account of the capitulation and its refusal (p. 212, OCR). The two accounts agree on the attack's commander and its dispositions; Victoires puts Lannes and Soult between Murat and the divisions, and has Soult advise against the attack. English renderings (ours): Victoires, 'such a proposal seemed too much in the army's interest for Murat not to accept it on the spot'; 'General Belliard, the prince's chief of staff, was therefore charged by him to settle the articles of this capitulation with Baron Wintzingerode, and in the evening these two generals settled and signed at Hollabrunn a capitulation by which Prince Murat consented to suspend his march on Moravia, and the Russian army undertook to leave Germany at once, withdrawing by the road it had taken to come there'; 'Murat sent this capitulation to the Emperor Napoleon, who did not approve it, because, this act being a kind of treaty, he did not think Baron Wintzingerode sufficiently authorised to conclude it' (OCR); as in claim victoires-side-b for the breaking of the armistice; as in claim hollabrunn-ground for the 16th; 'Murat, with his usual impetuosity, wanted to attack this defile at once, although the day had already fallen'; 'Marshal Soult advised not to engage an action by night, in which dispositions are uncertain, mistakes frequent and the results often fatal to the assailants: his entreaties were useless, Murat ordered the attack'; 'the action began with some cavalry skirmishes, after which Marshal Lannes sent forward the division of Oudinot's grenadiers to attack the enemy's position in front and on the left, while Marshal Soult had it turned on the right by the division Legrand, while the division Vandamme supported that of the grenadiers'; Schönhals, 'Murat fell completely into the trap laid for him, he had his troops halt, and Winzingerode even concluded a kind of convention with him, which was sent to Napoleon at Schönbrunn for confirmation'; 'Napoleon, seeing through the Russians' ruse, refused his confirmation to the convention concluded, for which he declared General Winzingerode not furnished with full powers, and hastened the march of the IV Corps, which followed Murat's; at the same time he ordered his Guards to set out for Hollabrunn and the division Caffarelli of the III Corps to march to Znaym; he himself left Schönbrunn at once'; 'at dusk Murat had the grenadier division Oudinot advance in two columns against the centre and the right wing of the Russians'; 'Suchet was to turn their left'; 'against the latter the division Legrand was also formed in two columns, the one for a direct attack on it, the other to cut the road for it beyond Grund'; 'Vandamme followed as reserve'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Murat envoya cette capitulation à l’empereur Napoléon , qui ne l’approuva point , parce que cet acte étant une es- pèce de traité, il ne crut point le baron de Wintzingerode suffisamment autorisé à le conclure."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le maréchal Soult conseillait de ne point engager une affaire de nuit, dans laquelle les dispositions sont incertaines, les méprises fréquentes, et les résultats souvent funestes aux assaillans: ses instances furent inutiles, Murat ordonna l'attaque."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "L'action s'engagea par quelques escarmouches de cavalerie, après lesquelles le maréchal Lannes fit avancer la division des grenadiers d'Oudinot, pour attaquer de front et par la gauche la position de l'ennemi, que le maréchal Soult faisait tourner à droite par la division Legrand, tandis que la division Vandamme appuyait celle des grenadiers."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Suchet sollte ihren linken umgehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Vandamme folgte als Reserve."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Bagration commanded side B's rearguard. In Schönhals, when Bagration discovered the danger, he sent the Emperor's adjutant-general, Prince Dolgorucky, to Murat, repaying ruse with ruse, and opened to him the prospect of a separate peace with Russia, a hope Kutusow had General Winzingerode feed; Kutusow gained time thereby to reach Lechwitz with his main body in the night before the 16th, and Bagration stayed behind at Schöngrabern with a rearguard of 6000 men to cover the retreat; Bagration had taken an advantageous position behind Schöngrabern, beyond the defile of the village of Grund, and the Russians kept up the fight with unexampled bravery until 11 at night. In Victoires, Baron Wintzingerode, aide-de-camp general of the Emperor of Russia, came to the French outposts and asked to capitulate for the Russian army (OCR), and Napoleon regarded the step as a ruse of the Russian commander-in-chief to gain time (OCR); Bagration used the four hours' notice to hasten his retreat, and the Russians, with the advantage of the position, received the attack vigorously; their long resistance let the Russian army continue its retreat.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as both accounts give them, read from the page images except Victoires's sentences on Wintzingerode (p. 212, OCR). The accounts differ on who began the deceptions (claim armistice-ruse). Kutusow, the army commander, chose to leave the rearguard; Bagration commanded it and, in Schönhals, sent Dolgorucky, so the claim is tagged commander_created. English renderings (ours): Schönhals, 'when Bagration discovered the danger facing him, he sent, repaying ruse with ruse, the Emperor's adjutant-general, Prince Dolgorucky, to Murat and opened to him the prospect of' (p. 137) 'a separate peace with Russia. Kutusow had this hope fed by General Winzingerode' (p. 138); 'Kutusow thereby gained time to come to Lechwitz with his main body in the night before the 16th; on the 17th he reached Pohrlitz on the Brünn road'; as in claim schoenhals-side-b for the rearguard; 'Bagration had taken an advantageous position behind Schöngrabern, beyond the defile of the village of Grund'; 'a murderous fight developed, which was kept up on the Russians' side with unexampled bravery until 11 o'clock at night'; Victoires, 'some moments later Baron Wintzingerode, aide-de-camp general of the Emperor of Russia, presented himself at the French outposts and asked to capitulate for the Russian army' (OCR); 'at bottom the French emperor regarded Baron Wintzingerode's step as a ruse of the Russian commander-in-chief to gain time and receive the reinforcements that were advancing from upper Moravia' (OCR); as in claim victoires-side-b for the four hours; 'General Oudinot, at the head of the brigade of grenadiers commanded by General Laplanche-Mortière, fell on the Russians with his accustomed dash; but these, who had the advantage of the position, received the shock vigorously'; 'their long resistance allowed the Russian army to continue its retreat'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "einem Separat-Frieden mit Russland. Kutusow liess diese Hoffnung durch den General Winzingerode nähren."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Kutusow gewann hiedurch Zeit, mit seiner Hauptmacht in der Nacht auf den 16. nach Lechwitz zu kommen; am 17. erreichte er Pohrlitz auf der Brünner Strasse."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Es entspann sich ein mörderisches Gefecht, welches von Seiten der Russen mit beispielloser Tapferkeit bis in die Nacht um 11 Uhr unterhalten ward."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Quelques instansaprès, le baron de Wintzingerode, aide- de-camp général de l’empereur de Russie, se présenta aux avant-postes français, et demanda a capituler pour l’armée russe."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Leur longue résistance permit à l'armée russe de continuer sa retraite."
+        }
+      ]
+    },
+    {
+      "id": "armistice-ruse",
+      "dimension": "responsibility",
+      "value": "The two accounts disagree on who deceived whom before the engagement. Victoires (OCR): an Austrian officer came as a parlementaire and asked that the Austrian troops be allowed to separate from the Russians, and Murat consented, hoping the Austrian monarch would sue for peace sooner; then Wintzingerode asked to capitulate for the Russian army, Murat accepted, and the capitulation was signed, to be carried out only after Napoleon's ratification, the Russian army and the French corps meanwhile keeping their positions and giving four hours' notice before reopening hostilities; Victoires quotes the official bulletin on the Frenchman's thoughtless generosity out of action. Schönhals: Murat, not daring to attack Kutusow's 32.000 in front, took refuge once more in deceit, engaged General Nostitz, who held the furthest outposts, in conversation and assured him of an armistice already in force and an early peace with Austria, and during the conversation turned Nostitz and the flank of the Russian rearguard; Bagration answered ruse with ruse, and Murat fell completely into the trap.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts as read: Victoires in the OCR (pp. 211-212) except the four hours' notice, which its p. 213 repeats on the page image; Schönhals on the page images. They are opposed on the Nostitz episode (an Austrian request to separate that Murat granted, against a deception of Nostitz by Murat) and agree that Wintzingerode concluded the convention that Napoleon refused. Each account's deception is a decision of a commander before the engagement, so the claim is tagged commander_created. English renderings (ours): as in claims victoires-side-b, side-a-command and side-b-command; Victoires, 'these conditions were to be carried out only after the ratification of the Emperor Napoleon, and meanwhile the Russian army and the ... (OCR) French corps were to stay in the positions they held: in case of non-acceptance by the French monarch, each side was to warn the other four hours before resuming hostilities' (OCR); 'one must recognise here, says the editor of the official Bulletin on this subject, the character of the Frenchman, who, brave in the fray, is often of a thoughtless generosity out of action' (footnote, OCR); Schönhals, as in claim schoenhals-side-b for Murat's deceit; 'at the sight of them Murat entered into a conversation with Nostitz and gave him too the assurance of an armistice already in force and of an early peace with Austria, which pretences he sought to confirm by his undisturbed march up to this point'; 'during this conversation he turned not only Nostitz but also the flank of the Russian rearguard, standing somewhat further back, and threatened even that of the main army'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "des Russes. Murat y consentit, en réfléchissant que cet acte Aliem ugDe. de condescendance de sa part pourrait amener le monarque autrichien à solliciter plus tôt la paix."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Quelques instansaprès, le baron de Wintzingerode, aide- de-camp général de l’empereur de Russie, se présenta aux avant-postes français, et demanda a capituler pour l’armée russe."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Ces conditions ne devaient être exécutées qu’après la ratification de l’empereur Napoléon , et , en attendant , l’armée russe et les deux corps français devaient rester dans les positions qu’ils occupaient : dans le cas de non acceptation du mo- narque français, on devait se prévenir quatre heures avant de recommencer les hostilités."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "On doit reconnaître ici, dit & ce sujet le rédacteur du Bulletin officiel, le caractère du Français, qui, brave dans la mêlée, est souvent d’une générosité irréfléchie hors de l’action."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat traf beinahe zugleich mit den Russen in Hollabrunn ein; da aber durch die Vereinigung Kutusow's mit seiner sechsten Colonne, dessen Streitkräfte auf 32.000 Mann angewachsen waren, so wagte er es nicht, ihn in der Front anzugreifen, sondern nahm seine Zuflucht noch einmal zu dem Mittel des Betrugs, das ihm erst eben so glänzende Früchte gebracht hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "General Nostitz hatte bei Schöngrabern die äussersten Vorposten."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Bei dem Anblicke derselben liess sich Murat mit Nostitz in eine Unterredung ein, ertheilte auch ihm die Versicherung eines bereits bestehenden Waffenstillstandes und nahen Friedens mit Österreich, welche Vorspiegelungen er durch seinen ungestörten Marsch bis hierher zu bekräftigen suchte."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Während dieser Unterredung umgieng er nicht allein Nostitz, sondern auch die Flanke der etwas weiter rückwärts stehenden russischen Nachhut und bedrohte selbst jene der Haupt-Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Marshal Prince Murat over side B (Russians and Austrians) under Lieutenant-General Prince Bagration on 16 November. Victoires: after a stubborn combat that lasted until eleven at night the French were masters of the battlefield, and the Russians' long resistance allowed the Russian army to continue its retreat; General Walther pursued the Russians with a brigade of dragoons. Schönhals: the Russians kept up the fight with unexampled bravery until 11 at night; Bagration reached Lechwitz at noon on the 17th, where the Austrian General Caramelli received him with two cuirassier regiments, and was at Frainspitz by evening, an hour from the army; through Kutusow's fortunate arrival at Pohrlitz and Bagration's steadfastness the union with the 13.000-strong Austrian corps was achieved.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending, read from the page images. Victoires gives side A the field; Schönhals does not say who held it, and dwells on the rearguard's success in covering the army's retreat and junction, which concerns the campaign, not the tactical result, and is his judgment, not a measured effect. English renderings (ours): Bodart, as in claim bodart-strength; '1805 16/11. engagement at Ober-Hollabrunn (4.)'; Victoires, 'finally, after a stubborn combat that had lasted until eleven in the evening, the French found themselves masters of the battlefield, of eighteen hundred prisoners, of twelve guns and of a hundred and some baggage wagons'; as in claim side-b-command for the long resistance; 'General Walther, at the head of one of his brigades of' (p. 214) 'dragoons, pursued the Russians and took another three hundred prisoners from them' (p. 215); Schönhals, as in claim side-b-command for the fight; 'Bagration reached Lechwitz at noon on the 17th, where the Austrian General Caramelli received him with two cuirassier regiments'; 'in the evening he already stood at Frainspitz, an hour from the army'; 'through Kutusow's fortunate arrival at Pohrlitz and Bagration's steadfastness the union with the 13.000-man-strong Austrian corps was achieved, which on this day FML Prince Liechtenstein commanded instead of Auersperg'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (24.000 Inft., 6.000 Kav. = 30.000 M.) unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1805 16./11. TREFFEN bei Ober-Hollabrunn (4.)"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Leur longue résistance permit à l'armée russe de continuer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Walther, à la tête d'une de ses brigades de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-hollabrunn-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "dragons, poursuivit les Russes, et leur fit encore trois cents prisonniers."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Es entspann sich ein mörderisches Gefecht, welches von Seiten der Russen mit beispielloser Tapferkeit bis in die Nacht um 11 Uhr unterhalten ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration erreichte am 17. Mittags Lechwitz, wo ihn der österreichische General Caramelli mit zwei Cürassier-Regimentern aufnahm."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Abends stand er schon bei Frainspitz, eine Stunde von der Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Durch Kutusow's glückliches Eintreffen bei Pohrlitz, und Bagrations Standhaftigkeit ward die Vereinigung mit den 13.000 Mann starken österreichischen Corps erreicht, welches an diesem Tage statt Auersperg FML. Fürst Liechtenstein befehligte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's (French) loss as about 2,000 men, among them 2 generals and 55 officers, and side B's (Russian and Austrian) as about 3,000 men, of whom 1,800 prisoners, and 12 guns.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. His 1,800 prisoners and 12 guns equal Victoires's eighteen hundred prisoners and twelve guns taken in the combat, before the three hundred Walther took in the pursuit (claim side-b-losses-reported); the passages read do not show that he took them from it. Neither other account gives a number for side A's loss (claim side-a-losses-reported). English rendering (ours): 'French loss: (2 generals, 55 officers) about 2,000 men | Russian-Austrian loss: about 3,000 men (of whom 1,800 prisoners), 12 guns'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Franz. Verl.: (2 Gen. 55 Offz.) ca. 2.000 M. | Russ.-Österr. Verl.: ca. 3.000 M. (wor. 1.800 Gefg.), 12 Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts: Victoires names General Oudinot, wounded quite seriously, his two aides-de-camp Demangeot and Lamotte, and the artillery general Fouché, hit in the thigh by a shell fragment, and says that the French, halted when Russian officers cried out not to fire because they were French, received a very murderous volley (OCR). Schönhals says the loss on both sides was considerable, above all the French. Neither gives a number.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except the volley (OCR). Bodart's about 2,000 (claim bodart-losses) is not in the passages read. English renderings (ours): Victoires, 'General Oudinot, already covered with so many scars, was wounded quite seriously in this combat, as were his two aides-de-camp Demangeot and Lamotte, and the artillery general Fouché, who received a shell splinter in the thigh'; 'while the division Vandamme was advancing in support of the engaged grenadiers, officers of a Russian corps that was on the point of being surrounded began to cry: \"do not fire, we are French\"' (OCR); 'the fear of in fact killing their comrades stopped the French, who, being only at ... (OCR) musket range from their adversaries, soon received a very murderous volley' (OCR); Schönhals, 'the loss on both sides was considerable, especially that of the French'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Oudinot, déjà couvert de tant de cicatrices, fut blessé assez grièvement dans ce combat, ainsi que ses deux aides-de-camp Demangeot et Lamotte¹, et le général d'artillerie Fouché, qui reçut un éclat d'obus dans la cuisse."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Taudis que la division Vandamme s’avancait à l’appui des grenadiers engagés, des officiers d’un corps russe qui était sur le point d’être enveloppé, se mirent a crier : « ne tirez pas , nous sommes Français. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "La crainte de tuer en effet leu s camarades arrêta les Français, qui, n’étant qu’à demi-portée de fusil de leurs adversaires , reçurent bientôt une décharge très-meurtrière."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Der beiderseitige Verlust war beträchtlich, besonders jener der Franzosen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Victoires has the French masters of eighteen hundred prisoners, twelve guns and a hundred and some baggage wagons, and General Walther's dragoons take three hundred more prisoners in the pursuit; the Russian corps whose officers had cried out not to fire was overthrown and cut to pieces (OCR). Schönhals says the loss on both sides was considerable, and that the Hessen-Homburg hussars of Nostitz's brigade suffered very much. Neither gives side B's killed and wounded.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except the Russian corps cut to pieces (OCR); not combined. Victoires's eighteen hundred and three hundred together are 2,100 prisoners (our arithmetic), against Bodart's 1,800 (claim bodart-losses). English renderings (ours): Victoires, as in claim bodart-winner; 'indignant at this trick, they rushed furiously on these pretended Frenchmen, overthrew them and cut them to pieces' (OCR); Schönhals, as in claims side-a-losses-reported and schoenhals-side-b.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Walther, à la tête d'une de ses brigades de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-hollabrunn-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "dragons, poursuivit les Russes, et leur fit encore trois cents prisonniers."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Indignés de cette supercherie, ils s’élancèrent avec fureur sur ces prétendus Français, les culbutèrent et les taillèrent en pièces."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Der beiderseitige Verlust war beträchtlich, besonders jener der Franzosen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Von der Brigade Nostitz zeichnete sich besonders das Huszaren-Regiment Hessen-Homburg aus, das aber auch sehr viel litt."
+        }
+      ]
+    },
+    {
+      "id": "hollabrunn-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Ober-Hollabrunn as a market town in Lower Austria, 42 km north-west of Vienna. Victoires puts the encounter before Hollabrunn, near the village of Guntersdorf, with the Russians in position behind the village of Schoen Grabern, beyond a defile, with the advantage of the position; the village, set on fire by Russian shells from the start, lit the French position, and the wind drove thick smoke that hid the Russians' movements (OCR); the attack began after nightfall and the fight lasted until eleven at night. Schönhals puts Bagration's advantageous position behind Schöngrabern, beyond the defile of the village of Grund, has Legrand's second column sent to cut the road beyond Grund, and has the burning Schöngrabern light the battlefield.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground, light and smoke from Bodart's location and the two accounts, read from the page images except Victoires's sentences on the fire and the wind (pp. 213-214, OCR); no map was inspected. The position was the ground Bagration had taken, and the night and the fire came with the hour Murat chose and Russian shells; the claim is tagged inherited for the ground. English renderings (ours): Bodart, 'market town in Lower Austria, 42 km north-west of Vienna'; Victoires, 'Murat himself set out, and on 16 November at four in the afternoon the French troops found themselves in the presence of the Russians before Hollabrunn, near the village of Guntersdorf'; as in claim victoires-side-b for the defile; as in claim side-b-command for the advantage of the position; 'their shells having set fire to the village of Schoen Grabern from the beginning of the action, the fire' (p. 213) 'soon showed itself in a frightful way and did much harm to the French troops, whose position it lit; the wind, driving great clouds of a thick and fetid smoke, prevented the Russians' movements from being made out' (p. 214) (OCR); as in claims side-a-command and bodart-winner for nightfall and the hour; Schönhals, as in claims side-b-command and side-a-command; 'Schöngrabern, set on fire by Russian shells, lit the battlefield'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "(Marktflecken in Niederösterreich, 42 km nordwestl. von Wien)."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "Leurs obus ayant mis le feu au village de Schoen Grabern, dès le commencement de l’action, l’incendie se"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "manifesta bientôt d’une manière effrayante , et nuisit beau- i8o5-anxm. . J . Allemagne. coup aux troupes françaises, dont elle éclairait la position ; le vent , chassant de gros nuages d’une fumée épaisse et fé- tide, empêchait de distinguer les raouvçmens des Russes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Das durch russische Granaten in Brand gesetzte Schöngrabern beleuchtete das Schlachtfeld."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Victoires has side A take a hundred and some baggage wagons with the twelve guns after the combat, and earlier, at Lannes's arrival at Hollabrunn, it says, Murat's cavalry charge took loaded baggage wagons from the Russian rearguard (OCR). Schönhals says the action at Dürrenstein had given Kutusow time to send his artillery reserve and baggage ahead undisturbed. No passage read describes either side's supply or ammunition at the engagement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the earlier charge, OCR, whose number of wagons is not restated). No supply or ammunition return was inspected. English renderings (ours): Victoires, as in claim bodart-winner; 'Murat having had his cavalry charge, the enemy abandoned the ground, and ... (OCR) loaded baggage wagons were taken from him' (OCR); Schönhals, 'the action at Dürrenstein had the consequence that Kutusow gained time to send ahead his artillery reserve and the baggage undisturbed, and also to make the necessary arrangements for his union with Auersperg's corps and the sixth Russian column, which arrived in Hollabrunn 7000 men strong on the 12th'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat ayant fait charger sa cavalerie, l’ennemi abandonna le terrain, et on lui prit cent voitures d’équipages toutes chargées."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information on side B's intentions differed by level. In Schönhals, Murat fell completely into the trap and recognised his deception only after the Russians' departure, while Napoleon saw through the Russians' ruse; in Victoires (OCR), Murat accepted the capitulation as plainly in the army's interest, and Napoleon at bottom regarded it as a ruse to gain time and receive reinforcements. In the fight, Victoires says, the smoke prevented the Russians' movements from being made out (OCR), and the French, halted by Russian officers' cry not to fire because they were French, received a murderous volley (OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as both accounts give it (Schönhals from the page images; Victoires in the OCR). English renderings (ours): as in claims side-a-command, side-b-command, hollabrunn-ground and side-a-losses-reported; Schönhals, as in claim schoenhals-side-a for Murat's recognition.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "manifesta bientôt d’une manière effrayante , et nuisit beau- i8o5-anxm. . J . Allemagne. coup aux troupes françaises, dont elle éclairait la position ; le vent , chassant de gros nuages d’une fumée épaisse et fé- tide, empêchait de distinguer les raouvçmens des Russes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Taudis que la division Vandamme s’avancait à l’appui des grenadiers engagés, des officiers d’un corps russe qui était sur le point d’être enveloppé, se mirent a crier : « ne tirez pas , nous sommes Français. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "La crainte de tuer en effet leu s camarades arrêta les Français, qui, n’étant qu’à demi-portée de fusil de leurs adversaires , reçurent bientôt une décharge très-meurtrière."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Schönhals, Bagration discovered the danger when Murat, in conversation with Nostitz, turned Nostitz and the flank of the Russian rearguard and threatened that of the main army, and answered with a ruse of his own. In Victoires, Bagration was given four hours' notice of the breaking of the armistice and used it to hasten his retreat. Neither account says what Bagration knew of side A's strength.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it, read from the page images. English renderings (ours): as in claims armistice-ruse, side-b-command and victoires-side-b.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Während dieser Unterredung umgieng er nicht allein Nostitz, sondern auch die Flanke der etwas weiter rückwärts stehenden russischen Nachhut und bedrohte selbst jene der Haupt-Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aim was to cut off and catch the Russians. In Schönhals, Murat advanced on the Znaym road to cut the Russians off from that town; in Victoires, Murat and Lannes meant to follow up the success of their cavalry at Hollabrunn when the Austrian parley came (OCR), the capitulation Murat accepted would have suspended his march on Moravia (OCR), and on the 16th Murat wanted to attack the defile at once though night had fallen. Napoleon, refusing the convention, hastened the march of his troops (both accounts).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders as both accounts give them (page images except Victoires's sentences on the parley, the capitulation and Soult's march, pp. 211-213, OCR). Murat chose to attack at once, and Napoleon chose to refuse the convention, so the claim is tagged commander_created. English renderings (ours): Schönhals, as in claim schoenhals-side-a; Victoires, as in claims victoires-side-b, side-a-command, hollabrunn-ground and victoires-side-a.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat hatte am 13. nebst seinem und dem V. Corps auch zwei Divisionen des IV. ihm auf einen halben Marsch folgenden Corps, im Ganzen 50.000 Mann, auf das linke Donau-Ufer geführt und rückte, ohne sich um Auersperg zu kümmern, in sieben Märschen auf der Znaymer Strasse fort, um die Russen von dieser Stadt abzuschneiden, während das I. Corps ihnen von Stein nachfolgen sollte, aber den 14. noch keine Truppe übergesetzt hatte."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "marche du corps d’armée du maréchal Soult sur Hollabrunn."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to cover the retreat of Kutusow's army: Bagration stayed behind at Schöngrabern with 6000 men to cover it (Schönhals), and the Russian commander-in-chief's step, as Napoleon saw it, was meant to gain time and receive the reinforcements advancing from upper Moravia (Victoires, OCR). The union with the Austrian corps was achieved, Schönhals says, through Kutusow's arrival at Pohrlitz and Bagration's steadfastness.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as both accounts give them (Schönhals from the page images; Victoires's sentence on Napoleon's view in the OCR). The rearguard's task was set by Kutusow, the army commander, so for Bagration it is tagged inherited. English renderings (ours): as in claims schoenhals-side-b, side-b-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Durch Kutusow's glückliches Eintreffen bei Pohrlitz, und Bagrations Standhaftigkeit ward die Vereinigung mit den 13.000 Mann starken österreichischen Corps erreicht, welches an diesem Tage statt Auersperg FML. Fürst Liechtenstein befehligte."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Murat ordered the attack on the Russian position behind Schoen Grabern (Victoires) or Schöngrabern (Schönhals): Oudinot's grenadiers attacked in front and on the left (Victoires) or against the Russians' centre and right wing (Schönhals), Legrand's division turned the position or attacked the Russian left, and Vandamme supported or followed in reserve. Side B held its position and received the attack.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side A attack a position side B had taken and held, so the code is A_attacked. The French charge on the Russians who had cried out not to fire (Victoires, OCR) is part of side A's attack. Murat decided to attack at once, at nightfall, against Soult's advice (Victoires) and after Napoleon refused the convention, so the posture is tagged commander_created. English renderings (ours): as in claims side-a-command, side-b-command and side-b-losses-reported.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le maréchal Soult conseillait de ne point engager une affaire de nuit, dans laquelle les dispositions sont incertaines, les méprises fréquentes, et les résultats souvent funestes aux assaillans: ses instances furent inutiles, Murat ordonna l'attaque."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "L'action s'engagea par quelques escarmouches de cavalerie, après lesquelles le maréchal Lannes fit avancer la division des grenadiers d'Oudinot, pour attaquer de front et par la gauche la position de l'ennemi, que le maréchal Soult faisait tourner à droite par la division Legrand, tandis que la division Vandamme appuyait celle des grenadiers."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Indignés de cette supercherie, ils s’élancèrent avec fureur sur ces prétendus Français, les culbutèrent et les taillèrent en pièces."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Both accounts place side B in a position behind the village of Schoen Grabern or Schöngrabern, beyond a defile (Victoires) or the defile of the village of Grund (Schönhals), which Victoires calls the advantage of the position and Schönhals an advantageous position; they name no works from which side B fought.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code none_named: no passage read names works. The defile and the village are ground, not works; none_named reports the passages read, not proof that no works existed. English renderings (ours): as in claims victoires-side-b, side-b-command and hollabrunn-ground.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the official bulletin that Victoires cites on the Austrian parley (footnote, OCR), Murat's and Lannes's reports and any French return of the 4th and 5th corps and the cavalry reserve for mid-November, none inspected; Russian accounts of the rearguard action, which neither account cites in the passages read; Alombert and Colin's t. IV, which ends with Saint-Pölten and Krems before this engagement (its OCR has no hit for Hollabrunn); Victoires's text from p. 209 to the selected section (the entry into Vienna and the crossing of the Danube), read and not cited; Völderndorff's brief account of Hollabrunn (OCR, pp. 278-279 by its page heads), a fourth family read in the follow-up for Steken and not cited, which gives a strength for Bagration's rearguard. Figures seen only in the OCR and not restated in values: Victoires's date for Lannes's arrival at Hollabrunn, the brigades of light cavalry at its head, the wagons taken at that arrival and the number of French corps named in the capitulation's conditions; the page numbers of Victoires's OCR quotes, read from the OCR running heads.",
+    "Most consequential gap: side A's engaged strength. Bodart gives 30,000 (24,000 infantry and 6,000 cavalry), Victoires twenty-two thousand French who attacked, and Schönhals no figure for the force engaged, only the 50.000 Murat led across the Danube on the 13th. The targeted follow-up read the passages around every hit for Hollabrunn, Schöngrabern and Guntersdorf, with their OCR variants, in both parents (the summaries of the volume's chapter, Napoleon's proclamation on the eve of Austerlitz, and Schönhals's narrative of 17-18 November and table of contents, none of them cited) and found no other figure for side A's force. A return of the 4th and 5th corps and the cavalry reserve for mid-November could close it.",
+    "Disputes recorded in the claims: side A's strength (Bodart 30,000; Victoires twenty-two thousand attacking; Schönhals none); side B's composition and strength (Bodart 5,500 infantry and 1,500 cavalry, Russians and Austrians, 7,000 by our arithmetic; Victoires six thousand Russians, the Austrians having been allowed to separate before the engagement, OCR; Schönhals 6000 Russians, with the Hessen-Homburg hussars of Nostitz's brigade in the fight); the deceptions before the engagement (Victoires, OCR: an Austrian request to separate that Murat granted; Schönhals: Murat's deceit of Nostitz, answered by Bagration's and Kutusow's ruse); side B's prisoners (Bodart 1,800; Victoires eighteen hundred and three hundred more in the pursuit); side A's loss (Bodart about 2,000; Schönhals considerable, above all the French; Victoires names wounded generals and officers, no number). The accounts agree on the date, the hour, Murat's command, the divisions engaged, the burning village and the end of the fight at eleven at night.",
+    "Families and dependence: Bodart (a compilation; his 1,800 prisoners and 12 guns equal Victoires's figures, and his 30,000 for side A and his infantry and cavalry for side B are not in the passages read); Victoires et conquêtes, t. XV (the French compilation of 1819; in this section it cites the official bulletin by name, OCR, and how far its narrative depends on the bulletins was not checked); Schönhals (the Austrian account written in 1831 and printed in 1873, which by its preface draws what it says of the French army's operations from that army's bulletins, not inspected, so the two may share the bulletins for side A; on side B and the deceptions they differ)."
+  ]
+}
+```
+
 
 ### B369b: TREFFEN und KAPITULATION bei Castelfranco (24./11. 1805)
 
@@ -22024,6 +23055,1823 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B369c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's battle of Austerlitz (2 December 1805) in cohort v1's third-coalition 1805 group: the allied attack on the French right at Telnitz and Sokolnitz, the French attack on the Pratzen heights that broke the allied centre, Bagration's and Liechtenstein's fight against the French left, and the allied retreat that night to Hodiegitz. The allied advance from Olmütz from 27 November is context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) under Napoleon I 97 battalions and 50,000 infantry, 121 squadrons and 15,000 cavalry and 282 guns, a total strength of 65,000, and side B (Russians and Austrians) under General Kutusow 114 battalions and 67,000 infantry, 148 squadrons and 16,000 cavalry and 300 guns, a total strength of 83,000, of which, by his footnote, 21 battalions and 28 squadrons, 16,000 men, were Austrians. By his stated rule his strengths are the forces available for the battle, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed table, read from the page image in the frame transcription; one claim among several. For side B, Schönhals's order of battle of the allied army at Austerlitz sums to 114 battalions, 10 companies, 170¾ squadrons, 82575 men and 16565 horses (claim schoenhals-side-b): Bodart's 114 battalions are the table's, his 83,000 is its 82575 rounded up to the thousand, and 82575 less the 16565 horses leaves 66010, which rounded up is his 67,000 infantry (our arithmetic); but his 148 squadrons and 16,000 cavalry are not the table's 170¾ squadrons and 16565 horses, the table gives no guns, and the passages read do not show how he reckoned. Victoires et conquêtes gives an effective of eighty-two thousand and forty men, about eighteen thousand of them Austrians, on the march of 27 November, and nearly a hundred thousand allies against sixty to seventy thousand French in line (claim victoires-side-b). For side A, his 65,000 is the strength the French themselves give, by Schönhals's account, and Dumas's figure for the whole French army as Schönhals reports it (claim schoenhals-side-a), and lies within Victoires's sixty to seventy thousand French troops in line (claim victoires-side-a); his battalions, squadrons and guns for side A are in none of the passages read. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the table: '1805 2/12. battle at Austerlitz (1.)'; 'French | Russians and Austrians'; 'Napoleon I | Gen. Kutusow'; '97 battalions 50,000 | infantry | 67,000 battalions 114'; '121 squadrons 15,000 | cavalry | 16,000 squadrons 148'; '282 guns 65,000 | total strength | 83,000 [1] guns 300'; '[1] of which 21 battalions, 28 squadrons = 16,000 Austrians'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1805 2./12. SCHLACHT bei Austerlitz (1.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Franzosen | Russen und Österreicher"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Napoleon I. | Gen. Kutusow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "97 Btln. 50.000 | Infanterie | 67.000 Btln. 114"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "121 Esk. 15.000 | Kavallerie | 16.000 Esk. 148"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "282 Gesch. 65.000 | Gesamt-Stärke | 83.000 [1] Gesch. 300"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "[1] hiev. 21 Btln., 28 Esk. = 16.000 Österreicher."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account in Victoires et conquêtes: the total force of the French troops in line hardly rose above sixty to seventy thousand men, against nearly a hundred thousand allies. Napoleon had sent orderly officers in all haste to bring the corps of Bernadotte and Davoust up into line (OCR). On the eve of the battle it places Lannes's divisions Suchet and Caffarelli on the left, Bernadotte's corps, then only the divisions Rivaud and Drouet, in the centre behind the village of Jirzokowith, Murat's cavalry corps to the left of and a little behind Bernadotte, Soult's divisions Legrand, Vandamme and Saint-Hilaire on the right, and near Turas a reserve of ten battalions of the imperial guard and ten battalions of Oudinot's grenadiers with forty guns in the intervals. Of Davoust's corps, Friant's division and a dragoon division were sent to the convent of Reygern, and Gudin's division was to come from Nikolsburg to contain Meerveldt (OCR). Twenty thousand of the army's soldiers did not burn a cartridge; the reserve did not fire a shot during the battle, and the guard on foot and Oudinot's grenadiers asked in vain to be engaged (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's compilation, read from the page images (pp. 238-239 and 267) except the call to Bernadotte and Davoust (p. 230), the beginning of the sentence on Bernadotte's corps and the detachments to Reygern and against Meerveldt (p. 237) and the reserve's idleness (pp. 247 and 270), all OCR. The sixty to seventy thousand are the troops in line; Victoires gives no figure for the whole army, and the passages read do not say whether the detachments are counted in them. Napoleon called up and placed his corps, so the claim is tagged commander_created. English renderings (ours): 'the total force of the French troops in line hardly rose beyond sixty to seventy thousand men; the allies had nearly a hundred thousand' (p. 239); 'meanwhile the corps of Marshals Bernadotte and Davoust, to which the Emperor Napoleon had sent orderly officers in all haste, were advancing to come into line' (p. 230, OCR); 'the divisions Suchet and Caffarelli, of Marshal Lannes's corps, formed the left of the army and touched Murat's cavalry'; 'the corps of Marshal Bernadotte, forming the centre and composed on-' (p. 237, OCR) '-ly then of the divisions Rivaud and Drouet, was placed behind the village of Jirzokowith, which was itself strongly occupied' (p. 238); 'Murat's cavalry corps was to the left of and a little behind Bernadotte's troops'; 'Marshal Soult commanded the right wing, composed of the division Legrand, which formed its extremity and was in position between the villages of Sokolnitz and Telnitz; of the division Vandamme, which held the left, and of the division Saint-Hilaire, forming the centre and placed to the left of Kobelnitz'; 'the army's reserve, composed of ten battalions of the imperial guard and ten battalions of General Oudinot's grenadiers, was near Turas, between that village and Schlapanitz'; 'this reserve was drawn up in two lines, in columns, by battalion at deploying distance, having in the intervals forty pieces of' (p. 238) 'cannon. It was with it that Napoleon planned to throw himself wherever he believed his presence urgent' (p. 239); 'the Emperor had a division of this corps (that of General Friant) and another of dragoons sent to the convent of Reygern, to observe and contain the enemy's left there, in case it advanced by the Auspitz road' (p. 237, OCR); 'the division Gudin was to move from Nikolsburg, where it had arrived coming from Presburg, onto the right of the French line, to contain General Meerveldt' (p. 237, OCR); 'the loss of the French army, of which twenty thousand soldiers had not burnt a cartridge' (p. 267), as in claim side-a-losses-reported; 'this reserve did not fire a musket shot during the battle' (p. 247, OCR); 'in the course of the day the imperial guard on foot and Oudinot's grenadiers showed their impatience at not being engaged with the enemy, and asked to be sent in: \"Rejoice at doing nothing\", the emperor answered, \"I am keeping you in reserve; so much the better if you are not needed today.\"' (p. 270, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "La force totale des troupes françaises en ligne, ne s'élevait guère au-delà de soixante à soixante-dix mille hommes; les alliés en avaient près de cent mille."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 230 (OCR running heads; not checked against print)",
+          "quote": "Pendant ce temps, les corps des maréchaux Bernadotte et Davoust, vers lesquels l’empereur Napoléon avait envoyé en toute hâte des officiers d’ordonnance , s’avançaient pour se mettre en ligne;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Les divisions Suchet et Caffarelli, du corps du maréchal Lannes, formaient la gauche de l'armée, et touchaient la cavalerie de Murat;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 237 (OCR running heads; not checked against print)",
+          "quote": "le corps du maréchal Bernadotte, formant le centre et composé scule-"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "ment alors des divisions Rivaud et Drouet, était placé derrière le village de Jirzokowith, qui était lui-même fortement occupé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Le corps de cavalerie de Murat était à la gauche et un peu en arrière des troupes de Bernadotte."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Le maréchal Soult commandait l'aile droite, composée de la division Legrand, qui en formait l'extrémité, et était en position entre les villages de Sokolnitz et de Telnitz; de la division Vandamme, qui tenait la gauche, et de la division Saint-Hilaire, formant le centre, et placée à gauche de Kobelnitz;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "la réserve de l'armée, composée de dix bataillons de la garde impériale, et de dix bataillons de grenadiers du général Oudinot, était près de Turas, entre ce village et Schlapanitz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Cette réserve était disposée sur deux lignes, en colonnes, par bataillon à distance de déploiement, ayant dans les intervalles quarante pièces de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "canon. C'était avec elle que Napoléon avait le projet de se précipiter partout où il croirait sa présence urgente."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 237 (OCR running heads; not checked against print)",
+          "quote": "L’empereur fit diriger une division de ce corps (celle du général Friant) et une autre de dragons au couvent de Reygern, pour y ob- server et contenir la gauche de l’ennemi, dans le cas où celle-ci s’avancerait par la route d’Auspitz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 237 (OCR running heads; not checked against print)",
+          "quote": "La division Gudin dût se porter de Nikolsburg, où elle était arrivée en venant dePresburg, sur la droite delà ligne française, pour contenir le général Meerveldt,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p267-figures-v1",
+          "section": "p267",
+          "locator": "Victoires et conquêtes, t. XV, p. 267 (transcribed from the page image)",
+          "quote": "La perte de l'armée française, dont vingt mille soldats n'avaient pas brûlé une cartouche, fut évaluée dans le temps, d'après le rapport des différens corps, à deux mille morts et à quatre ou cinq mille blessés."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 247 (OCR running heads; not checked against print)",
+          "quote": "Cette réserve ne tira pas un coup de fusil pendant la bataille."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 270 (OCR running heads; not checked against print)",
+          "quote": "Dans le courant de la journée, la garde impériale a pied et les grenadiers d’Oudinot témoignaient leur impatience de n’être point engagés avec l’ennemi , et demandaient qu’on les fit donner : « Réjouissez -vous de ne rien faire, répondit l’empereur, je vous garde en réserve; tant mieux si l’on n’a pas besoin de vous aujourd’hui. »"
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Schönhals, the Austrian account: the strength of the French is not known; they themselves give it as 65.000 men, and Dumas gives the whole French army as 65.000 combatants. It is thought, Schönhals says, that the allies were somewhat stronger than the French, but the superiority cannot have been significant. Neither the French Guard infantry nor Oudinot's grenadier division had been in action. Behind Schlappanitz the Guards under Bessières and grenadier battalions under Oudinot, with guns, stood in reserve under Marshal Duroc, and Davoust with Friant's division and the dragoons under 'Pourcier' (so the OCR) was detached to observe the convent of Raigern, with Gudin's division toward Nikolsburg to hold Merveldt's corps in check (OCR). At the Kobelnitz pond a brigade of Oudinot's division stood in the way of beaten allied columns (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page images (pp. 156 and 169) except the reserve and the detachments (p. 158) and the brigade at the Kobelnitz pond (p. 167), OCR. By its preface Schönhals draws what it says of the French army's operations from that army's bulletins, and here it cites Dumas. Its p. 169 says neither the Guard infantry nor Oudinot's grenadier division had been in action, while its p. 167 (OCR) has a brigade of Oudinot's division bar the way of beaten columns at the Kobelnitz pond; the passages read do not reconcile the two. The reserve and the detachments were Napoleon's dispositions, so the claim is tagged commander_created. English renderings (ours): 'the strength of the French is not known; they themselves give it as 65.000 men'; 'it is, however, the opinion that the allies were somewhat stronger than the French'; 'in no case, however, could this superiority be significant' (p. 156); 'Dumas says 800 dead, 6000 wounded, in which he gives the whole strength of the French army as 65.000 combatants'; 'neither the French Guard infantry nor the grenadier division Oudinot had been in action' (p. 169); 'north-west on the height behind Schlappanitz stood as reserve the Guards under Bessières, ... (OCR) grenadier battalions under Oudinot with ... (OCR) guns, the whole commanded by Marshal Duroc' (p. 158, OCR); 'to observe the point of the convent of Raigern on the Schwarzawa, Davoust with the division Friant and the dragoons under Pourcier, and toward Nikolsburg the division Gudin, were detached, to hold Merveldt's corps in check' (p. 158, OCR); 'the remnants of the ... (OCR) and almost the whole ... (OCR) were pressed against the Kobelnitz pond and tried to save themselves over its ice cover, but here a brigade of Oudinot's division stood in their way' (p. 167, OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Die Stärke der Franzosen ist nicht bekannt; sie selbst geben sie auf 65.000 Mann an."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Dumas sagt 800 Todte, 6000 Verwundete, wobei er die ganze Stärke der französischen Armee auf 65.000 Streiter angibt."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Man ist indessen der Meinung, dass die Verbündeten etwas stärker waren als die Franzosen."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Auf keinen Fall aber konnte diese Überlegenheit bedeutend sein."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Weder die französische Garde-Infanterie noch die Grenadier-Division Oudinot waren im Gefechte gewesen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "nordwestlich auf der Hebe hinter Scblappanitz standen als Rückhalt die Garden unter Bes- si^es, 10 Grenadier-Bataillone unter Ondinot mit 40 Kanonen, das Ganze befehligt von Marschati Duroc."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Zur Beobachtung des Punktes Kloster Raigem an der Sehwarzawa war Davoust mit der Division Friant und den Dragonern unter Pourcier, und gegen Nikolsburg die Division Gudin entsendet, um Merveldt'a Corps in Achtung zu erhalten."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 167 (OCR page breaks; not checked against print)",
+          "quote": "Die Überreste der zweiten und fast die ganze dritte wurden gegen den Teich von Kobelnitz gedrückt und versuchten, sich über dessen Eisdecke zu retten, aber hier stellte sich ihnen eine Brigade von Oudinots Division entgegen."
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-b",
+      "dimension": "strength",
+      "value": "Side B in Victoires et conquêtes: the Grand Duke Constantine arrived at Olmutz on 25 November with nine thousand men of the Russian imperial guard, which brought the combined army to more than eighty thousand men, and another reinforcement of ten thousand men under General Essen was only a few marches away. On the march of 27 November it gives the guard, the reserve under Constantine, as ten battalions, eighteen squadrons and four companies of artillery, eight thousand five hundred men in all, and all the columns, with the advance guard, the Russian reserve and Kienmayer's cavalry reserve, as an effective of eighty-two thousand and forty men, about eighteen thousand of them Austrians. For the eve of the battle it gives the allies nearly a hundred thousand, and Napoleon's proclamation of 3 December speaks of an army of a hundred thousand men. The centre, Kollowrath's column, was made up of rather weak battalions, its Russian regiments those that had retreated from Braunau and fought at Diernstein, and its Austrian battalions nearly all new levies (OCR).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's compilation on side B, read from the page images (pp. 226-227, 239 and 268) except Kollowrath's column (p. 249, OCR). Victoires's figures differ among themselves: nine thousand (p. 226) and eight thousand five hundred (p. 227) for the guard; more than eighty thousand on 25 November and eighty-two thousand and forty on the march of the 27th, against nearly a hundred thousand on p. 239 and the hundred thousand of Napoleon's proclamation, an address to his army, not a return. Its about eighteen thousand Austrians compare with Bodart's 16,000 (claim bodart-strength). In Schönhals, Essen was still awaited and stood at Kremsier on the day of the battle without taking part (claim decision-to-attack, OCR). The army was the force the allied sovereigns had assembled under Kutusow, so for the battle the claim is tagged inherited. English renderings (ours): 'the Grand Duke Constantine arrived at Olmutz on 25 November with nine thousand men of the Russian imperial guard, which brought the total of the combined army to more than eighty thousand men'; 'another reinforcement of ten thousand men was still awaited, led by General Essen, which was now only a few marches from the town we have just named'; 'on 27 November at eight in the morning the combined army set out in five columns to draw near its advance guard, commanded by Prince Bagration, which made no movement that day so as not to reveal this manoeuvre to the French' (p. 226); 'this corps was, as we have said, composed of troops of the Russian imperial guard, ten battalions, eighteen squadrons and four companies of artillery in number, and eight thousand five hundred men in all'; 'all these columns together, adding the advance guard, the Russian reserve and General Kienmayer's cavalry reserve, presented an effective of eighty-two thousand and forty men, of whom about eighteen thousand Austrians' (p. 227); as in claim victoires-side-a for p. 239; 'Napoleon, wishing to show the army as a whole his high satisfaction with the proofs of its devotion it had just given, put in orders on 3 December the following proclamation:'; 'an army of a hundred thousand men, commanded by the emperors of Russia and Austria, has been cut off or dispersed in less than four hours; what escaped your fire drowned in the two lakes' (p. 268); 'this centre, formed by the ... (OCR) column, which General Kollowrath commanded, abandoned by the ... (OCR) column, so bent on taking Kobelnitz, and by the whole left, was composed of ... (OCR) rather weak battalions' (p. 249, OCR); 'the Russian regiments that had made the retreat from Braunau, and that had fought so disastrously at Diernstein, were part of it, and each of them counted no more than ... (OCR) men; the ... (OCR) Austrian battalions were nearly all new levies, organised ... (OCR) weeks before' (p. 249, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "le grand-duc Constantin arrivait à Olmutz, le 25 novembre, avec neuf mille hommes de la garde impériale russe, ce qui portait le total de l'armée combinée à plus de quatre-vingt mille hommes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "On attendait encore un autre renfort de dix mille hommes, conduit par le général Essen, et qui n'était plus qu'à quelques marches de la ville que nous venons de nommer;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "Le 27 novembre à huit heures du matin, l'armée combinée se mit en marche sur cinq colonnes pour se rapprocher de son avant-garde, commandée par le prince Bagration, qui, ce jour-là, ne fit aucun mouvement pour ne pas découvrir cette manœuvre aux Français."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p227-figures-v1",
+          "section": "p227",
+          "locator": "Victoires et conquêtes, t. XV, p. 227 (transcribed from the page image)",
+          "quote": "ce corps était, comme nous l'avons dit, composé de troupes de la garde impériale russe, au nombre de dix bataillons, dix-huit escadrons et quatre compagnies d'artillerie, et au total de huit mille cinq cents hommes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p227-figures-v1",
+          "section": "p227",
+          "locator": "Victoires et conquêtes, t. XV, p. 227 (transcribed from the page image)",
+          "quote": "Toutes ces colonnes réunies, et en y ajoutant l'avant-garde, la réserve russe, et celle de cavalerie du général Kienmayer, présentaient un effectif de quatre-vingt-deux mille quarante hommes, dont dix-huit mille Autrichiens environ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "La force totale des troupes françaises en ligne, ne s'élevait guère au-delà de soixante à soixante-dix mille hommes; les alliés en avaient près de cent mille."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "Napoléon, voulant témoigner à l'armée en masse sa haute satisfaction pour les preuves qu'elle venait de donner de son dévouement, mit à l'ordre, le 3 décembre, la proclamation suivante:"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "une armée de cent mille hommes, commandée par les empereurs de Russie et d'Autriche, a été, en moins de quatre heures, ou coupée, ou dispersée; ce qui a échappé à votre feu s'est noyé dans les deux lacs."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 249 (OCR running heads; not checked against print)",
+          "quote": "Ce centre, formé par la quatrième colonne, que comman- dait le général Kollowrath, abandonné de la troisième co- lonne, si acharnée à la prise de Kobelnitz, et de toute la gauche, était composé de vingt-sept bataillons assez faibles."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 249 (OCR running heads; not checked against print)",
+          "quote": "Les régimens russes qui avaient fait la retraite de Braunau, et qui avaient combattu si désastreusement à Diernstein ,'en faisaient partie, et chacun d’eux ne comptait pas plus de quatre centshommes; les quinzebataiilons autrichiens étaient , presque tous de nouvelle levée et organisés depuis cinq se- maines."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-b",
+      "dimension": "strength",
+      "value": "Side B in Schönhals, its own account: on the 25th the Russian Guards under the Grand Duke Constantine, 10 battalions, 18 squadrons, 10.000 men and 6000 horses, joined the allied army in the position at Olschan, which then made a force of nearly 89.000 men and 20.000 horses. Its order of battle of the allied army in the battle of Austerlitz, printed after the narrative, sums to 114 battalions, 10 companies, 170¾ squadrons, 82575 men and 16565 horses, in Kienmayer's advance guard, five columns, Bagration's corps and the Russian Guards; three companies of line and a squadron of horse artillery followed and reached the army only after the battle had been decided. Its narrative names each column's commander and gives its battalions and squadrons (OCR).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images (pp. 148, 156 and 177-178) except the narrative's list of the columns (pp. 158-159, OCR). The order of battle is the column division to which Schönhals's p. 156 refers for the allies' number of horse; the passages read do not say what it was compiled from. Its figures differ from p. 148's: the Guards' row gives 10 battalions, 1 company, 17 squadrons, 9380 men and 2900 horses against 10 battalions, 18 squadrons, 10.000 men and 6000 horses, and the army 82575 men and 16565 horses against nearly 89.000 men and 20.000 horses a week before the battle. In the table the 3rd column's rows sum to 16 battalions (p. 177) where the recapitulation gives it 18 (p. 178), and at the scan's resolution the print's 3 and 8 are hard to tell apart, so the men of single rows (9380 or 9330 for the Guards) are less certain than the printed sums, which the rows as read match. The narrative's list, as read in the OCR, gives every column the recapitulation's battalions, the 3rd column's 18 among them, and the recapitulation's squadrons to all but the advance guard, whose figure the OCR garbles, 17 for the Guards among them, against 18 on p. 148; it differs in the companies of two columns and gives none for the advance guard and the Guards. The table gives no guns and does not separate the Austrian troops; the enclosure that p. 156 says gives the strength of the Austrian troops and of Merveldt's corps was not inspected. The army was the force the allied sovereigns had assembled under Kutusow, so for the battle the claim is tagged inherited. English renderings (ours): 'on the 25th the imperial Russian Guards under Grand Duke Constantine, 10 battalions, 18 squadrons, 10.000 men and 6000 horses strong, joined the allied army in the position at Olschan, which now formed a force of nearly 89.000 men and 20.000 horses' (p. 148); 'the number of horse of the allies is shown by the enclosed column division'; 'the enclosure, though without date, yet from one of these days, gives the strength of the Austrian troops and of Merveldt's corps' (p. 156); 'order of battle' 'of the allied army in the battle of Austerlitz and strength of the columns'; 'sum . | 16 | 1 | 5 | 8570 | 500', the 3rd column's sum (p. 177); 'recapitulation.'; 'advance guard of FML Baron Kienmayer | 5 | 2 | 32¾ | 6340 | 2940'; '1st column | 22 | - | - | 12730 | -'; '2nd column | 17 | 1 | - | 10840 | -'; '3rd column | 18 | 1 | 5 | 8570 | 500'; '4th column | 27 | 5 | 2 | 16115 | 125'; '5th column | - | - | 69 | 5600 | 5600'; 'corps of Prince Bagration | 15 | - | 45 | 13000 | 4500'; 'imperial Russian Guards | 10 | 1 | 17 | 9380 | 2900'; 'sum . | 114 | 10 | 170¾ | 82575 | 16565', the figure columns being battalions, companies, squadrons, men and horses; 'note. Three companies of line and one squadron of horse artillery followed afterwards, and reached the army only after the battle had been decided' (p. 178); 'the advance guard of the left wing, ... (OCR) battalions, ... (OCR) squadrons, stood under the command of FML Kienmayer' (p. 158, OCR); 'the ... (OCR) column, ... (OCR) battalions, GL Doktorow commanded; the ... (OCR), ... (OCR) battalions, ... (OCR) companies, GL Count Langeron; the ... (OCR), ... (OCR) battalions, ... (OCR) company, ... (OCR) squadrons, GL Przibiszewsky; the ... (OCR), ... (OCR) battalions, ... (OCR) companies, ... (OCR) squadrons, FML Count Kollowrat;' (p. 158, OCR); '[the ... (OCR)] column, or the cavalry, stood under the command of General Prince Liechtenstein and was ... (OCR) squadrons strong' (p. 159, OCR); 'the corps on the right wing, the former advance guard, ... (OCR) battalions, ... (OCR) squadrons, was commanded by GL Prince Bagration' (p. 159, OCR); 'the imperial Guards as reserve under Grand Duke Constantine counted ... (OCR) battalions, ... (OCR) squadrons' (p. 159, OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Am 25. vereinigten sich die kaiserlich russischen Garden unter Grossfürst Constantin, 10 Bataillone, 18 Escadronen, 10.000 Mann und 6000 Pferde stark, in der Stellung bei Olschan mit dem verbündeten Heere, das nun eine Streitkraft von beinahe 89.000 Mann und 20.000 Pferden bildete."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Die Reiterzahl der Verbündeten zeigt die beiliegende Colonnen-Eintheilung."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Die Beilage, obwohl ohne Datum, doch von einem dieser Tage, gibt die Stärke des österreichischen Truppen- und von Merveldt's Corps an."
+        },
+        {
+          "source_id": "schoenhals-1873-p177-figures-v1",
+          "section": "p177",
+          "locator": "Schönhals (1873), p. 177 (transcribed from the page image)",
+          "quote": "Ordre de Bataille"
+        },
+        {
+          "source_id": "schoenhals-1873-p177-figures-v1",
+          "section": "p177",
+          "locator": "Schönhals (1873), p. 177 (transcribed from the page image)",
+          "quote": "des verbündeten Heeres in der Schlacht von Austerlitz und Stärke der Colonnen."
+        },
+        {
+          "source_id": "schoenhals-1873-p177-figures-v1",
+          "section": "p177",
+          "locator": "Schönhals (1873), p. 177 (transcribed from the page image)",
+          "quote": "Summa . | 16 | 1 | 5 | 8570 | 500"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Recapitulation."
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Avantgarde des FML. Baron Kienmayer | 5 | 2 | 32¾ | 6340 | 2940"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "1. Colonne | 22 | — | — | 12730 | —"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "2. Colonne | 17 | 1 | — | 10840 | —"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "3. Colonne | 18 | 1 | 5 | 8570 | 500"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "4. Colonne | 27 | 5 | 2 | 16115 | 125"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "5. Colonne | — | — | 69 | 5600 | 5600"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Corps des Fürst n Bagration | 15 | — | 45 | 13000 | 4500"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Kaiserl. russ. Garden | 10 | 1 | 17 | 9380 | 2900"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Summa . | 114 | 10 | 170¾ | 82575 | 16565"
+        },
+        {
+          "source_id": "schoenhals-1873-p178-figures-v1",
+          "section": "p178",
+          "locator": "Schönhals (1873), p. 178 (transcribed from the page image)",
+          "quote": "Anmerkung. Drei Compagnien Linien und eine Escadron reitender Artillerie folgten noch nach, und trafen erst nach entschiedener Schlacht bei der Armee ein."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Die Vorhut des linken Flügels, 5 Bataillone, 34'/, Schwa- dronen, stand unter dem Befehle des FML. Kiemnayer."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Die erste Co- lonne, 22 Bataillone, befehligte GL. Doktorow; die zweite, 17 Batail- lone, 2 Compagnien, GL. Graf Langeron; die dritte, 18 Bataillone, 1 Compagnie, 5 Eacadronen, GL. Przibiszewsky ; die vierte, 27 Batail- lone, 6 Compagnien, 2 Escadrouen, FML. Graf Kollowrat;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Colonne oder die Reiterei stand tmtar dem BefeUe des Öenerala Fürsten Liechtenstein und war 69 Escadronen stark."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Das Corps am reckten Flügel, die frühere Vorhut, 15 Bataillone, 45 Escadronen, commiindirte der GL. Fürst Bagration."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Die kaiserlichea Garden als Rückhalt unter dem Grossfllrst Constantin zäUten 10 Bataillone, 17 Escadronen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Napoleon I as side A's commander and General Kutusow as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. In both other accounts Napoleon commands side A in person (claim side-a-command). For side B, Victoires has Kutusow base the disposition of the battle on his suppositions, and both accounts put him at the head of the column of the centre with the Emperor Alexander (OCR); Schönhals has the plan of operations approved by both monarchs (OCR), and Napoleon's proclamation calls the allied army an army commanded by the emperors of Russia and Austria (claim side-b-command). English rendering (ours): 'French | Russians and Austrians'; 'Napoleon I | Gen. Kutusow'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Franzosen | Russen und Österreicher"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Napoleon I. | Gen. Kutusow"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Napoleon commanded side A in person. Victoires: he placed his corps on the eve of the battle (claim victoires-side-a) and meant to throw himself with the reserve wherever he judged his presence urgent; on the morning of the battle Marshal Soult advanced Saint-Hilaire's division to attack the heights and village of Pratzen (OCR), Napoleon having already sent part of his massed troops against the allied centre to cut off the columns advancing to envelop him (OCR); he later brought the grenadier battalions of his reserve forward behind Saint-Hilaire's and Vandamme's divisions and went down himself with the guard's light artillery toward the chapel of Saint-Antoine (OCR), and he had sent the guard cavalry under Marshal Bessières forward to support Bernadotte's attack (OCR). Schönhals: when the fog lifted and let Napoleon survey the state of things he gave the order to attack (OCR); Marshal Soult led the attack on the Pratze height under Napoleon's command (OCR); Napoleon ordered Vandamme's division to turn right and take the heights and village of Augezd to cut off the retreat of allied columns (OCR), sent the cavalry of the Guards under Bessières to support that part of the line (OCR), and came himself from the Pratze height with his Guard cavalry and artillery to the chapel of St. Anton above Augezd (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as both accounts give them, read from the page image for the reserve (p. 239) and otherwise from the OCR (Victoires pp. 247, 256 and 263; Schönhals pp. 160-162, 164 and 167). The accounts agree that Soult led the attack on the Pratzen heights under Napoleon and that Napoleon came down with his guard toward the chapel above Augezd. Napoleon's dispositions and orders are commander decisions, so the claim is tagged commander_created. English renderings (ours): Victoires, 'cannon. It was with it that Napoleon planned to throw himself wherever he believed his presence urgent' (p. 239); 'Marshal Soult had advanced the division Saint-Hilaire to attack the heights and the village of Pratzen' (p. 247, OCR); 'and he had already sent against this centre part of the masses he held together, so as to cut off the ... (OCR) columns that kept advancing imprudently to turn and envelop the French army in a position where it was not' (p. 247, OCR); 'the Emperor Napoleon had brought forward, following the divisions Saint-Hilaire and Vandamme and the brigade Levasseur, the ... (OCR) battalions of grenadiers of his reserve (the guard on foot and the division Oudinot), and he himself, with the light artillery of the guard, was descending toward the chapel of Saint-Antoine (that of which we have just spoken)' (p. 263, OCR); 'but it found itself suddenly in the presence of the cavalry of the French imperial guard, which the Emperor had brought forward to support Marshal Bernadotte's offensive movement, and which was led by Marshal Bessières' (p. 256, OCR); Schönhals, 'now the fog dispersed and let Napoleon survey the state of things' (p. 160, OCR); 'he gave the order to attack' (p. 161, OCR); 'Marshal Soult led the attack on this important point under Napoleon's supreme command' (p. 161, OCR); 'the division Vandamme, which had fought so bravely against Miloradowitsch, received from Napoleon the instruction to gain, with a change of direction to the right, the heights and the village of Augezd, so as to cut off the retreat of the ... (OCR) allied columns' (p. 162, OCR); 'when at this decisive moment the cavalry of the French Guards under Bessières, sent by Napoleon to support this part of the battle line, broke through the intervals of the infantry, threw itself on the Russian line and rode through it' (p. 164, OCR); 'Napoleon himself came from the Pratze height with his Guard cavalry and artillery to the St. Anton chapel above Augezd' (p. 167, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "canon. C'était avec elle que Napoléon avait le projet de se précipiter partout où il croirait sa présence urgente."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 247 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Soult avait fait avancer la division Saint-Hi- laire pour attaquer les hauteurs et le village de Pratzen,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 247 (OCR running heads; not checked against print)",
+          "quote": "et déjà il avait fait marcher contre ce centre une partie des masses qu’il tenait réunies , afin de couper ainsi les trois colonnes qui ne cessaient point de s’avancer imprudemment pour tourner et envelopper l’armée française dans une position où elle n’était pas."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 263 (OCR running heads; not checked against print)",
+          "quote": "l’eippereur Napoléon avait fait avancer à la suite des divisions Saint - Hilaire et Vandamme , et de la bri- gade Levasseur , les vingt bataillons de grenadiers de sa ré- serve ( la garde à pied et la division Oudinot ) , et lui- même , avec l’artillerie légère de la garde , descendait vers la chapelle Saint-Antoine ( celle dont nous venons de parler )."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 256 (OCR running heads; not checked against print)",
+          "quote": "mais elle se trouva tout a coup en présence de la cavalerie de la garde impériale française, que l’empereur avait fait avancer pour appuyer le mouvement offensif du maréchal Bernadotte , et qui était conduite par le maréchal Bessières."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 160 (OCR page breaks; not checked against print)",
+          "quote": "Jetzt zerstreute sich der Nebel und Hess Napoleon die Lage der Dinge überblicken."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "gab er den Befehl znm Angriff."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "Den Angriff gegen diesen wichtigen Punkt leitete Marschall Soult unter Napoleons Oberbefehl."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 162 (OCR page breaks; not checked against print)",
+          "quote": "Die Division Vandamme, die gegen Miloradowitsch Bo tapfer gekämpft hatte, bekam von Napoleon die Weisung, mit einer Directiona-Verändenrng -rechts die Hoben und das Dorf Augezd zu gewinnen, um den ersten zwei verbündeten Colonnen den Rückzug abzuschneiden;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 164 (OCR page breaks; not checked against print)",
+          "quote": "als in diesem entscheidenden Augenblicke die Reiterei der französischen Garden unter Bessi^es, von Napoleon zur Unterstützung dieses Theijs der Schlachtlinie entsendet, durch die Zwischenräume der Infanterie durchbrach, sich auf die russische Linie stürzte und sie durchritt."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 167 (OCR page breaks; not checked against print)",
+          "quote": "Napoleon Belb«t kam von der Pratzer Anhöhe mit seiner Garde-Reiterei und Artillerie bei der St. Antons-Kapelle ober Augezd an."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Kutusow, the Russian commander-in-chief, based the disposition of the battle on suppositions that his vague notions of the French position did not justify (Victoires), and the generals of the columns received their instructions for the attack toward one in the morning (Victoires) or most of them only toward morning (Schönhals). In Schönhals, General of Infantry Count Buxhövden commanded the left wing, marching with a column of it, the Russian commander-in-chief commanded the centre in person at the head of a column with the Emperor of Russia, and FML Prince Johann Liechtenstein and Prince Bagration the right wing, Bagration not being directly subordinate to Liechtenstein (OCR), and names Kienmayer for the advance guard of the left wing, Doktorow, Langeron, Przibiszewsky and Kollowrat for the columns of infantry, Liechtenstein for the column of cavalry and Bagration for the corps on the right wing (OCR); Victoires also has the Emperor Alexander accompany Kutusow at the head of the centre column (OCR). Surprised by the French attack, Kutusow felt he must keep Pratzen (Victoires) or secure the heights to the left of Pratze at any cost (Schönhals) (both OCR). In Victoires, Buxhoewden, directing the left-wing columns in chief, held too closely to the letter of his instructions, and Langeron and Przybyszewsky, commanding Russian columns, ignored what was happening at the column of the centre, without direct communication with it and against Kutusow's instructions (OCR); Bagration, who by his instructions was to occupy the santon position, attacked it without yet knowing its strength (OCR). In Schönhals, Bagration, inferring the left wing's success from the cannonade and tired of remaining a spectator, ordered a general advance of his corps (OCR). Napoleon's proclamation calls the allied army an army commanded by the emperors of Russia and Austria.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's command as both accounts give it, read from the page images (Victoires pp. 239 and 268; Schönhals p. 156) and otherwise from the OCR (Victoires pp. 246, 249-250, 258 and 259; Schönhals pp. 158-159, 161 and 165). Both accounts put the allied plan with Kutusow and its failure with the French surprise and the column commanders' rigidity; these are their judgments, not measured effects. Bagration's attack was his own decision in both accounts, and the disposition and its execution were the allied commanders' decisions, so the claim is tagged commander_created. English renderings (ours): Victoires, 'although the outposts of the two armies touched, the Russian commander-in-chief had on the position of the French only vague notions, which did not sufficiently justify the suppositions on which he had based the disposition of the battle'; 'toward one in the morning the generals of the various columns of the Austro-Russian army received their instructions for the attack on the French army' (p. 239); 'the Emperor Alexander, accompanying the commander-in-chief Kutusow, had arrived at the head of the ... (OCR) column at the moment when it was about to begin its movement' (p. 249, OCR); 'General Kutusow, surprised by this movement of the division Saint-Hilaire, and seeing himself attacked when he believed himself the attacker, felt at once how important it was to keep Pratzen' (p. 250, OCR); 'General Buxhoewden, who directed them in chief, too fixed on the letter of his instructions, did not even make in them the changes that the ground and the position of his adversaries should have shown him' (p. 259, OCR); 'Generals Langeron and Przybyszewky, commanding the ... (OCR) Russian columns, without troubling about what was happening at the ... (OCR), without direct communication with it, despite the instructions of the commander-in-chief Kutusow, without seeking to learn of the offensive movements of the French line' (p. 246, OCR); 'it was this same position that Prince Bagration was to occupy according to his instructions, and where he found himself forestalled by the effect of the French emperor's judicious dispositions' (p. 258, OCR); 'still unaware of the full strength of this position, Prince Bagration did not hesitate to attack it, in the hope of quickly making himself master of it; but he was soon disabused' (p. 258, OCR); as in claim victoires-side-b for the proclamation; Schönhals, 'most of the generals of the allied army received the disposition for the attack on the enemy only toward morning' (p. 156); 'the left wing of the allied army was commanded by the General of Infantry Count Buxhövden; he marched with the ... (OCR) column; the centre by the Russian commander-in-chief in person at the head of the ... (OCR) column; the right wing by FML Prince Johann Liechtenstein and Prince Bagration, for the latter was not directly subordinate to the former' (p. 158, OCR); as in claim schoenhals-side-b for the commanders of the columns; 'the ... (OCR) column, at whose head the Emperor of Russia and Kutusow were in person' (p. 161, OCR); 'Kutusow, surprised by the enemy's attacking movement, felt the necessity of securing possession of the heights to the left of Pratze, cost what it might' (p. 161, OCR); 'when Prince Bagration concluded from the thunder of the guns that the left wing of the allies was making fortunate progress' (p. 165, OCR); 'weary of remaining any longer a spectator of the supposed victory, he ordered a general advance of his corps' (p. 165, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Quoique les avant-postes deux armées se touchassent, le général en chef russe n'avait, sur la position des Français, que des notions vagues, qui ne justifiaient point assez les suppositions sur lesquelles il avait basé la disposition de la bataille."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Vers une heure du matin, les généraux des diverses colonnes de l'armée austro-russe reçurent leurs instructions pour l'attaque de l'armée française."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Die meisten Generäle des verbündeten Heeres empfiengen erst gegen Früh die Disposition zum Angriff des Feindes."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Den linken Flügel des verbündeten Heeres befehligte der Ge- neral der Infanterie Graf BuxhBvden; er marschirte mit der ersten Colonne; die Mitte der russische Oberfeldherr in Person an der Spitze der vierten Colonne; den rechten Flügel FML. Fürst Johann Liechten- stein und Fürst Bagration, denn dieser war jenem nicht unmittelbar untergeordnet."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Die Vorhut des linken Flügels, 5 Bataillone, 34'/, Schwa- dronen, stand unter dem Befehle des FML. Kiemnayer."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Die erste Co- lonne, 22 Bataillone, befehligte GL. Doktorow; die zweite, 17 Batail- lone, 2 Compagnien, GL. Graf Langeron; die dritte, 18 Bataillone, 1 Compagnie, 5 Eacadronen, GL. Przibiszewsky ; die vierte, 27 Batail- lone, 6 Compagnien, 2 Escadrouen, FML. Graf Kollowrat;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Colonne oder die Reiterei stand tmtar dem BefeUe des Öenerala Fürsten Liechtenstein und war 69 Escadronen stark."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Das Corps am reckten Flügel, die frühere Vorhut, 15 Bataillone, 45 Escadronen, commiindirte der GL. Fürst Bagration."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "Die vierte Colonne, an deren Spitze sich der Kaiser von Russ- land nnd Kutusow in Person befanden,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 249 (OCR running heads; not checked against print)",
+          "quote": "L’empereur Alexandre, accompagnant le général en chef Kutusow , était arrivé h la tète de la quatrième colonne au moment où elle allait commencer son mouvement ;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 250 (OCR running heads; not checked against print)",
+          "quote": "Le général Kutusow, surpris par ce mouvement de la di- vision Saint -Hilaire, et se voyant attaqué lorsqu’il croyait être lui-même attaquant , sentit aussitôt combien il était im- portant de conserver Pratzen,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "Kutusow, überrascht durch die Angriffsbewegung des Feindes, fühlte die Nothwendigkeitf sich den Besitz der Höhen .Unks von Fratze, and koste es woa es wolle, zu sichern."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 259 (OCR running heads; not checked against print)",
+          "quote": "le général Bux- hoewden , qui les dirigeait eu chef, trop fixé à la teneur de ses instructions , n’y faisait même pas les changemens que le terrain et la position de ses adversaires auraient dû lui indiquer,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 246 (OCR running heads; not checked against print)",
+          "quote": "Les généraux Langeron et Przybyszewky, commandant les deuxième et troisième colonnes russes, sans s’inquiéter de ce qui se passait à la quatrième, sans communication directe avec elle, malgré les instructions du général en chef Kutusow, sans chercher b avoir connaissance des mouvemens offensifs de la ligne française,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "C’était cette même position que, d’après ses instructions, le prince Bagration devait occuper , et où il se trouvait prévenu par l’effet des judicieuses dispositions de l’empereur français."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "Ignorant encore toute la force de cette position, le prince Bagration n’hésita point à l’attaquer, dans l’espoir de s’en rendre promptement maître ; mais il ne tarda pas a être dé- sabusé."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 165 (OCR page breaks; not checked against print)",
+          "quote": "als Ftirst Bagration aus dem Kanonendonner auf die glücklichen Fortschritte des linken Flügels der Verbündeten achlosa."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 165 (OCR page breaks; not checked against print)",
+          "quote": "Überdrüssig, länger ein Zuschauer des vermeintlichen Sieges zu bleiben, befahl er eine all- gemeine Vorrttckung seines Corps."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "une armée de cent mille hommes, commandée par les empereurs de Russie et d'Autriche, a été, en moins de quatre heures, ou coupée, ou dispersée; ce qui a échappé à votre feu s'est noyé dans les deux lacs."
+        }
+      ]
+    },
+    {
+      "id": "decision-to-attack",
+      "dimension": "responsibility",
+      "value": "The allies left Olmütz to attack. Victoires: a fatal lack of foresight and the speed of events left the combined troops without food in their position at Olmutz, forced requisitions carried out in disorder no longer yielded anything, and Kutusow thought he must hasten the offensive movement that had been resolved; the general opinion in the enemy army was that the French emperor would not dare risk a general battle before Brunn (OCR), and veteran Austrian generals objected in vain in the allied council (OCR). Schönhals: these considerations above all, the shortage of supply it has just described, and perhaps also self-confidence, brought about the decision to attack the enemy (OCR); whether the moment was well chosen, after the more favourable moment at Wischau had been left unused, it leaves to higher military science (OCR); in the position of Olschan, almost under the guns of Olmütz, the allied army had nothing to fear from an enemy attack, and its supply, though difficult, was certainly not impossible (OCR); Essen was expected daily and stood at Kremsier on the day of the battle without taking part, Archduke Charles was marching on Vienna, and if a decisive battle had been avoided Napoleon could not possibly have stayed in his position at Brünn (OCR); the decision for battle seemed taken from Napoleon's soul, and when the offensive was decided there was no correct news of the enemy's strength and position (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The decision as both accounts give and judge it, read from the page image for Victoires's p. 226 and otherwise from the OCR (Victoires pp. 230 and 232; Schönhals pp. 149-150). Schönhals's judgment that the allies should have waited is its own, not a measured effect. The decision was the allied commanders' and sovereigns', so the claim is tagged commander_created. English renderings (ours): Victoires, 'but a fatal lack of foresight and the extraordinary speed with which events had followed one another in this campaign were the cause that the combined troops lacked food in their position of Olmutz'; 'from the second day recourse had had to be made to forced requisitions, and this precarious means, carried out with disorder, already offered no more resources'; 'the commander-in-chief Kutusow thought he must hasten the offensive movement that had been resolved' (p. 226); 'indeed, the general opinion in the enemy army was that the French emperor would not dare risk the fate of a general battle before Brunn' (p. 230, OCR); 'some of the veteran chiefs of the Austrian army, of those old generals who had made war against the conqueror of Italy, represented in vain to the council of the allied army that it was not in such a' (p. 232, OCR); Schönhals, 'these considerations above all, perhaps also the self-confidence placed in their own forces, furthered the decision to attack the enemy' (p. 149, OCR); 'whether the moment in which this decision was taken was happily chosen, after the more favourable moment at Wischau had been left unused, is a question whose decision we leave to higher military science' (p. 149, OCR); 'in the position of Olschan, almost under the guns of Olmütz, the allied army had nothing to fear from an enemy attack; its supply might be difficult, but it was certainly not impossible' (p. 149, OCR); 'daily GL Essen was expected with ... (OCR) men; on the day of the battle of Austerlitz he stood at Kremsier, without being able to take part in this decisive fight' (p. 150, OCR); 'Archduke Charles was marching with ... (OCR) men by forced marches toward Vienna' (p. 150, OCR); 'if a decisive battle was avoided, Napoleon could not possibly remain in his position at Brünn' (p. 150, OCR); 'the decision for battle seemed taken from Napoleon's soul' (p. 150, OCR); 'when the decision was taken to assume the offensive, there was no correct news of the strength and position of the enemy's force' (p. 150, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "mais une funeste imprévoyance et la rapidité extraordinaire avec laquelle les événemens s'étaient succédés dans cette campagne, étaient cause que les troupes combinées manquaient de vivres dans leur position d'Olmutz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "Dès le second jour, on avait été obligé d'avoir recours à des réquisitions forcées, et ce moyen précaire, exécuté avec désordre, n'offrait déjà plus de ressources."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "Le général en chef Kutusow crut devoir précipiter le mouvement offensif qui avait été résolu."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 230 (OCR running heads; not checked against print)",
+          "quote": "En effet, l’opinion générale, dans l’armée ennemie , était que l’empereur français n’oserait point risquer le sort d’une bataille géq^ale devant Brunn ;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 232 (OCR running heads; not checked against print)",
+          "quote": "Quelques - uns des chefs vétérans de l’armée autri- chienne, de ces vieux généraux qui avaient fait la guerre contre le vainqueur de l’Italie, représentèrent vainement au conseil de l’armée alliée que ce n’était point dans une pareille"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Diese Betrachtungen vorzüglich, vielleicht auch das Selbstvertrauen, das man in seine Kräfte setzte, beibrderten den Entschluss, den Feind anzugreifen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Ob man den Moment, in dem man diesen Entschluss fasste, glücklich wählte, nachdem man den günstigeren bei Wischau unbenutzt gelassen, ist eine Frage, deren Entscheidung wir der höheren Kriegswissen- schaft überlassen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "In der Stellung von Olschan, fast unter den Kanonen von Olmütz, hatte das verbündete Heer Nichts von einem feindlichen Angriffe zu besorgen; seine Verpflegung mochte zwar schwierig sein, aber gewiss war sie nicht immöglich."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Täglicli erwartete man den QL. Essen mit 10.000 Mann; er stand am Tage der Schlacht von Austerlitz, ohne Theil an diesem entscheidenden Kampfe nehmen zu können, in Kremsier."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Der Erz- herzog Carl zog mit 80.000 Mann in Eilmärschen gegen Wien,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Wenn man einer entscheidenden Schlacht auswich, 8o konnte Napoleon nn- mSghch in seiner Stellung bei Brttnn stehen bleiben;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Der Ent- Bchluss zur Schlacht schien aus Napoleon's Seele gegriffen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Mau hatte, als man sich zur Ergreifung der Offensive entscMoss, keine riehtigea Nachrichten über die Stärke und Stellung der feind- lichen Streitkraft;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart places side A (French) under Napoleon I in the left column of his table, the winner's place by his stated rule, so he records a victory of side A over side B (Russians and Austrians) under General Kutusow on 2 December. In Victoires, General Dochtorow, protected by the cavalry, almost all Austrian, halted on the heights of Neudorf and tried to restore order among his battalions, still a mass of eight thousand men, and night alone saved these remnants of the allied left from the French pursuit; the Austrian cavalry formed the rearguard, unpursued by the French, who stayed on their side of the dike; the allies retreated through the night by Boschowitz, the two emperors withdrew behind Austerlitz to the position of Hodiegitz, and the victorious army crowned the position the beaten army had held the night before. In Schönhals, the French army stayed after its victory in the position the allied army had held the day before, the allied army withdrew in the night behind Austerlitz to the position of Hodiegitz, and the column of the allied left, still about 8000 men, gathered again only at Neudorf.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's table and rule, with the other accounts' ending, read from the page images. No source read gives a different result; both other accounts have the French army hold the ground the allies had held the day before and the allies retreat in the night behind Austerlitz to Hodiegitz, and both have the beaten column of the allied left gather again at Neudorf, eight thousand men in Victoires and about 8000 in Schönhals. English renderings (ours): Bodart, p. 46, 'the winner's place in the comparisons is always to be sought on the left side, the loser's on the right'; the table as in claim bodart-strength; Victoires, 'General Dochtorow, thus protected by the devotion of the cavalry, almost all Austrian, halted on the heights of Neudorf, where he strove to restore order in his battalions, which still formed a mass of eight thousand men'; 'it was half past four in the evening, and the night, which was beginning to spread its veils, alone could save these remnants of the enemy's left from the ardent pursuit of the French'; 'the Austrian cavalry formed the rearguard, without being followed by the French, who stayed on this side of the dike'; 'the retreat continued by Boschowitz: the Austro-Russians marched all night through an abundant and icy rain, which finished ruining the roads and bogging down what remained of the artillery'; 'the two emperors of Austria and Russia, after taking great pains to gather all that had escaped from the battlefield, withdrew behind Austerlitz into the position of Hodiegitz'; 'the victorious army crowned the position that the beaten army had occupied the night before' (p. 266); Schönhals, 'the French army stayed, after the victory won, in the position that the allied army had held the day before; the latter withdrew that same night behind Austerlitz into the position of Hodiegitz'; 'the column, still consisting of about 8000 men, gathered again only at Neudorf and continued its retreat toward Boschowitz, before which place it bivouacked' (p. 169).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1805 2./12. SCHLACHT bei Austerlitz (1.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Franzosen | Russen und Österreicher"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Napoleon I. | Gen. Kutusow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Der Platz des Siegers bei den Gegenüberstellungen ist stets auf der linken Seite, der des Besiegten rechts zu suchen."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "Le général Dochtorow, ainsi protégé par le dévouement de la cavalerie, presque toute autrichienne, s'arrêta sur les hauteurs de Neudorf, où il s'efforça de rétablir l'ordre dans ses bataillons, qui formaient encore une masse de huit mille hommes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "Il était quatre heures et demie du soir, et la nuit, qui commençait à étendre ses voiles, put seule sauver ces débris de la gauche ennemie de l'ardente poursuite des Français."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "La cavalerie autrichienne fit l'arrière-garde, sans être suivie par les Français, qui restèrent en deçà de la digue."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "La retraite se continua par Boschowitz: les Austro-Russes marchèrent toute la nuit par une pluie abondante et glaciale, qui acheva d'abîmer les chemins et d'embourber ce qui restait d'artillerie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "Les deux empereurs d'Autriche et de Russie, après s'être donné beaucoup de peine pour réunir tout ce qui s'était échappé du champ de bataille, se retirèrent derrière Austerlitz, dans la position de Hodiegitz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "L'armée victorieuse couronna la position qu'avait occupée l'armée vaincue dans la nuit précédente."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Das französische Heer blieb nach errungenem Siege in der Stellung stehen, die das verbündete Heer Tags vorher inne hatte; dieses zog sich noch in der Nacht hinter Austerlitz in die Stellung von Hodiegitz zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Die noch etwa aus 8000 Mann bestehende Colonne sammelte sich erst bei Neudorf wieder und setzte ihren Rückzug gegen Boschowitz fort, vor welchem Orte biwakirt wurde."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's (French) loss as 10,000 killed and wounded (14 generals, 80 staff officers and 514 officers), 15·3 per cent, with no prisoners, 10,000 in all (608 officers), and 1 eagle lost; and side B's (Russian and Austrian) as 16,000 killed and wounded (9 generals and 293 officers), 19·3 per cent, and 20,000 prisoners (9 generals and 820 officers), 24·1 per cent, 36,000 in all (1,131 officers), 43·4 per cent, of which, by his footnote, the Austrian loss was 6,000 men, 38 per cent, with 186 guns (62 per cent), 45 flags and 400 ammunition wagons lost. He records the French Brigadier-General Valhubert, the Russian Lieutenant-General Count Essen and the Austrian GM von Juerczik as killed.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. His percentages are of each side's strength: 16,000, 20,000 and 36,000 of 83,000 are 19.3, 24.1 and 43.4 per cent, 186 of 300 guns 62 per cent, and 6,000 of the 16,000 Austrians 37.5 per cent, printed 38, while 10,000 of 65,000 is 15.38 per cent, printed 15·3 (our arithmetic). The 608 officers are 14 + 80 + 514, and the 1,131 are 9 + 293 + 9 + 820, generals included (our arithmetic). Schönhals's 5922 Austrian dead, wounded and prisoners round up to his 6,000 (our arithmetic; claim side-b-losses-reported); his other losses are in none of the passages read, and his 45 flags equal Victoires's forty-five (claim side-a-losses-reported). His officer-loss table for the battle is not in the frame transcription. Of his fallen generals, Victoires has Valhubert die of his wounds (claim side-a-losses-reported); the passages read do not report Count Essen's or Juerczik's death. Victoires names a lieutenant-general Essen among the generals under Liechtenstein on the march of 27 November, and Schönhals has a GL Essen with a corps at Kremsier on the day of the battle (OCR); the passages read do not show whether either is Bodart's Count Essen. English renderings (ours): Bodart, '15.3% = 10,000 (14 gen., 80 staff, 514 officers) | killed and wounded | (9 gen., 293 officers) 16,000 = 19.3%'; '- | prisoners | (9 [gen.], 820 [officers]) 20,000 = 24.1%'; '15.3% = 10,000 (608 officers) | total loss | (1,131 officers) 36,000 [2] = 43.4%'; '1 eagle | loss in trophies: | 186 guns (= 62%), 45 flags, 400 ammunition wagons'; '† French Brig.-Gen. Valhubert | † Russian Lt.-Gen. Count Essen; † Austrian GM von Juerczik'; '[2] of which Austrian loss: 6,000 men (= 38%)'; Victoires, 'the fourth and fifth columns, composed largely of Austrian troops, were directed by Lieutenant-General Prince Lichstenstein, and commanded under him by Lieutenant-Generals Kollowrath, Essen, Prince Hohenlohe and Uwarow' (p. 227); Schönhals, as in claim decision-to-attack for Essen.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "15·3% = 10.000 (14 Gen. 80 Stb.-, 514 Offz.) | tot und verw. | (9 Gen. 293 Offz.) 16.000 = 19·3%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "— | gefangen | (9 „ 820 „ ) 20.000 = 24·1%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "15·3% = 10.000 (608 Offz.) | Ges.-Verl. | (1.131 Offz.) 36.000 [2] = 43·4%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1 Adler | Verl. an Trophäen: | 186 Kan. (= 62%), 45 Fahnen, 400 Munitionswägen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "† fz. Brig.-Gen. Valhubert | † russ. Gen.-Lt. Gf. Essen; † österr. GM. v. Juerczik."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "[2] wov. österr. Verl.: 6.000 M. (= 38%)."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p227-figures-v1",
+          "section": "p227",
+          "locator": "Victoires et conquêtes, t. XV, p. 227 (transcribed from the page image)",
+          "quote": "les quatrième et cinquième colonnes, composées en grande partie des troupes autrichiennes, étaient dirigées par le lieutenant-général prince de Lichstenstein, et commandées, sous ce dernier, par les lieutenans-généraux Kollowrath, Essen, prince de Hohenlohe et Uwarow"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Täglicli erwartete man den QL. Essen mit 10.000 Mann; er stand am Tage der Schlacht von Austerlitz, ohne Theil an diesem entscheidenden Kampfe nehmen zu können, in Kremsier."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts. Victoires: it was estimated at the time, from the reports of the various corps, at two thousand dead and four or five thousand wounded, twenty thousand of the army's soldiers not having burnt a cartridge; among the wounded were General Saint-Hilaire, the generals of division Kellerman and Walther and the generals of brigade Valhubert, Thiébault, Sébastiani, Compans and Rapp, and Colonels Morland and Mazas, Squadron Chief Chaloppin and several other staff officers were killed; Valhubert died of his wounds some days later, or, on a later page, after twenty-four hours; a single battalion was broken and its eagle taken by the enemy, a battalion of a line regiment that was surrounded and sabred (OCR). Schönhals: the French have seldom stated their losses faithfully; Dumas says 800 dead and 6000 wounded.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Victoires pp. 267 and 271; Schönhals p. 169) except the battalion that lost its eagle (Victoires p. 253, OCR). Victoires's figures were estimated at the time from the corps' reports; Schönhals gives Dumas's, not its own, and doubts French returns. Victoires's figures make 6,000 to 7,000 and Dumas's 6,800 (our arithmetic), against Bodart's 10,000 killed and wounded (claim bodart-losses). Victoires gives Valhubert's death two ways (pp. 267 and 271). English renderings (ours): Victoires, 'the loss of the French army, of which twenty thousand soldiers had not burnt a cartridge, was estimated at the time, from the report of the various corps, at two thousand dead and four or five thousand wounded'; 'among the latter were General Saint-Hilaire, who, struck at the beginning of the action, stayed on the battlefield and continued to command his division throughout the day; the generals of division Kellerman and Walther; the generals of brigade Valhubert, who died some days later of his wounds; Thiébault, Sébastiani, Compans and Rapp'; 'Colonels Morland and Mazas; Squadron Chief Chaloppin, aide-de-camp to Marshal Bernadotte, and several other staff officers had been killed' (p. 267); 'Valhubert survived his wounds by only twenty-four hours'; 'the Russians had lost forty-five flags and almost all the standards of their imperial guard; in the French army, a single battalion having been broken, its eagle was carried off by the enemy' (p. 271); 'a battalion of the ... (OCR) line regiment was surrounded, sabred, and lost its eagle' (p. 253, OCR); Schönhals, 'the French have seldom stated their losses faithfully' (p. 169); as in claim schoenhals-side-a for Dumas.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p267-figures-v1",
+          "section": "p267",
+          "locator": "Victoires et conquêtes, t. XV, p. 267 (transcribed from the page image)",
+          "quote": "La perte de l'armée française, dont vingt mille soldats n'avaient pas brûlé une cartouche, fut évaluée dans le temps, d'après le rapport des différens corps, à deux mille morts et à quatre ou cinq mille blessés."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p267-figures-v1",
+          "section": "p267",
+          "locator": "Victoires et conquêtes, t. XV, p. 267 (transcribed from the page image)",
+          "quote": "Parmi ces derniers, se trouvaient le général Saint-Hilaire, qui, frappé au commencement de l'action, demeura sur le champ de bataille, et continua de commander sa division pendant toute la journée; les généraux de division Kellerman et Walther; les généraux de brigade Valhubert, qui mourut, quelques jours après, des suites de ses blessures; Thiébault, Sébastiani, Compans et Rapp."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p267-figures-v1",
+          "section": "p267",
+          "locator": "Victoires et conquêtes, t. XV, p. 267 (transcribed from the page image)",
+          "quote": "Les colonels Morland et Mazas; le chef d'escadron Chaloppin, aide-de-camp du maréchal Bernadotte, et plusieurs autres officiers d'état-major avaient été tués."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p271-figures-v1",
+          "section": "p271",
+          "locator": "Victoires et conquêtes, t. XV, p. 271 (transcribed from the page image)",
+          "quote": "Valhubert ne survécut que vingt-quatre heures à ses blessures,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p271-figures-v1",
+          "section": "p271",
+          "locator": "Victoires et conquêtes, t. XV, p. 271 (transcribed from the page image)",
+          "quote": "Les Russes avaient perdu quarante-cinq drapeaux et presque tous les étendards de leur garde impériale; dans l'armée française, un seul bataillon ayant été rompu, son aigle fut enlevée par l'ennemi."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 253 (OCR running heads; not checked against print)",
+          "quote": "Un bataillon du qua- trième régiment de ligne fut entouré, sabré, et perdit son aigle."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Die Franzosen haben selten ihre Verluste mit Treue angegeben."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Dumas sagt 800 Todte, 6000 Verwundete, wobei er die ganze Stärke der französischen Armee auf 65.000 Streiter angibt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Victoires: the allies had more than forty thousand men out of action; eighteen thousand Russians and six hundred Austrians were killed by fire or drowned, the rest wounded or taken, among the prisoners fifteen generals and more than four hundred Russian officers of all ranks; the Russians lost forty-five flags and almost all the standards of their imperial guard. Napoleon's proclamation of 3 December claims forty flags, the standards of the Russian imperial guard, a hundred and twenty guns, twenty generals and more than thirty thousand prisoners, and says that what escaped the French fire drowned in the two lakes. Victoires's narrative has Przybyszewsky taken prisoner in the valley of Sokolnitz and the columns there lose all their artillery, a very great number of officers and soldiers drown where the ice of the pond broke, and an artillery park with its escort swallowed when the ice of the Augezd lake broke under it (OCR). Schönhals: only the Austrian corps' loss can be given exactly, 5922 dead, wounded and prisoners; the Russian army may have lost about 15.000 prisoners and 5000 to 6000 dead and wounded; the drowning of so many Russians in the ponds belongs among the French exaggerations, for though the ice broke here and there under the fugitives, the ponds were on the whole frozen very hard and the Russians drowned were certainly very few, and it cites the Tellnitz parish priest for their number (OCR). The remaining guns had to be left stuck in the muddy road; only Kienmayer's corps saved its guns.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Victoires pp. 266-268 and 271; Schönhals p. 169) except Victoires's sentences on Sokolnitz, the ice and the gun park (pp. 262 and 264) and Schönhals's sentence on the Tellnitz priest (p. 170), OCR; not combined. Schönhals's Russian figures make 20,000 to 21,000 and, with the Austrians, 25,922 to 26,922 (our arithmetic), against Victoires's more than forty thousand and Bodart's 36,000, of which 6,000 Austrians (claim bodart-losses). Victoires's six hundred Austrians are its Austrians killed or drowned, not their whole loss. The prisoners differ: fifteen generals among them in Victoires's narrative, twenty generals and more than thirty thousand prisoners in the proclamation, an address to the army, not a return, about 15.000 Russians in Schönhals, and 20,000 with 9 generals in Bodart; the flags differ too, forty-five in Victoires's narrative and in Bodart, forty in the proclamation. The two accounts dispute the drowning, and Schönhals's own p. 169 grants that the enemy's fire broke openings in the ice in which a number of fugitives perished, few on the whole. English renderings (ours): Victoires, 'the allies had more than forty thousand men out of' (p. 266) 'action in this memorable day, to which Napoleon gave the name of battle of Austerlitz; eighteen thousand Russians and six hundred Austrians were killed by fire or drowned, the rest wounded or taken prisoner, and among the latter fifteen generals and more than four hundred Russian officers of all ranks' (p. 267); as in claim side-a-losses-reported for the flags; 'forty flags, the standards of the imperial guard of Russia, a hundred and twenty pieces of cannon, twenty generals, more than thirty thousand prisoners are the result of this day for ever famous' (p. 268); as in claim victoires-side-b for the proclamation, its hundred thousand and the lakes; 'Lieutenant-General Przybyschevvsky and ... (OCR) men were taken prisoner in the valley of Sokolnitz; there was about an equal number killed and drowned, and both columns lost all their artillery' (p. 262, OCR); 'some battalions succeeded in crossing the pond; but the ice, giving way under the weight of the others, broke, and a very great number of officers and soldiers drowned there' (p. 262, OCR); 'a park of ... (OCR) pieces of artillery, marching under the guard of ... (OCR) battalions, tried to follow an old submerged dike, formerly a communication across the lake of Augezd between the village of that name and that of Satschau; but the ice that covered the lake, not being strong enough to bear this enormous weight, broke when the convoy was in the middle of the lake: men, horses, guns, caissons, all was swallowed' (p. 264, OCR); Schönhals, 'of the loss on both sides only that of the Austrian corps can be given with exactness; it amounted in dead, wounded and prisoners to 5922 men'; 'the Russian army may well have lost about 15.000 prisoners and 5000 to 6000 dead and wounded'; 'the drowning of so many Russians in the ponds belongs among the French exaggerations'; 'the ice did break here and there under the weight of the fugitives, but on the whole the ponds were frozen very hard, and the number of drowned Russians was certainly very insignificant;' (p. 169); '[by the state]ment of the Tellnitz parish priest they may be put at ... (OCR) to at most ... (OCR) men' (p. 170, OCR); 'the enemy's heavy gunfire caused several openings in the ice, in which a number of fugitives probably perished, of whom, however, there were few on the whole'; 'the guns still remaining had to be left stuck in the muddy road; only Kienmayer's corps saved its cannon' (p. 169).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "Les alliés eurent plus de quarante mille hommes hors de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p267-figures-v1",
+          "section": "p267",
+          "locator": "Victoires et conquêtes, t. XV, p. 267 (transcribed from the page image)",
+          "quote": "combat dans cette mémorable journée, à laquelle Napoléon imposa le nom de bataille d'Austerlitz¹; dix-huit mille Russes et six cents Autrichiens furent tués par le feu ou noyés, le reste blessés ou faits prisonniers, et, parmi ces derniers, quinze généraux et plus de quatre cents officiers russes de tout grade."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p271-figures-v1",
+          "section": "p271",
+          "locator": "Victoires et conquêtes, t. XV, p. 271 (transcribed from the page image)",
+          "quote": "Les Russes avaient perdu quarante-cinq drapeaux et presque tous les étendards de leur garde impériale; dans l'armée française, un seul bataillon ayant été rompu, son aigle fut enlevée par l'ennemi."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "Napoléon, voulant témoigner à l'armée en masse sa haute satisfaction pour les preuves qu'elle venait de donner de son dévouement, mit à l'ordre, le 3 décembre, la proclamation suivante:"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "Quarante drapeaux, les étendards de la garde impériale de Russie, cent vingt pièces de canon, vingt généraux, plus de trente mille prisonniers sont le résultat de cette journée à jamais célèbre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p268-figures-v1",
+          "section": "p268",
+          "locator": "Victoires et conquêtes, t. XV, p. 268 (transcribed from the page image)",
+          "quote": "une armée de cent mille hommes, commandée par les empereurs de Russie et d'Autriche, a été, en moins de quatre heures, ou coupée, ou dispersée; ce qui a échappé à votre feu s'est noyé dans les deux lacs."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 262 (OCR running heads; not checked against print)",
+          "quote": "Le lieutenant-général Przybyschevvsky et six mille hommes furent faits prisonniers dans la vallée de Sokolnitz; il y eût un nombre à peu près pareil de tués et rie noyés , et les deux colonnes perdirent toute leur artillerie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 262 (OCR running heads; not checked against print)",
+          "quote": "Quelques bataillons réussirent à traverser l’étang; mais la glace, cédant sous le poids dès autres , rompit , et un très-grand nombre d’officiers et de soldats s’y noyèrent."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 264 (OCR running heads; not checked against print)",
+          "quote": "Un parc de cinquante pièces d’artillprie, marchant sous la garde de quatre bataillons, voulut .suivre une ancienne digue submergée, servant autrefois de communication , par le. lac d 'Augezd, entre le village de ce nom et ceiui deSatschauj mais la glace qui couvrait le lac n’ctant pas ass«z forte pour supporter ce poids énorme, rompit lorsque le convoi était au milieu du lac : hommes , chevaux , canons , caissons , tout fut englouti."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Von dem beiderseitigen Verluste lässt sich nur der des österreichischen Corps mit Genauigkeit angeben; dieser betrug an Todten, Verwundeten und Gefangenen 5922 Mann."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Die russische Armee dürfte wohl gegen 15.000 Gefangene und 5000 bis 6000 Todte und Verwundete eingebüsst haben."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Das Ertrinken so vieler Russen in den Teichen gehört unter die französischen Übertreibungen."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Allerdings brach das Eis hie und da unter der Last der Fliehenden, im Ganzen aber waren die Teiche sehr fest gefroren, und die Zahl der ertrunkenen Russen war gewiss sehr unbedeutend;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 170 (OCR page breaks; not checked against print)",
+          "quote": "Bftge des Tellnitzer Ffarrera dUiften sie auf 60 bia faÜchBteas 100 Mann anzunehmen sein."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Das heftige Geschützfeuer des Feindes verursachte mehrere Öffnungen im Eise, in welchem wohl eine Zahl Flüchtlinge verunglückten, deren jedoch im Ganzen wenig waren."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Das noch übrige Geschütz musste in dem kothigen Wege stecken gelassen werden; nur Kienmayer's Corps rettete seine Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "austerlitz-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Austerlitz as a town in Moravia, 20 km east of Brünn. Schönhals describes the field (OCR): a small brook flows south from the wooded heights past Bellowitz and Schlappanitz, forming marshy meadows and a defile hard for columns to cross; below it the large ponds of Satczan and Mönitz continue the defile, which is hard to pass at Tellnitz and Sokolnitz, villages surrounded by fences and ditches; between this defile and the Schwarzawa the land is almost wholly level between Turas and Latein and allows every arm free use; north of the road a steep hill with a chapel on its top commands the Olmütz road and the approach to the Bellowitz defile; and from Augezd a ridge runs north toward Pratze, on which the allied army was camped, a strong position that allowed an emphatic use of artillery against an attack. Victoires calls the santon, the height on which Lannes's left rested, a very favourable position. Both accounts make the Pratzen height the key: lying at the centre of the position, its holding by the French cut off the allied left (Schönhals, OCR), and its occupation decided the battle (Victoires, OCR). A thick fog lay over the ground and hid Napoleon's position from the allies (Schönhals, OCR), and the fog in the valley and the smoke of the bivouacs hid the French advance on Pratzen (Victoires, OCR). The ponds were frozen: Victoires has the ice break under fugitives and an artillery park (OCR), Schönhals the ponds frozen very hard on the whole, though the ice broke here and there; the only way of retreat left to the allied left was the narrow dam between the ponds of Mönitz and Satschan (Schönhals, OCR) or the very narrow dike between the lakes of Augezd and Monitz (Victoires, OCR).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground, fog and ice from Bodart's location and the two accounts, read from the page images for Bodart, Victoires's santon (p. 238) and Schönhals's ice (p. 169), and otherwise from the OCR (Schönhals pp. 155, 159, 161 and 168; Victoires pp. 243, 251, 262 and 264-265); no map was inspected. Napoleon had chosen the field and had the santon fortified (claims side-a-objectives and fortification), and the allies left the heights to attack (claim posture); the claim is tagged inherited for the ground, the fog and the ice. English renderings (ours): Bodart, 'town in Austria, Moravia, 20 km east of Brünn'; Schönhals, 'from these wooded heights a small brook flows from north to south, cutting the road to Olmütz, past the villages of Bellowitz and Schlappanitz; in its course it forms here and there marshy meadows and a defile which, especially at the villages of Schlappanitz and Bellowitz, opposes difficulties to the crossing of columns' (p. 155, OCR); 'below which lie the considerable ponds of Satczan and Mönitz, and with these brooks form the continuation of that defile, which is hard to pass especially at the villages of Tellnitz and Sokolnitz, because these are surrounded by fences and ditches' (p. 155, OCR); 'the land between this small defile and the Schwarzawa is, especially between Turas and Latein, almost entirely level and allows the free and unhindered use of every arm' (p. 155, OCR); 'in front of this height, north of the road near TwarOBchna (so the OCR), rises a steep hill which reaches down with its foot to the road. On its summit lies a chapel, from which the road to Olmütz, and so the approach to the defile of Bellowitz, is commanded' (p. 155, OCR); 'at the village of Augezd begins a ridge which initially runs northward toward Pratze;' (p. 155, OCR); 'these heights form an oblique line against those mentioned earlier, enclosed by both small brooks, so that the allied army camped on them refused its left wing, while the advanced right was very advantageously covered by the ponds of Kobelnitz, Satczan and Monitz' (p. 155, OCR); 'this position was strong and allowed above all an emphatic use of artillery against an attack by the enemy' (p. 155, OCR); 'the height of Pratze lay at the centre of the position; if the French succeeded in holding it, the left wing of the allies was cut off' (p. 161, OCR); 'a thick fog lay on the country, favouring Napoleon's intentions, and, although scarcely a cannon shot separated both armies, withdrew his position from the eyes of the allies' (p. 159, OCR); 'no other way of retreat was now open than that over the narrow dam between the ponds of Mönitz and Satschan' (p. 168, OCR); as in claim side-b-losses-reported for the ice on p. 169; Victoires, 'the position of the Moravian santon was very favourable, and Napoleon had had it fortified and occupied with all the more care because he regarded it as the key of his offensive operations'; 'the left of Marshal Lannes rested on a height on which there had once been a Muslim funerary chapel, built by the Turks when they were masters of Hungary and of part of Moravia, which had kept for this height the name of santon' (p. 238); 'the occupation of the plateau of Pratzen decided the battle' (p. 251, OCR); 'how much time he thought it would take to advance toward the heights of Pratzen: \"Less than ... (OCR) minutes\", answered the marshal; \"the fog, which still covers the bottom of the valley where our troops are placed, and the smoke of the bivouacs that are going out will hide this movement from the enemy.\" \"In that case\", the emperor went on, \"let us wait another ... (OCR).\"' (p. 243, OCR); 'however, the retreat of this portion of the column, so reorganised, became very difficult, and could be made only over a very narrow dike between both lakes of Augezd and Monitz, which gave passage to only ... (OCR) men abreast' (p. 265, OCR); as in claim side-b-losses-reported for the ice of the pond and of the Augezd lake (pp. 262 and 264, OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "(Stadt in Österreich, Mähren, 20 km östl. von Brünn)."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Von diesen bewaldeten Hohen fliesst ein kleiner Bach von Norden nach Süden, die Strasse nach Olmütz dorchschneidend, bei den DOrfem Bellowitz und Schlappanitz vorüber; er bildet in seinem Laufe hie und da sumpfige Wiesen nnd ein Defilä, das be- sonders bei den Bärfem Schlappanitz und Bellowitz dem Übergang Ton Colonnen Schwierigkeiten entgegen setzt"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "unterhalb dessen die bedeutenden Teiche von Satczan und Mönitz liegen und mit diesen Bächen die Fortsetzung jenes Defil6's bilden, welches besonders bei den DOrfem Tellnitz und Sokolnitz schwer zu passiren ist, weil diese mit Zäunen und Gräben umgeben sind."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Das Land zTidschen diesem kleinen DefilS und der Schwarzawa ist besonders zwischen Turas und Latein fast ganz eben und gestattet den freien nnd ungehinderten Gebrauch jeder Waffisngattung."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Vor dieser Höhe, nördlich der Strasse bei TwarOBchna, erhebt sich ein steiler Hügel, der mit seinem Fusse bis an die Strasse herabreicbt Auf seinem Gipfel liegt eine Capelle, von welcher aus die Strasse nach Olmütz, mithin der Zugang zn dem Deöl^ von Bellowitz beherrscht wird."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Bei dem Dorfe Augezd beginnt ein Höhenzug, der zuerst nörd- lich gegen Fratze zieht;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Diese Höhen bilden gegen jene früher erwähnten, von den beiden kleinen Bächen nmäossenen, eine schiefe Linie, so dass das auf ihnen gelagerte Heer der Verbündeten seinen linken Flügel versagte, der vorgeschobene rechte aber durch die Teiche von Kobel- nitz, Satczan und Monitz sehr vortheilhaft gedeckt war."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Diese Stellung war stark und erlaubte vorzüglich einen nachdrücklichen Gebrauch der Artillerie gegen einen Angriff des Feindes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "La position du santon morave était très-favorable, et Napoléon l'avait fait fortifier et occuper avec d'autant plus de soin, qu'il la regardait comme la clef de ses opérations offensives¹."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "la gauche du maréchal Lannes était appuyée à une hauteur sur laquelle était autrefois une chapelle funéraire musulmane, construite par les Turcs lorsqu'ils étaient maîtres de la Hongrie et d'une partie de la Moravie, ce qui avait conservé à cette hauteur la dénomination de santon."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "Die Anhöhe von Fratze lag im Mittelpunkt der Stellung; gelang den Franzosen ihre Behaup- tung, so war der linke Flügel der Verbündeten abgeschnitten."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 251 (OCR running heads; not checked against print)",
+          "quote": "L’occupation du plateau de Pratzen décidait de la bataille ;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Ein dichter Nebel lagerte anf der Gegend, Napoleons Absichton begünstigend, and entzog, obgleich beide Heere kaum eine Kanonenschusaweite trennte, seine Stellung den Blicken der Verbündeten."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 243 (OCR running heads; not checked against print)",
+          "quote": "combien il croyait qu'il fallût de temps pour s’avancer vers les hauteurs « de Pratzen : Moins de vingt minutes, répondit le maréchal ; le brouillard , qui couvre encore le fond de la vallée où nos troupes sont placées, et la fumée des bivouacs qui s’éteignent, , déroberont ce mouvement à l’ennemi. — En ce cas, reprit l’em- pereur, attendons encore un quart d’heure. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 262 (OCR running heads; not checked against print)",
+          "quote": "Quelques bataillons réussirent à traverser l’étang; mais la glace, cédant sous le poids dès autres , rompit , et un très-grand nombre d’officiers et de soldats s’y noyèrent."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 264 (OCR running heads; not checked against print)",
+          "quote": "Un parc de cinquante pièces d’artillprie, marchant sous la garde de quatre bataillons, voulut .suivre une ancienne digue submergée, servant autrefois de communication , par le. lac d 'Augezd, entre le village de ce nom et ceiui deSatschauj mais la glace qui couvrait le lac n’ctant pas ass«z forte pour supporter ce poids énorme, rompit lorsque le convoi était au milieu du lac : hommes , chevaux , canons , caissons , tout fut englouti."
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Allerdings brach das Eis hie und da unter der Last der Fliehenden, im Ganzen aber waren die Teiche sehr fest gefroren, und die Zahl der ertrunkenen Russen war gewiss sehr unbedeutend;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 168 (OCR page breaks; not checked against print)",
+          "quote": "Kein anderer Weg zum Kückzuge war nun offen, ala der über den schmalen Damm zwischen dem Träche von Mönitz und Satschan."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 265 (OCR running heads; not checked against print)",
+          "quote": "Toutefois, la retraite de cette portion de la colonne, ainsi réor- ganisée, devenait très-difficile, etne pouvait s’effectuer que sur une digue très-étroite, entre les deux lacs d’Augezd et de Mo- nitz, qui ne donnait passage qu’a deux ou trois hommes de front."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B was short of food before the battle. Victoires: a fatal lack of foresight and the speed of events left the combined troops without food in their position at Olmutz, and forced requisitions carried out in disorder no longer yielded anything. Schönhals: the two armies' supply was very different; Napoleon's army lay in cantonments where it lacked nothing, while the allied army camped on an open plateau exposed to the season, its physical and moral strength worn down by forced marches and the hurried retreat; the camp lacked straw and wood and above all food, forced requisitions were resorted to at once, the supply service had been negligent since the campaign began, the mouths to feed had grown without Essen's corps, and the Olmütz magazines and supply from the rear could cover only part of the need (OCR). In the battle side B lost most of the army's baggage on the Wischau road when Bagration fell back (both accounts, OCR), and in the retreat left its remaining guns stuck in the muddy road, only Kienmayer's corps saving its own (Schönhals); Victoires has the night's icy rain bog down what artillery remained. No passage read describes side A's supply in the battle or either side's ammunition.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Means and supply as the passages read give them, from the page images (Victoires pp. 226 and 266; Schönhals pp. 148 and 169) and the OCR (Schönhals pp. 149 and 166; Victoires pp. 258-259). The shortage was the state of side B's supply when it decided to attack (claim decision-to-attack), and Victoires blames it on a fatal lack of foresight; for the battle it is tagged inherited. Bodart's 400 ammunition wagons lost by side B are a trophy count (claim bodart-losses). No supply or ammunition return was inspected. English renderings (ours): Victoires, as in claim decision-to-attack for p. 226; as in claim bodart-winner for the night's rain; 'the road to Wischau being thus uncovered, the troops of Marshal Lannes and those of Prince Murat threw themselves on it and carried off the greater part of the' (p. 258, OCR) 'baggage of the army, which was filing toward the town that we' (p. 259, OCR); Schönhals, 'the situation of both armies with regard to supply was very different'; 'Napoleon had put his into cantonments, in which it lacked nothing, and where both men and horses had time, sheltered against the storms of the harsh season, to recover from the hardships endured and to gather strength for the coming fight'; 'the Russian-Austrian army, on the other hand, camped on an open plateau, exposed to every rigour of the season'; 'the strenuous marches and the quick, pressed retreat had relaxed its physical and moral strength'; 'the camp lacked' (p. 148) 'straw and wood,' (p. 149, OCR); 'above all, however, food was lacking' (p. 149, OCR); 'this shortage made itself felt so sharply right in the earliest days that recourse had to be taken to forcible requisitions, which are always accompanied by disorder and arbitrariness' (p. 149, OCR); 'from the beginning of this unfortunate campaign great negligence and little agreement with the operations had prevailed in the branch of army supply' (p. 149, OCR); 'the number of consumers had already grown to ... (OCR), without counting the corps of General Essen, which was already expected in the Olmütz area' (p. 149, OCR); 'scarcely ... (OCR) of this need could be covered by the magazines of Olmütz and by supplies from the rear' (p. 149, OCR); 'by this retreat the road to Wischau was uncovered, and the greatest part of the army's baggage fell here into the enemy's hands' (p. 166, OCR); as in claim side-b-losses-reported for the guns.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "mais une funeste imprévoyance et la rapidité extraordinaire avec laquelle les événemens s'étaient succédés dans cette campagne, étaient cause que les troupes combinées manquaient de vivres dans leur position d'Olmutz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p226-figures-v1",
+          "section": "p226",
+          "locator": "Victoires et conquêtes, t. XV, p. 226 (transcribed from the page image)",
+          "quote": "Dès le second jour, on avait été obligé d'avoir recours à des réquisitions forcées, et ce moyen précaire, exécuté avec désordre, n'offrait déjà plus de ressources."
+        },
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Die Lage beider Heere in Bezug auf Verpflegung war sehr verschieden."
+        },
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Napoleon hatte das seinige in Cantonnirungen verlegt, in denen es ihm an Nichts gebrach, und wo sowohl Mann als Pferde Zeit hatten, unter Obdach gegen die Stürme der rauhen Jahreszeit geschützt, sich von den ausgestandenen Mühseligkeiten zu erholen und Kraft für den bevorstehenden Kampf zu sammeln."
+        },
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Das russisch-österreichische Heer hingegen lagerte auf einer offenen Bergfläche, jeder Unbilde der Jahreszeit ausgesetzt."
+        },
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Die angestrengten Märsche und der schnelle gedrängte Rückzug hatten seine physischen und moralischen Kräfte abgespannt."
+        },
+        {
+          "source_id": "schoenhals-1873-p148-figures-v1",
+          "section": "p148",
+          "locator": "Schönhals (1873), p. 148 (transcribed from the page image)",
+          "quote": "Es fehlte im Lager"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "im Stroh und Holz,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Vor Allem aber ^brach es an Lebensmitteln."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Dieser Mangel stellte sich gleich in den ersten Tagen so empfindlich ein, dasa man zu gewaltsamen Requisitionen seine Zuflucht nehmen muBste, die stets von Unordnung und Willkür begleitet sind."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Von Beginn dieses unglücklichen Feldzuges hatte in dem Zweige der Heeresverpflegung eine grosse Nachlässigkeit und wenig Überein- stimmung mit den Operationen geherrscht."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "war die Zahl der Verzehrenden schon auf 150.000 angewachsen, ohne das Corps des Oenerals Essen mitzurechnen, welches bereits in der Gegend von OlmUtz erwartet wurde."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 149 (OCR page breaks; not checked against print)",
+          "quote": "Kaum die Hälfte dieses Bedürüoisses konnte durch die Maga- zine von Olmütz und durch rückwärtige Zufuhren gedeckt werden."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "La route de Wischau étant ainsi décou- verte , les troupes du maréchal Lannes et celles du prince Murat s’y jetèrent et enlevèrent la plus grande partie des"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 259 (OCR running heads; not checked against print)",
+          "quote": "équipages de l’armée , qui filaient vers la ville que nous"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 166 (OCR page breaks; not checked against print)",
+          "quote": "Durch diesen Rückzug^ ward die Strasse von Wischau entblösst, und der grösste Theil des Gepäckes der Armee fiel hier in die Hände des Feindes,"
+        },
+        {
+          "source_id": "schoenhals-1873-p169-figures-v1",
+          "section": "p169",
+          "locator": "Schönhals (1873), p. 169 (transcribed from the page image)",
+          "quote": "Das noch übrige Geschütz musste in dem kothigen Wege stecken gelassen werden; nur Kienmayer's Corps rettete seine Kanonen."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p266-figures-v1",
+          "section": "p266",
+          "locator": "Victoires et conquêtes, t. XV, p. 266 (transcribed from the page image)",
+          "quote": "La retraite se continua par Boschowitz: les Austro-Russes marchèrent toute la nuit par une pluie abondante et glaciale, qui acheva d'abîmer les chemins et d'embourber ce qui restait d'artillerie."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A watched side B closely. In Victoires, Napoleon had sent his aide-de-camp General Savary to the allied headquarters partly to learn the enemy's numbers and plans (OCR); reconnaissances sent ahead informed him of the enemy's march (OCR); from the heights of Pratzen he examined all his adversaries' movements, in person and through reconnaissances sent constantly onto the enemy line (OCR), and from his bivouac he saw the allied manoeuvre and was convinced from that moment that his adversary was falling into the trap laid for him (OCR). In Schönhals, the French had pushed the left of the Austrian part of the advance guard back from the Pratze height and from Augezd, which let them overlook the whole allied approach from the height (OCR), and on the morning of the battle the fog dispersed and let Napoleon survey the state of things (OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as both accounts give it, all from the OCR (Victoires pp. 228-229, 231 and 233-234; Schönhals pp. 154 and 160). Savary's mission, the reconnaissances and the push from the Pratze height were side A's own doing, and the lifting of the fog was not, so the phase is left unresolved. English renderings (ours): Victoires, 'already, even, to make sure in part of the number and the' (p. 228, OCR) 'plans of the enemy, he had sent General Savary, an aide-de-camp of his, to the headquarters of both sovereigns' (p. 229, OCR); 'reconnaissances sent ahead informed the French emperor of the enemy's march' (p. 231, OCR); 'Napoleon, placed on the heights of Pratzen, examined in person and through the reconnaissances he sent incessantly onto the enemy line all the movements of his adversaries' (p. 233, OCR); 'and this manoeuvre, which Bonaparte perceived from his bivouac, filled him with joy, because he was convinced from that moment that his adversary was going headlong into the trap laid for him' (p. 234, OCR); Schönhals, 'the French pushed the left wing of the Austrian part of the advance guard back from the height of Pratze and also from Augezd, which gave them the opportunity to overlook the approach of the allies entirely from the height' (p. 154, OCR); as in claim side-a-command for the fog.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 228 (OCR running heads; not checked against print)",
+          "quote": "Déjà même, pour s’assurer en partie du npmbre et des pro-"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 229 (OCR running heads; not checked against print)",
+          "quote": "jets de l'ennemi , il avait envoyé le général Savary, un de ses ,8o5-an nr, aides-de-camp, au quartier-général des deux souverains"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 231 (OCR running heads; not checked against print)",
+          "quote": "Des reconnaissances envoyées en avant instruisaient l’em- pereur français de la marche de l’ennemi."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 233 (OCR running heads; not checked against print)",
+          "quote": "Napoléon, placé sur les hauteurs de Pratzen, exami- nait par lui-même et par les reconnaissances qu’il envoyait incessamment sur la ligne ennemie, tous les mouvemens de ses adversaires."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 234 (OCR running heads; not checked against print)",
+          "quote": "et cette manœuvre , que Bonaparte aper- çut de son bivouac, le remplit de joie, parce qü'iPfnt con- vaincu, dès ce moment, que son adversaire donnait à plein •* » collier dans le piège qui lui était tendu."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 154 (OCR page breaks; not checked against print)",
+          "quote": "Die Franzosen drü^ten den linken Flügel des österreichischen Theiles der Vorhut von der Höhe von Pratze und auch von Augezd zurück, was ihnen die Gelegenheit gab, von der Höhe den Anmarsch der Ällürten ganz zu übersehen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 160 (OCR page breaks; not checked against print)",
+          "quote": "Jetzt zerstreute sich der Nebel und Hess Napoleon die Lage der Dinge überblicken."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B's information on side A was poor, and Napoleon added to its errors. Victoires: as if he meant to keep the heights his advance guard crowned, Napoleon had retrenchments built with much show and garnished with artillery (OCR); to strengthen the belief that he would refuse battle before Brunn he asked the Emperor Alexander for an interview, and the envoy, Prince Dolgorucki, thought he saw signs of terror in the French troops and left convinced the French army could not resist the blow about to fall on it (OCR); Napoleon let the allied movement proceed undisturbed and withdrew his outposts as if intimidated (OCR); Kutusow had only vague notions of the French position and, having seen troops move toward the French right and lines of smoke, presumed that the French were weakening their centre to reinforce their right and that Napoleon's right rested on the ponds behind Sokolnitz and Kobelnitz with a reserve behind it. Schönhals: when the offensive was decided there was no correct news of the enemy's strength and position, and Colonel Gänger's report from the Pratze heights was the earliest definite report the monarchs received (OCR); Napoleon put no obstacles in the way of the allied movements and withdrew his outposts by degrees (OCR); the disposition rested on the assumption that Napoleon's left stood in the wooded hills left of the road and his right leaned on the ponds toward Kobelnitz and Sokolnitz, while Napoleon had crossed the defile behind which the allies planned to attack him (OCR); a thick fog hid his position from the allies (OCR), and the Austrian artillery, taking the French infantry for Russians because the uniforms were alike, stopped firing when its fire should have been most effective (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's information as both accounts give it, from the page images (Victoires p. 239; Schönhals p. 156) and the OCR (Victoires pp. 229, 232 and 235; Schönhals pp. 150, 153, 155-156, 158-159 and 162). The deceptions were Napoleon's and the suppositions Kutusow's, so the claim is tagged commander_created. English renderings (ours): Victoires, 'the army at the outset occupied the villages of Monitz, Telnitz, Sokolnitz, Kobelnitz, Schlapanitz, which covered its front, while its advance guard crowned the heights of Augezd, of Pratzen, of Jirzokowith and of Kruh' (p. 229, OCR); 'and, as if he had had the design of keeping these last positions, the Emperor of the French had retrenchments worked on with much show, which were garnished with artillery' (p. 229, OCR); '[to give more and more credit to] the opinion of the refusal of a battle before Brunn, Napoleon had an interview requested of the Emperor Alexander' (p. 232, OCR); 'the latter confined himself to sending his aide-de-camp, Prince Dolgorucki' (p. 232, OCR); 'thought he noticed, in the bearing of the troops and in the anxious silence with which they worked at entrenching themselves, the signs of a terror that he did not hesitate to attribute to the nearness of the redoubtable warriors of his nation' (p. 232, OCR); 'he let Alexander's envoy leave with the inner conviction that the French army could not resist the decisive blow that was about to be struck at it' (p. 232, OCR); 'the Emperor Napoleon had let this great movement proceed without disturbing it' (p. 235, OCR); 'then he had had his outposts withdrawn as far as Telnitz, Sokolnitz and Schlapanitz, as if appearing intimidated by the approach of the immense forces he had to fight' (p. 235, OCR); as in claim side-b-command for Kutusow's vague notions; 'having noticed, the day before, a movement of troops toward his adversary's right, General Kutusow presumed that the French army was weakening itself in the centre to reinforce its right; and as he had also seen lines of smoke between the village of Turas and the ponds behind Sokolnitz and Kobelnitz, and others near Czernowitz, he believed that Napoleon had rested his right on these ponds, with a reserve behind' (p. 239); Schönhals, as in claim decision-to-attack for the lack of correct news; 'Colonel Gänger of the Szekler hussars had crept with some horsemen onto the heights of Pratze, from where he overlooked the whole enemy position; his report was the earliest definite report that both monarchs received about it' (p. 153, OCR); 'Napoleon put no obstacles in the way of the movements of the allies' (p. 155, OCR); 'by degrees he drew his outposts back to Mönitz, Tellnitz, Sokolnitz and Schlappanitz' (p. 156, OCR); 'it rested on the assumption that Napoleon stood with his left wing in the wooded hills to the left of the road and leaned his right on the ponds in the rear toward Kobelnitz and Sokolnitz' (p. 156); 'while in the allied headquarters the plan was being drawn up to attack the enemy behind the defile, Napoleon advanced across it' (p. 158, OCR); as in claim austerlitz-ground for the fog; 'these advantages were further increased by an unfortunate error, namely that the Austrian artillery, because of the similarity of the uniforms, took the enemy infantry for Russians and stopped its fire at the moment when it should have been most effective' (p. 162, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 229 (OCR running heads; not checked against print)",
+          "quote": "L’armée occupa d’abord les villages de Mo- nitz, Telnitz, Sokolnitz , Kobelnitz, Schlapanitz, qui cou- vraient son front, tandis que son avant -garde couronnait les hauteurs d’Augezd,de Pratzen, de Jirzokowith et de Kruhj"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 229 (OCR running heads; not checked against print)",
+          "quote": "comme s’il eût eu le dessein de garder ces dernières posi- tions, l’empereur de$ Français fit travailler avec beaucoup d’appareil a des retranchemens que l’on garnit d’artillerie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 232 (OCR running heads; not checked against print)",
+          "quote": "J’opiniou du refus d’une bataille en avant de Brunn , Napo- léon fit demander une entrevue à l’empereur Alexandre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 232 (OCR running heads; not checked against print)",
+          "quote": "Ce- lui-ci se borna à envoyer son aide-de-camp , prince Dolgo- rucki."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 232 (OCR running heads; not checked against print)",
+          "quote": "crut remarquer, dans la contenance des troupes et dans le silence inquiet avec lequel elles travaillaient a se re- trancher , les indices d’une terreur qu’il ne balança pas à at- tribuer au voisinage des redoutables guerriers de sa nation."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 232 (OCR running heads; not checked against print)",
+          "quote": "il laissa partir l’envoyé d’Alexandre avec l’intime persuasion que l'année française ne pouvait pas résister au coup décisif qui allait lui être porté."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 235 (OCR running heads; not checked against print)",
+          "quote": "L’empereur Napoléon avait laissé opérer ce grand mou- vement sans l’inquiéter."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 235 (OCR running heads; not checked against print)",
+          "quote": "puis il avait fait retirer ses avant-postes jusqu’à Telnitz, Sokolnitzet Schlapanitz, comme paraissant intimidé de l’approche des forces immenses- qu’il avait à combattre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Quoique les avant-postes deux armées se touchassent, le général en chef russe n'avait, sur la position des Français, que des notions vagues, qui ne justifiaient point assez les suppositions sur lesquelles il avait basé la disposition de la bataille."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Ayant remarqué, la veille, un mouvement de troupes vers la droite de son adversaire, le général Kutusow présuma que l'armée française s'affaiblissait au centre pour renforcer sa droite; et comme il avait vu également des lignes de fumée entre le village de Turas et les étangs en arrière de Sokolnitz et de Kobelnitz, et d'autres près de Czernowitz, il crut que Napoléon avait appuyé sa droite à ces étangs, avec une réserve derrière."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Mau hatte, als man sich zur Ergreifung der Offensive entscMoss, keine riehtigea Nachrichten über die Stärke und Stellung der feind- lichen Streitkraft;"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 153 (OCR page breaks; not checked against print)",
+          "quote": "Oberst Gänger der Szekler-Huszaren hatte sich mit einigen Reitern auf die Höhen von Pratze geschlichen, von wo er die ganze feindliche Stellung über- sah; sein Bericht war der erste bestimmte, den die beiden Monarchen hierüber erhielten."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 155 (OCR page breaks; not checked against print)",
+          "quote": "Napoleon setzte den Bewegungen der Verbündeten keine Hinder- nisse in den Weg,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 156 (OCR page breaks; not checked against print)",
+          "quote": "Nach und nach zog er seine Vorposten nach Mönitz, TeUnitz, Sokolnitz und Schlappanitz zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Sie beruhte auf der Annahme, dass Napoleon mit seinem linken Flügel in dem waldigen Gebirge links von der Strasse stehe, seinen rechten an die rückwärtigen Teiche gegen Kobelnitz und Sokolnitz lehne."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "Während man im Haupt- quartier der Verbündeten den Plan entwarf, den Feind hinter dem Defilä anzugreifen, rückte Napoleon über dasselbe."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Ein dichter Nebel lagerte anf der Gegend, Napoleons Absichton begünstigend, and entzog, obgleich beide Heere kaum eine Kanonenschusaweite trennte, seine Stellung den Blicken der Verbündeten."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 162 (OCR page breaks; not checked against print)",
+          "quote": "Diese Vortheile vermehrte noch ein unglückseliger Irrthum, dass nfimlich die österreichische Artillerie der Ähnlichkeit der Uniformen wegen, die feindliche Infanterie für Bussen ansah und ihr Feuer in dem Augenblicke einstellte, als es am wirksamsten fiätte werden sollen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Napoleon meant to accept battle where he stood and to beat the allied turning movement in the flank. Victoires: he had foreseen an attack by the combined army and chosen ground on which he hoped to fight its numerous forces with advantage (OCR); eight days before the battle he had climbed the santon and told the officers around him to study the position, which would probably play a great part before long, and he regarded the santon as the key of his offensive operations; he said that to stop the enemy passing he would wait for him where he stood, which would bring only an ordinary battle, whereas if he reinforced his right by drawing it back toward Brunn and the Russians left the heights they held, they were caught at fault and lost (OCR), and that while they marched to turn his right they would present their flank to him (OCR); Legrand's division at the right extremity, where the fight was to begin, was to hold its position (OCR), and he sent part of his massed troops against the allied centre to cut off the columns advancing to envelop him (OCR). Schönhals: the concentration of the enemy's forces showed Napoleon's intention to accept battle between Brünn and Austerlitz (OCR); the Pratze height lay at the centre of the position, and if the French held it the allied left wing was cut off (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commander as both accounts give them, from the page image for the santon (p. 238) and otherwise from the OCR (Victoires pp. 228, 233, 236, 243 and 247; Schönhals pp. 154 and 161). Napoleon's sayings are as Victoires reports them; no contemporary record of them was inspected. The aims were Napoleon's choices, so the claim is tagged commander_created. English renderings (ours): Victoires, 'had foreseen in advance the case where he would be attacked by the combined army, and had made choice of a ground on which he hoped to be able to fight with advantage the numerous forces he supposed he had before him' (p. 228, OCR); 'eight days before the battle the emperor, returning from Wischau where he had gone to visit the outposts, had climbed the santon and had said to the officers around him: \"Examine this position well, for it will probably play a great part before long.\"' (p. 238, footnote); as in claim austerlitz-ground for the santon as the key; '\"If my design were to prevent the enemy from passing, it is here that I would wait for him, but that would bring on only an ordinary battle; whereas if, on the contrary, I reinforce my right by drawing it back toward Brunn, and this movement makes the Russians abandon the heights they occupy, were they ... (OCR) in number, they are caught at fault and lost without resource.\"' (p. 233, OCR); 'the positions we occupy are formidable, and while they march to turn my right they will present their flank to me' (p. 236, OCR); 'the division Legrand, which formed, as we have seen, the right extremity, where the fight was to begin, was to keep its position' (p. 243, OCR); as in claim side-a-command for the attack on the centre; Schönhals, 'the concentration of the enemy forces declared Napoleon's intention to accept battle between Brünn and Austerlitz' (p. 154, OCR); as in claim austerlitz-ground for the Pratze height.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 228 (OCR running heads; not checked against print)",
+          "quote": "avait prévu d’avance le cas où il serait attaqué par 1 armée combinée, et avait fait choix d’un terrain sur lequel il espérait pouvoir combattre avec avan- tage les forces nombreuses qu’il supposait avoir devant lui."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Huit jours avant la bataille, l'empereur, revenant de Wischau où il avait été visiter les avant-postes, était monté sur le santon, et avait dit aux officiers qui l'entouraient: « Examinez bien cette position, car elle jouera probablement un grand rôle avant peu. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "La position du santon morave était très-favorable, et Napoléon l'avait fait fortifier et occuper avec d'autant plus de soin, qu'il la regardait comme la clef de ses opérations offensives¹."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 233 (OCR running heads; not checked against print)",
+          "quote": "« Si mon dessein était d’empêcher l’ennemi de passer, c’est ici que je l’attendrais, mais cela n’a- menerait qu’une batailleordinaire; au lieu que si, au contraire^ je renforcqma droite en la retirant vers Brunn, et que ce mou- vement fasse abandonner aux Russes les hauteurs qu’ils occu- pent, fusseut-ils au nombre de trois cent mille, ils sont pris en défaut , et perdus sans ressource. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 236 (OCR running heads; not checked against print)",
+          "quote": "Les positions que nous Allemagne, occupons sont formidables, et, pendant qu’ils marcheront pour tourner ma droite, ils me présenteront le flanc."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 243 (OCR running heads; not checked against print)",
+          "quote": "La di- vision Legrand, qui formait, comme on l’a vu, l’extrémité droite, par où le combat devait s’engager, devait garder sa position."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 247 (OCR running heads; not checked against print)",
+          "quote": "et déjà il avait fait marcher contre ce centre une partie des masses qu’il tenait réunies , afin de couper ainsi les trois colonnes qui ne cessaient point de s’avancer imprudemment pour tourner et envelopper l’armée française dans une position où elle n’était pas."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 154 (OCR page breaks; not checked against print)",
+          "quote": "das Zusanmien ziehen der feindlichen Streitkräfte sprach Napoleon's Absicht aus, die Schlacht zwischen Brunn und Anstei-litz anzunehmen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "Die Anhöhe von Fratze lag im Mittelpunkt der Stellung; gelang den Franzosen ihre Behaup- tung, so war der linke Flügel der Verbündeten abgeschnitten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "The allied aim was to turn the French right and cut the French army off from Vienna. Schönhals: the plan of operations approved by both monarchs was at the outset to make the enemy retreat behind the Thaya by gaining his right flank and threatening his communication with Vienna, and, if he ignored the threat, to attack his right flank decisively, throw him back on the Znaim road and force his retreat toward Krems, with Archduke Ferdinand's corps from Iglau to take part (OCR); the disposition for the battle had the allied left, which overlapped the French right, force the defiles of Sokolnitz and Tellnitz and continue the attack on open ground between Schlappanitz and Turas, avoiding the Schlappanitz and Bellowitz defile; the attack was to be in oblique order, Bagration's corps on the extreme right to hold its position for the time being and Liechtenstein's cavalry in the centre to cover the open ground between Kruch and Schlappanitz. Victoires: Kutusow's plan was to attack Napoleon's army by its right flank with great masses, the valley between Telnitz and Sokolnitz to be crossed at the run under cover of Liechtenstein's cavalry and Bagration's advance guard on the allied right; he wanted to cut the French army's retreat on Vienna (OCR) and to turn it and force it to lay down its arms (OCR). Victoires calls the plan vicious even on the Russian general's own suppositions (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side B's command as both accounts give them, from the page images (Victoires p. 239; Schönhals p. 156) and the OCR (Victoires pp. 230 and 240; Schönhals p. 150). The accounts agree on the plan of the battle: to turn the French right through the defiles of Sokolnitz and Telnitz and continue the attack in the plain toward Turas, avoiding the Schlappanitz and Bellowitz defile, with Bagration and Liechtenstein covering on the right. The aims were the allied commanders' choices, so the claim is tagged commander_created. English renderings (ours): Schönhals, 'the plan of future operations approved by both monarchs had as its aim, with the forces always to be kept together, to try at the outset to bring the enemy to retreat behind the Thaya by gaining his right flank and threatening his communication with Vienna' (p. 150, OCR); 'in case the enemy did not heed this strategic threat, a decisive attack against his right flank was intended, to throw him back on the Znaim road and force him to retreat toward Krems, in which the corps of Archduke Ferdinand, approaching from Iglau, was also to take part' (p. 150, OCR); 'accordingly the left wing of the allies considerably overlapped the right of the French'; 'the attack on the latter was held to be subject to the fewest difficulties, because it was believed that after forcing the defiles of Sokolnitz and Tellnitz one would stand wholly on its flank and could continue the further attack on the open ground between Schlappanitz and Turas'; 'by this movement one wanted to avoid entirely the defile of Schlappanitz and Bellowitz, by which (so it was imagined) the enemy had been at pains to cover his front'; 'everything would depend on this plan being carried out in time and with the greatest possible force'; 'the attack was thus to take place in oblique order, and the corps of Prince Bagration, which formed the extreme right wing, was for the moment merely to hold its position, and Prince Liechtenstein's cavalry in the centre was to endeavour to cover the open ground between Kruch and Schlappanitz to the left and right of the road' (p. 156); Victoires, 'the left of the combined army overlapped the right of the French army'; 'Kutusow supposed that in passing the defile of Sokolnitz and Kobelnitz the right of the French would find itself turned, and that the attack could then be continued in the plain between Schlapanitz and the wood of Turas, thus avoiding the defiles of Schlapanitz and Bellovitz, which, in the Russian general's opinion, covered the front of the French position'; 'so his plan was to attack Napoleon's army by its right flank, on which great masses were to move with speed and vigour'; 'the valley between Telnitz and Sokolnitz was to be crossed at the run; the cavalry of Prince Lichstenstein and the advance guard of Prince Bagration, forming the right of the allied army, were to cover this movement:' (p. 239); 'he wanted to cut off the French army's retreat on Vienna' (p. 230, OCR); 'in this belief General Kutusow, instead of hastening his frontal movement, resolved to manoeuvre so as to turn the French army and force it to lay down its arms' (p. 230, OCR); 'this plan was vicious, even on the Russian general's suppositions:' (p. 240, OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Der von beiden Monarchen genehmigte Entwurf der künftigen Operationen hatte zum Ziele, mit den stets beisammen zu haltenden Streitkräften vorerst zu versuchen, den Feind durch Gewinnung seiner rechten Flanke und Bedrohung seiner Verbindung mit Wien zum Rückzuge hinter die Thaya zu bestimmen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 150 (OCR page breaks; not checked against print)",
+          "quote": "Im Falle der Feind diese strategische Drohung nicht würdigte, ward ein entscheidender Angriff gegen seine rechte Flanke beabsichtigt, am ihn auf der Znaimer-Strasse zurückzuwerfen und zum Rückzuge gegen Krems zu zwingen, wozu auch das von Iglan heranziehende Corps des Erzherzogs Ferdinand mitwirken sollte."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Hienach überragte der linke Flügel der Verbündeten bedeutend den rechten der Franzosen."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Den Angriff auf diesen hielt man den wenigsten Schwierigkeiten unterworfen, weil man, nach Erzwingung der Defiléen von Sokolnitz und Tellnitz, ihm ganz in der Flanke zu stehen und den weiteren Angriff auf dem offenen Boden zwischen Schlappanitz und Turas fortsetzen zu können glaubte."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Durch diese Bewegung wollte man dem Defilé von Schlappanitz und Bellowitz ganz ausweichen, durch welches (so wähnte man) der Feind seine Front zu decken bemüht gewesen sei."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Alles würde davon abhängen, dass dieser Plan zeitig und mit möglichster Kraft ausgeführt werde."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Der Angriff sollte also mit schiefer Linie stattfinden, und das Corps des Fürsten Bagration, das den äussersten rechten Flügel bildete, sollte vor der Hand blos seine Stellung behaupten, und die Reiterei des Fürsten Liechtenstein im Mittelpunkte das offene Terrain zwischen Kruch und Schlappanitz links und rechts der Strasse zu decken bemüht sein."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "La gauche de l'armée combinée débordait la droite de l'armée française;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Kutusow supposait qu'en passant le défilé de Sokolnitz et de Kobelnitz, la droite des Français se trouverait tournée, et qu'ensuite l'attaque pourrait se continuer dans la plaine entre Schlapanitz et le bois de Turas, en évitant ainsi les défilés de Schlapanitz et de Bellovitz, qui, dans l'opinion du général russe, couvraient le front de la position des Français."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Ainsi donc, son plan était d'attaquer l'armée de Napoléon par son flanc droit, sur lequel de grandes masses devaient se porter avec rapidité et vigueur."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "La vallée entre Telnitz et Sokolnitz devait être franchie au pas de course, la cavalerie du prince de Lichstenstein et l'avant-garde du prince Bagration, formant la droite de l'armée alliée, devaient couvrir ce mouvement:"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 230 (OCR running heads; not checked against print)",
+          "quote": "Il voolait couper h l’aimée française sa retraite sur Vienne;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 230 (OCR running heads; not checked against print)",
+          "quote": "Dans cette croyance, le général Kutusow, au lieu de hâ- ter son mouvement de front , résolut de manœuvrer de ma- nière à tourner l’armée française et à la forcer à mettre bas les » armes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 240 (OCR running heads; not checked against print)",
+          "quote": "Ce plan était vicieux , même dans les suppositions du général russe:"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Both sides attacked. Side B attacked the French right: its left wing set out early in the morning according to the disposition (Schönhals, OCR), and Kienmayer's corps advanced from Augezd to force the defile of Telnitz and open the way for the allied columns and, under cover of a thick fog that suddenly rose in the valley, attacked Telnitz (Victoires, OCR). Side A attacked the allied centre: Soult advanced Saint-Hilaire's division to attack the heights and village of Pratzen, and Kutusow found himself attacked when he believed himself the attacker (Victoires, OCR); in Schönhals Napoleon gave the order to attack when the fog lifted, and the enemy's quick and unexpected attack thwarted the allied plans (OCR). On the allied right Bagration attacked the santon position (Victoires, OCR) or ordered a general advance of his corps (Schönhals, OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side B attack under its disposition, from the page images (Victoires p. 239; Schönhals p. 156), and side A attack the allied centre on the Pratzen heights, in the OCR (Victoires pp. 243-245, 247, 250 and 258; Schönhals pp. 159, 161, 163 and 165); the code is both_attacked. Each side's attack was its commanders' decision, the allies' by their disposition and Napoleon's when the fog lifted, so the posture is tagged commander_created. English renderings (ours): Victoires, as in claim side-b-command for the instructions (p. 239); 'the corps of General Kienmayer, being the nearest to' (p. 243, OCR) '[the French line,] had advanced from Augezd to force the defile of Telnitz and so open the way for the ... (OCR) enemy column' (p. 244, OCR); 'between Augezd and Telnitz there is a fairly extensive plain, which some squadrons of Austrian hussars crossed rapidly; but the latter village was occupied by the ... (OCR) regiment of line infantry, and on a height in front was a battalion of the tirailleurs du Pô, to defend its approach;' (p. 244, OCR); 'taking advantage of a thick fog that suddenly rose in the valley, these troops attacked Telnitz' (p. 245, OCR); as in claims side-a-command and side-b-command for Saint-Hilaire, Kutusow's surprise and Bagration; Schönhals, 'according to these assumptions the attack was ordered' (p. 156); 'at ... (OCR) in the morning the left wing of the Russian-Austrian army set out according to the disposition given' (p. 159, OCR); 'the quick and unexpected attacking movement of the enemy thwarted the plans of the allies' (p. 163, OCR); as in claim side-a-command for the order to attack; as in claim side-b-command for Bagration.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p239-figures-v1",
+          "section": "p239",
+          "locator": "Victoires et conquêtes, t. XV, p. 239 (transcribed from the page image)",
+          "quote": "Vers une heure du matin, les généraux des diverses colonnes de l'armée austro-russe reçurent leurs instructions pour l'attaque de l'armée française."
+        },
+        {
+          "source_id": "schoenhals-1873-p156-figures-v1",
+          "section": "p156",
+          "locator": "Schönhals (1873), p. 156 (transcribed from the page image)",
+          "quote": "Nach diesen Annahmen ward der Angriff angeordnet."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Um halb 7 Uhr Früh setzte sich der Make Flügel des russisch- österreichischen Heeres nach der gegebenen Dis- position in Bewegung."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 243 (OCR running heads; not checked against print)",
+          "quote": "Le corps du général Kienmayer étant le plug rapproché de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 244 (OCR running heads; not checked against print)",
+          "quote": "s'était avancé d’Augézd pour forcer le défilé Allemagne, de Telnitz, et frayer ainsi le chemin à la première colonne ennemie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 244 (OCR running heads; not checked against print)",
+          "quote": "Il y a entre Augezd et Telnitz une plaine assez étendue, que quelques escadrons de hussards autrichiens tra- versèrent rapidement ; mais le dernier village était occupé par le troisième régiment d’infanterie de ligne, et, sur une hau- teur en avant, se trouvait un bataillon des tirailleurs du Pô , pour en défendre l’approche ;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 245 (OCR running heads; not checked against print)",
+          "quote": "Profitant d’un brouillard épais qui s’éleva tout à coup dans la vallée, ces troupes attaquèrent leluitz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 247 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Soult avait fait avancer la division Saint-Hi- laire pour attaquer les hauteurs et le village de Pratzen,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 250 (OCR running heads; not checked against print)",
+          "quote": "Le général Kutusow, surpris par ce mouvement de la di- vision Saint -Hilaire, et se voyant attaqué lorsqu’il croyait être lui-même attaquant , sentit aussitôt combien il était im- portant de conserver Pratzen,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 161 (OCR page breaks; not checked against print)",
+          "quote": "gab er den Befehl znm Angriff."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 163 (OCR page breaks; not checked against print)",
+          "quote": "Die schnelle und unerwartete Angriffsbewegung des Feindes durchkreuzte die Pläne der Verbtlndeten."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "Ignorant encore toute la force de cette position, le prince Bagration n’hésita point à l’attaquer, dans l’espoir de s’en rendre promptement maître ; mais il ne tarda pas a être dé- sabusé."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 165 (OCR page breaks; not checked against print)",
+          "quote": "Überdrüssig, länger ein Zuschauer des vermeintlichen Sieges zu bleiben, befahl er eine all- gemeine Vorrttckung seines Corps."
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side A fortified the santon, a position from which it fought: Napoleon had the height on which Lannes's left rested fortified and occupied with all the more care because he regarded it as the key of his offensive operations; eighteen guns were placed there in battery, and the seventeenth light infantry regiment under General Claparède of Suchet's division held it. Bagration attacked it without yet knowing its strength, and the French artillery soon forced the Russians back to Posorzitz (Victoires, OCR); in Schönhals, Bagration's general advance brought on a murderous cannonade, which the enemy kept up with the greater success from his commanding position because the Russian batteries stood lower (OCR). Schönhals has the village in front of Lannes's wing occupied with guns and a light infantry regiment under Claparède (OCR) and does not call it fortified. Before the battle Napoleon had retrenchments built with much show and garnished with artillery on the heights his advance guard then crowned, as if he meant to keep them (Victoires, OCR); in its account he later withdrew his outposts to Telnitz, Sokolnitz and Schlapanitz (OCR), and the passages read do not say that those works were used in the battle. At Telnitz the French infantry fought from the ditch that surrounded the village like an entrenchment (Schönhals, OCR), a ditch bordering the vines that Victoires calls a natural retrenchment (OCR). No passage read names works on side B's side.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Code A_fortified: Victoires's page image says Napoleon had the santon fortified and occupied, with eighteen guns in battery, and both accounts have side B attack the position (OCR). The retrenchments built for show before the battle and the ditch at Telnitz are recorded but do not decide the code: the former stood on heights the French then gave up, by Victoires's account, and the latter is a ditch of the village, which Victoires calls a natural retrenchment. The santon's works were Napoleon's choice, so the claim is tagged commander_created. English renderings (ours): Victoires, as in claim austerlitz-ground for the santon; 'eighteen pieces of cannon were placed there in battery, and it was guarded by the seventeenth regiment of light infantry, under the orders of General of Brigade Claparède, of the division Suchet' (p. 238); 'that famous position of the santon of which we have already spoken, defended by eighteen pieces of cannon, and guarded by the seventeenth light infantry, under the orders of General Claparède' (p. 258, OCR, its figures as on the p. 238 image); as in claim side-b-command for Bagration's attack; 'the French artillery, firing with liveliness and precision on the Russian troops, soon forced them to fall back as far as Posorzitz' (p. 258, OCR); as in claim side-b-information for the retrenchments and the outposts; '[nature had] formed a natural retrenchment around the village; the vines were bordered by a ditch in which the French held themselves as in a covered way' (p. 245, OCR); Schönhals, 'there now arose a murderous cannonade, which, however, was kept up on the enemy's side from his commanding position with overwhelming success, since the Russian batteries stood lower' (p. 165, OCR); 'in front of it, it had the village of TwaroJna (so the OCR), which was occupied with ... (OCR) guns and the ... (OCR) light infantry regiment under the command of General Claparède' (p. 158, OCR); 'the enemy had thrown his infantry into the ditch that surrounded the village like an entrenchment' (p. 159, OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "La position du santon morave était très-favorable, et Napoléon l'avait fait fortifier et occuper avec d'autant plus de soin, qu'il la regardait comme la clef de ses opérations offensives¹."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "Dix-huit pièces de canon y étaient placées en batterie, et elle était gardée par le dix-septième régiment d'infanterie légère, sous les ordres du général de brigade Claparède, de la division Suchet."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p238-figures-v1",
+          "section": "p238",
+          "locator": "Victoires et conquêtes, t. XV, p. 238 (transcribed from the page image)",
+          "quote": "la gauche du maréchal Lannes était appuyée à une hauteur sur laquelle était autrefois une chapelle funéraire musulmane, construite par les Turcs lorsqu'ils étaient maîtres de la Hongrie et d'une partie de la Moravie, ce qui avait conservé à cette hauteur la dénomination de santon."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "cette fameuse position du santon dont nous avons déjà parlé , défendue par dix-huit pièces de canon , et gardée par le dix-septième d’infanterie légère, sous les ordres du général Claparède."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "Ignorant encore toute la force de cette position, le prince Bagration n’hésita point à l’attaquer, dans l’espoir de s’en rendre promptement maître ; mais il ne tarda pas a être dé- sabusé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 258 (OCR running heads; not checked against print)",
+          "quote": "L’artillerie française , tirant avec vivacité et précision sur les troupes russes, les obligea bientôt de rétrograder jus- qu’à Posorzitz,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 165 (OCR page breaks; not checked against print)",
+          "quote": "Überdrüssig, länger ein Zuschauer des vermeintlichen Sieges zu bleiben, befahl er eine all- gemeine Vorrttckung seines Corps."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 165 (OCR page breaks; not checked against print)",
+          "quote": "Es entstand nun eine mÖrderiBche Kanonade, die aber von Seiten des Feindes aus seiner beherrschenden Stellung mit überwiegendem Erfolg unterhalten wurde, da die russischen Batterien tiefer standen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "vor seiner Front hatte er das Dorf TwaroJna, das mit 18 Kanonen and dem 17. leichten Infanterie- Begiment unter dem Befehle des Qenerals ClaparMe besetzt war."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 229 (OCR running heads; not checked against print)",
+          "quote": "comme s’il eût eu le dessein de garder ces dernières posi- tions, l’empereur de$ Français fit travailler avec beaucoup d’appareil a des retranchemens que l’on garnit d’artillerie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 235 (OCR running heads; not checked against print)",
+          "quote": "puis il avait fait retirer ses avant-postes jusqu’à Telnitz, Sokolnitzet Schlapanitz, comme paraissant intimidé de l’approche des forces immenses- qu’il avait à combattre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Victoires et conquêtes, t. XV, p. 245 (OCR running heads; not checked against print)",
+          "quote": "formé un retranchement naturel autour du village, les vignes , 8 n 5 _ a „, lv étaient bordées par un fossé dans lequel les Français se te- All«auagn«. naient comme dans un chemin couvert."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 159 (OCR page breaks; not checked against print)",
+          "quote": "Der Feind hatte seine Infanterie in den Graben geworfen , der das Dorf wie eine Verschanzung umgab."
+        }
+      ],
+      "code": "A_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the bulletins of the Grande Armée and Napoleon's correspondence, the corps reports from which Victoires says the French loss was estimated, and Savary's account, none inspected; Russian accounts of the battle, which neither account cites in the passages read; Dumas's Précis, which Schönhals cites for the French strength and loss, not inspected; the enclosure (Beilage) that Schönhals's p. 156 says gives the strength of the Austrian troops and of Merveldt's corps, not inspected; Alombert and Colin's t. IV, which ends before Ober-Hollabrunn and so before this battle; Bodart's officer-loss table for the battle, not in the frame transcription; the body of Schönhals's order of battle (pp. 177-178), transcribed only for the 3rd column and the recapitulation, the battalion sums of its other blocks having been checked on the images against the recapitulation; Victoires's footnote (OCR) in which a captured Langeron names the Emperor Alexander and then Kutusow as commanding the Russian army, read and not cited; and the narratives of the fighting in the north (Liechtenstein, Constantine, Murat and Bernadotte) in both accounts, read and cited only where they bear on the dimensions. Figures seen only in the OCR and not restated in values: Kollowrath's column, the fighting at Telnitz and Sokolnitz, the prisoners and guns taken at Sokolnitz, at Augezd and in the night, the gun park on the Augezd lake, the Austrian loss on the Pratzen heights, Bagration's loss, Przybyszewsky's capture, the drowned by the Tellnitz priest's count, the French reserve's guns, the allied consumers, Essen's and Archduke Charles's strengths, the hours of the allied march and of Napoleon's order to attack; the page numbers of the OCR quotes, read from the OCR running heads and page breaks.",
+    "Most consequential gap: side B's strength. Bodart gives 83,000 (67,000 infantry and 16,000 cavalry in 114 battalions and 148 squadrons, 16,000 of them Austrians); Victoires gives eighty-two thousand and forty on the march of 27 November and nearly a hundred thousand on the eve of the battle; Schönhals nearly 89.000 men and 20.000 horses on 25 November. The targeted follow-up registered and read Schönhals's order of battle of the allied army at Austerlitz (pp. 177-178, page images; claim schoenhals-side-b): its recapitulation sums to 114 battalions, 10 companies, 170¾ squadrons, 82575 men and 16565 horses, so Bodart's 114 battalions and 83,000 agree with it (82575 rounded up, our arithmetic), while his 148 squadrons and 16,000 cavalry are not the table's 170¾ squadrons and 16565 horses; the table gives no guns, three companies and a squadron of horse artillery arrived only after the battle, and the 3rd column's rows sum to 16 battalions against the recapitulation's 18. The table does not separate the Austrians, so Bodart's 16,000 Austrians and Victoires's about eighteen thousand remain unchecked; the enclosure on the Austrian troops could close that.",
+    "Disputes recorded in the claims: side B's strength (Bodart 83,000; Victoires more than eighty thousand on 25 November, eighty-two thousand and forty on the 27th, nearly a hundred thousand on the eve of the battle, a hundred thousand in the proclamation; Schönhals nearly 89.000 on the 25th and 82575 in its order of battle); the Austrians (Bodart 16,000; Victoires about eighteen thousand); the Russian guard (Victoires nine thousand and eight thousand five hundred; Schönhals 10.000 men and 6000 horses, and 9380 men and 2900 horses in its table); side A's loss (Bodart 10,000 killed and wounded; Victoires two thousand dead and four or five thousand wounded; Dumas, by Schönhals, 800 dead and 6000 wounded); side B's loss (Bodart 36,000, of which 20,000 prisoners and 6,000 Austrians; Victoires more than forty thousand; Schönhals 5922 Austrians and about 15.000 Russian prisoners and 5000 to 6000 Russian dead and wounded); prisoners, generals, guns and flags (Bodart; Victoires's narrative; the proclamation); the drowning (Victoires against Schönhals); Oudinot's grenadiers (Schönhals p. 169 against p. 167, OCR); Valhubert's death (Victoires p. 267 against p. 271). The accounts agree on the date, the allied flank march against the French right, the French attack on the Pratzen heights, the break of the allied centre, Bagration's attack on the santon, the French holding of the allied position of the day before and the allied retreat to Hodiegitz.",
+    "Families and dependence: Bodart (a compilation; his 114 battalions and 83,000 for side B agree with Schönhals's order of battle, his 65,000 for side A with the French figure Schönhals reports and Dumas's, and his 45 flags with Victoires's narrative; his cavalry, squadrons, guns, losses and Austrians are not in the passages read); Victoires et conquêtes, t. XV (the French compilation of 1819; it prints Napoleon's proclamation and puts the French loss as estimated at the time from the corps' reports, and how far its narrative depends on the bulletins was not checked); Schönhals (the Austrian account written in 1831 and printed in 1873, which by its preface draws what it says of the French army's operations from that army's bulletins, and here cites Dumas for the French figures, so for side A the two accounts may share French sources; on side B's strength, losses and the drowning they differ)."
+  ]
+}
+```
+
 
 ### B370a: GEFECHT bei Steken (5./12. 1805)
 
@@ -22066,6 +24914,1213 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": false,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B370a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's action at Steken (Stecken, Stöcken; 5 December 1805) in cohort v1's third-coalition 1805 group: Archduke Ferdinand's attack on Wrede's Bavarian corps in its positions at Stecken and Wonau, its retreat by Pfauendorf and the Sandhöfe and its evacuation of Iglau in the night. Wrede's attack on Stecken of 3 December (Völderndorff), the outpost fights after 27 November and the truce and evacuation of Iglau after Austerlitz are context. Side A is the Bavarian corps, an ally of France. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Austrian) 17 battalions, 2,000 horse and 40 guns, 11,000 men, under Archduke Ferdinand of Austria, and side A (Bavarian) 10 battalions and 8 squadrons, 7,000 men, under GM Wrede. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 17 battalions, 2,000 horse and 40 guns for side B are Völderndorff's (claim voelderndorff-side-b); his 11,000 is not in the passages read, and the other accounts differ: Völderndorff has the Bavarians hold against an army 30,000 strong, and Schönhals gives the Archduke's corps 13 battalions and about 18 squadrons, 8294 men, by an undated report of the Archduke that he gives after the corps' junction at Czaslau on 24 November (claim schoenhals-side-b). His 10 battalions, 8 squadrons and 7,000 for side A are not in the passages read; neither other account gives side A's strength on 5 December (claims voelderndorff-side-a and schoenhals-side-a). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the Austrians (17 battalions, 2,000 horse, 40 guns = 11,000 men) under Archduke Ferdinand of Austria over the Bavarians (10 battalions, 8 squadrons = 7,000 men) under GM Wrede'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Sieg der Österreicher (17 Btln., 2.000 Reiter, 40 Kan. = 11.000 M.) unter Erzhz. Ferdinand v. Österreich über die Bayern (10 Btln., 8 Esk. = 7.000 M.) unter GM. Wrede."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "voelderndorff-side-a",
+      "dimension": "strength",
+      "value": "Side A (Bavarian), its own account in Völderndorff: when Bernadotte left with his divisions for Brünn on 29 November, only the Bavarians were left facing the Archduke's corps; Wrede had three regiments of horse but barely 400 serviceable horses among them, and no more than 4,500 foot with six guns, having had to leave as many guns at Mautern by order to cover the army's baggage; Mezanelli's brigade could arrive only in five days, General Karg's in seven and the 4th Chevauxlegers Regiment Bubenhofen after four. On 5 December one battalion of the 7th Line Regiment held the market town of Stecken and the other the heights behind it; to the left stood the first and second battalions of the third Line Regiment (Herzog Karl), the light battalion Dietfurth and the 2nd Chevauxlegers Regiment with a battery; to the right the second and, at Wonnau, the first battalion of the eighth regiment, the light battalion Stengel and the Kurprinz Chevauxlegers, barely 180 horses strong; the rest stood in reserve in and near Iglau under General Count Franz Minuzzi. Völderndorff calls the Bavarians 'the small band'. He gives no total for 5 December.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history, read from the page images. The figures of 29 November precede the arrival of reinforcements that Völderndorff reports in the OCR (the 4th Chevauxlegers on the first day of December, a dragoon regiment from Mezanelli's brigade and the guns left at Mautern) and are not side A's strength on 5 December; he gives the number of horse Wrede drew up at the Sandhöfe in the OCR only, so it is not restated. The force was what Bernadotte's departure left Wrede, so the claim is tagged inherited. English renderings (ours): 'therefore even Davoust had to hasten up from Pressburg, Hungary being quiet, and Marshal Bernadotte with the divisions Kellermann, Drouet and Rivaud speedily (29th November) toward Brünn'; 'only the Bavarians were left facing Archduke Ferdinand's army corps'; 'General Wrede did have three regiments of cavalry with him, but among them barely 400 horses fit for service; besides, no more than 4,500 men of foot with six guns'; footnote, 'just as many guns he had had to leave behind at Mautern, on orders received, to cover the army's baggage'; 'for the arrival of Mezanelli's brigade could be possible only in five days, that of General Karg in seven; likewise the 4th Chevauxlegers Regiment Bubenhofen could arrive only after four days'; 'one battalion of the 7th Line Regiment held the market town itself, with outposts ahead of it, the other battalion the heights behind it'; 'to the left of the place stood the first and second battalions of the third Line Regiment (Herzog Karl), between them the light battalion Dietfurth, and in front the 2nd Regiment of Chevauxlegers with a battery'; 'to the right of the place were posted first the second, then at Wonnau the first battalion of the eighth regiment, between the two the light battalion Stengel, and in their support the regiment of Kurprinz Chevauxlegers'; 'the rest of the troops stood as reserve in and near Iglau under General Count Franz Minuzzi'; 'the Kurprinz Chevauxlegers Regiment (barely 180 horses strong)'; 'the small band of the Bavarians' (p. 299).",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Darum mußte, selbst Davoust, weil Ungarn ruhig war, von Preßburg herbeieilen, und Marschall Bernadotte mit den Divisionen Kellermann, Drouet und Rivaud schleunig (29sten November) gegen Brünn."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Nur die Baiern wurden dem Armee-Corps des Erzherzogs Ferdinand gegen über zurückgelassen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Wohl hatte General Wrede drei Regimenter Reiterei bei sich, aber darunter kaum 400 dienstfähige Pferde; dazu nicht mehr als 4,500 Mann Fußvolks nebst sechs Kanonen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Eben so viele Kanonen hatte er, auf erhaltenen Befehl, zur Deckung des Heergepäcks bei Mautern zurücklassen müssen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Denn die Ankunft von Mezanelli's Brigade konnte erst in fünf, die des Generals Karg in sieben Tagen möglich seyn; eben so das 4te Chevauxlegers-Regiment Bubenhofen erst nach vier Tagen eintreffen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Ein Bataillon des 7ten Linien-Regiments hielt den Marktflecken selbst, mit Vorposten vor demselben, das andere Bataillon die Höhen hinter demselben besetzt."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Links dem Ort stand das erste und zweite Bataillon des dritten Linien-Regiments (Herzog Karl), zwischen beiden das leichte Bataillon Dietfurth, und voran das 2te Regiment Chevauxlegers mit einer Batterie."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Rechts dem Ort war zunächst das zweite, dann bei Wonnau das erste Bataillon des achten Regiments, zwischen beide das leichte Bataillon Stengel aufgestellt, und zu ihrer Unterstützung das Regiment von Kurprinz-Chevauxlegers."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Die übrigen Truppen standen, als Reserve, in und bei Iglau, unter dem General Grafen Franz Minuzzi."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-p297-figures-v1",
+          "section": "p297",
+          "locator": "Völderndorff (1826), p. 297 (transcribed from the page image)",
+          "quote": "Aber im Augenblick der größten Gefahr stürzte sich das Chevauxlegers-Regiment Kurprinz (kaum 180 Pferde stark) dem Feinde im Orte selbst so keck und gewaltig entgegen, daß nicht nur jenes Bataillon den Rückzug bewerkstelligen, sondern daß auch das Regiment Herzog Karl mit zwei Kanonen unter Lieutenant Haibe den Ort erreichen, und sich mit dem 7ten Regiment vereinigen konnte."
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-a",
+      "dimension": "strength",
+      "value": "Side A (Bavarian) in Schönhals, the Austrian account: after the I French Corps left Iglau to march to Austerlitz, Wrede remained alone with his division of Bavarians; on 5 December the enemy had taken a strong position at Wonau on both sides of the road and held Stöcken strongly. Schönhals gives no figure for side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history on side A, read from the page image. The force was what the I Corps' departure left Wrede, so the claim is tagged inherited. English renderings (ours): 'Wrede remained behind alone with his division of Bavarians'; 'for the 5th the general attack on the enemy was decided'; 'the enemy had taken up a strong position at Wonau, on both sides of the road, whose wings rested on almost impenetrable woods'; 'the enemy held Stöcken strongly'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Wrede blieb mit seiner Division Bayern allein zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die Thätigkeit des Feindes auf allen Punkten und seine allgemeine Vorrückung hatten den Erzherzog schon zu dem Entschlusse bewogen, den Angriff in einer mehr vortheilhaften Stellung bei Czaslau zu erwarten, als sich die Absicht des Feindes aufklärte, damit nur den Abzug des 1. französischen Corps zu verhüllen, das am 29. von Iglau aufbrach, um zur Schlacht von Austerlitz zu marschiren."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Auf den 5. ward der allgemeine Angriff auf den Feind beschlossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hatte bei Wonau, zu beiden Seiten der Strasse, eine starke Stellung bezogen, deren Flügel an fast undurchdringliche Wälder gelehnt waren."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hielt Stöcken stark besetzt; dieser Ort ward in der rechten Flanke angegriffen; und in der linken von einer Abtheilung Rosenberg-Chevauxlegers umgangen; der Feind musste ihn mit bedeutendem Verluste räumen."
+        }
+      ]
+    },
+    {
+      "id": "voelderndorff-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Völderndorff: Archduke Ferdinand brought 17 battalions, 2000 horses and 40 guns with him; at the attack of 5 December the Austrians were 17 battalions strong, counting the Bohemian sharpshooters, with 2,000 horse and 40 guns besides; the small band of Bavarians held its position at the Sandhöfe against the enemy army, 30,000 men strong. Before the attack, Völderndorff says (OCR), the Archduke had the greatest superiority in foot, horse and guns, increased it by drawing in the detachments of Colonels Count Kinsky and Wartensleben, and sent a whole brigade aside toward Windig-Jenikau.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's history on side B, read from the page images except the Archduke's concentration and the brigade sent aside (OCR). Völderndorff's 30,000 is far above his own 17 battalions and 2,000 horse, Bodart's 11,000 and Schönhals's 8294 (claims bodart-strength and schoenhals-side-b); the passages read do not explain it. The Archduke drew in detachments and sent a brigade aside before attacking, so the force engaged is tagged commander_created. English renderings (ours): 'it was indeed to be foreseen that Archduke Ferdinand, who brought 17 battalions, 2000 horses and 40 guns with him, would from Czaslau and Benneschau [undertake] a decisive movement into Moravia against the left flank and in the rear of the French' (p. 287); 'they were, including the Bohemian sharpshooters, 17 battalions strong, and brought with them besides 2,000 men of cavalry and 40 guns'; 'from four in the afternoon until half past two the next morning the small band of the Bavarians held its position at the Sandhöfe against the enemy army, 30,000 men strong'; 'he had the greatest superiority in foot, cavalry and guns' (OCR); 'when he also drew to himself the detachments of the colonels Count Kinsky and Wartensleben' (OCR); '[he had sent] a whole brigade aside toward Windig-Jenikau' (OCR).",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Es war allerdings vorauszusehen, daß Erzherzog Ferdinand, welcher 17 Bataillone, 2000 Pferde und 40 Kanonen mit sich führte, von Czaslau und Benneschau her eine entscheidende Bewegung nach Mähren gegen den linken Flügel und im Rücken des französischen"
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Sie waren mit Einschluß der böhmischen Schützen, 17 Bataillons stark, und führten außerdem 2,000 Mann Reiterei und 40 Kanonen mit sich."
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 291 (OCR page breaks; not checked against print)",
+          "quote": "Er hatte an Fußvolk, Reiterei und Geſchuͤtz die größte Ueberlegenheit,"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 291 (OCR page breaks; not checked against print)",
+          "quote": "als er auch die Abtheilungen der beiden Obere ſten Grafen Kinsky und Wartensleben an ſich zog."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "eine ganze Brigade ſeitwaͤrts nach Windig⸗ Jenikau geſchickt,"
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), its own account in Schönhals: after the Archduke's junction with Hohenzollern's cavalry at Czaslau on the 24th (of November), reinforcements had raised his corps to 13 battalions and about 18 squadrons, 8294 men, of whom 1292 horse, by a report of the Archduke that Schönhals does not date; he refers to his appendices for the order of battle of 26 November (Beilage 35) and the state of the corps at the end of November (Beilage 37). For the attack of the 5th: a left column under Colonel Vacquant of 3 battalions and 2 squadrons, a centre under FML Hohenzollern of 4 battalions and 6 squadrons, and a reserve under General Dinersperg of 3 battalions and 4 squadrons; Deutschbrod was held by one battalion, and a side column that was not to attack covered the right flank. His footnote lists also a right column under Colonel Civallart (2 battalions, 3 squadrons of Rosenberg chevauxlegers, half a cavalry battery) and the side column under Colonel Plouquet (1 battalion, 2 squadrons of Blankenstein hussars), and gives the reserve's cavalry as cuirassier detachments.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images. The footnote's five columns hold 13 battalions (our arithmetic), besides the battalion left at Deutschbrod; the text names only three columns, and the difference is not explained in the passages read. The appendices were not inspected. The Archduke formed the columns for his attack, so the claim is tagged commander_created. English renderings (ours): 'on the 20th the Archduke arrived at Wlaschim and on the 24th joined at Czaslau the Hohenzollern cavalry, which was 1098 horses strong'; 'the corps had grown through the reinforcements arriving one after another to 13 battalions and about 18 squadrons, whose strength according to a report of the Archduke was 8294 men, of whom 1292 horse'; 'appendix 35 gives the order of battle of the corps on 26 November'; 'appendix 37 gives the state of the corps at the end of November'; 'it was made in three columns: the first or left, under Colonel Vacquant, consisted of 3 battalions, 2 squadrons, the centre, which marched on the high road, under FML Hohenzollern, of 4 battalions, 6 squadrons'; 'General Dinersperg commanded the reserve; it was 3 battalions, 4 squadrons strong'; 'Deutschbrod remained occupied with one battalion; the right flank was covered by a side column, which was not to attack'; footnote, 'left column: Colonel Vacquant, 3 battalions Gemmingen, 2 squadrons Latour, ½ cavalry battery. Centre: FML Hohenzollern, GM Wratislaw, 1 battalion Reuss-Greiz, 1 battalion Reuss-Plauen, 1 battalion Erbach, 1 battalion Colloredo, 4 squadrons Hohenlohe dragoons, 2 squadrons Merveldt uhlans. Right column: Colonel Civallart, 1 battalion Maximilian, 1 battalion Gemmingen, 3 squadrons Rosenberg chevauxlegers, ½ cavalry battery. Reserve: General Dinersperg, 1 battalion Rainer, 2 battalions Stuart, cuirassier detachments of Mack, Hohenzollern, Albert. Side column: Colonel Plouquet, 1 battalion Froon, 2 squadrons Blankenstein hussars'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p145-figures-v1",
+          "section": "p145",
+          "locator": "Schönhals (1873), p. 145 (transcribed from the page image)",
+          "quote": "Am 20. traf der Erzherzog in Wlaschim ein, und vereinigte sich am 24. in Czaslau mit der Hohenzoller'schen Cavallerie, die 1098 Pferde stark war."
+        },
+        {
+          "source_id": "schoenhals-1873-p145-figures-v1",
+          "section": "p145",
+          "locator": "Schönhals (1873), p. 145 (transcribed from the page image)",
+          "quote": "Das Corps war durch die nach und nach eingetroffenen Verstärkungen auf 13 Bataillone und ungefähr 18 Escadronen angewachsen, deren Stärke nach einem Berichte des Erzherzogs 8294 Mann, davon 1292 Reiter betrug."
+        },
+        {
+          "source_id": "schoenhals-1873-p145-figures-v1",
+          "section": "p145",
+          "locator": "Schönhals (1873), p. 145 (transcribed from the page image)",
+          "quote": "Die Beilage 35 gibt die Ordre de bataille des Corps am 26. November."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Den Stand des Corps Ende November gibt die Beilage 37."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Auf den 5. ward der allgemeine Angriff auf den Feind beschlossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Er geschah in drei Colonnen: Die erste oder linke, unter Oberst Vacquant, bestand aus 3 Bataillonen, 2 Escadronen¹), die Mitte, welche auf der grossen Strasse marschirte, unter FML. Hohenzollern, aus 4 Bataillonen, 6 Escadronen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die Reserve befehligte General Dinersperg; sie war 3 Bataillone, 4 Escadronen stark."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Deutschbrod blieb mit einem Bataillon besetzt; die rechte Flanke war durch eine Seiten-Colonne, die nicht angreifen sollte, gedeckt."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Linke Colonne: Oberst Vacquant, 3 Bataillone Gemmingen, 2 Escadronen Latour, ½ Cavallerie-Batterie."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Mitte: FML. Hohenzollern, GM. Wratislaw, 1 Bataillon Reuss-Greiz, 1 Bataillon Reuss-Plauen, 1 Bataillon Erbach, 1 Bataillon Colloredo, 4 Escadronen Hohenlohe-Dragoner, 2 Escadronen Merveldt-Uhlanen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Rechte Colonne: Oberst Civallart, 1 Bataillon Maximilian, 1 Bataillon Gemmingen, 3 Escadronen Rosenberg-Chevauxlegers, ½ Cavallerie-Batterie."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Reserve: General Dinersperg, 1 Bataillon Rainer, 2 Bataillone Stuart, Cürassier-Abtheilungen von Mack, Hohenzollern, Albert."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Seiten-Colonne: Oberst Plouquet, 1 Bataillon Froon, 2 Escadronen Blankenstein-Huszaren."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Archduke Ferdinand of Austria as side B's commander and GM Wrede as side A's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both other accounts have the Archduke command side B and Wrede side A (claims side-b-command and side-a-command). Völderndorff calls Wrede Generallieutenant, against Bodart's GM; Schönhals calls him General. English rendering (ours): 'under Archduke Ferdinand of Austria over the Bavarians (10 battalions, 8 squadrons = 7,000 men) under GM Wrede'; Völderndorff, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "unter Erzhz. Ferdinand v. Österreich über die Bayern (10 Btln., 8 Esk. = 7.000 M.) unter GM. Wrede."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Der Generallieutenant Wrede verwarf den Gedanken an jene, welche den verderblichsten Einfluß auf die Unternehmungen der großen Armee haben konnte, von der er seit fünf Tagen ohne alle Nachricht geblieben war."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Wrede commanded side A. In Völderndorff, two days before, deprived of hope of support and outflanked, he had rejected a retreat and resolved to stay and attack, to break the enemy's centre and force him to draw back his wings, so delaying the Bavarians' destruction and gaining time, and on 3 December had attacked from Pfauendorf. For 5 December he had drawn Stecken, remote as it was, into his line of defence, partly to keep his opponent from coming too close to Iglau (OCR), partly to deny him the plain, since in the defiles he could resist with fewer men; he entrusted the defence of the position to Colonel Count Preysing, Major von Lindenau commanded the outpost line, and General Count Franz Minuzzi the reserve in and near Iglau. Seeing his left wing in full retreat and his centre and right in an unfavourable position, Wrede ordered all parts to fall back to defend Iglau before the enemy could get there first (OCR); while Minuzzi led the infantry to Iglau, Wrede took the head of all the cavalry to cover the retreat across the plain, drew it up at the Sandhöfe and made it swear to die rather than abandon the infantry and artillery to the enemy (OCR). The Bavarians held there from four in the afternoon until half past two the next morning, until the infantry with artillery and baggage had formed before Iglau and continued its retreat through the town toward Budwitz in good order.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as Völderndorff gives them, read from the page images except the start of the sentence on the line (p. 295), the retreat order, the cavalry and the oath (p. 298) and the preface (OCR). Völderndorff names among his sources the official reports of the commanders, above all the Bavarian ones, and the communications of Field Marshal Prince Wrede (preface, OCR), so for Wrede's decisions he may rest on Wrede's own account. Schönhals names Wrede only as the commander left behind and as the one who later told the Archduke of Austerlitz and denounced their truce (claims schoenhals-side-a and bodart-winner). The decision of 3 December led to a separate action, not this engagement. English renderings (ours): 'now, robbed of all prospect of near support, and already outflanked left and right by the enemy masses, there seemed no choice left but between a retrograde movement and the destruction of the Bavarian force'; 'Lieutenant-General Wrede rejected the thought of the former, which could have had the most ruinous influence on the undertakings of the great army, from which he had been without any news for five days'; 'he took the resolution to stay, to attack the enemy, to break through his centre, and in this way to force him to draw back his already advanced wings too'; 'thereby, if not prevented, the destruction was at least delayed and time gained'; 'the troops were (3rd December) drawn up at Pfauendorf, then led to the attack'; 'Wrede, partly so as not to allow his opponent too close an approach' (p. 295, OCR) 'to Iglau, partly so as not to concede him the advantage of the plain for the easier deployment of all his forces, had drawn Stecken, remote as it was, into his line of defence' (p. 296); 'here in the defiles he could resist more easily with fewer men'; 'he had entrusted the defence of this position to Colonel Count Preysing'; 'Major von Lindenau held the command of the whole chain of outposts'; as in claim voelderndorff-side-a for the reserve; 'but when Wrede now saw the left wing already in full retreat, the centre and the right wing in an unfavourable position against the superior enemy, he ordered the retrograde movement of all parts to the defence of Iglau, before the enemy could forestall him there' (OCR); 'while Minuzzi led all the infantry to Iglau, Lieutenant-General Wrede put himself at the head of all the cavalry, to cover the retreat, dangerous across the plain' (OCR); 'only at the edge of the wood lying between Stecken and Pfauendorf, in the fields by the so-called Sandhöfe, was he able [to form] this cavalry' (OCR); 'here he demanded of them the oath to perish rather than through cowardice to abandon the whole infantry and artillery to the enemy' (OCR); as in claim voelderndorff-side-b for the stand at the Sandhöfe; preface, 'the sources from which I drew above all the details of my picture were the various archives, the official reports of the various commanders, in particular the Bavarian commanders, and their written and oral accounts' (OCR); '[among them] His Highness Field Marshal Prince Wrede' (OCR).",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Nun also aller Aussicht auf nahe Unterstützung beraubt, und links und rechts schon von den feindlichen Massen überflügelt, schien keine Wahl übrig zu bleiben, als zwischen einer rückgängigen Bewegung, oder dem Untergange des baierischen Heerhaufens."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Der Generallieutenant Wrede verwarf den Gedanken an jene, welche den verderblichsten Einfluß auf die Unternehmungen der großen Armee haben konnte, von der er seit fünf Tagen ohne alle Nachricht geblieben war."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Er faßte den Entschluß zu bleiben, den Feind anzugreifen, dessen Heermitte durchzubrechen, und auf diese Weise ihn zu zwingen, auch die schon vorgeschobenen Flügel wieder zurück zu ziehen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Damit ward, wenn auch nicht der Untergang verhindert, doch verzögert und Zeit gewonnen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Die Truppen wurden (3ten December) bei Pfauendorf aufgestellt, dann zum-Angriff geführt."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Wrede, theils um ſeinem Gegner keine zu große Annaͤherung"
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "gegen Iglau, theils ihm nicht den Vortheil der Ebene zur leichtern Entfaltung aller Streitkräfte einzuräumen, hatte Stecken, so entlegen es auch war, in seine Vertheidigungs-Linie gezogen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Hier konnt' er in den Engwegen mit geringerer Mannschaft bequemer widerstehen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Die Vertheidigung dieser Stellung hatte er dem Obersten Grafen Preysing übertragen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Den Befehl der ganzen Vorpostenkette führte Major von Lindenau."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Die übrigen Truppen standen, als Reserve, in und bei Iglau, unter dem General Grafen Franz Minuzzi."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Allein da nun Wrede den linken Fluͤgel ſchon in vollem Ruͤck⸗ zug, die Mitte und den rechten Fluͤgel gegen den uͤber⸗ legenen Feind in unguͤnſtiger Stellung erblickte, ordnete er die ruͤckgaͤngige Bewegung aller Theile zur Verthei⸗ digung von Iglau an, eh' ihm der Feind dahin zuvor⸗ kommen kounte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Wahrend Minuzzi das geſammte Fußvolk nach Iglau führte, ſtellte ſich Generallieutenant Wrede ſelbſt an die Spitze ſaͤmmtlicher Reiterei, den über die Ebene gefahrvollen Ruͤckzug zu decken."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Erſt am Ausgang des zwiſchen Stecken und Pfauendorf gelegenen Waldes, in den Feldern bei den ſogenannten Sandhoͤfen, war er im Stande, dieſe Reiterei,"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Hier ſorderte er ihnen den Schwur ab, lieber unterzugehen, als durch Feigheit die geſammte Infanterie und Artll⸗ lerie dem Feinde Preis zu geben,"
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "preface-sources",
+          "locator": "Völderndorff (1826), preface (OCR; not checked against print)",
+          "quote": "Die Quellen, aus denen ich vorzugsweiſe die Einzelnheiten meines Gemaͤldes ſchoͤpfte, waren die verſchiedenen Arch ve, die amtlichen Berichte der verſchiedenen Heerfuͤhrer, insbeſondere der bayeri⸗ — v ſchen Heerfuͤhrer und deren ſchriftliche und muͤnd⸗ liche Ueberlieferungen,"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "preface-sources",
+          "locator": "Völderndorff (1826), preface (OCR; not checked against print)",
+          "quote": "und Sr. Durchlaucht des Feldmarſchalls Fuͤrſten Wrede zu nennen wage,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Archduke Ferdinand commanded side B and decided the attack. In Schönhals, on learning that the I French Corps had left, he resolved to use this weakening of the enemy for an attack; on 1 December he moved his headquarters to Deutschbrod; the general attack was decided for the 5th, in columns under Colonel Vacquant (left), FML Hohenzollern (centre) and General Dinersperg (reserve), all to be ready by noon; the left wing began the attack from Smilau by Bosowitz, Stöcken was attacked in its right flank and turned on its left by a detachment of Rosenberg chevauxlegers; the left wing and centre pressed on against the Wonau position while the right advanced by Wokolczan (OCR); at Pfauendorf the left wing turned the game park while it was attacked in front. In Völderndorff, the Archduke resolved to attack and destroy the Bavarians with all his forces and to march in the rear of the French (OCR); the brigade he had sent toward Windig-Jenikau could have taken Iglau in the Bavarians' rear and cut off their retreat, and the Bavarians owed it to luck alone that it did not, though this is said to have been the Archduke's order (OCR); he commanded the centre in person, Feldzeugmeister Count Kollowrath the left wing and General Count Hohenzollern the right.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as both accounts give them (page images except Völderndorff's resolution and brigade sentences and Schönhals's sentence on the Wonau position, OCR). The accounts differ on who led the wings: Völderndorff has Kollowrath lead the left and Hohenzollern the right, Schönhals has Vacquant lead the left column and Hohenzollern the centre. Schönhals's account of Austerlitz names an FML Count Kollowrat as the commander of an allied column on 2 December (OCR); the passages read do not say whether Völderndorff's Feldzeugmeister is the same man. English renderings (ours): Schönhals, 'no sooner did the Archduke learn of the departure of the 1st enemy corps than he resolved to use this weakening of the enemy for an attack'; 'on 1 December he moved his headquarters to Deutschbrod'; 'for the 5th the general attack on the enemy was decided'; as in claim schoenhals-side-b for the columns; 'the left column assembled at Smilau, the two others behind Blumendorf, the reserve on the height before Deutschbrod; all were to be ready at noon'; 'the left wing began the attack, for which it advanced from Smilau by Bosowitz'; 'this place was attacked in the right flank and turned on the left by a detachment of Rosenberg chevauxlegers; the enemy had to evacuate it with considerable loss'; 'after these advantages the left wing and the centre,' (p. 174) 'which followed the road, continued their attacking movements with much resolution against the position of Wonau, while the right advanced by ... (OCR) Wokolczan, so that the enemy was forced to leave his position with loss and in disorder' (p. 175) (OCR); 'at Pfauendorf, where ponds and a large game park narrow the ground very much and the pursuing column was confined to the high road, the enemy tried to make a stand once more; but the left wing went round the game park while at the same time its attack in front took place'; Völderndorff, 'Archduke Ferdinand, on the other hand, to whom the small number of the Bavarians, their abandonment, their distance from the main army and the non-arrival of Mezanelli's brigade were known, who knew the day of the decisive battle between the main armies to be near, resolved to undertake with all his forces the attack and destruction of the Bavarians and the march in the rear of the French power' (OCR); 'the Austrian brigade could therefore, at the moment when the Archduke attacked the Bavarians at Stecken, take Iglau in their rear and cut off the retreat' (OCR); 'that it did not happen, although it is said to have been the Archduke's order, the Bavarians had to thank the favour of fortune alone for' (OCR); 'Archduke Ferdinand commanded the centre in person, Feldzeugmeister Count' (p. 296) 'Kollowrath the left, General Count Hohenzollern the right wing' (p. 297); Schönhals on Austerlitz, 'FML Count Kollowrat' (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Erzherzog erfuhr nicht sobald den Abzug des 1. feindlichen Corps, als er diese Schwächung des Feindes zu einem Angriffe zu benutzen beschloss."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Am 1. December verlegte er sein Hautquartier nach Deutschbrod."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Auf den 5. ward der allgemeine Angriff auf den Feind beschlossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Er geschah in drei Colonnen: Die erste oder linke, unter Oberst Vacquant, bestand aus 3 Bataillonen, 2 Escadronen¹), die Mitte, welche auf der grossen Strasse marschirte, unter FML. Hohenzollern, aus 4 Bataillonen, 6 Escadronen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die Reserve befehligte General Dinersperg; sie war 3 Bataillone, 4 Escadronen stark."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die linke Colonne sammelte sich bei Smilau, die beiden andern hinter Blumendorf, die Reserve auf der Anhöhe vor Deutschbrod; alle hatten um Mittag bereit zu sein."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der linke Flügel begann den Angriff, zu dem er von Smilau über Bosowitz vorrückte."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hielt Stöcken stark besetzt; dieser Ort ward in der rechten Flanke angegriffen; und in der linken von einer Abtheilung Rosenberg-Chevauxlegers umgangen; der Feind musste ihn mit bedeutendem Verluste räumen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 174 (OCR page breaks; not checked against print)",
+          "quote": "Nach diesen Vortheilen setzte der linke Flügel und die Mitte,"
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 175 (OCR page breaks; not checked against print)",
+          "quote": "welche der StrasBe folgte, ihre Angriflobewagungen mit vieler Ent- schloaaenheit gegen die Stellung von Wonaa fort, während der rechte über Leicfaenho^ Wokolczan voi^eng, so das» der Feind genöthigt wurde, seine Stellung mit Verlust und in Unordnung zu verlassen."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Bei Pfauendorf, wo Teiche und ein grosser Thiergarten das Terrain sehr einengen und die verfolgende Colonne auf die Hauptstrasse beschränkt war, versuchte der Feind sich noch einmal zu stellen; allein der linke Flügel umgieng den Thiergarten, während gleichzeitig dessen Angriff in der Front erfolgte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Erzherzog Ferdinand hingegen, dem die kleine Zahl der Baiern, ihre Verlaſſenheit, ihre Entfernung vom Hauptheer, und die Nichtankunft der Brigade Mez a⸗ nelli bekannt war, der den Tag der entſcheidenden Schlacht zwiſchen den Hauptheeren nahe wußte, beſchloß, mit allen Kraͤften den Angriff und die Vernichtung der Baiern und den Zug im Ruͤcken der franzoͤſiſchen Macht zu unternehmen."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Die dͤſterreichiſche Brigade konnte alſo, in dem Augenblick, da der Erzherzog die Baiern bei Stecken angriff, im Ruͤcken derſelben Iglau nehmen und den Ruͤckzug abſchneiden."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Daß es nicht geſchah, obwohl es des Erzherzogs Befehl geweſen ſeyn ſoll, hatten die Baiern der Gunſt des Gluͤcks allein zu danken."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Erzherzog Ferdinand befehligte in eigner Person die Mitte, Feldzeugmeister Graf"
+        },
+        {
+          "source_id": "voelderndorff-1826-p297-figures-v1",
+          "section": "p297",
+          "locator": "Völderndorff (1826), p. 297 (transcribed from the page image)",
+          "quote": "Kollowrath den linken, General Graf Hohenzollern den rechten Flügel."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "austerlitz",
+          "locator": "Schönhals (1873), p. 158 (OCR page breaks; not checked against print)",
+          "quote": "FML. Graf Kollowrat;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side B (Austrian) under Archduke Ferdinand over side A (Bavarian) under GM Wrede on 5 December. Schönhals: the Bavarians had to evacuate Stöcken with considerable loss and were forced to leave the Wonau position with loss and in disorder (OCR), were thrown out of the wood at Pfauendorf, and, favoured by darkness, retreated quickly and evacuated Iglau in the night; the Austrians occupied it at once, the Archduke moved his headquarters there on the 6th, and the Bavarian rearguard could be reached only at Budwitz. Völderndorff: the Bavarians held their position at the Sandhöfe from four in the afternoon until half past two the next morning, until their infantry with artillery and baggage had formed before Iglau and continued its retreat through the town toward Budwitz in the greatest order; their cavalry's third attack pushed the tired enemy back to his former position, and he no longer dared disturb the retreat (OCR). Schönhals adds that the Archduke won these advantages without knowing of Austerlitz, which had decided the campaign; after a truce of 48 hours, Bernadotte's threat to drive him from Iglau and Wrede's denunciation of the truce, he evacuated Iglau, and the prisoners taken at Stöcken were returned, having been taken while the armistice was already in force.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side B won), read from Bodart's entry, with the other accounts' ending (page images except the Wonau position and the cavalry's third attack, OCR). Both accounts have side A give up Stecken and Iglau and retreat toward Budwitz; Völderndorff stresses the ordered retreat its rearguard covered. The evacuation of Iglau under the armistice concerns the campaign, not the tactical result. English renderings (ours): Bodart, as in claim bodart-strength; '1805 5/12. action at Steken (6.)'; Schönhals, as in claim side-b-command for Stöcken and Wonau; 'the enemy was thrown out of the wood'; 'favoured by the darkness, the enemy continued his retreat quickly; he evacuated Iglau in the night, which the Austrians occupied at once, and the Archduke moved his headquarters there on the 6th'; 'the enemy, pursued on both the Brünn and the Vienna road, had so hurried his retreat that his rearguard could be reached only at Budwitz'; 'the Archduke won these advantages without knowledge of the great events that had decided the fate of the campaign at Austerlitz and brought about the truce'; 'still ignorant of the terms of the armistice, he himself concluded a truce of 48 hours, under which both sides were to remain in possession of the ground their troops held'; 'Hohenzollern met him at Austerlitz; but Bernadotte would hear of no other armistice terms than those concluded between the two emperors, and even threatened to attack the Archduke and drive him out of Iglau by force'; 'since at the same time Wrede denounced the truce, the Archduke saw himself compelled to yield to circumstances and evacuate Iglau'; 'the prisoners of war taken in the action at Stöcken were given back, since they had fallen into captivity while the armistice was already in force'; Völderndorff, as in claim voelderndorff-side-b for the Sandhöfe; 'for the tired enemy was pushed back into his former position, and he no longer dared to disturb further the retreat of the brave troops, who had achieved the incredible' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Sieg der Österreicher (17 Btln., 2.000 Reiter, 40 Kan. = 11.000 M.) unter Erzhz. Ferdinand v. Österreich über die Bayern (10 Btln., 8 Esk. = 7.000 M.) unter GM. Wrede."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "1805 5./12. GEFECHT bei Steken (6.)"
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hielt Stöcken stark besetzt; dieser Ort ward in der rechten Flanke angegriffen; und in der linken von einer Abtheilung Rosenberg-Chevauxlegers umgangen; der Feind musste ihn mit bedeutendem Verluste räumen."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 175 (OCR page breaks; not checked against print)",
+          "quote": "welche der StrasBe folgte, ihre Angriflobewagungen mit vieler Ent- schloaaenheit gegen die Stellung von Wonaa fort, während der rechte über Leicfaenho^ Wokolczan voi^eng, so das» der Feind genöthigt wurde, seine Stellung mit Verlust und in Unordnung zu verlassen."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Der Feind wurde aus dem Walde geworfen."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Von der Dunkelheit begünstigt, setzte der Feind seinen Rückzug schnell fort; er räumte in der Nacht Iglau, welches die Österreicher sogleich besetzten und der Erzherzog verlegte sein Hauptquartier am 6. dahin."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Der Feind, sowohl auf der Brünner als Wiener Strasse verfolgt, hatte seinen Rückzug so sehr übereilt, dass seine Nachhut erst bei Budwitz erreicht werden konnte."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Diese Vortheile errang der Erzherzog ohne Wissenschaft der grossen Ereignisse, die bei Austerlitz das Schicksal des Feldzuges entschieden, und die Waffenruhe herbeigeführt hatten."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Noch in Unkenntniss über die Bedingungen des Waffenstillstandes, schloss er selbst eine 48stündige Waffenruhe ab, nach welcher beide Theile im Besitze des von ihren Truppen besetzten Terrains bleiben sollten."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Hohenzollern traf ihn in Austerlitz; allein Bernadotte wollte von keinen andern Waffenstillstands-Bedingungen wissen, als jenen, die zwischen beiden Kaisern abgeschlossen wurden, und drohte sogar den Erzherzog anzugreifen und ihn mit Gewalt aus Iglau zu vertreiben."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Da zu gleicher Zeit Wrede den Waffenstillstand aufkündigte, so sah sich der Erzherzog genöthigt, den Umständen zu weichen und Iglau zu räumen."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Die in dem Gefechte von Stöcken gemachten Kriegsgefangenen wurden zurückgegeben, da sie schon während des bestehenden Waffenstillstandes in Gefangenschaft gefallen waren."
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 300 (OCR page breaks; not checked against print)",
+          "quote": "Denn der ermuͤdete Feind wurde in ſeiner fruͤhern Stellung zuruͤckgedraͤngt, und er wagte es nicht laͤnger den Ruͤck⸗ zug der braven Truppen weiter zu beunruhigen, die das Unglaubliche geleiſtet hatten."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's (Austrian) loss as 800 men and side A's (Bavarian) as about 1,000 men.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. His 800 is Völderndorff's 756 for side B rounded up to the hundred, and his about 1,000 Völderndorff's 130 officers and 791 men, 921 (our arithmetic), rounded up (claims side-b-losses-reported and side-a-losses-reported); the passages read do not show that he took them from Völderndorff. English rendering (ours): 'Austrian loss: 800 men | Bavarian loss: about 1,000 men'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Österr. Verl.: 800 M. | Bayr. Verl.: ca. 1.000 M."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts. Völderndorff: in this long fourteen-hour action the Bavarians lost 130 officers, 791 men and 56 horses in killed, wounded and missing; the picket before the town was taken with its leaders, a first and a second lieutenant, and Major Count Rechberg, already wounded, fell with his horse and was taken (OCR). Schönhals: the Bavarians left a considerable number of dead and wounded on the field and lost 2 staff officers, 18 other officers and about 1000 men as prisoners; the prisoners were later given back.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except Rechberg's capture (OCR); not combined. Schönhals's prisoners alone, 20 officers (our arithmetic) and about 1000 men, are more than Völderndorff's whole loss of 921 (our arithmetic) in killed, wounded and missing. Völderndorff's '130 Offiziere' is printed so, against 791 men; the passages read do not explain it. English renderings (ours): Völderndorff, 'in this long fourteen-hour action the Bavarians had lost 130 officers, 791 men and 56 horses in killed, wounded and missing'; 'the Bavarian picket in front of the market town, expecting no enemy, was taken up together with its leaders (First Lieutenant Schrenk and Second Lieutenant Karies), and so the battalion in the place itself was so surprised by the enemy pressing in that it could scarcely form to reach the other battalion behind Stecken'; 'the fall of the heroic major with his horse, he himself already being wounded, then the moment of his capture by the enemy' (OCR); Schönhals, 'he left a considerable number of dead and wounded on the field, lost 2 staff officers, 18 other officers and about 1000 men as prisoners'; as in claim bodart-winner for the return of the prisoners.",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p301-figures-v1",
+          "section": "p301",
+          "locator": "Völderndorff (1826), p. 301 (transcribed from the page image)",
+          "quote": "In diesem langen vierzehnstündigen Treffen hatten die Baiern 130 Offiziere, 791 Mann und 56 Pferde, an Todten, Verwundeten und Vermißten verloren."
+        },
+        {
+          "source_id": "voelderndorff-1826-p297-figures-v1",
+          "section": "p297",
+          "locator": "Völderndorff (1826), p. 297 (transcribed from the page image)",
+          "quote": "Das baierische Piket vor dem Marktflecken, keines Feindes gewärtig, ward sammt seinen Führern (Oberlieutenant Schrenk und Unterlieutenant Karies) aufgehoben, und daher das Bataillon im Orte selbst durch den eindringenden Feind so überrascht, daß es sich kaum aufstellen konnte, um das andere Bataillon hinter Stecken zu erreichen."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 300 (OCR page breaks; not checked against print)",
+          "quote": "Der Sturz des heldenmuͤthigen Majors mit ſeinem Pferde, er ſelbſt war ſchon verwundet, dann der Augenblick ſeiner Gefangennehmung durch den Feind,"
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Er liess eine beträchtliche Anzahl Todter und Verwundeter auf dem Wahlplatz, verlor 2 Stabs-, 18 andere Officiere und bei 1000 Mann an Gefangenen."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Die in dem Gefechte von Stöcken gemachten Kriegsgefangenen wurden zurückgegeben, da sie schon während des bestehenden Waffenstillstandes in Gefangenschaft gefallen waren."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Schönhals: on the Austrian side the loss was 27 dead and 142 wounded, and 36 men were still missing on the 7th. Völderndorff: the enemy, by his own admission, counted a loss of 756 men, and could boast of no other trophy won.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images; not combined. Schönhals's figures make 205 (our arithmetic), against Völderndorff's 756, which he says is the enemy's own admission without naming where it was made. English renderings (ours): Schönhals, 'on the Austrian side the loss amounted to 27 dead, 142 wounded; 36 men were still missing on the 7th'; Völderndorff, 'of no other captured trophy could the enemy boast, who by his own admission counted a loss of 756 men'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Österreichischerseits betrug der Verlust 27 Todte, 142 Verwundete; 36 Mann wurden am 7. noch vermisst."
+        },
+        {
+          "source_id": "voelderndorff-1826-p301-figures-v1",
+          "section": "p301",
+          "locator": "Völderndorff (1826), p. 301 (transcribed from the page image)",
+          "quote": "Keines andern eroberten Siegeszeichens konnte sich der Feind rühmen, der nach seinem eignen Geständniß einen Verlust von 756 Mann zählte."
+        }
+      ]
+    },
+    {
+      "id": "stecken-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Steken as a market town in Bohemia, 10 km south of Deutsch-Brod. Völderndorff: Stecken lies in hilly country some distance from Iglau, with a broad plain from there to the town (OCR); Wrede drew it into his line to deny his opponent the plain, since in the defiles he could resist with fewer men; a thick wood hid the enemy's movements from the outposts; apart from the high road from Stecken to Iglau, every side road in this broken country was impassable for guns (OCR); the retreat ran through the wood between Stecken and Pfauendorf to the fields at the Sandhöfe and across the plain (OCR), and the cavalry fought by bright moonlight (OCR). Schönhals: side A's position at Wonau lay on both sides of the road, its wings resting on almost impenetrable woods; the wooded ground prevented a pursuit with cavalry; at Pfauendorf ponds and a large game park narrowed the ground and confined the pursuing column to the high road; darkness favoured side A's retreat.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground, light and cover from Bodart's location and the two accounts (page images except the sentences marked OCR, whose distance from Iglau is not restated); no map was inspected. The position was ground Wrede chose, but the ground itself is tagged inherited. English renderings (ours): Bodart, 'market town in Bohemia, 10 km south of Deutsch-Brod'; Völderndorff, 'the market place Stecken lies ... (OCR) from Iglau, in hilly country; from there a broad plain stretches to the town' (OCR); as in claim side-a-command for the line, the defiles and the Sandhöfe; 'Major Lindenau had just visited the whole line of the outposts and reported deep quiet on the enemy's side (but a thick wood had hidden the enemy's movements from him), when, an hour and a half after noon (5th December), the general attack by the Austrians took place'; 'for apart from the high road leading from Stecken to Iglau, all the other side roads in this uneven country were altogether impassable for the guns' (OCR); 'numerous enemy bodies of horse, which in the bright moonlight became aware how insignificant was the band facing them, which formed the very rearguard of the whole Bavarian corps, tried to go round it on all sides and enclose it' (OCR); Schönhals, as in claim schoenhals-side-a for Wonau; 'the wooded ground prevented pursuing the fleeing enemy with cavalry; all the more briskly was this done with the infantry'; as in claims side-b-command for Pfauendorf and bodart-winner for the darkness.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "(Marktflecken in Böhmen, 10 km südl. von Deutsch-Brod)."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Der Markt⸗Ort Stecken liegt anderthalb Stunden von Iglau entfernt, in huͤglichter Gegend; von da zieht ſich bis zur Stadt eine geraͤumige Ebene."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "gegen Iglau, theils ihm nicht den Vortheil der Ebene zur leichtern Entfaltung aller Streitkräfte einzuräumen, hatte Stecken, so entlegen es auch war, in seine Vertheidigungs-Linie gezogen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Hier konnt' er in den Engwegen mit geringerer Mannschaft bequemer widerstehen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 297 (OCR page breaks; not checked against print)",
+          "quote": "Denn außer der von Ste— cken nach Iglau fuͤhrenden Hauptſtraße, waren alle uͤb⸗ rige Nebenwege in dieſer unebenen Landſchaft fuͤr das Geſchuͤtz durchaus unfahrbar."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Wahrend Minuzzi das geſammte Fußvolk nach Iglau führte, ſtellte ſich Generallieutenant Wrede ſelbſt an die Spitze ſaͤmmtlicher Reiterei, den über die Ebene gefahrvollen Ruͤckzug zu decken."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Erſt am Ausgang des zwiſchen Stecken und Pfauendorf gelegenen Waldes, in den Feldern bei den ſogenannten Sandhoͤfen, war er im Stande, dieſe Reiterei,"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 299 (OCR page breaks; not checked against print)",
+          "quote": "Zahlreiche feindliche Reiterhaufen, welche beim hellen Mondſchein gewahr wurden, wie unbedeutend die ihnen gegen uͤber⸗ ſtehende Schaar war, welche die aͤußerſte Nachhut des ganzen baieriſchen Corps bildete, verſuchten, ſie auf allen Seiten zu umgehen und einzuſchließen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hatte bei Wonau, zu beiden Seiten der Strasse, eine starke Stellung bezogen, deren Flügel an fast undurchdringliche Wälder gelehnt waren."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Das bewaldete Terrain verhinderte es, den fliehenden Feind mit Reiterei zu verfolgen; desto lebhafter geschah dies mit der Infanterie."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Bei Pfauendorf, wo Teiche und ein grosser Thiergarten das Terrain sehr einengen und die verfolgende Colonne auf die Hauptstrasse beschränkt war, versuchte der Feind sich noch einmal zu stellen; allein der linke Flügel umgieng den Thiergarten, während gleichzeitig dessen Angriff in der Front erfolgte."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Von der Dunkelheit begünstigt, setzte der Feind seinen Rückzug schnell fort; er räumte in der Nacht Iglau, welches die Österreicher sogleich besetzten und der Erzherzog verlegte sein Hauptquartier am 6. dahin."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side A was short of horses, guns and ammunition. Völderndorff: on 29 November Wrede's three cavalry regiments had barely 400 serviceable horses, and he had six guns, having had to leave as many at Mautern by order to cover the army's baggage; after the action of 3 December exhaustion was great and nearly all the ammunition was spent, which had been brought by express post only the day before (OCR); on 5 December Colonel Count Preysing saw to the safety of the artillery from the start, since only the high road to Iglau was passable for guns (OCR), and the infantry withdrew with its artillery and baggage through Iglau toward Budwitz. Side B: Schönhals says a magazine from Tabor was carried on captured wagons to the Archduke's army after a raid of Major Scheibler's detachment before the engagement (OCR). No passage read describes side B's ammunition or supply at the engagement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images except the sentences marked OCR, whose dates and numbers are not restated). No supply or ammunition return was inspected. English renderings (ours): Völderndorff, as in claim voelderndorff-side-a for the horses and guns; 'for the exhaustion was great and almost all the ammunition used up, which had been brought up by express post only on the day before the action' (OCR); 'right at the beginning of the action Colonel Count Preysing had taken thought for the safety of the artillery' (OCR); as in claim stecken-ground for the roads; as in claim voelderndorff-side-b for the retreat; Schönhals, '[the magazine] was however carried happily on these vehicles to Archduke Ferdinand's army' (OCR).",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Darum mußte, selbst Davoust, weil Ungarn ruhig war, von Preßburg herbeieilen, und Marschall Bernadotte mit den Divisionen Kellermann, Drouet und Rivaud schleunig (29sten November) gegen Brünn."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Wohl hatte General Wrede drei Regimenter Reiterei bei sich, aber darunter kaum 400 dienstfähige Pferde; dazu nicht mehr als 4,500 Mann Fußvolks nebst sechs Kanonen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Eben so viele Kanonen hatte er, auf erhaltenen Befehl, zur Deckung des Heergepäcks bei Mautern zurücklassen müssen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Die Truppen wurden (3ten December) bei Pfauendorf aufgestellt, dann zum-Angriff geführt."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 294 (OCR page breaks; not checked against print)",
+          "quote": "Denn die Erſchoͤpfung war groß und faſt alle Munition verbraucht, die erſt am Tage vor dem Gefecht mit Extrapoſt herbeigefuͤhrt worden war."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 297 (OCR page breaks; not checked against print)",
+          "quote": "Gleich beim Anfang des Gefechts hatte der Oberſt Graf Preyſing die Sicherheit der Artillerie bedacht."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 297 (OCR page breaks; not checked against print)",
+          "quote": "Denn außer der von Ste— cken nach Iglau fuͤhrenden Hauptſtraße, waren alle uͤb⸗ rige Nebenwege in dieſer unebenen Landſchaft fuͤr das Geſchuͤtz durchaus unfahrbar."
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 174 (OCR page breaks; not checked against print)",
+          "quote": "wurde aber aaf diesea Fuhrwerken glttcklicli zur Armee des Erzherzogs Ferdinand abgeführt."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A was surprised. Völderndorff: Major Lindenau had just visited the whole outpost line and reported deep quiet on the enemy's side, but a thick wood had hidden the enemy's movements from him, when the general attack came an hour and a half after noon; the Bavarian picket before the town, expecting no enemy, was taken, and the battalion in the town was surprised. Before 3 December Wrede had been five days without any news of the great army; he did not hide the coming danger in his reports to Bernadotte (OCR); with the inhabitants' help every movement of the Bavarians was betrayed to the Archduke (OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Völderndorff gives it (page images except the reports to Bernadotte and the betrayal by the inhabitants, OCR). Schönhals says nothing of what side A knew before the attack. English renderings (ours): as in claims stecken-ground, side-a-losses-reported and side-a-command; 'Lieutenant-General Wrede did not at all conceal the impending danger in his reports to Marshal Bernadotte' (OCR); 'with the help of the inhabitants every movement of the Bavarians was betrayed to him' (OCR).",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-p297-figures-v1",
+          "section": "p297",
+          "locator": "Völderndorff (1826), p. 297 (transcribed from the page image)",
+          "quote": "Das baierische Piket vor dem Marktflecken, keines Feindes gewärtig, ward sammt seinen Führern (Oberlieutenant Schrenk und Unterlieutenant Karies) aufgehoben, und daher das Bataillon im Orte selbst durch den eindringenden Feind so überrascht, daß es sich kaum aufstellen konnte, um das andere Bataillon hinter Stecken zu erreichen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Der Generallieutenant Wrede verwarf den Gedanken an jene, welche den verderblichsten Einfluß auf die Unternehmungen der großen Armee haben konnte, von der er seit fünf Tagen ohne alle Nachricht geblieben war."
+        },
+        {
+          "source_id": "voelderndorff-1826-p292-figures-v1",
+          "section": "p292",
+          "locator": "Völderndorff (1826), p. 292 (transcribed from the page image)",
+          "quote": "Die Truppen wurden (3ten December) bei Pfauendorf aufgestellt, dann zum-Angriff geführt."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 288 (OCR page breaks; not checked against print)",
+          "quote": "Der Generals lieutenant Wrede verhehlte in ſeinen Meldungen an Marſchall Bernadotte keineswegs die bevorſtehende Gefahr;"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 291 (OCR page breaks; not checked against print)",
+          "quote": "Durch Hülfe der Landesbewohner ward ihm jede Bewes gung der Baiern verrathen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Schönhals, the Archduke learned that the enemy's activity and general advance had served only to cover the departure of the I French Corps for Austerlitz, and on learning of that departure resolved to attack; he won his advantages without knowing of Austerlitz. In Völderndorff (OCR), the Archduke knew the small number of the Bavarians, their isolation, their distance from the main army and the non-arrival of Mezanelli's brigade, knew the decisive battle between the main armies to be near, and was told of every Bavarian movement by the inhabitants.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it (Schönhals from the page images; Völderndorff in the OCR). English renderings (ours): Schönhals, 'the activity of the enemy at all points and his general advance had already moved the Archduke to the resolution to await the attack in a more advantageous position at Czaslau, when the enemy's intention became clear, thereby only to veil the departure of the 1st French corps, which set out from Iglau on the 29th to march to the battle of Austerlitz'; as in claims side-b-command and bodart-winner; Völderndorff, as in claims side-b-command and side-a-information.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die Thätigkeit des Feindes auf allen Punkten und seine allgemeine Vorrückung hatten den Erzherzog schon zu dem Entschlusse bewogen, den Angriff in einer mehr vortheilhaften Stellung bei Czaslau zu erwarten, als sich die Absicht des Feindes aufklärte, damit nur den Abzug des 1. französischen Corps zu verhüllen, das am 29. von Iglau aufbrach, um zur Schlacht von Austerlitz zu marschiren."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Erzherzog erfuhr nicht sobald den Abzug des 1. feindlichen Corps, als er diese Schwächung des Feindes zu einem Angriffe zu benutzen beschloss."
+        },
+        {
+          "source_id": "schoenhals-1873-p175-figures-v1",
+          "section": "p175",
+          "locator": "Schönhals (1873), p. 175 (transcribed from the page image)",
+          "quote": "Diese Vortheile errang der Erzherzog ohne Wissenschaft der grossen Ereignisse, die bei Austerlitz das Schicksal des Feldzuges entschieden, und die Waffenruhe herbeigeführt hatten."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Erzherzog Ferdinand hingegen, dem die kleine Zahl der Baiern, ihre Verlaſſenheit, ihre Entfernung vom Hauptheer, und die Nichtankunft der Brigade Mez a⸗ nelli bekannt war, der den Tag der entſcheidenden Schlacht zwiſchen den Hauptheeren nahe wußte, beſchloß, mit allen Kraͤften den Angriff und die Vernichtung der Baiern und den Zug im Ruͤcken der franzoͤſiſchen Macht zu unternehmen."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 291 (OCR page breaks; not checked against print)",
+          "quote": "Durch Hülfe der Landesbewohner ward ihm jede Bewes gung der Baiern verrathen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aim was to hold its ground before Iglau and then to save its infantry and artillery. Völderndorff calls the covering of the road from Iglau to Znaym Wrede's main task (OCR); on 5 December Wrede held Stecken to keep his opponent from Iglau and the plain, and when his left gave way he ordered the retreat to defend Iglau, covering it with all his cavalry, which swore to die rather than abandon the infantry and artillery (OCR); the stand at the Sandhöfe lasted until the infantry, artillery and baggage were through Iglau on the road to Budwitz.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as Völderndorff gives them (page images except the sentences marked OCR). The covering of the road was Wrede's assigned main task, so the claim is tagged inherited; holding Stecken and then covering the retreat were his choices within it (claim side-a-command). English renderings (ours): 'partly to carry out more strongly the covering of the road from Iglau to Znaym, his main task, partly to come somewhat closer to the hurrying brigades of Mezanelli and Karg' (OCR); as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 288 (OCR page breaks; not checked against print)",
+          "quote": "theils um die Deckung der Straße von Iglau nach Znaym, ſeinen Hauptauf⸗ trag, kraͤftiger auszufuͤhren, theils den heraneilenden Brigaden Mezanelli und Karg um etwas naͤher zu kommen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "gegen Iglau, theils ihm nicht den Vortheil der Ebene zur leichtern Entfaltung aller Streitkräfte einzuräumen, hatte Stecken, so entlegen es auch war, in seine Vertheidigungs-Linie gezogen."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Allein da nun Wrede den linken Fluͤgel ſchon in vollem Ruͤck⸗ zug, die Mitte und den rechten Fluͤgel gegen den uͤber⸗ legenen Feind in unguͤnſtiger Stellung erblickte, ordnete er die ruͤckgaͤngige Bewegung aller Theile zur Verthei⸗ digung von Iglau an, eh' ihm der Feind dahin zuvor⸗ kommen kounte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Hier ſorderte er ihnen den Schwur ab, lieber unterzugehen, als durch Feigheit die geſammte Infanterie und Artll⸗ lerie dem Feinde Preis zu geben,"
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Von vier Uhr Nachmittags bis des andern Morgens um halb drei Uhr behauptete die kleine Schaar der Baiern gegen die feindliche, 30,000 Mann starke Armee, ihre Stellung bei den Sandhöfen; behauptete sie, bis die gesammte Infanterie mit Artillerie und Gepäck sich vor Iglau aufgestellt, und ihren Rückzug, durch die Stadt, auf der Straße nach Budwitz, in größter Ordnung fortgesetzt hatte."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to attack and destroy the isolated Bavarians and act in the French rear. In Schönhals, the Archduke, told by a handbillet of the Emperor of the resolution to give the enemy a decisive battle, resolved to advance and attack the enemy so as to contribute actively to its success (OCR), and used the weakening of the enemy by the I Corps' departure for an attack; an earlier rescript of the Hofkriegsrath had ordered him to take post with his corps at Iglau. In Völderndorff, the Archduke resolved to attack and destroy the Bavarians with all his forces and to march in the rear of the French (OCR); his brigade sent toward Windig-Jenikau could have taken Iglau and cut the Bavarians' retreat (OCR); and Völderndorff had expected him to make a decisive movement into Moravia against the French left and rear and perhaps seek to restore the lost link with the Russian-Austrian army at the time of the main battle (partly OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims as both accounts give them (page images except the sentences marked OCR). The Archduke chose the attack himself on news of the I Corps' departure, so the claim is tagged commander_created. English renderings (ours): Schönhals, '[he had received] a handbillet of the Emperor that acquainted him with the resolution to give the enemy a decisive battle' (OCR); 'in order to contribute actively to the happy outcome of this undertaking, he resolved to advance and attack the enemy' (OCR); as in claim side-b-command; 'a rescript of the Hofkriegsrath charged the Archduke to take post with his corps at Iglau, but the I French Corps together with the Bavarians had already advanced with great superiority on this road'; Völderndorff, as in claims side-b-command and voelderndorff-side-b; '[would] undertake [against the] army, and perhaps at the time of the main battle seek to restore the lost connection with the Russian-Austrian army' (p. 288, OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 173 (OCR page breaks; not checked against print)",
+          "quote": "ein Haudbillet des Kaisers empfangen, das ihn mit dem Entschlüsse bekannt machte, dem Feind eine ent- scheidende Schlacht zu liefern."
+        },
+        {
+          "source_id": "schoenhals-1873-moravia-selections-v1",
+          "section": "stoecken",
+          "locator": "Schönhals (1873), p. 173 (OCR page breaks; not checked against print)",
+          "quote": "Um zum glücklichen Ausgang dieses Unternehmens thätig mitzuwirken, bescbloss er vorzurücken und den Feind anzugreifen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Erzherzog erfuhr nicht sobald den Abzug des 1. feindlichen Corps, als er diese Schwächung des Feindes zu einem Angriffe zu benutzen beschloss."
+        },
+        {
+          "source_id": "schoenhals-1873-p145-figures-v1",
+          "section": "p145",
+          "locator": "Schönhals (1873), p. 145 (transcribed from the page image)",
+          "quote": "Ein hofkriegsräthliches Rescript trug dem Erzherzog auf, sich mit seinem Corps bei Iglau aufzustellen, allein das I. französische Corps nebst den Baiern, war bereits mit grosser Übermacht auf dieser Strasse vorgerückt."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Erzherzog Ferdinand hingegen, dem die kleine Zahl der Baiern, ihre Verlaſſenheit, ihre Entfernung vom Hauptheer, und die Nichtankunft der Brigade Mez a⸗ nelli bekannt war, der den Tag der entſcheidenden Schlacht zwiſchen den Hauptheeren nahe wußte, beſchloß, mit allen Kraͤften den Angriff und die Vernichtung der Baiern und den Zug im Ruͤcken der franzoͤſiſchen Macht zu unternehmen."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 295 (OCR page breaks; not checked against print)",
+          "quote": "Die dͤſterreichiſche Brigade konnte alſo, in dem Augenblick, da der Erzherzog die Baiern bei Stecken angriff, im Ruͤcken derſelben Iglau nehmen und den Ruͤckzug abſchneiden."
+        },
+        {
+          "source_id": "voelderndorff-1826-p287-figures-v1",
+          "section": "p287",
+          "locator": "Völderndorff (1826), p. 287 (transcribed from the page image)",
+          "quote": "Es war allerdings vorauszusehen, daß Erzherzog Ferdinand, welcher 17 Bataillone, 2000 Pferde und 40 Kanonen mit sich führte, von Czaslau und Benneschau her eine entscheidende Bewegung nach Mähren gegen den linken Flügel und im Rücken des französischen"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 288 (OCR page breaks; not checked against print)",
+          "quote": "Heers unternehmen, und vielleicht zur Zeit der Haupt⸗ ſchlacht ſuchen werde, die verlorne Verbindung mit der ruſſiſch⸗ dſterreichiſchen Armee herzuſtellen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side B attacked. Both accounts have the Austrians make the general attack on 5 December: Völderndorff an hour and a half after noon, Schönhals in columns ready by noon, the left wing beginning. Side A held its positions at Stecken and Wonau and on the heights behind, then fell back by order to Iglau, its Chevauxlegers charging the enemy in the town, the battalion Dietfurth driving off the attackers several times with the bayonet (OCR), and its cavalry at the Sandhöfe charging to cover the retreat (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side B attack side A's positions, so the code is B_attacked. Side A's charges were made inside its defended position or to cover its retreat; they do not make side A an attacker on 5 December. Wrede's attack of 3 December (claim side-a-command) was a separate action. The Archduke decided the attack, so the posture is tagged commander_created. English renderings (ours): as in claims stecken-ground, side-b-command and voelderndorff-side-a; Völderndorff, 'but at the moment of greatest danger the Kurprinz Chevauxlegers Regiment (barely 180 horses strong) threw itself on the enemy in the place itself so boldly and powerfully that not only could that battalion effect its retreat, but also the regiment Herzog Karl with two guns under Lieutenant Haibe could reach the place and unite with the 7th regiment'; 'several times the battalion Dietfurth drove off the storming enemy with the bayonet, until, yielding to superiority, it had at last to withdraw by nothing but forest paths to the Pfauendorf park' (OCR); 'the enemy attacked. It was four o'clock in the afternoon. The fighting was with stubborn bitterness'; 'Count Rechberg recognised the destruction of his men if he quietly awaited the powerful enemy' (OCR); as in claim bodart-winner for the third attack.",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Major Lindenau hatte eben die ganze Stellung der Vorposten besucht, und tiefe Ruhe von Seiten des Feindes verkündet, (aber ein dichter Wald hatte ihm die feindlichen Bewegungen verborgen), als anderthalb Stunden nach Mittag (5ten December) der allgemeine Angriff von Seiten der Oesterreicher geschah."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Auf den 5. ward der allgemeine Angriff auf den Feind beschlossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Die linke Colonne sammelte sich bei Smilau, die beiden andern hinter Blumendorf, die Reserve auf der Anhöhe vor Deutschbrod; alle hatten um Mittag bereit zu sein."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der linke Flügel begann den Angriff, zu dem er von Smilau über Bosowitz vorrückte."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hielt Stöcken stark besetzt; dieser Ort ward in der rechten Flanke angegriffen; und in der linken von einer Abtheilung Rosenberg-Chevauxlegers umgangen; der Feind musste ihn mit bedeutendem Verluste räumen."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Standhaft behauptete ſich indeſſen die Mitte des baieriſchen Korps auf den Anhoͤhen hinter Stecken; eben ſo der rechte Fluͤgel."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 298 (OCR page breaks; not checked against print)",
+          "quote": "Allein da nun Wrede den linken Fluͤgel ſchon in vollem Ruͤck⸗ zug, die Mitte und den rechten Fluͤgel gegen den uͤber⸗ legenen Feind in unguͤnſtiger Stellung erblickte, ordnete er die ruͤckgaͤngige Bewegung aller Theile zur Verthei⸗ digung von Iglau an, eh' ihm der Feind dahin zuvor⸗ kommen kounte."
+        },
+        {
+          "source_id": "voelderndorff-1826-p297-figures-v1",
+          "section": "p297",
+          "locator": "Völderndorff (1826), p. 297 (transcribed from the page image)",
+          "quote": "Aber im Augenblick der größten Gefahr stürzte sich das Chevauxlegers-Regiment Kurprinz (kaum 180 Pferde stark) dem Feinde im Orte selbst so keck und gewaltig entgegen, daß nicht nur jenes Bataillon den Rückzug bewerkstelligen, sondern daß auch das Regiment Herzog Karl mit zwei Kanonen unter Lieutenant Haibe den Ort erreichen, und sich mit dem 7ten Regiment vereinigen konnte."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 297 (OCR page breaks; not checked against print)",
+          "quote": "Mehrmahls mit dem Bajonett trieb das Bataillon Dietfurth den anſtuͤrmenden Feind ab, bis es ſich, der Uebermacht weichend, auf lauter Waldwegen endlich bis an den Pfauendorfer⸗Park zu⸗ ruͤckziehen mußte."
+        },
+        {
+          "source_id": "voelderndorff-1826-p299-figures-v1",
+          "section": "p299",
+          "locator": "Völderndorff (1826), p. 299 (transcribed from the page image)",
+          "quote": "Der Feind griff an. Es war vier Uhr Nachmittags. Es ward mit hartnäckiger Erbitterung gefochten."
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 299 (OCR page breaks; not checked against print)",
+          "quote": "Graf Rechberg erkannte den Untergang der Seinigen, wenn er ruhig den gewaltigen Feind erwarten wurde,"
+        },
+        {
+          "source_id": "voelderndorff-1826-selections-v1",
+          "section": "stecken",
+          "locator": "Völderndorff (1826), p. 300 (OCR page breaks; not checked against print)",
+          "quote": "Denn der ermuͤdete Feind wurde in ſeiner fruͤhern Stellung zuruͤckgedraͤngt, und er wagte es nicht laͤnger den Ruͤck⸗ zug der braven Truppen weiter zu beunruhigen, die das Unglaubliche geleiſtet hatten."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Both accounts place side A in positions at Stecken (Stöcken) and Wonau, with a battalion in the market town and another on the heights behind (Völderndorff), on both sides of the road with its wings on almost impenetrable woods (Schönhals); neither names works from which side A fought.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code none_named: no passage read names works. The market town, the heights, the defiles and the woods are ground, not works; none_named reports the passages read, not proof that no works existed. English renderings (ours): as in claims voelderndorff-side-a, side-a-command and schoenhals-side-a.",
+      "citations": [
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Ein Bataillon des 7ten Linien-Regiments hielt den Marktflecken selbst, mit Vorposten vor demselben, das andere Bataillon die Höhen hinter demselben besetzt."
+        },
+        {
+          "source_id": "voelderndorff-1826-p296-figures-v1",
+          "section": "p296",
+          "locator": "Völderndorff (1826), p. 296 (transcribed from the page image)",
+          "quote": "Hier konnt' er in den Engwegen mit geringerer Mannschaft bequemer widerstehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hatte bei Wonau, zu beiden Seiten der Strasse, eine starke Stellung bezogen, deren Flügel an fast undurchdringliche Wälder gelehnt waren."
+        },
+        {
+          "source_id": "schoenhals-1873-p174-figures-v1",
+          "section": "p174",
+          "locator": "Schönhals (1873), p. 174 (transcribed from the page image)",
+          "quote": "Der Feind hielt Stöcken stark besetzt; dieser Ort ward in der rechten Flanke angegriffen; und in der linken von einer Abtheilung Rosenberg-Chevauxlegers umgangen; der Feind musste ihn mit bedeutendem Verluste räumen."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Schönhals's appendices (Beilagen 35 and 37, the Archduke's order of battle of 26 November and his corps' state at the end of November) and the Archduke's report he cites, none inspected; Wrede's reports and his order of the day, which Völderndorff mentions, and the enemy admission he cites for the Austrian loss; French accounts, which the passages read do not cite; Völderndorff's narrative of the outpost fights of 28 November to 2 December and of the action of 3 December (OCR, cited only for Wrede's decision and the ammunition); his list of men mentioned for the action and his account of 6 December (read and not cited); Völderndorff's brief account of Hollabrunn and Dürnstein (read in the follow-up and not cited). Figures seen only in the OCR and not restated in values: Völderndorff's distance of Stecken from Iglau, the horse Wrede drew up at the Sandhöfe, Rechberg's horsemen, the hours of the evening fight, the date of the brigade sent to Windig-Jenikau and the losses of the outpost fights and of 3 December; Schönhals's dates and numbers for the outpost fights and Scheibler's raid; the page numbers of the OCR quotes.",
+    "Most consequential gap: side A's strength on 5 December. Bodart gives 10 battalions, 8 squadrons and 7,000 men; Völderndorff gives Wrede 4,500 foot, barely 400 serviceable horses and six guns on 29 November, before reinforcements he reports in the OCR, and lists the units posted on the 5th without a total; Schönhals gives no figure. The targeted follow-up searched Völderndorff's OCR from the middle of p. 250 to p. 283 for figures of men, horses, battalions, squadrons and guns and found none for Wrede's corps there. Side B's strength is also open: Bodart 11,000; Schönhals 13 battalions and about 18 squadrons, 8294 men, after the junction at Czaslau on 24 November; Völderndorff 17 battalions, 2,000 horse and 40 guns, and an enemy army of 30,000. Wrede's returns for early December or Schönhals's Beilage 37 could narrow them.",
+    "Disputes recorded in the claims: side B's strength (Bodart 11,000; Schönhals 8294; Völderndorff 30,000, with 17 battalions, 2,000 horse and 40 guns, which Bodart follows); side B's loss (Bodart 800; Völderndorff 756 by the enemy's admission; Schönhals 27 dead, 142 wounded and 36 missing, 205 by our arithmetic); side A's loss (Bodart about 1,000; Völderndorff 130 officers, 791 men and 56 horses killed, wounded and missing; Schönhals 20 officers and about 1000 men as prisoners besides many dead and wounded); the Austrian wing commanders (Völderndorff: the Archduke in the centre, Kollowrath left, Hohenzollern right; Schönhals: Vacquant left, Hohenzollern centre, Dinersperg reserve); the days before (Völderndorff: a Bavarian attack on Stecken on 3 December; Schönhals: outpost fights with small advantages on both sides until the 4th); Wrede's rank (GM in Bodart, Generallieutenant in Völderndorff); the manner of side A's retreat (Schönhals: in disorder and so hurried that its rearguard was reached only at Budwitz; Völderndorff: in the greatest order, covered by the cavalry until the next morning).",
+    "Families and dependence: Bodart (a compilation; his 17 battalions, 2,000 horse and 40 guns for side B are Völderndorff's, his losses agree with Völderndorff's rounded up, and his 11,000 and his figures for side A are not in the passages read); Völderndorff (the Bavarian history of 1826 by a major of the Bavarian general staff, written on higher orders from archives, the official reports of the commanders, above all the Bavarian ones, and the communications of Field Marshal Prince Wrede among others, by its preface; an interested account of side A); Schönhals (the Austrian account written in 1831 and printed in 1873, which cites the Archduke's report and its appendices for side B's strength). No passage read shows dependence between Völderndorff and Schönhals."
+  ]
 }
 ```
 
@@ -22408,3 +26463,58 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `alombert-colin-t4-p723-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p723-figures.txt
 - `alombert-colin-t4-p724-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p724.jpg
 - `alombert-colin-t4-p724-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p724-figures.txt
+- `voelderndorff-1826-ocr-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-djvu.txt
+- `schoenhals-1873-moravia-selections-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-moravia-selections.txt
+- `victoires-conquetes-t15-moravia-selections-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-moravia-selections.txt
+- `voelderndorff-1826-selections-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-selections.txt
+- `victoires-conquetes-t15-p213-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p213.jpg
+- `victoires-conquetes-t15-p213-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p213-figures.txt
+- `victoires-conquetes-t15-p214-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p214.jpg
+- `victoires-conquetes-t15-p214-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p214-figures.txt
+- `victoires-conquetes-t15-p215-hollabrunn-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p215-hollabrunn-figures.txt
+- `victoires-conquetes-t15-p226-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p226.jpg
+- `victoires-conquetes-t15-p226-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p226-figures.txt
+- `victoires-conquetes-t15-p227-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p227.jpg
+- `victoires-conquetes-t15-p227-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p227-figures.txt
+- `victoires-conquetes-t15-p238-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p238.jpg
+- `victoires-conquetes-t15-p238-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p238-figures.txt
+- `victoires-conquetes-t15-p239-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p239.jpg
+- `victoires-conquetes-t15-p239-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p239-figures.txt
+- `victoires-conquetes-t15-p266-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p266.jpg
+- `victoires-conquetes-t15-p266-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p266-figures.txt
+- `victoires-conquetes-t15-p267-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p267.jpg
+- `victoires-conquetes-t15-p267-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p267-figures.txt
+- `victoires-conquetes-t15-p268-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p268.jpg
+- `victoires-conquetes-t15-p268-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p268-figures.txt
+- `victoires-conquetes-t15-p271-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p271.jpg
+- `victoires-conquetes-t15-p271-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p271-figures.txt
+- `schoenhals-1873-p138-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p138.jpg
+- `schoenhals-1873-p138-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p138-figures.txt
+- `schoenhals-1873-p145-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p145.jpg
+- `schoenhals-1873-p145-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p145-figures.txt
+- `schoenhals-1873-p148-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p148.jpg
+- `schoenhals-1873-p148-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p148-figures.txt
+- `schoenhals-1873-p156-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p156.jpg
+- `schoenhals-1873-p156-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p156-figures.txt
+- `schoenhals-1873-p169-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p169.jpg
+- `schoenhals-1873-p169-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p169-figures.txt
+- `schoenhals-1873-p174-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p174.jpg
+- `schoenhals-1873-p174-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p174-figures.txt
+- `schoenhals-1873-p175-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p175.jpg
+- `schoenhals-1873-p175-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p175-figures.txt
+- `voelderndorff-1826-p287-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p287.jpg
+- `voelderndorff-1826-p287-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p287-figures.txt
+- `voelderndorff-1826-p292-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p292.jpg
+- `voelderndorff-1826-p292-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p292-figures.txt
+- `voelderndorff-1826-p296-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p296.jpg
+- `voelderndorff-1826-p296-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p296-figures.txt
+- `voelderndorff-1826-p297-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p297.jpg
+- `voelderndorff-1826-p297-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p297-figures.txt
+- `voelderndorff-1826-p299-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p299.jpg
+- `voelderndorff-1826-p299-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p299-figures.txt
+- `voelderndorff-1826-p301-image-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p301.jpg
+- `voelderndorff-1826-p301-figures-v1`: Eduard Freiherr von Völderndorff und Waradein, Kriegsgeschichte von Bayern unter König Maximilian Joseph I., erster Band; group `voelderndorff-kriegsgeschichte-bayern`; data/raw/napoleonic-third-coalition-1805-v1/voelderndorff-1826-p301-figures.txt
+- `schoenhals-1873-p177-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p177.jpg
+- `schoenhals-1873-p177-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p177-figures.txt
+- `schoenhals-1873-p178-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p178.jpg
+- `schoenhals-1873-p178-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p178-figures.txt

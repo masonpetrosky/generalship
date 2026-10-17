@@ -1390,3 +1390,77 @@ Rights: t. IV was published in 1908, and the Internet Archive marks it with the 
 Mark 1.0. Schönhals was published in 1873; he died in 1857. The Internet Archive marks his book
 NOT_IN_COPYRIGHT. Use: the drafts for B368b and B368c. No model inputs are changed. The registry
 now holds 2,182 records.
+
+## Völderndorff, and *Victoires et conquêtes* and Schönhals for Moravia, 2026-10-17
+
+55 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1f of the
+`third-coalition 1805` first pass (Ober-Hollabrunn, Austerlitz and Steken):
+
+- **Völderndorff**, *Kriegsgeschichte von Bayern unter König Maximilian Joseph I.*, erster Band
+  (Munich, 1826), group `voelderndorff-kriegsgeschichte-bayern`, a new family. The history of the
+  Bavarian army's wars by Eduard von Völderndorff und Waradein, a major of the Bavarian
+  General-Quartiermeisterstab, who by his preface took up the work on higher orders. The preface
+  names its sources: the archives; the commanders' official reports and their written and oral
+  accounts, above all the Bavarian commanders', first among them the communications of Prince
+  Eugène and of Field Marshal Prince Wrede; the published works of all the nations of Europe; and
+  the author's own experience of the campaigns.
+  - The OCR (`voelderndorff-1826-ocr-v1`, item `11748199bsb`), made with Tesseract 5.3.0 and
+    German and Fraktur models from a Staatsbibliothek Bamberg copy digitised by the Bayerische
+    Staatsbibliothek (`bsb11748199`). The title page was read on the page image n4, which is not
+    registered.
+  - The selection `voelderndorff-1826-selections-v1`, with two sections, `preface-sources` and
+    `stecken`.
+  - 6 page images with transcriptions: pp. 287, 292, 296, 297, 299 and 301, for the Bavarian corps
+    from 27 November to the action of 5 December and its losses.
+  - Other copies were found and not used: `bub_gb_r-hBAAAAcAAJ`, a Google scan whose OCR has no
+    hit for Stecken or Iglau, and three other digitisations by the Bayerische Staatsbibliothek, of
+    which only the metadata were read.
+- ***Victoires et conquêtes***, t. XV (1819), group `victoires-conquetes-1817`, registered in
+  batch 1d.
+  - The selection `victoires-conquetes-t15-moravia-selections-v1`, with two sections,
+    `hollabrunn` and `austerlitz`.
+  - 10 page images with transcriptions: pp. 213 and 214, for Hollabrunn, and pp. 226, 227, 238,
+    239, 266, 267, 268 and 271, for Austerlitz. A second transcription of p. 215, whose image batch
+    1d registered, covers the end of the Hollabrunn pursuit at the top of the page.
+- **Schönhals**, *Der Krieg 1805 in Deutschland* (1873), group `schoenhals-krieg-1805`, registered
+  in batch 1e.
+  - The selection `schoenhals-1873-moravia-selections-v1`, with four sections: `hollabrunn`,
+    `archduke-ferdinand`, `austerlitz` and `stoecken`.
+  - 9 page images with transcriptions: p. 138, for Hollabrunn; pp. 148, 156 and 169, for
+    Austerlitz; pp. 177 and 178, the order of battle of the allied army at Austerlitz, which the
+    table of contents lists as an appendix; and pp. 145, 174 and 175, for Archduke Ferdinand's
+    corps and Stöcken. The two order-of-battle transcriptions hold the table's title, the 3rd
+    column's rows and the recapitulation with its note, one row to a line.
+
+**Dependence.**
+
+- Völderndorff's preface names Wrede's communications among its sources, and the passages read on
+  Stecken name no source. It is side A's own account at Steken, an official and interested one.
+  Austrian strengths and losses in it are second-hand: it gives the Austrian loss by the enemy's
+  admission. Bodart's 17 battalions, 2,000 horse and 40 guns for side B are its figures. No
+  passage read shows dependence between it and Schönhals.
+- *Victoires et conquêtes* cites the official bulletin by name in its Hollabrunn section (in a
+  footnote, OCR) and Savary's report once in its Austerlitz account. It says that the French loss
+  at Austerlitz was estimated at the time from the corps' reports, and it quotes Napoleon's
+  proclamations. How far its narrative depends on the bulletins was not checked.
+- By its preface Schönhals draws what it says of the French army's operations from that army's
+  bulletins, so for side A it and *Victoires et conquêtes* may share them. For the French strength
+  and loss at Austerlitz it cites Dumas's *Précis*. For Archduke Ferdinand's corps it cites the
+  Archduke's report and two enclosures (Beilagen 35 and 37), and on p. 156 an enclosure for the
+  strength of the Austrian troops. None of these was inspected.
+
+The page images are single pages. *Victoires et conquêtes* and Völderndorff were downscaled to
+1600 pixels on the longest side. The Internet Archive serves Schönhals at 804 x 1292 pixels, and
+those pages were enlarged to 1600 pixels. t. XV's leaf numbers shift by two between pp. 226 and
+227 (leaves n255 and n258), so each image's printed page was checked on the image. As before, each
+transcription holds the whole page or the passages its note names, read from the image. The OCR
+misreads figures that the images print: Schönhals's '16.000' for 15.000 on p. 169, and in
+Völderndorff '30 Kanonen' for 40 (p. 296), '50,000' for 30,000 (p. 299), and '291 Mann' for 791
+and '750 Mann' for 756 (p. 301). Schönhals's order of battle is garbled in the OCR. No figure is
+taken from the OCR. Each selection records its parent's character ranges.
+
+Rights: Völderndorff was published in 1826. Its Internet Archive item has no licence or
+copyright-status field, and the library's own rights statement was not checked. The volume is
+retained as the full OCR text with six downscaled page images. *Victoires et conquêtes* and
+Schönhals are as recorded for batches 1d and 1e. Use: the drafts for B369a, B369c and B370a. No
+model inputs are changed. The registry now holds 2,237 records.

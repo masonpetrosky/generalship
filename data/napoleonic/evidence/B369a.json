@@ -1,0 +1,1026 @@
+{
+  "schema_version": 1,
+  "battle_id": "B369a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's engagement at Ober-Hollabrunn (16 November 1805) in cohort v1's third-coalition 1805 group: Murat's attack, with Lannes's and Soult's corps, on Bagration's Russian rearguard in its position behind Schöngrabern, from the late afternoon to eleven at night, and Walther's pursuit. The negotiations before it (the Austrian parley, Wintzingerode's convention and Napoleon's refusal of it), Kutusow's retreat on Pohrlitz and Bagration's junction with the army on the 17th are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 24,000 infantry and 6,000 cavalry, 30,000 men, under Marshal Prince Murat, and side B (Russians and Austrians) 5,500 infantry, 1,500 cavalry and 12 guns under Lieutenant-General Prince Bagration, 7,000 men (our arithmetic). By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 30,000 for side A is more than the twenty-two thousand French who attacked in Victoires et conquêtes (claim victoires-side-a), and Schönhals gives no figure for the force engaged (claim schoenhals-side-a). His 7,000 for side B is near the six thousand of both other accounts (claims victoires-side-b and schoenhals-side-b); his 12 guns equal the twelve guns Victoires has side A take (claim side-b-losses-reported), and neither other account gives side B's guns before the engagement. His infantry and cavalry figures are not in the passages read. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (24,000 infantry, 6,000 cavalry = 30,000 men) under Marshal Prince Murat over the Russians and Austrians (5,500 infantry, 1,500 cavalry, 12 guns) under Lieutenant-General Prince Bagration'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (24.000 Inft., 6.000 Kav. = 30.000 M.) unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account in Victoires et conquêtes: the three army corps of Prince Murat and Marshals Lannes and Soult were then united; the six thousand Russians fought against the twenty-two thousand French who attacked them. Napoleon had hastened the march of Soult's corps on Hollabrunn (OCR).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's compilation, read from the page images except Napoleon's order and Lannes's advance (pp. 211-213, OCR). The twenty-two thousand are the French who attacked; Victoires gives no figure for the three corps as a whole, and Murat's corps is the cavalry that had preceded Lannes's corps to Hollabrunn (OCR). The force engaged was the one Murat chose to attack with at once, at nightfall and against Soult's advice (claim side-a-command), after Napoleon had hastened Soult's corps, so the claim is tagged commander_created. English renderings (ours): 'the three army corps of Prince Murat and of Marshals Lannes and Soult were then united'; 'in fighting with so much resolution against the twenty-two thousand French who attacked them with no less intrepidity, these Russians repaired the breach made in their army's reputation by the outcome of the combat of Diernstein'; 'Napoleon accordingly left' (p. 212) 'Schoenbrunn to go to the outposts, and hastened the' (p. 213) 'march of Marshal Soult's army corps on Hollabrunn' (OCR); 'Marshal Lannes's corps, preceded by ... (OCR) brigades of light cavalry at whose head was Prince Murat, pushed on as far as Hollabrunn, where the rearguard of the Russian army was' (OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les trois corps d'armée du prince Murat et des maréchaux Lannes et Soult se trouvaient alors réunis."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "En combattant avec tant de résolution contre les vingt-deux mille Français qui les attaquaient avec non moins d'intrépidité, ces Russes réparaient la brèche faite à la réputation de leur armée par l'issue du combat de Diernstein."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Napoléon partit en conséquence"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "de Schoenbrunn pour se rendre aux avant-postes, et hâta la"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "marche du corps d’armée du maréchal Soult sur Hollabrunn."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "le corps du maréchal Lannrs, précédé de trois brigades de cavalerie légère, à la tète desquelles était lç prince Murat, poussa jusqu’à Hollabrunn, où se trouvait l’arrière-garde de l’armée russe."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Schönhals, the Austrian account: Murat attacked on the 16th with the united IV and V Corps; Oudinot's grenadier division, Suchet, Legrand's division and Vandamme, in reserve, are named in the attack. Schönhals gives no figure for the force engaged. On the 13th, he says, Murat had led his own and the V Corps, with two divisions of the IV Corps following half a march behind, 50.000 men in all, to the left bank of the Danube.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history on side A, read from the page images. The 50.000 are the force led across the Danube on the 13th, three days before the engagement, not the force engaged at Schöngrabern; in the same account Napoleon hastened the IV Corps' march and ordered his Guard to Hollabrunn and Caffarelli's division of the III Corps to Znaym after refusing the convention (claim side-a-command). The force engaged was the one Murat chose to attack with, so the claim is tagged commander_created. English renderings (ours): 'Murat recognised his deception after the Russians' departure and on the 16th attacked the 6000 Russians with the united IV and V Corps'; 'on the 13th Murat had led, besides his own and the V Corps, also two divisions of the IV Corps following him half a march behind, 50.000 men in all, to the left bank of the Danube and advanced, without troubling himself about Auersperg, in seven marches on the Znaym road to cut the Russians off from that town, while the I Corps was to follow them from Stein but had not yet crossed any troops on the 14th'; for the divisions named, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Suchet sollte ihren linken umgehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Vandamme folgte als Reserve."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat hatte am 13. nebst seinem und dem V. Corps auch zwei Divisionen des IV. ihm auf einen halben Marsch folgenden Corps, im Ganzen 50.000 Mann, auf das linke Donau-Ufer geführt und rückte, ohne sich um Auersperg zu kümmern, in sieben Märschen auf der Znaymer Strasse fort, um die Russen von dieser Stadt abzuschneiden, während das I. Corps ihnen von Stein nachfolgen sollte, aber den 14. noch keine Truppe übergesetzt hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-b",
+      "dimension": "strength",
+      "value": "Side B in Victoires et conquêtes: the Russians had taken position behind the village of Schoen Grabern, beyond a defile defended by six thousand men of their best troops; the six thousand Russians who fought at Guntersdorf were the rearguard under Prince Bagration. Victoires names only Russians in the combat. Before the engagement, it says (OCR), an Austrian officer came as a parlementaire and asked that the Emperor of Germany's troops be allowed to separate from the Russians, and Murat consented.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's compilation on side B, read from the page images except the Austrian parley (OCR). Victoires does not say whether the Austrian troops did separate or whether any fought at Guntersdorf; Schönhals has the Hessen-Homburg hussars of Nostitz's brigade distinguish themselves in the fight (claim schoenhals-side-b), and Bodart has Russians and Austrians (claim bodart-strength). The rearguard was the force Bagration commanded, so the claim is tagged inherited. English renderings (ours): 'the Russians had taken position behind the village of Schoen Grabern, beyond a defile, defended by six thousand men of their best troops'; 'the six thousand Russians who had just fought at Guntersdorf had shown themselves such as the great Frederick had depicted them, when he said that it was not enough to kill a Russian soldier, one still had to push him to make him fall'; 'Murat, by the emperor's orders, gave notice of the breaking of the armistice he had provisionally granted to Prince Bagration, commanding the rearguard of the Russian army'; 'Murat and Marshal Lannes intended to follow up this advantage and had made their dispositions accordingly, when an Austrian officer came forward as a parlementaire and asked that the troops of the Emperor of Germany be allowed to separate' (p. 211) 'from the Russians. Murat consented to it, reflecting that this act of condescension on his part might lead the Austrian monarch to sue for peace sooner' (p. 212) (OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Les six mille Russes qui venaient de combattre à Guntersdorf s'étaient montrés tels que les avait dépeints le grand Frédéric, quand il disait qu'il ne suffisait pas de tuer un soldat russe, qu'il fallait encore le pousser pour le faire tomber."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "des Russes. Murat y consentit, en réfléchissant que cet acte Aliem ugDe. de condescendance de sa part pourrait amener le monarque autrichien à solliciter plus tôt la paix."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-b",
+      "dimension": "strength",
+      "value": "Side B in Schönhals, its own account: Bagration stayed behind at Schöngrabern with a rearguard of 6000 men to cover the retreat, and Murat attacked the 6000 Russians; of Nostitz's brigade the Hessen-Homburg hussar regiment distinguished itself above all and suffered very much. General Nostitz had held the furthest outposts at Schöngrabern. Kutusow's army, joined by its sixth column, had grown to 32.000 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images. Schönhals does not say whether the 6000 included Nostitz's brigade or how many of it fought; the hussars of Nostitz's brigade are Austrian, as Bodart's 'Russians and Austrians' imply (claim bodart-strength), while Victoires names only Russians (claim victoires-side-b). The 32.000 are Kutusow's whole force, most of which had marched on (claim side-b-command). The rearguard was the force Kutusow left with Bagration, so the claim is tagged inherited. English renderings (ours): 'to cover the retreat Bagration stayed behind at Schöngrabern with a rearguard of 6000 men'; as in claim schoenhals-side-a for Murat's attack; 'of Nostitz's brigade the hussar regiment Hessen-Homburg distinguished itself above all, but it also suffered very much'; 'General Nostitz had the furthest outposts at Schöngrabern'; 'Murat arrived in Hollabrunn almost at the same time as the Russians; but since, through Kutusow's union with his sixth column, whose forces had grown to 32.000 men, he did not dare to attack him in front, but took refuge once more in the means of deceit that had just brought him such brilliant fruits'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Von der Brigade Nostitz zeichnete sich besonders das Huszaren-Regiment Hessen-Homburg aus, das aber auch sehr viel litt."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "General Nostitz hatte bei Schöngrabern die äussersten Vorposten."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat traf beinahe zugleich mit den Russen in Hollabrunn ein; da aber durch die Vereinigung Kutusow's mit seiner sechsten Colonne, dessen Streitkräfte auf 32.000 Mann angewachsen waren, so wagte er es nicht, ihn in der Front anzugreifen, sondern nahm seine Zuflucht noch einmal zu dem Mittel des Betrugs, das ihm erst eben so glänzende Früchte gebracht hatte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and Lieutenant-General Prince Bagration as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Both other accounts have Murat order the attack and Bagration command the Russian rearguard (claims side-a-command and side-b-command); in both, Lannes and Soult (Victoires) or the IV and V Corps (Schönhals) fought under Murat, and Kutusow, the army commander, had marched on with the main body. English rendering (ours): 'under Marshal Prince Murat over the Russians and Austrians (5,500 infantry, 1,500 cavalry, 12 guns) under Lieutenant-General Prince Bagration'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Murat commanded side A and decided the attack; Napoleon refused the convention Murat had accepted and hastened his troops forward. Victoires: Murat accepted Wintzingerode's capitulation and had Belliard, his chief of staff, settle and sign it (OCR); Napoleon did not approve it, judging Wintzingerode not authorised to conclude it (OCR); by the emperor's orders Murat gave notice of the breaking of the armistice; on the 16th Murat, with his usual impetuosity, wanted to attack the defile at once though night had fallen, and Soult advised against a night action in vain; after cavalry skirmishes Lannes sent Oudinot's grenadier division to attack the position in front and on the left, Soult turned it on the right with Legrand's division, and Vandamme's division supported the grenadiers. Schönhals: Murat halted his troops and Winzingerode concluded a kind of convention with him; Napoleon, seeing through the Russians' ruse, refused to confirm it, hastened the IV Corps' march, ordered his Guard to Hollabrunn and Caffarelli's division of the III Corps to Znaym, and left Schönbrunn himself; at dusk Murat had Oudinot's grenadier division advance in two columns against the Russians' centre and right wing, Suchet was to turn their left, Legrand's division was formed in two columns against it, one to attack it, the other to cut the road beyond Grund, and Vandamme followed in reserve.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as both accounts give them, read from the page images except Victoires's account of the capitulation and its refusal (p. 212, OCR). The two accounts agree on the attack's commander and its dispositions; Victoires puts Lannes and Soult between Murat and the divisions, and has Soult advise against the attack. English renderings (ours): Victoires, 'such a proposal seemed too much in the army's interest for Murat not to accept it on the spot'; 'General Belliard, the prince's chief of staff, was therefore charged by him to settle the articles of this capitulation with Baron Wintzingerode, and in the evening these two generals settled and signed at Hollabrunn a capitulation by which Prince Murat consented to suspend his march on Moravia, and the Russian army undertook to leave Germany at once, withdrawing by the road it had taken to come there'; 'Murat sent this capitulation to the Emperor Napoleon, who did not approve it, because, this act being a kind of treaty, he did not think Baron Wintzingerode sufficiently authorised to conclude it' (OCR); as in claim victoires-side-b for the breaking of the armistice; as in claim hollabrunn-ground for the 16th; 'Murat, with his usual impetuosity, wanted to attack this defile at once, although the day had already fallen'; 'Marshal Soult advised not to engage an action by night, in which dispositions are uncertain, mistakes frequent and the results often fatal to the assailants: his entreaties were useless, Murat ordered the attack'; 'the action began with some cavalry skirmishes, after which Marshal Lannes sent forward the division of Oudinot's grenadiers to attack the enemy's position in front and on the left, while Marshal Soult had it turned on the right by the division Legrand, while the division Vandamme supported that of the grenadiers'; Schönhals, 'Murat fell completely into the trap laid for him, he had his troops halt, and Winzingerode even concluded a kind of convention with him, which was sent to Napoleon at Schönbrunn for confirmation'; 'Napoleon, seeing through the Russians' ruse, refused his confirmation to the convention concluded, for which he declared General Winzingerode not furnished with full powers, and hastened the march of the IV Corps, which followed Murat's; at the same time he ordered his Guards to set out for Hollabrunn and the division Caffarelli of the III Corps to march to Znaym; he himself left Schönbrunn at once'; 'at dusk Murat had the grenadier division Oudinot advance in two columns against the centre and the right wing of the Russians'; 'Suchet was to turn their left'; 'against the latter the division Legrand was also formed in two columns, the one for a direct attack on it, the other to cut the road for it beyond Grund'; 'Vandamme followed as reserve'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Murat envoya cette capitulation à l’empereur Napoléon , qui ne l’approuva point , parce que cet acte étant une es- pèce de traité, il ne crut point le baron de Wintzingerode suffisamment autorisé à le conclure."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le maréchal Soult conseillait de ne point engager une affaire de nuit, dans laquelle les dispositions sont incertaines, les méprises fréquentes, et les résultats souvent funestes aux assaillans: ses instances furent inutiles, Murat ordonna l'attaque."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "L'action s'engagea par quelques escarmouches de cavalerie, après lesquelles le maréchal Lannes fit avancer la division des grenadiers d'Oudinot, pour attaquer de front et par la gauche la position de l'ennemi, que le maréchal Soult faisait tourner à droite par la division Legrand, tandis que la division Vandamme appuyait celle des grenadiers."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Suchet sollte ihren linken umgehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Vandamme folgte als Reserve."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Bagration commanded side B's rearguard. In Schönhals, when Bagration discovered the danger, he sent the Emperor's adjutant-general, Prince Dolgorucky, to Murat, repaying ruse with ruse, and opened to him the prospect of a separate peace with Russia, a hope Kutusow had General Winzingerode feed; Kutusow gained time thereby to reach Lechwitz with his main body in the night before the 16th, and Bagration stayed behind at Schöngrabern with a rearguard of 6000 men to cover the retreat; Bagration had taken an advantageous position behind Schöngrabern, beyond the defile of the village of Grund, and the Russians kept up the fight with unexampled bravery until 11 at night. In Victoires, Baron Wintzingerode, aide-de-camp general of the Emperor of Russia, came to the French outposts and asked to capitulate for the Russian army (OCR), and Napoleon regarded the step as a ruse of the Russian commander-in-chief to gain time (OCR); Bagration used the four hours' notice to hasten his retreat, and the Russians, with the advantage of the position, received the attack vigorously; their long resistance let the Russian army continue its retreat.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as both accounts give them, read from the page images except Victoires's sentences on Wintzingerode (p. 212, OCR). The accounts differ on who began the deceptions (claim armistice-ruse). Kutusow, the army commander, chose to leave the rearguard; Bagration commanded it and, in Schönhals, sent Dolgorucky, so the claim is tagged commander_created. English renderings (ours): Schönhals, 'when Bagration discovered the danger facing him, he sent, repaying ruse with ruse, the Emperor's adjutant-general, Prince Dolgorucky, to Murat and opened to him the prospect of' (p. 137) 'a separate peace with Russia. Kutusow had this hope fed by General Winzingerode' (p. 138); 'Kutusow thereby gained time to come to Lechwitz with his main body in the night before the 16th; on the 17th he reached Pohrlitz on the Brünn road'; as in claim schoenhals-side-b for the rearguard; 'Bagration had taken an advantageous position behind Schöngrabern, beyond the defile of the village of Grund'; 'a murderous fight developed, which was kept up on the Russians' side with unexampled bravery until 11 o'clock at night'; Victoires, 'some moments later Baron Wintzingerode, aide-de-camp general of the Emperor of Russia, presented himself at the French outposts and asked to capitulate for the Russian army' (OCR); 'at bottom the French emperor regarded Baron Wintzingerode's step as a ruse of the Russian commander-in-chief to gain time and receive the reinforcements that were advancing from upper Moravia' (OCR); as in claim victoires-side-b for the four hours; 'General Oudinot, at the head of the brigade of grenadiers commanded by General Laplanche-Mortière, fell on the Russians with his accustomed dash; but these, who had the advantage of the position, received the shock vigorously'; 'their long resistance allowed the Russian army to continue its retreat'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "einem Separat-Frieden mit Russland. Kutusow liess diese Hoffnung durch den General Winzingerode nähren."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Kutusow gewann hiedurch Zeit, mit seiner Hauptmacht in der Nacht auf den 16. nach Lechwitz zu kommen; am 17. erreichte er Pohrlitz auf der Brünner Strasse."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Es entspann sich ein mörderisches Gefecht, welches von Seiten der Russen mit beispielloser Tapferkeit bis in die Nacht um 11 Uhr unterhalten ward."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Quelques instansaprès, le baron de Wintzingerode, aide- de-camp général de l’empereur de Russie, se présenta aux avant-postes français, et demanda a capituler pour l’armée russe."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Leur longue résistance permit à l'armée russe de continuer sa retraite."
+        }
+      ]
+    },
+    {
+      "id": "armistice-ruse",
+      "dimension": "responsibility",
+      "value": "The two accounts disagree on who deceived whom before the engagement. Victoires (OCR): an Austrian officer came as a parlementaire and asked that the Austrian troops be allowed to separate from the Russians, and Murat consented, hoping the Austrian monarch would sue for peace sooner; then Wintzingerode asked to capitulate for the Russian army, Murat accepted, and the capitulation was signed, to be carried out only after Napoleon's ratification, the Russian army and the French corps meanwhile keeping their positions and giving four hours' notice before reopening hostilities; Victoires quotes the official bulletin on the Frenchman's thoughtless generosity out of action. Schönhals: Murat, not daring to attack Kutusow's 32.000 in front, took refuge once more in deceit, engaged General Nostitz, who held the furthest outposts, in conversation and assured him of an armistice already in force and an early peace with Austria, and during the conversation turned Nostitz and the flank of the Russian rearguard; Bagration answered ruse with ruse, and Murat fell completely into the trap.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts as read: Victoires in the OCR (pp. 211-212) except the four hours' notice, which its p. 213 repeats on the page image; Schönhals on the page images. They are opposed on the Nostitz episode (an Austrian request to separate that Murat granted, against a deception of Nostitz by Murat) and agree that Wintzingerode concluded the convention that Napoleon refused. Each account's deception is a decision of a commander before the engagement, so the claim is tagged commander_created. English renderings (ours): as in claims victoires-side-b, side-a-command and side-b-command; Victoires, 'these conditions were to be carried out only after the ratification of the Emperor Napoleon, and meanwhile the Russian army and the ... (OCR) French corps were to stay in the positions they held: in case of non-acceptance by the French monarch, each side was to warn the other four hours before resuming hostilities' (OCR); 'one must recognise here, says the editor of the official Bulletin on this subject, the character of the Frenchman, who, brave in the fray, is often of a thoughtless generosity out of action' (footnote, OCR); Schönhals, as in claim schoenhals-side-b for Murat's deceit; 'at the sight of them Murat entered into a conversation with Nostitz and gave him too the assurance of an armistice already in force and of an early peace with Austria, which pretences he sought to confirm by his undisturbed march up to this point'; 'during this conversation he turned not only Nostitz but also the flank of the Russian rearguard, standing somewhat further back, and threatened even that of the main army'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "des Russes. Murat y consentit, en réfléchissant que cet acte Aliem ugDe. de condescendance de sa part pourrait amener le monarque autrichien à solliciter plus tôt la paix."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Quelques instansaprès, le baron de Wintzingerode, aide- de-camp général de l’empereur de Russie, se présenta aux avant-postes français, et demanda a capituler pour l’armée russe."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Ces conditions ne devaient être exécutées qu’après la ratification de l’empereur Napoléon , et , en attendant , l’armée russe et les deux corps français devaient rester dans les positions qu’ils occupaient : dans le cas de non acceptation du mo- narque français, on devait se prévenir quatre heures avant de recommencer les hostilités."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "On doit reconnaître ici, dit & ce sujet le rédacteur du Bulletin officiel, le caractère du Français, qui, brave dans la mêlée, est souvent d’une générosité irréfléchie hors de l’action."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat traf beinahe zugleich mit den Russen in Hollabrunn ein; da aber durch die Vereinigung Kutusow's mit seiner sechsten Colonne, dessen Streitkräfte auf 32.000 Mann angewachsen waren, so wagte er es nicht, ihn in der Front anzugreifen, sondern nahm seine Zuflucht noch einmal zu dem Mittel des Betrugs, das ihm erst eben so glänzende Früchte gebracht hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "General Nostitz hatte bei Schöngrabern die äussersten Vorposten."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Bei dem Anblicke derselben liess sich Murat mit Nostitz in eine Unterredung ein, ertheilte auch ihm die Versicherung eines bereits bestehenden Waffenstillstandes und nahen Friedens mit Österreich, welche Vorspiegelungen er durch seinen ungestörten Marsch bis hierher zu bekräftigen suchte."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Während dieser Unterredung umgieng er nicht allein Nostitz, sondern auch die Flanke der etwas weiter rückwärts stehenden russischen Nachhut und bedrohte selbst jene der Haupt-Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Marshal Prince Murat over side B (Russians and Austrians) under Lieutenant-General Prince Bagration on 16 November. Victoires: after a stubborn combat that lasted until eleven at night the French were masters of the battlefield, and the Russians' long resistance allowed the Russian army to continue its retreat; General Walther pursued the Russians with a brigade of dragoons. Schönhals: the Russians kept up the fight with unexampled bravery until 11 at night; Bagration reached Lechwitz at noon on the 17th, where the Austrian General Caramelli received him with two cuirassier regiments, and was at Frainspitz by evening, an hour from the army; through Kutusow's fortunate arrival at Pohrlitz and Bagration's steadfastness the union with the 13.000-strong Austrian corps was achieved.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending, read from the page images. Victoires gives side A the field; Schönhals does not say who held it, and dwells on the rearguard's success in covering the army's retreat and junction, which concerns the campaign, not the tactical result, and is his judgment, not a measured effect. English renderings (ours): Bodart, as in claim bodart-strength; '1805 16/11. engagement at Ober-Hollabrunn (4.)'; Victoires, 'finally, after a stubborn combat that had lasted until eleven in the evening, the French found themselves masters of the battlefield, of eighteen hundred prisoners, of twelve guns and of a hundred and some baggage wagons'; as in claim side-b-command for the long resistance; 'General Walther, at the head of one of his brigades of' (p. 214) 'dragoons, pursued the Russians and took another three hundred prisoners from them' (p. 215); Schönhals, as in claim side-b-command for the fight; 'Bagration reached Lechwitz at noon on the 17th, where the Austrian General Caramelli received him with two cuirassier regiments'; 'in the evening he already stood at Frainspitz, an hour from the army'; 'through Kutusow's fortunate arrival at Pohrlitz and Bagration's steadfastness the union with the 13.000-man-strong Austrian corps was achieved, which on this day FML Prince Liechtenstein commanded instead of Auersperg'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Sieg der Franzosen (24.000 Inft., 6.000 Kav. = 30.000 M.) unter M. Pz. Murat über die Russen und Österreicher (5.500 Inft., 1.500 Kav., 12 Kan.) unter Gen.-Lt. Fst. Bagration."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "1805 16./11. TREFFEN bei Ober-Hollabrunn (4.)"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Leur longue résistance permit à l'armée russe de continuer sa retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Walther, à la tête d'une de ses brigades de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-hollabrunn-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "dragons, poursuivit les Russes, et leur fit encore trois cents prisonniers."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Es entspann sich ein mörderisches Gefecht, welches von Seiten der Russen mit beispielloser Tapferkeit bis in die Nacht um 11 Uhr unterhalten ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration erreichte am 17. Mittags Lechwitz, wo ihn der österreichische General Caramelli mit zwei Cürassier-Regimentern aufnahm."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Abends stand er schon bei Frainspitz, eine Stunde von der Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Durch Kutusow's glückliches Eintreffen bei Pohrlitz, und Bagrations Standhaftigkeit ward die Vereinigung mit den 13.000 Mann starken österreichischen Corps erreicht, welches an diesem Tage statt Auersperg FML. Fürst Liechtenstein befehligte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's (French) loss as about 2,000 men, among them 2 generals and 55 officers, and side B's (Russian and Austrian) as about 3,000 men, of whom 1,800 prisoners, and 12 guns.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. His 1,800 prisoners and 12 guns equal Victoires's eighteen hundred prisoners and twelve guns taken in the combat, before the three hundred Walther took in the pursuit (claim side-b-losses-reported); the passages read do not show that he took them from it. Neither other account gives a number for side A's loss (claim side-a-losses-reported). English rendering (ours): 'French loss: (2 generals, 55 officers) about 2,000 men | Russian-Austrian loss: about 3,000 men (of whom 1,800 prisoners), 12 guns'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "Franz. Verl.: (2 Gen. 55 Offz.) ca. 2.000 M. | Russ.-Österr. Verl.: ca. 3.000 M. (wor. 1.800 Gefg.), 12 Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts: Victoires names General Oudinot, wounded quite seriously, his two aides-de-camp Demangeot and Lamotte, and the artillery general Fouché, hit in the thigh by a shell fragment, and says that the French, halted when Russian officers cried out not to fire because they were French, received a very murderous volley (OCR). Schönhals says the loss on both sides was considerable, above all the French. Neither gives a number.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except the volley (OCR). Bodart's about 2,000 (claim bodart-losses) is not in the passages read. English renderings (ours): Victoires, 'General Oudinot, already covered with so many scars, was wounded quite seriously in this combat, as were his two aides-de-camp Demangeot and Lamotte, and the artillery general Fouché, who received a shell splinter in the thigh'; 'while the division Vandamme was advancing in support of the engaged grenadiers, officers of a Russian corps that was on the point of being surrounded began to cry: \"do not fire, we are French\"' (OCR); 'the fear of in fact killing their comrades stopped the French, who, being only at ... (OCR) musket range from their adversaries, soon received a very murderous volley' (OCR); Schönhals, 'the loss on both sides was considerable, especially that of the French'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Oudinot, déjà couvert de tant de cicatrices, fut blessé assez grièvement dans ce combat, ainsi que ses deux aides-de-camp Demangeot et Lamotte¹, et le général d'artillerie Fouché, qui reçut un éclat d'obus dans la cuisse."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Taudis que la division Vandamme s’avancait à l’appui des grenadiers engagés, des officiers d’un corps russe qui était sur le point d’être enveloppé, se mirent a crier : « ne tirez pas , nous sommes Français. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "La crainte de tuer en effet leu s camarades arrêta les Français, qui, n’étant qu’à demi-portée de fusil de leurs adversaires , reçurent bientôt une décharge très-meurtrière."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Der beiderseitige Verlust war beträchtlich, besonders jener der Franzosen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Victoires has the French masters of eighteen hundred prisoners, twelve guns and a hundred and some baggage wagons, and General Walther's dragoons take three hundred more prisoners in the pursuit; the Russian corps whose officers had cried out not to fire was overthrown and cut to pieces (OCR). Schönhals says the loss on both sides was considerable, and that the Hessen-Homburg hussars of Nostitz's brigade suffered very much. Neither gives side B's killed and wounded.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except the Russian corps cut to pieces (OCR); not combined. Victoires's eighteen hundred and three hundred together are 2,100 prisoners (our arithmetic), against Bodart's 1,800 (claim bodart-losses). English renderings (ours): Victoires, as in claim bodart-winner; 'indignant at this trick, they rushed furiously on these pretended Frenchmen, overthrew them and cut them to pieces' (OCR); Schönhals, as in claims side-a-losses-reported and schoenhals-side-b.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Le général Walther, à la tête d'une de ses brigades de"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-hollabrunn-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "dragons, poursuivit les Russes, et leur fit encore trois cents prisonniers."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Indignés de cette supercherie, ils s’élancèrent avec fureur sur ces prétendus Français, les culbutèrent et les taillèrent en pièces."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Der beiderseitige Verlust war beträchtlich, besonders jener der Franzosen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Von der Brigade Nostitz zeichnete sich besonders das Huszaren-Regiment Hessen-Homburg aus, das aber auch sehr viel litt."
+        }
+      ]
+    },
+    {
+      "id": "hollabrunn-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Ober-Hollabrunn as a market town in Lower Austria, 42 km north-west of Vienna. Victoires puts the encounter before Hollabrunn, near the village of Guntersdorf, with the Russians in position behind the village of Schoen Grabern, beyond a defile, with the advantage of the position; the village, set on fire by Russian shells from the start, lit the French position, and the wind drove thick smoke that hid the Russians' movements (OCR); the attack began after nightfall and the fight lasted until eleven at night. Schönhals puts Bagration's advantageous position behind Schöngrabern, beyond the defile of the village of Grund, has Legrand's second column sent to cut the road beyond Grund, and has the burning Schöngrabern light the battlefield.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground, light and smoke from Bodart's location and the two accounts, read from the page images except Victoires's sentences on the fire and the wind (pp. 213-214, OCR); no map was inspected. The position was the ground Bagration had taken, and the night and the fire came with the hour Murat chose and Russian shells; the claim is tagged inherited for the ground. English renderings (ours): Bodart, 'market town in Lower Austria, 42 km north-west of Vienna'; Victoires, 'Murat himself set out, and on 16 November at four in the afternoon the French troops found themselves in the presence of the Russians before Hollabrunn, near the village of Guntersdorf'; as in claim victoires-side-b for the defile; as in claim side-b-command for the advantage of the position; 'their shells having set fire to the village of Schoen Grabern from the beginning of the action, the fire' (p. 213) 'soon showed itself in a frightful way and did much harm to the French troops, whose position it lit; the wind, driving great clouds of a thick and fetid smoke, prevented the Russians' movements from being made out' (p. 214) (OCR); as in claims side-a-command and bodart-winner for nightfall and the hour; Schönhals, as in claims side-b-command and side-a-command; 'Schöngrabern, set on fire by Russian shells, lit the battlefield'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p369",
+          "locator": "Bodart (1908), p. 369",
+          "quote": "(Marktflecken in Niederösterreich, 42 km nordwestl. von Wien)."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "Leurs obus ayant mis le feu au village de Schoen Grabern, dès le commencement de l’action, l’incendie se"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "manifesta bientôt d’une manière effrayante , et nuisit beau- i8o5-anxm. . J . Allemagne. coup aux troupes françaises, dont elle éclairait la position ; le vent , chassant de gros nuages d’une fumée épaisse et fé- tide, empêchait de distinguer les raouvçmens des Russes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Das durch russische Granaten in Brand gesetzte Schöngrabern beleuchtete das Schlachtfeld."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Victoires has side A take a hundred and some baggage wagons with the twelve guns after the combat, and earlier, at Lannes's arrival at Hollabrunn, it says, Murat's cavalry charge took loaded baggage wagons from the Russian rearguard (OCR). Schönhals says the action at Dürrenstein had given Kutusow time to send his artillery reserve and baggage ahead undisturbed. No passage read describes either side's supply or ammunition at the engagement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the earlier charge, OCR, whose number of wagons is not restated). No supply or ammunition return was inspected. English renderings (ours): Victoires, as in claim bodart-winner; 'Murat having had his cavalry charge, the enemy abandoned the ground, and ... (OCR) loaded baggage wagons were taken from him' (OCR); Schönhals, 'the action at Dürrenstein had the consequence that Kutusow gained time to send ahead his artillery reserve and the baggage undisturbed, and also to make the necessary arrangements for his union with Auersperg's corps and the sixth Russian column, which arrived in Hollabrunn 7000 men strong on the 12th'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p214-figures-v1",
+          "section": "p214",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (transcribed from the page image)",
+          "quote": "Enfin, après un combat opiniâtre qui avait duré jusqu'à onze heures du soir, les Français se trouvèrent maîtres du champ de bataille, de dix-huit cents prisonniers, de douze pièces de canon et de cent et quelques voitures de bagages."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat ayant fait charger sa cavalerie, l’ennemi abandonna le terrain, et on lui prit cent voitures d’équipages toutes chargées."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information on side B's intentions differed by level. In Schönhals, Murat fell completely into the trap and recognised his deception only after the Russians' departure, while Napoleon saw through the Russians' ruse; in Victoires (OCR), Murat accepted the capitulation as plainly in the army's interest, and Napoleon at bottom regarded it as a ruse to gain time and receive reinforcements. In the fight, Victoires says, the smoke prevented the Russians' movements from being made out (OCR), and the French, halted by Russian officers' cry not to fire because they were French, received a murderous volley (OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as both accounts give it (Schönhals from the page images; Victoires in the OCR). English renderings (ours): as in claims side-a-command, side-b-command, hollabrunn-ground and side-a-losses-reported; Schönhals, as in claim schoenhals-side-a for Murat's recognition.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat gieng vollkommen in die ihm gelegte Falle, er liess seine Truppen halten, und Winzingerode schloss sogar eine Art von Convention mit ihm ab, die zur Bestätigung nach Schönbrunn an Napoleon gesandt wurde."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Une pareille proposition paraissait trop dans les in- térêts de l’armée, pour que Murat ne l’acceptât point sur- le-champ."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "manifesta bientôt d’une manière effrayante , et nuisit beau- i8o5-anxm. . J . Allemagne. coup aux troupes françaises, dont elle éclairait la position ; le vent , chassant de gros nuages d’une fumée épaisse et fé- tide, empêchait de distinguer les raouvçmens des Russes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Taudis que la division Vandamme s’avancait à l’appui des grenadiers engagés, des officiers d’un corps russe qui était sur le point d’être enveloppé, se mirent a crier : « ne tirez pas , nous sommes Français. »"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "La crainte de tuer en effet leu s camarades arrêta les Français, qui, n’étant qu’à demi-portée de fusil de leurs adversaires , reçurent bientôt une décharge très-meurtrière."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Schönhals, Bagration discovered the danger when Murat, in conversation with Nostitz, turned Nostitz and the flank of the Russian rearguard and threatened that of the main army, and answered with a ruse of his own. In Victoires, Bagration was given four hours' notice of the breaking of the armistice and used it to hasten his retreat. Neither account says what Bagration knew of side A's strength.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both accounts give it, read from the page images. English renderings (ours): as in claims armistice-ruse, side-b-command and victoires-side-b.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Während dieser Unterredung umgieng er nicht allein Nostitz, sondern auch die Flanke der etwas weiter rückwärts stehenden russischen Nachhut und bedrohte selbst jene der Haupt-Armee."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Als Bagration die ihm bevorstehende Gefahr entdeckte, sandte er, List mit List vergeltend, den General-Adjutanten des Kaisers, Fürsten Dolgorucky, an Murat und eröffnete ihm die Aussicht zu"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, d'après les ordres de l'empereur, dénonça la rupture de l'armistice qu'il avait provisoirement accordé au prince Bagration, commandant l'arrière-garde de l'armée russe; mais celui-ci avait profité des quatre heures de délai pour accélérer sa retraite."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aim was to cut off and catch the Russians. In Schönhals, Murat advanced on the Znaym road to cut the Russians off from that town; in Victoires, Murat and Lannes meant to follow up the success of their cavalry at Hollabrunn when the Austrian parley came (OCR), the capitulation Murat accepted would have suspended his march on Moravia (OCR), and on the 16th Murat wanted to attack the defile at once though night had fallen. Napoleon, refusing the convention, hastened the march of his troops (both accounts).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders as both accounts give them (page images except Victoires's sentences on the parley, the capitulation and Soult's march, pp. 211-213, OCR). Murat chose to attack at once, and Napoleon chose to refuse the convention, so the claim is tagged commander_created. English renderings (ours): Schönhals, as in claim schoenhals-side-a; Victoires, as in claims victoires-side-b, side-a-command, hollabrunn-ground and victoires-side-a.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Murat hatte am 13. nebst seinem und dem V. Corps auch zwei Divisionen des IV. ihm auf einen halben Marsch folgenden Corps, im Ganzen 50.000 Mann, auf das linke Donau-Ufer geführt und rückte, ohne sich um Auersperg zu kümmern, in sieben Märschen auf der Znaymer Strasse fort, um die Russen von dieser Stadt abzuschneiden, während das I. Corps ihnen von Stein nachfolgen sollte, aber den 14. noch keine Truppe übergesetzt hatte."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 211 (OCR running heads; not checked against print)",
+          "quote": "Murat et le maréchal Lannes se proposaient de suivre cet avantage, et avaient fait leurs dispositions en conséquence, lorsqu’un officier au- trichien s’avauça en parlementaire, et demanda qu’il fût permis aux troupes de l’empereur d’Allemagne de s® séparer"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Le général Belliard, chef de l’état-major du prince, fut donc chargé par lui de régler les articles de cette capitulation avec le baron de Wintzingerode, et, dans la • soirée , ces deux généraux arrêtèrent et signèrent à Holla- brunn une capitulation , par laquelle le prince Murat con- sentait à suspendre sa marche sur la Moravie, et l’armée russe s’engageait à quitter aussitôt l’Allemagne, en se reti- rant par la route qu’elle avait prise pour s’y rendre."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat se mit lui-même en marche, et, le 16 novembre à quatre heures de l'après-midi, les troupes françaises se trouvèrent en présence des Russes en avant d'Hollabrunn, auprès du village de Guntersdorf."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Murat, avec son impétuosité ordinaire, voulut attaquer de suite ce défilé, quoique le jour fût déjà tombé."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Napoleon, die List der Russen durchschauend, versagte der abgeschlossenen Convention, zu welcher er den General Winzingerode nicht mit Vollmacht versehen erklärte, seine Bestätigung und beschleunigte den Marsch des IV. Corps, welches jenem Murats folgte; zugleich befahl er den Aufbruch seiner Garden nach Hollabrunn und den Marsch der Division Caffarelli des III. Corps nach Znaym; er selbst reiste sogleich von Schönbrunn ab."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (OCR running heads; not checked against print)",
+          "quote": "marche du corps d’armée du maréchal Soult sur Hollabrunn."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to cover the retreat of Kutusow's army: Bagration stayed behind at Schöngrabern with 6000 men to cover it (Schönhals), and the Russian commander-in-chief's step, as Napoleon saw it, was meant to gain time and receive the reinforcements advancing from upper Moravia (Victoires, OCR). The union with the Austrian corps was achieved, Schönhals says, through Kutusow's arrival at Pohrlitz and Bagration's steadfastness.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as both accounts give them (Schönhals from the page images; Victoires's sentence on Napoleon's view in the OCR). The rearguard's task was set by Kutusow, the army commander, so for Bagration it is tagged inherited. English renderings (ours): as in claims schoenhals-side-b, side-b-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Zur Deckung des Rückzuges blieb Bagration mit 6000 Mann Nachhut bei Schöngrabern zurück."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 212 (OCR running heads; not checked against print)",
+          "quote": "Dans le fond, l’empereur français regardait la démarche du baron de Wintzingerode comme une ruse du général en chef russe pour gagner du temps et recevoir les renforts qui s’avan- caient de la haute Moravie."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Durch Kutusow's glückliches Eintreffen bei Pohrlitz, und Bagrations Standhaftigkeit ward die Vereinigung mit den 13.000 Mann starken österreichischen Corps erreicht, welches an diesem Tage statt Auersperg FML. Fürst Liechtenstein befehligte."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Murat ordered the attack on the Russian position behind Schoen Grabern (Victoires) or Schöngrabern (Schönhals): Oudinot's grenadiers attacked in front and on the left (Victoires) or against the Russians' centre and right wing (Schönhals), Legrand's division turned the position or attacked the Russian left, and Vandamme supported or followed in reserve. Side B held its position and received the attack.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side A attack a position side B had taken and held, so the code is A_attacked. The French charge on the Russians who had cried out not to fire (Victoires, OCR) is part of side A's attack. Murat decided to attack at once, at nightfall, against Soult's advice (Victoires) and after Napoleon refused the convention, so the posture is tagged commander_created. English renderings (ours): as in claims side-a-command, side-b-command and side-b-losses-reported.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le maréchal Soult conseillait de ne point engager une affaire de nuit, dans laquelle les dispositions sont incertaines, les méprises fréquentes, et les résultats souvent funestes aux assaillans: ses instances furent inutiles, Murat ordonna l'attaque."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "L'action s'engagea par quelques escarmouches de cavalerie, après lesquelles le maréchal Lannes fit avancer la division des grenadiers d'Oudinot, pour attaquer de front et par la gauche la position de l'ennemi, que le maréchal Soult faisait tourner à droite par la division Legrand, tandis que la division Vandamme appuyait celle des grenadiers."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat erkannte nach dem Abzuge der Russen seine Täuschung und griff am 16. mit den vereinigten IV. und V. Corps die 6000 Russen an."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Murat liess bei der Abenddämmerung die Grenadier-Division Oudinot in zwei Colonnen gegen die Mitte und den rechten Flügel der Russen vorrücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Gegen den letzteren war auch die Division Legrand in zwei Colonnen formirt, die eine zum unmittelbaren Angriffe desselben, die andere um ihm jenseits Grund die Strasse abzuschneiden."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-moravia-selections-v1",
+          "section": "hollabrunn",
+          "locator": "Victoires et conquêtes, t. XV, p. 214 (OCR running heads; not checked against print)",
+          "quote": "Indignés de cette supercherie, ils s’élancèrent avec fureur sur ces prétendus Français, les culbutèrent et les taillèrent en pièces."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Both accounts place side B in a position behind the village of Schoen Grabern or Schöngrabern, beyond a defile (Victoires) or the defile of the village of Grund (Schönhals), which Victoires calls the advantage of the position and Schönhals an advantageous position; they name no works from which side B fought.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code none_named: no passage read names works. The defile and the village are ground, not works; none_named reports the passages read, not proof that no works existed. English renderings (ours): as in claims victoires-side-b, side-b-command and hollabrunn-ground.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Les Russes avaient pris position en arrière du village de Schoen Grabern, au-delà d'un défilé, défendu par six mille hommes de leurs meilleures troupes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p213-figures-v1",
+          "section": "p213",
+          "locator": "Victoires et conquêtes, t. XV, p. 213 (transcribed from the page image)",
+          "quote": "Le général Oudinot, à la tête de la brigade de grenadiers que commandait le général Laplanche-Mortière, fondit sur les Russes avec son élan accoutumé; mais ceux-ci, qui avaient l'avantage de la position, reçurent vigoureusement le choc."
+        },
+        {
+          "source_id": "schoenhals-1873-p138-figures-v1",
+          "section": "p138",
+          "locator": "Schönhals (1873), p. 138 (transcribed from the page image)",
+          "quote": "Bagration hatte hinter Schöngrabern, jenseits des Defilé's vom Dorfe Grund eine vortheilhafte Stellung genommen."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the official bulletin that Victoires cites on the Austrian parley (footnote, OCR), Murat's and Lannes's reports and any French return of the 4th and 5th corps and the cavalry reserve for mid-November, none inspected; Russian accounts of the rearguard action, which neither account cites in the passages read; Alombert and Colin's t. IV, which ends with Saint-Pölten and Krems before this engagement (its OCR has no hit for Hollabrunn); Victoires's text from p. 209 to the selected section (the entry into Vienna and the crossing of the Danube), read and not cited; Völderndorff's brief account of Hollabrunn (OCR, pp. 278-279 by its page heads), a fourth family read in the follow-up for Steken and not cited, which gives a strength for Bagration's rearguard. Figures seen only in the OCR and not restated in values: Victoires's date for Lannes's arrival at Hollabrunn, the brigades of light cavalry at its head, the wagons taken at that arrival and the number of French corps named in the capitulation's conditions; the page numbers of Victoires's OCR quotes, read from the OCR running heads.",
+    "Most consequential gap: side A's engaged strength. Bodart gives 30,000 (24,000 infantry and 6,000 cavalry), Victoires twenty-two thousand French who attacked, and Schönhals no figure for the force engaged, only the 50.000 Murat led across the Danube on the 13th. The targeted follow-up read the passages around every hit for Hollabrunn, Schöngrabern and Guntersdorf, with their OCR variants, in both parents (the summaries of the volume's chapter, Napoleon's proclamation on the eve of Austerlitz, and Schönhals's narrative of 17-18 November and table of contents, none of them cited) and found no other figure for side A's force. A return of the 4th and 5th corps and the cavalry reserve for mid-November could close it.",
+    "Disputes recorded in the claims: side A's strength (Bodart 30,000; Victoires twenty-two thousand attacking; Schönhals none); side B's composition and strength (Bodart 5,500 infantry and 1,500 cavalry, Russians and Austrians, 7,000 by our arithmetic; Victoires six thousand Russians, the Austrians having been allowed to separate before the engagement, OCR; Schönhals 6000 Russians, with the Hessen-Homburg hussars of Nostitz's brigade in the fight); the deceptions before the engagement (Victoires, OCR: an Austrian request to separate that Murat granted; Schönhals: Murat's deceit of Nostitz, answered by Bagration's and Kutusow's ruse); side B's prisoners (Bodart 1,800; Victoires eighteen hundred and three hundred more in the pursuit); side A's loss (Bodart about 2,000; Schönhals considerable, above all the French; Victoires names wounded generals and officers, no number). The accounts agree on the date, the hour, Murat's command, the divisions engaged, the burning village and the end of the fight at eleven at night.",
+    "Families and dependence: Bodart (a compilation; his 1,800 prisoners and 12 guns equal Victoires's figures, and his 30,000 for side A and his infantry and cavalry for side B are not in the passages read); Victoires et conquêtes, t. XV (the French compilation of 1819; in this section it cites the official bulletin by name, OCR, and how far its narrative depends on the bulletins was not checked); Schönhals (the Austrian account written in 1831 and printed in 1873, which by its preface draws what it says of the French army's operations from that army's bulletins, not inspected, so the two may share the bulletins for side A; on side B and the deceptions they differ)."
+  ]
+}

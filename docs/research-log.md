@@ -846,6 +846,128 @@ primary-verified; no separate review was made.
   Austerlitz and Steken) would need about 3.2 million at batch 1d's rate and about 3.5 million at
   this batch's, more than remains, and Austerlitz may need more than an average entry.
 
+## 1805 first pass, batch 1f (2026-10-17)
+
+The last three engagements of `third-coalition 1805`:
+
+| Entry | Engagement | Date (1805) | Claims |
+| --- | --- | --- | --- |
+| B369a | Ober-Hollabrunn | 16 November | 21 |
+| B369c | Austerlitz | 2 December | 21 |
+| B370a | Steken | 5 December | 20 |
+
+All 22 of the group's entries are now drafted. The main session researched, drafted and verified
+these three without subagents. The work is primary-verified; no separate review was made.
+
+- **Sources.** Bodart and two families for each entry ([source additions](source-additions.md)):
+  - Ober-Hollabrunn and Austerlitz: *Victoires et conquêtes*, t. XV (1819), the French
+    compilation registered in batch 1d, and Schönhals (1873), the Austrian account registered in
+    batch 1e.
+  - Steken: Schönhals and a new family, Völderndorff's *Kriegsgeschichte von Bayern* (1826). It is
+    the Bavarian history, written on higher orders from the archives and the commanders' reports,
+    Wrede's communications among them. Side A at Steken is Wrede's Bavarian corps. The other
+    Bavarian candidate, Heilmann's *Wrede* (1881, Internet Archive `11746375bsb`), was found and
+    not used: the brief allows two families besides Bodart.
+
+  The three are interested accounts of their own sides. By its preface Schönhals draws what it
+  says of the French army's operations from that army's bulletins, and *Victoires et conquêtes*
+  cites the official bulletin in its Hollabrunn section, so for side A the two may share the
+  bulletins. At Austerlitz Schönhals cites Dumas for the French strength and loss. No passage read
+  shows dependence between Völderndorff and Schönhals.
+  - 55 records were registered: the Völderndorff parent, three selections, 25 page images and 26
+    figure transcriptions. One transcription is a second one of t. XV's p. 215, whose image batch
+    1d registered, for the Hollabrunn passage at the top of the page.
+  - Every figure in a strength value or a recorded loss is read from a page image: Bodart's,
+    through the frame transcription, or one of the figure transcriptions. The drafts cite 27: the
+    26 new ones and Schönhals's p. 137 from batch 1e.
+  - The OCR misreads figures the images print: Schönhals's '16.000' for 15.000 on p. 169, and in
+    Völderndorff '30 Kanonen' for 40 (p. 296), '50,000' for 30,000 (p. 299), and '291 Mann' for
+    791 and '750 Mann' for 756 (p. 301). Schönhals's order of battle of the allied army (pp.
+    177–178) is garbled in the OCR, and the drafts cite it only from the page images.
+  - t. XV's leaf numbers shift by two between pp. 226 and 227 (leaves n255 and n258), so every
+    image's printed page was checked on the image.
+- **Drafts.** 62 claims with 561 citations, all supported; none is unknown or disputed. Every
+  draft covers the nine dimensions.
+  - Phases: 23 commander-created, 15 inherited, 12 unresolved and 12 post-outcome.
+  - Posture: side A attacked at Ober-Hollabrunn, where Murat attacked Bagration's position behind
+    Schöngrabern. Side B attacked at Steken, where Archduke Ferdinand attacked Wrede's positions at
+    Stecken and Wonau. Both sides attacked at Austerlitz: the allies against the French right at
+    Telnitz and Sokolnitz, the French on the Pratzen heights. All three codes are tagged
+    commander-created.
+  - Fortification: at Austerlitz side A fortified the santon, the height on which Lannes's left
+    rested and which Napoleon regarded as the key of his offensive operations (A_fortified,
+    commander-created). Neither account names works at Ober-Hollabrunn or Steken (none_named,
+    unresolved).
+- **Disputes kept visible.**
+  - Ober-Hollabrunn:
+    - Side A's strength: 30,000 (Bodart); twenty-two thousand who attacked (*Victoires*); no
+      figure for the force engaged (Schönhals).
+    - Side B: 7,000 Russians and Austrians (Bodart, his infantry and cavalry summed, our
+      arithmetic); six thousand Russians, the Austrians having been allowed to separate before
+      the fight (*Victoires*, OCR); 6000 Russians, with the Hessen-Homburg hussars of Nostitz's
+      brigade in the fight (Schönhals).
+    - The deceptions before the fight, side B's prisoners and side A's loss (about 2,000 in Bodart,
+      considerable in Schönhals, no number in *Victoires*).
+  - Austerlitz:
+    - Side B's strength: 83,000 (Bodart); from more than eighty thousand to nearly a hundred
+      thousand (*Victoires*); nearly 89.000 on 25 November and 82575 in the order of battle
+      (Schönhals). The Austrians: 16,000 (Bodart) or about eighteen thousand (*Victoires*).
+    - Side A's loss: 10,000 killed and wounded (Bodart); two thousand dead and four or five
+      thousand wounded (*Victoires*); 800 dead and 6000 wounded (Dumas, through Schönhals).
+    - Side B's loss: 36,000 with 20,000 prisoners (Bodart); more than forty thousand
+      (*Victoires*); 5922 Austrians, about 15.000 Russian prisoners and 5000 to 6000 Russian dead
+      and wounded (Schönhals).
+    - Also disputed: the drowning in the retreat, Oudinot's grenadiers (Schönhals's pp. 167 and
+      169) and Valhubert's death (t. XV's pp. 267 and 271).
+  - Steken:
+    - Side B's strength: 11,000 (Bodart); 8294 after the junction at Czaslau (Schönhals); 17
+      battalions, 2,000 horse and 40 guns, and an enemy army of 30,000 (Völderndorff). Bodart's
+      battalions, horse and guns are Völderndorff's.
+    - Side B's loss: 800 (Bodart); 756 by the enemy's admission (Völderndorff); 205 (Schönhals's
+      dead, wounded and missing, our arithmetic).
+    - Side A's loss: about 1,000 (Bodart); 130 officers, 791 men and 56 horses (Völderndorff); 20
+      officers and about 1000 men taken, besides dead and wounded (Schönhals).
+    - Also disputed: the Austrian wing commanders, the days before the action, Wrede's rank and
+      the manner of side A's retreat.
+- **Gaps and the targeted follow-ups.**
+  - Ober-Hollabrunn: side A's engaged strength. The follow-up read the passages around every hit
+    for Hollabrunn, Schöngrabern and Guntersdorf in both parents and found no other figure. A
+    return of the 4th and 5th corps and the cavalry reserve for mid-November could close it.
+  - Austerlitz: side B's strength. The follow-up registered Schönhals's order of battle from its
+    page images. Its recapitulation sums to 114 battalions, 10 companies, 170¾ squadrons, 82575
+    men and 16565 horses. Bodart's 114 battalions and 83,000 agree with it (82575 rounded up, our
+    arithmetic), but his 148 squadrons and 16,000 cavalry are not the table's. The table gives no
+    guns, and its 3rd column's rows sum to 16 battalions against the recapitulation's 18. It does
+    not separate the Austrians, so Bodart's 16,000 Austrians stay unchecked; the enclosure on the
+    Austrian troops that Schönhals's p. 156 names could close that.
+  - Steken: side A's strength on 5 December. Völderndorff gives Wrede 4,500 foot, barely 400
+    serviceable horses and six guns on 29 November, and lists the units posted on the 5th without
+    a total. The follow-up searched his OCR from the middle of p. 250 to the top of p. 283 for
+    figures of men, horses, battalions, squadrons and guns and found none for Wrede's corps.
+    Wrede's returns for early December or Schönhals's Beilage 37 could narrow both sides'
+    strengths.
+- **Leads for the group check.** The Steken follow-up found two brief accounts in Völderndorff
+  outside that entry, read and not cited: Dürrenstein (p. 275 by the OCR page heads), with
+  strengths for Gazan's division and the Russian army, and Hollabrunn (pp. 278–279), with a
+  strength for Bagration's rearguard. They bear on B368c and B369a. With t. IV's p. 770 (batch
+  1e's lead for B368d), they are leads, not additions to the drafts.
+- **Verification.** The three drafts were checked as a campaign before release. The check:
+  - read every cited passage, and checked each page locator against the OCR's running heads or
+    page numbers;
+  - checked every figure in a value against a page-image quote of the same claim, with a scratch
+    check whose joiner was fixed first (it had merged digit groups across quotes); its one
+    remaining flag, B369a's 7,000, is labelled our arithmetic;
+  - replaced OCR-only figures in values and renderings with "(OCR)" markers, among them a
+    distance at Ober-Hollabrunn and a column number at Steken;
+  - corrected a page in the record of the Steken follow-up: Völderndorff's Hollabrunn account is
+    on pp. 278–279 by the OCR page heads.
+- **Usage.** About 2.8 million tokens of the session's budget, roughly 930,000 an entry,
+  including a new family, 55 records and the order of battle. The group's 22 entries used about
+  14.6 million, roughly 660,000 an entry. The cohort's other 15 groups hold 303 engagements: about
+  200 million at the group's average rate, between about 115 million at batch 1b's rate and about
+  350 million at batch 1e's. At about 15 million a session that is roughly 14 sessions, 8 to 24
+  over the range. About 0.3 million remain in this session.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

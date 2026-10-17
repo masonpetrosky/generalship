@@ -37,18 +37,21 @@ and verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
 group.
 
-**Progress:** five batches were drafted on 2026-10-17, all primary-verified:
+**Progress:** all 22 entries were drafted in six batches on 2026-10-17, all primary-verified:
 
 - batch 1a: Wertingen, Günzburg and Haslach (B363a–c);
 - batch 1b: the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a);
 - batch 1c: the Italian engagements, Verona, Caldiero, Pojano and Castelfranco (B365c, B367a,
   B367b and B369b);
 - batch 1d: the Tyrol and Vorarlberg, Scharnitz and Dornbirn (B368a and B368d);
-- batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c).
+- batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c);
+- batch 1f: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and B370a).
 
-3 of the group's 22 entries remain: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and
-B370a). The Civil War work below is complete as recorded, and its cohorts, ledgers and runs are
-unchanged.
+Each batch was verified as a campaign before release. Still to do for the group: a bounded check
+of the 22 drafts together, including the leads the batches recorded but did not add. The group
+used about 14.6 million tokens, so the other 15 groups (303 engagements) would need about 200
+million at its rate, roughly 14 sessions ([research log](research-log.md)). The Civil War work
+below is complete as recorded, and its cohorts, ledgers and runs are unchanged.
 
 ## Open owner decisions
 
