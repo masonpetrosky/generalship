@@ -40,9 +40,10 @@ group.
 **Progress:** batch 1a (2026-10-17) drafted Wertingen, Günzburg and Haslach (B363a–c), batch 1b
 (2026-10-17) the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a), and
 batch 1c (2026-10-17) the Italian engagements: Verona, Caldiero, Pojano and Castelfranco (B365c,
-B367a, B367b and B369b). All are primary-verified. 7 of the group's 22 entries remain, in the Tyrol
-and Vorarlberg and on the Danube and in Moravia. The Civil War work below is complete as recorded,
-and its cohorts, ledgers and runs are unchanged.
+B367a, B367b and B369b), and batch 1d (2026-10-17) the Tyrol and Vorarlberg: Scharnitz and
+Dornbirn (B368a and B368d). All are primary-verified. 5 of the group's 22 entries remain, on the
+Danube and in Moravia. The Civil War work below is complete as recorded, and its cohorts, ledgers
+and runs are unchanged.
 
 ## Open owner decisions
 

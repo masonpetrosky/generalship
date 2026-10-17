@@ -652,6 +652,89 @@ primary-verified; no separate review was made.
   million remain. At this rate the group's seven remaining entries would need about 4.8 million;
   they need families not yet registered, such as Schönhals and the Correspondance.
 
+## 1805 first pass, batch 1d (2026-10-17)
+
+The Tyrol and Vorarlberg engagements of `third-coalition 1805`, two entries:
+
+| Entry | Engagement | Date (1805) | Claims |
+| --- | --- | --- | --- |
+| B368a | Scharnitz, with the Leutasch | 4 November | 23 |
+| B368d | Dornbirn | 14 November | 21 |
+
+The main session researched, drafted and verified them without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and two new families ([source additions](source-additions.md)): Moriggl's
+  *Der Feldzug des Jahres 1805* (Innsbruck, 1861), the Tyrolean account written from Swinburne's
+  papers, the Seefeld diary, Dipauli's notes and survivors' statements, and *Victoires et
+  conquêtes*, t. XV (1819), the French compilation. Both are interested accounts. The plan's
+  families were checked first and set aside: Angeli's Bd. III and Schönhals only summarise the two
+  actions, Alombert and Colin's t. IV gives Scharnitz one sentence, the bulletins in the
+  *Correspondance* t. XI say too little, Ney's memoirs end at Ulm, and Mathieu Dumas's volumes for
+  1805 are not on the Internet Archive.
+  - 52 records were registered, including 24 page images. Every figure in a strength value or a
+    recorded loss is read from a page image: Bodart's, through the frame transcription, or one of
+    the 24. The drafts cite all 24 figure transcriptions.
+  - Moriggl is printed in Fraktur, and its OCR garbles letters and page numbers. The page of each
+    quote comes from page marks mapped for pp. 298–439 and checked on the images. The parent repeats
+    pp. 348–349 in a second OCR; no quote is taken from that copy.
+- **Drafts.** 44 claims with 431 citations. 42 are supported and two are unknown, side A's loss and
+  side A's information at Dornbirn; none is disputed. Every draft covers the nine dimensions.
+  - Phases: 12 unresolved, 18 inherited, 8 commander-created and 6 post-outcome.
+  - Posture: side A attacked at both. At Scharnitz the code is tagged commander-created, since Ney
+    decided the attack; at Dornbirn it is tagged inherited, since no passage read shows Augereau or
+    Mathieu deciding to attack there.
+  - Fortification: side B fought from the fortress of Scharnitz and the Leutasch work, permanent
+    works, so the code is tagged inherited. At Dornbirn, Moriggl names entrenchments in the Hohenems
+    position and *Victoires et conquêtes* names no works; the two are coded separately, both with
+    the phase unresolved.
+- **Disputes kept visible.**
+  - Scharnitz:
+    - How the fort fell: three assaults beaten off on 4 November, the garrison's departure in the
+      night and Ney's entry into the abandoned fortress (Moriggl), or the 69th's escalade under fire on 5 November
+      (*Victoires et conquêtes*), against Bodart's 4 November.
+    - The Leutasch garrison: three hundred (*Victoires et conquêtes*), or a battalion given as 600
+      with militia companies of 117 and 219 (Moriggl).
+    - Side B's prisoners and trophies: eighteen hundred men, a flag and sixteen guns (*Victoires et
+      conquêtes*); about 1,500 men, 16 guns and 1 flag (Bodart); no total, twelve guns at Scharnitz
+      and a detachment of 1000 prisoners escorted to Kufstein (Moriggl).
+    - Side A's loss: about 400 (Bodart); about 36 dead and about 400 wounded, several hundred, 800
+      or 1800 in the reports Moriggl quotes; 10 dead and 6 wounded at the Leutasch.
+  - Dornbirn:
+    - Side A's strength: 15,000 (Bodart), or about 9000 in Wolfskehl's report (Moriggl).
+    - The detachment that escaped: about three thousand five hundred men under General
+      Wartensleben, fifteen hundred of them cavalry (*Victoires et conquêtes*), or 12 of the 13
+      squadrons and 6 guns under the colonels Kinsky and Wartensleben (Moriggl).
+    - Where side B's main body stood (Feldkirch or Hohenems), the terms, and the works. Moriggl's
+      own text also calls the event the capitulation of Hohenems; that is recorded as deferred,
+      since no claim turns on the name.
+    - Side B's strength agrees closely: 9 battalions and 4,000 men (Bodart); 3 generals, 160
+      officers and 3895 men (Moriggl).
+- **Gaps and the targeted follow-up.** The most consequential gap at both is side A's strength,
+  which neither narrative gives as a total for the action. The follow-up for both was Moriggl's
+  order of battle of the Grande Armée at its crossing of the Rhine (pp. 89, 92 and 93, transcribed
+  from the page images; Moriggl names no source for it).
+  - Augereau's corps had 16 battalions, 4 squadrons and 14,907 men at the crossing. Bodart's 16
+    battalions, 4 squadrons and 15,000 for Dornbirn match it, though the passages read do not show
+    whether he drew on Moriggl or on a common source.
+  - Loison's and Malcher's divisions, whose brigades the narrative engages at Scharnitz and the
+    Leutasch, had 15,615 men together at the crossing (our sum), against Bodart's about 13,000.
+  - Both gaps are narrowed, not closed: the table is dated to the crossing, not the engagement, and
+    in Moriggl's OCR Ney left part of his forces at Ulm. A return of either corps for November, or
+    a report of Ney, Loison, Augereau or Mathieu, could close them; none was read in this pass.
+- **Verification.** The two drafts were checked as a campaign before release. The check:
+  - removed an OCR-only ordinal from a value;
+  - added the page-image and OCR citations that values and renderings relied on, among them Sailer's
+    request, the first appearance of the French, and the dates at Dornbirn;
+  - corrected three overstatements: the agreement at Landeck, Moriggl's hedged judgment on the
+    Hohenems position, and an outpost fight placed "before" Bregenz rather than near it.
+- **Usage.** About 2.1 million tokens of the session's budget, roughly 1.05 million an entry. The
+  figure includes the search beyond the planned families, registering two new families (52
+  records) and mapping Moriggl's Fraktur page marks. About 5.4 million remain. The group's five
+  remaining entries would need about 3.4 million at batch 1c's rate and about 5.3 million at this
+  batch's; Schönhals, Alombert and Colin's t. IV and the *Correspondance* t. XI are still to be
+  registered.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

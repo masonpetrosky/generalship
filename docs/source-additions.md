@@ -1272,3 +1272,56 @@ text says so. The Internet Archive holds another copy of Angeli's Bd. III
 Rights: Koch was published in 1850, and Angeli in 1897 (the catalogue gives his dates as
 1829–1904); the Internet Archive marks both items NOT_IN_COPYRIGHT. Use: the drafts for B365c,
 B367a, B367b and B369b. No model inputs are changed. The registry now holds 2,084 records.
+
+
+## Moriggl and Victoires et conquêtes for the Tyrol and Vorarlberg, 2026-10-17
+
+52 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1d of the
+`third-coalition 1805` first pass (Scharnitz and Dornbirn):
+
+- **Moriggl**, *Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für
+  Tirol insbesonders* (Innsbruck, 1861), group `moriggl-feldzug-1805-tirol`. The Tyrolean account
+  by Alois Moriggl, early-mass priest at Zirl, begun as a monograph on the French invasion at the
+  Leutasch and Scharnitz. His preface lists unprinted sources, among them Swinburne's papers, the
+  Seefeld diary, Dipauli's notes and statements of surviving defenders, and printed ones, among
+  them the *Oesterreichische militärische Zeitschrift* and the *Sammler*.
+  - The Internet Archive OCR (`moriggl-1861-ocr-v1`, item `bub_gb_mz5BAAAAYAAJ`), of a Harvard
+    College Library copy digitised by Google that binds Bände I–III with continuous pagination.
+    The Fraktur OCR garbles many letters and page numbers.
+  - The sectioned selection `moriggl-1861-selections-v1`, with nine sections: `source-list`,
+    `scharnitz-orders-3-nov`, `archduke-orders-4-nov`, `scharnitz-2-3-nov`,
+    `scharnitz-reinforcement-3-nov`, `scharnitz-assault-4-nov`, `leutasch-4-nov`, `seefeld-5-nov`
+    and `vorarlberg-capitulation`. Within `leutasch-4-nov` the parent repeats pp. 348–349 once in
+    a second, more garbled OCR; both copies are kept, and no quote is taken from the second.
+  - 21 page images, each with a transcription: pp. 89, 92 and 93, from his order of battle of the
+    Grande Armée at its crossing of the Rhine; pp. 300, 330, 331, 334–336, 339, 340, 347, 348 and
+    363–365, for Scharnitz, the Leutasch and Seefeld; and pp. 434–438, for the Vorarlberg.
+- ***Victoires, conquêtes, désastres, revers et guerres civiles des Français***, t. XV (Paris,
+  1819), group `victoires-conquetes-1817`. The French compilation "by a society of soldiers and men
+  of letters"; it names no sources in the passages read.
+  - The OCR (`victoires-conquetes-t15-ocr-v1`, item `bub_gb_UNgLhuBKzUAC`), of a National Library
+    of Naples copy digitised by Google.
+  - The selection `victoires-conquetes-t15-selections-v1`, with two sections, `tyrol` and
+    `vorarlberg`.
+  - 3 page images with transcriptions: pp. 215, 216 and 219.
+
+**Dependence.** The two are the sides' own accounts and share no source named in the passages
+read. Moriggl quotes unnamed French reports for French losses, and *Victoires et conquêtes* may
+draw on the bulletins of the Grande Armée, which was not checked. Bodart's 16 battalions, 4
+squadrons and 15,000 men for Augereau's corps at Dornbirn match the total of Moriggl's order of
+battle at the Rhine crossing, 16 battalions, 4 squadrons and 14,907 men; the passages read do not
+show whether Bodart drew on Moriggl or on a common source.
+
+The page images are single pages, served larger than 1600 px and downscaled. As in batch 1c, each
+transcription holds the whole page or the passages its note names, read from the image; the order
+of battle is transcribed one table row to a line. Each selection records its parent's character
+ranges. Neither OCR keeps Google's front-matter notice, only the scanner's stamps. Before these
+two were chosen, the planned families were checked: Angeli's Bd. III and Schönhals only summarise
+the two actions, Alombert and Colin's t. IV gives Scharnitz one sentence, and the bulletins in the
+*Correspondance* t. XI say too little; Ney's memoirs end at Ulm, and Mathieu Dumas's volumes for
+1805 are not on the Internet Archive. Another Moriggl item (`bub_gb_8HpBAAAAcAAJ`), whose OCR has
+none of the engagement names, was not used.
+
+Rights: Moriggl was published in 1860–1861 and *Victoires et conquêtes* t. XV in 1819; the
+Internet Archive marks both items with the Public Domain Mark 1.0. Use: the drafts for B368a and
+B368d. No model inputs are changed. The registry now holds 2,136 records.

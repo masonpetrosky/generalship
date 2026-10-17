@@ -54,6 +54,17 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
 - Ordinals and number words in the OCR ('erste', 'einen', 'zweiten'; 'first') count as OCR figures. A
   battle day read on a page image may be used in a value. Page numbers in Angeli's source notes are read
   in the OCR and marked so wherever they are cited.
+- Batch 1d offsets, checked on the images: Moriggl (bub_gb_mz5BAAAAYAAJ) n = printed + 10 (pp. 89-93),
+  printed + 16 (pp. 300-348) and printed + 18 (pp. 363-438); Victoires et conquêtes t. XV
+  (bub_gb_UNgLhuBKzUAC) n = printed + 29 (pp. 215-219). All 24 images were served larger than 1600 px
+  and downscaled.
+- Moriggl's Fraktur OCR garbles letters and page numbers. The page of a quote in the OCR selection comes
+  from the page marks mapped for pp. 298-439, checked on the images at pp. 430-439. The parent repeats pp.
+  348-349 once in a second, more garbled OCR; quotes are not taken from that copy.
+- Moriggl's order of battle of the Grande Armée at its crossing of the Rhine (pp. 89-93, with a
+  recapitulation on p. 94) gives every corps by division. Pp. 89, 92 and 93 are registered; the other
+  pages can be registered if a later entry needs them. Its date is the crossing, not the engagement.
+- Another Moriggl item (bub_gb_8HpBAAAAcAAJ), whose OCR has none of the engagement names, was not used.
 
 ## Status
 
@@ -68,6 +79,9 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   drafted from Bodart, Koch (t. V) and Angeli (Bd. III); primary-verified. 62 records registered (the two
   OCR parents, two selections, 29 page images with figure transcriptions). Angeli's source notes cite
   Koch's pages for all four actions, so the two are not independent there.
-- Next: Tyrol and Vorarlberg (B368a Scharnitz, B368d Dornbirn), then the Danube and Moravia entries (B368b
-  Mariazell, B368c Dürnstein, B369a Ober-Hollabrunn, B369c Austerlitz, B370a Steken; Schönhals,
-  Correspondance), then verify the group.
+- 2026-10-17, batch 1d: Tyrol and Vorarlberg, Scharnitz (B368a) and Dornbirn (B368d), drafted from
+  Bodart, Moriggl (1861) and Victoires et conquêtes (t. XV, 1819); primary-verified. 52 records registered
+  (the two OCR parents, two selections, 24 page images with figure transcriptions). Both entries' targeted
+  follow-up, for side A's strength, used Moriggl's order of battle at the Rhine crossing.
+- Next: the Danube and Moravia entries (B368b Mariazell, B368c Dürnstein, B369a Ober-Hollabrunn, B369c
+  Austerlitz, B370a Steken; Alombert and Colin t. IV, Schönhals, Correspondance), then verify the group.

@@ -14363,6 +14363,1837 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B368a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Scharnitz entry (4 November 1805) in cohort v1's third-coalition 1805 group: Marshal Ney's attack on the Tyrolean pass of Scharnitz, held by Lieutenant-Colonel Swinburne. The frame has no separate entry for the Leutasch work, which General Loison's column turned and took the same day, so this draft covers it, and the surrender of Swinburne's column near Seefeld after it left the fortress in the night, which both other accounts tell as the end of the action and Victoires dates to 5 November. Ney's march from Ulm, the Innsbruck defence deputation's measures, the French entry into Innsbruck and Archduke John's withdrawal to the Brenner are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) about 13,000 men under Marshal Ney and side B (Austrian) about 3,000 men under Lieutenant-Colonel Swinburne. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Neither figure is in the passages read. Moriggl gives side B's regulars as 944 men at Scharnitz and a battalion given as 600 at the Leutasch work, with about 900 Landesvertheidiger at Scharnitz and militia companies of 117 and 219 at the Leutasch (claims moriggl-scharnitz and moriggl-leutasch): 2,780 together (our sum, not a source's total). The passages read do not show whether Bodart's 3,000 counts both posts or the Landesvertheidiger. Neither other account gives side A a total for the action; Moriggl gives Labassée's brigade, sent against the Leutasch, as 3000 men (claim moriggl-side-a), and his order of battle at the Rhine crossing gives Ney's corps 24,267 men, Loison's division 8014 and Malcher's 7601 (claim moriggl-order-of-battle). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (about 13,000 men) under Marshal Ney over the Austrians (about 3,000 men) under Lieutenant-Colonel Swinburne'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 13.000 M.) unter Marschall Ney über die Österreicher (ca. 3.000 M.) unter Oberstlt. Swinburne."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "moriggl-scharnitz",
+      "dimension": "strength",
+      "value": "Side B (Austrian) at Scharnitz, the Tyrolean account's figures: Moriggl lists the forces the commandant had at his disposal as 1 battalion of the infantry regiment Erzherzog Ludwig under Lieutenant-Colonel Swinburne, 558 men; 1 weak battalion of the regiment Erzherzog Karl, 295; artillerymen, 71; staff dragoons, 20; together 944 men, with only 12 guns in the fortress. Seven companies of Landesvertheidiger stood in support: four militia companies, 594 men by a strength return before him; Anton Grueber of Seefeld's volunteer rifle company of 93 men, at Scharnitz since 13 October; and two rifle companies that arrived on 4 November, which he takes as 213 men, so that the Landesvertheidiger present at the assault numbered about 900.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own side's figures (Moriggl writes the Tyrolean account), read from the page images. The population is the forces 'the commandant had at his disposal' and, for the Landesvertheidiger, those present at the assault. Moriggl takes the 594 from a strength return and the 213 as his own assumption; he gives no source for the 944. In his OCR the Erzherzog Karl battalion was sent from Innsbruck by the army command with guns, and Swinburne reported that guns and battalion had arrived; the passages read do not say whether the 12 guns include those sent. The garrison and its reinforcement were in place before the engagement, so the claim is tagged inherited; Leiß, not Swinburne, drew the two rifle companies to Scharnitz. English renderings (ours): 'of 1 battalion of the infantry regiment Erzherzog Ludwig under the command of Lieutenant-Colonel Swinburne'; 'strength of the battalion | 558 men'; 'further of 1 weak battalion of the regiment Erzherzog Karl; its strength | 295 [men]'; 'artillerymen | 71 [men]'; 'staff dragoons | 20 [men]'; 'together | 944 men'; 'there were only 12 guns in the fortress, when one could easily have needed and used 50'; 'in support of the military there stood in that area the following 7 companies of Landesvertheidiger'; 'these four militia companies numbered 594 men by a strength return before [me]'; 'to these come three rifle companies, namely Anton Grueber of Seefeld's volunteer rifle company of 93 men, standing at Scharnitz since 13 October'; 'then the two rifle companies that arrived on 4 November (from where? and led by whom? unknown) at the same time as the Hörtenberg Landsturm in the place just named, and were drawn to Scharnitz by the rifle major Herr von Leiß'; 'if we take these two companies at 213 men, the number of all Landesvertheidiger present at the assault on the fortress comes to about 900'; 'to this end a battalion of the regiment Erzherzog Karl was quickly set in motion from Innsbruck by the army command to reinforce the garrison of Scharnitz; at the same time ... (OCR) guns were sent there' (OCR); 'Swinburne reported that he had duly received the Archduke's orders through engineer captain Peschke, that the guns and the battalion Erzherzog Karl had also already arrived; that he had now occupied all the works' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Aus 1 Bataillon vom Infanterie-Regimente Erzherzog Ludwig unter Kommando des Oberstlieutenants Swinburne."
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Stärke des Bataillons | 558 Mann"
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Ferners aus 1 schwachen Bataillon vom Regimente Erzherzog Karl; Stärke desselben | 295 „"
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Artilleristen | 71 „"
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Stabsdragoner | 20 „"
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Zusammen | 944 Mann."
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Kanonen befanden sich in der Festung nur 12, da man doch leicht 50 hätte brauchen und verwenden können."
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Zur Unterstützung des Militärs standen in der dortigen Gegend nachstehende 7 Kompagnien von Landesvertheidigern:"
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Diese vier Miliz-Kompagnien zählten nach einem vorliegenden Standesausweis 594 Mann."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Dazu kommen noch drei Scharfschützen-Kompagnien und zwar die schon seit 13. Oktober in der Scharnitz stehende, 93 Mann zählende freiwillige Schützen-Kompagnie des Anton Grueber von Seefeld,"
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "dann jene zwei Schützen-Kompagnien, welche noch am 4. November (unbekannt woher? und von wem? angeführt) mit der Hörtenberger Sturm-Mannschaft zu gleicher Zeit in der ebengenannten Ortschaft eintrafen, und vom Schützen-Major Herrn von Leiß nach der Scharnitz gezogen wurden."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Nehmen wir diese beiden Kompagnien zu 213 Mann an, so beträgt die Zahl sämmtlicher Landesvertheidiger, die dem Sturme auf die Festung beiwohnten, bei 900 Mann."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-reinforcement-3-nov",
+          "locator": "Moriggl (1861), p. 326 (OCR page numbers; not checked against print)",
+          "quote": "Zu diejem Ende wurde von Seite des Armee-Oberkommando fehnell ein Bataillon vom Negimente Erzherzog Karl zur Verftärfung der Befagung in der Scharnitz von Innsbruck aus in Bewegung gejegt; unter Einem wurden auch 6 Kanonen dahin abgeſchickt."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-orders-3-nov",
+          "locator": "Moriggl (1861), p. 299 (OCR page numbers; not checked against print)",
+          "quote": "Swinburne berichtete, daß er die Befehle des Erz— herzogs durch den Ingenieur-Hauptmann Peſchke richtig erhalten habe, daß auch das Geſchütz und das Bataillon Erzherzog Karl bereits eingetroffen ſeien; daß er nun alle Schanzen beſetzt Habe,"
+        }
+      ]
+    },
+    {
+      "id": "moriggl-leutasch",
+      "dimension": "strength",
+      "value": "Side B (Austrian) at the Leutasch work, the Tyrolean account's figures: on 4 November a battalion of the infantry regiment Franz Kinsky, whose strength is given as 600 men, held the work under Major Kraus, commander of the battalion and the fort, and three guns and a howitzer armed it. Two militia companies were in the Leutasch: one from the court district of Hörtenberg, 117 men under Captain Franz Sailer, and one from Petersberg, 219 men under Joseph Marberger. Moriggl says Kraus had 900 men at his disposal and posted 24 soldiers with an officer on the Alpl and 14 militiamen under a corporal on the Grünkopf; on 4 November the usual 38 men stood on those posts.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own side's figures, read from the page images. Moriggl says the battalion's 600 'is given' without naming who gives it; his 900 at Kraus's disposal is close to 600, 117 and 219 together (936, our sum). The garrison was in place before the engagement, so the claim is tagged inherited; the posts on the Alpl and the Grünkopf were Kraus's own dispositions (claim leutasch-command). The Landsturm columns that came up during the fight are not counted: Moriggl gives the first, under Anton Seeger, a strength seen only in the OCR, and none for the other two. English renderings (ours): 'on 4 November there was in the Leutasch work, as already mentioned, a battalion of the infantry regiment Franz Kinsky, whose strength is given as 600 men'; 'commander of the said battalion and of the fort was Major Kraus'; 'three guns and a howitzer formed the armament of the place'; 'one of them was from the former court district of Hörtenberg (now Telfs), numbered 117 men and stood under Captain Franz Sailer'; 'the other was from the court district of Petersberg (Silz), was 219 men strong and was commanded by Joseph Marberger, son of the Pfleger of Silz'; 'but Major Kraus did none of all this, although he had 7 days' time and 900 men at his disposal; he was content to order 24 men of the military with an officer up to the Alpl, and 14 men of the militia under a corporal up to the Grünkopf, and that was that'; 'on this day the usual 38 men again stood up on the said posts'; 'the first column of Landsturm men that came up was about ... (OCR) men strong and stood under the command of Anton Seeger' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Am 4. November befand sich in der Leutascher Schanze, wie bereits erwähnt, ein Bataillon vom Infanterie-Regimente Franz Kinsky, dessen Stärke auf 600 Mann angegeben wird."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Kommandant des benannten Bataillons und des Forts war Major Kraus."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Drei Kanonen und eine Haubitze bildeten die Armirung des Platzes."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "die eine davon war aus dem ehemaligen Gerichte Hörtenberg (jetzt Telfs), zählte 117 Mann, und stand unter dem Hauptmann Franz Sailer,"
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "die andere war aus dem Gerichte Petersberg (Silz), war 219 Mann stark, und wurde von Joseph Marberger, Pflegerssohn von Silz, kommandirt."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "allein Major Kraus hat von Allem nichts gethan, obwohl er 7 Tage Zeit und 900 Mann zur Disposition hatte; er begnügte sich vom Militär 24 Mann mit einem Offizier auf das Alpl, und 14 Mann von der Miliz unter einem Korporal auf den Grünkopf hinauf zu kommandiren, und damit — Punktum."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "an diesem Tage standen wieder die gewöhnlichen 38 Mann oben auf den benannten Posten;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 344 (OCR page numbers; not checked against print)",
+          "quote": "Die erfte Kolonne Stürmer, welche anrücte, war bei 600 Mann itarf, und jtand unter dem Kommando des Anton Seeger,"
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's account: Victoires says the Leutasch, a fortified post that Loison's division invested, was defended by three hundred men, who capitulated; in the fort of Scharnitz the 69th regiment found only about a hundred Tyrolean chasseurs and some inhabitants, the rest of the troops having decided to evacuate the place and retire on Innsbruck. It gives no total for side B.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page images; it names no source in the passages read. Its three hundred at the Leutasch are far fewer than Moriggl's battalion given as 600 with two militia companies (claim moriggl-leutasch). Its hundred chasseurs in the fort do not fit Moriggl's account, in which the Landesvertheidiger were told to find their own way out and Ney entered an abandoned fortress (claims side-b-command and side-a-command). The eighteen hundred men it gives as taken are recorded as a loss (claim side-b-losses-reported). English renderings (ours): 'General Loison's division invested this fortified post, made the three hundred men who defended it capitulate, and then marched on Seefeld, a village lying in front of the Pass of Scharnitz, which the marshal wanted to attack'; as in claim scharnitz-ground for the sixty-ninth's escalade; 'they found in the fort only about a hundred Tyrolean chasseurs and some inhabitants; the rest of the troops had decided to evacuate the place to retire on Innsbruck'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Arrivé ainsi sur le plateau où se trouve situé le fort, au milieu d'une grêle de balles et de mitraille qui partaient des remparts, le soixante-neuvième s'y forma, et s'avança ensuite sous les murs, qui furent escaladés."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Ils ne trouvèrent dans le fort qu'une centaine de chasseurs tyroliens et quelques habitans; le reste des troupes avait pris le parti d'évacuer la place pour se retirer sur Inspruck."
+        }
+      ]
+    },
+    {
+      "id": "moriggl-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Moriggl: early on 4 November Marshal Ney marched out of Mittenwald with Malher's division and Marcognet's brigade, placing the infantry to the right of the road and the cavalry to the left, with the artillery on the road and part of it left in reserve in the Mühlfeld under General Serroux; he sent Labassée's brigade, 3000 men strong, under General of Division Loison from Mittenwald to turn the Leutasch work, take it and then take the fortress of Scharnitz in the rear. Loison advanced with the reinforced brigade Labassée, and at the Leutasch French officers told Captain Baron Horn that a French column of over 3000 men stood in the rear of the work. Moriggl's narrative gives no total for side A.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's account of side A, read from the page images except where marked OCR; Moriggl names no source for these figures. In his OCR the storming of the outworks fell to Marcognet's brigade, Roguet's brigade moved against the Teufelskuchl battery and turning columns were formed from Villatte's brigade; he also says that Ney had had to leave a considerable part of his forces at Ulm and that his division under Dupont was employed elsewhere. The troops named are those Ney committed against the two posts for this action, so the claim is tagged commander_created; the corps he had was set by orders from above (claim side-a-objectives). The passages read do not say whether the brigade's 3000 and the column of over 3000 are one figure. His order of battle at the Rhine crossing is recorded in claim moriggl-order-of-battle. English renderings (ours): 'at last the fourth of November had dawned! Early in the morning Marshal Ney marched out of Mittenwald with the division Malher and the brigade Marcognet'; 'to the right of the road he placed the infantry, to the left the cavalry; on the road itself the artillery advanced, of which a part stayed behind as reserve in the so-called Mühlfeld under the command of General Serroux'; 'the brigade Labassée, 3000 men strong, Ney sent off from Mittenwald under the command of General of Division Loison, that excellent and ever-fortunate leader of turning columns, to turn the Leutasch work, take it and then take the fortress of Scharnitz in the rear'; 'in accordance with the orders received, the French General of Division Loison advanced on 4 November with the reinforced brigade Labassée'; 'that a French column over 3000 men strong stood in the rear of the work'; '[a part of the] French infantry [went] across to take by storm the ... (OCR) \"Maulecke\" as well as the \"Vorschanzl\". This difficult task fell to the brigade Marcognet' (OCR); 'the brigade Roguet set out against the battery lying on the right side, the Teufelskuchl' (OCR); 'from the brigade Villatte ... (OCR) turning columns were formed, of which the ... (OCR) tried to push forward over the Brunnstein toward the Karwendel valley, but the ... (OCR) wanted to come into the rear of the fortress over the Arnthal' (OCR); 'at Ulm the marshal had had to leave a considerable part of his forces behind, while besides his ... (OCR) division (Dupont)' (p. 321, OCR) 'was employed elsewhere' (p. 322, OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Endlich war der vierte November angebrochen!"
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Schon in der Frühe rückte Marschall Ney mit der Division Malher und mit der Brigade Marcognet von Mittenwald aus."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Rechts von der Straße stellte er die Infanterie, links die Kavallerie; auf der Straße selbst rückte die Artillerie vor, von welcher ein Theil im sogenannten Mühlfelde unter dem Kommando des Generals Serroux als Reserve zurückblieb."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Die 3000 Mann starke Brigade Labassée schickte Ney unter dem Kommando des Divisions-Generals Loison, dieses ausgezeichneten und allzeit glücklichen Führers von Umgehungs-Kolonnen von Mittenwald ab, um die Leutascher Schanze zu umgehen, wegzunehmen und dann die Festung Scharnitz im Rücken zu packen."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "Dem erhaltenen Befehle gemäß rückte am 4. November der französische Divisions-General Loison mit der verstärkten Brigade Labassée"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "daß eine über 3000 Mann starke französische Kolonne im Rücken der Schanze stehe,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "franzöſiſchen Infanterie hinüber, um die beiden „Maulecke“ fo mie das „Vorſchanzl“ mit Sturm zu nehmen. Diefe ſchwierige Aufgabe wurde der Brigade Marcognet zu Theil."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "fette fih die Brigade Roguet gegen die rechter „Seits gelegene Batterie — die Teufelskuchl“ — in Bewegung."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "Aus der Brigade Billatte wurden zwei Umgehungs-Kolonnen gebildet, wovon die erjte über den Brunnſtein gegen das Karbendelthal vorzu- dringen verfuchte, die zweite aber über das Arnthal der Feftung in den Rüden fommen wollte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 321 (OCR page numbers; not checked against print)",
+          "quote": "In Ulm hatte der Marſchall einen bedeutenden Theil ſeiner Streitkräfte zurücklaſſen müſſen, während ohnehin ſeine dritte Diviſion (Dupont)"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 322 (OCR page numbers; not checked against print)",
+          "quote": "anderweitig verwendet wurde."
+        }
+      ]
+    },
+    {
+      "id": "moriggl-order-of-battle",
+      "dimension": "strength",
+      "value": "Side A (French) in Moriggl's order of battle of the Grande Armée 'at its crossing of the Rhine': Marshal Ney's VI Army Corps had Dupont's division, 7 battalions and 5350 men; Loison's division (brigadiers Villatte and Roguet; 6th light, 39th, 69th and 76th line regiments), 9 battalions and 8014 men; Malcher's division (brigadiers Marcognet and Labassée; 25th light, 27th, 50th and 59th line), 9 battalions and 7601 men; Tilly's cavalry division (10th Chasseurs, 1st and 3rd Hussars), 12 squadrons and 2169 men; and artillerymen, engineers and others, 1168 men: in all 25 battalions, 12 squadrons and 24,267 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's account of side A, read from the page images. The sentence that introduces the table (p. 89) dates it to the army's crossing of the Rhine, which Moriggl does not date, and he names no source for it. It gives the corps at the crossing, which comes before Elchingen and Ulm in Moriggl's narrative, not side A on 4 November: in Moriggl's OCR Ney had had to leave a considerable part of his forces at Ulm, and his division under Dupont was employed elsewhere (claim moriggl-side-a). The table puts Marcognet's and Labassée's brigades in Malcher's division and Villatte's and Roguet's in Loison's; Moriggl's narrative engages all four at the two posts (claim moriggl-side-a), and the 69th regiment, which Victoires has attack the fort in front (claim victoires-side-a), is in Loison's division. Loison's and Malcher's divisions number 15,615 together at the crossing (our sum, not a source's total), against Bodart's about 13,000 for side A (claim bodart-strength); the passages read do not show Bodart's basis or how much of either division was at the two posts. The corps' composition and strength were set before the engagement, so the claim is tagged inherited. The table prints 'Malcher' where the narrative prints 'Malher'. English renderings (ours): 'there now follow the distribution and the statement of the strength of the Grande Armée at its crossing of the Rhine'; 'VI Army Corps — Marshal Ney'; each division row gives the division's commander, its brigadiers, its regiments ('leichtes' light, 'L.-I.-R.' line infantry regiment, '„' ditto), battalions, squadrons and men; Tilly's row ('Kavallerie-Div.', cavalry division; 'Chasseur'; 'Husar.', hussars) gives 12 squadrons and 2169 men; 'artillerymen, engineers etc. | 1168'; the corps total, '25 | 12 | 24,267'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p89-figures-v1",
+          "section": "p89",
+          "locator": "Moriggl (1861), p. 89 (transcribed from the page image)",
+          "quote": "Es folge nun die Eintheilung und die Angabe der Stärke der großen Armee bei ihrem Uebergang über den Rhein."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "VI. Armee-Korps — Marschall Ney."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Dupont | Rouyer / Marchand | 9. leichtes / 32. L.-I.-R. / 96. „ | 7 | — | 5350"
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Loison | Villatte / Roguet | 6. leichtes / 39. L.-I.-R. / 69. „ / 76. „ | 9 | — | 8014"
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Malcher | Marcognet / Labassée | 25. leichtes / 27. L.-I.-R. / 50. „ / 59. „ | 9 | — | 7601"
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Tilly / Kavallerie-Div. | — | 10. Chasseur / 1. Husar. / 3. „ | — | 12 | 2169"
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Artilleristen, Ingenieure u. s. w. | 1168"
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "25 | 12 | 24,267"
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account: Victoires says Napoleon directed Marshal Ney with his army corps to invade the Tyrol; General Loison's division invested the Leutasch post and then marched on Seefeld; on 5 November at two in the morning Loison directed two columns on the fort of Scharnitz, one to turn it and the second, formed by the 69th regiment, to attack in front. The first column, sent to cut off the Austrians' retreat, was inferior in force when it met them near a monastery, until the 69th came up. It gives no total.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's history, read from the page images; it names no source in the passages read and mentions no assault on 4 November. The columns were Loison's dispositions for this action, so the claim is tagged commander_created. English renderings (ours): 'Napoleon, before leaving Augsburg, had directed Marshal Ney with his army corps on Landsberg, to make an invasion of the Tyrol and seize that country'; as in claim victoires-side-b for the Leutasch; 'on 5 November, at two in the morning, General Loison directed two columns on the fort of Scharnitz, one of which was to turn this post while the second would attack in front'; 'the sixty-ninth regiment, which formed this second column, and which had so distinguished itself at the combat of Elchingen, found in its way obstacles that would have seemed insurmountable to any but such brave men'; 'in carrying out this movement the Austrians met the first column, which General Loison had directed to that side to cut off their retreat'; 'the combat began near a monastery that stood on the road; the French column, inferior in force, was on the point of leaving the passage free to its adversaries when the sixty-ninth regiment, which had just taken Scharnitz and had at once thrown itself in pursuit of the fleeing garrison, arrived on the field and changed the face of the combat'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Napoléon, avant de quitter Augsburg, avait dirigé le maréchal Ney avec son corps d'armée sur Landsberg, à l'effet de faire une invasion dans le Tyrol et de s'emparer de ce pays."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le 5 novembre, à deux heures du matin, le général Loison dirigea sur le fort de Scharnitz deux colonnes, dont l'une devait tourner ce poste, tandis que la seconde attaquerait de front."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le soixante-neuvième régiment, qui formait cette seconde colonne, et qui s'était si bien distingué au combat d'Elchingen, trouva sur son passage des obstacles qui eussent paru insurmontables à tous autres qu'à de tels braves."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "En opérant ce mouvement, les Autrichiens rencontrèrent la première colonne que le général Loison avait dirigée de ce côté pour leur couper la retraite."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Le combat s'engagea près d'un monastère qui se trouvait sur la route; la colonne française, inférieure en force, était sur le point de laisser le passage libre à ses adversaires, lorsque le soixante-neuvième régiment, qui venait de s'emparer de Scharnitz, et qui s'était aussitôt jeté à la poursuite de la garnison fugitive, arriva sur le champ de bataille, et changea la face du combat."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Ney as side A's commander and Lieutenant-Colonel Swinburne as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Moriggl has Ney direct the attack on Scharnitz and send General Loison against the Leutasch, Swinburne command at Scharnitz, and Major Kraus, then Captain Baron Horn, command the separate Leutasch work (claims side-a-command, side-b-command and leutasch-command). Victoires credits the Leutasch and the columns against Scharnitz to Loison under Ney and names no Austrian commander. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 13.000 M.) unter Marschall Ney über die Österreicher (ca. 3.000 M.) unter Oberstlt. Swinburne."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A was Marshal Ney's corps. In Moriggl's OCR, Ney reconnoitred the fortress and the Leutasch valley with his staff and men who knew the area, had Swinburne summoned in writing through Colonel Colbert and, on his refusal, decided to take the place by force of arms. On 4 November Ney sent General Loison with Labassée's brigade to turn and take the Leutasch work and then take Scharnitz in the rear, and before acting against the fortress sent an envoy once more at 10 o'clock (Colbert again, OCR); then followed a general advance (OCR) and assaults from 1 o'clock to ¼ past 5. Loison took the Leutasch work, where Captain Dauphin was left as commandant, and advanced to Seefeld the same evening; there French detachments pushed Swinburne's column off the road, fell on its flank and forestalled it at the defile, and it surrendered. Ney, told in the night of 4 to 5 November, it was said by a deserter, that the garrison had left, set out very early and entered the abandoned fortress toward 4 in the morning. In Victoires, Loison's division invested the Leutasch, and Loison directed the two columns against Scharnitz.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as the accounts give them (page images except where marked OCR). Moriggl asks why Ney sent a turning column and then, without awaiting its result, had the fortress stormed, and inclines to parish priest Grün's view that pride alone moved him to it, to increase his glory by taking the place by force of arms (OCR); that is a judgment, not a recorded motive. English renderings (ours): 'in the forenoon of the ... (OCR) November Ney, at the head of his general staff and some men who knew the area, made a reconnaissance against the fortress and to the right against the Leutasch valley, which opens between Mittenwald and Scharnitz' (OCR); 'the French Colonel Colbert was the bearer of the letter' (OCR); 'in consequence of the refusal Ney now decided to take the place by force of arms' (OCR); as in claim moriggl-side-a for Labassée's brigade; 'but before Marshal Ney had anything undertaken against the fortress, he sent once more at 10 o'clock an envoy with a' (p. 331) '[trumpeter to Swinburne]; it was the same Colonel Colbert who the day before at the same hour had brought the marshal's letter' (p. 332, OCR); 'now followed a general advance of the enemy' (OCR); 'from 1 o'clock to ¼ past 5 o'clock, thus four full hours, the storming went on without pause'; 'in the work the French Captain Dauphin was now left behind as commandant'; 'General Loison advanced the same evening over the so-called \"Böden\" to Seefeld, the moonlight serving him excellently'; as in claim side-b-command for the action at Seefeld; 'for in the night of 4 to 5 November he had received at Mittenwald, as people say through a deserter, the news that the garrison of Scharnitz had already left'; 'the marshal therefore set out from Mittenwald very early and entered the completely abandoned fortress toward 4 in the morning'; 'one might rightly ask for what reason Ney sent off a turning column and, without awaiting the result of its dispatch, had the fortress stormed' (OCR); '\"that pride alone could have moved the marshal to have the fortress stormed with such fury in the circumstances, namely to increase his glory by taking it by force of arms\"' (OCR); Victoires, as in claims victoires-side-b and victoires-side-a.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 322 (OCR page numbers; not checked against print)",
+          "quote": "Am dritten November Vormittags unternahm Ney an der Spike jeines Generalftabes und einiger der Gegend Fundigen Männer eine Rekognoscirung gegen die Feſtung und rechts gegen das Thal Leutajd, das ſich zwiſchen Mittenwald und Scharnig ausmündet."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 322 (OCR page numbers; not checked against print)",
+          "quote": "Der franzöfifhe Oberſt Colbert mar Ueberbringer des Schreibens;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 323 (OCR page numbers; not checked against print)",
+          "quote": "In Folge der abjchlägig ausgefallenen Antwort beſchloß nun Ney den Platz mit Gewalt der Waffen zu nehmen,"
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Die 3000 Mann starke Brigade Labassée schickte Ney unter dem Kommando des Divisions-Generals Loison, dieses ausgezeichneten und allzeit glücklichen Führers von Umgehungs-Kolonnen von Mittenwald ab, um die Leutascher Schanze zu umgehen, wegzunehmen und dann die Festung Scharnitz im Rücken zu packen."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Ehevor jedoch Marschall Ney etwas gegen die Festung unternehmen ließ, schickte er um 10 Uhr nochmals einen Parlamentär mit einem"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 332 (OCR page numbers; not checked against print)",
+          "quote": "es war dies derſelbe Oberſt Colbert, der Tags zuvor um dieſelbe Stunde das Schreiben des Marſchalls überbracht Hatte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 332 (OCR page numbers; not checked against print)",
+          "quote": "erfolgte jetzt eine allgemeine Vorrückung des Feindes."
+        },
+        {
+          "source_id": "moriggl-1861-p334-figures-v1",
+          "section": "p334",
+          "locator": "Moriggl (1861), p. 334 (transcribed from the page image)",
+          "quote": "Von 1 Uhr bis ¼ nach 5 Uhr — also volle vier Stunden wurde unausgesetzt gestürmt."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "In der Schanze wurde nun der französische Kapitän Dauphin als Kommandant zurückgelassen."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "General Loison rückte nun noch denselben Abend über die sogenannten „Böden“ nach Seefeld vor, wobei ihm der Mondschein trefflich zu Statten kam."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "wurde er von der französischen Kolonne, welche den Geigenbichl besetzt hielt, gleich von der Straße weg und gegen das Gebirg hin gedrückt."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "allein eine zweite französische Abtheilung brach zu gleicher Zeit aus Seefeld hervor, und fiel ihm in die rechte Flanke, während eine dritte feindliche Abtheilung schnell auf der Straße vorrückte und noch vor Swinburne beim „rothen"
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "So von allen Seiten umrungen mußte sich der tapfere Krieger nach einem kurzen aber kräftigen Versuche, die Passage zu erzwingen, sammt seiner braven Mannschaft (wirklich eines bessern Looses würdig) an den übermächtigen Feind ergeben;"
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "Dieser hatte nämlich in der Nacht vom 4. auf den 5. November — wie man sagt, durch einen Ueberläufer — zu Mittenwald die Nachricht erhalten, daß die Besatzung der Scharnitz bereits abgezogen wäre."
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "Der Marschall brach demnach in aller Frühe von Mittenwald auf, und rückte gegen 4 Uhr Morgens in die ganz verlassene Festung ein."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 335 (OCR page numbers; not checked against print)",
+          "quote": "Man möchte wohl mit allem Nechte fragen, aus welchen Grunde Ney eine Umgehungs-Rolonne abgeichiett, und — ohne das Nefultat ihrer Abſendung abzuwarten — die Feſtung habe jtürmen laffen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 335 (OCR page numbers; not checked against print)",
+          "quote": "„daß lebiglih der Stolz ben Marfchall habe beftimmen können, die Reftung unter ben ob: waltenden Umftänden mit einer folchen Wuth ftürmen zu faffen, um nämlich durch Weg- nahme derſelben mittelit Waffengewalt jeinen Ruhm zu erhöhen."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le 5 novembre, à deux heures du matin, le général Loison dirigea sur le fort de Scharnitz deux colonnes, dont l'une devait tourner ce poste, tandis que la seconde attaquerait de front."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Lieutenant-Colonel Swinburne commanded at Scharnitz under Archduke John, who told him that holding the fortress for at least three more days was necessary and charged him not to begin the retreat without a definite order. In Moriggl's OCR, Swinburne refused Ney's written and oral summonses; when the turning columns appeared he sent a company of soldiers to the Landesvertheidiger on each side and asked FML Count St. Julien at Innsbruck to replace them, and when the fighting ended he asked Seefeld for men for the next day. He had the Landesvertheidiger defend the Arnthal and the Arnthalkopf to the left of the fortress, and the garrison, spurred on by him, beat off three general assaults. Late in the evening, on certain news that the enemy was already in Seefeld, the Landesvertheidiger were told to find their own way out; Swinburne took one gun, had the other eleven spiked, gathered his men and marched toward Seefeld, intending to break through and join Archduke John's army corps. Pushed off the road toward the mountain by the French column on the Geigenbichl, attacked in his right flank by a second detachment from Seefeld and forestalled at the defile of the rothe Kreuz by a third, he surrendered with his men after a short but vigorous attempt to force the passage.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions at Scharnitz as Moriggl gives them (page images except where marked OCR). Victoires names no Austrian commander; its Austrian chief was unhorsed and taken by Captain Genevay (claim bodart-winner). In Moriggl's OCR the Archduke, before leaving Innsbruck, also left St. Julien a written instruction to have Swinburne and Kraus withdraw in the night to Innsbruck once the troops of Chasteler and Rohan had passed (claim side-b-objectives); the passages read do not say whether that order reached Swinburne. English renderings (ours): 'the Archduke further declared to him that holding the fortress for at least three more days was necessary, and charged him not to begin the retreat without a definite order for it'; 'I am, however, with all the troops under my command firmly resolved to defend the post entrusted to me, as befits brave soldiers' (OCR); '\"he who does his duty has nothing to reproach himself with\", said Swinburne, \"adieu!\"' (OCR); as in claim moriggl-side-a for the turning columns; 'when Swinburne noticed this, he quickly sent the Landesvertheidiger left and right a company of soldiers in support and a courier to Innsbruck, asking FML Count St. Julien for the speedy replacement of the ... (OCR) companies gone to the threatened points' (OCR); 'in which Swinburne ordered the alarm to be beaten and good numbers of men sent into Scharnitz, of whom he (as he believed) would need a great many more for the following day' (OCR); 'earlier he had urgently asked FML Count St. Julien for support in men and more guns' (OCR); 'these, by the commandant's instruction, had to defend the Arnthal and the Arnthalkopf to the left of the fortress'; 'three general assaults were in this way happily beaten off by the brave garrison; spurred on by its commandant, it worked wonders of bravery on this hot day and covered itself with glory'; 'for when Swinburne had received late in the evening the certain news that the enemy was already in Seefeld, the Landesvertheidiger were given the instruction to seek a way out for themselves'; 'but so he took one gun, had the other eleven spiked, gathered his men and marched bravely at their head toward Seefeld'; '[with] one gun was on the march, with the intention of breaking through and joining the army corps of Archduke John'; 'he was pushed by the French column that held the Geigenbichl at once off the road and toward the mountain'; 'but a second French detachment broke out of Seefeld at the same time and fell on his right flank, while a third enemy detachment advanced quickly on the road and reached the \"rothe' (p. 363) 'Kreuz\" before Swinburne and occupied the defile' (p. 364); 'thus surrounded on all sides, the brave warrior had to surrender with his brave men (truly worthy of a better lot) to the overwhelming enemy, after a short but vigorous attempt to force the passage'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p300-figures-v1",
+          "section": "p300",
+          "locator": "Moriggl (1861), p. 300 (transcribed from the page image)",
+          "quote": "Der Erzherzog erklärte ihm ferners, daß die Behauptung der Festung wenigstens drei Tage noch nöthig sei, und trug ihm auf, den Rückzug ohne bestimmten Befehl dazu nicht anzutreten;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 323 (OCR page numbers; not checked against print)",
+          "quote": "Ich bin aber mit allen, meinem Dex fehle unterftehenden Truppen feſt entſchloſſen, den Poften zu vertheidigen, der mir anvertrant ift, wie fih’s für brave Soldaten geziemt,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 332 (OCR page numbers; not checked against print)",
+          "quote": "„Ver ſeine Schuldigkeit thut, hat ſich nichts vorzuwerfen — ſprach Swinburne — Adieu!“"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "Aus der Brigade Billatte wurden zwei Umgehungs-Kolonnen gebildet, wovon die erjte über den Brunnſtein gegen das Karbendelthal vorzu- dringen verfuchte, die zweite aber über das Arnthal der Feftung in den Rüden fommen wollte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "Als nun Smwinburne dies bemerkte, ſchickte er geſchwind den Landes— vertheidigern links und rechts ein Kompagnie Militär zur Unterftügung und einen Kurier nach Innsbruck ab, den FL. Grafen von St. Yulien erfuchend, um ſchleunige Erjegung der beiden auf die bedrohten Punkte abgegangenen Kompagnien."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 337 (OCR page numbers; not checked against print)",
+          "quote": "worin Swinburne befahl, Sturm zu fchlagen, und brav Leute in die Scharnig zu ſchicken, deren er für den folgenden Tag noch recht viele (wie er glaubte) brauche."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 337 (OCR page numbers; not checked against print)",
+          "quote": "Früher ſchon hatte er den FMV. Grafen von St. Julien um eine Unterftügung an Mannſchaft und um mehreres Geſchütz dringend gebeten."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Diese hatten nach der Weisung des Kommandanten links von der Festung das Arnthal und den Arnthalkopf zu vertheidigen."
+        },
+        {
+          "source_id": "moriggl-1861-p334-figures-v1",
+          "section": "p334",
+          "locator": "Moriggl (1861), p. 334 (transcribed from the page image)",
+          "quote": "Drei allgemeine Stürme wurden auf diese Weise von der braven Besatzung glücklich abgeschlagen; angefeuert von ihrem Kommandanten wirkte dieselbe an diesem heißen Tage Wunder der Tapferkeit, und bedeckte sich mit Ruhm."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "Als nämlich Swinburne spät Abends die sichere Nachricht erhalten hatte, daß der Feind bereits in Seefeld stehe, wurde den Landesvertheidigern die Weisung ertheilt, sich selbst einen Ausweg zu suchen."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "So nahm er aber eine Kanone, ließ die übrigen eilf vernageln, sammelte seine Leute, und rückte muthig an ihrer Spitze Seefeld zu;"
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "und einer Kanone im Anzuge war, in der Absicht, sich durchzuschlagen, und an das Armee-Korps des Erzherzogs Johann anzuschließen."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "wurde er von der französischen Kolonne, welche den Geigenbichl besetzt hielt, gleich von der Straße weg und gegen das Gebirg hin gedrückt."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "allein eine zweite französische Abtheilung brach zu gleicher Zeit aus Seefeld hervor, und fiel ihm in die rechte Flanke, während eine dritte feindliche Abtheilung schnell auf der Straße vorrückte und noch vor Swinburne beim „rothen"
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "Kreuze“ anlangte und das Defilée besetzte."
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "So von allen Seiten umrungen mußte sich der tapfere Krieger nach einem kurzen aber kräftigen Versuche, die Passage zu erzwingen, sammt seiner braven Mannschaft (wirklich eines bessern Looses würdig) an den übermächtigen Feind ergeben;"
+        }
+      ]
+    },
+    {
+      "id": "leutasch-command",
+      "dimension": "responsibility",
+      "value": "Major Kraus commanded the Kinsky battalion and the Leutasch fort. Having taken command on 28 October, he asked the inhabitants which posts were most dangerous and was told that the Alpl was the most dangerous point, and he was often reminded that it had to be well held because the enemy would almost certainly try to break in there; Moriggl says he did nothing to strengthen it, though he had 7 days and 900 men, and posted 24 soldiers with an officer on the Alpl and 14 militiamen on the Grünkopf. A deputation of Leutasch men, taken by the governor to Archduke John to obtain an order to Kraus to hold the Alpl more strongly, was not heeded. In Moriggl's OCR, on 4 November Kraus refused the Alpl post's request for men and ammunition and Captain Sailer's requests to go to its help; when the French appeared on the height he withdrew toward Oberleutasch with a gun, and Captain Baron Horn took command in the work and sent companies to the Alpl, too late. An imperial officer then told the militia to get away, since the soldiers would have to surrender; Captain Sailer fought on with the soldiers and was taken. Horn made some weak attempts to hold the place, which was already surrounded; after two French officers told him that a column of over 3000 men stood in the rear of the work and that all the Landesvertheidiger had been pushed back, a capitulation was concluded.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The Leutasch decisions as Moriggl gives them (page images except where marked OCR). By his own statement his narrative of the Leutasch is taken mainly from the protocol of eyewitness statements that the Tyrolean government and estates had taken and published (OCR). Judgments, not recorded facts: Moriggl calls Kraus's refusal of help wholly unforgivable; the published protocol says the poor occupation of the Alpl cannot be laid to the militia, whose wish to send help was always rejected with contempt; and he quotes a staff officer, author of a work on Archduke John's army of 1809, that the utter neglect of the flank position in the Leutasch by Major Kraus decided the loss of the Tyrol (all OCR). English renderings (ours): as in claim moriggl-leutasch for Kraus's command and his posts; 'hardly had Major Kraus received the command in the Leutasch on 28 October when he inquired urgently of the inhabitants which were the most dangerous posts'; 'but that the Alpl was the most dangerous point of all'; 'Major Kraus was afterwards reminded still more often that the Alpl had to be very well occupied, because the enemy would almost' (p. 339) 'certainly try to break in from that side, since he would not come directly at the work' (p. 340); 'they decided to send a deputation to Archduke John at Innsbruck, to draw his attention to the importance of the post and to bring about an order to Major Kraus to occupy the \"Alpl\" more strongly'; 'the deputies were taken at once by the governor, who recognized the importance of their request, to the Archduke, but by him were not heeded, and by his adjutants even turned away with scorn'; 'so the fateful fourth of November had come'; '[he] hurried down the mountain as orderly to report the enemy's approach to the commandant in the work and at the same time to ask him to send more men and also ammunition up in support of the post on the Alpl' (OCR); '\"let them come,\" Kraus replied, \"there are soldiers up there already, and here the pieces are laid\"' (OCR); 'the weak party up there remained without support' (OCR); 'Captain Sailer had the commandant asked in this matter' (OCR); '\"whether he might not come to the help of the post on the Alpl? Every man of his company wished to receive leave for it\"' (OCR); '\"the company stays where it is; let no one leave his post\"' (OCR); 'that, as danger approached, he refused the good people up there the urgently requested help, indeed stubbornly and obstinately denied it, one might say is wholly unforgivable and irresponsible' (OCR); 'suddenly the ... (OCR) French come into view on the height' (OCR); 'there Major Kraus withdraws with a gun toward Oberleutasch!' (OCR); 'in place of the departed Major the eldest captain, Baron Horn, now took over the command in the work' (OCR); 'he at once (but unfortunately already too late) sent ... (OCR) companies off to the Alpl' (OCR); '\"peasants, now take yourselves off; we cannot answer for you. As for us soldiers, we must surrender\"'; 'he fought on beside the military as long as the fight lasted at all, was taken prisoner with the imperial soldiers and led away with them to France'; 'Captain Baron Horn indeed made some weak attempts to hold the place; but it was already completely surrounded by the enemy'; 'then two French officers appeared before the work with a drummer and asked to speak with the commandant'; as in claim moriggl-side-a for the column of over 3000; 'further informed him that all the Landesvertheidiger had been pushed back, so that he had no help to expect, etc., the following capitulation was concluded'; '[the narrative] itself is taken in the main from the protocol that the united provincial government and estates later took with some Landesvertheidiger who were eyewitnesses of the whole event' (OCR); 'that the poor occupation of this post, namely the Alpl, which with only a somewhat larger number of defenders would have been unclimbable, can truly not be laid to the charge of the militia' (OCR); 'rather the best will of the same to send help there was always rejected with contempt, to the general discontent and loud grumbling of the men' (OCR); 'the utter neglect of the flank position in the Leutasch by Major' (p. 352) 'Kraus against Generals Loison and Labassée decided the loss of the Tyrol' (p. 353, OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Kommandant des benannten Bataillons und des Forts war Major Kraus."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Kaum hatte Major Kraus am 28. Oktober das Kommando in der Leutasch erhalten, als er sich bei den Einwohnern angelegentlich erkundigte, welches denn die gefährlichsten Posten wären,"
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "daß aber das Alpl aus allen der gefährlichste Punkt wäre."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Major Kraus wurde nachgehends noch öfters erinnert, daß das Alpl recht gut besetzt werden müsse, weil der Feind beinahe"
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "gewiß von dieser Seite den Einbruch versuchen dürfte, da er unmittelbar an die Schanze nicht kommen werde."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "allein Major Kraus hat von Allem nichts gethan, obwohl er 7 Tage Zeit und 900 Mann zur Disposition hatte; er begnügte sich vom Militär 24 Mann mit einem Offizier auf das Alpl, und 14 Mann von der Miliz unter einem Korporal auf den Grünkopf hinauf zu kommandiren, und damit — Punktum."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "so beschlossen sie eine Deputation an den Erzherzog Johann nach Innsbruck abzuschicken, um diesen auf die Wichtigkeit des Postens aufmerksam zu machen, und einen Befehl an Major Kraus zu veranlassen, das „Alpl“ stärker zu besetzen."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "Die Deputirten wurden vom Gouverneur, der die Wichtigkeit ihres Antrages erkannte, auf der Stelle zum Erzherzog geführt, von diesem aber — nicht beachtet, und von den Adjutanten desselben sogar mit Hohn zurückgewiesen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "eilte nun als Ordonanz über den Berg hinab, um dem Kommandanten in der Schaut dag Anrücken des Feindes zu melden, und denfelben unter Einem zu bitten, zur Unterſtützung des Poftens auf den Alpl mehr Leute und auch Munition hinauf zu ſchicken."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "„Sie ſollen nur kommen, entgegnete Kraus, es ſind ſchon Sol⸗ daten droben, und hier ſind die Stücke gerichtet.“"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "die ſchwache Mannſchaft oben blieb ohne Unterſtützung."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "ließ Hauptmann Sailer beim Kommandanten diesfalls an"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "„ob er nicht den Poften auf dem Alpl zu Hülfe kommen dürfe? Jeder ans feiner Kompagnie winjche die Erlaubniß dazu zu erhalten.”"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "„Die Kompagnie bleibt ftehen, wo fie ift; Niemand weiche vom Poften.”"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "daß er bei herammahender Gefahr den guten Leuten oben die dringend erbetene Hülfe abjchlug, ja hartnädig und eigenfinnig vertveigerte, möchte man jagen iſt völlig unverzeihlih und unverant- wortlih."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "Plötzlich kommen anf der Höhe die erjten Franzoſen zum Vorſchein;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "da zieht fih Major Krans mit einer Kanone gegen Oberlentafch zurück!"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "Statt des abgegangenen Herrn Majors übernahm nım der Ältefte Hauptmann, Baron Horn, das Kommando in der Schanze."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 343 (OCR page numbers; not checked against print)",
+          "quote": "Diefer ließ nun fogleich (leider aber ſchon zu fpät) zwei Kompagnien nad) dein Alpl abriden."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "So war also der verhängnißvolle vierte November dahergekommen;"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "„Bauern macht euch nun aus dem Staube; für euch können wir nicht gut stehen. Was uns Soldaten anbelangt, wir müssen uns gefangen geben.“"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "Dieser kämpfte fort an der Seite des Militärs, so lang der Kampf überhaupt noch dauerte, wurde mit den kaiserlichen Soldaten gefangen genommen, und mit diesen nach Frankreich abgeführt."
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "Hauptmann Baron Horn machte wohl noch einige schwache Versuche, den Platz zu behaupten; allein dieser war vom Feinde bereits schon ganz eingeschlossen."
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "Da erschienen zwei französische Offiziere in Begleitung eines Tambours vor der Schanze, und verlangten mit dem Kommandanten zu sprechen."
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "daß eine über 3000 Mann starke französische Kolonne im Rücken der Schanze stehe,"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "ihn überdies benachrichtigte, daß sämmtliche Landesvertheidiger zurückgedrängt worden wären, er somit keine Hülfe zu gewärtigen habe u. s. w., so wurde nachstehende Kapitulation abgeschlossen:"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 351 (OCR page numbers; not checked against print)",
+          "quote": "ſelbſt iſt der Hauptſache nach dem Protokolle entnommen, das die ver— einte Landesregierung und Landſchaft ſpäter mit einigen Landesver— theidigern, welche Augenzeugen des ganzen Vorfalls waren,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 351 (OCR page numbers; not checked against print)",
+          "quote": "daß die ſchlechte Beſetzung diefes Poſtens — des Alpls nämlich, der bei einer nur etwas größeren Anzahl von Vertheidigern unerſteigbar geweſen wäre, wahrlich nicht der Landmiliz-Mannſchaft zur Laſt gelegt werden"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 352 (OCR page numbers; not checked against print)",
+          "quote": "Vielmehr ward der beſte Wille derſelben, Hülfe dahin zu ſchicken, zur allgemeinen Unzufriedenheit und lautem Murren der Mann— ſchaft ſtets mit Verachtung zurückgewieſen.“"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 352 (OCR page numbers; not checked against print)",
+          "quote": "die äußerſte Verwahr— lofung der Flügeljtellung in der Leutaſch durd Major"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 353 (OCR page numbers; not checked against print)",
+          "quote": "Kraus gegen die Generale Loiſon und Labaſſee den Ver— luſt Tirols entſchieden.“"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Marshal Ney over side B (Austrian) under Lieutenant-Colonel Swinburne. In Moriggl the garrison of Scharnitz beat off three general assaults and the French withdrew to Mittenwald for the night, but the Leutasch work capitulated to Loison's column the same day, Swinburne's column surrendered near Seefeld, and Ney entered the abandoned fortress. In Victoires the 69th escaladed the fort, and the Austrian troop that had evacuated it, caught between two fires near a monastery and deprived of its chief, laid down its arms; Ney was then master of the Pass of Scharnitz.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending, read from the page images. No source read gives a different result. The accounts differ on how the fort was taken (claims side-a-command and victoires-side-a): Moriggl has three assaults beaten off on 4 November and the garrison leave, with Ney entering the abandoned fortress toward 4 in the morning; Victoires mentions no assault on the 4th and has the 69th escalade the fort on 5 November under fire from its ramparts. Moriggl records praise of the defence from side A: French officers described the assaults to Dipauli as the most stubborn they had seen, and Stabenrath certified that Swinburne and Major de la Lippe had won Ney's esteem by their brilliant defence of the fort. English renderings (ours): Bodart, as in claim bodart-strength; Moriggl, as in claim side-b-command for the assaults and the surrender; 'at ¼ past 5 in the evening the last cannon shot from Scharnitz was heard up in Seefeld; the French withdrew to Mittenwald'; 'in consequence of this capitulation the whole imperial garrison was led away as prisoners of war over the Burberg to Mittenwald and shut up there in the church'; as in claim side-a-command for Ney's entry; 'for, as Herr von Dipauli expressly remarks, several French officers described to him the assaults on Scharnitz as the most stubborn they had ever seen'; '[is owed] to Herr Swinburne, lieutenant-colonel, and Herr de la Lippe, major, and that these two staff officers knew how to earn the esteem of Marshal Ney by their brilliant defence of the fort of Scharnitz to such a degree'; Victoires, as in claim victoires-side-a for the columns of 5 November and the combat near the monastery, as in claim scharnitz-ground for the escalade and as in claim victoires-side-b for the evacuation; 'the Austrian troop, caught between two fires, lost all its advantage; surrounded on all sides and deprived of its chief, unhorsed and taken prisoner by Captain Genevay, it was forced to lay down its arms and submit to the law of the victor'; 'master of the Pass of Scharnitz, Marshal Ney hastened the march of his troops on Innsbruck'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 13.000 M.) unter Marschall Ney über die Österreicher (ca. 3.000 M.) unter Oberstlt. Swinburne."
+        },
+        {
+          "source_id": "moriggl-1861-p334-figures-v1",
+          "section": "p334",
+          "locator": "Moriggl (1861), p. 334 (transcribed from the page image)",
+          "quote": "Drei allgemeine Stürme wurden auf diese Weise von der braven Besatzung glücklich abgeschlagen; angefeuert von ihrem Kommandanten wirkte dieselbe an diesem heißen Tage Wunder der Tapferkeit, und bedeckte sich mit Ruhm."
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Um ¼ nach 5 Uhr Abends hörte man in Seefeld den letzten Kanonenschuß aus der Scharnitz herauf; die Franzosen zogen sich nach Mittenwald zurück."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Dieser abgeschlossenen Kapitulation zu Folge wurde die gesammte kaiserliche Mannschaft kriegsgefangen über den Burberg nach Mittenwald abgeführt, und dort in der Kirche eingesperrt."
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "So von allen Seiten umrungen mußte sich der tapfere Krieger nach einem kurzen aber kräftigen Versuche, die Passage zu erzwingen, sammt seiner braven Mannschaft (wirklich eines bessern Looses würdig) an den übermächtigen Feind ergeben;"
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "Der Marschall brach demnach in aller Frühe von Mittenwald auf, und rückte gegen 4 Uhr Morgens in die ganz verlassene Festung ein."
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "denn wie Herr von Dipauli ausdrücklich bemerkt, schilderten ihm mehrere französische Offiziere die Stürme auf die Scharnitz als die hartnäckigsten, die sie je gesehen."
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "des Herrn Swinburne, Oberstlieutenants, und des Herrn de la Lippe Majors, zu verdanken sei, und daß diese beiden Stabsoffiziere sich die Achtung des Herrn Marschalls Ney durch ihre glänzende Vertheidigung des Forts Scharnitz in einem solchen Grade zu verdienen gewußt haben,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le 5 novembre, à deux heures du matin, le général Loison dirigea sur le fort de Scharnitz deux colonnes, dont l'une devait tourner ce poste, tandis que la seconde attaquerait de front."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Arrivé ainsi sur le plateau où se trouve situé le fort, au milieu d'une grêle de balles et de mitraille qui partaient des remparts, le soixante-neuvième s'y forma, et s'avança ensuite sous les murs, qui furent escaladés."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Ils ne trouvèrent dans le fort qu'une centaine de chasseurs tyroliens et quelques habitans; le reste des troupes avait pris le parti d'évacuer la place pour se retirer sur Inspruck."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Le combat s'engagea près d'un monastère qui se trouvait sur la route; la colonne française, inférieure en force, était sur le point de laisser le passage libre à ses adversaires, lorsque le soixante-neuvième régiment, qui venait de s'emparer de Scharnitz, et qui s'était aussitôt jeté à la poursuite de la garnison fugitive, arriva sur le champ de bataille, et changea la face du combat."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "La troupe autrichienne, prise entre deux feux, perdit tout son avantage; entourée de toutes parts, et privée de son chef, désarçonné et fait prisonnier par le capitaine Genevay ¹, elle fut forcée de mettre bas les armes, et de subir la loi du vainqueur."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Maître du Pas de Scharnitz, le maréchal Ney accéléra la marche de ses troupes sur Inspruck,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as about 400 men (16 officers) and side B's as about 1,500 men, mostly prisoners, with 16 guns and 1 flag.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. The passages read do not show his basis. His 400 for side A equals the wounded in the French report Moriggl quotes, which adds about 36 dead (claim side-a-losses-reported). His 16 guns equal Moriggl's 12 at Scharnitz and three guns and a howitzer at the Leutasch together (our sum), and Victoires's sixteen guns with their teams taken at Scharnitz; his flag matches Victoires's one (claim side-b-losses-reported). Moriggl's regulars at the two posts, 944 and a battalion given as 600, sum to 1,544 (our sum); in his account nearly all were killed or taken. English rendering (ours): 'French loss: about 400 men (16 officers) | Austrian loss: about 1,500 men (mostly prisoners), 16 guns, 1 flag'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Franz. Verl.: ca. 400 M. (16 Offz.) | Österr. Verl.: ca. 1.500 M. (zumeist Gefg.) 16 Kanonen, 1 Fahne."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts. Moriggl calls the statements of French dead and wounded at Scharnitz remarkably various: a French report says the whole undertaking cost the French about 36 dead and about 400 wounded, most of whom only had their wounds dressed and then followed the army; another enemy report says the day cost the victors several hundred dead and wounded; the military Zeitschrift and the Sammler give the loss as 800 men; and a total loss of 1800 men is often found, a figure he says cannot be proved, though the loss must in any case have been great. By the diary he often cites, the French dragged many dead into barns between Mittenwald and Scharnitz, which were then burned with the fallen. At the Leutasch the French counted, by their own statement, 10 dead and 6 wounded. Victoires gives no figure in the passages read.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined; Moriggl does not name the two French reports. In his OCR he also calls wrong the Sammler's statement that Ney had already stormed the fortress the day before and lost men there (date and number not restated). English renderings (ours): 'remarkable is the varying statement of the French killed and wounded'; 'whereas a French report on the loss suffered on this hot day expresses itself thus:'; '\"the whole undertaking cost the French about 36 dead and about 400 wounded, most of whom only had themselves bandaged and then followed the army\"'; 'another enemy report expresses itself as follows:'; '\"this day cost the victors (namely the French) several hundred dead and wounded\"'; 'the military Zeitschrift and the \"Sammler\" give the loss as 800 men'; 'the enemy's total loss is often found given as 1800 men, a figure, however, that cannot be proved; it must in any case have been great'; 'according to the diary often cited, the French had dragged many dead into the barns that stood on the meadows between' (p. 335) 'Mittenwald and Scharnitz; these were then set on fire together with the fallen, who lay over one another like \"logs\", and given to the flames' (p. 336); 'as for the loss suffered on both sides, the French counted by their own statement 10 dead and 6 wounded'; 'it is therefore an error when one reads in the Sammler that Ney had already on ... (OCR) November made an assault on the fortress and lost ... (OCR) men in it' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Merkwürdig ist die verschiedene Angabe der getödteten und verwundeten Franzosen."
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Während ein französischer Bericht über den erlittenen Verlust an diesem heißen Tage sich so äußert:"
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "„Die ganze Unternehmung kostete den Franzosen etwa 36 Todte und bei 400 Verwundete, von denen die meisten sich nur verbinden ließen, und dann der Armee folgten“"
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "drückt ein anderer feindlicher Bericht sich folgender Maßen aus:"
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "„Dieser Tag hat den Siegern (nämlich den Franzosen) mehrere hundert Todte und Verwundete gekostet.“"
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Die militärische Zeitschrift und der „Sammler“ geben den Verlust auf 800 Mann an."
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Häufig findet man den Gesammtverlust des Feindes auf 1800 Mann angegeben — eine Zahl, die indessen nicht erweislich ist; groß muß er jedenfalls gewesen sein."
+        },
+        {
+          "source_id": "moriggl-1861-p335-figures-v1",
+          "section": "p335",
+          "locator": "Moriggl (1861), p. 335 (transcribed from the page image)",
+          "quote": "Nach dem öfters angeführten Tagbuch hatten die Franzosen viele Todte in die Städel hineingeschleppet, die sich auf den Wiesen zwischen"
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Mittenwald und Scharnitz befanden; diese wurden dann sammt den Gefallenen, die wie „Holzscheiter“ über einander lagen, angezündet und dem Feuer übergeben."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Was den erlittenen Verlust auf beiden Seiten anbelangt, zählten die Franzosen nach ihrer Angabe 10 Todte und 6 Blessirte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 323 (OCR page numbers; not checked against print)",
+          "quote": "es ift fomit eine Unrichtigkeit, wenn man im Sammler ließt, daß Ney fhon am 3. November einen Sturm auf die Feſtung angelegt, und dabei 800 Mann verloren haben joll."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Moriggl: at Scharnitz the Austrians, well covered in the works, had no more than sixteen dead (11 in the Vorschanzl, 2 between it and the first battery, 2 in the first battery and 1 in the village, by an eyewitness who helped bury them); the number of wounded is unknown, among them the battalion adjutant Karl von Ehrenstein and the artillery first lieutenant Frisch, who died at Innsbruck; of the Landesvertheidiger only one dead is known there, Joseph Fechtl of Seefeld, though more may have fallen. At the Leutasch the capitulation made the garrison prisoners of war, the officers released on their word until exchanged and all munitions and arms in the fort to belong to France, and the whole imperial garrison was taken to Mittenwald; 12 men and 1 officer of the imperial troops were killed, and the Tyroleans had 2 officers dead and several men wounded. The Landesvertheidiger's dead of 4 November totalled nine, Fechtl among them; the Sammler's 90 is right, he says, if the nought is left off. At Seefeld nine imperial soldiers were killed and many wounded, an officer among them; with two dragoons killed the day before, eleven imperial soldiers fell in and around Seefeld and were buried in one grave with six murdered Landesvertheidiger. Swinburne surrendered with his men, having taken one gun and spiked the other eleven; an officer, some artillerymen and a few soldiers had gone off with the Landesvertheidiger to headquarters at Steinach. Stabenrath's certificate, which Moriggl quotes, has him escort a detachment of 1000 Austrian prisoners of war from Innsbruck to Kufstein, including 16 officers of the Scharnitz garrison. Victoires: three hundred men capitulated at the Leutasch, and eighteen hundred men, a flag and sixteen guns with their teams were the immediate result of the day.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. Moriggl gives no total of prisoners; Victoires's eighteen hundred and Bodart's about 1,500 mostly prisoners (claim bodart-losses) are not in his passages, and Stabenrath's 1000 were one detachment, not necessarily every prisoner. Fechtl, the one Landesvertheidiger dead Moriggl knows at Scharnitz, is among the nine of 4 November, so the nine cover both posts. Moriggl's eleven spiked guns and one taken along account for his 12 at Scharnitz; Victoires's sixteen guns with their teams taken at Scharnitz do not fit that account, and the passages read do not say whether Bodart's 16 include the Leutasch pieces. English renderings (ours): Moriggl, 'as for the loss on the side of the Austrians, who were excellently covered in the works, they had no more than sixteen dead'; 'of these 11 lay in the Vorschanzl, 2 between it and the first battery, 2 in the first battery and 1 in the village, by the assurance of an eyewitness who helped bury them'; 'among the wounded, whose number is unknown, was also the battalion adjutant Karl von Ehrenstein', 'as well as the artillery first lieutenant Frisch'; 'where he died in the very first night after his arrival'; 'on the side of the Landesvertheidiger only one dead is known, namely Joseph Fechtl of Seefeld; it is possible, however, that more fell'; '1. The Austrian garrison are prisoners of war and lay down their arms; the officer, however, keeps his baggage and the private what he has in his knapsack'; '2. The officers are released on their word of honour until exchanged'; '3. To France shall belong everything in munitions and arms that is in the fort'; as in claim bodart-winner for the garrison led away; 'of the imperial military 12 privates and 1 officer were killed'; 'the Tyroleans had 2 officers dead and several privates wounded'; 'altogether the total loss of the Landesvertheidiger on 4 November in dead came to the following nine men'; 'from Seefeld (Jos. Fechtl) | 1'; 'together | 9 men'; 'in the Sammler the total loss is given as 90 men, quite right if the nought is left off'; 'nine imperial soldiers remained dead on the spot in this action; many were wounded, among them also an officer'; 'with those two dragoons who had fallen (the day before), the number of imperial soldiers fallen in and around Seefeld came to eleven men, who with the six murdered Landesvertheidiger all found their rest in one grave in the churchyard'; as in claim side-b-command for the surrender and the guns; 'an officer, some artillerymen with a few soldiers had joined them, came safely to Hall and from there over the Ellbögen to headquarters at Steinach'; Stabenrath, 'charged to lead a detachment of 1000 Austrian prisoners of war from Innsbruck to Kufstein'; 'that the marshal of the Empire left them their arms, as also to the 16 officers of the same garrison of Scharnitz who form part of the detachment'; Victoires, as in claim victoires-side-b for the three hundred; 'eighteen hundred men, a flag and sixteen pieces of cannon with their teams were the immediate result of this day'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Was den Verlust auf Seite der Oesterreicher anbelangt, die in den Festungswerken trefflich gedeckt waren, hatten dieselben nicht mehr als sechzehn Todte."
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Davon lagen 11 im Vorschanzl, 2 zwischen diesem und der ersten Batterie, 2 in der ersten Batterie und 1 im Dorfe — nach der Versicherung eines Augenzeugen, der selbe hat begraben helfen."
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Unter den Verwundeten, deren Anzahl unbekannt ist, befand sich auch der Bataillons-Adjutant, Karl von Ehrenstein,"
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "so wie der Artillerie-Oberlieutenant Frisch."
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "wo er aber schon in der ersten Nacht nach seiner Ankunft starb."
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Von Seite der Landesvertheidiger ist nur Ein Todter bekannt, nämlich Joseph Fechtl von Seefeld; möglich jedoch, daß noch mehrere gefallen sind."
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "1. Die österreichische Besatzung ist kriegsgefangen und hat das Gewehr zu strecken; der Offizier behält jedoch seine Bagage und der Gemeine das, was er im Tornister hat."
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "2. Die Offiziere werden bis zur Auswechslnng auf ihr Ehrenwort entlassen."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "3. An Frankreich soll Alles gehören, was an Munition und Waffen sich im Fort befindet."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Dieser abgeschlossenen Kapitulation zu Folge wurde die gesammte kaiserliche Mannschaft kriegsgefangen über den Burberg nach Mittenwald abgeführt, und dort in der Kirche eingesperrt."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Vom kaiserlichen Militär wurden getödtet 12 Gemeine und 1 Offizier."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Die Tiroler hatten 2 Offiziere todt und mehrere Gemeine verwundet."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Ueberhaupt belief sich der Gesammtverlust der Landesvertheidiger am 4. November an Todten auf folgende neun Mann:"
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Von Seefeld (Jos. Fechtl) | 1 „"
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Zusammen | 9 Mann."
+        },
+        {
+          "source_id": "moriggl-1861-p348-figures-v1",
+          "section": "p348",
+          "locator": "Moriggl (1861), p. 348 (transcribed from the page image)",
+          "quote": "Im Sammler ist der Gesammtverlust auf 90 Mann angegeben — ganz richtig, wenn die Nulle fortgedacht wird."
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "neun kaiserliche Soldaten blieben bei dieser Aktion todt auf dem Platze liegen; viele wurden verwundet, darunter auch ein Offizier."
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "Mit jenen (Tags zuvor) gefallenen beiden Dragonern belief sich die Zahl der in und um Seefeld gefallenen Kaiserlichen auf eilf Mann, die mit den ermordeten sechs Landesvertheidigern alle in Einem Grabe auf dem Gottesacker ihre Ruhestätte fanden."
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "So von allen Seiten umrungen mußte sich der tapfere Krieger nach einem kurzen aber kräftigen Versuche, die Passage zu erzwingen, sammt seiner braven Mannschaft (wirklich eines bessern Looses würdig) an den übermächtigen Feind ergeben;"
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "So nahm er aber eine Kanone, ließ die übrigen eilf vernageln, sammelte seine Leute, und rückte muthig an ihrer Spitze Seefeld zu;"
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "Ein Offizier, einige Artilleristen mit etlichen Soldaten hatten sich ihnen angeschlossen, kamen glücklich nach Hall und von da über die Ellbögen ins Hauptquartier nach Steinach"
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "beauftragt von Innsbruck nach Kufstein eine Abtheilung von 1000 österreichischen Kriegsgefangenen zu führen,"
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "daß der Marschall des Kaiserreiches ihnen ihre Waffen gelassen hat, so wie den 16 Offizieren derselben Garnison von Scharnitz, die einen Theil der Abtheilung ausmachen."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Dix-huit cents hommes, un drapeau et seize pièces de canon attelées furent le résultat immédiat de cette journée."
+        }
+      ]
+    },
+    {
+      "id": "scharnitz-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Scharnitz, a market town in the Tyrol, on the Isar 15 km north-west of Innsbruck. In Moriggl the fortress had a forward work (the Vorschanzl), batteries and works on the Kapfelberg; the rock walls of the steep Brunnstein rose on its right, where Grueber's riflemen prepared stone batteries, and the Arnthal and Arnthalkopf lay to its left, through which, he says in the OCR, the fortress could have been turned at close range. The Leutasch work had a wall running steeply toward the Grünkopf on its left and wooden steps on its right, and the military held its works in the plain; in the OCR its holding depended on points around it, the most dangerous being the Alpl, reached from Bavaria by a smugglers' path on which a passage only a few feet wide was left unoccupied. The road rises considerably from Scharnitz to Unterseefeld, and the French blocked Swinburne at the defile of the rothe Kreuz near Seefeld. Victoires has the fort on a plateau reached by escalading sheer rocks several hundred feet high, and Seefeld a village in front of the Pass of Scharnitz.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and the two accounts, read from the page images except where marked OCR; no map was inspected. The passages read do not give, from a page image, how far the Leutasch work lies from Scharnitz. Moriggl's OCR has a Kloster at Seefeld where Loison lodged; the passages read do not say it is Victoires's monastery on the road. English renderings (ours): Bodart, 'market town in the Tyrol, on the Isar, 15 km north-west of Innsbruck'; Moriggl, as in claim side-b-command for the Arnthal; 'several of them were also in the works, especially on the Kapfelberg, and fought there bravely beside the military'; 'stood with his men on the right in the rock walls of the steep Brunnstein, busily preparing stone batteries to serve the advancing enemy with'; as in claim side-b-losses-reported for the Vorschanzl and the batteries; 'that, supported by a company of soldiers, they held the Arnthal firmly and maintained it steadfastly, through which the fortress could have been turned at closest range and against which a considerable enemy column also advanced' (OCR); 'Ney had a footbridge thrown over the Isar in the area of the so-called \"Schelleraut\"' (OCR); 'Marberger had on 4 November occupied with his men the left side of the work, that is, the wall running steeply toward the Grünkopf'; 'Captain Sailer stood with his men to the right, up on the wooden steps built there, which the riflemen called the \"wooden stair\"'; 'the military held the works built in the plain'; 'its holding depended, namely, on the firm occupation and steadfast defence of the following ... (OCR) points' (OCR); 'the ... (OCR) point, and the most dangerous, was formed by the \"Alpl\", or rather the smugglers' path leading up from Bavaria to the plateau of the Alpl' (OCR); 'unfortunately it was not occupied at all, so that the French could pass this most dangerous place, which is only a few feet wide, happily and without hindrance' (OCR); 'as Swinburne now came into view with his column at Unterseefeld, up to which the road rises considerably from Scharnitz'; as in claim side-b-command for the defile; 'the moss and the nearby lake below the road and the dense forest and the nearby mountain above the road form at the \"rothe Kreuz\" a defile hard to pass' (OCR); Victoires, as in claim victoires-side-b for Seefeld; '[to] overcome them it was necessary to escalade sheer rocks several hundred feet high'; 'having arrived thus on the plateau where the fort stands, amid a hail of balls and grapeshot from the ramparts, the sixty-ninth formed there and then advanced under the walls, which were escaladed'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "(Marktflecken in Tirol, an der Isar, 15 km nordwestl. von Innsbruck)."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Diese hatten nach der Weisung des Kommandanten links von der Festung das Arnthal und den Arnthalkopf zu vertheidigen."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Mehrere aus ihnen befanden sich auch in den Festungswerken, besonders auf dem Kapfelberg und kämpften da tapfer an der Seite des Militärs."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "stand mit seinen Leuten rechts in den Felsenwänden des steilen Brunnsteines, eifrig damit beschäftigt, Steinbatterien herzurichten, um den anrückenden Feind damit bedienen zu können."
+        },
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Davon lagen 11 im Vorschanzl, 2 zwischen diesem und der ersten Batterie, 2 in der ersten Batterie und 1 im Dorfe — nach der Versicherung eines Augenzeugen, der selbe hat begraben helfen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 334 (OCR page numbers; not checked against print)",
+          "quote": "daß jie umterftügt von einer Kompagnie Militär, das Arnthal, durch welches die Feftung in nächſter Nähe hätte umgangen werden fünnen, und gegen welches auch eine bedeutende feindliche Kolonne an rückte, fejt bejetst hielten, und ftandhaft behaupteten."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 332 (OCR page numbers; not checked against print)",
+          "quote": "ließ Ney in der Gegend der jogenannten „Schelleraut“ einen Steg über die Jar ſchlagen,"
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Marberger hatte am 4. November die linke Seite der Schanze, das heißt, die steil gegen den Grünkopf hin laufende Mauer mit seinen Leuten besetzt."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Hauptmann Sailer stand mit seiner Mannschaft rechts hinauf auf den angebrachten Trampelien, von den Schützen die „hölzerne Stiege“ genannt."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Das Militär hielt die in der Ebene angebrachten Festungswerke besetzt."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 338 (OCR page numbers; not checked against print)",
+          "quote": "ihre Haltbarkeit war nämlich durd die feſte Beſetzung und ftandhafte Behauptung nachjtchender drei Punkte bedingt."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 339 (OCR page numbers; not checked against print)",
+          "quote": "Den dritten Punkt, und zwar den gefährlidyjten bildete das „Alpt“ oder vielmehr der von Bayern auf das Plateau des Alpls hinauf: führende Kontreband- Steig,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 341 (OCR page numbers; not checked against print)",
+          "quote": "Yeider war diejelbe gar nicht bejegt, weßhalb die Franzofen diefe höchſt gefährliche Stelle, die nur wenige Fuß breit ift, glüdlich und ohne Anftand pafjiren konnten."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "So wie nun Swinburne bei Unterseefeld, bis wohin die Straße von der Scharnitz her bedeutend steigt, mit seiner Kolonne zum Vorschein kam,"
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "Kreuze“ anlangte und das Defilée besetzte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "seefeld-5-nov",
+          "locator": "Moriggl (1861), p. 363 (OCR page numbers; not checked against print)",
+          "quote": "Das Moos und der nahe See unter der Straße und der dichte Wald und das nahe Gebirge ober der Straße bilden beim „rothen Kreuze“ ein ſchwer zu pajjirendes Defilee."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "vaincre, il fallut escalader des rochers à pic, qui avaient plusieurs centaines de pied de hauteur."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Arrivé ainsi sur le plateau où se trouve situé le fort, au milieu d'une grêle de balles et de mitraille qui partaient des remparts, le soixante-neuvième s'y forma, et s'avança ensuite sous les murs, qui furent escaladés."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Archduke John granted each man at Scharnitz daily half a pound of meat and half a Seitel of brandy, the supply assigned to the postmaster at Zirl, Anton Niederkircher. The fortress had only 12 guns where 50 could easily have been used, and the Leutasch work three guns and a howitzer. In Moriggl's OCR, Major von Leiß wrote that before the reinforcement the garrison had been too weak to man the line and had no reserve; Swinburne had poles with iron hooks prepared, with which the scaling ladders were thrown down; at the Leutasch the Alpl post asked for men and ammunition, and Kraus's advance with the Landsturm ended when the ammunition ran out. Side A's turning column took carriers requisitioned at Mittenwald (OCR), and in Victoires the 69th climbed with their knapsacks tied on their heads against the balls and stones.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images except where marked OCR). No ration, ammunition or artillery return was inspected. English renderings (ours): 'on the other hand it was granted that each man be given daily ½ pound of meat and ½ Seitel of brandy, which supply was assigned to the postmaster at Zirl, Anton Niederkircher'; as in claims moriggl-scharnitz and moriggl-leutasch for the guns; '\"the reinforcement that has arrived\", he writes, \"was truly welcome and most necessary, as the garrison was so weak that it did not suffice to man the line, and so was without any reserve\"' (OCR); 'the ladders set up were seized afresh with poles of their own that Swinburne had prepared, with an iron hook fitted to the front, and thrown over together with the bold stormers standing on them' (OCR); as in claim leutasch-command for the request to Kraus; 'but after the ammunition had run out and the Landsturm had gradually melted away, he started back again' (OCR); 'besides, the market of Mittenwald, on Marshal Ney's requisition, had to place several other people at disposal, who as carriers of various objects' (OCR); Victoires, as in claim victoires-side-a for the sixty-ninth and as in claim scharnitz-ground for the rocks; 'the soldiers tied their knapsacks on their heads to ward off the effect of the balls, or rather of the stones that rained on them from all the summits'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p300-figures-v1",
+          "section": "p300",
+          "locator": "Moriggl (1861), p. 300 (transcribed from the page image)",
+          "quote": "bewilliget wurde dagegen, daß jedem Manne täglich ½ Pfund Fleisch und ½ Seitel Branntwein verabreicht werde, welcher Bedarf beim Postmeister in Zirl, Anton Niederkircher, angewiesen wurde,"
+        },
+        {
+          "source_id": "moriggl-1861-p330-figures-v1",
+          "section": "p330",
+          "locator": "Moriggl (1861), p. 330 (transcribed from the page image)",
+          "quote": "Kanonen befanden sich in der Festung nur 12, da man doch leicht 50 hätte brauchen und verwenden können."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Drei Kanonen und eine Haubitze bildeten die Armirung des Platzes."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-reinforcement-3-nov",
+          "locator": "Moriggl (1861), p. 326 (OCR page numbers; not checked against print)",
+          "quote": "„Die angekommene Verſtärkung, fchreibt er — war wirklich erwünscht und höchſt nothwen dig, indem die Bejagung jo ſchwach war, daß fie zur Beſetzung der Linie nicht hinreichte — aljo ohne alle Reſerve war."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "die angelegten Yeitern wurden mittelft eigener von Swinburne vorbereiteter Stangen, an denen vorn ein eiferner Hafen zwechnäßig angebracht war, friſch ge- padt, und ſammt den kühnen Stürmern, die darauf ftanden, umge— worfen,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "eilte nun als Ordonanz über den Berg hinab, um dem Kommandanten in der Schaut dag Anrücken des Feindes zu melden, und denfelben unter Einem zu bitten, zur Unterſtützung des Poftens auf den Alpl mehr Leute und auch Munition hinauf zu ſchicken."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 346 (OCR page numbers; not checked against print)",
+          "quote": "Nachdem aber die Munition ausgegangen und die Sturm-Mannſchaft fih nah und nach verloren hatte, trat er wieder den Rückweg an."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 341 (OCR page numbers; not checked against print)",
+          "quote": "Ueberdies mußte der Markt Mittenwald auf Requifition des Marſchalls Ney auch noch mehrere andere Leute zur Dispofition jtellen, die als Träger verfchiedener Gegenjtände,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le soixante-neuvième régiment, qui formait cette seconde colonne, et qui s'était si bien distingué au combat d'Elchingen, trouva sur son passage des obstacles qui eussent paru insurmontables à tous autres qu'à de tels braves."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "vaincre, il fallut escalader des rochers à pic, qui avaient plusieurs centaines de pied de hauteur."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Les soldats attachèrent leurs havresacs sur leur tête pour parer l'effet des balles, ou plutôt des pierres qui pleuvaient sur eux de toutes les sommités."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "In Moriggl's OCR, Ney reconnoitred the fortress and the Leutasch valley with his staff and some men who knew the area; Loison's turning column had reliable guides, the Bavarian forest warden Anton Wurmer, a native of Mittenwald who knew the area well, and the Bavarian district forester Johann Trysberger of Krün; the postmaster of Mittenwald was suspected of having led the whole turning movement; and Moriggl judges that the French must have been well informed of the weak occupation of the Alpl. At the Leutasch French officers told Horn that a column of over 3000 men stood in the rear of the work and that all the Landesvertheidiger had been pushed back. In the night of 4 to 5 November Ney received at Mittenwald, it was said through a deserter, the news that the Scharnitz garrison had already left.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Moriggl gives it (OCR, except the officers' statement to Horn and the news of the garrison's departure, page images). Victoires says nothing of it in the passages read beyond Loison's sending a column to cut off the garrison's retreat (claim victoires-side-a). Ney's written summons told Swinburne that his communications with Austria were cut off and that corps of the Grande Armée were advancing on the Tyrol (OCR, the number of corps not restated); the passages read do not test that. English renderings (ours): as in claim side-a-command for the reconnaissance; 'for this daring and dangerous undertaking Loison needed reliable guides, and he obtained them in the person of Anton Wurmer, royal Bavarian forest warden, a native of Mittenwald and so a man who knew the area well; then of Johann Trysberger, royal Bavarian district forester of Krün' (OCR); 'on this man at least rests the grave suspicion of having led the whole turning of the work' (OCR); 'altogether the enemy must have been well informed of the weak occupation of the Alpl and firmly convinced of the success of their dangerous undertaking' (OCR); as in claims moriggl-side-a and leutasch-command for the statements to Horn; as in claim side-a-command for the news; 'that all your communications with Austria are entirely cut off and that ... (OCR) corps of the great army are advancing against the Tyrol' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 322 (OCR page numbers; not checked against print)",
+          "quote": "Am dritten November Vormittags unternahm Ney an der Spike jeines Generalftabes und einiger der Gegend Fundigen Männer eine Rekognoscirung gegen die Feſtung und rechts gegen das Thal Leutajd, das ſich zwiſchen Mittenwald und Scharnig ausmündet."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 341 (OCR page numbers; not checked against print)",
+          "quote": "Zu dieſem gewagten und gefährlichen Unternehmen brauchte aber Loiſon verläßliche Führer, und diefe erhielt ev auch in der Perjon des Anton Wurmer, föniglih bayrijchen Forjtwartes, eines ge- bornen Mittenwalders, jomit der dortigen Gegend ganz Fundigen Mannes; dann de8 Johann Trysberger, königlih bayrijchen Revierförfters von Krün."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 341 (OCR page numbers; not checked against print)",
+          "quote": "Welchen Antheil am ganzen Unternehmen der damalige Poſtmeiſter von Mittenwald, Herr von Schorn, gehabt Hat, lajje ich dahin- geſtellt. Auf diefem Manne lajtet wenigſtens der jchwere Verdacht, die ganze Umgehung der Schanze geleitet zu haben,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 341 (OCR page numbers; not checked against print)",
+          "quote": "Ueberhaupt mußten die Feinde von der ſchwachen Belebung des Alpls gut unterrichtet und vom Gelingen ihrer gefährlichen Unter— nehmung fejt Überzeugt gewefen fein;"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "daß eine über 3000 Mann starke französische Kolonne im Rücken der Schanze stehe,"
+        },
+        {
+          "source_id": "moriggl-1861-p347-figures-v1",
+          "section": "p347",
+          "locator": "Moriggl (1861), p. 347 (transcribed from the page image)",
+          "quote": "ihn überdies benachrichtigte, daß sämmtliche Landesvertheidiger zurückgedrängt worden wären, er somit keine Hülfe zu gewärtigen habe u. s. w., so wurde nachstehende Kapitulation abgeschlossen:"
+        },
+        {
+          "source_id": "moriggl-1861-p365-figures-v1",
+          "section": "p365",
+          "locator": "Moriggl (1861), p. 365 (transcribed from the page image)",
+          "quote": "Dieser hatte nämlich in der Nacht vom 4. auf den 5. November — wie man sagt, durch einen Ueberläufer — zu Mittenwald die Nachricht erhalten, daß die Besatzung der Scharnitz bereits abgezogen wäre."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 322 (OCR page numbers; not checked against print)",
+          "quote": "daß alle Ihre Verbindungen mit OSeſterreich gänzlich abgejhnitten find, und dag drei Korps der großen Armee gegen Tirol anrüden."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Moriggl's OCR, side B was warned of the threat through the Leutasch: Major von Leiß wrote to Innsbruck that he feared greatly for the Leutasch, and the defence deputation wrote that Scharnitz could very easily be turned from there. Kraus was told by the inhabitants that the Alpl was the most dangerous point and was often reminded to hold it well, and a deputation to Archduke John on the point was not heeded. On 4 November the militia posted on the Grünkopf saw the French coming from a considerable distance, and their messenger reported it to Kraus, who dismissed it (OCR). After the assault Swinburne did not yet know how badly things stood in the Leutasch (OCR); late in the evening he received certain news that the enemy was already in Seefeld. The Tyrolean Jäger that St. Julien sent toward Scharnitz met the enemy in Seefeld and turned back (OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Moriggl gives it (page images except where marked OCR). The passages read do not say whether the Archduke's order to withdraw (claim side-b-objectives) reached Swinburne or Kraus. English renderings (ours): 'besides, I fear greatly for the Leutasch, and ask that this post be reinforced' (OCR); '\"in the danger now threatening from Scharnitz, special attention will have to be paid to the occupation of the Leutasch, since from there Scharnitz can very easily be turned\"' (OCR); as in claim leutasch-command for Kraus's inquiry, the reminders, the deputation and the fourth of November; as in claim moriggl-leutasch for the post on the Grünkopf; 'so the riflemen were also the ... (OCR) to notice the advancing enemy, and that already at a considerable distance' (OCR); as in claim leutasch-command for the messenger and Kraus's answer; 'at ... (OCR) in the evening Swinburne did not yet know how sadly things looked in the Leutasch' (OCR); as in claim side-b-command for the news; 'he did indeed set ... (OCR) companies of Tyrolean Jäger in motion with all speed, but they met the enemy already in Seefeld and turned back in consequence' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-reinforcement-3-nov",
+          "locator": "Moriggl (1861), p. 326 (OCR page numbers; not checked against print)",
+          "quote": "Uebrigens fürdte ich ſehr für die Leutaſch, und er ſuche diefen Boften zu verftärfen,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-reinforcement-3-nov",
+          "locator": "Moriggl (1861), p. 327 (OCR page numbers; not checked against print)",
+          "quote": "„Bei der gegenwärtig von der Scharnig her drohenden Gefahr wird ein vorzüglihes Augenmerk auf die Bejekung der Leutaſch gerichtet werden müſſen, indem don dort die Scharnig fehr leiht umgangen werden fann."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Kaum hatte Major Kraus am 28. Oktober das Kommando in der Leutasch erhalten, als er sich bei den Einwohnern angelegentlich erkundigte, welches denn die gefährlichsten Posten wären,"
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "daß aber das Alpl aus allen der gefährlichste Punkt wäre."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Major Kraus wurde nachgehends noch öfters erinnert, daß das Alpl recht gut besetzt werden müsse, weil der Feind beinahe"
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "gewiß von dieser Seite den Einbruch versuchen dürfte, da er unmittelbar an die Schanze nicht kommen werde."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "Die Deputirten wurden vom Gouverneur, der die Wichtigkeit ihres Antrages erkannte, auf der Stelle zum Erzherzog geführt, von diesem aber — nicht beachtet, und von den Adjutanten desselben sogar mit Hohn zurückgewiesen."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "So war also der verhängnißvolle vierte November dahergekommen;"
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "allein Major Kraus hat von Allem nichts gethan, obwohl er 7 Tage Zeit und 900 Mann zur Disposition hatte; er begnügte sich vom Militär 24 Mann mit einem Offizier auf das Alpl, und 14 Mann von der Miliz unter einem Korporal auf den Grünkopf hinauf zu kommandiren, und damit — Punktum."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "jo waren auch die Schügen die erſten, welche die anriidenden Feinde bemerkten, und zwar jhon in einer bedeutenden Entfernung,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "eilte nun als Ordonanz über den Berg hinab, um dem Kommandanten in der Schaut dag Anrücken des Feindes zu melden, und denfelben unter Einem zu bitten, zur Unterſtützung des Poftens auf den Alpl mehr Leute und auch Munition hinauf zu ſchicken."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 342 (OCR page numbers; not checked against print)",
+          "quote": "„Sie ſollen nur kommen, entgegnete Kraus, es ſind ſchon Sol⸗ daten droben, und hier ſind die Stücke gerichtet.“"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 337 (OCR page numbers; not checked against print)",
+          "quote": "Um 6 Uhr Abends wußte Swinburne noch nicht, wie traurig es im der Leutaſch ausjah."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "Als nämlich Swinburne spät Abends die sichere Nachricht erhalten hatte, daß der Feind bereits in Seefeld stehe, wurde den Landesvertheidigern die Weisung ertheilt, sich selbst einen Ausweg zu suchen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 337 (OCR page numbers; not checked against print)",
+          "quote": "Diefer fette auch wirklich eiligft 2 Kompagnien Ziroler Jäger in Bewegung, welche aber jchon in Seefeld auf den Feind ftießen, und in Folge defjen umfehrten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Napoleon had directed Marshal Ney with his army corps to invade the Tyrol and seize it, and the marshal wanted to attack the Pass of Scharnitz (Victoires). In Moriggl, Loison's task was to turn the Leutasch work, take it and then take the fortress of Scharnitz in the rear.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as the accounts give them, read from the page images. The aim of invading the Tyrol was set by Napoleon's order, so the claim is tagged inherited; the plan of attack was Ney's (claims side-a-command and posture). Ney's written summons set a limit on how long a refusal would hold up his march (OCR; the period, a number word, is not restated), and Moriggl's judgment on Ney's motive is recorded in claim side-a-command. English renderings (ours): Victoires, as in claim victoires-side-a for Napoleon's direction; as in claim victoires-side-b for the marshal's wish to attack; Moriggl, as in claim moriggl-side-a for Loison's task; 'that your refusal would not hold up my march by more than ... (OCR) day' (OCR).",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Napoléon, avant de quitter Augsburg, avait dirigé le maréchal Ney avec son corps d'armée sur Landsberg, à l'effet de faire une invasion dans le Tyrol et de s'emparer de ce pays."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Die 3000 Mann starke Brigade Labassée schickte Ney unter dem Kommando des Divisions-Generals Loison, dieses ausgezeichneten und allzeit glücklichen Führers von Umgehungs-Kolonnen von Mittenwald ab, um die Leutascher Schanze zu umgehen, wegzunehmen und dann die Festung Scharnitz im Rücken zu packen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 323 (OCR page numbers; not checked against print)",
+          "quote": "daß Ihre Weigerung meinen Marſch nicht mehr als Einen Tag aufhalten würde;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's task was set from above. Swinburne had reported that he and his garrison were resolved to repel every attack and every proposal of surrender and would leave the post only after the utmost resistance and only as he had been ordered (the first part OCR); Archduke John answered that holding the fortress for at least three more days was necessary and charged him not to begin the retreat without a definite order. In Moriggl's OCR, the written instruction the Archduke left with St. Julien was to secure the Leutasch and Scharnitz as long as possible, so that at least the troops of Chasteler and Rohan had time to reach the Brenner, and then to send Swinburne and Major Kraus the order to withdraw from their posts in the night and march to Innsbruck. When Swinburne left the fortress, his intention was to break through and join Archduke John's army corps.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as Moriggl gives them (page images except where marked OCR). The defence of the two posts was ordered from above, so the claim is tagged inherited. English renderings (ours): 'and that he and his garrison were firmly resolved to repel every attack, as every proposal of surrender; he would [leave] the post' (p. 299, OCR) 'only after the utmost resistance, and only as he had been ordered' (p. 300); as in claim side-b-command for the Archduke's answer; 'beforehand he charged FM (OCR) Count St. Julien to watch over the exact execution of the orders already given, and handed him a written instruction to this effect:' (OCR); 'to secure the holding of the Leutasch and Scharnitz as long as possible, so that at least the troops of FML Chasteler and those of Prince Rohan had time to reach the Brenner' (OCR); 'but the order be sent to Lieutenant-Colonel Swinburne in Scharnitz and to Major Kraus (OCR 'Kran') in the Leutasch, that both' (p. 302) 'are to withdraw from their posts in the night and march off to Innsbruck' (p. 303, OCR); as in claim side-b-command for Swinburne's intention.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-orders-3-nov",
+          "locator": "Moriggl (1861), p. 299 (OCR page numbers; not checked against print)",
+          "quote": "und er mit feiner Beſatzung feit enfchloffen fei, jeden Angriff, fo wie jeden Antrag einer Uebergabe abzumeifen; ev werde den Pojten"
+        },
+        {
+          "source_id": "moriggl-1861-p300-figures-v1",
+          "section": "p300",
+          "locator": "Moriggl (1861), p. 300 (transcribed from the page image)",
+          "quote": "nur nach der äußersten Gegenwehr, und nur so, wie ihm befohlen worden, verlassen."
+        },
+        {
+          "source_id": "moriggl-1861-p300-figures-v1",
+          "section": "p300",
+          "locator": "Moriggl (1861), p. 300 (transcribed from the page image)",
+          "quote": "Der Erzherzog erklärte ihm ferners, daß die Behauptung der Festung wenigstens drei Tage noch nöthig sei, und trug ihm auf, den Rückzug ohne bestimmten Befehl dazu nicht anzutreten;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "archduke-orders-4-nov",
+          "locator": "Moriggl (1861), p. 302 (OCR page numbers; not checked against print)",
+          "quote": "Zuvor trug er dem FM. Grafen St. Julien noch auf, über genaue Befolgung der ſchon gegebenen Befehle zu wachen, und über: gab ihm eine fchriftliche Weifung des Inhalts:"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "archduke-orders-4-nov",
+          "locator": "Moriggl (1861), p. 302 (OCR page numbers; not checked against print)",
+          "quote": "die Erhaltung der Yentafh und Scharnig fo lange als möglich zu fichern, damit wenig: jtens die Truppen des FMY. Chafteler und jene des Prinzen Rohan Zeit fänden, den Brenner zu erreichen;"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "archduke-orders-4-nov",
+          "locator": "Moriggl (1861), p. 302 (OCR page numbers; not checked against print)",
+          "quote": "jondern dem Oberjtlieutenant Swinburne in der Scharnig und dem Major Kran in der Leutafch der Befehl zugefchidt werden, daß ſich beide"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "archduke-orders-4-nov",
+          "locator": "Moriggl (1861), p. 303 (OCR page numbers; not checked against print)",
+          "quote": "von ihren Poſten in der Nacht zurückzuziehen und nach Innsbruck abzurücken haben."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "und einer Kanone im Anzuge war, in der Absicht, sich durchzuschlagen, und an das Armee-Korps des Erzherzogs Johann anzuschließen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. In Moriggl, Ney decided after Swinburne's refusal to take the place by force (OCR); on 4 November his troops stormed the fortress from 1 o'clock to ¼ past 5 in three general assaults, which were beaten off, while Loison's column turned and took the Leutasch work; after Loison reached Seefeld, French detachments pushed Swinburne's withdrawing column off the road, fell on its flank and forestalled it at the defile, where it surrendered after a short attempt to force the passage. In Victoires, Loison's division invested the Leutasch post, and on 5 November Loison's columns attacked the fort of Scharnitz, the 69th escalading it, and caught the evacuating garrison between two fires near a monastery.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts have side A attack both posts and then trap side B's garrison as it withdrew, so the code is A_attacked; they agree on the code, so it is one claim. Swinburne's attempt to force the passage at Seefeld (Moriggl) and the Austrians' near success against the French first column (Victoires) were a withdrawing column's attempt to break through troops barring its way, not a main attack, so they do not make the code both_attacked. The passages show side A's commanders deciding the attacks: Ney decided to take the place by force (Moriggl, OCR), sent Loison against the Leutasch (Moriggl) and wanted to attack the Pass of Scharnitz (Victoires), and Loison directed the columns of 5 November (Victoires); so the posture is tagged commander_created. The invasion of the Tyrol was ordered by Napoleon (claim side-a-objectives). English renderings (ours): as in claims side-a-command, side-b-command, bodart-winner, victoires-side-a and victoires-side-b.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-2-3-nov",
+          "locator": "Moriggl (1861), p. 323 (OCR page numbers; not checked against print)",
+          "quote": "In Folge der abjchlägig ausgefallenen Antwort beſchloß nun Ney den Platz mit Gewalt der Waffen zu nehmen,"
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Die 3000 Mann starke Brigade Labassée schickte Ney unter dem Kommando des Divisions-Generals Loison, dieses ausgezeichneten und allzeit glücklichen Führers von Umgehungs-Kolonnen von Mittenwald ab, um die Leutascher Schanze zu umgehen, wegzunehmen und dann die Festung Scharnitz im Rücken zu packen."
+        },
+        {
+          "source_id": "moriggl-1861-p334-figures-v1",
+          "section": "p334",
+          "locator": "Moriggl (1861), p. 334 (transcribed from the page image)",
+          "quote": "Drei allgemeine Stürme wurden auf diese Weise von der braven Besatzung glücklich abgeschlagen; angefeuert von ihrem Kommandanten wirkte dieselbe an diesem heißen Tage Wunder der Tapferkeit, und bedeckte sich mit Ruhm."
+        },
+        {
+          "source_id": "moriggl-1861-p334-figures-v1",
+          "section": "p334",
+          "locator": "Moriggl (1861), p. 334 (transcribed from the page image)",
+          "quote": "Von 1 Uhr bis ¼ nach 5 Uhr — also volle vier Stunden wurde unausgesetzt gestürmt."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "Dem erhaltenen Befehle gemäß rückte am 4. November der französische Divisions-General Loison mit der verstärkten Brigade Labassée"
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "wurde er von der französischen Kolonne, welche den Geigenbichl besetzt hielt, gleich von der Straße weg und gegen das Gebirg hin gedrückt."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "allein eine zweite französische Abtheilung brach zu gleicher Zeit aus Seefeld hervor, und fiel ihm in die rechte Flanke, während eine dritte feindliche Abtheilung schnell auf der Straße vorrückte und noch vor Swinburne beim „rothen"
+        },
+        {
+          "source_id": "moriggl-1861-p364-figures-v1",
+          "section": "p364",
+          "locator": "Moriggl (1861), p. 364 (transcribed from the page image)",
+          "quote": "So von allen Seiten umrungen mußte sich der tapfere Krieger nach einem kurzen aber kräftigen Versuche, die Passage zu erzwingen, sammt seiner braven Mannschaft (wirklich eines bessern Looses würdig) an den übermächtigen Feind ergeben;"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "Le 5 novembre, à deux heures du matin, le général Loison dirigea sur le fort de Scharnitz deux colonnes, dont l'une devait tourner ce poste, tandis que la seconde attaquerait de front."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Arrivé ainsi sur le plateau où se trouve situé le fort, au milieu d'une grêle de balles et de mitraille qui partaient des remparts, le soixante-neuvième s'y forma, et s'avança ensuite sous les murs, qui furent escaladés."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Le combat s'engagea près d'un monastère qui se trouvait sur la route; la colonne française, inférieure en force, était sur le point de laisser le passage libre à ses adversaires, lorsque le soixante-neuvième régiment, qui venait de s'emparer de Scharnitz, et qui s'était aussitôt jeté à la poursuite de la garnison fugitive, arriva sur le champ de bataille, et changea la face du combat."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "La troupe autrichienne, prise entre deux feux, perdit tout son avantage; entourée de toutes parts, et privée de son chef, désarçonné et fait prisonnier par le capitaine Genevay ¹, elle fut forcée de mettre bas les armes, et de subir la loi du vainqueur."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B fought from works. Moriggl's Scharnitz is a fortress whose garrison, well covered in the works, beat off the assaults, with Landesvertheidiger in the works, especially on the Kapfelberg; in his OCR the assaulting columns set ladders against the works. The Leutasch work, also called a fort, had a wall toward the Grünkopf and works in the plain held by the military. Victoires calls the Leutasch a fortified post and has the 69th escalade the walls of the fort of Scharnitz under fire from its ramparts. No works are named where Swinburne's column was caught near Seefeld.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Code B_fortified: both accounts have side B defend the fortress of Scharnitz and the Leutasch work, permanent works in place before the campaign. In Moriggl's OCR the Leutasch work was walled, with bastions, a broad and deep wet ditch and a drawbridge, and a beam still standing bore a year that the OCR gives; so the fortification is tagged inherited. The accounts agree on the code, so it is one claim. Grueber's stone batteries on the Brunnstein were rocks prepared for rolling down the cliff, not works, and are recorded here only. Moriggl says a careful commander would have dug a cutting or a trench, raised a redoubt or laid an abatis at the Alpl, and that Kraus did none of this, so no field works are named there. Side A fought from no works. English renderings (ours): Moriggl, as in claim side-b-losses-reported for the dead covered in the works; as in claim scharnitz-ground for the Kapfelberg, the wall and the works in the plain; 'when the storm columns had pushed up to the works, the ladders were at once set up right and left and the storming went on' (OCR); as in claim moriggl-leutasch for the fort; 'it was solidly walled, had ... (OCR) bastions, a broad and deep wet ditch, over which a drawbridge led' (OCR); 'a beam of it still standing shows the year ... (OCR)' (OCR); 'further, a careful commander, such as perhaps a Swinburne, would have made a cutting here, thrown up a trench there, or built a redoubt, perhaps also had an abatis laid'; as in claim moriggl-leutasch for 'Major Kraus did none of all this'; as in claim scharnitz-ground for the stone batteries; Victoires, as in claims victoires-side-b and scharnitz-ground.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p336-figures-v1",
+          "section": "p336",
+          "locator": "Moriggl (1861), p. 336 (transcribed from the page image)",
+          "quote": "Was den Verlust auf Seite der Oesterreicher anbelangt, die in den Festungswerken trefflich gedeckt waren, hatten dieselben nicht mehr als sechzehn Todte."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "Mehrere aus ihnen befanden sich auch in den Festungswerken, besonders auf dem Kapfelberg und kämpften da tapfer an der Seite des Militärs."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "scharnitz-assault-4-nov",
+          "locator": "Moriggl (1861), p. 333 (OCR page numbers; not checked against print)",
+          "quote": "Als nun die Eturm-Kolonnen an die Feſtungswerke vorgedrungen waren, wurden gleich vechts und links die Yeitern angelegt und fort: während geſtürmt."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Kommandant des benannten Bataillons und des Forts war Major Kraus."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Marberger hatte am 4. November die linke Seite der Schanze, das heißt, die steil gegen den Grünkopf hin laufende Mauer mit seinen Leuten besetzt."
+        },
+        {
+          "source_id": "moriggl-1861-p339-figures-v1",
+          "section": "p339",
+          "locator": "Moriggl (1861), p. 339 (transcribed from the page image)",
+          "quote": "Das Militär hielt die in der Ebene angebrachten Festungswerke besetzt."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 338 (OCR page numbers; not checked against print)",
+          "quote": "Dieſe war fejt gemauert, hatte zwei Bajtionen, einen breiten und tiefen Waſſergraben, über den eine Zugbrücke führte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "leutasch-4-nov",
+          "locator": "Moriggl (1861), p. 338 (OCR page numbers; not checked against print)",
+          "quote": "Ein noch jtehender Baum derfelben zeigt die Jahreszahl 1704."
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "weiters würde ein umsichtiger Kommandant, wie allenfalls ein Swinburne, hier eine Abgrabung vornehmen, dort einen Graben aufwerfen, oder eine Schanze errichten, allenfalls auch einen Verhau haben anlegen lassen;"
+        },
+        {
+          "source_id": "moriggl-1861-p340-figures-v1",
+          "section": "p340",
+          "locator": "Moriggl (1861), p. 340 (transcribed from the page image)",
+          "quote": "allein Major Kraus hat von Allem nichts gethan, obwohl er 7 Tage Zeit und 900 Mann zur Disposition hatte; er begnügte sich vom Militär 24 Mann mit einem Offizier auf das Alpl, und 14 Mann von der Miliz unter einem Korporal auf den Grünkopf hinauf zu kommandiren, und damit — Punktum."
+        },
+        {
+          "source_id": "moriggl-1861-p331-figures-v1",
+          "section": "p331",
+          "locator": "Moriggl (1861), p. 331 (transcribed from the page image)",
+          "quote": "stand mit seinen Leuten rechts in den Felsenwänden des steilen Brunnsteines, eifrig damit beschäftigt, Steinbatterien herzurichten, um den anrückenden Feind damit bedienen zu können."
+        },
+        {
+          "source_id": "moriggl-1861-p363-figures-v1",
+          "section": "p363",
+          "locator": "Moriggl (1861), p. 363 (transcribed from the page image)",
+          "quote": "wurde er von der französischen Kolonne, welche den Geigenbichl besetzt hielt, gleich von der Straße weg und gegen das Gebirg hin gedrückt."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p215-figures-v1",
+          "section": "p215",
+          "locator": "Victoires et conquêtes, t. XV, p. 215 (transcribed from the page image)",
+          "quote": "La division du général Loison investit ce poste fortifié, fit capituler trois cents hommes qui le défendaient, et marcha ensuite sur Seefeld, village situé en avant du Pas de Scharnitz, que le maréchal voulait attaquer."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p216-figures-v1",
+          "section": "p216",
+          "locator": "Victoires et conquêtes, t. XV, p. 216 (transcribed from the page image)",
+          "quote": "Arrivé ainsi sur le plateau où se trouve situé le fort, au milieu d'une grêle de balles et de mitraille qui partaient des remparts, le soixante-neuvième s'y forma, et s'avança ensuite sous les murs, qui furent escaladés."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Moriggl's text between the selected sections at pp. 300-302, 323-330 and 353-362, read in the OCR while locating the passages and not cited (the Archduke's orders of the morning of 4 November, the Innsbruck defence deputation's measures, and the French entry into Seefeld and the night that followed); the sources Moriggl uses but which were not inspected (Swinburne's papers, the Seefeld diary, Dipauli's notes and the published protocol of eyewitness statements on the Leutasch); the unnamed French reports and the Oesterreichische militärische Zeitschrift he quotes for side A's loss; any report of Ney or Loison and the bulletins of the Grande Armée, which the passages read do not cite; the rest of Moriggl's order of battle (pp. 89-94: the other corps, the cavalry reserve, the Guard, the recapitulation, which repeats the VI Corps' total, and the troops that arrived later), read from the page images except p. 91, read in the OCR, and not cited. Figures seen only in the OCR and not restated in values: the number of guns sent with the Erzherzog Karl battalion; the ordinal of the day of Ney's reconnaissance and of Dupont's division; the number of corps in Ney's summons and the day by which he said a refusal would delay him; the date and loss in the Sammler's statement that Moriggl corrects; the number of outworks given to Marcognet's brigade, of Villatte's turning columns and their ordinals, and of companies Swinburne asked to have replaced; the hour at which he did not yet know the Leutasch's fate; the number of companies of Tyrolean Jäger St. Julien sent; the strength of Seeger's Landsturm column; the number of the Leutasch work's bastions, the year on its beam, and the number and ordinal of the points it depended on; the number of companies Horn sent to the Alpl; the ordinal in the militia's sighting of the French; the page numbers of the parent, read from the OCR except where a page image is cited.",
+    "Most consequential gap: side A's strength. Neither Moriggl nor Victoires gives a total for the action; Bodart's about 13,000 is not in the passages read, and Moriggl's 3000 for Labassée's brigade is his narrative's only figure for part of it. The targeted follow-up, Moriggl's order of battle of the Grande Armée at its crossing of the Rhine (pp. 89 and 92, transcribed from the page images), gives Ney's corps by division (claim moriggl-order-of-battle): Loison's and Malcher's divisions, whose brigades the narrative engages at the two posts, had 15,615 men together at the crossing (our sum). That narrows the gap without closing it, since the crossing comes before Elchingen and Ulm in Moriggl's narrative and in his OCR Ney left a considerable part of his forces at Ulm. A return of Ney's corps for early November or a report of Ney or Loison, none of which the passages read cite, could close it. Side B's prisoners are uncertain too: Moriggl gives each post's garrison but no count of prisoners, and Victoires's 1,800 and Bodart's about 1,500 have no stated basis.",
+    "Disputes recorded in the claims: how the fort fell (Moriggl: three assaults beaten off on 4 November, the garrison's departure in the night and Ney's entry into the abandoned fortress toward 4 in the morning; Victoires: no assault on the 4th, and the 69th escalading the fort under fire on 5 November and finding about a hundred Tyrolean chasseurs); the Leutasch garrison (Victoires three hundred; Moriggl a battalion given as 600 with militia companies of 117 and 219); side B's prisoners and trophies (Victoires eighteen hundred men, a flag and sixteen guns with their teams; Bodart about 1,500 mostly prisoners, 16 guns and 1 flag; Moriggl no total, twelve guns at Scharnitz of which eleven were spiked, and a detachment of 1000 prisoners escorted to Kufstein); side A's loss (Bodart about 400; the reports Moriggl quotes give about 36 dead and about 400 wounded, several hundred, 800 and 1800; and 10 dead and 6 wounded at the Leutasch); the date of the fort's fall, 5 November in Victoires against Bodart's 4 November for the engagement.",
+    "Families and dependence: Bodart (a compilation; his 16 guns equal Moriggl's twelve at Scharnitz and four pieces at the Leutasch together and Victoires's sixteen, and his 400 for side A equals the wounded in a French report Moriggl quotes; his strengths are not in the passages read); Moriggl (the Tyrolean account of 1861, an interested one, written from Swinburne's papers, the Seefeld diary, Dipauli's notes, the published eyewitness protocol and his own interviews; he quotes unnamed French reports and the Oesterreichische militärische Zeitschrift for side A's loss, and names no source for his order of battle at the Rhine crossing); Victoires et conquêtes (the French compilation of 1819, an interested one, which names no sources in the passages read and may draw on the bulletins, not checked)."
+  ]
+}
+```
+
 
 ### B368b: TREFFEN bei Mariazell (8./11. 1805)
 
@@ -14504,6 +16335,1246 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": false,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B368d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's capitulation of Dornbirn (14 November 1805) in cohort v1's third-coalition 1805 group: the surrender of FML Baron Jellachich's corps in the Vorarlberg to Marshal Augereau's corps. The draft covers the French advance from Bregenz on 13 and 14 November, the skirmishes with the Austrian outposts near Bregenz and at Dornbirn, and the capitulation agreed at the French headquarters at Dornbirn while the Austrian corps stood in the Hohenems position. Jellachich's orders and movements before 13 November, the departure of his cavalry for Bohemia and its march there, and Augereau's march from the Rhine are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 16 battalions and 4 squadrons, 15,000 men, under Marshal Augereau, and side B (Austrian) 9 battalions, 4,000 men, under FML Baron Jellachich. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Moriggl's order of battle at the Rhine crossing gives Augereau's corps 16 battalions, 4 squadrons and 14,907 men (claim moriggl-order-of-battle): Bodart's battalions and squadrons equal the table's and his 15,000 is its total rounded up, but the passages read do not show that he took his figures from such a table or that the whole corps was at hand at Dornbirn. Moriggl's narrative gives no total for side A and quotes a report from side B of an enemy corps of about 9000 men (claim wolfskehl-report); Victoires gives none. Bodart's side B figure is not in the passages read: Moriggl gives the corps that capitulated as 3 generals, 160 officers and 3895 men (claim moriggl-side-b), 4,058 together (our sum, not a source's total), and the passages read do not show Bodart's basis or whether his 4,000 counts the cavalry that had left before the capitulation. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French (16 battalions, 4 squadrons = 15,000 men) under Marshal Augereau force the Austrians (9 battalions = 4,000 men) under FML Baron von Jellachich to capitulate, by which the Austrians were allowed, against the obligation not to serve against France for one year, to withdraw freely to Bohemia'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Die Franzosen (16 Btln., 4 Esk. = 15.000 M.) unter Marschall Augereau nötigen die Österreicher (9 Btln. = 4.000 M.) unter FML. Fh. v. Jellachich zur Kapitulation, wonach den Österreichern gegen die Verpflichtung, ein Jahr lang nicht gegen Frankreich zu dienen, bewilligt wurde, frei nach Böhmen abzuziehen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "moriggl-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), the Austrian account's figures: Moriggl gives the Austrian corps that capitulated as 3 generals, 160 officers and 3895 men. Jellachich had had 13 squadrons under his command; early on 13 November the colonels Kinsky and Wartensleben left Bregenz without his permission with 10 squadrons of their regiments (Klenau Chevauxlegers and Blankenstein Hussars) and 6 guns, and in the night of 13 to 14 November 2 squadrons of Rosenberg Chevauxlegers followed, so that a single squadron remained to him. The regiment Beaulieu, on the march to Landeck, had already joined Prince Rohan's corps by the time the capitulation was to cover it.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own side's figures (Moriggl writes the Austrian and Tyrolean account), read from the page images. The count is of the corps as it capitulated, after the cavalry had gone; Moriggl names no source for it and gives no number of men for the departed squadrons. The corps was in the Vorarlberg before the engagement, and the cavalry left by the colonels' own decision, not the commander's, so the claim is tagged inherited. In Moriggl's OCR Jellachich had written to the Archduke that he would send battalions of Beaulieu, the combined battalion and the combined cuirassier squadron to Landeck; the passages read do not say which of these left. English renderings (ours): 'General Mathieu finally agreed that the Austrian corps, consisting of 3 generals, 160 officers and 3895 men, might withdraw to Bohemia after first laying down its arms'; 'without the permission of the commander-in-chief, whom they judged quite rightly, the two colonels, as we already know, left Bregenz early on the morning of 13 November with 10 squadrons of their regiments (Klenau Chevauxlegers and Blankenstein Hussars) and with 6 guns'; 'during the night of the 13th to the 14th 2 squadrons of Rosenberg Chevauxlegers followed as well, so that of the 13 squadrons the commander had under his orders only a single squadron remained to him'; 'by article 5 the capitulation of Dornbirn was also to apply to the regiment Beaulieu, on the march to Landeck, if on 14 November at 7 in the evening it had not joined Rohan, or was on the Arlberg'; 'the union of the said regiment with the prince's corps had, however, already taken place by this time'; 'he would at once send all dispensable baggage, ... (OCR) battalions of Beaulieu, the combined battalion and the combined cuirassier squadron to Landeck' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Ohne Erlaubniß des von ihnen ganz richtig beurtheilten Ober-Befehlshabers verließen die beiden Obersten, wie wir bereits wissen, am frühen Morgen des 13. November mit 10 Eskadrons ihrer Regimenter (Klenau Chevauxlegers und Blankenstein Husaren) und mit 6 Geschützen Bregenz."
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Während der Nacht vom 13. auf den 14. folgten auch noch 2 Eskadrons Rosenberg Chevauxlegers, so daß dem Kommandirenden von den 13 Eskadrons, die er unter seinem Befehle hatte, nur noch eine einzige Eskadron verblieb."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Die Kapitulation von Dornbirn sollte nach Artikel 5 auch für das im Marsch nach Landeck begriffene Regiment Beaulieu gelten, sofern dasselbe am 14. November, Abends 7 Uhr, nicht mit Rohan vereinigt sei, oder sich am Arlberg befinde."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Die Vereinigung des benannten Regiments mit dem Korps des Prinzen war um diese Zeit aber bereits schon vor sich gegangen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 432 (OCR page numbers; not checked against print)",
+          "quote": "werde er unverzüglich alles entbehr- liche Gepäd, 3 Bataillons -Beaulien, das kombinirte Bataillon und die fombinirte Küraffier-Esfadron nah Lande ſchicken."
+        }
+      ]
+    },
+    {
+      "id": "victoires-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's account: Victoires places the bulk of the troops under General Jellachich at Feldkirch and says an enemy detachment under General Wartensleben, about three thousand five hundred men, fifteen hundred of them cavalry, avoided Augereau's troops and crossed the Danube to reach the frontiers of Bohemia through Franconia. It gives no figure for the corps that capitulated.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page image; it names no source in the passages read. Its detachment differs from Moriggl's account, in which the colonels Kinsky and Wartensleben left with 12 of the 13 squadrons and 6 guns and no infantry is named (claim moriggl-side-b); Moriggl gives no number of men for them, and Victoires calls Wartensleben a general. The troops were in the Vorarlberg before the engagement, so the claim is tagged inherited. English renderings (ours): 'and then marched toward Feldkirch, where the bulk of the troops under the orders of General Jellachich was'; 'however, an enemy detachment, commanded by General Wartensleben and some three thousand five hundred men strong, fifteen hundred of them cavalry, succeeded in avoiding Augereau's troops and, heading for the Danube, crossed that river to reach the frontiers of Bohemia through Franconia'.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "et marcha ensuite vers Feldkirch, où se trouvait le gros des troupes aux ordres du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Toutefois, un détachement ennemi, commandé par le général Wartensleben, et fort d'environ trois mille cinq cents hommes, dont quinze cents de cavalerie, réussit à éviter la rencontre des troupes d'Augereau, et, se dirigeant vers le Danube, traversa ce fleuve pour gagner, par la Franconie, les frontières de la Bohême."
+        }
+      ]
+    },
+    {
+      "id": "moriggl-side-a",
+      "dimension": "strength",
+      "value": "Side A (French) in Moriggl: on 13 November the brigade of the French General Serazin entered Bregenz at 4 in the afternoon and the second brigade, Sarut, at 6 in the evening, so that the whole division Mathieu was in Bregenz, followed toward midnight by another detachment. At 11 in the forenoon on 14 November the French division Desjardins, of the brigades Lapisse and Lamarque, entered Bregenz and followed the other troops, which had already marched off toward Hohenems; some detachments had taken the direction of Staufen, others the Bregenzerwald. Marshal Augereau, commandant of the VII Army Corps, arrived at Bregenz at noon coming by way of Lindau, and the General of Artillery Dorfner by way of Wangen at almost the same time. Moriggl's narrative gives no strength for side A.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's account of side A, read from the page images; Moriggl names no source for it. He does not name the troops that attacked the outposts on 13 November; Mathieu's division entered Bregenz that evening and Desjardins's division came up on 14 November. The passages read do not say on whose orders, and Augereau himself arrived at Bregenz only at noon on the 14th, so the phase is unresolved. The passages do not say whether the detachments sent toward Staufen and the Bregenzerwald were of Desjardins's division or of the troops ahead of it. Moriggl's order of battle at the Rhine crossing is recorded in claim moriggl-order-of-battle. Moriggl prints the marshal's name 'Augernau'. English renderings (ours): 'at 4 o'clock in the afternoon, in consequence of the convention concluded, the brigade of the French General Serazin entered Bregenz and was quartered on the citizens'; 'at 6 o'clock in the evening the second brigade, Sarut, came in, so that on the evening of the 13th the whole division Mathieu was already in Bregenz, followed toward midnight by yet another detachment'; 'on 14 November at 11 o'clock in the forenoon the French division Desjardins, consisting of the brigades Lapisse and Lamarque, entered Bregenz with Turkish music, but did not stop in the town, following at once on the heels of the other troops, which had already marched off toward Hohenems'; 'some detachments of them had taken the direction of Staufen, others had gone off toward the Bregenzerwald, evidently intending to turn the position of the imperial troops at Hohenems and bring them between two fires'; 'at noon, at 12 o'clock, the commandant of the VII Army Corps, Marshal Augereau, arrived at Bregenz coming by way of Lindau, and by way of Wangen at almost the same time the General of Artillery Dorfner'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Um 4 Uhr Nachmittags zog nun in Folge der abgeschlossenen Konvention die Brigade des französischen Generals Serazin in Bregenz ein, und wurde bei den Bürgern einquartiert."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Um 6 Uhr Abends rückte die zweite Brigade — Sarut — ein, somit befand sich am 13. Abends schon die ganze Division Mathieu in Bregenz, der gegen Mitternacht noch eine andere Abtheilung folgte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Am 14. November Vormittags um 11 Uhr zog die französische Division Desjardins, aus den Brigaden Lapisse und Lamarque bestehend, mit türkischer Musik in Bregenz ein, hielt sich aber in der Stadt nicht auf, sondern folgte gleich auf dem Fuß den übrigen Truppen, die bereits gegen Hohenems abgerückt waren."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Einige Abtheilungen davon hatten die Richtung gegen Staufen genommen, andere waren gegen den Bregenzer-Wald abgezogen, offenbar in der Absicht die Stellung der Kaiserlichen bei Hohenems zu umgehen, und diese zwischen zwei Feuer zu bringen."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Mittags um 12 Uhr traf der Kommandant des VII. Armee-Korps, Marschall Augernau, über Lindau kommend in Bregenz ein, und über Wangen her fast zu gleicher Zeit der General der Artillerie Dorfner."
+        }
+      ]
+    },
+    {
+      "id": "moriggl-order-of-battle",
+      "dimension": "strength",
+      "value": "Side A (French) in Moriggl's order of battle of the Grande Armée 'at its crossing of the Rhine': Marshal Augereau's VII Army Corps had Desjardins's division (brigadiers Lapisse, Lamarque and Augereau; 16th light, 47th and 105th line regiments), 8 battalions and 6826 men; Maurice Mathieu's division (brigadiers Sarut and Sarazin; 7th light, 24th and 63rd line), 8 battalions and 6268 men; the 7th Chasseurs, 4 squadrons and 500 men; and artillerymen and others, 1213 men: in all 16 battalions, 4 squadrons and 14,907 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's account of side A, read from the page images. The sentence that introduces the table (p. 89) dates it to the army's crossing of the Rhine, which Moriggl does not date, and he names no source for it; the corps' rows run from p. 92 to p. 93. It gives the corps at the crossing, not side A at Dornbirn: the passages read give no strength for 13 or 14 November, and Moriggl's narrative has Mathieu's division enter Bregenz on the evening of the 13th and Desjardins's division, which it gives as of the brigades Lapisse and Lamarque, come up on the 14th (claim moriggl-side-a). Bodart's 16 battalions and 4 squadrons equal the table's, and his 15,000 is its 14,907 rounded up (claim bodart-strength); the passages read do not show where Bodart took his figures. Wolfskehl's report of about 9000 men is far below both (claim wolfskehl-report). The corps' composition and strength were set before the engagement, so the claim is tagged inherited. The brigadier printed 'Augereau' is not identified further in the passages read, and the table prints 'Matthieu' where the narrative prints 'Mathieu'. English renderings (ours): 'there now follow the distribution and the statement of the strength of the Grande Armée at its crossing of the Rhine'; 'VII Army Corps — Marshal Augereau'; each division row gives the division's commander, its brigadiers, its regiments ('leichtes' light, 'L.-I.-R.' line infantry regiment, '„' ditto), battalions, squadrons and men; the row of the 7th Chasseurs ('Chasseur') gives 4 squadrons and 500 men; 'artillerymen etc. | 1213'; the corps total, '16 | 4 | 14,907.'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p89-figures-v1",
+          "section": "p89",
+          "locator": "Moriggl (1861), p. 89 (transcribed from the page image)",
+          "quote": "Es folge nun die Eintheilung und die Angabe der Stärke der großen Armee bei ihrem Uebergang über den Rhein."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "VII. Armee-Korps — Marschall Augereau."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Desjardins | Lapisse / Lamarque / Augereau | 16. leichtes / 47. L.-I.-R. / 105. „ | 8 | — | 6826"
+        },
+        {
+          "source_id": "moriggl-1861-p93-figures-v1",
+          "section": "p93",
+          "locator": "Moriggl (1861), p. 93 (transcribed from the page image)",
+          "quote": "Maurice / Matthieu | Sarut / Sarazin | 7. leichtes / 24. L.-I.-R. / 63. „ | 8 | — | 6268"
+        },
+        {
+          "source_id": "moriggl-1861-p93-figures-v1",
+          "section": "p93",
+          "locator": "Moriggl (1861), p. 93 (transcribed from the page image)",
+          "quote": "— | — | 7. Chasseur | — | 4 | 500"
+        },
+        {
+          "source_id": "moriggl-1861-p93-figures-v1",
+          "section": "p93",
+          "locator": "Moriggl (1861), p. 93 (transcribed from the page image)",
+          "quote": "Artilleristen u. s. w. | 1213"
+        },
+        {
+          "source_id": "moriggl-1861-p93-figures-v1",
+          "section": "p93",
+          "locator": "Moriggl (1861), p. 93 (transcribed from the page image)",
+          "quote": "16 | 4 | 14,907."
+        }
+      ]
+    },
+    {
+      "id": "wolfskehl-report",
+      "dimension": "strength",
+      "value": "Side A (French), a report from side B before the engagement: shortly before Jellachich left for Landeck, a report of General Wolfskehl from Bregenz had come in that an enemy corps about 9000 men strong was advancing by Stockach along Lake Constance against the Vorarlberg.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's report of side A's strength, quoted by Moriggl and read from the page image; its date and basis are not given, and it is the only figure for side A in his narrative. It is far below Bodart's 15,000 (claim bodart-strength) and below the 14,907 men of Moriggl's own order of battle at the Rhine crossing (claim moriggl-order-of-battle). The French corps was on the march before the engagement, so the claim is tagged inherited. English renderings (ours): 'now Jellachich went himself to Landeck' (OCR); 'shortly before his departure a report of General Wolfskehl from Bregenz had come in, to this effect: \"an enemy corps about 9000 men strong is advancing by Stockach along Lake Constance against the Vorarlberg\"'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "Nun verfügte ſich Jellachich ſelbſt nach Landeck,"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Kurz vor seiner Abreise war ein Bericht des Generals Wolfskehl aus Bregenz eingelaufen des Inhalts: „ein beiläufig 9000 Mann starkes feindliches Korps rücke über Stockach dem Bodensee entlang gegen Vorarlberg vor.“"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Augereau as side A's commander and FML Baron Jellachich as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Moriggl has Augereau, commandant of the VII Army Corps, arrive at Bregenz only at noon on 14 November, while the French General of Division Mathieu made the first offer and agreed the final terms at Dornbirn (claim side-a-command); Victoires has Augereau command the corps sent against the Vorarlberg, and General of Division Maurice Mathieu and General-Major Wolfskehl settle the articles under authority from their generals-in-chief. Both accounts name Jellachich as side B's commander (claim side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Die Franzosen (16 Btln., 4 Esk. = 15.000 M.) unter Marschall Augereau nötigen die Österreicher (9 Btln. = 4.000 M.) unter FML. Fh. v. Jellachich zur Kapitulation, wonach den Österreichern gegen die Verpflichtung, ein Jahr lang nicht gegen Frankreich zu dienen, bewilligt wurde, frei nach Böhmen abzuziehen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A was Marshal Augereau's corps, the VII Army Corps in Moriggl. In Victoires, Napoleon had entrusted Augereau with a corps formed of troops that had been posted on the coasts at Brest (OCR); Augereau crossed the Rhine, passed the defiles of the Black Forest, advanced on Lake Constance, forced the Austrians to abandon Lindau and Bregenz and marched toward Feldkirch; General of Division Maurice Mathieu and General-Major Wolfskehl, authorized by their generals-in-chief, settled the articles of the convention. In Moriggl, on 13 November the enemy attacked and pushed back the imperial outposts near Bregenz, and an armistice for the town was agreed on condition that the French could occupy it at once; that evening Wolfskehl brought Jellachich a proposal of the French General of Division Maurice Mathieu to grant the whole Austrian corps free withdrawal with its arms and 8 guns in return for the evacuation of the Vorarlberg, on condition that it bound itself not to serve against France or her allies for half a year. On 14 November the French threw the Austrian outposts at Dornbirn out of the village and over the Dornbirner Ach; Wolfskehl had the firing stopped there and awaited Mathieu; at the French headquarters at Dornbirn the French demanded unconditional surrender, and General Mathieu finally agreed that the corps could withdraw to Bohemia after laying down its arms.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as the accounts give them (page images except where marked OCR). The passages read do not show Augereau's own orders at Bregenz or Dornbirn: Moriggl has him arrive at Bregenz at noon on the 14th and has Mathieu make the offer and agree the terms (claim moriggl-side-a). Victoires prints Wolfskehl's name 'Woffskell'. English renderings (ours): 'Napoleon had entrusted to Marshal Augereau the command of a corps formed of the troops that, at the time of the declaration of war with Austria, were posted on the coasts at Brest' (OCR); 'Augereau crossed the river on the bridge of boats that had earlier been set up to secure the communication of the department of the Haut-Rhin with the Breisgau, passed the defiles of the Black Forest, advanced on Lake Constance, forced the Austrians to abandon Lindau and Bregenz'; as in claim victoires-side-b for the march toward Feldkirch; 'General of Division Maurice Mathieu and General-Major Wolfskehl, authorized by their generals-in-chief, settled the articles of this convention, by which the Austrian corps, prisoner of war on parole, obtained leave to withdraw to Bohemia after laying down its arms'; Moriggl, as in claim side-b-command for Jellachich's journey to Bregenz on 13 November and as in claim side-b-information for the skirmishing he heard there; 'soon afterwards the reports came in that the enemy was attacking the imperial outposts and pushing them back'; 'this came about on condition that the French should be allowed to occupy the town at once'; 'Wolfskehl arrived late in the evening at Hohenems and brought the news of the entry of the said French detachments'; 'at the same time also a proposal of the French General of Division Maurice Mathieu: \"to grant the whole Austrian corps free withdrawal with muskets and side arms and 8 guns in return for the evacuation of the Vorarlberg, on condition that it bind itself not to serve against France or her allies for half a year\"'; 'in consequence General Wolfskehl was given the necessary full powers; he set out on the 14th for the enemy headquarters, but already at Dornbirn met the enemy, who had already thrown the Austrian outposts posted there out of the village and over the Dornbirner Ach'; 'General Wolfskehl now had the firing stopped and waited here for the arrival of the French General of Division Mathieu'; 'Jellachich now hurried himself to the enemy headquarters at Dornbirn, to bring about a favourable capitulation before the enemy learned of this new embarrassment'; 'but the advantages of the French had already grown so much that they demanded unconditional surrender'; as in claim moriggl-side-b for Mathieu's agreement.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-selections-v1",
+          "section": "vorarlberg",
+          "locator": "Victoires et conquêtes, t. XV, p. 218 (OCR running heads; not checked against print)",
+          "quote": "Napoléon avait confié au maréchal Augereau le comman- dement d’un corps formé des troupes, qui, à l’époque de la déclaration de guerre avec l’Autriche, étaient postées sur les côtes de Brest."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Augereau traversa le fleuve sur le pont de bateaux qui avait été précédemment établi pour assurer la communication du département du Haut-Rhin avec le Brisgaw, franchit les défilés de la forêt Noire, s'avança sur le lac de Constance, força les Autrichiens d'abandonner Lindau et Bregentz,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "et marcha ensuite vers Feldkirch, où se trouvait le gros des troupes aux ordres du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Le général de division Maurice Mathieu et le général-major Woffskell, autorisés par leurs généraux en chef, arrêtèrent les articles de cette convention, par laquelle le corps autrichien, prisonnier de guerre sur parole, obtenait la faculté de se retirer en Bohême, après avoir déposé ses armes."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nachdem er das Nöthige wegen Aufstellung der Truppen daselbst angeordnet hatte, ging er denselben Tag — am 13. November — in Begleitung des Generals Wolfskehl nach Bregenz ab."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Es war gegen Mittag, als Beide in die Nähe der benannten Stadt kamen und schon in einer ziemlichen Entfernung ein heftiges Plänkeln vernahmen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Bald darauf liefen die Rapporte ein, daß der Feind die kaiserlichen Vorposten angreife und zurückdrücke."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Diese kam unter der Bedingung zu Stande, daß es den Franzosen gestattet sein sollte, sogleich die Stadt zu besetzen."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Wolfskehl traf spät Abends in Hohenems ein, und brachte die Nachricht vom Einrücken der benannten französischen Truppen-Abtheilungen,"
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "zugleich auch einen Antrag des französischen Divisions-Generals Maurice Mathieu: „gegen Räumung Vorarlbergs dem ganzen österreichischen Korps freien Abzug mit Ober- und Untergewehr und 8 Kanonen unter der Bedingung zu gewähren, daß dasselbe sich verbindlich mache, ein halbes Jahr lang weder gegen Frankreich noch dessen Alliirten zu dienen.“"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "General Wolfskehl ließ nun das Feuer einstellen, und wartete hier die Ankunft des französischen Divisions-Generals Mathieu ab."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Jellachich eilte nun selbst in's feindliche Hauptquartier nach Dornbirn, um eine günstige Kapitulation zu Stande zu bringen, ehe der Feind diese neue Verlegenheit erfahre;"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "allein die Vortheile der Franzosen hatten sich schon so vermehrt, daß sie unbedingte Ergebung forderten;"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Mittags um 12 Uhr traf der Kommandant des VII. Armee-Korps, Marschall Augernau, über Lindau kommend in Bregenz ein, und über Wangen her fast zu gleicher Zeit der General der Artillerie Dorfner."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML Baron Jellachich commanded side B. In Moriggl's OCR he had answered the Archduke's order to draw in his posts in Swabia and follow with his corps to Landeck with representations for being allowed to stay where he stood, and a later letter of his contained no word of beginning a retreat. On 5 November at Hohenems he ordered part of his troops back toward the Arlberg, then, informed of the French entry into Innsbruck and the Archduke's retreat, stopped the movement and ordered the retreat into the position of Hohenems, where entrenchments were now built. On 11 November, after Rohan's letter reached him at Stuben, he hastened on to Landeck and found the prince already on the march toward Bozen; their conference agreed that Rohan would continue toward Bozen and the troops from the Vorarlberg follow him without delay, but a chain of misunderstandings, which Moriggl passes over, prevented it. Back at Feldkirch on the 12th, he told Wolfskehl in the night to the 13th that he meant to defend the Vorarlberg after the example of 1799 and 1800, and the news that the colonels Kinsky and Wartensleben had left with the cavalry did not change his resolve. On 13 November, having ordered the troops' disposition at Hohenems, he went with Wolfskehl to Bregenz, made the necessary arrangements as the outposts were pushed back, and, not meaning to hold Bregenz but to bring his troops in good order into the Hohenems position, had Wolfskehl negotiate an armistice for the town until six in the evening, and so brought his men back unpursued. Mathieu's offer of that evening was not taken up. On 14 November, as the French came on, he called a council of war, in which, allegedly, all present but he voted for an honourable capitulation, until he too consented; he gave Wolfskehl full powers, and on news that Rohan had left Landeck hurried himself to the French headquarters at Dornbirn to obtain a favourable capitulation before the enemy learned of it. He was later tried by a court martial and acquitted. In Victoires the Austrian general, soon surrounded and cut off from the Tyrol, decided to ask for a capitulation on the best possible terms.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Moriggl gives them (page images except where marked OCR). Judgments, not recorded facts: Moriggl writes that Jellachich seems to have counted too much on the strong position at Hohenems, which could easily be turned on the right; asks how many embarrassments he would have escaped had he obeyed the Archduke's order quickly and unconditionally (OCR, the date not restated); and calls the colonels' judgment of their commander-in-chief quite right. The colonels left without Jellachich's permission (claim moriggl-side-b). Of the council of war Moriggl writes 'angeblich', allegedly. English renderings (ours): 'here the Archduke's order of ... (OCR) October reached him, to this effect: to draw in all posts in Swabia quickly, to move the stores at once to Landeck, then to follow there with his corps without delay' (OCR); 'instead, however, of drawing these in according to the instruction received and beginning the ordered retreat, FML Jellachich made representations for being allowed to remain standing as he now stood' (OCR); 'a letter from him came in that contained not a word of beginning a retreat, but communicated only some unimportant news' (OCR); 'on 5 November Jellachich was at Hohenems, from where he actually ordered part of his troops to march back toward the Arlberg'; 'but soon afterwards, informed of the French entry into Innsbruck and of the Archduke's retreat, he stopped the movement already begun and ordered the retreat into the position of Hohenems, where entrenchments were now built'; as in claim side-b-objectives for Rohan's letter at Stuben; 'this report decided FML Jellachich to hasten his onward journey to Landeck, where he arrived at 9 o'clock in the forenoon and found the prince already on the march toward Bozen'; 'the result of the conference held was \"that Rohan should continue his march toward Bozen and the troops from the Vorarlberg follow him without delay\"'; 'the quick execution of this jointly taken decision would beyond question have led both corps to the goal of their union with the Archduke; but a real chain of misunderstandings, whose explanation would tire the reader and is therefore passed over, prevented its execution'; 'on the 12th Jellachich had arrived again at Feldkirch, where during the night to the 13th he had a conference with General Wolfskehl, to whom he communicated his intention of defending the Vorarlberg after the example given earlier (in the years 1799 and 1800)'; 'but early on 13 November the news came in that the two colonels Kinsky and Wartensleben had gone off with the cavalry, intending to cut their way through to Bohemia'; 'but this news, however disheartening, brought about no change in Jellachich's choice of resolve; he seems to have counted too much on the strong position at Hohenems, which, however, could easily be turned on the right side'; 'having ordered what was needed for the disposition of the troops there, he went off the same day, 13 November, to Bregenz accompanied by General Wolfskehl'; as in claim side-a-command for the reports; 'Jellachich now made the necessary arrangements and stayed in Bregenz' (p. 435) 'until the outposts had passed the Ach bridge and formed behind Lauterach' (p. 436); 'since it was not his intention to hold Bregenz, but to bring the troops in quiet and order into the position of Hohenems, Jellachich charged General Wolfskehl to negotiate, to spare the town, an armistice until six o'clock in the evening against its surrender'; 'Jellachich gained by this armistice at least the advantage of being able to lead his men back into the position of Hohenems unpursued by the enemy'; 'this somewhat honourable proposal was not taken up, but the next day the far more shameful one was accepted'; as in claim moriggl-side-a for the French entry into Bregenz and march toward Hohenems on 14 November and Augereau's arrival; 'in these critical circumstances a council of war was called by Jellachich'; 'allegedly all present in it voted for an honourable capitulation, only Jellachich not, until at last he too [had] given his consent to the conclusion of an' (p. 436) 'honourable capitulation' (p. 437); as in claim side-a-command for Wolfskehl's powers and Jellachich's journey to Dornbirn; 'meanwhile FML Jellachich also received the news that Prince Rohan had already left Landeck and was in full march to Bozen'; 'Jellachich was later brought before a court martial and acquitted by it'; 'how many and how great embarrassments Jellachich would have escaped had he given quick and unconditional obedience to the precise order of the Archduke of ... (OCR) October!' (OCR); Victoires, 'soon surrounded in the positions he held, and unable to retreat on the Tyrol, from which he was cut off by Marshal Ney's corps, which had already advanced as far as Brixen, as has just been seen above, the Austrian general did not think he should take any other course than to ask for a capitulation on the best possible terms'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 431 (OCR page numbers; not checked against print)",
+          "quote": "Bier ereilte ihn der Befehl des Erzherzogs vom 26. Dftober dahin lautend: alle Poſten in Schwaben ſchnell einzuziehen, die Borräthe fogleih nah Landeck zu Schaffen, dann. unverzüglich mit feinem Korps dahin zu folgen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 431 (OCR page numbers; not checked against print)",
+          "quote": "Anjtatt aber laut der erhaltenen Weifung diefe ein- zuziehen und den anbefohlenen Rückzug anzutreten, machte FL. Jellachich Vorſtellungen, fo ftehen bleiben zu können, wie ex gegen- wärtig jtehe."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 433 (OCR page numbers; not checked against print)",
+          "quote": "ein Schreiben von ihm einlief, das fein Wort vom Antritt eines Rüdzuges enthielt, fondern nur einige unerheblihe Nachrichten mittheilte."
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Am 5. November befand sich Jellachich in Hohenems, von wo aus er einen Theil seiner Truppen wirklich zum Rückmarsch gegen den Arlberg beorderte;"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "aber bald darauf vom Einrücken der Franzosen in Innsbruck und vom Rückzug des Erzherzogs in Kenntniß gesetzt, stellte er die bereits begonnene Bewegung wieder ein, und ordnete den Rückzug in der Stellung von Hohenems an, wo nun Verschanzungen angelegt wurden."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Als Jellachich am 11. November früh in der Poststation Stuben am Fuße des Arlberg die Pferde wechselte, erhielt er ein Schreiben des Prinzen Rohan, in welchem dieser den vom Erzherzog Johann in Landeck erhaltenen Befehl mittheilte: „ohne Rücksicht auf die Ankunft der Truppen aus dem Vorarlbergischen in Eilmärschen nach Bozen abzurücken.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Dieser Bericht bestimmte den FML. Jellachich zur Beschleunigung seiner Weiterreise nach Landeck, wo er um 9 Uhr Vormittags eintraf, und den Prinzen bereits im Marsche gegen Bozen begriffen fand."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Der Erfolg der gepflogenen Unterredung war, „daß Rohan seine Marschrichtung nach Bozen fortsetzen und die Truppen aus dem Vorarlbergischen ihm ohne Verzug folgen sollten.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Die schnelle Befolgung dieses gemeinsam gefaßten Beschlusses hätte unstreitig beide Korps zum Ziele ihrer Vereinigung mit dem Erzherzog führen können; allein eine wahre Kette von Mißverständnissen, deren Auseinandersetzung den Leser ermüden müßte und daher übergangen wird, verhinderte dessen Ausführung."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Am 12. war Jellachich wieder in Feldkirch eingetroffen, wo er während der Nacht auf den 13. eine Unterredung mit General Wolfskehl hatte, dem er seine Absicht mittheilte, Vorarlberg nach dem früher gegebenen Beispiele (in den Jahren 1799 und 1800) vertheidigen zu wollen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nun lief aber am 13. November in aller Frühe die Nachricht ein, daß die beiden Obersten Kinsky und Wartensleben mit der Kavallerie abgezogen seien, Willens, sich nach Böhmen durchzuschlagen;"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "allein diese Nachricht, so untröstlich sie auch war, brachte bei Jellachich in der Wahl seines Entschlusses keine Aenderung hervor; er scheint zu sehr auf die starke Stellung bei Hohenems gerechnet zu haben, die aber auf der rechten Seite leicht umgangen werden konnte."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nachdem er das Nöthige wegen Aufstellung der Truppen daselbst angeordnet hatte, ging er denselben Tag — am 13. November — in Begleitung des Generals Wolfskehl nach Bregenz ab."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Bald darauf liefen die Rapporte ein, daß der Feind die kaiserlichen Vorposten angreife und zurückdrücke."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Jellachich traf nun die nöthigen Anstalten und verweilte in Bregenz,"
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "bis die Vorposten die Ach-Brücke passirt und sich hinter Lauterach formirt hatten."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Da es nicht in seiner Absicht lag, Bregenz zu halten, wohl aber die Truppen in Ruhe und Ordnung in die Stellung von Hohenems zu bringen, trug Jellachich dem General Wolfskehl auf, zur Schonung der Stadt gegen Uebergabe derselben eine Waffenruhe bis sechs Uhr Abends zu unterhandeln."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Jellachich erlangte durch diesen Waffenstillstand wenigstens den Vortheil, seine Leute, vom Feinde unverfolgt in die Stellung von Hohenems zurückführen zu können."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Dieser einiger Maßen etwas ehrenvolle Antrag wurde nicht beliebt, wohl aber Tags darauf der weit schmählichere angenommen."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Am 14. November Vormittags um 11 Uhr zog die französische Division Desjardins, aus den Brigaden Lapisse und Lamarque bestehend, mit türkischer Musik in Bregenz ein, hielt sich aber in der Stadt nicht auf, sondern folgte gleich auf dem Fuß den übrigen Truppen, die bereits gegen Hohenems abgerückt waren."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Mittags um 12 Uhr traf der Kommandant des VII. Armee-Korps, Marschall Augernau, über Lindau kommend in Bregenz ein, und über Wangen her fast zu gleicher Zeit der General der Artillerie Dorfner."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "In diesen kritischen Umständen wurde ein Kriegsrath von Jellachich zusammenberufen."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Angeblich hätten in diesem alle Anwesenden für eine anständige Kapitulation gestimmt, nur Jellachich nicht, endlich auch dieser für den Abschluß einer"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "anständigen Kapitulation seine Einwilligung gegeben."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Inzwischen erhielt FML. Jellachich auch noch die Nachricht, daß Prinz Rohan Landeck bereits schon verlassen und im vollen Marsche nach Bozen begriffen sei;"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Jellachich eilte nun selbst in's feindliche Hauptquartier nach Dornbirn, um eine günstige Kapitulation zu Stande zu bringen, ehe der Feind diese neue Verlegenheit erfahre;"
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Jellachich wurde später vor ein Kriegsgericht gestellt und von diesem freigesprochen."
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Ohne Erlaubniß des von ihnen ganz richtig beurtheilten Ober-Befehlshabers verließen die beiden Obersten, wie wir bereits wissen, am frühen Morgen des 13. November mit 10 Eskadrons ihrer Regimenter (Klenau Chevauxlegers und Blankenstein Husaren) und mit 6 Geschützen Bregenz."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 437 (OCR page numbers; not checked against print)",
+          "quote": "Wie vielen und wie großen DVerlegenheiten wäre Jellachich ent- gangen, wenn er dem gemefjenen Befehl des Erzherzogs vom 26. Df- tober jchnellen und unbedingten Gehorjam geleiftet Hätte!"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Bientôt cerné dans les positions qu'il occupait, et ne pouvant se retirer sur le Tyrol, dont il était coupé par le corps du maréchal Ney, qui s'était déjà avancé jusqu'à Brixen, comme on vient de le voir plus haut, le général autrichien ne crut pas devoir prendre d'autre parti que celui de solliciter une capitulation aux meilleures conditions possibles."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records that on 14 November the French under Marshal Augereau forced the Austrians under FML Baron Jellachich to capitulate, the Austrians being allowed to withdraw freely to Bohemia against the obligation not to serve against France for one year. In Moriggl the Austrian corps was allowed to withdraw to Bohemia after first laying down its arms; under the convention the men were not to serve against France for a year and the officers kept their horses and baggage; the men were escorted in several columns through Bavaria to Bohemia and handed over there to the Austrian outposts from 4 to 7 December. By its article 5 the capitulation was also to apply to the regiment Beaulieu, then on the march to Landeck, if at 7 in the evening of 14 November it had not joined Rohan, or was on the Arlberg; it had by then already joined the prince's corps. In Victoires the Austrian corps, prisoner of war on parole, obtained leave to withdraw to Bohemia after laying down its arms.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' terms, read from the page images. No source read gives a different result. The terms differ in wording: Bodart has the Austrians withdraw freely, Moriggl has them lay down their arms first, and Victoires calls the corps prisoners of war on parole. Mathieu's offer of the evening before, free withdrawal with arms and 8 guns and half a year's obligation, was not taken up (claims side-a-command and side-b-command). English renderings (ours): Bodart, '1805, 14 November, capitulation of Dornbirn'; as in claim bodart-strength for the entry; Moriggl, as in claim moriggl-side-b for Mathieu's agreement and article 5; 'under the convention concluded the men might not serve against France for one year; the officers might keep horses and baggage'; 'the whole body of men was then escorted in several columns through Bavaria to Bohemia and handed over there from 4 to 7 December to the Austrian outposts'; Victoires, as in claim side-a-command for the articles.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "1805 14./11. KAPITULATION von Dornbirn"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Die Franzosen (16 Btln., 4 Esk. = 15.000 M.) unter Marschall Augereau nötigen die Österreicher (9 Btln. = 4.000 M.) unter FML. Fh. v. Jellachich zur Kapitulation, wonach den Österreichern gegen die Verpflichtung, ein Jahr lang nicht gegen Frankreich zu dienen, bewilligt wurde, frei nach Böhmen abzuziehen."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Der abgeschlossenen Konvention zu Folge durfte die Mannschaft ein Jahr lang nicht gegen Frankreich dienen; die Offiziere durften Pferde und Gepäck behalten."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Die ganze Mannschaft wurde nun in mehreren Kolonnen durch Bayern nach Böhmen eskortirt und dort vom 4. bis 7. Dezember den österreichischen Vorposten übergeben."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Die Kapitulation von Dornbirn sollte nach Artikel 5 auch für das im Marsch nach Landeck begriffene Regiment Beaulieu gelten, sofern dasselbe am 14. November, Abends 7 Uhr, nicht mit Rohan vereinigt sei, oder sich am Arlberg befinde."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Die Vereinigung des benannten Regiments mit dem Korps des Prinzen war um diese Zeit aber bereits schon vor sich gegangen."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Le général de division Maurice Mathieu et le général-major Woffskell, autorisés par leurs généraux en chef, arrêtèrent les articles de cette convention, par laquelle le corps autrichien, prisonnier de guerre sur parole, obtenait la faculté de se retirer en Bohême, après avoir déposé ses armes."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives side A's loss in the skirmishes with the Austrian outposts near Bregenz on 13 November and at Dornbirn on 14 November, and Bodart prints none. Unknown, not zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Moriggl: the corps, of 3 generals, 160 officers and 3895 men, laid down its arms and was allowed to withdraw to Bohemia, the men not to serve against France for a year. Victoires: the Austrian corps, prisoner of war on parole, laid down its arms, and eight flags, a numerous artillery and considerable magazines fell into the power of the French.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. Neither gives killed or wounded for the skirmishes of 13 and 14 November, and Bodart prints no loss figure for this entry: unknown, not zero. The corps that capitulated was released to Bohemia on conditions, so its count is recorded as the capitulated force, not as dead, wounded or held prisoners. The cavalry that left before the capitulation is not counted (claims moriggl-side-b and victoires-side-b); in Moriggl it reached the Bohemian frontier after seven days without considerable loss. English renderings (ours): Moriggl, as in claims moriggl-side-b and bodart-winner; 'from Ellwangen the brave men continued their march by Ansbach through the Upper Palatinate to the Bohemian frontier, which they reached after seven hot days happily and without considerable loss'; Victoires, as in claim side-a-command for the articles; 'eight flags, a numerous artillery and considerable magazines thus fell into the power of the French'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Der abgeschlossenen Konvention zu Folge durfte die Mannschaft ein Jahr lang nicht gegen Frankreich dienen; die Offiziere durften Pferde und Gepäck behalten."
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Von Ellwangen setzten die Braven ihren Marsch über Ansbach durch die Oberpfalz bis an die böhmische Grenze fort, welche sie nach sieben heißen Tagen glücklich und ohne erheblichen Verlust erreichten."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Le général de division Maurice Mathieu et le général-major Woffskell, autorisés par leurs généraux en chef, arrêtèrent les articles de cette convention, par laquelle le corps autrichien, prisonnier de guerre sur parole, obtenait la faculté de se retirer en Bohême, après avoir déposé ses armes."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Huit drapeaux, une artillerie nombreuse et des magasins considérables tombèrent ainsi au pouvoir des Français."
+        }
+      ]
+    },
+    {
+      "id": "dornbirn-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Dornbirn, a market town in the Vorarlberg, 10 km south of Bregenz. In Moriggl, Jellachich's position was at Hohenems, where entrenchments were built, a strong position that could, however, easily be turned on the right side; on 13 November the Austrian outposts fell back over the Ach bridge and formed behind Lauterach, and on the 14th those posted at Dornbirn were thrown out of the village and over the Dornbirner Ach; French detachments took the direction of Staufen and the Bregenzerwald, in Moriggl's reading to turn the Hohenems position. Jellachich's road to Landeck passed the post station of Stuben at the foot of the Arlberg. Victoires has Augereau pass the defiles of the Black Forest and advance on Lake Constance, Lindau and Bregenz, with the bulk of Jellachich's troops at Feldkirch, cut off from the Tyrol by Ney's corps, which had advanced as far as Brixen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and the two accounts, read from the page images; no map was inspected. Victoires puts the main body at Feldkirch and Moriggl at Hohenems, into whose position Jellachich had ordered the retreat on 5 November and where he arranged the troops' disposition on 13 November, after being at Feldkirch himself the night before; the passages read give neither the distance between the two places nor how far Hohenems lies from Dornbirn. English renderings (ours): Bodart, 'market town in Austria, Vorarlberg, 10 km south of Bregenz'; Moriggl, as in claim side-b-command for the Hohenems position, the Ach bridge and Lauterach; as in claim side-a-command for the outposts at Dornbirn; as in claim moriggl-side-a for Staufen and the Bregenzerwald; as in claims side-b-objectives and side-b-command for Stuben and Landeck; Victoires, as in claims side-a-command, victoires-side-b and side-b-command.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "(Marktflecken in Österreich, Vorarlberg, 10 km südl. von Bregenz)."
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "aber bald darauf vom Einrücken der Franzosen in Innsbruck und vom Rückzug des Erzherzogs in Kenntniß gesetzt, stellte er die bereits begonnene Bewegung wieder ein, und ordnete den Rückzug in der Stellung von Hohenems an, wo nun Verschanzungen angelegt wurden."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "allein diese Nachricht, so untröstlich sie auch war, brachte bei Jellachich in der Wahl seines Entschlusses keine Aenderung hervor; er scheint zu sehr auf die starke Stellung bei Hohenems gerechnet zu haben, die aber auf der rechten Seite leicht umgangen werden konnte."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Am 12. war Jellachich wieder in Feldkirch eingetroffen, wo er während der Nacht auf den 13. eine Unterredung mit General Wolfskehl hatte, dem er seine Absicht mittheilte, Vorarlberg nach dem früher gegebenen Beispiele (in den Jahren 1799 und 1800) vertheidigen zu wollen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nachdem er das Nöthige wegen Aufstellung der Truppen daselbst angeordnet hatte, ging er denselben Tag — am 13. November — in Begleitung des Generals Wolfskehl nach Bregenz ab."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "bis die Vorposten die Ach-Brücke passirt und sich hinter Lauterach formirt hatten."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Einige Abtheilungen davon hatten die Richtung gegen Staufen genommen, andere waren gegen den Bregenzer-Wald abgezogen, offenbar in der Absicht die Stellung der Kaiserlichen bei Hohenems zu umgehen, und diese zwischen zwei Feuer zu bringen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Als Jellachich am 11. November früh in der Poststation Stuben am Fuße des Arlberg die Pferde wechselte, erhielt er ein Schreiben des Prinzen Rohan, in welchem dieser den vom Erzherzog Johann in Landeck erhaltenen Befehl mittheilte: „ohne Rücksicht auf die Ankunft der Truppen aus dem Vorarlbergischen in Eilmärschen nach Bozen abzurücken.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Dieser Bericht bestimmte den FML. Jellachich zur Beschleunigung seiner Weiterreise nach Landeck, wo er um 9 Uhr Vormittags eintraf, und den Prinzen bereits im Marsche gegen Bozen begriffen fand."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Augereau traversa le fleuve sur le pont de bateaux qui avait été précédemment établi pour assurer la communication du département du Haut-Rhin avec le Brisgaw, franchit les défilés de la forêt Noire, s'avança sur le lac de Constance, força les Autrichiens d'abandonner Lindau et Bregentz,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "et marcha ensuite vers Feldkirch, où se trouvait le gros des troupes aux ordres du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Bientôt cerné dans les positions qu'il occupait, et ne pouvant se retirer sur le Tyrol, dont il était coupé par le corps du maréchal Ney, qui s'était déjà avancé jusqu'à Brixen, comme on vient de le voir plus haut, le général autrichien ne crut pas devoir prendre d'autre parti que celui de solliciter une capitulation aux meilleures conditions possibles."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Wolfskehl asked leave to cut a way out through Swabia with the cavalry, since the retreat through the Tyrol would meet great difficulties for cavalry for lack of fodder; FML Hiller reported from Bozen that he awaited Jellachich's troops there and had already provided for their provisioning on the way. In Moriggl's OCR, Jellachich gave the difficulty of bringing the stores back over the Arlberg among his reasons for staying, and the Archduke wrote that Swiss neutrality and the stores there would make it easier for him to maintain himself on his own in the Vorarlberg. Mathieu's first offer would have let the corps leave with its arms and 8 guns; under the convention the officers kept their horses and baggage. The departing cavalry took 6 guns. In Victoires, Augereau's troops, coming from the coasts at Brest (OCR), reached their destination only toward the middle of October because of the long distance, and eight flags, a numerous artillery and considerable magazines fell into the power of the French.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images except where marked OCR). No ration, ammunition or artillery return was inspected, and the passages read do not give the number of Jellachich's guns at the capitulation. English renderings (ours): 'at the same time this general asked for permission, before it would be too late, to cut a way out through Swabia with the cavalry, since the retreat' (p. 434) 'through the Tyrol would meet great difficulties for cavalry for lack of fodder' (p. 435); 'almost at the same time came the notice of FML Hiller of 8 November from Bozen \"that he was awaiting the FML and his troops there, and that he had already provided for their provisioning on the way\"'; 'finally in the difficulties of bringing the stores of provisions back over the Arlberg' (OCR); 'with this resolve the neutrality of Switzerland and the supply there would make it easier for him to maintain himself on his own until circumstances had changed' (OCR); as in claim side-a-command for Mathieu's offer; as in claim bodart-winner for the officers' horses and baggage; as in claim moriggl-side-b for the 6 guns; Victoires, as in claim side-a-command for Brest; 'the long distance that these same troops' (p. 218, OCR) 'had had to cover allowed them to arrive at their destination only toward the middle of October, at the time when the Grande Armée was already manoeuvring around the fortress of Ulm' (p. 219); as in claim side-b-losses-reported for the flags, artillery and magazines.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Unter Einem erbat sich dieser General die Erlaubniß aus, bevor es zu spät sein würde, mit der Kavallerie sich einen Ausweg durch Schwaben bahnen zu dürfen, da der Rückzug"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "durch Tirol für Kavallerie wegen Mangel an Fourage großen Schwierigkeiten unterliegen dürfte."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Fast gleichzeitig kam die Anzeige des FML. Hiller vom 8. November aus Bozen, „daß er den FML. und dessen Truppen daselbst abwarte, und daß er für die Verpflegung derselben unterwegs schon gesorgt habe.“"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 431 (OCR page numbers; not checked against print)",
+          "quote": "endlich in den Schwierigfeiten die Naturalvorräthe über den Arlberg zurüd- zufhaffen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "Bei diefem Entjchluffe würde die Neutralität der Schweiz, und der dort vorhandene Vorrath ihm die Möglichkeit erleichtern, ſich jo lange ſelbſt— ftändig zu erhalten, bis die Verhältniſſe fic geändert hätten."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "zugleich auch einen Antrag des französischen Divisions-Generals Maurice Mathieu: „gegen Räumung Vorarlbergs dem ganzen österreichischen Korps freien Abzug mit Ober- und Untergewehr und 8 Kanonen unter der Bedingung zu gewähren, daß dasselbe sich verbindlich mache, ein halbes Jahr lang weder gegen Frankreich noch dessen Alliirten zu dienen.“"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Der abgeschlossenen Konvention zu Folge durfte die Mannschaft ein Jahr lang nicht gegen Frankreich dienen; die Offiziere durften Pferde und Gepäck behalten."
+        },
+        {
+          "source_id": "moriggl-1861-p438-figures-v1",
+          "section": "p438",
+          "locator": "Moriggl (1861), p. 438 (transcribed from the page image)",
+          "quote": "Ohne Erlaubniß des von ihnen ganz richtig beurtheilten Ober-Befehlshabers verließen die beiden Obersten, wie wir bereits wissen, am frühen Morgen des 13. November mit 10 Eskadrons ihrer Regimenter (Klenau Chevauxlegers und Blankenstein Husaren) und mit 6 Geschützen Bregenz."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-selections-v1",
+          "section": "vorarlberg",
+          "locator": "Victoires et conquêtes, t. XV, p. 218 (OCR running heads; not checked against print)",
+          "quote": "Napoléon avait confié au maréchal Augereau le comman- dement d’un corps formé des troupes, qui, à l’époque de la déclaration de guerre avec l’Autriche, étaient postées sur les côtes de Brest."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-selections-v1",
+          "section": "vorarlberg",
+          "locator": "Victoires et conquêtes, t. XV, p. 218 (OCR running heads; not checked against print)",
+          "quote": "La longue distance que ces mêmes troupes"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "avaient eue à parcourir ne leur permit d'arriver à leur destination que vers le milieu d'octobre, époque où la grande armée manœuvrait déjà autour de la place d'Ulm."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Huit drapeaux, une artillerie nombreuse et des magasins considérables tombèrent ainsi au pouvoir des Français."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Moriggl's OCR, Jellachich had told the Archduke that by sure news no enemy stood against him and nothing was to be feared from Switzerland, and a courier came back with the news that the enemy had established himself at Innsbruck and Rohan was moving to Landeck. Shortly before Jellachich left for Landeck, Wolfskehl reported an enemy corps of about 9000 men advancing by Stockach along Lake Constance against the Vorarlberg. On 5 November Jellachich was informed of the French entry into Innsbruck and the Archduke's retreat; at Stuben on 11 November Rohan's letter told him of the Archduke's order to march by forced marches to Bozen without regard to the troops from the Vorarlberg; early on 13 November the news came that the colonels Kinsky and Wartensleben had left with the cavalry; near Bregenz toward noon he heard heavy skirmishing, and reports came in that the enemy was attacking and pushing back the outposts; late that evening Wolfskehl brought news of the French entry into Bregenz; and on the 14th he received news that Rohan had left Landeck for Bozen, which increased the danger to the Vorarlberg from the side of the Tyrol should an enemy detachment move from Innsbruck into the upper Inn valley, as Marcognet's brigade soon did, and he hurried to Dornbirn to capitulate before the enemy learned of it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Moriggl gives it (page images except where marked OCR). Moriggl calls the view from which Jellachich regarded the situation fundamentally wrong (OCR), a judgment. The passages read do not say when Wolfskehl's report was written or what it rested on (claim wolfskehl-report). English renderings (ours): 'he found the grounds for it in the sure news that had come to him that no enemy stood against him, that nothing was to be feared from Switzerland' (OCR); 'the view from which FML Jellachich regarded the state of things, which was, however, fundamentally wrong' (OCR); 'the courier came back with the news that the enemy had established himself at Innsbruck and Rohan was moving to Landeck' (OCR); as in claim wolfskehl-report; as in claim side-b-command for the news of 5 November, of the cavalry's departure and of Rohan's departure from Landeck, and for the reports; as in claim side-b-objectives for Rohan's letter; 'it was toward noon when both came near the said town and already at a considerable distance heard heavy skirmishing'; as in claim side-a-command for Wolfskehl's news and Jellachich's journey to Dornbirn; 'thereby the danger to the Vorarlberg, and to the position of his corps in that country, now grew from the side of the Tyrol as well, in case an enemy detachment should set out from Innsbruck against the upper Inn valley, which actually happened, as the French General Marcognet soon afterwards entered Landeck with his brigade'.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 431 (OCR page numbers; not checked against print)",
+          "quote": "Die Beweggründe dazu fand er in dem ihm zu Theil gewordenen fihern Nachrichten, daß Fein Feind gegen ihn ftehe, daß von der Schweiz her nichts zu beforgen ſei,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 432 (OCR page numbers; not checked against print)",
+          "quote": "Un der Anfiht, aus welcher der FMEL. Jellachich die Lage der Dinge betrachtete, die aber grundfalſch war,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "kam der Kurier mit der Nachricht zurück; daß der Feind bei Innsbruck ſich feſtgeſetzt, und Rohan nach Landeck ziehe."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "Nun verfügte ſich Jellachich ſelbſt nach Landeck,"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Kurz vor seiner Abreise war ein Bericht des Generals Wolfskehl aus Bregenz eingelaufen des Inhalts: „ein beiläufig 9000 Mann starkes feindliches Korps rücke über Stockach dem Bodensee entlang gegen Vorarlberg vor.“"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Am 5. November befand sich Jellachich in Hohenems, von wo aus er einen Theil seiner Truppen wirklich zum Rückmarsch gegen den Arlberg beorderte;"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "aber bald darauf vom Einrücken der Franzosen in Innsbruck und vom Rückzug des Erzherzogs in Kenntniß gesetzt, stellte er die bereits begonnene Bewegung wieder ein, und ordnete den Rückzug in der Stellung von Hohenems an, wo nun Verschanzungen angelegt wurden."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Als Jellachich am 11. November früh in der Poststation Stuben am Fuße des Arlberg die Pferde wechselte, erhielt er ein Schreiben des Prinzen Rohan, in welchem dieser den vom Erzherzog Johann in Landeck erhaltenen Befehl mittheilte: „ohne Rücksicht auf die Ankunft der Truppen aus dem Vorarlbergischen in Eilmärschen nach Bozen abzurücken.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nun lief aber am 13. November in aller Frühe die Nachricht ein, daß die beiden Obersten Kinsky und Wartensleben mit der Kavallerie abgezogen seien, Willens, sich nach Böhmen durchzuschlagen;"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Es war gegen Mittag, als Beide in die Nähe der benannten Stadt kamen und schon in einer ziemlichen Entfernung ein heftiges Plänkeln vernahmen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Bald darauf liefen die Rapporte ein, daß der Feind die kaiserlichen Vorposten angreife und zurückdrücke."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Wolfskehl traf spät Abends in Hohenems ein, und brachte die Nachricht vom Einrücken der benannten französischen Truppen-Abtheilungen,"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Inzwischen erhielt FML. Jellachich auch noch die Nachricht, daß Prinz Rohan Landeck bereits schon verlassen und im vollen Marsche nach Bozen begriffen sei;"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "dadurch vermehrte sich nun auch noch von Seite Tirols die Gefahr für Vorarlberg und für die Stellung seines Korps in diesem Lande, falls eine feindliche Abtheilung von Innsbruck gegen das Oberinnthal sich in Bewegung setzen sollte, was auch wirklich geschah, indem der französische General Marcognet bald darauf mit seiner Brigade in Landeck einrückte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "Jellachich eilte nun selbst in's feindliche Hauptquartier nach Dornbirn, um eine günstige Kapitulation zu Stande zu bringen, ehe der Feind diese neue Verlegenheit erfahre;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read says what side A knew of side B's position or strength, or of Rohan's departure from Landeck. Moriggl's statement that Jellachich hurried to capitulate before the enemy learned of it is side B's expectation (claim side-b-information), and Victoires says Ney's corps had cut Jellachich off from the Tyrol (claim side-b-command) but not what Augereau knew of it. Unknown.",
+      "citations": []
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Marshal Augereau received the order to move, after crossing the Rhine, onto the Vorarlberg, to contain the Austrian corps of General Jellachich and even push it onto the Tyrol (Victoires). In Moriggl, Mathieu's first proposal asked for the evacuation of the Vorarlberg in return for the corps' free withdrawal, and on 14 November the French demanded unconditional surrender before agreeing to the corps' withdrawal to Bohemia after it had laid down its arms.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as the accounts give them, read from the page images. Augereau's aim was set by an order from above, so the claim is tagged inherited; the terms offered and demanded were the French commanders' own decisions at the engagement (claim side-a-command). Moriggl reads the detachments sent toward Staufen and the Bregenzerwald as meant to turn the Hohenems position and bring its defenders between two fires (claim moriggl-side-a). English renderings (ours): Victoires, 'Marshal Augereau then received the order to move, after crossing the Rhine, onto the Vorarlberg, in order to contain and even push onto the Tyrol the Austrian corps of General Jellachich'; Moriggl, as in claim side-a-command for the offer, Wolfskehl's journey on the 14th, the demand and the agreement; as in claim moriggl-side-a for the detachments.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Le maréchal Augereau reçut alors l'ordre de se porter, après avoir passé le Rhin, sur le Voralberg, à l'effet de contenir et de pousser même sur le Tyrol le corps autrichien du général Jellachich."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "zugleich auch einen Antrag des französischen Divisions-Generals Maurice Mathieu: „gegen Räumung Vorarlbergs dem ganzen österreichischen Korps freien Abzug mit Ober- und Untergewehr und 8 Kanonen unter der Bedingung zu gewähren, daß dasselbe sich verbindlich mache, ein halbes Jahr lang weder gegen Frankreich noch dessen Alliirten zu dienen.“"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "allein die Vortheile der Franzosen hatten sich schon so vermehrt, daß sie unbedingte Ergebung forderten;"
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Einige Abtheilungen davon hatten die Richtung gegen Staufen genommen, andere waren gegen den Bregenzer-Wald abgezogen, offenbar in der Absicht die Stellung der Kaiserlichen bei Hohenems zu umgehen, und diese zwischen zwei Feuer zu bringen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's task was set from above and changed. In Moriggl's OCR the Archduke ordered Jellachich to draw in his posts in Swabia, move the stores to Landeck and follow with his corps; then, in a precise order, to lead the rest of his troops by Immenstadt to Reutte, where Prince Rohan was awaiting him; after Scharnitz was summoned, to try to reach Innsbruck by Reutte with the greater part of his troops; and then wrote that he would probably not find the road through the Vintschgau free either, solely because he had not followed the orders so often received, and that it would now be most expedient for him to take position in the Vorarlberg and at the same time occupy the Arlberg. At Stuben on 11 November Rohan passed on the Archduke's order to march off by forced marches to Bozen without regard to the arrival of the troops from the Vorarlberg, and Jellachich's conference with Rohan agreed that those troops should follow Rohan without delay; FML Hiller awaited them at Bozen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as Moriggl gives them (page images except where marked OCR). The orders came from the Archduke and through Rohan, so the claim is tagged inherited. Jellachich's own intentions, to defend the Vorarlberg as in 1799 and 1800 and on 13 November to bring his troops in order into the Hohenems position rather than hold Bregenz, were his decisions and are recorded in claim side-b-command; in the OCR he had also declared he would stay in his position at Hohenems until he could join the Archduke and in the worst case take the road through Swabia to Bohemia. English renderings (ours): as in claim side-b-command for the first order; 'the Archduke therefore gave FML Jellachich the precise, wholly definite order:' (OCR); 'but to lead all the other troops by Immenstadt to Reutte, where Prince Rohan was only awaiting his arrival in order to be able to leave from there' (OCR); 'after the summons of Scharnitz the sharpened order was sent once more to FML Jellachich on ... (OCR) November in the evening' (OCR); 'that he should, without any other consideration, try to reach Innsbruck by Reutte with the greatest part of his troops' (OCR); 'probably would not find the road through the Vintschgau free either' (p. 433, OCR) 'and this solely because he had not followed the orders so often received' (p. 434, OCR); 'the Archduke added that it would now probably be the most expedient thing for him to take position in the Vorarlberg and at the same time occupy the Arlberg' (OCR); Moriggl, 'when Jellachich was changing horses early on 11 November at the post station of Stuben at the foot of the Arlberg, he received a letter of Prince Rohan in which the latter passed on the order received from Archduke John at Landeck: \"to march off by forced marches to Bozen without regard to the arrival of the troops from the Vorarlberg\"'; as in claim side-b-command for the agreement at Landeck, his intention and Bregenz; as in claim means-and-supply for Hiller's notice; 'he intended to remain in his position at Hohenems until he had gained the conviction of a possibility of joining the Archduke. In the worst case he intended to take the road through Swabia to Bohemia' (OCR).",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 431 (OCR page numbers; not checked against print)",
+          "quote": "Bier ereilte ihn der Befehl des Erzherzogs vom 26. Dftober dahin lautend: alle Poſten in Schwaben ſchnell einzuziehen, die Borräthe fogleih nah Landeck zu Schaffen, dann. unverzüglich mit feinem Korps dahin zu folgen."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 432 (OCR page numbers; not checked against print)",
+          "quote": "Der Erzherzog ertheilte demnach dem FMðV. Iellachich den gemeffenen, ganz beftimmten Befehl:"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 432 (OCR page numbers; not checked against print)",
+          "quote": "alle übrigen Truppen aber über Immenjtadt nad Reutte zu führen, wo Prinz Nohan, um von dort abgehen zu können, nur feine Ankunft abwarte."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 433 (OCR page numbers; not checked against print)",
+          "quote": "Nach der Aufforderung der Scharnig wurde am 3. November Abends dem FUEL. Jellachich neuerdings der gefchärfte Befehl zu- geihict,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 433 (OCR page numbers; not checked against print)",
+          "quote": "dag er ohne alle andere Rückſicht trachten follte, mit dem größten Theile feiner Truppen über Reutte Innsbrud zu erreichen,"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 433 (OCR page numbers; not checked against print)",
+          "quote": "wohl auch den Weg durch's Vintſchgau nicht frei"
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "und dieß lediglich nur darum, weil er die ſo oft erhaltenen Befehle nicht befolgt Habe."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "Der Erzherzog fügte hinzu, daß ed num wohl für ihn das Zmeddienlichite fein werde, ſich in Vorarlberg aufzuftellen, und zugleich den Arlberg zu befegen."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Als Jellachich am 11. November früh in der Poststation Stuben am Fuße des Arlberg die Pferde wechselte, erhielt er ein Schreiben des Prinzen Rohan, in welchem dieser den vom Erzherzog Johann in Landeck erhaltenen Befehl mittheilte: „ohne Rücksicht auf die Ankunft der Truppen aus dem Vorarlbergischen in Eilmärschen nach Bozen abzurücken.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Der Erfolg der gepflogenen Unterredung war, „daß Rohan seine Marschrichtung nach Bozen fortsetzen und die Truppen aus dem Vorarlbergischen ihm ohne Verzug folgen sollten.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Fast gleichzeitig kam die Anzeige des FML. Hiller vom 8. November aus Bozen, „daß er den FML. und dessen Truppen daselbst abwarte, und daß er für die Verpflegung derselben unterwegs schon gesorgt habe.“"
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Am 12. war Jellachich wieder in Feldkirch eingetroffen, wo er während der Nacht auf den 13. eine Unterredung mit General Wolfskehl hatte, dem er seine Absicht mittheilte, Vorarlberg nach dem früher gegebenen Beispiele (in den Jahren 1799 und 1800) vertheidigen zu wollen."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Da es nicht in seiner Absicht lag, Bregenz zu halten, wohl aber die Truppen in Ruhe und Ordnung in die Stellung von Hohenems zu bringen, trug Jellachich dem General Wolfskehl auf, zur Schonung der Stadt gegen Uebergabe derselben eine Waffenruhe bis sechs Uhr Abends zu unterhandeln."
+        },
+        {
+          "source_id": "moriggl-1861-selections-v1",
+          "section": "vorarlberg-capitulation",
+          "locator": "Moriggl (1861), p. 434 (OCR page numbers; not checked against print)",
+          "quote": "er ges denke jo lang in feiner Stellung bei Hohenems zu verbleiben, bis er die Ueberzeugung erhalten hätte von einer Möglichkeit, fih an den Erzherzog anzuſchließen. Im ſchlimmſten Falle gedächte er den Weg durh Schwaben nad Böhmen zu nehmen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. In Moriggl, on 13 November the enemy attacked and pushed back the imperial outposts near Bregenz, and on the 14th French troops marched toward the Hohenems position, some detachments toward Staufen and the Bregenzerwald, and threw the Austrian outposts at Dornbirn out of the village and over the Dornbirner Ach, until Wolfskehl had the firing stopped; side B then capitulated. In Victoires, Augereau forced the Austrians to abandon Lindau and Bregenz and marched toward Feldkirch, and the Austrian general, soon surrounded, asked for a capitulation.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Both accounts have side A advance on and surround side B, which capitulated without a battle; side B did not attack, so the code is A_attacked, and as the accounts agree it is one claim. Victoires says Augereau received the order to move onto the Vorarlberg to contain Jellachich's corps and push it onto the Tyrol (claim side-a-objectives). No passage read shows Augereau or Mathieu deciding at this engagement to attack: Moriggl names no commander for the attacks on the outposts or the turning detachments, and Augereau reached Bregenz only at noon on the 14th. So the posture is tagged inherited. English renderings (ours): as in claims side-a-command, moriggl-side-a, side-b-command and side-a-objectives.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Nachdem er das Nöthige wegen Aufstellung der Truppen daselbst angeordnet hatte, ging er denselben Tag — am 13. November — in Begleitung des Generals Wolfskehl nach Bregenz ab."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "Bald darauf liefen die Rapporte ein, daß der Feind die kaiserlichen Vorposten angreife und zurückdrücke."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Am 14. November Vormittags um 11 Uhr zog die französische Division Desjardins, aus den Brigaden Lapisse und Lamarque bestehend, mit türkischer Musik in Bregenz ein, hielt sich aber in der Stadt nicht auf, sondern folgte gleich auf dem Fuß den übrigen Truppen, die bereits gegen Hohenems abgerückt waren."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Einige Abtheilungen davon hatten die Richtung gegen Staufen genommen, andere waren gegen den Bregenzer-Wald abgezogen, offenbar in der Absicht die Stellung der Kaiserlichen bei Hohenems zu umgehen, und diese zwischen zwei Feuer zu bringen."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "General Wolfskehl ließ nun das Feuer einstellen, und wartete hier die Ankunft des französischen Divisions-Generals Mathieu ab."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "jedoch willigte General Mathieu endlich ein, daß das österreichische Korps, aus 3 Generalen, 160 Offizieren und 3895 Mann bestehend, nach Böhmen abziehen durfte, nachdem es vorher die Waffen gestreckt hatte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Mittags um 12 Uhr traf der Kommandant des VII. Armee-Korps, Marschall Augernau, über Lindau kommend in Bregenz ein, und über Wangen her fast zu gleicher Zeit der General der Artillerie Dorfner."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Le maréchal Augereau reçut alors l'ordre de se porter, après avoir passé le Rhin, sur le Voralberg, à l'effet de contenir et de pousser même sur le Tyrol le corps autrichien du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Augereau traversa le fleuve sur le pont de bateaux qui avait été précédemment établi pour assurer la communication du département du Haut-Rhin avec le Brisgaw, franchit les défilés de la forêt Noire, s'avança sur le lac de Constance, força les Autrichiens d'abandonner Lindau et Bregentz,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "et marcha ensuite vers Feldkirch, où se trouvait le gros des troupes aux ordres du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Bientôt cerné dans les positions qu'il occupait, et ne pouvant se retirer sur le Tyrol, dont il était coupé par le corps du maréchal Ney, qui s'était déjà avancé jusqu'à Brixen, comme on vient de le voir plus haut, le général autrichien ne crut pas devoir prendre d'autre parti que celui de solliciter une capitulation aux meilleures conditions possibles."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification-moriggl",
+      "dimension": "fortification",
+      "value": "In Moriggl, side B's main body stood in the position of Hohenems, into which Jellachich ordered the retreat on 5 November and where entrenchments were then built; Moriggl writes that Jellachich seems to have counted too much on this strong position, which could, however, easily be turned on the right side. His outposts were thrown out of the village of Dornbirn.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code B_fortified because a cited passage names entrenchments at the position side B held when it capitulated. The passages read describe no assault on them: French detachments moved to turn the position and the corps capitulated. No works are named where the outposts fought, near Bregenz and in the village of Dornbirn. The phase is left unresolved: the passages say entrenchments were built after Jellachich ordered the retreat into the position on 5 November, not on whose order or that they were built for this engagement. Side A fought from no works. English renderings (ours): as in claim side-b-command for the retreat into the Hohenems position, the strong position and the return of his men to it; as in claim moriggl-side-a for the turning detachments; as in claim side-a-command for the outposts at Dornbirn.",
+      "citations": [
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "Am 5. November befand sich Jellachich in Hohenems, von wo aus er einen Theil seiner Truppen wirklich zum Rückmarsch gegen den Arlberg beorderte;"
+        },
+        {
+          "source_id": "moriggl-1861-p434-figures-v1",
+          "section": "p434",
+          "locator": "Moriggl (1861), p. 434 (transcribed from the page image)",
+          "quote": "aber bald darauf vom Einrücken der Franzosen in Innsbruck und vom Rückzug des Erzherzogs in Kenntniß gesetzt, stellte er die bereits begonnene Bewegung wieder ein, und ordnete den Rückzug in der Stellung von Hohenems an, wo nun Verschanzungen angelegt wurden."
+        },
+        {
+          "source_id": "moriggl-1861-p435-figures-v1",
+          "section": "p435",
+          "locator": "Moriggl (1861), p. 435 (transcribed from the page image)",
+          "quote": "allein diese Nachricht, so untröstlich sie auch war, brachte bei Jellachich in der Wahl seines Entschlusses keine Aenderung hervor; er scheint zu sehr auf die starke Stellung bei Hohenems gerechnet zu haben, die aber auf der rechten Seite leicht umgangen werden konnte."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Jellachich erlangte durch diesen Waffenstillstand wenigstens den Vortheil, seine Leute, vom Feinde unverfolgt in die Stellung von Hohenems zurückführen zu können."
+        },
+        {
+          "source_id": "moriggl-1861-p436-figures-v1",
+          "section": "p436",
+          "locator": "Moriggl (1861), p. 436 (transcribed from the page image)",
+          "quote": "Einige Abtheilungen davon hatten die Richtung gegen Staufen genommen, andere waren gegen den Bregenzer-Wald abgezogen, offenbar in der Absicht die Stellung der Kaiserlichen bei Hohenems zu umgehen, und diese zwischen zwei Feuer zu bringen."
+        },
+        {
+          "source_id": "moriggl-1861-p437-figures-v1",
+          "section": "p437",
+          "locator": "Moriggl (1861), p. 437 (transcribed from the page image)",
+          "quote": "In Folge dessen wurde General Wolfskehl mit der nöthigen Vollmacht versehen; dieser ging am 14. in das feindliche Hauptquartier ab, stieß aber schon bei Dornbirn auf den Feind, welcher die dort aufgestellten österreichischen Vorposten bereits aus dem Dorfe und über die Dornbirner-Ach geworfen hatte."
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "fortification-victoires",
+      "dimension": "fortification",
+      "value": "Victoires places the bulk of Jellachich's troops at Feldkirch, soon surrounded in the positions they held, and has Augereau force the Austrians to abandon Lindau and Bregenz. It names no works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; Moriggl, coded separately, names entrenchments at Hohenems (claim fortification-moriggl). English renderings (ours): as in claims victoires-side-b, side-a-command and side-b-command.",
+      "citations": [
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Augereau traversa le fleuve sur le pont de bateaux qui avait été précédemment établi pour assurer la communication du département du Haut-Rhin avec le Brisgaw, franchit les défilés de la forêt Noire, s'avança sur le lac de Constance, força les Autrichiens d'abandonner Lindau et Bregentz,"
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "et marcha ensuite vers Feldkirch, où se trouvait le gros des troupes aux ordres du général Jellachich."
+        },
+        {
+          "source_id": "victoires-conquetes-t15-p219-figures-v1",
+          "section": "p219",
+          "locator": "Victoires et conquêtes, t. XV, p. 219 (transcribed from the page image)",
+          "quote": "Bientôt cerné dans les positions qu'il occupait, et ne pouvant se retirer sur le Tyrol, dont il était coupé par le corps du maréchal Ney, qui s'était déjà avancé jusqu'à Brixen, comme on vient de le voir plus haut, le général autrichien ne crut pas devoir prendre d'autre parti que celui de solliciter une capitulation aux meilleures conditions possibles."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Moriggl's OCR text before p. 434, read in full in the selection and cited only where marked OCR (Jellachich's position in Swabia after Ulm, his reconnaissance there, his reports to the Archduke and the Archduke's orders); his quotation of a military writer on obedience (p. 437, OCR), not cited; the text of the convention, of which Moriggl quotes only article 5; any report of Augereau or Mathieu, the bulletins of the Grande Armée and the record of Jellachich's court martial, none of which the passages read cite; and Victoires's account of Ney's corps closing the Tyrol to Jellachich (p. 218, OCR), not cited because p. 219 says the same from the page image; the rest of Moriggl's order of battle (pp. 89-94: the other corps, the cavalry reserve, the Guard, the recapitulation, which repeats the VII Corps' total, and the troops that arrived later), read from the page images except p. 91, read in the OCR, and not cited; and Moriggl's other name for the event: a footnote on p. 394, the summary of the chapter that begins on p. 396 and the table of contents (OCR) call it the capitulation of Hohenems, while his footnote on p. 437 calls it the capitulation of Dornbirn, read and not cited since no claim turns on the name. Figures seen only in the OCR and not restated in values: the dates of the Archduke's orders, of Jellachich's reports, of his stays at Feldkirch and of the courier's return; the number of Beaulieu battalions Jellachich proposed to send to Landeck; the regiment and squadrons the Archduke ordered to Innsbruck; the page numbers of the parent, read from the OCR except where a page image is cited.",
+    "Most consequential gap: side A's strength at Dornbirn. The targeted follow-up, Moriggl's order of battle of the Grande Armée at its crossing of the Rhine (pp. 89, 92 and 93, transcribed from the page images), gives Augereau's corps 16 battalions, 4 squadrons and 14,907 men, which Bodart's 16 battalions, 4 squadrons and 15,000 men match (claim moriggl-order-of-battle). That narrows the gap without closing it: the table is the corps at the crossing, Moriggl's narrative names only the divisions of Mathieu and Desjardins at Bregenz and quotes Wolfskehl's report of about 9000 men, and Victoires gives no figure. A return of Augereau's corps for mid-November or a report of Augereau or Mathieu, none of which the passages read cite, could close it. The detachment that escaped is uncertain too: Victoires gives about three thousand five hundred men, fifteen hundred of them cavalry; Moriggl gives 12 squadrons and 6 guns but no number of men.",
+    "Disputes recorded in the claims: side A's strength (Bodart 15,000, matching the 14,907 of Moriggl's order of battle at the Rhine crossing; Wolfskehl's report about 9000); the detachment that escaped (Victoires about three thousand five hundred men under General Wartensleben, fifteen hundred of them cavalry; Moriggl 12 of the 13 squadrons and 6 guns under the colonels Kinsky and Wartensleben); where side B's main body stood (Victoires Feldkirch, Moriggl Hohenems); the terms (Bodart free withdrawal to Bohemia against a year's service; Moriggl withdrawal after laying down arms, a year's service, the officers keeping horses and baggage; Victoires prisoners of war on parole after laying down their arms); the works (Moriggl names entrenchments at Hohenems, Victoires none). Side B's strength agrees closely: Bodart 9 battalions, 4,000 men; Moriggl 3 generals, 160 officers and 3895 men.",
+    "Families and dependence: Bodart (a compilation; his side A strength matches Moriggl's order of battle at the Rhine crossing, though the passages read do not show whether he drew on it or on a common source, his side B strength is not in the passages read, and his one year matches Moriggl's); Moriggl (the Austrian and Tyrolean account of 1861, an interested one; for the Vorarlberg and for his order of battle he names no source in the passages read, and he quotes Wolfskehl's report, Hiller's notice, Rohan's letter, the agreement at Landeck, Mathieu's offer and article 5 of the capitulation, none inspected as originals); Victoires et conquêtes (the French compilation of 1819, an interested one, which names no sources in the passages read and may draw on the bulletins, not checked)."
+  ]
 }
 ```
 
@@ -15662,3 +18733,55 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `angeli-1897-bd3-p183-figures-v1`: M. Edler von Angeli, Erzherzog Carl von Österreich als Feldherr und Heeresorganisator, III. Band (Erzherzog Carl im Kriege von 1805 gegen Frankreich); group `angeli-erzherzog-carl-1897`; data/raw/napoleonic-third-coalition-1805-v1/angeli-1897-bd3-p183-figures.txt
 - `koch-massena-t5-selections-v1`: Koch, Mémoires de Masséna, rédigés d'après les documents qu'il a laissés et sur ceux du dépôt de la guerre et du dépôt des fortifications, tome V (campaigns of 1805 in Italy, 1806 in Naples and 1807); group `koch-memoires-massena`; data/raw/napoleonic-third-coalition-1805-v1/koch-massena-t5-selections.txt
 - `angeli-1897-bd3-selections-v1`: M. Edler von Angeli, Erzherzog Carl von Österreich als Feldherr und Heeresorganisator, III. Band (Erzherzog Carl im Kriege von 1805 gegen Frankreich); group `angeli-erzherzog-carl-1897`; data/raw/napoleonic-third-coalition-1805-v1/angeli-1897-bd3-selections.txt
+- `moriggl-1861-ocr-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-djvu.txt
+- `victoires-conquetes-t15-ocr-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-djvu.txt
+- `moriggl-1861-selections-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-selections.txt
+- `victoires-conquetes-t15-selections-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-selections.txt
+- `moriggl-1861-p300-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p300.jpg
+- `moriggl-1861-p300-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p300-figures.txt
+- `moriggl-1861-p330-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p330.jpg
+- `moriggl-1861-p330-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p330-figures.txt
+- `moriggl-1861-p331-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p331.jpg
+- `moriggl-1861-p331-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p331-figures.txt
+- `moriggl-1861-p334-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p334.jpg
+- `moriggl-1861-p334-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p334-figures.txt
+- `moriggl-1861-p335-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p335.jpg
+- `moriggl-1861-p335-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p335-figures.txt
+- `moriggl-1861-p336-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p336.jpg
+- `moriggl-1861-p336-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p336-figures.txt
+- `moriggl-1861-p339-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p339.jpg
+- `moriggl-1861-p339-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p339-figures.txt
+- `moriggl-1861-p340-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p340.jpg
+- `moriggl-1861-p340-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p340-figures.txt
+- `moriggl-1861-p347-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p347.jpg
+- `moriggl-1861-p347-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p347-figures.txt
+- `moriggl-1861-p348-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p348.jpg
+- `moriggl-1861-p348-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p348-figures.txt
+- `moriggl-1861-p363-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p363.jpg
+- `moriggl-1861-p363-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p363-figures.txt
+- `moriggl-1861-p364-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p364.jpg
+- `moriggl-1861-p364-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p364-figures.txt
+- `moriggl-1861-p365-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p365.jpg
+- `moriggl-1861-p365-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p365-figures.txt
+- `moriggl-1861-p434-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p434.jpg
+- `moriggl-1861-p434-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p434-figures.txt
+- `moriggl-1861-p435-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p435.jpg
+- `moriggl-1861-p435-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p435-figures.txt
+- `moriggl-1861-p436-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p436.jpg
+- `moriggl-1861-p436-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p436-figures.txt
+- `moriggl-1861-p437-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p437.jpg
+- `moriggl-1861-p437-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p437-figures.txt
+- `moriggl-1861-p438-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p438.jpg
+- `moriggl-1861-p438-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p438-figures.txt
+- `victoires-conquetes-t15-p215-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p215.jpg
+- `victoires-conquetes-t15-p215-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p215-figures.txt
+- `victoires-conquetes-t15-p216-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p216.jpg
+- `victoires-conquetes-t15-p216-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p216-figures.txt
+- `victoires-conquetes-t15-p219-image-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p219.jpg
+- `victoires-conquetes-t15-p219-figures-v1`: Victoires, conquêtes, désastres, revers et guerres civiles des Français, de 1792 à 1815, par une société de militaires et de gens de lettres, tome quinzième; group `victoires-conquetes-1817`; data/raw/napoleonic-third-coalition-1805-v1/victoires-conquetes-t15-p219-figures.txt
+- `moriggl-1861-p89-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p89.jpg
+- `moriggl-1861-p89-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p89-figures.txt
+- `moriggl-1861-p92-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p92.jpg
+- `moriggl-1861-p92-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p92-figures.txt
+- `moriggl-1861-p93-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p93.jpg
+- `moriggl-1861-p93-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p93-figures.txt
