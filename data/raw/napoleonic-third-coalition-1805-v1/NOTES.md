@@ -65,6 +65,24 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   recapitulation on p. 94) gives every corps by division. Pp. 89, 92 and 93 are registered; the other
   pages can be registered if a later entry needs them. Its date is the crossing, not the engagement.
 - Another Moriggl item (bub_gb_8HpBAAAAcAAJ), whose OCR has none of the engagement names, was not used.
+- Batch 1e offsets, checked on the images: Alombert and Colin t. IV
+  (alombert-la-campagne-de-1805-en-allemagne-v-4) n = printed + 15 (pp. 125-166 and 650-770); Schönhals
+  (derkriegindeuts00schgoog) n = printed + 4 (pp. 127-137). The IA serves t. IV's images at 794 x 1123
+  pixels and Schönhals's at 804 x 1292, so `sips -Z 1600` enlarges both.
+- t. IV's OCR misreads figures often, above all 1 as 4 and 5 or 6 as 8. On p. 166 it reads '488' for 155,
+  '403' for 103, '1,309' for 1,300, '85' for 65, '104' for 101, '4,600 à 4,700' for 1,600 à 1,700 and
+  '020' for 920; on p. 769 it reads the officers' total as '1x6', whose first digit is indistinct on the
+  image and is read as 4 from the column sum (426). The print's 1 has a flag and no cross-stroke. Never
+  take a t. IV figure from the OCR.
+- Regiment numbers are ordinals. In a value or an OCR rendering they stand only where a page image cited
+  in the same claim prints them (p. 166 for the 4e léger, the 100e, the 103e and the 4e dragons; p. 769 for
+  the 9e léger, the 32e, the 96e and the 1er hussards); elsewhere they are generalised or elided as
+  '... (OCR)'. Archive call numbers such as XI-46 and XIII-61 are identifiers, not figures. Words in
+  square brackets in a rendering paraphrase the context and carry no OCR figure.
+- Schönhals's OCR page numbers are often garbled ('1*5' for 145); the page of a quote comes from the page
+  numbers mapped against the Google watermarks and is confirmed on the image where a figure matters.
+- t. IV's p. 770, viewed and not registered, is the 7th corps' approximate return of 4 brumaire an XIV
+  (26 October), dated at Fribourg. It bears on side A's strength at Dornbirn (B368d); see the research log.
 
 ## Status
 
@@ -83,5 +101,9 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   Bodart, Moriggl (1861) and Victoires et conquêtes (t. XV, 1819); primary-verified. 52 records registered
   (the two OCR parents, two selections, 24 page images with figure transcriptions). Both entries' targeted
   follow-up, for side A's strength, used Moriggl's order of battle at the Rhine crossing.
-- Next: the Danube and Moravia entries (B368b Mariazell, B368c Dürnstein, B369a Ober-Hollabrunn, B369c
-  Austerlitz, B370a Steken; Alombert and Colin t. IV, Schönhals, Correspondance), then verify the group.
+- 2026-10-17, batch 1e: the Danube, Mariazell (B368b) and Dürnstein (B368c), drafted from Bodart,
+  Alombert and Colin (t. IV) and Schönhals (1873); primary-verified. 46 records registered (the two OCR
+  parents, two selections, 21 page images with figure transcriptions). The targeted follow-ups, for side
+  A's strength at both, searched t. IV's appendix of situations for returns of the 3rd and 6th corps.
+- Next: B369a Ober-Hollabrunn, B369c Austerlitz and B370a Steken (Schönhals, the Correspondance t. XI and
+  others still to be chosen), then verify the group.

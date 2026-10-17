@@ -735,6 +735,117 @@ primary-verified; no separate review was made.
   batch's; Schönhals, Alombert and Colin's t. IV and the *Correspondance* t. XI are still to be
   registered.
 
+## 1805 first pass, batch 1e (2026-10-17)
+
+The Danube engagements of `third-coalition 1805`, two entries:
+
+| Entry | Engagement | Date (1805) | Claims |
+| --- | --- | --- | --- |
+| B368b | Mariazell | 8 November | 20 |
+| B368c | Dürnstein | 11 November | 21 |
+
+The main session researched, drafted and verified them without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and two families ([source additions](source-additions.md)):
+  - Alombert and Colin's t. IV (1908), the French official history, of the family of tomes II and
+    III. The drafts use its narrative and the documents it prints: Davout's report of 9 November,
+    the 3rd corps' journal and two corps returns.
+  - Schönhals's *Der Krieg 1805 in Deutschland* (1873), the Austrian account written in 1831.
+
+  Both are interested accounts, and they are not fully independent. t. IV follows Schönhals on
+  Merveldt's march without citing him. For the evening at Dürrenstein, Schönhals follows the
+  Austrian relation that t. IV quotes. Schönhals also takes details from Kotzebue, whom t. IV
+  rejects for the fighting.
+  - 46 records were registered, including 21 page images. Every figure in a strength value or a
+    recorded loss is read from a page image: Bodart's, through the frame transcription, or one of
+    the 21. The drafts cite all 21 figure transcriptions; B368c also cites two of Moriggl's (pp. 89
+    and 92).
+  - t. IV's OCR misreads many figures, above all 1 as 4 (on p. 166, '488' for 155 and '4,600' for
+    1,600). Regiment numbers count as ordinals. They stand in a value or rendering only where a
+    page image cited in the same claim prints them.
+- **Drafts.** 41 claims with 520 citations. 40 are supported and one is unknown, side A's loss at
+  Mariazell; none is disputed. Every draft covers the nine dimensions.
+  - Phases: 13 unresolved, 11 inherited, 10 commander-created and 7 post-outcome.
+  - Posture: side A attacked at Mariazell. At Dürnstein the two accounts are coded separately. In
+    Alombert and Colin both sides attacked: Mortier drove Miloradovitch back to Stein, and Dupont
+    attacked Doktorow's column. In Schönhals only side B attacked. All three codes are tagged
+    commander-created.
+  - Fortification: at Mariazell, Schönhals has side B hold Schloss St. Sigmund (B_fortified,
+    inherited), and Alombert and Colin name no works (none_named, unresolved). No works are named
+    at Dürnstein (none_named, unresolved).
+- **Disputes kept visible.**
+  - Mariazell:
+    - Side A's strength: about 15,000 (Bodart). Davout's report and Schönhals have only Heudelet's
+      advanced guard engage, with no figure, and in Schönhals Merveldt admits no more than 200
+      horse.
+    - Side B's loss:
+      - 4,000, mostly prisoners, and 16 guns (Bodart);
+      - 400 dead, 600 wounded and 4,000 prisoners, 16 guns and 3 flags (Davout);
+      - about 4,000 prisoners, 18 guns, 2 flags and 80 vehicles, and 150 more prisoners (Alombert
+        and Colin);
+      - 2500 men in all, many of whom soon returned (Schönhals).
+    - St. Sigmund: a castle held by two companies (Schönhals) or a chapel (Alombert and Colin), and
+      with it the fortification code.
+    - Merveldt's rank: GM in Bodart, FML in Schönhals.
+  - Dürnstein:
+    - Side B's strength: 25,000 (Bodart); at least 16,000 assailing Gazan's division (Alombert
+      and Colin); 10,000 for the turning force (Kotzebue, through Schönhals).
+    - Side A's strength: 8,000 (Bodart). Alombert and Colin give 5,300 for Gazan's division and
+      no figure for Dupont's.
+    - Side A's loss:
+      - 6,600 with 1,600 prisoners (Bodart);
+      - about 1,600 to 1,700 with 1,100 to 1,200 prisoners (Alombert and Colin);
+      - 980 (the Austrian report XIII-61);
+      - 2000 prisoners besides many dead (Schönhals).
+    - Side B's loss: 4,000 killed and wounded (Bodart), or 920 (the Austrian report).
+    - Dupont's evening fight. In Alombert and Colin, Doktorow was forced to let Mortier pass and
+      Dupont's division bivouacked on the field. In Kotzebue, through Schönhals, the division
+      re-embarked for Rossatz.
+    - Also disputed: the 4e dragons' fate, the trophies, Gazan's escape, the hours of the turning
+      column and who set Loiben on fire.
+- **Gaps and the targeted follow-ups.** At both engagements the most consequential gap is side
+  A's strength.
+  - Mariazell: Bodart gives about 15,000, but only an advanced guard of unknown strength
+    engaged. The follow-up searched t. IV's appendix of situations for a return of the 3rd
+    corps. There is none among the particular situations (pp. 748–770). The list of the Grande
+    Armée at 6 brumaire (28 October), read from the page images of pp. 711, 723 and 724, gives
+    the 13e légère and the 108e 2 battalions each but no men. The gap is narrowed to the advanced
+    guard's composition, not closed.
+  - Dürnstein: no strength for Dupont's division. The follow-up read the 6th corps' return of 4
+    brumaire (p. 769), which records the division as detached with Murat and gives it no
+    figures. Moriggl's order of battle, already registered, gives it 7 battalions and 5350 men at
+    the Rhine crossing. The gap stays open.
+  - Sources that could close them, none read: a return of the 3rd or 6th corps for November,
+    Heudelet's detailed report, the journal of Dupont's division, or Alombert's book of 1897.
+- **A lead for the group check.** t. IV's p. 770 was viewed while searching the situations and
+  was not registered. It is the 7th corps' approximate return of 4 brumaire an XIV (26
+  October), dated at Fribourg and signed by Donzelot.
+  - As read from the image: 491 officers and 10,753 men present under arms, 11,244 in all, and a
+    total force of 12,606. The column sums check (our arithmetic).
+  - It bears on side A's strength at Dornbirn. B368d has Bodart's 15,000, Moriggl's 14,907 at the
+    Rhine crossing and about 9000 in Wolfskehl's report.
+  - It has not been added to B368d, whose first pass made its one follow-up.
+- **Verification.** The two drafts were checked as a campaign before release. The check:
+  - re-read in full every OCR section cited, and checked every page locator against the running
+    heads;
+  - removed OCR-only figures from values, among them dates and regiment numbers, and added the
+    page-image citations (pp. 166 and 769) that the values relied on;
+  - extended quotes that values went beyond;
+  - corrected two misreadings: the corps quarters at Dürrenstein were Mortier's, not Gazan's, and
+    the allies held their belief "for some time", not "long";
+  - fixed a capturing-group bug in the scratch check for OCR digits, which before this batch had
+    reported no digits; rerun on every committed draft of the group, it found nothing to
+    correct;
+  - completed the parents' inspection records from the session's commands. This corrected two
+    statements of what had been read: the rest of t. IV's 10 November section was read only
+    around keyword hits, and its 8 November section starts on p. 117.
+- **Usage.** About 2.3 million tokens of the session's budget, roughly 1.15 million an entry. The
+  figure includes registering two new families (46 records) and the two follow-ups through t.
+  IV's appendix. About 3.1 million remain. The group's three remaining entries (Ober-Hollabrunn,
+  Austerlitz and Steken) would need about 3.2 million at batch 1d's rate and about 3.5 million at
+  this batch's, more than remains, and Austerlitz may need more than an average entry.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

@@ -16239,6 +16239,1525 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B368b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's engagement at Mariazell (8 November 1805) in cohort v1's third-coalition 1805 group: the defeat of FML Count Merveldt's Austrian corps by the advanced guard of Marshal Davout's corps, from the surprise of Merveldt's column near Neuhaus to the rout below Mariazell and the pursuit toward Wegscheid. Merveldt's march from Steyer and Davout's march into the mountains are context, as are the retreat of Merveldt's remains to Graz and Fürstenfeld and the list of the Grande Armée at 6 brumaire. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) about 15,000 men under Marshal Davoust (Davout) and side B (Austrian) 7,000 men under GM Count Meerveldt (Merveldt). By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several, and the passages read do not show his basis. For side A, Davout's report and Schönhals have only the advanced guard under General Heudelet engage, and no passage read gives its strength (claim side-a-engaged); the passages read do not show whether Bodart's about 15,000 counts the whole of Davout's corps or the troops engaged. For side B, Davout's report gives Merveldt's corps as 6 battalions of grenadiers and 3 regiments of infantry (claim davout-side-b) and Schönhals gives 13 battalions and 6 squadrons leaving Steyer on 6 November, with no count of men (claim schoenhals-side-b); no passage read gives 7,000. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (about 15,000 men) under Marshal Davoust over the Austrians (7,000 men) under GM Count Meerveldt'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 15.000 M.) unter Marschall Davoust über die Österreicher (7.000 M.) unter GM. Gf. Meerveldt."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), the Austrian account's figures: Schönhals has Merveldt's corps camp at Steyer with 13 battalions and the 6 uhlan squadrons, while 6 battalions (2 Gyulai, 2 Peterwardein, 2 of the first Wallachian) and 6 hussar squadrons stayed at Gross-Ramming and Colonel Mariassy, with 6 battalions and 6 squadrons, took post at Steyer to defend the pass to Altenmarkt. 13 battalions and 6 squadrons left Steyer in two bodies late in the evening of the 6th for St. Georgen am Reith. At Lunz a battalion of grenadiers was posted on the road to Ipsitz and another on the road toward Gaming to cover the retreat. Merveldt reached Neuhaus at midnight with the head of the corps, the regiment Josef Colloredo and some grenadiers, only some hundreds of men; the greater part of the corps, overcome by fatigue, had broken up and stayed lying along the road. Schönhals calls the column caught in the defile below Mariazell six admittedly decimated battalions; that evening only two grenadier battalions, 200 men together, could be formed as a rearguard before Wegscheid. After the retreat the corps, including Khevenhüller's brigade, rose again to about 4000 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own side's account (Schönhals writes after Austrian sources), read from the page images except where marked OCR. He gives battalions and squadrons, not men, for the corps on the march, and no strength for the troops in the position at Mariazell. His about 4000 is the corps after its retreat, including Khevenhüller's brigade, which joined it at Graz after the engagement (OCR) and was not at Mariazell. The passages read do not say whether Mariassy's 6 battalions and 6 squadrons are those left at Gross-Ramming. Bodart's 7,000 (claim bodart-strength) is in none of the passages read. The corps was present before the engagement, so the claim is tagged inherited. English renderings (ours): 'in the afternoon the corps itself set out for Steyer, where it camped with 13 battalions and the 6 uhlan squadrons, of which a detachment occupied Waidhofen'; '6 battalions (2 Gyulai, 2 Peterwardein, 2 of the first Wallachian) and 6 hussar squadrons stayed behind at Gross-Ramming'; 'the defence of the pass to Altenmarkt was entrusted to Colonel Mariassy, who took post at Steyer with 6 battalions, 6 squadrons'; '13 battalions and 6 squadrons set out in two bodies on the 6th, which was a rest day, late in the evening from Steyer toward St. Georgen am Reith'; 'at Lunz a battalion' (p. 127) 'of grenadiers was posted on the road that leads from there to Ipsitz, and another on the road toward Gaming, which were to hold there until the whole corps had passed the mountain, after which they were to cover the retreat together with the rearguard, which General Schustek now had to take over' (p. 128); 'with the head of the corps, consisting of the regiment Josef Colloredo and some grenadiers, Merveldt marched off to Neuhaus and arrived there at midnight with only some hundreds of men'; 'the greater part of the corps, overcome by great fatigue, had broken up and stayed lying along the road'; as in claim side-b-command for the column of six decimated battalions; 'so that only two grenadier battalions, 200 men strong together, could be formed in the evening before Wegscheid as a rearguard under the command of General Devchich'; 'thereby the strength of the corps, including the brigade Khevenhüller, rose to about 4000 men'; 'therefore Merveldt withdrew that same evening to Graz' (OCR); 'here he united with the ... (OCR) battalions of Strassoldo and Lattermann under General Khevenhüller' (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Nachmittags brach das Corps selbst nach Steyer auf, wo es mit 13 Bataillonen und den 6 Uhlanen-Escadronen, von denen eine Abtheilung Waidhofen besetzte, lagerte."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "6 Bataillone (2 Gyulai, 2 Peterwardeiner, 2 vom ersten Wallachen) und 6 Huszaren-Escadronen blieben bei Gross-Ramming zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Die Vertheidigung des Passes nach Altenmarkt wurde dem Obersten Mariassy anvertraut, der mit 6 Bataillonen, 6 Escadronen sich bei Steyer aufstellte."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "13 Bataillone und 6 Escadronen brachen in zwei Abtheilungen am 6., wo Rasttag war, spät Abends von Steyer gegen St. Georgen am Reith auf."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Bei Lunz ward ein Bataillon"
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Grenadiere auf der Strasse, die von da nach Ipsitz führt, und ein anderes auf der Strasse gegen Gaming aufgestellt, die dort so lange halten sollten, bis das ganze Corps den Berg passirt habe, wonach sie mit der Nachhut, die von jetzt an General Schustek übernehmen musste, vereint den Rückzug decken sollte."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Mit der Spitze des Corps, bestehend aus dem Regimente Josef Colloredo und einigen Grenadieren, marschirte Merveldt nach Neuhaus ab und traf daselbst nur mit einigen Hundert Mann um Mitternacht ein."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Der grösste Theil des Corps hatte sich, von der grossen Ermüdung überwältigt, aufgelöst und war an der Strasse liegen geblieben."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Wenn die Vorwürfe, die der General Merveldt den Truppen machte, allerdings nicht unbegründet sind; wenn es wahr ist, dass 30 feindliche Cavalleristen hinreichten, eine Colonne von sechs allerdings decimirten Bataillonen in Unordnung zu bringen und den grössten Theil derselben gefangen zu nehmen, so hieng es aber auch allein von ihm ab, der Ehre der österreichischen Vorposten und sich selbst diesen Schimpf zu ersparen."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Da sprengten etwa 30 feindliche Cavalleristen auf der Strasse vor und hieben auf die letzte Abtheilung der Colonne ein, von der nur die an der Spitze Marschirenden der Gefangenschaft entgiengen, so dass man nur zwei Grenadier-Bataillone, zusammen 200 Mann stark, Abends vor Wegscheid unter Befehl des Generals Devchich als Nachhut aufzustellen vermochte."
+        },
+        {
+          "source_id": "schoenhals-1873-p132-figures-v1",
+          "section": "p132",
+          "locator": "Schönhals (1873), p. 132 (transcribed from the page image)",
+          "quote": "Hierdurch wuchs der Stand des Corps, mit Inbegriff der Brigade Khevenhüller, auf etwa 4000 Mann an."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "mariazell",
+          "locator": "Schönhals (1873), p. 130 (OCR page breaks; not checked against print)",
+          "quote": "Daher zog sich Merveldt noch am Abend auf Gratz zurück."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "mariazell",
+          "locator": "Schönhals (1873), p. 130 (OCR page breaks; not checked against print)",
+          "quote": "Hier vereinigte er sich mit den sechs Bataillons von Strasaldo und Lattermann unter dem General £hevenhüller"
+        }
+      ]
+    },
+    {
+      "id": "davout-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's report: Davout wrote to Berthier that the advanced guard had met, ahead of Neuhaus, the corps of General Merfeld (Merveldt), 6 battalions of grenadiers and 3 regiments of infantry strong, and that the colonels of the regiments Colloredo and Deutschmeister and 3 majors were among the prisoners.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's report of side B, read from the page image of Alombert and Colin's print of it, dated at Mariazell, 18 brumaire an XIV (9 November 1805). It gives units, not men, and names no source for them; Davout also sent a report made on the prisoners' declarations (claim side-a-information), which is not printed in the passages read. Alombert and Colin's narrative calls the corps the small corps of General Merveldt (claim bodart-winner) and gives no strength. Schönhals names the regiments Josef Colloredo and Deutschmeister among Merveldt's troops (claims schoenhals-side-b and side-b-command). The corps was present before the engagement, so the claim is tagged inherited. English renderings (ours): 'Davout to Berthier'; 'Mariazell, 18 brumaire year XIV'; 'I have the honour to report to Your Excellency that yesterday, toward 9 o'clock in the morning, the advanced guard, under the orders of General Heudelet, met ahead of Neuhaus the corps of General Merfeld, 6 battalions of grenadiers and 3 regiments of infantry strong'; 'the colonels of the regiments of Colloredo and Deutschmeister and 3 majors are among the prisoners'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Davout à Berthier."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Mariazell, le 18 brumaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les colonels des régiments de Colloredo et Deutschmeister et 3 majors sont au nombre des prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Cette victoire anéantissait presque entièrement le petit corps du général Merveldt, qui s'était retiré par Steyer et Weyer, et dont les débris purent gagner le Semring."
+        }
+      ]
+    },
+    {
+      "id": "side-a-engaged",
+      "dimension": "strength",
+      "value": "Side A (French), the troops engaged: Davout reported that the advanced guard under General Heudelet met Merveldt's corps ahead of Neuhaus and attacked; Heudelet praised the 13th light infantry regiment and the 108th of the line, of which 5 companies led by Colonel Hygonnet charged the enemy as he tried to rally at Mariazell, and praised General Eppler and the adjudant-commandant Marès. In Alombert and Colin the 108e pursued for two hours and a squadron of the 7th hussars continued the pursuit on the road to Bruck; that night the rest of the cavalry bivouacked at Mariazell, the 13e léger at Siegmund and the 108e between that chapel and Wegscheid, while the corps' divisions bivouacked between Mariazell and Gaming along the road; in their narrative the carabiniers and voltigeurs of the 13e léger met a handful of Austrian grenadiers (OCR), and in the 3rd corps' journal the brigade of General Eppler met the enemy near Neuhaus (OCR). Schönhals writes that only a detachment of Davout's corps under General Heudelet followed Merveldt into the mountains, that Merveldt himself admitted the pursuing enemy never deployed more than 200 horse, and that Rittmeister Mengen reported a column of light infantry and some cavalry. In the list of the Grande Armée at 6 brumaire an XIV (28 October 1805 by our conversion) printed in t. IV, the 13e légère has 2 battalions among the troops of the 1st division of the 3rd corps (General Bisson, with Eppler among its generals of brigade) and the 108e de ligne 2 battalions among those of the 2nd division (General Friant, with Heudelet among its generals of brigade).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "No passage read gives side A's engaged strength in men, and Bodart's about 15,000 (claim bodart-strength) is not reconciled with the accounts, which have only the advanced guard engage. The list of 6 brumaire, the targeted follow-up, gives battalions, not men, eleven days (our arithmetic) before the engagement; by it the 13e léger and the 108e had 4 battalions together (our sum) on 28 October. The passages read do not give the advanced guard's composition beyond the regiments named. Schönhals does not say where Merveldt made his admission of 200 horse. The troops were with the advanced guard before the engagement, so the claim is tagged inherited. English renderings (ours): as in claim davout-side-b for the meeting; 'General Heudelet attacked with the greatest vigour without considering the number of the enemy; the fight was very lively'; 'I cannot praise too highly the conduct, full of vigour and' (p. 650) 'intelligence, of General Heudelet, who has commanded the advanced guard since the beginning of the campaign with great distinction' (p. 651); 'this general is full of praise for the 13th light infantry regiment and the 108th of the line; 5 companies of this regiment, led by Colonel Hygonnet, charged the enemy, who wanted to rally at Mariazell; this charge, made with the bayonet and without firing a shot, produced 1,500 prisoners'; 'General Heudelet is full of praise for General Eppler and the adjudant-commandant Marès'; Alombert and Colin, as in claim side-b-losses-reported for the 108e's pursuit and the squadron of the 7th hussars; 'the rest of the cavalry bivouacked at Mariazell; the 13th light at Siegmund, the 108th between that chapel and Wegscheid'; 'the divisions of the army corps bivouacked between Mariazell and Gaming, along the road'; 'the carabiniers and voltigeurs of the 13th light met a handful of Austrian grenadiers' (OCR); 'the brigade of General Eppler meets the enemy behind Neuhaus' (OCR); Schönhals, 'Davoust, III Corps, had spread out by Waidhofen toward Lilienfeld; it was only a detachment of his army corps under General Heudelet that followed Merveldt into the mountains'; 'General Merveldt knew the weakness of the pursuing enemy; he admits himself that it never deployed more than 200 horses'; as in claim side-b-information for Mengen's report; the list, 'Grande Armée at the time of 6 brumaire year XIV' (p. 711); '1st division of the 3rd corps', 'general of division | Bisson', and its generals of brigade, Demont, Billy and Eppler, each with his aides-de-camp (p. 723); 'troops | 13th light (2 battalions);', the first of the division's troops (p. 724); '2nd division of the 3rd corps', 'general of division | Friant', 'generals of brigade | Heudelet;', the first of its three generals of brigade, and '108th of the line (2 battalions);', the third of its troops (p. 724).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Le général Heudelet a attaqué avec la plus grande vigueur sans consulter le nombre des ennemis; le combat a été très vif."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Je ne puis trop faire l'éloge de la conduite pleine de vigueur et"
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "d'intelligence du général Heudelet, qui commande l'avant-garde, depuis le commencement de la campagne, avec beaucoup de distinction."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Ce général se loue beaucoup du 13e régiment d'infanterie légère et du 108e de ligne; 5 compagnies de ce régiment ayant à leur tête le colonel Hygonnet ont chargé l'ennemi qui voulait se rallier à Mariazell, cette charge, faite à la baïonnette et sans tirer un coup de fusil, a produit 1,500 prisonniers;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Le général Heudelet se loue beaucoup du général Eppler et de l'adjudant commandant Marès."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le 108e continua la poursuite pendant deux heures, enlevant de nombreux prisonniers à l'infanterie ennemie qui se retirait en désordre et n'était plus qu'une masse informe."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le tout fut dirigé sur Amstetten par la même route que notre artillerie, tandis qu'un escadron du 7e hussards continuait la poursuite sur la route de Brück, où il fit encore 150 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le reste de la cavalerie bivouaqua à Mariazell; le 13e léger à Siegmund, le 108e entre cette chapelle et Wegscheid."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Les divisions du corps d'armée bivouaquèrent entre Mariazell et Gaming, le long de la route."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "Les carahiniers et valti- geurs du 13° léger rencontrèrent une poignée de greni diers autrichiens"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 621 (OCR running heads; not checked against print)",
+          "quote": "La brigade du général Eppler rencontre l'ennemi en arrière de Neuhaus."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Davoust, III. Corps, hatte sich über Waidhofen gegen Lilienfeld ausgebreitet; es war nur eine Abtheilung seines Armee-Corps unter General Heudelet, welche Merveldt in die Gebirge verfolgte."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Der General Merveldt kannte die Schwäche des verfolgenden Feindes; er gesteht selbst, dass derselbe nie mehr als 200 Pferde entwickelte."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Am 8. gegen 9 Uhr Früh langten nach und nach die Abtheilungen in der Stellung bei Neuhaus an, als plötzlich Rittmeister Mengen heransprengte und meldete, der Feind habe, nach Vertreibung der Uhlanen aus Gaming, mit einer aus leichter Infanterie und etwas Cavallerie zusammengesetzten Colonne die Strasse von Gaming gegen Neuhaus eingeschlagen und sei im raschen Verfolgen seiner errungenen Vortheile auf die keinen Angriff vermuthenden und mit der Fortbewegung ihrer Artillerie über den Berg beschäftigten Truppen gefallen, die er auseinander sprengte und die Kanonen nahm."
+        },
+        {
+          "source_id": "alombert-colin-t4-p711-figures-v1",
+          "section": "p711",
+          "locator": "Alombert and Colin, t. IV, p. 711 (transcribed from the page image)",
+          "quote": "Grande Armée à l'époque du 6 brumaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t4-p723-figures-v1",
+          "section": "p723",
+          "locator": "Alombert and Colin, t. IV, p. 723 (transcribed from the page image)",
+          "quote": "1re division du 3e corps."
+        },
+        {
+          "source_id": "alombert-colin-t4-p723-figures-v1",
+          "section": "p723",
+          "locator": "Alombert and Colin, t. IV, p. 723 (transcribed from the page image)",
+          "quote": "Général de division | BISSON."
+        },
+        {
+          "source_id": "alombert-colin-t4-p723-figures-v1",
+          "section": "p723",
+          "locator": "Alombert and Colin, t. IV, p. 723 (transcribed from the page image)",
+          "quote": "Généraux de brigade | DEMONT; / SCHMITZ, capitaine, aide de camp : / LAFITTE, lieutenant, aide de camp; / BILLY; / CHRISTOPHE, capitaine, aide de camp; / BEAUDINET, lieutenant, aide de camp; / EPPLER; / VALLET, capitaine, aide de camp; / BERTHION, sous-lieutenant, aide de camp."
+        },
+        {
+          "source_id": "alombert-colin-t4-p724-figures-v1",
+          "section": "p724",
+          "locator": "Alombert and Colin, t. IV, p. 724 (transcribed from the page image)",
+          "quote": "Troupes | 13e légère (2 bataillons);"
+        },
+        {
+          "source_id": "alombert-colin-t4-p724-figures-v1",
+          "section": "p724",
+          "locator": "Alombert and Colin, t. IV, p. 724 (transcribed from the page image)",
+          "quote": "2e division du 3e corps."
+        },
+        {
+          "source_id": "alombert-colin-t4-p724-figures-v1",
+          "section": "p724",
+          "locator": "Alombert and Colin, t. IV, p. 724 (transcribed from the page image)",
+          "quote": "Général de division | FRIANT."
+        },
+        {
+          "source_id": "alombert-colin-t4-p724-figures-v1",
+          "section": "p724",
+          "locator": "Alombert and Colin, t. IV, p. 724 (transcribed from the page image)",
+          "quote": "Généraux de brigade | HEUDELET;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p724-figures-v1",
+          "section": "p724",
+          "locator": "Alombert and Colin, t. IV, p. 724 (transcribed from the page image)",
+          "quote": "108e de ligne (2 bataillons);"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Davoust (Davout) as side A's commander and GM Count Meerveldt (Merveldt) as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Davout commanded the corps; in his report the advanced guard under General Heudelet met and attacked Merveldt's corps, and he then set Heudelet on the pursuit (claim side-a-command). Schönhals calls Merveldt FML, not GM, and names Generals Schustek, Mondet and Devchich under him (claim side-b-command). English renderings (ours): as in claim bodart-strength; Davout, as in claims davout-side-b and side-a-command; Schönhals, 'when FML Merveldt himself attacked with a body of troops he had gathered, the enemy, who had thrown himself between the rearguard and the column, was taken in the middle, one of his light battalions laying down its arms'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 15.000 M.) unter Marschall Davoust über die Österreicher (7.000 M.) unter GM. Gf. Meerveldt."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai mis le général Heudelet, pour achever son ouvrage, à la poursuite de ces débris qui se sont retirés sur Lilienfeld."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Als FML. Merveldt mit einer gesammelten Truppe selbst angriff, so ward der Feind, der sich zwischen die Nachhut und die Colonne geworfen hatte, in die Mitte genommen, wobei eines seiner leichten Bataillone das Gewehr streckte."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A was Marshal Davout's corps, and the fighting was done by its advanced guard under General Heudelet. In Alombert and Colin (OCR), Davout's orders for the next day's march, given the day before, had the generals of division march their artillery even by night, and at Gaming he found that he could not reach Mariazell with his artillery and sent it back to the main road by Wieselburg. By Davout's report of the next day, the advanced guard met Merveldt's corps ahead of Neuhaus and Heudelet attacked with the greatest vigour without considering the enemy's numbers; 5 companies of the 108th under Colonel Hygonnet charged the enemy with the bayonet as he tried to rally at Mariazell; Davout then set Heudelet on the pursuit of the remains, which had withdrawn toward Lilienfeld. In Alombert and Colin's narrative (OCR), the carabiniers and voltigeurs of the 13e léger carried the first position near Neuhaus with a charge; at Mariazell the tirailleurs climbed the wooded mountain to the right of the road while a company on the left made for Mariazell to cut the retreat on Lilienfeld, and the 108e, held in reserve at Rasing, formed in column, crossed the bridge and advanced at the charge along the road, threatening to cut the enemy in two. The 108e pursued for two hours and near Wegscheid made 2,000 men lay down their arms, and a squadron of the 7th hussars continued the pursuit on the road to Bruck.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as the accounts give them (page images except where marked OCR). Heudelet commanded the troops engaged and decided to attack (Davout's report); Davout commanded the corps, ordered the march and the pursuit and dated his report at Mariazell the next day, but the passages read do not show him on the field during the fighting. Alombert and Colin's account of the fighting is read only in the OCR, and its figures are not restated. English renderings (ours): 'for the next day's march, Davout renews his recommendations:' (OCR); '\"the generals of division will march their artillery, even by night, in order to gain as much ground as possible\"' (OCR); 'having arrived at Gaming, Marshal Davout had recognized that it was impossible to reach Mariazell with his artillery, and had sent it back to the main road by Wieselburg' (OCR); Davout, as in claims davout-side-b and side-a-engaged for the meeting, the attack and the charge; 'I have set General Heudelet, to finish his work, in pursuit of these remains, which have withdrawn toward Lilienfeld'; Alombert and Colin, as in claim side-a-engaged for the carabiniers and voltigeurs; 'at last the charge is beaten and the position carried, after a short and bloody mêlée' (OCR); 'our tirailleurs, climbing the mountain to the right of the road through the woods, slowly drove back those of the enemy' (OCR); 'and made its way toward Mariazell to cut the retreat on Lilienfeld' (OCR); 'the 108th, held in reserve at Rasing, formed in column, crossed the bridge and advanced at the charge along the road' (OCR); 'the enemy, threatened with being cut in two by this attack, withdrew in all haste' (OCR); as in claim side-b-losses-reported for the 108e's pursuit and the hussars.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "Pour la marche du lendemain, Davout renouvelle ses recommandations :"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "« Les généraux de division feront marcher leur artillerie, même de nuit, afin de gagner le plus de terrain possible. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 122 (OCR running heads; not checked against print)",
+          "quote": "Arrivé à Gaming, le maréchal Davout avait reconnu l'impossibilité de parvenir à Mariazell avec son artil- lerie, el l'avait renvoyée sur la grande chaussée par Wicselburg"
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Le général Heudelet a attaqué avec la plus grande vigueur sans consulter le nombre des ennemis; le combat a été très vif."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Ce général se loue beaucoup du 13e régiment d'infanterie légère et du 108e de ligne; 5 compagnies de ce régiment ayant à leur tête le colonel Hygonnet ont chargé l'ennemi qui voulait se rallier à Mariazell, cette charge, faite à la baïonnette et sans tirer un coup de fusil, a produit 1,500 prisonniers;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai mis le général Heudelet, pour achever son ouvrage, à la poursuite de ces débris qui se sont retirés sur Lilienfeld."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "Les carahiniers et valti- geurs du 13° léger rencontrèrent une poignée de greni diers autrichiens"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "enfin la charge est battue et la position enlevée, après une courte ct sanglante mêlée."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "Nos lirailleurs, grimpant sous bois la montagne à droite de la route, firent reculer lentement ceux de l'ennemi."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "et s'achemina vers Mariazell pour cou- per la retraite sur Lilieufeld."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "le 108*, tenu en réserve à Rasing, se forma en eolonne, franchit le pont et sc porta en avant au pas de charge sur la route."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "L'ennemi, menacé d'être coupé en deux par celle allaque, se retira en tonte hôte,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le 108e continua la poursuite pendant deux heures, enlevant de nombreux prisonniers à l'infanterie ennemie qui se retirait en désordre et n'était plus qu'une masse informe."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Enfin, parvenu près de Wegscheid, il tomba sur deux derniers bataillons restés groupés. Il se précipita au milieu même de la masse, et fit poser les armes à 2,000 hommes qui l'entouraient."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le tout fut dirigé sur Amstetten par la même route que notre artillerie, tandis qu'un escadron du 7e hussards continuait la poursuite sur la route de Brück, où il fit encore 150 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML (in Bodart GM) Count Merveldt commanded side B. In Schönhals, at Steyer, against all the representations of the quartermaster-general's staff, he resolved to unite with the Russians by St. Pölten and drew up the disposition by which the corps was to reach Annaberg in three strong marches by Reith, Neuhaus and Mariazell; the artillery reserve was sent ahead to Graz and the baggage toward Leoben. On the march he promised a reward for every gun brought to Neuhaus that day, ordered General Schustek, who now had to take over the rearguard, to push a grenadier battalion into the valley toward Gaming, and went ahead to Neuhaus with the head of the corps. On the 8th, when the French fell on the troops near Neuhaus and took the guns, Lieutenant-Colonel Volkmann and Rittmeister Mengen threw some hastily gathered grenadiers against them, and when Merveldt himself attacked with a body of troops he had gathered, the enemy was taken in the middle and one of his light battalions laid down its arms; but the disorder was too great for this to be exploited or the prisoners carried off. Merveldt then took a favourable position below Mariazell on the road to Bruck, occupied the height of Mariazell with infantry and placed a division of uhlans in the town. When the French seized houses in the valley below Zell, the grenadier battalion Riese defended them under Major Oscher; to secure the line of retreat, Schloss St. Sigmund was occupied by two companies of Josef Colloredo, and other detachments sent against the enemy's left flank made him fall back a little. Merveldt went off to Wegscheid, sending three squadrons of uhlans with some infantry ahead, and left General Mondet the order to withdraw from the position at nightfall. When the French attacked again on both wings, Mondet left the position somewhat earlier; the withdrawal was not made in proper order, the detachments covering the right flank left their posts, and the column, fired on from the height in the defile, broke up; the efforts of Mondet and the staff officers to restore order were in vain, and about 30 enemy horsemen cut into the last part of the column. In Alombert and Colin (OCR), Merveldt, giving up reaching Sankt Pölten, had chosen an excellent position on the road to Bruck.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Schönhals gives them (page images except where marked OCR); Alombert and Colin's account of the march follows his closely (open question on families). Schönhals prints the position's distance below Mariazell as '12 Stunden', twelve hours, which does not fit the position at the height of Mariazell that he goes on to describe; the figure is not restated. Judgments, not recorded facts: Schönhals writes that Merveldt's reproaches to the troops were not unfounded but that it rested with him alone to spare the outposts' honour and himself this disgrace; that the panic was the more excusable because the troops were driven into a narrow valley whose sides were held by enemy tirailleurs; that the regiments Colloredo and Deutschmeister would have done the same as before if better led; that at the most decisive moment the general went off to Wegscheid, as he says in his report to the Hofkriegsrath, to look for a position, which did not need his presence; that he placed part of his cavalry at Mariazell, where it could do nothing, and sent the other half to Wegscheid, leaving the infantry in the defile without protection; that one squadron with the rearguard would have punished the 30 daredevils; that not one gun was left in the position to cover the retreat; and that at Neuhaus and Mariazell the troops were abandoned by their leader, who kept hurrying back to restore his favourite echelon order. English renderings (ours): 'against all the representations of the quartermaster-general's staff, Merveldt here formed the firm resolve to unite with the Russians by St. Pölten, and drew up the disposition by which the corps was to reach Annaberg in three strong marches by — Reith, Neuhaus and Mariazell —'; 'the artillery reserve was sent ahead to Graz, the baggage toward Leoben'; as in claim mariazell-ground for the reward for the guns; as in claim schoenhals-side-b for the battalions at Lunz, Schustek's rearguard and the head of the corps; 'Merveldt therefore ordered General Schustek to push a grenadier battalion forward into the valley leading toward Gaming, which was to hold there until the grenadiers of the rearguard had passed Lunz'; as in claim side-b-information for Mengen's report; 'when the French had advanced to almost half an hour from Neuhaus, Lieutenant-Colonel Volkmann of the quartermaster-general's staff and Rittmeister Wilhelm Mengen threw themselves against them with some grenadiers gathered in haste'; as in claim bodart-commanders for Merveldt's own attack; 'the disorder' (p. 128) 'of the surprised Austrian troops was, however, so great that neither could this advantage be used nor the prisoners already made be carried off' (p. 129); 'the corps commander therefore took a favourable position \"12 Stunden\" (as printed) below Mariazell on the road to Bruck'; 'the height of Mariazell was occupied with infantry, and a division of uhlans posted in the town itself'; 'hardly had the troops here gathered themselves somewhat when the enemy impetuously seized several of the houses lying in the valley below Zell, and so cut off the troops posted in front of Mariazell, of whom the division of uhlans went round the Schneeberg by the Lilienfeld road and rejoined the corps at Fürstenfeld'; 'the grenadier battalion Riese defended these houses with great bravery, in which the activity of its commander, Major Oscher, had great merit'; as in claim fortification-schoenhals for the castle; 'some other detachments, sent into the enemy's left flank, forced him to fall back a little'; 'the corps commander went off to Wegscheid, to which he sent three squadrons of uhlans with some infantry ahead, and left General Mondet the order: to withdraw from the position at nightfall'; 'but soon afterwards the French attacked again on both wings; they threatened the Austrians' right flank from Mariazell and climbed the heights to the left of the occupied castle'; 'this decided General Mondet to leave the position somewhat earlier'; 'the withdrawal was not made in proper order; the detachments posted' (p. 129) 'to cover the right flank left their posts on seeing the column march off, and they had hardly passed the occupied castle on the far side when the French, with loud shouts, attacked it and threw the two companies down and back through the water' (p. 130); 'from here the enemy, spreading out on the height, now fired on the column in the defile with such effect that it was thrown entirely into disorder, broke up into a shapeless lump, and, as the ground widened, everything burst out to left and right'; 'every effort of General Mondet and the staff officers to bring the troops into order was in vain'; as in claim schoenhals-side-b for the 30 horsemen; 'if the reproaches General Merveldt made to the troops are admittedly not unfounded; if it is true that 30 enemy horsemen sufficed to throw a column of six admittedly decimated battalions into disorder and take the greater part of it prisoner, it rested, however, with him alone to spare the honour of the Austrian outposts and himself this disgrace'; 'it is a known thing that in war the bravest troops are often seized by a sudden panic; it was here all the more excusable since they were driven into a narrow valley whose sides were held by enemy tirailleurs, who with every shot brought death and confusion into the troops'; 'the regiment Colloredo had fought very bravely at Steyer, and the regiment Deutschmeister had also behaved well in the position of Mariazell; these troops would without doubt have done the same if they had been better led'; 'but at the most decisive moment the general went off to Wegscheid, in order, as he says in his report to the Hofkriegsrath, to look for a position'; 'part of his cavalry he placed at Mariazell, where it could do nothing at all and was cut off at the first rush; the other half he sent to Wegscheid, and so left the infantry entangled in the defile without any protection'; 'a squadron with the rearguard would have punished the boldness of 30 daredevils'; as in claim means-and-supply for the guns; 'at Neuhaus and Mariazell the troops were abandoned by their leader, who kept hurrying back to restore his favourite echelon order, and while he was busy putting one in order, the enemy had already overthrown the other'; Alombert and Colin, 'Merveldt, giving up reaching Sankt Pölten, had chosen an excellent position on the road to Bruck' (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Gegen alle Vorstellungen des General-Quartiermeisterstabes fasste Merveldt hier den festen Entschluss, sich über St. Pölten mit den Russen zu vereinigen, und entwarf die Disposition, nach welcher das Corps in drei starken Märschen über — Reith, Neuhaus und Mariazell — Annaberg erreichen sollte."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Die Artillerie-Reserve wurde nach Gratz, die Bagagen gegen Leoben vorausgeschickt."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Über diesen Rücken konnte das Geschütz nicht anders als mit Menschenhänden gezogen werden; der FML. versprach daher für jede Kanone, welche heute noch in Neuhaus einträfe, 20 fl. Conv.-Münze."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Grenadiere auf der Strasse, die von da nach Ipsitz führt, und ein anderes auf der Strasse gegen Gaming aufgestellt, die dort so lange halten sollten, bis das ganze Corps den Berg passirt habe, wonach sie mit der Nachhut, die von jetzt an General Schustek übernehmen musste, vereint den Rückzug decken sollte."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Merveldt befahl also, dass General Schustek ein Grenadier-Bataillon nach dem gegen Gaming führenden Thale vorschiebe, welches so lange dort halten sollte, bis die Grenadiere der Nachhut Lunz passirt hätten."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Mit der Spitze des Corps, bestehend aus dem Regimente Josef Colloredo und einigen Grenadieren, marschirte Merveldt nach Neuhaus ab und traf daselbst nur mit einigen Hundert Mann um Mitternacht ein."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Am 8. gegen 9 Uhr Früh langten nach und nach die Abtheilungen in der Stellung bei Neuhaus an, als plötzlich Rittmeister Mengen heransprengte und meldete, der Feind habe, nach Vertreibung der Uhlanen aus Gaming, mit einer aus leichter Infanterie und etwas Cavallerie zusammengesetzten Colonne die Strasse von Gaming gegen Neuhaus eingeschlagen und sei im raschen Verfolgen seiner errungenen Vortheile auf die keinen Angriff vermuthenden und mit der Fortbewegung ihrer Artillerie über den Berg beschäftigten Truppen gefallen, die er auseinander sprengte und die Kanonen nahm."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Als die Franzosen beinahe eine halbe Stunde von Neuhaus vorgedrungen waren, warfen sich Oberstlieutenant Volkmann vom General-Quartiermeisterstabe und Rittmeister Wilhelm Mengen mit einigen in der Eile gesammelten Grenadieren ihnen entgegen."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Als FML. Merveldt mit einer gesammelten Truppe selbst angriff, so ward der Feind, der sich zwischen die Nachhut und die Colonne geworfen hatte, in die Mitte genommen, wobei eines seiner leichten Bataillone das Gewehr streckte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "der überraschten österreichischen Truppen war aber so gross, dass weder dieser Vortheil benützt, noch die bereits gemachten Gefangenen fortgebracht werden konnten."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Corps-Commandant nahm also 12 Stunden abwärts Mariazell an der Strasse von Bruck eine vortheilhafte Stellung."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Die Anhöhe von Mariazell ward mit Infanterie besetzt, und eine Division Uhlanen im Orte selbst aufgestellt."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Kaum hatten sich die Truppen hier einigermassen gesammelt, als der Feind mit Ungestüm sich mehrerer der unterhalb Zell im Thale liegenden Häuser bemächtigte und dadurch die vor Mariazell aufgestellten Truppen abschnitt, wovon sich die Division Uhlanen auf der Strasse von Lilienfeld um den Schneeberg herumzog und sich in Fürstenfeld wieder mit dem Corps vereinigte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Das Grenadier-Bataillon Riese vertheidigte diese erwähnten Häuser mit grosser Tapferkeit, wobei die Thätigkeit seines Commandanten, des Majors Oscher grosses Verdienst hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Um diese zu sichern, ward das dicht an dem jenseitigen Ufer der Salza auf einer schroffen Felsenwand gelegene Schloss St. Sigmund mit zwei Compagnien Josef Colloredo besetzt."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Einige andere, in die linke Flanke des Feindes entsendete Abtheilungen nöthigten ihn, sich etwas zurückzuziehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Corps-Commandant gieng nach Wegscheid ab, wohin er drei Escadronen Uhlanen mit einiger Infanterie vorausschickte und hinterliess dem General Mondet den Befehl: mit Anbruch der Nacht aus der Stellung abzuziehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Allein bald darauf griffen die Franzosen neuerdings auf beiden Flügeln an; sie bedrohten von Mariazell her die rechte Flanke der Österreicher und erstiegen die Höhen links von dem besetzten Schlosse."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Dieses bestimmte den General Mondet, die Stellung etwas früher zu verlassen."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Abmarsch geschah nicht in der gehörigen Ordnung, die zur Deckung der rechten Flanke aufge-"
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "stellten Abtheilungen verliessen, den Abmarsch der Colonne gewahrend, ihren Posten, und kaum waren sie an dem jenseits besetzten Schlosse vorübergezogen, als die Franzosen unter grossem Geschrei einen Angriff auf dasselbe unternahmen, die beiden Compagnien herab und durch das Wasser zurück warfen."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Von hier aus beschoss nun der Feind, indem er sich auf der Höhe ausbreitete, die Colonne in dem Engpasse mit solchem Erfolge, dass sie vollends in Unordnung gebracht, sich in einen unförmlichen Klumpen auflöste, und dass, so wie sich das Terrain erweiterte, Alles links und rechts vorbrach."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Jede Bemühung des Generals Mondet und der Stabsofficiere, die Truppen in Ordnung zu bringen, war vergebens."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Da sprengten etwa 30 feindliche Cavalleristen auf der Strasse vor und hieben auf die letzte Abtheilung der Colonne ein, von der nur die an der Spitze Marschirenden der Gefangenschaft entgiengen, so dass man nur zwei Grenadier-Bataillone, zusammen 200 Mann stark, Abends vor Wegscheid unter Befehl des Generals Devchich als Nachhut aufzustellen vermochte."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Wenn die Vorwürfe, die der General Merveldt den Truppen machte, allerdings nicht unbegründet sind; wenn es wahr ist, dass 30 feindliche Cavalleristen hinreichten, eine Colonne von sechs allerdings decimirten Bataillonen in Unordnung zu bringen und den grössten Theil derselben gefangen zu nehmen, so hieng es aber auch allein von ihm ab, der Ehre der österreichischen Vorposten und sich selbst diesen Schimpf zu ersparen."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Es ist eine bekannte Sache, dass im Kriege oft die bravsten Truppen von einem plötzlichen panischen Schrecken ergriffen werden; er war hier um so eher zu verzeihen, da sie in ein enges Thal gesprengt wurden, dessen Wände von feindlichen Tirailleurs besetzt waren, die mit jedem Schusse Tod und Verwirrung in die Truppe brachten."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Das Regiment Colloredo hatte sich bei Steyer sehr tapfer geschlagen, auch das Regiment Deutschmeister in der Stellung von Mariazell sich gut benommen; diese Truppen würden ohne Zweifel dasselbe geleistet haben, wenn sie besser angeführt worden wären;"
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "aber im entscheidendsten Augenblicke entfernte sich der General nach Wegscheid, um, wie er in seinem Berichte an den Hofkriegsrath sagt, eine Stellung zu suchen;"
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Einen Theil seiner Cavallerie stellte er nach Mariazell, wo sie gar Nichts wirken konnte und beim ersten Anlauf abgeschnitten ward; die andere Hälfte sandte er nach Wegscheid und liess dadurch die im Engpasse verwickelte Infanterie ohne allen Schutz."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Eine Escadron bei der Nachhut würde die Kühnheit von 30 Wagehälsen bestraft haben."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Nicht eine Kanone blieb in der Stellung und zur Deckung des Rückzuges zurück; ein einziger Kartätschenschuss hätte das Defilé gereinigt und der Infanterie Luft gemacht, um so mehr, da der Feind gar keine Artillerie entgegensetzen konnte."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Bei Neuhaus und Mariazell ward die Truppe von ihrem Führer verlassen, der stets zurückeilte, um seine beliebte Staffel-Ordnung wieder herzustellen, und, während er sich beschäftigte, die eine zu ordnen, hatte der Feind die andere schon über den Haufen geworfen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "Merveldt, renonçant à gagner Saint-Pælten, avait choisi une excellente position sur li route de Brück."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Marshal Davoust over side B (Austrian) under GM Count Meerveldt on 8 November. Davout reported that the Austrians were broken and put to the most complete rout, and that all that remained of the corps would have been taken had the steep, ice-covered roads allowed the cavalry to charge and reach the head of the column. In Alombert and Colin the victory almost entirely destroyed General Merveldt's small corps, whose remains could reach the Semmering. In Schönhals, things stood fairly well for the Austrians until sunset; after the renewed French attack the column broke up in the defile, the last part of it was taken, and only two grenadier battalions, 200 men together, could be formed as a rearguard before Wegscheid.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending, read from the page images. No source read gives a different result. English renderings (ours): Bodart, '1805 8/11. engagement at Mariazell (5.)'; as in claim bodart-strength for the entry; Davout, 'the Austrians were broken and put to the most complete rout: they left 400 dead on the field of battle, 600 wounded and 4,000 prisoners, 16 pieces of cannon and 3 flags'; 'all that remains of this corps would have been taken if the steep roads, all covered with ice, had allowed the cavalry to charge and reach the head of the column'; Alombert and Colin, 'this victory almost entirely destroyed the small corps of General Merveldt, who had withdrawn by Steyer and Weyer, and whose remains were able to reach the Semmering'; Schönhals, 'things stood fairly well on the Austrian side until sunset'; as in claims side-b-command and schoenhals-side-b for the fire into the column and the 30 horsemen.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "1805 8./11. TREFFEN bei Mariazell (5.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Sieg der Franzosen (ca. 15.000 M.) unter Marschall Davoust über die Österreicher (7.000 M.) unter GM. Gf. Meerveldt."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les Autrichiens ont été enfoncés et mis dans la plus complète déroute : ils ont laissé 400 morts sur le champ de bataille, 600 blessés et 4,000 prisonniers, 16 pièces de canon et 3 drapeaux."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Tout ce qui reste de ce corps eût été pris si les chemins escarpés et tout couverts de glace eussent permis à la cavalerie de donner et de gagner la tête de la colonne."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Cette victoire anéantissait presque entièrement le petit corps du général Merveldt, qui s'était retiré par Steyer et Weyer, et dont les débris purent gagner le Semring."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Die Sachen standen bis Sonnenuntergang österreichischerseits ziemlich gut."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Von hier aus beschoss nun der Feind, indem er sich auf der Höhe ausbreitete, die Colonne in dem Engpasse mit solchem Erfolge, dass sie vollends in Unordnung gebracht, sich in einen unförmlichen Klumpen auflöste, und dass, so wie sich das Terrain erweiterte, Alles links und rechts vorbrach."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Da sprengten etwa 30 feindliche Cavalleristen auf der Strasse vor und hieben auf die letzte Abtheilung der Colonne ein, von der nur die an der Spitze Marschirenden der Gefangenschaft entgiengen, so dass man nur zwei Grenadier-Bataillone, zusammen 200 Mann stark, Abends vor Wegscheid unter Befehl des Generals Devchich als Nachhut aufzustellen vermochte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's (Austrian) loss as 4,000 men, mostly prisoners, and 16 guns. He prints no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, read from the page image in the frame transcription. Davout's report gives the same 4,000 prisoners and 16 guns, with 400 dead and 600 wounded besides (claim side-b-losses-reported); the passages read do not show Bodart's source. English rendering (ours): 'Austrian loss: 4,000 men (mostly prisoners), 16 guns'; Davout, as in claim bodart-winner.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Österr. Verl.: 4.000 M. (meist Gefg.), 16 Kan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les Autrichiens ont été enfoncés et mis dans la plus complète déroute : ils ont laissé 400 morts sur le champ de bataille, 600 blessés et 4,000 prisonniers, 16 pièces de canon et 3 drapeaux."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives side A's loss in men, and Bodart prints none. Schönhals has one French light battalion lay down its arms near Neuhaus without the Austrians being able to carry the prisoners off (claim side-b-command), and Alombert and Colin call the first fight a short and bloody mêlée (OCR; claim side-a-command). Unknown, not zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Davout: 400 dead left on the field, 600 wounded and 4,000 prisoners, 16 guns and 3 flags; the colonels of the regiments Colloredo and Deutschmeister and 3 majors among the prisoners; 5 companies of the 108th took 1,500 prisoners in their charge; much baggage fell into French hands, but the vehicles were thrown into the ravines because they blocked the road; he sent the three captured flags with an aide-de-camp. Alombert and Colin: the tirailleurs were almost all taken; the 108e took many prisoners in its pursuit and near Wegscheid made 2,000 men lay down their arms; the day's result was 18 guns, 2 flags, 80 vehicles and about 4,000 prisoners, sent to Amstetten, and a squadron of the 7th hussars took 150 more prisoners on the road to Bruck. Schönhals: the guns still in the defile near Neuhaus stayed in the enemy's hands; the two companies in Schloss St. Sigmund were thrown down and back through the water; of the last part of the column only those marching at its head escaped captivity; the whole Austrian loss at Zell is given as 2500 men, but many of the scattered men soon came back, so that by the 14th the battalions counted 100 to 150 men with the colours; about 400 men of Josef Colloredo, scattered on the 8th, joined the rearguard at Weiz, and Colonel Count Wallmoden, cut off with three squadrons in the attack on Mariazell, rejoined the corps after a retreat on which he picked up many stragglers.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except where marked OCR, not combined. The counts differ: Davout and Bodart 4,000 prisoners and 16 guns, Alombert and Colin about 4,000 prisoners and 18 guns, and Schönhals a whole loss of 2500 men, which he gives in the passive ('wird ... angegeben', is given) without naming its source; Davout 3 flags, Alombert and Colin 2. Alombert and Colin's narrative and the 3rd corps' journal (OCR) give a number of guns taken near Neuhaus that is not restated; the journal says that everything that had fought on the plateau of Sigmund was taken and that the captured Austrian artillery went to Sankt Pölten (OCR). English renderings (ours): Davout, as in claim bodart-winner for the rout, as in claim davout-side-b for the colonels and as in claim side-a-engaged for the charge; 'I send Your Excellency, by one of my aides-de-camp, the three flags taken from the enemy'; 'much baggage fell into our power, but as the vehicles were blocking the road, we were forced to throw them into the ravines'; Alombert and Colin, 'but only a part could get ahead of our column. The tirailleurs, delayed by the difficulties of the ground, were almost all taken'; 'the 108th continued the pursuit for two hours, taking many prisoners from the enemy infantry, which was withdrawing in disorder and was no more than a shapeless mass'; 'at last, having come near Wegscheid, it fell on two last battalions that had stayed together. It threw itself into the very middle of the mass and made 2,000 men who surrounded it lay down their arms'; 'the result of this day was the capture of 18 pieces of cannon, 2 flags, 80 vehicles and about 4,000 prisoners'; 'the whole was directed on Amstetten by the same road as our artillery, while a squadron of the 7th hussars continued the pursuit on the road to Bruck, where it took 150 more prisoners'; 'the Austrians tried to save their guns; they were caught up and taken some distance from there' (OCR); 'the enemy was overthrown and left his ... (OCR) pieces of cannon in our hands' (OCR); 'everything that had fought on the plateau of Sigmund was taken' (OCR); 'the Austrian artillery taken at the combat of Mariazell followed this same road and went to Sankt Pölten' (OCR); Schönhals, 'meanwhile, however, enough time had been gained to make the retreat to Mariazell in better order; but the guns still in the defile stayed in the enemy's hands'; as in claim side-b-command for the castle; as in claim schoenhals-side-b for the last part of the column; 'the whole Austrian loss suffered at Zell is given as 2500 men; of the scattered men many soon turned up again, so that by the 14th the battalions already counted 100 to 150 men with the colours'; 'on the 13th, a rest day, General Devchich arrived with his rearguard, which about 400 men of Josef Colloredo had joined at Weiz, who, scattered on the 8th, had turned toward Mürzzuschlag'; 'Colonel Count Wallmoden also rejoined' (p. 131) 'the corps here, after, cut off with three squadrons in the attack on Mariazell, as mentioned, he had carried out a fine retreat by Annaberg, Gloggnitz, Aspang and Hartberg, on which he had picked up many more stragglers' (p. 132); 'back to Fürstenfeld, where it first succeeded in collecting the men scattered at Zell' (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les Autrichiens ont été enfoncés et mis dans la plus complète déroute : ils ont laissé 400 morts sur le champ de bataille, 600 blessés et 4,000 prisonniers, 16 pièces de canon et 3 drapeaux."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les colonels des régiments de Colloredo et Deutschmeister et 3 majors sont au nombre des prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Ce général se loue beaucoup du 13e régiment d'infanterie légère et du 108e de ligne; 5 compagnies de ce régiment ayant à leur tête le colonel Hygonnet ont chargé l'ennemi qui voulait se rallier à Mariazell, cette charge, faite à la baïonnette et sans tirer un coup de fusil, a produit 1,500 prisonniers;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "J'envoie à Votre Excellence, par l'un de mes aides de camp, les trois drapeaux pris sur l'ennemi."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Il est tombé beaucoup de bagages en notre pouvoir, mais comme les voitures encombraient la route, on a été contraint de les précipiter dans les ravins."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "mais une partie seulement put devancer notre colonne."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Les tirailleurs, retardés par les difficultés du terrain, furent presque tous pris."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le 108e continua la poursuite pendant deux heures, enlevant de nombreux prisonniers à l'infanterie ennemie qui se retirait en désordre et n'était plus qu'une masse informe."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Enfin, parvenu près de Wegscheid, il tomba sur deux derniers bataillons restés groupés. Il se précipita au milieu même de la masse, et fit poser les armes à 2,000 hommes qui l'entouraient."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le résultat de cette journée fut la prise de 18 pièces de canon, 2 drapeaux, 80 voitures et environ 4,000 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le tout fut dirigé sur Amstetten par la même route que notre artillerie, tandis qu'un escadron du 7e hussards continuait la poursuite sur la route de Brück, où il fit encore 150 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "Les Autri- chiens cherchaient à sauver leurs pièces; elles furent rejointes et prises à quelque distance de là"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 621 (OCR running heads; not checked against print)",
+          "quote": "L'ennemi fut eulbaté et laissa entre nos mains ses deux pièces de canon."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "on prit tout ce qui avait combattu sur le plateau de Sigmund"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 623 (OCR running heads; not checked against print)",
+          "quote": "L'rtillerie autrichienne prise au combat de Mariurell suivit cette même route et se rendit à Sutut-Pôlteu"
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Indessen hatte man doch so viel Zeit gewonnen, den Rückzug nach Mariazell mit mehr Ordnung zu bewerkstelligen; aber das noch im Defilé sich befindende Geschütz blieb in den Händen des Feindes."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "stellten Abtheilungen verliessen, den Abmarsch der Colonne gewahrend, ihren Posten, und kaum waren sie an dem jenseits besetzten Schlosse vorübergezogen, als die Franzosen unter grossem Geschrei einen Angriff auf dasselbe unternahmen, die beiden Compagnien herab und durch das Wasser zurück warfen."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Da sprengten etwa 30 feindliche Cavalleristen auf der Strasse vor und hieben auf die letzte Abtheilung der Colonne ein, von der nur die an der Spitze Marschirenden der Gefangenschaft entgiengen, so dass man nur zwei Grenadier-Bataillone, zusammen 200 Mann stark, Abends vor Wegscheid unter Befehl des Generals Devchich als Nachhut aufzustellen vermochte."
+        },
+        {
+          "source_id": "schoenhals-1873-p132-figures-v1",
+          "section": "p132",
+          "locator": "Schönhals (1873), p. 132 (transcribed from the page image)",
+          "quote": "Der ganze bei Zell erlittene österreichische Verlust wird auf 2500 Mann angegeben; von den Versprengten fanden sich viele bald wieder ein, so dass die Bataillone am 14. schon 100 bis 150 Mann bei den Fahnen zählten."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Am 13., einem Rasttage, traf General Devchich mit seiner Nachhut ein, an welcher sich in Weiz etwa 400 Köpfe von Josef Colloredo anschlossen, die, am 8. zersprengt, sich nach Mürzzuschlag gewendet hatten."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Auch stiess Oberst Graf Wallmoden hier"
+        },
+        {
+          "source_id": "schoenhals-1873-p132-figures-v1",
+          "section": "p132",
+          "locator": "Schönhals (1873), p. 132 (transcribed from the page image)",
+          "quote": "wieder zum Corps, nachdem er mit drei Escadronen, wie erwähnt, beim Angriffe auf Mariazell abgeschnitten, über Annaberg, Gloggnitz, Aspang, Hartberg einen schönen Rückzug ausführte, auf dem er noch viele Versprengte aufgenommen hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "mariazell",
+          "locator": "Schönhals (1873), p. 130 (OCR page breaks; not checked against print)",
+          "quote": "bis Fürstenfeld zurück, wo es erat gelang, die bei Zell ver- sprengten Leute zu sammeln."
+        }
+      ]
+    },
+    {
+      "id": "mariazell-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Mariazell, a market town in Styria on the Salza, 16 km north-east of Bruck an der Mur. In Schönhals, from Höllenstein on there was no road and the way was so bad that the last battalions reached Lunz only in the evening; behind Lunz a steep ridge separates the Lunz valley from the Langenau valley, hard to pass at any time and now, in the rainy season, glazed with ice, so that the guns could be moved over it only by men's hands; from the Langenau valley Neuhaus lay three hours away, with two steep hills still to climb, and the last defile lay between Langau and Neuhaus. Below Mariazell the line of retreat ran in a very narrow valley whose sides the French tirailleurs held, and Schloss St. Sigmund stands on a sheer rock wall close to the far bank of the Salza. Davout reported that the steep roads were all covered with ice, which kept his cavalry from charging, and that from Gaming to Mariazell there were very high, ice-covered mountains impossible to cross even by force of arms and horses. In Alombert and Colin the tirailleurs were delayed by the difficulties of the ground, and the hussars had great trouble crossing on the ice the col between Mariazell and Neuwiesen. In their narrative (OCR) the Austrians held the woods to the right of the road, the village of Rasing, the plateau of Saint-Sigmund and the amphitheatre of Mariazell, with the main body of their infantry deployed on the ridge that runs down between Mariazell and Rasing, facing north-west; the defile beyond Neuhaus was flanked by almost inaccessible mountains with tirailleurs on their tops; and, by the journal of Friant's division they quote, the valleys were extremely narrow. In the journal of Davout's corps (OCR) the enemy held the amphitheatre of Sigmund and the heights to right and left, his front covered by the little Salza, and the roads were covered with ice.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and the accounts, read from the page images except where marked OCR; no map was inspected. Schönhals's distance of the position below Mariazell is printed '12 Stunden' and is not restated (claim side-b-command). English renderings (ours): Bodart, 'market town in Austria, Styria, on the Salza, 16 km north-east of Bruck an der Mur'; Schönhals, 'from Höllenstein on there was no road any more and the way so bad that the last battalions reached Lunz in the evening'; 'behind Lunz rises a steep mountain ridge that separates the Lunz valley from the Langenau valley. It is hard to pass at any time, but was now, in the rainy season, entirely covered with glazed ice'; 'over this ridge the guns could not be moved otherwise than by men's hands; the FML therefore promised for every cannon that reached Neuhaus that same day 20 florins in convention money'; 'it was not possible for the exhausted troops to reach that same night Neuhaus, three hours away, to which two steep hills still had to be climbed'; 'the troops had dragged themselves and their cannon with the greatest effort as far as the last defile between Langau and Neuhaus'; 'the enemy, however, spread out on the heights on both sides with tirailleurs and threatened the line of retreat in the very narrow valley'; as in claims side-b-command and fortification-schoenhals for the narrow valley and the castle; Davout, as in claim bodart-winner for the roads; 'from Gaming to Mariazell one meets many very high mountains covered with ice, which it is impossible to cross even by force of arms and horses'; Alombert and Colin, as in claim side-b-losses-reported for the tirailleurs; 'the hussars had great trouble crossing on the ice the col that separates Mariazell from Neuwiesen'; 'the Austrians occupied the woods to the right of the road, the village of Rasing, the plateau of Saint-Sigmund and the amphitheatre of Mariazell' (OCR); 'the main body of the enemy infantry was deployed on the ridge that runs down between Mariazell and Rasing, facing north-west' (OCR); 'almost inaccessible mountains flanked this defile, and tirailleurs occupied their tops' (OCR); '\"the valleys are extremely narrow, or, to speak more exactly, there is no valley' (OCR), from the 'journal of the division Friant' (OCR); the journal, 'the enemy then occupied the amphitheatre of Sigmund, the heights to right and left, and had his front covered by the little Salza' (OCR); 'the roads were covered with ice' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "(Markt in Österreich, Steiermark, an der Salza, 16 km nordöstl. von Bruck an der Mur)."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Von Höllenstein aus war keine Strasse mehr und der Weg so schlecht, dass die letzten Bataillone Abends in Lunz eintrafen."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Hinter Lunz erhebt sich ein steiler Gebirgsrücken, der das Lunzer von dem Langenauer Thale trennt. Er ist zu jeder Zeit schwer zu passiren, war jetzt aber in der Regenzeit ganz mit Glatteis überzogen."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Über diesen Rücken konnte das Geschütz nicht anders als mit Menschenhänden gezogen werden; der FML. versprach daher für jede Kanone, welche heute noch in Neuhaus einträfe, 20 fl. Conv.-Münze."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Es war nicht möglich, dass die ermattete Truppe noch in derselben Nacht das drei Stunden entfernte Neuhaus erreiche, bis wohin noch zwei steile Berge zu ersteigen waren."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Die Truppen hatten sich und ihre Kanonen mit grösster Anstrengung bis an das letzte Defilé zwischen Langau und Neuhaus geschleppt."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Feind breitete sich aber beiderseits auf den Höhen mit Tirailleurs aus und bedrohte die Rückzugslinie in dem sehr engen Thale."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Um diese zu sichern, ward das dicht an dem jenseitigen Ufer der Salza auf einer schroffen Felsenwand gelegene Schloss St. Sigmund mit zwei Compagnien Josef Colloredo besetzt."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Es ist eine bekannte Sache, dass im Kriege oft die bravsten Truppen von einem plötzlichen panischen Schrecken ergriffen werden; er war hier um so eher zu verzeihen, da sie in ein enges Thal gesprengt wurden, dessen Wände von feindlichen Tirailleurs besetzt waren, die mit jedem Schusse Tod und Verwirrung in die Truppe brachten."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Tout ce qui reste de ce corps eût été pris si les chemins escarpés et tout couverts de glace eussent permis à la cavalerie de donner et de gagner la tête de la colonne."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "De Gaming à Mariazell, on rencontre beaucoup de montagnes très élevées et couvertes de glace qu'il est impossible de franchir, méme à force de bras et de chevaux."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Les tirailleurs, retardés par les difficultés du terrain, furent presque tous pris."
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Les hussards eurent grand'peine à franchir sur la glace le col qui sépare Mariazell de Neuwiesen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "Les Autrichiens occupaient les bois à droite de la route, le village de Rasing, le plateau de Saint-Sigmund, el l'amphithéatre de Mariazell."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "le gros de l'infan- terie ennemie était déployé sur la eroupe qui descend entre Mariazell et Rasing, face au Nord-Ouest."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "Des montagnes presque inaccessibles flanquaient cette eluse et des tirail- leurs en occupaient les sonmets,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 122 (OCR running heads; not checked against print)",
+          "quote": "« Les vallées sont extrêmement étroites, ou pour parler plus exnetement, il n°ÿ a pas de vallée."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 122 (OCR running heads; not checked against print)",
+          "quote": "Journat de la division Friant,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "L'ennemi oceupait alors l'amphithétre de Sigmund, les hauteurs à droite et à gauche, et avait son front couvert par la petite Sala"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "Les chemins étaient couverts de glace"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B: at Steyer there was bread for one day only; the artillery reserve was sent ahead to Graz and the baggage toward Leoben; the guns had to be dragged by men's hands over the ridge behind Lunz, and those still in the defile near Neuhaus were lost; the troops, without bread for several days, had been able to draw it for one day only at Weier, and General Auer had bread ready for some days at Mariazell, but the enemy's pressure prevented its issue (Schönhals). Schönhals writes that not one gun was left in the position to cover the retreat. Side A: Davout reported that despite every human effort artillery and caissons could not follow, a great part having stayed between Waidhofen and Gaming; he took as many cartridges as possible with him and judged that in the mountains the enemy's artillery would be of no use to him either. In Alombert and Colin (OCR), Davout sent his artillery back from Gaming to the main road by Wieselburg; his order of the day before reminded the army that the moment had come to make forced marches and to suffer privations of bread; in the corps' journal the infantry was worn out and could march no further, having gone without stopping to eat, the divisions' artillery waited at Gaming for another route, and the captured Austrian artillery went to Sankt Pölten. In Schönhals the French had not yet had time to bring up artillery and could oppose none at all.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images except where marked OCR). No ration, ammunition or artillery return was inspected. English renderings (ours): Schönhals, 'in Steyer there was bread for one day only, although General Auer had already been sent ahead from Steyer on the 3rd because of the supply arrangements'; as in claim side-b-command for the artillery reserve and baggage; as in claim mariazell-ground for the guns dragged over the ridge; as in claim side-b-losses-reported for the guns lost; 'the state of the troops was in a high degree sad; they had marched almost without a break from Weier to Mariazell; without bread for several days, they had been able to draw it at Weier for one day only'; 'General Auer had indeed held bread ready at Mariazell for some days, but the pressure of the enemy prevented its issue'; 'not one cannon remained in the position and to cover the retreat; a single canister shot would have cleared the defile and given the infantry air, all the more since the enemy could oppose no artillery at all'; 'in this position the troops offered brave resistance; the French had also not yet had time to bring up artillery'; Davout, 'I must warn Your Excellency that despite all human efforts it is impossible to make artillery and caissons follow us; a great part has stayed between Waidhofen and Gaming'; 'I am taking as many cartridges as possible with me'; 'besides, in the mountain country where we are going, the enemy's artillery will be of no use to him; he will be forced, like us, to abandon it I shall act according to circumstances'; Alombert and Colin, as in claim side-a-command for the artillery sent back; 'the marshal reminds the army that the moment has come for the ... (OCR) army corps to make forced marches and to suffer privations of bread like the ... (OCR) army corps that distinguished themselves before Ulm' (OCR); 'impossible to make our infantry march any further; it was worn out' (OCR); 'without stopping a minute to eat' (OCR); 'the artillery of the divisions waits at Gaming to be given another route' (OCR); as in claim side-b-losses-reported for the captured artillery.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "In Steyer war nur Brod auf einen Tag vorhanden, obwohl General Auer schon den 3. von Steyer, der Verpflegs-Anstalten wegen, vorausgeschickt worden war."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Die Artillerie-Reserve wurde nach Gratz, die Bagagen gegen Leoben vorausgeschickt."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Über diesen Rücken konnte das Geschütz nicht anders als mit Menschenhänden gezogen werden; der FML. versprach daher für jede Kanone, welche heute noch in Neuhaus einträfe, 20 fl. Conv.-Münze."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Indessen hatte man doch so viel Zeit gewonnen, den Rückzug nach Mariazell mit mehr Ordnung zu bewerkstelligen; aber das noch im Defilé sich befindende Geschütz blieb in den Händen des Feindes."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Zustand der Truppe war im hohen Grade traurig; sie war von Weier bis Mariazell beinahe unausgesetzt marschirt; seit mehreren Tagen ohne Brod, hatte sie in Weier davon nur auf einen Tag fassen können."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "General Auer hatte zwar zu Mariazell auf einige Tage Brod bereit gehalten, aber das Drängen des Feindes hinderte die Fassung."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Nicht eine Kanone blieb in der Stellung und zur Deckung des Rückzuges zurück; ein einziger Kartätschenschuss hätte das Defilé gereinigt und der Infanterie Luft gemacht, um so mehr, da der Feind gar keine Artillerie entgegensetzen konnte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "In dieser Stellung leisteten die Truppen tapfern Widerstand; die Franzosen hatten auch noch nicht Zeit gehabt, Artillerie herbei zu schaffen."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Je dois prévenir Votre Excellence que malgré tous les efforts humains, il est impossible de nous faire suivre par de l'artillerie et des caissons; une grande partie est restée entre Waidhofen et Gaming."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'emporte avec moi le plus de cartouches possible."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Au surplus, dans le pays de montagnes où nous allons, l'artillerie de l'ennemi ne lui sera d'aucune utilité; il sera forcé comme nous de l'abandonner J'agirai suivant les circonstances."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 122 (OCR running heads; not checked against print)",
+          "quote": "Arrivé à Gaming, le maréchal Davout avait reconnu l'impossibilité de parvenir à Mariazell avec son artil- lerie, el l'avait renvoyée sur la grande chaussée par Wicselburg"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "Le muréchal rappelle à l'armée que le moment est venu pour le 3° corps d'armée de faire des marches for- cées et d'éprouver des privalions de pain comme les trois corps d'armée qui se sont illustrés devant Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "impossible de faire marcher encure notre infinterie; elle était hirassée :"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "sans s'arrêter une minute pour manger."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 623 (OCR running heads; not checked against print)",
+          "quote": "L'urtillerie des divisions attend à Guming qu'on lui donne ne autre direction."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 623 (OCR running heads; not checked against print)",
+          "quote": "L'rtillerie autrichienne prise au combat de Mariurell suivit cette même route et se rendit à Sutut-Pôlteu"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Soon after the corps reached Reith in the night, news came that the enemy had already attacked the uhlans at Waidhofen, thrown them and was pursuing toward Gaming. On the 8th, as the detachments were arriving in the position near Neuhaus, Rittmeister Mengen galloped up to report that the enemy, having driven the uhlans from Gaming, had taken the road from Gaming toward Neuhaus with a column of light infantry and some cavalry and had fallen on the troops, who expected no attack and were busy moving their artillery over the mountain. Schönhals writes that Merveldt knew the weakness of the pursuing enemy and himself admitted that it never deployed more than 200 horse. In Alombert and Colin (OCR), a cavalry captain arrived at full gallop to announce that French infantry and cavalry were advancing by the Gaming road.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as the accounts give it (page images except where marked OCR). The passages read do not say what Merveldt knew of side A's strength before the fighting, or where he made his admission of 200 horse. Alombert and Colin's captain follows Schönhals's account of Mengen closely (open question on families). English renderings (ours): 'with difficulty the infantry reached Reith in the night on the bad roads, constantly held up by the artillery'; 'soon after the arrival there the news came that the enemy had already attacked the uhlans at Waidhofen, thrown them and was pursuing toward Gaming'; 'on the 8th toward 9 o'clock in the morning the detachments were arriving one after another in the position near Neuhaus, when suddenly Rittmeister Mengen galloped up and reported that the enemy, after driving the uhlans from Gaming, had taken the road from Gaming toward Neuhaus with a column composed of light infantry and some cavalry and, in rapid pursuit of the advantages he had won, had fallen on the troops, who expected no attack and were busy moving their artillery over the mountain, scattered them and taken the cannon'; as in claim side-a-engaged for the 200 horse; Alombert and Colin, 'when a cavalry captain arrives at full gallop and announces that a troop of French infantry and cavalry is advancing by the road from Gaming' (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Mit Mühe erreichte die Infanterie auf den schlechten Wegen, beständig durch die Artillerie aufgehalten, in der Nacht Reith."
+        },
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Bald nach dem Eintreffen daselbst traf die Nachricht ein, dass der Feind bereits die Uhlanen in Waidhofen angegriffen, sie geworfen habe und gegen Gaming verfolge."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Am 8. gegen 9 Uhr Früh langten nach und nach die Abtheilungen in der Stellung bei Neuhaus an, als plötzlich Rittmeister Mengen heransprengte und meldete, der Feind habe, nach Vertreibung der Uhlanen aus Gaming, mit einer aus leichter Infanterie und etwas Cavallerie zusammengesetzten Colonne die Strasse von Gaming gegen Neuhaus eingeschlagen und sei im raschen Verfolgen seiner errungenen Vortheile auf die keinen Angriff vermuthenden und mit der Fortbewegung ihrer Artillerie über den Berg beschäftigten Truppen gefallen, die er auseinander sprengte und die Kanonen nahm."
+        },
+        {
+          "source_id": "schoenhals-1873-p131-figures-v1",
+          "section": "p131",
+          "locator": "Schönhals (1873), p. 131 (transcribed from the page image)",
+          "quote": "Der General Merveldt kannte die Schwäche des verfolgenden Feindes; er gesteht selbst, dass derselbe nie mehr als 200 Pferde entwickelte."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "quand un capitaine de cavalerie arrive à bride abaltue et annonce qu'une troupe d'infanterie et de eavalerie fran- caise s'avance par le chemin de Gaming."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "In Alombert and Colin (OCR), the information gathered showed that there was no direct road from Gaming to Annaberg and that a detour by Mariazell was indispensable, and Davout's advanced guard was already reaching the stragglers of the small Austrian corps. Davout reported that Heudelet attacked without considering the enemy's numbers. After the engagement Davout sent Berthier a report made on the prisoners' declarations, and wrote that Merfeld's corps had been on its way to Neustadt, where the enemy was gathering troops, and that some Russian troops of General Michelson's corps appeared to have joined the Russian army.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as the passages read give it; the report on the prisoners' declarations is not printed in the passages read. The passages read do not say what Heudelet knew of Merveldt's strength before attacking. English renderings (ours): 'the information gathered made it known that there was no direct road from' (p. 111) 'Gaming to Annaberg, and that a detour by Mariazell would be indispensable' (p. 112) (OCR); 'it was Davout's advanced guard, which had set out at ... (OCR), and was already reaching the stragglers of the small Austrian corps' (OCR); as in claim side-a-engaged for Heudelet's attack; 'I send you a report made on the declarations of the prisoners'; 'Merfeld's corps was going to Neustadt, where the enemy is gathering troops'; 'it appears that some Russian troops of General Michelson's corps have joined the Russian army'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 111 (OCR running heads; not checked against print)",
+          "quote": "Les renseignements recueillis ont fait connaître qu'il n'y avait aucune route directe de"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "Gaming à Annaberg, et qu'un détour par Mariazell serait indispensable."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "C'était l'avant- garde de Davout, qui s'était mise en marche à 5 Li. 40, et atteignait déjà les trainards du petit corps autrichien."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Le général Heudelet a attaqué avec la plus grande vigueur sans consulter le nombre des ennemis; le combat a été très vif."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Je vous adresse un rapport fait sur les déclarations des prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Le corps de Merfeld se rendait à Neustadt où l'ennemi réunit des troupes."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Il parait que quelques troupes russes du corps du général Michelson ont rejoint l'armée russe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Davout's order for the march into the mountains (Alombert and Colin, OCR) reminded the army that the result of the forced marches and privations could be the destruction of the Russian army and of the remains of the Austrian army. At Mariazell a company made for the town to cut the Austrian retreat on Lilienfeld (OCR). After the engagement Davout set Heudelet on the pursuit of the remains, which had withdrawn toward Lilienfeld, to finish his work, and wrote that he would act according to circumstances.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Aims as the accounts give them. The aim of the march was set by Davout's order, above the commander engaged, while cutting the retreat was a decision at the engagement, so the claim is tagged unresolved. English renderings (ours): as in claim means-and-supply for the order's reminder; 'the result of these marches and of these privations may be the destruction of the Russian army and of the remains of the Austrian army' (OCR); as in claim side-a-command for cutting the retreat and the pursuit; as in claim means-and-supply for acting according to circumstances.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "Le muréchal rappelle à l'armée que le moment est venu pour le 3° corps d'armée de faire des marches for- cées et d'éprouver des privalions de pain comme les trois corps d'armée qui se sont illustrés devant Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-7-nov",
+          "locator": "Alombert and Colin, t. IV, p. 112 (OCR running heads; not checked against print)",
+          "quote": "Le résultat de ces marches et de ces privations peut être la destruction de l'armée russe et des débris de l'armée autrichienne."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "et s'achemina vers Mariazell pour cou- per la retraite sur Lilieufeld."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai mis le général Heudelet, pour achever son ouvrage, à la poursuite de ces débris qui se sont retirés sur Lilienfeld."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Au surplus, dans le pays de montagnes où nous allons, l'artillerie de l'ennemi ne lui sera d'aucune utilité; il sera forcé comme nous de l'abandonner J'agirai suivant les circonstances."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "In Schönhals, Merveldt resolved at Steyer to unite with the Russians by St. Pölten, the corps to reach Annaberg in three strong marches by Reith, Neuhaus and Mariazell. After the surprise near Neuhaus a junction with the Russians on the Annaberg road could no longer be thought of, and he took a favourable position below Mariazell on the road to Bruck; his order to General Mondet was to withdraw from the position at nightfall. Davout reported, after the prisoners' declarations, that Merfeld's corps was on its way to Neustadt. In Alombert and Colin (OCR), Merveldt, giving up reaching Sankt Pölten, had chosen an excellent position on the road to Bruck.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims as the accounts give them (page images except where marked OCR). Merveldt formed his resolve against all the representations of the quartermaster-general's staff (claim side-b-command), and the passages read cite no order from above for the march, so the claim is tagged commander_created. Davout's Neustadt rests on the prisoners' declarations. English renderings (ours): as in claim side-b-command for the resolve, the position and the order to Mondet; 'under these circumstances a junction with the Russians on the Annaberg road could no longer be thought of'; as in claim side-a-information for Neustadt; as in claim side-b-command for Alombert and Colin's position (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p127-figures-v1",
+          "section": "p127",
+          "locator": "Schönhals (1873), p. 127 (transcribed from the page image)",
+          "quote": "Gegen alle Vorstellungen des General-Quartiermeisterstabes fasste Merveldt hier den festen Entschluss, sich über St. Pölten mit den Russen zu vereinigen, und entwarf die Disposition, nach welcher das Corps in drei starken Märschen über — Reith, Neuhaus und Mariazell — Annaberg erreichen sollte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "An eine Verbindung mit den Russen auf der Strasse von Annaberg war unter diesen Umständen nicht mehr zu denken."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Corps-Commandant nahm also 12 Stunden abwärts Mariazell an der Strasse von Bruck eine vortheilhafte Stellung."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Corps-Commandant gieng nach Wegscheid ab, wohin er drei Escadronen Uhlanen mit einiger Infanterie vorausschickte und hinterliess dem General Mondet den Befehl: mit Anbruch der Nacht aus der Stellung abzuziehen."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Le corps de Merfeld se rendait à Neustadt où l'ennemi réunit des troupes."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "Merveldt, renonçant à gagner Saint-Pælten, avait choisi une excellente position sur li route de Brück."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Davout reported that the advanced guard under General Heudelet met Merveldt's corps ahead of Neuhaus and that Heudelet attacked with the greatest vigour; the Austrians were broken and routed, and 5 companies of the 108th charged the enemy as he tried to rally at Mariazell. In Schönhals the French fell on the Austrian troops near Neuhaus and took their guns, seized houses below Zell, attacked again on both wings, stormed the castle of St. Sigmund and fired on the column in the defile; Merveldt's own attack near Neuhaus with troops he had gathered, in which the French were taken in the middle and one of their light battalions laid down its arms, and the detachments he sent against the French left flank at Mariazell were counter-strokes. In Alombert and Colin (OCR), the French carried the positions near Neuhaus and at Mariazell with charges.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "All three accounts have side A attack and side B stand, strike back and retreat. Merveldt's counter-strokes near Neuhaus and at Mariazell were made by the side retreating and defending, so the code is A_attacked, and as the accounts agree it is one claim. Heudelet, commanding the troops engaged, attacked without considering the enemy's numbers (Davout), so the posture is tagged commander_created; Davout's march orders are recorded in claim side-a-command. English renderings (ours): as in claims davout-side-b, side-a-engaged, side-a-command, side-b-command, side-b-information and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Le général Heudelet a attaqué avec la plus grande vigueur sans consulter le nombre des ennemis; le combat a été très vif."
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "Les Autrichiens ont été enfoncés et mis dans la plus complète déroute : ils ont laissé 400 morts sur le champ de bataille, 600 blessés et 4,000 prisonniers, 16 pièces de canon et 3 drapeaux."
+        },
+        {
+          "source_id": "alombert-colin-t4-p651-figures-v1",
+          "section": "p651",
+          "locator": "Alombert and Colin, t. IV, p. 651 (transcribed from the page image)",
+          "quote": "Ce général se loue beaucoup du 13e régiment d'infanterie légère et du 108e de ligne; 5 compagnies de ce régiment ayant à leur tête le colonel Hygonnet ont chargé l'ennemi qui voulait se rallier à Mariazell, cette charge, faite à la baïonnette et sans tirer un coup de fusil, a produit 1,500 prisonniers;"
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Am 8. gegen 9 Uhr Früh langten nach und nach die Abtheilungen in der Stellung bei Neuhaus an, als plötzlich Rittmeister Mengen heransprengte und meldete, der Feind habe, nach Vertreibung der Uhlanen aus Gaming, mit einer aus leichter Infanterie und etwas Cavallerie zusammengesetzten Colonne die Strasse von Gaming gegen Neuhaus eingeschlagen und sei im raschen Verfolgen seiner errungenen Vortheile auf die keinen Angriff vermuthenden und mit der Fortbewegung ihrer Artillerie über den Berg beschäftigten Truppen gefallen, die er auseinander sprengte und die Kanonen nahm."
+        },
+        {
+          "source_id": "schoenhals-1873-p128-figures-v1",
+          "section": "p128",
+          "locator": "Schönhals (1873), p. 128 (transcribed from the page image)",
+          "quote": "Als FML. Merveldt mit einer gesammelten Truppe selbst angriff, so ward der Feind, der sich zwischen die Nachhut und die Colonne geworfen hatte, in die Mitte genommen, wobei eines seiner leichten Bataillone das Gewehr streckte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Kaum hatten sich die Truppen hier einigermassen gesammelt, als der Feind mit Ungestüm sich mehrerer der unterhalb Zell im Thale liegenden Häuser bemächtigte und dadurch die vor Mariazell aufgestellten Truppen abschnitt, wovon sich die Division Uhlanen auf der Strasse von Lilienfeld um den Schneeberg herumzog und sich in Fürstenfeld wieder mit dem Corps vereinigte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Einige andere, in die linke Flanke des Feindes entsendete Abtheilungen nöthigten ihn, sich etwas zurückzuziehen."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Allein bald darauf griffen die Franzosen neuerdings auf beiden Flügeln an; sie bedrohten von Mariazell her die rechte Flanke der Österreicher und erstiegen die Höhen links von dem besetzten Schlosse."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "stellten Abtheilungen verliessen, den Abmarsch der Colonne gewahrend, ihren Posten, und kaum waren sie an dem jenseits besetzten Schlosse vorübergezogen, als die Franzosen unter grossem Geschrei einen Angriff auf dasselbe unternahmen, die beiden Compagnien herab und durch das Wasser zurück warfen."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Von hier aus beschoss nun der Feind, indem er sich auf der Höhe ausbreitete, die Colonne in dem Engpasse mit solchem Erfolge, dass sie vollends in Unordnung gebracht, sich in einen unförmlichen Klumpen auflöste, und dass, so wie sich das Terrain erweiterte, Alles links und rechts vorbrach."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "enfin la charge est battue et la position enlevée, après une courte ct sanglante mêlée."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "le 108*, tenu en réserve à Rasing, se forma en eolonne, franchit le pont et sc porta en avant au pas de charge sur la route."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification-schoenhals",
+      "dimension": "fortification",
+      "value": "In Schönhals, to secure the line of retreat in the very narrow valley, side B occupied Schloss St. Sigmund, which stands on a sheer rock wall close to the far bank of the Salza, with two companies of Josef Colloredo; when the column withdrew past it, the French attacked the castle with loud shouts, threw the two companies down and back through the water, and from the height fired on the column in the defile. The grenadier battalion Riese defended houses in the valley below Zell, and the height of Mariazell was held by infantry.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Code B_fortified because a cited passage names a castle ('Schloss') that side B held and side A stormed. 'Schloss' can also mean a manor house, and Alombert and Colin call the building at Siegmund a chapel (claim fortification-alombert-colin), so the code rests on Schönhals's word. The houses below Zell and the height of Mariazell were held without named works. Side A fought from no works. The castle stood before the engagement, so the claim is tagged inherited. English renderings (ours): as in claim mariazell-ground for the tirailleurs on the heights; 'to secure this, the castle of St. Sigmund, standing on a sheer rock wall close to the far bank of the Salza, was occupied with two companies of Josef Colloredo'; as in claim side-b-command for the attack on the castle, the fire into the column, the houses and the height.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Der Feind breitete sich aber beiderseits auf den Höhen mit Tirailleurs aus und bedrohte die Rückzugslinie in dem sehr engen Thale."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Um diese zu sichern, ward das dicht an dem jenseitigen Ufer der Salza auf einer schroffen Felsenwand gelegene Schloss St. Sigmund mit zwei Compagnien Josef Colloredo besetzt."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "stellten Abtheilungen verliessen, den Abmarsch der Colonne gewahrend, ihren Posten, und kaum waren sie an dem jenseits besetzten Schlosse vorübergezogen, als die Franzosen unter grossem Geschrei einen Angriff auf dasselbe unternahmen, die beiden Compagnien herab und durch das Wasser zurück warfen."
+        },
+        {
+          "source_id": "schoenhals-1873-p130-figures-v1",
+          "section": "p130",
+          "locator": "Schönhals (1873), p. 130 (transcribed from the page image)",
+          "quote": "Von hier aus beschoss nun der Feind, indem er sich auf der Höhe ausbreitete, die Colonne in dem Engpasse mit solchem Erfolge, dass sie vollends in Unordnung gebracht, sich in einen unförmlichen Klumpen auflöste, und dass, so wie sich das Terrain erweiterte, Alles links und rechts vorbrach."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Das Grenadier-Bataillon Riese vertheidigte diese erwähnten Häuser mit grosser Tapferkeit, wobei die Thätigkeit seines Commandanten, des Majors Oscher grosses Verdienst hatte."
+        },
+        {
+          "source_id": "schoenhals-1873-p129-figures-v1",
+          "section": "p129",
+          "locator": "Schönhals (1873), p. 129 (transcribed from the page image)",
+          "quote": "Die Anhöhe von Mariazell ward mit Infanterie besetzt, und eine Division Uhlanen im Orte selbst aufgestellt."
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "fortification-alombert-colin",
+      "dimension": "fortification",
+      "value": "Alombert and Colin's narrative has the Austrians hold the woods to the right of the road, the village of Rasing, the plateau of Saint-Sigmund and the amphitheatre of Mariazell (OCR); near Neuhaus guns placed on a small shelf enfiladed the road, and in the next defile a gun stood between sheer rocks (OCR). That night the 13e léger bivouacked at Siegmund, which they call a chapel. In the journal of Davout's corps the enemy held the amphitheatre of Sigmund and the heights (OCR). Davout's report names no works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; the places held were woods, a village, a plateau, an amphitheatre, heights and defiles. Schönhals, coded separately, names a castle at St. Sigmund (claim fortification-schoenhals). English renderings (ours): as in claim mariazell-ground for the places held; 'and which had been well placed on a small shelf from where they enfiladed the road to their extreme range' (OCR); 'a piece of cannon, placed between sheer rocks to the right and left of the road, was masked by another rock near which the road made a bend' (OCR); as in claim side-a-engaged for the bivouac at Siegmund, 'that chapel'; as in claim mariazell-ground for the journal (OCR); Davout, as in claim davout-side-b.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 124 (OCR running heads; not checked against print)",
+          "quote": "Les Autrichiens occupaient les bois à droite de la route, le village de Rasing, le plateau de Saint-Sigmund, el l'amphithéatre de Mariazell."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "qu'on avait bien placées sur un petit replat d'où elles enfilaient la route jusqu'à leur extrême portée."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-8-nov",
+          "locator": "Alombert and Colin, t. IV, p. 123 (OCR running heads; not checked against print)",
+          "quote": "une pièce de canon, placée entre des rochers à pic à droite et à gauche de la route, était masquée par un autre rocher près duquel la route faisait un détour,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p125-figures-v1",
+          "section": "p125",
+          "locator": "Alombert and Colin, t. IV, p. 125 (transcribed from the page image)",
+          "quote": "Le reste de la cavalerie bivouaqua à Mariazell; le 13e léger à Siegmund, le 108e entre cette chapelle et Wegscheid."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "mariazell-3rd-corps-journal",
+          "locator": "Alombert and Colin, t. IV, p. 622 (OCR running heads; not checked against print)",
+          "quote": "L'ennemi oceupait alors l'amphithétre de Sigmund, les hauteurs à droite et à gauche, et avait son front couvert par la petite Sala"
+        },
+        {
+          "source_id": "alombert-colin-t4-p650-figures-v1",
+          "section": "p650",
+          "locator": "Alombert and Colin, t. IV, p. 650 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Excellence que, hier, vers 9 heures du matin, l'avant-garde, aux ordres du général Heudelet, a rencontré en avant de Neuhaus le corps du général Merfeld, fort de 6 bataillons de grenadiers et 3 régiments d'infanterie."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Alombert and Colin's introduction after the selected passage for 7 November (p. 113, the 1st and 2nd corps), for 8 November at Saint-Pœlten (pp. 117-122) and after the selected passage (Beaumont's and Marmont's marches, pp. 125-126), and for 9 November (pp. 126-130), read and not cited; the 3rd corps' journals of 16 and 18 brumaire and the Journal de l'artillerie du 3e corps, seen only around keyword hits; the rest of the list of 6 brumaire for the 3rd corps (its 3rd division and its light cavalry division, p. 725), read only in the OCR and not cited; Davout's report on the prisoners' declarations and the detailed report of the combat he promised (p. 651), neither printed in the passages read; Merveldt's report to the Hofkriegsrath, which Schönhals cites, not inspected; Schönhals's account of the retreat after the engagement (p. 130, OCR), cited only for Graz, Khevenhüller's brigade and Fürstenfeld. Figures seen only in the OCR and not restated in values: the hours of Merveldt's departure from Saint-Georgen, of the French advanced guard's start and of the infantry's day in the journal; the distances in Alombert and Colin's narrative; the number of guns taken near Neuhaus in their narrative and in the journal; the journal's count of the hussars' prisoners, which differs from the 150 printed on p. 125; the number of battalions of Khevenhüller's brigade; the page numbers of the parents, read from the OCR except where a page image is cited.",
+    "Most consequential gap: side A's engaged strength. Bodart gives about 15,000 men, but Davout's report and Schönhals have only Heudelet's advanced guard engage, and no passage read gives its strength. The targeted follow-up searched t. IV's appendix of situations for a return of the 3rd corps: there is none among the particular situations (pp. 748-770), and the list of the Grande Armée at 6 brumaire an XIV (28 October), read from the page images of pp. 711, 723 and 724, gives the 13e légère and the 108e 2 battalions each but no men (claim side-a-engaged). That narrows the gap to the composition of the advanced guard without closing it. A return of the 3rd corps for early November, Heudelet's detailed report of the combat or the 3rd corps' situations in the French war archives, none of which the passages read print, could close it.",
+    "Disputes recorded in the claims: side A's strength (Bodart about 15,000; the accounts have only Heudelet's advanced guard engage, with no figure, and Schönhals has Merveldt admit no more than 200 horse); side B's strength (Bodart 7,000; Davout 6 grenadier battalions and 3 infantry regiments; Schönhals 13 battalions and 6 squadrons leaving Steyer, with no count of men in the position); side B's loss (Bodart 4,000, mostly prisoners, and 16 guns; Davout 400 dead, 600 wounded and 4,000 prisoners, 16 guns and 3 flags; Alombert and Colin about 4,000 prisoners, 18 guns, 2 flags and 80 vehicles, and 150 more prisoners; Schönhals 2500 men in all, many of the scattered men soon returning); Merveldt's rank (Bodart GM, Schönhals FML); St. Sigmund (Schönhals a castle held by two companies, Alombert and Colin a chapel), and with it the fortification code (B_fortified from Schönhals, none_named from Alombert and Colin). Side A's loss is unknown in all three accounts.",
+    "Families and dependence: Bodart (a compilation; his 4,000 and 16 guns equal Davout's figures, though the passages read do not show his source); Alombert and Colin, t. IV (the French official history of 1908, with Davout's report of 9 November, the 3rd corps' journal and the list of 6 brumaire that it prints, all read as printed there, not as originals; its account of Merveldt's march to Neuhaus, and of the warning that reached him there, follows Schönhals's closely without citing him, and it cites Schönhals once elsewhere, so for Austrian-side statements it may not be independent of him; the passages read do not show whether the two share a source such as Merveldt's report); Schönhals (the Austrian account written in 1831 and printed in 1873, an interested one, which cites Merveldt's report to the Hofkriegsrath and gives French figures at second hand; by its preface, what it says of the French army's operations is drawn from that army's bulletins, which were not inspected)."
+  ]
+}
+```
+
 
 ### B368c: TREFFEN bei Dürnstein (11./11. 1805)
 
@@ -16291,6 +17810,2064 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": false,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B368c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's engagement at Dürnstein (11 November 1805) in cohort v1's third-coalition 1805 group: the attack of Kutusow's Russian army, with the Austrian FML Schmidt, on Marshal Mortier's corps on the left bank of the Danube, from Miloradovitch's morning attack at Loiben to the evening fight with Doktorow's column, the break-through of Gazan's division and Dupont's fight between Weissenkirchen and Wadstein. Mortier's march down the left bank on 10 November and the Russian withdrawal to Krems in the night are context, as are the 6th corps' return of 4 brumaire and Moriggl's order of battle at the Rhine crossing. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Russian and Austrian) under General Kutusow 25,000 men and side A (French) under Marshal Mortier 8,000. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed table, read from the page image in the frame transcription; one claim among several, and the passages read do not show his basis. For side B, Alombert and Colin give the three attacking columns 9,000, 2,600 and 3,200 men and put at least 16,000 men, with Essen's reinforcement, against Gazan's division, while Essen and Bagration held the rest of the Russian army in reserve (claim alombert-side-b). Schönhals gives Kutusow's forces as 32,000 men after the sixth Russian column, 7000 strong, joined him at Hollabrunn on the 12th (claim schoenhals-figures); 32,000 less 7000 is 25,000 (our arithmetic), Bodart's figure, but the passages read do not show that Bodart reckoned so. For side A, Alombert and Colin give Gazan's division 5,300 men (claim alombert-side-a) and no strength for Dupont's division, which fought in the evening (claim dupont-division); 8,000 is in none of the passages read. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the table: '1805 11/11. engagement at Dürnstein (3.)'; 'Russians and Austrians | French'; 'Gen. Kutusow | Marshal Mortier'; 'forces: 25,000 | - | 8,000'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "1805 11./11. TREFFEN bei Dürnstein (3.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Russen und Österreicher | Franzosen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Gen. Kutusow | Marschall Mortier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Streitkräfte:\n25.000 | — | 8.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "alombert-side-b",
+      "dimension": "strength",
+      "value": "Side B (Russian), Alombert and Colin's figures: General Doktorow, with 16 battalions and 2 squadrons, 9,000 men, was to move by Egelsee and Scheibenhof on Weissenkirchen to take Gazan's column in the rear; General Stryck, with 5 battalions, 2,600 men, was to move by Egelsee onto the French left flank; and Miloradovitch, with 7 battalions and 2 squadrons, 3,200 men, was to attack Mortier's troops in front and throw them back into the defile. General Essen II at Stein and Bagration beyond Krems held the rest of the Russian army in reserve. With the reinforcement Essen gave Miloradovitch for his second attack, at least 16,000 men were to assail the 5,300 men of Gazan's division. Their footnotes give the units of the three columns, citing Danilewski for the first.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's official history, read from the page images; the figures are its reconstruction, and it cites Danilewski's Russian relation for the first column's units. The three columns make 14,800 men (our sum); the passages read give no figure for Essen's reinforcement, which brings the total to at least 16,000. Bodart's 25,000 (claim bodart-strength) differs, and the passages read do not show whether it counts the reserves under Essen and Bagration. Schönhals gives the turning force, after Kotzebue, as 10,000 (claim schoenhals-figures). Kutusow, on the Austrian General Schmidt's advice, resolved to carry off Gazan's division and assigned these columns to the attack (claim side-b-command), so the claim is tagged commander_created. English renderings (ours): 'on the advice of the Austrian General Schmidt, who performed the functions of chief of staff, he resolved to carry off Gazan's division'; 'General Doktorow, with 16 battalions and' (p. 142) '2 squadrons (1), that is 9,000 men, was to move by Egelsee and Scheibenhof on Weissenkirchen to take Gazan's column in the rear'; 'General Stryck, with 5 battalions (2), that is 2,600 men, was to move by Egelsee onto the left flank of the French'; 'finally, Miloradovitch, with 7 battalions and 2 squadrons (3), that is 3,200 men, would attack Mortier's troops in front and try to throw them back into the defile'; 'General Essen II, at Stein, and Bagration, beyond Krems, held the rest of the Russian army in reserve'; 'with the reinforcement that Essen supplied to Miloradovitch for his second attack, it is at least 16,000 men who were to assail the 5,300 men of Gazan's division'; footnotes (p. 143), '(1) 6th chasseurs, fusiliers of Moscow, Iaroslaw and Wiatka, 2 battalions of the regiments of Briansk and Narwa, hussars of Mariopol. Danilewski, p. 136'; '(2) regiment of Boutyrsk and 2 battalions of the 8th chasseurs'; '(3) regiment of Apchéron, 1 battalion of grenadiers of Little Russia, 1 of fusiliers of Smolensk, 1 of the 8th regiment of chasseurs'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Sur le conseil du général autrichien Schmidt, qui remplissait les fonctions de chef d'état-major, il résolut d'enlever la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Le général Doktorow, avec 16 bataillons et"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "2 escadrons (1), soit 9,000 hommes, devait se porter par Egelsee et Scheibenhof sur Weissenkirchen pour prendre en queue la colonne de Gazan;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "le général Stryck, avec 5 bataillons (2), soit 2,600 hommes, devait se porter par Egelsee sur le flanc gauche des Français."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Enfin, Miloradovitch, avec 7 bataillons et 2 escadrons (3), soit 3,200 hommes, attaquerait en tête les troupes de Mortier et s'efforcerait de les rejeter dans le défilé."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Le général Essen II, à Stein, et Bagration, au delà de Krems, tenaient en réserve le reste de l'armée russe."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Avec le renfort qu'Essen fournit à Miloradovitch pour sa seconde attaque, c'est au moins 16,000 hommes qui devaient assaillir les 5,300 hommes de la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "(1) 6e chasseurs, fusiliers de Moscou, Iaroslaw et Wiatka, 2 bataillons des régiments de Briansk et de Narwa, hussards de Mariopol. Danilewski, p. 136."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "(2) Régiment de Boutyrsk et 2 bataillons du 8e chasseurs."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "(3) Régiment d'Apchéron, 1 bataillon de grenadiers de la Petite-Russie, 1 de fusiliers de Smolensk, 1 du 8e régiment de chasseurs."
+        }
+      ]
+    },
+    {
+      "id": "alombert-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), Alombert and Colin's figures: Gazan's division had 5,300 men. In their narrative (OCR), Mortier hastened on with Gazan's division alone, the other divisions being too far off; at Weideneck he found boats enough to carry the 4e léger and the 100e de ligne with artillery, which landed at Weissenkirchen, and the 103e went on to bivouac by the road between Wadstein and Dürrenstein. In their reckoning of the losses, the 4e léger had put 1,500 men in line on 11 November, and the 100e and the 103e had 1,300 and 1,600 men in the ranks on 22 November 'out of 2,000 present on the 11th'; no strength is given for the 4e dragons.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's own official history: the 5,300 is read from the page image of p. 143 and the regiments' strengths from p. 166, and the march is read in the OCR. We read the 2,000 as each regiment's, since 1,300 and 1,600 together exceed it; read so, the three infantry regiments put 5,500 men in line (our sum), against the 5,300 given for the division on p. 143, and the passages read do not reconcile the two. The narrative's counts of the French troops engaged at stages of the morning are read only in the OCR and are not restated (open questions). Dupont's division, which fought in the evening, is a separate claim (dupont-division). Gazan's division was on the field from the evening before by the earlier movement, so the claim is tagged inherited. English renderings (ours): as in claim alombert-side-b for the 5,300; 'Mortier therefore hastens, but with Gazan's division alone, the ... (OCR) others being too far away' (OCR); 'having reached Weideneck, opposite Melk, he finds there boats in sufficient number to carry the 4e léger and the 100e de ligne, with ... (OCR) pieces of artillery' (OCR); 'the whole is landed at Weissenkirchen' (OCR); 'the 103e rejoins the artillery at Weissenkirchen, passes it, and goes to bivouac by the road between Wadstein and Dürrenstein' (OCR); 'of all the corps engaged in the combat of Dürrenstein, the one that suffered most was the 4e léger. In its return of 22 November it reports 728 prisoners; it has 155 men in hospital; it has barely 500 left in the ranks, instead of the 1,500 it had put in line on 11 November'; 'the 100e and the 103e had suffered less. Each of them had left 160 to 170 prisoners in the enemy's hands and sent 320 men to hospital. There remained to the one 1,300, to the other 1,600 men in the ranks on 22 November, out of 2,000 present on the 11th'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Avec le renfort qu'Essen fournit à Miloradovitch pour sa seconde attaque, c'est au moins 16,000 hommes qui devaient assaillir les 5,300 hommes de la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Mortier se hâte donc, mais avec la seule division Gazan, les deux autres se trouvant trop loin."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Parvenu à Weideneck, en face de Melk, il y trouve des barques en assez grand nombre pour transporter le 4° léger et le 100° de ligne, avec deux bouches à feu."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Le tout est débarqué à Weissenkirchen;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Le 103 rojaint l'artillerie à Weissenkirchen, la dépasse, et va bivouaquer au bord du chemin, entre Wadstein et Dürrenstein."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "De tous les corps engagés dans le combat de Dürrenstein, celui qui souffrit le plus fut le 4e léger. Il accuse, dans sa situation du 22 novembre, 728 prisonniers; il a 155 hommes aux hôpitaux; il lui en reste à peine 500 dans le rang, au lieu de 1,500 qu'il avait mis en ligne le 11 novembre."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le 100e et le 103e avaient moins souffert. Chacun d'eux avait laissé 160 à 170 prisonniers aux mains de l'ennemi, et envoyé 320 hommes aux hôpitaux. Il restait à l'un 1,300, à l'autre 1,600 hommes dans le rang, le 22 novembre, sur 2,000 présents le 11."
+        }
+      ]
+    },
+    {
+      "id": "schoenhals-figures",
+      "dimension": "strength",
+      "value": "Schönhals's figures, from the Austrian side: the column of Doctorow's division and Maltiz's brigade, which FML Schmidt led himself, was to turn the French; Schmidt left two battalions on the ridge and one in the valley and advanced on Dürrenstein with the rest, and the Russians, about 500 men strong, formed up outside Dürrenstein. The French made front against them on a gentle spur between the Danube and the vineyards with two guns, and their cavalry, about 400 horses, stood before Loiben. By his footnote, Kotzebue has 10,000 Russians intended for turning the French reach Egelsee in four columns, with two guns brought along with difficulty. In the OCR, Kutusow had drawn up his army at Krems, Bagration camped at Stratzing with a number of battalions and Miloradovic's division held Stein. Kutusow's forces grew to 32,000 men by his union with his sixth column, which arrived 7000 strong at Hollabrunn on the 12th. Schönhals gives no total for either side at Dürrenstein.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's own side's account, read from the page images except where marked OCR. Schönhals gives no count for Miloradović's division or for the whole column. Where he has the Russians, about 500 men strong, form up outside Dürrenstein, the Austrian relation that Alombert and Colin quote (claim side-b-losses-reported) has the column deploy about ... (OCR) paces from the town, and their narrative has Doktorow's advanced guard deploy ... (OCR) paces east of Dürrenstein (OCR); the passages read do not show which the relation's original gives. His two guns and about 400 horses for the French stand in that relation as quoted (OCR). Kotzebue's 10,000, which Schönhals reports at second hand, is the turning force only. Schönhals's footnote says that, for want of more reliable sources, some details were taken from Kotzebue's description of the engagement; Alombert and Colin hold that the later German relations all rest mainly, almost solely, on Kotzebue's work, and that he had not been present at the combat (OCR). Bodart's 25,000 (claim bodart-strength) equals the 32,000 less the 7000 of the sixth column (our arithmetic); the passages read do not show that Bodart reckoned so. The claim mixes forces that Kutusow's plan assigned to the attack, side A's troops on the field and the army's strength after the engagement, so it is tagged unresolved. English renderings (ours): 'the departure of the column, consisting of Doctorow's division and Maltiz's brigade, which FML Schmidt led himself, was so delayed that it left Egelsee only at 1 in the afternoon'; 'he left two battalions on the ridge, one battalion in the valley, and advanced with the remainder at the double against Dürrenstein, which he found unoccupied'; 'about 500 men strong, the Russians formed up outside Dürrenstein'; '[meanwhile the French too had] made front against them and drawn up on a gentle spur between the Danube and the vineyards with two guns, the left wing leaning on Loiben' (p. 136); 'the cavalry, numbering about 400 horses, stood before Loiben'; footnote (p. 135), 'according to Kotzebue's statement, the 10,000 Russians intended for turning the French are said to have arrived from their camp east of Krems at Egelsee as early as 2 in the night, etc., in four columns'; 'they also had with them two guns brought along with difficulty'; 'for want of more reliable sources, some things were taken here from the description of the engagement by the k. k. Captain Kotzebue'; Alombert and Colin, 'the German relations later than ... (OCR) depart from them in the most radical way' (OCR); 'they all have as their principal and almost sole source the work of Captain von Kotzebue, a young officer of ... (OCR) years, who had not been present at this combat,' (OCR); Schönhals, 'after crossing the Danube Kutasow had drawn up his army at Krems' (p. 134, OCR); 'Prince Bagration camped at Stratzing with ... (OCR) battalions' (OCR); 'Stein was occupied by the division of Lieutenant-General Miloradovic' (OCR); 'since, however, by Kutusow's union with his sixth column his forces had grown to 32,000 men' (p. 137); 'the engagement at Dürrenstein had the result that Kutusow gained time ... to make the necessary arrangements for his union with Auersperg's corps and the sixth Russian column, which arrived 7000 strong at Hollabrunn on the 12th'; Alombert and Colin, 'Austrian relation, ... (OCR)' (OCR); 'we deployed at about ... (OCR) paces from the town' (OCR); 'he placed his infantry and ... (OCR) guns there; the cavalry, about ... (OCR) men, deployed before Loiben' (OCR); 'Doctourow's advanced guard, which had passed through Dürrenstein, had deployed ... (OCR) paces to the east' (OCR).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Der Abmarsch der Colonne, bestehend aus der Division Doctorow und Brigade Maltiz, welche FML. Schmidt selbst führte, verzögerte sich so, dass sie von Egelsee erst um 1 Uhr Nachmittag aufbrach."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Er liess zwei Bataillone auf dem Rücken, ein Bataillon im Thale zurück, und rückte mit dem Resttheile im Eilschritte gegen Dürrenstein, das er unbesetzt fand."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Etwa 500 Mann stark, marschirten die Russen ausserhalb Dürrenstein auf."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "zosen gegen sie Front gemacht und sich auf einem sanften Bergfuss zwischen der Donau und dem Weingebirge mit zwei Kanonen, den linken Flügel an Loiben gelehnt, aufgestellt."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Die Cavallerie, etwa 400 Pferde zählend, stand vor Loiben."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "¹) Nach Angabe „Kotzebue's“ sollen die zur Umgehung der Franzosen bestimmten 10.000 Russen schon um 2 Uhr Nachts aus ihrem Lager östlich von Krems in Egelsee, u. s. in vier Colonnen angekommen sein;"
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "sie hatten auch zwei mit Mühe fortgebrachte Geschütze mit."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "In Ermangelung verlässlicherer Quellen wurde hier Einiges aus der Beschreibung des Gefechtes vom k. k. Hauptmann Kotzebue aufgenommen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 141 (OCR running heads; not checked against print)",
+          "quote": "Les relations allemandes postérieures à 1805 s’en écartent de La ma nière la plus radicale."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 141 (OCR running heads; not checked against print)",
+          "quote": "Elles ont toutes pour source principale et à peu près unique le travail du capitaine vou Kotæbue, jeune officier de 21 ans, qui n'avait pas assisté à ce combat,"
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Kutasow hatte nach dem Übergange über die Donau sein Heer bei Krems aufgestellt"
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Bei Stratzing lagerte FUrst Bagration mit nenn Bataillonen,"
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Stein war von der Division des Ge- neral-Lieutenants Miloradovic besetzt,"
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "da aber durch die Vereinigung Kutusow's mit seiner sechsten Colonne, dessen Streitkräfte auf 32.000 Mann angewachsen waren,"
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "Helation autriehionne, KE 46"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "On se déploga à environ #00 pas de la ville;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "il plaça là son infanterie et 2 canons ; la cavalerie, 400 hommes environ, déplogée devant Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "L'avant-garde de Doctourow, qui avait traversé Dürrenstein, s'était déployée à 500 pas à l'Est,"
+        }
+      ]
+    },
+    {
+      "id": "dupont-division",
+      "dimension": "strength",
+      "value": "Side A (French), Dupont's division, which fought in the evening: in Alombert and Colin (OCR), Dupont had stopped at Marbach by their account of the day before the engagement, and then set his division in bivouac between Spitz and Weissenkirchen, ordering the 1st hussars and the 9e léger to Weissenkirchen and placing the 32e between Weissenkirchen and Spitz and the 96e at Spitz. Dupont's troops, marching to Gazan's help, fought the greater part of Doktorow's column between Weissenkirchen and Wadstein: first the 9e, then the 32e, which Dupont brought up to relieve it, while the 96e stood in reserve at Weissenkirchen. The return of the troops present under arms in the 6th corps on 4 brumaire, which Alombert and Colin print, records its 1st division, the 9e léger, the 32e and the 96e, as detached with Prince Murat and gives it no figures, and records the 1st hussars as detached to the 1st division. Moriggl gives Dupont's division, the 9th light and the 32nd and 96th line infantry under the brigadiers Rouyer and Marchand, 7 battalions and 5350 men at the Grande Armée's crossing of the Rhine.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The march and the fight are read in the OCR of Alombert and Colin's narrative, which quotes Talandier's relation and an account of Dupont's fight that it does not name in the passages read; the regiment numbers are those printed on the page image of p. 769, and the return's date, 4 brumaire an XIV, is 26 October 1805 by our conversion. The targeted follow-up for side A's strength: the 6th corps' return gives no figures for Dupont's division, which was detached, and Moriggl's order of battle, an Austrian and Tyrolean account with French strengths at second hand, gives 5350 men at the start of the campaign, before the division's fight at Haslach (entry B363c). Neither gives its strength on 11 November, and no passage read gives the strength of the troops it engaged. Dupont's division was on the march behind Gazan's before the engagement, so the claim is tagged inherited; Dupont's own orders that evening are recorded in claim side-a-command. English renderings (ours): 'Dupont has stopped at Marbach, Dumonceau at Persenbeug and behind' (OCR); 'Dupont had set his division in bivouac between Spitz and Weissenkirchen' (OCR); '\"General Dupont orders the 1st hussars and the 9th light infantry to establish themselves ... (OCR) leagues ahead of Spitz, at Weissenkirchen\"' (OCR); 'he places the 32nd between Weissenkirchen and Spitz, and the 96th in the latter village' (OCR); '[at ... (OCR) league from Dürnstein, Colonel Talandier continues,] our advanced guard signalled General Dupont's troops, which were marching to our help' (OCR); 'these troops had had to fight, between Weissenkirchen and Wadstein, the greater part of Dokhtourow's column' (OCR); 'General Dupont arrives with the 32nd regiment; he has it advance to relieve the brave 9th, which had used up its cartridges' (OCR); 'the 96th was placed in reserve at Weissenkirchen' (OCR); p. 769, 'return of those present under arms in the 6th army corps on 4 brumaire'; '1st division | 9th regiment of light infantry / 32nd of the line / 96th of the line | - / - / - | - / - / - | - / - / - | the 1st division detached with Prince Murat,'; 'cavalry | 1st regiment of hussars | - | 25 | 25 | this regiment detached to the 1st division'; 'at headquarters, at Ulm, 4 brumaire an XIV'; Moriggl, p. 89, 'there follows now the organisation and the statement of the strength of the Grande Armée at its crossing of the Rhine'; p. 92, 'VI army corps - Marshal Ney'; 'Dupont | Rouyer / Marchand | 9th light / 32nd line infantry regiment / 96th \" | 7 | - | 5350'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 138 (OCR running heads; not checked against print)",
+          "quote": "Dupont s'est arrêté à Marbach, Dumonceau à Per- seubeug el en arrière."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "Dupont avait établi sa division au bivouac entre Spitz et Weissenkirchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "« Le général Du- pont ordonne au 1° hussards et au 9° d'infanterie légère de s'établir à 2 lieues en avant de Spitz, à Weissenkir- chen:"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "il place le 32° entre Weissenkirchen et Spitz, ct le 96° dans ce dernier village;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "notre avant-gurde signala les troupes du général Du= pont, qui marchaient à notre secours"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "Ces froupos avaient eu à combattre, entre Weissen- kirchen et Wadstein, la plus grande partie de la colonne de Dokhlourow."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont arrive avec le 32° régiment; il le fait avancer pour relever le brave 9° qui avail épuisé ses cartouches"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "Le 96° était placé en réserve à Weissenkirchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-p769-figures-v1",
+          "section": "p769",
+          "locator": "Alombert and Colin, t. IV, p. 769 (transcribed from the page image)",
+          "quote": "Etat des présents sous les armes au 6e corps d'armée le 4 brumaire."
+        },
+        {
+          "source_id": "alombert-colin-t4-p769-figures-v1",
+          "section": "p769",
+          "locator": "Alombert and Colin, t. IV, p. 769 (transcribed from the page image)",
+          "quote": "1re division | 9e régiment d'infanterie légère / 32e de ligne / 96e de ligne | » / » / » | » / » / » | » / » / » | La 1re division détachée avec le prince Murat,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p769-figures-v1",
+          "section": "p769",
+          "locator": "Alombert and Colin, t. IV, p. 769 (transcribed from the page image)",
+          "quote": "Cavalerie. | 1er régiment de hussards | » | 25 | 25 | Ce régiment détaché à la 1re division."
+        },
+        {
+          "source_id": "alombert-colin-t4-p769-figures-v1",
+          "section": "p769",
+          "locator": "Alombert and Colin, t. IV, p. 769 (transcribed from the page image)",
+          "quote": "Au quartier général, à Ulm, le 4 brumaire an XIV."
+        },
+        {
+          "source_id": "moriggl-1861-p89-figures-v1",
+          "section": "p89",
+          "locator": "Moriggl (1861), p. 89 (transcribed from the page image)",
+          "quote": "Es folge nun die Eintheilung und die Angabe der Stärke der großen Armee bei ihrem Uebergang über den Rhein."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "VI. Armee-Korps — Marschall Ney."
+        },
+        {
+          "source_id": "moriggl-1861-p92-figures-v1",
+          "section": "p92",
+          "locator": "Moriggl (1861), p. 92 (transcribed from the page image)",
+          "quote": "Dupont | Rouyer / Marchand | 9. leichtes / 32. L.-I.-R. / 96. „ | 7 | — | 5350"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General Kutusow as side B's (Russian and Austrian) commander and Marshal Mortier as side A's (French), and records the Austrian FML Baron von Schmidt as killed.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed table. In Alombert and Colin and in Schönhals, Kutusow decided on the attack, and the Austrian Schmidt advised it or drew up its plan and went with the turning column (claim side-b-command); Mortier commanded side A on the field, and in the evening Dupont fought his division apart from him (claim side-a-command). English renderings (ours): as in claim bodart-strength for the table; '+ Austrian FML Baron von Schmidt'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Russen und Österreicher | Franzosen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Gen. Kutusow | Marschall Mortier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "† öst. FML. Fh. v. Schmidt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Kutusow commanded side B and decided the attack. In Alombert and Colin, informed on the evening of the 10th by marauders taken by the Russians that Gazan's division was isolated, he resolved, on the advice of the Austrian General Schmidt, who acted as chief of staff, to carry off Gazan's division, and as he believed its bulk to be in the defile between Weissenkirchen and Dürnstein he meant to crush it there; Doktorow, Stryck and Miloradovitch led the three columns, with Essen II and Bagration in reserve. Doktorow's column reached Egelsee only after noon, and Schmidt, who went with it, thinking that Mortier had passed Dürnstein, had it bear left and come down into the valley toward Dürnstein and Wadstein. In their narrative (OCR), Doktorow, learning on the way down that Dupont's division was near Weissenkirchen, turned against this new adversary to contain it so that Miloradovitch and Schmidt could carry through their joint action against Gazan's division. In their judgment the only combatant of 11 November who fell short of his task was General Dokhtourow, whose slowness made Schmidt's plan fail. In Schönhals, Kutusow decided on the evening of the 10th to attack the French the next day, after FML Schmidt's plan: a column was to march early to Egelsee, pass Scheibenhof in silence, gain the ravine of Weissenkirchen and fall on the enemy's rear, while Miloradović's division attacked in front from Stein. The column, which Schmidt led himself, was so delayed that it left Egelsee only in the afternoon; to keep to the plan Schmidt brought its bulk down to the Danube through a ravine between Dürrenstein and Weissenkirchen, part of it passing through Dürrenstein as Gerhardt's column came down over the ruin, and neither Schmidt nor other officers could bring the Russians, who feared the columns' separation, to leave a garrison in the little town.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both accounts read from the page images, except the OCR where marked. They agree that Kutusow decided the attack and that the Austrian Schmidt advised or planned it and went with the turning column. They differ on the hour the column reached or left Egelsee (Alombert and Colin, there only after noon; Schönhals, leaving only at 1 in the afternoon; Kotzebue in Schönhals's footnote, arriving at 2 in the night) and on its leader: Alombert and Colin name Doktorow's column, which Schmidt accompanied, Schönhals the column Schmidt led himself, with Gerhardt's column beside it. These are the commanders' decisions at the engagement, so the claim is tagged commander_created. English renderings (ours): 'Kutusow had been informed, on the evening of the 10th, by marauders fallen into the hands of the Russians, of the isolation in which Gazan's division found itself'; as in claim alombert-side-b for the advice and resolve; 'as he believed the bulk of that division to be in the defile between Weissenkirchen and Dürnstein, it was there that he meant to crush it'; as in claim alombert-side-b for the columns and reserves; 'Doctorow's column, which was to pass Egelsee before daybreak, was there only after noon'; 'General Schmidt, who accompanied it, then thinking that Mortier had passed Dürnstein and that time was being lost in going all the way to Weissenkirchen, had it bear left and come down into the valley toward Dürnstein and Wadstein, but he reached it only at 5 o'clock'; as in claim dupont-division for Dokhtourow's column (OCR); '[this general, coming down from the mountains to the bank of the Danube,] had learned of the presence of Dupont's division near Weissenkirchen' (OCR); '[he had thought he must carry the bulk of his forces] against this new adversary and contain it, so that Miloradovitch and Schmidt could carry through their joint action against Gazan's division' (OCR); 'among the combatants of 11 November, the only one who showed himself below his task is General Dokhtourow, whose slowness made Schmidt's plan fail' (p. 166); Schönhals, 'to rid himself of the enemy's pressing after him, Kutusow decided on the evening of the 10th to attack the French on the following day'; 'according to the plan of attack drawn up by FML Schmidt, a column was to march at 3 in the morning to Egelsee and, passing Scheibenhof in the greatest silence, try to gain the ravine of Weissenkirchen as fast as possible and fall on the enemy's rear, while Miloradović's division at the same time attacked him in front from Stein'; as in claim schoenhals-figures for the column's departure; 'part of it turned against this place and passed through it all the more easily as Gerhardt's column came down over the ruin at the same time'; 'FML Schmidt had found himself obliged, in order not to give up the plan, to bring the bulk of the column down to the Danube through a ravine between Dürrenstein and Weissenkirchen, since it could be foreseen that the column would not be able to reach Weissenkirchen before evening'; 'the Russians feared the separation of the columns, and neither FML Schmidt nor other officers could bring them to leave a garrison in the little town that blocks the pass'; footnote (p. 135), as in claim schoenhals-figures for Kotzebue's hour.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Kutusow avait été informé, dans la soirée du 10, par des maraudeurs tombés aux mains des Russes, de l'isolement où se trouvait la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Sur le conseil du général autrichien Schmidt, qui remplissait les fonctions de chef d'état-major, il résolut d'enlever la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Comme il croyait le gros de cette division dans le défilé entre Weissenkirchen et Dürnstein, c'est là qu'il voulait l'écraser."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "2 escadrons (1), soit 9,000 hommes, devait se porter par Egelsee et Scheibenhof sur Weissenkirchen pour prendre en queue la colonne de Gazan;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "le général Stryck, avec 5 bataillons (2), soit 2,600 hommes, devait se porter par Egelsee sur le flanc gauche des Français."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Enfin, Miloradovitch, avec 7 bataillons et 2 escadrons (3), soit 3,200 hommes, attaquerait en tête les troupes de Mortier et s'efforcerait de les rejeter dans le défilé."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Le général Essen II, à Stein, et Bagration, au delà de Krems, tenaient en réserve le reste de l'armée russe."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "La colonne de Doctorow, qui devait passer à Egelsee avant le jour, n'y fut qu'après midi;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "le général Schmidt, qui l'accompagnait, pensant alors que Mortier avait dépassé Dürnstein, et qu'on perdait du temps à s'en aller jusqu'à Weissenkirchen, fit appuyer à gauche et descendre dans la vallée vers Dürnstein et Wadstein, mais il n'y parvint qu'à 5 heures."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "Ces froupos avaient eu à combattre, entre Weissen- kirchen et Wadstein, la plus grande partie de la colonne de Dokhlourow."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "avait appris ln présence de la division Dupont près de Weissenkirchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "contre ce nouvel adversaire et le contenir, afin que Miloradwiteh et Sebmidi pussent mener à bont leur action commune contre la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Parmi les combattants du 11 novembre, le seul qui se soit montré au-dessous de sa tâche est le général Dokhtourow, dont la lenteur fit échouer le projet de Schmidt."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Um sich dem Nachdrängen vom Feinde zu entledigen, beschloss Kutusow am 10. Abends, die Franzosen am folgenden Tage anzugreifen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Nach dem vom FML. Schmidt entworfenen Angriffsplan sollte eine Colonne Früh 3 Uhr nach Egelsee rücken, und in grösster Stille bei Scheibenhof vorbei, so eilig als möglich die Schlucht von Weissenkirchen zu gewinnen trachten und den Feind im Rücken anfallen, während die Division Miloradović ihn gleichzeitig von Stein her in der Front angreift."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Der Abmarsch der Colonne, bestehend aus der Division Doctorow und Brigade Maltiz, welche FML. Schmidt selbst führte, verzögerte sich so, dass sie von Egelsee erst um 1 Uhr Nachmittag aufbrach."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Ein Theil derselben wandte sich gegen diesen Ort und drang um so leichter durch denselben, als die Colonne Gerhardt gleichzeitig über die Ruine herabkam."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "FML. Schmidt hatte sich nämlich genöthigt gesehen, um den Plan nicht aufzugeben, das Gros der Colonne durch eine Schlucht zwischen Dürrenstein und Weissenkirchen an die Donau herabzuführen, indem sich vorhersehen liess, die Colonne würde vor Abend nicht in Weissenkirchen anlangen können."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Die Russen fürchteten die Trennung der Colonnen und weder der FML. Schmidt, noch andere Officiere konnten sie dazu bringen, in dem den Pass sperrenden Städtchen eine Besatzung zu lassen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "¹) Nach Angabe „Kotzebue's“ sollen die zur Umgehung der Franzosen bestimmten 10.000 Russen schon um 2 Uhr Nachts aus ihrem Lager östlich von Krems in Egelsee, u. s. in vier Colonnen angekommen sein;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Marshal Mortier commanded side A on the field, General Gazan his division; Schönhals puts Mortier's corps quarters at Dürrenstein the night before. In Alombert and Colin (OCR), Mortier told Fabvier, as he arrived on the field, to go forward and turn the ground to the best account; resolved to drive the enemy out of Unter-Loiben for good, putting a battalion of the 100e under Major Henriod into line along the Danube and directing companies of the 103e under chef de bataillon Pasquier and General Campana onto the plateau; and, once he saw the troops in bivouac, Gazan having ordered the bivouacs for the night, rode off with an escort to meet Dupont's division, met the Russian column just beyond the town and had to fight his way back to Gazan's division. Facing the concentric attack, he resolved first to gather all his means on the plateau near Ober-Loiben; in the relation they quote, he determined to gather the division's troops in front of the plateau held by a battalion of the 100e, to await the enemy's shock there and, after repelling it, to attempt the retreat. He tried first to overthrow the column, which he did not judge very numerous; then Major Henriod of the 100e proposed to lead his regiment's grenadiers into the walled road by which the enemy was advancing, and the Marshal ordered it carried out at once. Apart from him, General Dupont brought up a regiment to relieve the one engaged and, wishing to make an end, had its colonel pull his men out of the mêlée man by man and rally them (claim dupont-division).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Read in the OCR of Alombert and Colin's narrative, which rests on the documents it lists (claim posture-alombert-colin); the evening's proposal and assault are quoted from Talandier's relation or from Victoires et conquêtes, t. XV, which they identify as Talandier's relation or written from his notes (OCR). Schönhals's page image gives Mortier's quarters, and the regiment numbers are those printed on the page image of p. 166. Mortier commanded in person throughout; Dupont's division fought apart from him in the evening, and its commitment was Dupont's own. These are the commanders' decisions at the engagement, so the claim is tagged commander_created. English renderings (ours): Schönhals, '[the corps quarters] of Mortier was in Dürrenstein'; Alombert and Colin, 'as Fabvier arrived on the field of combat, which offered hardly any favourable emplacement, Marshal Mortier said to him: \"Go forward and try to turn the ground to the most advantageous account possible\"' (OCR); 'Marshal Mortier resolved to drive the enemy out of Unter-Loiben for good' (OCR); '[he put into] line along the Danube the ... (OCR) battalion of the 100e, commanded by Major Henriod' (OCR); 'and directed onto the plateau, where the ... (OCR) battalion of that regiment was fighting, ... (OCR) companies of the 103e (... (OCR) battalion) under the command of chef de bataillon Pasquier and General Campana' (OCR); 'Major Henriod, following the bank of the Danube, turned Loiben by the left' (OCR); 'each colonel received from General Gazan the order to post grand guards and set up bivouacs for the night' (OCR); 'Marshal Mortier, as soon as he saw the troops settled in bivouac, set off at the gallop, with ... (OCR) platoons of escort, to meet Dupont's division' (OCR); 'Marshal Mortier had barely passed the town with his escort when he met this small column, with which he had to cross sabres to regain Gazan's division in all haste' (OCR); 'in face of this concentric attack, Marshal Mortier resolved first to gather all his means on the plateau near Ober-Loiben' (OCR); 'he then determined to gather the troops of the division in front of the plateau occupied by a battalion of the 100th regiment, there to await the enemy's shock and, after repelling it, to attempt the retreat' (OCR); 'Marshal Mortier tried first to overthrow this adversary, whom he did not judge very numerous' (OCR); 'Major Henriod, of the 100th regiment, who had distinguished himself in the combat of Loiben' (OCR); 'this senior officer, questioned, proposed to put himself at the head of the grenadiers of his regiment and to penetrate, by sections of ... (OCR) men abreast, into the walled road by which the enemy was advancing' (OCR); '[this advice, given and explained with as much assurance as clarity,] pleased the Marshal, and he ordered it carried out at once' (OCR); 'Victoires et conquêtes, t. XV, p. ... (OCR) and following. The identity of certain passages with the text given by Alombert, p. ... (OCR), proves that this relation is by Colonel Talandier, or at least written from his notes,' (OCR); as in claim dupont-division for Dupont's arrival with a fresh regiment (OCR); 'meanwhile General Dupont, wishing to make an end, ordered the colonel of the ... (OCR) to pull the soldiers out of the middle of the ranks man by man and to rally them' (OCR); as in claim alombert-side-a for the 100e and the 103e (p. 166).",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Mortier's war in Dürrenstein."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 146 (OCR running heads; not checked against print)",
+          "quote": "Comme Fabvier arrivait sur le lieu du combat, qui ne présentait guère d'emplacement favorable, le maréchal Mortier lui dit : « Portez-vous en avant et tâchez de tirer parti du terrain le plus avantageusement possible. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 147 (OCR running heads; not checked against print)",
+          "quote": "le maréchal Mortier résolut de chasser définitivement Lennéani d'Enter-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "ligne le long du Danube le 4* bataillon du 100‘, com- mandé par le major Henriod"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "el dirigea sur le pla- leau, où combattail le 2 bataillon de ce régiment, quatre compagnies du 103° (2° bataillon) sous le eom- mandement du chef de bataillon Pasquier et du général Campana"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "Le major Henriod, longeant la rive du Danube, tourna Loiben par la gauche."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Chaque colonel reçut du général Gazan l'ordre de placer des grand'gardes et d'installer des bivouaës pour la nuit"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Mortier, dès qu'il vit les troupes installées au bivouac, partit au galop, avec deux pelotons d'escorte, au-devant de la division Dupont."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 152 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Mortier avait à peine dépassé la ville avec son escorte qu'il rencontrait cette petite colonne, avec laquelle il dut faire le coup de sabre pour regagner en toute hâte la division (Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 153 (OCR running heads; not checked against print)",
+          "quote": "Devant cette ataque concentrique, le maréchal Mortier résolut d’abord de réunir tous ses moyens sur Le plateau voisin d'Ober-Loiben"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 153 (OCR running heads; not checked against print)",
+          "quote": "Il se déter- mina alors à réunir les troupes de la division en avant du plateau occupé par un bataillon du 100° régiment, d'y attendre le ehoe de l'ennemi et, après l'avoir repoussé, de tenter la retraite"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Mortier essaya d'abord de bousculer cet adversaire, qu'il ne jugeait pas très nombreux;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 157 (OCR running heads; not checked against print)",
+          "quote": "Le major Heuriod, du 100 régiment, qui s fait remarquer dans le combat de Loiben"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "Cet officier supérieur, interrogé, proposa de se mettre à la tête des grenadiers de son régi- ment, de pénétrer pac section de 7 hommes de front dans le chemin muré par où l'ennemi s'avançait."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "plut au Maréchal et il en ordonna l'exé- cution immédiate."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 160 (OCR running heads; not checked against print)",
+          "quote": "Victaires et Gonquétes, & XV, p. 200 et suis. L'identité de cer- tains passages avec Je texte donné par Alombert, p. 404, prouve que cette relation est du eslonel Talandier, où du mains éerite d'après ses notes,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont arrive avec le 32° régiment; il le fait avancer pour relever le brave 9° qui avail épuisé ses cartouches"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "Cependant le général Dupont, voulant en finir, ordonna au colonel du 32 d'arracher homme par homme les soldats du milieu des rang: et de les réunir."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le 100e et le 103e avaient moins souffert. Chacun d'eux avait laissé 160 à 170 prisonniers aux mains de l'ennemi, et envoyé 320 hommes aux hôpitaux. Il restait à l'un 1,300, à l'autre 1,600 hommes dans le rang, le 22 novembre, sur 2,000 présents le 11."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart places side B (Russian and Austrian) under General Kutusow in the left column of his table, the winner's place by his stated rule, so he records a victory of side B over side A (French) under Marshal Mortier on 11 November. Alombert and Colin call the affair of Dürrenstein a fine success for Kutusow, although Mortier, with two-thirds of Gazan's division, escaped with glory from the envelopment that threatened him. In Schönhals the advantage of the day was dearly bought with FML Schmidt's death, all the Russian troops withdrew with their prisoners to Krems during the night, and the engagement gained Kutusow time to send his artillery reserve and baggage ahead undisturbed and to prepare his union with Auersperg's corps and the sixth Russian column.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A lost), read from Bodart's table and rule, with the other accounts' ending, read from the page images. No source read gives a different result. In the passages read, Dupont's division bivouacked on the battlefield that evening while Gazan's passed into the second line, by the journal of Dupont's division as Alombert and Colin quote it, and the Russian troops withdrew to Krems in the night (Schönhals); the passages read do not show what Bodart based his result on. English renderings (ours): Bodart, p. 46, 'the winner's place in the comparisons is always to be sought on the left side, the loser's on the right'; the table as in claim bodart-strength; Alombert and Colin, 'although Mortier, with two-thirds of Gazan's division, escaped with glory from the envelopment with which he was threatened, the affair of Dürrenstein was a fine success for Kutusow'; '\"in the evening\", says the journal of Dupont's division, \"the division bivouacs on the battlefield; Gazan's division passes into the second line. The Batavians occupy Spitz\"'; Schönhals, 'here FML Schmidt sank, struck by four Russian bullets, by whose death the advantage of the day was dearly bought'; 'all the Russian troops withdrew with their prisoners to Krems during the night'; 'the engagement at Dürrenstein had the result that Kutusow gained time to send ahead, undisturbed, his artillery reserve and the baggage, and also to make the necessary arrangements for his union with Auersperg's corps and the sixth Russian column, which arrived 7000 strong at Hollabrunn on the 12th'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "1805 11./11. TREFFEN bei Dürnstein (3.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Russen und Österreicher | Franzosen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "Gen. Kutusow | Marschall Mortier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Der Platz des Siegers bei den Gegenüberstellungen ist stets auf der linken Seite, der des Besiegten rechts zu suchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Bien que Mortier, avec les deux tiers de la division Gazan, échappât avec gloire à l'enveloppement dont il était menacé, l'affaire de Dürrenstein était un beau succès pour Kutusow."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "« Le soir, dit le Journal de la division Dupont, la division bivouaque sur le champ de bataille; la division Gazan passe en seconde ligne. Les Bataves occupent Spitz. »"
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Hier sank, von vier russischen Kugeln getroffen, der FML. Schmidt, durch dessen Tod der Vortheil des Tages theuer erkauft ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Sämmtliche russische Truppen zogen mit ihren Gefangenen noch während der Nacht nach Krems."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's (Russian and Austrian) loss as 4,000 killed and wounded, 16 per cent, with no prisoners, and side A's (French) as 5,000 killed and wounded (66 officers), 63 per cent, and 1,600 prisoners (1 general and 53 officers), 25 per cent, together 6,600 (1 general and 119 officers), 88 per cent, with 5 guns and 2 eagles lost in trophies. He records the Austrian FML Baron von Schmidt as killed.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule (claim bodart-strength); a post-outcome observation. On his own strengths 4,000 is 16 per cent of 25,000 and 5,000 is 63 per cent of 8,000 (62.5), but 1,600 is 20 per cent of 8,000, not 25, and 6,600 is 83 per cent (82.5), not 88; his 88 is the sum of his 63 and 25, and 25 per cent of 8,000 would be 2,000, the number of prisoners Schönhals gives (our arithmetic; claim side-a-losses-reported). The passages read do not show Bodart's source or explain the difference. English renderings (ours): '16% = 4,000 | killed and wounded | (- 66 officers) 5,000 = 63%'; '- - | prisoners | (1 general 53 \" ) 1,600 = 25%'; '16% = 4,000 | total loss | (1 general 119 officers) 6,600 = 88%'; '- | loss in trophies: | 5 guns, 2 eagles'; '+ Austrian FML Baron von Schmidt'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "16% = 4.000 | tot und verwundet | ( — 66 Offz.) 5.000 = 63%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "— — | gefangen | (1 Gen. 53 „ ) 1.600 = 25%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "16% = 4.000 | Gesamt-Verlust | (1 Gen. 119 Offz.) 6.600 = 88%"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "— | Verl. an Trophäen: | 5 Kanonen, 2 Adler."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p368",
+          "locator": "Bodart (1908), p. 368",
+          "quote": "† öst. FML. Fh. v. Schmidt."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the other accounts. Alombert and Colin: the 4e léger, the corps that suffered most, reported in its return of 22 November 728 prisoners and 155 men in hospital, and had barely 500 left in the ranks of the 1,500 it had put in line on 11 November; more than 700 of its men were taken, caught, they suppose, between the two Russian columns from Stein and Dürrenstein, while north of the road the 103e had relatively few taken. The 100e and the 103e each left 160 to 170 prisoners and sent 320 men to hospital; the 4e dragons left only 65 prisoners but had barely one man in two unhurt, 123 men still serving on 22 November and 101 in hospital. In sum Gazan's division appears to have lost about 1,600 to 1,700 men, a little more than a third of its strength, of whom 1,100 to 1,200 were prisoners; the Austrian report (XIII-61) gives only 980. The French artillery could not be saved; Lieutenant Fabvier abandoned his pieces on orders, after spiking them. In their narrative (OCR) General Graindorge and others were taken when their boat ran aground near Stein against the bridge piers, the eagles were saved, and the squadron commander Rozat saved the dragoons' guidons. Schönhals: besides a considerable number of dead, the French lost 2000 prisoners, among them the whole 4th Dragoon regiment, 1 general, 3 colonels and 50 officers, and 2 flags and 5 guns, not counting the two guns the Russians had lost in the morning; one boat was sunk at Stein by the Russian artillery and went down with 400 men, and another, caught on a bridge pier, was taken with the 300 men aboard; General Gazan escaped from the bloodbath at Dürrenstein with only 400 men and 50 horses.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except where marked OCR, and not combined. Alombert and Colin's regimental figures come from the returns of 22 November; their summary is an estimate ('parait avoir perdu environ'), and the passages read do not show how it was reached. Its 1,600 to 1,700 is 30 to 32 per cent of the 5,300 given for the division on p. 143, where the text says a little more than a third (our arithmetic). Their 'n'en accuse que 980' follows their count of prisoners, and the passages read do not make plain whether the Austrian report's 980 counts the prisoners or the whole loss. The accounts differ on the prisoners (Alombert and Colin 1,100 to 1,200; the Austrian report 980; Schönhals 2000; Bodart 1,600, claim bodart-losses), on the 4e dragons (Schönhals the whole regiment taken; Alombert and Colin 65 prisoners), on the trophies (Bodart 5 guns and 2 eagles; Schönhals 2 flags and 5 guns; Alombert and Colin the artillery lost and the eagles saved, OCR) and on Gazan's escape (Alombert and Colin two-thirds of the division with Mortier; Schönhals Gazan with only 400 men and 50 horses). The surrender of 1,000 men on the height in the evening is the Austrian relation's (claim side-b-losses-reported), which Alombert and Colin cite for the Allies' belief, held for some time, that only a small detachment of cavalry had escaped (OCR). English renderings (ours): as in claim alombert-side-a for the 4e léger, the 100e and the 103e; 'the 4e léger, caught no doubt between the two Russian columns that came out of Stein and Dürrenstein and joined at Loiben, had more than 700 men taken prisoner'; 'north of the road the situation stayed better. The companies of the 103e (3rd battalion) posted at the important points prolonged the resistance there to the end, and this regiment had relatively few men taken prisoner'; 'the 4e dragons left only 65 prisoners in the enemy's hands; but it had barely one man unhurt in two: 123 men were still doing duty on 22 November, 101 were in hospital'; 'in sum, Gazan's division appears to have lost about 1,600 to 1,700 men, a little more than a third of its strength, of whom 1,100 to 1,200 prisoners'; 'the Austrian report (XIII-61) admits only 980 of them'; as in claim bodart-winner for the two-thirds; 'our artillery could not be saved. Lieutenant Fabvier \"defended himself on the plateau until he received the order to abandon his pieces, which he did only after spiking them,\"' (p. 162); 'others, among them General Graindorge, were less fortunate' (OCR); 'their boat ran aground near Stein against the piers of the bridge, and they fell into the enemy's hands' (OCR); '[the volleys with which they were pursued killed a few men,] but the eagles were saved' (OCR); 'squadron commander Rozat saved the regiment's guidons' (OCR); 'the Allies remained persuaded that this small detachment of cavalry alone had been able to escape the disaster' (OCR); Schönhals, 'the French losses amounted, besides a considerable number of dead, to 2000 prisoners, among whom were the whole 4th Dragoon regiment, then 1 general, 3 colonels and 50 officers'; 'besides that, 2 flags, 5 guns were taken from them' (pp. 136-137); 'not counting the two guns that the Russians had lost in the morning' (p. 137); 'yet one of them was sunk at Stein by the Russian artillery and went down with 400 men; another got caught on a bridge pier and was taken together with the 300 men embarked on it'; 'General Gazan escaped from the bloodbath at Dürrenstein with only 400 men and 50 horses, over the ruin of Scheibenhof and Ostra toward Spitz'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "De tous les corps engagés dans le combat de Dürrenstein, celui qui souffrit le plus fut le 4e léger. Il accuse, dans sa situation du 22 novembre, 728 prisonniers; il a 155 hommes aux hôpitaux; il lui en reste à peine 500 dans le rang, au lieu de 1,500 qu'il avait mis en ligne le 11 novembre."
+        },
+        {
+          "source_id": "alombert-colin-t4-p154-figures-v1",
+          "section": "p154",
+          "locator": "Alombert and Colin, t. IV, p. 154 (transcribed from the page image)",
+          "quote": "Le 4e léger, pris sans doute entre les deux colonnes russes sorties de Stein et Dürrenstein, qui se rejoignirent à Loiben, eut plus de 700 hommes faits prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p154-figures-v1",
+          "section": "p154",
+          "locator": "Alombert and Colin, t. IV, p. 154 (transcribed from the page image)",
+          "quote": "Au Nord de la route, la situation resta meilleure. Les compagnies du 103e (3e bataillon) postées aux points importants, y prolongèrent la résistance jusqu'au bout, et ce régiment eut relativement peu d'hommes faits prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le 100e et le 103e avaient moins souffert. Chacun d'eux avait laissé 160 à 170 prisonniers aux mains de l'ennemi, et envoyé 320 hommes aux hôpitaux. Il restait à l'un 1,300, à l'autre 1,600 hommes dans le rang, le 22 novembre, sur 2,000 présents le 11."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le 4e dragons ne laissa que 65 prisonniers aux mains de l'ennemi; mais il avait à peine un homme intact sur deux : 123 hommes faisaient encore le service le 22 novembre, 101 étaient aux hôpitaux."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "En résumé, la division Gazan parait avoir perdu environ 1,600 à 1,700 hommes, un peu plus du tiers de son effectif, dont 1,100 à 1,200 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le Rapport autrichien (XIII-61) n'en accuse que 980."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Bien que Mortier, avec les deux tiers de la division Gazan, échappât avec gloire à l'enveloppement dont il était menacé, l'affaire de Dürrenstein était un beau succès pour Kutusow."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Notre artillerie ne put être sauvée."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Le lieutenant Fabvier « se défendit sur le plateau jusqu'au moment où il reçut l'ordre d'abandonner ses pièces, ce qu'il ne fit qu'après les avoir enclouées,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 154 (OCR running heads; not checked against print)",
+          "quote": "D'autres, et parmi eux le général Graindorge, furent moins heureux."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 154 (OCR running heads; not checked against print)",
+          "quote": "Leur bateau alla échouer près de Stein contre les piles du pont, et ils tombèrent aux mains de l'ennemi."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "mais les aigles étaient sauvées."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 157 (OCR running heads; not checked against print)",
+          "quote": "le chef d'eseadrons Rozat sauva les guidons du régiment"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "les Alliés demeu- rèrent persuadés que ce petit détachement de cavale: avait seul pu échapper au désastre,"
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Die Verluste der Franzosen beliefen sich nebst einer bedeutenden Anzahl von Todten noch auf 2000 Gefangene, worunter sich das ganze 4. Dragoner-Regiment, dann 1 General, 3 Oberste und 50 Officiere befanden."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Ausserdem wurden ihnen 2 Fahnen, 5 Kanonen ab-"
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "genommen; jene beiden Geschütze abgerechnet, welche die Russen am Vormittage verloren hatten¹)."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Doch ward eines derselben bei Stein von der russischen Artillerie in Grund gebohrt und ging mit 400 Mann unter; ein anderes blieb an einem Brückenpfeiler hängen, und wurde sammt den darauf eingeschifften 300 Mann genommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "General Gazan entkam aus dem Blutbad bei Dürrenstein blos mit 400 Mann und 50 Pferden über die Ruine Scheibenhof, Ostra gegen Spitz¹)."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Alombert and Colin: the Austrian report (XIII-61) gives the Russians' loss as 920 men, without saying whether it includes wounded and prisoners. An Austrian relation that they quote has the Russians on the road to Dürnstein fire on one another from both sides of the road, FML Schmidt find his death there, and, when the burning of Loiben had lit the basin, the French infantry on the height lay down its arms, 1,000 men, and the two guns lost retaken. In their narrative (OCR), a French charge threw the Russians back into Unter-Loiben in the morning and carried guns, General Campana's companies took further guns and the men defending them, and in the evening, in the account of Dupont's fight, all the Russians not killed or taken threw themselves into the Danube or fled into the mountains. Schönhals: FML Schmidt fell, struck by four Russian bullets, where troops of one and the same power fired on each other; at the height 1000 men laid down their arms, and the two Russian guns lost in the fight were found again.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except where marked OCR, and not combined. Bodart's 4,000 killed and wounded (claim bodart-losses) differs from the Austrian report's 920 as Alombert and Colin cite it; the passages read give no other count of the Russian loss. Schmidt's death is in all three accounts. The relation's surrender of 1,000 French is reported as an Allied claim: Alombert and Colin have no doubt that the grenadiers broke through, since all the most disinterested French documents mention it (OCR; claim side-a-command). The relation that Alombert and Colin quote begins on p. 161, where the OCR labels it 'KE 46' and the introduction's list of sources names Austrian relations XI-46 and XIII-61 (OCR); Schönhals's evening follows it nearly sentence for sentence (open questions). English renderings (ours): Alombert and Colin, as in claim side-a-losses-reported for the Austrian report (XIII-61); 'it gives as the Russians' losses 920 men (without stating whether it includes wounded and prisoners in them)'; the relation (p. 162), 'at last the enemy fired several shells onto the road to Dürnstein (a road on an embankment bordered by walls, as there often are in wine country), which was almost at once abandoned by the Russians, who threw themselves to right and left'; 'thereupon the village of Loiben was set on fire by the enemy, which lit up the whole basin between Loiben and Dürnstein'; '[at that moment we saw the enemy cavalry on that road ...] which provoked a violent fire from the Russians on both sides of the road, where they shot at one another'; 'it was there that FML Schmidt met his death'; 'as it was fairly light, everything rushed onto that height where the enemy infantry was posted; it laid down its arms there, to the number of 1,000 men, and we retook the two guns lost'; 'Austrian relation, ... (OCR)' (OCR); 'on the Allies' side we have the [relations] XI-46 and XIII-61 of the war archives of Vienna,' (OCR); narrative, 'we can have no doubt on this subject, despite Kotzebue's ironic assertions, for all the most disinterested original French documents mention this break-through made by the grenadiers of the ... (OCR),' (OCR); 'the charge of the ... (OCR), at once supported by the ... (OCR) léger, threw the Russians back into Unter-Loiben, carried the ... (OCR) pieces' (OCR); 'General Campana, master of this plateau, saw the enemy debouching in column by the highway from Stein' (OCR); 'in less than ... (OCR) minutes they were carried, together with about ... (OCR) men who defended them' (OCR); '[this fire, delivered at ... (OCR) paces, is so violent and murderous] that the Russians have no time to reply. All that is not killed or taken throws itself into the Danube or escapes into the mountains under cover of the darkness' (OCR); Schönhals, as in claim bodart-winner for Schmidt's death; 'a terrible infantry fire now broke out on both sides of the road, in which troops of one and the same power fired on each other'; 'since it was light from the burning of Loiben, everyone advanced on the height where the French infantry became visible'; 'here 1000 men laid down their arms, and the two Russian guns lost in the fight were found again'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Le Rapport autrichien (XIII-61) n'en accuse que 980."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Il donne comme pertes des Russes 920 hommes (sans indiquer s'il y comprend des blessés et des prisonniers)."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Enfin, l'ennemi tira plusieurs coups à obus sur le chemin de Dürnstein, (chemin en remblai bordé de murs, comme il y en a souvent dans les pays de vignobles) lequel fut presque aussitôt abandonné par les Russes, qui se jetèrent à droite et à gauche."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Sur ce, le village de Loiben fut incendié par l'ennemi, ce qui éclaira tout le bassin entre Loiben et Dürnstein."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "ce qui provoqua un feu violent de la part des Russes, de part et d'autre du chemin, où ils se fusillèrent les uns les autres."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "C'est là que le F. M. L. Schmidt trouva la mort."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Comme il faisait assez clair, tout se précipita sur cette hauteur où était postée l'infanterie ennemie; elle y posa les armes, au nombre de 1,000 hommes, et nous reprîmes les deux canons perdus. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "Helation autriehionne, KE 46"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "Du côté des Alliés, nous avons les s XI-46 et XTII-61 des Archives de la guerre de Vienne,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 162 (OCR running heads; not checked against print)",
+          "quote": "Nous ne pouvons avoir à ce sujel aucun doute, malgré les affirmations ironiques de Kotzebue, car tous les documents originaux français les plus désintéressés mentionnent cette trauée apérée par les grenadiers du 100,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 147 (OCR running heads; not checked against print)",
+          "quote": "La charge du 100°, aussitôt soutenu par le 4\" léger, rejeta les Russes dans Unter-Loiben, enleva les deux pièces,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "Le général Campana, maitre de ce plateau, apereut l'ennemi débouchant en colonne par la chaussée de Stein,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "en moins de quatre minutes elles furent enlevées, ainsi qu'environ 400 hommes qui les défendaient."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "que les Russes n'ont pas le temps d'y riposter. Tout ce qui n'est pas tué ou pris se jette dans le Danube ou se sauve dans les inontagnes à la faveur de l'obseurité."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Hier sank, von vier russischen Kugeln getroffen, der FML. Schmidt, durch dessen Tod der Vortheil des Tages theuer erkauft ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Ein furchtbares Infanteriefeuer entbrannte jetzt auf beiden Seiten des Weges, wobei Truppen einer und derselben Macht auf einander schossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Da es durch den Brand von Loiben hell war, so rückte alles gegen die Höhe, wo die französische Infanterie sichtbar ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Hier streckten 1000 Mann die Waffen, und die im Gefechte verloren gegangenen zwei russischen Kanonen fanden sich auch wieder."
+        }
+      ]
+    },
+    {
+      "id": "durnstein-ground",
+      "dimension": "terrain",
+      "value": "Alombert and Colin: above Dürnstein the Danube washes the foot of the mountains on its left bank; between Dürnstein and Rothenhof it moves away from them around the small alluvial plain on which the villages of Ober- and Unter-Loiben stand, and from Rothenhof to Stein it again runs along the foot of the escarpments, leaving barely room for the road. The spurs of the mountain end in vine-covered slopes; one runs out into a small flat, rectangular plateau with steep edges north-east of Unter-Loiben, and another plateau ends above the road over Ober-Loiben. In their narrative (OCR) snow covered the ground the night before; the ground was broken and covered with vines and walls, so that the infantry and dragoons left in reserve could not be used there; a dragoon officer found vines, ditches and walls everywhere, obstacle upon obstacle; and in the evening the Russian column came along a walled road. The Austrian relation they quote calls the road to Dürnstein an embanked road bordered by walls, as often in wine country. Schönhals (OCR): the whole left bank of the Danube from Grein, above all from Weissenkirchen to Krems, is very steep and cut by ravines; at Dürrenstein a castle ruin on the rock is joined by a wall to the little town, through which the road runs; at Loiben a small plain covered with vineyards lies between the foot of the mountains and the Danube, and the road to Stein across it is bounded by a wall on each side. In his narrative (page images) the French, by holding the slopes with guns, could inflict heavy losses on those advancing in the plain; Schmidt's column came down to the Danube through a ravine between Dürrenstein and Weissenkirchen; and Dürrenstein is the little town that blocks the pass.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Read from the page images except where marked OCR. Alombert and Colin set Kotzebue's account aside for the fighting but use it, with every reserve, for the positions before the engagement and those of the artillery, on which his informants could know more and which do not disagree with the trustworthy Russian and French documents (open questions). The vineyard walls, the walls of the road to Dürnstein and the castle ruin are recorded here as ground; claim fortification records why they are not coded as works. The ground stood before the engagement, so the claim is tagged inherited. English renderings (ours): 'we think we should set this little work wholly aside for everything that concerns the fighting'; 'it seems that, for the positions held before the engagement and for those of the artillery, the inhabitants may have informed Kotzebue with more competence'; 'this part of their accounts, moreover, is not, like the rest, in disagreement with the trustworthy Russian and French documents, so that we think we may make use of it, with every reserve'; 'the Danube, above Dürnstein, washes the foot of the mountains on its left bank'; 'between Dürnstein and Rothenhof it moves away from them, going round the small alluvial plain on which the villages of Ober- and Unter-Loiben were built; from Rothenhof to Stein it again runs along the foot of the escarpments, leaving barely the space needed for the road'; 'the spurs of the mountain die away roughly on that line, and they end in slopes covered with vines'; 'one of these spurs runs out into a small plateau with a horizontal surface, rectangular in shape, with steep edges, north-east of Unter-Loiben'; 'another plateau, of similar shape, ends above the road, plumb over Ober-Loiben'; '\"snow covered the ground\", says Colonel Talandier; \"the cold was piercing\"' (OCR); 'there still remained in reserve ... (OCR)' (OCR) '... of the ... (OCR) and the ... (OCR) dragoons, which could not be used in this broken ground, covered with vines and walls' (OCR); '\"everywhere vines, ditches, walls, obstacle upon obstacle\", says an officer of dragoons' (OCR); as in claim side-a-command for the walled road (OCR); the relation, as in claim side-b-losses-reported for the road (p. 162); Schönhals, 'the whole left bank of the Danube from Grein, but above all from Weissenkirchen to Krems, is very steep and cut through with ravines' (p. 133, OCR); '[at Dürrenstein steep rock walls rise,] on whose summit lies a castle ruin, which is connected by a wall with the little town, through which the road leads' (p. 134, OCR); 'at the village of Loiben a small plain covered with vineyards forms between the feet of the mountains and the Danube, through which the road runs toward Stein, which, as is usually the case in vine country, is bounded left and right by a wall' (OCR); 'the French, however, by occupying the slopes with guns, had the great advantage of inflicting great losses on those advancing in the plain' (p. 135); as in claim side-b-command for the ravine and the little town.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Nous croyons devoir faire abstraction complète de ce petit ouvrage pour tout ce qui concerne le combat;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "il semble que, pour les positions occupées avant l'engagement et pour celles de l'artillerie, les habitants aient pu renseigner Kotzebue avec plus de compétence;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "cette partie de leurs récits, d'ailleurs, n'est pas, comme le reste, en désaccord avec les documents russes et français dignes de foi, de sorte que nous croyons pouvoir en faire usage, sous toutes réserves."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Le Danube, en amont de Dürnstein, baigne le pied des montagnes sur sa rive gauche."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Entre Dürnstein et Rothenhof, il s'en écarte, contournant la petite plaine d'alluvions où ont été bâtis les villages d'Ober et Unter-Loiben; depuis Rothenhof jusqu'a Stein, il recommence à longer le pied des escarpements, laissant à peine l'espace nécessaire à la route."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Les contreforts de la montagne viennent mourir à peu près sur cette ligne, et ils se terminent par des coteaux couverts de vignes."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Un de ces contreforts se prolonge par un petit plateau à surface horizontale, de forme rectangulaire, à bords escarpés, au Nord-Est d'Unter-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Un autre plateau, de forme analogue, s'arrête au-dessus de la route, à l'aplomb d'Ober-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 144 (OCR running heads; not checked against print)",
+          "quote": "« La neige couvrait la terre, dit le colonel Talandier; le froid était pénétrant;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "I restait encore en réserve un bataillon et demi"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "du 403* et le 4° dragons, qu'en n'avait pu employer daus ce terrain accidenté, couvert de vignes et de murs."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "« Partout des vignes, des fossés, des murs, obstacles sur obstacles, dit un officier de dragons."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "Cet officier supérieur, interrogé, proposa de se mettre à la tête des grenadiers de son régi- ment, de pénétrer pac section de 7 hommes de front dans le chemin muré par où l'ennemi s'avançait."
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Enfin, l'ennemi tira plusieurs coups à obus sur le chemin de Dürnstein, (chemin en remblai bordé de murs, comme il y en a souvent dans les pays de vignobles) lequel fut presque aussitôt abandonné par les Russes, qui se jetèrent à droite et à gauche."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 133 (OCR page breaks; not checked against print)",
+          "quote": "Das ganze linke Ufer der Donau von Grein, vorzüglich aber von Weissenkirchen bis Krems, ist sehr steil und mit Schluchten durch- schnitten."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "auf deren Spitze eine Burgruine liegt, die durch eine Mauer mit dem Städtchen in Verbindung steht, durch welche die Strasse fuhrt"
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Bei dem Dorf Loiben bildet sich zwischen den Füssen des Gebirges und der Donau eine kleine, mit Weinbergen bedeckte Ebene, durch welche die Strasse gegen Stein zieht, die, wie im Weingebirge gewöhnlich der Fall ist, links and rechts durch eine Mauer beschrankt wird."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Die Franzosen hatten aber durch Besetzung der Abfälle mit Geschütz den grossen Vortheil, den in der Ebene Vordringenden grosse Verluste beizubringen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "FML. Schmidt hatte sich nämlich genöthigt gesehen, um den Plan nicht aufzugeben, das Gros der Colonne durch eine Schlucht zwischen Dürrenstein und Weissenkirchen an die Donau herabzuführen, indem sich vorhersehen liess, die Colonne würde vor Abend nicht in Weissenkirchen anlangen können."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Die Russen fürchteten die Trennung der Colonnen und weder der FML. Schmidt, noch andere Officiere konnten sie dazu bringen, in dem den Pass sperrenden Städtchen eine Besatzung zu lassen."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side A moved partly by the Danube and ran short of munitions. In Alombert and Colin (OCR), boats found at Weideneck carried part of Gazan's division with artillery, which landed at Weissenkirchen; the regiment on the mountain had to be relieved because it had no more cartridges; the division had to husband the few munitions left it; without munitions pursuit was impossible, and the caissons could join only with Dupont's division; fatigue and want of food were sharply felt; and in the evening the regiment that Dupont relieved had used up its cartridges. Schönhals: many boats lay anchored at the Danube bank, in which part of the troops had been ferried across, and the fugitives sought safety in them. Side B: by Schönhals's footnote after Kotzebue, the turning force brought two guns along with difficulty; Danilewski, as Alombert and Colin quote him (OCR), has Doktorow in the evening deprived of his artillery. After the engagement Kutusow sent his artillery reserve and baggage ahead (Schönhals).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read in the OCR of Alombert and Colin except where page images are cited; the cartridge passage is from a letter of Colonel Taupin that they quote (OCR). The passages read give no ration or ammunition returns for either side, so the claim is tagged unresolved. English renderings (ours): as in claim alombert-side-a for the boats and the landing (OCR); '[companies held in reserve] received the order at about ... (OCR) to go and relieve the ... (OCR) regiment, which was on the mountain, seeing that it had no more cartridges' (OCR); 'letter of Colonel Taupin. Alombert, p. ... (OCR)' (OCR); 'fatigue and the need of food made themselves doubly felt in our exhausted bodies' (OCR); 'we had to husband with strict economy the scarce munitions that remained to us' (OCR); 'without munitions, the pursuit (for the enemy was believed beaten and in retreat) was impossible, and the caissons could join only with Dupont's division' (OCR); as in claim dupont-division for the regiment that had used up its cartridges (OCR); Schönhals, 'many boats lay at anchor on the Danube bank, in which part of the troops had been ferried over'; 'the fugitives sought safety on the vessels'; as in claim schoenhals-figures for Kotzebue's two guns; Alombert and Colin, 'Dokhtourow, come down on Wadstein in the darkness, and seeing himself caught in his turn between ... (OCR) fires,' (OCR); '\"he found himself\", says Danilewski, \"in the most critical situation, deprived of his artillery,\"' (OCR); Schönhals, as in claim bodart-winner for the artillery reserve and baggage.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Parvenu à Weideneck, en face de Melk, il y trouve des barques en assez grand nombre pour transporter le 4° léger et le 100° de ligne, avec deux bouches à feu."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Le tout est débarqué à Weissenkirchen;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "reçurent ordre à environ midi et demi d'aller relever le 4° régiment qui était sur la montagne, vu qu'il n'avait plus de cartou- ches."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "Lettre du eolonel Taupin. Alembert, p. 421."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 150 (OCR running heads; not checked against print)",
+          "quote": "« La fatigue et le besoin de nourriture se faisaient doublement sentir à nos corps aceablés,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Nous devions ménager avec une sévère nomie les rares munitions qui nous restaient."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Sans munitions, la pour- suite (car on croyait l'ennemi battu et en retraite) était impossible, et les caissons ne pouvaient rejoindre qu'avec la division Dupont."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont arrive avec le 32° régiment; il le fait avancer pour relever le brave 9° qui avail épuisé ses cartouches"
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Auf dem Donau-Ufer ankerten eine Menge Schiffe, auf denen ein Theil der Truppen übersetzt worden war."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Die Flüchtlinge suchten auf den Fahrzeugen die Rettung."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "sie hatten auch zwei mit Mühe fortgebrachte Geschütze mit."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "Dokbtourow, descendu sur Wadstein dans l'obscurité, et se voyant pris à son four entre deux feux,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "« Il se trou- vait, dit Danilewski, dans la situation la plus critique, privé de son artillerie,"
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "In Alombert and Colin, Kutusow learned on the evening of the 10th, from marauders taken by the Russians, that Gazan's division was isolated, and believed its bulk to be in the defile between Weissenkirchen and Dürnstein; Schmidt, with Doktorow's column, thinking that Mortier had passed Dürnstein, turned the column down toward Dürnstein and Wadstein; and Doktorow, coming down, learned that Dupont's division was near Weissenkirchen (OCR). In their narrative (OCR), darkness and smoke kept the enemy from directing his fire and movements; the fight between the walls, in full night, at first passed unnoticed by the rest of the Russian troops; the Russians set fire to Loiben to see the field; and for some time the Allies remained persuaded that only a small detachment of cavalry had escaped. Schönhals (OCR): the report came in that Mortier had arrived at Weissenkirchen with Gazan's division. In his narrative (page images), Schmidt foresaw that the column could not reach Weissenkirchen before evening; Loiben went up in flames and lit the whole basin; troops of one and the same power fired on each other; and by the light of the fire everyone advanced on the height where the French infantry became visible.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images except where marked OCR. The accounts differ on who set Loiben on fire: the Austrian relation that Alombert and Colin quote says the enemy, that is the French (claim side-b-losses-reported), while their narrative and the account of Dupont's fight that they quote say the Russians (OCR), and Schönhals names no one. The passages read do not show what Kutusow knew of Dupont's division before the evening, so the claim is tagged unresolved. English renderings (ours): as in claim side-b-command for the marauders, the defile, Schmidt's turn and Doktorow's news; 'by good fortune the darkness, together with the smoke that covered the battlefield, kept the enemy from directing his fire and his movements well' (OCR); 'this struggle, confined between ... (OCR) walls and in full night,' (OCR) '[amid all the din of the combat,] passed at first unnoticed by the rest of the Russian troops' (OCR); '[the enemy, exasperated at moving in the dark,] wished to see clearly on this battlefield, and set fire to Loiben' (OCR); 'the Russians had set fire to it to light the combat' (OCR, the account of Dupont's fight); as in claim side-a-losses-reported for the Allies' belief (OCR); Schönhals, '[with the news that a Russian column would reach Hollabrunn ... came the] report that Mortier with Gazan's division had arrived at Weissenkirchen on the afternoon of the ... (OCR)' (p. 134, OCR); as in claim side-b-command for Schmidt's foresight; 'Loiben went up in flames, and these lit up the whole basin; the French cavalry, favoured by this, once more attempted to break through on the open road to Dürrenstein'; as in claim side-b-losses-reported for the fire on both sides of the road and the advance on the height.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Kutusow avait été informé, dans la soirée du 10, par des maraudeurs tombés aux mains des Russes, de l'isolement où se trouvait la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Comme il croyait le gros de cette division dans le défilé entre Weissenkirchen et Dürnstein, c'est là qu'il voulait l'écraser."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "le général Schmidt, qui l'accompagnait, pensant alors que Mortier avait dépassé Dürnstein, et qu'on perdait du temps à s'en aller jusqu'à Weissenkirchen, fit appuyer à gauche et descendre dans la vallée vers Dürnstein et Wadstein, mais il n'y parvint qu'à 5 heures."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "Ces froupos avaient eu à combattre, entre Weissen- kirchen et Wadstein, la plus grande partie de la colonne de Dokhlourow."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "avait appris ln présence de la division Dupont près de Weissenkirchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "Par bonheur l'obscurité, jointe à la fumée qui couvrait le champ de bataille, empèchail l'ennemi de bien diriger ses feux et ses mouvements."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "Cette lutte, localisée entre deux murs, et en pleine nuit,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "passa d'abord inaperçue du reste des troupes russes."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "voulut voir clair sur ce champ de bataille, et mit le feu à Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "les Russes y avaient mis le feu pour éelairer le combat."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "les Alliés demeu- rèrent persuadés que ce petit détachement de cavale: avait seul pu échapper au désastre,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Sur ce, le village de Loiben fut incendié par l'ennemi, ce qui éclaira tout le bassin entre Loiben et Dürnstein."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Meldung ein, Mortier sei mit der Division Gazan am 10. Nachmittags in Weissen- kirchen angekommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "FML. Schmidt hatte sich nämlich genöthigt gesehen, um den Plan nicht aufzugeben, das Gros der Colonne durch eine Schlucht zwischen Dürrenstein und Weissenkirchen an die Donau herabzuführen, indem sich vorhersehen liess, die Colonne würde vor Abend nicht in Weissenkirchen anlangen können."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Loiben gieng in Flammen auf und diese beleuchteten den ganzen Thalkessel; die französische Cavallerie machte, hiedurch begünstigt, nochmals den Versuch, auf dem offenen Wege nach Dürrenstein durchzubrechen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Ein furchtbares Infanteriefeuer entbrannte jetzt auf beiden Seiten des Weges, wobei Truppen einer und derselben Macht auf einander schossen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Da es durch den Brand von Loiben hell war, so rückte alles gegen die Höhe, wo die französische Infanterie sichtbar ward."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Mortier, still persuaded that his role was to pursue an enemy in full retreat, was preparing to attack on the morning of 11 November when Miloradovitch forestalled him (Alombert and Colin). In their narrative (OCR), the letters Mortier received urged haste and spoke only of pursuit. That morning Napoleon, given an exact report of his troops' operations and positions, foresaw Gazan's dash against the Russian army, saw the dangers that threatened Mortier's corps and had a letter of reproaches sent to Murat, saying that Mortier was exposed to bear all the Russians' efforts and be crushed; but the orders came too late, and Gazan's division was left to its own forces. Mortier had received from a squadron sent toward Scheibenhof the warning that a Russian column was approaching from that side, but thought that the column had deployed in the mountains and was already engaged against his troops there; nothing suggested that the Russians, retreating north-east, had detached a corps the other way toward Weissenkirchen. Later he could believe the fight over, and he did not judge the column that then barred his road very numerous. He informed Dupont of the morning's success, so that it did not seem necessary to continue the day's march.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images of pp. 143 and 166 and the OCR. Alombert and Colin hold that the responsibility for the isolation of Gazan's division went further back, as they had shown along the way (p. 166). The passages read do not show what Mortier knew of the Russian strength before the evening, so the claim is tagged unresolved. English renderings (ours): 'Mortier, still persuaded that his role was to pursue an enemy in full retreat, was preparing to attack on the morning of 11 November; Miloradovitch forestalled him'; 'in short, there is unanimous agreement in recommending haste, and there is talk only of pursuit' (OCR); 'on the ... (OCR), in the morning, Napoleon obtained an exact report of the operations carried out and the positions taken by his troops' (OCR); 'he foresees Gazan debouching in all haste against the Russian army' (OCR); 'he divines the dangers that threaten Mortier's corps and has a letter of reproaches sent to Murat' (OCR); '[by this negligence in executing the Emperor's orders] it follows that Marshal Mortier is exposed to bear all the efforts of the Russians and to be crushed!' (OCR); 'but, however early these orders were given, they still arrive too late to bring help to Mortier' (OCR); 'Gazan's division therefore finds itself left to its own forces to bear the shock of the Russian army' (OCR); 'Mortier had indeed received from a squadron, sent in the morning toward Scheibenhof, the warning that a Russian column was approaching from that side, but he thought that this column had deployed in the mountains and was already engaged against the ... (OCR) léger and the ... (OCR)' (OCR); 'nothing suggested that the Russians, retreating toward the north-east, had detached a corps of ... (OCR) men in the opposite direction toward Weissenkirchen' (OCR); 'Marshal Mortier could believe the combat over' (OCR); as in claim side-a-command for the adversary he did not judge very numerous (OCR); 'Mortier had informed him of the success won in the morning by Gazan's division,' (OCR) 'so that it did not seem necessary to continue the march, already long, made that day' (OCR); 'we have already shown, along the way, how far back the responsibility for the isolation of Gazan's division went' (p. 166).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Mortier, toujours persuadé que son rôle consistait à poursuivre un ennemi en pleine retraite, se préparait à attaquer dans la matinée du 11 novembre; Miloradovitch le prévint."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Bref il y a accord unanime pour recommander de se hâler et l'on ne parle que de poursuite,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 139 (OCR running heads; not checked against print)",
+          "quote": "Le 11, dans la matinée, Napoléon a obtenu un compte rendu exact des opérations exécutées et des positions prises par ses troupes."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 139 (OCR running heads; not checked against print)",
+          "quote": "IL entrevoit Gazan débouchant en toute hâte contre l'armée russe,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 139 (OCR running heads; not checked against print)",
+          "quote": "il de- vine les dangers qui menacent le corps de Mortier, et fait adresser une lettre de reproches à Mural"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 139 (OCR running heads; not checked against print)",
+          "quote": "il s'ensuit que le maréchal Mortier est exposé À porter tous les efforts des Russes et à être écrasé!"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "Mais, si Lôt que ces ordres aient été donnés, ils arri- vent encore trop fard pour procurer des secours à Mortier."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "La division Gazan se trouve done abandonnée à ses propres forces pour subir le choc de l'armée russe."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Mortier avait bien reçu d'un escadron, env le matin vers Scheibenhof, l'avis qu'une colonne russe approchait de ce eôté, mais il pensait que cette eolonne s'était déployée dans la montagne et engagée déjà contre le 4° léger et le 103%."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Rien ne faisait supposer que les Russes, en retraite vers le Nord-Est, avaient détaché un corps de 4,000 hommes en sens inverse vers Weissen- kirchen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 150 (OCR running heads; not checked against print)",
+          "quote": "le maréchal Mortier put croire le combat terminé"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Mortier essaya d'abord de bousculer cet adversaire, qu'il ne jugeait pas très nombreux;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "Mortier l'avait informé du succès obtenu dans la matinée par la division Gazan,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 163 (OCR running heads; not checked against print)",
+          "quote": "de sorte qu'il ne paraissail pas nécessaire de continuer la marche, déjà longue, faite dans cette journée."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "nous avons déjà montré, chemin faisant, jusqu'où remontait la responsabilité de l'isolement de la division Gazan."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's object was pursuit. In Alombert and Colin (OCR), Mortier gave up his prudent slowness of the day before on the left bank of the Danube; Murat's letter pressed him to reach Krems, Berthier, regretting that he lacked cavalry for the pursuit, wrote that if he pursued the Russians to Krems he would do nothing without cavalry, and the letters all urged haste and spoke only of pursuit. Persuaded that his role was to pursue an enemy in full retreat, Mortier was preparing to attack on the morning of 11 November (page image). After the morning's fight the division, husbanding the few munitions left it, stopped pushing the enemy so as to take up defensive positions (OCR); in the evening Mortier determined to await the enemy's shock and, after repelling it, to attempt the retreat, and the grenadiers attacked into the walled road by which the enemy was advancing, until the Russian column broke up (OCR).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The pursuit was set by the orders and letters from above, so the claim is tagged inherited; the evening's decision to break through was Mortier's own (claim side-a-command). English renderings (ours): 'on the left bank of the Danube, Marshal Mortier gives up the prudent slowness of the day before' (OCR); 'Murat's [letter], which he received on the evening of the ... (OCR) or the morning of the ... (OCR), presses him to reach Krems' (OCR); 'finally Berthier sent him a last notice during the day of the ... (OCR), regretting that he lacked cavalry for the pursuit' (OCR); '\"if you pursue the Russians to Krems, you will do nothing without cavalry\"' (OCR); as in claim side-a-information for the unanimous call to haste and pursuit (OCR); as in claim side-a-information for Mortier's role (p. 143); as in claim means-and-supply for the munitions (OCR); 'so we stopped pushing the enemy, in order to take up defensive positions from then on' (OCR); as in claim side-a-command for the evening's decision and the walled road (OCR); 'this smothered centre climbed over or knocked down the walls to right and left, and broke up in the greatest disorder' (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 136 (OCR running heads; not checked against print)",
+          "quote": "Sur la rive gauche du Danube, le maréchal Mortier renonee à sa prudente lenteur de la veille."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Murat, qu'il a reçue dans la soirée du 9 ou dans la matinée du 10, le presse d'atteindre Krems."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Eufin Berthier lui envoyait un dernier avi la journée du 10, regrettant qu'il manquat de cavalerie pour la poursuite."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "« Si vous poursuivez les Russes à Krems, vous ne ferez rien sans cavalerie. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 137 (OCR running heads; not checked against print)",
+          "quote": "Bref il y a accord unanime pour recommander de se hâler et l'on ne parle que de poursuite,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Mortier, toujours persuadé que son rôle consistait à poursuivre un ennemi en pleine retraite, se préparait à attaquer dans la matinée du 11 novembre; Miloradovitch le prévint."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Nous devions ménager avec une sévère nomie les rares munitions qui nous restaient."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 151 (OCR running heads; not checked against print)",
+          "quote": "Aussi ces sämes-nous de pousser l'ennemi, pour prendre désormais des positions défensives"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 153 (OCR running heads; not checked against print)",
+          "quote": "Il se déter- mina alors à réunir les troupes de la division en avant du plateau occupé par un bataillon du 100° régiment, d'y attendre le ehoe de l'ennemi et, après l'avoir repoussé, de tenter la retraite"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "Cet officier supérieur, interrogé, proposa de se mettre à la tête des grenadiers de son régi- ment, de pénétrer pac section de 7 hommes de front dans le chemin muré par où l'ennemi s'avançait."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "plut au Maréchal et il en ordonna l'exé- cution immédiate."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 160 (OCR running heads; not checked against print)",
+          "quote": "ce centre étouffé franchit ou renversa les murs de dr et de gauche, et se débanda dans le plus grand désordre"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's object was Gazan's division. In Alombert and Colin, Kutusow resolved to carry it off and meant to crush it in the defile between Weissenkirchen and Dürnstein, where he believed its bulk to be; Doktorow's column was to take it in the rear, Stryck's to move onto its left flank and Miloradovitch's to attack it in front and throw it back into the defile. In Schönhals, Kutusow decided to attack the French the next day to rid himself of the enemy's pressure, the turning column was to fall on the enemy's rear while Miloradović's division attacked in front, and the engagement gained him time to send his artillery reserve and baggage ahead undisturbed and to prepare his union with Auersperg's corps and the sixth Russian column. Alombert and Colin judge that Dokhtourow's slowness made Schmidt's plan fail.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Kutusow set the object at this engagement, on Schmidt's advice or plan, so the claim is tagged commander_created. English renderings (ours): as in claims alombert-side-b, side-b-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Sur le conseil du général autrichien Schmidt, qui remplissait les fonctions de chef d'état-major, il résolut d'enlever la division Gazan."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Comme il croyait le gros de cette division dans le défilé entre Weissenkirchen et Dürnstein, c'est là qu'il voulait l'écraser."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "2 escadrons (1), soit 9,000 hommes, devait se porter par Egelsee et Scheibenhof sur Weissenkirchen pour prendre en queue la colonne de Gazan;"
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "le général Stryck, avec 5 bataillons (2), soit 2,600 hommes, devait se porter par Egelsee sur le flanc gauche des Français."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Enfin, Miloradovitch, avec 7 bataillons et 2 escadrons (3), soit 3,200 hommes, attaquerait en tête les troupes de Mortier et s'efforcerait de les rejeter dans le défilé."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Um sich dem Nachdrängen vom Feinde zu entledigen, beschloss Kutusow am 10. Abends, die Franzosen am folgenden Tage anzugreifen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Nach dem vom FML. Schmidt entworfenen Angriffsplan sollte eine Colonne Früh 3 Uhr nach Egelsee rücken, und in grösster Stille bei Scheibenhof vorbei, so eilig als möglich die Schlucht von Weissenkirchen zu gewinnen trachten und den Feind im Rücken anfallen, während die Division Miloradović ihn gleichzeitig von Stein her in der Front angreift."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "Das Gefecht bei Dürrenstein hatte die Folge, dass Kutusow Zeit gewann, ungestört seine Artillerie-Reserve und die Bagagen vorauszusenden, auch die erforderlichen Vorkehrungen zu seiner Vereinigung mit dem Auerspergischen Corps und der sechsten russischen Colonne zu treffen, die 7000 Mann stark am 12. in Hollabrunn ankam."
+        },
+        {
+          "source_id": "alombert-colin-t4-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. IV, p. 166 (transcribed from the page image)",
+          "quote": "Parmi les combattants du 11 novembre, le seul qui se soit montré au-dessous de sa tâche est le général Dokhtourow, dont la lenteur fit échouer le projet de Schmidt."
+        }
+      ]
+    },
+    {
+      "id": "posture-alombert-colin",
+      "dimension": "posture",
+      "value": "Both sides attacked. Mortier was preparing to attack on the morning of 11 November when Miloradovitch forestalled him, and the combat fell into two phases, Miloradovitch and Stryck in the morning and Doktorow in the evening. In their narrative (OCR), the Russians suddenly took the offensive and Miloradovitch attacked both in the small plain of Loiben and on the slopes; French light infantry battalions drove the enemy back into the wood, and a French charge threw the Russians back into Unter-Loiben; Mortier resolved to drive them out of Unter-Loiben for good. Danilewski's relation, which they find in close agreement with the French documents, has a French attack on the Russian right fail and Mortier finally drive Miloradovitch out of Loiben and pursue him to Stein; in the plain, therefore, the French success was final, though not in the mountains. In the evening Doktorow's advanced guard, having passed through Dürrenstein, deployed east of the town in a concentric attack on the division; on Mortier's order the grenadiers attacked into the walled road by which it advanced, and the Russian column broke up. Between Weissenkirchen and Wadstein a regiment that Dupont brought up beat the charge against Doktorow's column while the Russians came on with equal daring, and Doktorow, by Danilewski, was forced to clear the road and let Mortier pass.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Code both_attacked: Alombert and Colin describe main attacks by each side, Miloradovitch's on Loiben, answered by a French offensive that drove him back to Stein, and Doktorow's on Gazan's rear, met by Dupont's attack between Weissenkirchen and Wadstein on another part of the field. The French were bivouacked, not holding a defended position, when they drove Miloradovitch to Stein, so the exception for a counterattack inside a defended position does not apply. Their account rests, by their own list, on French documents (a regimental colonel's letter to Berthier, General Graindorge's report on his artillery, the journal of Dupont's division and the notes in the return of the officers), on two partial Austrian eyewitness relations in the Vienna war archives and on Danilewski's Russian relation, and, with precautions, on Talandier's narrative and Rozat's fragment; there is no official French relation of the combat (OCR). Schönhals's account, coded separately, has only side B attack (claim posture-schoenhals). Both commanders decided to attack at this engagement, Kutusow in resolving to carry off Gazan's division and Mortier in preparing to attack and resolving to clear Unter-Loiben, so the posture is tagged commander_created. English renderings (ours): as in claim side-a-information for Mortier's preparation; 'the combat is thus divided naturally into two phases, corresponding to the entry into line of the two parts of the Russian army: in the morning, Miloradovitch and Stryck; in the evening Doktorow'; 'Miloradovitch and Mortier had been at grips since 7 in the morning'; '\"the Russians suddenly took the offensive\"' (OCR); 'Miloradovitch, having passed through Rothenhof, attacked at once in the small plain of Loiben and on the slopes, at the edge of the wood' (OCR); 'the ... (OCR) and ... (OCR) battalions of the ... (OCR) léger drove the enemy back into the wood' (OCR); as in claim side-b-losses-reported for the charge (OCR); as in claim side-a-command for Mortier's resolve (OCR); 'Danilewski's relation, very succinct, agrees as exactly as possible with the one that results from the French documents' (OCR); 'the French attack on the Russian right wing has no success' (OCR); 'finally Mortier, having united his ... (OCR) brigades, drives Miloradovitch from Loiben for the ... (OCR) time and pursues him as far as Stein, where he is obliged to halt' (OCR); 'in the plain, therefore, our success was final' (OCR); 'it was not the same in the mountains' (OCR); as in claim schoenhals-figures for Doctourow's advanced guard (OCR); as in claim side-a-command for the concentric attack, the proposal and the order (OCR); as in claim side-a-objectives for the column's breaking up (OCR); as in claim dupont-division for the regiment Dupont brought up (OCR); '\"the ... (OCR) beats the charge, marches forward at full speed; the Russians, for their part, advance with like daring\"' (OCR); '\"Marshal Mortier is freed. He arrives by Dürnstein with Gazan's division\"' (OCR); as in claim means-and-supply for Dokhtourow caught between fires and for Danilewski's words (OCR); 'he was forced to clear the road, to cut himself a passage and to let Mortier pass' (OCR); on their sources, 'we possess no official relation of the combat fought on ... (OCR) November,' (OCR); 'these are first, on the French side, the letter written on ... (OCR) December to Berthier by the colonel of the ... (OCR) regiment of the line; the report of General Graindorge on the conduct of his artillery; the journal of Dupont's division, and the numerous notes in the return of the officers who took part in the campaign' (OCR); as in claim side-b-losses-reported for the Austrian relations (OCR); '[containing] partial relations by eyewitnesses, one written on ... (OCR) November, the other at the end of the campaign' (OCR); 'the Russian relation of Danilewski, drawn up, it seems, from the Russian documents, can be used' (OCR); 'one can, not without precautions, use the narrative of Colonel Talandier and those derived from it, as well as the fragment of Colonel Rozat de Maudres' (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Mortier, toujours persuadé que son rôle consistait à poursuivre un ennemi en pleine retraite, se préparait à attaquer dans la matinée du 11 novembre; Miloradovitch le prévint."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Le combat se trouve ainsi divisé naturellement en deux phases, correspondant à l'entrée en ligne des deux parties de l'armée russe; le matin, Miloradovitch et Stryck; le soir Doktorow."
+        },
+        {
+          "source_id": "alombert-colin-t4-p143-figures-v1",
+          "section": "p143",
+          "locator": "Alombert and Colin, t. IV, p. 143 (transcribed from the page image)",
+          "quote": "Miloradovitch et Mortier étaient aux prises depuis 7 heures du matin."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 144 (OCR running heads; not checked against print)",
+          "quote": "« Les Russes prirent soudain l'offensive;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 144 (OCR running heads; not checked against print)",
+          "quote": "Miloradoviteh, ayant traversé Rothenhof, attaquait à la fois dans la petite plaine de Loiben et sur les coteaux, à la lisière du bois."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 145 (OCR running heads; not checked against print)",
+          "quote": "Les 2° et 3° bataillons du 4* léger refoulèrent l'ennemi dans le bois,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 147 (OCR running heads; not checked against print)",
+          "quote": "La charge du 100°, aussitôt soutenu par le 4\" léger, rejeta les Russes dans Unter-Loiben, enleva les deux pièces,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 147 (OCR running heads; not checked against print)",
+          "quote": "le maréchal Mortier résolut de chasser définitivement Lennéani d'Enter-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "La relation de Danilewski, très succinete, concorde aussi exactement que possible avec celle qui résulte des doeuments français"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "l'attaque des Français sur l'aile droite russe n'a aucun succès."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "Enfin, Mortier, ayaut réuni ses deux brigades, chasse pour la secande fois Miloradovitch de Loiben, et le poursuit jusqu'à Stein, où il est obligé de s'arrôter"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "Dans la plaine, notre succès était done définitif."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "Il n'en était pas de même dans la montagne ;"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "L'avant-garde de Doctourow, qui avait traversé Dürrenstein, s'était déployée à 500 pas à l'Est,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 153 (OCR running heads; not checked against print)",
+          "quote": "Devant cette ataque concentrique, le maréchal Mortier résolut d’abord de réunir tous ses moyens sur Le plateau voisin d'Ober-Loiben"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "Cet officier supérieur, interrogé, proposa de se mettre à la tête des grenadiers de son régi- ment, de pénétrer pac section de 7 hommes de front dans le chemin muré par où l'ennemi s'avançait."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "plut au Maréchal et il en ordonna l'exé- cution immédiate."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 160 (OCR running heads; not checked against print)",
+          "quote": "ce centre étouffé franchit ou renversa les murs de dr et de gauche, et se débanda dans le plus grand désordre"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "Le général Dupont arrive avec le 32° régiment; il le fait avancer pour relever le brave 9° qui avail épuisé ses cartouches"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 164 (OCR running heads; not checked against print)",
+          "quote": "« Le 32 bat la charge, marehe en avant à loule course; les Russes, de leur côté, s'avancent avee une pareille audace."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "Le maréehal Mortier est dégagé. Il arrive par Dürnstein avec la division Gazan. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "Dokbtourow, descendu sur Wadstein dans l'obscurité, et se voyant pris à son four entre deux feux,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "« Il se trou- vait, dit Danilewski, dans la situation la plus critique, privé de son artillerie,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 165 (OCR running heads; not checked against print)",
+          "quote": "Il fut forcé de dégarnir la route, de se frayer un passage et de laisser passer Mortier. »"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "Nous ne possédons aucune relation officielle du combat livré le 41 novembre,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "Ce sont d'abord, du côté français, la lettre écrite le 18 décembre à Berthier par le colonel du 103 régiment de ligne (1); le rapport du général Graïndorge sur la conduite de son artillerie ; le Journal de la division Dupont (2), el les nombreuses notes figu- rantsur l'état desofficiers qui ont pris part à la cam- pagne (3)."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 140 (OCR running heads; not checked against print)",
+          "quote": "Du côté des Alliés, nous avons les s XI-46 et XTII-61 des Archives de la guerre de Vienne,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 141 (OCR running heads; not checked against print)",
+          "quote": "des relations partielles par des témoins oculaires, écrite l'une Je {4 novembre, l'antre à la fin de la campagne."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 141 (OCR running heads; not checked against print)",
+          "quote": "La Relation russe de Danilewski, rédigée, semble-Lil, sur Les documents russes, peut être utilisée."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 141 (OCR running heads; not checked against print)",
+          "quote": "On peut, non sans préeautions, employer le récit du colonel Talandier et ceux qui en dérivent (1), ainsi que le fragment du colonel Rozat de Maudres (2)."
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "posture-schoenhals",
+      "dimension": "posture",
+      "value": "Side B attacked. Kutusow decided on the evening of the 10th to attack the French the next day; at 7 in the morning Miloradović's division attacked the French advanced posts by the Danube, threw them back and occupied Unter-Loiben; the French, holding the slopes with guns, threw back the Russian right wing, forcing the troops by the Danube into a short backward movement, and not long after Ober-Loiben too was stormed. In the evening Schmidt's column came down behind Dürrenstein; the French made front against it, their cavalry's attempts to break through were repulsed, everyone advanced on the height where the French infantry stood, and 1000 men laid down their arms. In Schönhals's footnote after Kotzebue, Dupont's division ran into Schmidt's column at Wadstein and tried to break through, but, taken in flank and rear, had to re-embark and cross to Rossatz.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Code B_attacked: Schönhals has side B attack throughout, and side A's repulse of the Russian right wing, its cavalry's attempts to break through and Dupont's attempt in Kotzebue's version are counter-strokes or attempts to escape by the side attacked. Alombert and Colin's account is coded separately (claim posture-alombert-colin). The passage does not say who stormed Ober-Loiben. By his footnote Schönhals took some details from Kotzebue for want of more reliable sources, and his editors call his account of the engagement meagre and incomplete for want of material, pointing to its description in their journal's volume for 1860. Kutusow decided the attack at this engagement, so the posture is tagged commander_created. English renderings (ours): as in claim side-b-command for the decision; 'at 7 in the morning Miloradović's division attacked the enemy's advanced posts by the Danube. These were thrown back and Unter-Loiben occupied'; as in claim durnstein-ground for the slopes; 'and in fact they threw the Russians' right wing back again, and this circumstance forced the detachments fighting by the Danube too into a short backward movement; not long after, Ober-Loiben too was stormed'; 'it was 4 in the afternoon when the head of Schmidt's column came down through the ravine to the Danube about 2000 paces behind Dürrenstein'; as in claim schoenhals-figures for the French front; 'the latter at once made an attack in the flat vineyards on the wing leaning on the Danube and tried to cut its way through, but was repulsed by a violent musketry'; 'the Russian Jäger advanced skirmishing on the slope of the mountain, while the column following deployed and kept up the fire until dark, without advancing'; 'the fire of the French grew ever weaker'; as in claims side-b-information and side-b-losses-reported for the evening; footnote, 'according to Kotzebue, Dupont's division ran into FML Schmidt's column at about 4 in the afternoon at the moment when the latter arrived at Wadstein, coming down from Resch'; 'it tried to break through, but, taken in flank and rear, after a bloody hand-to-hand fight it had to re-embark and cross over to Rossatz'; as in claim schoenhals-figures for Kotzebue as a source; '[editors' footnote] the above account of the engagement at Dürrenstein has turned out meagre and incomplete for want of the material available to the author'; 'all the more as it was described in this journal, volume for 1860'.",
+      "citations": [
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Um sich dem Nachdrängen vom Feinde zu entledigen, beschloss Kutusow am 10. Abends, die Franzosen am folgenden Tage anzugreifen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Um 7 Uhr Früh griff die Division Miloradović die feindlichen Vorposten nächst der Donau an. Diese wurden geworfen und Unter-Loiben besetzt."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Die Franzosen hatten aber durch Besetzung der Abfälle mit Geschütz den grossen Vortheil, den in der Ebene Vordringenden grosse Verluste beizubringen."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "In der That warfen sie auch den rechten Flügel der Russen wieder zurück, und dieser Umstand zwang auch die an der Donau kämpfenden Abtheilungen zu einer kurzen rückgängigen Bewegung; nicht lange nachher ward auch Ober-Loiben erstürmt."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Es war 4 Uhr Nachmittags, da kam die Tête der Colonne Schmidt durch die Schlucht an der Donau ungefähr 2000 Schritte hinter Dürrenstein herab¹)."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "zosen gegen sie Front gemacht und sich auf einem sanften Bergfuss zwischen der Donau und dem Weingebirge mit zwei Kanonen, den linken Flügel an Loiben gelehnt, aufgestellt."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Letztere unternahm sofort in den flachliegenden Weingärten einen Angriff auf den an der Donau lehnenden Flügel und versuchte sich durchzuschlagen, ward aber durch ein heftiges Musketenfeuer zurückgewiesen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Die russischen Jäger rückten auf dem Abhange des Berges plänkelnd vor, während die nachrückende Colonne aufmarschirte und bis zur Dunkelheit das Feuer unterhielt, ohne vorzurücken."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Das Feuer der Franzosen wurde immer schwächer."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Loiben gieng in Flammen auf und diese beleuchteten den ganzen Thalkessel; die französische Cavallerie machte, hiedurch begünstigt, nochmals den Versuch, auf dem offenen Wege nach Dürrenstein durchzubrechen."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Da es durch den Brand von Loiben hell war, so rückte alles gegen die Höhe, wo die französische Infanterie sichtbar ward."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Hier streckten 1000 Mann die Waffen, und die im Gefechte verloren gegangenen zwei russischen Kanonen fanden sich auch wieder."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "¹) Nach „Kotzebue“ stiess die Division Dupont gegen 4 Uhr Nachmittags mit der Colonne des FML. Schmidt in dem Augenblicke zusammen, als letztere von Resch herab bei Wadstein ankam."
+        },
+        {
+          "source_id": "schoenhals-1873-p136-figures-v1",
+          "section": "p136",
+          "locator": "Schönhals (1873), p. 136 (transcribed from the page image)",
+          "quote": "Sie wollte durchbrechen, aber in Flanke und Rücken genommen, musste sie nach einem blutigen Handgemenge sich wieder einschiffen und nach Rossatz hinüberfahren."
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "In Ermangelung verlässlicherer Quellen wurde hier Einiges aus der Beschreibung des Gefechtes vom k. k. Hauptmann Kotzebue aufgenommen."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "¹) Obige Darstellung des Gefechtes bei Dürrenstein ist wegen Mangel des dem Verfasser zu Gebote gestandenen Materials dürftig und lückenhaft ausgefallen."
+        },
+        {
+          "source_id": "schoenhals-1873-p137-figures-v1",
+          "section": "p137",
+          "locator": "Schönhals (1873), p. 137 (transcribed from the page image)",
+          "quote": "um so mehr als dasselbe in dieser Zeitschrift, Jahrgang 1860, beschrieben wurde."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Neither account names works that either side fought from. Side A had passed the night in the basin of Loiben (Alombert and Colin, OCR), its division camped with the right wing at Ober-Loiben and the left on the lower slopes of the heights (Schönhals, OCR), with small posts on the neighbouring heights, which Alombert and Colin give with every reserve from Kotzebue (OCR), and pickets by the ruins of the castle and on the Neudeck (Schönhals). In the fighting side A held the plateaus above the villages, on one of which Fabvier defended his guns, and heights near the castle of Dürnstein (Alombert and Colin). Side B came down from the mountains, part of it through the little town of Dürrenstein, which Schmidt found unoccupied (Schönhals). The walls named are those of the vineyards and of the road to Dürnstein, along which the Russian column advanced in the evening and the grenadiers attacked it (Alombert and Colin, OCR, and the Austrian relation they quote), and the wall that joins the castle ruin above Dürrenstein to the town (Schönhals, OCR).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed. The vineyard and road walls are named as obstacles and as the setting of the evening fight, not as works either side fought from, and no passage read has either side defend the castle ruin or the town; if the walls of the road were counted as works, the evening fight on the road would code B_fortified. The accounts agree on the code, so they are one claim, and a none_named code takes the phase unresolved. English renderings (ours): 'our troops had passed the night in the basin of Loiben, in gloomy weather,' (OCR); Schönhals, 'the division camped with its right wing at Ober-Loiben, with its left on the lower, fairly steep slopes of the heights of the same name' (OCR); Alombert and Colin, 'we place small posts on the neighbouring heights, Pfaffenberg, Laken and Neudeck' (OCR); 'this last information with every reserve. It comes from the [attempt at a description of the battle at Dürnstein] of Captain W. von Kotzebue (... (OCR)), a very inexact work,' (OCR); Schönhals, 'by the ruins of the castle and on the ridge of the mountain, the so-called Neudeck, stood pickets, whose patrols came close to the Scheibenhof' (p. 135); Alombert and Colin, as in claim durnstein-ground for the plain and the plateaus; as in claim side-b-losses-reported for General Campana on the plateau (OCR); as in claim side-a-losses-reported for Fabvier on the plateau (p. 162); as in claim side-a-command for the plateau near Ober-Loiben (OCR); '[a regiment that had bivouacked behind Dürrenstein crossed the town ...,] detaching its ... (OCR) battalion onto the heights near the castle,' (OCR); '[Captain Laforest, ...] placed in observation on heights between the castle of Dürnstein and the regiment's left flank,' (OCR); as in claim side-b-command for the town found unoccupied; as in claims durnstein-ground, side-a-command and side-b-information for the vines and walls, the walled road and the fight between walls (OCR); the relation, as in claim side-b-losses-reported for the road (p. 162); Schönhals, as in claim durnstein-ground for the castle ruin (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 144 (OCR running heads; not checked against print)",
+          "quote": "Nos troupes avaient passé la nuit dans le bassin de Loiben, par un temps sombre,"
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "Die Division lagerte mit dem rechten Flügel bei Ober-Loiben, mit dem linken auf den untern, ziemlich steilen Ablällen der gleichnamigen Höhen."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 138 (OCR running heads; not checked against print)",
+          "quote": "Nous plaçons de petits postes sur les hau- teurs voisines, Pfaffenberg, Laken et Neudeck (1)."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-10-nov",
+          "locator": "Alombert and Colin, t. IV, p. 138 (OCR running heads; not checked against print)",
+          "quote": "Ces derniers renseignements sous toutes réserves, Îls proviennent du Verauh einer Besehraïumg der Seklackt bei Durnstein, du capitaine W. vou Kotzebue (1807), ouvrage très ineact,"
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Bei den Ruinen des Schlosses und auf dem Rücken des Gebirges, dem sogenannten Neudeck, standen Piquets, deren Patrullen bis in Nähe des Scheibenhofes kamen."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Entre Dürnstein et Rothenhof, il s'en écarte, contournant la petite plaine d'alluvions où ont été bâtis les villages d'Ober et Unter-Loiben; depuis Rothenhof jusqu'a Stein, il recommence à longer le pied des escarpements, laissant à peine l'espace nécessaire à la route."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Un de ces contreforts se prolonge par un petit plateau à surface horizontale, de forme rectangulaire, à bords escarpés, au Nord-Est d'Unter-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-p142-figures-v1",
+          "section": "p142",
+          "locator": "Alombert and Colin, t. IV, p. 142 (transcribed from the page image)",
+          "quote": "Un autre plateau, de forme analogue, s'arrête au-dessus de la route, à l'aplomb d'Ober-Loiben."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 148 (OCR running heads; not checked against print)",
+          "quote": "Le général Campana, maitre de ce plateau, apereut l'ennemi débouchant en colonne par la chaussée de Stein,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Le lieutenant Fabvier « se défendit sur le plateau jusqu'au moment où il reçut l'ordre d'abandonner ses pièces, ce qu'il ne fit qu'après les avoir enclouées,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 153 (OCR running heads; not checked against print)",
+          "quote": "Devant cette ataque concentrique, le maréchal Mortier résolut d’abord de réunir tous ses moyens sur Le plateau voisin d'Ober-Loiben"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 147 (OCR running heads; not checked against print)",
+          "quote": "détachant son 3° bataillon sur les hauteurs voisines du château,"
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 155 (OCR running heads; not checked against print)",
+          "quote": "Placé en obser- vation sur des hauteurs, entre le château de Dürnstein el le flanc gauche du régiment,"
+        },
+        {
+          "source_id": "schoenhals-1873-p135-figures-v1",
+          "section": "p135",
+          "locator": "Schönhals (1873), p. 135 (transcribed from the page image)",
+          "quote": "Er liess zwei Bataillone auf dem Rücken, ein Bataillon im Thale zurück, und rückte mit dem Resttheile im Eilschritte gegen Dürrenstein, das er unbesetzt fand."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 149 (OCR running heads; not checked against print)",
+          "quote": "du 403* et le 4° dragons, qu'en n'avait pu employer daus ce terrain accidenté, couvert de vignes et de murs."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 158 (OCR running heads; not checked against print)",
+          "quote": "Cet officier supérieur, interrogé, proposa de se mettre à la tête des grenadiers de son régi- ment, de pénétrer pac section de 7 hommes de front dans le chemin muré par où l'ennemi s'avançait."
+        },
+        {
+          "source_id": "alombert-colin-t4-selections-v1",
+          "section": "durnstein-11-nov",
+          "locator": "Alombert and Colin, t. IV, p. 161 (OCR running heads; not checked against print)",
+          "quote": "Cette lutte, localisée entre deux murs, et en pleine nuit,"
+        },
+        {
+          "source_id": "alombert-colin-t4-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. IV, p. 162 (transcribed from the page image)",
+          "quote": "Enfin, l'ennemi tira plusieurs coups à obus sur le chemin de Dürnstein, (chemin en remblai bordé de murs, comme il y en a souvent dans les pays de vignobles) lequel fut presque aussitôt abandonné par les Russes, qui se jetèrent à droite et à gauche."
+        },
+        {
+          "source_id": "schoenhals-1873-danube-selections-v1",
+          "section": "durnstein",
+          "locator": "Schönhals (1873), p. 134 (OCR page breaks; not checked against print)",
+          "quote": "auf deren Spitze eine Burgruine liegt, die durch eine Mauer mit dem Städtchen in Verbindung steht, durch welche die Strasse fuhrt"
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Alombert's own book on the combat of Dürrenstein, which by t. IV's preface (OCR, read and not cited) prints a great part of the documents of this period and appeared in 1897, and in which the French documents that t. IV quotes are given (Colonel Taupin's letter, Talandier's relation, General Graindorge's and chef de bataillon Lasseront's reports, Rozat's recollections, the journal of Dupont's division and the officers' service notes); it was not inspected, so these are read only as t. IV quotes them. Also deferred: the Austrian relations XI-46 and XIII-61 of the Vienna war archives and Danilewski's Russian relation, known only from t. IV's quotations and summaries; Kotzebue's description of the battle (dated 1807 in t. IV's OCR), known only from Schönhals's footnotes and t. IV's critique; the account of the engagement in the Österreichische militärische Zeitschrift for 1860 to which Schönhals's editors refer; Victoires et conquêtes, t. XV, which t. IV identifies as Talandier's relation or written from his notes (OCR); and the rest of t. IV's introduction for 10 November (pp. 130-137), which opens with Murat's march on Vienna and of which only the first lines and the passages around the names Mortier, Gazan, Kutusow and Dupont were read, none of them cited. Figures seen only in the OCR and not restated in values: t. IV's counts of the French troops engaged at stages of the morning and of the reserve left unused, the corps it says the Russians detached toward Weissenkirchen, the strength of Doktorow's advanced guard and of the Russians the hussars saw coming down at Weissenkirchen, the numbers in Major Henriod's harangue and in his service record, the size of the grenadiers' sections and of Mortier's escort, the guns and men General Campana's companies took, the men and horses Rozat saved, the losses of the 9e léger and the 32e in its footnotes, the distances at which the Russian column deployed, Bagration's battalions in Schönhals, and the hours and dates except those printed on the page images; the page numbers of the parents, read from the OCR except where a page image is cited.",
+    "Most consequential gap: side A's strength. Bodart gives 8,000; Alombert and Colin give Gazan's division 5,300 men (5,500 by their regiments' figures, on our reading) and no strength for Dupont's division, which fought the evening's second action with at least its 9e léger and 32e. The targeted follow-up searched t. IV's appendix of situations for a return of Dupont's division: the 6th corps' return of 4 brumaire an XIV (26 October by our conversion), read from the page image of p. 769, gives none, the division being detached with Prince Murat; Moriggl's order of battle, already registered, gives it 7 battalions and 5350 men at the Rhine crossing (p. 92), a figure from the start of the campaign (claim dupont-division). That leaves the gap open. A return of Dupont's division for November, the journal of the division or Alombert's book, none of which the passages read print in full, could close it. Side B's strength is less open: Alombert and Colin give the three columns, and Bodart's 25,000 equals Schönhals's 32,000 less the sixth column's 7000 (our arithmetic), though the passages read do not show that he reckoned so.",
+    "Disputes recorded in the claims: side B's strength (Bodart 25,000; Alombert and Colin at least 16,000 assailing Gazan's division, in columns of 9,000, 2,600 and 3,200 with Essen's reinforcement, the rest of the army in reserve; Kotzebue, through Schönhals, 10,000 for the turning force); side A's strength (Bodart 8,000; Alombert and Colin 5,300 for Gazan's division and no figure for Dupont's); side A's loss (Bodart 6,600, of which 1,600 prisoners; Alombert and Colin about 1,600 to 1,700, of which 1,100 to 1,200 prisoners; the Austrian report XIII-61 980; Schönhals 2000 prisoners besides many dead; the Austrian relation that Alombert and Colin quote, 1,000 men laying down their arms on the height, which Alombert and Colin reject); the 4e dragons (Schönhals the whole regiment taken; Alombert and Colin 65 prisoners); the trophies (Bodart 5 guns and 2 eagles; Schönhals 2 flags and 5 guns; Alombert and Colin the artillery lost and the eagles saved, OCR); Gazan's escape (Alombert and Colin two-thirds of the division with Mortier; Schönhals Gazan with 400 men and 50 horses); Dupont's evening fight (Alombert and Colin, after the account of Dupont's fight that they quote, Danilewski and the journal of Dupont's division, the Russians forced to let Mortier pass and Dupont's division bivouacking on the battlefield; Kotzebue, through Schönhals, Dupont's division re-embarking for Rossatz); side B's loss (Bodart 4,000 killed and wounded; the Austrian report 920); the hours of the turning column (Alombert and Colin, at Egelsee only after noon and down in the valley at 5 o'clock; Schönhals, leaving Egelsee at 1 in the afternoon, its head down at 4; Kotzebue at Egelsee at 2 in the night); who set Loiben on fire (the Austrian relation, the French; Alombert and Colin's narrative and the account of Dupont's fight that they quote, the Russians, OCR); and the posture code (both_attacked from Alombert and Colin, B_attacked from Schönhals).",
+    "Families and dependence: Bodart (a compilation; the passages read do not show his sources, though his 25,000 equals Schönhals's 32,000 less the sixth column's 7000 and his 25 per cent of 8,000 would be Schönhals's 2000 prisoners, our arithmetic); Alombert and Colin, t. IV (the French official history of 1908, which has no official French relation of the combat and rests, by its own list, on French letters, reports, the journal of Dupont's division and officers' service notes, most of them printed in Alombert's book, on two partial Austrian eyewitness relations in the Vienna war archives, on Danilewski's Russian relation, and with precautions on Talandier's narrative, those derived from it and Rozat's fragment; it sets Kotzebue aside for the fighting but uses him, with every reserve, for positions before the engagement; all these are read as t. IV prints them, not as originals); Schönhals (the Austrian account written in 1831 and printed in 1873, which by its own footnote takes some details from Kotzebue for want of more reliable sources and whose editors call it meagre and incomplete, and which by its preface draws what it says of the French army's operations from that army's bulletins, not inspected; its evening narrative follows nearly sentence for sentence the Austrian relation that t. IV quotes in translation on pp. 161-162, from the French front on the spur with two guns and about 400 cavalry to Schmidt's death, the 1000 men laying down their arms and the two guns recovered, so for the evening the two are not independent: Schönhals follows that relation or a source it shares); Moriggl (the Austrian and Tyrolean account of 1861, already registered, used only for the order of battle at the Rhine crossing, with French strengths at second hand)."
+  ]
 }
 ```
 
@@ -18785,3 +22362,49 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `moriggl-1861-p92-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p92-figures.txt
 - `moriggl-1861-p93-image-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p93.jpg
 - `moriggl-1861-p93-figures-v1`: Alois Moriggl, Der Feldzug des Jahres 1805 und seine Folgen für Oesterreich überhaupt und für Tirol insbesonders; group `moriggl-feldzug-1805-tirol`; data/raw/napoleonic-third-coalition-1805-v1/moriggl-1861-p93-figures.txt
+- `alombert-colin-t4-ocr-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-djvu.txt
+- `schoenhals-1873-ocr-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-djvu.txt
+- `alombert-colin-t4-selections-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-selections.txt
+- `schoenhals-1873-danube-selections-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-danube-selections.txt
+- `alombert-colin-t4-p125-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p125.jpg
+- `alombert-colin-t4-p125-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p125-figures.txt
+- `alombert-colin-t4-p142-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p142.jpg
+- `alombert-colin-t4-p142-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p142-figures.txt
+- `alombert-colin-t4-p143-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p143.jpg
+- `alombert-colin-t4-p143-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p143-figures.txt
+- `alombert-colin-t4-p154-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p154.jpg
+- `alombert-colin-t4-p154-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p154-figures.txt
+- `alombert-colin-t4-p162-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p162.jpg
+- `alombert-colin-t4-p162-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p162-figures.txt
+- `alombert-colin-t4-p166-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p166.jpg
+- `alombert-colin-t4-p166-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p166-figures.txt
+- `alombert-colin-t4-p650-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p650.jpg
+- `alombert-colin-t4-p650-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p650-figures.txt
+- `alombert-colin-t4-p651-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p651.jpg
+- `alombert-colin-t4-p651-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p651-figures.txt
+- `schoenhals-1873-p127-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p127.jpg
+- `schoenhals-1873-p127-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p127-figures.txt
+- `schoenhals-1873-p128-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p128.jpg
+- `schoenhals-1873-p128-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p128-figures.txt
+- `schoenhals-1873-p129-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p129.jpg
+- `schoenhals-1873-p129-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p129-figures.txt
+- `schoenhals-1873-p130-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p130.jpg
+- `schoenhals-1873-p130-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p130-figures.txt
+- `schoenhals-1873-p131-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p131.jpg
+- `schoenhals-1873-p131-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p131-figures.txt
+- `schoenhals-1873-p132-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p132.jpg
+- `schoenhals-1873-p132-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p132-figures.txt
+- `schoenhals-1873-p135-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p135.jpg
+- `schoenhals-1873-p135-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p135-figures.txt
+- `schoenhals-1873-p136-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p136.jpg
+- `schoenhals-1873-p136-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p136-figures.txt
+- `schoenhals-1873-p137-image-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p137.jpg
+- `schoenhals-1873-p137-figures-v1`: Carl Ritter von Schönhals, Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen; group `schoenhals-krieg-1805`; data/raw/napoleonic-third-coalition-1805-v1/schoenhals-1873-p137-figures.txt
+- `alombert-colin-t4-p769-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p769.jpg
+- `alombert-colin-t4-p769-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p769-figures.txt
+- `alombert-colin-t4-p711-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p711.jpg
+- `alombert-colin-t4-p711-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p711-figures.txt
+- `alombert-colin-t4-p723-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p723.jpg
+- `alombert-colin-t4-p723-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p723-figures.txt
+- `alombert-colin-t4-p724-image-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p724.jpg
+- `alombert-colin-t4-p724-figures-v1`: P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome IV (fifth part, Saint-Pœlten and Krems); group `alombert-colin-1805`; data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t4-p724-figures.txt

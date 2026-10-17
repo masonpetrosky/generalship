@@ -1325,3 +1325,68 @@ none of the engagement names, was not used.
 Rights: Moriggl was published in 1860–1861 and *Victoires et conquêtes* t. XV in 1819; the
 Internet Archive marks both items with the Public Domain Mark 1.0. Use: the drafts for B368a and
 B368d. No model inputs are changed. The registry now holds 2,136 records.
+
+
+## Alombert and Colin t. IV and Schönhals for the Danube, 2026-10-17
+
+46 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1e of the
+`third-coalition 1805` first pass (Mariazell and Dürnstein):
+
+- **Alombert and Colin**, *La campagne de 1805 en Allemagne*, t. IV, "Saint-Pœlten et Krems"
+  (Paris, 1908), group `alombert-colin-1805`, the family of tomes II and III already registered.
+  The French General Staff's history of 25 October to 11 November 1805: an introduction that
+  narrates each day, the documents of each day, and an appendix of situations.
+  - The Internet Archive OCR (`alombert-colin-t4-ocr-v1`, item
+    `alombert-la-campagne-de-1805-en-allemagne-v-4`), made with Tesseract 5.0.0 from a Princeton
+    University copy digitised by Google.
+  - The sectioned selection `alombert-colin-t4-selections-v1`, with six sections:
+    `mariazell-7-nov`, `mariazell-8-nov`, `durnstein-10-nov`, `durnstein-11-nov`,
+    `mariazell-3rd-corps-journal` and `mariazell-davout-report`.
+  - 12 page images, each with a transcription: pp. 125, 142, 143, 154, 162 and 166 of the
+    introduction; pp. 650 and 651, Davout's report of 9 November; pp. 711, 723 and 724, the list
+    of the Grande Armée at 6 brumaire an XIV (28 October); and p. 769, the 6th corps' return of
+    4 brumaire (26 October).
+- **Schönhals**, *Der Krieg 1805 in Deutschland, nach österreichischen Originalquellen* (Vienna,
+  1873), group `schoenhals-krieg-1805`. The Austrian account by Carl von Schönhals, written for an
+  archive in 1831 by the editors' note (the OCR of the preface's signature reads 1821) and
+  published from his manuscript by the editors of the *Österreichische militärische Zeitschrift*.
+  - The OCR (`schoenhals-1873-ocr-v1`, item `derkriegindeuts00schgoog`), of a University of
+    California copy digitised by Google.
+  - The selection `schoenhals-1873-danube-selections-v1`, with two sections, `mariazell` and
+    `durnstein`.
+  - 9 page images with transcriptions: pp. 127–132, for Merveldt's march and Mariazell, and
+    pp. 135–137, for Dürrenstein.
+
+**Dependence.**
+
+- t. IV cites Schönhals once, in a footnote on Austrian movements at the end of October. Its
+  account of Merveldt's march to Neuhaus follows Schönhals's closely without citing him, so for
+  Austrian-side statements at Mariazell the two may not be independent.
+- For Dürrenstein, t. IV names its sources. On the French side they are a regimental colonel's
+  letter, General Graindorge's report, the journal of Dupont's division and the officers' service
+  notes, three of them cited to pages of Alombert's book on the combat (1897, not registered). On
+  the allied side they are two partial Austrian eyewitness relations in the Vienna war archives
+  and Danilewski's Russian relation. It also uses, with precautions, Colonel Talandier's narrative
+  and the accounts derived from it, and Rozat's fragment. It identifies the account in *Victoires
+  et conquêtes*, t. XV, registered in batch 1d, as Talandier's or written from his notes, so that
+  account is not independent of t. IV's Talandier material here. It sets Kotzebue's account of
+  1807 aside for the fighting.
+- By its own footnote, Schönhals takes some details of Dürrenstein from Kotzebue. Its evening
+  narrative follows, nearly sentence for sentence, the Austrian relation that t. IV quotes in
+  translation on pp. 161–162, so the two are not independent for the evening. Its preface says
+  that everything it has on the French army's operations comes from that army's bulletins.
+- At Dürnstein, Bodart's 25,000 for side B equals Schönhals's 32,000 less the sixth column's 7000
+  (our arithmetic). The passages read do not show that he reckoned so.
+
+The page images are single pages, enlarged to 1600 pixels on the longest side. The Internet
+Archive serves them at 794 x 1123 pixels (t. IV) and 804 x 1292 pixels (Schönhals). As in batches
+1c and 1d, each transcription holds the whole page or the passages its note names, read from the
+image, and tables are transcribed one row to a line. t. IV's OCR misreads many figures (on p. 166,
+'488' for 155 and '4,600' for 1,600), so no figure is taken from it. Each selection records its
+parent's character ranges. Schönhals's OCR keeps Google's front-matter notice; t. IV's keeps only
+the scanner's stamps.
+
+Rights: t. IV was published in 1908, and the Internet Archive marks it with the Public Domain
+Mark 1.0. Schönhals was published in 1873; he died in 1857. The Internet Archive marks his book
+NOT_IN_COPYRIGHT. Use: the drafts for B368b and B368c. No model inputs are changed. The registry
+now holds 2,182 records.
