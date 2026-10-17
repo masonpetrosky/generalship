@@ -34,14 +34,25 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
 - Every figure in a strength value or a recorded loss is read from a registered page image. OCR digits may
   stand inside a cited passage but are never restated in a value; figures seen only in the OCR are listed as
   deferred in the dossier's open questions.
+- Batch 1b offsets, checked on the images: t. II n = printed + 17 (p. 161); t. III vol. 1 n = printed + 7
+  (pp. 67-103, 217, 229); t. III vol. 2 n = printed - 593 for pp. 661-774 and printed - 601 for pp.
+  1199-1255; Krauss n = printed + 13 (pp. 449-499).
+- The IA serves the t. II and t. III vol. 2 page images at 794 x 1123 pixels, so `sips -Z 1600` enlarges
+  them; the t. III vol. 1 and Krauss images are served larger and downscaled. Record which in
+  `snapshot_transform` (the registration script's `served` field). The four t. II images of batch 1a say
+  "downscaled" in error; see the erratum in `docs/source-additions.md`.
+- In renderings of OCR passages, counts, times and dates are elided ('...') or marked '(OCR)'. Number
+  words in the OCR ('trois', 'drei') count as OCR figures too.
 
 ## Status
 
 - 2026-10-17, batch 1a: Wertingen (B363a), Günzburg (B363b) and Haslach (B363c) drafted from Bodart, Alombert
   and Colin (t. II, t. III vol. 1) and Krauss; primary-verified. 73 records registered (the three OCR parents,
   two selections, 34 page images with figure transcriptions).
-- Held back: the t. III vol. 2 OCR (IA `alombert-la-campagne-de-1805-en-allemagne-v-3-pt-2`, SHA-256
-  8dff6f5c4b9fe84301a0d06012a369e18df0af64c1fe9c278f8da83a09cf93f0) was fetched but not yet read, so it is not
-  registered. Register it, with its selections, in the batch that first cites it.
-- Next: the Ulm phase (B364a Parsdorf to B366a Eschenau), then Italy (Koch, Angeli), Tyrol and the Danube and
-  Moravia entries (Schönhals, Correspondance).
+- 2026-10-17, batch 1b: the Ulm phase, Parsdorf (B364a), Elchingen (B364b), Memmingen (B364c), Herbrechtingen
+  (B364d), Ulm (B365a), Neresheim (B365b), Trochtelfingen (B365d) and Eschenau (B366a), drafted from Bodart,
+  Alombert and Colin (t. II, t. III vols. 1 and 2) and Krauss; primary-verified. 100 records registered (the
+  t. III vol. 2 OCR parent, three selections, 48 page images with figure transcriptions).
+- Next: Italy (B365c Verona, B367a Caldiero, B367b Pojano, B369b Castelfranco; Koch, Angeli), then Tyrol and
+  Vorarlberg (B368a Scharnitz, B368d Dornbirn) and the Danube and Moravia entries (B368b Mariazell, B368c
+  Dürnstein, B369a Ober-Hollabrunn, B369c Austerlitz, B370a Steken; Schönhals, Correspondance).

@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "battle_id": "B364a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Parsdorf entry (12 October 1805) in cohort v1's third-coalition 1805 group: Wrede's Bavarian advanced guard of Bernadotte's 1st corps, with French cavalry support, pursuing Kienmayer's rearguard from Munich to Parsdorf. The captures of 13 October, which Krauss places at Parsdorf on that day, and the cavalry pursuit to the Inn are recorded only as a dating question (claim date-of-captures) and are not counted as this entry's figures. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart's entry gives no strength for either side.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription: it names the sides and commanders and gives side B's loss, with no strength for either side. The strengths below come from the other sources. English rendering (ours): 'victory of the Bavarians under GM Wrede over the Austrians under FML Baron von Kienmayer'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Bayern unter GM. Wrede über die Österreicher unter FML. Fh. von Kienmayer."
+        }
+      ]
+    },
+    {
+      "id": "side-a-pursuit-force",
+      "dimension": "strength",
+      "value": "Side A (Bavarian): the Bavarian corps' journal says that on 12 October Wrede put himself at the head of the 1st dragoons and the three remaining squadrons of the 3rd chevau-légers, 'the whole numbering only 240 horses', after sending Major Elbracht with a squadron toward Rosenheim and Wasserburg. When the Deutschmeister battalion surrendered he had only 42 files with him, having detached cavalry to both sides of the road to cover his flanks.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's own figures for the pursuing cavalry, read from the page images; the journal gives no figure for the rest of the Bavarian corps. '240 chevaux' counts horses (mounted men) at the start of the pursuit and '42 files' the files left at the surrender; the second is not converted into men. Wrede formed this group himself for the pursuit (claim side-a-command). English renderings (ours): 'ordered Major Elbracht of the 3rd chevau-légers to go with a squadron on the roads to Rosenheim and Wasserburg and put himself at the head of the 1st dragoons, which had just arrived, and of the three remaining squadrons of the 3rd chevau-légers, the whole numbering only 240 horses'; 'when this happened, the lieutenant general had only 42 files with him, because he had been forced, by the haste with which the enemy rearguard had to be reached, to detach a number of cavalry to the left and right of the road to secure the flanks'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "le lieutenant général ordonna au major Elbracht du 3e de chevau-légers de se porter avec un escadron sur les routes de Rosenheim et Wasserburg et se mit à la tête du 1er de dragons qui venait d'arriver et des trois escadrons restant du 3e de"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "chevau-légers, le tout n'étant composé que de 240 chevaux;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Lorsque ceci eut lieu, le lieutenant général n'avait plus que 42 files avec lui, parce qu'il s'était vu forcé, à raison de la précipitation avec laquelle il fallut atteindre l'arrière-garde ennemie, de détacher sur la gauche et la droite de la route nombre de cavalerie pour assurer les flancs."
+        }
+      ]
+    },
+    {
+      "id": "side-a-support",
+      "dimension": "strength",
+      "value": "Side A (Bavarian and French), other figures: Bernadotte wrote that evening that Wrede's Bavarians fell on the enemy rearguard alone, supported by General Kellermann with three cavalry regiments and the 27e léger, and that a battalion laid down its arms before 80 Bavarian chevau-légers. Alombert and Colin add that Squadron Commander Ameil and Lieutenant Bonnemain, with fifty-five French horsemen, had turned the town and cut off the enemy's extreme rearguard.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "French figures, read from the page images; Kellermann's support is given without a headcount, and no passage read says whether it came into action. Bernadotte's 80 chevau-légers and the journal's 42 files (claim side-a-pursuit-force) describe the same surrender and are kept apart. Who ordered Kellermann's support is not stated. English renderings (ours): 'Lieutenant General de Wrède, who led with his Bavarian troops, fell alone on the enemy's rearguard. General Kellermann supported him with three cavalry regiments and the 27th light infantry'; 'a battalion laid down its arms before 80 Bavarian chevau-légers, without having burned a priming'; 'while de Wrède stopped before Munich, Squadron Commander Ameil and Lieutenant Bonnemain, with fifty-five French horsemen, had turned the town and cut off the retreat of the enemy's extreme rearguard'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Le lieutenant général de Wrède,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "qui tenait la tête avec ses troupes bavaroises, a donné, seul, sur l'arrière-garde de l'ennemi. Le général Kellermann le soutenait avec trois régiments de cavalerie et le 27e d'infanterie légère."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "Un bataillon a mis bas les armes devant 80 chevau-légers bavarois, sans avoir brûlé une amorce."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p67-figures-v1",
+          "section": "p67",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 67 (transcribed from the page image)",
+          "quote": "Pendant que de Wrède s'arrêtait devant Munich, le chef d'escadrons Ameil et le lieutenant Bonnemain, avec cinquante-cinq cavaliers français, avaient tourné la ville et coupé la retraite à l'extrême arrière-garde ennemie."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Austrian): Krauss puts Kienmayer's force, which fell back from Munich toward the Inn, at about 20,000 men.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's figure from an Austrian history, read from the page image; no basis or date is given in the passage, and it counts Kienmayer's whole corps, not the rearguard that was caught (claim side-b-engaged). English rendering (ours): 'Kienmayer, who was about 20,000 men strong, withdrew toward the Inn'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p449-figures-v1",
+          "section": "p449",
+          "locator": "Krauss (1912), p. 449 (transcribed from the page image)",
+          "quote": "Kienmayer, der etwa 20.000 Mann stark war, zog sich gegen den Inn zurück."
+        }
+      ]
+    },
+    {
+      "id": "bernadotte-side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figure: Bernadotte wrote on the evening of 12 October that the Austrians had had more than 20,000 men at Munich.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "A French commander's figure for the enemy corps at Munich, read from the page image, kept separate from Krauss's. He adds that he was sending the Emperor the return of the Austrian troops that had been there; that return was not found in the passages read. English rendering (ours): 'the Austrians had more than 20,000 men here'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "Les Autrichiens avaient ici plus de 20,000 hommes;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (OCR running heads; not checked against print)",
+          "quote": "J'ai l'honneur d'envoyer à Votre Majesté l'état des troupes autrichiennes qui étaient ici."
+        }
+      ]
+    },
+    {
+      "id": "side-b-engaged",
+      "dimension": "strength",
+      "value": "Side B's troops in contact: the journal has Wrede overtake the enemy rearguard and, a little short of Parsdorf, attack a battalion of the Deutschmeister regiment in sight of an enemy corps drawn up in line; the enemy army stood in line behind Parsdorf on the height of Anzing. No source read gives a headcount for the rearguard or for the corps in line.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "What the passages say was engaged, read from the page image; a strength for the engaged troops is missing, not zero. English renderings (ours): 'a little short of Parsdorf, the lieutenant general attacked, in sight of an enemy corps drawn up in line, a battalion of the Deutschmeister regiment'; 'the enemy army being drawn up in line behind Parsdorf, on the height of Anzing'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Un peu en deçà de Parsdorf, le lieutenant général attaqua, en vue d'un corps ennemi rangé en bataille, un bataillon du régiment de Deutschmeister;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "L'armée ennemie étant rangée en bataille en arrière de Parsdorf, sur la hauteur d'Anzing,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names GM Wrede as side A's commander and FML Baron von Kienmayer as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Wrede commanded the pursuit in person (claim side-a-command); no passage read names the commander of the Austrian rearguard (claim side-b-command).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Bayern unter GM. Wrede"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter FML. Fh. von Kienmayer."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Bernadotte, marching from Ingolstadt on Munich, had placed the Bavarian corps at the head of his advance. By the Bavarian journal, Wrede could have forced Munich but preferred to give the enemy a golden bridge to spare the town; finding it evacuated, he ordered all his cavalry to follow at the trot and went ahead at the gallop with a squadron, then, judging the Austrian army to be in panic, pursued its rearguard at full speed with 240 horses and himself attacked the Deutschmeister battalion. Separately, Ameil and Bonnemain's French horsemen had turned the town and cut off the extreme rearguard.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions as the Bavarian corps' journal (printed by the French official history) and Alombert and Colin's narrative give them; Alombert and Colin add that the golden-bridge phrase is Wrede's own ('dit-il lui-même'). The journal is Wrede's side's account. English renderings (ours): 'marching from Ingolstadt on Munich, Bernadotte had placed the Bavarian corps at the advanced guard'; 'to spare the town of Munich the horrors of a fight, he preferred, he says himself, to make a golden bridge for the enemy'; 'he preferred to make a golden bridge for the enemy'; 'the lieutenant general ordered all his cavalry to follow him at the trot, going ahead himself at the gallop with a squadron of the 3rd chevau-légers'; 'reckoning on the panic terror that had seized the Austrian army, he pursued the enemy rearguard at full speed'; 'a little short of Parsdorf, the lieutenant general attacked'; Ameil and Bonnemain as in claim side-a-support.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "En se portant d'Ingolstadt sur Munich, Bernadotte avait placé à l'avant-garde le corps bavarais,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "pour épargner à la ville de Munich les horreurs d'un combat, il préféra, dit-il lui-même, faire un pont d'or à l'ennemi."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (OCR running heads; not checked against print)",
+          "quote": "il préféra faire un pont d'or à l'ennemi"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "Le lieutenant général ordonna en conséquence à toute sa cavalerie de le suivre au trot, prenant lui-même les devants au galop avec un escadron du 3e des chevau-légers,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "calculant la terreur panique qui s'était emparée de l'armée autrichienne, il poursuivit l'arrière-garde de l'ennemi à toute bride,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Un peu en deçà de Parsdorf, le lieutenant général attaqua,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p67-figures-v1",
+          "section": "p67",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 67 (transcribed from the page image)",
+          "quote": "le chef d'escadrons Ameil et le lieutenant Bonnemain, avec cinquante-cinq cavaliers français, avaient tourné la ville"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Krauss says FML Kienmayer had evacuated Munich in the night of 11-12 October before Bernadotte's advancing troops and fallen back on the 12th to Ampfing, continuing his retreat to the Inn. Bernadotte wrote that the Austrians began their retreat the evening before and continued it all night. No passage read names the commander of the rearguard caught near Parsdorf.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's command from an Austrian history and side A's report; the passages do not say whether the retreat was Kienmayer's own decision or ordered from above, so the phase is unresolved. English renderings (ours): 'east of the Lech, FML Kienmayer had evacuated Munich in the night of 11 to 12 October before the advancing troops of Bernadotte and had fallen back on the 12th to Ampfing, from where he continued the retreat to the Inn' (the OCR reads 'Iini' for 'Inn'); 'they began their retreat yesterday evening and continued it all night'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "kienmayer-12-oct",
+          "locator": "Krauss (1912), p. 435 (OCR page markers; not checked against print)",
+          "quote": "Im Osten des Lech hatte FML. Kienmayer in der Nacht vom 11. zum 12. Oktober München vor den anmarschierenden Truppen Bernadottes geräumt und war am 12. bis Ampfing zurückgegangen, von wo er den Rückzug an den Iini fortsetzte."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "ils ont commencé leur retraite hier soir, et l'ont continuée toute la nuit;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (Bavarian) over side B (Austrian). No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome. The journal says the enemy army's line behind Parsdorf stopped the pursuit for the day (claim side-b-engaged); none of the sources treats that as changing the result.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Bayern unter GM. Wrede über die Österreicher"
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's loss as about 1,600 men and 9 guns, and no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule; a post-outcome observation. His 9 guns equal the nine cannon of the artillery convoy that the Bavarian journal says was taken on 13 October, without its four howitzers and four mortars (our comparison); whether his figures include the 13th is not stated (claim date-of-captures). English rendering (ours): 'Austrian loss: about 1,600 men, 9 guns'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Österr. Verl.: ca. 1.600 M., 9 Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-12-oct",
+      "dimension": "outcome",
+      "value": "Side A's figures for side B's loss on 12 October: the Bavarian journal says Wrede's pursuit took 1,100 prisoners and many horses and baggage. Bernadotte wrote that evening first that 600 to 700 prisoners had been taken, 50 of them horsemen, and then that the prisoners taken that day came to 1,100 or 1,200, with 100 troop or led horses and 60 baggage wagons. Alombert and Colin say Ameil's horsemen took 450 prisoners and that 1,100 were taken in all that day.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, all from side A, each read from a page image and not combined; Bernadotte's two figures stand in the same letter (OCR '4100' in the journal is '1100' on the image). English renderings (ours): 'made 1100 prisoners on it and took many horses and baggage'; 'we have made 600 to 700 prisoners, 50 of them horsemen, taken much baggage and led horses'; 'the prisoners made today come to 1100 or 1200, 100 troop or led horses, and 60 baggage wagons'; 'they made 450 prisoners there. In all, 1100 were taken that day'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "lui fit 1100 prisonniers et prit beaucoup de chevaux et d'équipages."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "Nous avons fait 600 à 700 prisonniers, dont 50 cavaliers, pris beaucoup de bagages et des chevaux de main."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "Les prisonniers faits aujourd'hui, s'élèvent à 1100 ou 1200, 100 chevaux de troupe ou de main, et 60 voitures d'équipage."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p67-figures-v1",
+          "section": "p67",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 67 (transcribed from the page image)",
+          "quote": "Ils y firent 450 prisonniers. Au total, on en prit 1100 dans cette journée."
+        }
+      ]
+    },
+    {
+      "id": "date-of-captures",
+      "dimension": "outcome",
+      "value": "Krauss dates to 13 October the capture by Bernadotte's advanced guard, at Parsdorf east of Munich, of an artillery park of 17 heavy guns and over 1,000 prisoners. The Bavarian journal puts the fight near Parsdorf and its 1,100 prisoners under 20 vendémiaire (12 October) and, under 21 vendémiaire (13 October), the capture by Major Elbracht and Lieutenant Speeg of an artillery train of four howitzers, nine cannon and four mortars with its escort, a recruiting chest and 700 muskets, without naming the place. Alombert and Colin give the prizes of the 1st corps and the Bavarians, including the pursuit to the Inn on the 13th, as 19 guns, 150 horses, wagons and 1,500 prisoners.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Bodart dates Parsdorf 12 October; Krauss places a capture at Parsdorf on the 13th. The journal's 4 + 9 + 4 pieces make 17 (our sum), Krauss's figure, so the two may describe the same convoy, but no passage read says so. Not resolved; the 13 October captures are not counted in this entry's figures (boundary note). English renderings (ours): Krauss, 'east of the Lech, Bernadotte's advanced guard had succeeded on the 13th, at Parsdorf, east of Munich, in seizing an artillery park of 17 heavy guns and taking over 1000 prisoners'; '21 vendémiaire (13 October). The position of the advanced guard was carried half a league forward'; 'capture of an artillery convoy. The same day Major Elbracht and Lieutenant Speeg, acting together, took an artillery train of four howitzers, nine cannon and four mortars, with the escort commanded by two officers, besides a recruiting chest and 700 muskets'; 'his cavalry pursues the Austrians as far as'; 'the total of the prizes made by the 1st corps and the Bavarians comes to 19 guns, 150 horses, wagons and 1500 prisoners'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p454-figures-v1",
+          "section": "p454",
+          "locator": "Krauss (1912), p. 454 (transcribed from the page image)",
+          "quote": "Östlich des Lech war es der Vorhut Bernadottes am 13. gelungen, bei Parsdorf, östlich München, einen Artilleriepark von 17 schweren Geschützen aufzuheben und über 1000 Gefangene zu machen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "21 vendémiaire (13 octobre). — La position de l'avant-garde fut portée à une demi-lieue en avant,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "Prise d'un convoi d'artillerie. — Le même jour, le major Elbracht et le lieutenant Speeg, en agissant de concert, prirent un train d'artillerie consistant en quatre obusiers, neuf pièces de canon et quatre mortiers, ainsi que l'escorte commandée par deux officiers, plus une caisse de recrutement et 700 fusils."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 67 (OCR running heads; not checked against print)",
+          "quote": "Sa cavalerie poursuit les Autrichiens jusqu'à"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p68-figures-v1",
+          "section": "p68",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 68 (transcribed from the page image)",
+          "quote": "Le total des prises faites par le 1er corps et les Bavarois s'élève à 19 bouches à feu, 150 chevaux, des voitures et 1500 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "parsdorf-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Parsdorf as a village in Upper Bavaria, district of Ebersberg. Wrede's advance went through Munich, with an aim to seize the heights of the Gasteig suburb beyond the Isar, and along the road to Hohenlinden; Bernadotte says his advanced guard pushed the enemy five leagues beyond Munich. The enemy's rearguard was caught a little short of Parsdorf, and its army stood in line behind Parsdorf on the height of Anzing.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from the passages read for strength and responsibility; no map was inspected. English renderings (ours): 'village in Bavaria, Upper Bavaria, district of Ebersberg'; 'to try to seize the heights of the Gasteig (suburb of Munich beyond the Isar)'; 'my advanced guard has pushed the enemy five leagues beyond Munich, on the road to Hohenlinden'; 'a little short of Parsdorf'; 'drawn up in line behind Parsdorf, on the height of Anzing'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "(Dorf in Bayern, Oberbayern, Bez. Ebersberg)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "pour tâcher de s'emparer des hauteurs du Gasteig (faubourg de Munich au delà de l'Isar)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Majesté que mon avant-garde a poussé l'ennemi à cinq lieues au delà de Munich, sur la route de Hohenlinden."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Un peu en deçà de Parsdorf,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "rangée en bataille en arrière de Parsdorf, sur la hauteur d'Anzing,"
+        }
+      ]
+    },
+    {
+      "id": "movements",
+      "dimension": "logistics",
+      "value": "Side A's pursuit was made by cavalry alone, at the trot and gallop; on the great square of Munich Wrede found the burgomaster and a vast crowd gathered for the Elector's feast day and had to stop to drink the sovereign's health, and refreshments arrived for the troops. The journal notes that the enemy had put no obstacle at the 'passage du poste'. Side B had begun its retreat the evening before and continued it all night, some troops by the Wasserburg road and most by the Hohenlinden road.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Movement as the journal, Bernadotte and Alombert and Colin report it; no supply return was inspected. English renderings (ours): 'he then took the trot with his cavalry and launched himself in pursuit of the Austrians'; 'he found there the burgomaster and a countless people gathered to celebrate the Elector's feast and the return of his troops. He had to stop his course to drink the health of the' [sovereign]; 'refreshments arrived for the troops'; 'the enemy having neglected to put the least obstacle at the crossing of the post'; 'some troops retired by the Wasserburg road, but the greater part took the Hohenlinden road'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "Il prit alors le trot avec sa cavalerie, et se lança à la poursuite des Autrichiens ;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "il y trouva le bourgmestre et un peuple innombrable réunis pour célébrer la fète de l'Électeur et le retour de ses lroupes. 11 dut arrêter sa course pour porter la santé du"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (OCR running heads; not checked against print)",
+          "quote": "Il arriva des rafraichissements pour la troupe,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "L'ennemi ayant négligé de mettre le moindre empêchement au passage du poste,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "quelques troupes se sont retirées par la route de Wasserburg, mais la majeure partie a pris celle de Hohenlinden."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's patrols, pushed all night up to the enemy's fires, reported that the fires were going out and that Kienmayer was retreating; a quarter of an hour after the advanced guard set out it learned that the enemy had evacuated Munich. Wrede reckoned on the panic that had seized the Austrian army. No passage read gives what side B knew.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge in the Bavarian journal and Alombert and Colin; the hour in the journal is OCR and is not restated. English renderings (ours): 'the patrols pushed all night without respite up to the enemy fires warned, toward one o'clock, that they were beginning to go out'; 'the patrols announced Kienmayer's retreat'; 'a quarter of an hour later it was already informed that the enemy had evacuated it'; 'reckoning on the panic terror that had seized the Austrian army'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 660 (OCR running heads; not checked against print)",
+          "quote": "Les patrouilles poussées toute la nuit sans relâche jusqu'aux feux ennemis avertirent, vers une heure, qu'ils commençaient à S'éteindre,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "les patrouilles an- noncèrent la retraite de Kienmayer."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (OCR running heads; not checked against print)",
+          "quote": "un quart d'heure après elle fut déjà informée que l'ennemi l'avait évacué."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "calculant la terreur panique qui s'était emparée de l'armée autrichienne,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aims as its sources state them: Wrede chose not to force Munich, to spare the town, and to give the enemy a golden bridge; on entering he aimed to seize the heights of the Gasteig, then pursued the enemy rearguard until the Austrian army's line behind Parsdorf left no way to go further that day.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims stated by Wrede's own side; no order from above for the pursuit was found in the passages read. English renderings as in claims side-a-command and parsdorf-ground; 'there was no means of going further that day'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "parsdorf-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 66 (OCR running heads; not checked against print)",
+          "quote": "pour épargner à la ville de Munich les horreurs d'un combat,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "pour tâcher de s'emparer des hauteurs du Gasteig"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "il n'y eut pas moyen de se porter plus avant en ce jour."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B was retreating: Kienmayer withdrew toward the Inn, most of his troops by the Hohenlinden road; its army stood in line behind Parsdorf on the height of Anzing while the rearguard was caught.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's aim is inferred by the sources from its movement; no Austrian order or report for 12 October was read. English renderings as in claims krauss-side-b-strength, movements and side-b-engaged.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p449-figures-v1",
+          "section": "p449",
+          "locator": "Krauss (1912), p. 449 (transcribed from the page image)",
+          "quote": "zog sich gegen den Inn zurück."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "mais la majeure partie a pris celle de Hohenlinden."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "L'armée ennemie étant rangée en bataille en arrière de Parsdorf,"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Wrede's cavalry pursued the Austrian rearguard from Munich and attacked a battalion of Deutschmeister short of Parsdorf, which surrendered; Bernadotte says the Bavarians fell alone on the enemy's rearguard. Side B was retreating.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Pursuit counts as attacking. The journal shows Wrede deciding the pursuit himself on finding Munich evacuated (claim side-a-command); no order from above for it was found, so the posture is tagged commander_created. English renderings as in claims side-a-command and side-a-support.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "il poursuivit l'arrière-garde de l'ennemi à toute bride,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "le lieutenant général attaqua, en vue d'un corps ennemi rangé en bataille, un bataillon du régiment de Deutschmeister;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p663-figures-v1",
+          "section": "p663",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 663 (transcribed from the page image)",
+          "quote": "a donné, seul, sur l'arrière-garde de l'ennemi."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read place side B's rearguard on the road short of Parsdorf and its army in line on the height of Anzing, and side A's cavalry on the road from Munich; Munich had been evacuated. They name no works from which either side fought.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed. English renderings as in claims side-b-engaged and side-a-information.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Un peu en deçà de Parsdorf, le lieutenant général attaqua, en vue"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "sur la hauteur d'Anzing,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "parsdorf-12-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (OCR running heads; not checked against print)",
+          "quote": "un quart d'heure après elle fut déjà informée que l'ennemi l'avait évacué."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the return of the Austrian troops at Munich that Bernadotte sent the Emperor (not found in the passages read); Krauss's text before p. 449 on Kienmayer's corps; any Bavarian account other than the corps journal printed by Alombert and Colin. The 'Beaux traits individuels' paragraph of the journal (OCR, p. 662) carries a figure seen only in the OCR and is not recorded.",
+    "Most consequential gap: side B's own account of the rearguard action and its strength. No Austrian report for 12 October was read; Krauss's 20,000 is Kienmayer's whole corps. An Austrian or Bavarian account of the pursuit could close it; none was identified in this pass.",
+    "Disputes kept as separate claims: the date of the captures at Parsdorf (Bodart 12 October, Krauss 13 October for the 17-gun park, the journal splitting the fight on the 12th from the convoy on the 13th); side B's loss on the 12th (journal and Alombert and Colin 1,100, Bernadotte 600-700 and 1,100-1,200, Bodart about 1,600 with 9 guns); the surrender of the Deutschmeister battalion before 42 files (journal) or 80 chevau-légers (Bernadotte).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing the Bavarian corps' journal, an interested account of Wrede's own side, and Bernadotte's letter of 12 October); Krauss (an Austrian history from the Kriegsarchiv files; his French movements depend on Alombert and Colin, and his Parsdorf sentence cites no source in the passage read)."
+  ]
+}

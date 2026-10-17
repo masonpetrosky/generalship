@@ -505,6 +505,79 @@ without subagents. The work is primary-verified; no separate review was made.
   the group's 19 remaining entries would need about 10 million. Later batches reuse the
   registered sources and should keep drafts leaner, within the brief's ceiling.
 
+## 1805 first pass, batch 1b (2026-10-17)
+
+The Ulm phase of `third-coalition 1805`, eight entries:
+
+| Entry | Engagement | Date (1805) | Claims |
+| --- | --- | --- | --- |
+| B364a | Parsdorf | 12 October | 20 |
+| B364b | Elchingen | 14 October | 21 |
+| B364c | Memmingen (capitulation) | 14 October | 18 |
+| B364d | Herbrechtingen | 16 October | 20 |
+| B365a | Ulm (capitulation) | 17 October | 19 |
+| B365b | Neresheim | 17 October | 19 |
+| B365d | Trochtelfingen (capitulation) | 18 October | 20 |
+| B366a | Eschenau | 20 October | 19 |
+
+The main session researched, drafted and verified them without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the same two families as batch 1a: Alombert and Colin, now with t. III
+  vol. 2, which prints the reports and journals of the Ulm phase and Murat's pursuit; and Krauss
+  ([source additions](source-additions.md)). Several of Krauss's figures for the pursuit match the
+  French journals, so they are not treated as independent of them.
+  - 100 records were registered, including 48 page images. Every figure in a strength value or a
+    recorded loss is read from a registered page image; the drafts cite 52 figure transcriptions.
+  - Figures seen only in the OCR are listed as deferred in each draft's open questions. Number
+    words in the OCR now count as OCR figures too.
+  - The four t. II page images of batch 1a were enlarged from 794 × 1123 pixels, not downscaled as
+    their records say. The [erratum](source-additions.md) leaves the pinned records unchanged.
+- **Drafts.** 156 claims with 712 citations. 153 are supported, two disputed and one unknown, and
+  every draft covers the nine dimensions.
+  - Disputed: Krauss dates the Parsdorf captures to 13 October, against Bodart's 12th; and
+    Loison's squares of 4,000 men at Elchingen, which his own editors call exaggerated. Unknown:
+    side A's loss at Trochtelfingen.
+  - Phases: 61 unresolved, 37 inherited, 29 commander-created and 29 post-outcome.
+  - Posture: side A attacked or pursued in all eight. The posture is commander-created at
+    Parsdorf, Ulm, Neresheim and Eschenau, inherited at Elchingen and Trochtelfingen, and
+    unresolved at Memmingen and Herbrechtingen.
+  - Fortification: side B fought from named works at Memmingen and Ulm, and at Elchingen and
+    Herbrechtingen in the French accounts, where Krauss names none. No works are named at
+    Parsdorf, Neresheim, Trochtelfingen or Eschenau.
+- **Disputes kept visible.**
+  - Bodart's strengths against the sides' own figures:
+
+    | Engagement | Bodart | Other figures |
+    | --- | --- | --- |
+    | Elchingen, side A | 16,000 | about 8,800 engaged (Alombert and Colin) |
+    | Memmingen, garrison | 6,000 | 4,500 or 4,600 (Soult's letters, Krauss) |
+    | Ulm, side B | 24,000 | 22,600, or 25,000 with the sick and wounded (an Austrian return in Krauss) |
+    | Trochtelfingen, side B | 1,700 | 1500 infantry and about 100 riders (Werneck, by Krauss); 6,000 infantry and 800 cavalry (Dupont's journal) |
+
+  - Losses:
+    - Ulm's prisoners: 25,365 (Alombert and Colin's regimental list), 23,000 (Austrian figures)
+      or 33,000 (the bulletin).
+    - Neresheim's prisoners: 1,100 (Bodart), 1000 (Murat), 2,000 (the dragoon journal) or 2000
+      (Krauss).
+    - Eschenau's guns: 23 (Bodart), 33 (Krauss and the dragoon record) or 35 (the cavalry
+      reserve's report).
+  - Command:
+    - Side B's commander at Herbrechtingen: Hohenzollern in Bodart, Werneck in Krauss.
+    - Who sent Liechtenstein to Ney at Ulm.
+    - Whether Werneck's cavalry left before the capitulation of Trochtelfingen (Krauss,
+      Hohenzollern's letter) or escaped after it, against the treaty (the French reports).
+  - Times: Herbrechtingen's night attack at 9 or 11 p.m.; Neresheim's attack at 5 or 5.30 p.m.
+- **Gaps.** The most consequential gap is side B's strength in five drafts: at Elchingen,
+  Herbrechtingen, Neresheim and Eschenau, and what surrendered at Trochtelfingen. It is side A's
+  strength at Memmingen and around Ulm, and side B's own account of Parsdorf. Austrian returns in
+  Krauss's appendices or the Kriegsarchiv files could close several; none was read in this pass.
+- **Usage.** About 3.0 million tokens of the session's budget, roughly 375,000 an entry. The
+  figure includes registering 100 records and learning the page structure of t. III vol. 2.
+  About 10.3 million remain. At this rate the group's 11 remaining entries would need about 4.1
+  million, and likely more, since they need new families (Koch, Angeli, Schönhals, the
+  Correspondance).
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

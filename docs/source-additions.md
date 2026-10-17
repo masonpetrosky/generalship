@@ -1178,3 +1178,49 @@ was fetched but is not registered, as it has not yet been read.
 Rights: the Internet Archive marks the Alombert and Colin items with the Public Domain Mark 1.0.
 Krauss was published in 1912; the catalogue gives the author's dates as 1862–1938. Use: the drafts
 for B363a–c. No model inputs are changed.
+
+
+## Alombert and Colin t. III vol. 2 and Krauss for the Ulm phase of 1805, 2026-10-17
+
+100 records pinned in `data/raw/napoleonic-third-coalition-1805-v1/` for batch 1b of the
+`third-coalition 1805` first pass (the Ulm phase, Parsdorf to Eschenau):
+
+- **Alombert and Colin**, group `alombert-colin-1805` (see the entry above).
+  - The Internet Archive OCR of t. III vol. 2 (`alombert-colin-t3b-ocr-v1`, item
+    `alombert-la-campagne-de-1805-en-allemagne-v-3-pt-2`), fetched in batch 1a and held back until
+    read. It prints the reports and journals of the Ulm phase and of Murat's pursuit.
+  - The sectioned selection `alombert-colin-t3b-selections-v1`, with nine sections:
+    `parsdorf-12-oct`, `elchingen-loison-report`, `elchingen-hermann-note`, `memmingen-soult`,
+    `ulm-capitulation`, `herbrechtingen-16-oct`, `neresheim-17-oct`, `trochtelfingen-18-oct` and
+    `eschenau-20-oct`.
+  - The selection `alombert-colin-t3a-ulm-selections-v1` from the t. III vol. 1 OCR, with seven
+    sections: `parsdorf-intro`, `elchingen-intro`, `memmingen-intro`, `ulm-investment-intro`,
+    `pursuit-intro`, `ulm-council-intro` and `ulm-prisoners-intro`.
+  - 30 page images, each with a transcription of its figures: t. II p. 161 (the 4th corps'
+    return at the crossing of the Rhine); t. III vol. 1 pp. 67, 68, 75, 80, 83, 89, 95, 97, 102,
+    103, 217 and 229; t. III vol. 2 pp. 661–663, 730, 750, 771, 773, 774, 1199, 1201, 1214, 1217,
+    1218, 1222, 1224, 1253 and 1255.
+- **Krauss**, group `krauss-feldzug-ulm-1912` (see the entry above).
+  - The selection `krauss-1912-ulm-selections-v1` from the registered OCR, with seven sections:
+    `kienmayer-12-oct`, `munich-12-oct`, `parsdorf-memmingen-13-oct`, `memmingen-elchingen`,
+    `ulm-capitulation`, `werneck-pursuit` and `ulm-surrender`.
+  - 18 page images with figure transcriptions: pp. 449, 454–457, 461, 470, 473, 475, 483, 484,
+    486–488, 492, 495, 498 and 499.
+
+The Internet Archive serves the t. II and t. III vol. 2 page images at 794 × 1123 pixels, so
+resizing them to 1600 px on the longest side enlarged them; this adds no detail. The t. III vol. 1
+and Krauss images were served larger and downscaled. Each image record's `snapshot_transform` says
+which, and the `rights` text of the t. III vol. 2 records and of the t. II p. 161 pair says the
+same. As in batch 1a, each transcription holds the passages that carry figures (and, where its
+note says so, a few sentences without them), read from the image rather than the OCR; p. 161's
+holds the whole return. Each selection records its parent's character ranges.
+
+**Erratum to the batch 1a entry.** The four t. II page images registered in batch 1a
+(`alombert-colin-t2-p162-image-v1`, `-p163-`, `-p165-` and `-p166-`) were also served at
+794 × 1123 pixels and enlarged, not downscaled. Their `snapshot_transform`, the `rights` text they
+share with `alombert-colin-t2-ocr-v1` and the entry's sentence "The page images are single pages
+downscaled to 1600 px" are wrong on this point. The committed records stay as pinned; the files,
+hashes and transcriptions are unaffected.
+
+Rights: as in the entry above. Use: the drafts for B364a–d, B365a, B365b, B365d and B366a. No
+model inputs are changed.

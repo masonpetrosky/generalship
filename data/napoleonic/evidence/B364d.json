@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "battle_id": "B364d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Herbrechtingen entry (16 October 1805) in cohort v1's third-coalition 1805 group: Murat's pursuit force (Dupont's division, Klein's dragoon division, the Guard chasseurs and light cavalry) against Werneck's corps of the Austrian army, from the French attack near Albeck on the 16th to the capture of Herbrechtingen that night. Bodart does not say whether his entry covers the day's pursuit or only the night action at Herbrechtingen; both are recorded and kept apart where the sources allow. The action at Albeck on 15 October and Werneck's retreat on the 17th (B365b) are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 8,000 men under Marshal Prince Murat and side B (Austrian) 4,000 men under FML Prince Hohenzollern. By his stated rule these are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which formations he counted, nor whether the entry covers the day's pursuit from Albeck or only the night action at Herbrechtingen. Side A's own information gives about 8,000 men for the Austrian rearguard (claim side-b-french-figures), the figure Bodart prints for side A; Krauss gives Werneck's corps in battalions and squadrons only (claim krauss-side-b-columns). The passages read do not say which figures Bodart used. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (8,000 men) under Marshal Prince Murat over the Austrians (4,000 men) under FML Prince Hohenzollern'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Franzosen (8.000 M.) unter Marschall Pz. Murat über die Österreicher (4.000 M.) unter FML. Pz. v. Hohenzollern."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-a-return",
+      "dimension": "strength",
+      "value": "Side A's returns at the crossing of the Rhine, in the first days of vendémiaire year XIV (late September 1805), list the 6th corps' 1st division as the 9e légère (2 battalions, 1,763 men), 32e de ligne (2, 1,662) and 96e (2, 1,721), 6 battalions and 5,146 men by our sum, and the corps' 1er hussards as 3 squadrons, 375 men and 408 troop horses; the 5th corps' 13e and 21e chasseurs as 3 squadrons each, with 339 and 331 men and 347 and 344 troop horses; and the cavalry reserve's 1re division de dragons as the 1er, 2e, 20e, 4e, 14e and 26e dragons, 18 squadrons, 2,489 men and 2,362 troop horses by our sum. The returns' totals are headed 'présents sous les armes' (present under arms). Krauss says Napoleon assigned Murat Dupont's division with the 1st hussars, Klein's dragoon division, the Guard chasseurs à cheval and the two carabinier regiments of Nansouty's division, and that Murat also drew in the two chasseur regiments of the 5th corps (Fauconnet's brigade). The day after the action, at Neresheim, Alombert and Colin give Klein's division as 1800 horses and five guns, and Krauss as 1800 riders and 5 guns.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's own figures for the formations the passages name in the action, read from the page images. The returns are some three weeks older than the action and show neither detachments nor the losses of the march and of the actions fought since, among them Haslach (draft B363c) and Albeck the day before; their total, 8,680 men by our sum, is therefore not the strength on 16 October. The returns print no division subtotals, so 5,146, 2,489 and 2,362 are our sums. Dupont's division is matched to the 6th corps' 1st division by its regiments: the 9e léger took Herbrechtingen, and Murat's letter (OCR) has Dupont bivouac with the 32e and 96e. Klein's division is matched to the 1re division de dragons by that division's journal, which narrates Klein's action (OCR), and by the 20e dragons. The two chasseur regiments are numbered only in the OCR passages. The strength of the Guard chasseurs was not found; the carabiniers' rows are not cited because no passage read shows them engaged (Murat's letter has them bivouac with Dupont). The 1800 horses of the next day are a figure after this action, not added. Most of the force was assigned by Napoleon's verbal order and Berthier's order to Dupont (claim side-a-command); Krauss says Murat drew in the two chasseur regiments himself, while Alombert and Colin say they came with Oudinot's grenadiers and the journal that Murat attached them to the dragoons, so the boundary for that part is not established and the claim is tagged unresolved. English renderings (ours): '6th army corps', '5th army corps' and 'cavalry reserve at the crossing of the Rhine in the first days of vendémiaire year XIV'; 'total of those present under arms'; Krauss, 'as troops there were assigned to him: Dupont's division with the 1st hussar regiment and Klein's dragoon division, which already stood at Albeck, the Guard chasseurs à cheval and the two carabinier regiments of Nansouty's division, which had already been directed on Albeck'; 'also drew in the two chasseur regiments of the 5th corps (General Fauconnet's brigade)'; Murat, 'General Dupont went to bivouac at the village of Bissingen, with the two carabinier regiments and the 32nd and 96th infantry'; the journal, 'marches and historical reports of the 1st division of mounted dragoons'; 'and the 1st dragoon division (to which Prince Murat had joined the 13th and 21st chasseur regiments, detached from General Oudinot's division)'; Alombert and Colin, 'the 13th and 21st chasseurs, come with Oudinot's grenadiers'; 'determined General Klein to attack him with his division alone, 1800 horses and five guns strong'; Krauss, 'the division counted 1800 riders and 5 guns'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "6e corps d'armée au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "1re division.\n9e légère | 2 | 1,763 | » | »\n32e de ligne | 2 | 1,662 | » | »\n96e id. | 2 | 1,721 | » | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "1er de hussards | 3 | 375 | 408 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p163-figures-v1",
+          "section": "p163",
+          "locator": "Alombert and Colin, t. II, p. 163 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 21,250 | 1,208 | 572"
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "5e corps d'armée au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "13e de chasseurs | 3 | 339 | 347 | »\n21e id. | 3 | 331 | 344 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p162-figures-v1",
+          "section": "p162",
+          "locator": "Alombert and Colin, t. II, p. 162 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 25,689 | 1,453 | 408"
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "Réserve de cavalerie au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p165-figures-v1",
+          "section": "p165",
+          "locator": "Alombert and Colin, t. II, p. 165 (transcribed from the page image)",
+          "quote": "1re division de dragons.\n1er de dragons | 3 | 374 | 387 | »\n2e id. | 3 | 410 | 342 | »\n20e id. | 3 | 413 | 425 | »\n4e id. | 3 | 396 | 403 | »\n14e id. | 3 | 342 | 322 | »\n26e id. | 3 | 554 | 483 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p166-figures-v1",
+          "section": "p166",
+          "locator": "Alombert and Colin, t. II, p. 166 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 20,950 | 13,523 | 640"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 484 (OCR page markers; not checked against print)",
+          "quote": "An Truppen wurden ihm zugewiesen : die Division Dupont mit dem 1. Husarenregiment und die Dragoner- division Klein, die schon bei Albeck standen, die Gardejäger zu"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 485 (OCR page markers; not checked against print)",
+          "quote": "Pferd uud die zwei Karabinierregimenter der Division Nansouty, die schon nach Albeck dirigiert worden waren."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 485 (OCR page markers; not checked against print)",
+          "quote": "zog auch noch die zwei Chasseurregimenter des 5. Korps heran. (Brigade General Fauconnet.)"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (OCR running heads; not checked against print)",
+          "quote": "le général Dupont alla bivouaquer au village de Bissingen, avec les deux régiments de carabiniers et les 32° et 96° d'infanterie ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "Marches et rapports historiques de la 1° division de dragons montés."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "la 1re division de dragons (à laquelle le prince Murat avait joint les 13 et 21° régiments de chasseurs, détachés de la division du général Oudinot)"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 94 (OCR running heads; not checked against print)",
+          "quote": "les 13° et 21° chasseurs, venus avec les grenadicrs d'Oudinot;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "Ce régiment, avec les chasseurs de la Garde et le 20e dragons, enlève le village d'Herbrechtingen et s'y établit."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "déterminèrent le général Klein à l'attaquer avec sa seule division, forte de 1800 chevaux et cinq pièces de canon."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Die Division zählte 1800 Reiter und 5 Kanonen."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-columns",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: FML Werneck had his corps march off on the 15th in two columns, 11 battalions and 10 squadrons under FML Count Hohenzollern by Hermaringen and Brenz on Langenau, and 12 battalions and 13 squadrons under FML Count Baillet de Latour by Hausen and Nerenstetten on Albeck; after the action at Albeck a detachment of 2 battalions and 2 squadrons under GM Dienersberg was directed on Langenau. On the 16th both columns met at Herbrechtingen at 5 in the afternoon.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own history, read from the page images; Krauss gives no headcount for the corps before the action. The columns are as they marched on the 15th, and the passages read do not say how many battalions and squadrons were left on the morning of the 16th or which of them stood at Herbrechtingen, so they are not added; the losses of the day are in claim side-b-losses-reported. Krauss's note that the corps had scarcely 6000 men describes it on the next day's march, after this action. The corps' composition was set before the action, so the claim is tagged inherited. English renderings (ours): 'FML Werneck therefore had his corps march off on the 15th at 11 in the morning in 2 columns, namely one column, 11 battalions and 10 squadrons strong, under FML Count Hohenzollern by Hermaringen and Brenz on Langenau, the other, 12 battalions and 13 squadrons, under FML Count Baillet de Latour by Hausen and Nerenstetten on Albeck'; 'a detachment under GM Dienersberg, 2 battalions and 2 squadrons, was directed on Langenau'; 'at 5 in the afternoon both of Werneck's columns met at Herbrechtingen'; 'the corps had scarcely 6000 men'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p483-figures-v1",
+          "section": "p483",
+          "locator": "Krauss (1912), p. 483 (transcribed from the page image)",
+          "quote": "FML. Werneck ließ daher sein Korps am 15. um 11h vormittag in 2 Kolonnen abrücken, und zwar eine Kolonne, 11 Bataillone, 10 Eskadronen stark, unter FML. Graf Hohenzollern über Hermaringen und Brenz auf Langenau, die andere, 12 Bataillone und 13 Eskadronen, unter FML. Graf Baillet de Latour über Hausen und Nerenstetten auf Albeck."
+        },
+        {
+          "source_id": "krauss-1912-p483-figures-v1",
+          "section": "p483",
+          "locator": "Krauss (1912), p. 483 (transcribed from the page image)",
+          "quote": "Ein Detachement unter GM. Dienersberg — 2 Bataillone und 2 Eskadronen — wurde nach Langenau dirigiert."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 483 (OCR page markers; not checked against print)",
+          "quote": "Bei Einbruch der Nacht brach Werneck den Kampf ab und ging nach Nerenstetten zurück."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Um 5h nachmittag trafen beide Kolonnen Wernecks bei Herbrechtingen zusammen."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Das Korps hatte kaum 6000 Mann."
+        }
+      ]
+    },
+    {
+      "id": "side-b-french-figures",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Alombert and Colin say that by the information Dupont's aide de camp, chef de bataillon de Conchy, sent the Emperor that evening, the troops Murat beat were a rearguard of about 8,000 men under General Werneck, belonging to a corps of 15,000 to 20,000 men commanded by Hohenlohe. Murat wrote that the enemy had taken position at Herbrechtingen with the rest of its infantry and much artillery, and the next day that five enemy cavalry regiments were fleeing before him.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's estimates, read from the page images except the cavalry regiments, seen in the OCR ('cinq' is printed as a word). Conchy's information names the corps' commander as Hohenlohe, where Krauss has Werneck commanding the corps (claim side-b-command). Not combined with Krauss's battalions (claim krauss-side-b-columns). English renderings (ours): 'according to the information sent that same evening to the Emperor by an aide de camp of General Dupont, chef de bataillon de Conchy, the troops beaten by Murat formed a rearguard of about 8,000 men, under the orders of General Werneck, and belonging to a corps of 15,000 to 20,000 men, commanded by Hohenlohe'; Murat, 'the enemy had taken position at Herbrechtingen with the rest of his infantry and much artillery'; 'and to close the retreat to the five enemy cavalry regiments that are fleeing before me'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "D'après les renseignements transmis le soir même à l'Empereur par un aide de camp du général Dupont, le chef de bataillon de Conchy, les troupes battues par Murat formaient une arrière-garde de 8,000 hommes environ, sous les ordres du général Werneck, et appartenant à un corps de 15,000 à 20,000 hommes, commandé par Hohenlohe."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "l'ennemi avait pris position à Herbrechtingen avec le reste de son infanterie et beaucoup d'artillerie."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "de fermer la relrailé aux cinq régiments de cavalerie ennemie qui fuient devant moi."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and FML Prince Hohenzollern as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Side A's documents and Krauss agree that Murat commanded side A (claim side-a-command). For side B, Krauss has FML Werneck commanding the corps, with an FML Count Hohenzollern leading one of its two columns, and Conchy's information names the corps' commander as Hohenlohe (claims side-b-command and side-b-french-figures); the passages read do not say why Bodart names Hohenzollern. English renderings (ours): 'under Marshal Prince Murat'; 'under FML Prince Hohenzollern'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter Marschall Pz. Murat über die Österreicher (4.000 M.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter FML. Pz. v. Hohenzollern."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "In the night before the action Napoleon gave Murat at headquarters a verbal order to go to Albeck and to beat and pursue the Austrian corps Dupont had brought to bay there; Berthier sent Dupont the order to attack early, an order Alombert and Colin did not find but know from the division's journal and General Mouton's report. Murat used the parley Dupont had opened to reconnoitre the enemy (the dragoon division's journal says Murat himself suspended the fight to make proposals, which were rejected), and when the Austrian cavalry fell back on Nerenstetten he ordered General Klein to charge; Alombert and Colin say Murat led the dragoons' charge in person. Klein passed his dragoons through the tired hussars and chasseurs to continue the pursuit, and summoned Werneck to surrender. Murat then resolved to drive the enemy from Herbrechtingen, and the skirmishers of the 9e léger took the village. Murat went back to sleep at Hausen; Napoleon, answering his report, wrote that he should have spent the night where the 9th light regiment was.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions at the engagement from Murat's own letter, an interested account, the dragoon division's journal, Alombert and Colin and Krauss (OCR passages, except those read from the page images); the order from above and Murat's own decisions are both recorded (claim posture). Napoleon's remark is a judgment, not a measured effect. English renderings (ours): Krauss, 'in the night before 16 October, when the report of the action at Albeck had already come in, Murat received at headquarters from Napoleon the verbal order to go to Albeck and to beat and pursue the Austrian corps that Dupont had brought to bay there'; Alombert and Colin, 'Berthier sends Dupont the order to attack early'; '(1) this order has not reached us, but it is mentioned ... in the division's journal and in General Mouton's report, so as to remove any doubt'; Murat, 'I took advantage of the parley opened by General Dupont to reconnoitre his position'; the journal, 'arrived immediately afterwards and had the fighting suspended in order to make proposals, which were rejected'; Murat, 'when I saw that the cavalry was making a retrograde movement on Nerenstetten, I gave General Klein the order to charge it'; Alombert and Colin, 'Murat, who led the dragoons' charge in person, goes back to sleep at Hausen'; the journal, 'the chasseurs and hussars complaining that they were tired, General Klein, to exploit his advantage, ordered them to form to the right and left of the road, to let the dragoons pass and serve as a reserve if needed'; Krauss, 'General Klein summoned Werneck to surrender. Werneck gave no answer at all'; Murat, 'I resolved to drive the enemy from Herbrechtingen'; 'the skirmishers of the 9th light infantry attacked the village and took it'; Napoleon, as Krauss gives him, 'it seems to me that you should have spent the night at the place where the 9th light regiment was, so as to be able to follow the enemy at daybreak and overtake him'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "In der Nacht zum 16. Oktober, als schon die Meldung über das Gefecht bei Albeck eingelaufen war, erhielt Murat im Hauptquartier von Napoleon mündlich den Befehl, sich nach Albeck zu begeben und das dort von Dupont gestellte österreichische Korps zu schlagen und zu verfolgen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 93 (OCR running heads; not checked against print)",
+          "quote": "Berthier expédie 4 Dupont l'ordre d'attaquer de bonne beure"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 93 (OCR running heads; not checked against print)",
+          "quote": "(1) Cet ordre ne nous est pas parvenn, mais il en est fait mention"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 94 (OCR running heads; not checked against print)",
+          "quote": "daus le Journal de La divisivu et dans le rapport du général Mouton, de manière à écarter toute espèce de doute."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1198 (OCR running heads; not checked against print)",
+          "quote": "j'ai profité de pourparlers entamés par le général Dupont pour reconnaitre sa position ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "arriva immédiatement après et fit suspendre le combat pour faire des propositions qui furent rejetées."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1198 (OCR running heads; not checked against print)",
+          "quote": "lorsque j'ai vu que la cavalerie faisait un mouvement rétro- grade sur Nerenstetten, j'ai donné l'ordre au général Klein de la charger,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "Murat, qui a conduit en personne la charge des dragons, revient coucher à Hausen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (OCR running heads; not checked against print)",
+          "quote": "Les chasseurs et les hussards se plaignant qu'ils étaient fatigués, le général Klein, pour profiter de son avantage, leur ordonna de se former à droite et à gauche de la route, pour laisser passer les dragons et servir de réserve au besoin,"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "General Klein forderte Werneck zur Übergabe auf. Werneck gab gar keine Antwort."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Je résolus de chasser l'ennemi d'Herbrechtingen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "les éclaireurs du 9e d'infanterie légère attaquèrent le village et s'en emparèrent."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 485 (OCR page markers; not checked against print)",
+          "quote": "Es scheint mir, daß Sie an dem Orte-) hätten nächtigen sollen, wo das 9. leichte Regiment war, um bei Tages- anbruch dem Feinde folgen zu können und ihn zu überholen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML Werneck commanded the Austrian corps; Dupont's parlementaire brought back that it was under Werneck, subordinate to Archduke Ferdinand. On the 16th Werneck decided to retreat to the Archduke at Aalen, since the march on Ulm seemed impossible to him; he began the retreat to Herbrechtingen in the morning and sent FML Count Hohenzollern orders to march there at once. He gave no answer to Klein's summons, drew up his troops on the heights of Herbrechtingen to hold up the pursuers, and after the loss of the place continued the retreat on Heidenheim that night. The dragoon division's journal names General O'Donnel as commanding the rearguard. On Werneck's report the Archduke sent him orders to fall back on Öttingen.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Krauss gives them, with side A's accounts (OCR passages, except those read from the page images). Bodart names Hohenzollern as side B's commander (claim bodart-commanders). By Krauss, Werneck received the Archduke's order to march by Neresheim and Trochtelfingen to Öttingen at Ober-Kochen on the next day, after this action. English renderings (ours): Alombert and Colin, 'but he brings back the information that the enemy is commanded by General Werneck, under the orders of Archduke Ferdinand'; Krauss, 'FML Werneck therefore had his corps march off'; 'he therefore decided, and because the march on Ulm seemed impossible to him, on the retreat to Aalen to Archduke Ferdinand'; 'on Werneck's report about the action at Albeck and the impossibility of breaking through to Ulm, Archduke Ferdinand sent Werneck the order to fall back on Öttingen'; 'Werneck meanwhile had already begun the retreat to Herbrechtingen on the morning of the 16th and had also sent FML Count Hohenzollern orders to march at once to Herbrechtingen'; 'General Klein summoned Werneck to surrender. Werneck gave no answer at all'; 'Werneck now drew up his troops on the heights of Herbrechtingen to hold up the pursuing enemy'; 'Werneck continued the retreat on Heidenheim that same night'; the journal, 'General O'Donnel, commanding the rearguard'; Krauss, 'in Ober-Kochen Werneck received Archduke Ferdinand's order to march by Ebnat, Neresheim and Trochtelfingen to Öttingen'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 94 (OCR running heads; not checked against print)",
+          "quote": "mais il rapporte le renseignement que l'ennemi est commandé par le général Werneek, sous les ordres de l'archidue Ferdinand."
+        },
+        {
+          "source_id": "krauss-1912-p483-figures-v1",
+          "section": "p483",
+          "locator": "Krauss (1912), p. 483 (transcribed from the page image)",
+          "quote": "FML. Werneck ließ daher sein Korps"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 483 (OCR page markers; not checked against print)",
+          "quote": "Er be- schloß deshalb und weil ihm der Marsch auf Ulm unmöglich er- schien, den Rückzug nach Aalen zu Erzherzog Ferdinand."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 484 (OCR page markers; not checked against print)",
+          "quote": "Auf die Meldung Werneeks über das Gefecht bei Albeck und über die Unmöglichkeit, nach Ulm durchzudringen, sandte Erzherzog Ferdinand an Werneek den Befehl, nach Öttingen zurückzugehen."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck hatte indessen den Rückmarsch nach Herbrechtingen schon am 16. vormittag angetreten und auch dem FML. Grafen Hohenzollern Befehl gesandt, sofort nach Herbrechtingen zu marschieren."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "General Klein forderte Werneck zur Übergabe auf. Werneck gab gar keine Antwort."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck stellte nun seine Truppen auf den Höhen von Herbrechtingen auf, um den nachdrängenden Feind aufzuhalten."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck setzte noch in der Nacht den Rückmarsch auf Heidenheim fort."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1202 (OCR running heads; not checked against print)",
+          "quote": "général O'Donnel, commandant l'arrière-garde,"
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Ober-Kochen erhielt Werneck den Befehl des Erzherzogs Ferdinand, über Ebnat, Neresheim und Trochtelfingen nach Öttingen zu marschieren."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). Krauss says Dupont's light infantry regiment took Herbrechtingen after a short fight, cutting off and capturing a considerable part of Werneck's infantry, and that Werneck continued his retreat on Heidenheim in the night; Alombert and Colin say the 9e léger, with the Guard chasseurs and the 20e dragons, carried the village and established itself there. The attack on the place came at 9 in the evening by the dragoon division's journal and Krauss, and at 11 by Murat's letter. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome, with the agreeing accounts of both sides, read from the page images; the hour of the night attack differs between accounts and is not resolved. English renderings (ours): Bodart, 'victory of the French'; Krauss, 'at 9 in the evening, however, Dupont's light infantry regiment arrived, which after a short fight took Herbrechtingen and thereby cut off and captured a considerable part of Werneck's infantry'; 'Werneck continued the retreat on Heidenheim that same night'; Alombert and Colin, 'this regiment, with the Guard chasseurs and the 20th dragoons, carries the village of Herbrechtingen and establishes itself there'; the journal, 'at 9 in the evening, the 9th light infantry regiment having arrived, we marched forward again'; Murat, 'it was 11 o'clock at night; the skirmishers of the 9th light infantry attacked the village and took it'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Franzosen (8.000 M.)"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Um 9h abend traf aber das leichte Infanterieregiment Duponts ein, das nach kurzem Kampfe Herbrechtingen nahm und dadurch einen beträchtlichen Teil der Infanterie Wernecks abschnitt und gefangen nahm."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck setzte noch in der Nacht den Rückmarsch auf Heidenheim fort."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "Ce régiment, avec les chasseurs de la Garde et le 20e dragons, enlève le village d'Herbrechtingen et s'y établit."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "A 9 heures du soir, le 9e régiment d'infanterie légère étant arrivé, on marcha de nouveau en avant."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Il était 11 heures du soir; les éclaireurs du 9e d'infanterie légère attaquèrent le village et s'en emparèrent."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's loss as about 2,500 men and 2 flags, and prints a dagger before the Austrian GM Count O'Donell. He gives no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule (claim bodart-strength); a post-outcome observation. The explanatory pages transcribed (pp. 45-48) do not define the dagger. The dragoon division's journal (OCR) has General O'Donnel, commanding the rearguard, wounded and taken by a dragoon maréchal des logis chef, and no passage read says he died (open questions). English renderings (ours): 'Austrian loss: about 2,500 men, 2 flags'; '† Austrian GM Count O'Donell'; the journal, 'General O'Donnel, commanding the rearguard, whom a maréchal des logis chef of the ... regiment of dragoons reached, wounded and took'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Österr. Verl.: ca. 2.500 M., 2 Fahnen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "† österr. GM. Gf. O'Donell."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1202 (OCR running heads; not checked against print)",
+          "quote": "général O'Donnel, commandant l'arrière-garde, qu'un maréchal dos logis chef du Ar*régiment de dragons atteignit, blessa et prit."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in side A's accounts: Alombert and Colin say that on reaching Hausen the French had taken 2,000 prisoners and that Murat took 3,000 prisoners in the day, with arms and caissons in abundance; Murat reported about 3,000 prisoners, among them a general officer and several officers of note, many caissons and some French prisoners retaken; the dragoon division's journal gives the day's result as about 3,000 men taken, 300 killed and 200 wounded, and says that in Herbrechtingen side B left about twenty caissons or wagons of ammunition and 300 men taken. In Krauss, the western column lost four battalions to Klein's dragoons during the retreat, two of the rearguard and the two of Dienersberg's detachment, and at Herbrechtingen a considerable part of Werneck's infantry was cut off and captured.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. The 2,000 at Hausen are part of the day's 3,000 in the same account, and the 300 taken in the town are not added to the journal's total for the day. Murat's letter also gives a figure for cavalry taken with their horses in the charges, seen only in the OCR and not recorded. Krauss gives no number of men. Bodart's figure is in claim bodart-losses. English renderings (ours): Alombert and Colin, 'on reaching Hausen we had taken 2,000 prisoners'; 'he took 3,000 prisoners in the day and gathered arms, caissons, etc., in abundance'; Murat, 'Sire, about 3,000 prisoners, among them a general officer and several officers of note, many caissons and some French prisoners retaken, are the results of the' [day of yesterday]; the journal, 'the enemy left there, as a pledge of his rout, about twenty caissons or wagons loaded with ammunition and 300 men, who were taken prisoner'; 'the result of this day was about 3,000 men taken prisoner, 300 killed and 200 wounded'; Krauss, 'the western column had lost four battalions to Klein's dragoons, who pressed on unceasingly, namely two battalions of the rearguard and the two battalions of GM Dienersberg's detachment'; 'cut off and captured a considerable part of Werneck's infantry'; Murat, 'in the various charges ... cavalrymen were taken with their horses' (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "En arrivant à Hausen, nous avions fait 2,000 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "Il a fait dans la journée 3,000 prisonniers, et a ramassé des armes, des caissons, etc., en abondance."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Sire, environ 3,000 prisonniers, parmi lesquels un officier général et plusieurs officiers de marque, beaucoup de caissons et quelques prisonniers français repris, sont les résultats de la"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "l'ennemi y laissa pour gage de sa déroute une vingtaine de caissons ou chariots chargés de munitions et 300 hommes, qui furent faits prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "Le résultat de cette journée fut d'environ 3,000 hommes faits prisonniers, 300 tués et 200 blessés,"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Die westliche Kolonne hatte durch die unausgesetzt nachdrängenden Dragoner Kleins vier Bataillone eingebüßt, und zwar zwei Bataillone der Nachhut und die zwei Bataillone des Detachements GM. Dienersberg."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "einen beträchtlichen Teil der Infanterie Wernecks abschnitt und gefangen nahm."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "On a pris, dans les différentes charges, 400 hom- mes de cavalerie avec leurs chevaux,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Side A's loss: the dragoon division's journal says the Austrian artillery near Eselsburg wounded two of Klein's men and killed some horses. No passage read gives side A's loss for the day, and Bodart prints none.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's own figure for one incident, read from the page image; it is not a total. English rendering (ours): 'this disposition of the enemy obliged General Klein to put his division in line as well, at the exit of the wood, before reaching Eselsburg, where it came under the fire of the enemy artillery, which wounded two of his men and killed some horses'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "Cette disposition des ennemis obligea le général Klein à mettre également sa division en bataille, à la sortie du bois, avant d'arriver à Eselsburg, où elle essuya le feu de l'artillerie ennemie, qui lui blessa deux hommes et tua quelques chevaux."
+        }
+      ]
+    },
+    {
+      "id": "herbrechtingen-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Herbrechtingen as a village in Württemberg on the Brenz, 25 km northeast of Ulm; the dragoon division's journal calls it a small town surrounded by a crenellated wall. Murat's letter puts the Austrian infantry in the woods left of the main road from Albeck to Heidenheim, with its cavalry toward Langenau, and says the night and the woods saved the Austrian corps. Klein's attack began behind Nerenstetten; the light cavalry threw side B into the valley of Hürben, and the dragoons pursued it to the old castle of Eselsburg, more than two leagues on, where Klein formed line at the exit of a wood, and to the heights of Herbrechtingen, where Werneck drew up his troops.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, side A's documents and Krauss (OCR passages, except those read from the page images); no map was inspected. English renderings (ours): Bodart, 'village in Württemberg, on the Brenz, 25 km northeast of Ulm'; the journal, 'Herbrechtingen, a small town surrounded by a crenellated wall'; Murat, 'his infantry occupied, by its right, the woods that lie on the left of the main road from Albeck to Heidenheim; he supported his left with his cavalry at Langenau'; 'it would have been all over with this army corps but for the night that came on and the woods that gave it shelter'; 'Klein, who began his attack behind Nerenstetten, pursued the enemy as far as the heights of Herbrechtingen, where he had to stop'; the journal, 'General Klein ordered the ... regiment of hussars and the ... regiment of chasseurs, supported by the ... division of dragoons, to charge it, which they did with vigour, and threw it back into the valley of Hürben'; 'as far as the height of the old castle of Eselsburg (more than two leagues away)'; 'at the exit of the wood, before reaching Eselsburg'; Krauss, 'on the heights of Herbrechtingen'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "(Dorf in Württemberg, an der Brenz, 25 km nordöstl. von Ulm)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "Herbrechtingen, petite ville entourée d'un mur crénelé,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1198 (OCR running heads; not checked against print)",
+          "quote": "son infanterie occupait, par sa droite, les bois qui se trouvent sur la gauche de la grande route d'Albeck à Heidenheim : il appuyaît sa gauche par sa cavalerie à Langenau."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1198 (OCR running heads; not checked against print)",
+          "quote": "c'en était fait de ee corps d'armée sans la nuit qui est survenue et les bois qui lui ont prêté asile ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (OCR running heads; not checked against print)",
+          "quote": "Klein, qui a commencé son attaque en arrière de Nerenstetten, a poursuivi l'ennemi jusque sur les hauteurs d'Herbrechlingen, où il a dû s'arrèter,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein ordonna au Le régiment de hussards et au 43 régiment de chasseurs, soutenus par la 4*° division de dragons, de le charger, ce qu’ils firent avec vigueur, et le culbutérent dans la vallée d'Hürben."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (OCR running heads; not checked against print)",
+          "quote": "jusqu'à la hauteur dn vieux ehâtean d'Esels- burg (distant de plus de deux lieues)"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "à la sortie du bois, avant d'arriver à Eselsburg,"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "auf den Höhen von Herbrechtingen"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side A's artillery could not keep up with the cavalry's rapid movements, and with night approaching the action was suspended near Eselsburg; Klein was then two long leagues ahead of the infantry. Murat wrote that Herbrechtingen was the only village offering some resources for his corps, and Alombert and Colin that the light cavalry that had led the pursuit was exhausted and gave way to the dragoons. Side B's retreat, by Krauss, went only slowly, hard pressed by French infantry and cavalry against which it repeatedly had to turn and face; in Herbrechtingen it left about twenty caissons or wagons of ammunition.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (OCR passages, except those read from the page images); no ration, ammunition or horse return for 16 October was inspected. English renderings (ours): the journal, 'our artillery having been unable to follow the rapid movements of the cavalry, and night approaching, the action was suspended for a moment'; Murat, 'General Klein was then two long leagues from the infantry'; 'which was the only one that offered some resources for the army corps that I have the honour to command'; Alombert and Colin, 'our light cavalry, which had led the pursuit as far as that, is at the end of its strength and gives way to the dragoons'; Krauss, 'this retreat went only slowly, hard pressed by French infantry and cavalry, against which front had repeatedly to be made'; the journal, 'about twenty caissons or wagons loaded with ammunition'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "Notre artillerie n'ayant pu suivre les mouvements rapides de la cavalerie, et la nuit approchant, on suspendit momentanément l'action;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Le général Klein se trouvait alors à deux grandes lieues de l'infanterie,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (OCR running heads; not checked against print)",
+          "quote": "qui était le seul qui offrit quelques ressources pour le corps d'armée que j'ai l'honneur de commander,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (OCR running heads; not checked against print)",
+          "quote": "Notre cavalerie légère, qui avail mené la poursuite jusque-là, est à bout de forces et cède la place aux dragons,"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Dieser Rückmarsch erfolgte nur langsam, hart bedrängt durch französische Infanterie und Kavallerie, gegen die wiederholt Front gemacht werden mußte."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "une vingtaine de caissons ou chariots chargés de munitions"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Napoleon sent his aide de camp General Mouton to Dupont's division for reliable information. On the 16th Dupont's parlementaire brought back that the enemy was commanded by Werneck under Archduke Ferdinand, and the dragoon division's journal says Klein had reported to Murat the previous day's events and the enemy's position and forces. Murat attacked Herbrechtingen in the belief that the enemy held it only to cover the retreat of its baggage and artillery and would not stand; the next morning he did not yet know the number of prisoners. That evening Dupont's aide de camp de Conchy reported to the Emperor that the troops beaten were a rearguard under Werneck, part of a larger corps under Hohenlohe.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as its documents and Alombert and Colin give it (OCR passages, except those read from the page images); Conchy's figures are in claim side-b-french-figures. English renderings (ours): Alombert and Colin, 'he sends his aide de camp, General Mouton, to Dupont's division, so as to obtain fully reliable information'; 'but he brings back the information that the enemy is commanded by General Werneck, under the orders of Archduke Ferdinand'; the journal, 'Prince Murat, to whom General Klein had reported what had happened the day before, the position and the forces of the enemy'; Murat, 'I decided on this attack from my conviction that the enemy held there only to protect the retreat of his baggage and his artillery, and because I was convinced that the enemy, terrified by his rout, would not hold there'; 'I do not yet know the number of prisoners'; Alombert and Colin, 'according to the information sent that same evening to the Emperor by an aide de camp of General Dupont, chef de bataillon de Conchy'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 93 (OCR running heads; not checked against print)",
+          "quote": "1 envoie son aide de camp, le général Mouton, à la division Dupont, afin d'obtenir des rensei- gnements de toute confiance,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 94 (OCR running heads; not checked against print)",
+          "quote": "mais il rapporte le renseignement que l'ennemi est commandé par le général Werneek, sous les ordres de l'archidue Ferdinand."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1200 (OCR running heads; not checked against print)",
+          "quote": "le prince Murat, à qui le général Klein avait rendu compte de ce qui s'était passé la veille, de la position et des forces de l'ennemi,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Je me déterminai à cette attaque par la persuasion où j'étais que l'ennemi ne tenait là que pour protéger la retraite de ses équipages et de son artillerie, et parce que j'étais convaincu que l'ennemi, épouvanté de sa déroute, n'y tiendrait pas."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (OCR running heads; not checked against print)",
+          "quote": "J'ignore encore le nombre de prison- niers."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "D'après les renseignements transmis le soir même à l'Empereur par un aide de camp du général Dupont, le chef de bataillon de Conchy,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Werneck learned from GM Mecsery of the defeat of Riesch's corps at Elchingen and that it had cut his own corps off from Ulm, news hard to reconcile with Mack's order, which stated as certain that the enemy was retreating to France; in his relation he adds that he had news of the enemy showing in strength at Ellwangen and Nördlingen. Before the retreat he received Mack's general order, which held the enemy's retreat to be beyond doubt, and the Archduke's order from Aalen, and concluded from the Archduke's presence at Aalen that the enemy's retreat had been invented. Dupont's parlementaire told him that Ulm had capitulated and invited him to do likewise.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Krauss gives it from Werneck's report and relation, and side A's message as Alombert and Colin give it (OCR passages). Whether Ulm had capitulated when the parlementaire said so is not settled by these passages (see B365a). English renderings (ours): Krauss, 'from him Werneck learned of the changed task of Riesch's corps and its defeat at Elchingen, and that through this defeat Werneck's corps was cut off from Ulm'; 'this news could only with difficulty be brought into agreement with the content of Mack's order, \"whose statement that the enemy was retreating to France bore the stamp of definite certainty\"'; Werneck, 'the more so as I received news that the enemy was also showing in strength at Ellwangen and Nördlingen'; Krauss, 'which stated that the enemy's retreat was beyond doubt, and an order of Archduke Ferdinand from Aalen'; 'Werneck concluded from the Archduke's presence in Aalen that the enemy's retreat was invented'; Alombert and Colin, 'meanwhile Dupont sends a parlementaire to the commander of the enemy troops to inform him that Ulm has capitulated and invite him to do the same'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 482 (OCR page markers; not checked against print)",
+          "quote": "Von diesem erfuhr Werneek die geänderte Aufgabe des Korps Eiesch und dessen Niederlage bei Elchingen sowie daß durch diese Niederlage das Korps Werneek von Ulm abgeschnitten sei."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 482 (OCR page markers; not checked against print)",
+          "quote": "Diese Nachrichten waren nur schwer mit dem Inhalt des Be- fehles Macks in Übereinstimmung zu bringen, „dessen Angabe, der Feind sei im Rückzuge nach Frankreich, das Gepräge der bestimmten Gewißheit an sich trug\"."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 482 (OCR page markers; not checked against print)",
+          "quote": "als ich Nachricht erhielt, der Feind zeige sich auch stark in Ellwangen und Nördlingen.\""
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 483 (OCR page markers; not checked against print)",
+          "quote": "der feststellte, daß der Rückzug des Feindes zweifellos sei, und einen Befehl des Erzherzogs Ferdinand aus Aalen,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 483 (OCR page markers; not checked against print)",
+          "quote": "Werneck schloß aus der Anwesenheit des Erzherzogs in Aalen darauf, daß der Rückzug des Feindes erdichtet war."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 94 (OCR running heads; not checked against print)",
+          "quote": "En attendant, Dupont envoie un parlementaire au com- mandant de la troupe ennemie pour l'avertir qu'Ulm a capitulé et l'inviter à en faire autant."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aims were set from above: Napoleon ordered Murat to beat and pursue the Austrian corps at Albeck, and Alombert and Colin say the Emperor feared for the convoys, depots, parks and treasury on the army's road between Ellwangen and Nördlingen. At Herbrechtingen Murat meant to drive out an enemy he believed was only covering the retreat of its baggage and artillery; he wrote that Dupont was to have taken position in the village, the only one offering resources for his corps.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims set from above and Murat's own reasons, from Krauss (page image), Alombert and Colin (OCR) and Murat's letter (page image and OCR). English renderings (ours): Krauss, 'to go to Albeck and to beat and pursue the Austrian corps that Dupont had brought to bay there'; Alombert and Colin, 'all these symptoms together give Napoleon serious fears for the convoys, the depots, the parks, the treasury, which are on the army's road, between Ellwangen and Nördlingen'; Murat, 'I resolved to drive the enemy from Herbrechtingen'; 'meanwhile General Dupont was following the cavalry as fast as he could and was himself to take position in this village, which was the only one that offered some resources for the army corps that I have the honour to command'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "sich nach Albeck zu begeben und das dort von Dupont gestellte österreichische Korps zu schlagen und zu verfolgen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 93 (OCR running heads; not checked against print)",
+          "quote": "tous ces symptômes réunis donnent à Napoléou des craintes sérieuses pour les convois, les dépôts, les pares, le trésor, qui se lrouvent sur la route de l'armée, entre Ellwangen et Nærdlingen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Je résolus de chasser l'ennemi d'Herbrechtingen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "herbrechtingen-16-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (OCR running heads; not checked against print)",
+          "quote": "Cependant le général Dupont suivail aussi vite qu'il pouvait la cavalerie et devait aller lui-même prendre position à ce village, qui était le seul qui offrit quelques ressources pour le corps d'armée que j'ai l'honneur de commander,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Werneck's relation says that, however the matter stood, he had to attack toward Langenau and Albeck to harm the retreating enemy or, if it was not retreating, to help the army in Ulm to withdraw. On the 16th he decided to retreat to Archduke Ferdinand at Aalen, and at Herbrechtingen he drew up his troops on the heights to hold up the pursuing enemy, which succeeded into the night as long as only cavalry attacked.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's aims as Krauss gives them, partly in Werneck's own words (OCR passages, except those read from the page image); Werneck's relation is his own account. The phase is left unresolved: the retreat was Werneck's decision, the Archduke's order to fall back on Öttingen followed his report, and the passages read do not say when that order reached him (claim side-b-command). English renderings (ours): Werneck, '\"however the matter stood,\" says FML v. Werneck in his relation, \"I had to proceed to the attack against Langenau and Albeck, so as to harm the retreating enemy or, if he was not retreating, to help the army in Ulm to retreat\"'; Krauss, 'the retreat to Aalen to Archduke Ferdinand'; 'Werneck now drew up his troops on the heights of Herbrechtingen to hold up the pursuing enemy. That succeeded into the night, as long as only enemy cavalry had attacked'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 482 (OCR page markers; not checked against print)",
+          "quote": "„Wie nun immer die Sache lag — sagt FML. v. Werneek in seiner Relation^) — so mußte ich zum Angriff gegen Langenau und Albeck schreiten, um den zurückgehenden Feind zu schädigen, oder, wenn er nicht zurückging, der Armee in ülm zum Rückzug zu helfen,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 483 (OCR page markers; not checked against print)",
+          "quote": "den Rückzug nach Aalen zu Erzherzog Ferdinand."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck stellte nun seine Truppen auf den Höhen von Herbrechtingen auf, um den nachdrängenden Feind aufzuhalten. Das gelang auch bis in die Nacht hinein, solange nur feindliche Kavallerie angegriffen hatte."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked and pursued: Dupont's infantry drove side B from the wood near Albeck, the light cavalry and Klein's dragoons charged and pursued it toward Eselsburg, and at night the 9e léger, with the Guard chasseurs and the 20e dragons, carried Herbrechtingen. Side B retreated, turning to face its pursuers, and stood on the heights of Herbrechtingen to hold them up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "All the accounts read describe side A attacking and pursuing a retreating side B; side B's stand at Herbrechtingen was defensive. The phase is left unresolved: Napoleon's verbal order to beat and pursue and Berthier's order to Dupont to attack set the day's offensive, while Murat's letter shows him deciding the night attack on Herbrechtingen itself (claim side-a-command), and Bodart's entry does not say whether it covers the day or the night action. English renderings (ours): Alombert and Colin, 'Dupont swiftly drives the enemy from the wood bordering the road; the Austrian cavalry then makes a retrograde movement on Nerenstetten, and Murat takes advantage of it to have it charged'; Krauss, as in claims side-a-command, means-and-supply and side-b-command; Murat, 'I resolved to drive the enemy from Herbrechtingen'; Alombert and Colin, as in claim bodart-winner.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (OCR running heads; not checked against print)",
+          "quote": "Dupont chasse rapidement l’ennemi du bois qui borde la route; la cavalerie autrichienne fait alors un mouve- ment rétrograde sur Nerenstetten, et Murat en profite pour la faire charger."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "In der Nacht zum 16. Oktober, als schon die Meldung über das Gefecht bei Albeck eingelaufen war, erhielt Murat im Hauptquartier von Napoleon mündlich den Befehl, sich nach Albeck zu begeben und das dort von Dupont gestellte österreichische Korps zu schlagen und zu verfolgen."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Dieser Rückmarsch erfolgte nur langsam, hart bedrängt durch französische Infanterie und Kavallerie, gegen die wiederholt Front gemacht werden mußte."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "Je résolus de chasser l'ennemi d'Herbrechtingen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p95-figures-v1",
+          "section": "p95",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 95 (transcribed from the page image)",
+          "quote": "Ce régiment, avec les chasseurs de la Garde et le 20e dragons, enlève le village d'Herbrechtingen et s'y établit."
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck stellte nun seine Truppen auf den Höhen von Herbrechtingen auf, um den nachdrängenden Feind aufzuhalten."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification-french-accounts",
+      "dimension": "fortification",
+      "value": "In the dragoon division's journal side B held Herbrechtingen, a small town surrounded by a crenellated wall, which was attacked and carried at once; side B had withdrawn on it after nightfall. Murat wrote that the enemy had taken position at Herbrechtingen with the rest of its infantry and much artillery.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified because a cited passage names a crenellated wall round the place side B held at night; the wall is a permanent work, so the phase is inherited. Only the journal names it: Murat's letter and Alombert and Colin call Herbrechtingen a village and name no works, and for the rest of the day side B fought in the open, in woods and on heights without named works. English renderings (ours): 'as soon as night had fallen, the enemy took advantage of it to withdraw on Herbrechtingen'; 'Herbrechtingen, a small town surrounded by a crenellated wall, was attacked and carried at once'; Murat, 'the enemy had taken position at Herbrechtingen with the rest of his infantry and much artillery'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "sitôt que la nuit fut close, l'ennemi en profita pour se retirer sur Herbrechtingen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1201-figures-v1",
+          "section": "p1201",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1201 (transcribed from the page image)",
+          "quote": "Herbrechtingen, petite ville entourée d'un mur crénelé, fut attaquée et enlevée de suite;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1199-figures-v1",
+          "section": "p1199",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1199 (transcribed from the page image)",
+          "quote": "l'ennemi avait pris position à Herbrechtingen avec le reste de son infanterie et beaucoup d'artillerie."
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "fortification-krauss",
+      "dimension": "fortification",
+      "value": "Krauss places Werneck's troops on the heights of Herbrechtingen and has Dupont's light infantry regiment take Herbrechtingen after a short fight. He names no walls or other works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; the dragoon division's journal, coded separately, names a crenellated wall (claim fortification-french-accounts). English renderings (ours): 'Werneck now drew up his troops on the heights of Herbrechtingen'; 'which after a short fight took Herbrechtingen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "Werneck stellte nun seine Truppen auf den Höhen von Herbrechtingen auf,"
+        },
+        {
+          "source_id": "krauss-1912-p484-figures-v1",
+          "section": "p484",
+          "locator": "Krauss (1912), p. 484 (transcribed from the page image)",
+          "quote": "das nach kurzem Kampfe Herbrechtingen nahm"
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Murat's letter and the 1st dragoon division's journal were read only as Alombert and Colin print them; Dupont's division journal and General Mouton's report, which they cite for Berthier's lost order; Werneck's relation and report (Kriegsarchiv), which Krauss quotes; Krauss's map (Beilage 31). Figures seen only in the OCR and not recorded: the cavalry taken with their horses in the charges (Murat's letter, Alombert and Colin, t. III, vol. 2, p. 1200).",
+    "Most consequential gap: side B's strength in the action. No Austrian return for Werneck's corps was read: Krauss gives battalions and squadrons for the 15th and scarcely 6000 men for the 17th, after this action; side A's information gave about 8,000 for the rearguard; Bodart's 4,000 lies below both, and none of them says which of Werneck's troops fought on the 16th. A strength return of Werneck's corps in Krauss's appendices or the Kriegsarchiv files could close it. Side A's force is also uncertain: the returns read are three weeks older than the action and the Guard chasseurs' strength was not found.",
+    "Disputes kept as separate claims or recorded in them: side B's commander as Hohenzollern (Bodart) or Werneck (Krauss, Dupont's parlementaire), with Hohenlohe for the corps in Conchy's information; the hour of the night attack, 9 in the evening (journal, Krauss) or 11 (Murat); O'Donell marked with Bodart's dagger, against the journal's O'Donnel wounded and taken; side B's loss as about 2,500 men and 2 flags (Bodart) or about 3,000 taken, 300 killed and 200 wounded (journal); the parley as opened by Dupont (Murat, Alombert and Colin) or ordered by Murat (journal); the two chasseur regiments as drawn in by Murat (Krauss) or come with Oudinot's grenadiers (Alombert and Colin); Herbrechtingen as a village (Bodart, Alombert and Colin) or a small town with a crenellated wall (journal).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. II and t. III (the French official history, printing the returns, Murat's letter and the 1st dragoon division's journal, interested accounts, and Conchy's information); Krauss (an Austrian history drawing on Werneck's relation and report and on the French documents; his account of the French side is not treated as independent of Alombert and Colin)."
+  ]
+}

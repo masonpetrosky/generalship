@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "battle_id": "B364c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Memmingen entry (capitulation, 14 October 1805) in cohort v1's third-coalition 1805 group: Soult's 4th corps (the 2nd division and a dragoon division before the town) against the Austrian garrison under GM Spangen, from the investment on the 13th to the evacuation that night. The 250 men of the Mittrowsky regiment taken on the 13th and the encounter at Berkheim on the march to Ochsenhausen are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 20,000 men under Marshal Soult and side B (Austrian) 11 battalions, 6,000 men, under GM Count Spangen. By his stated rule these are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which of Soult's formations he counted; the passages read put one infantry division, a dragoon division and detachments before Memmingen on the 14th (claim side-a-return). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French (20,000 men) under Marshal Soult force 11 Austrian battalions (6,000 men) under GM Count Spangen to capitulate, after which this Austrian division went into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Die Franzosen (20.000 M.) unter Marschall Soult zwingen 11 Bataillone Österreicher (6 000 M.) unter GM. Gf. Spangen zur Kapitulation, wonach diese österreichische Division in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-a-return",
+      "dimension": "strength",
+      "value": "Side A's 4th corps return at the crossing of the Rhine, in the first days of vendémiaire year XIV (late September 1805), lists its 2nd division as the 24e légère (2 battalions, 1,504 men), 4e de ligne (2, 1,889), 28e (2, 1,730), 46e (2, 1,733) and 57e (2, 1,854): 10 battalions and 8,710 men by our sum. Among the corps' light cavalry the 26e chasseurs had 3 squadrons, 405 men and 414 troop horses. The return's total of the corps is headed 'présents sous les armes' (present under arms). Krauss says the 2nd division and Walther's dragoon division kept Memmingen invested on the 14th while the 1st and 3rd went to Ochsenhausen; Soult wrote that he had stopped Vandamme's division and the dragoons to await the surrender, and that evening that the 3rd and 1st divisions were at Ochsenhausen while the 2nd, the dragoon division and the artillery park would join next morning. He put 25 horses of the 26e chasseurs into the town.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's own figures, read from the page images; they are some three weeks older than the action and show neither the losses of the march nor detachments. The return prints no division subtotal, so 8,710 is our sum; its infantry rows as read sum to 995 more than its printed infantry subtotal (see the transcription note), which does not change the 2nd division's rows. That Vandamme's division was the 2nd is our reading of Soult's two letters with Krauss. The cavalry reserve's return names its dragoon divisions by number only, and no passage read gives the number of Walther's, so the dragoons are not counted; nor is the artillery. Bodart's 20,000 (claim bodart-strength) is far above the 2nd division and the 26e chasseurs together. The force was set by Napoleon's order of the 13th and Soult's dispositions before the action, so the claim is tagged inherited. English renderings (ours): '4th army corps at the crossing of the Rhine in the first days of vendémiaire year XIV'; 'total of those present under arms'; Krauss, 'on the 14th he sent the 1st and 3rd divisions to Ochsenhausen, on Napoleon's order of the 13th, while the 2nd division and Walther's dragoon division kept Memmingen invested'; Soult, 'I have stopped the movement of Vandamme's division and that of the dragoons, to await the surrender of the place of Memmingen'; 'the 3rd and 1st divisions of the army corps have reached Ochsenhausen this evening. The 2nd, with the dragoon division and the artillery park, will join there tomorrow at daybreak'; 'I put into the place a battalion of the 24th light infantry, 25 horses of the 26th chasseurs, 20 gunners and 1 engineer officer'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t2-p161-figures-v1",
+          "section": "p161",
+          "locator": "Alombert and Colin, t. II, p. 161 (transcribed from the page image)",
+          "quote": "4e corps d'armée au passage du Rhin dans les premiers jours de vendémiaire an XIV."
+        },
+        {
+          "source_id": "alombert-colin-t2-p161-figures-v1",
+          "section": "p161",
+          "locator": "Alombert and Colin, t. II, p. 161 (transcribed from the page image)",
+          "quote": "2e division.\n24e légère | 2 | 1,504 | » | »\n4e de ligne | 2 | 1,889 | » | »\n28e id. | 2 | 1,730 | » | »\n46e id. | 2 | 1,733 | » | »\n57e id. | 2 | 1,854 | » | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p161-figures-v1",
+          "section": "p161",
+          "locator": "Alombert and Colin, t. II, p. 161 (transcribed from the page image)",
+          "quote": "26e id. | 3 | 405 | 414 | »"
+        },
+        {
+          "source_id": "alombert-colin-t2-p161-figures-v1",
+          "section": "p161",
+          "locator": "Alombert and Colin, t. II, p. 161 (transcribed from the page image)",
+          "quote": "TOTAL des présents sous les armes | 27,798 | 1,380 | 666"
+        },
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Am 14. sandte er auf den Befehl Napoleons vom 13. die 1. und 3. Division nach Ochsenhausen ab, indessen die 2. Division und die Dragonerdivision Walther Memmingen zerniert hielten."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "J'ai arrêté le mouvement de ln division Vandnmme et de celle des dragons, pour attendre la reddition de la place de Memmingen,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "Les 3e et 1re divisions du corps d'armée sont ce soir rendues à Ochsenhausen. La 2e, ainsi que la division de dragons et le parc d'artillerie, y seront réunis demain à la pointe du jour;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "Je mets dans la place un bataillon du 24e régiment d'infanterie légère, 25 chevaux du 26e régiment de chasseurs, 20 canonniers et 1 officier du génie;"
+        }
+      ]
+    },
+    {
+      "id": "krauss-garrison",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: Memmingen had a battalion of Beaulieu as garrison; the infantry regiment Czartoryski entered on the evening of the 10th and the regiment Mittrowsky on the afternoon of the 13th, both on the march from Tyrol, so that the garrison consisted of eleven battalions. About 90 Palatinal hussars and 8 three-pounder guns also arrived on the 13th. GM Count Spangen commanded.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own history, read from the page image; Krauss gives no headcount for the garrison before the surrender, but gives 4,600 men taken (claim side-b-losses). The garrison was assembled before the action by troops passing through, so the claim is tagged inherited. English renderings (ours): 'in Memmingen, which had a battalion of Beaulieu as garrison, the infantry regiment Czartoryski had entered on the evening of the 10th and the regiment Mittrowsky on the afternoon of the 13th, both on the march from Tyrol. The garrison thus consisted of eleven battalions. On the 13th about 90 horsemen of the Palatinal hussars and 8 three-pounder guns also arrived in Memmingen'; 'the command there was held by GM Count Spangen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "In Memmingen, das ein Bataillon Beaulieu als Besatzung hatte, waren am 10. abend das Infanterieregiment Czartoryski und am 13. nachmittag das Regiment Mittrowsky, die aus Tirol im Anmarsche waren, eingerückt. Die Besatzung bestand somit aus elf Bataillonen. Am 13. trafen überdies etwa 90 Reiter von Palatinalhusaren und 8 dreipfündige Kanonen in Memmingen ein."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 455 (OCR page markers; not checked against print)",
+          "quote": "Das Kom- mando führte dort GM. Graf Spangen."
+        }
+      ]
+    },
+    {
+      "id": "soult-garrison",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: after the surrender Soult wrote to the Emperor that the garrison was much stronger than he had first thought: the regiments Mittrovsky, Czartoryski and Beaulieu, 9 battalions in all, 2 of them grenadiers, together 4,500 men, 100 Palatinate hussars and detachments of other cavalry regiments, 9 guns with their caissons, a major general, three colonels and a very numerous staff. Before the surrender, his letter had given a lower estimate from all the information he had.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's count of the garrison at the surrender, read from the page image; the earlier estimate was seen only in the OCR and its figures are not restated. Krauss has eleven battalions, about 90 hussars and 8 guns (claim krauss-garrison), and Bodart 11 battalions and 6,000 men (claim bodart-strength); the passages read do not reconcile nine and eleven battalions. English renderings (ours): 'the strength of the Austrian garrison is much greater than I had at first thought. It consists of the regiments of Mittrovsky, Czartoryski and Beaulieu, in all 9 battalions, 2 of them grenadiers, together 4,500 men, 100 Palatinate hussars and various detachments of other cavalry regiments, 9 guns with their supply caissons, a major general, three colonels and a very numerous staff, and much baggage'; 'there are in Memmingen, according to all the information, ...' (OCR).",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p771-figures-v1",
+          "section": "p771",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (transcribed from the page image)",
+          "quote": "La force de la garnison autrichienne est beaucoup plus considérable que je n'avais d'abord pensé. Elle se compose des régiments de Mittrovsky, Czartoryski et Beaulieu, en tout 9 bataillons, dont 2 de grenadiers, faisant ensemble 4,500 hommes, 100 hussards du Palatinat et divers détachements d'autres régiments de cavalerie, 9 pièces de canon avec leurs caissons d'approvisionnement, un général-major, trois colonels et un état-major très nombreux et beaucoup d'équipages."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "I y a dans Memmingen, d'après tous les renseignements ; 2,000 hommes d'infanterie, 200 bussards et 10 à 12 pièces de eanon ;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Soult as side A's commander and GM Count Spangen as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders; Soult's letters and Krauss agree (claims side-a-command and side-b-command).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter Marschall Soult zwingen 11 Bataillone Österreicher"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter GM. Gf. Spangen zur Kapitulation,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Soult summoned the commandant on the 13th and again on the morning of the 14th, both times without success; Krauss says he prepared at the same time to attack the town early on the 14th. Soult sent General Salligny into the town to draw up the articles, agreed to the garrison council's demand on its soldiers, and ordered Salligny to have thirty guns fire on the place if the enemy would not sign within the hour. General Vandamme directed the attack on the front of the place at the Mindelheim gate, and Generals Walther and Sébastiani completed the investment.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions at the engagement from Soult's own letters, an interested account, and Krauss (OCR passages; 'thirty' is printed as a word). English renderings (ours): Krauss, 'Soult summoned the commandant of the town to surrender; at the same time, however, he made every preparation to attack the town early on the 14th'; Soult, 'yesterday I sent a parlementaire to carry to the commandant of this place the summons ...; but he was not received. I sent him a second time this morning with as little success'; 'as I had absolutely ordered him to have the place fired on by thirty guns, if the enemy refused to sign within the hour'; 'I have had much to praise in the vigour of the attack that General of Division Vandamme directed on the front of the place of Memmingen, Mindelheim gate'; 'Generals Walther and Sébastiani manoeuvred perfectly to complete the investment of the place'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "parsdorf-memmingen-13-oct",
+          "locator": "Krauss (1912), p. 454 (OCR page markers; not checked against print)",
+          "quote": "Soult forderte den Kommandanten des Ortes zur Übergabe auf; gleichzeitig traf er jedoch alle Vorkehrungen, die Stadt am 14. früh anzugreifen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "Hier, j'en- voyai un parlementaire pour porter au commandant de cette place la sommation dont j'ai l'honneur d'adresser copie à Votre Majesté ; mais il ne fut point reen. Je l'ai envoyé une seconde fois ee matin avec aussi peu de suceës ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "J'ai immédiatement chargé le général de division Sulligny de se rendre en ville pour en dresser les articles,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "comme je lui avais absolument ordonné de faire tirer sur In place par trente pièces de ennon, si les ennemis refusnient de faire signer dans l'heure même,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (OCR running heads; not checked against print)",
+          "quote": "J'ai eu heaucoup à me louer de la vivacité de l'attaque que le général de division Vandamme a dirigée sur le front de la place de Memmingen, porte de Mindelheim,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 772 (OCR running heads; not checked against print)",
+          "quote": "Les généraux Walther et Sébastiani ont parfaitement manœu- vré pour compléter l'investissement de la place:"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Spangen refused two summonses, then answered at half past three that he would accept honourable proposals. The garrison's council of war declared unanimously that it would accept no conditions unless the soldiers shared the officers' fate. Krauss says the garrison capitulated as the French infantry prepared to attack, because, Spangen stated, the entrenchments allowed no lasting resistance, there were only 30-40 cartridges per musket and no relief was to be expected. Alombert and Colin say the commandant had given way, by an inconceivable weakness, to the threat of a few field guns; Krauss judges that Spangen was perhaps somewhat too quick, and Jellachich too slow, in deciding.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Krauss, from Spangen's statement, and side A's documents give them; the judgments of both histories are evaluations, not measured effects. English renderings (ours): Soult, 'at half past three General-Major Count de Spangen answered me that he would accept honourable proposals'; 'the council of war was assembled when General Salligny presented himself, and those who composed it declared unanimously that they would accept no condition if the soldiers did not undergo the same fate as the officers'; Krauss, 'when the infantry too now prepared to attack the Augsburg gate, the garrison capitulated, because, as GM Count Spangen stated, the entrenchments allowed no lasting resistance, only 30-40 cartridges per musket were on hand and no relief was to be expected'; Alombert and Colin, 'the commandant had yielded, by an inconceivable weakness, to the threat of a few field guns'; Krauss, 'GM Spangen was thus perhaps somewhat too quick, and Jellachich again too slow, in his decision'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "à trois heures et demie le général-major comte de Spangen m'a répondu qu'il accepterait des propositions honorable:"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "Le conseil de guerre était assemblé lorsque le général Sal est présenté, el ceux qui le cumposaient ont unanis ment déclaré qu'ils w'accepléraieut aucune condition, si les soldats ne subissaient pas le même sort que les officiers"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "Als nun auch die Infanterie sich zum Angriff gegen das Augsburger Tor anschickte, kapitulierte die Besatzung, weil — wie GM. Graf Spangen angab — die Verschanzungen keinen nachhaltigen Widerstand erlaubten, nur 30—40 Patronen pro Gewehr vorhanden waren und ein Entsatz nicht zu erwarten war."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "memmingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "car le commandant avait cédé, par une inconcevable faiblesse, devant la menace de quelques canons de campagne,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "GM, Spangen war somit vielleicht etwas zu rasch und Jellachich wieder zu langsam im Entschluß gewesen."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Memmingen on 14 October: the French forced the Austrian battalions to capitulate, and the division went into captivity. The capitulation, signed by Salligny for Soult and by Spangen, made the garrison prisoners of war to Soult's corps; its officers were free to go home on their word of honour not to serve until exchanged, or to follow their troops. Krauss says the town was handed over on the evening of the 14th; Soult that the evacuation took place between 11 and midnight, when a battalion of the 24e entered at once.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the agreeing accounts; no source read gives a different result. Alombert and Colin add (OCR) that the garrison was threatening to revolt and break the convention. English renderings (ours): Bodart, 'capitulation of Memmingen'; the capitulation, 'the Austrian garrison of Memmingen surrenders as prisoners of war'; 'the officers will be free to go to their homes, giving their word of honour not to serve until after exchange, rank for rank, or to follow the fate of their troops'; Krauss, 'on the evening of 14 October the surrender of the town took place'; Soult, 'the evacuation of the place took place between 11 o'clock and midnight, and the 2nd battalion of the 24th regiment of the line entered at once; it was the first battalion found at hand'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "14./10. KAPITULATION von Memmingen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "wonach diese österreichische Division in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 772 (OCR running heads; not checked against print)",
+          "quote": "La garnison autrichienne de Memmingen se rend prisonnière de guerre"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 772 (OCR running heads; not checked against print)",
+          "quote": "MM les officiers seront libres de se rendre dans leurs foyers en donnant leur parole d'honneur de ne servir qu'a près échange, grade par grade, ou de suivre le sort de leur troupe,"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "Am Abend des 14. Oktobers erfolgte die Übergabe der Stadt,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p771-figures-v1",
+          "section": "p771",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (transcribed from the page image)",
+          "quote": "L'évacuation de la place s'est faite entre 11 heures et minuit, et le 2e bataillon du 24e régiment de ligne y est entré immédiatement; c'est le premier bataillon qu'on a trouvé sous la main."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "memmingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "et la garnison menaçait de se révolier et de rompre la con- vention,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Side A's loss: Soult wrote that the conquest had cost only a dozen men wounded, 4 killed and a few horses; Krauss says four dead and a dozen wounded. Bodart prints no loss figure for this entry.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's own figure and Krauss's matching one, read from the page images; Krauss's is not shown to be independent of Soult's. English renderings (ours): 'this conquest, which has cost only a dozen men wounded, 4 killed and a few horses'; Krauss, 'the capture of Memmingen had cost the French only four dead and a dozen wounded'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "Cette conquête, qui n'a coûté qu'une douzaine d'hommes blessés, 4 tués et quelques chevaux,"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "Die Einnahme von Memmingen hatte den Franzosen nur vier Tote und ein Dutzend Verwundete gekostet."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss was the garrison: Soult wrote to Berthier that the prisoners found in the place were 9 battalions, 2 of them grenadiers, of the regiments Mittrovsky, Czartoryski and Beaulieu, detachments of cavalry, 9 guns and a very numerous staff, 4,600 men in all; Krauss says 4,600 men and 8 guns fell into French hands. Soult also sent to Augsburg 250 men of the Mittrovsky regiment taken the day before. Bodart gives no loss figure but says the 11 battalions (6,000 men) went into captivity.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined; Krauss's 4,600 matches Soult's and is not shown to be independent of it. The 250 taken on the 13th, 'yesterday' in Soult's letter of the 14th, are outside the entry's date and are not added. English renderings (ours): 'Marshal Soult to Marshal Berthier. Steinheim, 22 vendémiaire year XIV (14 October 1805)'; 'the number of prisoners we found in the place consists of 9 battalions, 2 of them grenadiers, of the regiments of Mittrovsky, Czartoryski and Beaulieu, various detachments of cavalry, 9 guns with their supply, a very numerous staff, in all 4,600 men and much baggage'; Krauss, 'the surrender of the town, in which 4600 men and 8 guns fell into the hands of the French'; Soult, 'this general is also to send tomorrow to Augsburg the prisoners of war and 250 others taken yesterday from the regiment of Mittrovsky'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p773-figures-v1",
+          "section": "p773",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 773 (transcribed from the page image)",
+          "quote": "Le maréchal Soult au maréchal Berthier. Steinheim, le 22 vendémiaire an XIV (14 octobre 1805)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p773-figures-v1",
+          "section": "p773",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 773 (transcribed from the page image)",
+          "quote": "Le nombre de prisonniers que nous avons trouvés dans la place consiste en 9 bataillons, dont 2 de grenadiers, des régiments de Mittrovsky, Czartoryski et Beaulieu, divers détachements de cavalerie, 9 pièces de canon avec leur approvisionnement, un état-major très nombreux, en tout 4,600 hommes et beaucoup d'équipages."
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "bei der 4600 Mann und 8 Kanonen den Franzosen in die Hände fielen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "Ce général doit aussi faire diriger demain sur Augsburg les prisonniers de guerre et 250 autres qu'on fit hier au régiment de Mittrovsky."
+        }
+      ]
+    },
+    {
+      "id": "memmingen-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Memmingen as a town in Bavarian Swabia, 70 km southwest of Augsburg. Soult's troops seized the Iller bridges northwest of Steinheim and at Aitrach in the night before the action. The French attacked the front of the place at a gate, which Soult calls the Mindelheim gate and Krauss the Augsburg gate. Krauss writes that Memmingen was no 'fortified place'; Soult calls it a half-fortified post.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Krauss and Soult; no plan of the town was inspected, and whether the two gates named are the same is not settled by the passages read. English renderings (ours): Bodart, 'town in Bavaria, Swabia, 70 km southwest of Augsburg'; Krauss, 'Soult, whose troops had arrived before Memmingen on the afternoon of the 13th, took possession in the same night of the Iller bridges northwest of Steinheim and at Aitrach'; Soult, 'the front of the place of Memmingen, Mindelheim gate'; Krauss, 'the Augsburg gate'; 'admittedly Memmingen was no \"fortified place\"'; Soult, 'that there should be a half-fortified post, which could serve him for the moment as a place of arms'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "(Stadt in Bayern, Schwaben, 70 km südwestl. von Augsburg)."
+        },
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Soult, dessen Truppen am 13. nachmittag vor Memmingen eingetroffen waren, bemächtigte sich noch in der Nacht der Iller-Brücken nordwestlich Steinheim und bei Aitrach."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (OCR running heads; not checked against print)",
+          "quote": "sur le front de la place de Memmingen, porte de Mindelheim,"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "sich zum Angriff gegen das Augsburger Tor anschickte,"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "Allerdings war Memmingen kein „fester Platz“"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "qu'il y eût un poste à demi fortifié, qui pt momentanément lui servir de place d'armes ;"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B, by Spangen's statement in Krauss, had only 30-40 cartridges per musket and could expect no relief, and its three-pounders were soon silenced by the French artillery, which opened fire around noon. Soult had brought up a numerous artillery close to the place and hoped the town's resources would relieve for a few days the extreme shortage his corps was suffering.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as Krauss and Soult give them; the distance at which Soult placed his guns was seen only in the OCR and is not restated. No ration or ammunition return was inspected. English renderings (ours): Krauss, 'only 30-40 cartridges per musket were on hand and no relief was to be expected'; 'the French artillery opened fire on the town toward noon. The Austrian three-pounders were soon silenced'; Soult, 'the display of a numerous artillery that I brought up ... from the place'; 'the help that no doubt can be drawn from it will bring us out, I hope, for some days, of the extreme shortage we are suffering'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "nur 30—40 Patronen pro Gewehr vorhanden waren und ein Entsatz nicht zu erwarten war."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "eröffnete gegen Mittag die französische Artillerie das Feuer gegen den Ort. Die österreichischen Dreiplünder waren bald zum Schweigen gebracht."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "l'appareil d'une nombreuse artillerie que j'ai appro- chée à 300 toises de la place,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (OCR running heads; not checked against print)",
+          "quote": "de l'extrême pénurie que nous éprouvons."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Soult's estimate of the garrison before the surrender, from all the information he had, was lower than the count after it; he then wrote that the garrison was much stronger than he had first thought. On the way to Ochsenhausen his advanced guard met the enemy at Berkheim, and baggage taken and an officer's servant reported that the Austrian army had begun to retreat from Ulm that morning, partly toward Biberach and partly toward Memmingen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Soult reported it; the estimate's figures were seen only in the OCR (claim soult-garrison). English renderings (ours): 'the strength of the Austrian garrison is much greater than I had at first thought'; 'some baggage wagons that were taken, and above all an officer's servant, made known that since this morning the enemy had begun his retreat from Ulm and was heading partly on Biberach and partly on Memmingen'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p771-figures-v1",
+          "section": "p771",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (transcribed from the page image)",
+          "quote": "La force de la garnison autrichienne est beaucoup plus considérable que je n'avais d'abord pensé."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "en arrivant à Berkheim, a rencontré l'ennemi"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "quelques voitures d'équipages qu'on a prises, et surtout un domestique d'oflicier, ont fait connaitre que, depuis ce matin, l'ennemi avait commencé sa retraite d'Ulm et qu'il se dirigeait partie sur Biberach, et partie sur Meminingen ;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Spangen, by his own statement, expected no relief. Krauss says FML Jellachich, whose corps was marching from Ochsenhausen to Leutkirch and Wurzach, concluded from all reports that Memmingen was already invested and meant to try to relieve it once he had sure news; the sure news came at noon on the 15th, together with the news of the capitulation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Krauss gives it (OCR passages, with Spangen's statement read from the page image). English renderings (ours): 'no relief was to be expected'; 'the divisions marching to Ochsenhausen ran into the covering troops of Jellachich's corps, which was on the march from Ochsenhausen to Leutkirch and Wurzach. FML Jellachich concluded from all reports and signs that Memmingen was already invested on the 14th'; '\"As soon as he had sure news of it, he would strive to relieve Memmingen if possible.\" The \"sure news\" came at noon on the 15th together with the news of the capitulation of the place'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "ein Entsatz nicht zu erwarten war."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "Die nach Ochsenhausen marschierenden Divisionen stießen mit den Sicherungstruppen des Korps Jellachich zusammen, das von Ochsenhausen nach Leutkirch und Wurzach im Marsche war. FML. Jellachich schloß aus allen Meldungen und Anzeichen darauf, daß Memmingen schon am 14. eingeschlossen war."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "„Sobald er darüber sichere Nachricht haben werde, werde er sich befleißen, Memmingen womöglich zu entsetzen.\" Die „sichere Nachricht\" kam am 15. mittag zugleich mit der Kunde von der Kapitulation des Ortes."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aims: Krauss says the Emperor's orders brought about the capture of Memmingen, and that on Napoleon's order of the 13th Soult sent two divisions on to Ochsenhausen while the 2nd and Walther's dragoons kept Memmingen invested; Soult meant the corps to intercept the Biberach road and complete the encirclement of the enemy in Ulm. Soult explains that he took terms rather than attack in form because it was advantageous for the Emperor's operations to have a half-fortified post as a place of arms, the garrison would have obliged him to leave a regiment behind, and the enemy would have had a support at Memmingen; afterwards he wrote that the conquest took a support from the Austrian army, opened a sure communication and had not delayed his march.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims set from above and Soult's own reasons, read from the page images and his letter (OCR). English renderings (ours): Krauss, 'the Emperor's orders brought about two important events on 14 October: the capture of Memmingen and the action of Elchingen'; Soult, 'from where I proposed to direct them on Laupheim so as to intercept the Biberach road and entirely surround the enemy army in Ulm'; 'I would no doubt have forced this garrison to surrender at discretion, had I had more time to attack it in form, but I thought it advantageous for the operations Your Majesty proposes that there should be a half-fortified post'; 'I also considered that this garrison, however weak it was, would have obliged me ... to leave a regiment behind, and moreover that the enemy would have had a support at Memmingen'; 'it can serve as a place of arms; it takes a support away from the Austrian army ... it opens to us a sure communication, and has not delayed our march'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Die Befehle des Kaisers führten am 14. Oktober zwei wichtige Ereignisse herbei: die Einnahme von Memmingen und das Gefecht von Elchingen."
+        },
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Am 14. sandte er auf den Befehl Napoleons vom 13. die 1. und 3. Division nach Ochsenhausen ab, indessen die 2. Division und die Dragonerdivision Walther Memmingen zerniert hielten."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 767 (OCR running heads; not checked against print)",
+          "quote": "d'où je me proposais de les diriger sur Laupheim afin d'intercepter la route de Biberach el cerner entièrement l'armée ennemie dans Ulm,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "j'aurais sans doute fareé cette garnison à se rendre à diserétion, eu plus de temps pour l'attaquer en régle, mais j'ai pensé qu'il était avantageux pour les opéra- fions que Votre Majesté se propose,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "j'ai aussi considéré que cette garnison, tonte faible qu'elle était, m'aurait obligé,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "Cette conquête, qui n'a coûté qu'une douzaine d'hommes blessés, 4 tués et quelques chevaux, peut servir de place d'armes; elle ôte un appui à l'armée autrichienne, me laisse espérer quelques secours, elle nous ouvre une communication assurée, et n'a point retardé notre marche."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "The passages read give no order or stated aim for Spangen's garrison. Krauss says the two regiments in the town were on the march from Tyrol, and that Jellachich meant to relieve Memmingen once he had sure news of its investment; he judges that the commandant of a fortified place should hold out as long as possible, here as long as the infantry had cartridges at all.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "What the passages say of side B's aims; Spangen's orders were not found, and Krauss's judgment is an evaluation. English renderings (ours): 'which were on the march from Tyrol'; 'the commandant of a fortified place should hold out as long as there is any possibility of doing so, here as long as the infantry still had any cartridges at all'; Jellachich's intention as in claim side-b-information.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "die aus Tirol im Anmarsche waren,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "Der Kommandant eines festen Platzes soll sich solange halten, als überhaupt die Möglich- keit dazu vorhanden ist, hier, solange die Infanterie überhaupt noch Patronen hatte,"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Soult invested and summoned the town, the French artillery opened fire around noon and silenced the Austrian guns, and the garrison capitulated as the French infantry prepared to attack the gate; Soult praises Vandamme's attack on the front of the place. Side B did not attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Both sides' accounts describe the French investing and bombarding the town and side B capitulating. The phase is left unresolved: Krauss credits the Emperor's orders with bringing about the capture, but the order he cites kept Memmingen invested while two divisions marched on, and he has Soult himself summon the town and prepare the attack (claims side-a-objectives and side-a-command); the passages read show no order from above to attack the town. English renderings (ours): as in claims side-a-command, means-and-supply and side-b-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "parsdorf-memmingen-13-oct",
+          "locator": "Krauss (1912), p. 454 (OCR page markers; not checked against print)",
+          "quote": "Soult erreichte am 13. abend Memmingen, das er von allen Seiten einschloß."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 456 (OCR page markers; not checked against print)",
+          "quote": "eröffnete gegen Mittag die französische Artillerie das Feuer gegen den Ort."
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "Als nun auch die Infanterie sich zum Angriff gegen das Augsburger Tor anschickte, kapitulierte die Besatzung,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (OCR running heads; not checked against print)",
+          "quote": "J'ai eu heaucoup à me louer de la vivacité de l'attaque que le général de division Vandamme a dirigée sur le front de la place de Memmingen, porte de Mindelheim,"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a town with works: by Spangen's statement in Krauss the entrenchments allowed no lasting resistance, and Soult ordered his engineer officer to push on the works the Austrians had begun. Soult calls the place a half-fortified post with a front and gates; Krauss writes that Memmingen was no 'fortified place'.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded B_fortified because the passages name entrenchments and works held by side B. The phase is left unresolved: the passages do not say when or on whose order the works were begun, and the town's older defences are not described. English renderings (ours): 'the entrenchments allowed no lasting resistance'; 'I order the latter to have work pushed with the greatest activity on the works that the Austrians had begun'; 'a half-fortified post'; 'the front of the place of Memmingen, Mindelheim gate'; 'admittedly Memmingen was no \"fortified place\"'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "die Verschanzungen keinen nachhaltigen Widerstand erlaubten,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p774-figures-v1",
+          "section": "p774",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
+          "quote": "je prescris à ce dernier de faire travailler avec la plus grande activité aux ouvrages que les Autrichiens avaient commencés,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 768 (OCR running heads; not checked against print)",
+          "quote": "un poste à demi fortifié,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "memmingen-soult",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 771 (OCR running heads; not checked against print)",
+          "quote": "sur le front de la place de Memmingen,"
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "kein „fester Platz“"
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Soult's corps journal and the Austrian files on Spangen's capitulation, which Krauss cites only through Spangen's statement; Jellachich's relation; a plan of Memmingen's defences in 1805. Figures seen only in the OCR and not recorded: Soult's estimate of the garrison before the surrender (Alombert and Colin, t. III, vol. 2, p. 768), the distance of his guns from the place (p. 767), the garrison of 4,000 to 5,000 in his letter to Vandamme (p. 769), the hour of the capitulation and the garrison of Alombert and Colin's introduction (t. III, vol. 1, p. 86).",
+    "Most consequential gap: side A's force before the town on the 14th. The return read is some three weeks older; the dragoon division (Walther's, per Krauss) cannot be matched to a row of the cavalry reserve's return from the passages read; and Bodart's 20,000 is unexplained. A 4th corps situation of mid-October or a source naming the number of Walther's dragoon division could close it.",
+    "Disputes kept as separate claims: the garrison as 11 battalions (Bodart, Krauss) or 9 (Soult); its men as 4,500 (Soult to the Emperor), 4,600 (Soult to Berthier, Krauss, as prisoners) or 6,000 (Bodart); its guns as 8 (Krauss) or 9 (Soult) and its hussars as about 90 (Krauss) or 100 (Soult); the gate attacked as the Augsburg gate (Krauss) or the Mindelheim gate (Soult); Krauss's 'no fortified place' against the entrenchments and works both sides name.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. II and t. III (the French official history, printing the 4th corps return and Soult's letters and the capitulation, interested accounts); Krauss (an Austrian history; his Memmingen figures may rest on the French reports, as his note does for Elchingen, and are not treated as independent of Soult's)."
+  ]
+}

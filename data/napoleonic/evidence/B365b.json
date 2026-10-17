@@ -1,0 +1,748 @@
+{
+  "schema_version": 1,
+  "battle_id": "B365b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Neresheim entry (17 October 1805) in cohort v1's third-coalition 1805 group: Klein's dragoon division of Murat's pursuit force against Werneck's corps of the Austrian army, from the dragoons' arrival before Neresheim to the surrender of the infantry cut off near Ohmenheim that evening. The light cavalry's captures on the Aalen road the same day, Lasalle's capture at Weilermerkingen (recorded as reported) and Werneck's capitulation at Trochtelfingen the next day (B365d) are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Austrian) 4,000 men under FML Baron Werneck and prints no strength for side A (French) under Marshal Prince Murat. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which of Werneck's troops he counted. Krauss says the corps had scarcely 6000 men (claim krauss-side-b), and side A's accounts give the position as held by five battalions with cavalry and a battery (claim side-b-position); the passages read do not say which figures Bodart used. Side A's strength is in claim klein-division. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French under Marshal Prince Murat over the Austrians (4,000 men) under FML Baron Werneck'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Sieg der Franzosen unter M. Pz. Murat über die Österreicher (4.000 M.) unter FML. Fh. v. Werneck."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "klein-division",
+      "dimension": "strength",
+      "value": "Side A attacked with Klein's dragoon division: Alombert and Colin, the division's journal and Krauss give it as 1800 horses (Krauss: riders) and five guns, and say Klein attacked with it alone because side A's infantry was far off and night was near. The journal adds that a squadron of the Guard chasseurs, arriving during the fight, supported one of his regiments. On the march from Herbrechtingen, Alombert and Colin say, the 1st hussars preceded the dragoons, and Dupont's division and the carabiniers followed them.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The same figure in three passages read from the page images; Alombert and Colin's text follows the journal's closely, and Krauss's may rest on it, so they are not independent. None says whether 1800 counts horses present or under arms. The Guard squadron and the order of march were seen in the OCR. Klein's decision to engage his division alone is a decision at this engagement, so the claim is tagged commander_created. English renderings (ours): Alombert and Colin, 'the distance of our infantry and the approach of night, under cover of which Werneck could have slipped away, determined General Klein to attack him with his division alone, 1800 horses and five guns strong'; the journal, the same with 'the enemy could have withdrawn'; Krauss, 'the nearness of night and the great distance of Dupont's division moved General Klein to attack with his division alone. He wanted thereby to prevent the enemy from withdrawing unharmed under cover of night. The division counted 1800 riders and 5 guns'; the journal, 'which was already supported by a squadron of the chasseurs of the Imperial Guard, arrived during the fight'; Alombert and Colin, 'the 1st hussars precedes the dragoons, who are followed by Dupont's division and the carabiniers'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "L'éloignement de notre infanterie et l'approche de la nuit, à la faveur de laquelle Werneck aurait pu se dérober, déterminèrent le général Klein à l'attaquer avec sa seule division, forte de 1800 chevaux et cinq pièces de canon."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1214-figures-v1",
+          "section": "p1214",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (transcribed from the page image)",
+          "quote": "L'éloignement de notre infanterie et l'approche de la nuit, à la faveur de laquelle l'ennemi aurait pu se retirer, déterminèrent le général Klein à l'attaquer avec sa seule division, forte de 1800 chevaux et cinq pièces de canon."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Die Nähe der Nacht und die große Entfernung der Division Dupont bewog den General Klein, mit seiner Division allein anzugreifen. Er wollte damit verhindern, daß der Feind unter dem Schutze der Nacht ungeschädigt abziehe. Die Division zählte 1800 Reiter und 5 Kanonen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1215 (OCR running heads; not checked against print)",
+          "quote": "qui était déjà sou- Lenu par un escadron des chasseurs de lu Garde impériale, arrivé pendant Le combal."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 96 (OCR running heads; not checked against print)",
+          "quote": "Le 1* hussards pré- cède les dragons, qui sont suivis par la division Dupont et les carabiniers."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: Werneck's corps had scarcely 6000 men; it had marched all night, its head reaching Ober-Kochen at 4 in the morning and its tail at 10, and needed 6 hours to assemble there. Quarters and food for 6000 men had been secured in Neresheim. On the dragoons' approach the Austrians occupied the heights north of the Egau, infantry on the left between the abbey and the town, cavalry west of the town on the right, and a battery at the abbey.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own history, read from the page images except the disposition of the arms (OCR); Krauss gives no source for the 6000 in the passages read. The corps reached Neresheim as it stood after the retreat, so the claim is tagged inherited. English renderings (ours): 'the corps had scarcely 6000 men. As it needed 6 hours to be assembled at Ober-Kochen, the order of march must have been entirely lost in the night march'; 'Werneck's corps had meanwhile continued the retreat all through the night and had arrived at Ober-Kochen with its head at 4 in the morning, with its tail at 10 in the forenoon'; 'in Neresheim quarters and food for 6000 men had been secured'; 'the left wing between the abbey and the town' (p. 486) 'was formed by infantry, the right, west of the town, by cavalry. By the abbey stood a battery' (p. 487).",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "2) Das Korps hatte kaum 6000 Mann. Da es 6 Stunden brauchte, um bei Ober-Kochen versammelt zu sein, dürfte die Marschordnung bei dem Nachtmarsche ganz verlorengegangen sein."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Das Korps Werneck hatte inzwischen den Rückzug die ganze Nacht hindurch fortgesetzt und war mit der Tete um 4h früh, mit der Queue um 10h vormittag bei Ober-Kochen eingetroffen."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Neresheim war für 6000 Mann Quartierkost sichergestellt."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 486 (OCR page markers; not checked against print)",
+          "quote": "Den linken Flügel zwischen Kloster und Ort"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "bildete Infanterie, den rechten westlich des Ortes Kavallerie. Beim Kloster stand eine Batterie."
+        }
+      ]
+    },
+    {
+      "id": "side-b-position",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Alombert and Colin and the dragoon division's journal say five battalions of infantry held side B's left, reaching to the town, with the cavalry on the right in echelon and a battery on the abbey height. Murat wrote that the Austrian cavalry before Neresheim was defended by guns and by battalions of grenadiers crowning the heights.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's description of the position, read from the page images except Murat's sentence (OCR); it counts battalions, not men, and Alombert and Colin's text follows the journal's. English renderings (ours): 'five battalions of infantry occupied the left and extended as far as the town; the cavalry was on the right, in echelons, at the height of the town, on a gentle slope; a battery of guns, placed on the height of the abbey, swept the far bank of the Egau'; Murat, 'the Austrian cavalry, which was in front of Neresheim, vigorously charged, was forced to flee, although defended by guns and by battalions of grenadiers that crowned the heights'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "Cinq bataillons d'infanterie occupaient la gauche et s'étendaient jusqu'à la ville; la cavalerie était à droite, en échelon, à hauteur de la ville, sur une pente douce; une batterie de canons, placée sur la hauteur de l'abbaye, battait au loin la rive opposée de l'Egau."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1214-figures-v1",
+          "section": "p1214",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (transcribed from the page image)",
+          "quote": "Cinq bataillons d'infanterie occupaient la gauche et s'étendaient jusqu'à la ville; la cavalerie était à droite, en échelons, à la hauteur de la ville, sur une pente douce; une batterie de canons, placée sur la hauteur de l'abbaye, battait au loin la rive opposée de l'Egau."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (OCR running heads; not checked against print)",
+          "quote": "La cavalerie autrichienne, qui était en avant de Neresheim, vigoureusement chargée, a été forcée de prendre la fuite, quoi- que défendue par des canons et des bataillons de grenadiers, qui couronnaient les hauteurs."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and FML Baron Werneck as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders; both sides' accounts agree that Werneck commanded side B's corps and that Murat directed side A's pursuit, with General Klein commanding the division that fought (claims side-a-command and side-b-command). English renderings (ours): 'under Marshal Prince Murat'; 'under FML Baron Werneck'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Sieg der Franzosen unter M. Pz. Murat"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "unter FML. Fh. v. Werneck.\nÖsterr. Verl.: 1.100 M. Gefg., 2 Fahnen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Murat decided to march on Neresheim instead of Aalen: he sent Fauconnet's chasseur brigade and the 1st hussars toward Aalen to attack and hold the Austrian corps presumed to be retreating on Ellwangen, while he himself went by Neresheim and Nördlingen, Klein's dragoon division at the head of the column. Before Neresheim General Klein decided to attack with his division alone. He placed some of his guns against the Austrian battery and the others to fire on the Austrian cavalry, sent a regiment over the bridge against the front of the Austrian cavalry and led others across the Egau west of the bridge toward Ohmenheim, and when he saw the Austrian cavalry on the march on the Ohmenheim road he ordered the charge. After Sinzendorf's surrender he sent a parlementaire to summon Werneck to have his troops lay down their arms, as they were surrounded.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions at the engagement from Murat's letter, an interested account, the dragoon division's journal and Krauss (OCR passages, except those read from the page images); the numbers of guns and regiments in Klein's dispositions were seen only in the OCR and are marked (OCR) below. English renderings (ours): Murat, 'as I had the honour to announce to Your Majesty, I decided to march on Neresheim instead of moving on Aalen. This course succeeded perfectly for me'; Krauss, 'on the 17th Murat directed Fauconnet's chasseur brigade by Bartholomä and Essingen to Aalen, the 1st hussar regiment by Heidenheim to Aalen; both had the task of attacking without pause and bringing to bay the Austrian corps presumed to be retreating on Ellwangen, so that Murat, who would advance by Neresheim and Nördlingen, might gain the time to get ahead of the Austrians'; the cavalry reserve's report, 'the Prince with the rest of his troops marched on Neresheim; the 1st dragoon division held the head of the column'; Murat, 'General Klein, arrived at 5 o'clock in front of Neresheim, found the enemy there, who had just taken up position. He did not hesitate to have him attacked; to form, charge him and overthrow him was the work of an instant'; Krauss, 'General Klein first placed three (OCR) of his guns opposite the Austrian battery; the two (OCR) other guns he posted west of height ... in such a way that they could take the Austrian cavalry under fire but were covered against the Austrian artillery'; 'two (OCR) dragoon regiments now advanced against Neresheim; one (OCR) regiment Klein directed over the bridge against the front of the Austrian cavalry, but with three (OCR) regiments General Klein went west of the bridge across the Egau and west of the ravine toward Ohmenheim'; 'when General Klein saw the Austrian cavalry on the march on the road to Ohmenheim, he gave the order to charge, direction the church of Ohmenheim. The Austrian cavalry was thrown back; Klein's wheeling left wing struck Austrian infantry and cut it off from Ohmenheim'; the journal, 'General Zinzendorf was taken with several officers, and more than ... men; but this was only part of the army corps of Field Marshal Baron Werneck, and General Klein, wishing to profit from the consternation of the enemy, at once sent to that general squadron commander Gobrecht, commanding the ... dragoon regiment, to summon him to have his troops lay down their arms, because they were surrounded'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "Ainsi que j'ai eu l'honneur de l'annoncer à Votre Majesté, je me suis déterminé à marcher sur Neresheim au lieu de me porter sur Aalen. Ce parti m'a parfaitement réussi."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Murat dirigierte am 17. die Chasseurbrigade Fauconnet über Bartholomä und Essingen nach Aalen, das 1. Husarenregiment über Heidenheim nach Aalen; beide hatten die Aufgabe, das im Rückzug auf Ellwangen vermutete österreichische Korps unausgesetzt anzugreifen und zu stellen, damit Murat, der über Neresheim und Nördlingen vorgehen werde, die Zeit gewinne, sich den Österreichern vorzulegen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1212 (OCR running heads; not checked against print)",
+          "quote": "Le Prince, avec le reste de ses troupes, marcha sur Neres- beim; la dre division de dragons tenait la tête de la colonne."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "Le général Klein, arrivé à 5 heures en face de Neresheim, y a trouvé l'ennemi, qui venait d'y prendre position. Il n'a pas balancé à le faire attaquer; se former, le charger, le culbuter, a été l'affaire d'un instant."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Die Nähe der Nacht und die große Entfernung der Division Dupont bewog den General Klein, mit seiner Division allein anzugreifen. Er wollte damit verhindern, daß der Feind unter dem Schutze der Nacht ungeschädigt abziehe. Die Division zählte 1800 Reiter und 5 Kanonen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "General Klein stellte vor allem drei seiner Kanonen der österreichischen Batterie gegenüber; die zwei anderen Kanonen postierte er aber westlich der Höhe A 560 der- art, daß sie die österreichische Kavallerie unter Feuer nehmen konnte, gegen die österreichische Artillerie aber gedeckt war."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Zwei Dragonerregimenter gingen nun gegen Neresheim vor; ein Eegiment dirigierte Klein über die Brücke gegen die P'ront der österreichischen Kavallerie, mit drei Regimentern aber ging General Klein westlich der Brücke über die Egau und westlich des Grabens gegen Ohmen- heim vor."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Als General Klein die österreichische Kavallerie auf der Straße nach Ohmenheim im Marsche sah, gab er Befehl zur Attacke, Direktion Kirche von Ohmenheim. Die österreichische Kavallerie wurde geworfen; der einschwenkende linke Flügel Kleins traf auf österreichische Infanterie und schnitt sie von Ohmenheim ab."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1215 (OCR running heads; not checked against print)",
+          "quote": "Le général de Zinændorf fut pris avec plusieurs uffi- ciers, et plus de 2,000 hommes ; mais ce n'était qu'une partie du"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "corps d'armée de M. le feld-maréehal baron de Werneck, et le général Klein, voulant profiter de la consternation des ennemi envoya de suite auprès de ce général le chef d'escadron Gobreeht. commandant le 2 régiment de dragons. pour le sommer de faire mettre bas les armes à ses troupes, parce qu'elles étaient enve- loppées."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML Werneck commanded side B. At Ober-Kochen he received Archduke Ferdinand's order to march by Ebnat, Neresheim and Trochtelfingen to Öttingen. When Klein's movement toward Ohmenheim began, Werneck, who held a fight to be pointless, gave up his position and withdrew by Ohmenheim toward Trochtelfingen. The journal says that during the French movement he sent the better part of his infantry off toward Ohmenheim and, seeing that his retreat would be cut, drew up battalions at the edge of a wood beside the road between Ohmenheim and the abbey and formed others into a square close to the wood. Cut off by the charge, 2000 men laid down their arms with General Count Sinzendorf (Krauss). In his relation Werneck wrote that had Neresheim not been expressly ordered, he would have marched from Ober-Kochen straight to Trochtelfingen; Krauss draws the lesson that it is not good to order too precisely in all circumstances, and says it seems Werneck obeyed thoughtlessly.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Krauss and the dragoon division's journal give them (OCR passages, except those read from the page images); Werneck's relation is his own account and Krauss's judgments are evaluations, not measured effects. English renderings (ours): Krauss, 'in Ober-Kochen Werneck received Archduke Ferdinand's order to march by Ebnat, Neresheim and Trochtelfingen to Öttingen'; 'this movement induced FML Werneck, who considered a fight pointless, to evacuate his position and to withdraw by Ohmenheim to Trochtelfingen'; the journal, 'the enemy general, who was seriously thinking of making his retreat, had, during our movement, sent the better part of his infantry off toward Ohmenheim by the two (OCR) roads that lead there, one from Neresheim and the other from the abbey; seeing by our dispositions that his retreat would be cut off if he did not extend his right'; 'he drew up, at the edge of a wood to the left of the road, between Ohmenheim and the abbey, three (OCR) of these battalions' (p. 1214) 'and formed a square of the two (OCR) others, parallel to the same road, at a very short distance from the wood' (p. 1215); Krauss, 'as the other three dragoon regiments came up shortly afterwards by Neresheim and so surrounded the Austrian infantry on all sides, 2000 men laid down their arms with General Count Sinzendorf'; Werneck, '\"if Neresheim had not been expressly ordered to me, I would have marched from Ober-Kochen directly to Trochtelfingen. There I would have gained a march and easily held off the enemy\"'; Krauss, 'this example shows that it is not good to order too precisely in all circumstances'; 'but it seems that Werneck obeyed thoughtlessly'. Krauss's 'other three' is read from the page image.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Ober-Kochen erhielt Werneck den Befehl des Erzherzogs Ferdinand, über Ebnat, Neresheim und Trochtelfingen nach Öttingen zu marschieren."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Diese Bewegung veranlaßte den FML. Werneck, der einen Kampf für zwecklos hielt, seine Aufstellung zu räumen und sich über Ohmenheim nach Trochtelfingen zurückzuziehen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "Le général ennemi, qui songeait sérieusement à effectuer sa retraite, avait, pendant la durée de notre mouvement, fait filer sur Ohmenheim, par deux chemins qui y conduisent, l'un de Neresheim et l'autre de l'abbaye, la meilleure partie de son infan- terie ; voyant par nos dispositions qne la retraite lui serait cou- pée s'il n'étendait sa droite,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "il mit en bataille, à In lisière d'un bois à gauche de la route, entre Ohmenheim et l'abbaye, trois de ces hatail"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1215 (OCR running heads; not checked against print)",
+          "quote": "ot forma un carré des deux autres, parallélement à la même route, à une Lrès petite distance du bois."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Da kurz darauf die anderen drei Dragonerregimenter über Neresheim herankamen und so die österreichische Infanterie von allen Seiten einschlossen, streckten 2000 Mann mit dem General Graf Sinzendorf die Waffen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Werneck führt in seiner Relation an: „Wenn mir Neresheim nicht ausdrücklich anbefohlen worden wäre, so wäre ich von Ober-Kochen direkt nach Trochtelfingen marschiert. Hier hätte ich einen Marsch gewoimen und den Feind leicht abgehalten.\""
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Dieses Beispiel zeigt, daß es nicht gut ist, unter allen Ver- hältnissen zu genau zu befehlen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "Es scheint aber, daß Werneck gedankenlos gehorcht hat"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). The dragoon division's journal counts the day among the most brilliant of the campaign, Werneck's capitulation being its immediate consequence; Krauss says the detour by Neresheim had proved fatal to Werneck's corps. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the agreeing statements of both sides' accounts, read from the page images except Krauss's sentence (OCR). Werneck's capitulation the next day is a separate entry (B365d). English renderings (ours): Bodart, 'victory of the French'; the journal, '[everything] combined to make the day of Neresheim one of the' (p. 1216, OCR) 'most brilliant of the campaign by its great results; for General Werneck's capitulation was an immediate consequence of it' (p. 1217); Krauss, 'the detour by Neresheim had thus become fatal to Werneck's corps'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Sieg der Franzosen unter M. Pz. Murat"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "concourait à reudre la journée de Neresheim une des"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "plus brillantes de la campagne par ses grands résultats; car la capitulation du général Werneck en fut une suite immédiate,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Der Umweg über Neresheim war somit dem' Korps Werneck verhängnisvoll geworden."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's loss as 1,100 men taken prisoner and 2 flags. He gives no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule (claim bodart-strength); a post-outcome observation. English rendering (ours): 'Austrian loss: 1,100 men prisoners, 2 flags'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Österr. Verl.: 1.100 M. Gefg., 2 Fahnen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Murat reported 1000 prisoners, among them 100 cavalrymen with their horses, two flags, a general and several officers of note; the dragoon division's journal gives 2,000 men, a standard, flags and 150 horses taken on the field, and says that in addition the 2nd brigade under General Lasalle took 800 men and 2 guns in the village of Weilermerkingen, assigned to it for quarters; Dupont's division journal says the cavalry took 1500 prisoners, among them several generals, as the enemy fled to Neresheim. Krauss says 2000 men laid down their arms with General Count Sinzendorf.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined. They may count different things: Dupont's journal speaks of the day's pursuit to Neresheim, and Lasalle's 800 were taken at Weilermerkingen, not on the field. The cavalry reserve's report gives a lower figure for the prisoners, seen only in the OCR and not recorded (open questions). English renderings (ours): Murat, '1000 prisoners, of whom 100 cavalrymen with their horses, two flags, a general and several officers of note, such are the trophies of the brilliant action of Neresheim'; the journal, 'besides 2,000 men, a standard, flags and 150 horses taken on the field of battle'; 'in addition the 2nd brigade, under the orders of General Lasalle, took 800 men and 2 guns in the village of Weilermerkingen, which had been assigned to it for quarters'; Dupont's journal, 'on the 25th the enemy flees as far as Neresheim; he was in full rout, the cavalry follows him with the sword in his back and takes 1500 prisoners from him, among whom are several generals'; Krauss, as in claim side-b-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "1000 prisonniers, dont 100 hommes de cavalerie avec leurs chevaux, deux drapeaux, un général et plusieurs officiers de marque, tels sont les trophées du brillant combat de Neresheim."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "plus brillantes de la campagne par ses grands résultats; car la capitulation du général Werneck en fut une suite immédiate, et indépendamment de 2,000 hommes, d'un étendard, de drapeaux et de 150 chevaux pris sur le champ de bataille,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "en plus la 2e brigade, aux ordres du général Lasalle, prit 800 hommes et 2 canons dans le village de Weilermerkingen qu'on lui avait assigné pour cantonnement (1)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "Le 25, l'ennemi fuit jusqu'à Neresheim; il était en pleine déroute, la cavalerie le suit l'épée dans les reins et lui fait 1500 prisonniers, parmi lesquels se trouvent plusieurs généraux."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Da kurz darauf die anderen drei Dragonerregimenter über Neresheim herankamen und so die österreichische Infanterie von allen Seiten einschlossen, streckten 2000 Mann mit dem General Graf Sinzendorf die Waffen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1212 (OCR running heads; not checked against print)",
+          "quote": "Environ cent prisonniers, dont un oMicier général et plusieurs"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Side A's loss: the dragoon division's journal regrets two captains, Limbourg, aide de camp of General Fénérols, and Watrin of the 1st dragoons, who were wounded in the action and died a few moments later, and says that few men were lost in the charge past the infantry drawn up against the wood, though its fire was very lively. No passage read gives side A's total loss, and Bodart prints none.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's own account, read from the page image except the sentence on the charge (OCR); it is not a total. English renderings (ours): 'we had to regret the brave captains Limbourg and Watrin, the first aide de camp of General Fénérols, and the second captain in the 1st regiment of dragoons, who, wounded in the action, died a few moments afterwards'; '[the brigade] continued to charge, passing at ... paces under the fire of the line of infantry backed against the wood; the fire was very lively, yet few men were lost and the enemy cavalry was entirely defeated'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "Nous avons eu à regretter les braves capitaines Limbourg et Watrin, le premier, aide de camp du général Fénérols, et le deuxième, capitaine au 1er régiment de dragons, qui, blessés dans le combat, sont morts quelques instants après."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1215 (OCR running heads; not checked against print)",
+          "quote": "et continua de charger, en passant à 30 pas sous le feu de la ligne d'infanterie adossee au bois ; la fusillade fut très vive, cependant on perdit peu de monde et la cavalerie ennemie fut entièrement défaite."
+        }
+      ]
+    },
+    {
+      "id": "neresheim-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Neresheim as a market town in Württemberg, 46 km northeast of Ulm. Side B stood on the heights north of the Egau, its left on the wood by the abbey church and its right on the ravine running down from Dössingen to the road bridge west of the town; a battery on the abbey height swept the far bank. Side A sent a regiment over the bridge, and Klein crossed the Egau west of it (the journal: by a passage found above the bridge, through the marshy banks), making for the plateau of Ohmenheim, toward which side B was sending its infantry.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Krauss, Alombert and Colin and the dragoon division's journal (OCR passages, except those read from the page images); no map was inspected. English renderings (ours): Bodart, 'market town in Württemberg, 46 km northeast of Ulm'; Krauss, 'on the dragoons' approach the Austrians occupied the heights north of the Egau brook, namely with the left wing on the wood by the church (abbey) of Neresheim, with the right wing on the ravine that runs down from Dössingen to the road bridge west of Neresheim'; Alombert and Colin, 'a battery of guns, placed on the height of the abbey, swept the far bank of the Egau'; the journal, 'while this movement was being carried out, General Klein had a passage reconnoitred above the bridge; as soon as it had been found, he crossed the marshy banks of the Egau at the head of the 1st brigade in column by platoons'; 'to go and gain the plateau of Ohmenheim'; Krauss and the journal on the bridge and the infantry sent toward Ohmenheim, as in claims side-a-command and side-b-command.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "(Marktflecken in Württemberg, 46 km nordöstl. von Ulm)."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Beim Anrücken der Dragoner besetzten die Österreicher die Höhen nördlich des Egau-Baches, und zwar mit dem linken Flügel am Walde bei der Kirche (Kloster) von Neresheim, mit dem rechten Flügel an dem Graben, der von Dössingen zur Straßenbrücke westlich Neresheim herabzieht."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "une batterie de canons, placée sur la hauteur de l'abbaye, battait au loin la rive opposée de l'Egau."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "ein Eegiment dirigierte Klein über die Brücke gegen die P'ront der österreichischen Kavallerie, mit drei Regimentern aber ging General Klein westlich der Brücke über die Egau"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "Pendant que ce mouvement s'exécutait, le général Klein fai- sait reconnaitre un passage au-dessus du pont ; dès qu'on l'eut reconnu, il traversa les bords marécageux de l'Egau à In tête de la re brigade en colonne par pelotons,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "pour aller gagner Le plateau d'Ohmenheim ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "fait filer sur Ohmenheim, par deux chemins qui y conduisent, l'un de Neresheim et l'autre de l'abbaye, la meilleure partie de son infan- terie ;"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B's corps had continued its retreat all through the night, its head reaching Ober-Kochen at 4 in the morning and its tail at 10, and its troops were nearly exhausted when it resumed the march after a short rest; Murat wrote that its generals had left Neresheim without time to take their coffee, having marched all night and all day. Quarters and food for 6000 men had been secured in Neresheim, but the French attacked before they could be distributed. Side A's dragoons left Herbrechtingen at 9 in the morning (Krauss) and met the enemy only at Neresheim, after a long march; side A's infantry was far behind, and Klein had five guns with his division.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the exhaustion, Murat's sentence and the journal's length of the march, seen in the OCR). No ration or ammunition return was inspected. English renderings (ours): Krauss, as in claim krauss-side-b; 'the corps, whose troops were already nearly exhausted, therefore resumed the march after a short rest'; 'in Neresheim quarters and food for 6000 men had been secured. But before these could be distributed, the French attacked at 5.30 in the afternoon'; 'Klein's division, at the head of the column directed on Neresheim, moved off from Herbrechtingen at 9 in the morning on 17 October. It met the enemy only at Neresheim'; the journal, 'after a march of ten (OCR) leagues'; Murat, 'the same seven (OCR) generals who left Herbrechtingen yesterday at ... in the evening abandoned Neresheim this evening at ..., without having had the time to take their coffee. They had marched all night and all day'; Alombert and Colin, as in claim klein-division.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Das Korps Werneck hatte inzwischen den Rückzug die ganze Nacht hindurch fortgesetzt und war mit der Tete um 4h früh, mit der Queue um 10h vormittag bei Ober-Kochen eingetroffen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 486 (OCR page markers; not checked against print)",
+          "quote": "Das Korps, dessen Truppen schon nahezu erschöpft waren, trat daher den Weitermarsch nach kurzer ßast an."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1219 (OCR running heads; not checked against print)",
+          "quote": "Les mêmes sepl géuéraux qui sont partis hier, à 7 heures du soir, d'Herbrechtingen, ont abandonné Neresheim ce soir, à 5 heures, saus avoir eu le temps de prendre leur café. Ils avaient marché toute la nuit et tout le jour."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Neresheim war für 6000 Mann Quartierkost sichergestellt. Bevor aber diese zur Verteilung kommen konnte, griffen die Franzosen um 5h 30′ nachmittag an."
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Die Division Klein, die an der Tete der nach Neresheim dirigierten Kolonne war, rückte am 17. Oktober um 9h vormittag von Herbrechtingen ab. Sie traf den Feind erst bei Neresheim."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1213 (OCR running heads; not checked against print)",
+          "quote": "Après une marehe de dix lieues,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "L'éloignement de notre infanterie et l'approche de la nuit, à la faveur de laquelle Werneck aurait pu se dérober, déterminèrent le général Klein à l'attaquer avec sa seule division, forte de 1800 chevaux et cinq pièces de canon."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Murat had ordered Klein to gather information on the enemy's line of retreat and to continue on Aalen or on Neresheim. At Heidenheim, Alombert and Colin say, Murat learned that the enemy had gone toward Aalen and Ellwangen; reckoning that the Archduke would make a considerable detour to regain Bohemia and could be forestalled by marching straight for Nuremberg by Nördlingen and Gunzenhausen, he left the light cavalry to follow the enemy's track on the Aalen road and sent Klein and Dupont in haste on Neresheim and Nördlingen. The cavalry reserve's report says he changed his dispositions there on the information he had about the enemy's march, and Krauss that the Austrian corps was presumed to be retreating on Ellwangen. Klein found side B at Neresheim, where it had just taken up position. After the action Murat wrote that he feared Archduke Ferdinand had escaped.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Alombert and Colin's introduction, the cavalry reserve's report, Murat's letter and Krauss give it (OCR passages, except those read from the page images); the passages read do not reconcile the report that the enemy had gone toward Aalen with the march on Neresheim. English renderings (ours): Alombert and Colin, 'Murat has ordered him to gather information on the enemy's direction of retreat and to continue his march either on Aalen or on Neresheim'; 'arrived at Heidenheim, Murat learns that the enemy has gone toward Aalen and Ellwangen; to regain Bohemia afterwards, Archduke Ferdinand will have made a rather considerable detour, and one can get ahead of him by marching directly on Nuremberg by Nördlingen and Gunzenhausen, the road the Austrian convoys have taken'; 'Murat therefore leaves to the chasseur brigade the task of following the enemy's track on the road to Aalen and Ellwangen'; 'for himself, he directs in all haste the divisions Klein and Dupont on Neresheim and Nördlingen'; the report, 'at Heidenheim His Highness, from the information he had on the enemy's march, changed his dispositions'; Krauss, 'the Austrian corps presumed to be retreating on Ellwangen'; Murat, 'found the enemy there, who had just taken up position'; 'I fear that Archduke Ferdinand has escaped'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 96 (OCR running heads; not checked against print)",
+          "quote": "Murat lui a ordonné de prendre des renseigne- ments sur la direction de retraite de l'ennemi et de con- tinuer sa marche, soit sur Aalen, soit sur Neresheim,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 96 (OCR running heads; not checked against print)",
+          "quote": "Parvenu à Ileidenheim, Murat apprend que l'ennemi s'est dirigé sur Aalen et Ellwangen; pour regagner ensuite la Bohème, l’archiduc Ferdinand aura fait un détour assez considérable, et on peut le devancer en marchant directement sur Nuremberg par Nürdlingen et Gunzenhausen, route qu'ont prise les convois autri- chiens."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 96 (OCR running heads; not checked against print)",
+          "quote": "Murat laisse done à la brigade de chasseurs le soin de suivre la piste de l'ennemi sur la route d'Aalen et Ellwangen ;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 96 (OCR running heads; not checked against print)",
+          "quote": "Pour Ini, il dirige en toute hâte les divisions Klein et Dupont sur Neresheim et Nœrdlingen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1212 (OCR running heads; not checked against print)",
+          "quote": "A Ileidenheim, Son Altesse, d'après les renseignements qu'elle eut sur la marche de l'ennemi, changea ses dispositions"
+        },
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "das im Rückzug auf Ellwangen vermutete österreichische Korps"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "y a trouvé l'ennemi, qui venait d'y prendre position."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1219 (OCR running heads; not checked against print)",
+          "quote": "Je crains que l'archidue Ferdinand ne se soit échappé."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B marched by Neresheim on the Archduke's order; Werneck later wrote that, but for that express order, he would have gone from Ober-Kochen straight to Trochtelfingen. Krauss says it seems the idea came to him only after the action. The passages read do not say what Werneck knew of the French pursuit before Klein's dragoons appeared.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Krauss gives it (OCR passages, except the order, read from the page image). English renderings (ours): 'in Ober-Kochen Werneck received Archduke Ferdinand's order to march by Ebnat, Neresheim and Trochtelfingen to Öttingen'; Werneck's relation as in claim side-b-command; Krauss, 'but it seems that Werneck obeyed thoughtlessly and that the thought of marching directly to Trochtelfingen came to him only after the action at Neresheim, thus afterwards'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Ober-Kochen erhielt Werneck den Befehl des Erzherzogs Ferdinand, über Ebnat, Neresheim und Trochtelfingen nach Öttingen zu marschieren."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Wenn mir Neresheim nicht ausdrücklich anbefohlen worden wäre, so wäre ich von Ober-Kochen direkt nach Trochtelfingen marschiert."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "Es scheint aber, daß Werneck gedankenlos gehorcht hat und daß der Gedanke, direkt nach Trochtelfingen zu marschieren, ihm erst nach dem Gefechte l)ei Neresheim, also nach- träglich gekommen ist."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Murat meant to get ahead of the Austrians at Nördlingen: his light cavalry on the Aalen road was to attack and hold the enemy so that he would gain time, and the cavalry reserve's report says the movements were to slow the enemy, reach Nördlingen before him, cut off his retreat and keep him from the town, where the French had much artillery and depots. Klein attacked to prevent the enemy from slipping away unharmed under cover of night. The journal says the day saved the treasury, the army's great park and the dragoons' depots shut up in Nördlingen.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders at this engagement, from Krauss and the page images, with the report's statement (OCR); the journal's claim about what the day saved is its own judgment. English renderings (ours): Krauss, as in claim side-a-command; the report, 'all these movements were ordered to trouble the enemy, slow his march by forcing him to take position, and give the Prince the time to reach Nördlingen before him to cut off all his retreat and prevent him at the same time from seizing that town, where we had much artillery and depots'; Krauss, 'he wanted thereby to prevent the enemy from withdrawing unharmed under cover of night'; the journal, 'it saved the treasury, the great park of the army and all the small dragoon depots that had shut themselves up in the town of Nördlingen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Murat dirigierte am 17. die Chasseurbrigade Fauconnet über Bartholomä und Essingen nach Aalen, das 1. Husarenregiment über Heidenheim nach Aalen; beide hatten die Aufgabe, das im Rückzug auf Ellwangen vermutete österreichische Korps unausgesetzt anzugreifen und zu stellen, damit Murat, der über Neresheim und Nördlingen vorgehen werde, die Zeit gewinne, sich den Österreichern vorzulegen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1212 (OCR running heads; not checked against print)",
+          "quote": "Tons ces mouve- ments étaient ordonnés pour inquiéter l'ennemi, ralentir sa inarche en le forçant de prendre position, et donner au Prince le lemps d'arriver à Nérdlingen avant Ini pour lui couper loute retraite et empêcher on même temps qu'il s'emparat de celle ville, où nous avions beaucoup d'artillerie et des dépôts."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Er wollte damit verhindern, daß der Feind unter dem Schutze der Nacht ungeschädigt abziehe."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "elle sauva le trésor, le grand parc de l'armée et tous les petits dépôts de dragons qui s'étaient enfermés dans la ville de Nördlingen,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to reach Öttingen: the Archduke ordered Werneck to march there by Neresheim and Trochtelfingen, and at Neresheim Werneck, who held a fight to be pointless, gave up his position to withdraw toward Trochtelfingen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The aim was set by the Archduke's order before the action (page image); the decision not to fight is in claim side-b-command. English renderings (ours): as in claims side-b-command and side-b-information.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "In Ober-Kochen erhielt Werneck den Befehl des Erzherzogs Ferdinand, über Ebnat, Neresheim und Trochtelfingen nach Öttingen zu marschieren."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Diese Bewegung veranlaßte den FML. Werneck, der einen Kampf für zwecklos hielt, seine Aufstellung zu räumen und sich über Ohmenheim nach Trochtelfingen zurückzuziehen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Klein's dragoons attacked side B's position at Neresheim, crossed the Egau and charged the Austrian cavalry and infantry withdrawing toward Ohmenheim. Side B stood on the heights and then withdrew; no passage read describes it attacking.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' accounts describe the French attacking a side B in position and then in retreat. Murat decided to march on Neresheim and Klein, commanding the troops at the engagement, decided to attack (claim side-a-command), so the posture is tagged commander_created. English renderings (ours): Alombert and Colin, 'our dragoons appear before Neresheim at 5 o'clock; they overthrow the enemy, who had just taken position there and who puts up little resistance'; Murat and Krauss, as in claims side-a-command and side-b-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "Nos dragons paraissent à 5 heures devant Neresheim; ils bousculent l'ennemi, qui venait d'y prendre position et qui fait peu de résistance."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "Le général Klein, arrivé à 5 heures en face de Neresheim, y a trouvé l'ennemi, qui venait d'y prendre position. Il n'a pas balancé à le faire attaquer; se former, le charger, le culbuter, a été l'affaire d'un instant."
+        },
+        {
+          "source_id": "krauss-1912-p487-figures-v1",
+          "section": "p487",
+          "locator": "Krauss (1912), p. 487 (transcribed from the page image)",
+          "quote": "Die Nähe der Nacht und die große Entfernung der Division Dupont bewog den General Klein, mit seiner Division allein anzugreifen. Er wollte damit verhindern, daß der Feind unter dem Schutze der Nacht ungeschädigt abziehe. Die Division zählte 1800 Reiter und 5 Kanonen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Als General Klein die österreichische Kavallerie auf der Straße nach Ohmenheim im Marsche sah, gab er Befehl zur Attacke, Direktion Kirche von Ohmenheim. Die österreichische Kavallerie wurde geworfen; der einschwenkende linke Flügel Kleins traf auf österreichische Infanterie und schnitt sie von Ohmenheim ab."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 487 (OCR page markers; not checked against print)",
+          "quote": "Diese Bewegung veranlaßte den FML. Werneck, der einen Kampf für zwecklos hielt, seine Aufstellung zu räumen und sich über Ohmenheim nach Trochtelfingen zurückzuziehen."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The accounts place side B on the heights north of the Egau, by the wood and the abbey church, with infantry at the edge of a wood and in a square and a battery at the abbey; none names walls, entrenchments or other works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; an abbey and a wood held without named works are not fortification under the brief. Krauss, Alombert and Colin and the journal agree on this, so they are recorded in one claim. English renderings (ours): as in claims krauss-side-b, side-b-position and side-b-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p486-figures-v1",
+          "section": "p486",
+          "locator": "Krauss (1912), p. 486 (transcribed from the page image)",
+          "quote": "Beim Anrücken der Dragoner besetzten die Österreicher die Höhen nördlich des Egau-Baches, und zwar mit dem linken Flügel am Walde bei der Kirche (Kloster) von Neresheim, mit dem rechten Flügel an dem Graben, der von Dössingen zur Straßenbrücke westlich Neresheim herabzieht."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p97-figures-v1",
+          "section": "p97",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 97 (transcribed from the page image)",
+          "quote": "Cinq bataillons d'infanterie occupaient la gauche et s'étendaient jusqu'à la ville; la cavalerie était à droite, en échelon, à hauteur de la ville, sur une pente douce; une batterie de canons, placée sur la hauteur de l'abbaye, battait au loin la rive opposée de l'Egau."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1214 (OCR running heads; not checked against print)",
+          "quote": "il mit en bataille, à In lisière d'un bois à gauche de la route, entre Ohmenheim et l'abbaye, trois de ces hatail"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1215 (OCR running heads; not checked against print)",
+          "quote": "ot forma un carré des deux autres, parallélement à la même route, à une Lrès petite distance du bois."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the cavalry reserve's report and the dragoon division's journal were read only as Alombert and Colin print them, and the report's prisoner figure only in the OCR (t. III, vol. 2, p. 1212-1213); General Milet's report and the light cavalry's captures on the Aalen road (p. 1213, OCR); Werneck's relation (Kriegsarchiv), which Krauss quotes; Krauss's map (Beilage 31). Figures seen only in the OCR and not restated in values: the hour of the dragoons' arrival in the journal; the hour Klein's division resumed the pursuit in Alombert and Colin's introduction (t. III, vol. 1, p. 96), which differs from Krauss's; the numbers of Klein's guns and regiments (marked in the renderings); Murat's total of prisoners 'since yesterday' and the French prisoners freed (p. 1219).",
+    "Most consequential gap: side B's strength in the action. Krauss gives scarcely 6000 for the whole corps and side A's accounts five battalions with cavalry and a battery; Bodart's 4,000 is unexplained, and no Austrian return of Werneck's corps for 17 October was read. Such a return, or Krauss's appendix for the corps, could close it.",
+    "Disputes kept as separate claims or recorded in them: side B's loss as 1,100 prisoners and 2 flags (Bodart), 1000 prisoners and two flags (Murat), 2,000 men with a standard and flags (journal), 1500 prisoners (Dupont's journal, for the day's pursuit) or 2000 men with Sinzendorf (Krauss); the cavalry reserve's lower figure in the OCR; the hour of the attack, 5 o'clock (Alombert and Colin, Murat) or 5.30 in the afternoon (Krauss).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, whose introduction follows the dragoon division's journal closely, and printing Murat's letter, the cavalry reserve's report and Dupont's division journal, all interested accounts); Krauss (an Austrian history quoting Werneck's relation; his figures for side A, and possibly the 2000 prisoners, may rest on the dragoon division's journal and are not treated as independent of it)."
+  ]
+}

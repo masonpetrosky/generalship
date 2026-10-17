@@ -1,0 +1,922 @@
+{
+  "schema_version": 1,
+  "battle_id": "B365a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Ulm entry (capitulation, 17 October 1805) in cohort v1's third-coalition 1805 group: Napoleon's army against the Austrian army under FML Mack in and before Ulm, from the attack on the heights before the town on 15 October through the investment, bombardment and capitulation to the laying down of arms on 20 October. Elchingen (B364b), Memmingen (B364c) and the actions against Werneck's corps (B364d, B365b, B365d) are separate entries, and their prisoners are not counted here. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 80,000 men under Napoleon I and side B (Austrian) 24,000 men under FML Baron Mack. By his stated rule these are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which formations he counted or at what moment. His 24,000 for side B is close to the Austrian figure of 23,000 men and to the 25,365 prisoners that Krauss reports (claim side-b-losses), and above the return of 22,600 men Krauss cites (claim side-b-return); the Austrian generals put Napoleon's force before Ulm at 70,000 (claim side-a-forces). The passages read do not say which figures Bodart used. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French under Napoleon I (80,000 men) force the Austrians (24,000 men) under FML Baron Mack to capitulate'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen unter Napoleon I. (80.000 M.) zwingen die Österreicher (24.000 M.) unter FML. Fh. v. Mack zur Kapitulation,"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-a-forces",
+      "dimension": "strength",
+      "value": "Side A's forces at Ulm as the orders and histories name them: for the attack of 15 October Napoleon directed Ney's corps to assault the Michelsberg and Geisberg and Lannes to bring the divisions of Oudinot, Suchet and Gazan across the Danube in support; Malher's and Loison's divisions of Ney's corps deployed for the attack, the Guard and Nansouty's division stood ready at Haslach and Bourcier's dragoon division at Lehr and Mähringen, and Beaumont's dragoon division and General Marmont were to invest Ulm on the right bank. Gazan's and Oudinot's divisions and the Guard infantry arrived too late to be used. That evening Murat held Grimmelfingen and Suchet's division Söflingen, Marmont invested the bridgehead and Soult's corps came up to Laupheim; Krauss writes that Ulm and the army were thus surrounded on all sides. The Austrian generals' counter-declaration put Napoleon's force before Ulm at 70,000 men.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Formations named in Napoleon's orders and the histories (OCR passages), with side B's estimate read from the page image. No French strength return or situation for 15-20 October was read, so no figure for side A from its own sources is recorded (open questions); the formations before Ulm also changed from day to day, as Dupont's division and Klein's dragoons were sent against Werneck (draft B364d). The army was assembled around Ulm by the orders of Napoleon, side A's commander at this engagement, so the claim is tagged commander_created. English renderings (ours): Alombert and Colin, 'Ney will bear a little to the right and will make the assault on the Michelsberg and the Geisberg; Lannes will have the three divisions of Oudinot, Suchet and Gazan cross the Danube on the bridges of Elchingen and Thalfingen to support Marshal Ney'; Krauss, 'after the division Malher (... of Ney's corps) had deployed south of Lehr on both sides of the Ulm-Stuttgart highway and the division Loison (... of Ney's corps) on both sides of the Ulm-Albeck road'; 'the Guard and Nansouty's division stand ready at Haslach, Bourcier's dragoon division at Lehr and Mähringen'; 'Beaumont's dragoon division and General Marmont were given the task of investing Ulm on the right bank'; Alombert and Colin, 'the divisions Gazan and Oudinot, as well as the Guard on foot, arrived too late to be used'; Krauss, 'that same evening Murat occupied Grimmelfingen and the division Suchet Söflingen. On the right bank Marmont surrounded the bridgehead; Soult's corps reached Laupheim on the ...'; 'Ulm and the army were thus surrounded on all sides'; the generals, 'but because Napoleon had 70,000 men before Ulm'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "Ney appuiera un peu à droite, et donnera l'assaut sur le Michelsherg et le Geisberg, Lannesfera passer le Danuhe aux trois divisions Oudinot, Suchet et Gazan, sur les ponts d'Elchingen ct de Thalfingen, pour soutenir le maréchal Ney;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Nachdem die Division Malher (3. des Korps Ney) südlich von Lehr beiderseits der Chaussee Ulm — Stuttgart und die Division Loison (2. des Korps Ney) beiderseits der Straße Ulm — Albeck entwickelt waren,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Die Garde und die Division Nansouty stehen bei Haslach, die Dragonerdivision Bourcier bei Lehr und Mähringen bereit."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 469 (OCR page markers; not checked against print)",
+          "quote": "Die Dragonerdivision Beaumont und General Marmont erhielten die Aufgabe, Ulm auf dem rechten Ufer einzuschließen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 90 (OCR running heads; not checked against print)",
+          "quote": "Les divisions Gazan et Oudinot, ainsi que la Garde à pied, arrivèrent trop tard pour être employées,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Noch am 15. abend besetzte Murat Grimmelfingen und die Division Suchet Söflingen. Auf dem rechten Ufer umschloß Marmont den Brückenkopf; das Korps Soult erreichte am 16. Laupheim,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Ulm und die Armee waren somit von allen Seiten eingeschlossen."
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "Weil aber Napoleon 70.000 Mann vor Ulm habe,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-return",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: a strength return brought to Mack by Major Baron Abele gave the army in Ulm as 22,600 men, or 25,000 including the sick and wounded. The army that laid down its arms consisted of 51 battalions and 18¼ squadrons.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's own figures, read from the page images. The passages read do not date the return beyond the incident Krauss describes on his p. 160, which was not read, and do not say whether 22,600 counts those present under arms. The battalions and squadrons are counted at the surrender, after the action; the men taken are in claim side-b-losses. The army was in Ulm before the investment, so the claim is tagged inherited. English renderings (ours): 'this statement of Mack's is all the more remarkable as a strength return had been brought to him by Major Baron v. Abele after the incident described on p. 160, which gave the strength of the army in Ulm as 22,600 men (but 25,000 men including the sick and wounded)'; '51 battalions and 18¼ squadrons thus laid down their arms'; 'according to this order of battle the army thus still consisted of 51 battalions and 18¼ squadrons'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p473-figures-v1",
+          "section": "p473",
+          "locator": "Krauss (1912), p. 473 (transcribed from the page image)",
+          "quote": "Diese Angabe Macks ist um so merkwürdiger, als ihm vom Major Freiherrn v. Abele nach dem auf Seite 160 geschilderten Vorfalle ein Standesausweis überbracht worden war, der die Stärke der Armee in Ulm mit 22.600 Mann (einschließlich der Kranken und Verwundeten aber 25.000 Mann) angab."
+        },
+        {
+          "source_id": "krauss-1912-p498-figures-v1",
+          "section": "p498",
+          "locator": "Krauss (1912), p. 498 (transcribed from the page image)",
+          "quote": "51 Bataillone und 18¼ Eskadronen streckten so die Waffen."
+        },
+        {
+          "source_id": "krauss-1912-p499-figures-v1",
+          "section": "p499",
+          "locator": "Krauss (1912), p. 499 (transcribed from the page image)",
+          "quote": "Nach dieser Truppeneinteilung bestand also die Armee noch aus 51 Bataillonen und 18¼ Eskadronen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-mack-figures",
+      "dimension": "strength",
+      "value": "Side B (Austrian), its commander's figures: Mack's written declaration to his generals said there were only a few very narrow stretches of the enclosure to defend and 15,000 men to defend them, and 3,000 horses to live on; Krauss sets the 15,000 against the 25,365 officers and men taken prisoner. After the capitulation Mack assured General Bertrand that he had 12,000 infantry, 3,000 cavalry and 50 guns in Ulm.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The commander's own statements, read from the page images; they are not returns, and Krauss calls the 15,000 all the more remarkable given the return Mack had received (claim side-b-return). Alombert and Colin print the declaration from an Austrian staff officer's 'Relation de la prise d'Ulm', Krauss from the Kriegsarchiv. English renderings (ours): Mack, 'we have only some very narrow parts of the enclosure to defend, and we have 15,000 men for it'; 'we have enough to live on until then, for we have 3,000 horses'; Krauss's text of the declaration, '[for its] defence 15,000 men'; Krauss, '1) compare with this the strength of the army taken prisoner in Ulm: 25,365 men (officers and men)'; Bertrand, 'General Mack assures that he has 12,000 infantry, 3000 horsemen and 50 guns in Ulm'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p217-figures-v1",
+          "section": "p217",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (transcribed from the page image)",
+          "quote": "Nous n'avons à défendre que quelques parties d'enceinte très étroites, et nous avons pour cela 15,000 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p217-figures-v1",
+          "section": "p217",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (transcribed from the page image)",
+          "quote": "Nous avons de quoi vivre jusque-là, car nous avons 3,000 chevaux."
+        },
+        {
+          "source_id": "krauss-1912-p473-figures-v1",
+          "section": "p473",
+          "locator": "Krauss (1912), p. 473 (transcribed from the page image)",
+          "quote": "Verteidigung 15.000 Mann."
+        },
+        {
+          "source_id": "krauss-1912-p473-figures-v1",
+          "section": "p473",
+          "locator": "Krauss (1912), p. 473 (transcribed from the page image)",
+          "quote": "1) Vergleiche damit die Stärke der in Ulm gefangenen Armee: 25.365 Mann (Offiziere und Mannschaft)."
+        },
+        {
+          "source_id": "krauss-1912-p495-figures-v1",
+          "section": "p495",
+          "locator": "Krauss (1912), p. 495 (transcribed from the page image)",
+          "quote": "General Mack versichere, daß er 12.000 Mann Infanterie, 3000 Reiter und 50 Kanonen in Ulm habe."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Napoleon I as side A's commander and FML Baron Mack as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders; both sides' sources agree that Napoleon directed side A's attack and negotiations in person and that Mack commanded in Ulm and signed the capitulation, which Marshal Berthier signed for Napoleon (claims side-a-command, side-b-command and capitulation). English rendering (ours): 'the French under Napoleon I (80,000 men)'; 'under FML Baron Mack'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen unter Napoleon I. (80.000 M.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "unter FML. Fh. v. Mack zur Kapitulation,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Napoleon gave the orders for the attack on the Austrian positions before Ulm in the night before it and the general disposition on the morning of the 15th, and directed Malher's division in person; Malher, on reaching his position, received the order to attack. Once the Michelsberg and Geisberg were taken, Napoleon gathered the dragoons and chasseurs, the Guard's among them, and the 6th corps' hussars under Murat to cut the Stockach road. Ney summoned Ulm that evening. Napoleon refused the Austrian request for free exit and demanded that the garrison be prisoners of war, had Ulm bombarded again when Mack's answer did not satisfy him, then offered to let the army stay five days in Ulm if a gate were handed over, and after long negotiation conceded eight; his aide de camp General Count Ségur conducted the talks with Mack, and Marshal Berthier signed the capitulation. After receiving Mack at Elchingen on the 19th, Napoleon had Berthier conclude with him the agreement under which the army marched out.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions at the engagement from Alombert and Colin and Krauss (OCR passages; the agreement's date read from the page image in claim capitulation). Napoleon was side A's commander at this engagement, so his orders are tagged commander_created. English renderings (ours): Alombert and Colin, 'the Emperor gives his orders for the attack on the Austrian positions before Ulm'; Krauss, 'on the morning of 15 October Napoleon issued the general disposition'; Alombert and Colin, 'directed by the Emperor in person, it took the road to Jungingen'; 'hardly arrived at this last position, Malher receives the order to attack'; 'the Emperor had the dragoons and mounted chasseurs, including those of the Guard, and the hussars of the 6th corps gathered under Murat's command, to go and cut the Stockach road between the Danube and the Blau'; 'Ney summoned Ulm in the evening of the ...'; 'Ney at once refers it to Berthier, from whom he receives word that the Emperor wants the garrison of Ulm to be prisoners of war'; Krauss, 'as a tangible sign of this he had Ulm bombarded again on the afternoon of the ...'; 'to avoid the horrors of an attack on the town, he would concede that the Austrian army stay five days in Ulm, on condition that a gate of the place be handed over to the French'; 'after long negotiations Napoleon also agreed to the eight days demanded'; 'General Count Ségur, who as Napoleon's aide de camp conducted the negotiations with Mack'; the capitulation, 'done in duplicate at Ulm ... Marshal Berthier. Mack'; Krauss, 'the result of Napoleon's interview with Mack was an agreement between Berthier and Mack'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "l'Empereur donne ses ordres pour l'attaque des positions autrichiennes devant Ulm."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 469 (OCR page markers; not checked against print)",
+          "quote": "Am 15. Oktober früh gab Napoleon die allgemeine Dispo- sition aus:"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 88 (OCR running heads; not checked against print)",
+          "quote": "Dirigée par l'Empereur en personne, elle prit le chemin de Jungingen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 88 (OCR running heads; not checked against print)",
+          "quote": "A peine arrivé à cette dernière position, Malher recoit l'ordre d'allaquer."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 90 (OCR running heads; not checked against print)",
+          "quote": "l'Empereur fit réunir les dragons et chas- seurs à cheval, y compris ceux de la Garde, et les hus- sards du 6° corps, sous le commandement de Murat, pour aller couper la route de Stokach entre le Danube et la Blau."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 216 (OCR running heads; not checked against print)",
+          "quote": "Ney a sommé Ulm dans la soirée du 15."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 218 (OCR running heads; not checked against print)",
+          "quote": "Ney en réfère aussitôt à Berthier, dont il recoit l'avis que l'Empereur veut que la garnison d'Ulm soit prison- nière de guerre."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 477 (OCR page markers; not checked against print)",
+          "quote": "Als fühlbares Zeichen dafür ließ er Ulm am 16. nachmittag erneuert beschießen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 478 (OCR page markers; not checked against print)",
+          "quote": "Um die Schrecken eines Angriffes auf die Stadt zu vermeiden, wolle er zugestehen, daß die österreichische Armee fünf Tage in Ulm bleibe, unter der Voraussetzung, daß ein Tor des Platzes den Franzosen übergeben werde."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 478 (OCR page markers; not checked against print)",
+          "quote": "Nach längeren Verhandlungen ging Napoleon auch auf die ge- forderten acht Tage ein."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 478 (OCR page markers; not checked against print)",
+          "quote": "General Graf Segur, der als Adjutant Na- poleons die Verhandlungen mit Mack vermittelte,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 853 (OCR running heads; not checked against print)",
+          "quote": "Fait double à Ulm, le 25 vendémiaire an xtv (17 octobre 1805). Maréchal Benrinen. Mack."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 497 (OCR page markers; not checked against print)",
+          "quote": "Das Resultat der Unterredung Napoleons mit Maek war ein Übereinkommen zwischen Berthier und Maek."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML Mack commanded in Ulm. He received the first French envoy alone, took the summons for a ruse and rejected it, and had it posted that no one was to speak of surrender. When the generals gathered to urge him to save the army, if need be by sacrificing Ulm, he asked the senior general, FML Count Riesch, to take over the army, which Riesch refused, and the generals answered his written declaration with a counter-declaration in favour of free exit. GM Prince Liechtenstein then took a written offer to Ney to give up Ulm for the army's free withdrawal: Krauss says Mack sent him, the papers drafted by Mack but signed by the three senior FMLs; Alombert and Colin that the three senior generals, Riesch, Loudon and Gyulay, decided to send him, with or without Mack's assent. On its refusal they declared the garrison resolved to await the fortunes of war. Krauss concludes from a letter of Berthier's, as he says the later inquiry also showed, that Mack secretly offered the enemy better terms than he officially allowed through the generals. Without consulting the generals further, Mack accepted Napoleon's later proposal, asking eight days instead of five, and signed the capitulation. After meeting Napoleon he agreed to evacuate Ulm the next day; FML Count Riesch protested in the Emperor's name, and Mack invoked his unlimited authority and his sole responsibility.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as both histories give them (OCR passages); who initiated Liechtenstein's mission differs between the two accounts and is not resolved. Krauss's account rests on the Kriegsarchiv files of the later inquiry. English renderings (ours): Krauss, 'Mack, who received him alone, still wholly caught up in the idea of the retreat, took it for a ruse of war and curtly rejected the summons'; Alombert and Colin, 'Mack rejected any capitulation, and had it posted in the town that no one was to speak of surrendering'; Krauss, 'on the news of the envoy's arrival all the generals assembled at FML Mack's to move him above all to save the army and to that end, if necessary, to sacrifice Ulm'; 'he now asked the senior general, FML Count Riesch, to take over the command of the army, which he, understandably, decidedly refused'; the generals, 'we the undersigned are of the opposite opinion and believe that free exit from Ulm, saving a considerable force, would render a greater service to His Majesty than the obstinate defence of this place'; Krauss, 'he sent GM Prince Liechtenstein that same day to Ney with a written offer of capitulation, offering to give up Ulm against free withdrawal of the army'; 'he left the signing of these two documents to the three senior lieutenant field marshals'; Alombert and Colin, 'with or without Mack's assent, the three senior generals, Riesch, Loudon and Gyulay, decide' [to send Prince Liechtenstein]; 'is resolved to await the fortunes of war'; Krauss, 'this letter proves, as the later inquiry also showed, that Mack, who stressed to his generals the necessity of holding Ulm at any price and made a show of departing from it only under compulsion, secretly offered the enemy better conditions than he officially allowed through the generals'; 'without now consulting the generals further, Mack accepted this proposal. But he asked eight days instead of the five-day term conceded'; the agreement, 'the quartermaster general FML Mack, trusting these declarations, is ready to evacuate Ulm in the course of tomorrow, on condition'; Krauss, 'FML Count Riesch protested in the Emperor's name against this proceeding of Mack's'; 'but Mack finally invoked his unlimited authority and that he alone was responsible for everything, thus also for the premature surrender of Ulm'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 471 (OCR page markers; not checked against print)",
+          "quote": "Mack, der ihn allein empfing, hielt das, noch ganz in der Idee des Rückzuges befangen, für eine Kriegslist und wies die Aufforderung kurz ab."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 216 (OCR running heads; not checked against print)",
+          "quote": "Mack a repoussé toute capitulation, et fait afficher dans la ville que nul ne devait parler de se rendre,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 471 (OCR page markers; not checked against print)",
+          "quote": "Auf die Nachricht von der Ankunft des Parlamentärs ver- sammelten sich alle Generale bei FML. Mack, um ihn zu bewegen, vor allem die Armee zu retten und dazu, wenn nötig. Ulm zu opfern."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 472 (OCR page markers; not checked against print)",
+          "quote": "Er forderte jetzt den rangältesten General, FML. Graf Rieseh auf, das Armeekommando zu übernehmen, was dieser, wie begreiflich, entschieden ablehnte."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "Nous soussigués sommes de l'avis opposé et croyons que la libre sortie d'Ulm, sauvant une troupe considérable, rendrait un plus grand service à Sa Majesté que la dé'ense obstinée de cette place, qui est loin d'être hors d'insulte,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 476 (OCR page markers; not checked against print)",
+          "quote": "Er sandte noch am 15. den GM. Fürsten Liechtenstein mit einem schriftlichen Kapitulationsantrage zu Ney, indem er sich er- bot, Ulm ge,oen freien Abzug der Armee zu übergeben."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 476 (OCR page markers; not checked against print)",
+          "quote": "Er überließ die Unterschrift dieser beiden Schriftstücke den drei ältesten Feldmarschalleutnants."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "Avec ou sans l'assenliment de Mack, les trois plus anciens généraux : Riesch, Loudon et Gyulay, se décident"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 218 (OCR running heads; not checked against print)",
+          "quote": "est résoluc à attendre les hasards de la guerre."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 476 (OCR page markers; not checked against print)",
+          "quote": "Dieses Schreiben beweist, wie es auch die spätere Untersuchung dargetan hat, daß Mack, der seinen Generalen gegenüber die Notwendigkeit betonte, Ulm um jeden Preis zu halten, und sich den Ansehein gab, nur gezwungen davon abzugehen, dem Feind insgeheim bessere Bedingungen anbot, als er es offiziell durch die Generale zuließ."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 478 (OCR page markers; not checked against print)",
+          "quote": "Ohne nun die Generale weiter zu befragen, ging Mack auf diesen Antrag ein. Er forderte aber acht Tage anstatt der zugestan- denen fünftägigen Frist."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 497 (OCR page markers; not checked against print)",
+          "quote": "„Der Generalquartiermeister FML. Maek ist. diesen Erklärungen Glauben schenkend, bereit, im Laufe des morgigen Tages Ulm zu räumen, gegen die Bedingung:"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 498 (OCR page markers; not checked against print)",
+          "quote": "FML. Graf Eiesch protestierte im Namen des Kaisers gegen dieses A'orgehen Macks:"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 498 (OCR page markers; not checked against print)",
+          "quote": "Mack berief sich aber schließlich auf seine unumschränkte Vollmacht und daß er allein für alles, also auch für die vorzeitige Übergabe Ulms verantwortlich sei."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records that the French forced the Austrians under Mack to capitulate on 17 October, after which the Austrian army went into captivity, the officers being allowed to return to Austria on condition of not serving against France until exchanged. The capitulation signed by Berthier and Mack gave up the place with its magazines and artillery; the garrison was to march out with the honours of war and lay down its arms, the officers to be sent back to Austria on parole, and the garrison was to go free with its arms if Austrian or Russian troops relieved the town within the term the capitulation set. Krauss says a French brigade then occupied the Stuttgart gate, and that the army laid down its arms on 20 October under the agreement Berthier and Mack signed at Elchingen on the 19th. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with both sides' texts of the capitulation (OCR passages, except Bodart's entry and the dates read from the page images); the term of the relief clause and the hour the gate was occupied were seen only in the OCR and are not restated. English renderings (ours): Bodart, 'capitulation of Ulm'; 'after which this Austrian army went into captivity. The officers were allowed to return to Austria on condition of not serving against France until exchanged'; the capitulation, 'the place of Ulm will be handed over to the French army with all its magazines and its artillery'; 'the garrison will march out of the place with all the honours of war and, after having marched past, will hand over its arms. The officers will be sent back to Austria on parole'; Krauss's text, 'article 5. If by ... Austrian or Russian troops relieve the town from whatever side, the garrison may withdraw with its arms, its cavalry and artillery, to unite with the relieving troops'; Krauss, 'a French brigade occupied the Stuttgart gate'; 'in two copies at Elchingen, 19 October 1805'; 'on 20 October the army laid down its arms'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "17./10. KAPITULATION von Ulm"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 479 (OCR page markers; not checked against print)",
+          "quote": "Ulm, am 17. Oktober 1805. Berthier. Mack."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "wonach diese österreichische Armee in Kriegsgefangenschaft geriet. Den Offizieren wurde unter der Bedingung, bis zur Auswechslung nicht gegen Frankreich zu dienen, die Rückkehr nach Österreich gestattet."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 851 (OCR running heads; not checked against print)",
+          "quote": "La place d'Ulm sera remise à l'armée française avec tous ses magasins et son artillerie,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 851 (OCR running heads; not checked against print)",
+          "quote": "La garnison sortira de La place avec tous les honneurs de lu guerre et, après avoir défilé, elle remettra ses armes. MM. les officiers seront renvoyés sur parole en Antriche,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 479 (OCR page markers; not checked against print)",
+          "quote": "Artikel 5. Wenn bis zum 25. Oktober mitternacht österreichi- sche oder russische Truppen die Stadt von welcher Seite immer ent- setzen, kann die Garnison mit ihren Waffen, mit ihrer Kavallerie und Artillerie abziehen, um sich mit den Entsatztruppen zu vereinigen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 479 (OCR page markers; not checked against print)",
+          "quote": "Am 18. um lO'' vormittag besetzte eine französische Brigade das Stuttgarter Tor."
+        },
+        {
+          "source_id": "krauss-1912-p498-figures-v1",
+          "section": "p498",
+          "locator": "Krauss (1912), p. 498 (transcribed from the page image)",
+          "quote": "„In zwei Exemplaren zu Elchingen, den 19. Oktober 1805."
+        },
+        {
+          "source_id": "krauss-1912-p498-figures-v1",
+          "section": "p498",
+          "locator": "Krauss (1912), p. 498 (transcribed from the page image)",
+          "quote": "Am 20. Oktober streckte die Armee die Waffen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart says the French took, besides Ulm's fortress guns, 59 guns, 26 flags, 300 ammunition wagons and 3,000 horses, and gives the French loss during the short blockade and bombardment, 12-17 October, as about 1,000 men (54 officers). He gives no number of Austrians taken.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed figures, rounded up by his rule (claim bodart-strength); a post-outcome observation. His French loss covers a period that includes Elchingen (14 October), for which he prints the same figure (draft B364b), so the two entries may share one figure; not resolved (open questions). English rendering (ours): 'besides Ulm's fortress guns the French captured 59 guns, 26 flags, 300 ammunition wagons, 3,000 horses. French loss during the short blockade and bombardment (12-17 October): about 1,000 men (54 officers)'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen erbeuteten außer den Festungskanonen Ulms 59 Geschütze, 26 Fahnen, 300 Munitionswägen, 3.000 Pferde."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Franz Verl. während der kurzen Blokade und Beschießung (12.—17./10.): ca. 1.000 M. (54 Offz.)"
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss: Alombert and Colin give 25,365 prisoners taken at Ulm (49,718 with those of Wertingen, Memmingen, Günzburg, Elchingen, Haslach and other actions) and 40 flags, 63 guns, 2 howitzers, 42 caissons, 13,600 muskets and 6,524 gun cartridges taken at Ulm. Krauss gives the Austrian figures, which he calls unreliable, as 23,000 men and 59 guns; the French bulletin of 21 October as 33,000 men, 3,000 wounded and 65 guns; and a list by regiments in Alombert and Colin as 18 generals, 912 officers and 24,435 men taken and 60 guns and 40 flags. General Bertrand reported some 6000-8000 wounded Austrians lying in Ulm.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate figures, read from the page images and not combined. The regimental list's 18 generals, 912 officers and 24,435 men sum to 25,365 (our sum), Alombert and Colin's figure, which Krauss also uses; the 49,718 is a campaign total that includes other entries' prisoners (drafts B363a to B364c among them) and is not this entry's loss. The passages do not say whether Bertrand's wounded are within the prisoners. English renderings (ours): 'the number of prisoners taken at Ulm came to 25,365. Adding those of Wertingen, Memmingen, Günzburg, Elchingen, Haslach, etc., the total reached 49,718 men. At Ulm 40 flags, 63 guns, 2 howitzers, 42 caissons, 13,600 muskets, 6,524 gun cartridges were taken'; Krauss, 'the Austrian, admittedly unreliable, figures speak of 23,000 men and 59 guns; the French on the other hand, in their bulletin of 21 October, gave the strength of the army taken prisoner in Ulm as 33,000 men, 3000 wounded and 65 guns. According to a list by regiments (Alombert et Colin, III, p. 864), 18 generals, 912 officers and 24,435 men were taken prisoner in Ulm and 60 guns and 40 flags captured'; Bertrand, 'that about 200 wounded French and 6000-8000 wounded Austrians lay in Ulm'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p229-figures-v1",
+          "section": "p229",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 229 (transcribed from the page image)",
+          "quote": "Le nombre des prisonniers faits à Ulm s'élevait à 25,365."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p229-figures-v1",
+          "section": "p229",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 229 (transcribed from the page image)",
+          "quote": "En y joignant ceux de Wertingen, Memmingen, Günzbourg, Elchingen, Haslach, etc., le total atteignait 49,718 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p229-figures-v1",
+          "section": "p229",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 229 (transcribed from the page image)",
+          "quote": "On prit à Ulm 40 drapeaux, 63 canons, 2 obusiers, 42 caissons, 13,600 fusils, 6,524 cartouches à canon (1)."
+        },
+        {
+          "source_id": "krauss-1912-p498-figures-v1",
+          "section": "p498",
+          "locator": "Krauss (1912), p. 498 (transcribed from the page image)",
+          "quote": "Die österreichischen, allerdings nicht zuverlässigen Angaben sprechen"
+        },
+        {
+          "source_id": "krauss-1912-p499-figures-v1",
+          "section": "p499",
+          "locator": "Krauss (1912), p. 499 (transcribed from the page image)",
+          "quote": "von 23.000 Mann und 59 Kanonen, die Franzosen dagegen gaben in ihrem Bulletin vom 21. Oktober die Stärke der in Ulm gefangenen Armee mit 33.000 Mann, 3000 Verwundeten und mit 65 Geschützen an."
+        },
+        {
+          "source_id": "krauss-1912-p499-figures-v1",
+          "section": "p499",
+          "locator": "Krauss (1912), p. 499 (transcribed from the page image)",
+          "quote": "Nach einer regimenterweisen Aufstellung (Alombert et Colin, III, S. 864) wurden in Ulm 18 Generale, 912 Offiziere und 24.435 Mann gefangengenommen, 60 Kanonen und 40 Fahnen erbeutet."
+        },
+        {
+          "source_id": "krauss-1912-p495-figures-v1",
+          "section": "p495",
+          "locator": "Krauss (1912), p. 495 (transcribed from the page image)",
+          "quote": "Bertrand meldete ferner, daß in Ulm etwa 200 verwundete Franzosen und 6000—8000 verwundete Österreicher lägen"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Side A's loss: Alombert and Colin say the 17e léger, at the head of Suchet's division in the attack, pursued the enemy under the walls of the place and had 33 men killed, 128 wounded and 169 taken prisoner; Krauss says that a regiment of Suchet's division entered Ulm by a town gate on the 15th and was driven back, and that 160 French, among them the regimental commander, were taken. General Bertrand reported about 200 wounded French lying in Ulm. Bodart's figure is in claim bodart-losses.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's figure for one regiment and Krauss's for the prisoners, read from the page images (the 17e léger's place at the head of the division seen in the OCR); they concern the same division on the same afternoon, and whether they count the same men is not settled by the passages read. No total for side A's loss from its own sources was read. English renderings (ours): 'the 17th light pursues the enemy up under the walls of the place; it has 33 men killed, 128 wounded and 169 prisoners'; 'Suchet's division, the 17th light at its head, takes part in the attack between the two divisions of the 6th corps'; Krauss, 'the division Suchet had deployed before Jungingen; at 3 in the afternoon it moved off to take part in the fight. One regiment thereby got into Ulm through a town gate'; '160 French, among them the regimental commander, were taken prisoner'; Bertrand, 'about 200 wounded French'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p89-figures-v1",
+          "section": "p89",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 89 (transcribed from the page image)",
+          "quote": "Le 17e léger poursuit l'ennemi jusque sous les murs de la place; il a 33 hommes tués, 128 blessés et 169 prisonniers."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 89 (OCR running heads; not checked against print)",
+          "quote": "La division Suchet, le 17° léger en tôle, prend part à l'attaque entre les deux divisions du 6° corps."
+        },
+        {
+          "source_id": "krauss-1912-p470-figures-v1",
+          "section": "p470",
+          "locator": "Krauss (1912), p. 470 (transcribed from the page image)",
+          "quote": "Die Division Suchet war vor Jungingen aufmarschiert; um 3h nachmittag setzte sie sich in Bewegung, um an dem Kampfe teilzunehmen. Ein Regiment drang dabei durch ein Stadttor in Ulm ein."
+        },
+        {
+          "source_id": "krauss-1912-p470-figures-v1",
+          "section": "p470",
+          "locator": "Krauss (1912), p. 470 (transcribed from the page image)",
+          "quote": "160 Franzosen, darunter der Regimentskommandant, wurden gefangen genommen."
+        },
+        {
+          "source_id": "krauss-1912-p495-figures-v1",
+          "section": "p495",
+          "locator": "Krauss (1912), p. 495 (transcribed from the page image)",
+          "quote": "Bertrand meldete ferner, daß in Ulm etwa 200 verwundete Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "ulm-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Ulm as a town in Württemberg on the Danube, 75 km southeast of Stuttgart. The Austrians held improvised fortification works on the heights of the Michelsberg and Geisberg; once these were taken, the French held the heights that dominate the town and fired on it from them. Krauss describes Ulm's fortifications as built in 1617-1624, entirely rebuilt in 1797-1799 with outworks on the heights and almost entirely razed in 1800, leaving only the gate towers, the old town wall, the town ditch and the stone work on the Danube island, with the wall down and the ditch filled in places; the ditch was in places up to 40 m wide but dry, and Colonel Dedovich prepared the ditches for flooding. The Austrian generals argued that Ulm was built largely of wood and could not withstand a bombardment.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Alombert and Colin and Krauss, read from the page images except the dominating heights and the generals' argument (OCR); Krauss gives GM v. Loeffler's article on Elchingen as his source for the fortifications. No plan of Ulm was inspected. English renderings (ours): Bodart, 'town in Württemberg, on the Danube, 75 km southeast of Stuttgart'; Alombert and Colin, 'the Austrians occupy improvised fortification works on the heights of the Michelsberg and the Geisberg'; Krauss, 'the dominating heights were in the hands of the French, who took the town under fire from them'; 'Ulm's fortifications dated from 1617-1624. They were entirely rebuilt in 1797-1799 and provided with outworks on the heights. In 1800 the fortifications were almost entirely razed; only the gate towers, the old town wall, the town ditch and the stone work on the Danube island remained; in some places, however, the wall too had been pulled down and the ditch filled in. The ditch was in places up to 40 m wide, but dry. Colonel Dedovich prepared the ditches for flooding'; the generals, 'Ulm is built largely of wood, so that it could not withstand a bombardment'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "(Stadt in Württemberg, an der Donau, 75 km südöstl. von Stuttgart)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p89-figures-v1",
+          "section": "p89",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 89 (transcribed from the page image)",
+          "quote": "Les Autrichiens occupent des ouvrages de fortification improvisés sur les hauteurs du Michelsberg et du Geisberg."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Die beherrschenden Höhen waren in den Händen der Franzosen, die von ihnen aus die Stadt unter Feuer nahmen."
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "Die Befestigungen Ulms stammten aus den Jahren 1617—1624. Sie wurden in den Jahren 1797—1799 vollständig umgebaut und mit Vorwerken auf den Höhen versehen. 1800 wurden die Befestigungen fast vollständig geschleift; nur die Tortürme, die alte Stadtmauer, der Stadtgraben und das steinerne Werk auf der Donau-Insel blieben erhalten; an einzelnen Stellen war aber auch die Mauer umgelegt und der Graben ausgefüllt. Der Graben war stellenweise bis 40 m breit, aber trocken. Oberst Dedovich richtete die Gräben zur Bewässerung her."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 475 (OCR page markers; not checked against print)",
+          "quote": "Ulm sei größtenteils aus Holz gebaut, so daß es eine Be- schießung nicht aushalten könne."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B, by Krauss, had in Ulm only 59 field guns (16 three-pounders, 41 six-pounders and 2 seven-pounder howitzers) with only 60-70 rounds each; the infantry had only part of its pouch ammunition, and there were probably provisions for 11 days; Mack knew neither the number of guns nor the stocks of ammunition and food. Mack's declaration counted on 3,000 horses to live on, and the generals argued that ammunition was low and provisions lacking. After the capitulation General Bertrand reported that the Austrian army had already been put on quarter rations. In Mack's view the French were bound to be ruined by the terrible weather and the exhausted countryside.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the generals' argument and Mack's view of the French, seen in the OCR); no ration or ammunition return was inspected, and nothing on side A's supply was read. English renderings (ours): Krauss, 'in guns there were only 59 field guns in Ulm, namely 16 three-pounder, 41 six-pounder cannon and 2 seven-pounder howitzers. For each gun there were only 60-70 rounds. The infantry had only part of its pouch ammunition left. Mack was informed neither of the number of guns available nor of the stocks of ammunition. In provisions, of which Mack was likewise not informed, there were probably stocks for 11 days'; Mack, 'we have enough to live on until then, for we have 3,000 horses'; the generals, 'the stocks of ammunition were small; the necessary stocks of provisions were also lacking'; Bertrand, 'that the Austrian army had already been put on quarter rations'; Mack, 'the enemy must be ruined by this frightful weather and cannot keep numerous troops on foot here, all the surroundings being exhausted'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "An Geschützen waren in Ulm nur 59 Feldgeschütze, und zwar 16 dreipfündige, 41 sechspfündige Kanonen und 2 siebenpfündige Haubitzen. Für jedes Geschütz waren nur 60—70 Schuß vorhanden. Die Infanterie hatte nur mehr einen Teil der Taschenmunition. Mack war weder über die Zahl der verfügbaren Geschütze noch über die Munitionsvorräte orientiert. An Verpflegung, über die Mack ebenfalls nicht orientiert war, waren wohl Vorräte für 11 Tage vorhanden."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p217-figures-v1",
+          "section": "p217",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (transcribed from the page image)",
+          "quote": "Nous avons de quoi vivre jusque-là, car nous avons 3,000 chevaux."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 475 (OCR page markers; not checked against print)",
+          "quote": "Die Muiiitionsvorräte seien gering; auch fehlen die nötigen Verpflegsvorräte."
+        },
+        {
+          "source_id": "krauss-1912-p495-figures-v1",
+          "section": "p495",
+          "locator": "Krauss (1912), p. 495 (transcribed from the page image)",
+          "quote": "daß die österreichische Armee schon auf eine Viertelportion gesetzt worden sei."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "L'ennemi doit être ruiné pur ce temps affreux et ne peut pas garder ici de nombreuses troupes sur pied, tous les environs Stant épuisés,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Before the attack Soult was ordered toward Biberach to defeat an enemy corps reported there. In the negotiations Berthier answered Mack's letter to the Emperor, in which Mack spoke of hoping to be relieved by two armies, that had he had that hope and had Ulm been tenable, he would not have offered to give up the place. After the capitulation General Bertrand reported the wounded in Ulm, the Austrians' quarter rations and Mack's assurance of his infantry, cavalry and guns, and a French reconnaissance of Ulm at the time of the capitulation judged that the place could be called a trap for the Austrian army.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as the histories give it (OCR passages, except Bertrand's report, read from the page image; its figures are in claims side-b-mack-figures and side-b-losses). The passages read say little of what Napoleon knew of side B's strength before the attack. English renderings (ours): Alombert and Colin, 'Soult receives the order to move on Biberach to defeat the enemy corps reported on that side'; Berthier, 'if you had the hope of being relieved by two armies, as you say in your letter to the Emperor, and if Ulm were a tenable place, you would not have offered the capitulation'; Bertrand, as in claims side-b-mack-figures and side-b-losses; Krauss, 'after the reconnaissance of Ulm carried out on ... October the French came to the judgment: \"the place of Ulm could thus be described as a trap for the Austrian army\"'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "Soult reçoit l'ordre de se porter sur Biberach pour y défaire le eorps ennemi signalé de ce côté."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 476 (OCR page markers; not checked against print)",
+          "quote": "„Wenn Sie die Hoffnung hätten, von zwei Armeen entsetzt zu werden, wie Sie es in Ihrem Brief an den Kaiser sagen, und wenn Ulm ein haltbarer Platz wäre, dann hätten Sie nicht die Kapitulation angeboten,"
+        },
+        {
+          "source_id": "krauss-1912-p495-figures-v1",
+          "section": "p495",
+          "locator": "Krauss (1912), p. 495 (transcribed from the page image)",
+          "quote": "Bertrand meldete ferner, daß in Ulm etwa 200 verwundete Franzosen und 6000—8000 verwundete Österreicher lägen und daß die österreichische Armee schon auf eine Viertelportion gesetzt worden sei. General Mack versichere, daß er 12.000 Mann Infanterie, 3000 Reiter und 50 Kanonen in Ulm habe."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 474 (OCR page markers; not checked against print)",
+          "quote": "Die Franzosen kamen nach der am 17. und 18. Oktober durchgeführten Rekognoszie- rung Ulms zu dem Urteil: „Der Platz Ulm konnte somit als eine Falle für die österreichische Armee bezeichnet werden.\""
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Mack was still dominated on the day of the attack by the idea that the French were retreating: he explained the investment as the retreating enemy's precaution against a sortie, and dismissed a report that the enemy meant to invest Ulm that day as covering a French artillery train. His declaration held that the enemy could not keep the army invested for more than eight days, as the Russians would approach; the generals answered that relief by the Russians and FML Kienmayer could not be expected for 3 weeks, given the distance, and that Napoleon had 70,000 men before Ulm and could always join part of them to Bernadotte to prevent it. Mack knew neither the guns nor the ammunition in Ulm, and Krauss says he had informed neither the command in Tyrol nor FML Kienmayer and Kutuzov of his army's fate. Mack later said that he received sure news of Ulm's hopeless situation only from the Emperor; at Elchingen he accepted Berthier's word of honour that the Austrian army was beyond the Inn and that Generals Werneck, Hohenzollern, Baillet and seven others had capitulated with their corps at Trochtelfingen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as both histories give it (OCR passages, except those read from the page images); Mack's later statement is his own account. Whether Berthier's assurances were all true is not examined here (Hohenzollern's part at Trochtelfingen belongs to draft B365d). English renderings (ours): Krauss, 'Mack was thus still dominated on 15 October, at the time when Ney was already beginning to close the ring north of Ulm too, by the idea of the retreat of the French'; 'he explained the investment of Ulm quite simply: it was self-evident that the enemy retreating to France had to secure himself against an attack from Ulm by investing it'; 'Mack told him to be calm, saying that all this might well be true, but since the enemy was in full retreat, all this was being done only to cover his artillery train standing at Weißenhorn'; Mack, 'he cannot keep us invested more than eight days, for the Russians will approach by then and prepare a dire fate for him'; the generals, 'relief by the Russians and by FML Kienmayer was not to be expected for 3 weeks, given the distance. But because Napoleon had 70,000 men before Ulm, he could always unite part of them with Bernadotte and prevent the relief'; Krauss, 'Mack was informed neither of the number of guns available nor of the stocks of ammunition'; 'that he had informed neither the troop command in Tyrol nor FML Kienmayer and Kutuzov of the fate of his army'; 'Mack himself stated later that he had received sure news of the hopeless situation of Ulm only from the Emperor'; the agreement, 'Marshal Berthier, as the Emperor's plenipotentiary, gives his word of honour: 1. that the Austrian army is today beyond the Inn'; '3. that Prince Murat was in Nördlingen yesterday with his corps, that Generals Werneck, Hohenzollern, Baillet and seven other generals have capitulated with their corps at Trochtelfingen'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 468 (OCR page markers; not checked against print)",
+          "quote": "Mack war somit noch am 15. Oktober, zur Zeit, als Ney schon den Kreis auch im Norden von Ulm zu schließen begann, von der Idee des Eückzuges der Franzosen beherrscht;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 468 (OCR page markers; not checked against print)",
+          "quote": "er erklärte die Ein- schheßung Ulms ganz einfach damit, es sei selbstverständlich, daß der nach Frankreich zurückgehende Feind sich gegen einen Anfall aus Ulm durch dessen Einschließung sichern müsse."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 468 (OCR page markers; not checked against print)",
+          "quote": "Mack ver- wies ihn zur Euhe mit dem Bedeuten, daß das alles zwar richtig sein könne, da der Feind aber im vollen Rückzüge sei, so geschehe das alles bloß, um seinen bei Weißenhorn stehenden Ar- tillerietrain zu decken."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p217-figures-v1",
+          "section": "p217",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (transcribed from the page image)",
+          "quote": "Il ne peut pas nous tenir investis plus de huit jours, car les Russes s'approcheront d'ici là et lui prépareront un sort funeste."
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "Ein Entsatz durch die Russen und durch FML. Kienmayer sei der Entfernung nach nicht vor 3 Wochen zu erwarten. Weil aber Napoleon 70.000 Mann vor Ulm habe, könne er immer einen Teil davon mit Bernadotte vereinigen und den Entsatz verhindern"
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "Mack war weder über die Zahl der verfügbaren Geschütze noch über die Munitionsvorräte orientiert."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 480 (OCR page markers; not checked against print)",
+          "quote": "daß er weder das Truppenkommando in Tirol noch den FML. Kienraayer und Kutusow über die Schicksale seiner Armee verständigt hatte."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 496 (OCR page markers; not checked against print)",
+          "quote": "Mack selbst gab später an, daß er erst vom Kaiser sichere Nachrichten über die hoifnungslose Lage Ulms erhalten habe^)."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 497 (OCR page markers; not checked against print)",
+          "quote": "„1. Daß die österreichische Armee heute jenseits des Inn ist"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 497 (OCR page markers; not checked against print)",
+          "quote": "daß die Generale Werneck, Hohenzollern, Baillet und sieben andere Generale mit ihren Korps bei Trochtelfingen kapituliert haben."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Napoleon's aims at Ulm, as side A's commander: his orders directed the attack on the Austrian positions before the town and its investment on both banks, and Marmont was told that if he could not prevent the enemy leaving Ulm, the most important road to bar was that to Günzburg, so that it was better to let the enemy escape toward Memmingen and pursue him at once. He demanded that the garrison be prisoners of war, and offered the five-day term to avoid the horrors of an attack on the town.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims set by Napoleon as commander at this engagement (OCR passages). English renderings (ours): Alombert and Colin, 'the Emperor gives his orders for the attack on the Austrian positions before Ulm'; Krauss, 'in an order of the ... Marmont further received the instruction that, if he could not deny the enemy the exit from Ulm, the most important road to block was that to Günzburg. It would therefore be better to let the enemy escape to Memmingen; he was then to be pursued at once'; Alombert and Colin, 'the Emperor wants the garrison of Ulm to be prisoners of war'; Krauss, 'to avoid the horrors of an attack on the town'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 86 (OCR running heads; not checked against print)",
+          "quote": "l'Empereur donne ses ordres pour l'attaque des positions autrichiennes devant Ulm."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 469 (OCR page markers; not checked against print)",
+          "quote": "In einem Befehle vom 15. erhielt Marmont noch die Weisung, daß, wenn er dem Feinde den Austritt aus Ulm nicht verwehren könnte, der wichtigste zu sperrende Weg, der auf Günzburg sei. Es wäre daher besser, den Feind nach Memmingen entweichen zu lassen; er sei dann sofort zu verfolgen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 218 (OCR running heads; not checked against print)",
+          "quote": "Ney en réfère aussitôt à Berthier, dont il recoit l'avis que l'Empereur veut que la garnison d'Ulm soit prison- nière de guerre."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 478 (OCR page markers; not checked against print)",
+          "quote": "Um die Schrecken eines Angriffes auf die Stadt zu vermeiden, wolle er zugestehen, daß die österreichische Armee fünf Tage in Ulm bleibe, unter der Voraussetzung, daß ein Tor des Platzes den Franzosen übergeben werde."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Mack meant to hold Ulm: his declaration argued that the enemy wanted Ulm to stay master of the Iller and so of much of Germany, that if the Austrians held Ulm and the Iller the enemy would be forced back over the Rhine, and that it was their duty to hold out and not give up Ulm. The generals held that free exit, saving a considerable force, would serve the Emperor better than the obstinate defence of a place far from secure against assault. Krauss judges that from the moment he received their counter-declaration Mack was resolved to give up Ulm, though he professed that it must be held, and calls the relief articles of the capitulation thoughtless self-deception.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's stated aims (OCR passages); Krauss's judgments are evaluations, not measured effects. The phase is left unresolved: the aims were Mack's and his generals' own, but the passages read do not say what orders from Vienna bound Mack. English renderings (ours): Mack, 'it is clear that he wants to have Ulm so as to remain master of the Iller and, consequently, of a large part of Germany, where we would have no secure winter quarters and where we would have grave worries for the Tyrol'; 'if we remain masters of Ulm and the Iller, the enemy will be forced to recross the Rhine, and our fortune is assured for ever'; 'I am therefore absolutely convinced that our duty is to hold firm and not to surrender Ulm'; the generals, as in claim side-b-command; Krauss, 'from the moment of receiving this counter-declaration Mack was resolved on the surrender of Ulm, even if for his own person he ostentatiously expressed the view that Ulm must be held at all costs'; 'articles 5 and 10 of the treaty thus appear only as the thoughtless self-deception of a superficial and optimistic character'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 216 (OCR running heads; not checked against print)",
+          "quote": "IL est clair qu'il veut avoir Ulm pour rester maitre de l'ller et, par suite, d'une grande partie de l'Allemagne, où nous n'au- rions pus de quartiers d'hiver en sécurité et où nous éprouverions de graves inquiétudes pour le Tyrol."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "Si nous restons maîtres d'Ulm et de l'Iller, l'ennemi sera forcé de repasser le Rhin, et notre bonheur eat assuré pour toujours."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "Je suis donc absolument persuadé que notre devoir est dé tenir ban et de ne pas reudre Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-council-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 217 (OCR running heads; not checked against print)",
+          "quote": "Nous soussigués sommes de l'avis opposé et croyons que la libre sortie d'Ulm, sauvant une troupe considérable, rendrait un plus grand service à Sa Majesté que la dé'ense obstinée de cette place, qui est loin d'être hors d'insulte,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 475 (OCR page markers; not checked against print)",
+          "quote": "dem Auüenblicke der Übernahme dieser Gegenerklärung an war Mack zur Übergabe von Ulm entschlossen, wenn er auch für seine Person ostentativ die Ansicht aussprach, Ulm sei unbe- dingt zu halten."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 480 (OCR page markers; not checked against print)",
+          "quote": "Die x^rtikel 5 und 10 des Vertrages erscheinen also nur als gedankenloser Selbstbetrug eines oberflächlichen und optimistischen Charakters,"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Ney's divisions, with Suchet's, stormed the entrenchments on the Michelsberg and Geisberg on the 15th and drove side B back into the town; side A then invested Ulm on all sides and bombarded it, and side B capitulated. Side B's counter-stroke that threw back the French who had got into the town did not make it the attacker.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' histories describe side A storming side B's works and investing and bombarding the town. Napoleon, side A's commander at this engagement, gave the orders for the attack and directed Malher's division in person (claim side-a-command), so the posture is tagged commander_created. English renderings (ours): Krauss, 'the division Malher took the redoubts on the Michelsberg at the first rush and pressed on toward the town'; 'the division Loison had advanced along the Albeck road, taken the entrenchments and pushed up to the enceinte of Ulm'; 'only the energetic intervention of a captain, who attacked the French and pushed them back through the gate, prevented Ulm from falling into French hands already on the 15th'; 'that afternoon the rest of the imperial army was driven back into the town of Ulm'; Alombert and Colin, 'directed by the Emperor in person, it took the road to Jungingen'; Krauss, 'Ulm and the army were thus surrounded on all sides'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Die Division Malher nahm im ersten Anlaufe die Schanzen auf dem Michelsberg und drang gegen die Stadt vor;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Die Division Loison war längs der Albecker Straße vorgegangen, hatte die Verschanzungen genommen und war bis an die Umwallung von Ulm vorgedrungen."
+        },
+        {
+          "source_id": "krauss-1912-p470-figures-v1",
+          "section": "p470",
+          "locator": "Krauss (1912), p. 470 (transcribed from the page image)",
+          "quote": "Nur dem energischen Eingreifen eines Hauptmannes, der die Franzosen angriff und durch das Tor zurückdrängte, war es zu danken, daß Ulm nicht schon am 15. in die Hände der Franzosen gefallen war."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Am 15. nachmittag war der ßest der k. k. Armee in die Stadt Ulm zurückgedrängt."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "ulm-investment-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 88 (OCR running heads; not checked against print)",
+          "quote": "Dirigée par l'Empereur en personne, elle prit le chemin de Jungingen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "Ulm und die Armee waren somit von allen Seiten eingeschlossen."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B fought from works: Alombert and Colin say the Austrians held improvised fortification works on the heights of the Michelsberg and Geisberg, whose redoubts the 25e léger attacked; Krauss that troops of Schwarzenberg's corps occupied Ulm's advanced entrenchments on the morning of the 15th and that the French took them. The army then held the town, whose remaining fortifications were the gate towers, the old town wall and the town ditch, which Colonel Dedovich prepared for flooding. The generals cited Dedovich's opinion that Ulm could not be regarded as a fortress at all, and Napoleon, as Mack reported him, said it did not deserve the name.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded B_fortified because the cited passages name works held by side B. The phase is left unresolved: the town wall, ditch and gate towers are permanent works (inherited), but the passages read do not say when or on whose order the works on the heights were built or the ditches flooded. English renderings (ours): Alombert and Colin, 'the Austrians occupy improvised fortification works on the heights of the Michelsberg and the Geisberg'; 'the 25th light begins the attack at the charge. Its three battalions, in a single column, file to the left of the redoubts; the 3rd battalion, having passed the first redoubt, attacks it by the gorge, while the two others assault the main work in front and in rear'; Krauss, 'early on the ... troops of Schwarzenberg's corps, whose command FML Klenau had taken over, occupied the advanced entrenchments of [Ulm]'; 'had taken the entrenchments'; 'only the gate towers, the old town wall, the town ditch and the stone work on the Danube island remained'; 'Colonel Dedovich prepared the ditches for flooding'; 'according to the statement of the engineer colonel Dedovich, entrusted with the fortification of Ulm, Ulm could not be regarded as a fortress at all'; Napoleon, as Mack gave his words, 'how could you take it into your head to want to defend yourself in so wretched a place as Ulm, which does not even deserve the name of fortress?'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p89-figures-v1",
+          "section": "p89",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 89 (transcribed from the page image)",
+          "quote": "Les Autrichiens occupent des ouvrages de fortification improvisés sur les hauteurs du Michelsberg et du Geisberg."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p89-figures-v1",
+          "section": "p89",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 89 (transcribed from the page image)",
+          "quote": "Le 25e léger commence l'attaque au pas de charge. Ses trois bataillons, en une seule colonne, filent à gauche des redoutes; le 3e bataillon, ayant dépassé la première redoute, l'attaque par la gorge, tandis que les deux autres abordent l'ouvrage principal de front et à revers."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 468 (OCR page markers; not checked against print)",
+          "quote": "Am 15. früh besetzten Truppen des Korps Sehwarzenberg, dessen Kommando FML. Klenau übernommen hatte, die vor- geschobenen Verschanzungen von"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 470 (OCR page markers; not checked against print)",
+          "quote": "hatte die Verschanzungen genommen"
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "nur die Tortürme, die alte Stadtmauer, der Stadtgraben und das steinerne Werk auf der Donau-Insel blieben erhalten;"
+        },
+        {
+          "source_id": "krauss-1912-p475-figures-v1",
+          "section": "p475",
+          "locator": "Krauss (1912), p. 475 (transcribed from the page image)",
+          "quote": "Oberst Dedovich richtete die Gräben zur Bewässerung her."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-capitulation",
+          "locator": "Krauss (1912), p. 473 (OCR page markers; not checked against print)",
+          "quote": "Nach Angabe des mit der Befestigung von Ulm betrauten Genieobersten Dedovieh könne Ulm gar nicht als Festung ange-"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "ulm-surrender",
+          "locator": "Krauss (1912), p. 496 (OCR page markers; not checked against print)",
+          "quote": "Wie konnten Sie sieh dazu verrennen, sieh in einem so elenden Platz wie Ulm verteidigen zu wollen, der nicht einmal den Namen Festung verdient?"
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Mack's relation and the Kriegsarchiv files of the inquiry that Krauss quotes; the 'Relation de la prise d'Ulm' from which Alombert and Colin print Mack's declaration; the list of prisoners by regiments (Alombert and Colin, t. III, p. 864), which Krauss cites but which was not read; Ségur's memoirs; the bulletin of 21 October; Krauss's map (Beilage 30). Figures seen only in the OCR and not recorded: the field guns firing on the ramparts on the evening of the 15th (Alombert and Colin, t. III, vol. 1, p. 91); the hour of the attack (pp. 88-89); the garrison figures in Mack's letter to Schwarzenberg (Krauss, p. 474); the regiments of Ney's corps in the agreement of 19 October (p. 497); the relief term of the capitulation (both texts).",
+    "Most consequential gap: side A's strength. No French situation for the army around Ulm on 15-20 October was read; Bodart's 80,000 and the Austrian generals' 70,000 are the only figures, and the formations before Ulm changed from day to day (Dupont's division and Klein's dragoons left against Werneck; Soult arrived on the 16th). A situation of the Grande Armée for mid-October, or returns for the formations named, could close it.",
+    "Disputes kept as separate claims or recorded in them: side B's strength as 24,000 (Bodart), the return's 22,600 or 25,000 with the sick and wounded, Mack's 15,000 for the defence and his 12,000 infantry and 3,000 cavalry to Bertrand; the prisoners as 25,365 (Alombert and Colin, the regimental list), 23,000 (Austrian figures) or 33,000 with 3,000 wounded (bulletin); the guns as 59 (Bodart, Krauss, Austrian figures), 63 and 2 howitzers (Alombert and Colin), 60 (regimental list), 65 (bulletin) or 50 (Mack to Bertrand); the flags as 26 (Bodart) or 40 (Alombert and Colin, regimental list); who sent Liechtenstein to Ney (Mack in Krauss; the three senior generals, with or without Mack's assent, in Alombert and Colin); the French taken from Suchet's division as 169 (the 17e léger) or 160 (Krauss); Bodart's French loss of about 1,000 (54 officers), which he prints also for Elchingen.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing Mack's declaration and the generals' reply from an Austrian staff officer's relation, the capitulation and the prisoner count); Krauss (an Austrian history drawing on the Kriegsarchiv files of the inquiry, Mack's own relation and the French documents; his prisoner figures rest on Alombert and Colin's list and are not independent of it)."
+  ]
+}

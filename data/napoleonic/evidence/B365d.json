@@ -1,0 +1,685 @@
+{
+  "schema_version": 1,
+  "battle_id": "B365d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's capitulation of Trochtelfingen (18 October 1805) in cohort v1's third-coalition 1805 group: the surrender of Werneck's corps to Murat's pursuit force by the capitulation signed at Trochtelfingen, from the summons sent after the action at Neresheim on 17 October to the signature and the dispute over the departed cavalry. The action at Neresheim the day before (B365b), the surrender of the battalions lost near Neresheim, the convoy fight near Zipplingen and the capitulations of detached troops at Kirchheim and Wallerstein the same day, and Archduke Ferdinand's escape to Öttingen are context, recorded where accounts count them together. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Austrian) under FML Baron Werneck as 1,700 men, among them 4 generals and 71 officers, with 28 guns and 28 ammunition wagons, and prints no strength for side A (French) under Marshal Prince Murat. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He prints no separate loss for this capitulation, and the passages read do not say which figures he used: by Krauss, Werneck stated that he had only 1500 infantry and about 100 riders left (claim werneck-figure), while Dupont's division journal gives the corps as 6,000 infantry and 800 cavalry (claim side-a-figures). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French under Marshal Prince Murat force the Austrians (1,700 men [4 generals, 71 officers], 28 guns, 28 ammunition wagons) under FML Baron Werneck to surrender as prisoners of war'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen unter M. Pz. Murat zwingen die Österreicher (1.700 M. [4 Gen. 71 Offz.], 28 Kan., 28 Munitionswägen) unter FML. Fh. v. Werneck sich kriegsgefangen zu ergeben."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "werneck-figure",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: early on the 18th Werneck discovered that his cavalry had not camped at Trochtelfingen as ordered but had marched on by Marktoffingen toward Öttingen, so that by his own statement he had only 1500 infantry and about 100 riders left. Krauss says Archduke Ferdinand reached Öttingen that day with his cavalry, with Hohenzollern's and with some scattered infantry detachments of Werneck's corps.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Werneck's own figure as Krauss reports it, read from the page image; Krauss's sentence on the Archduke was seen in the OCR. The figure is a commander's statement after the event, not a return. The corps reached Trochtelfingen as it stood after Neresheim, so the claim is tagged inherited. English renderings (ours): 'early on the 18th FML von Werneck discovered that his cavalry had not, as ordered, made camp at Trochtelfingen, but had marched on by Marktoffingen toward Öttingen. He thus had, by his statement, only 1500 men of infantry and about 100 riders at his disposal'; 'only Archduke Ferdinand reached Öttingen on 18 October with his cavalry, with that of FML Count Hohenzollern and with some scattered infantry detachments of Werneck's corps'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "Am 18. früh entdeckte FML. v. Werneck, daß seine Kavallerie nicht, wie ihr befohlen, bei Trochtelfingen Lager bezogen habe, sondern über Marktoffingen gegen Öttingen weitermarschiert war. Er hatte somit nach seiner Angabe nur mehr 1500 Mann Infanterie und etwa 100 Reiter zur Verfügung."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Nur Erzherzog Ferdinand erreichte mit seiner Kavallerie, mit der des FML. Grafen HohenzoUern und mit einigen versprengten Infanteriealjteilungen des Korps Werneck am 18. Oktober ()ttingen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-figures",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Dupont's division journal says General Werneck capitulated with his army corps, 6,000 infantry, 800 cavalry, 25 guns and 3 generals strong.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's figure, read from the page image; the journal does not say how it was obtained, and it differs from Werneck's own statement and from Bodart's figure. The cavalry reserve's totals for the whole day are in claim side-b-losses-reported. English rendering (ours): 'General Werneck capitulates with his army corps, 6,000 men of infantry, 800 men of cavalry, 25 guns and 3 generals strong'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1224-figures-v1",
+          "section": "p1224",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1224 (transcribed from the page image)",
+          "quote": "Le général Werneck capitule avec son corps d'armée, fort de 6,000 hommes d'infanterie, 800 hommes de cavalerie, 25 pièces de canon et 3 généraux."
+        }
+      ]
+    },
+    {
+      "id": "side-a-forces",
+      "dimension": "strength",
+      "value": "Side A's forces named near Trochtelfingen on the 18th: Fauconnet's two chasseur regiments, which had followed the enemy from Aalen, attacked the tail of the convoy as far as Trochtelfingen; Klein's dragoon division, joined before Ohmenheim by Dupont's division, the carabiniers and the Guard chasseurs, marched on toward Nördlingen while the capitulation was settled. No passage read gives their strength.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Forces named in the cavalry reserve's report (page image) and the dragoon division's record (OCR); their positions came from the pursuit ordered before this day, so the claim is tagged inherited. English renderings (ours): the report, 'General Fauconnet, with his two regiments of chasseurs, who from Aalen was following the enemy step by step, attacks at the same time the tail of the convoy as far as the village of Trochtelfingen, where the enemy took position on a plateau and stopped our skirmishers. General Fauconnet, who was following the movement with the rest of his troops, was preparing to charge when an Austrian officer came to inform this general that a parley was under way'; the dragoon division's record, 'the division assembled in front of Ohmenheim, on the road to Nördlingen, where it was joined by General Dupont's division, the two (OCR) ... of carabiniers and the chasseurs of the Imperial Guard'; 'meanwhile the column continued to march toward Nördlingen'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Le général Fauconnet, avec ses deux régiments de chasseurs, qui d'Aalen suivait l'ennemi pas à pas, attaque en même temps la queue du convoi jusqu'au village de Trochtelfingen, où l'ennemi prit position sur un plateau et arrêta nos tirailleurs. Le général Fauconnet, qui suivait le mouvement avec le reste de ses troupes, se disposait à charger, lorsqu'un officier autrichien vint prévenir ce général qu'on parlementait."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1220 (OCR running heads; not checked against print)",
+          "quote": "La division s'est réunie en avant d'Obmenheim, sur la route de Nürdlingen, vù elle a été jointe par la division du général Dupont, les deux euts de carabiniers et les chasseurs de la Garde impériale,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "pendant ce temps, la colonne a continué à marcher vers Nôrdlingen,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and FML Baron Werneck as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. The capitulation was settled for Murat by his chief of staff, General Belliard, and signed by Werneck (claim side-a-command). English renderings (ours): 'the French under Marshal Prince Murat'; 'under FML Baron Werneck'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen unter M. Pz. Murat zwingen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "unter FML. Fh. v. Werneck sich kriegsgefangen zu ergeben."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "After the action at Neresheim (B365b) General Klein, having recognized the disintegration of the Austrian corps in the pursuit by Ohmenheim, sent a parlementaire to summon Werneck to lay down his arms, the corps being surrounded on all sides. Werneck's reply reached Klein as his column was about to march; Klein passed it to Murat, who sent his chief of staff, General Belliard, to settle the articles of the capitulation while he himself went on toward Nördlingen. The treaty Krauss prints is signed at Trochtelfingen by Belliard and Werneck. Klein then marched to the heights west of Öttingen to overawe the enemy and keep it from breaking the treaty. When Murat learned that the Austrian cavalry had gone, he would not recognize the treaty until the cavalry had submitted, and required Werneck to order Hohenzollern to submit.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions of side A's commanders as Krauss, the dragoon division's record and the cavalry reserve's report give them, all seen in the OCR; Krauss prints the signature from the Kriegsarchiv copy as 'Beillard'. English renderings (ours): Krauss, 'General Klein, who in the pursuit by Ohmenheim had recognized the disintegration of the Austrian corps, sent a parlementaire to FML Werneck with the summons to lay down his arms, as the Austrian corps was surrounded on all sides'; the record, 'General Klein received General Werneck's reply only at the moment when the column was about to set out; he at once had this letter passed to His Most Serene Highness Prince Murat, who sent General Belliard, chief of his staff, to settle the articles of the capitulation'; the report, 'His Highness, fearing for Nördlingen, pushed forward with his cavalry. On the way she received from Lieutenant General Werneck a reply to the summons that had been made to him. The general asked to capitulate. The Prince sent his chief of staff' (p. 1221) 'to Lieutenant General Werneck and continued his way toward Nördlingen' (p. 1222); Krauss, 'Trochtelfingen, 18 (OCR) October 1805. Beillard. Werneck, FML'; the record, 'General Klein then marched to the heights west of Öttingen, in order to overawe the enemy and prevent him from breaking his treaty'; Krauss, 'article 4 of the treaty was to bear bad fruit for FML von Werneck. When Murat learned of the departure of the Austrian cavalry, he would not recognize the whole treaty until the cavalry had submitted to the treaty. He therefore demanded of FML Werneck that he send an order to FML Count Hohenzollern to submit to the capitulation and so to surrender. FML von Werneck actually did this'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "General Klein, der bei der Verfolgung über Ohmenheim die Zerrüttung des österreichischen Korps erkannt hatte, sandte einen Parlamentär zu FML. Werneck mit der Aufforderung, die Waffen zu strecken, da das österreichische Korps von allen Seiten um- schlossen sei."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "le général Klein n'a reeu qu'au moment où la eolonne allait se mettre en route la réponse du général Werneck; il a de suile fait passer celle Iettre à Sun Allesse Sérénissime le prince Murat, qui à envoyé le général Belliard, chef de son élat-major, pour régler les articles de la capitulation;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "Son Altesse, craignant pour Nôrdlingen, poussa en avant avec sa cavalerie, En roule, elle reçut de M. le lieutenant général Werneck une réponse à la sommation qui lui avait été faite. Le général demandait à capituler. Le Prince envoya son chef d'état-major"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (OCR running heads; not checked against print)",
+          "quote": "auprès du lieutenant général Werneck et continua sa route sur Nürdlingen,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "Trochtelfingen, am 18. Oktober 1805. Beillard. Werneck, FML."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein marcha ensuite sur les hauteurs à l'Ouest 4'Oftingen, afn d'en imposer à l'ennemi et d'empêcher qu'il ne rompit son traité ;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "Der Artikel 4 des Vertrages sollte dem FML. v. Werneck böse Früchte tragen. Als Murat den Abzug der österreichischen Ka- vallerie erfuhr, wollte er den ganzen Vertrag nicht eher anerkennen, bevor nicht die Kavallerie sich dem Vertrag unterworfen habe. Er forderte daher von FML. Werneck, daß er an den FML. Grafen Hohenzollern Befehl sende, sich der Kapitulation zu unterwerfen und sich daher zu ergeben. FML. v. Werneck tat dies wirklich."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "FML Werneck commanded side B. Met at Trochtelfingen by the parlementaire, he put off his decision to the next day, kept the French officer and gave the major of the Kaunitz regiment as a hostage. The dragoon division's journal says that in the night he moved his troops to the left of Nördlingen to join the Archduke at Öttingen, but that meeting French troops again they did not dare go on and came back to Trochtelfingen, whence he wrote to Klein that he was disposed to capitulate; Krauss gives Werneck's statement that he reconnoitred toward Kirchheim and Wallerstein in person in the night and met French troops there. Early on the 18th, his exhausted infantry being unable to escape the French cavalry without the support of strong cavalry, Werneck decided to capitulate. Article 4 of the capitulation bound the regiments and detachments separated from his corps as well; at Murat's demand he ordered Hohenzollern to submit. Krauss says Werneck later justified article 4 by his wish to obtain good terms and to ease the lot of the captive officers, and judges that he drew into the capitulation, for personal advantage, parts of his corps that could still have escaped.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Krauss and the dragoon division's journal give them (OCR passages, except the decision to capitulate, read from the page image); Werneck's statements are his own account, and Krauss's judgment is an evaluation. English renderings (ours): Krauss, 'at Trochtelfingen they at last found Werneck, who reserved the decision for the 18th (OCR)'; the journal, 'but how great was his astonishment to meet, half a league (OCR) from this town, French patrols; he no longer doubted that the Austrians were surrounded, and the report he made of it to his general, whom he found at Trochtelfingen, determined him to listen to the proposal and to put off the conclusion to the next day; he kept the French officer and gave as hostage the major of the Kaunitz regiment'; 'nevertheless General Werneck had his troops make a movement during the night, to the left of Nördlingen, to join Archduke Ferdinand's corps at Öttingen; but having again met French troops, they did not dare to go further, and came back to take position at Trochtelfingen and the surroundings, whence General Werneck wrote to General Klein, sending back his parlementaire, to let him know that he was disposed to capitulate'; Krauss, 'FML von Werneck states that he reconnoitred in person in the night toward Kirchheim and Wallerstein and met French there'; 'as his exhausted infantry was not able, without the support of strong cavalry, to escape the French cavalry, Werneck decided early on the 18th to capitulate'; '4. All regiments, battalions, squadrons and detachments that are separated from the army corps of FML Werneck lay down their arms and become prisoners of war'; 'for he justified article 4 of the treaty in his reports by saying that he had wanted to obtain good terms of capitulation and to ease the fate of the captured officers!'; 'one does not know at which of the two generals one should wonder more, at Hohenzollern, who simply rides off by night with the cavalry and leaves in the lurch his corps commander, who was refusing the capitulation, and the infantry, to save himself, or at Werneck, who for the sake of personal advantages also includes in the capitulation parts of his corps that could still save themselves from it'; Murat's demand, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "Bei Trochtelfingen trafen sie endlich Werneck, der sich die Entscheidung für den 18. vorbehielt."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Mais quel fut son étonne- ment de rencontrer, à une demie-lieue de cette ville, des patrouilles françaises ; il ne douta plus que les Autrichiens fas- sent enveloppés, et le rapport qu'il en ft à son général, qu'il trouva à Trochtelfingen, le détermina à écouter la proposition et à remettre la conclusion au lendemain ; il retint l'officier français et donna en otage le major du régiment de Kaunitz."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Néanmoins, le général Werneek fit faire pendant la nuit un mouvement à ses troupes, sur ln gauche de Nérdlingen, pour rejoindre à ORttingen le eorps de l'archidue Ferdinand ; mais ayant de nouveau rencontré des troupes françaises, elles n'osèrent passer autre, ct revinrent prendre positian à Trochtelfingen et environs, d'où le général Werneck écrivit au général Klein, en lui renvoyant son parlementaire, pour lui faire connaître qu'il était disposé à eapitnler."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "FML. V. Werneck gibt an, in der Nacht persönlich gegen Kirchheim und Wallerstein rekognosziert und dort Franzosen ge- troffen zu haben."
+        },
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "Da seine erschöpfte Infanterie ohne Unterstützung starker Kavallerie nicht im stande war, sich der französischen Kavallerie zu entziehen, entschloß sich Werneck am 18. früh zur Kapitulation."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "4. Alle Regimenter, Bataillone, Eskadronen und Detacliements, welche von dem Armeekorps des Herrn FML. Werneck getrennt sind, legen die Waffen nieder und werden kriegsgefangen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "denn er rechtfertigte in seinen Berichten den Ar- tikel 4 des Vertrages damit, daß er gute Kapitulationsbedingungen erhalten und das Schicksal der gefangenen Offiziere erleichtern wollte!"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Man weiß nicht, üljer welchen der beiden Generale man sich mehr wundern soll, über HohenzoUern, der einfach bei Nacht mit der Kavallerie davonreitet und seinen die Kapitulation ablehnenden Korpskommandanten und die Infanterie im Stiche läßt, um sich zu retten, oder über Werneck, der persönlicher Vorteile willen auch Teile seines Korps in die Kapitulation einbezieht, die sich noch da- vor retten konnten."
+        }
+      ]
+    },
+    {
+      "id": "cavalry-departure-austrian",
+      "dimension": "responsibility",
+      "value": "Side B's account of its cavalry, in Krauss: it left in the night before the capitulation, against orders marching on toward Öttingen instead of camping at Trochtelfingen. Hohenzollern, ordered by Werneck to submit, replied that when he left Werneck, Werneck had in his presence refused any capitulation, that he had tried to save the cavalry and succeeded, and that since the day before he had been separated from Werneck and no longer took his orders. Krauss says Hohenzollern rode off by night with the cavalry and left his corps commander and the infantry in the lurch. Archduke Ferdinand, answering Hohenzollern from Schwabach, called the French general's claims illegal under the laws of war, declared that Hohenzollern and the troops who had come back with him could not be included in the capitulation, and ordered them to go on serving.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's account, from Krauss's page image, his OCR print of Hohenzollern's letter and the Archduke's letter as Alombert and Colin print it (OCR, t. III, vol. 2, p. 1256); both letters are the parties' own positions. It differs from the French reports on when and how the cavalry left (claim cavalry-departure-french); the passages read do not settle it. English renderings (ours): Krauss, as in claim werneck-figure; Hohenzollern, '\"when I left you, you had in my presence refused any capitulation. I tried to save the cavalry; it succeeded\"'; '\"now, since yesterday, I am separated from you and it is no longer for me to follow your orders\"'; Krauss's judgment as in claim side-b-command; the Archduke, 'you have submitted to me the letter of Lieutenant General Werneck; I shall answer you that according to the laws of war and the rights of nations I find the claims of the French general very illegal. Consequently I declare that you and the troops with which you came back cannot be included in the capitulation. I therefore order you, and them, to continue to serve as before'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "Am 18. früh entdeckte FML. v. Werneck, daß seine Kavallerie nicht, wie ihr befohlen, bei Trochtelfingen Lager bezogen habe, sondern über Marktoffingen gegen Öttingen weitermarschiert war. Er hatte somit nach seiner Angabe nur mehr 1500 Mann Infanterie und etwa 100 Reiter zur Verfügung."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "Als ich Sie verließ, hatten Sie in meiner Gegenwart jede Kapitulation abgelehnt. Ich versuchte die Kavallerie zu retten, es gelang."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "Jetzt, seit gestern, bin ich von Ihnen getrennt und es kommt mir nicht mehr zu, Ihre Be- fehle zu befolgen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Man weiß nicht, üljer welchen der beiden Generale man sich mehr wundern soll, über HohenzoUern, der einfach bei Nacht mit der Kavallerie davonreitet und seinen die Kapitulation ablehnenden Korpskommandanten und die Infanterie im Stiche läßt, um sich zu retten, oder über Werneck, der persönlicher Vorteile willen auch Teile seines Korps in die Kapitulation einbezieht, die sich noch da- vor retten konnten."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1256 (OCR running heads; not checked against print)",
+          "quote": "Son Altesse Royale le prinos Ferdinand au lieutenant général comte de Hohenzollern. Schwabach,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1256 (OCR running heads; not checked against print)",
+          "quote": "Vous m'avez soumis la lettre du lieutenant général de Wer- neck, je vous répondrai que selon les lois de la guerre et les droits des nations, je trouve très illégales les prétentions du général français. En conséquence, je déclare que vous et les troupes avec les- quelles vous êtes rentré, ne peuvent être compris dans la capi- tulation. Je vous ordonne done, ainsi qu'à elles, de continuer à servir comme auparavant"
+        }
+      ]
+    },
+    {
+      "id": "cavalry-departure-french",
+      "dimension": "responsibility",
+      "value": "The French reports' account of side B's cavalry: the cavalry reserve's report says that while the capitulation was being negotiated Hohenzollern and Mecsery continued their march, and that, informed of the capitulation, they escaped against the faith of treaties and joined the Archduke in the night; the dragoon division's record says that the cavalry and infantry (a word is lost in the OCR), unwilling to submit to the capitulation their general had signed, used the darkness to escape with Generals Hohenzollern and Mecsery. The report's prisoner total names Hohenzollern and Mecsery among the generals taken.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's interested accounts, seen in the OCR, with the report's total read from the page image; they differ from side B's account (claim cavalry-departure-austrian) and the report's own list counts the two generals it says escaped. English renderings (ours): the report, 'while the negotiation with Lieutenant General Werneck went on, MM. Hohenzollern and Mecsery continued their march and tried to join the corps of Prince Schwarzenberg, who was following Archduke Ferdinand and covering the part of the convoy that had escaped'; 'they were informed of the capitulation, but against the faith of treaties these gentlemen, who, while the negotiation went on, had deceived the good faith of the Prince by not remaining at their post, escaped and joined Archduke Ferdinand in the night'; the record, 'in spite of this precaution, the cavalry and ... of the infantry, not having been willing to submit to the capitulation signed by its general, took advantage of the darkness to escape with Generals Hohenzollern and Mecsery and join the corps of Archduke Ferdinand'; the report's total as in claim side-b-losses-reported.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1223 (OCR running heads; not checked against print)",
+          "quote": "Pendant qu'on négociait avee M. le lieutenant général Wer- neck, MM. Iohenrollern et Meesery continuaient leur marche et tächaient de se réunir au corps du prince de Schwartsenberg, qui suivait l'archidue Ferdinand ct eouvrait la partie du convoi qui avait échappé."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1223 (OCR running heads; not checked against print)",
+          "quote": "on leur fit part de la capitulation, mais contre la foi des traités, ces Messieurs, qui, pendant qu'on négociait, avaient trompé la bonne foi du Prince en ne restant pas à leur posi- fion, s'évadèrent et joignirent dans la nuit l'archidne Fordi- nand."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "malgré cette précaution, la cavalerie et n de l'infanterie, n'ayant pas voulu se soumettre à ln capitulation souscrite par son général, a profité de l'obseurité pour s'échapper avee les généraux Hohenzollern et Mecsery et rejoindre le corps de l'archidue Ferdinand."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "4,000 ou 5,000 prisonniers, dont 3 lieutenants généraux, MM. Werneck, Baillet-Latour et Hohenzollern; 4 généraux-majors, MM. de Rohan, Mecsery, Hohenfeld, Weber; et environ 200 officiers de tous grades, avec 5 drapeaux, 80 pièces de canon avec leurs caissons, 300 ou 400 voitures ou chariots, 200 à"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records that the French forced side B to surrender as prisoners of war. By the first article of the capitulation Werneck's reserve corps laid down its arms, became prisoner of war and was to be taken to France; the officers were prisoners on parole and were to go to Austria, not to serve against the French or their allies until exchanged. The cavalry reserve's report gives the same terms. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the capitulation's text as Krauss prints it from the Kriegsarchiv (article 1 read from the page image, article 2 and the signature in the OCR) and the cavalry reserve's report (page image). English renderings (ours): Bodart, as in claim bodart-strength; Krauss, '1. The reserve corps under the command of FML Werneck lays down its arms, is prisoner of war and will be taken to France'; '2. The officers are prisoners of war on parole and go to Austria. Before an exchange has taken place they may fight neither against the French army nor against its allies'; the report, 'the arrangements were concluded, and according to the capitulation all the troops of the army corps of Lieutenant General Werneck are prisoners of war and sent back to France. The general and other officers may go home, on their word not to serve again until after being exchanged'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Die Franzosen unter M. Pz. Murat zwingen die Österreicher (1.700 M. [4 Gen. 71 Offz.], 28 Kan., 28 Munitionswägen) unter FML. Fh. v. Werneck sich kriegsgefangen zu ergeben."
+        },
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "1. Das Korps de reserve unter Befehl des Herrn FML. Werneck legt die Waffen nieder, ist kriegsgefangen und wird nach Frankreich geführt."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "2. Die Herren Offiziere sind kriegsgefangen auf Ehrenwort und gehen nach Österreich. Sie dürfen vor geschehener Auswechs- lung weder gegen die französische Armee noch gegen deren Al- liierte kämpfen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Les arrangements se terminèrent, et d'après la capitulation, toutes les troupes du corps d'armée de M. le lieutenant général Werneck sont prisonnières de guerre et renvoyées en France. Les officiers généraux et autres peuvent rentrer chez eux, sur leur parole de ne plus servir qu'après avoir été échangés."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: the cavalry reserve's report gives, as the result of the combined attacks on the convoy and of Murat's march on Nördlingen, which made Werneck's corps lay down its arms, 4,000 or 5,000 prisoners, among them 3 lieutenant generals (Werneck, Baillet-Latour, Hohenzollern), 4 major generals (Rohan, Mecsery, Hohenfeld, Weber) and about 200 officers, with 5 flags, 80 guns with their caissons and 300 or 400 vehicles, besides horses; before the parley Fauconnet's chasseurs had taken from the convoy's tail about 200 caissons loaded with cartridges and baggage, officers' horses, about 400 dragoon and draught horses and 300 prisoners. Krauss says several detached parts of Werneck's corps and most of the artillery reserve capitulated the same day at Kirchheim and Wallerstein, where General Rivaud had got ahead of them.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page image except the report's sentence on the combined attacks and Krauss (OCR). The report's totals cover the convoy and the detached troops as well as Werneck's corps, so they are not Trochtelfingen's alone, and the report's horse count continues on p. 1223 (OCR, not restated); they are not combined with Bodart's figure. English renderings (ours): the report, 'these combined attacks and the march of His Most Serene Highness on Nördlingen brought into our power the greater part of the great park of the enemy army and made the corps of Lieutenant General Werneck lay down its arms'; '4,000 or 5,000 prisoners, of whom 3 lieutenant generals, MM. Werneck, Baillet-Latour and Hohenzollern; 4 major generals, MM. de Rohan, Mecsery, Hohenfeld, Weber; and about 200 officers of all ranks, with 5 flags, 80 guns with their caissons, 300 or 400 carriages or wagons, 200 to' (p. 1222) '... troop or draught horses, such is the result of the fine day of Nördlingen' (p. 1223, OCR); 'we had already taken about 200 caissons loaded with cartridges and baggage, officers' horses, about 400 dragoon and draught horses and 300 prisoners'; Krauss, 'on 18 October several detached parts of Werneck's corps and the greater part of the artillery reserve also capitulated at Kirchheim and Wallerstein, where General Rivaud with troops from Donauwörth and Nördlingen had placed himself in their way'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (OCR running heads; not checked against print)",
+          "quote": "Gos attaques combinées et la marche do Son Altesse Sérénis- sime sur Nôrdliagen out fait tomber en notre pouvoir la majeure partie du grand pare de l'armée ennemie el fait mellre Las les armes au corps de M. le lieutenant général Werneck."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "4,000 ou 5,000 prisonniers, dont 3 lieutenants généraux, MM. Werneck, Baillet-Latour et Hohenzollern; 4 généraux-majors, MM. de Rohan, Mecsery, Hohenfeld, Weber; et environ 200 officiers de tous grades, avec 5 drapeaux, 80 pièces de canon avec leurs caissons, 300 ou 400 voitures ou chariots, 200 à"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1223 (OCR running heads; not checked against print)",
+          "quote": "voilà le résultat de la belle journée de Nürdlingen"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Nous avions déjà pris environ 200 caissons chargés de cartouches et de bagages, des chevaux d'officiers, environ 400 chevaux de dragons et de charroi et 300 prisonniers."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Am 18. Oktober kapitulierten noch mehrere abgetrennte Teile des Korps Werneck und der größte Teil der Artilleriereserve bei Kirch heim und Wallersteiu, wo sich ihnen General ßivaud mit Truppen aus Donauwörth und Nördlingen vorgelegt hatte."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives side A's loss at Trochtelfingen or in Fauconnet's attack on the convoy's tail, and Bodart prints none. Unknown, not zero.",
+      "citations": []
+    },
+    {
+      "id": "trochtelfingen-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Trochtelfingen as a village in Württemberg, 55 km northeast of Ulm. At Trochtelfingen the enemy took position on a plateau and stopped Fauconnet's skirmishers. The great park of side B's army was marching by the Ellwangen road toward Öttingen by Wallerstein, its march covered by Werneck's corps; Werneck's cavalry, ordered to camp at Trochtelfingen, went on by Marktoffingen toward Öttingen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, the cavalry reserve's report (page image, except the park's route, seen in the OCR) and Krauss (page image); no map was inspected. English renderings (ours): Bodart, 'village in Württemberg, 55 km northeast of Ulm'; the report, as in claim side-a-forces; 'meanwhile the great park of the enemy army was marching by the Ellwangen road under the escort of an army corps commanded by Lieutenant General Prince Liechtenstein, with whom was Archduke Ferdinand, and was heading for Öttingen by Wallerstein. The corps of Lieutenant General Werneck covered its march'; Krauss, as in claim werneck-figure.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "(Dorf in Württemberg, 55 km nordöstl. von Ulm)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Le général Fauconnet, avec ses deux régiments de chasseurs, qui d'Aalen suivait l'ennemi pas à pas, attaque en même temps la queue du convoi jusqu'au village de Trochtelfingen, où l'ennemi prit position sur un plateau et arrêta nos tirailleurs. Le général Fauconnet, qui suivait le mouvement avec le reste de ses troupes, se disposait à charger, lorsqu'un officier autrichien vint prévenir ce général qu'on parlementait."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (OCR running heads; not checked against print)",
+          "quote": "Pendant ce temps, le grand pare de l'armée ennemie marchait par la route d'Ellwangen sous l'escorte d'un corps d'armée commandé par le lieutenant général prince de Liechtenstein, où se trouvait l'archidue Ferdinand, et so dirigeait sur ORttingen par Wallerstein. Le corps du lieutenant général Werneek eou- vrait sa marcho."
+        },
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "Am 18. früh entdeckte FML. v. Werneck, daß seine Kavallerie nicht, wie ihr befohlen, bei Trochtelfingen Lager bezogen habe, sondern über Marktoffingen gegen Öttingen weitermarschiert war. Er hatte somit nach seiner Angabe nur mehr 1500 Mann Infanterie und etwa 100 Reiter zur Verfügung."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B's infantry was exhausted and, without the support of strong cavalry, could not escape the French cavalry. Austrian battalions lost in the woods in the night offered that morning to surrender to Murat at discretion with their artillery, being surrounded and without resources or food. The capitulation gave up the cavalry's horses, the guns with all their equipment and the ammunition, and the convoy covered by Werneck's corps lost caissons of cartridges and baggage and draught horses to Fauconnet's chasseurs.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the battalions' state and article 3, seen in the OCR). No return of Werneck's supply was inspected. English renderings (ours): Krauss, as in claim side-b-command; the report, 'leaving the abbey, His Most Serene Highness received a parlementaire who came to offer to surrender at discretion three (OCR) battalions with their artillery. This troop, lost in the night in the woods, was surrounded on all sides without resources and without food'; Krauss, '3. The horses of the cavalry, the guns with all their equipment and the ammunition are handed over to the French army'; the report's captures, as in claim side-b-losses-reported.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p488-figures-v1",
+          "section": "p488",
+          "locator": "Krauss (1912), p. 488 (transcribed from the page image)",
+          "quote": "Da seine erschöpfte Infanterie ohne Unterstützung starker Kavallerie nicht im stande war, sich der französischen Kavallerie zu entziehen, entschloß sich Werneck am 18. früh zur Kapitulation."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "En sortant de l'abbaye, Son Altesse Sérénissime reçut un parle- mentaire qui venait lui offrir de rendre à discrétion trois batail- lons avec leur artillerie. Cette troupe, égarée la nuit dans les bois, était enveloppée de taus côtés sans ressourees et sans vivres."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "3. Die Pferde der Kavallerie, die Kanonen mit allem Zugehör und die Munition werden der französischen Armee überliefert."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Nous avions déjà pris environ 200 caissons chargés de cartouches et de bagages, des chevaux d'officiers, environ 400 chevaux de dragons et de charroi et 300 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Alombert and Colin say that when Murat reported the success at Neresheim, in his letter dated at midnight, he did not yet know the result of the summons sent to Werneck. On the 18th, hearing gunfire on his left and fearing for Nördlingen, he pushed on with his cavalry and received Werneck's reply on the way; Klein received it only as his column was about to march.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Alombert and Colin's introduction and the cavalry reserve's report give it, seen in the OCR; the dateline of Murat's letter is read from the page image. English renderings (ours): Murat's letter, 'Prince Murat to the Emperor. Neresheim, 26 vendémiaire an XIV (18 October 1805), at midnight'; Alombert and Colin, 'at midnight Murat reported to the Emperor the success won at Neresheim, but he did not yet know the result of the step attempted with General Werneck'; 'Murat leaves Neresheim on the 18th at ... in the morning and meets three (OCR) Austrian battalions which, having wandered all night, ask to surrender. At ... he hears gunfire on the left, and he was heading that way when he receives Werneck's capitulation'; the report and the record, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1218-figures-v1",
+          "section": "p1218",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1218 (transcribed from the page image)",
+          "quote": "Le prince Murat à l'Empereur. Neresheim, le 26 vendémiaire an XIV (18 octobre 1805), à minuit."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 99 (OCR running heads; not checked against print)",
+          "quote": "A minuit, Murat rendait compte à l'Empereur du succès remporté à Nereshein, mais il ignorait encore le résultat de la démarche tentée auprès du général Wer- neck,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 99 (OCR running heads; not checked against print)",
+          "quote": "Murat quitte Neresheim le 18, à 5 heures du matin, et rencontre trois baluillons autrichiens qui, ayant erré toute la nuit, demandent à se rendre. A 8 heures, il entend le canon sur la gauche, et il se dirigeait de ce côté quand il reçoit la capitulation de Werneck."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "Son Altesse, craignant pour Nôrdlingen, poussa en avant avec sa cavalerie, En roule, elle reçut de M. le lieutenant général Werneck une réponse à la sommation qui lui avait été faite. Le général demandait à capituler. Le Prince envoya son chef d'état-major"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "le général Klein n'a reeu qu'au moment où la eolonne allait se mettre en route la réponse du général Werneck; il a de suile fait passer celle Iettre à Sun Allesse Sérénissime le prince Murat, qui à envoyé le général Belliard, chef de son élat-major, pour régler les articles de la capitulation;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Werneck came to believe he was surrounded. The officer escorting the parlementaire met French patrols near Nördlingen and reported it; horsemen who had escaped from Weilermerkingen reported the capture of the battalion there by cavalry, which, the journal says, completed Werneck's persuasion; Krauss adds the result of Werneck's own reconnaissance toward Kirchheim, and says that this made him believe he was surrounded on all sides by strong French cavalry. Alombert and Colin say that the French Werneck met at nightfall near Kirchheim were General Milet's small dragoon depots from Nördlingen, supported by an infantry detachment with guns.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Krauss, the dragoon division's journal and Alombert and Colin give it (OCR passages, except the footnote, read from the page image). The passages read do not give the strength of the French troops near Nördlingen. English renderings (ours): the journal, as in claim side-b-command; 'some horsemen who had escaped from Weilermerkingen, when General Lasalle took the 800 men of infantry who were there, reached General Werneck at the same time as the parlementaire and reported to him the capture of that battalion by a corps of cavalry; this report, joined to that of the officer who conducted the parlementaire, completed the persuasion of General Werneck that he was surrounded'; Krauss, 'the report of the officer who had arrived with the parlementaire on the presence of French cavalry on the road to Nördlingen and the result of his reconnaissance toward Kirchheim made Werneck believe that he was really surrounded on all sides by strong French cavalry'; Alombert and Colin, 'they at last reached Werneck at Trochtelfingen, and this general, impressed by the report of his subordinate, having also met French detachments on the road to Öttingen, believed himself surrounded and consented to enter into talks'; 'General Milet, who commanded at Nördlingen the group of the small depots of the dragoon regiments'; 'supported by a detachment of the 54th (OCR) of the line, with two (OCR) guns, he had moved on Kirchheim, and it was he whom Werneck had met at nightfall'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Mais quel fut son étonne- ment de rencontrer, à une demie-lieue de cette ville, des patrouilles françaises ; il ne douta plus que les Autrichiens fas- sent enveloppés, et le rapport qu'il en ft à son général, qu'il trouva à Trochtelfingen, le détermina à écouter la proposition et à remettre la conclusion au lendemain ; il retint l'officier français et donna en otage le major du régiment de Kaunitz."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1217-figures-v1",
+          "section": "p1217",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1217 (transcribed from the page image)",
+          "quote": "Quelques cavaliers qui s'étaient sauvés de Weilermerkingen, lorsque le général Lasalle prit les 800 hommes d'infanterie qui s'y trouvaient, arrivèrent chez le général Werneck en même temps que le parlementaire et lui firent le rapport de la prise de ce bataillon par un corps de cavalerie; ce rapport, joint à celui de l'officier qui conduisait le parlementaire, acheva de persuader le général Werneck qu'il était enveloppé."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "Die Meldung des mit dem Parlamentär angekommenen Offiziers über die Anwesenheit französi- scher Kavallerie auf der Straße nach Nördlingen und das Ergebnis seiner Rekognoszierung gegen Kirchheim machten Werneck glauben, daß er tatsächlich allseits von französischer starker Kavallerie um- schlossen sei."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 99 (OCR running heads; not checked against print)",
+          "quote": "Ils atteignirent enfin Werneck à Troéhtelfingen, et ce gé- néral, impressionné par le rapport de son subordonné, ayant aussi rencontré des détachements français sur le chemin d'(Eittingen, se crut cerné et consentit à entrer eu pourparlers,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 99 (OCR running heads; not checked against print)",
+          "quote": "Le général Milet, qui commandait à Nürdlingen le groupe des petits dépôts des régiments de dragons,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 99 (OCR running heads; not checked against print)",
+          "quote": "Soutenu par un détachement du 54° de ligne, avec deux pièces de canon, il s'était porté sur Kirchheim, et c’était Jui que Werneck avait rencontré à la nuit lombante,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's commanders aimed to make Werneck's corps lay down its arms: Klein's summons demanded it on the ground that the corps was surrounded, and after the capitulation Klein moved to the heights west of Öttingen to keep the enemy from breaking the treaty, while Murat required the departed cavalry to submit as well. Murat himself, fearing for Nördlingen, pushed on toward it.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders at this engagement, all seen in the OCR. English renderings (ours): as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "General Klein, der bei der Verfolgung über Ohmenheim die Zerrüttung des österreichischen Korps erkannt hatte, sandte einen Parlamentär zu FML. Werneck mit der Aufforderung, die Waffen zu strecken, da das österreichische Korps von allen Seiten um- schlossen sei."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein marcha ensuite sur les hauteurs à l'Ouest 4'Oftingen, afn d'en imposer à l'ennemi et d'empêcher qu'il ne rompit son traité ;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 489 (OCR page markers; not checked against print)",
+          "quote": "Der Artikel 4 des Vertrages sollte dem FML. v. Werneck böse Früchte tragen. Als Murat den Abzug der österreichischen Ka- vallerie erfuhr, wollte er den ganzen Vertrag nicht eher anerkennen, bevor nicht die Kavallerie sich dem Vertrag unterworfen habe. Er forderte daher von FML. Werneck, daß er an den FML. Grafen Hohenzollern Befehl sende, sich der Kapitulation zu unterwerfen und sich daher zu ergeben. FML. v. Werneck tat dies wirklich."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1221 (OCR running heads; not checked against print)",
+          "quote": "Son Altesse, craignant pour Nôrdlingen, poussa en avant avec sa cavalerie, En roule, elle reçut de M. le lieutenant général Werneck une réponse à la sommation qui lui avait été faite. Le général demandait à capituler. Le Prince envoya son chef d'état-major"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's corps was trying to reach the Archduke at Öttingen, covering the march of the army's great park; after the night march failed, Werneck sought terms. He later justified the article binding his detached troops by the wish to obtain good terms and to ease the lot of the captive officers; Krauss judges that he acted for personal advantage.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims as the dragoon division's journal, the cavalry reserve's report and Krauss give them, all seen in the OCR; Werneck's justification is his own account and Krauss's judgment an evaluation. Werneck's decision at Trochtelfingen sets the claim's tag. English renderings (ours): as in claims side-b-command and trochtelfingen-ground.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Néanmoins, le général Werneek fit faire pendant la nuit un mouvement à ses troupes, sur ln gauche de Nérdlingen, pour rejoindre à ORttingen le eorps de l'archidue Ferdinand ; mais ayant de nouveau rencontré des troupes françaises, elles n'osèrent passer autre, ct revinrent prendre positian à Trochtelfingen et environs, d'où le général Werneck écrivit au général Klein, en lui renvoyant son parlementaire, pour lui faire connaître qu'il était disposé à eapitnler."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "trochtelfingen-18-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (OCR running heads; not checked against print)",
+          "quote": "Le corps du lieutenant général Werneek eou- vrait sa marcho."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "denn er rechtfertigte in seinen Berichten den Ar- tikel 4 des Vertrages damit, daß er gute Kapitulationsbedingungen erhalten und das Schicksal der gefangenen Offiziere erleichtern wollte!"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Man weiß nicht, üljer welchen der beiden Generale man sich mehr wundern soll, über HohenzoUern, der einfach bei Nacht mit der Kavallerie davonreitet und seinen die Kapitulation ablehnenden Korpskommandanten und die Infanterie im Stiche läßt, um sich zu retten, oder über Werneck, der persönlicher Vorteile willen auch Teile seines Korps in die Kapitulation einbezieht, die sich noch da- vor retten konnten."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A was the pursuer: Klein summoned Werneck's corps, its night march toward Öttingen turned back on meeting French troops, and Fauconnet's chasseurs attacked the tail of the convoy as far as Trochtelfingen until the parley stopped them. Side B took position on a plateau and then capitulated; no passage read describes it attacking at Trochtelfingen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The pursuit was set by Murat's orders of the 17th and the action at Neresheim (B365b); the passages read show no new decision to attack at Trochtelfingen, where the summons and the negotiation decided the engagement, so the posture is tagged inherited. English renderings (ours): Alombert and Colin, 'General Fauconnet was charging at the same time the tail of the convoy with his two regiments of chasseurs, but General Werneck's capitulation put an end to the fight'; the report and the journal, as in claims side-a-forces and side-b-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 100 (OCR running heads; not checked against print)",
+          "quote": "Le général Fanconnet chargeait en même temps la queue du convoi avec ses deux régiments de chasseurs, mais la capitulation du général Werneck mit fin au combat."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Le général Fauconnet, avec ses deux régiments de chasseurs, qui d'Aalen suivait l'ennemi pas à pas, attaque en même temps la queue du convoi jusqu'au village de Trochtelfingen, où l'ennemi prit position sur un plateau et arrêta nos tirailleurs. Le général Fauconnet, qui suivait le mouvement avec le reste de ses troupes, se disposait à charger, lorsqu'un officier autrichien vint prévenir ce général qu'on parlementait."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 488 (OCR page markers; not checked against print)",
+          "quote": "General Klein, der bei der Verfolgung über Ohmenheim die Zerrüttung des österreichischen Korps erkannt hatte, sandte einen Parlamentär zu FML. Werneck mit der Aufforderung, die Waffen zu strecken, da das österreichische Korps von allen Seiten um- schlossen sei."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Néanmoins, le général Werneek fit faire pendant la nuit un mouvement à ses troupes, sur ln gauche de Nérdlingen, pour rejoindre à ORttingen le eorps de l'archidue Ferdinand ; mais ayant de nouveau rencontré des troupes françaises, elles n'osèrent passer autre, ct revinrent prendre positian à Trochtelfingen et environs, d'où le général Werneck écrivit au général Klein, en lui renvoyant son parlementaire, pour lui faire connaître qu'il était disposé à eapitnler."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The accounts place side B at Trochtelfingen and its surroundings and on a plateau there; none names walls, entrenchments or other works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; a village and a plateau held without named works are not fortification under the brief. English renderings (ours): as in claims side-a-forces and side-b-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1222-figures-v1",
+          "section": "p1222",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1222 (transcribed from the page image)",
+          "quote": "Le général Fauconnet, avec ses deux régiments de chasseurs, qui d'Aalen suivait l'ennemi pas à pas, attaque en même temps la queue du convoi jusqu'au village de Trochtelfingen, où l'ennemi prit position sur un plateau et arrêta nos tirailleurs. Le général Fauconnet, qui suivait le mouvement avec le reste de ses troupes, se disposait à charger, lorsqu'un officier autrichien vint prévenir ce général qu'on parlementait."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "neresheim-17-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1216 (OCR running heads; not checked against print)",
+          "quote": "Néanmoins, le général Werneek fit faire pendant la nuit un mouvement à ses troupes, sur ln gauche de Nérdlingen, pour rejoindre à ORttingen le eorps de l'archidue Ferdinand ; mais ayant de nouveau rencontré des troupes françaises, elles n'osèrent passer autre, ct revinrent prendre positian à Trochtelfingen et environs, d'où le général Werneck écrivit au général Klein, en lui renvoyant son parlementaire, pour lui faire connaître qu'il était disposé à eapitnler."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the capitulation's original (Kriegsarchiv, 1805, Deutschland FA, X, 185 ad), which Krauss prints, and Werneck's reports and relation; the remainder of Dupont's division journal for 18 October after p. 1224 and Murat's own letters of the day; Krauss's map (Beilage 31). Figures seen only in the OCR and not restated in values: the hours of Murat's departure and of the gunfire; Alombert and Colin's figures for the convoy fight near Zipplingen and for Rivaud's prisoners (t. III, vol. 1, p. 100); the detachment of the 32e and its prisoners in Dupont's journal (p. 1224) and a dragoon brigade's capture on the way to the assembly point (p. 1221); the number of battalions that surrendered near Neresheim; the report's horse count on p. 1223.",
+    "Most consequential gap: what actually surrendered at Trochtelfingen. Bodart prints 1,700 men, 28 guns and 28 ammunition wagons; Werneck, by Krauss, had 1500 infantry and about 100 riders left; Dupont's journal gives 6,000 infantry and 800 cavalry; the cavalry reserve's 4,000 or 5,000 prisoners cover the whole day. A return of the prisoners handed over under the capitulation, or Krauss's appendix for the corps, could close it, and would also show whether Bodart's figure includes the detached troops bound by article 4.",
+    "Disputes kept as separate claims: when and how side B's cavalry left, and whether the capitulation bound it (Krauss and Hohenzollern's letter: before the capitulation, in the night before the 18th, and the Archduke's letter: not included in it; the French reports: after being told of it, against the faith of treaties); the strength figures above. The cavalry reserve's prisoner list names Hohenzollern and Mecsery, whom the same report says escaped.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing the cavalry reserve's report, the dragoon division's record and journal and Dupont's division journal, all interested accounts, and the Archduke's letter to Hohenzollern; its introduction summarizes them); Krauss (an Austrian history printing the capitulation from the Kriegsarchiv and quoting Werneck's statements and Hohenzollern's letter, which are the parties' own accounts)."
+  ]
+}

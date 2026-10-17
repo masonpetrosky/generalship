@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "battle_id": "B364b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Elchingen entry (14 October 1805) in cohort v1's third-coalition 1805 group: Loison's 2nd division of Ney's 6th corps, with the corps' light cavalry and dragoons, against Riesch's corps of the Austrian army, from the forcing of the Elchingen bridge to the pursuit toward Ulm. Malher's division, which crossed but did not fight, Dupont's action before Langenau the same day, and the investment of Ulm (B365a) are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 16,000 men under Marshal Ney and side B (Austrian) 8,000 men under FML Count Riesch. By his stated rule these are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which formations he counted. His 16,000 is far above Alombert and Colin's 8,800 for the troops that fought (claim side-a-engaged); the passages read do not say whether he counted Malher's division, which crossed but did not fight. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Franzosen (16.000 M.) unter Marschall Ney über die Österreicher (8.000 M.) unter FML. Gf. Riesch."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-a-engaged",
+      "dimension": "strength",
+      "value": "Side A (French): Alombert and Colin list the troops that fought: Loison's division, Villate's brigade (6e léger 1,740 men, 39e de ligne 1,640) and Roguet's brigade (69e 1,720, 76e 1,800), and taking part as well the 3e hussards 340 horsemen, 10e chasseurs 350, 18e dragons 335 men, 19e dragons 440 and 25e dragons 490; 'Total: about 8,800 men'. Both sides' histories say Malher's division of Ney's corps crossed but did not fight: Alombert and Colin say Loison's division fought alone all day and Malher's, held in reserve half a league from the field, had not had to engage; Krauss says Malher advanced to Thalfingen without seriously entering the fight.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's figures in the French official history, read from the page image; no date or return is named for them. The infantry sums to 6,900 and the cavalry to 1,955, together 8,855 (our sums), against the printed total of about 8,800. Krauss gives a strength for each of the two light cavalry regiments on the morning of the 14th from the brigadier's action report; it was seen only in the OCR and is not recorded (open questions). Alombert and Colin add (OCR) that only Malher's 25e léger fired a few shots. The regiments' strengths were set before the action, while which troops fought followed Ney's decisions on the day, so the phase is left unresolved. English renderings (ours): 'Villate brigade: 6th light (Colonel Laplane), 1740 men; 39th of the line (Colonel Maucune), 1640 men'; 'Roguet brigade: 69th (Colonel Brun), 1720 men; 76th (Colonel Lajonquière), 1800 men'; 'also took part in the combat: 3rd hussars (Lebrun), 340 horsemen; 10th chasseurs (Colbert), 350 horsemen; 18th dragoons (Lefebvre), 335 men; 19th dragoons (Caulaincourt), 440 men; 25th dragoons (Rigaud), 490 men'; 'Total: about 8,800 men'; 'Loison's division had fought alone throughout the day of the 14th, from the Elchingen bridge to Haslach. Malher's division, held in reserve half a league from the battlefield, had not had to engage'; 'contrary to what certain historians have written, it was therefore not engaged ... The 25th light alone could fire a few shots'; Krauss, 'during the fight of Loison's division, Malher's division (3rd, Ney's corps) had crossed the Danube at Elchingen and advanced south of the Großer Forst as far as Thalfingen, without however seriously entering the fight'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "(1) Brigade Villate : 6e léger (colonel Laplane), 1740 hommes; 39e de ligne (colonel Maucune), 1640 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "Brigade Roguet : 69e (colonel Brun), 1720 hommes; 76e (colonel Lajonquière), 1800 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "Ont pris part en outre au combat : 3e hussards (Lebrun), 340 cavaliers; 10e chasseurs (Colbert), 350 cavaliers; 18e dragons (Lefebvre). 335 hommes; 19e dragons (Caulaincourt), 440 hommes; 25e dragons (Rigaud), 490 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "Total : 8,800 hommes environ."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p83-figures-v1",
+          "section": "p83",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 83 (transcribed from the page image)",
+          "quote": "La division Loison avait combattu seule pendant toute la journée du 14, depuis le pont d'Elchingen jusqu'à Haslach. La division Malher, tenue en réserve à une demi-lieue du champ de bataille, n'avait pas eu à donner."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 81 (OCR running heads; not checked against print)",
+          "quote": "(3) Contrairement à ce qu'ont écrit eertains historiens, elle ne fut done pas engagée et surtout ne combattit pas du eôté d'Unter-Elchin-"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 81 (OCR running heads; not checked against print)",
+          "quote": "Le 25° léger put seul tirer quelques coups de fusil,"
+        },
+        {
+          "source_id": "krauss-1912-p461-figures-v1",
+          "section": "p461",
+          "locator": "Krauss (1912), p. 461 (transcribed from the page image)",
+          "quote": "Während des Kampfes der Division Loison hatte die Division Malher (3., Korps Ney) bei Elchingen die Donau überschritten und war südlich des Großen Forstes bis Thalfingen vorgegangen, ohne aber ernstlich ins Gefecht zu treten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-from-prisoners",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: Alombert and Colin say it was learned from the prisoners that the French had faced the infantry regiments Froon, Archduke Charles and Erbach, the grenadier battalions Archduke Charles and Auersperg, the cuirassier regiments Hohenzollern and Archduke Francis and some platoons of hussars and uhlans, 8,000 to 9,000 men in all under Count Riesch, with 14 small-calibre guns. GM Hermann, taken prisoner in the action, declared the same units, about 10,000 men in all, with 14 small-calibre guns, and said that an hour and a half before the French reached the bridge the Prince of Hesse-Homburg, who had been with Riesch, had left the Elchingen position for Ulm with two divisions forming a corps of 25,000 men.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's strength as side A recorded it from prisoners, read from the page images; Hermann's note was taken down by the French on the day. Neither states a basis such as present or under arms. The corps that left before the action is not part of the force engaged. English renderings (ours): 'it was learned from the prisoners that we had had to deal with ... in all 8,000 to 9,000 men, under the orders of Lieutenant General Count de Riesch, with 14 small-calibre pieces'; 'taken prisoner of war on 22 vendémiaire year XIV, at the action of Elchingen, by the troops under the orders of His Excellency Marshal Ney'; 'declared that the Austrian forces opposed to the French forces were ... in all about 10,000 men'; 'the artillery consisted of 14 small-calibre guns'; 'an hour and a half before our troops reached the Elchingen bridge, the Prince of Hesse-Homburg, who was joined with Count de Riesch, left the Elchingen position with two divisions forming a corps of 25,000 men, to go to Ulm'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p83-figures-v1",
+          "section": "p83",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 83 (transcribed from the page image)",
+          "quote": "On sut, par les prisonniers, que l'on avait eu affaire aux trois régiments d'infanterie de Froon, Archiduc-Charles et Erbach, aux deux bataillons de grenadiers Archiduc-Charles et Auersperg, aux deux régiments de cuirassiers Hohenzollern et Archiduc-François, et à quelques pelotons de hussards et uhlans, en tout 8,000 à 9,000 hommes, sous les ordres du lieutenant général comte de Riesch, avec 14 pièces de petit calibre."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p750-figures-v1",
+          "section": "p750",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (transcribed from the page image)",
+          "quote": "fait prisonnier de guerre le 22 vendémiaire an XIV, à l'affaire d'Elchingen, par les troupes aux ordres de Son Excellence M. le maréchal Ney,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p750-figures-v1",
+          "section": "p750",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (transcribed from the page image)",
+          "quote": "a déclaré que les forces autrichiennes qui ont été opposées aux forces françaises étaient de trois régiments d'infanterie (Froon, Archiduc-Charles et Erbach), de deux bataillons de grenadiers (Archiduc-Charles et Auersperg), de deux régiments de cuirassiers (Hohenzollern et Archiduc-François) et quelques détachements de hussards et uhlans, en tout à peu près 10,000 hommes."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p750-figures-v1",
+          "section": "p750",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (transcribed from the page image)",
+          "quote": "L'artillerie était composée de 14 pièces de canon de petit calibre."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p750-figures-v1",
+          "section": "p750",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (transcribed from the page image)",
+          "quote": "Une heure et demie avant l'arrivée de nos troupes au pont d'Elchingen, le prince de Hesse-Homburg, qui était réuni au comte de Riesch, est parti de la position d'Elchingen avec deux divisions, formant un corps de 25,000 hommes, pour se porter sur Ulm."
+        }
+      ]
+    },
+    {
+      "id": "side-b-squares",
+      "dimension": "strength",
+      "value": "Side B (Austrian), a side A estimate on the field: Loison's report, as Alombert and Colin quote it, says the enemy formed several squares, three of them 4,000 men strong each; the editors' footnote calls the figure exaggerated and very far from the truth.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Side A's estimate of the enemy squares, disputed by its own editors; read from the page image. English renderings (ours): 'formed several squares, three of them 4,000 men strong each'; 'figure exaggerated and very far from the truth'; 'Report of General Loison'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p80-figures-v1",
+          "section": "p80",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 80 (transcribed from the page image)",
+          "quote": "forma plusieurs carrés, dont trois forts de 4,000 hommes chacun (1),"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p80-figures-v1",
+          "section": "p80",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 80 (transcribed from the page image)",
+          "quote": "(1) Chiffre exagéré et très éloigné de la vérité."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p80-figures-v1",
+          "section": "p80",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 80 (transcribed from the page image)",
+          "quote": "(2) Rapport du général Loison."
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b-dispositions",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: on the evening of the 13th the Austrians held the north end of the Elchingen bridge with 2 battalions and 2 guns, and sent Colonel Biber with a detachment of 4 battalions and 2 squadrons to the Leipheim bridge. He gives no total for Riesch's corps in the passages read, and says the greater part of Riesch's column was still on the march that night.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's own history, based by Krauss's note on Riesch's report and French reports, read from the page image. The dispositions were decided by a council of Riesch, Laudon and Mecsery (claim side-b-command), so the claim is tagged commander_created; the column's late arrival was not their choice. Krauss's posting of battalions in the village, abbey and wood on the 14th is OCR text and is not restated as figures. English renderings (ours): '[the battalion sent by Ney to] Elchingen thrown back over the Danube to the southern bank and the north entrance of the bridge occupied with 2 battalions and 2 guns'; 'they therefore contented themselves with blocking the bridge and sending a detachment of 4 battalions and 2 squadrons under Colonel Biber to the bridge of Leipheim'; 'because the greater part of the Riesch column was still on the march'; 'after the French reports and the action report of FML Riesch'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "Elchingen gesandte Bataillon — über die Donau auf das südliche Ufer zurückgeworfen und den Nordeingang der Brücke mit 2 Bataillonen und 2 Geschützen besetzt."
+        },
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "Man begnügte sich daher mit der Sperrung der Brücke und mit der Entsendung eines Detachements von 4 Bataillonen und 2 Eskadronen unter Oberst Biber zur Brücke von Leipheim."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "weil der größte Teil der Kolonne Eiesch noch im Anmärsche war."
+        },
+        {
+          "source_id": "krauss-1912-p456-figures-v1",
+          "section": "p456",
+          "locator": "Krauss (1912), p. 456 (transcribed from the page image)",
+          "quote": "1) Nach den französischen Berichten und nach der Gefechtsrelation des FML. Riesch. (Kriegsarchiv, 1805, Deutschland FA, X, 156.)"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Ney as side A's commander and FML Count Riesch as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders; both sides' sources agree that Ney directed the attack in person and that Riesch commanded the Austrian corps (claims side-a-command and side-b-command).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter Marschall Ney über die Österreicher (8.000 M.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "unter FML. Gf. Riesch."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Ney ordered Loison's division to set out at once for Nersingen and, on its arrival near Leiben, to take the bridge and the heights of Elchingen abbey. He reached the Danube bank before the bridge at 8 a.m., followed by the division's advanced guard, and ordered Loison's aide-de-camp Captain Coisel to lay the first plank. Alombert and Colin say the division won under Ney's personal direction, with Ney always in the front ranks; on the plateau Ney ordered the wood on the left taken and the movements directed constantly against the enemy's right, and at nightfall he ordered the fighting stopped.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The command chain from the French official history, Loison's report to Ney and Krauss; Krauss gives Ney's order for the Großer Forst in the same terms as Loison's report. The orders from above are in claim side-a-objectives. English renderings (ours): Krauss, 'Ney had ordered his 2nd division (General Loison), which stood south of Fahlheim at Kadeltshofen, to set out at once and march to Nersingen'; Loison, 'there I received from you the order to go to the Elchingen bridge and seize it, as well as the heights of the abbey of the same name'; 'it is there that Marshal Ney arrives at 8 in the morning, followed by the advanced guard of Loison's division'; 'these dispositions made, you ordered M. Coisel, my aide-de-camp, captain, to lay the first plank'; 'under the personal direction of Marshal Ney, who will always be in the front ranks, Loison's division will win the victory of Elchingen'; 'on reaching the plateau, you ordered the wood on the left to be seized and the movements to be directed constantly on the enemy's right'; Krauss, 'now Ney gave the order to take the Großer Forst wood and always to attack the right wing of the Austrians'; 'night approaching, Marshal Ney orders the fighting to stop'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "Ney hatte seiner 2. Division (General Loison), die südlich Fahl- heim bei Kadcltshofen stand, befohlen, sofort aufzubrechen uud nach Nersingen zu marschieren."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "Là, je reçus de vous l'ordre de me porter au pont d'Elchingen et de m'en emparer ainsi que des hauteurs de l'abbaye du même nom."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "C'est là que le maréchal Ney arrive à 8 heures du matin, suivi par l'avant-garde de la division Loison (1)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "Ces dispositions prises, vous ordannâtes à M. Coisel, mon nide de enmp, capitaine, de poser In première planche,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (OCR running heads; not checked against print)",
+          "quote": "sous la direction personnelle du maréchal Ney, qui sera tou- jours aux premiers rangs, la division Loison remportera la victoire d’Elchingen,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 79 (OCR running heads; not checked against print)",
+          "quote": "« Arrivés sur le plateau, vous ordonnâtes de s'emparer du bois qui est à gauche, et de diriger constamment les mouvements sur la droite de l'ennemi »."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 459 (OCR page markers; not checked against print)",
+          "quote": "Jetzt gab Ney den Befehl, den Wald Großer Forst zu nehmen und immer den rechten Flügel der Österreicher anzugreifen."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "la nuit approchant, le maréchal Ney ordonne de cesser le combat."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Hermann declared that Count Riesch commanded the Austrian corps in chief, with Lieutenant General Baron Laudon and Generals Auersperg, Hermann, Ulm and Mecsery under him. Krauss says a council of Riesch, Laudon and Mecsery decided on the night of the 13th not to force the south end of the bridge; at daybreak Riesch decided to march by Langenau and hold the bridge with a rearguard, but the French attacked first. Riesch then posted his troops at Ober-Elchingen, the abbey and the wood, resolved to throw the French back over the Danube, gave that up when Mecsery reported the enemy advancing on Langenau, and finally decided to retreat to Ulm.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions from Krauss, who quotes Riesch's action report, and a prisoner's declaration recorded by side A (OCR; the names read 'Landon', 'Ilermann' and 'Uli' in the OCR). English renderings (ours): 'Lieutenant General Count de Riesch commanded the Austrian corps in chief; he had under his orders Lieutenant General Baron de Laudon, Major General Count d'Auersperg, Major General de Hermann, Major General d'Ulm and Major General Meczery'; Krauss, 'a council of Generals Riesch, Laudon and Mecsery led to giving up the intention of also taking the south exit of the bridge by force that night, so as not to betray the presence of strong forces'; 'FML Riesch therefore decided at once to set out at daybreak by Langenau and to secure the army's flank toward Leipheim as well. The bridge at Elchingen was to be held by a rearguard as long as feasible'; 'before this decision could be fully carried out ... the French attacked'; 'Riesch himself occupied Ober-Elchingen and the Elchingen abbey with one battalion each'; 'FML Riesch resolved to throw the French out of the village and back over the Danube'; 'when however GM Mecsery reported that the enemy was really advancing to attack Langenau, FML Riesch gave this intention up again'; 'FML Riesch decided to retreat to Ulm, to join Jellachich from there'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-hermann-note",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (OCR running heads; not checked against print)",
+          "quote": "Le lieutenant général comte de Riesch, commandait en chef le corps autrichien ; il avait sous ses ordres le lieutenant général baron de Landon, le général major comte d'Auersperg, le général major de Ilermann, le général major d'Uli, et le général major Meczery."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "Eine Beratung der Generale Rieseh, Laudön und Mecsery hatte zur Folge, daß man von der Ab- sieht, auch den Südausgang der Brücke noch in der Nacht gewaltsam in Besitz zu nehmen, abkam, um nicht die Anwesenheit starker Kräfte zu verraten"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "FML. Rieseh entschloß sich daher sofort, bei Tagesanbruch über Langenau aufzubrechen und die Flanke der Armee auch gegen Leipheim zu sichern. Die Brücke bei Elchingen sollte durch eine Nachhut solange als tunlich gehalten werden."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "Bevor alier dieser Entschluß ganz zur Tat werden konnte — es war erst die Vorhut unter GM. v. Mecser}' aufgebrochen — griffen die Franzosen an."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "Eiesch selbst besetzte Ober-Elchingen und das Kloster El- chiugen mit je einem Bataillon"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "FML. Eiesch beschloß, die Frai^zosen aus dem Ort und über die Donau zurückzuwerfen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 459 (OCR page markers; not checked against print)",
+          "quote": "Als aber GM. Mecserj^ meldete, daß der Feind wirklich gegen Langenau zum Angriff vorrücke, gab FML. Riesch diese Absicht wieder auf."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 460 (OCR page markers; not checked against print)",
+          "quote": "FML. Riesch entschloß sich zum Rückzuge nach Ulm, um von dort den Anschluß an Jellachich zu gewinnen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). Alombert and Colin call it one of the most brilliant offensive combats and say Ney had thrown the Austrians back on Ulm; Krauss calls it the defeat of Riesch's corps. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome, with the agreeing statements of both sides' histories. English renderings (ours): 'there are few offensive combats more brilliant than that of Elchingen'; 'not only had he made himself master of Elchingen, but he had thrown the Austrians back on Ulm'; Krauss, 'the defeat of Riesch's corps at Elchingen'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Sieg der Franzosen (16.000 M.) unter Marschall Ney über die Österreicher (8.000 M.)"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "Il est peu de combats offensifs plus brillants que celui d'Elchingen,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 83 (OCR running heads; not checked against print)",
+          "quote": "Non seulement il s'était rendu maitre d'Elchingen, mais il avait rejeté les Autrichiens sur Ulm"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 461 (OCR page markers; not checked against print)",
+          "quote": "Die Niederlage des Korps Eiesch bei Elchingen"
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as about 1,000 killed and wounded (54 officers), and side B's as 4,000 men (50 per cent).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, rounded up by his rule; a post-outcome observation. His side A figure, 'ca. 1.000 M. (54 Offz.)', is printed in the same form for the French loss during the blockade and bombardment of Ulm, 12-17 October (Bodart p. 365), so the two entries may share one figure; not resolved (open questions). English renderings (ours): 'French loss: about 1,000 men (54 officers) killed and wounded. Austrian loss: 4,000 men (= 50%)'; 'French loss during the short blockade and bombardment (12-17 October): about 1,000 men (54 officers)'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "Franz. Verl.: ca. 1.000 M. (54 Offz.) tot u. verw. | Österr. Verl.: 4.000 M. (= 50%)."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p365",
+          "locator": "Bodart (1908), p. 365",
+          "quote": "Franz Verl. während der kurzen Blokade und Beschießung (12.—17./10.): ca. 1.000 M. (54 Offz.)"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Loison's report gives side A's loss as 106 men killed, 6 of them officers, and 623 wounded, 31 of them officers.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's own figure for Loison's division, read from the page image (the OCR reads '4 officiers' among the wounded). 729 killed and wounded with 37 officers (our sums), against Bodart's about 1,000 with 54 officers. English rendering (ours): 'on our side we have to regret 106 men killed, 6 of them officers, and 623 wounded, 31 of them officers'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p730-figures-v1",
+          "section": "p730",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 730 (transcribed from the page image)",
+          "quote": "De notre côté, nous avons à regretter 106 hommes tués dont 6 officiers, et 623 blessés dont 31 officiers."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Figures for side B's loss: Loison's report gives about 4,500 prisoners, 4 guns, 12 caissons, several flags and a great number killed and wounded, the enemy column cut, part retreating on Ulm and part on Langenau and Nerenstetten. In the passage of the report that Alombert and Colin quote, the 76e took 4 senior officers, 7 officers and 111 NCOs, gunners and soldiers with 4 guns, and a column of 700 men (1,600 to 1,800 with a flag, according to Colonel Colbert) was gathered in by the 10e chasseurs. Krauss says Riesch's corps lost 4,500 prisoners and 4 guns at Elchingen.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined; Krauss's figures match Loison's and are not independent of the French reports he names (claim krauss-side-b-dispositions). Bodart has 4,000 (claim bodart-losses). English renderings (ours): 'the results of this day are: the enemy column cut, part of which had to retire on Ulm and the other on Langenau and Nerenstetten, about 4,500 prisoners, 4 guns, 12 caissons, several flags and a great number killed and wounded'; 'forced to abandon to the latter 4 senior officers, 7 officers and 111 NCOs, gunners and soldiers, 4 guns and several caissons'; 'a column of 700 men (1600 to 1800 with a flag, according to Colonel Colbert), put to flight by the 1st battalion of the 76th, was entirely gathered in by the 10th chasseurs à cheval'; Krauss, 'Riesch's corps had lost 4500 prisoners and 4 guns at Elchingen'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p730-figures-v1",
+          "section": "p730",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 730 (transcribed from the page image)",
+          "quote": "Les résultats de cette journée sont : la colonne ennemie coupée, dont partie fut obligée de se retirer sur Ulm et l'autre sur Langenau et Nerenstetten. environ 4,500 prisonniers, 4 pièces de canon, 12 caissons, plusieurs drapeaux et un grand nombre de tués et blessés."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p80-figures-v1",
+          "section": "p80",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 80 (transcribed from the page image)",
+          "quote": "forcés d'abandonner à ce dernier 4 officiers supérieurs, 7 officiers et 111 sous-officiers, canonniers et soldats, 4 pièces de canon et plusieurs caissons."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p80-figures-v1",
+          "section": "p80",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 80 (transcribed from the page image)",
+          "quote": "Une colonne de 700 hommes (de 1600 à 1800 avec drapeau, selon le colonel Colbert) mise en fuite par le 1er bataillon du 76e, fut entièrement ramassée par le 10e de chasseurs à cheval (2)."
+        },
+        {
+          "source_id": "krauss-1912-p461-figures-v1",
+          "section": "p461",
+          "locator": "Krauss (1912), p. 461 (transcribed from the page image)",
+          "quote": "Das Korps Riesch hatte bei Elchingen 4500 Gefangene und 4 Kanonen eingebüßt."
+        }
+      ]
+    },
+    {
+      "id": "elchingen-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Elchingen on the Danube 9 km northeast of Ulm. The Elchingen (Leiben) bridge crossed the Danube, 80 to 100 metres wide, its frame intact and its planking removed by the enemy. Beyond it stood two fishermen's houses with a toll office, 500 metres from the river, and 500 metres further the foot of slopes rising 80 metres above the plain. The abbey of Elchingen dominated the plateau, its buildings surrounded by an oval enclosure; woods, the largest the Großer Forst, lay to the west.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from the French official history (figures from the page image) and Krauss; no map was inspected. English renderings (ours): Bodart, 'village in Württemberg, on the Danube, 9 km northeast of Ulm'; 'before him the bridge of Elchingen or Leiben, whose frame has remained intact and whose plank deck has been removed by the enemy, crosses the Danube, 80 to 100 metres wide'; 'there stand two fishermen's houses with a toll office'; 'it is 500 metres from the Danube to these two houses and 500 metres more to the foot of the slopes, which rise 80 metres above the plain'; 'the abbey ... which dominates the whole plateau ... with its bell tower and its vast buildings surrounded by an oval enclosure that spills over the slopes'; Krauss, 'south of the Großer Forst'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "(Dorf in Württemberg, an der Donau, 9 km nordöstl. von Ulm)."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "Devant lui, le pont d'Elchingen ou de Leiben, dont la charpente est restée intacte, et dont le tablier de planches a été enlevé par l'ennemi, traverse le Danube, large de 80 à 100 mètres."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (OCR running heads; not checked against print)",
+          "quote": "trouvent deux maisons de pêcheurs avec un bureau de péage,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-p75-figures-v1",
+          "section": "p75",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (transcribed from the page image)",
+          "quote": "Il y a 500 mètres du Danube à ces deux maisons et 500 mètres encore jusqu'au pied des coteaux, qui s'élèvent à 80 mètres au-dessus de la plaine."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 76 (OCR running heads; not checked against print)",
+          "quote": "L'abbaye, eloître ou couvent d'Elchiugen, qui domine tout lc plateau, s'aperçoit vers ln droite, lorsqu'on dé- bouche du pont, avec son elocher et ses vastes bAti- ments entourés d'une enceinte ovale qui déborde sur les pentes."
+        },
+        {
+          "source_id": "krauss-1912-p461-figures-v1",
+          "section": "p461",
+          "locator": "Krauss (1912), p. 461 (transcribed from the page image)",
+          "quote": "südlich des Großen Forstes"
+        }
+      ]
+    },
+    {
+      "id": "bridge-and-artillery",
+      "dimension": "logistics",
+      "value": "Loison's division marched through the night of the 13th to Leiben. Side A then had to repair the bridge under fire: Krauss says three guns, put into action at once, supported the infantry, whose first task was to restore the bridge deck; in Loison's report the grenadiers carried planks that Villate had had brought from Leiben and planks the enemy had thrown into the river, while elite companies crossed on the bare beams. Alombert and Colin say the action was decided almost without artillery: at first only two pieces crossed with the 6e léger, and the guns that opened fire on the plateau arrived only in the last phase, before Ney stopped the fight at nightfall, after ten hours of fighting. Side B had asked for no park or position artillery, its generals believing the French would come by the right bank.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Movement and means as the French official history, Loison's report, Hermann's note and Krauss give them; no supply return was inspected. English renderings (ours): Krauss, 'the division set out at 8 in the evening and reached Leibi toward the morning of 14 October'; 'three guns, put into action at once, supported the advance of the infantry, which was above all to restore the bridge deck'; 'the grenadiers then seized the planks that General Villate had had brought from Leiben and those the enemy had thrown into the river'; 'rushed onto the beams without waiting for them to be covered with planks, and crossed the bridge that way'; 'and that almost without artillery'; 'there is still no artillery to support the attack of our infantry; only two pieces (a 4-pounder and a howitzer) crossed with the 6th light'; 'meanwhile the dragoons reappear, and our artillery arrives'; 'night approaching, Marshal Ney orders the fighting to stop. The troops of Loison's division, worn out by this ten hours' struggle against a superior enemy'; 'General Riesch had not asked for park guns'; 'the commanding general Count de Riesch had not asked for position artillery, because he was persuaded, like the chiefs of the Austrian army, that our forces would all move together on Ulm by the right bank of the Danube'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "Die Division brach um 8h abend auf und traf gegen Morgen des 14. Oktobers bei Leibi ein."
+        },
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "Drei Geschütze, die sofort ins Feuer gesetzt wurden, unterstützten das Vorgehen der Infanterie, die vor allem die Brückendecke wiederherstellen sollte."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "Les grenudiers se suisirent alors des planches que M. le général Villatle avait fait apporter de Leibeu el de celles que les ennemis avaient jetées dans Le fleuve"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "se précipitèrent sur les poutrelles sans attendre qu'elles fussent revêtues de planches et traversèrent le pont de cette manière."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 75 (OCR running heads; not checked against print)",
+          "quote": "et cela presque sans artillerie."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 78 (OCR running heads; not checked against print)",
+          "quote": "Il n'y a pas encore d'artillerie pour appuyer l'attaque de notre infanterie ; deux pièces seulement (un canon de 4 et un obusier) ont passé avec le 6° léger,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "Sur ces entrefaites, les dragons reparaissent, et notre artillerie arrive :"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "la nuit approchant, le maréchal Ney ordonne de cesser le combat. Les troupes de la division Loison, harassées par cette lutte de dix heures contre un ennemi supérieur,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 83 (OCR running heads; not checked against print)",
+          "quote": "Le général Riesch n'avait pas demandé de pièces de parc,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-hermann-note",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (OCR running heads; not checked against print)",
+          "quote": "Le général commandant comte de Riesch n'avait point demandé d'artillerie de position, parce qu'il était persuadé, ainsi que les chefs de l'armée autrichienne, que nos forces se porte- raient toutes ensemble sur Ulm par la rive droite du Danube"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Krauss says reports of stronger Austrian forces on the left bank at Elchingen and Langenau probably reached Napoleon in the night to the 14th. Alombert and Colin say Ney did not yet know, once across, what forces the enemy would oppose to him or where, and that what he knew of the enemy positions and what instructions he had from the Emperor is not known.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Attributed knowledge in both sides' histories. Krauss, writing from the Austrian files, quotes orders to Ney that Alombert and Colin say are unknown (claim side-a-objectives); the difference is kept. English renderings (ours): 'in the night to the 14th reports of the appearance of stronger Austrian forces on the left bank of the Danube at Elchingen and Langenau are likely to have reached Napoleon'; 'Marshal Ney does not yet know what forces the enemy will oppose to him, and the positions they will occupy'; 'what information has Marshal Ney on the enemy's positions? What instructions has he received from the Emperor? It is not known'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p454-figures-v1",
+          "section": "p454",
+          "locator": "Krauss (1912), p. 454 (transcribed from the page image)",
+          "quote": "In der Nacht zum 14. dürften bei Napoleon Meldungen über das Auftreten stärkerer österreichischer Kräfte auf dem linken Donau-Ufer bei Elchingen und Langenau eingetroffen sein."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 77 (OCR running heads; not checked against print)",
+          "quote": "Le maréchal Ney ignore encore quelles forces l'en- nemi va lui opposer, et les positions qu'elles occuperont."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 78 (OCR running heads; not checked against print)",
+          "quote": "Quels renseignements a le maréchal Ney sur les posi- üons de l'ennemi ? Quelles instructions a-t-il reçues de l'Empereur? On l'ignore ;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Krauss says Colonel Biber reported at daybreak that the enemy stood at Leipheim in great strength, 10,000 men, so that he could not destroy the bridge there; by Krauss's note only the dismounted dragoons, about 5,000 men, stood at Leipheim. Riesch, told since daybreak of enemy movements south of the Elchingen bridge, expected an attack from that side, while Mecsery reported strong enemy cavalry advancing from Leipheim, a report Krauss's note calls false. Hermann's declaration and Alombert and Colin say Riesch, like the chiefs of the Austrian army, believed the French would move together on Ulm by the right bank.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Krauss reconstructs it from the Austrian files, and a prisoner's statement recorded by side A. English renderings (ours): 'at daybreak Colonel Biber reported from Riedheim that the enemy stood very strong, with 10,000 men, at Leipheim, and that he therefore could not fulfil his task of destroying the bridge'; 'at Leipheim on the evening of the 13th and the morning of the 14th stood the dismounted dragoons, so about 5000 men'; '[FML Riesch,] to whom the enemy's movements south of the Elchingen bridge had been reported since daybreak, concluded on an attack by the enemy from that side'; 'at the same time Mecsery reported the advance of strong enemy cavalry from Leipheim'; '[footnote] false report' (OCR 'Palselie'); 'being persuaded, like all the chiefs of the Austrian army, that our forces would move together on Ulm by the right bank'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "Bei Tagesanbruch meldete Oberst Biber aus Riedheim, daß der Feind sehr stark — mit 10.000 Mann — bei Leipheim stehe und daß er daher seinen Auftrag, die Brücke zu zerstören, nicht erfüllen konnte."
+        },
+        {
+          "source_id": "krauss-1912-p457-figures-v1",
+          "section": "p457",
+          "locator": "Krauss (1912), p. 457 (transcribed from the page image)",
+          "quote": "1) Bei Leipheim standen am 13. abend und 14. früh die Dragoner zu Fuß, also etwa 5000 Mann."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "dem schon seit Tagesbeginn über die Bewegungen des Feindes südlich der Brücke von Elchingen gemeldet worden war, schloß auf einen Angriff des Feindes von dieser Seite her."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "Zu gleicher Zeit meldete Mecsery das Vorgehen starker feindlicher Ka- vallerie von Leipheim ^)."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "^) Palselie Meldung."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 84 (OCR running heads; not checked against print)",
+          "quote": "étant persuadé, ainsi que tons les chefs de l'armée autri- chienne, que nos forces se porteraient ensemble sur Ulm par la rive droite."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Krauss quotes the nearly identical orders sent to Ney at 2 and 4 a.m. on the 14th: the Emperor absolutely wanted the heights of Albeck back in Ney's possession, would support him, and thought it very advantageous to draw the enemy into a fight outside the entrenchments of Ulm; Krauss infers that Ney had objected to taking the heights of Elchingen and Albeck because it could lead to a larger fight. Ney ordered Loison to take the bridge and the heights of the abbey. Alombert and Colin say Ney seemed at first to manoeuvre to attack the enemy's left and throw him back on Ulm.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims set from above, read from the page images, with the corps and division orders below them; Alombert and Colin do not have the Emperor's instructions (claim side-a-information). English renderings (ours): 'at least on the 14th at 2 and at 4 a.m. nearly identical orders went off to Ney: \"The Emperor absolutely wants to see the heights of Albeck in your possession again. He will support you. It would be most advantageous to draw the enemy into a fight outside the entrenchments of Ulm\"'; 'Ney thus seems to have raised objections to taking the heights of Elchingen and Albeck, because this could lead to a larger fight'; 'there I received from you the order to go to the Elchingen bridge and seize it'; 'but he manoeuvres at first, it seems, so as to attack the enemy's left and throw him back on Ulm' (OCR 'Lim').",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p454-figures-v1",
+          "section": "p454",
+          "locator": "Krauss (1912), p. 454 (transcribed from the page image)",
+          "quote": "Wenigstens gingen am 14. um 2h und um 4h früh an Ney fast gleichlautende"
+        },
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Befehle ab: „Der Kaiser will unbedingt die Höhen von Albeck wieder in Ihrem Besitze sehen. Er wird Sie unterstützen. Es wäre nur sehr vorteilhaft, den Feind in einen Kampf außerhalb der Verschanzungen von Ulm zu verwickeln“."
+        },
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "1) Ney scheint somit Bedenken gegen die Wegnahme der Höhen von Elchingen und Albeck geäußert zu haben, weil dies zu einem größeren Kampfe führen konnte."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "je reçus de vous l'ordre de me porter au pont d'Elchingen et de m'en emparer"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 78 (OCR running heads; not checked against print)",
+          "quote": "mais il manœuvre d’abord, semble-t-il, de manière à attaquer la gauche de l'en- nemi et à le rejeter sur Lim."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Hermann declared that Riesch's corps, part of Archduke Ferdinand's army headquartered at Ulm, was detached only to watch the French movements from bank to bank and follow them, and to oppose too rapid a march by Dupont's division. Riesch wrote in his action report that under the disposition of the 13th he had to cover the army's march to Heidenheim and Nördlingen on its right flank. Krauss says Riesch's task was to secure the army's flank and to break all the Danube bridges, and judges that the defeat would surely have been avoided had Riesch carried it out on the evening of the 13th, regardless of the consequences.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's mission set by the army command, from the prisoner's declaration (OCR) and Krauss's quotation of Riesch's report; Krauss's judgment is an evaluation, not a measured effect. English renderings (ours): 'the Austrian corps that fought is part of the army under Archduke Ferdinand, whose headquarters are at Ulm, and was detached only to observe our movements from bank to bank and follow them, as also to oppose too rapid a march of General Dupont's division'; 'under the disposition of the 13th I had to cover the army's march to Heidenheim, Nördlingen on the right flank'; 'the defeat of Riesch's corps at Elchingen would surely have been avoided if FML Riesch had, on the evening of the 13th, without regard to the consequences, fulfilled his task. FML Riesch had to secure the flank of the army and for that to break all the Danube bridges'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-hermann-note",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 750 (OCR running heads; not checked against print)",
+          "quote": "Le corps autrichien qui a combattu fait partie de l'armée aux ordres de l'archidue Ferdinand, dont le quartier général est à Ulm, et n'était détaché que pour observer nos mouvements de rive à rive et les suivre, comme aussi pour s'opposer à une murehe trop rapide de la division du général Dupont,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "„Nach der Disposition vom 13. hatte ich den Marsch der Armee nach Heidenheim, Nördlingen in der rechten Flanke zu decken ;"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 461 (OCR page markers; not checked against print)",
+          "quote": "Die Niederlage des Korps Eiesch bei Elchingen wäre sicher vermieden worden, wenn FML. Eiesch am 13. abend, ohne Eüek- sicht auf die Folgen, seiner Aufgabe entsprochen hätte. FML. Eiesch hatte die Flanke der Armee zu sichern und dazu alle Donau-Brücken abzubrechen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Loison's division forced the Elchingen bridge, took Ober-Elchingen and the abbey and drove side B from the plateau back toward Ulm. Riesch's resolve to throw the French back over the Danube was given up, and side B's cavalry charges were made against the French advance.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Both sides' histories describe the French attacking side B's position; side B's counter-strokes inside its position do not make it the attacker. Krauss says the Emperor's orders brought about the action, and the orders he quotes required Ney to retake the Albeck heights (claim side-a-objectives), so the posture is tagged inherited, as for Günzburg; Ney and Loison chose its form (claim side-a-command). English renderings (ours): 'the Emperor's orders brought about two important events on 14 October: the capture of Memmingen and the action of Elchingen'; 'the French infantry already stormed over the bridge and threw the Austrians back'; 'there are few offensive combats more brilliant than that of Elchingen'; Riesch's resolve as in claim side-b-command; 'cuirassiers and uhlans charge the 69th and 76th together, which form squares to repel them'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p455-figures-v1",
+          "section": "p455",
+          "locator": "Krauss (1912), p. 455 (transcribed from the page image)",
+          "quote": "Die Befehle des Kaisers führten am 14. Oktober zwei wichtige Ereignisse herbei: die Einnahme von Memmingen und das Gefecht von Elchingen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 457 (OCR page markers; not checked against print)",
+          "quote": "stürmte schon die französische Infanterie über die Brücke vor und warf die Österreicher zurück."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "Il est peu de combats offensifs plus brillants"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 459 (OCR page markers; not checked against print)",
+          "quote": "gab FML. Riesch diese Absicht wieder auf."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 82 (OCR running heads; not checked against print)",
+          "quote": "Cuirassiers et uhlans chargent ensemble les 69e et 76°, qui se forment en carrés pour les repousser."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification-french-accounts",
+      "dimension": "fortification",
+      "value": "In side A's accounts part of side B fought from walls: Alombert and Colin describe the abbey's buildings as surrounded by an oval enclosure and say the 1st battalion of the 6e léger, directed on the abbey, entered it by its great gate and by a small gate at the south angle of the enclosure, taking prisoner the Sporck battalion that defended it. Loison's report says the Austrians at the bridge were entrenched ('retranchés') behind the first houses.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified because a cited passage has a side B battalion defending the walled abbey; the rest of side B fought in the open on the plateau and at the woods, so the works covered only a small part of its force. The abbey enclosure is a permanent structure, so the phase is inherited; whether 'retranchés' describes works or only cover behind the houses is not settled by the passage. English renderings (ours): 'its vast buildings surrounded by an oval enclosure'; 'the 1st of the 6th light, the abbey'; 'the 1st battalion enters the abbey, the four left companies by the great gate (at the end of the main street of the village) and those of the right, with the grenadiers, by a small gate placed at the south angle of the enclosure. The Sporck battalion, which defended the abbey, is taken prisoner'; 'forced them ... to abandon the first houses behind which they were entrenched'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 76 (OCR running heads; not checked against print)",
+          "quote": "ses vastes bAti- ments entourés d'une enceinte ovale"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 77 (OCR running heads; not checked against print)",
+          "quote": "le 1* du 6° léger, l’abbaye;"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 77 (OCR running heads; not checked against print)",
+          "quote": "Le 1* bataillon entre dans l'abbaye, les quatre compagnies de gauche par la grande porte (au bout de la principale rue du village) et celles de droite, avec les grenadiers, par une petite porte située à"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "elchingen-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 78 (OCR running heads; not checked against print)",
+          "quote": "l'angle Sud de l'enceinte, Le bataillon de Sporck, qui défendait l’abbaye, est fait prisonnier."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "elchingen-loison-report",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 727 (OCR running heads; not checked against print)",
+          "quote": "d'abandonner les premières maisons derrière lesquelles ils étaient retranchés."
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "fortification-krauss",
+      "dimension": "fortification",
+      "value": "Krauss's account places side B's troops in Ober-Elchingen, the abbey (Kloster) and the wood north of Elchingen, the main body of its infantry north of the village and its artillery on the height, and has side A storm the bridge and gradually take the whole of Ober-Elchingen and the abbey. It names no walls or other works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; the French accounts, coded separately, name the abbey's enclosure (claim fortification-french-accounts). English renderings (ours): 'Riesch himself occupied Ober-Elchingen and the Elchingen abbey with one battalion each'; 'the main force of his infantry deployed north of Elchingen'; 'the artillery stood on the height north of Elchingen'; 'the French ... gradually took the whole of Ober-Elchingen and the abbey'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "Eiesch selbst besetzte Ober-Elchingen und das Kloster El- chiugen mit je einem Bataillon"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "Di^ Hauptkraft seiner Infanterie mar- schierte derart nördlich von Elchingen auf,"
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 458 (OCR page markers; not checked against print)",
+          "quote": "Die Artillerie stand auf der Höhe nördlich Elchingen."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "memmingen-elchingen",
+          "locator": "Krauss (1912), p. 459 (OCR page markers; not checked against print)",
+          "quote": "eroberten indessen nach und nach ganz Ober-Elchingen und das Kloster;"
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Ney's report and the 'Mémoires du maréchal Ney' that Alombert and Colin quote; Riesch's action report (Kriegsarchiv) that Krauss quotes; Krauss's map (Beilage 28) and GM Loeffler's article on the action, which Krauss corrects from the French files. Figures seen only in the OCR and not recorded: the bridge guard and Ney's opening guns (Alombert and Colin, p. 76, with Schönhals's different figures in a footnote), the tirailleurs in the toll houses (p. 77), the prisoners taken in the abbey (Loison's report, p. 728), the 18e dragons' prisoners (p. 79 footnote) and the light cavalry regiments' strength on the morning of the 14th from the brigadier's report (Krauss, p. 459), which would bear on Alombert and Colin's 340 and 350.",
+    "Most consequential gap: side B's own strength. No Austrian return for Riesch's corps on 14 October was read; Krauss gives no total, and the figures read are side A's (8,000-9,000 from prisoners, Hermann's about 10,000) and Bodart's 8,000. An order of battle or return of Riesch's corps in Krauss's appendices or the Kriegsarchiv files could close it.",
+    "Disputes kept as separate claims: Bodart's 16,000 for side A against Alombert and Colin's about 8,800 engaged; side B 8,000 (Bodart), 8,000-9,000 (prisoners) and about 10,000 (Hermann), with Loison's squares of 4,000 called exaggerated by his editors; side A's loss of 729 killed and wounded (Loison, our sum) against Bodart's about 1,000, a figure Bodart also prints for the French loss before Ulm; side B's prisoners 4,500 (Loison, Krauss) against Bodart's loss of 4,000; the walled abbey in the French accounts against Krauss's account, which names no works.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing Loison's report, an interested account, and GM Hermann's declaration as a prisoner, Austrian information recorded by side A); Krauss (an Austrian history that by his note rests on the French reports and Riesch's action report, so his prisoner and gun figures are not independent of Loison's)."
+  ]
+}

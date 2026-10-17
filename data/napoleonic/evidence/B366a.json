@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "battle_id": "B366a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Eschenau entry (20 October 1805) in cohort v1's third-coalition 1805 group: the pursuit fights of Murat's cavalry under General Klein against Archduke Ferdinand's force from beyond Nuremberg by Heroldsberg to Eschenau and Forth, until nightfall. The march of 19 October by Gunzenhausen, the cavalry's escape to Pegnitz and Eger and the totals of Murat's five-day pursuit are context; the totals are recorded as such and not attributed to this engagement. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Austrian) under Archduke Ferdinand as 3,000 men and prints no strength for side A (French) under Marshal Prince Murat. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. He does not say which of the Archduke's troops he counted, and the passages read do not say which figures he used (claims krauss-side-b and side-b-french-figures). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French under Marshal Prince Murat over the Austrians (3,000 men) under Archduke Ferdinand of Austria'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "Sieg der Franzosen unter Marschall Pz. Murat über die Österreicher (3.000 M.) unter Erzhz. Ferdinand v. Österreich."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "krauss-side-b",
+      "dimension": "strength",
+      "value": "Side B (Austrian) in Krauss: the march table for 19 October, issued at Öttingen on the 18th, gives the Archduke's troops as 3 battalions, 4 divisions and 28 squadrons. On the 20th the Austrians continued their retreat by Nuremberg toward Eschenau; the remainder of their infantry was worn out by the unbroken march in pouring rain.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's march table as Krauss summarizes it from the Kriegsarchiv, read from the page image; it counts units for the day before, not men on the 20th, and the passages read give no Austrian return of men for the action. The force reached Eschenau as it stood after the retreat, so the claim is tagged inherited. English renderings (ours): 'the strength of the Archduke's troops was therefore: 3 battalions, 4 divisions, 28 squadrons (Kriegsarchiv ...; march table for 19 October. Öttingen, 18 October 1805)'; 'on the 20th the Austrians continued the retreat by Nuremberg to Eschenau'; 'in these fights the rest of the Austrian infantry, which was completely exhausted by the uninterrupted march in pouring rain, was dispersed and taken prisoner'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Die Stärke der Truppen des Erzherzogs war daher: 3 Bataillone, 4 Divisionen, 28 Eskadronen. (Kriegsarchiv, 1805, Deutschland FA, X, 166½. Marschzettel für den 19. Oktober. Öttingen, am 18. Oktober 1805.)"
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        }
+      ]
+    },
+    {
+      "id": "side-b-french-figures",
+      "dimension": "strength",
+      "value": "Side B (Austrian), side A's figures: the dragoon division's record says the day cost the enemy the rest of his infantry, consisting of 1500 men; the cavalry reserve's report and Alombert and Colin say Archduke Ferdinand got away with 3,000 to 4,000 horsemen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's figures, read from the page images; they describe what was taken and what escaped, not a count of side B before the action, and are not added together here. English renderings (ours): the record, 'this brilliant day cost the enemy the rest of his infantry, consisting of 1500 men, 600 horses of different regiments, 33 guns, his caissons and his baggage'; the report, 'all that was not taken prisoner, except 3,000 to 4,000 men of cavalry who follow Archduke Ferdinand, has been scattered in the woods, without arms and without food'; Alombert and Colin, 'Archduke Ferdinand still managed to escape with 3,000 or 4,000 horsemen'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "Cette brillante journée coûta à l'ennemi le reste de son infanterie, consistant en 1500 hommes, 600 chevaux de différents régiments, 33 bouches à feu, ses caissons et ses bagages."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1253-figures-v1",
+          "section": "p1253",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (transcribed from the page image)",
+          "quote": "Tout ce qui n'a pas été fait prisonnier, à l'exception de 3,000 à 4,000 hommes de cavalerie qui suivent l'archiduc Ferdinand, a été éparpillé dans les bois, sans armes et sans vivres."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p103-figures-v1",
+          "section": "p103",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 103 (transcribed from the page image)",
+          "quote": "L'archiduc Ferdinand parvint encore à s'échapper avec 3,000 ou 4,000 cavaliers."
+        }
+      ]
+    },
+    {
+      "id": "side-a-forces",
+      "dimension": "strength",
+      "value": "Side A engaged its cavalry: Klein's advance guard of the 1st hussars and the Guard chasseurs caught the Austrian rear beyond Nuremberg, and the dragoon division and the carabiniers came up for the attack at Eschenau. Klein had left the tired infantry behind. The cavalry reserve's report sums up the five days' pursuit as the work of an army corps of 7.000 men; no passage read gives the strength of the troops engaged on the 20th.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Krauss's account, read from the page image, and the dragoon division's record (OCR); the report's 7.000 is printed with a full stop and covers Murat's whole corps over five days, including the infantry that did not fight here, so it is not the engaged strength. Klein's decision to go on with the cavalry alone sets the tag. English renderings (ours): Krauss, 'hardly had the Austrians passed Nuremberg when their tail was caught up by General Klein's advance guard (1st hussar regiment and Guard chasseurs)'; 'after the arrival of the dragoon division and the carabiniers Klein advanced against the main body of the Austrians standing at Eschenau'; the record, 'but, noticing that the infantry, tired, was slowing the march, he ordered the cavalry to increase its pace and to leave it behind'; the report, 'in five days an army corps of 7.000 men has, in a march of 45 leagues, destroyed a corps of 25,000 men, taken 12,000 or 15,000 prisoners, among them 9 general officers, taken 128 guns, 11 flags, 500 or 600 wagons, the treasury of the Austrian army, which was plundered, and a great quantity of baggage'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Nach dem Eintreffen der Dragonerdivision und der Karabiniers ging Klein gegen das bei Eschenau stehende Gros der Österreicher vor. Obwohl diese sechs Geschütze ins Feuer brachten, wurden sie geworfen und die Geschütze genommen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, informé que l'ennemi ne nous précédait que de quelques heures, désirait l'atteindre promptement et ne pas lui donner le temps de couper le pont situé sur la Rednitz, près le village de Rüttonbach ; mais, s'apercevant que l'infanterie, fatiguée, retardait la marche, il ordonna à ln cavalorie d'angmen- ter l'allure et de la laisser derrière ; il prévint de cette dispos tion le prince Murat."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1253-figures-v1",
+          "section": "p1253",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (transcribed from the page image)",
+          "quote": "Dans cinq jours, un corps d'armée de 7.000 hommes a, dans une marche de 45 lieues, détruit un corps de 25,000 hommes, fait 12,000 ou 15,000 prisonniers, dont 9 officiers généraux, pris 128 pièces de canon, 11 drapeaux, 500 ou 600 chariots, le trésor de l'armée autrichienne, qui a été pillé, et une grande quantité de bagages."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Prince Murat as side A's commander and Archduke Ferdinand of Austria as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders; the accounts read show General Klein directing side A's troops in the fight (claim side-a-command). English renderings (ours): 'under Marshal Prince Murat'; 'under Archduke Ferdinand of Austria'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "Sieg der Franzosen unter Marschall Pz. Murat"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "unter Erzhz. Ferdinand v. Österreich."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "On the 20th Murat let the enemy go ahead and set his army moving only at 8 o'clock. General Klein, told that the enemy was only a few hours ahead, wanted to catch it quickly before it could cut the bridge over the Rednitz; finding that the tired infantry slowed the march, he had the cavalry quicken its pace and leave the infantry behind, and informed Murat. At Nuremberg he had the column close up and put the hussars, Guard chasseurs and carabiniers to the trot; his advance guard attacked at once, took 500 men and fell on the artillery train. When the enemy rallied in force near Eschenau, Klein ordered the chasseurs to wait for more troops; the two carabinier regiments, followed by the dragoons, then made three charges, the third and decisive one near Forth.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Decisions of side A's commanders as Alombert and Colin, the dragoon division's record and Krauss give them (page images, except the record's passages on Klein's intentions and the trot, seen in the OCR). English renderings (ours): Alombert and Colin, 'on 20 October Murat lets the enemy take the lead, and sets his army in motion only at 8 o'clock'; the record, 'General Klein, informed that the enemy was preceding us by only a few hours, wished to reach him promptly and not to give him time to cut the bridge over the Rednitz near the village of Rüttonbach (OCR); but, noticing that the infantry, tired, was slowing the march, he ordered the cavalry to increase its pace and to leave it behind; he informed Prince Murat of this disposition'; 'the divisional general had word sent to the tail to close up, and at once he put the hussars, the Guard chasseurs and the carabiniers to the trot and moved against the enemy'; Krauss, 'Klein had them attack at once, took 500 men prisoner and then threw himself on the artillery train'; the record, 'the enemy having rallied near the village of Eschenau and being in force, General Klein ordered the chasseurs to wait for the arrival of new troops to attack him; the two regiments of carabiniers, followed by the dragoons, were not long in arriving and made three charges with the greatest success; the third, which was decisive, took place near the village of Forth'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3a-p102-figures-v1",
+          "section": "p102",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (transcribed from the page image)",
+          "quote": "Le 20 octobre, Murat laisse l'ennemi prendre les devants, et ne met son armée en mouvement qu'à 8 heures."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, informé que l'ennemi ne nous précédait que de quelques heures, désirait l'atteindre promptement et ne pas lui donner le temps de couper le pont situé sur la Rednitz, près le village de Rüttonbach ; mais, s'apercevant que l'infanterie, fatiguée, retardait la marche, il ordonna à ln cavalorie d'angmen- ter l'allure et de la laisser derrière ; il prévint de cette dispos tion le prince Murat."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "le général de division fit dire à la queue de ser- rer, et de suite il mit les hussards, les chasseurs de la Garde et les énrabinfars au trot ot se porta sur l'ennemi ;"
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Archduke Ferdinand commanded side B, retreating by Nuremberg toward Eschenau. Its rear tried to check the pursuit with guns put into battery on the height of Geschaid, and near Eschenau the main body, rallied and in force, brought six guns into action before it was thrown back. The Archduke escaped on the horse of one of his officers; his cavalry continued the retreat in the night by Gräfenberg to Pegnitz. From Schwabach he wrote to Hohenzollern that the French general's claims were illegal and that Hohenzollern and the troops who had come back with him could not be included in Werneck's capitulation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's conduct as Krauss and side A's accounts give it (page images, except the guns on the heights, the Archduke's escape and his letter, seen in the OCR). The passages read do not show the Archduke deciding to stand at Eschenau, so the claim is not tagged commander_created. The letter bears on Werneck's capitulation (B365d). English renderings (ours): Krauss, 'although these brought six guns into fire, they were thrown back and the guns taken'; 'the Austrian cavalry continued the retreat that same night by Gräfenberg to Pegnitz'; Alombert and Colin, 'the most serious fight began near Heroldsberg, where the light cavalry made three (OCR) very brilliant charges and carried the pursuit as far as Eschenau in spite of some guns put into battery by the enemy on the height of Geschaid'; the record, as in claim side-a-command; the report, 'Archduke Ferdinand had only the time to mount the horse of one of his officers to save himself: it was night'; the Archduke, 'you have submitted to me the letter of Lieutenant General Werneck; I shall answer you that according to the laws of war and the rights of nations I find the claims of the French general very illegal. Consequently I declare that you and the troops with which you came back cannot be included in the capitulation. I therefore order you, and them, to continue to serve as before'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Nach dem Eintreffen der Dragonerdivision und der Karabiniers ging Klein gegen das bei Eschenau stehende Gros der Österreicher vor. Obwohl diese sechs Geschütze ins Feuer brachten, wurden sie geworfen und die Geschütze genommen."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (OCR running heads; not checked against print)",
+          "quote": "Le combat le plus sérieux s'engagea près d'Hervolds- berg, où la cavalerie légère ‘fournit trois charges très brillantes et mena la poursuite jusqu'à Eschenau malgré quelques pièces mises en batlerie par l'ennemi sur la hauteur de Geschaid."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1252 (OCR running heads; not checked against print)",
+          "quote": "L'archidue Ferdinand n’eût que le temps de monter le cheval d'un de ses officiers pour se sauver : il était nuit."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1256 (OCR running heads; not checked against print)",
+          "quote": "Son Altesse Royale le prinos Ferdinand au lieutenant général comte de Hohenzollern. Schwabach,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1256 (OCR running heads; not checked against print)",
+          "quote": "Vous m'avez soumis la lettre du lieutenant général de Wer- neck, je vous répondrai que selon les lois de la guerre et les droits des nations, je trouve très illégales les prétentions du général français. En conséquence, je déclare que vous et les troupes avec les- quelles vous êtes rentré, ne peuvent être compris dans la capi- tulation. Je vous ordonne done, ainsi qu'à elles, de continuer à servir comme auparavant"
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) over side B (Austrian). Side A's accounts say the day gave the last blow to what remained of the corps that had left Ulm, and Krauss that the rest of the Austrian infantry was dispersed and taken, while the Archduke escaped with his cavalry. No source read gives a different result.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the agreeing statements of both sides' accounts (page images, except the report's sentence and Alombert and Colin's, seen in the OCR). English renderings (ours): Bodart, 'victory of the French'; the report, 'this day dealt the last blow to the rest of the enemy corps that had come out of Ulm'; Alombert and Colin, '[the two regiments] pursued as far as Forth, where night and weariness ended the fight. The rest of the enemy's materiel and infantry fell into our hands that day'; Krauss, as in claim krauss-side-b; Alombert and Colin, as in claim side-b-french-figures.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "Sieg der Franzosen unter Marschall Pz. Murat"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (OCR running heads; not checked against print)",
+          "quote": "Cette journée porta le dernier coup au reste du corps ennemi qui élait sorti d'Ulm."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 103 (OCR running heads; not checked against print)",
+          "quote": "poursuivirent jusqu'à Forth, où la nuit et la lassitude firent cesser le combat. Le reste du matériel et de l'infanterie de l'ennemi tomba entre nos mains ce jour-là,"
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p103-figures-v1",
+          "section": "p103",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 103 (transcribed from the page image)",
+          "quote": "L'archiduc Ferdinand parvint encore à s'échapper avec 3,000 ou 4,000 cavaliers."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's loss as 1,500 men and 23 guns. He gives no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule (claim bodart-strength); the dash in the French column marks no figure. A post-outcome observation. English rendering (ours): 'Austrian loss: 1,500 men, 23 guns'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "Österr. Verl.: 1.500 M., 23 Kan."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts: Krauss says Klein took 1500 prisoners and 33 guns that day, 500 of the prisoners when he first caught the rear; the dragoon division's record gives the rest of the infantry, 1500 men, 600 horses, 33 guns, caissons and baggage, and in the decisive charge all the artillery, General Mecsery, many officers and about 200 horses; the cavalry reserve's report lists as the trophies of the 'combat of Nuremberg' 35 guns, the only ones the enemy had left, more than 100 vehicles or caissons, 5 field forges, 400 horses and as many horsemen, 500 or 600 prisoners including General Mecsery, dangerously wounded, several officers of note and two flags. Alombert and Colin say 1500 infantry were taken in the woods, but that, sent back to Nuremberg, they could not be guarded there and many escaped.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images and not combined; the figures differ and may count different things (the report's '400 horses and as many horsemen' beside 500 or 600 prisoners). Dupont's division journal gives another set of figures, seen only in the OCR and not restated, and says the Prussian troops enlisted many of the prisoners. English renderings (ours): Krauss, 'Klein took 1500 prisoners and 33 guns on this day', and as in claim side-a-command; the record, as in claims side-b-french-figures and side-a-command, '... with the loss of all his artillery, of General Mecsery, of many officers of all ranks and of about 200 horses'; the report, '35 pieces of artillery, the only ones he had left, more than 100 vehicles or caissons, 5 field forges, 400 horses, as many horsemen, 500 or 600 prisoners, among them a general, General Mecsery, who is dangerously wounded, several officers of note and two flags are the trophies of the combat of Nuremberg'; Alombert and Colin, 'the 1st hussars, the Guard chasseurs and the carabiniers then set off again at the gallop; 1500 enemy infantry were taken in the woods; unfortunately, sent back to Nuremberg, they could not be guarded there, and many escaped'; Dupont's journal, 'the Prussian troops, who recruit from foreigners, took good care not to miss so good an opportunity to fill their ranks'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "Cette brillante journée coûta à l'ennemi le reste de son infanterie, consistant en 1500 hommes, 600 chevaux de différents régiments, 33 bouches à feu, ses caissons et ses bagages."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1253-figures-v1",
+          "section": "p1253",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (transcribed from the page image)",
+          "quote": "35 pièces d'artillerie, les seules qui lui restaient, plus de 100 voitures ou caissons, 5 forges de campagne, 400 chevaux, autant de cavaliers, 500 ou 600 prisonniers, dont un général, le général Mecsery, qui est blessé dangereusement, plusieurs officiers de marque et deux drapeaux, sont les trophées du combat de Nuremberg."
+        },
+        {
+          "source_id": "alombert-colin-t3a-p102-figures-v1",
+          "section": "p102",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (transcribed from the page image)",
+          "quote": "Le 1er hussards, les chasseurs de la Garde et les carabiniers repartirent alors au galop; on prit 1500 fantassins ennemis dans les bois; par malheur, renvoyés à Nuremberg, ils ne purent y être gardés, et beaucoup s'échappèrent."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1256 (OCR running heads; not checked against print)",
+          "quote": "Les troupes prussiennes, qui se reerutent d'étrangers, n'ont eu garde d'échapper (sie) une si bonne aceasion de garnir leurs rangs ;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Side A's loss in its own accounts: the cavalry reserve's report gives 11 wounded, among them the colonel of the 1st carabiniers; the dragoon division's record gives about twenty men wounded, among them Colonel Cochois of the 1st carabiniers, with 10 horses killed and 30 wounded. Bodart prints no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Two side A accounts, read from the page images; they differ (11 or about twenty wounded) and are not reconciled here. English renderings (ours): the report, 'the enemy had many men wounded or killed; on our side we had 11 wounded, among whom is the colonel of the 1st regiment of carabiniers'; the record, 'our loss comes down to some twenty men wounded, among whom was M. Cochois, colonel of the 1st regiment of carabiniers, 10 horses killed and 30 wounded'.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-p1253-figures-v1",
+          "section": "p1253",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (transcribed from the page image)",
+          "quote": "L'ennemi a eu beaucoup de monde blessé ou tué; de notre côté, nous avons eu 11 blessés, au nombre desquels est le colonel du 1er régiment de carabiniers."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "Notre perte se réduit à une vingtaine d'hommes blessés, du nombre desquels fut M. Cochois, colonel du 1er régiment de carabiniers, 10 chevaux tués et 30 blessés."
+        }
+      ]
+    },
+    {
+      "id": "eschenau-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Eschenau as a village in Bavaria, Middle Franconia, 10 km northeast of Nuremberg. Beyond Nuremberg the Austrian baggage was entering the Reichswald forest on the Gräfenberg road; the Austrian cavalry stood in line in front of Heroldsberg as the French came out of the wood, guns were put into battery on the height of Geschaid, and the decisive charge came near Forth. Krauss says side B's infantry had marched without a break in pouring rain.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Krauss and the page images, with the record's and Alombert and Colin's passages on the forest, Heroldsberg and Geschaid seen in the OCR; no map was inspected. English renderings (ours): Bodart, 'village in Bavaria, Middle Franconia, 10 km northeast of Nuremberg'; the record, 'it was only after having made ... leagues and when we were at Nuremberg that we discovered his infantry in the plain and the tail of his baggage entering the forest of Reichswald, following the road to Gräfenberg'; 'coming out of the wood they had to fight the enemy cavalry, which was in line in front of the village of Heroldsberg'; Alombert and Colin, as in claim side-b-command; the record on Forth, as in claim side-a-command; Krauss, as in claim krauss-side-b.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p366",
+          "locator": "Bodart (1908), p. 366",
+          "quote": "(Dorf in Bayern, Mittelfranken, 10 km nordöstl. von Nürnberg)."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Ce ne fut cependant qu'après avoir fait doure lieues el lorsque nous fûmes à Nuremborg que nous découvrimes son infauterie daus la plaine et la queue de ses bagages qui entrait dans la forêt de Reichswald, en suivant la route de Grälen- berg ;"
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (OCR running heads; not checked against print)",
+          "quote": "ils eurent ‘à combattre la cavalerie ennemie, qui élait en bataille en avant du village d'Heroldsberg."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (OCR running heads; not checked against print)",
+          "quote": "Le combat le plus sérieux s'engagea près d'Hervolds- berg, où la cavalerie légère ‘fournit trois charges très brillantes et mena la poursuite jusqu'à Eschenau malgré quelques pièces mises en batlerie par l'ennemi sur la hauteur de Geschaid."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B's remaining infantry was worn out by the unbroken march in pouring rain; what was not taken was scattered in the woods without arms or food. Side A's cavalry, the dragoon division's record says, had covered seventeen leagues that day, four of them at the trot and gallop, and the rest of the enemy owed its escape to night and to the French weariness; Klein left the tired infantry behind, and sent the prisoners to Nuremberg, asking its magistrates to receive and feed them. Krauss says that afterwards Murat, his troops exhausted by the marches, gave up the pursuit.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images, except the record's passages on the infantry and the prisoners and Krauss's sentence on Murat, seen in the OCR; 'dix-sept' and 'quatre' are printed as words on the image). No ration or ammunition return was inspected. English renderings (ours): Krauss, as in claim krauss-side-b; the report, as in claim side-b-french-figures; the record, '... the rest owed its safety only to the night and to the weariness in which we found ourselves, having made seventeen leagues, four of them at the trot and the gallop', and as in claim side-a-forces; 'General Klein directed all the prisoners, as they were taken, by Nuremberg, taking care to have the magistrates of that town told to receive them and to give them food, of which they all declared themselves in great need'; Krauss, 'Murat, whose troops were completely exhausted by the exertions of the march, gave up the further pursuit'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1253-figures-v1",
+          "section": "p1253",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1253 (transcribed from the page image)",
+          "quote": "Tout ce qui n'a pas été fait prisonnier, à l'exception de 3,000 à 4,000 hommes de cavalerie qui suivent l'archiduc Ferdinand, a été éparpillé dans les bois, sans armes et sans vivres."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, informé que l'ennemi ne nous précédait que de quelques heures, désirait l'atteindre promptement et ne pas lui donner le temps de couper le pont situé sur la Rednitz, près le village de Rüttonbach ; mais, s'apercevant que l'infanterie, fatiguée, retardait la marche, il ordonna à ln cavalorie d'angmen- ter l'allure et de la laisser derrière ; il prévint de cette dispos tion le prince Murat."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein dirigea tous les prisonniers, au fur ét À mesum qu'on les faisait, par Nuremberg, en ayant soin de faire prévenir les magisirats do eotte ville de les recevoir et de leur donner des vivres, dont ils annonçarent tous avoir grand besoin."
+        },
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 493 (OCR page markers; not checked against print)",
+          "quote": "Mural, dessen Truppen von den Anstrengungen des Marsches ganz erschöpft waren, gab die weitere Verfolgung auf."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Klein was told that the enemy was only a few hours ahead, and the enemy stragglers his column overtook told the French that they would soon reach the corps; only at Nuremberg did side A see the Austrian infantry in the plain and the tail of the baggage entering the forest.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as the dragoon division's record gives it, seen in the OCR. English renderings (ours): the record, as in claim side-a-command; 'the enemy stragglers, whom we overtook at every moment, told us that we would not be long in joining the corps'; as in claim eschenau-ground.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, informé que l'ennemi ne nous précédait que de quelques heures, désirait l'atteindre promptement et ne pas lui donner le temps de couper le pont situé sur la Rednitz, près le village de Rüttonbach ; mais, s'apercevant que l'infanterie, fatiguée, retardait la marche, il ordonna à ln cavalorie d'angmen- ter l'allure et de la laisser derrière ; il prévint de cette dispos tion le prince Murat."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Les trainards ennemis, quo nous atteignions à chaque inslant, nous instruisirent que nous ne tarderiuns pas à joindre le corps."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Ce ne fut cependant qu'après avoir fait doure lieues el lorsque nous fûmes à Nuremborg que nous découvrimes son infauterie daus la plaine et la queue de ses bagages qui entrait dans la forêt de Reichswald, en suivant la route de Grälen- berg ;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Krauss says the Archduke first meant to withdraw through Salzburg territory by Pappenheim toward Regensburg, but on news that the French had crossed the Danube at Neuburg he decided to cross the Prussian territory of Ansbach. The passages read do not say what the Archduke knew of Klein's approach on the 20th.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information before the march, as Krauss gives it (OCR). English renderings (ours): 'the Archduke at first intended to withdraw through Salzburg territory by Pappenheim toward Regensburg. But on the news that the French had crossed the Danube at Neuburg, he decided to cross the Prussian territory of Ansbach'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 490 (OCR page markers; not checked against print)",
+          "quote": "Der Erzherzog hatte anfangs die Absicht, durch salzburgisches Gebiet über Pappenheim gegen ßegensburg abzuziehen. Auf die Nachricht aber, daß Franzosen bei Neuburg über die Donau ge- gangen seien, entschloß er sich zur Durehquerung des preußischen Gebietes von Ansbach."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Murat set everything on catching the Archduke, and Klein wanted to reach the enemy quickly and not give it time to cut the bridge over the Rednitz.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims of side A's commanders as Krauss and the dragoon division's record give them, seen in the OCR; Krauss's figure for the force Murat presumed was retreating is OCR only and not restated. English renderings (ours): Krauss, 'Murat moreover set everything on getting hold of the Archduke, whom he presumed to be retreating with about ... men by Ellwangen and Ansbach'; the record, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-ulm-selections-v1",
+          "section": "werneck-pursuit",
+          "locator": "Krauss (1912), p. 491 (OCR page markers; not checked against print)",
+          "quote": "Murat setzte überdies alles daran, des Erzherzogs habhaft zu werden, den er mit etwa 20.000 Mann im Rückzug über Ellwangen und Ansbach vermutete."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1254 (OCR running heads; not checked against print)",
+          "quote": "Le général Klein, informé que l'ennemi ne nous précédait que de quelques heures, désirait l'atteindre promptement et ne pas lui donner le temps de couper le pont situé sur la Rednitz, près le village de Rüttonbach ; mais, s'apercevant que l'infanterie, fatiguée, retardait la marche, il ordonna à ln cavalorie d'angmen- ter l'allure et de la laisser derrière ; il prévint de cette dispos tion le prince Murat."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to get away: the Archduke's force continued its retreat through Nuremberg toward Eschenau, and after the fight its cavalry went on in the night to Pegnitz; the remains of the cavalry, formed into 11 weak squadrons of about 1000 riders, reached Eger on 22 October.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The retreat was set before this day (claim side-b-information), so the claim is tagged inherited; Krauss's account read from the page image. English renderings (ours): Krauss, as in claim krauss-side-b; 'the remnants of the Austrian cavalry, formed into 11 weak squadrons with about 1000 riders, reached Eger on 22 October'.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "In diesen Kämpfen wurde der Rest der österreichischen Infanterie, die von dem ununterbrochenen Marsche bei strömendem Regen gänzlich erschöpft war, zersprengt und gefangengenommen. Klein erbeutete an diesem Tage 1500 Gefangene und 33 Geschütze. Die österreichische Kavallerie setzte den Rückmarsch noch in der Nacht über Gräfenberg bis Pegnitz fort."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Die Trümmer der österreichischen Kavallerie, in 11 schwache Eskadronen mit etwa 1000 Reitern formiert, erreichten am 22. Oktober Eger."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Klein's advance guard attacked the Austrian rear at once beyond Nuremberg, and with the dragoons and carabiniers he advanced against and charged the main body at Eschenau and Forth. Side B retreated; its cavalry pushed back the Guard chasseurs for a moment near Eschenau, a counterattack within its retreat.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' accounts describe the French attacking a retreating side B. Klein, commanding the troops at the engagement, decided to attack (claim side-a-command), so the posture is tagged commander_created. English renderings (ours): Krauss, as in claims side-a-command and side-a-forces; the report, 'it pushed against the chasseurs a numerous body that was forcing them to retire'; Alombert and Colin, as in claim side-b-command.",
+      "citations": [
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Am 20. setzten die Österreicher den Rückmarsch über Nürnberg nach Eschenau fort. Kaum hatten die Österreicher Nürnberg passiert, als ihre Queue von der Vorhut des Generals Klein (1. Husarenregiment und Gardejäger) ereilt wurde. Klein ließ sofort attackieren, nahm 500 Mann gefangen und warf sich dann auf den Artillerietrain."
+        },
+        {
+          "source_id": "krauss-1912-p492-figures-v1",
+          "section": "p492",
+          "locator": "Krauss (1912), p. 492 (transcribed from the page image)",
+          "quote": "Nach dem Eintreffen der Dragonerdivision und der Karabiniers ging Klein gegen das bei Eschenau stehende Gros der Österreicher vor. Obwohl diese sechs Geschütze ins Feuer brachten, wurden sie geworfen und die Geschütze genommen."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        },
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1252 (OCR running heads; not checked against print)",
+          "quote": "Il poussa sur les chasseurs un corps nome breux qui les obligeait à se retirer,"
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (OCR running heads; not checked against print)",
+          "quote": "Le combat le plus sérieux s'engagea près d'Hervolds- berg, où la cavalerie légère ‘fournit trois charges très brillantes et mena la poursuite jusqu'à Eschenau malgré quelques pièces mises en batlerie par l'ennemi sur la hauteur de Geschaid."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The accounts place side B on the road beyond Nuremberg, in the Reichswald, before Heroldsberg, on the height of Geschaid and near Eschenau and Forth; the report says the enemy was in force and in an advantageous position at a village it does not name. None names walls, entrenchments or other works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "none_named reports the passages read, not proof that no works existed; villages, woods and heights held without named works are not fortification under the brief. English renderings (ours): the report, '[the cavalry] is overthrown and pursued as far as the village of ..., where the enemy was in force and in an advantageous position'; as in claims eschenau-ground and side-b-command.",
+      "citations": [
+        {
+          "source_id": "alombert-colin-t3b-selections-v1",
+          "section": "eschenau-20-oct",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1252 (OCR running heads; not checked against print)",
+          "quote": "jusqu'au village de... où l'ennemi était en force et dans une position avantageuse."
+        },
+        {
+          "source_id": "alombert-colin-t3a-ulm-selections-v1",
+          "section": "pursuit-intro",
+          "locator": "Alombert and Colin, t. III, vol. 1, p. 102 (OCR running heads; not checked against print)",
+          "quote": "Le combat le plus sérieux s'engagea près d'Hervolds- berg, où la cavalerie légère ‘fournit trois charges très brillantes et mena la poursuite jusqu'à Eschenau malgré quelques pièces mises en batlerie par l'ennemi sur la hauteur de Geschaid."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p1255-figures-v1",
+          "section": "p1255",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 1255 (transcribed from the page image)",
+          "quote": "L'ennemi s'étant rallié près du village d'Eschenau et étant en force, le général Klein ordonna aux chasseurs d'attendre l'arrivée de nouvelles troupes pour l'attaquer; les deux régiments de carabiniers, suivis par les dragons, ne tardèrent pas à arriver et firent trois charges avec le plus grand succès; la troisième, qui fut décisive, eut lieu près le village de Forth; l'ennemi était protégé par six pièces de canon; néanmoins, il fut culbuté et mis dans la déroute la plus complète, avec perte de toute son artillerie, du général Mecsery, de beaucoup d'officiers de tous grades et d'environ 200 chevaux; le reste ne dut son salut qu'à la nuit et à la lassitude dans laquelle nous nous trouvions, ayant fait dix-sept lieues, dont quatre au trot et au galop."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the Archduke's and his generals' reports of the action; the full march table (Kriegsarchiv, 1805, Deutschland FA, X, 166½), which Krauss summarizes; Dupont's division journal for 20 October (t. III, vol. 2, p. 1256), whose figures were seen only in the OCR; Murat's report of 22 October, whose totals Krauss gives (p. 493, OCR). Figures seen only in the OCR and not restated in values: the hour the cavalry reserve's report gives for the start (which differs from Alombert and Colin's 8 o'clock on the page image); the report's figures for the dragoons pushed back beyond Nuremberg and for the league count; Krauss's daily distances (p. 493).",
+    "Most consequential gap: side B's strength in the action. Bodart's 3,000 is unexplained; Krauss's march table counts units for 19 October, and side A's figures give 1500 infantry lost and 3,000 to 4,000 cavalry escaping. Krauss's Eger returns (p. 492) concern the cavalry and artillery after the retreat. An Austrian return for 20 October could close it.",
+    "Disputes recorded in the claims: side B's loss as 1,500 men and 23 guns (Bodart), 1500 prisoners and 33 guns (Krauss, the dragoon division's record) or 35 guns and 500 or 600 prisoners (the cavalry reserve's report); side A's wounded as 11 (the report) or about twenty (the record).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing the cavalry reserve's report, the dragoon division's record and Dupont's division journal, all interested accounts, and the Archduke's letter to Hohenzollern; its introduction summarizes them); Krauss (an Austrian history drawing on the Kriegsarchiv for side B's march table and returns; his figures for the day's captures agree with the dragoon record and may rest on it)."
+  ]
+}
