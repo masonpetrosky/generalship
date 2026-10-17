@@ -26,20 +26,22 @@ The owner chose the Napoleonic Wars on 2026-09-25 and decided the seven scoping 
 - The frame holds **663 engagements** of 1792–1815 in France's wars, out of 708 entries.
 - **Cohort v1** holds the **325 land engagements of 1805–1815** in 16 campaign groups.
 
-**Next:**
+**Done (2026-10-06 and 2026-10-16):** the evidence path. Napoleonic drafts have their own
+directory and a validator bound to cohort v1, and a campaign group's packet is written from the
+frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
+check now rebuilds every selection from its parent.
 
-1. A Napoleonic evidence path: a cohort-aware dossier validator, its own directory, and a research
-   brief applying decisions 5–7.
-2. First passes by complete campaign group, starting with `third-coalition 1805` (22 entries),
-   logging usage per campaign and giving the owner a projection after the first.
+**Next:** first passes by complete campaign group, starting with `third-coalition 1805`
+(22 entries). On 2026-10-16 the owner set no usage cap and had the main session research, draft
+and verify each group itself, without subagents
+([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
+group.
 
 No dossiers have been drafted. The Civil War work below is complete as recorded, and its cohorts,
 ledgers and runs are unchanged.
 
 ## Open owner decisions
 
-- **Weekly usage cap for the Napoleonic first passes:** optional (scoping decision 6). Without one,
-  passes continue campaign after campaign, with a projection after the first.
 - **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
   could supply the margins later.
 

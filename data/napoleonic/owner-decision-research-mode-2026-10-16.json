@@ -1,0 +1,30 @@
+{
+  "kind": "owner_decision",
+  "schema_version": 1,
+  "decision_date": "2026-10-16",
+  "subject": "Napoleonic first passes: usage cap and research mode (amends scoping decision 6)",
+  "owner_question": {
+    "quote": "What should we do next?",
+    "timestamp": null
+  },
+  "recommendation_put_to_owner": {
+    "text": "My recommendation is to resume the 1805 first pass, but fix one gap in the research brief first.\n\n**Where things stand**\n- The Napoleonic frame, cohort, evidence path, research brief and 1805 research packet were all committed on 6 October.\n- The 1805 first pass started that evening and stopped partway through its first battle, Wertingen. No dossier was written.\n- That session left 17 new source records uncommitted: Alombert and Colin's French official history (vol. III), Krauss's 1912 Austrian history, passages selected from both, and 6 page images with the figures copied from them. All 17 pass the evidence check, and the Krauss p. 341 figures match the page image. I haven't checked the other five images yet.\n- The roadmap still lists the evidence path as the next task, and the research log has no entry for it.\n\n**What I'd do next**\n1. **Add posture and fortification to the brief.** Your scoping decision 7 named them as the first candidate predictors, to be coded from the passages the researchers already read. Neither the brief nor the validator asks for them.\n   - Adding them now costs almost nothing. Adding them after 325 dossiers means rereading every dossier's passages.\n   - I'd make them two required claims in each dossier, using a small fixed set of codes: who attacked, and who held fortifications. Each may be \"unknown\".\n   - Each claim would say whether the condition existed before the battle or was the commander's doing. Choosing to attack or dig in can be part of what the commander achieved, so it shouldn't count as a starting advantage.\n2. **Check and commit the 17 Wertingen records**, and update the roadmap and research log.\n3. **Run the 1805 pass (22 battles)** from the saved notes, check the whole campaign, and commit and push. Then I'll give you the usage projection for the other 15 campaigns (303 battles) before continuing.\n\n**The reason for choosing this war still holds.** I counted Bodart's printed commanders across the 325 battles without looking at who won:\n- 82 commanders appear in two or more battles, and 30 in five or more.\n- 69 of those 82 are linked in one network of who fought whom. In the Civil War, 19 of 94 ranked commanders weren't linked to others on their side.\n- 268 battles have a printed strength for both sides.\n\nThese counts use rough name matching on Bodart's overall commander only, and I haven't committed them.\n\n**Your decision:** do you want a weekly usage cap? Without one, I'll keep going after the projection. Shall I start with the brief?",
+    "timestamp": null,
+    "author": "primary agent (Claude Opus 5.5)"
+  },
+  "owner_response": {
+    "quote": "I don't think we need a usage cap. Instead, let's just use no subagents. The main session should be able to handle everything. We won't have review, but you're on max effort, so I think it's fine. Our context compacts after 400K tokens I'm pretty sure so we should be fine on usage.",
+    "timestamp": null
+  },
+  "timestamp_note": "The session gives the agent no message timestamps. Both messages were exchanged on 2026-10-16 (US Eastern time), before 23:48 EDT, when this record was written.",
+  "decisions": {
+    "usage_cap": "No weekly usage cap for the Napoleonic first passes (scoping decision 6 left the cap optional).",
+    "research_mode": "No subagents. The main session researches, drafts and verifies every campaign group itself. This replaces 'one research agent per complete campaign; the primary verifies each campaign' in scoping decision 6. The per-entry effort ceiling (up to three source families, Bodart included, plus one targeted follow-up) is unchanged.",
+    "review": "No separate review, as under the standing policy of 2026-10-06 (AGENTS.md); the work is labelled primary-verified.",
+    "usage_logging": "Usage is still logged per campaign group, for the record."
+  },
+  "scope_note": "The owner did not comment separately on the other recommendations (posture and fortification coding, checking and committing the Wertingen records, resuming the 1805 pass). They carry out scoping decisions 6 and 7 and the plan already authorized on 2026-10-06, and the agent proceeds with them on that basis.",
+  "recorded_by": "primary agent (Claude Opus 5.5), from the owner's chat in this session",
+  "admits_feature": false,
+  "changes_baseline": false
+}

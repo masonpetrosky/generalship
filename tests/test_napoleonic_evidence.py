@@ -6,7 +6,8 @@ import shutil
 import tempfile
 import unittest
 
-from generalship.evidence import NAPOLEONIC_COHORT, NAPOLEONIC_EVIDENCE, NAPOLEONIC_SIDES, validate_dossier, validate_napoleonic
+from generalship.evidence import NAPOLEONIC_CODES, NAPOLEONIC_COHORT, NAPOLEONIC_EVIDENCE, NAPOLEONIC_SIDES, \
+    validate_dossier, validate_napoleonic
 import generalship.napoleonic_packet as packet
 from generalship.sources import read_json
 
@@ -19,7 +20,8 @@ def dossier(battle_id='B369c'):
             'quote': 'Franzosen | Russen und Österreicher'}
     claims = [{'id': f'{d}-unknown', 'dimension': d, 'value': None, 'status': 'unknown', 'phase': 'unresolved',
                'rationale': 'Not read in this test.', 'citations': []}
-              for d in ('strength', 'terrain', 'logistics', 'information', 'objectives', 'responsibility')]
+              for d in ('strength', 'terrain', 'logistics', 'information', 'objectives', 'responsibility',
+                        'posture', 'fortification')]
     claims.append({'id': 'bodart-winner', 'dimension': 'outcome', 'value': 'Bodart puts the French on the winning side.',
                    'status': 'supported', 'phase': 'post_outcome', 'rationale': 'Winner on the left (p. 46).',
                    'citations': [cite]})
@@ -36,10 +38,42 @@ class NapoleonicEvidenceTests(unittest.TestCase):
         cls.cohort = read_json(ROOT / NAPOLEONIC_COHORT)['battle_ids']
 
     def check(self, d):
-        return validate_dossier(ROOT, d, self.sources, self.cohort, NAPOLEONIC_SIDES)
+        return validate_dossier(ROOT, d, self.sources, self.cohort, NAPOLEONIC_SIDES, NAPOLEONIC_CODES)
 
     def test_a_cohort_entry_with_a_resolvable_quote_passes(self):
-        self.assertEqual(self.check(dossier())['claims'], 7)
+        self.assertEqual(self.check(dossier())['claims'], 9)
+
+    def test_posture_and_fortification_are_required_dimensions(self):
+        for dimension in NAPOLEONIC_CODES:
+            d = dossier()
+            d['claims'] = [c for c in d['claims'] if c['dimension'] != dimension]
+            with self.assertRaisesRegex(ValueError, 'Every research dimension'):
+                self.check(d)
+        with self.assertRaisesRegex(ValueError, 'Every research dimension'):  # the Civil War path has seven
+            validate_dossier(ROOT, dossier(), self.sources, self.cohort, NAPOLEONIC_SIDES)
+
+    def test_a_known_coded_claim_takes_one_listed_code(self):
+        d = dossier()
+        posture = next(c for c in d['claims'] if c['dimension'] == 'posture')
+        posture.update(value='A test proposition.', status='supported', citations=[d['claims'][-1]['citations'][0]])
+        for code in (None, 'attacker', ['A_attacked'], 'none_named'):  # none_named belongs to fortification
+            posture['code'] = code
+            with self.assertRaisesRegex(ValueError, 'takes one listed code'):
+                self.check(d)
+        posture['code'] = 'A_attacked'
+        self.assertEqual(self.check(d)['unknown_claims'], 7)
+
+    def test_an_unknown_coded_claim_takes_no_code(self):
+        d = dossier()
+        next(c for c in d['claims'] if c['dimension'] == 'fortification')['code'] = 'none_named'
+        with self.assertRaisesRegex(ValueError, 'takes one listed code'):
+            self.check(d)
+
+    def test_only_coded_dimensions_take_a_code(self):
+        d = dossier()
+        d['claims'][0]['code'] = None  # strength
+        with self.assertRaisesRegex(ValueError, 'Only coded dimensions'):
+            self.check(d)
 
     def test_an_entry_outside_cohort_v1_fails(self):
         with self.assertRaisesRegex(ValueError, 'not in the research frame'):

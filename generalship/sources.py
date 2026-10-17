@@ -77,8 +77,32 @@ def source_document_date(source: dict, section: str | None = None) -> str | None
     return source.get("document_date")
 
 
+def validate_selection(root: Path, registry: dict, source: dict, parents: dict) -> None:
+    """A selection's historical sections must each equal its recorded half-open character range of the
+    registered parent text, whitespace collapsed (' '.join(text.split())); every other character is kept."""
+    ranges = source["selection_character_ranges"]
+    parent = registry.get(source.get("parent_source_id"))
+    if (parent is None or parent["format"] != "text" or source.get("parent_sha256") != parent["sha256"]
+            or source["format"] != "text" or source.get("sectioned") is not True):
+        raise ValueError(f"A selection requires a sectioned text and its registered text parent: {source['id']}")
+    sections = text_sections(safe_path(root, source["path"]).read_text(encoding="utf-8"))
+    if not isinstance(ranges, dict) or set(ranges) != sections.keys() - set(source.get("editorial_sections", [])):
+        raise ValueError(f"Selection ranges must cover every historical section exactly: {source['id']}")
+    if parent["path"] not in parents:
+        parents[parent["path"]] = safe_path(root, parent["path"]).read_text(encoding="utf-8")
+    text = parents[parent["path"]]
+    for name, span in ranges.items():
+        start, end = (span.get("start"), span.get("end")) if isinstance(span, dict) else (None, None)
+        if (type(start) is not int or type(end) is not int or not 0 <= start < end <= len(text)
+                or " ".join(text[start:end].split()) != " ".join(sections[name].split())):
+            raise ValueError(f"Selection section does not match its parent range: {source['id']} {name}")
+
+
 def validate_source_metadata(root: Path, registry: dict) -> None:
+    parents = {}  # parent texts, read once
     for source in registry.values():
+        if "selection_character_ranges" in source:
+            validate_selection(root, registry, source, parents)
         dates = _section_date_map(source)
         if dates is not None:
             if source["format"] != "text" or source.get("sectioned") is not True:

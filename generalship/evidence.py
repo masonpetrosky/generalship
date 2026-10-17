@@ -17,6 +17,10 @@ CIVIL_WAR_SIDES = {"US", "CS"}
 NAPOLEONIC_EVIDENCE = "data/napoleonic/evidence"
 NAPOLEONIC_COHORT = "data/napoleonic/cohort-v1.json"
 NAPOLEONIC_SIDES = {"A", "B"}
+# Two coded dimensions, owner scoping decision 7: which side took the offensive, and which side fought from
+# fortifications or field works. A known claim carries one code; an unknown claim carries none.
+NAPOLEONIC_CODES = {"posture": {"A_attacked", "B_attacked", "both_attacked"},
+                    "fortification": {"A_fortified", "B_fortified", "both_fortified", "none_named"}}
 
 
 def citation_text(root, sources, citation):
@@ -46,8 +50,9 @@ def citation_text(root, sources, citation):
     raise ValueError("Unsupported evidence format")
 
 
-def validate_dossier(root, dossier, sources=None, cohort_ids=None, sides=CIVIL_WAR_SIDES):
+def validate_dossier(root, dossier, sources=None, cohort_ids=None, sides=CIVIL_WAR_SIDES, codes=None):
     sources = sources or verify_sources(root)
+    codes = codes or {}
     if dossier.get("schema_version") not in {1, 2, 3} or dossier.get("status") not in {"draft", "reviewed"}:
         raise ValueError("Invalid dossier version or status")
     if cohort_ids is None:
@@ -63,13 +68,19 @@ def validate_dossier(root, dossier, sources=None, cohort_ids=None, sides=CIVIL_W
     claims = dossier["claims"]
     if not claims or len({c["id"] for c in claims}) != len(claims):
         raise ValueError("Empty claims or duplicate claim IDs")
-    if {c["dimension"] for c in claims} != DIMENSIONS:
+    if {c["dimension"] for c in claims} != DIMENSIONS | codes.keys():
         raise ValueError("Every research dimension must be populated or explicitly unknown")
     for claim in claims:
         if claim["phase"] not in PHASES or not claim.get("rationale"):
             raise ValueError("Claim requires phase and rationale")
         if claim["status"] not in {"supported", "unknown", "disputed"}:
             raise ValueError("Invalid claim status")
+        if claim["dimension"] in codes:
+            allowed = [None] if claim["status"] == "unknown" else sorted(codes[claim["dimension"]])
+            if claim.get("code") not in allowed:  # a list, so an unhashable value fails as a ValueError
+                raise ValueError(f"A known {claim['dimension']} claim takes one listed code, an unknown one none: {claim['id']}")
+        elif "code" in claim:
+            raise ValueError(f"Only coded dimensions take a code: {claim['id']}")
         if claim["status"] == "unknown":
             if claim["value"] is not None or claim["citations"]:
                 raise ValueError("Unknown claims require null value and no invented evidence")
@@ -199,4 +210,4 @@ def validate_napoleonic(root, sources=None):
     for path, dossier in zip(paths, dossiers):
         if path.stem != dossier.get("battle_id"):
             raise ValueError(f"Napoleonic dossier {path.name} must be named by its frame ID")
-    return [validate_dossier(root, d, sources, cohort_ids, NAPOLEONIC_SIDES) for d in dossiers]
+    return [validate_dossier(root, d, sources, cohort_ids, NAPOLEONIC_SIDES, NAPOLEONIC_CODES) for d in dossiers]

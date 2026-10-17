@@ -411,6 +411,59 @@ The work is primary-verified; no separate review was made.
   Every in-frame entry's nations, side A and war, and the cohort's force and commander texts, were
   reviewed in full listings.
 
+## Napoleonic evidence path (2026-10-06)
+
+Recorded on 2026-10-16; the work is commit `1435766`.
+
+- **Path.** Napoleonic drafts live in `data/napoleonic/evidence/<frame ID>.json` and are validated
+  against cohort v1, with phase-record sides A and B. `python3 -m generalship
+  napoleonic-evidence-check` verifies every registered source and the drafts; the build validates
+  them too.
+- **Brief v1.** `prompts/napoleonic-first-pass.md` applied scoping decisions 5–7:
+  - each side's own public-domain sources;
+  - original-language quotes with a marked English rendering;
+  - figures read from registered page images;
+  - strength and responsibility researched in full;
+  - at most three source families per entry, Bodart included.
+- **Packet.** `python3 -m generalship napoleonic-packet "<group>"` writes a campaign group's packet
+  with each entry's printed Bodart text. The first was written for `third-coalition 1805`
+  (22 entries).
+- **Interrupted pass.** The 1805 first pass began the same evening and stopped before any dossier
+  was written. It had registered 17 source records for Wertingen (B363a), uncommitted:
+  - Alombert and Colin's French official history, t. III, both volumes;
+  - Krauss's Austrian history of 1912;
+  - selections from both;
+  - six page images, each with a transcription of its figures.
+
+## Research mode and brief v2 (2026-10-16)
+
+- **Owner decision.** Asked what to do next, the owner set no usage cap and had the main session do
+  the research itself: "Instead, let's just use no subagents. The main session should be able to
+  handle everything." The [record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)
+  amends scoping decision 6, which had one research agent per campaign. There is still no separate
+  review; the work is primary-verified.
+- **Posture and fortification.** Decision 7 named them the first candidate predictors, coded from
+  the passages already read, but brief v1 and the validator never asked for them. Brief v2 adds
+  both as coded dimensions, so a Napoleonic dossier covers nine.
+  - `posture` codes which side took the offensive: `A_attacked`, `B_attacked` or `both_attacked`.
+  - `fortification` codes which side fought from works a cited passage names: `A_fortified`,
+    `B_fortified`, `both_fortified`, or `none_named` when the passages describe both positions and
+    name none.
+  - A known claim carries one code and an unknown claim none. The phase tags separate inherited
+    works and orders from the commander's own decisions, which may be mediators.
+  - `tests/test_napoleonic_evidence.py` covers the required dimensions, the code lists and codes
+    on uncoded dimensions.
+- **Selection check.** The source check now rebuilds every selection section from its recorded
+  parent range and fails on any difference, missing or extra range, or unbound parent. All 1,586
+  sections of the 431 registered selections passed when it was added. `tests/test_evidence.py`
+  covers the failure cases.
+- **Premise check.** Before the pass resumed, the primary counted Bodart's printed overall
+  commanders in cohort v1 without reading winners. This was exploratory, with rough name matching,
+  and is not committed as an artifact.
+  - 82 commanders appear in two or more entries, and 30 in five or more.
+  - 69 of the 82 are linked in one network of opponents.
+  - 268 of the 325 entries print a figure for both sides.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

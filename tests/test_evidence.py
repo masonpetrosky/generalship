@@ -6,7 +6,7 @@ import unittest
 
 from generalship.dataset import build_dataset, number, unique
 from generalship.evidence import validate_all, validate_dossier
-from generalship.sources import digest, read_json, safe_path, verify_sources
+from generalship.sources import digest, read_json, safe_path, source_registry, validate_source_metadata, verify_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -156,6 +156,23 @@ class EvidenceTests(unittest.TestCase):
             path = root / 'data/raw/cwsac_forces.csv'
             path.write_bytes(path.read_bytes()+b'\n')
             with self.assertRaises(ValueError): verify_sources(root)
+
+    def test_selection_sections_must_match_their_parent_ranges(self):
+        sources = source_registry(ROOT)
+        validate_source_metadata(ROOT, sources)
+        selection = 'humphreys-appomattox-selections-v1'
+        for mode in ('shifted', 'not_int', 'missing', 'extra', 'parent_hash'):
+            with self.subTest(mode=mode):
+                changed = copy.deepcopy(sources)
+                ranges = changed[selection]['selection_character_ranges']
+                first = next(iter(ranges))
+                if mode == 'shifted': ranges[first]['start'] += 5
+                if mode == 'not_int': ranges[first]['start'] = float(ranges[first]['start'])
+                if mode == 'missing': del ranges[first]
+                if mode == 'extra': ranges['not-in-the-file'] = dict(ranges[first])
+                if mode == 'parent_hash': changed[selection]['parent_sha256'] = '0' * 64
+                with self.assertRaisesRegex(ValueError, '[Ss]election'):
+                    validate_source_metadata(ROOT, changed)
 
     def test_frozen_cohort_tampering_rejected(self):
         with tempfile.TemporaryDirectory() as temp:

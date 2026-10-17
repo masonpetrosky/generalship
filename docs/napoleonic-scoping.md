@@ -51,6 +51,10 @@ Nothing here changes the Civil War cohorts, ledgers or runs.
    - One research agent per complete campaign; the primary verifies each campaign.
    - Usage is logged per campaign, with a projection after the first.
    - Work continues unless it would exceed a weekly cap set by the owner.
+
+   *Amended 2026-10-16* ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)):
+   there is no weekly cap, and no subagents are used. The main session researches, drafts and
+   verifies each campaign itself. The per-engagement ceiling and the usage log are unchanged.
 7. **Research dimensions.**
    - Strength and responsibility are researched in full.
    - Outcome is researched only where Bodart's result is disputed.
@@ -174,4 +178,5 @@ CDB90 itself was not consulted.
 3. Write and verify the frame, cohort and campaign-group design. *(Done 2026-10-06:
    [frame design](napoleonic-frame.md).)* The war profile for ratings waits for the run design.
 4. Begin first passes, by complete campaign group. The dossier validator first needs a
-   Napoleonic cohort path and directory.
+   Napoleonic cohort path and directory. *(Path, brief and first packet done 2026-10-06; brief v2
+   with the coded posture and fortification dimensions 2026-10-16.)*

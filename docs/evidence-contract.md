@@ -41,6 +41,12 @@ not event dates, public availability or a commander's knowledge. A transcript's
 `facsimile_source_id` must resolve to an image with the same parent hash and
 dependence group; this link does not prove independence from other reports.
 
+A selection records `selection_character_ranges`: one half-open character range of its
+registered text parent for every historical section, with `parent_sha256` binding the parent.
+Since 2026-10-16 the source check rebuilds each section from its range, with whitespace collapsed
+by `' '.join(text.split())`, and fails on any difference, a missing or extra range, or an unbound
+parent. All 1,586 sections of the 431 selections then registered passed when the check was added.
+
 ## Dossiers and claims
 
 Each dossier identifies a frozen-cohort battle, draft/reviewed status, proposed
@@ -179,7 +185,7 @@ the baseline still ignores all typed research observations.
 
 ## Napoleonic dossiers
 
-Napoleonic drafts follow this contract with five differences.
+Napoleonic drafts follow this contract with six differences.
 
 - **Location and frame.** They live in `data/napoleonic/evidence/<frame ID>.json`, named by their
   Bodart frame ID, for example `B369c.json`.
@@ -190,8 +196,22 @@ Napoleonic drafts follow this contract with five differences.
   forces fighting with it) or `B`, not `US` or `CS`.
 - **Facsimiles.** A page transcription may name a JPEG page image as its `facsimile_source_id`, as
   well as a PNG.
-- **Research.** First passes follow the [Napoleonic brief](../prompts/napoleonic-first-pass.md). It
-  applies the owner's decisions:
+- **Coded dimensions.** Every Napoleonic dossier also covers `posture` and `fortification`, the
+  first candidate predictors of owner decision 7. A known claim in either carries one `code`; an
+  unknown claim carries none, and no other dimension takes a code.
+
+  | Dimension | Codes |
+  | --- | --- |
+  | `posture` | `A_attacked`, `B_attacked`, `both_attacked` |
+  | `fortification` | `A_fortified`, `B_fortified`, `both_fortified`, `none_named` |
+
+  `none_named` means that the cited passages describe both sides' positions and name no works; it is
+  not proof that none existed. A code is a research observation like any claim, not an admitted
+  feature. The [brief](../prompts/napoleonic-first-pass.md) defines each code and its phase tags.
+- **Research.** First passes follow the [Napoleonic brief](../prompts/napoleonic-first-pass.md),
+  version 2 since 2026-10-16, when the owner had the main session do the research itself, without
+  subagents ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). It applies
+  the owner's decisions:
   - each side's own public-domain sources;
   - original-language quotes with a marked English rendering;
   - every figure read from a registered page image;
