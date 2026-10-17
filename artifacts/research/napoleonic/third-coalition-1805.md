@@ -4454,7 +4454,7 @@ Existing draft (not verified history; extend or correct it):
     {
       "id": "side-a-pursuit-force",
       "dimension": "strength",
-      "value": "Side A (Bavarian): the Bavarian corps' journal says that on 12 October Wrede put himself at the head of the 1st dragoons and the three remaining squadrons of the 3rd chevau-légers, 'the whole numbering only 240 horses', after sending Major Elbracht with a squadron toward Rosenheim and Wasserburg. When the Deutschmeister battalion surrendered he had only 42 files with him, having detached cavalry to both sides of the road to cover his flanks.",
+      "value": "Side A (Bavarian): the Bavarian corps' journal, in paragraphs it does not date (claim date-of-captures), says that Wrede put himself at the head of the 1st dragoons and the three remaining squadrons of the 3rd chevau-légers, 'the whole numbering only 240 horses', after sending Major Elbracht with a squadron toward Rosenheim and Wasserburg. When the Deutschmeister battalion surrendered he had only 42 files with him, having detached cavalry to both sides of the road to cover his flanks.",
       "status": "supported",
       "phase": "commander_created",
       "rationale": "Side A's own figures for the pursuing cavalry, read from the page images; the journal gives no figure for the rest of the Bavarian corps. '240 chevaux' counts horses (mounted men) at the start of the pursuit and '42 files' the files left at the surrender; the second is not converted into men. Wrede formed this group himself for the pursuit (claim side-a-command). English renderings (ours): 'ordered Major Elbracht of the 3rd chevau-légers to go with a squadron on the roads to Rosenheim and Wasserburg and put himself at the head of the 1st dragoons, which had just arrived, and of the three remaining squadrons of the 3rd chevau-légers, the whole numbering only 240 horses'; 'when this happened, the lieutenant general had only 42 files with him, because he had been forced, by the haste with which the enemy rearguard had to be reached, to detach a number of cavalry to the left and right of the road to secure the flanks'.",
@@ -4601,7 +4601,7 @@ Existing draft (not verified history; extend or correct it):
       "value": "Bernadotte, marching from Ingolstadt on Munich, had placed the Bavarian corps at the head of his advance. By the Bavarian journal, Wrede could have forced Munich but preferred to give the enemy a golden bridge to spare the town; finding it evacuated, he ordered all his cavalry to follow at the trot and went ahead at the gallop with a squadron, then, judging the Austrian army to be in panic, pursued its rearguard at full speed with 240 horses and himself attacked the Deutschmeister battalion. Separately, Ameil and Bonnemain's French horsemen had turned the town and cut off the extreme rearguard.",
       "status": "supported",
       "phase": "commander_created",
-      "rationale": "Decisions as the Bavarian corps' journal (printed by the French official history) and Alombert and Colin's narrative give them; Alombert and Colin add that the golden-bridge phrase is Wrede's own ('dit-il lui-même'). The journal is Wrede's side's account. English renderings (ours): 'marching from Ingolstadt on Munich, Bernadotte had placed the Bavarian corps at the advanced guard'; 'to spare the town of Munich the horrors of a fight, he preferred, he says himself, to make a golden bridge for the enemy'; 'he preferred to make a golden bridge for the enemy'; 'the lieutenant general ordered all his cavalry to follow him at the trot, going ahead himself at the gallop with a squadron of the 3rd chevau-légers'; 'reckoning on the panic terror that had seized the Austrian army, he pursued the enemy rearguard at full speed'; 'a little short of Parsdorf, the lieutenant general attacked'; Ameil and Bonnemain as in claim side-a-support.",
+      "rationale": "Decisions as the Bavarian corps' journal (printed by the French official history) and Alombert and Colin's narrative give them; Alombert and Colin add that the golden-bridge phrase is Wrede's own ('dit-il lui-même'). The journal is Wrede's side's account. English renderings (ours): 'marching from Ingolstadt on Munich, Bernadotte had placed the Bavarian corps at the advanced guard'; 'to spare the town of Munich the horrors of a fight, he preferred, he says himself, to make a golden bridge for the enemy'; 'he preferred to make a golden bridge for the enemy'; 'the lieutenant general ordered all his cavalry to follow him at the trot, going ahead himself at the gallop with a squadron of the 3rd chevau-légers'; 'chevau-légers, the whole numbering only 240 horses; reckoning on the panic terror that had seized the Austrian army, he pursued the enemy rearguard at full speed'; 'a little short of Parsdorf, the lieutenant general attacked'; Ameil and Bonnemain as in claim side-a-support.",
       "citations": [
         {
           "source_id": "alombert-colin-t3a-ulm-selections-v1",
@@ -4631,7 +4631,7 @@ Existing draft (not verified history; extend or correct it):
           "source_id": "alombert-colin-t3b-p662-figures-v1",
           "section": "p662",
           "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
-          "quote": "calculant la terreur panique qui s'était emparée de l'armée autrichienne, il poursuivit l'arrière-garde de l'ennemi à toute bride,"
+          "quote": "chevau-légers, le tout n'étant composé que de 240 chevaux; calculant la terreur panique qui s'était emparée de l'armée autrichienne, il poursuivit l'arrière-garde de l'ennemi à toute bride,"
         },
         {
           "source_id": "alombert-colin-t3b-p662-figures-v1",
@@ -4738,10 +4738,10 @@ Existing draft (not verified history; extend or correct it):
     {
       "id": "date-of-captures",
       "dimension": "outcome",
-      "value": "Krauss dates to 13 October the capture by Bernadotte's advanced guard, at Parsdorf east of Munich, of an artillery park of 17 heavy guns and over 1,000 prisoners. The Bavarian journal puts the fight near Parsdorf and its 1,100 prisoners under 20 vendémiaire (12 October) and, under 21 vendémiaire (13 October), the capture by Major Elbracht and Lieutenant Speeg of an artillery train of four howitzers, nine cannon and four mortars with its escort, a recruiting chest and 700 muskets, without naming the place. Alombert and Colin give the prizes of the 1st corps and the Bavarians, including the pursuit to the Inn on the 13th, as 19 guns, 150 horses, wagons and 1,500 prisoners.",
+      "value": "Krauss dates to 13 October the capture by Bernadotte's advanced guard, at Parsdorf east of Munich, of an artillery park of 17 heavy guns and over 1,000 prisoners. The Bavarian journal records under 21 vendémiaire (13 October) the capture by Major Elbracht and Lieutenant Speeg of an artillery train of four howitzers, nine cannon and four mortars with its escort, a recruiting chest and 700 muskets, without naming the place. Its paragraphs on the entry into Munich and the pursuit, in which Wrede's horsemen took 1,100 prisoners from the rearguard and attacked the Deutschmeister battalion a little short of Parsdorf, follow that entry in print and are headed by subject, not by date. Bernadotte, writing to the Emperor from Munich on 20 vendémiaire (12 October) at 11.30 in the evening, reports that his advanced guard has pushed the enemy five leagues beyond Munich on the road to Hohenlinden, so the pursuit falls on the 12th (our reading). Alombert and Colin give the prizes of the 1st corps and the Bavarians, including the pursuit to the Inn on the 13th, as 19 guns, 150 horses, wagons and 1,500 prisoners.",
       "status": "disputed",
       "phase": "post_outcome",
-      "rationale": "Bodart dates Parsdorf 12 October; Krauss places a capture at Parsdorf on the 13th. The journal's 4 + 9 + 4 pieces make 17 (our sum), Krauss's figure, so the two may describe the same convoy, but no passage read says so. Not resolved; the 13 October captures are not counted in this entry's figures (boundary note). English renderings (ours): Krauss, 'east of the Lech, Bernadotte's advanced guard had succeeded on the 13th, at Parsdorf, east of Munich, in seizing an artillery park of 17 heavy guns and taking over 1000 prisoners'; '21 vendémiaire (13 October). The position of the advanced guard was carried half a league forward'; 'capture of an artillery convoy. The same day Major Elbracht and Lieutenant Speeg, acting together, took an artillery train of four howitzers, nine cannon and four mortars, with the escort commanded by two officers, besides a recruiting chest and 700 muskets'; 'his cavalry pursues the Austrians as far as'; 'the total of the prizes made by the 1st corps and the Bavarians comes to 19 guns, 150 horses, wagons and 1500 prisoners'.",
+      "rationale": "Bodart dates Parsdorf 12 October; Krauss places a capture at Parsdorf on the 13th. The journal's subject-headed paragraphs carry no date of their own; Bernadotte's letter of the 12th is the dated source for the pursuit. The journal's 4 + 9 + 4 pieces make 17 (our sum), Krauss's figure, so the two may describe the same convoy, but no passage read says so. Not resolved; the 13 October captures are not counted in this entry's figures (boundary note). English renderings (ours): Krauss, 'east of the Lech, Bernadotte's advanced guard had succeeded on the 13th, at Parsdorf, east of Munich, in seizing an artillery park of 17 heavy guns and taking over 1000 prisoners'; '21 vendémiaire (13 October). The position of the advanced guard was carried half a league forward'; 'capture of an artillery convoy. The same day Major Elbracht and Lieutenant Speeg, acting together, took an artillery train of four howitzers, nine cannon and four mortars, with the escort commanded by two officers, besides a recruiting chest and 700 muskets'; 'entry into Munich. The lieutenant general accordingly ordered all his cavalry to follow him at the trot'; 'he pursued the enemy rearguard at full speed, made 1100 prisoners on it'; 'capture of an enemy battalion of the Deutschmeister regiment. A little short of Parsdorf, the lieutenant general attacked'; 'Marshal Bernadotte to the Emperor. Munich, 20 vendémiaire year XIV (12 October 1805), at 11.30 in the evening'; 'I have the honour to report to Your Majesty that my advanced guard has pushed the enemy five leagues beyond Munich, on the road to Hohenlinden'; 'his cavalry pursues the Austrians as far as'; 'the total of the prizes made by the 1st corps and the Bavarians comes to 19 guns, 150 horses, wagons and 1500 prisoners'.",
       "citations": [
         {
           "source_id": "krauss-1912-p454-figures-v1",
@@ -4760,6 +4760,36 @@ Existing draft (not verified history; extend or correct it):
           "section": "p661",
           "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
           "quote": "Prise d'un convoi d'artillerie. — Le même jour, le major Elbracht et le lieutenant Speeg, en agissant de concert, prirent un train d'artillerie consistant en quatre obusiers, neuf pièces de canon et quatre mortiers, ainsi que l'escorte commandée par deux officiers, plus une caisse de recrutement et 700 fusils."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p661-figures-v1",
+          "section": "p661",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 661 (transcribed from the page image)",
+          "quote": "Entrée à Munich. — Le lieutenant général ordonna en conséquence à toute sa cavalerie de le suivre au trot,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "il poursuivit l'arrière-garde de l'ennemi à toute bride, lui fit 1100 prisonniers"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Prise d'un bataillon ennemi du régiment Deutschmeister. — Un peu en deçà de Parsdorf, le lieutenant général attaqua,"
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "Le maréchal Bernadotte à l'Empereur. Munich, le 20 vendémiaire an XIV (12 octobre 1805), à 11 h. 30 du soir."
+        },
+        {
+          "source_id": "alombert-colin-t3b-p662-figures-v1",
+          "section": "p662",
+          "locator": "Alombert and Colin, t. III, vol. 2, p. 662 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à Votre Majesté que mon avant-garde a poussé l'ennemi à cinq lieues au delà de Munich, sur la route de Hohenlinden."
         },
         {
           "source_id": "alombert-colin-t3a-ulm-selections-v1",
@@ -5007,7 +5037,7 @@ Existing draft (not verified history; extend or correct it):
   "open_questions": [
     "Deferred: the return of the Austrian troops at Munich that Bernadotte sent the Emperor (not found in the passages read); Krauss's text before p. 449 on Kienmayer's corps; any Bavarian account other than the corps journal printed by Alombert and Colin. The 'Beaux traits individuels' paragraph of the journal (OCR, p. 662) carries a figure seen only in the OCR and is not recorded.",
     "Most consequential gap: side B's own account of the rearguard action and its strength. No Austrian report for 12 October was read; Krauss's 20,000 is Kienmayer's whole corps. An Austrian or Bavarian account of the pursuit could close it; none was identified in this pass.",
-    "Disputes kept as separate claims: the date of the captures at Parsdorf (Bodart 12 October, Krauss 13 October for the 17-gun park, the journal splitting the fight on the 12th from the convoy on the 13th); side B's loss on the 12th (journal and Alombert and Colin 1,100, Bernadotte 600-700 and 1,100-1,200, Bodart about 1,600 with 9 guns); the surrender of the Deutschmeister battalion before 42 files (journal) or 80 chevau-légers (Bernadotte).",
+    "Disputes kept as separate claims: the date of the captures at Parsdorf (Bodart 12 October, Krauss 13 October for the 17-gun park, the journal dating the convoy to the 13th and printing its undated paragraphs on the pursuit after that entry, while Bernadotte reports the pursuit on the 12th); side B's loss on the 12th (journal and Alombert and Colin 1,100, Bernadotte 600-700 and 1,100-1,200, Bodart about 1,600 with 9 guns); the surrender of the Deutschmeister battalion before 42 files (journal) or 80 chevau-légers (Bernadotte).",
     "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Alombert and Colin, t. III (the French official history, printing the Bavarian corps' journal, an interested account of Wrede's own side, and Bernadotte's letter of 12 October); Krauss (an Austrian history from the Kriegsarchiv files; his French movements depend on Alombert and Colin, and his Parsdorf sentence cites no source in the passage read)."
   ]
 }
@@ -6260,7 +6290,7 @@ Existing draft (not verified history; extend or correct it):
       "value": "Side B's loss was the garrison: Soult wrote to Berthier that the prisoners found in the place were 9 battalions, 2 of them grenadiers, of the regiments Mittrovsky, Czartoryski and Beaulieu, detachments of cavalry, 9 guns and a very numerous staff, 4,600 men in all; Krauss says 4,600 men and 8 guns fell into French hands. Soult also sent to Augsburg 250 men of the Mittrovsky regiment taken the day before. Bodart gives no loss figure but says the 11 battalions (6,000 men) went into captivity.",
       "status": "supported",
       "phase": "post_outcome",
-      "rationale": "Separate accounts, read from the page images and not combined; Krauss's 4,600 matches Soult's and is not shown to be independent of it. The 250 taken on the 13th, 'yesterday' in Soult's letter of the 14th, are outside the entry's date and are not added. English renderings (ours): 'Marshal Soult to Marshal Berthier. Steinheim, 22 vendémiaire year XIV (14 October 1805)'; 'the number of prisoners we found in the place consists of 9 battalions, 2 of them grenadiers, of the regiments of Mittrovsky, Czartoryski and Beaulieu, various detachments of cavalry, 9 guns with their supply, a very numerous staff, in all 4,600 men and much baggage'; Krauss, 'the surrender of the town, in which 4600 men and 8 guns fell into the hands of the French'; Soult, 'this general is also to send tomorrow to Augsburg the prisoners of war and 250 others taken yesterday from the regiment of Mittrovsky'.",
+      "rationale": "Separate accounts, read from the page images and not combined; Krauss's 4,600 matches Soult's and is not shown to be independent of it. The 250 taken on the 13th, 'yesterday' in Soult's letter of the 14th, are outside the entry's date and are not added. English renderings (ours): 'Marshal Soult to Marshal Berthier. Steinheim, 22 vendémiaire year XIV (14 October 1805)'; 'the number of prisoners we found in the place consists of 9 battalions, 2 of them grenadiers, of the regiments of Mittrovsky, Czartoryski and Beaulieu, various detachments of cavalry, 9 guns with their supply, a very numerous staff, in all 4,600 men and much baggage'; Krauss, 'the surrender of the town, in which 4600 men and 8 guns fell into the hands of the French'; Soult, 'this general is also to send tomorrow to Augsburg the prisoners of war and 250 others taken yesterday from the regiment of Mittrovsky'; Bodart, 'force 11 Austrian battalions (6,000 men) under GM Count Spangen to capitulate, after which this Austrian division went into captivity'.",
       "citations": [
         {
           "source_id": "alombert-colin-t3b-p773-figures-v1",
@@ -6285,6 +6315,12 @@ Existing draft (not verified history; extend or correct it):
           "section": "p774",
           "locator": "Alombert and Colin, t. III, vol. 2, p. 774 (transcribed from the page image)",
           "quote": "Ce général doit aussi faire diriger demain sur Augsburg les prisonniers de guerre et 250 autres qu'on fit hier au régiment de Mittrovsky."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p364",
+          "locator": "Bodart (1908), p. 364",
+          "quote": "zwingen 11 Bataillone Österreicher (6 000 M.) unter GM. Gf. Spangen zur Kapitulation, wonach diese österreichische Division in Kriegsgefangenschaft geriet."
         }
       ]
     },

@@ -47,8 +47,10 @@ group.
 - batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c);
 - batch 1f: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and B370a).
 
-Each batch was verified as a campaign before release. Still to do for the group: a bounded check
-of the 22 drafts together, including the leads the batches recorded but did not add. The group
+Each batch was verified as a campaign before release, and a bounded check of the 22 drafts
+together followed. It fixed one misread dating and three uncited figures, and it records that
+batches 1a–1c keep OCR-only dates and ordinals in values that later batches exclude
+([research log](research-log.md)). The leads that batches 1e and 1f recorded are not added. The group
 used about 14.6 million tokens, so the other 15 groups (303 engagements) would need about 200
 million at its rate, roughly 14 sessions ([research log](research-log.md)). The Civil War work
 below is complete as recorded, and its cohorts, ledgers and runs are unchanged.

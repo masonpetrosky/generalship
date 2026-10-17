@@ -968,6 +968,56 @@ these three without subagents. The work is primary-verified; no separate review 
   350 million at batch 1e's. At about 15 million a session that is roughly 14 sessions, 8 to 24
   over the range. About 0.3 million remain in this session.
 
+## 1805 group check (2026-10-17)
+
+After batch 1f the main session checked the 22 drafts of `third-coalition 1805` together. The
+check was bounded and is primary-verified; no separate review was made.
+
+- **Scope.** Two scratch checks, run over every draft and kept outside the repository:
+  - every digit in a claim's value against the page-image quotes of the same claim (Bodart's
+    transcription and the figure transcriptions);
+  - every English rendering marked as OCR that holds a digit or a number word.
+
+  The passages behind each flag that bears on a strength, a loss or a date were read. Out of
+  scope: re-reading the cited passages of batches 1a–1e, which each batch's own verification did,
+  and the leads that batches 1e and 1f recorded.
+- **Fixed.**
+  - B364a (Parsdorf). Three claims said the Bavarian corps' journal dates the pursuit and the
+    fight near Parsdorf to 20 vendémiaire (12 October). On the page images of t. III vol. 2 (pp.
+    661–662), the paragraphs on the entry into Munich and the pursuit carry no date. They are
+    headed by subject and follow the journal's 21 vendémiaire (13 October) entry. The claims now
+    say so. Claim `date-of-captures` cites Bernadotte's letter dated at Munich on 20 vendémiaire
+    at 11.30 in the evening, which reports the pursuit, and the 12 October date is marked as our
+    reading.
+  - B364a also stated two figures without quoting them: the 240 horses of Wrede's pursuit and the
+    journal's 1,100 prisoners. The claims that state them now quote them from the page image.
+  - B364c (Memmingen). Claim `side-b-losses` stated Bodart's 11 battalions and 6,000 men without
+    citing him. The citation is added.
+  - No status, phase or code changed. The group holds 465 claims, 4 of them unknown, with 3,294
+    citations, 6 more than before the check.
+- **No change after reading.** The 82 renderings flagged by the second check hold:
+  - page numbers;
+  - the pronoun 'one' and the adverb 'first';
+  - batch 1c's marked OCR figures, written as '1 (OCR)' rather than '... (OCR)';
+  - regiment numbers in B368c, each printed on a page image cited in the same claim.
+- **Recorded, not changed: each draft keeps the standard of its batch.** The rule for figures seen
+  only in the OCR tightened during the group. Batches 1a and 1b kept OCR-only dates and ordinals
+  in values. Batch 1c removed dates and ordinals, and batch 1e added regiment numbers. The first
+  check, run after the fixes, leaves entry IDs aside and finds two kinds of value digits:
+  - 67 that occur only in an OCR quote of the same claim: 41 in batch 1a, 18 in 1b and 8 in 1c.
+    They are dates, days of the month, and corps, division and regiment numbers. Batch 1c's 8 are
+    days of the battle of Caldiero, which Bodart's entry prints.
+  - 105 that occur in no quote of the same claim: 49, 23, 21, 9, 2 and 1 in batches 1a–1f. They
+    include sums labelled as ours, a date converted from the Republican calendar, and two French
+    idioms read as ranges ('de 12 à 1,500 mètres' and '3 à 400 prisonniers'). The rest are dates
+    and ordinals taken from the context or from headings quoted in other claims.
+
+  Each of the 67 was read in context, and none looks implausible against the events. None was
+  checked against a page image. Bringing batches 1a–1c to the later rule would mean removing or
+  re-citing these tokens. That would change no model input and is not done here.
+- **Verification.** The evidence check passes on all 2,237 sources and 22 drafts. The packet was
+  regenerated, `make reproduce` was run, and `make check` passes.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
