@@ -31,29 +31,35 @@ directory and a validator bound to cohort v1, and a campaign group's packet is w
 frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
 check now rebuilds every selection from its parent.
 
-**Next:** first passes by complete campaign group, starting with `third-coalition 1805`
-(22 entries). On 2026-10-16 the owner set no usage cap and had the main session research, draft
+**Next:** first passes by complete campaign group; the next group is `fourth-coalition 1806`
+(23 entries). On 2026-10-16 the owner set no usage cap and had the main session research, draft
 and verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
 group.
 
-**Progress:** all 22 entries were drafted in six batches on 2026-10-17, all primary-verified:
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, all primary-verified
+([research log](research-log.md)).
 
-- batch 1a: Wertingen, Günzburg and Haslach (B363a–c);
-- batch 1b: the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a);
-- batch 1c: the Italian engagements, Verona, Caldiero, Pojano and Castelfranco (B365c, B367a,
-  B367b and B369b);
-- batch 1d: the Tyrol and Vorarlberg, Scharnitz and Dornbirn (B368a and B368d);
-- batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c);
-- batch 1f: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and B370a).
+- `third-coalition 1805`, all 22 entries in six batches:
+  - batch 1a: Wertingen, Günzburg and Haslach (B363a–c);
+  - batch 1b: the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a);
+  - batch 1c: the Italian engagements, Verona, Caldiero, Pojano and Castelfranco (B365c, B367a,
+    B367b and B369b);
+  - batch 1d: the Tyrol and Vorarlberg, Scharnitz and Dornbirn (B368a and B368d);
+  - batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c);
+  - batch 1f: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and B370a).
 
-Each batch was verified as a campaign before release, and a bounded check of the 22 drafts
-together followed. It fixed one misread dating and three uncited figures, and it records that
-batches 1a–1c keep OCR-only dates and ordinals in values that later batches exclude
-([research log](research-log.md)). The leads that batches 1e and 1f recorded are not added. The group
-used about 14.6 million tokens, so the other 15 groups (303 engagements) would need about 200
-million at its rate, roughly 14 sessions ([research log](research-log.md)). The Civil War work
-below is complete as recorded, and its cohorts, ledgers and runs are unchanged.
+  Each batch was verified as a campaign before release, and a bounded check of the 22 drafts
+  together followed. It fixed one misread dating and three uncited figures, and it records that
+  batches 1a–1c keep OCR-only dates and ordinals in values that later batches exclude. The leads
+  that batches 1e and 1f recorded are not added. The group used about 14.6 million tokens.
+- `third-coalition 1806`, the French conquest of Naples: Campo Tenese, Maida and the sieges of
+  Gaëta and Amantea (B370c, B370d, B371a and B379c). The check before release removed one citation
+  that took Gaëta past the brief's three source families. The group used about 2.3 million tokens.
+
+The other 14 groups (299 engagements) would need about 175 to 200 million tokens at the two
+groups' rates, roughly 12 to 13 sessions. The Civil War work below is complete as recorded, and its
+cohorts, ledgers and runs are unchanged.
 
 ## Open owner decisions
 

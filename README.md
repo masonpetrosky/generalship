@@ -38,8 +38,9 @@ As of 2026-10-17:
 - **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and scoped on
   2026-10-06 ([scoping note](docs/napoleonic-scoping.md)). Bodart's 1908 list is transcribed and
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
-  cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: all 22
-  engagements of the 1805 campaign have drafts ([roadmap](docs/roadmap.md)).
+  cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
+  engagements of the 1805 campaign and the 4 of the 1806 conquest of Naples have drafts
+  ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

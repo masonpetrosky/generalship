@@ -1018,6 +1018,156 @@ check was bounded and is primary-verified; no separate review was made.
 - **Verification.** The evidence check passes on all 2,237 sources and 22 drafts. The packet was
   regenerated, `make reproduce` was run, and `make check` passes.
 
+## 1806 first pass: Naples (2026-10-17)
+
+The four engagements of `third-coalition 1806`, the French conquest of the kingdom of Naples:
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B370c | Campo Tenese | 9 March 1806 | 18 |
+| B370d | Maida | 4 July 1806 | 21 |
+| B371a | Siege of Gaëta | 4 March to 18 July 1806 | 20 |
+| B379c | Siege of Amantea | 18 December 1806 to 6 February 1807 | 19 |
+
+The frame's group also holds B370b, the naval action of 6 February 1806, which cohort v1 leaves
+out because it keeps land entries only. The main session researched, drafted and verified the four
+without subagents. The work is primary-verified; no separate review was made.
+
+- **Sources.** Bodart, Koch and one further family for each entry
+  ([source additions](source-additions.md)):
+  - Koch's *Mémoires de Masséna*, t. V (1850), whose parent batch 1c registered, for all four. It
+    is the French history from Masséna's papers and the war depot, and second-hand for side B.
+  - Campo Tenese: the *Memoirs of the Comte Roger de Damas* (1913 English translation), the
+    memoirs of side B's commander, with the editor's notes.
+  - Maida: Bunbury's *Narratives* (1854), by the British army's Quartermaster-General in the
+    Mediterranean, who rode the field. By its preface it was written many years after the events,
+    and by the narrative his French figures rest on his memory of returns he held and lost.
+  - Gaëta and Amantea: Colletta's *Storia del Reame di Napoli*, vol. II (1856), the history of the
+    kingdom by a Neapolitan officer. The passages read give him no part in either siege and name
+    no source.
+
+  Damas, Bunbury and Colletta are new families. 127 records were registered: three OCR parents,
+  four selections, and 60 page images with their figure transcriptions. Every figure in a strength
+  value or a recorded loss is read from a page image: Bodart's, through the frame transcription, or
+  one of the figure transcriptions. Sums are labelled as ours.
+  - Bodart's 4,800 for side B at Maida is Bunbury's 4795 rank and file rounded up, and his 4,700 at
+    Amantea equals Koch's three bodies (our arithmetic). His 3,000, 12,000 and 7,000 at Gaëta
+    match figures in Koch, but the passages read do not show what he used.
+  - No passage read shows dependence between Koch and Damas, Bunbury or Colletta.
+  - Koch's OCR of his pièces justificatives and of Verdier's report on Amantea reads figures
+    differently from his text, and no figure is taken from it. Koch's p. 282 is heavily inked: its
+    transcription reads the first figure of '22' and of '48' by their shapes.
+- **Drafts.** 78 claims with 715 citations: 76 supported and 2 unknown, side B's losses and its
+  information at Amantea. Every draft covers the nine dimensions.
+  - Phases: 27 inherited, 23 unresolved, 15 commander-created and 13 post-outcome.
+  - Posture:
+    - Campo Tenese: side A attacked (A_attacked). The posture is tagged inherited, because the
+      council presided by Joseph set the attack on Damas's corps.
+    - Maida: the accounts differ, so there are two claims, both commander-created. In Koch the
+      French attacked a British line formed to receive them (A_attacked). In Bunbury both armies
+      advanced to attack (both_attacked).
+    - Gaëta and Amantea: side A besieged (A_attacked, inherited). At Gaëta the king and his council
+      set the bombardment and the pace of the siege. At Amantea the siege carried out the marshal's
+      orders.
+  - Fortification:
+    - Campo Tenese: side B fought from the redoubts Damas says he made (B_fortified,
+      commander-created).
+    - Maida: neither account names works that either side fought from (none_named, unresolved).
+    - The two sieges: side B held permanent walls, and side A fought from its trenches and
+      batteries (both_fortified). The code is tagged unresolved, because the permanent works are
+      inherited and the siege works commander-created. A coding that counted only the defended
+      position would give B_fortified.
+- **Disputes kept visible.**
+  - Campo Tenese:
+    - Side B's strength: 10,000 (Bodart); about 12,000 for Damas's corps and about 18,000 for both
+      corps, whose parts make about 20,000 (Koch); twelve thousand for Damas's army corps, which his
+      editor thinks excludes Rosenheim's (Damas).
+    - Side B's command: two corps, under Rosenheim and Damas (Koch); one army corps of two wings
+      under Damas (Damas).
+    - Side B's loss: 3,000, mostly prisoners, with 2 generals, 100 officers and all the guns
+      (Bodart); 1,900 prisoners with two brigadier generals, 100 officers and a battalion of the
+      guard, and the artillery (Koch); about 2000 prisoners, more than 100 of them officers
+      (Damas's editor, who adds Marulli's 250 without saying what it counts).
+    - The location: in Basilicata south of Lauria (Bodart); on the outskirts of Calabria between
+      the border and Morano (Damas's editor).
+  - Maida:
+    - The date: 4 July (Bodart and Bunbury); the 5th (Koch).
+    - Side A's strength: 4,300 (Bodart's infantry and cavalry); 4,800 (Koch); about 6300 in action
+      of 7300 under command (Bunbury, from memory). The first two sums are ours.
+    - Side B's strength: 4,800 English and Neapolitan infantry (Bodart); 7,000 English and 3,000
+      Neapolitan or Sicilian troops embarked (Koch); 4795 rank and file marching and about 5300 in
+      the field, with no Neapolitan or Sicilian unit named (Bunbury).
+    - Side A's loss: 1,700 with 1 general and 55 officers (Bodart); 1,000 killed and wounded in
+      the Swiss regiment (Koch); more than 500 French dead buried (Bunbury). Side B's loss: 350
+      (Bodart); 326 killed and wounded (Bunbury, our arithmetic).
+    - The posture, and the British position: on the beach with their backs to the sea (Koch); in
+      the plain after a march along the shore (Bunbury).
+  - Gaëta:
+    - Side A's strength at the end: 12,000 (Bodart); about twelve thousand, beside a state of the
+      siege troops totalling 12,016 (Koch); fourteen thousand (Colletta). Its artillery: 94 guns
+      (Bodart); 90 pieces and a mobile battery of 6 (Koch); eighty heavy guns and mortars
+      (Colletta).
+    - Side B's strength: 4,000 at first and 7,000 at the end (Bodart); fewer than 6,000 before the
+      siege, about 6,200 by deserters' reports in early July and 7,000 in his reflections (Koch);
+      about seven thousand on 7 July and three thousand four hundred prisoners at the surrender
+      (Colletta).
+    - The French loss: about 1,000 with 86 officers (Bodart); 819 with 29 officers (Koch); eleven
+      hundred (Colletta). The officer total and Koch's figures are our sums. The Neapolitan loss:
+      about 1,000 (Bodart); about equal to the besiegers', without 152 deserters (Koch); nine
+      hundred (Colletta).
+    - Side A's commander: Masséna for the whole siege (Bodart); Lacour, then Gardanne from 17 May,
+      with the marshal at Castellone only at the end (Koch).
+    - Also disputed: the ships on 7 July, the rounds fired, the parole, the name of the governor's
+      successor, why the prince defended the place, and the morning of the 18th.
+  - Amantea:
+    - Side A's commander: Reynier (Bodart and Koch); Verdier (Colletta, who does not name
+      Reynier).
+    - Side B's strength: about 1,300 (Bodart), a figure not in the passages read; regular troops,
+      some hundreds of insurgents and the inhabitants (Koch); few soldiers and many Bourbon
+      partisans (Colletta).
+    - Side B's guns: 4 to 5 pieces (Koch); three iron cannon (Colletta).
+    - The siege's length: 33 days (Koch); forty, without the first assault (Colletta).
+    - Also disputed: the distance from Cosenza, the parole, the honours of war, the cause of the
+      surrender, and the strength of Verdier's first attempt in December, before Bodart's dates
+      (1,300 in Koch, three thousand two hundred in Colletta).
+- **Gaps and the targeted follow-ups.**
+  - Campo Tenese: the strengths engaged on 9 March. The follow-up read Koch's pièce justificative
+    n° III (pp. 401–403) in the parent OCR, the army's composition at its reorganisation. It lists
+    Reynier's corps by regiment, but its figures are garbled in the OCR and it is a state before
+    the march, so it was not registered.
+  - Maida: side A's strength and loss. The follow-up read the headings and tables of Koch's pièces
+    II–XIV (pp. 400–428) for a return of Reynier's division in July and found none.
+  - Gaëta: side B's strength. The follow-up searched the OCR of Koch's siege chapter for any other
+    statement of the garrison's strength and found none. Pièce n° XI, to which Koch refers for his
+    comparison of besiegers and defenders, is a note on King Joseph's guard.
+  - Amantea: side B's strength. The follow-up searched all of Koch's OCR for Amantea and Mirabelli
+    and found no strength for the garrison. It found only Koch's remark that Amantea and other
+    places were simple coast batteries, not fortresses.
+
+  A Neapolitan or British return could narrow the two garrisons' strengths, and a French return of
+  early July the strength at Maida.
+- **Verification.** The four drafts were checked as a campaign before release. The check:
+  - read every cited passage, and checked each page locator against the page images or the OCR's
+    page heads;
+  - checked every figure in a value against a page-image quote of the same claim, and every
+    English rendering of an OCR passage for digits and number words, with the 1805 group check's
+    scratch checks; the remaining flags are page numbers and the pronoun 'one';
+  - removed a citation that took Gaëta past the brief's ceiling. B371a cited one passage of
+    Bunbury (p. 235), read for Maida, as a fourth family beside Bodart, Koch and Colletta. The
+    claim that cited it, `side-b-objectives`, now rests on Koch and Colletta.
+  - found every figure transcription cited. Of the selections' 41 sections, 26 are cited. The
+    other 15 are 5 passages behind the source records' provenance notes and 10 OCR passages whose
+    pages are cited from their images. The 5 are Bunbury's preface, a passage of the introduction
+    to Damas's memoirs, the account of his manuscripts and his own note at their head, and
+    Colletta's entry in his volume's index.
+
+  The evidence check passes on all 2,364 sources and 26 drafts (543 claims, 6 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes.
+- **Usage.** About 2.3 million tokens of the session's budget, roughly 580,000 an entry, including
+  three new families and 127 records. The cohort's other 14 groups hold 299 engagements: about 175
+  million at this group's rate and about 200 million at the 1805 group's. At about 15 million a
+  session that is roughly 12 to 13 sessions. About 12.5 million remain in this session.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

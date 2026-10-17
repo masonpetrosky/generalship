@@ -1,0 +1,1034 @@
+{
+  "schema_version": 1,
+  "battle_id": "B379c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's siege and capture of Amantea (18 December 1806 to 6 February 1807 by Bodart) in cohort v1's third-coalition 1806 group: Huard's investment of the 18th [December] by Koch, the siege works and assaults, the mine and the capitulation of 6 February. Verdier's blockade after Maida, his failed first attempt of 3 to 8 December, the risings round Cosenza and Lamarque's siege of Maratea are context. Side A is the French. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 4,700 men under General of Division Reynier and side B (the Neapolitan garrison) about 1,300 men under Colonel Mirabelli. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 4,700 equals Koch's three bodies sent against the place, Huard's 1,200, Verdier's 2,500 and Reynier's 1,000 (our arithmetic; claim koch-side-a). The passages read give no number for the garrison: Koch describes regular troops, some hundreds of insurgents and the inhabitants, and Colletta few soldiers and many Bourbon partisans (claims koch-side-b and colletta-side-b). The one 1,300 in the passages read for Amantea is Koch's strength of Verdier's column for the first attempt of 3 December (claim koch-side-a), and they do not show where Bodart's figure comes from. Koch has the besiegers sent in execution of the marshal's orders, and the garrison held the place before the siege, so the claim is tagged inherited. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French (4,700 men) under General of Division Reynier force the Neapolitan garrison (about 1,300 men) under Colonel Mirabelli to surrender'. 'Div.-Gen.' is Divisions-General in Bodart's list of abbreviations.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "D.-G., Div.-Gen. — Divisions-General"
+        }
+      ]
+    },
+    {
+      "id": "koch-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account in Koch: in execution of the orders the marshal gave after settling at Cosenza on 15 December the final dispositions for the attack, a corps of 1,200 men under Colonel Huard, acting as general of brigade, invested the fortress on the 18th; Verdier set out on the 22nd with 2,500 men and 6 pieces of ordnance and was followed the next day by a column of 1,000 men brought by General Reynier. Before Bodart's dates, Verdier had left Cosenza on 3 December for the first attempt with 1,300 men, 2 howitzers and 2 mountain pieces.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history, read from the page images. Koch's three bodies make 4,700 (our arithmetic), Bodart's figure (claim bodart-strength); the passages read give no single strength for the force before the place on one day and no count of its losses or reinforcements during the siege. Koch gives the day of the investment as 'the 18th' without a month, in a narrative that has just brought the marshal to Cosenza on 15 December; read as 18 December, it is Bodart's first date. The page image of p. 282 is heavily inked, and the transcription reads the first figure of '22' by its shape. Koch's 'his orders' follow the marshal's instructions to Reynier, and the force moved in execution of them, so the claim is tagged inherited. English renderings (ours): 'meanwhile it had to be finished: the marshal went on 15 December to Cosenza, where he settled the final dispositions concerning the attack on Amantea' (p. 281); 'in execution of his orders, a corps of 1,200 men led by Colonel Huard, performing the' (p. 281) 'functions of general of brigade, formed the investment of the fortress on the 18th. Verdier set out on the 22nd with 2,500 men and 6 pieces of ordnance; he was followed the next day by a column of 1,000 men brought by General Reynier, who directed all the operations of the siege' (p. 282); 'reassured on this point, Verdier, in accordance with the marshal's orders, left Cosenza on 3 December to reduce Amantea, at the head of 1,300 men, 2 howitzers and 2 mountain pieces' (p. 280).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Cependant il fallait en finir : le maréchal se rendit le 15 décembre à Cosenza, où il arrêta les dernières dispositions concernant l'attaque d'Amantea."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Là il renouvela au roi la demande pressante d'un congé qui lui fut enfin accordé, et partit pour Naples le 21."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "En exécution de ses ordres, un corps de 1,200 hommes conduits par le colonel Huard, remplissant les"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "fonctions de général de brigade, forma l'investissement de la forteresse le 18."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Verdier se mit en mouvement le 22 avec 2,500 hommes et 6 bouches à feu;"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "il fut suivi le lendemain par une colonne de 1,000 hommes qu'amenait le général Reynier, lequel dirigea toutes les opérations du siége."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Tranquille sur ce point, Verdier, conformément aux ordres du maréchal, partit de Cosenza le 3 décembre pour réduire Amantea, à la tête de 1,300 hommes, 2 obusiers et 2 pièces de montagne."
+        }
+      ]
+    },
+    {
+      "id": "colletta-side-a",
+      "dimension": "strength",
+      "value": "Side A in Colletta: for the first attack, before Bodart's dates, General Verdier went to assault the place with three thousand two hundred soldiers, artillery and equipment; when December was over he came back to the assaults stronger and better provided with engines, and in the end the little castle was assailed by very strong forces with the best arts of war. He gives no number for the siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's strength in the Neapolitan history, read from the page images. Colletta's three thousand two hundred are for the first attack, which Koch makes with 1,300 men (claim koch-side-a); for the siege he gives no number, and his 'stronger' compares Verdier's force with that of the first attack. The passages read do not say who reinforced Verdier, so the claim is tagged unresolved. English renderings (ours): 'General Verdier, with three thousand two hundred soldiers, artillery and equipment, went to assault it'; 'but when December was over, he, stronger, better provided with engines, returned to the assaults' (p. 32); 'assailed by very strong forces with the best arts of war' (p. 33).",
+      "citations": [
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Il generale Verdier, con tremila duecento soldati, artiglierie ed attrezzi, andò ad assaltarla;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-b",
+      "dimension": "strength",
+      "value": "Side B in Koch: when Verdier set out for the first attempt on 3 December, the place was armed with 4 to 5 pieces of cannon and defended by regular troops, some hundreds of insurgents and its inhabitants, the whole under the orders of Colonel Mirabelli, a native of Amantea who enjoyed great consideration in the canton. Koch gives no number for the garrison.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page image; second-hand. The description stands in Koch's account of the first attempt and is the only one in the passages read; Bodart's about 1,300 is not in them (claim bodart-strength). The garrison held the place before the siege, so the claim is tagged inherited. English rendering (ours): 'it was armed with 4 to 5 pieces of cannon and defended by regular troops, a few hundred insurgents and its inhabitants, the whole under the orders of Colonel Mirabelli, a native of Amantea, who enjoyed great consideration in the canton' (p. 280).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Tranquille sur ce point, Verdier, conformément aux ordres du maréchal, partit de Cosenza le 3 décembre pour réduire Amantea, à la tête de 1,300 hommes, 2 obusiers et 2 pièces de montagne."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+        }
+      ]
+    },
+    {
+      "id": "colletta-side-b",
+      "dimension": "strength",
+      "value": "Side B in Colletta: Amantea, a Calabrian town of two thousand five hundred inhabitants, was guarded by few soldiers and many Bourbon partisans, all under the command of Colonel Mirabelli; three iron cannon armed the bastions, munitions and victuals sufficed and spirit abounded. At the surrender the little castle was armed with three corroded cannon and defended by inexperienced partisans.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's strength in the Neapolitan history, read from the page images. The word 'Borboniani' is divided between pp. 31 and 32, and the transcription of p. 31 omits its first part, which is quoted from the OCR. Colletta gives no number for the garrison; his three iron cannon are fewer than Koch's 4 to 5 pieces (claim koch-side-b). The description precedes his account of the first attack. The garrison held the place before the siege, so the claim is tagged inherited. English renderings (ours): 'Amantea is a town of Calabria of two thousand five hundred inhabitants' (p. 31); 'few soldiers guarded it and many Bourbon partisans, the ones and the others under the command of Colonel Mirabelli' (pp. 31 and 32, 'Borboniani' completed from the OCR); 'three iron cannon armed the bastions, the munitions and the victuals sufficed, spirit abounded' (p. 32); 'the little castle of Amantea, armed with three corroded cannon, defended by inexperienced partisans' (p. 33).",
+      "citations": [
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "Amantea è città di Calabria di duemilacinquecento abitatori, fondata quasi su la marina del Tirreno, sopra un gran sasso, già scoglio;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "pochi soldati la guardavano e molti"
+        },
+        {
+          "source_id": "colletta-1856-v2-selections-v1",
+          "section": "amantea",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (OCR page boundaries; not checked against print)",
+          "quote": "pochi soldati la guardavano e molli Borbonia-"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "ni, gli uni e gli altri sotto il governo del colonnello Mirabelli, nato in quella città, ricco, nobile, usato all'armi ed all'onore;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "tre cannoni di ferro munivano i baluardi, le munizioni e le vettovaglie bastavano, l'animo ridondava."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Reynier as side A's commander and Colonel Mirabelli as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Koch has Reynier, 'to whom the command fell by right' and whom the marshal instructed before leaving for Naples, direct all the operations of the siege and grant the garrison its terms, with Colonel Huard investing the place and Verdier bringing the largest column; Colletta has General Verdier lead both the first attack and the siege and does not name Reynier (claim side-a-command). Koch and Colletta both name Colonel Mirabelli, a native of Amantea, as side B's commander (claim side-b-command). English renderings (ours): as in claims bodart-strength, side-a-command and side-b-command.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Préalablement il avait prescrit au général Reynier, à qui le commandement revenait de droit, de répartir ses troupes par brigades à peu près égales et de les faire camper à Cosenza, Catanzaro et Monteleone;"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "il fut suivi le lendemain par une colonne de 1,000 hommes qu'amenait le général Reynier, lequel dirigea toutes les opérations du siége."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Reynier accorda à la garnison la faculté de passer en Sicile, à condition de ne pas servir contre nous pendant un an et un jour."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "ni, gli uni e gli altri sotto il governo del colonnello Mirabelli, nato in quella città, ricco, nobile, usato all'armi ed all'onore;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A's command and decisions. Koch: after Maida, General Verdier, charged with the command of Calabria Citeriore, held its capital and kept Amantea blockaded until bands threatened to surround him and he recalled the blockade corps (OCR). Masséna would have scrupled to leave Cosenza without reducing Amantea and Maratea, and he charged Verdier with taking Amantea and General Lamarque with taking Maratea (OCR). In accordance with the marshal's orders Verdier left Cosenza on 3 December with 1,300 men, 2 howitzers and 2 mountain pieces; before the place a first escalade of the bastioned front failed, and a second, some days later, between the rocks facing the sea while the bastioned front was attacked by force, failed too; these two failures, the consumption of food and munitions and the 3,000 insurgents established between Lagonegro and Amantea decided him to withdraw on 8 December. The marshal went to Cosenza on 15 December, settled the final dispositions for the attack on Amantea and left for Naples on the 21st, having first instructed General Reynier, to whom the command fell by right, to distribute his troops in brigades camped at Cosenza, Catanzaro and Monteleone, to form mobile columns pursuing the bands, to garrison the posts as they surrendered and to keep the column chiefs in touch with the authorities. In execution of his orders Colonel Huard, acting as general of brigade, invested the fortress on the 18th; Verdier set out on the 22nd and Reynier followed the next day and directed all the operations of the siege; Reynier granted the garrison leave to pass to Sicily. Colletta: General Verdier went to assault the place; having invested the front of the castle toward the country and raised a battery, he sent his bravest soldiers forward with the ladders at first light, but they were driven back; after other attacks had failed, on a long dark December night a party of seven climbed the rocks between the town and the sea while a larger column followed with ropes and ladders and other troops attacked the bastioned wall to divert the defenders, but a child's cry from the sea front raised the alarm, one of the seven was killed, a howitzer [shell] bursting in the air showed the assailants and many French were killed; the general raised the siege and returned to Cosenza. When December was over he came back to the assaults, bringing Colonel Amato, also a citizen of Amantea and Mirabelli's kinsman and childhood companion and friend, who wrote to Mirabelli on reaching the camp.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's chain of command as Koch and Colletta give it (page images except the passages marked OCR). Bodart and Koch credit Reynier with the siege; Colletta has Verdier conduct both the first attack and the siege and does not name Reynier, so the commander at the siege is disputed. In Koch Verdier commanded Calabria Citeriore (OCR), led the first attempt and brought the largest column to the siege. Colletta's 'he' who came back when December was over refers to 'the general', Verdier, of the preceding sentences. Colletta's night attempt on the sea side, with a diversion against the bastioned wall, matches in its description Koch's second escalade between the rocks facing the sea while the bastioned front was attacked; both precede Verdier's withdrawal. The decisions described are side A's commanders', the marshal's included, so the claim is tagged commander_created. English renderings (ours): Koch, 'General Verdier, charged with the command of Calabria Citeriore'; 'and kept Amantea blockaded by'; 'Verdier at once recalled the blockade corps' (OCR); 'Masséna would have made it a scruple to leave Cosenza before having reduced them. He charged General Verdier with carrying the latter, and General Lamarque with taking the other' (OCR); as in claim koch-side-a for the first departure (p. 280); 'arrived before this' (p. 280) 'place, Verdier attempted on the bastioned front a first escalade, which failed. A second, tried some days later between the rocks that face the sea while the bastioned front was attacked by force, was equally unsuccessful. These two failures, the consumption of the food and munitions, and moreover the anxiety that 3,000 insurgents who had established themselves between Lagonegro and Amantea gave Verdier, decided him to withdraw on 8 December'; as in claim koch-side-a for the final dispositions; 'there he renewed to the king the pressing request for a leave, which was at last granted him, and left for Naples on the 21st. Beforehand he had instructed General Reynier, to whom the command fell by right, to distribute his troops in roughly equal brigades and to have them camp at Cosenza, Catanzaro and Monteleone; to have the generals form mobile columns of a third of their forces, which would be continually on the move and would range round these three points, pursuing without respite all the bands that might be landed on the coast; to put garrisons in the posts as they surrendered, provisioning them for a month or six weeks; finally to require that the chiefs of these mobile columns be in direct relation with the constituted authorities, so as to be warned in time of all these insurrectionary movements' (p. 281); as in claim koch-side-a for the investment and the siege (pp. 281-282); 'Reynier granted the garrison leave to pass to Sicily, on condition of not serving against us for a year and a day' (p. 282); Colletta, as in claim colletta-side-a for the first attack; 'and then, having surrounded that front of the castle that faces the country and raised a battery of cannon and howitzers, at the first light of day, at an agreed signal, the bravest soldiers advanced at the run with the ladders; but the strength of the place and the valour of the garrison drove them back, so that, reduced, they returned to the camps. Other attacks, other assaults, other threats having come to nothing'; 'on a long dark night of December, a small party of seven men, the most nimble first, climbing among the rocks that separate the town from the sea'; 'while a larger column with ropes and ladders silently followed the marked tracks, and other troops, shouting and firing, attacked the bastioned wall to divert the defenders from the true assault. But at a child's voice crying \"the French\" from the sea front, the guards run up'; 'one of the seven is hit and dies'; 'when a howitzer [shell] from the camp burst in the air and by its light revealed the assailants'; 'many of the French were killed, the others halted and gathered in the camps. The general, when he saw that neither surprises, nor tricks, nor force sufficed, raised the siege and returned, grieving and thirsting for revenge, to Cosenza'; 'but when December was over, he, stronger, better provided with engines, returned to the assaults, bringing on his side Colonel Amato, also a citizen of Amantea, kinsman and from childhood companion and friend of Mirabelli' (p. 32); 'to whom, on arriving at the camp, he wrote affectionately' (p. 33).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "maida",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 191 (OCR page boundaries; not checked against print)",
+          "quote": "Le général Yerdier, chargé du eommanderaent de la Calabrecitérieure,"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "maida",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 191 (OCR page boundaries; not checked against print)",
+          "quote": "et tenait Amantea bloqué par"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "maida",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 191 (OCR page boundaries; not checked against print)",
+          "quote": "V^dier rappela aussitÀt le corps de bloeus^"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 279 (OCR page boundaries; not checked against print)",
+          "quote": "Ma^eM se serait fait acropole de quitta CkxBenâa mimai de Im avoir rédaîtes."
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 279 (OCR page boundaries; not checked against print)",
+          "quote": "Il chargea le ^^éral Vardier d'^âlevcr la deratère, et le générai Lamarque de pMidre r anife*"
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Tranquille sur ce point, Verdier, conformément aux ordres du maréchal, partit de Cosenza le 3 décembre pour réduire Amantea, à la tête de 1,300 hommes, 2 obusiers et 2 pièces de montagne."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Arrivé devant cette"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "place, Verdier tenta sur le front bastionné une première escalade qui échoua."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Une seconde, essayée à quelques jours de là entre les rochers qui font face à la mer, pendant qu'on attaquait de vive force le front bastionné, resta également sans succès."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Ces deux échecs, la consommation des vivres et des munitions, et de plus l'inquiétude que donnèrent à Verdier 3,000 insurgés qui s'étaient établis entre Lagonegro et Amantea, le déterminèrent à se retirer le 8 décembre, après avoir eu 4 ou 5 hommes tués et environ 50 blessés, la plupart à coups de pierres (voy. Pièces justificatives, n° XIII)."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Cependant il fallait en finir : le maréchal se rendit le 15 décembre à Cosenza, où il arrêta les dernières dispositions concernant l'attaque d'Amantea."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Là il renouvela au roi la demande pressante d'un congé qui lui fut enfin accordé, et partit pour Naples le 21."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Préalablement il avait prescrit au général Reynier, à qui le commandement revenait de droit, de répartir ses troupes par brigades à peu près égales et de les faire camper à Cosenza, Catanzaro et Monteleone;"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "de faire former aux généraux des colonnes mobiles du tiers de leurs forces qui seraient continuellement en mouvement et rayonneraient autour de ces trois points, poursuivant sans-relâche toutes les bandes qui pourraient être débarquées sur la côte;"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "de mettre des garnisons dans les postes au fur et à mesure qu'ils se rendraient, en les approvisionnant pour un mois ou six semaines;"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "enfin d'exiger que les chefs de ces colonnes mobiles fussent en rapport direct avec les autorités constituées, de manière à être prévenus à temps de tous ces mouvements insurrectionnels."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "En exécution de ses ordres, un corps de 1,200 hommes conduits par le colonel Huard, remplissant les"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "fonctions de général de brigade, forma l'investissement de la forteresse le 18."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Verdier se mit en mouvement le 22 avec 2,500 hommes et 6 bouches à feu;"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "il fut suivi le lendemain par une colonne de 1,000 hommes qu'amenait le général Reynier, lequel dirigea toutes les opérations du siége."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Reynier accorda à la garnison la faculté de passer en Sicile, à condition de ne pas servir contre nous pendant un an et un jour."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Il generale Verdier, con tremila duecento soldati, artiglierie ed attrezzi, andò ad assaltarla;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "e quindi, cinta quella fronte del castello che è verso la campagna, alzata una batteria di cannoni e di obici, agli albòri del giorno, per segno convenuto, avanzarono a corsa con le scale i soldati più prodi; ma la forza del luogo ed il valore del presidio li respinse, sicchè scemati ritornarono ai campi."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Altre offese, altri assalti, altre minacce andate a vuoto,"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "In una notte lunga e fosca del dicembre,"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "piccolo drappello di sette uomini de'quali primo il più destro, rampicandosi fra'sassi che separano dal mare la città,"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "mentre colonna più numerosa con funi e scale tacitamente seguiva le segnate tracce, ed altre schiere gridando e sparando attaccavano il muro bastionato per divertire i difensori dal vero assalto."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma per voce infantile che dalla fronte di mare grida i Francesi, accorrono le guardie,"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "è colpito un de'sette e muore,"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "quando un obice del campo scoppiò in aria, e con la luce palesò gli assalitori."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "molti dei Francesi furono morti, si arrestarono gli altri e si raccolsero nei campi."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Il generale, poi che vidde non bastare le sorprese, non gl'inganni, non le forze, levato l'assedio, ritornò doglioso ed assetato di vendetta in Cosenza."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "al quale giungendo al campo amorevolmente scrisse, e questi amorevolmente rispose, l'un l'altro tentandosi, l'Amato con esaltare l'amor di patria, il Mirabelli la virtù della fede, ed in entrambi prevalendo l'onore, durarono nemici no, ma contrarii."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Side B's command. Koch: the place was under the orders of Colonel Mirabelli, a native of Amantea who enjoyed great consideration in the canton. Colletta: Colonel Mirabelli, born in the town, rich, noble and used to arms and to honour, commanded its soldiers and Bourbon partisans. When Colonel Amato, his kinsman and childhood friend, wrote to him affectionately on reaching the French camp, he answered affectionately, each sounding the other, Amato extolling love of country and Mirabelli the virtue of loyalty, and, honour prevailing in both, they remained not enemies but opponents. The breach was assaulted and defended four times, and when a mined bastion fell, other, newly built fortifications were found to bar the passage; hunger alone made the castle surrender, on honourable terms.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's command as both accounts give it (page images, with the first part of the word 'Borboniani' from the OCR). Bodart, Koch and Colletta agree on Mirabelli. The passages read do not say who built the new fortifications, whether Mirabelli acted on orders from Palermo or who signed the capitulation. The decisions described are side B's commander's, so the claim is tagged commander_created. English renderings (ours): Koch, as in claim koch-side-b; Colletta, as in claim colletta-side-b, and 'the ones and the others under the command of Colonel Mirabelli, born in that town, rich, noble, accustomed to arms and to honour' (p. 32); 'to whom, on arriving at the camp, he wrote affectionately, and the latter answered affectionately, each testing the other, Amato by extolling love of country, Mirabelli the virtue of loyalty, and with honour prevailing in both, they remained not enemies, but opponents'; 'meanwhile several batteries were raised against the castle, and after some days of fire, the breach opened, it was assaulted and defended four times'; 'the siege changed its manner: advancing underground, a bastion was mined, which collapsed at the explosion; and when victory seemed certain because the entry was inevitable, it was seen that other, newly built fortifications blocked the passage' (p. 33); as in claim bodart-winner for the surrender (p. 33).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "pochi soldati la guardavano e molti"
+        },
+        {
+          "source_id": "colletta-1856-v2-selections-v1",
+          "section": "amantea",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (OCR page boundaries; not checked against print)",
+          "quote": "pochi soldati la guardavano e molli Borbonia-"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "ni, gli uni e gli altri sotto il governo del colonnello Mirabelli, nato in quella città, ricco, nobile, usato all'armi ed all'onore;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "al quale giungendo al campo amorevolmente scrisse, e questi amorevolmente rispose, l'un l'altro tentandosi, l'Amato con esaltare l'amor di patria, il Mirabelli la virtù della fede, ed in entrambi prevalendo l'onore, durarono nemici no, ma contrarii."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Si alzarono intanto parecchie batterie contro il castello, e dopo alcuni giorni di fuoco, aperta la breccia, fu ben quattro volte assaltata e difesa."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Cangiò modo all'assedio: avanzando sotterra fu minato un bastione, che allo scoppio rovinò; e quando pareva certa la vittoria perchè inevitabile la entrata, fu visto che altre fortificazioni novellamente costrutte impedivano il passaggio."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records that side A (French) under Reynier forced the Neapolitan garrison to surrender, dating the siege from 18 December 1806 to 6 February 1807; the garrison was allowed to march out with all the honours of war and, against the obligation not to serve against France or its allies for a year, to embark for Sicily. Koch: several assaults were repulsed and the besiegers had to mine, and only on 6 February, after 33 days of siege, did the place capitulate; Reynier granted the garrison leave to pass to Sicily on condition of not serving against the French for a year and a day. Colletta: the two besieged castles, Amantea and Cotrone, yielded at last, their garrisons with different fates but equal glory; hunger alone made the castle of Amantea surrender, on honourable terms, after forty days of siege, not counting the first assault, and the garrisons returned to Sicily as prisoners for a year and a day.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending (page images). The accounts agree on the surrender and the garrison's passage to Sicily. Bodart's year against Koch's and Colletta's year and a day is a difference in the reported terms; Bodart's honours of war are not in the passages read, where Colletta has honourable terms and Koch the passage to Sicily only. Colletta puts the surrender down to hunger alone; Koch gives no reason beyond the siege works and the mine. Bodart's first date is the day of Huard's investment in Koch (claim koch-side-a); Koch counts 33 days of siege and Colletta forty, without the first assault, and the passages read do not say from what day either counts. English renderings (ours): Bodart, as in claim bodart-strength, and '1806 18/12 to 1807 6/2. siege and capture of Amantea'; 'the garrison was allowed to march out with all the honours of war and, against the obligation not to serve against France or its allies for one year, to embark for Sicily'; Koch, 'several assaults having been repulsed, it was necessary to go underground, and it was only on 6 February, after 33 days of siege, that the place capitulated' (p. 282), and as in claim side-a-command for the terms; Colletta, 'Massena, after having laid siege to Amantea and Cotrone, on reaching Palme, stopped'; 'the two besieged castles yielded at last, with different fates for the garrisons but equal glory' (p. 31); 'but hunger hung over the Calabrians, and for it alone the little castle of Amantea, armed with three corroded cannon, defended by inexperienced partisans, assailed by very strong forces with the best arts of war, after forty days of siege (without counting the first assault) surrendered on honourable terms. The garrisons returned to Sicily as prisoners for a year and a day' (p. 33).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "1806 18./12. bis 1807 6./2. BELAGERUNG und EINNAHME von Amantea"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Die Besatzung durfte mit allen kriegerischen Ehren ausmarschieren und gegen die Verpflichtung, ein Jahr lang nicht gegen Frankreich oder dessen Verbündete zu dienen, sich nach Sizilien einschiffen."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Plusieurs assauts ayant été repoussés, il fallut entrer en galerie, et ce ne fut que le 6 février, après 33 jours de siége, que la place capitula."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Reynier accorda à la garnison la faculté de passer en Sicile, à condition de ne pas servir contre nous pendant un an et un jour."
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "Massena, dopo aver cinto di assedio Amantea e Cotrone, giunto a Palme, si arrestò;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "I due castelli assediati cederono alfine con sorte diversa de'presidii, ma gloria eguale;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "I presidii tornarono in Sicilia come prigioni per un anno ed un giorno."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's (French) loss as about 500 men, 20 of them officers, and prints no loss for side B.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule (claim bodart-strength); a post-outcome observation. It is not in the passages read, which give no figure for either side's loss in the siege: Koch's 4 or 5 killed and about 50 wounded, most of them by stones, are for Verdier's first attempt, before Bodart's dates, and Colletta gives no figures: the closer the fighting came, the deadlier it was, and in the first attempt many French were killed in the night attack (claim side-a-command). 'Offz.' is Offizier in Bodart's list of abbreviations. English renderings (ours): 'French loss: about 500 men (20 officers)'; Koch, 'after having had 4 or 5 men killed and about 50 wounded, most of them by stones (see pièces justificatives, n° XIII)' (p. 281); Colletta, 'the closer the war came, the deadlier it was; now the art of the besiegers prevailed over the desperate valour of the besieged, and now the latter over the former' (p. 33).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Franz. Verl.: ca. 500 M. (20 Offz.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Offz. — Offizier"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Ces deux échecs, la consommation des vivres et des munitions, et de plus l'inquiétude que donnèrent à Verdier 3,000 insurgés qui s'étaient établis entre Lagonegro et Amantea, le déterminèrent à se retirer le 8 décembre, après avoir eu 4 ou 5 hommes tués et environ 50 blessés, la plupart à coups de pierres (voy. Pièces justificatives, n° XIII)."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Più vicina la guerra, fu più mortale; ora l'arte degli assediatori prevaleva al valor disperato degli assediati, e or questo a quella."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "molti dei Francesi furono morti, si arrestarono gli altri e si raccolsero nei campi."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives side B's loss in the siege, and Bodart prints none. Colletta says that the closer the fighting came the deadlier it was and that hunger made the castle surrender (claims bodart-losses and bodart-winner); both histories send the garrison to Sicily under the capitulation. Unknown, not zero.",
+      "citations": []
+    },
+    {
+      "id": "amantea-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Amantea, a town in southern Italy, Calabria, on the Tyrrhenian Sea, 23 km southwest of Cosenza. Koch: the town is built on a rock near the sea, 30 kilometres south-west of Cosenza, with an enceinte of roughly square form, sheltered on three sides by the escarpment of the rocks on which it rests and closed on the fourth by an old bastioned front; it was scarcely safe from a coup de main, but the insurrection had given it importance because one could come up to it by boat from the sea. Colletta: a Calabrian town of two thousand five hundred inhabitants, built almost on the Tyrrhenian shore on a great rock, once a reef, closed on three sides by cliffs and on the fourth by an old wall between two weak bastions; rocks separate it from the sea, and in the first attempt Verdier hoped to enter by that side, the least guarded because it was believed inaccessible.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart's location and both accounts (page images); no map was inspected. Bodart's 23 km and Koch's 30 kilometres from Cosenza differ and are recorded, not reconciled. The ground is tagged inherited. English renderings (ours): Bodart, 'town in southern Italy, Calabria, on the Tyrrhenian Sea, 23 km southwest of Cosenza'; Koch, 'this town, built on a rock near the sea, 30 kilometres south-west of Cosenza, has an enceinte of roughly square form, sheltered on three sides by the escarpment of the rocks on which it rests, and closed by an old bastioned front on the 4th; it was scarcely safe from a coup de main, but the insurrection had given it importance, because one could come up to it in boats from the sea' (p. 280); Colletta, 'Amantea is a town of Calabria of two thousand five hundred inhabitants, founded almost on the shore of the Tyrrhenian, upon a great rock, once a reef; cliffs close it on three sides, and on the fourth an old wall between two weak bastions' (p. 31); 'the general hoped to enter Amantea by the less guarded side, because it was believed inaccessible'; as in claim side-a-command for the rocks (p. 32).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "(Stadt in Unteritalien, Calabrien, am Tyrrhenischen Meer, 23 km südwestl. von Cosenza)."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Cette ville, bâtie sur un roc près de la mer, à 30 kilomètres sud-ouest de Cosenza, a une enceinte de forme à peu près carrée, abritée de trois côtés par l'escarpement des rochers sur lesquels elle s'appuie, et fermée par un vieux front bastionné sur le 4e;"
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était à peine à l'abri d'un coup de main, mais l'insurrection lui avait donné de l'importance, parce qu'on pouvait y remonter en barques, de la mer;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "Amantea è città di Calabria di duemilacinquecento abitatori, fondata quasi su la marina del Tirreno, sopra un gran sasso, già scoglio;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "la chiudono da tre lati le rupi, e dal quarto un vecchio muro fra due deboli bastioni;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "il generale sperò di entrare in Amantea per il lato meno guardato, perchè creduto inaccessibile."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "piccolo drappello di sette uomini de'quali primo il più destro, rampicandosi fra'sassi che separano dal mare la città,"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side A brought siege artillery and mined; in Colletta hunger forced side B's surrender. Koch: Verdier set out with 2,500 men and 6 pieces of ordnance; a trench was opened 260 metres from the place and pushed to 40 metres from the capital of the right bastion, where a battery of 6 pieces brought down the escarp after 48 hours of fire; after several assaults were repulsed the besiegers had to mine. The place could be reached by boat from the sea. In the first attempt, before Bodart's dates, the consumption of food and munitions was one of the reasons for Verdier's withdrawal. Colletta: before the first attack the place's munitions and victuals sufficed; Verdier came back better provided with engines; several batteries were raised against the castle, the breach was opened after some days of fire, and a bastion was mined and blown; hunger hung over the Calabrians, and for it alone the castle surrendered.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them (page images). No supply return was inspected, and the passages read do not say whether the place was supplied from the sea during the siege or how its food ran short. The transcription reads the first figure of '48' on the heavily inked p. 282 by its shape. Side A's means were set by the marshal's dispositions and the direction of the siege, and side B's by its own stores, so the claim is tagged unresolved. English renderings (ours): Koch, as in claims koch-side-a and amantea-ground; 'a trench boyau was opened 260 metres from the place and pushed to 40 metres from the capital of the right bastion, where a battery of 6 pieces was established, which brought down the escarp after 48 hours of fire' (p. 282); as in claim bodart-winner for the mining (p. 282) and claim side-a-command for the withdrawal (p. 281); Colletta, as in claims colletta-side-b and colletta-side-a; as in claim side-b-command for the batteries and the mine (p. 33); as in claim bodart-winner for the hunger (p. 33).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Verdier se mit en mouvement le 22 avec 2,500 hommes et 6 bouches à feu;"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "On ouvrit un boyau de tranchée à 260 mètres de la place, et on le poussa à 40 mètres de la capitale du bastion de droite où l'on établit une batterie de 6 pièces qui firent écrouler l'escarpe, après 48 heures de feu."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Plusieurs assauts ayant été repoussés, il fallut entrer en galerie, et ce ne fut que le 6 février, après 33 jours de siége, que la place capitula."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était à peine à l'abri d'un coup de main, mais l'insurrection lui avait donné de l'importance, parce qu'on pouvait y remonter en barques, de la mer;"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Ces deux échecs, la consommation des vivres et des munitions, et de plus l'inquiétude que donnèrent à Verdier 3,000 insurgés qui s'étaient établis entre Lagonegro et Amantea, le déterminèrent à se retirer le 8 décembre, après avoir eu 4 ou 5 hommes tués et environ 50 blessés, la plupart à coups de pierres (voy. Pièces justificatives, n° XIII)."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "tre cannoni di ferro munivano i baluardi, le munizioni e le vettovaglie bastavano, l'animo ridondava."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Si alzarono intanto parecchie batterie contro il castello, e dopo alcuni giorni di fuoco, aperta la breccia, fu ben quattro volte assaltata e difesa."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Cangiò modo all'assedio: avanzando sotterra fu minato un bastione, che allo scoppio rovinò; e quando pareva certa la vittoria perchè inevitabile la entrata, fu visto che altre fortificazioni novellamente costrutte impedivano il passaggio."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information as the accounts give it. Koch: before leaving, the marshal required the chiefs of the mobile columns to be in direct touch with the constituted authorities so as to be warned in time of insurrectionary movements; in the first attempt, before Bodart's dates, the 3,000 insurgents established between Lagonegro and Amantea had worried Verdier. Colletta: in the first attempt Verdier hoped to enter by the side least guarded because it was believed inaccessible; in the siege, when the mined bastion fell and the entry seemed certain, other, newly built fortifications were seen to bar the passage.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as the accounts give it (page images). The passages read do not say what side A knew of the garrison's strength or of the works behind the breach before the mine was fired. English renderings (ours): Koch, as in claim side-a-command (p. 281); Colletta, as in claims amantea-ground (p. 32) and side-b-command (p. 33).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "enfin d'exiger que les chefs de ces colonnes mobiles fussent en rapport direct avec les autorités constituées, de manière à être prévenus à temps de tous ces mouvements insurrectionnels."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Ces deux échecs, la consommation des vivres et des munitions, et de plus l'inquiétude que donnèrent à Verdier 3,000 insurgés qui s'étaient établis entre Lagonegro et Amantea, le déterminèrent à se retirer le 8 décembre, après avoir eu 4 ou 5 hommes tués et environ 50 blessés, la plupart à coups de pierres (voy. Pièces justificatives, n° XIII)."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "il generale sperò di entrare in Amantea per il lato meno guardato, perchè creduto inaccessibile."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Cangiò modo all'assedio: avanzando sotterra fu minato un bastione, che allo scoppio rovinò; e quando pareva certa la vittoria perchè inevitabile la entrata, fu visto che altre fortificazioni novellamente costrutte impedivano il passaggio."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read says what side B knew of side A's strength, approaches or mine during the siege of 18 December to 6 February. The alarm Colletta describes, raised by a child on a December night, belongs to the first attempt, before Bodart's dates (claim side-a-command). Unknown.",
+      "citations": []
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aim was to take Amantea and end its use by the insurrection. Koch: there was no hope of restoring peace round Lagonegro and Cosenza and on the coast of the Gulf of Policastro while Maratea and Amantea were in Anglo-Sicilian hands; the two small towns served the insurgents as places of arms and pivots of their operations, and Masséna would have scrupled to leave Cosenza without reducing them (OCR); the insurrection had given Amantea importance because it could be reached by boat from the sea; after the failed first attempt 'it had to be finished', and the marshal settled the final dispositions for the attack on Amantea. Colletta: Masséna had laid siege to Amantea and Cotrone before stopping at Palme.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as both accounts give them (page images except the passages marked OCR). The aim was set by the marshal, above the commanders at the siege, so the claim is tagged inherited. English renderings (ours): Koch, 'but around Lagonegro, Cosenza and on the coast of the Gulf of Policastro there was no hope of bringing back peace as long as Maratea and Amantea were in the hands of the Anglo-Sicilians. These two small towns served' ... 'as places of arms and pivots for the operations of the insurgents' (OCR, garbled at the page break); as in claim side-a-command for the marshal's scruple (OCR); as in claim amantea-ground for the boats (p. 280) and claim koch-side-a for the final dispositions (p. 281); Colletta, as in claim bodart-winner (p. 31).",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 278 (OCR page boundaries; not checked against print)",
+          "quote": "Mais aax eavf- rons de La^negro, de CSosenza et sur la <AtQ da ^olfe de Policastro ^ il n'y avait pas d'espoir de ramener k paix tant que Maratea et Amaatea seraient entre les mains des Anglo-Siciliens."
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 278 (OCR page boundaries; not checked against print)",
+          "quote": "Ces deux petites villes ser-^"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 279 (OCR page boundaries; not checked against print)",
+          "quote": "d'armi» et de pivote aux <^péraUoiis dm iifcsiirgés;"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 279 (OCR page boundaries; not checked against print)",
+          "quote": "Ma^eM se serait fait acropole de quitta CkxBenâa mimai de Im avoir rédaîtes."
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était à peine à l'abri d'un coup de main, mais l'insurrection lui avait donné de l'importance, parce qu'on pouvait y remonter en barques, de la mer;"
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Cependant il fallait en finir : le maréchal se rendit le 15 décembre à Cosenza, où il arrêta les dernières dispositions concernant l'attaque d'Amantea."
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "Massena, dopo aver cinto di assedio Amantea e Cotrone, giunto a Palme, si arrestò;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim was to hold Amantea. Koch: in his account of the expedition into Calabria the French were then masters of the whole country except Amantea and Maratea, whose garrisons fell only some months later (OCR); the two towns served the insurgents as places of arms (OCR). Colletta: the garrison's spirit abounded; Mirabelli answered Amato's appeal to love of country with the virtue of loyalty, and, honour prevailing in both, they remained opponents; only hunger made the castle surrender.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Aims as the accounts give them (page images except the passages marked OCR). The passages read do not say whether Mirabelli held the place on orders from Palermo or by his own choice, so the claim is tagged unresolved. English renderings (ours): Koch, 'we were then masters of the whole country, with the exception of Amantea and Maratea, whose garrisons succumbed only some months later' (OCR); as in claim side-a-objectives for the places of arms (OCR); Colletta, as in claims colletta-side-b, side-b-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "calabria-expedition",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 177 (OCR page boundaries; not checked against print)",
+          "quote": "Nous étions alors maîtres de tout le pays , à l'exception d' Amantea et de Maratea, dont les gamiscms ne succombèrent que quelques mois plus tard."
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 278 (OCR page boundaries; not checked against print)",
+          "quote": "Ces deux petites villes ser-^"
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "amantea",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 279 (OCR page boundaries; not checked against print)",
+          "quote": "d'armi» et de pivote aux <^péraUoiis dm iifcsiirgés;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "tre cannoni di ferro munivano i baluardi, le munizioni e le vettovaglie bastavano, l'animo ridondava."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "al quale giungendo al campo amorevolmente scrisse, e questi amorevolmente rispose, l'un l'altro tentandosi, l'Amato con esaltare l'amor di patria, il Mirabelli la virtù della fede, ed in entrambi prevalendo l'onore, durarono nemici no, ma contrarii."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Huard's corps invested the fortress on the 18th [December], the besiegers opened a trench, breached the escarp with a battery, made several assaults, which were repulsed, and mined until the place capitulated on 6 February (Koch); Colletta has several batteries raised, the breach assaulted and defended four times and a bastion mined, until hunger made the castle surrender. Side B defended.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's entry and both histories have side A besiege and side B defend. Koch has the investment and the siege carried out in execution of the orders the marshal gave after settling at Cosenza the final dispositions for the attack on Amantea, so the posture is tagged inherited; Colletta does not say who ordered Verdier's return when December was over. The accounts agree on the code, so they are one claim. English renderings (ours): Koch, as in claims koch-side-a, means-and-supply and bodart-winner; Colletta, as in claims side-b-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "Cependant il fallait en finir : le maréchal se rendit le 15 décembre à Cosenza, où il arrêta les dernières dispositions concernant l'attaque d'Amantea."
+        },
+        {
+          "source_id": "koch-massena-t5-p281-figures-v1",
+          "section": "p281",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+          "quote": "En exécution de ses ordres, un corps de 1,200 hommes conduits par le colonel Huard, remplissant les"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "fonctions de général de brigade, forma l'investissement de la forteresse le 18."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "On ouvrit un boyau de tranchée à 260 mètres de la place, et on le poussa à 40 mètres de la capitale du bastion de droite où l'on établit une batterie de 6 pièces qui firent écrouler l'escarpe, après 48 heures de feu."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Plusieurs assauts ayant été repoussés, il fallut entrer en galerie, et ce ne fut que le 6 février, après 33 jours de siége, que la place capitula."
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Si alzarono intanto parecchie batterie contro il castello, e dopo alcuni giorni di fuoco, aperta la breccia, fu ben quattro volte assaltata e difesa."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Cangiò modo all'assedio: avanzando sotterra fu minato un bastione, che allo scoppio rovinò; e quando pareva certa la vittoria perchè inevitabile la entrata, fu visto che altre fortificazioni novellamente costrutte impedivano il passaggio."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Ma soprastava la fame a'Calabresi, e sol per essa il piccolo castello di Amantea, munito di tre rosi cannoni, difeso da inesperti partigiani, assalito da fortissime schiere con le migliori arti di guerra, dopo quaranta giorni di assedio (senza tener conto del primo assalto) a patti onorevoli si arrese."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Both sides fought from works. Side B held a walled town: Koch gives it an enceinte of roughly square form, sheltered on three sides by the escarpment of its rocks and closed on the fourth by an old bastioned front, scarcely safe from a coup de main; Colletta closes it on three sides by cliffs and on the fourth by an old wall between two weak bastions, calls it a castle whose bastions were armed with three iron cannon, and has other, newly built fortifications bar the passage when a mined bastion fell. Side A fought from siege works: Koch has a trench pushed to 40 metres from the capital of the right bastion, where a battery of 6 pieces brought down the escarp, and a mine; Colletta has several batteries raised against the castle and a bastion mined.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Code both_fortified, as for Gaëta (B371a): side B defended permanent walls and bastions and new works behind the breach, and side A's battery fought from its trench (Koch) and its batteries against the castle (Colletta). The old walls are permanent (inherited); the new works were built during the siege, and the passages read do not say on whose order; side A's trench and batteries were built for this siege, which Reynier directed (Koch); one claim carries one phase, so it is unresolved. A coding that counted only the defended position would give B_fortified. The accounts agree on the code, so they are one claim. English renderings (ours): Koch, as in claims amantea-ground, means-and-supply and bodart-winner; Colletta, as in claims amantea-ground, colletta-side-b and side-b-command.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "Cette ville, bâtie sur un roc près de la mer, à 30 kilomètres sud-ouest de Cosenza, a une enceinte de forme à peu près carrée, abritée de trois côtés par l'escarpement des rochers sur lesquels elle s'appuie, et fermée par un vieux front bastionné sur le 4e;"
+        },
+        {
+          "source_id": "koch-massena-t5-p280-figures-v1",
+          "section": "p280",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+          "quote": "elle était à peine à l'abri d'un coup de main, mais l'insurrection lui avait donné de l'importance, parce qu'on pouvait y remonter en barques, de la mer;"
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "On ouvrit un boyau de tranchée à 260 mètres de la place, et on le poussa à 40 mètres de la capitale du bastion de droite où l'on établit une batterie de 6 pièces qui firent écrouler l'escarpe, après 48 heures de feu."
+        },
+        {
+          "source_id": "koch-massena-t5-p282-figures-v1",
+          "section": "p282",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+          "quote": "Plusieurs assauts ayant été repoussés, il fallut entrer en galerie, et ce ne fut que le 6 février, après 33 jours de siége, que la place capitula."
+        },
+        {
+          "source_id": "colletta-1856-v2-p31-figures-v1",
+          "section": "p31",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+          "quote": "la chiudono da tre lati le rupi, e dal quarto un vecchio muro fra due deboli bastioni;"
+        },
+        {
+          "source_id": "colletta-1856-v2-p32-figures-v1",
+          "section": "p32",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+          "quote": "tre cannoni di ferro munivano i baluardi, le munizioni e le vettovaglie bastavano, l'animo ridondava."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Si alzarono intanto parecchie batterie contro il castello, e dopo alcuni giorni di fuoco, aperta la breccia, fu ben quattro volte assaltata e difesa."
+        },
+        {
+          "source_id": "colletta-1856-v2-p33-figures-v1",
+          "section": "p33",
+          "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 33 (transcribed from the page image)",
+          "quote": "Cangiò modo all'assedio: avanzando sotterra fu minato un bastione, che allo scoppio rovinò; e quando pareva certa la vittoria perchè inevitabile la entrata, fu visto che altre fortificazioni novellamente costrutte impedivano il passaggio."
+        }
+      ],
+      "code": "both_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Koch refers to pièce justificative n° XIII for the first attempt; the parent OCR's pièces include Verdier's report on that attempt, under a heading the OCR does not give as n° XIII, with figures for his force, the insurgents and his loss that the OCR does not read as Koch's text does and with his intention to return before the place; the pièce lies outside the selection, its page image is not registered, and it is not cited and its figures are not restated. Also deferred: the parent OCR's account of an earlier combined operation against Amantea, given up when Reynier did not join Verdier, and of an English squadron anchored before the place (outside the selection; not cited); the articles of the capitulation, which the passages read do not print; Neapolitan, Sicilian and British accounts of the defence, none inspected.",
+    "Most consequential gap: side B's strength. Bodart gives the garrison about 1,300 men; Koch describes regular troops, some hundreds of insurgents and the inhabitants, and Colletta few soldiers and many Bourbon partisans, with no number in either. The targeted follow-up searched the whole parent OCR of Koch's volume for Amantea and Mirabelli and found no strength for the garrison; besides the passages above it found Koch's remark, in his opening description of the kingdom, that Brindisi, Otranto, Scilla, Amantea and others cannot be called fortresses but only simple coast batteries (outside the selection; not cited). A Neapolitan or British return of the garrison could narrow the gap.",
+    "Disputes recorded in the claims: side A's commander at the siege (Bodart and Koch Reynier; Colletta Verdier); side B's guns (Koch 4 to 5 pieces; Colletta three iron cannon); the distance from Cosenza (Bodart 23 km; Koch 30 kilometres); the length of the siege (Koch 33 days; Colletta forty, without the first assault; Bodart 18 December to 6 February); the parole (Bodart a year; Koch and Colletta a year and a day); the honours of war (Bodart; Colletta honourable terms; Koch neither); the cause of the surrender (Colletta hunger alone; Koch none given beyond the mine); and, before Bodart's dates, the strength of the first attempt (Koch 1,300 men; Colletta three thousand two hundred).",
+    "Families and dependence: Bodart (a compilation; his 4,700 equals Koch's three bodies by our arithmetic, but the passages read do not show what he used, and his 1,300 and 500 are not in them); Koch (the French history of 1850 from Masséna's papers and the war depot; second-hand for the garrison); Colletta (the Neapolitan history by a Neapolitan officer, printed in this edition in 1856; the passages read give him no role at Amantea and name no source). No passage read shows dependence between Koch and Colletta."
+  ]
+}

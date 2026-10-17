@@ -1,0 +1,1116 @@
+{
+  "schema_version": 1,
+  "battle_id": "B370c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's engagement at Campo Tenese (9 March 1806) in cohort v1's third-coalition 1806 group: Reynier's attack on the fortified Neapolitan position on the plateau of Campo Tenese, held by Damas's troops (his corps, the left of two, in Koch; the left of his army corps in Damas), and their rout and retreat toward the Crati. The fights at the Guaro (Gauro) and Lagonegro before it, the pursuit after 10 March and the evacuation of Calabria are context. Side A is the French. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 6,000 men under General of Division Reynier and side B (Neapolitan) 10,000 men under Lieutenant-General Count Damas. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Neither other account gives the strength of either side at Campo Tenese on 9 March. Koch gives Reynier's corps 12,632 men with 12 guns at the reorganisation of the army, of whom 6,000 were already concentrated near Nocera before the march (claim koch-side-a), and Damas's corps 15 battalions and 6 squadrons, about 12,000 (claim koch-side-b); Damas gives his army corps twelve thousand, four thousand of them raw recruits (claim damas-side-b). Bodart's 6,000 is Koch's number for the men concentrated near Nocera; the passages read do not show that he took it from there. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (6,000 men) under General of Division Reynier over the Neapolitans (10,000 men) under Lieutenant-General Count Damas'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "koch-side-a",
+      "dimension": "strength",
+      "value": "Side A (French), its own account in Koch: at the reorganisation of the army the 2e corps, destined for the conquest of the Calabrias, had 12,632 men of all arms with 12 guns, 6 of them mountain guns, under General Reynier; 6,000 of its men were already concentrated near Nocera, the rest quartered around Naples. Reynier's corps of four brigades, one of advance guard and one of reserve, marched from Salerno at the beginning of March in three columns a day apart; its advance guard was the 1er and 23e légers under General Compère. On the 9th Reynier closed the last two columns up on the first; at Campo Tenese a battalion of the 42e was sent onto the heights on the left to support the voltigeurs of the 1er léger, the advance guard formed opposite the redoubts with Verdier's division in second line, and General Franceschi's brigade of chasseurs à cheval, held back in the defile of San Martino, could not take part. Koch gives no total for the force engaged.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history, read from the page images. The 12,632 is the corps' strength at the reorganisation before the march, not the force engaged on 9 March; Koch dates the reorganisation only in the OCR, so the date is not restated. The corps was the one the army's organisation gave Reynier, so the claim is tagged inherited; his dispositions on the day are in claim side-a-command. English renderings (ours): 'the 2nd, destined to make the conquest of the Calabrias, consisted of 12,632 men of all arms with 12 guns, of which 6 mountain guns, and was put under the orders of General Reynier'; 'it already had 6,000 men concentrated around Nocera; the rest was quartered around Naples'; 'Reynier's corps, which consisted of four brigades, one of them advance guard and one reserve, set out from Salerno at the beginning of March in three columns, a day's distance apart, on the road to Reggio, then passable for carriages, as we know, only as far as Eboli'; 'its advance guard, composed of the 1st and 23rd light, led by General Compère, arrived on the 5th at San Lorenzo di Padula, crossed on the 6th the defiles of the Guaro'; 'closed up the last two columns on the first' (p. 174); 'a battalion of the 42nd is sent onto the heights on the left to support the voltigeurs of the 1st light, hotly engaged; the advance guard forms opposite the redoubts, Verdier's division in second line, but slowly, the narrowness of the defile often forcing them to march in single file'; 'General Franceschi's brigade of chasseurs à cheval, held back in the defile of San Martino, could not take part in the action'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p169-figures-v1",
+          "section": "p169",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+          "quote": "Le 2e, destiné à faire la conquête des Calabres, se composait de 12,632 hommes de toutes armes avec 12 bouches à feu, dont 6 de montagne, et fut mis sous les ordres du général Reynier."
+        },
+        {
+          "source_id": "koch-massena-t5-p169-figures-v1",
+          "section": "p169",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+          "quote": "Il avait déjà 6,000 hommes concentrés aux environs de Nocera; le reste cantonnait autour de Naples."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Le corps de Reynier qui consistait en quatre brigades, dont une d'avant-garde et une de réserve, se mit en marche, de Salerne, au commencement de mars, en trois colonnes, à un jour de distance, sur la route de Reggio alors carrossable, comme nous le savons, seulement jusqu'à Eboli."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Son avant-garde, composée des 1er et 23e légers, conduite par le général Compère, arriva le 5 à San Lorenzo di Padula, franchit le 6 les défilés du Guaro,"
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Cependant il fallait presser l'attaque : un bataillon du 42e est envoyé sur les hauteurs de gauche pour appuyer les voltigeurs du 1er léger vivement engagés; l'avant-garde se forme en face des redoutes, la division Verdier en seconde ligne, mais avec lenteur, l'exiguïté du défilé obligeant souvent à marcher par file simple."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "La brigade de chasseurs à cheval du général Franceschi, retenue dans le défilé de San Martino, ne put prendre part à l'action et tomber sur l'ennemi au moment où il prit la fuite; elle bivouaqua à Campo Tenese, y recueillit les prisonniers, et fournit un détachement pour les escorter jusqu'à Salerne."
+        }
+      ]
+    },
+    {
+      "id": "koch-side-b",
+      "dimension": "strength",
+      "value": "Side B (Neapolitan) in Koch: the crown prince had gathered about 18,000 men of the Neapolitan army on the frontier of Calabria and divided them into two corps; the right, under Marshal Rosenheim, of 13 battalions and 11 squadrons (about 8,000 men); the left, commanded by Lieutenant-General Roger de Damas, of 15 battalions and 6 squadrons (about 12,000 men), on the left bank of the Leo; bands of insurgents covered the approaches. At Campo Tenese Damas's main body stood on the plain in two lines, its wings resting on heights where several battalions were placed at right angles, and three redoubts covered the centre; the two battalions defending the heights fled. Koch gives no total for the force at Campo Tenese.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's history on side B, read from the page images; second-hand for the Neapolitan strengths, whose source Koch does not name in the passages read. His two corps make about 20,000 (our arithmetic), against his about 18,000 for the whole. The corps' strengths were set by the prince's division of his forces, so the claim is tagged inherited. English renderings (ours): 'meanwhile the crown prince, who had gathered about 18,000 men of the Neapolitan army on the frontier of that province, announced that he meant to offer a lively resistance'; 'he had divided his forces into two corps posted on the principal outlets that lead into it from the Basilicata'; 'the right one, under the orders of Marshal Rosenheim, 13 battalions and 11 squadrons strong (about 8,000 men)'; 'the left one, commanded by Lieutenant-General Roger de Damas and composed of 15 battalions and 6 squadrons (about 12,000 men), occupied the left bank of the Leo, guarding with its right the road from Naples to Cosenza'; 'bands of insurgents covered the approaches to the double line of the Neapolitans'; 'General Damas had chosen his position in soldierly fashion; his main body occupied the plain in two lines whose wings rested on the heights where' (p. 174) 'several battalions were placed at right angles' (p. 175); 'three redoubts, each armed with two or three heavy guns, covered the centre'; 'that two battalions, charged with their defence, are in flight'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Cependant le prince royal, qui avait réuni environ 18,000 hommes de l'armée napolitaine sur la frontière de cette province, annonçait vouloir opposer une vive résistance."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Il avait divisé ses forces en deux corps postés sur les principaux débouchés qui y conduisent de la Basilicate."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Celui de droite, aux ordres du maréchal de Rosenheim, fort de 13 bataillons et de 11 escadrons (environ 8,000 hommes),"
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Celui de gauche, commandé par le lieutenant-général Roger de Damas et composé de 15 bataillons et 6 escadrons (environ 12,000 hommes) occupait la rive gauche du Leo, gardant par sa droite la route de Naples à Cosenza."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Des bandes d'insurgés couvraient les approches de la double ligne des Napolitains."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Damas avait militairement choisi sa position; son corps de bataille occupait la plaine sur deux lignes dont les ailes s'appuyaient aux hauteurs où"
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "étaient placés d'équerre plusieurs bataillons."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Trois redoutes, armées chacune de deux ou trois pièces de gros calibre, couvraient le centre."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Reynier, apprenant que les hauteurs viennent d'être balayées, que deux bataillons, chargés de leur défense, sont en fuite, et qu'ainsi la droite de l'ennemi est débordée, ordonne au général Compère de faire battre la charge et de marcher la baïonnette en avant, et à la division Verdier de soutenir son mouvement."
+        }
+      ]
+    },
+    {
+      "id": "damas-side-b",
+      "dimension": "strength",
+      "value": "Side B (Neapolitan), its commander's own account in Damas: he asks whether he should have disputed the ground with a French army with quite an inadequate force, and, introducing his sketch of the Calabrian provinces, asks the reader to suppose his army corps composed of only twelve thousand men, four thousand of them raw recruits; by his own note the troops that left Naples were 5000 men, mere half-clothed conscripts, and 7000 coming from the Abruzzi through Puglia were to meet him in Calabria. The corps was divided into good and very bad troops (OCR); he placed a small flying column of his best troops between the wings (OCR) and meant to put his recruits in the Campo Tenese redoubts. At Campo Tenese his left met the attack with untried and weary troops, two battalions of seasoned troops among them, recruits in the curtains and redoubts and troops on the hill on the right. He gives no total for the force at Campo Tenese.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's commander's account, read from the page images except the two classes of troops and the flying column (OCR); interested and self-justifying. The 5000 and the 7000 make the twelve thousand (our arithmetic). The editor's note to the twelve thousand says it probably does not include the corps of Marshal Rosenheim, which General Duhesme estimated at 7000 men; Koch has Rosenheim command a separate right corps (claim koch-side-b), while Damas presents himself as commanding an army corps with a right and a left wing and does not name Rosenheim in the passages read (claim side-b-command). The force was what he was given, so the claim is tagged inherited; his deployment is in claim side-b-command.",
+      "citations": [
+        {
+          "source_id": "damas-memoirs-1913-p391-figures-v1",
+          "section": "p391",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 391 (transcribed from the page image)",
+          "quote": "should I have undertaken to dispute the ground with a French army, when I was entirely without supplies of any kind, had quite an inadequate force at my disposal, and was hampered by the presence of two princes?"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p391-figures-v1",
+          "section": "p391",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 391 (transcribed from the page image)",
+          "quote": "supposing that corps to be composed of only twelve thousand men, four thousand of them being raw recruits.³"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 389, note 2.—The troops that left Naples amounted altogether to 5000 men—mere half-clothed conscripts. The 7000 who were coming from the Abruzzi through Puglia were to meet me in Calabria (Author's note)."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 391, note 3.—Not including, probably, the corps under Marshal Rosenheim, which was estimated by General Duhesme to contain 7000 men."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 392 (OCR page boundaries; not checked against print)",
+          "quote": "Since the army-corps was divided into two classes, composed respectively of good and of very bad troops, it was necessary to reserve the good ones and the cavalry for the open country, and to station the bad ones in the shelter of the mountains, with only a few good battalions to support them."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (OCR page boundaries; not checked against print)",
+          "quote": "Between the right and left wings, in the mountains, I had placed a small flying column composed of my best troops,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "Here I intended to place my recruits, supposing the enemy were successful in all the first encounters and it should become necessary to hold this position for a day or two, while the two wings were effecting a junction on the banks of the Coscile or the Crati."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "however, met with resistance wherever they appeared; but it was the resistance of untried and weary troops."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Two battalions of seasoned troops bore the shock of the charge with perfect steadiness, and lost a number of men, but, on being deserted by the battalions that should have protected their flank, they were turned and surrounded."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Finally all the recruits who were occupying the curtains and redoubts turned tail and fled: the troops who were defending the hill on the right followed their example, and the enemy was then able to turn the rest of the force."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Reynier as side A's commander and Lieutenant-General Count Damas as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Koch and Damas agree that Reynier commanded side A and Damas side B at Campo Tenese (claims side-a-command and side-b-command); Damas's editor notes that Reynier held the chief command. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 394, note 9.—Only Reynier (Jean Louis Ebenezer, of Lausanne,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "1771–1814), and Verdier (Jean Antoine, 1767–1839), were major-generals. Compère (Louis Furci Henri, born 1768, entered Neapolitan service 1807) was a brigadier, and commanded the advanced guard."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Reynier commanded side A and directed the attack. In Koch, Reynier received the order to penetrate into Calabria, and a council presided by Joseph, with Masséna present, agreed that Reynier would attack the left corps while Duhesme engaged the right. Learning that the main body of the royal army awaited him in an entrenched camp at Campo Tenese, Reynier set out on the 9th at daybreak, closed up his columns, drove off a hundred or so Neapolitan horse on reconnaissance, entered the defile of San Martino with flankers on the mountains, and as his column debouched detached several companies of voltigeurs onto the mountains right and left of the plain; the attack had to be pressed despite snow and fog; learning that the heights had been swept and the enemy's right outflanked, he ordered General Compère to beat the charge and advance with the bayonet and Verdier's division to support him. In Damas, three divisions under General Reynier pursued him; Damas's editor notes that only Reynier and Verdier were major-generals and that Compère, a brigadier, commanded the advanced guard.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions as Koch gives them, read from the page images; Damas's account and his editor's note name the commanders but not their decisions. The council set the attack on Damas's corps (claim posture); the conduct of the attack on the 9th was Reynier's, so the claim is tagged commander_created. English renderings (ours): Koch, '[the expeditions] begun by Duhesme, and Reynier received the order to penetrate into Calabria'; 'in accordance with what was decided in a council presided by Joseph, at which Massena was present, it was agreed that Reynier would attack the left corps while Duhesme engaged the right one'; 'General Reynier, learning that the main body of the royal army awaited him in an entrenched camp at Campo Tenese, a high plain surrounded by mountains, which has two narrow valleys for entrance and exit, set out on the 9th at daybreak, closed up the last two columns on the first, and after a short halt at Rotonda drove off a hundred or so Neapolitan horse that had come to reconnoitre'; 'he then entered the defile of San Martino, having the mountains that border it explored by flankers'; 'the enemy outposts were driven back by our scouts, and as soon as the head of the column began to debouch he detached several companies of voltigeurs onto the mountains to the right and left of the plain of Campo Tenese'; 'yet the attack had to be pressed', as in claim koch-side-a; 'Reynier, learning that the heights have just been swept, that two battalions, charged with their defence, are in flight, and that the enemy's right is thus outflanked, orders General Compère to beat the charge and advance with the bayonet, and Verdier's division to support his movement'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "commencées par Duhesme, et Reynier reçut l'ordre de pénétrer en Calabre."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Conformément à ce qui fut arrêté dans un conseil présidé par Joseph, et où assista Massena, on convint que Reynier attaquerait le corps de gauche pendant que Duhesme aborderait celui de droite."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Il s'engagea ensuite dans le défilé de San Martino en faisant explorer par des flanqueurs les montagnes qui le bordent."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis furent repoussés par nos éclaireurs, et dès que la tête de colonne commença à déboucher, il détacha plusieurs compagnies de voltigeurs sur les montagnes à droite et à gauche de la plaine de Campo Tenese."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Cependant il fallait presser l'attaque : un bataillon du 42e est envoyé sur les hauteurs de gauche pour appuyer les voltigeurs du 1er léger vivement engagés; l'avant-garde se forme en face des redoutes, la division Verdier en seconde ligne, mais avec lenteur, l'exiguïté du défilé obligeant souvent à marcher par file simple."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Reynier, apprenant que les hauteurs viennent d'être balayées, que deux bataillons, chargés de leur défense, sont en fuite, et qu'ainsi la droite de l'ennemi est débordée, ordonne au général Compère de faire battre la charge et de marcher la baïonnette en avant, et à la division Verdier de soutenir son mouvement."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "I was harassed and pursued by the three divisions under General Reynier:"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 394, note 9.—Only Reynier (Jean Louis Ebenezer, of Lausanne,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "1771–1814), and Verdier (Jean Antoine, 1767–1839), were major-generals. Compère (Louis Furci Henri, born 1768, entered Neapolitan service 1807) was a brigadier, and commanded the advanced guard."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Damas commanded side B at Campo Tenese. By his own account he commanded the Neapolitan army corps, with headquarters at Castrovillari behind its two wings (OCR), the prince settled at Cosenza (OCR), and the generals of the two wings under orders to attack the enemy as soon as he advanced with the same intention (OCR). He had made redoubts on the Campo Tenese, meaning to place his recruits there and hold the position for a day or two while the two wings joined on the Coscile or the Crati. Reynier surprised the left wing at its post (partly OCR); its general, Marshal Minutolo Canosa, betrayed by his spies and without proper precautions, lost his head, abandoned the finest natural position in the world, and was followed to Lauria and driven back from it. Damas hurried to join him; the right wing had to retire without delay, and he determined to use the fortified position of Campo Tenese to check the enemy with his left and join the two wings; there Canosa, drunk, led one of the two seasoned battalions into imprudence; when the recruits and the troops on the right-hand hill fled, Damas gave the order to retire and returned with those who could obey to the appointed position on the Crati. In Koch, Damas commanded the left corps and had chosen his position in soldierly fashion, judging the heights almost inaccessible; the crown prince and his brother had stayed at Cosenza.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions as Damas gives them (page images except the headquarters, the prince's residence, the orders to the wing generals and the start of the sentence on the surprise, OCR), with Koch's view (page images). The accounts differ on the command: Koch has two corps, the right under Marshal Rosenheim and the left under Damas, under the crown prince (claim koch-side-b); Damas commands an army corps of two wings, names Minutolo Canosa as the general of the left wing, leaves the general of the right unnamed in the passages read, and has that general break a bridge behind Cassano in his own retreat (OCR). Damas's editor identifies Minutolo Canosa as Marshal Raimondo Capece-Minutolo, one of the Princes of Canosa. Damas chose and fortified the position and ordered the retreat, so the claim is tagged commander_created; by his own note the prince's wish to hold the pass nearest Naples set the forward line (claim side-b-objectives). English renderings (ours): Koch, as in claims koch-side-b and fortification, and 'the crown prince and his brother, who out of prudence had stayed at Cosenza'.",
+      "citations": [
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "I established my headquarters at the fork of the roads, at Castrovillari, in rear of the two wings."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "The prince, after inspecting all the cantonments, settled down in the little town of Cosenza,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "The generals-in-command of the two wings had orders to attack the enemy as soon as they should advance with the same intention."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "I had succeeded, by sheer physical force, in bringing the guns of position and the field-guns to the last echelon;⁶ and had made some redoubts on the Campo Tenese.⁷"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "Here I intended to place my recruits, supposing the enemy were successful in all the first encounters and it should become necessary to hold this position for a day or two, while the two wings were effecting a junction on the banks of the Coscile or the Crati."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "Contrary to all expectation Reynier surprised the left wing"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "at its post;¹¹ and the general, who was betrayed by his spies and had taken no proper precautions, found it necessary to retreat."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "So fierce was the onslaught, indeed, that this general, Marshal Minutolo Canosa,¹² completely lost the small amount of head that Heaven had given him."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "He thought himself obliged to abandon the finest natural position in the world, and allowed the enemy to take possession of points that had seemed impregnable."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "The loss of this position being irrevocable he should have rallied his troops at the next, at Lauria, which had all the advantages of the first and was equally inaccessible: he allowed himself to be followed thither, and driven back."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "As soon as I heard of the first attack I hurried to join him, and found the troops retiring in confusion. They had already been retreating for two days, and had reached the Rotonda."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "It became necessary for my right wing to retire without delay; and the position of Campo Tenese, which I had fortified and furnished with artillery, I determined to use in the way I have already described, to check the enemy with my left and effect a junction of the two wings."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "One of the two was led into imprudence by one of the generals (the Canosa to whom I have already referred), who, either from foresight or mere vice, had made himself drunk and did not know what he was doing."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Finally all the recruits who were occupying the curtains and redoubts turned tail and fled: the troops who were defending the hill on the right followed their example, and the enemy was then able to turn the rest of the force."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "I gave the order to retire, and tried to effect a methodical retreat, but the fog was so thick that I could not see nor control the movement of the troops."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "I returned, with those that had been able to carry out my orders, to the appointed position on the banks of the Crati.¹³"
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (OCR page boundaries; not checked against print)",
+          "quote": "The right wing had to cross this same river by a trestle bridge, which was constructed in rear of our first position behind Cassano,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (OCR page boundaries; not checked against print)",
+          "quote": "The general, indeed, joined me with some of his troops, but was in so great a hurry to be safe that he had broken down the bridge between himself and his advanced guard,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "Page 395, note 12.—Marshal Raimondo Capece-Minutolo, one of the Princes of Canosa."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Celui de gauche, commandé par le lieutenant-général Roger de Damas et composé de 15 bataillons et 6 escadrons (environ 12,000 hommes) occupait la rive gauche du Leo, gardant par sa droite la route de Naples à Cosenza."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Damas avait militairement choisi sa position; son corps de bataille occupait la plaine sur deux lignes dont les ailes s'appuyaient aux hauteurs où"
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Les redoutes sont bientôt abordées; leurs défenseurs, voyant les Français couronner les hauteurs que le général Damas avait jugées d'un accès presque inaccessible, répondent par quelques coups de canon mal dirigés aux premières décharges de mousqueterie, abandonnent les redoutes et s'enfuient sur la première ligne."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Le prince royal et son frère, qui par prudence, étaient restés à Cosenza, ne s'y croyant plus alors en sûreté, gagnèrent Reggio, escortés par un bataillon de la garde et un régiment de cavalerie."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart records a victory of side A (French) under Reynier over side B (Neapolitan) under Damas on 9 March. Koch: the defenders of the redoubts, seeing the French crown the heights, answered the first volleys with a few ill-aimed cannon shots, abandoned the redoubts and fled to the first line; no manoeuvre was attempted, the two lines mixed before they were reached, and the exit of the plain was choked with baggage and fugitives; the voltigeurs came down from the heights and cut the road to Morano; Damas could rally only 2,000 men and 200 horses, whom the bad roads and the severe season let him take away unmolested; those who escaped reached the mountains under cover of fog and night; the crown prince and his brother left Cosenza for Reggio; Marshal Rosenheim, learning of the defeat, fell back behind the Cocile (OCR); Reynier pushed on to Castro Villari on the 10th. Damas: his recruits and the troops on the right-hand hill fled, the enemy turned the rest, the fog kept him from controlling the retreat, several battalions fell into the enemy's hands, and he returned to the Crati with those who obeyed his orders; in the course of thirty hours he lost by desertion five battalions of infantry and a regiment of cavalry with their officers; he had the field-guns that could not go beyond Cosenza spiked there (OCR); four thousand men passed the lighthouse to Sicily and as many came from Cotrone, and he left the kingdom on 19 March 1806.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome (side A won), read from Bodart's entry, with the other accounts' ending (page images except Rosenheim's retreat and the guns spiked at Cosenza, OCR). Both accounts have the Neapolitan position carried and its defenders routed; the evacuation of Calabria concerns the campaign, not the engagement. The edition's introduction says the day was lost at the outset by the disorder and flight of Damas's men (OCR); Damas's editor adds that the defeat was followed by a regular dispersion of the troops, and quotes Napoleon to Joseph, 31 March 1806, that Damas could do nothing effectual with such bad troops. English renderings (ours): Bodart, as in claim bodart-strength, and '1806 9/3. engagement at Campo Tenese (5.)'; Koch, 'the redoubts are soon reached; their defenders, seeing the French crown the heights that General Damas had judged of almost inaccessible approach, answer the first musketry volleys with a few ill-aimed cannon shots, abandon the redoubts and flee onto the first line'; 'no manoeuvre to defend the ground is attempted; the disorder is such that the two lines mix before being reached; soon the exit of the plain is choked by the baggage and the crowd of fugitives'; 'meanwhile our voltigeurs come down from the heights and cut the road to Morano'; 'Count Damas could rally only 2,000 men and 200 horses, whom the difficulty of the roads and the excessive severity of the season allowed him to take away without being troubled by the victors'; 'those who could save themselves reached the mountains, favoured by the fog and the night, which covered them with their shadows'; 'the crown prince and his brother ... no longer thinking themselves safe there, made for Reggio, escorted by a battalion of the guard and a regiment of cavalry'; 'had hastily withdrawn behind the Cocile' (p. 176, OCR); 'Reynier, not wishing to leave General Damas time to establish himself in the gorges that might have favoured the junction of the remains of his corps with the right one, still intact, moved from Morano on the morning of the 10th on Castro Villari'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "1806 9./3. TREFFEN bei Campo Tenese (5.)"
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Les redoutes sont bientôt abordées; leurs défenseurs, voyant les Français couronner les hauteurs que le général Damas avait jugées d'un accès presque inaccessible, répondent par quelques coups de canon mal dirigés aux premières décharges de mousqueterie, abandonnent les redoutes et s'enfuient sur la première ligne."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Aucune manœuvre pour défendre le terrain n'est tentée; le désordre est tel que les deux lignes se confondent avant d'être abordées; bientôt l'issue de la plaine est encombrée par les bagages et la foule des fuyards."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Sur ces entrefaites, nos voltigeurs descendent des hauteurs et leur coupent le chemin de Morano; 1,900 hommes, dont deux brigadiers"
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Le comte de Damas ne put rallier que 2,000 hommes et 200 chevaux que la difficulté des chemins et la rigueur excessive de la saison lui permirent d'emmener sans être inquiété par les vainqueurs."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Ceux qui purent se sauver gagnèrent les montagnes, favorisés par la brume et la nuit, qui les couvrirent de leurs ombres."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Le prince royal et son frère, qui par prudence, étaient restés à Cosenza, ne s'y croyant plus alors en sûreté, gagnèrent Reggio, escortés par un bataillon de la garde et un régiment de cavalerie."
+        },
+        {
+          "source_id": "koch-massena-t5-naples-selections-v1",
+          "section": "calabria-expedition",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (OCR page boundaries; not checked against print)",
+          "quote": "s'était précipitamment retiré derrière le Cocile"
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Reynier, ne voulant pas laisser au général Damas le temps de s'établir dans les gorges qui auraient pu favoriser la jonction des débris de son corps avec celui de droite encore intact, se porta de Morano le 10 au matin sur Castro Villari,"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Finally all the recruits who were occupying the curtains and redoubts turned tail and fled: the troops who were defending the hill on the right followed their example, and the enemy was then able to turn the rest of the force."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "I gave the order to retire, and tried to effect a methodical retreat, but the fog was so thick that I could not see nor control the movement of the troops."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "A portion of them lost their way in the mist, and several battalions fell into the enemy's hands."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "I returned, with those that had been able to carry out my orders, to the appointed position on the banks of the Crati.¹³"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "I lost by desertion, in the course of thirty hours, five battalions of infantry and a regiment of cavalry, with their commanding-officers and staff, and three-fourths of the other officers."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 398 (OCR page boundaries; not checked against print)",
+          "quote": "The field-guns could not be taken beyond Cosenza"
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 398 (OCR page boundaries; not checked against print)",
+          "quote": "fore had six guns spiked and the gun-carriages broken up."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p399-figures-v1",
+          "section": "p399",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 399 (transcribed from the page image)",
+          "quote": "The troops that passed the lighthouse amounted to four thousand: the same number came to Sicily from Cotrone."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p399-figures-v1",
+          "section": "p399",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 399 (transcribed from the page image)",
+          "quote": "I left the kingdom of Naples (19th March, 1806),"
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "intro-campo-tenese",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. xvi (OCR page boundaries; not checked against print)",
+          "quote": "when he reluctantly engaged in a defensive action at Campo Tenese the day was lost at the outset by the disorder and flight of his men."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "Page 396, note 13.—P. L. Courier's letter about this action is well known (9th March, 1806). About 2000 Neapolitans were taken prisoners, more than 100 being officers: 250 is the number given by Marulli. The defeat was followed by a regular dispersion of the troops."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "“General Damas could do nothing effectual with such bad troops as the Neapolitans” (to Prince Joseph, 31st March, 1806)."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side B's (Neapolitan) loss as 3,000 men, among them 2 generals and 100 officers, mostly prisoners, with all guns and baggage. He gives no loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed loss, rounded up by his rule (claim bodart-strength); a post-outcome observation. His 2 generals and 100 officers are Koch's two brigadier generals and 100 officers taken prisoner, and his 3,000 is above Koch's 1,900 prisoners and the editor's about 2000 (claim side-b-losses-reported); the passages read do not show where his 3,000 comes from. No passage read gives side A's loss. English rendering (ours): 'Neapolitan loss: 3,000 men (among them 2 generals, 100 officers) (mostly prisoners), all guns and baggage'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "Neapol. Verl.: 3.000 M. (wor. 2 Gen. 100 Offz.) (meist Gefg.), alles Geschütz und Gepäck."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the other accounts. Koch: 1,900 men, among them two brigadier generals, 100 officers and a whole battalion of the guard, were taken prisoner; the artillery and many horses fell to the French; the next day many men were found dead of cold and hunger, and a greater number came in to surrender. Damas: the two seasoned battalions lost a number of men before they were turned and surrounded; several battalions lost their way in the mist and fell into the enemy's hands; desertion in the next thirty hours took five battalions of infantry and a regiment of cavalry. His editor: about 2000 Neapolitans were taken prisoner, more than 100 of them officers, and 250 is the number given by Marulli.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images; not combined. The editor's note does not say what Marulli's 250 counts. Damas had field-guns spiked at Cosenza after the retreat (OCR; claim bodart-winner); the passages read do not say whether they had been at Campo Tenese, so they neither confirm nor contradict Koch's artillery taken and Bodart's all guns. English renderings (ours): Koch, '1,900 men, among them two brigadier' (p. 175) 'generals, 100 officers and a whole battalion of the guard are taken prisoner' (p. 176); 'the artillery and many horses fall into our power'; 'the next day many men were found dead of cold and hunger; a greater number came to surrender'.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Sur ces entrefaites, nos voltigeurs descendent des hauteurs et leur coupent le chemin de Morano; 1,900 hommes, dont deux brigadiers"
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "généraux, 100 officiers, et un bataillon entier de la garde sont faits prisonniers."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "L'artillerie et quantité de chevaux tombent en notre pouvoir."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Le lendemain, on trouva quantité d'hommes morts de froid et de faim; un plus grand nombre vint se rendre."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Two battalions of seasoned troops bore the shock of the charge with perfect steadiness, and lost a number of men, but, on being deserted by the battalions that should have protected their flank, they were turned and surrounded."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "A portion of them lost their way in the mist, and several battalions fell into the enemy's hands."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "I lost by desertion, in the course of thirty hours, five battalions of infantry and a regiment of cavalry, with their commanding-officers and staff, and three-fourths of the other officers."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "Page 396, note 13.—P. L. Courier's letter about this action is well known (9th March, 1806). About 2000 Neapolitans were taken prisoners, more than 100 being officers: 250 is the number given by Marulli. The defeat was followed by a regular dispersion of the troops."
+        }
+      ]
+    },
+    {
+      "id": "campo-tenese-ground",
+      "dimension": "terrain",
+      "value": "Bodart describes Campo Tenese as a mountain plateau in southern Italy, province of Basilicata, south of the town of Lauria. Koch: a high plain surrounded by mountains, with two narrow valleys for entrance and exit, reached by the French through the defile of San Martino; the Neapolitan wings rested on heights; the exit of the plain led to Morano; at the moment of attack snow fell in large flakes and the fog grew so thick that nothing could be seen five or six paces ahead. Damas: a very good position that could be turned only by crossing almost inaccessible mountains; the attack came in deep, half-melted snow, a fog all the thicker on the mountain-tops and mud knee-deep, worse for the defenders, who did not know the attackers' intentions. His editor: an elevated and enclosed plain, accessible only by narrow gorges, on the outskirts of Calabria between the border and Morano.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground and weather from Bodart's location and the two accounts, read from the page images; no map was inspected. Damas chose the position, but the ground and the weather are tagged inherited. Bodart places it in Basilicata south of Lauria, Damas's editor on the outskirts of Calabria between the border and Morano; the passages read do not show whether these differ. English renderings (ours): Bodart, 'mountain plateau in southern Italy, province of Basilicata, south of the town of Lauria'; Koch, as in claim side-a-command for the plain and the defile; as in claim koch-side-b for the heights; 'at the moment when our heads of column were debouching from the defile of San Martino, the snow fell in large flakes, and the fog became so thick that nothing could be made out five or six paces ahead'; as in claim bodart-winner for Morano.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p370",
+          "locator": "Bodart (1908), p. 370",
+          "quote": "(Gebirgsplateau in Unteritalien, Provinz Basilicata, südl. von der Stadt Lauria)."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Il s'engagea ensuite dans le défilé de San Martino en faisant explorer par des flanqueurs les montagnes qui le bordent."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Damas avait militairement choisi sa position; son corps de bataille occupait la plaine sur deux lignes dont les ailes s'appuyaient aux hauteurs où"
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Au moment où nos têtes de colonne débouchaient du défilé de San Martino, la neige tomba par gros flocons, et la brume devint si épaisse qu'on ne distinguait plus rien à cinq ou six pas devant soi."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Sur ces entrefaites, nos voltigeurs descendent des hauteurs et leur coupent le chemin de Morano; 1,900 hommes, dont deux brigadiers"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "This was a very good position: it could only be turned by crossing almost inaccessible mountains, for the defence of which we were prepared."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "It was here that the enemy attacked me at two o'clock in the afternoon of the 9th March, in weather for which I can find no words,—deep, half-melted snow, a fog that was all the thicker that we were on the mountain-tops, mud into which one sank up to the knees."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "These were great disadvantages for both sides, no doubt, but were incontestably less disastrous for the troops that were making the attack, since they knew their own object and were acting deliberately, whereas their intentions were quite unknown by the other side."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 393, note 7.—An elevated and enclosed plain, only accessible by narrow gorges. It is on the outskirts of Calabria, between the border and Morano."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B was without supplies or transport. Damas: he found no arrangements for food; the Minister of Finance had brought money but no means of transport, and in a country without roads not a single mule was ready when four hundred would hardly have sufficed; after the action the contractors could not carry out his orders and he had nothing to feed his troops, and the inhabitants hid their provisions; he had brought the guns of position and the field-guns to the last echelon by sheer physical force, which his editor says surprised the French. Side A: Koch has Reynier's corps march on the road to Reggio, passable for carriages only as far as Eboli, with 12 guns, 6 of them mountain guns; at Campo Tenese the narrow defile often forced single file, and the difficulty of the roads and the severe season kept the victors from pursuing Damas's remnant.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Means and supply as the passages read give them, read from the page images. No supply return was inspected. English renderings (ours): Koch, as in claim koch-side-a for the corps, the road and the defile; as in claim bodart-winner for the roads and the season.",
+      "citations": [
+        {
+          "source_id": "damas-memoirs-1913-p390-figures-v1",
+          "section": "p390",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 390 (transcribed from the page image)",
+          "quote": "Moreover, I had found no arrangements made for our food-supply;"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p390-figures-v1",
+          "section": "p390",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 390 (transcribed from the page image)",
+          "quote": "He thought he had done all that was required in bringing enough money to pay for the supplies, and had taken no steps to bespeak food in advance, nor to secure means of transport."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p390-figures-v1",
+          "section": "p390",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 390 (transcribed from the page image)",
+          "quote": "In a country that possessed no roads I did not find a single mule ready to transport supplies, when four hundred would hardly have sufficed."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "Since, as I have already said, no means of transport had been provided for the food supplies, the contractors declared it had been impossible to carry out the orders they had previously received from me, and reduced in numbers though my troops now were, I had nothing wherewith to feed them."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "In the hope of saving themselves from pillage by giving the French a good reception they hid all their provisions from us."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "I had succeeded, by sheer physical force, in bringing the guns of position and the field-guns to the last echelon;⁶ and had made some redoubts on the Campo Tenese.⁷"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "Page 393, note 6.—The achievement surprised the French (DUTHILT, Mémoires)."
+        },
+        {
+          "source_id": "koch-massena-t5-p169-figures-v1",
+          "section": "p169",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+          "quote": "Le 2e, destiné à faire la conquête des Calabres, se composait de 12,632 hommes de toutes armes avec 12 bouches à feu, dont 6 de montagne, et fut mis sous les ordres du général Reynier."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Le corps de Reynier qui consistait en quatre brigades, dont une d'avant-garde et une de réserve, se mit en marche, de Salerne, au commencement de mars, en trois colonnes, à un jour de distance, sur la route de Reggio alors carrossable, comme nous le savons, seulement jusqu'à Eboli."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Cependant il fallait presser l'attaque : un bataillon du 42e est envoyé sur les hauteurs de gauche pour appuyer les voltigeurs du 1er léger vivement engagés; l'avant-garde se forme en face des redoutes, la division Verdier en seconde ligne, mais avec lenteur, l'exiguïté du défilé obligeant souvent à marcher par file simple."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Le comte de Damas ne put rallier que 2,000 hommes et 200 chevaux que la difficulté des chemins et la rigueur excessive de la saison lui permirent d'emmener sans être inquiété par les vainqueurs."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A knew where the Neapolitans stood. In Koch, Reynier learned that the main body of the royal army awaited him in an entrenched camp at Campo Tenese; on the 9th he drove off a hundred or so Neapolitan horse on reconnaissance, had the mountains along the defile explored by flankers, and his scouts drove in the enemy outposts; in the fight the fog was so thick that nothing could be seen five or six paces ahead. Damas says the attackers knew their own object and acted deliberately.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as Koch gives it, with Damas's remark (page images). English renderings (ours): as in claims side-a-command and campo-tenese-ground.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Il s'engagea ensuite dans le défilé de San Martino en faisant explorer par des flanqueurs les montagnes qui le bordent."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis furent repoussés par nos éclaireurs, et dès que la tête de colonne commença à déboucher, il détacha plusieurs compagnies de voltigeurs sur les montagnes à droite et à gauche de la plaine de Campo Tenese."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Au moment où nos têtes de colonne débouchaient du défilé de San Martino, la neige tomba par gros flocons, et la brume devint si épaisse qu'on ne distinguait plus rien à cinq ou six pas devant soi."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "These were great disadvantages for both sides, no doubt, but were incontestably less disastrous for the troops that were making the attack, since they knew their own object and were acting deliberately, whereas their intentions were quite unknown by the other side."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B was misinformed and surprised. Damas: he could judge Duhesme's strength roughly, but all his information about Reynier's was false (OCR); contrary to all expectation Reynier surprised the left wing (OCR), whose general was betrayed by his spies and had taken no proper precautions; at Campo Tenese the attackers' intentions were quite unknown to the defenders, and the fog was so thick that he could neither see nor control the movement of his troops. His editor places the surprise in the pass of the Gauro and then at Lagonegro. Koch: the defenders' outposts were driven in and their cavalry reconnaissance driven off.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information as Damas gives it (page images except his information on Reynier and the start of the sentence on the surprise, OCR), with Koch's account of the outposts (page image). English renderings (ours): Koch, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "I was able to judge roughly of the strength of General Duhesme's force, but all my information with regard to Reynier 's was false."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 394 (OCR page boundaries; not checked against print)",
+          "quote": "Contrary to all expectation Reynier surprised the left wing"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "at its post;¹¹ and the general, who was betrayed by his spies and had taken no proper precautions, found it necessary to retreat."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "These were great disadvantages for both sides, no doubt, but were incontestably less disastrous for the troops that were making the attack, since they knew their own object and were acting deliberately, whereas their intentions were quite unknown by the other side."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "I gave the order to retire, and tried to effect a methodical retreat, but the fog was so thick that I could not see nor control the movement of the troops."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p485-figures-v1",
+          "section": "p485",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 485 (transcribed from the page image)",
+          "quote": "Page 395, note 11.—In the pass of Gauro, and then at Lagonegro."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis furent repoussés par nos éclaireurs, et dès que la tête de colonne commença à déboucher, il détacha plusieurs compagnies de voltigeurs sur les montagnes à droite et à gauche de la plaine de Campo Tenese."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aim was to conquer Calabria by destroying the corps opposing it. Koch: the 2e corps was destined for the conquest of the Calabrias; Reynier was ordered to penetrate into Calabria, and the council agreed that he would attack the left corps while Duhesme engaged the right; after the action Reynier pushed on so as not to leave Damas time to establish himself in the gorges and join the remains of his corps to the intact right corps.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims as Koch gives them, read from the page images. The aim was set by the army's organisation and the council, so the claim is tagged inherited. English renderings (ours): as in claims koch-side-a, side-a-command and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p169-figures-v1",
+          "section": "p169",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+          "quote": "Le 2e, destiné à faire la conquête des Calabres, se composait de 12,632 hommes de toutes armes avec 12 bouches à feu, dont 6 de montagne, et fut mis sous les ordres du général Reynier."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "commencées par Duhesme, et Reynier reçut l'ordre de pénétrer en Calabre."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Conformément à ce qui fut arrêté dans un conseil présidé par Joseph, et où assista Massena, on convint que Reynier attaquerait le corps de gauche pendant que Duhesme aborderait celui de droite."
+        },
+        {
+          "source_id": "koch-massena-t5-p176-figures-v1",
+          "section": "p176",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 176 (transcribed from the page image)",
+          "quote": "Reynier, ne voulant pas laisser au général Damas le temps de s'établir dans les gorges qui auraient pu favoriser la jonction des débris de son corps avec celui de droite encore intact, se porta de Morano le 10 au matin sur Castro Villari,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aim at Campo Tenese was to check the French long enough to join its two wings. Damas: he meant to hold the position with his recruits for a day or two while the wings joined on the Coscile or the Crati, where most of the army corps was to assemble, and, when the left wing fell back, to use the fortified position to check the enemy with his left and effect that junction; the only possible object of the campaign was to dispute the ground inch by inch, the population refusing to resist; and he thought resistance possible only by taking the offensive whenever the enemy gave him the chance (OCR). By his own note the prince, still hoping for a settlement with Buonaparte, wished to keep as much territory as possible and to hold the pass nearest Naples, and Damas was obliged to fall in with these views. Koch: the crown prince announced that he meant to offer a lively resistance.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Aims as Damas gives them (page images except his view of the offensive, OCR), with Koch's (page image). The forward defence was the prince's wish, but the use of Campo Tenese to cover the junction of the wings was Damas's own plan, so the claim is tagged commander_created. English rendering (ours): Koch, as in claim koch-side-b.",
+      "citations": [
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "Here I intended to place my recruits, supposing the enemy were successful in all the first encounters and it should become necessary to hold this position for a day or two, while the two wings were effecting a junction on the banks of the Coscile or the Crati."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "It was there that the greater part of the army-corps was to assemble."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "It became necessary for my right wing to retire without delay; and the position of Campo Tenese, which I had fortified and furnished with artillery, I determined to use in the way I have already described, to check the enemy with my left and effect a junction of the two wings."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p397-figures-v1",
+          "section": "p397",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 397 (transcribed from the page image)",
+          "quote": "Not that there was now any hope of holding the Calabrian Provinces for long; but the ground might have been disputed inch by inch. This was the only possible object of the campaign, since the population refused to make any resistance."
+        },
+        {
+          "source_id": "damas-memoirs-1913-selections-v1",
+          "section": "calabria-1806",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 392 (OCR page boundaries; not checked against print)",
+          "quote": "It seemed to me that the only possibility of resistance lay in acting on the offensive whenever the enemy should give me a chance of so doing."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "As I said before, the prince was still hoping (only too plainly without grounds) that Buonaparte would agree to a settlement, and therefore wished to keep as much territory as possible, and to hold the pass that was nearest to Naples."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p484-figures-v1",
+          "section": "p484",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 484 (transcribed from the page image)",
+          "quote": "I was obliged to fall in with these views, and indeed my precautions obviated most of the bad effects that might have been expected (Author's note)."
+        },
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Cependant le prince royal, qui avait réuni environ 18,000 hommes de l'armée napolitaine sur la frontière de cette province, annonçait vouloir opposer une vive résistance."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Koch: by the council's decision Reynier attacked the left corps; on the 9th his voltigeurs took the heights on both sides of the plain, and his advance guard charged the redoubts with the bayonet, Verdier's division in support. Damas: the enemy attacked him at Campo Tenese at two o'clock in the afternoon of 9 March, and his troops resisted wherever the attackers appeared.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Both accounts have side A attack side B's prepared position, so the code is A_attacked. The council presided by Joseph set the attack on Damas's corps, so the posture is tagged inherited; Reynier's conduct of the attack on the 9th is in claim side-a-command. Damas's plan to take the offensive whenever the enemy gave him the chance and the wing generals' orders to attack an advancing enemy (claims side-b-objectives and side-b-command) were not carried out at Campo Tenese in the passages read. English renderings (ours): as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p173-figures-v1",
+          "section": "p173",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+          "quote": "Conformément à ce qui fut arrêté dans un conseil présidé par Joseph, et où assista Massena, on convint que Reynier attaquerait le corps de gauche pendant que Duhesme aborderait celui de droite."
+        },
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis furent repoussés par nos éclaireurs, et dès que la tête de colonne commença à déboucher, il détacha plusieurs compagnies de voltigeurs sur les montagnes à droite et à gauche de la plaine de Campo Tenese."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Reynier, apprenant que les hauteurs viennent d'être balayées, que deux bataillons, chargés de leur défense, sont en fuite, et qu'ainsi la droite de l'ennemi est débordée, ordonne au général Compère de faire battre la charge et de marcher la baïonnette en avant, et à la division Verdier de soutenir son mouvement."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "It was here that the enemy attacked me at two o'clock in the afternoon of the 9th March, in weather for which I can find no words,—deep, half-melted snow, a fog that was all the thicker that we were on the mountain-tops, mud into which one sank up to the knees."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "however, met with resistance wherever they appeared; but it was the resistance of untried and weary troops."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B fought from field works. Koch: an entrenched camp at Campo Tenese, with three redoubts, each armed with two or three heavy guns, covering the centre; the defenders abandoned them after a few shots. Damas: he had made some redoubts on the Campo Tenese and fortified the position and furnished it with artillery; the recruits occupying the curtains and redoubts fled.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Code B_fortified: both accounts name works side B built and fought from. Damas says he made the redoubts and fortified the position himself, so the works are tagged commander_created. English renderings (ours): Koch, as in claims side-a-command, koch-side-b and bodart-winner.",
+      "citations": [
+        {
+          "source_id": "koch-massena-t5-p174-figures-v1",
+          "section": "p174",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 174 (transcribed from the page image)",
+          "quote": "Le général Reynier apprenant que le gros de l'armée royale l'attendait dans un camp retranché à Campo Tenese, plaine haute entourée de montagnes, qui a deux étroites vallées pour entrée et pour issue, se mit en mouvement le 9 à la pointe du jour, fit serrer les deux dernières colonnes sur la première, et après une courte halte à Rotonda, délogea une centaine de chevaux napolitains venus en reconnaissance."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Trois redoutes, armées chacune de deux ou trois pièces de gros calibre, couvraient le centre."
+        },
+        {
+          "source_id": "koch-massena-t5-p175-figures-v1",
+          "section": "p175",
+          "locator": "Koch, Mémoires de Masséna, t. V, p. 175 (transcribed from the page image)",
+          "quote": "Les redoutes sont bientôt abordées; leurs défenseurs, voyant les Français couronner les hauteurs que le général Damas avait jugées d'un accès presque inaccessible, répondent par quelques coups de canon mal dirigés aux premières décharges de mousqueterie, abandonnent les redoutes et s'enfuient sur la première ligne."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p393-figures-v1",
+          "section": "p393",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 393 (transcribed from the page image)",
+          "quote": "I had succeeded, by sheer physical force, in bringing the guns of position and the field-guns to the last echelon;⁶ and had made some redoubts on the Campo Tenese.⁷"
+        },
+        {
+          "source_id": "damas-memoirs-1913-p395-figures-v1",
+          "section": "p395",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 395 (transcribed from the page image)",
+          "quote": "It became necessary for my right wing to retire without delay; and the position of Campo Tenese, which I had fortified and furnished with artillery, I determined to use in the way I have already described, to check the enemy with my left and effect a junction of the two wings."
+        },
+        {
+          "source_id": "damas-memoirs-1913-p396-figures-v1",
+          "section": "p396",
+          "locator": "Memoirs of the Comte Roger de Damas (1913), p. 396 (transcribed from the page image)",
+          "quote": "Finally all the recruits who were occupying the curtains and redoubts turned tail and fled: the troops who were defending the hill on the right followed their example, and the enemy was then able to turn the rest of the force."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: P. L. Courier's letter on the action, Marulli and Duthilt's Mémoires, which Damas's editor cites, and Duhesme's estimate of Rosenheim's corps, none inspected; French reports of the action, which the passages read do not cite; Koch's account of the fights of 6 to 8 March before the action (OCR, read and not cited); Damas's narrative of the retreat after the Crati to Monteleone (OCR, cited only for the guns spiked at Cosenza); Koch's pièce justificative n° III (see the next item). Figures seen only in the OCR and not restated in values: Damas's date of setting out from Naples, the prince's distance behind his headquarters, the number of men the prince pledged to raise, the guns spiked at Cosenza and the horse the commander of the right wing brought; Koch's prisoners and guns of the fights of 6 to 8 March and the date of the army's reorganisation; the page numbers of the OCR quotes.",
+    "Most consequential gap: the strengths engaged on 9 March. Bodart gives 6,000 French and 10,000 Neapolitans; Koch gives Reynier's whole corps 12,632 at the reorganisation, 6,000 of them already concentrated near Nocera, and Damas's corps about 12,000, with no figure for the forces at Campo Tenese; Damas gives his army corps twelve thousand and no figure for the force there. The targeted follow-up read Koch's pièce justificative n° III in the parent OCR (pp. 401-403, the composition of the army of Naples at its reorganisation): it lists Reynier's corps by regiment, but its figures are garbled in the OCR and it is a state before the march, not of 9 March, so it was not registered and does not close the gap. Damas's losses by desertion after the action and the editor's prisoner figures do not give his strength on the field.",
+    "Disputes recorded in the claims: the Neapolitan strength (Bodart 10,000; Koch about 12,000 for Damas's corps and about 18,000 for both corps, whose parts make about 20,000; Damas twelve thousand for his army corps, which his editor thinks excludes Rosenheim's); the Neapolitan command (Koch: two corps under Rosenheim and Damas; Damas: one army corps of two wings under his command, the left under Minutolo Canosa); the Neapolitan loss (Bodart 3,000 mostly prisoners with 2 generals and 100 officers and all guns; Koch 1,900 prisoners with two brigadier generals, 100 officers and a guard battalion, and the artillery; Damas's editor about 2000 prisoners, more than 100 officers, and Marulli's 250; Damas has field-guns spiked at Cosenza after the retreat, without saying whether they had been at Campo Tenese); the location (Bodart: Basilicata, south of Lauria; Damas's editor: the outskirts of Calabria between the border and Morano).",
+    "Families and dependence: Bodart (a compilation; his 2 generals and 100 officers agree with Koch, and his 6,000 and 3,000 are not in the passages read as such); Koch (the French history of 1850 from Masséna's papers and the war depot; second-hand for Neapolitan figures); Damas (side B's commander's memoir, written by the account of the manuscripts in Sicily before his departure for Vienna, in a 1913 English translation; interested and self-justifying), whose editor's notes cite Duhesme, Courier, Marulli and Duthilt and are not independent of them. No passage read shows dependence between Koch and Damas's narrative."
+  ]
+}

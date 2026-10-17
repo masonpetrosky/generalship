@@ -1464,3 +1464,73 @@ copyright-status field, and the library's own rights statement was not checked. 
 retained as the full OCR text with six downscaled page images. *Victoires et conquêtes* and
 Schönhals are as recorded for batches 1d and 1e. Use: the drafts for B369a, B369c and B370a. No
 model inputs are changed. The registry now holds 2,237 records.
+
+## Koch, Damas, Bunbury and Colletta for Naples in 1806, 2026-10-17
+
+127 records pinned in `data/raw/napoleonic-third-coalition-1806-v1/` for the
+`third-coalition 1806` first pass (Campo Tenese, Maida, Gaëta and Amantea):
+
+- **Koch**, *Mémoires de Masséna*, t. V (1850), group `koch-memoires-massena`, whose OCR parent
+  was registered for 1805 batch 1c.
+  - The selection `koch-massena-t5-naples-selections-v1`, with 24 sections from chapters I to III
+    of the campaign of 1806 and the pièces justificatives: `army-reorganisation`,
+    `gaeta-blockade-orders`, `calabria-expedition`, `palermo-plan`, `capri-and-garrisons`, `maida`,
+    fifteen sections on Gaëta from `gaeta-blockade` to `gaeta-capitulation`, `amantea`, and
+    `pj-ix-siege-troops` and `pj-x-capitulation`, the state of the troops employed at the blockade
+    and siege of Gaëta and the articles of its capitulation.
+  - 30 page images with transcriptions: pp. 169 and 173–176, for Campo Tenese; pp. 188–190, for
+    Maida; pp. 187, 196, 202, 203, 205, 211, 212, 218, 223, 229, 231, 233, 236 and 248–250, and
+    pièces IX and X on pp. 419, 420 and 422, for Gaëta; and pp. 280–282, for Amantea.
+- **Damas**, *Memoirs of the Comte Roger de Damas (1787–1806)* (London, 1913), edited by Jacques
+  Rambaud and translated by Mrs. Rodolph Stawell, group `damas-memoirs`, a new family. The memoirs
+  of the commander of the Neapolitan corps beaten at Campo Tenese, written by the edition's account
+  of the manuscripts in Sicily before he left for Vienna, with the editor's notes.
+  - The OCR (`damas-memoirs-1913-ocr-v1`, item `memoirsofcomtero00damauoft`), of a University of
+    Toronto copy.
+  - The selection `damas-memoirs-1913-selections-v1`, with six sections: `intro-campo-tenese`,
+    `intro-compiling`, `manuscripts`, `author-note`, `calabria-1806` and `notes-chapter-19`.
+  - 9 page images with transcriptions: pp. 390, 391, 393, 395–397 and 399 of the narrative, and pp.
+    484 and 485, the editor's notes to chapter XIX.
+- **Bunbury**, *Narratives of some passages in the great war with France, from 1799 to 1810*
+  (London, 1854), group `bunbury-narratives`, a new family. The narrative of the British army's
+  Quartermaster-General in the Mediterranean, who rode the field at Maida. By its preface it was
+  written many years after the events and privately printed in 1849 and 1851.
+  - The OCR (`bunbury-1854-ocr-v1`, item `cu31924024332912`), of a Cornell University Library copy.
+  - The selection `bunbury-1854-selections-v1`, with five sections: `preface`, `expedition-plan`,
+    `landing`, `battle` and `aftermath`.
+  - 15 page images with transcriptions: pp. 233, 235–246, 253 and 254, for the expedition, the
+    landing, the battle and the losses.
+- **Colletta**, *Storia del Reame di Napoli dal 1734 sino al 1825*, vol. II (Florence, 1856, third
+  edition), group `colletta-storia-napoli`, a new family. The history of the kingdom by a Neapolitan
+  officer, whose own entry in the volume's index lists his service.
+  - The OCR (`colletta-1856-v2-ocr-v1`, item `storiadelreamedi02colluoft`), of a University of
+    Toronto copy.
+  - The selection `colletta-1856-v2-selections-v1`, with six sections: `fortresses-1806`,
+    `gaeta-reinforced`, `gaeta-siege-slow`, `gaeta-siege`, `amantea` and `index-author`.
+  - 6 page images with transcriptions: pp. 28–33, for the council's decision on Gaëta, its siege,
+    surrender and losses, and the siege of Amantea.
+
+**Dependence.**
+
+- Koch is second-hand for side B throughout.
+- Bodart's 4,800 for side B at Maida is Bunbury's 4795 rank and file rounded up. His 4,700 at
+  Amantea equals Koch's three columns (our arithmetic), and his 3,000, 12,000 and 7,000 at Gaëta
+  match figures in Koch, but the passages read do not show what he used.
+- Damas's editor cites Duhesme, P. L. Courier, Marulli and Duthilt in his notes, none of them
+  inspected.
+- Colletta names no source in the passages read and gives himself no part at Gaëta or Amantea.
+- No passage read shows dependence between Koch and Damas, Bunbury or Colletta.
+
+The page images are single pages, served larger than 1600 px and downscaled. Bunbury's leaf numbers
+shift at two plates (n = printed + 35, + 37 and + 39), so each image's printed page was checked on
+the image. Each transcription holds the whole page or the passages its note names, read from the
+image. Koch's p. 282 is heavily inked, and its transcription reads the first figure of '22' and of
+'48' by their shapes. No figure is taken from the OCR. Each selection records its parent's character
+ranges. The Koch selection's transcription note was corrected before registration was committed: it
+had dated Maida 4 July and counted fourteen passages on Gaëta, where the selection holds fifteen.
+
+Rights: Damas (1913) and Colletta (1856) are marked NOT_IN_COPYRIGHT by the Internet Archive.
+Bunbury (1854) has no copyright-status field; its OCR front matter carries Cornell University
+Library's notice that there are no known copyright restrictions on the text in the United States.
+Koch is as recorded for batch 1c. Use: the drafts for B370c, B370d, B371a and B379c. No model
+inputs are changed. The registry now holds 2,364 records.
