@@ -92,8 +92,16 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
 - 2026-10-18, sub-batch 2c-ii: Lübeck drafted from Bodart, Foucart t. II and Höpfner Bd. 2;
   primary-verified. 54 records registered (27 page images with figure transcriptions). About
   1.0 million tokens.
-- Next: the rest of batch 2c, Magdeburg B376c, Hameln B376d and Nienburg B377a, split into
-  sub-batches as its size requires. A scan of the OCR located the sections: Höpfner Bd. 2,
-  Magdeburg pp. 308–336, Hameln and Nienburg pp. 340–378; Foucart t. II, Magdeburg about
-  pp. 788–866. Foucart's volume does not reach the Hameln and Nienburg capitulations, so a French
-  family for them must come from elsewhere.
+- 2026-10-18, sub-batch 2c-iii: Magdeburg drafted from Bodart, Foucart t. II and Höpfner Bd. 2;
+  primary-verified. 66 records registered (33 page images with figure transcriptions). About
+  1.5 million tokens.
+- Correction to the earlier scan: Höpfner's Magdeburg section is pp. 330–336, not 308–336, and
+  Hameln and Nienburg are his chapter 19, on the Weser, pp. 339–383, not 340–378. Foucart's
+  Magdeburg documents run from p. 276 (Ney's summons of 23 October) to p. 827 (the 31st Bulletin).
+- Next: the rest of batch 2c, Hameln B376d and Nienburg B377a, from Höpfner pp. 339–383. Foucart's
+  volume does not reach the capitulations, but the OCR shows Hameln in the Emperor's letter to Ney
+  of 9 November (p. 794), in letters on pp. 834–835 and 845–846, among them Marshal Mortier's to
+  the Emperor, and in a passage on General Savary's blockade (p. 849). A French family for
+  the capitulations themselves must come from elsewhere or be recorded as a gap. The registered
+  transcription of p. 806 also holds the 30th Bulletin's paragraph on Glogau, for B377b in
+  batch 2d.

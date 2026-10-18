@@ -1813,3 +1813,38 @@ names no source. Foucart's footnotes quote the 1st corps journal, the 4th corps'
 General Lariboisière.
 
 Use: the draft for B376a. No model inputs are changed. The registry now holds 2,700 records.
+
+## Foucart t. II and Höpfner Bd. 2 page images for Magdeburg, 2026-10-18
+
+66 records for sub-batch 2c-iii: 33 page images with their figure transcriptions, 26 of Foucart's
+t. II (pp. 276, 347, 348, 642–645, 677–679, 764–767, 787–791, 795, 803, 806 and 824–827) and 7 of
+Höpfner's Bd. 2 (pp. 330–336). No parent or selection is added.
+
+- **Foucart.**
+  - Ney's letters to the major general of 23 and 25 October and of 2, 3 and 7 November, and his
+    daily report on the blockade of 2 November;
+  - General Marchand's letter to Ney of 2 November;
+  - the Emperor's letters to Ney of 7 and 12 November and to Lannes of 9 November;
+  - Ney's letters to the Emperor of 8 and 11 November, with the armistice of 7 November, the
+    capitulation's preamble, articles 1 to 4 and date line, and General Roguet's memoirs in their
+    footnotes;
+  - the Magdeburg passages of the 29th, 30th and 31st Bulletins.
+
+  Each transcription gives the passages its note names, with the document's date. A page that
+  continues a letter takes the letter's date as read on the page image where the letter begins;
+  p. 803 takes the 29th Bulletin's date from the image of p. 799, registered for sub-batch 2c-i.
+  The transcription of p. 806 also holds the 30th Bulletin's paragraph on Glogau.
+- **Höpfner.** The section on the capitulation of Magdeburg, from its heading on p. 330 to its end
+  on p. 336.
+
+The OCR misreads the date lines of Ney's letters of 23 and 25 October and 2 and 3 November
+(pp. 276, 347, 642 and 677), the year in the armistice's closing line as 1836 (p. 788) and
+Höpfner's 3 infantry regiments as 23 (p. 336). Every figure is transcribed from the image, most on
+full-resolution crops as the notes record, and no figure is taken from the OCR. The second figure
+of the hour in the capitulation's article 3 is damaged in print and is transcribed '1[?]'.
+
+Rights and dependence are as recorded for sub-batch 2b-i. In the passages read for Magdeburg,
+Höpfner names Marshal Ney's correspondence captured at Gutstadt in 1807 and the records of the
+inquiry into the capitulation. Foucart's footnote quotes General Roguet's memoirs.
+
+Use: the draft for B376c. No model inputs are changed. The registry now holds 2,766 records.

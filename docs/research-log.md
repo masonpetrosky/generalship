@@ -1882,6 +1882,135 @@ primary-verified; no separate review was made.
   - Its gap note places the fold-out situation tables after "Höpfner's p. 939". They are in
     Foucart's annexes, after p. 939, as the B376b draft says.
 
+## 1806 first pass, sub-batch 2c-iii: Magdeburg (2026-10-18)
+
+The third part of batch 2c of `fourth-coalition 1806`: the investment and capitulation of
+Magdeburg, from Ney's first summons on 23 October to the garrison's defile on 11 November. Hameln
+(B376d) and Nienburg (B377a) complete batch 2c.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B376c | Magdeburg (capitulation) | 8 November 1806 | 18 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of batch 2b, whose cited passages were all read from
+  registered page images ([source additions](source-additions.md)):
+  - Foucart t. II, the French side's documents:
+    - Ney's letters to the major general of 23 and 25 October and of 2, 3 and 7 November
+      (pp. 276, 347–348, 642–643, 677–679 and 764–765), and his daily report on the blockade of
+      2 November (pp. 644–645);
+    - General Marchand's letter to Ney of 2 November (pp. 643–644);
+    - the Emperor's letters to Ney of 7 and 12 November (pp. 766–767 and 827) and to Lannes of
+      9 November (p. 795);
+    - Ney's two letters to the Emperor of 8 November, with the armistice of 7 November and the
+      capitulation's articles 1 to 4 in their footnotes (pp. 787–791), and his letter of
+      11 November, with General Roguet's memoirs in a footnote (pp. 824–826);
+    - the 29th, 30th and 31st Bulletins (p. 803, with p. 799 from sub-batch 2c-i; pp. 806
+      and 827).
+  - Höpfner Bd. 2, pp. 330–336: the Prussian account of the fortress, the governor, the
+    investment, the meeting of 6 November, the armistice, the capitulation and the booty. In this
+    section he cites Ney's correspondence captured at Gutstadt in 1807 and the records of the
+    inquiry into the capitulation.
+
+  66 records were registered: 33 page images (26 of Foucart, 7 of Höpfner) with their figure
+  transcriptions. No parent or selection was added. No figure in a value is taken from the OCR.
+- **Drafts.** 18 claims with 438 citations, all supported. Phases: 8 unresolved, 5 inherited,
+  3 post_outcome and 2 commander_created.
+  - Posture is coded `A_attacked` and left unresolved. Ney invested, bombarded and summoned the
+    fortress, and the garrison's sorties were counterattacks within the siege. The passages read
+    show no order from above to invest or attack. The Emperor's order to bombard is dated after
+    Ney's trial bombardment and refers to an earlier letter that was not found.
+  - Fortification is coded `both_fortified` and left unresolved: the permanent fortress against
+    Ney's entrenched posts under its fire. Counting only the defended fortress would give
+    `B_fortified`.
+  - Side A's losses are a partial post_outcome claim. Ney's daily report gives 2 killed and
+    3 wounded on 30 and 31 October and none for the other days it covers; no French loss is read
+    from 3 November on.
+  - The boundary note counts the remnants Prince Hohenlohe left in the garrison here, not at
+    Prenzlau (B374c), and excludes Hameln and Nienburg.
+- **Disputes kept visible.**
+  - The garrison:
+    - Höpfner's return: 24,118; Bodart: 24,000;
+    - Ney: at least 8,000 (23 October), 15,000 (2 November), 20,000 with the sick and wounded
+      (8 November) and 22,000 at the defile;
+    - Williben: more than 16,000, which Ney thought exaggerated;
+    - the Emperor and the 29th and 30th Bulletins: 16,000;
+    - Roguet: 20,000 prisoners reached the Rhine.
+  - The guns: 577 (Höpfner's return and Bodart), 700 (Ney on 11 November, and Höpfner from Ney's
+    report), or 800 and about 800 (Ney on 8 November, the Emperor, the 30th and 31st Bulletins).
+  - The generals: Bodart's 16 released on parole, the number Höpfner names (our count), against
+    20 in Ney, the 31st Bulletin and Höpfner's figures from Ney's report.
+  - The date and hour:
+    - the 8th in Bodart, Höpfner, Ney, the capitulation's date line and the 30th Bulletin; the
+      7th in the Emperor's letter of 9 November;
+    - 1 o'clock in Höpfner, the evening in Ney;
+    - the Ulrich gate on the 10th (article 2 and Höpfner), the gates on the 9th (the 30th
+      Bulletin).
+  - The armistice: signed for side B by du Troussel and Le Blanc in Foucart's text; Höpfner adds
+    Renouard.
+  - The night of 4 to 5 November: French attacks on the Neustadt (Höpfner) or a Prussian sortie
+    repulsed (Ney).
+  - The inhabitants: no hindrance to the defence (Höpfner), against the burghers' threat of
+    revolt and a party for capitulation (Ney and the 29th Bulletin).
+  - The regimental chests: in the fortress (the Emperor and the 29th Bulletin) or gone with
+    Hohenlohe's corps (Ney, 11 November).
+  - The defile: 4 columns from 9 to 3 (Ney), 4 columns with 20 cavalrymen each (Höpfner), or
+    8 columns finished at 6 in the evening (Roguet).
+- **Gaps.** No targeted follow-up was run.
+  - The most consequential gap is side A's strength. Bodart's 16,000 is the only total read.
+    Höpfner says Ney's corps hardly had the garrison's strength and had 900 cavalry; Ney's letters
+    give his cavalry and detachments but no infantry count. The fold-out situation tables in
+    Foucart's annexes, after p. 939, remain the lead.
+  - Deferred:
+    - the capitulation's articles 5 to 18 (pp. 790–791), the end of the Emperor's letter to
+      Lannes (p. 795) and the rest of Roguet's footnote (p. 825);
+    - seen only in the OCR: the Emperor's letter to Ney of 9 November (p. 794), his letter of
+      10 November on receiving the capitulation (p. 811), the major general's orders after the
+      defile (p. 820) and the administration's use of the Magdeburg magazines (pp. 863–866);
+    - not found: Ney's plan of the blockade, and the earlier letter in which the Emperor told Ney
+      that the bombardment should keep increasing.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed every figure from the page images, mostly on full-resolution crops, and corrected
+    the OCR's misreadings to the print, among them:
+    - the date lines of Ney's letters of 23 and 25 October and 2 and 3 November (pp. 276, 347,
+      642 and 677);
+    - the year 1806 in the armistice's closing line, read as 1836 (p. 788);
+    - Höpfner's 3 infantry regiments, read as 23 (p. 336);
+  - left the damaged second figure of the hour in the capitulation's article 3 unread
+    ('1[?]') and out of the values;
+  - searched the volume for further French documents and added the 29th and 30th Bulletins'
+    Magdeburg passages;
+  - reread every cited passage against its transcription and fixed what the reread found:
+    - the Emperor's sentence on the Russians now cites the sentence that names them;
+    - his sentence on the letters from Stettin does not name the place; the draft now says so;
+    - Ney's letter of 25 October gives Colbert's crossing as a plan for the next day;
+    - Höpfner says a formal council of war was expected; the draft no longer says none was held;
+    - the demolitions of 29 October and the foraging of the 31st are now the defenders' and the
+      garrison's, as Höpfner gives them, not Kleist's;
+    - Ney's report would burn Sudenburg and the Closterberg, not the Neustadt;
+  - added passages the reread showed were needed:
+    - the armistice's parties and their agreement on the capitulation's main points;
+    - Marchand's judgment of Kleist;
+    - Ney's request for more light cavalry and the detachments coming from Erfurt;
+    - Ney's information of 11 November on the regimental chests and the Hesse treasure;
+    - the Emperor's leave for a Prussian officer to confirm the fall of Küstrin and Stettin;
+    - Höpfner's six days of confusion in the town.
+
+  The evidence check passes on all 2,766 sources and 42 drafts (844 claims, 14 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 1.5 million tokens for the one entry and its 66 records, by the session's
+  token counter.
+  - That is above Lübeck's 1.0 million. Magdeburg has 33 pages of documents and a seven-page
+    Prussian account.
+  - The estimate for the cohort's other 283 engagements stays at about 165 to 190 million
+    tokens.
+- **Corrections to the running notes.** The notes placed Höpfner's Magdeburg section at
+  pp. 308–336 and Hameln and Nienburg at pp. 340–378. The Magdeburg section is pp. 330–336; the
+  pages before it cover other events, among them General Pelet's regiment after Lübeck
+  (pp. 308–309). Hameln and Nienburg are chapter 19, on the Weser, pp. 339–383.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
