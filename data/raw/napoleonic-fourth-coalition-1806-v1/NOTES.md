@@ -59,7 +59,8 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   already hold the 2b-ii sections: Foucart's `stettin-pasewalk-30-oct`, `bulletin-24`,
   `anklam-park-31-oct`, `anklam-park-1-nov`, `kuestrin-2-nov`, `anklam-wolgast-2-nov` and
   `bulletin-25`, and Höpfner's `capitulations-after-prenzlau` and `kuestrin`. A passage outside
-  them needs a new selection version.
+  them needs a new selection version or a page transcription from the image; Wolgast cites
+  Foucart's pp. 618-621 and 628 that way.
 - Leaf offsets in 2b, from the djvu.xml page boundaries and the running heads: Foucart t. II n =
   printed + 33 to p. 304, + 35 for pp. 305-480 (a plate at leaves 338-339) and + 37 from p. 481;
   Höpfner Bd. 2 n = printed + 7 throughout (pp. 1-396). Images are downscaled to 1600 px; small
@@ -68,7 +69,8 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   claims cite the letter heading and, where printed, the signature, and for the 1st corps's
   journal its closing attribution '(Journal du 1er corps.)'. Its corps number is OCR-only and is
   elided in renderings. A paragraph in a Foucart footnote with no attribution of its own is
-  Foucart's, not the journal's.
+  Foucart's, not the journal's. Where Höpfner refers to the subject only by a pronoun, also cite
+  the nearest sentence that names it.
 - Höpfner's general source statement is in the preface of Bd. 1 (the post-war judicial inquiries);
   his place sections rarely name sources. Do not attribute a place's account to the inquiry records
   beyond what that preface says.
@@ -81,5 +83,9 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
 - 2026-10-18, sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau drafted from Bodart, Foucart t. II
   and Höpfner Bd. 2; primary-verified. 70 records registered (two OCR parents, two selections, 33
   page images with figure transcriptions). About 2.4 million tokens.
-- Next: sub-batch 2b-ii, Stettin B374d, Pasewalk B375a, Boldekow B375b, Küstrin B375c, Anklam
-  B375d and Wolgast B375e, from the same volumes.
+- 2026-10-18, sub-batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast drafted
+  from Bodart, Foucart t. II and Höpfner Bd. 2; primary-verified. 94 records registered (47 page
+  images with figure transcriptions). About 3.5 million tokens.
+- Next: batch 2c, Lübeck B376a, Ratkau B376b, Magdeburg B376c, Hameln B376d and Nienburg B377a,
+  split into sub-batches as its size requires. Check first which of them the registered volumes
+  and selections cover.

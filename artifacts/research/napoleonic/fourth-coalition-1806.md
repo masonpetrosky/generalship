@@ -13609,6 +13609,1108 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B374d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Stettin entry (capitulation, 29 October 1806) in cohort v1's fourth-coalition 1806 group: General Lasalle's light cavalry, with Belliard sent by Murat, before the fortress of Stettin held by General Romberg's garrison, from the French arrival at midday on the 29th to the garrison's laying down of arms at daybreak on the 30th. The prisoners' unrest after the surrender and the occupation of the place by Lannes's corps are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) as the fortress garrison of 5,300 Prussians (among them 100 officers) with 281 guns under Major General v. Romberg, which capitulated without a stroke of the sword before 800 French hussars under Brigadier General Count Lasalle (side A, French). By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison as 100 officers and 5184 men and its guns as 187 serviceable and 94 usable in an emergency, which total 5284 men and 281 guns (our arithmetic); the French letters give other figures (claims side-b-strength, side-b-strength-french, side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 29/10. capitulation of Stettin'; 'before 800 French hussars under Brigadier General Count Lasalle the fortress occupied by 5,300 Prussians (among them 100 officers) with 281 guns under Major General v. Romberg capitulates without a stroke of the sword. The officers were released on their word of honour; the men went into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 29./10. KAPITULATION von Stettin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Vor 800 französischen Husaren unter Brig.-Gen. Gf. Lasalle kapituliert ohne Schwertstreich die von 5.300 Preußen (wor. 100 Offz.) mit 281 Kan. unter GM. v. Romberg besetzte Festung. Die Offiziere wurden auf Ehrenwort entlassen, die Mannschaft geriet in Kriegsgefangenschaft."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the garrison consisted of the 3rd musketeer battalions of the regiments Kunheim, Arnim, Möllendorf, Larisch, Winning, Braunschweig-Oels and Pirch and a fortress artillery company, or 100 officers and 5184 men, whose good will made the bravest resistance possible. It could have been much increased by taking in the officers, NCOs and men passing through in large numbers and arming them with the muskets sent from Berlin to Stettin in two barges, and its total want of cavalry could have been remedied; but the governor kept back no man for fortress duty. The fortress had 187 fully serviceable guns and 94 still usable in an emergency, of which 100 of various calibres were already mounted on the ramparts and the most important points of defence when the French arrived.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page image of p. 217. The garrison and guns were the place's own before the French arrived, so the claim is tagged inherited. Höpfner's officers and men total 5284 and his guns 281 (our arithmetic). English renderings (ours): 'the garrison consisted of the 3rd musketeer battalions of the regiments Kunheim, Arnim, Möllendorf, Larisch, Winning, Braunschweig-Oels and Pirch and a fortress artillery company, or of 100 officers 5184 men, whose good will made the bravest resistance possible'; 'this garrison could have been very considerably increased if the officers, NCOs and privates passing through in great numbers had been taken in and armed with the muskets sent from Berlin to Stettin in two barges; likewise the total lack of cavalry could have been fully remedied'; 'but the governor saw fit not only to keep back no man for fortress duty, but he even refused General Bila II passage and thereby caused the capitulation of Anklam, as will be shown later'; 'in guns the fortress had 187 fully serviceable pieces and 94 still usable in an emergency, of which, at the time of the French arrival, 100 pieces of various calibres were already set up on the ramparts and the most important points of defence'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus den 3. Musketier-Bataillonen der Regmtr. Kunheim, Arnim, Möllendorf, Larisch, Winning, Braunschweig-Oels und Pirch und einer Festungs-Artillerie-Kompagnie oder aus 100 Offizieren 5184 Mann, deren guter Wille die tapferste Gegenwehr möglich machte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Diese Besatzung konnte sehr bedeutend vermehrt werden, wenn man die in großer Anzahl durchgehenden Offiziere, Unteroffiziere und Gemeine aufgenommen und mit den aus Berlin nach Stettin in zwei Kähnen geschickten Gewehren bewaffnet hätte; ebenso konnte dem gänzlichen Mangel an Kavallerie vollständig abgeholfen werden;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "doch fand es der Gouverneur für gut, nicht nur keinen Mann zum Festungsdienst zurückzubehalten, sondern er verweigerte sogar dem General Bila II. den Durchzug und veranlaßte dadurch die Kapitulation von Anklam, wie später gezeigt werden wird."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "An Geschütz hatte die Festung 187 völlig brauchbare und 94 für den Nothfall noch zu benutzende Stücke, von denen zur Zeit des Eintreffens der Franzosen bereits 100 Stück von verschiedenen Kalibern auf den Wällen und den wichtigsten Vertheidigungspunkten aufgestellt waren."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Lasalle wrote to Murat on the evening of 30 October that 5,500 men and 120 pieces of ordnance had been taken at Stettin. The 24th Bulletin, of 31 October, gave the place 160 guns and a garrison of 6,000 men of fine troops, taken prisoner, with many generals.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images; not reconciled with Höpfner's or Bodart's (claims side-b-strength, bodart-strength). Lasalle's figure is a count of the men taken, written after the garrison had marched out; the Bulletin's is a public statement. Lannes's letter of 1 November also gives figures for the garrison and for the guns found, seen only in the OCR and not restated. The garrison was the place's own, so the claim is tagged inherited. English renderings (ours): Lasalle, 'General Lasalle to the Grand Duke of Berg. Falkenwald, 30 October 1806, 7 o'clock in the evening'; '5,500 men were taken at Stettin and 120 pieces of ordnance. General Victor having taken over the command, I no longer followed these details'; the Bulletin, '24th Bulletin of the Grande Armée. Berlin, 31 October 1806'; 'Stettin is a place in good condition, well armed and well palisaded, 160 guns, considerable magazines, a garrison of 6,000 men of fine troops, prisoner, many generals; such is the result of the capitulation of Stettin, which can only be explained by the extreme discouragement that the disappearance of the great Prussian army has produced on the Oder and in all the lands of the right bank'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "5,500 hommes ont été pris à Stettin et 120 bouches à feu. Le général Victor s'étant emparé du commandement, je n'ai plus suivi ces détails."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est une place en bon état, bien armée et bien palissadée, 160 pièces de canon, des magasins considérables, une garnison de 6,000 hommes de belles troupes, prisonnière, beaucoup de généraux; tel est le résultat de la capitulation de Stettin, qui ne peut s'expliquer que par l'extrême découragement qu'a produit sur l'Oder et dans tous les pays de la rive droite la disparition de la grande armée prussienne."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French) before Stettin: Höpfner has General Lasalle, finding the pass of Löcknitz cleared by the Prussian troops, advance on the 29th towards Stettin as far as Neuenkirchen, while the Grand Duke of Berg moved with Grouchy's dragoon division and Suchet's infantry division of Lannes's corps to Löcknitz and pushed the dragoons on to Bismark. On the alarm only a few troops of cavalry were seen from the fortress. The garrison laid down its arms before 800 enemy cavalry and 2 guns; Bodart has 800 French hussars. Murat wrote to the Emperor that the Emperor's hussars would take possession of the gates of the place at 6 that morning; Lasalle, that General Victor's infantry arrived when the Stettin prisoners threatened their officers, and that the elite battalion made those who had taken up their arms again surrender. No passage read gives a headcount for Lasalle's brigade.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, Bodart and the French letters, all read from the page images. Höpfner's 800 cavalry and 2 guns are the troops before which the garrison laid down its arms after the capitulation; Bodart's 800 hussars are the same figure. The second parlementaire's 30 to 40,000 men were a claim made to the governor (claim side-a-command), not a count. English renderings (ours): Höpfner, 'General Lasalle, who found the pass of Löcknitz cleared by the Prussian troops, advanced on the 29th towards Stettin as far as Neuenkirchen'; 'the Grand Duke of Berg moved with the dragoon division Grouchy and the infantry division Suchet of Lannes's corps to Löcknitz, from where the dragoons were pushed on as far as Bismark'; 'at midday on the 29th a cannon shot announced his arrival. The alarm was beaten; the garrison moved to its posts. But only'; 'a few troops of cavalry were discovered'; 'the capitulation was carried out. The garrison had to unscrew the flints from the muskets and form on the parade ground, was led out at daybreak by General Knobelsdorf to the Berlin gate, which, like the Uckermünde gate, was occupied by French cavalry, and had to lay down its arms before 800 men of enemy cavalry and 2 guns'; Bodart, as in claim bodart-strength; Murat, 'the Grand Duke of Berg to the Emperor. Löcknitz, 30 October 1806, 2 o'clock in the morning'; 'Lasalle was at the gates of Stettin and summoning the governor to surrender; I have the honour to send Your Majesty the capitulation. Your Majesty's hussars will take possession of the gates of the place this morning at 6 o'clock'; Lasalle, as in claim side-b-strength-french for the heading; 'the prisoners of Stettin wanted to revolt; they threatened and struck their officers; it was time that General Victor's infantry arrived'; 'I reopen my letter, my lord, to tell you that after I left Stettin, the garrison that had been left on the glacis tried to take up its arms again; 500 had already taken them up again; the générale was beaten, and the elite battalion made them surrender again without firing a shot'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Der General Lasalle, der den Paß von Löcknitz durch die preußischen Truppen geräumt fand, ging am 29. gegen Stettin bis Neuenkirchen vor;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "der Großherzog von Berg rückte mit der Dragoner-Division Grouchy und der Infanterie-Division Süchet des Korps von Lannes nach Löcknitz, von wo die Dragoner noch bis Bismark poussirt wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Um Mittag des 29. kündigte ein Kanonenschuß seine Ankunft an. Es wurde Allarm geschlagen; die Garnison rückte auf ihre Posten. Man entdeckte aber ledig-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "lich einige Trupps Kavallerie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Kapitulation wurde vollzogen. Die Garnison mußte die Steine von den Gewehren abschrauben, sich auf dem Paradeplatz formiren, wurde bei Tagesanbruch vom General Knobelsdorf zum Berliner Thor, das eben so wie das Uckermünder Thor von französischer Kavallerie besetzt war, hinausgeführt, und mußte vor 800 Mann feindlicher Kavallerie und 2 Geschützen das Gewehr strecken."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Vor 800 französischen Husaren unter Brig.-Gen. Gf. Lasalle kapituliert ohne Schwertstreich die von 5.300 Preußen (wor. 100 Offz.) mit 281 Kan. unter GM. v. Romberg besetzte Festung. Die Offiziere wurden auf Ehrenwort entlassen, die Mannschaft geriet in Kriegsgefangenschaft."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Lasalle était aux portes de Stettin et sommait le gouverneur de se rendre; j'ai l'honneur d'adresser à V. M. la capitulation¹. Les hussards de V. M. prendront possession ce matin à 6 heures des portes de la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "Les prisonniers de Stettin voulaient se révolter; ils ont menacé et frappé leurs officiers; il était temps que l'infanterie du général Victor arrivât;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "Je rouvre ma lettre, Monseigneur, pour vous apprendre qu'après ma sortie de Stettin, la garnison qu'on avait laissée sur les glacis a voulu reprendre les armes; 500 déjà les avaient repris; on a battu la générale, le bataillon d'élite les a fait rendre de nouveau sans coup férir."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Brigadier General Count Lasalle as side A's commander and Major General v. Romberg as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. The capitulation names Lieutenant General Baron de Romberg, governor, and Major General Knobelsdorf as concluding it and Lasalle, commanding the Grand Duke of Berg's advance guard, as receiving it; Lasalle signed it as brigadier general and Belliard approved it by the Grand Duke's order (claims side-a-command, capitulation). Höpfner calls Romberg the 81-year-old General-Lieutenant and governor (claim side-b-command), so Bodart's 'GM.' is not the rank the other sources give. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "unter Brig.-Gen. Gf. Lasalle"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "unter GM. v. Romberg"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "The capitulation records that Lasalle summoned Fort Preussen and the town of Stettin in the name of the Grand Duke of Berg and repeated the summons with insistence after a first refusal. Höpfner: a hussar officer with a trumpeter rode at a trot to the governor, unescorted and without a blindfold, summoned him in the Grand Duke's name and urged that all resistance was vain, since the fortress was surrounded by 100,000 men and Prince Hohenlohe had capitulated at Prenzlau; at 4 in the afternoon a second parlementaire declared that Lasalle stood with the advance guard ½ mile from the town, that the corps of Murat and Lannes would take the fortress the next morning with 30 to 40,000 men, and that if the governor did not surrender within 12 hours the town would have to pay ½ million Thaler besides the contribution to be demanded of it. The parlementaire accepted the governor's draft except the free withdrawal, and in the night brought it back translated into French with that condition changed to the garrison's disadvantage. Belliard, sent by Murat to Stettin to summon the commandant, found that Lasalle had begun the work and let him finish it, having the replies to the governor's demands put in; he approved the capitulation by the Grand Duke's order. Lasalle came into the town with cavalry at 6 in the morning to sign it.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The capitulation's preamble, Belliard's letter and his approval, and Höpfner's account, all read from the page images. The parlementaires' figures are their claims, not counts. English renderings (ours): the capitulation, 'after the so-called fort Preussen and the place of Stettin had been summoned by General Lasalle in the name of His Imperial and Royal Highness the Grand Duke of Berg, and this summons, after a first refusal, had been repeated with insistence, it was agreed by Lieutenant General Baron de Romberg, governor, and Major General Knobelsdorf, assisted by the engineer generals du Raudem and the engineer major de Barum, to surrender the town of Stettin and the fort of Preussen, only under the following conditions, to General Lasalle, commanding the advance guard of His Imperial and Royal Highness the Grand Duke of Berg'; Höpfner, 'immediately afterwards an enemy hussar officer appeared with a trumpeter, who, as the guards were without any instructions, rode at a trot to the governor without escort from the Prussian side and with his eyes unbandaged, and summoned him in the name of the Grand Duke of Berg to surrender'; 'he put it to the governor that all resistance was in vain, as the fortress was surrounded by 100,000 men and Prince Hohenlohe had capitulated at Prenzlau'; 'they had not yet finished the fair copy when at 4 o'clock in the afternoon a second parlementaire appeared, who declared: General Lasalle stood with the advance guard ½ mile from the town; the corps of Prince Murat and Marshal Lannes would take the fortress the next morning with 30 to 40,000 men, and if the governor did not consent to surrender within 12 hours, the town of Stettin should be obliged to pay ½ million Thaler besides the contribution to be demanded of it'; 'after the parlementaire's return the governor therefore declared that he would surrender the fortress under the conditions already drafted. The parlementaire accepted them, but with the exception of the condition of free withdrawal, so the draft was signed by the governor and both commandants and handed to the parlementaire, who went back with it to General Lasalle'; 'in the night to the 30th the parlementaire returned to Stettin and brought back the draft translated into French, with the condition altered to the garrison's disadvantage, by which it was granted the fate of Hohenlohe's corps'; 'General Lasalle had already come into the town with cavalry in the morning at 6 o'clock to sign the capitulation, so that enemy troops were thus already in the fortress before the capitulation was signed'; Belliard, 'General Belliard to the major général. 30 October 1806'; 'I had been sent by the Prince to Stettin to summon the commandant, but Lasalle had begun the job and I let him finish it, having the replies put to the governor's demands'; 'by order of His Highness the Grand Duke of Berg and Cleves, lieutenant of the Emperor, the present capitulation seen and approved, to be carried out. The divisional general, chief of the general staff, Belliard. At Möhringen, 29 October 1806, at half past eleven in the evening'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "1. Après que le fort dit Preussen et la place de Stettin ont été sommés par le général Lasalle au nom de S. A. I. et R. le grand-duc de Berg et que cette sommation, après un premier refus, a été répétée avec instance, il a été conclu par le lieutenant-général baron de Romberg, gouverneur, et le général-major Knobelsdorf, assistés par les généraux du génie du Raudem et le major du génie de Barum, de rendre la ville de Stettin et le fort de Preussen, seulement sous les conditions suivantes, à M. le général Lasalle, commandant l'avant-garde de S. A. I. et R. le grand-duc de Berg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Gleich darauf erschien ein feindlicher Husaren-Offizier mit einem Trompeter, der, da die Wachen ohne alle Instruktion waren, ohne Begleitung von preußischer Seite, mit unverbundenen Augen im Trabe zum Gouverneur ritt, und diesen im Namen des Großherzogs von Berg zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Er führte dem Gouverneur zu Gemüthe, aller Widerstand sei vergebens, indem die Festung von 100,000 Mann eingeschlossen sei und der Fürst Hohenlohe bei Prenzlau kapitulirt habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Man war mit der Reinschrift noch nicht fertig, als um 4 Uhr Nachmittags ein zweiter Parlamentair erschien, welcher erklärte: der General Lasalle stehe mit der Avantgarde ½ Meile von der Stadt; die Korps des Prinzen Mürat und des M. Lannes würden am folgenden Morgen mit 30 bis 40,000 Mann die Festung einnehmen, und wenn der Gouverneur sich nicht binnen 12 Stunden zur Uebergabe bequeme, so solle die Stadt Stettin außer der von ihr zu fordernden Kontribution noch ½ Million Thaler zu zahlen verpflichtet sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Nach der Rückkehr des Parlamentairs erklärte der Gouverneur daher, die Festung unter den bereits entworfenen Bedingungen übergeben zu wollen. Der Parlamentair nahm sie an, aber mit Ausnahme der Bedingung des freien Abzuges, daher der Entwurf vom Gouverneur und den beiden Kommandanten unterzeichnet und dem Parlamentair übergeben wurde, der damit zum General Lasalle zurückging."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "In der Nacht zum 30. kehrte der Parlamentair nach Stettin zurück und brachte den ins Französische übersetzten Entwurf, mit der zum Nachtheil der Garnison abgeänderten Bedingung, wonach derselben das Schicksal des Hohenloheschen Korps zugestanden war, zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Der General Lasalle war schon am Morgen um 6 Uhr mit Kavallerie in die Stadt gekommen, um die Kapitulation zu unterschreiben, so daß sich also bereits feindliche Truppen in der Festung befanden, bevor die Kapitulation unterzeichnet war."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "J'avais été envoyé par le Prince à Stettin pour sommer le commandant, mais Lasalle avait commencé la besogne et je lui ai laissé finir et faisant mettre les réponses aux demandes du gouverneur."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Par ordre de S. A. le grand-duc de Berg et de Clèves, lieutenant de l'Empereur, vue et approuvée la présente capitulation pour être exécutée.\n\nLe général de division, chef de l'état-major général,\n\nBELLIARD.\n\nA Möhringen, le 29 octobre 1806, à 11 heures et demie du soir."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the governor was the 81-year-old General-Lieutenant Romberg and the commandant Major General Knobelsdorf, and General Rauch, director of the engineering academy and in charge of the works, was named vice-commandant by the King. The governor kept back no man of the troops passing through for fortress duty and refused General Bila II passage, which by Höpfner's account caused the capitulation of Anklam. Romberg answered the first summons with apparent calm that he knew his duty and would defend the fortress entrusted to him to the utmost, but as soon as the parlementaire had gone he dictated to the judge-advocate Dragaud a draft capitulation: the fortress to be handed over the next morning, the garrison to have free withdrawal and march off with all marks of honour; the commandant and vice-commandant joined in, the latter dictating the end of the draft. At the second parlementaire the governor lost all composure; everyone talked at once in the Frenchman's presence and no one thought of calling the prescribed council of war; the minister Ingersleben, who had come in uninvited, took the parlementaire to his residence so that they could deliberate, and those present unanimously resolved to surrender. The governor and both commandants signed the draft. When the garrison, knowing nothing of the negotiation, fired on enemy horsemen riding too boldly forward, the governor forbade the firing. Romberg was sentenced to death by court martial in 1809 but pardoned by the King. Belliard called him an old wreck of a governor who greeted the French with a few cannon shots and surrendered at discretion after making many difficulties.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's conduct from Höpfner, read from the page images of pp. 216-219, and Belliard's letter from the page image of p. 527. Höpfner does not name his sources for Stettin. English renderings (ours): Höpfner, 'the governor was the 81-year-old General-Lieutenant Romberg, the commandant Major General Knobelsdorf, the place's engineer Major Harenberg'; 'to the government 4 more engineer officers were assigned for duty; to General Rauch, director of the engineering academy, the supervision of the works was entrusted; this general was also named vice-commandant by the King'; as in claim side-b-strength for the men kept back and General Bila; 'the governor answered with apparent calm: he knew his duty and would defend the fortress entrusted to him to the utmost. So the parlementaire was dispatched at 1 o'clock midday with a refusal'; 'unfortunately these heroic sentiments of the governor were of very short duration; for hardly had the parlementaire gone when he dictated to the government's judge-advocate Dragaud a draft capitulation whose substance was: that the fortress should be handed over the next morning, and the garrison receive free withdrawal and march off with all marks of honour'; 'while they were still in full work, the commandant and vice-commandant also appeared, and the latter was charged with dictating the end of the draft, which was readily done'; 'the governor had lost all composure; he did not know what to answer the parlementaire and told him to be patient'; 'during this conversation the two commandants and several other officers of the garrison had come in; everyone talked at once in the presence of the Frenchman, and no-'; '-body thought of calling the prescribed council of war'; 'at last the minister Ingersleben, who had come in uninvited, took the parlementaire to his residence so that they could deliberate. Those present unanimously resolved to surrender'; as in claim side-a-command for the signing; 'the garrison, which had no idea of the negotiation begun, meanwhile fired on the enemy horsemen riding forward too boldly. The governor forbade the firing'; 'General Romberg was sentenced to death by court martial in 1809, but pardoned by the King'; Belliard, as in claim side-a-command for the heading; 'the old wreck of a governor greeted us with a few cannon shots and ended by surrendering at discretion after making many difficulties'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Gouverneur war der 81jährige General-Lieutenant Romberg, Kommandant der General-Major Knobelsdorf, Ingenieur vom Platz der Major Harenberg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "dem Gouvernement wurden noch 4 Ingenieur-Offiziere zur Dienstleistung zugetheilt; dem General Rauch, Direktor der Ingenieur-Akademie, wurde die Oberaufsicht über die Arbeiten übertragen; auch wurde dieser General vom Könige zum Vice-Kommandanten ernannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Diese Besatzung konnte sehr bedeutend vermehrt werden, wenn man die in großer Anzahl durchgehenden Offiziere, Unteroffiziere und Gemeine aufgenommen und mit den aus Berlin nach Stettin in zwei Kähnen geschickten Gewehren bewaffnet hätte; ebenso konnte dem gänzlichen Mangel an Kavallerie vollständig abgeholfen werden;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "doch fand es der Gouverneur für gut, nicht nur keinen Mann zum Festungsdienst zurückzubehalten, sondern er verweigerte sogar dem General Bila II. den Durchzug und veranlaßte dadurch die Kapitulation von Anklam, wie später gezeigt werden wird."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Der Gouverneur erwiederte mit anscheinender Ruhe: er kenne seine Pflicht und werde die ihm anvertraute Festung bis aufs Aeußerste vertheidigen. So wurde der Parlamentair um 1 Uhr Mittags mit einer abschlägigen Antwort abgefertigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Leider waren indessen diese heroischen Gesinnungen des Gouverneurs von sehr kurzer Dauer; denn kaum war der Parlamentair fort, so diktirte er dem Gouvernements-Auditeur Dragaud einen Kapitulations-Entwurf, der im Wesentlichen des Inhalts war: daß die Festung am folgenden Morgen übergeben werden, die Garnison freien Abzug erhalten, mit allen Ehrenzeichen abmarschiren sollte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Während man noch in voller Arbeit war, fanden sich auch der Kommandant und Vice-Kommandant ein, und der Letztere erhielt den Auftrag, den Schluß des Entwurfs zu diktiren, was denn auch bereitwillig geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Der Gouverneur hatte alle Fassung verloren; er wußte nicht, was er dem Parlamentair antworten sollte und verwies ihn zur Geduld."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Während dieser Unterredung waren die beiden Kommandanten und mehrere andere Offiziere der Garnison hinzugekommen; Alles sprach durcheinander in Gegenwart des Franzosen, und Nie-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "mand dachte an die Zusammenberufung des vorschriftsmäßigen Kriegsrathes."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Endlich nahm der unberufen hinzugekommene Minister Ingersleben den Parlamentair in seine Wohnung, damit berathschlagt werden könne. Die Anwesenden beschlossen einstimmig die Uebergabe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Nach der Rückkehr des Parlamentairs erklärte der Gouverneur daher, die Festung unter den bereits entworfenen Bedingungen übergeben zu wollen. Der Parlamentair nahm sie an, aber mit Ausnahme der Bedingung des freien Abzuges, daher der Entwurf vom Gouverneur und den beiden Kommandanten unterzeichnet und dem Parlamentair übergeben wurde, der damit zum General Lasalle zurückging."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Garnison, die von der eingeleiteten Unterhandlung keine Ahnung hatte, feuerte während dessen auf die zu dreist vorreitenden feindlichen Kavalleristen. Der Gouverneur verbot das Schießen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "General Romberg wurde 1809 vom Kriegsrecht zum Tode verurtheilt, aber vom Könige begnadigt."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "La vieille patraque de gouverneur nous a salués de quelques coups de canon et a fini par se rendre à discrétion après avoir fait beaucoup de difficultés."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Stettin on 29 October without a stroke of the sword: the officers were released on their word of honour and the men went into captivity. The capitulation, dated at Stettin on 29 October 1806 at 6 in the evening and signed by Romberg as governor, surrendered the town and Fort Preussen to Lasalle. To the garrison's request for free exit with arms and baggage it answered that the garrison would march out with the honours of war, lay down its arms on the glacis and be prisoners of war sent to France, the officers prisoners on parole with passports to go where they wished, keeping their swords, baggage, horses and all that belonged to them; everything in the place belonging to the King of Prussia was to be handed over, the Prussian troops had until noon to settle their affairs, and the Berlin gate and a post on the Oder bridge were to be occupied by the French at 6 in the morning. Below the date the print sets the words 'seen and approved the present capitulation to be carried out' above Romberg's name, followed by Lasalle's, as brigadier general, at the headquarters of Möhringen on 29 October; whose approval the words record is not shown. Belliard approved the capitulation by the Grand Duke's order at half past eleven that evening. Belliard wrote that the commandant capitulated at 1 in the morning. Höpfner: the capitulation was carried out; at daybreak General Knobelsdorf led the garrison out by the Berlin gate, held like the Uckermünde gate by French cavalry, and it laid down its arms before 800 enemy cavalry and 2 guns. Lasalle reported that after he left, the garrison left on the glacis tried to take up its arms again, 500 having done so, until the elite battalion made them surrender again without firing a shot.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome; the capitulation, Belliard's, Murat's and Lasalle's letters and Höpfner's account read from the page images; no source read gives a different result. The hours disagree and are kept as given: the capitulation is dated 6 in the evening of the 29th and Belliard approved it at half past eleven that night; Belliard reported that the commandant capitulated at 1 in the morning; Höpfner has the parlementaire bring back the French text in the night to the 30th and Lasalle enter the town at 6 in the morning before it was signed (claim side-a-command); Murat's covering letter is dated 2 in the morning, but Höpfner has him report at 5 in the morning. Articles 11 and 12, printed without replies, hand over the treasure in the place and name artillery and engineer officers to hand over and receive the magazines, munitions, maps and plans. Lannes wrote on 31 October that after the capitulation a rumour that the Russians were coming had made part of the garrison take up arms again, and that all was back in order (OCR). English renderings (ours): Bodart, as in claim bodart-strength; the capitulation, as in claim side-a-command for the preamble; 'art. 1. The whole present garrison, including the small staff and all soldiers not belonging to the garrison, shall obtain free exit with arms and baggage to go either to West and North Prussia or to Silesia'; 'reply. The garrison will march out with the honours of war, lay down its arms on the glacis, be prisoner of war and sent to France. The officers will be prisoners on parole and passports will be issued to them to go wherever they please'; 'reply. The officers will keep their swords, their baggage, their horses and all that may belong to them'; 'reply. Everything in the place belonging to His Majesty the King of Prussia will be handed over to the French troops'; 'reply. The Prussian troops will be granted until noon to arrange their affairs'; 'reply. The Berlin gate will be handed over to the French troops, who will have a post on the Oder bridge. These two posts will be occupied at 6 o'clock in the morning by the French troops'; 'art. 11. The treasure in the place will be handed over to the French troops'; 'art. 12. Artillery and engineer officers will be named on both sides to hand over and receive all the magazines, munitions, maps, plans, etc., in the place'; 'Stettin, 29 October 1806, at 6 o'clock in the evening'; 'seen and approved the present capitulation to be carried out. The Baron de Romberg, governor'; 'at the headquarters of Möhringen, 29 October 1806. The brigadier general, Lasalle'; as in claim side-a-command for Belliard's approval and the heading of his letter; 'I have the honour to report to you that the commandant of Stettin capitulated at 1 o'clock in the morning'; Murat, as in claim side-a-strength for the heading and the hussars at the gates; Höpfner, as in claim side-a-command for the night to the 30th and Lasalle's entry, and in claim side-a-strength for the march out; 'the Grand Duke of Berg reported to Napoleon at 5 o'clock in the morning: \"Your Majesty's hussars will take possession of the gates of the town\"'; Lasalle, as in claims side-b-strength-french for the heading and side-a-strength for the glacis; Lannes, 'Marshal Lannes to the Emperor. Pasewalk, 31 October 1806'; 'the division of General Gazan with the brigade of General Claparède are at Stettin. After the enemy had capitulated, the rumour was spread that the Russians were coming, and part of the garrison had taken up its arms again. Everything has returned to order' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 29./10. KAPITULATION von Stettin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Vor 800 französischen Husaren unter Brig.-Gen. Gf. Lasalle kapituliert ohne Schwertstreich die von 5.300 Preußen (wor. 100 Offz.) mit 281 Kan. unter GM. v. Romberg besetzte Festung. Die Offiziere wurden auf Ehrenwort entlassen, die Mannschaft geriet in Kriegsgefangenschaft."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "1. Après que le fort dit Preussen et la place de Stettin ont été sommés par le général Lasalle au nom de S. A. I. et R. le grand-duc de Berg et que cette sommation, après un premier refus, a été répétée avec instance, il a été conclu par le lieutenant-général baron de Romberg, gouverneur, et le général-major Knobelsdorf, assistés par les généraux du génie du Raudem et le major du génie de Barum, de rendre la ville de Stettin et le fort de Preussen, seulement sous les conditions suivantes, à M. le général Lasalle, commandant l'avant-garde de S. A. I. et R. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Art. 1er. — Toute la garnison actuelle y compris le petit état-major et tous les militaires ne faisant pas partie de la garnison obtiendront librement la sortie avec armes et bagages pour se rendre soit en Prusse occidentale et septentrionale ou en Silésie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — La garnison sortira avec les honneurs de la guerre, déposera les armes sur les glacis, sera prisonnière de guerre et envoyée en France. Les officiers seront prisonniers sur parole et il leur sera délivré des passeports pour se rendre où bon leur semblera."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — Les officiers conserveront leur épée, leurs bagages, leurs chevaux et tout ce qui peut leur appartenir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — Tout ce qui se trouve dans la place appartenant à S. M. le roi de Prusse sera remis aux troupes françaises."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — Il sera accordé jusqu'à midi aux troupes prussiennes pour l'arrangement de leurs affaires."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — La porte de Berlin sera remise aux troupes françaises qui auront un poste sur le pont de l'Oder. Ces deux postes seront occupés à 6 heures du matin par les troupes françaises."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Art. 11. — Le trésor qui se trouve dans la place sera remis aux troupes françaises."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Art. 12. — Il sera nommé de part et d'autre des officiers d'artillerie et du génie pour remettre et recevoir tous les magasins, munitions, cartes, plans, etc., qui sont dans la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Stettin, le 29 octobre 1806, à 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Vue et approuvée la présente capitulation pour être exécutée.\n\nLE BARON DE ROMBERG, GOUVERNEUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Au quartier général de Möhringen, le 29 octobre 1806.\n\nLe général de brigade,\n\nLASALLE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p526-figures-v1",
+          "section": "p526",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (transcribed from the page image)",
+          "quote": "Par ordre de S. A. le grand-duc de Berg et de Clèves, lieutenant de l'Empereur, vue et approuvée la présente capitulation pour être exécutée.\n\nLe général de division, chef de l'état-major général,\n\nBELLIARD.\n\nA Möhringen, le 29 octobre 1806, à 11 heures et demie du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous rendre compte que le commandant de Stettin a capitulé à 1 heure du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Lasalle était aux portes de Stettin et sommait le gouverneur de se rendre; j'ai l'honneur d'adresser à V. M. la capitulation¹. Les hussards de V. M. prendront possession ce matin à 6 heures des portes de la place."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "In der Nacht zum 30. kehrte der Parlamentair nach Stettin zurück und brachte den ins Französische übersetzten Entwurf, mit der zum Nachtheil der Garnison abgeänderten Bedingung, wonach derselben das Schicksal des Hohenloheschen Korps zugestanden war, zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Der General Lasalle war schon am Morgen um 6 Uhr mit Kavallerie in die Stadt gekommen, um die Kapitulation zu unterschreiben, so daß sich also bereits feindliche Truppen in der Festung befanden, bevor die Kapitulation unterzeichnet war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Kapitulation wurde vollzogen. Die Garnison mußte die Steine von den Gewehren abschrauben, sich auf dem Paradeplatz formiren, wurde bei Tagesanbruch vom General Knobelsdorf zum Berliner Thor, das eben so wie das Uckermünder Thor von französischer Kavallerie besetzt war, hinausgeführt, und mußte vor 800 Mann feindlicher Kavallerie und 2 Geschützen das Gewehr strecken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Der Großherzog von Berg meldete Morgens 5 Uhr Napoleon: „Les hussards de Votre Majesté prendront possession des portes de la ville.”"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "Je rouvre ma lettre, Monseigneur, pour vous apprendre qu'après ma sortie de Stettin, la garnison qu'on avait laissée sur les glacis a voulu reprendre les armes; 500 déjà les avaient repris; on a battu la générale, le bataillon d'élite les a fait rendre de nouveau sans coup férir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-31-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 569 (OCR page boundaries; not checked against print)",
+          "quote": "La division du général Gazan avec la brigade du général Claparède sont à Stettin. Après que l'ennemi a eu capitulé, on a fait courir le bruit que les Russes arrivaient et une par- tie de la garnison avait repris les armes. Tout est rentré dans l'ordre."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Belliard says the governor greeted the French with a few cannon shots, and Höpfner has the garrison fire on enemy horsemen riding too boldly forward (claim side-b-command), but neither gives a French loss. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss was the whole garrison, taken prisoner by the capitulation. Bodart has 5,300 Prussians (among them 100 officers) with 281 guns capitulate, the officers released on parole and the men taken captive; Höpfner's garrison was 100 officers and 5184 men, with 187 serviceable guns and 94 usable in an emergency (claim side-b-strength). Lasalle reported 5,500 men and 120 pieces of ordnance taken at Stettin; the 24th Bulletin, a garrison of 6,000 men taken prisoner, 160 guns, considerable magazines and many generals. Belliard promised a return of the prisoners and the magazines. The capitulation handed over everything in the place belonging to the King (claim capitulation).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. Bodart's 5,300 with 100 officers would be Höpfner's 5284 rounded up, and his 281 guns are Höpfner's 187 and 94 (our arithmetic); which source Bodart used was not checked. No killed or wounded are reported on either side. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, as in claim side-b-strength; Lasalle and the Bulletin, as in claim side-b-strength-french; Belliard, as in claim side-a-command for the heading; 'I shall have the honour to send you the return of the prisoners and of the magazines'; the capitulation, as in claim capitulation for the reply to art. 3.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Vor 800 französischen Husaren unter Brig.-Gen. Gf. Lasalle kapituliert ohne Schwertstreich die von 5.300 Preußen (wor. 100 Offz.) mit 281 Kan. unter GM. v. Romberg besetzte Festung. Die Offiziere wurden auf Ehrenwort entlassen, die Mannschaft geriet in Kriegsgefangenschaft."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus den 3. Musketier-Bataillonen der Regmtr. Kunheim, Arnim, Möllendorf, Larisch, Winning, Braunschweig-Oels und Pirch und einer Festungs-Artillerie-Kompagnie oder aus 100 Offizieren 5184 Mann, deren guter Wille die tapferste Gegenwehr möglich machte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "An Geschütz hatte die Festung 187 völlig brauchbare und 94 für den Nothfall noch zu benutzende Stücke, von denen zur Zeit des Eintreffens der Franzosen bereits 100 Stück von verschiedenen Kalibern auf den Wällen und den wichtigsten Vertheidigungspunkten aufgestellt waren."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "5,500 hommes ont été pris à Stettin et 120 bouches à feu. Le général Victor s'étant emparé du commandement, je n'ai plus suivi ces détails."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est une place en bon état, bien armée et bien palissadée, 160 pièces de canon, des magasins considérables, une garnison de 6,000 hommes de belles troupes, prisonnière, beaucoup de généraux; tel est le résultat de la capitulation de Stettin, qui ne peut s'expliquer que par l'extrême découragement qu'a produit sur l'Oder et dans tous les pays de la rive droite la disparition de la grande armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "J'aurai l'honneur de vous envoyer l'état des prisonniers et des magasins."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — Tout ce qui se trouve dans la place appartenant à S. M. le roi de Prusse sera remis aux troupes françaises."
+        }
+      ]
+    },
+    {
+      "id": "stettin-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Stettin, a port town and the capital of Pomerania, on the Oder. The capitulation hands over the town of Stettin and Fort Preussen, the Berlin gate and a post on the Oder bridge; Höpfner names the Berlin and Uckermünde gates. Foucart's note puts Damm 8 km east of Stettin on the right bank of the Oder. No passage read describes the ground around the works.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and the place's parts as named; Foucart's note read from the page image of p. 530. English renderings (ours): Bodart, '(port town in Prussia, on the Oder, capital of Pomerania)'; the capitulation, as in claims side-a-command for the town and the fort and capitulation for the Berlin gate and the Oder bridge; Höpfner, as in claim side-a-strength for the Berlin and Uckermünde gates; Foucart's note, 'Damm is 8 km east of Stettin on the right bank of the Oder. General Lasalle had to turn back'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "(Hafenstadt in Preußen, an der Oder, Hauptstadt von Pommern)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "1. Après que le fort dit Preussen et la place de Stettin ont été sommés par le général Lasalle au nom de S. A. I. et R. le grand-duc de Berg et que cette sommation, après un premier refus, a été répétée avec instance, il a été conclu par le lieutenant-général baron de Romberg, gouverneur, et le général-major Knobelsdorf, assistés par les généraux du génie du Raudem et le major du génie de Barum, de rendre la ville de Stettin et le fort de Preussen, seulement sous les conditions suivantes, à M. le général Lasalle, commandant l'avant-garde de S. A. I. et R. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Rép. — La porte de Berlin sera remise aux troupes françaises qui auront un poste sur le pont de l'Oder. Ces deux postes seront occupés à 6 heures du matin par les troupes françaises."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Kapitulation wurde vollzogen. Die Garnison mußte die Steine von den Gewehren abschrauben, sich auf dem Paradeplatz formiren, wurde bei Tagesanbruch vom General Knobelsdorf zum Berliner Thor, das eben so wie das Uckermünder Thor von französischer Kavallerie besetzt war, hinausgeführt, und mußte vor 800 Mann feindlicher Kavallerie und 2 Geschützen das Gewehr strecken."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "1. Damm est à 8 kil. à l'est de Stettin sur la rive droite de l'Oder. — Le général Lasalle dut rebrousser chemin."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B: Höpfner says ammunition was in great abundance, 11,420 rounds of shot and shell made up and 1928 hundredweight of loose powder, with a large stock of gun carriages, entrenching tools and wood for platforms; food likewise, about 8000 Wispel of rye, 700 of flour and over 4000 of oats. General Geusau had also made the largest provisioning arrangements for the retreating field troops, among them 1200 oxen driven together from the Oderbruch, which after the capitulation at Prenzlau benefited the fortress. Muskets had been sent from Berlin in two barges. The Bulletin reported considerable magazines, and Belliard expected to find many resources in the large town. No passage read describes side A's supply.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's stores from Höpfner, read from the page image of p. 217; Belliard's letter from the page image of p. 527 and its continuation on p. 528 from the OCR. The stores were the place's before the French arrived, so the claim is tagged inherited. English renderings (ours): Höpfner, 'in munition there was great abundance; in made-up munition 11,420 rounds of shot and shell; in loose powder 1928 hundredweight. Besides that, a large stock of gun carriages, entrenching tools and wood for platforms'; 'in provisions there was likewise abundance; about 8000 Wispel of rye, 700 Wispel of flour and over 4000 Wispel of oats'; 'besides that, General Geusau had made the most extensive provisioning arrangements for the retreating field troops; among others 1200 oxen had been driven together from the Oderbruch, which after the capitulation at Prenzlau benefited the fortress'; as in claim side-b-strength for the muskets; the Bulletin, as in claim side-b-strength-french; Belliard, as in claim side-a-command for the heading; 'Stettin is a large town where'; 'we shall find many resources' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "An Munition war großer Ueberfluß; an fertiger Munition 11,420 Schuß und Wurf; an losem Pulver 1928 Centner. Außerdem ein großer Vorrath von Laffeten, Schanzzeug und Holz zu Bettungen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "An Lebensmitteln war ebenfalls Ueberfluß; gegen 8000 Wispel Roggen, 700 Wispel Mehl und über 4000 Wispel Hafer."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Außerdem hatte der General Geusau für die retirirenden Feldtruppen die großartigsten Verpflegungs-Vorkehrungen getroffen; unter Andern waren 1200 Ochsen aus dem Oderbruch zusammen getrieben worden, die nach der Kapitulation bei Prenzlau der Festung zu Gute kamen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Diese Besatzung konnte sehr bedeutend vermehrt werden, wenn man die in großer Anzahl durchgehenden Offiziere, Unteroffiziere und Gemeine aufgenommen und mit den aus Berlin nach Stettin in zwei Kähnen geschickten Gewehren bewaffnet hätte; ebenso konnte dem gänzlichen Mangel an Kavallerie vollständig abgeholfen werden;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est une place en bon état, bien armée et bien palissadée, 160 pièces de canon, des magasins considérables, une garnison de 6,000 hommes de belles troupes, prisonnière, beaucoup de généraux; tel est le résultat de la capitulation de Stettin, qui ne peut s'expliquer que par l'extrême découragement qu'a produit sur l'Oder et dans tous les pays de la rive droite la disparition de la grande armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "Stettin est une grande ville où"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 528 (OCR page boundaries; not checked against print)",
+          "quote": "nous trouverons beaucoup de ressources."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "No passage read shows what side A knew of the garrison or the works before the summons. The first parlementaire rode to the governor unescorted and without a blindfold, because the guards had no instructions, and enemy horsemen rode boldly forward towards the place (Höpfner). After the capitulation Belliard did not think Stettin a good fortress; the engineer officer had orders to reconnoitre it, and he would send the report. The 24th Bulletin called it a place in good condition, well armed and well palisaded.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner from the page images of pp. 218-219; Belliard's assessment from the OCR of p. 528, with his letter's heading from the page image; the Bulletin from the page image. English renderings (ours): Höpfner, as in claim side-a-command for the hussar officer's ride and in claim side-b-command for the garrison's fire; Belliard, as in claim side-a-command for the heading and in claim means-and-supply for the large town; 'I do not think it is a good place; the engineer officer has orders to reconnoitre it and I shall send you the report' (OCR); the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Gleich darauf erschien ein feindlicher Husaren-Offizier mit einem Trompeter, der, da die Wachen ohne alle Instruktion waren, ohne Begleitung von preußischer Seite, mit unverbundenen Augen im Trabe zum Gouverneur ritt, und diesen im Namen des Großherzogs von Berg zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Garnison, die von der eingeleiteten Unterhandlung keine Ahnung hatte, feuerte während dessen auf die zu dreist vorreitenden feindlichen Kavalleristen. Der Gouverneur verbot das Schießen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "Stettin est une grande ville où"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 528 (OCR page boundaries; not checked against print)",
+          "quote": "Je ne crois pas que ce soit une bonne place ; l'officier du génie a ordre de la re- connaître et je vous en enverrai le rapport."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est une place en bon état, bien armée et bien palissadée, 160 pièces de canon, des magasins considérables, une garnison de 6,000 hommes de belles troupes, prisonnière, beaucoup de généraux; tel est le résultat de la capitulation de Stettin, qui ne peut s'expliquer que par l'extrême découragement qu'a produit sur l'Oder et dans tous les pays de la rive droite la disparition de la grande armée prussienne."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: as all the Prussian cavalry had gone back through the fortress, there was no news at all of the enemy's approach. At midday on the 29th a cannon shot announced his arrival; the alarm was beaten and the garrison went to its posts, but only a few troops of cavalry were seen. The first parlementaire claimed that 100,000 men surrounded the fortress and that Prince Hohenlohe had capitulated at Prenzlau; the second, that Lasalle stood with the advance guard ½ mile away and that the corps of Murat and Lannes would take the fortress the next morning with 30 to 40,000 men. The garrison had no idea of the negotiation and fired on the enemy horsemen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 217-219. The parlementaires' figures were claims made to the governor (claim side-a-command). English renderings (ours): 'as the Prussian cavalry had all gone back through the fortress, there was also no news at all of the enemy's approach'; as in claim side-a-strength for the alarm and the cavalry seen; as in claim side-a-command for the parlementaires; as in claim side-b-command for the garrison's fire.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Da die preußische Kavallerie insgesammt durch die Festung zurückgegangen war, so hatte man auch gar keine Nachricht von der Annäherung des Feindes."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "Um Mittag des 29. kündigte ein Kanonenschuß seine Ankunft an. Es wurde Allarm geschlagen; die Garnison rückte auf ihre Posten. Man entdeckte aber ledig-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "lich einige Trupps Kavallerie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Gleich darauf erschien ein feindlicher Husaren-Offizier mit einem Trompeter, der, da die Wachen ohne alle Instruktion waren, ohne Begleitung von preußischer Seite, mit unverbundenen Augen im Trabe zum Gouverneur ritt, und diesen im Namen des Großherzogs von Berg zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Er führte dem Gouverneur zu Gemüthe, aller Widerstand sei vergebens, indem die Festung von 100,000 Mann eingeschlossen sei und der Fürst Hohenlohe bei Prenzlau kapitulirt habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Man war mit der Reinschrift noch nicht fertig, als um 4 Uhr Nachmittags ein zweiter Parlamentair erschien, welcher erklärte: der General Lasalle stehe mit der Avantgarde ½ Meile von der Stadt; die Korps des Prinzen Mürat und des M. Lannes würden am folgenden Morgen mit 30 bis 40,000 Mann die Festung einnehmen, und wenn der Gouverneur sich nicht binnen 12 Stunden zur Uebergabe bequeme, so solle die Stadt Stettin außer der von ihr zu fordernden Kontribution noch ½ Million Thaler zu zahlen verpflichtet sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Garnison, die von der eingeleiteten Unterhandlung keine Ahnung hatte, feuerte während dessen auf die zu dreist vorreitenden feindlichen Kavalleristen. Der Gouverneur verbot das Schießen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A sought the fortress and the pursuit beyond it. On 28 October Murat wrote that Lasalle was marching on Löcknitz to cut off Blücher's retreat and that he himself would be on Stettin the next day; he sent Belliard to Stettin to summon the commandant. With the capitulation he ordered Lasalle to move rapidly on Damm, and wrote that Lannes would have Stettin occupied by a regiment of his corps and that the garrison would be sent by the Angermünde road to Berlin; in a postscript he would leave a whole division at Stettin to occupy Schwedt, Damm and Pölitz and furnish the escort for the garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Murat's letters of 28 and 30 October: the headings and the order to Lasalle from the page images, the rest of the letter of 30 October from the OCR of pp. 526-527. English renderings (ours): Murat, 'the Grand Duke of Berg to the Emperor. Prenzlow, 28 October 1806'; 'General Lasalle is marching on Löcknitz, where he will sleep this evening, to cut off General Blücher's retreat; General Milhaud is moving on Pasewalk; tomorrow I shall be on Stettin'; Belliard, as in claim side-a-command for his mission; Murat, as in claim side-a-strength for the heading of 30 October; 'I order General Lasalle to move rapidly on Damm and to try to sei-'; 'Marshal Lannes is going to have Stettin occupied by a regiment of his army corps' (OCR); 'I am going to have the garrison of Stettin directed by the Angermünde road on Berlin' (OCR); 'instead of leaving a brigade, I shall leave a whole division at Stettin; it will occupy Schwedt, Damm and Pölitz, and furnish the necessary escort for the garrison' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "J'avais été envoyé par le Prince à Stettin pour sommer le commandant, mais Lasalle avait commencé la besogne et je lui ai laissé finir et faisant mettre les réponses aux demandes du gouverneur."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "J'ordonne au général Lasalle de se porter rapidement sur Damm et de chercher à s'empa-"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 526 (OCR page boundaries; not checked against print)",
+          "quote": "M. le maré- chal Lannes va faire occuper Stettin par un régiment de son corps d'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (OCR page boundaries; not checked against print)",
+          "quote": "Je vais faire diriger la garnison de Stcttin par la route d'Angermttnde sur Berlin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (OCR page boundaries; not checked against print)",
+          "quote": "Au lieu de laisser une brigade, je laisserai une division entière à Stettin ; elle occupera Schwedt, Damm et Pôlitz, et four- nira l'escorte nécessaire pour la garnison."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B prepared the fortress late: only on 17 October did the Ober-Kriegs-Kollegium order it made ready against a violent attack, and only on the 20th did the government call up carpenters and workers from the country; for want of time the defence was confined to the main rampart and Fort Preussen, and the outworks were abandoned as wholly decayed. The governor answered the first summons that he would defend the fortress to the utmost, but then drafted terms to hand it over the next morning with free withdrawal and all marks of honour; the capitulation's first article asked free exit with arms and baggage to West and North Prussia or Silesia, and its fifth at least 24 hours for the troops to settle their affairs.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner from the page images of pp. 216 and 218, the capitulation's articles from the page image of p. 525. English renderings (ours): Höpfner, 'only on 17 October had the order been issued by the Ober-Kriegs-Kollegium to make the fortress ready against a violent attack, and only on the 20th did the government summon the necessary carpenters and workers from the country'; 'for shortness of time the defensive arrangements had to be confined to the main rampart and Fort Preussen, and the outworks in front abandoned because of their wholly decayed state'; as in claim side-b-command for the governor's answer and his draft; the capitulation, as in claim capitulation for art. 1; 'art. 5. The Prussian troops will be granted at least 24 hours to arrange their affairs'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Erst am 17. Oktober war von dem Ober-Kriegs-Kollegium der Befehl erlassen worden, die Festung gegen einen gewaltsamen Angriff in Bereitschaft zu setzen, und erst am 20. schrieb das Gouvernement die erforderlichen Zimmerleute und Arbeiter vom Lande aus."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Wegen Kürze der Zeit mußten die Vertheidigungs-Anstalten auf den Hauptwall und das Fort Preußen beschränkt, die vorliegenden Außenwerke, wegen des gänzlich verfallenen Zustandes, verlassen werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Der Gouverneur erwiederte mit anscheinender Ruhe: er kenne seine Pflicht und werde die ihm anvertraute Festung bis aufs Aeußerste vertheidigen. So wurde der Parlamentair um 1 Uhr Mittags mit einer abschlägigen Antwort abgefertigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Leider waren indessen diese heroischen Gesinnungen des Gouverneurs von sehr kurzer Dauer; denn kaum war der Parlamentair fort, so diktirte er dem Gouvernements-Auditeur Dragaud einen Kapitulations-Entwurf, der im Wesentlichen des Inhalts war: daß die Festung am folgenden Morgen übergeben werden, die Garnison freien Abzug erhalten, mit allen Ehrenzeichen abmarschiren sollte."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Art. 1er. — Toute la garnison actuelle y compris le petit état-major et tous les militaires ne faisant pas partie de la garnison obtiendront librement la sortie avec armes et bagages pour se rendre soit en Prusse occidentale et septentrionale ou en Silésie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "Art. 5. — Il sera accordé aux troupes prussiennes au moins 24 heures pour l'arrangement de leurs affaires."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked in the sense of summoning the fortress: Lasalle summoned the fort and town in Murat's name and repeated the summons after a refusal, and a second parlementaire threatened the town. Side B, having first refused, negotiated and capitulated; its garrison fired on horsemen who rode too close until the governor forbade it. Höpfner says the enemy could have taken the fortress only by a regular siege, for which he was in no way equipped.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Both sides' accounts describe the French summoning the place with cavalry and side B capitulating. The phase is left unresolved: Murat had written that he would be on Stettin and sent Belliard to summon the commandant, but Lasalle had begun the summons before Belliard came (claim side-a-command), so the passages read do not settle whether the summons was Lasalle's own initiative or Murat's order. English renderings (ours): the capitulation, as in claim side-a-command for the preamble; Höpfner, as in claims side-a-command for the second parlementaire, side-b-command for the governor's answer and the firing, and fortification for the siege; Belliard, as in claim side-a-command for his mission; Murat, as in claim side-a-objectives for 28 October.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "1. Après que le fort dit Preussen et la place de Stettin ont été sommés par le général Lasalle au nom de S. A. I. et R. le grand-duc de Berg et que cette sommation, après un premier refus, a été répétée avec instance, il a été conclu par le lieutenant-général baron de Romberg, gouverneur, et le général-major Knobelsdorf, assistés par les généraux du génie du Raudem et le major du génie de Barum, de rendre la ville de Stettin et le fort de Preussen, seulement sous les conditions suivantes, à M. le général Lasalle, commandant l'avant-garde de S. A. I. et R. le grand-duc de Berg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Man war mit der Reinschrift noch nicht fertig, als um 4 Uhr Nachmittags ein zweiter Parlamentair erschien, welcher erklärte: der General Lasalle stehe mit der Avantgarde ½ Meile von der Stadt; die Korps des Prinzen Mürat und des M. Lannes würden am folgenden Morgen mit 30 bis 40,000 Mann die Festung einnehmen, und wenn der Gouverneur sich nicht binnen 12 Stunden zur Uebergabe bequeme, so solle die Stadt Stettin außer der von ihr zu fordernden Kontribution noch ½ Million Thaler zu zahlen verpflichtet sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p218-figures-v1",
+          "section": "p218",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 218 (transcribed from the page image)",
+          "quote": "Der Gouverneur erwiederte mit anscheinender Ruhe: er kenne seine Pflicht und werde die ihm anvertraute Festung bis aufs Aeußerste vertheidigen. So wurde der Parlamentair um 1 Uhr Mittags mit einer abschlägigen Antwort abgefertigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p219-figures-v1",
+          "section": "p219",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 219 (transcribed from the page image)",
+          "quote": "Die Garnison, die von der eingeleiteten Unterhandlung keine Ahnung hatte, feuerte während dessen auf die zu dreist vorreitenden feindlichen Kavalleristen. Der Gouverneur verbot das Schießen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Dennoch war am 29. Oktober die Festung, nach zuverlässigem Bericht, gegen einen Handstreich vollständig gesichert, so daß sich der Feind ihrer nur nach einer dreiwöchentlichen"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "regelmäßigen Belagerung bemächtigen konnte, wozu er indessen in keiner Art ausgerüstet war."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "J'avais été envoyé par le Prince à Stettin pour sommer le commandant, mais Lasalle avait commencé la besogne et je lui ai laissé finir et faisant mettre les réponses aux demandes du gouverneur."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held the fortress of Stettin with Fort Preussen. Höpfner: the defensive preparations were confined to the main rampart and Fort Preussen, the outworks being abandoned; yet on 29 October, by a reliable report, the fortress was fully secured against a coup de main, so that the enemy could have taken it only by a regular siege of three weeks, for which he was in no way equipped; 100 guns were already mounted on the ramparts and the chief points of defence. The 24th Bulletin called it a place in good condition, well armed and well palisaded; Belliard did not think it a good fortress.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the fortress's works were permanent and held by side B, so the claim is tagged inherited. Höpfner's and the Bulletin's assessments differ from Belliard's and are kept as given. English renderings (ours): Höpfner, as in claim side-b-objectives for the works; 'nevertheless on 29 October the fortress was, according to a reliable report, fully secured against a coup de main, so that the enemy could have made himself master of it only after a three-week'; 'regular siege, for which, however, he was in no way equipped'; as in claim side-b-strength for the guns on the ramparts; the Bulletin, as in claim side-b-strength-french; Belliard, as in claims side-a-command for the heading and side-a-information for his assessment (OCR); the capitulation, as in claim side-a-command for the fort.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Wegen Kürze der Zeit mußten die Vertheidigungs-Anstalten auf den Hauptwall und das Fort Preußen beschränkt, die vorliegenden Außenwerke, wegen des gänzlich verfallenen Zustandes, verlassen werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Dennoch war am 29. Oktober die Festung, nach zuverlässigem Bericht, gegen einen Handstreich vollständig gesichert, so daß sich der Feind ihrer nur nach einer dreiwöchentlichen"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "regelmäßigen Belagerung bemächtigen konnte, wozu er indessen in keiner Art ausgerüstet war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "An Geschütz hatte die Festung 187 völlig brauchbare und 94 für den Nothfall noch zu benutzende Stücke, von denen zur Zeit des Eintreffens der Franzosen bereits 100 Stück von verschiedenen Kalibern auf den Wällen und den wichtigsten Vertheidigungspunkten aufgestellt waren."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est une place en bon état, bien armée et bien palissadée, 160 pièces de canon, des magasins considérables, une garnison de 6,000 hommes de belles troupes, prisonnière, beaucoup de généraux; tel est le résultat de la capitulation de Stettin, qui ne peut s'expliquer que par l'extrême découragement qu'a produit sur l'Oder et dans tous les pays de la rive droite la disparition de la grande armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p527-figures-v1",
+          "section": "p527",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 527 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\n30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 528 (OCR page boundaries; not checked against print)",
+          "quote": "Je ne crois pas que ce soit une bonne place ; l'officier du génie a ordre de la re- connaître et je vous en enverrai le rapport."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p525-figures-v1",
+          "section": "p525",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 525 (transcribed from the page image)",
+          "quote": "1. Après que le fort dit Preussen et la place de Stettin ont été sommés par le général Lasalle au nom de S. A. I. et R. le grand-duc de Berg et que cette sommation, après un premier refus, a été répétée avec instance, il a été conclu par le lieutenant-général baron de Romberg, gouverneur, et le général-major Knobelsdorf, assistés par les généraux du génie du Raudem et le major du génie de Barum, de rendre la ville de Stettin et le fort de Preussen, seulement sous les conditions suivantes, à M. le général Lasalle, commandant l'avant-garde de S. A. I. et R. le grand-duc de Berg."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Murat's letter to Bernadotte of 29 October, printed in a footnote that begins on Foucart t. II, p. 523, outside the registered section, whose heading and text were read only in the OCR, with its report of men and guns taken at the gates of Stettin by Murat's aide de camp Beaumont; the engineer officer's report and the return of prisoners and magazines that Belliard promised; the Emperor's letters of 31 October to Murat and to Soult (pp. 556-557); the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests, and of Romberg's court martial. Figures seen only in the OCR and not restated: Lannes's garrison and guns found at Stettin (p. 598), the Emperor's figures in his letters of 31 October (p. 556), and the figures in Murat's footnote letter (p. 524).",
+    "Most consequential gap: side A's strength. The only figure is the 800 cavalry and 2 guns before which the garrison laid down its arms on the morning of the 30th (Höpfner; Bodart's 800 hussars), a count at the outcome rather than of the force that summoned the place; no headcount for Lasalle's brigade, or for Victor's infantry that came up afterwards, was read. A return of Lasalle's brigade or Murat's situation reports could settle it.",
+    "Disputes kept as separate claims: the garrison (100 officers and 5184 men, Höpfner; 5,300 with 100 officers, Bodart; 5,500 taken, Lasalle; 6,000, the Bulletin); the guns (187 serviceable and 94 for emergencies, Höpfner, and 281, Bodart; 120, Lasalle; 160, the Bulletin); the hour of the capitulation (dated 6 in the evening of the 29th and approved by Belliard that night; 1 in the morning, Belliard; carried out in the night to the 30th with Lasalle in the town at 6 in the morning before it was signed, Höpfner) and of Murat's report (2 in the morning in its dateline, 5 in the morning in Höpfner); Romberg's rank (Major General in Bodart, General-Lieutenant in Höpfner and lieutenant-général in the capitulation); 'without a stroke of the sword' (Bodart) against Belliard's few cannon shots.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 281 guns are Höpfner's 187 and 94 and his 5,300 with 100 officers is Höpfner's 100 officers and 5184 men rounded up, by our arithmetic); Foucart, t. II (the French side's documents: Murat's letter with the capitulation, Belliard's and Lasalle's letters and the 24th Bulletin from the page images, Murat's further orders and Lannes's and Belliard's continuations from the OCR); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Stettin passage names no source beyond 'a reliable report' on the state of the works)."
+  ]
+}
+```
+
 
 ### B375a: KAPITULATION von Pasewalk (29./10. 1806)
 
@@ -13653,6 +14755,1144 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B375a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Pasewalk entry (capitulation, 29 October 1806) in cohort v1's fourth-coalition 1806 group: General Milhaud's cavalry brigade, pursuing for Murat, and the Prussian column at Pasewalk under Colonel Hagen, his infantry brigade with Colonel Poser's cavalry, from its arrival at Pasewalk on the 28th to the capitulation on the morning of the 29th. The detachments that got away before the capitulation and the prisoners' march to Prenzlow are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) as 4,200 Prussians (among them 185 officers) with 2,100 horses, 8 guns and 1 ammunition wagon under Brigadier Colonel v. Hagen, who capitulated before Milhaud's French cavalry brigade (side A, French) of 700 riders. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner's table totals 185 officers, 4043 men, 2087 horses, 8 guns and 1 powder wagon, and his officers and men together 4228 (our arithmetic); Milhaud gives his own brigade as 600 horse (claims side-b-strength, side-b-strength-french, side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 29/10. capitulation of Pasewalk'; 'before the French cavalry brigade Milhaud (700 riders) 4,200 Prussians (among them 185 officers) capitulate with 2,100 horses, 8 guns, 1 ammunition wagon under Brigadier Colonel v. Hagen, after which the officers were released on their word of honour and the men led off into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 29./10. KAPITULATION von Pasewalk"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter) kapitulieren 4.200 Preußen, (worunter 185 Offiziere) mit 2.100 Pferden, 8 Kanonen, 1 Munitionswagen unter Brigadier Oberst v. Hagen, wonach die Offiziere auf Ehrenwort entlassen, die Mannschaften in Kriegsgefangenschaft abgeführt wurden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: Colonel Hagen's infantry brigade, ordered on the night to the 28th to a rendezvous on the road from Fürstenwerder to Pasewalk, found no cavalry there; only after sending out officers did it find, at some distance, 2 squadrons of Katte dragoons and the rest of the Bailliodz cuirassiers under Lieutenant Colonel Stülpnagel, which were to march with it to Pasewalk; the cavalry brigade Podewils, the Leib-Karabiniers and the Heising, Holtzendorf, Bünting and Henckel cuirassiers, followed to Pasewalk under Colonel Poser. Höpfner's table of what they handed to the enemy, whom they had not even seen: 75 officers and 1957 men of the infantry brigade Hagen; 110 officers, 2086 men and 2087 horses of the cavalry; in all 185 officers, 4043 men, 2087 horses, 8 guns and 1 powder wagon. Elsewhere he speaks of Hagen's 2000 men. Stülpnagel with the Bailliodz cuirassiers and the 2 Katte squadrons, Colonel Schubärt, Rittmeister Trotha's detachment and the quartermaster Langheinrich with the baggage of the Feldjäger regiment got away.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history: the table and the escapes from the page images of pp. 214-216, the composition from the page image of p. 209 and the OCR of p. 210. No fighting took place, so the troops handed over are the force present at the capitulation, the escapes before it being given separately; the force was brought from the retreat, so the claim is tagged inherited. Höpfner's 2000 is a round figure for Hagen's infantry beside the table's 75 officers and 1957 men. The OCR reads one regiment 'Hei- fing', taken here as Heising, the regiment of Major Thielan 'von Heiſing' on p. 211. English renderings (ours): 'the infantry brigade Hagen received in the night to the 28th in its quarters at Fürstenwerder from General Count Schwerin the order to hold itself ready, as the enemy was near, to set out at the first sign, and soon afterwards came a note with the instruction to stand ready at 5 o'clock in the morning at Rittgarten, north of Schapow and on the road from Fürstenwerder to Pasewalk'; 'the brigade arrived at the rendezvous at the appointed time, but found no cavalry there, and only after several officers had been sent out, at some distance, 2 squadrons of Katte dragoons and the rest of the Bailliodz cuirassier regiment under Lieutenant Colonel Stülpnagel, which had the order to march with the brigade Hagen to Pasewalk'; 'the cavalry brigade Podewils — Leib-Karabiniers, Hei-fing, Holtzendorf, Bünting and Henckel cuirassiers — had likewise come to the rendezvous, waited there long for the brigadier, Colonel Podewils, and had at last followed to Pasewalk under Colonel Poser, of the Henckel cuirassier regiment' (OCR); 'they gave into the hands of the enemy, whom they had not even seen: 75 officers | 1957 men | of the infantry brigade Hagen; 110 ditto | 2086 ditto | 2087 horses of the cavalry; together: 185 officers | 4043 men | 2087 horses, 8 guns and 1 powder wagon'; 'if Colonel Hagen believed he could not ask the infantry to march early, he found in Pasewalk over 100 townsmen-farmers and in the numerous villages nearby so many teams and so much good will that he could well have carried his 2000 men safely away on wagons after a halt of several hours'; 'that one could escape is proved by the escape of Colonel Schubärt of the Quitzow cuirassiers, the detachment of Rittmeister Trotha of the Leib cuirassier regiment, the regimental quartermaster Langheinrich with the baggage of the Feldjäger regiment, and Lieutenant Colonel Stülpnagel with Bailliodz cuirassiers and 2 squadrons of Katte dragoons'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p209-figures-v1",
+          "section": "p209",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 209 (transcribed from the page image)",
+          "quote": "Die Infanterie-Brigade Hagen erhielt in der Nacht zum 28. in ihrem Quartier Fürstenwerder vom General Gr. Schwerin den Befehl, bei der Nähe des Feindes sich bereit zu halten, auf den ersten Wink aufzubrechen, und bald darauf kam ein Zettel mit der Anweisung, um 5 Uhr Morgens bei Rittgarten, nördlich von Schapow und auf der Straße von Fürstenwerder nach Pasewalk, bereit zu stehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p209-figures-v1",
+          "section": "p209",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 209 (transcribed from the page image)",
+          "quote": "Die Brigade traf zur festgesetzten Zeit auf dem Rendezvous ein, fand aber daselbst keine Kavallerie, und erst nach dem Aussenden mehrerer Offiziere, in einiger Entfernung 2 Schwadronen von Katte-Dragonern und den Rest des Regmts. Bailliodz-Kürassiere unter dem Oberst-Lieutenant Stülpnagel, welche den Befehl hatten, mit der Brigade Hagen nach Pasewalk zu marschiren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Die Kapallerie-Brigade Podewils — Leib⸗Karabiniers, Hei⸗ fing, Holtzendorf, Bünting- und Henckel⸗Küraſſiere — hatte ſich ebenfalls auf dem Rendezvous eingefunden, daſelbſt lange auf den Brigadier, Oberſt Podewils, gewartet, und war endlich unter dem Oberſten Poſer, vom Regiment Henckel⸗Küraſſiere, nach Paſewalk gefolgt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Der Major Thielan von Heiſing nahm zuerſt das Wort, ſtellte die Schwierigkeiten dar, die bei der Ermattung der Leute und Pferde einem Durchſchlagen entgegenſtänden, und wies den anweſenden Lieutenant Prittwitz zur Ruhe, als dieſer erklärte, daß eine Ka⸗ pitulation ehrenrührig ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Sie gaben dem Feinde, den man nicht einmal gesehen hatte:\n75 Offiz. | 1957 M. | der Infanterie-Brigade Hagen\n110 〃 | 2086 〃 | 2087 Pferde der Kavallerie\nzus.: 185 Offiz. | 4043 M. | 2087 Pferde, 8 Kanonen und 1 Pulverwagen in die Hände."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Glaubte der Oberst Hagen der Infanterie frühzeitig keinen Marsch zumuthen zu können, so fand er in Pasewalk über 100 Ackerbürger und in den zahlreichen nahen Ortschaften so viel Gespann und guten Willen, daß er seine 2000 Mann nach einem Aufenthalt von mehreren Stunden wohl hätte auf Wagen sicher fortbringen können."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Daß man entkommen konnte, beweist das Entkommen des Obersten Schubärt von Quitzow-Kürassieren, des Kommandos des Rittmeisters Trotha vom Leib-Kürassier-Regmt., des Regiments-Quartiermeisters Langheinrich mit der Bagage des Feldjäger-Regiments, und des Oberst-Lieutenants Stülpnagel mit Bailliodz-Kürassieren und 2 Schwadronen von Katte-Dragonern."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Milhaud wrote to Belliard on 30 October that with a brigade of 600 horse he had faced 2,000 Prussian cavalry and 3,000 infantry, that 2,000 cavalry had had to be made to dismount before a handful of men, and that he was marching off with 36 flags and 5,000 prisoners; nearly 1,000 horses had had to be left in the closed meadow or in the town, and at least 2 horses were led per man. Murat wrote on 30 October that Milhaud had made a corps of 6,000 men lay down its arms at Pasewalk, and the 24th Bulletin, a column of 6,000.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images; not reconciled with Höpfner's table or Bodart's figures (claims side-b-strength, bodart-strength). Milhaud's 2,000 and 3,000 are his estimate of the force he faced and his 5,000 the prisoners he was escorting; the 6,000 of Murat and the Bulletin are round statements. Murat's letter to Bernadotte of 29 October, printed in a footnote on p. 524, also gives figures for Pasewalk, seen only in the OCR and not restated. The force was brought from the retreat, so the claim is tagged inherited. English renderings (ours): Milhaud, 'General Milhaud to General Belliard. Prenzlow, 30 October 1806'; 'in spite of the difficult position in which I found myself, with a brigade of 600 horse against 2,000 Prussian cavalry and 3,000 infantry, I granted them only a severe capitulation'; 'I assure you that many precautions had to be taken to make 2,000 cavalry dismount before a handful of men; I ordered all the prisoners to be filed off to Prenzlow'; 'we were obliged to leave nearly 1,000 horses in the closed meadow or in the town; we set out having at least 2 horses led per man; I had drawn in the 2 elite companies to carry the 36 flags or standards, which were laid down with the arms in the middle of our ranks'; 'we leave Prenzlow today to make for the Emperor's headquarters with the 36 flags and the 5,000 prisoners; my aide de camp and M. Paskowski, attached to your staff, gave me His Imperial Highness's verbal order to escort our prisoners myself, with my 2 regiments'; Murat, 'the Grand Duke of Berg to the Emperor. Löcknitz, 30 October 1806, 2 o'clock in the morning'; 'while General Milhaud was making a corps of 6,000 men lay down its arms at Pasewalk, General'; the Bulletin, '24th Bulletin of the Grande Armée. Berlin, 31 October 1806'; 'Stettin is in our power. While the left of the Grand Duke of Berg, commanded by General Milhaud, was making a column of 6,000 men lay down its arms at Pasewalk, the right, commanded by General Lasalle, was summoning the town of Stettin and imposing on it the capitulation attached'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Malgré la position difficile où je me trouvais avec une brigade de 600 chevaux contre 2,000 cavaliers prussiens et 3,000 hommes d'infanterie, je ne leur ai accordé qu'une capitulation sévère."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "je vous assure qu'il fallait prendre beaucoup de précautions pour faire mettre pied à terre à 2,000 cevaliers devant une poignée de monde; j'ai ordonné qu'on fît filer tous les prisonniers sur Prenzlow."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous avons été obligés de laisser près de 1,000 chevaux dans la prairie close ou dans la ville; nous sommes partis en faisant conduire au moins 2 chevaux par homme; j'avais resserré les 2 compagnies d'élite pour porter les 36 drapeaux ou étendards qui ont été déposés avec les armes au milieu de nos rangs."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous partons aujourd'hui de Prenzlow pour nous diriger avec les 36 drapeaux et les 5,000 prisonniers sur le quartier général de l'Empereur; mon aide de camp et M. Paskowski, adjoint à votre état-major, m'ont donné l'ordre verbal de S. A. I. pour escorter moi-même, avec mes 2 régiments¹, nos prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "Tandis que le général Milhaud faisait mettre bas les armes à un corps de 6,000 hommes à Pasewalk, le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est en notre pouvoir. Pendant que la gauche du grand-duc de Berg, commandée par le général Milhaud, faisait mettre bas les armes à une colonne de 6,000 hommes à Pasewalk, la droite, commandée par le général Lasalle, sommait la ville de Stettin et lui imposait la capitulation ci-jointe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Murat wrote on 28 October that General Milhaud was following the enemy with the 13th chasseurs and the 9th dragoons, and that Milhaud was moving on Pasewalk. Milhaud describes his force as a brigade of 600 horse, a handful of men, and 'my 2 regiments', which Foucart's note identifies as the 13th chasseurs and the 9th dragoons of Beaumont's division. Bodart gives Milhaud's brigade 700 riders. Höpfner says the Prussians handed themselves over to an enemy they had not even seen; the chasseur officer who had accompanied Count Matuschka claimed to have no instructions and asked that an officer be sent to General Milhaud, who stood nearby, and a parlementaire from Lasalle's cavalry also came, so that 3 were present. No passage read gives a return of Milhaud's regiments.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Murat's and Milhaud's letters, Foucart's note and Höpfner's account read from the page images. Milhaud's 600 is his own figure for his brigade; Bodart's 700 is not reconciled with it. English renderings (ours): Murat, 'the Grand Duke of Berg to the Emperor. Prenzlow, 28 October 1806'; 'at 6 o'clock in the morning I was on the march with all the cavalry to support General Lasalle. General Milhaud was following the enemy with the 13th chasseurs and the 9th dragoons'; 'General Lasalle is marching on Löcknitz, where he will sleep this evening, to cut off General Blücher's retreat; General Milhaud is moving on Pasewalk; tomorrow I shall be on Stettin'; Milhaud, as in claim side-b-strength-french for the heading, his brigade, the handful of men and his 2 regiments; Foucart's note, '13th chasseurs and 9th dragoons, of Beaumont's division'; Bodart, as in claim bodart-strength; Höpfner, as in claim side-b-strength for the enemy not seen; 'it was the chasseur officer who had accompanied Count Matuschka, but who claimed to have no instructions and therefore had to ask that an officer be sent to General Milhaud, who stood nearby'; 'finally Lieutenant Kölichen also came with a parlementaire from General Lasalle's cavalry, whom he claimed to have met a mile from Löcknitz, so probably at Berkholz, so that 3 parlementaires were now present'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "A 6 heures du matin j'étais en marche avec toute la cavalerie pour appuyer le général Lasalle. Le général Milhaud suivait l'ennemi avec le 13e de chasseurs et le 9e de dragons;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Malgré la position difficile où je me trouvais avec une brigade de 600 chevaux contre 2,000 cavaliers prussiens et 3,000 hommes d'infanterie, je ne leur ai accordé qu'une capitulation sévère."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "je vous assure qu'il fallait prendre beaucoup de précautions pour faire mettre pied à terre à 2,000 cevaliers devant une poignée de monde; j'ai ordonné qu'on fît filer tous les prisonniers sur Prenzlow."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous partons aujourd'hui de Prenzlow pour nous diriger avec les 36 drapeaux et les 5,000 prisonniers sur le quartier général de l'Empereur; mon aide de camp et M. Paskowski, adjoint à votre état-major, m'ont donné l'ordre verbal de S. A. I. pour escorter moi-même, avec mes 2 régiments¹, nos prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "1. 13e de chasseurs et 9e de dragons, de la division Beaumont."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter) kapitulieren 4.200 Preußen, (worunter 185 Offiziere) mit 2.100 Pferden, 8 Kanonen, 1 Munitionswagen unter Brigadier Oberst v. Hagen, wonach die Offiziere auf Ehrenwort entlassen, die Mannschaften in Kriegsgefangenschaft abgeführt wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Sie gaben dem Feinde, den man nicht einmal gesehen hatte:\n75 Offiz. | 1957 M. | der Infanterie-Brigade Hagen\n110 〃 | 2086 〃 | 2087 Pferde der Kavallerie\nzus.: 185 Offiz. | 4043 M. | 2087 Pferde, 8 Kanonen und 1 Pulverwagen in die Hände."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Es war der Chasseur-Offizier, der den Grafen Matuschka begleitet hatte, indessen vorgab, mit keiner Instruktion versehen zu sein, daher bitten müsse, einen Offizier zu dem in der Nähe stehenden General Milhaud zu senden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Endlich kam auch noch der Lieutenant Kölichen mit einem Parlamentair von der Kavallerie des Generals Lasalle, den er eine Meile von Löcknitz, also wahrscheinlich bei Berkholz, getroffen haben wollte, so daß nun 3 Parlamentairs anwesend waren."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General Milhaud's cavalry brigade as side A (French) and Brigadier Colonel v. Hagen as side B's (Prussian) commander.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner has Colonel Hagen, as the eldest of the column, call the staff officers to a conference and Colonel Poser command the cavalry brigade in its brigadier's absence; Hagen and Poser signed the mandate to capitulate (claim side-b-command). The French letters name Milhaud, and Höpfner has the negotiator who came with powers from the Grand Duke of Berg (claim side-a-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Brigadier Oberst v. Hagen"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A's command: Murat reported Milhaud following the enemy and moving on Pasewalk. By Milhaud's account he granted only a severe capitulation, the soldiers going as prisoners to France and the officers owing their freedom on parole only to the Grand Duke's generosity; he took many precautions to make 2,000 cavalry dismount before a handful of men, and had the prisoners filed off to Prenzlow. In Höpfner, the chasseur officer who had accompanied Count Matuschka claimed to have no instructions and asked that an officer be sent to General Milhaud, standing nearby; Lieutenant Hohendorf returned with Lieutenant Colonel Guillaume, who had full powers from the Grand Duke of Berg, a capitulation was drafted, and it was sent to the Grand Duke at Löcknitz for ratification. The Grand Duke, to whom the Prussian lieutenants Madalinski and Bassewitz had been brought, sent Madalinski back with a negotiator and kept Bassewitz.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Murat's and Milhaud's letters and Höpfner's account read from the page images, with Höpfner's account of the officers sent out from the OCR. The terms Milhaud describes were his own choice by his letter; the ratification by the Grand Duke is Höpfner's. English renderings (ours): Murat, as in claim side-a-strength for 28 October; Milhaud, as in claim side-b-strength-french for the heading, the severe capitulation and the dismounting; 'you will have observed that all the soldiers are prisoners in France and that the officers owe their liberty, on their word of honour, only to the generosity of His Imperial Highness the Grand Duke of Berg'; Höpfner, 'Lieutenant Count Matuschka had met the enemy in a village and had carried out Colonel Poser's errand, and a French chasseur officer had at once been sent to Pasewalk' (OCR); as in claim side-a-strength for the chasseur officer; 'Lieutenant Hohendorf soon came back with Lieutenant Colonel Guillaume, who had been given full powers by the Grand Duke of Berg and was accompanied by Lieutenant Madalinski. A capitulation was now drafted, which was sent to the Grand Duke at Löcknitz for ratification'; 'Lieutenants Madalinski and Count Bassewitz had met the enemy on the road to Löcknitz' (OCR); 'and been taken to the Grand Duke of Berg, who sent Lieutenant Madalinski back with a negotiator but kept Count Bassewitz with him'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "A 6 heures du matin j'étais en marche avec toute la cavalerie pour appuyer le général Lasalle. Le général Milhaud suivait l'ennemi avec le 13e de chasseurs et le 9e de dragons;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Malgré la position difficile où je me trouvais avec une brigade de 600 chevaux contre 2,000 cavaliers prussiens et 3,000 hommes d'infanterie, je ne leur ai accordé qu'une capitulation sévère."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Vous avez dû observer que tous les soldats sont prisonniers en France et que MM. les officiers ne doivent leur liberté, sur leur parole d'honneur, qu'à la générosité de S. A. I. le grand-duc de Berg;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "je vous assure qu'il fallait prendre beaucoup de précautions pour faire mettre pied à terre à 2,000 cevaliers devant une poignée de monde; j'ai ordonné qu'on fît filer tous les prisonniers sur Prenzlow."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Der Lieutenant Gr. Matuſchka war in einem Dorfe auf den Feind geſtoßen, und hatte den Auftrag des Oberſten Poſer ausge⸗ richtet, auch war ſogleich ein franzöſiſcher Chaſſeur⸗Offizier nach Pa⸗ ſewalk abgeordnet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Es war der Chasseur-Offizier, der den Grafen Matuschka begleitet hatte, indessen vorgab, mit keiner Instruktion versehen zu sein, daher bitten müsse, einen Offizier zu dem in der Nähe stehenden General Milhaud zu senden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Der Lieutenant Hohendorf kehrte bald darauf mit dem Oberst-Lieutenant Guillaume zurück, der vom Großherzog von Berg mit Vollmachten versehen und vom Lieutenant Madalinski begleitet worden war. Man entwarf nun eine Kapitulation, die dem Großherzog zur Ratifikation nach Löcknitz gesandt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Die Lieutenants Madalinski und Gr. Baſſewitz waren auf der Straße nach Löcknitz dem Feinde begegnet"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "und zum Großherzog von Berg geführt worden, der den Lieutenant Madalinski mit einem Unterhändler zurückschickte, den Grafen Bassewitz aber bei sich behielt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Colonel Hagen, as the eldest of the column, called all the staff officers of the infantry and cavalry to a conference. Before it, Colonel Poser told the cavalry's staff officers that Prince Hohenlohe had capitulated and the pass at Löcknitz was occupied, so that they would have to cut their way through; Major Thielan of the Heising regiment spoke first of the difficulties a break-through faced with men and horses exhausted and told Lieutenant Prittwitz, who declared a capitulation dishonourable, to be quiet; Colonel Winning of the Leib-Karabiniers consulted not only his officers but also called into counsel the sergeant-major of each squadron with NCOs and men, and that meeting resolved that they could not cut through but must capitulate. Several staff officers urged Poser to set out for Stettin as soon as possible. At the conference Hagen said he lacked the knowledge to judge whether the cavalry could march on; the Landrat Podewils proposed a safe route by Jägerbrück and Stolzenburg, and the colonel, by the context Hagen, paid no heed. Poser posted no field guards and ordered no patrols, only a chain of posts round the bivouac whose officers were to meet the enemy with a trumpeter and tell him negotiations were under way, and sent officer after officer to find the enemy, Count Matuschka with orders to tell him of their sad situation and bring back an officer of higher rank to capitulate, but by no means to reconnoitre. When Prince Gustav of Mecklenburg-Schwerin reported the cavalry ever more enclosed and saw no way out but capitulation, Hagen, physically and morally exhausted and deeply bowed by Prenzlau, was confirmed in a resolve to capitulate that Höpfner says Poser seems to have prompted. Hagen and Poser signed a written mandate to capitulate for the two brigades with free withdrawal or, failing that, to surrender them into captivity. Höpfner finds no justification of any kind for the capitulation: the commanders thought of nothing but capitulation and sent officers in all directions to seek out the enemy and offer themselves.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history: the mandate, the parlementaire and Höpfner's judgment from the page images of pp. 214-215, the conferences and the officers sent out from the OCR of pp. 210-213. Höpfner does not name his sources for Pasewalk. English renderings (ours): 'Colonel Hagen, as the eldest of the column, invited all the staff officers of the infantry and cavalry to a conference' (OCR); 'before the assembled staff officers of the cavalry had left the bivouac, Colonel Poser told them' (OCR); 'that Prince Hohenlohe had capitulated and the pass at Löcknitz was occupied, so that they would have to cut their way through' (OCR); 'Major Thielan of Heising took the floor at the outset, set out the difficulties that the exhaustion of men and horses put in the way of a break-through, and told Lieutenant Prittwitz, who was present, to be quiet when the latter declared that a capitulation was dishonourable' (OCR); 'Colonel Winning, commander of the Leib-Karabinier regiment, asked not only the officers but also called into counsel from each squadron the sergeant-major, ... NCO and ... men' (OCR); 'and the decision of this meeting was that they could not cut their way through but must capitulate' (OCR); 'several staff officers urgently pressed Colonel Poser to set out for Stettin as soon as possible' (OCR); 'after all the staff officers had gathered in the evening at Colonel Hagen's in Pasewalk, he declared to the officers of the cavalry that he had not enough knowledge of their situation to be able to judge whether they were able to march on or not. The cavalry officers declared that men and horses were very exhausted, but that an early march was nevertheless advisable' (OCR); 'he reported that by the statement of a man arrived from Löcknitz the road to Stettin was free, but that he proposed, for safety's sake, to march through the great Fichthaide by Jägerbrück and Stolzenburg, where the enemy could do them no harm. Because of the difficulty of the crossing he advised against a march to the island of Usedom' (OCR); 'the colonel paid no heed to this statement' (OCR); 'Colonel Poser arranged that for the night no field guards were posted and no patrolling ordered, but only a chain of posts drawn round the bivouac of the cavalry, whose commanding officers received the instruction, if the enemy approached, to enter into no hostilities but to go to meet him with a trumpeter and inform him that negotiations were already under way' (OCR); 'at midnight Colonel Poser further sent off Lieutenant Count Königsdorf of the Henckel cuirassiers with a trumpeter and ... men' (OCR); 'when this officer came back without having perceived anything of the enemy, Colonel Poser sent Lieutenant Count Matuschka of the same regiment with the same escort, but with the errand to ride straight on until he came upon the enemy, to inform him of their sad situation, and to bring back an officer of higher rank to capitulate, but by no means to make a reconnaissance' (OCR); 'when Count Matuschka stayed away too long for Colonel Poser, Lieutenants Madalinski of the Bünting and' (OCR); 'Count Bassewitz of the Henckel cuirassiers, and towards morning Lieutenant Schkopp, were sent off with the same errands' (OCR); 'he rode to Pasewalk to Colonel Hagen and reported to him: the cavalry was being more and more enclosed by the enemy' (OCR); 'Colonel Hagen asked the Prince what was to be done, as the cavalry's horses were too exhausted to accept a fight' (OCR); 'the Prince found a way out only in capitulation' (OCR); 'this view of the Prince strengthened in Colonel Hagen, who was physically and morally quite exhausted by the unspeakable hardships but deeply bowed by the capitulation of Prenzlau, the resolve already taken after the ... conference to capitulate as well, though Colonel Poser seems to have prompted the very idea' (OCR); 'Lieutenant Hohendorf was sent off, accompanied by an enemy chasseur, with the written mandate signed by Colonels Hagen and Poser: to capitulate for the two brigades and stipulate free withdrawal, or if this were not granted, to deliver them into captivity'; 'if the capitulation at Prenzlau, where they knew a strong cavalry to be facing them and, by Colonel Massenbach's statements, could assume a strong enemy in their rear, where the troops had to cover a road of almost 4 miles across the plain in the face of the enemy in complete exhaustion and almost without ammunition, still had a trace of justification, the capitulation of Pasewalk had none of any kind'; 'they were informed early of the events at Prenzlau, and so knew of the enemy's approach; nevertheless no patrols are sent out to learn the enemy's position; no attempt is made, by spending their last strength, to forestall the enemy at Löcknitz; nor, if they believed they could not risk this attempt, do they take the trouble to inquire whether other roads than that by Löcknitz to Stettin were free; they pay no heed to the statement of the Landrat Podewils, who shows such a road; indeed they think of nothing but capitulation, as every further effort, every appearance of danger, frightens the commanders, and they send officers out in all directions to seek out the enemy themselves and offer themselves to him'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Hagen, als der Aelteſte der Kolonne, lud ſämmt⸗ liche Staboffiziere der Infanterie und Kavallerie zu einer Kon⸗ ferenz ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Bevor die verſammelten Stabsoffiziere der Kavallerie noch den Bivouak verließen, theilte ihnen der Oberſt Poſer mit,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "daß der Fürft Hohenlohe kapitulirt habe und der Paß bei Löck⸗ nitz beſetzt ſei, man ſich mithin werde durchſchlagen müſſen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Der Major Thielan von Heiſing nahm zuerſt das Wort, ſtellte die Schwierigkeiten dar, die bei der Ermattung der Leute und Pferde einem Durchſchlagen entgegenſtänden, und wies den anweſenden Lieutenant Prittwitz zur Ruhe, als dieſer erklärte, daß eine Ka⸗ pitulation ehrenrührig ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Winning, Kommandeur des Leib-Karabinier- Regiments, befragte nicht nur die Offiziere, ſondern zog auch von jeder Schwadron den Wacht⸗ meiſter, 1 Unterofſizier und 2 Mann zu Rathe,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "und der Beſchluß dieſer Verſammlung fiel dahin aus, daß man ſich nicht durch⸗ ſchlagen könne, ſondern kapituliren müſſe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Mehrere Stabsoffiziere lagen dem Oberſten Poſer dringend an, ſobald als möglich nach Stettin aufzubrechen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Nachdem ſich die ſämmtlichen Stabsoffiziere am Abend beim Oberſten Hagen in Paſewalk eingefunden hatten, erklärte derſelbe den Offizieren der Kavallerie, daß er keine hinlängliche Kenntniß von ihrer Lage habe, um beurtheilen zu können, ob ſie im Stande ſeien weiter zu marſchiren oder nicht. Die KavalleriesOffiziere erklärten, daß Leute und Pferde ſehr erſchöpft wären, daß aber dennoch ein baldiger Marſch anzurathen ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Zu der Konferenz hatte fich auch der Landrath des Demminſchen Kreiſes, der Landſchafts-Direktor Podewils, eingefunden, da er noch denſelben Abend über Rothen⸗Klempenow von Stettin nach Paſewalk gekommen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Er theilte mit, daß nach der Ausſage eines aus Löcknitz eingetroffenen Mannes der Weg nach Stettin frei ſei, daß er aber vorſchlage, der Sicherheit wegen durch die große Fichthaide über Jägerbrück und Stolzenburg zu marſchiren, wo ihnen der Feind nichts anhaben könne. Wegen der Schwie⸗ rigkeit der Ueberfahrt rathe er zu keinem Marſch nach der Inſel Uſedom."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt gab auf dieſe Erklärung nichts,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Poſer traf die Veranſtaltung, daß für die Nacht keine Feldwachen ausgeſetzt, kein Patrouillengang angeordnet, ſon⸗ dern lediglich um den Bivouak der Kavallerie eine Poſtenkette ge⸗ zogen wurde, deren kommandirende Offiziere die Anweiſung er⸗ hielten, wenn der Feind ſich nähere, ſich in keine Feindſeligkeiten einzulaſſen ſondern ihm mit einem Trompeter entgegenzugehen, und ihn zu benachrichtigen, daß man bereits in Unterhandlungen begriffen ſei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Um Mitternacht ſandte der Oberſt Poſer ferner den Lieute⸗ nant Grafen Königsdorf von Henckel-Küraſſieren mit einem Trompeter und 2 Mann ab,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Als dieſer Offizier zurückkam, ohne etwas vom Feinde en genommen zu haben, ſandte der Oberſt Poſer den Lieutenant Grafen Matuſchka von demſelben Regiment unter gleicher Bedeckung, aber mit dem Auftrage ab: ſo lange geradeaus zu reiten, bis er auf den Feind ſtoßen würde, dieſen von ihrer traurigen Lage zu unter⸗ richten, und einen Offizier höͤhern Ranges zur Kapitulation mit⸗ zubringen, keineswegs aber eine Rekognoszirung vorzunehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Als der Graf Matuſchka dem Oberſten Poſer zu lange aus⸗ blieb, wurden noch die Lieutenants Madalinski von Bünting⸗ und"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Graf Baſſewitz von Henckel-Küraſſieren, und gegen Morgen der Lieutenant Schkopp mit gleichen Aufträgen abgeſchickt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "In der Nacht glaubte der Major Prinz Guſtav von Meck⸗ lenburg⸗Schwerin von Henckel⸗Küraſſieren, welcher die Poſtenkette um den Bivouak kommandirte, im Mondenſchein in einiger Ent⸗ fernung Bewegungen auf der Prenzlauer- und Stettiner» Straße wahrgenommen zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Er ritt nach Paſewalk zum Oberſten Hagen und meldete ihm: die Kavallerie werde immer mehr vom Feinde eingeſchloſſen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Hagen fragte den Prinzen, was dabei zu thun wäre, da die Pferde der Kavallerie zu ermattet ſeien, um ein Gefecht anzunehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Der Prinz fand nur in der Kapitulation einen Ausweg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Dieſe Anſicht des Prinzen beſtärkte in dem Oberſten Hagen, der durch die unfäglichen Beſchwerden phyſiſch und moraliſch gänzlich entkräftet, durch die Kapitulation von Prenzlau aber tief gebeugt war, den bereits nach der zweiten Konferenz gefaßten Entſchluß, auch zu kapituliren, doch ſcheint der Oberſt Poſer hierzu den erſten Gedanken angeregt zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Der Lieutenant Hohendorf wurde in Begleitung eines feindlichen Chasseurs mit dem von den Obersten Hagen und Poser unterzeichneten schriftlichen Auftrage abgesandt: für die beiden Brigaden zu kapituliren und freien Abzug zu bedingen, oder wenn ein solcher nicht zugestanden würde, sie der Gefangenschaft zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Hatte die Kapitulation bei Prenzlau, wo man eine starke Kavallerie sich gegenüber wußte, und nach den Angaben des Obersten Massenbach einen starken Feind im Rücken annehmen konnte, wo die Truppen im Angesicht des Feindes einen beinahe 4 Meilen langen Weg in der Ebene bei gänzlicher Entkräftung fast ohne Munition zurückzulegen hatten, noch eine Spur von Rechtfertigung, so doch in keiner Art die Kapitulation von Pasewalk."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Man wurde frühzeitig von den Ereignissen bei Prenzlau unterrichtet, war daher von der Annäherung des Feindes in Kenntniß gesetzt; dessenungeachtet sendet man keine Patrouillen aus, um sich von dem Stande des Feindes zu unterrichten; man versucht nicht mit Aufwand der letzten Kräfte dem Feinde bei Löcknitz zuvorzukommen; man bemüht sich aber auch nicht, wenn man glaubte diesen Versuch nicht wagen zu dürfen, Erkundigungen einzuziehen, ob nicht andere Wege als der über Löcknitz nach Stettin frei seien; man achtet nicht auf die Aussage des Landraths Podewils, der einen solchen Weg nachweist; ja man denkt an nichts als an Kapitulation, da jede weitere Anstrengung, jeder Anschein von Gefahr, die Befehlshaber zurückschreckt, und sendet nach allen Richtungen Offiziere ab, um den Feind selbst aufzusuchen, sich ihm anzubieten."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Pasewalk on 29 October before Milhaud's brigade: the officers were released on their word of honour and the men led off into captivity. Höpfner: the terms were that the troops should lay down their arms, the officers be released on their word of honour and the privates be led off as prisoners of war; the draft was sent to the Grand Duke of Berg at Löcknitz for ratification. Milhaud wrote that he granted only a severe capitulation, all the soldiers prisoners in France and the officers free on parole only by the Grand Duke's generosity, and that the 36 flags or standards were laid down with the arms in the middle of his ranks. Murat and the 24th Bulletin report the corps laying down its arms to Milhaud.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French letters, read from the page images; no source read gives a different result. Neither source read prints the capitulation's text. Höpfner's heading dates it 29 October, and his narrative places it on the morning after the conferences of the evening of the 28th, before the troops set out. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'the capitulation at Pasewalk, 29 October'; 'the conditions of the capitulation were that the troops should lay down their arms, the officers be released on their word of honour and the privates be led off into captivity as prisoners of war'; as in claim side-a-command for the draft sent for ratification; 'before the troops had yet set out from Pasewalk, the arrival of an enemy parlementaire was reported to Colonel Hagen from the gate'; Milhaud, as in claims side-b-strength-french for the heading, the severe capitulation and the flags and side-a-command for the terms; Murat and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 29./10. KAPITULATION von Pasewalk"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter) kapitulieren 4.200 Preußen, (worunter 185 Offiziere) mit 2.100 Pferden, 8 Kanonen, 1 Munitionswagen unter Brigadier Oberst v. Hagen, wonach die Offiziere auf Ehrenwort entlassen, die Mannschaften in Kriegsgefangenschaft abgeführt wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p209-figures-v1",
+          "section": "p209",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 209 (transcribed from the page image)",
+          "quote": "Die Kapitulation bei Pasewalk den 29. Oktober."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Die Bedingungen der Kapitulation gingen dahin, daß die Truppen das Gewehr strecken, die Offiziere auf ihr Ehrenwort entlassen und die Gemeinen in die Kriegsgefangenschaft abgeführt werden sollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Der Lieutenant Hohendorf kehrte bald darauf mit dem Oberst-Lieutenant Guillaume zurück, der vom Großherzog von Berg mit Vollmachten versehen und vom Lieutenant Madalinski begleitet worden war. Man entwarf nun eine Kapitulation, die dem Großherzog zur Ratifikation nach Löcknitz gesandt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Bevor die Truppen noch von Pasewalk aufbrachen, wurde dem Obersten Hagen vom Thore die Ankunft eines feindlichen Parlamentairs gemeldet."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Malgré la position difficile où je me trouvais avec une brigade de 600 chevaux contre 2,000 cavaliers prussiens et 3,000 hommes d'infanterie, je ne leur ai accordé qu'une capitulation sévère."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Vous avez dû observer que tous les soldats sont prisonniers en France et que MM. les officiers ne doivent leur liberté, sur leur parole d'honneur, qu'à la générosité de S. A. I. le grand-duc de Berg;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous avons été obligés de laisser près de 1,000 chevaux dans la prairie close ou dans la ville; nous sommes partis en faisant conduire au moins 2 chevaux par homme; j'avais resserré les 2 compagnies d'élite pour porter les 36 drapeaux ou étendards qui ont été déposés avec les armes au milieu de nos rangs."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "Tandis que le général Milhaud faisait mettre bas les armes à un corps de 6,000 hommes à Pasewalk, le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est en notre pouvoir. Pendant que la gauche du grand-duc de Berg, commandée par le général Milhaud, faisait mettre bas les armes à une colonne de 6,000 hommes à Pasewalk, la droite, commandée par le général Lasalle, sommait la ville de Stettin et lui imposait la capitulation ci-jointe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Höpfner says the Prussians handed themselves over to an enemy they had not even seen, and no passage read describes any fighting at Pasewalk. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss was the whole force present, taken by the capitulation. Höpfner's table: 185 officers, 4043 men, 2087 horses, 8 guns and 1 powder wagon (claim side-b-strength). Bodart: 4,200 Prussians, among them 185 officers, with 2,100 horses, 8 guns and 1 ammunition wagon. Milhaud: 36 flags or standards and 5,000 prisoners, with nearly 1,000 horses left in the meadow or the town. Murat and the 24th Bulletin: 6,000 men laid down their arms.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. Bodart's 185 officers, 8 guns and 1 wagon are Höpfner's figures, his 2,100 horses Höpfner's 2087 rounded up, and his 4,200 close to Höpfner's 4228 officers and men (our arithmetic); which source Bodart used was not checked. Neither Höpfner nor Bodart counts flags. English renderings (ours): Höpfner, as in claim side-b-strength for the table; Bodart, as in claim bodart-strength; Milhaud, as in claim side-b-strength-french; Murat and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Sie gaben dem Feinde, den man nicht einmal gesehen hatte:\n75 Offiz. | 1957 M. | der Infanterie-Brigade Hagen\n110 〃 | 2086 〃 | 2087 Pferde der Kavallerie\nzus.: 185 Offiz. | 4043 M. | 2087 Pferde, 8 Kanonen und 1 Pulverwagen in die Hände."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter) kapitulieren 4.200 Preußen, (worunter 185 Offiziere) mit 2.100 Pferden, 8 Kanonen, 1 Munitionswagen unter Brigadier Oberst v. Hagen, wonach die Offiziere auf Ehrenwort entlassen, die Mannschaften in Kriegsgefangenschaft abgeführt wurden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous avons été obligés de laisser près de 1,000 chevaux dans la prairie close ou dans la ville; nous sommes partis en faisant conduire au moins 2 chevaux par homme; j'avais resserré les 2 compagnies d'élite pour porter les 36 drapeaux ou étendards qui ont été déposés avec les armes au milieu de nos rangs."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous partons aujourd'hui de Prenzlow pour nous diriger avec les 36 drapeaux et les 5,000 prisonniers sur le quartier général de l'Empereur; mon aide de camp et M. Paskowski, adjoint à votre état-major, m'ont donné l'ordre verbal de S. A. I. pour escorter moi-même, avec mes 2 régiments¹, nos prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nLöcknitz, 30 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p524-figures-v1",
+          "section": "p524",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 524 (transcribed from the page image)",
+          "quote": "Tandis que le général Milhaud faisait mettre bas les armes à un corps de 6,000 hommes à Pasewalk, le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "24e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p553-figures-v1",
+          "section": "p553",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 553 (transcribed from the page image)",
+          "quote": "Stettin est en notre pouvoir. Pendant que la gauche du grand-duc de Berg, commandée par le général Milhaud, faisait mettre bas les armes à une colonne de 6,000 hommes à Pasewalk, la droite, commandée par le général Lasalle, sommait la ville de Stettin et lui imposait la capitulation ci-jointe."
+        }
+      ]
+    },
+    {
+      "id": "pasewalk-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Pasewalk in Pomerania on the Ucker, 37 km west of Stettin. Höpfner: the infantry entered the town and the cavalry bivouacked near it, the Bünting regiment posted towards Löcknitz, whose pass lay on the road to Stettin; the Landrat Podewils proposed a safe route through the great Fichthaide by Jägerbrück and Stolzenburg and advised against a march to the island of Usedom because of the difficult crossing. Of those who escaped, Lieutenant Colonel Stülpnagel left Zerrenthin at 11 at night, struck the enemy before Löcknitz, turned left, crossed the Bruch and the Randau near Koblenz by a road he knew and reached Stettin at 10 on the morning of the 29th; the quartermaster Langheinrich left Pasewalk at 1 in the night, passed Löcknitz on his right and went through the woods to Ziegenort on the Papenwasser. Milhaud left horses in the closed meadow or in the town.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and routes as described; Bodart, Höpfner's escapes and Milhaud's letter from the page images, the rest of Höpfner from the OCR. English renderings (ours): Bodart, '(town in Prussia, Pomerania, on the Ucker, 37 km west of Stettin)'; Höpfner, 'Pasewalk reached, where the infantry marched in' (OCR); 'the Bünting regiment was posted towards Löcknitz; the rest of the cavalry took up a bivouac near the town' (OCR); as in claim side-b-command for the pass at Löcknitz (OCR) and the Landrat's route (OCR); 'Lieutenant Colonel Stülpnagel marched off from Zerrenthin at 11 o'clock in the night, struck the enemy before Löcknitz, turned off to the left, crossed the Bruch and the Randau'; 'near Koblenz by a road known to him, and reached Stettin on the 29th early at 10 o'clock'; 'the regimental quartermaster Langheinrich left Pasewalk at 1 o'clock in the night, left Löcknitz on his right, went right through the woods to Ziegenort on the Papenwasser'; Milhaud, as in claim side-b-strength-french for the heading and the horses left behind.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Stadt in Preußen, Pommern, an der Ucker, 37 km westl. von Stettin)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Paſewalk erreicht, wo die Infanterie einrückte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Das Regiment Bünting wurde gegen Löcknitz aufgeſtellt; der Reſt der Kavallerie bezog ein Bivouak in der Nähe der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "daß der Fürft Hohenlohe kapitulirt habe und der Paß bei Löck⸗ nitz beſetzt ſei, man ſich mithin werde durchſchlagen müſſen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Er theilte mit, daß nach der Ausſage eines aus Löcknitz eingetroffenen Mannes der Weg nach Stettin frei ſei, daß er aber vorſchlage, der Sicherheit wegen durch die große Fichthaide über Jägerbrück und Stolzenburg zu marſchiren, wo ihnen der Feind nichts anhaben könne. Wegen der Schwie⸗ rigkeit der Ueberfahrt rathe er zu keinem Marſch nach der Inſel Uſedom."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Der Oberst-Lieutenant Stülpnagel marschirte um 11 Uhr in der Nacht von Zerrenthin ab, stieß vor Löcknitz auf den Feind, bog links aus, passirte das Bruch und die Randau"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "bei Koblenz auf einem ihm bekannten Wege, und erreichte am 29. früh um 10 Uhr Stettin."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p216-figures-v1",
+          "section": "p216",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 216 (transcribed from the page image)",
+          "quote": "Der Regiments-Quartiermeister Langheinrich ging um 1 Uhr in der Nacht von Pasewalk ab, ließ Löcknitz rechts, ging mitten durch die Waldungen nach Ziegenort am Papenwasser,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous avons été obligés de laisser près de 1,000 chevaux dans la prairie close ou dans la ville; nous sommes partis en faisant conduire au moins 2 chevaux par homme; j'avais resserré les 2 compagnies d'élite pour porter les 36 drapeaux ou étendards qui ont été déposés avec les armes au milieu de nos rangs."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner has some officers of Hagen's brigade say the men were exhausted to the utmost; the cavalry's horses were found in general not so worn that they could not march on, but a fight should be avoided, and the cavalry officers called men and horses very exhausted but an early march advisable; officers of the Pirch regiment thought a retreat by the island of Usedom not practicable for want of food; and Colonel Hagen himself was physically and morally exhausted. Höpfner judges that Hagen found in Pasewalk over 100 townsmen-farmers, and in the villages nearby teams and good will enough, to have carried his 2000 men safely away on wagons. Side A (French): Milhaud had to leave nearly 1,000 horses behind and had at least 2 led per man.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The exhaustion and the want of food were brought from the retreat, so the claim is tagged inherited. Höpfner: the figures from the page image of p. 215, the account of the men and horses from the OCR of pp. 210-213; Milhaud from the page image of p. 529. English renderings (ours): Höpfner, as in claim side-b-objectives for Hagen's assembly of the brigade's officers (OCR); 'some officers said indeed that the men were exhausted to the utmost, but the colonel believed that in the threatening danger he must not depart from the order given' (OCR); 'in general the state of the horses was by no means found to be such that they could not march on, but only that a fight must be avoided as far as possible' (OCR); as in claim side-b-command for the cavalry officers (OCR) and Hagen's exhaustion (OCR); 'some officers of the infantry regiment Pirch, who were at home in the district, were of the opinion that a retreat by the island of Usedom was not practicable for want of provisions' (OCR); as in claim side-b-strength for the wagons; Milhaud, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Hagen verſammelte daher die Offiziere der Brigade, theilte ihnen die Gefahr mit, und beftimmte, daß um 7 Uhr Abends wiederum nach Löcknitz auf— gebrochen werden ſolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Einige Offizierg äußerten zwar, daß die Leute aufs Aeußerſte erſchöpft ſeien, doch glaubte der Oberſt bei der drohenden Gefahr von dem gegebenen Befehl nicht abgehen zu dürfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Im Allgemeinen wurde der Zuſtand der Pferde keinesweges ſo befunden, daß man nicht weiter marſchiren könne, ſondern nur ein Gefecht möglichft ver⸗ meiden müſſe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Nachdem ſich die ſämmtlichen Stabsoffiziere am Abend beim Oberſten Hagen in Paſewalk eingefunden hatten, erklärte derſelbe den Offizieren der Kavallerie, daß er keine hinlängliche Kenntniß von ihrer Lage habe, um beurtheilen zu können, ob ſie im Stande ſeien weiter zu marſchiren oder nicht. Die KavalleriesOffiziere erklärten, daß Leute und Pferde ſehr erſchöpft wären, daß aber dennoch ein baldiger Marſch anzurathen ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Dieſe Anſicht des Prinzen beſtärkte in dem Oberſten Hagen, der durch die unfäglichen Beſchwerden phyſiſch und moraliſch gänzlich entkräftet, durch die Kapitulation von Prenzlau aber tief gebeugt war, den bereits nach der zweiten Konferenz gefaßten Entſchluß, auch zu kapituliren, doch ſcheint der Oberſt Poſer hierzu den erſten Gedanken angeregt zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "einige Offiziere des Infanterie-Regimentd Pirch, die in der Gegend zu Hauſe waren, der Anſicht waren, daß ein Rückzug über die Inſel Uſedom wegen Mangels an Lebensmitteln nicht ausführbar ſei,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Glaubte der Oberst Hagen der Infanterie frühzeitig keinen Marsch zumuthen zu können, so fand er in Pasewalk über 100 Ackerbürger und in den zahlreichen nahen Ortschaften so viel Gespann und guten Willen, daß er seine 2000 Mann nach einem Aufenthalt von mehreren Stunden wohl hätte auf Wagen sicher fortbringen können."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous avons été obligés de laisser près de 1,000 chevaux dans la prairie close ou dans la ville; nous sommes partis en faisant conduire au moins 2 chevaux par homme; j'avais resserré les 2 compagnies d'élite pour porter les 36 drapeaux ou étendards qui ont été déposés avec les armes au milieu de nos rangs."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Milhaud wrote that he knew for certain that large parties of Prussian hussars of Blücher's column were scouring the country in his rear, and he put the force he faced at 2,000 cavalry and 3,000 infantry. In Höpfner, the Prussians themselves sent officers to find the French: Count Matuschka was to tell the enemy of their sad situation, and the French chasseur officer who had accompanied him, sent at once to Pasewalk, claimed to have no instructions.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Milhaud's letter and Höpfner's account of the chasseur officer from the page images, the errands from the OCR. English renderings (ours): Milhaud, as in claim side-b-strength-french for the heading and his estimate; 'I knew positively that large parties of Prussian hussars from Blücher's column were scouring the country in our rear'; Höpfner, as in claim side-b-command for Matuschka's errand (OCR) and in claims side-a-command and side-a-strength for the chasseur officer.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Je savais positivement que de gros partis de hussards prussiens de la colonne de Blücher battaient la campagne sur nos derrières."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Malgré la position difficile où je me trouvais avec une brigade de 600 chevaux contre 2,000 cavaliers prussiens et 3,000 hommes d'infanterie, je ne leur ai accordé qu'une capitulation sévère."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Als dieſer Offizier zurückkam, ohne etwas vom Feinde en genommen zu haben, ſandte der Oberſt Poſer den Lieutenant Grafen Matuſchka von demſelben Regiment unter gleicher Bedeckung, aber mit dem Auftrage ab: ſo lange geradeaus zu reiten, bis er auf den Feind ſtoßen würde, dieſen von ihrer traurigen Lage zu unter⸗ richten, und einen Offizier höͤhern Ranges zur Kapitulation mit⸗ zubringen, keineswegs aber eine Rekognoszirung vorzunehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Der Lieutenant Gr. Matuſchka war in einem Dorfe auf den Feind geſtoßen, und hatte den Auftrag des Oberſten Poſer ausge⸗ richtet, auch war ſogleich ein franzöſiſcher Chaſſeur⸗Offizier nach Pa⸗ ſewalk abgeordnet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Es war der Chasseur-Offizier, der den Grafen Matuschka begleitet hatte, indessen vorgab, mit keiner Instruktion versehen zu sein, daher bitten müsse, einen Offizier zu dem in der Nähe stehenden General Milhaud zu senden."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: on the march the brigade heard the cannonade at Prenzlau. At Pasewalk all the news, especially the statement of Colonel Schubärt of the Quitzow cuirassiers, showed the enemy very near and the danger of being enclosed; Lieutenant Meyer brought news of the capitulation at Prenzlau, confirmed by Lieutenant Vogel, General Tauentzien's adjutant; Colonel Poser told the cavalry's staff officers that the pass at Löcknitz was occupied; Lieutenant Colonel Stülpnagel reported that he had news of an unlucky action at Prenzlau and would set out at once for Löcknitz. The Landrat Podewils, come from Stettin that evening, reported that by a man arrived from Löcknitz the road to Stettin was free. Poser's officers were sent to find the enemy but not to reconnoitre; the first came back having perceived nothing; in the night Prince Gustav of Mecklenburg-Schwerin believed he saw movements by moonlight on the Prenzlau and Stettin roads. Höpfner says the Prussians had not even seen the enemy to whom they surrendered, sent out no patrols, made no inquiry whether other roads than that by Löcknitz were free, and ignored the Landrat.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "From the history of side B: the judgment and the heading of the table from the page images of pp. 214-215, the rest from the OCR of pp. 210-213. English renderings (ours): 'on the march the cannonade at Prenzlau was heard, and the pace was slackened somewhat so as not to get too far from the place of the action' (OCR); 'all the news, especially the statement of Colonel Schubärt of the Quitzow cuirassiers, who had arrived, showed the great nearness of the enemy and the danger of being wholly enclosed if they stayed longer' (OCR); 'soon after they marched in, Lieutenant Meyer of the Leib cuirassier regiment, who had held the bridge of Nieden with ... horses, came and brought the news of the capitulation at Prenzlau; a news that Lieutenant Vogel, adjutant of General Count Tauentzien, who had been sent to fetch back his general's baggage and the Prince's, confirmed' (OCR); as in claim side-b-command for Poser's news (OCR); 'late in the evening Colonel Hagen had been informed from Zerrenthin by Lieutenant Colonel Stülpnagel, who had not been present at the conference, that he had received news of an unlucky action at Prenzlau and would therefore set out at once for Löcknitz with the cavalry under him' (OCR); 'the Landrat of the Demmin district, the Landschafts-Direktor Podewils, had also come to the conference, as he had come that same evening from Stettin to Pasewalk by Rothen-Klempenow' (OCR); as in claim side-b-command for his report (OCR) and the officers sent out (OCR); 'in the night Major Prince Gustav of Mecklenburg-Schwerin of the Henckel cuirassiers, who commanded the chain of posts round the bivouac, believed he had perceived movements by moonlight at some distance on the Prenzlau and Stettin roads' (OCR); as in claim side-b-command for Höpfner's judgment and in claim side-b-strength for the enemy not seen.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Auf dem Marſch hörte man die Kanonade bei Prenzlau und mäßigte in etwas den Schritt, um ſich nicht zu weit von dem Ort des Gefechts zu entfernen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Alle Nachrichten, beſonders die Ausſage des eingetroffenen Oberſten Schubärt von Quitzow-Küraſſieren, erwieſen die große Nähe des Feindes und die Gefahr, bei langerem Aufenthalt ganze lich eingeſchloſſen zu werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Bald nach dem Einrücken kam der Lieutenant Meyer vom Leib⸗Küraſſier-Regiment, der mit 30 Pferden die Brücke von Nie⸗ den beſetzt gehalten hatte, und brachte die Nachricht von der Ka⸗ pitulation bei Prenzlau; eine Nachricht, die der Lieutenant Vogel, Adjutant des Generals Gr. Tauentzien, der abgeſchickt worden war, die Bagage feines Generals und die des Fürſten zurückzu⸗ holen, beſtätigte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Bevor die verſammelten Stabsoffiziere der Kavallerie noch den Bivouak verließen, theilte ihnen der Oberſt Poſer mit,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "daß der Fürft Hohenlohe kapitulirt habe und der Paß bei Löck⸗ nitz beſetzt ſei, man ſich mithin werde durchſchlagen müſſen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Spät am Abend war dem Oberſten Hagen vom Oberſt⸗ Lieutenant Stülpnagel, der nicht bei der Konferenz gegenwärtig geweſen war, aus Zerrenthin gemeldet worden, daß er Nachricht von einem unglücklichen Gefecht bei Prenzlau erhalten habe, und daher mit ſeiner unterhabenden Kavallerie ſogleich nach Löcknitz aufbrechen werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Zu der Konferenz hatte fich auch der Landrath des Demminſchen Kreiſes, der Landſchafts-Direktor Podewils, eingefunden, da er noch denſelben Abend über Rothen⸗Klempenow von Stettin nach Paſewalk gekommen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Er theilte mit, daß nach der Ausſage eines aus Löcknitz eingetroffenen Mannes der Weg nach Stettin frei ſei, daß er aber vorſchlage, der Sicherheit wegen durch die große Fichthaide über Jägerbrück und Stolzenburg zu marſchiren, wo ihnen der Feind nichts anhaben könne. Wegen der Schwie⸗ rigkeit der Ueberfahrt rathe er zu keinem Marſch nach der Inſel Uſedom."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Als dieſer Offizier zurückkam, ohne etwas vom Feinde en genommen zu haben, ſandte der Oberſt Poſer den Lieutenant Grafen Matuſchka von demſelben Regiment unter gleicher Bedeckung, aber mit dem Auftrage ab: ſo lange geradeaus zu reiten, bis er auf den Feind ſtoßen würde, dieſen von ihrer traurigen Lage zu unter⸗ richten, und einen Offizier höͤhern Ranges zur Kapitulation mit⸗ zubringen, keineswegs aber eine Rekognoszirung vorzunehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "In der Nacht glaubte der Major Prinz Guſtav von Meck⸗ lenburg⸗Schwerin von Henckel⸗Küraſſieren, welcher die Poſtenkette um den Bivouak kommandirte, im Mondenſchein in einiger Ent⸗ fernung Bewegungen auf der Prenzlauer- und Stettiner» Straße wahrgenommen zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Man wurde frühzeitig von den Ereignissen bei Prenzlau unterrichtet, war daher von der Annäherung des Feindes in Kenntniß gesetzt; dessenungeachtet sendet man keine Patrouillen aus, um sich von dem Stande des Feindes zu unterrichten; man versucht nicht mit Aufwand der letzten Kräfte dem Feinde bei Löcknitz zuvorzukommen; man bemüht sich aber auch nicht, wenn man glaubte diesen Versuch nicht wagen zu dürfen, Erkundigungen einzuziehen, ob nicht andere Wege als der über Löcknitz nach Stettin frei seien; man achtet nicht auf die Aussage des Landraths Podewils, der einen solchen Weg nachweist; ja man denkt an nichts als an Kapitulation, da jede weitere Anstrengung, jeder Anschein von Gefahr, die Befehlshaber zurückschreckt, und sendet nach allen Richtungen Offiziere ab, um den Feind selbst aufzusuchen, sich ihm anzubieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Sie gaben dem Feinde, den man nicht einmal gesehen hatte:\n75 Offiz. | 1957 M. | der Infanterie-Brigade Hagen\n110 〃 | 2086 〃 | 2087 Pferde der Kavallerie\nzus.: 185 Offiz. | 4043 M. | 2087 Pferde, 8 Kanonen und 1 Pulverwagen in die Hände."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A was pursuing the remnants of Hohenlohe's column: on 28 October Murat wrote that Milhaud was following the enemy and was moving on Pasewalk, while Lasalle marched on Löcknitz to cut off Blücher's retreat and Murat would be on Stettin the next day. After the capitulation Milhaud had the prisoners filed off to Prenzlow and, by Murat's verbal order, set out to escort them himself with his 2 regiments towards the Emperor's headquarters.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Murat's and Milhaud's letters, read from the page images. English renderings (ours): Murat, as in claim side-a-strength for 28 October; Milhaud, as in claim side-b-strength-french for the heading, the prisoners filed off to Prenzlow and the escort.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "A 6 heures du matin j'étais en marche avec toute la cavalerie pour appuyer le général Lasalle. Le général Milhaud suivait l'ennemi avec le 13e de chasseurs et le 9e de dragons;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL MILHAUD AU GÉNÉRAL BELLIARD.\n\nPrenzlow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "je vous assure qu'il fallait prendre beaucoup de précautions pour faire mettre pied à terre à 2,000 cevaliers devant une poignée de monde; j'ai ordonné qu'on fît filer tous les prisonniers sur Prenzlow."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Nous partons aujourd'hui de Prenzlow pour nous diriger avec les 36 drapeaux et les 5,000 prisonniers sur le quartier général de l'Empereur; mon aide de camp et M. Paskowski, adjoint à votre état-major, m'ont donné l'ordre verbal de S. A. I. pour escorter moi-même, avec mes 2 régiments¹, nos prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B sought to reach Stettin. Höpfner: Hagen first set a departure for Löcknitz that evening; after the conference it was decided to set out the next morning by Löcknitz for Stettin, and several staff officers urged Poser to leave for Stettin as soon as possible; Hagen sent Lieutenant Kölichen ahead on the Stettin road to come back if it was clear, or else to present himself to the enemy as parlementaire. The cavalry meeting under Colonel Winning resolved that they could not cut through and must capitulate, and Hagen's and Poser's mandate sought a capitulation with free withdrawal or, failing that, surrender into captivity.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history: the mandate from the page image of p. 214, the rest from the OCR of pp. 210-213. English renderings (ours): 'Colonel Hagen therefore assembled the officers of the brigade, told them of the danger, and decided that they should set out again for Löcknitz at ... o'clock in the evening' (OCR); 'so it was decided to set out the next morning at ... o'clock by Löcknitz for Stettin, although the infantry, in consequence of Colonel Hagen's earlier order, had already stood ready to march since ... o'clock' (OCR); as in claim side-b-command for the staff officers' urging (OCR), the meeting's decision (OCR) and the mandate; 'when therefore the infantry was already assembling in Pasewalk at the appointed time of departure, Colonel Hagen sent off Lieutenant Kölichen of Treuenfels with a trumpeter and the order: to ride forward on the road to Stettin; if this area was unoccupied by the enemy, to come back as fast as possible; in the opposite case, however, to present himself to the enemy as parlementaire and come back accompanied by a French officer' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Hagen verſammelte daher die Offiziere der Brigade, theilte ihnen die Gefahr mit, und beftimmte, daß um 7 Uhr Abends wiederum nach Löcknitz auf— gebrochen werden ſolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "ſo wurde beſchloſſen am folgenden Morgen um 4 Uhr über Löcknitz nach Stettin aufzubrechen, obgleich die Infanterie in Folge des früheren Befehls des Oberſten Hagen bereits ſeit 7 Uhr zum Aufbruch bereit ſtand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Mehrere Stabsoffiziere lagen dem Oberſten Poſer dringend an, ſobald als möglich nach Stettin aufzubrechen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 213 (OCR page boundaries; not checked against print)",
+          "quote": "Als ſich daher zur feſtgeſetzten Aufbruchszeit die Infanterie bereits in Paſewalk verſammelte, ſchickte der Oberſt Hagen den Lieutenant Kölichen von Treuenfels mit einem Trompeter und dem Befehl ab: auf der Straße nach Stettin vorzureiten; wenn dieſe Gegend vom Feinde unbeſetzt ſei, ſo ſchnell als möglich zurückzukommen; im entgegengeſetzten Fall aber ſich dem Feinde als Parlamentair vorzuſtellen und in Begleitung eines franzöſiſchen Offiziers zurück⸗ zukommen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Winning, Kommandeur des Leib-Karabinier- Regiments, befragte nicht nur die Offiziere, ſondern zog auch von jeder Schwadron den Wacht⸗ meiſter, 1 Unterofſizier und 2 Mann zu Rathe,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 211 (OCR page boundaries; not checked against print)",
+          "quote": "und der Beſchluß dieſer Verſammlung fiel dahin aus, daß man ſich nicht durch⸗ ſchlagen könne, ſondern kapituliren müſſe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Der Lieutenant Hohendorf wurde in Begleitung eines feindlichen Chasseurs mit dem von den Obersten Hagen und Poser unterzeichneten schriftlichen Auftrage abgesandt: für die beiden Brigaden zu kapituliren und freien Abzug zu bedingen, oder wenn ein solcher nicht zugestanden würde, sie der Gefangenschaft zu übergeben."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) was pursuing: Murat reported Milhaud following the enemy and moving on Pasewalk, and Bodart has the Prussians capitulate before Milhaud's brigade. Side B did not fight: Poser's posts were to meet the enemy with a trumpeter rather than engage, and officers were sent out to find the enemy and offer to capitulate; Höpfner says they handed themselves over to an enemy they had not even seen.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded A_attacked as a pursuit: side A was following and moving on side B, and side B sought out the enemy only to capitulate. The phase is tagged inherited: the passages read show Milhaud's approach set by the earlier pursuit, which Murat reports, and no decision of Milhaud's at Pasewalk to attack; the parleys were begun by the Prussian officers. English renderings (ours): Murat, as in claim side-a-strength for 28 October; Bodart, as in claim bodart-strength; Höpfner, as in claim side-b-command for the posts (OCR), Matuschka's errand (OCR) and the judgment, and in claim side-b-strength for the enemy not seen.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nPrenzlow, 28 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p455-figures-v1",
+          "section": "p455",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 455 (transcribed from the page image)",
+          "quote": "A 6 heures du matin j'étais en marche avec toute la cavalerie pour appuyer le général Lasalle. Le général Milhaud suivait l'ennemi avec le 13e de chasseurs et le 9e de dragons;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p458-figures-v1",
+          "section": "p458",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 458 (transcribed from the page image)",
+          "quote": "Le général Lasalle marche sur Löcknitz où il couchera ce soir pour couper la retraite au général Blücher; le général Milhaud se porte sur Pasewalk; demain je serai sur Stettin."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Kavalleriebrigade Milhaud (700 Reiter) kapitulieren 4.200 Preußen, (worunter 185 Offiziere) mit 2.100 Pferden, 8 Kanonen, 1 Munitionswagen unter Brigadier Oberst v. Hagen, wonach die Offiziere auf Ehrenwort entlassen, die Mannschaften in Kriegsgefangenschaft abgeführt wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Poſer traf die Veranſtaltung, daß für die Nacht keine Feldwachen ausgeſetzt, kein Patrouillengang angeordnet, ſon⸗ dern lediglich um den Bivouak der Kavallerie eine Poſtenkette ge⸗ zogen wurde, deren kommandirende Offiziere die Anweiſung er⸗ hielten, wenn der Feind ſich nähere, ſich in keine Feindſeligkeiten einzulaſſen ſondern ihm mit einem Trompeter entgegenzugehen, und ihn zu benachrichtigen, daß man bereits in Unterhandlungen begriffen ſei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Als dieſer Offizier zurückkam, ohne etwas vom Feinde en genommen zu haben, ſandte der Oberſt Poſer den Lieutenant Grafen Matuſchka von demſelben Regiment unter gleicher Bedeckung, aber mit dem Auftrage ab: ſo lange geradeaus zu reiten, bis er auf den Feind ſtoßen würde, dieſen von ihrer traurigen Lage zu unter⸗ richten, und einen Offizier höͤhern Ranges zur Kapitulation mit⸗ zubringen, keineswegs aber eine Rekognoszirung vorzunehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p215-figures-v1",
+          "section": "p215",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 215 (transcribed from the page image)",
+          "quote": "Man wurde frühzeitig von den Ereignissen bei Prenzlau unterrichtet, war daher von der Annäherung des Feindes in Kenntniß gesetzt; dessenungeachtet sendet man keine Patrouillen aus, um sich von dem Stande des Feindes zu unterrichten; man versucht nicht mit Aufwand der letzten Kräfte dem Feinde bei Löcknitz zuvorzukommen; man bemüht sich aber auch nicht, wenn man glaubte diesen Versuch nicht wagen zu dürfen, Erkundigungen einzuziehen, ob nicht andere Wege als der über Löcknitz nach Stettin frei seien; man achtet nicht auf die Aussage des Landraths Podewils, der einen solchen Weg nachweist; ja man denkt an nichts als an Kapitulation, da jede weitere Anstrengung, jeder Anschein von Gefahr, die Befehlshaber zurückschreckt, und sendet nach allen Richtungen Offiziere ab, um den Feind selbst aufzusuchen, sich ihm anzubieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Sie gaben dem Feinde, den man nicht einmal gesehen hatte:\n75 Offiz. | 1957 M. | der Infanterie-Brigade Hagen\n110 〃 | 2086 〃 | 2087 Pferde der Kavallerie\nzus.: 185 Offiz. | 4043 M. | 2087 Pferde, 8 Kanonen und 1 Pulverwagen in die Hände."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no works: Hagen's infantry entered the town of Pasewalk, whose gate is mentioned, and the cavalry bivouacked near it inside a chain of posts, with the Bünting regiment posted towards Löcknitz; the French side is described only as standing nearby. No fighting took place.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe where both sides stood and name no fortification; the town was held without named works. English renderings (ours): Höpfner, as in claims pasewalk-ground for the infantry's entry and the bivouac (OCR), side-b-command for the chain of posts (OCR), capitulation for the gate and side-a-strength for the chasseur officer and General Milhaud standing nearby.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Paſewalk erreicht, wo die Infanterie einrückte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 210 (OCR page boundaries; not checked against print)",
+          "quote": "Das Regiment Bünting wurde gegen Löcknitz aufgeſtellt; der Reſt der Kavallerie bezog ein Bivouak in der Nähe der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 212 (OCR page boundaries; not checked against print)",
+          "quote": "Der Oberſt Poſer traf die Veranſtaltung, daß für die Nacht keine Feldwachen ausgeſetzt, kein Patrouillengang angeordnet, ſon⸗ dern lediglich um den Bivouak der Kavallerie eine Poſtenkette ge⸗ zogen wurde, deren kommandirende Offiziere die Anweiſung er⸗ hielten, wenn der Feind ſich nähere, ſich in keine Feindſeligkeiten einzulaſſen ſondern ihm mit einem Trompeter entgegenzugehen, und ihn zu benachrichtigen, daß man bereits in Unterhandlungen begriffen ſei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Bevor die Truppen noch von Pasewalk aufbrachen, wurde dem Obersten Hagen vom Thore die Ankunft eines feindlichen Parlamentairs gemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p214-figures-v1",
+          "section": "p214",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 214 (transcribed from the page image)",
+          "quote": "Es war der Chasseur-Offizier, der den Grafen Matuschka begleitet hatte, indessen vorgab, mit keiner Instruktion versehen zu sein, daher bitten müsse, einen Offizier zu dem in der Nähe stehenden General Milhaud zu senden."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Murat's letter to Bernadotte of 29 October, printed in a footnote that begins on Foucart t. II, p. 523, outside the registered section, whose heading and text were read only in the OCR, with its figures for Pasewalk; the Emperor's letter to Soult of 31 October (pp. 556-557); the capitulation's text, which neither source read prints; a French return of the prisoners, horses and flags; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests. Figures seen only in the OCR and not restated: the hours of the march, the conferences and the intended departures (Höpfner, pp. 210-212), Lieutenant Meyer's horses (p. 210), the men consulted by Colonel Winning and sent with Count Königsdorf (pp. 211-212), the figures in Murat's footnote letter (Foucart, p. 524) and in the Emperor's letter to Soult (p. 557).",
+    "Most consequential gap: side A's strength. Milhaud's own figure is a brigade of 600 horse in 2 regiments, Bodart's is 700, and no return of the 13th chasseurs and 9th dragoons was read; whether any other French troops were near enough to count (Lasalle's parlementaire came from the Löcknitz road) is not shown, and Höpfner says the Prussians never saw the enemy. A return of Milhaud's brigade could settle it.",
+    "Disputes kept as separate claims: side B's strength (Höpfner's 185 officers and 4043 men with 2087 horses, 8 guns and 1 powder wagon, and Hagen's 2000 infantry; Bodart's 4,200 with 185 officers, 2,100 horses, 8 guns and 1 ammunition wagon; Milhaud's 2,000 cavalry and 3,000 infantry and 5,000 prisoners; the 6,000 of Murat and the Bulletin); side A (Milhaud's 600 horse, Bodart's 700); the flags (36, Milhaud; none counted by Höpfner or Bodart); who received the capitulation (Milhaud, by Bodart and the French letters; a negotiator with powers from the Grand Duke, by Höpfner, the draft going to the Grand Duke at Löcknitz for ratification).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 185 officers, 8 guns and 1 wagon are Höpfner's figures); Foucart, t. II (the French side's documents: Murat's letters of 28 and 30 October, Milhaud's letter to Belliard with Foucart's note, the 24th Bulletin); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Pasewalk passage names no source)."
+  ]
+}
+```
+
 
 ### B375b: KAPITULATION von Boldekow (30./10. 1806)
 
@@ -13692,6 +15932,886 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": false,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B375b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Boldekow entry (capitulation, 30 October 1806) in cohort v1's fourth-coalition 1806 group: the artillery park that Blücher had brought round the Harz, under Major Höpfner, from its march from Friedland to Boldekow on the morning of the 30th to its capitulation there through an officer sent by Marshal Lannes. The park's march from Breddin and Stüdenitz is context; the 60 mounted gunners brought in by a party of Murat's, reported in his letter of the 31st, are not added. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart prints no strength for either side. He has the French under Marshal Lannes (side A, French) force the escort of Blücher's artillery park under Major v. Höpfner (side B, Prussian) to capitulate, after which 25 guns, 48 ammunition wagons and 800 horses fell into the enemy's hands and about 600 men into captivity (claim side-b-losses). By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner and the French letters give other accounts of the park and of who was in it (claims side-b-strength, side-b-strength-french). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 30/10. capitulation of Boldekow'; 'the French under Marshal Lannes force the escort of Blücher's artillery park under Major v. Höpfner to capitulate, after which 25 guns, 48 ammunition wagons, 800 horses fell into the hands of the enemy and about 600 men into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 30./10. KAPITULATION von Boldekow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the artillery park that General Blücher had brought round the Harz reached Breddin and Stüdenitz on 24 October under an escort of 24 cuirassiers of the Heising regiment; at Rheinsberg the artillery lieutenant Westphal joined it with 6 train and bread wagons and 250 horses, and at Friedland Lieutenant Streit's park column No. 5 with 24 more vehicles, much baggage and an infantry detachment of 100 men. The infantry escort and the few cuirassiers declared that no resistance could be expected of them, men and horses being too exhausted, and the escort was far too small for so long a column of wagons. By the time of the capitulation the whole escort had gone off to save itself across the Peene; 14 officers, 250 artillerymen, 300 drivers and about 800 horses were handed over with 25 guns and 48 ammunition wagons.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 233-236. The column was brought from the retreat, so the claim is tagged inherited. The men handed over total 564 (our arithmetic). Bodart's 'escort' (Bedeckungsmannschaft) is not Höpfner's: in Höpfner the escort had left, and the men handed over were the park's officers, artillerymen and drivers. English renderings (ours): 'the artillery park, which General Blücher had led so happily round the Harz and so particularly commended to Colonel Massenbach at the meeting in Neustadt on the Dosse, had on the'; '24th of October, under the escort of 24 cuirassiers of the regiment Heising, reached the villages of Breddin and Stüdenitz, between Havelberg and Kyritz, to hold a rest day there by order of Prince Hohenlohe, reach Rheinsberg in 2 days and await further orders'; 'after the artillery lieutenant Westphal had joined him with 6 train and bread wagons and 250 horses'; 'at Friedland park column No. 5 of Lieutenant Streit joined the artillery column with another 24 vehicles, much baggage and an infantry detachment of 100 men'; 'the infantry escort, like the few cuirassiers, declared that no resistance was to be expected of them, as men and horses were too exhausted; this escort was also far too small for a column of wagons of such great length to protect it even in more favourable circumstances'; 'it was believed that under these circumstances a capitulation had to be made, and there were handed over to the enemy 25 guns, 48 ammunition wagons, spare carriages etc., 14 officers, 250 artillerymen, 300 drivers and about 800 horses'; 'the whole escort had gone off to save itself across the Peene'. 'ꝛc.' is the print's abbreviation for 'etc.'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p233-figures-v1",
+          "section": "p233",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (transcribed from the page image)",
+          "quote": "Der Artilleriepark, den der General Blücher so glücklich um den Harz geführt und dem Obersten Massenbach bei der Unterredung in Neustadt a. D. so besonders empfohlen, hatte am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "24. Oktober unter der Bedeckung von 24 Kürassieren des Regiments Heising die Ortschaften Breddin und Stüdenitz, zwischen Havelberg und Kyritz, erreicht, um daselbst auf Befehl des Fürsten Hohenlohe Ruhetag zu halten, in 2 Tagen Rheinsberg zu erreichen, und weitere Befehle zu erwarten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Friedland stieß die Parkkolonne Nr. 5. des Lieutenants Streit mit noch 24 Fahrzeugen, vieler Bagage und einem Infanterie-Kommando von 100 Mann zur Artillerie-Kolonne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Die Infanteriebedeckung, gleich den wenigen Kürassieren, erklärten, daß von ihnen kein Widerstand zu erwarten, da Leute und Pferde zu entkräftet seien; auch war diese Bedeckung für eine Wagenkolonne von so großer Ausdehnung viel zu gering, um sie selbst unter günstigeren Umständen zu beschützen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Lannes wrote to the Emperor on 31 October that 1,500 men, almost all artillery, 200 dragoons, 30 guns, 60 caissons and many wagons full of munitions, all well horsed, had surrendered the day before to his outposts. Murat wrote the same day that he had met the great artillery park, which had surrendered to an officer of Lannes's, 1 league from Friedland, and that a party scouting his left had brought in 60 mounted gunners on their way to join it.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images; not reconciled with Höpfner's or Bodart's (claims side-b-strength, bodart-strength). Lannes's further letter from Pasewalk repeats figures for the park and its gunners, seen only in the OCR and not restated. The column was brought from the retreat, so the claim is tagged inherited. English renderings (ours): Lannes, 'Marshal Lannes to the Emperor. Pasewalk, 31 October 1806'; 'I have the honour to inform Your Majesty that 1,500 men, almost all of the artillery, 200 dragoons, 30 guns, 60 caissons and many wagons filled with munitions, all well horsed, surrendered yesterday to my outposts. I am having all of it filed off to Spandau'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'this morning, 1 league from Friedland, I met the great artillery park, which had surrendered to an officer of Marshal Lannes, and a party of a few men who were scouting my left brought us 60 mounted gunners who were going to join this same park, which is directed on Stettin'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart names only the French under Marshal Lannes. Lannes says the park surrendered to his outposts, and Murat that it surrendered to an officer of Lannes's. In Höpfner, Lieutenant Braun II met the enemy at Neuensund, 1¼ miles short of Strasburg, and Lannes, who had gone to Pasewalk in person, sent him back to Boldekow with a French officer to negotiate. A party of a few men scouting Murat's left brought in 60 mounted gunners. No passage read gives the strength of the French troops to whom the park surrendered.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart, Höpfner and the French letters, read from the page images. English renderings (ours): Bodart, as in claim bodart-strength; Lannes, as in claim side-b-strength-french; Murat, as in claim side-b-strength-french; Höpfner, as in claim side-b-command for Lieutenant Braun's errand; 'he came upon the enemy at Neuensund — 1¼ miles before Strasburg — and, as he gave himself out as a parlementaire, was sent to Marshal Lannes at Pasewalk, who had gone to this place in person and sent him back with a French'; 'officer to Boldekow to negotiate with the commanding officer'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Lannes as side A's (French) commander and Major v. Höpfner as side B's (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner calls Major Höpfner the leader of the artillery column and has Lannes send a French officer to negotiate with the commanding officer; Murat says the park surrendered to an officer of Lannes's, and Lannes that it surrendered to his outposts (claims side-a-command, side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Artillerieparks unter Major v. Höpfner"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: when Lieutenant Braun II, met at Neuensund, gave himself out as a parlementaire, he was sent to Marshal Lannes at Pasewalk, who had gone there in person and sent him back to Boldekow with a French officer to negotiate with the commanding officer. Lannes wrote that the park surrendered to his outposts and that he was having it all filed off to Spandau; Murat, that it had surrendered to an officer of Lannes's. In a further letter from Pasewalk Lannes wrote that he had never seen finer men than the park's gunners, that it was a superb park, which he was sending off from there that morning to Spandau, and that the gunners, almost all mounted and marching in the greatest order, could be taken to Italy if the Emperor wished.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner and the letters of 31 October from the page images; Lannes's further letter from the OCR. The negotiation was Lannes's own step by Höpfner's account. English renderings (ours): Höpfner, as in claims side-b-command for Lieutenant Braun's errand and side-a-strength; Lannes, as in claim side-b-strength-french; Murat, as in claim side-b-strength-french; Lannes, 'Marshal Lannes to the Emperor. Pasewalk,' (OCR); 'truly, Sire, I have never seen anything finer than these men. It is a superb park. I am sending it off from here this morning and directing it on Spandau' (OCR); 'almost all these gunners are mounted and march in the greatest order. Your Imperial Majesty could, if you wished, have them taken to Italy' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "En vérité, Sire, je n'ai jamais rien vu de plus beau que ces hommes. C'est un superbe parc. Je le fais partir d'ici ce matin et le dirige sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Major Höpfner led the artillery column, which Blücher had urged to make particular haste. At Rheinsberg, when Prince Hohenlohe's expected orders failed to come and news arrived of a fight of Blücher's rear guard, he judged it unwise either to march on Fürstenberg or to spend the night at Rheinsberg, and marched by Alt-Strelitz towards Woldeck; at Bredenfelde, hearing that Pasewalk was in the enemy's hands, he turned to Friedland. There he told General Bila I that he meant to follow him to Anklam the next day, but Bila sent word that he should not march to Anklam but take his measures at his own discretion. In great perplexity the major called all the officers together to decide where to turn if they could march neither to Anklam nor to Stettin, and they resolved to march to Boldekow for forage. There, hearing that the enemy was pushing into Mecklenburg, they sent Lieutenant Braun II with a trumpeter towards Pasewalk to see how far the enemy had come; when the French officer came back with him, it was thought that a capitulation had to be made. Höpfner adds that no one thought of destroying the artillery material or of saving the men on the horses still found fit.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 234-236. Höpfner does not name his sources, and the passive 'man glaubte' does not say who decided to capitulate. English renderings (ours): 'on the 26th the artillery thus reached the village of Wildberg by Wusterhausen, and marched on the 27th in the night through Neu-Ruppin to Rheinsberg, as General Blücher had particularly urged haste on the leader of the artillery column, Major Höpfner, during the march through Gantzer'; 'when at Rheinsberg the expected orders of Prince Hohenlohe failed to come, and towards evening the news of a fight of General Blücher's rear guard also came in, Major Höpfner did not think it advisable to march on Fürstenberg as well, nor yet to spend the night at Rheinsberg, but, after the artillery lieutenant Westphal had also joined him with 6 train and bread wagons and 250 horses, he set out at half past 8 in the evening and marched to Alt-Strelitz, where he arrived on the morning of the 28th at half past 5, had the horses fed there and continued the march in the direction of Woldeck'; 'at 5 o'clock in the evening he reached Bredenfelde (8¼ miles from Rheinsberg), where he received the news that Pasewalk was already in the hands of the enemy, so that the road to Strasburg could no longer properly be taken'; 'the artillery therefore marched on the morning of the 29th on Friedland (4 miles), where it arrived at 5 o'clock in the evening'; 'Major Höpfner there also spoke with General Bila I, who was about to go to Anklam, and told him that it was his intention to march there as well the next day. It was not long, however, before General Bila sent back and had the major told that he should not march to Anklam, but take his measures at his discretion'; 'Major Höpfner was in great perplexity about what to do next, and assembled all the officers to deliberate where to turn if they could march neither to Anklam nor to Stettin'; 'it was therefore decided to march first, on the morning of the 30th, to the nearest Prussian village, Boldekow, so as at least to get forage'; 'in Boldekow came the news that the enemy was pushing into Mecklenburg, which was confirmed by a patrol coming from Friedland'; 'Lieutenant Braun II of the artillery was now sent with a trumpeter in the direction of Pasewalk to see how far the enemy had advanced'; as in claim side-a-strength for his meeting with the enemy and the French officer; as in claim side-b-strength for the capitulation; 'no one thought of destroying the artillery material or of trying to save the men on the horses still found fit'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Am 26. erreichte so die Artillerie über Wusterhausen das Dorf Wildberg, marschirte am 27. in der Nacht durch Neu-Ruppin nach Rheinsberg, da der General Blücher dem Führer der Artillerie-Kolonne, dem Major Höpfner, beim Marsch durch Gantzer besondere Eile empfohlen hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Die Artillerie marschirte daher am 29. des Morgens auf Friedland (4 M.), wo sie um 5 Uhr Abends eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner sprach daselbst noch den General Bila I., der im Begriff war, nach Anklam zu gehen, und eröffnete ihm, daß es seine Absicht sei, am folgenden Tage ebenfalls dahin zu marschiren. Es dauerte indessen nicht lange, so sandte der General Bila zurück und ließ dem Major sagen: er möge nicht nach Anklam marschiren, sondern seine Maßregeln nach Gutdünken treffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner war in großer Verlegenheit was weiter zu thun sei, und versammelte die sämmtlichen Offiziere, um zu berathschlagen, wohin man sich zu wenden habe, wenn man weder nach Anklam, noch nach Stettin marschiren könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "An eine Zerstörung des Artillerie-Materials und einen Versuch zur Rettung der Mannschaft auf den noch tauglich befundenen Pferden, hat Niemand gedacht."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Boldekow on 30 October: the French under Lannes forced the park's escort to capitulate. Höpfner dates it 30 October and says that it was thought a capitulation had to be made, and the park was handed over to the enemy. Lannes wrote that the park surrendered to his outposts the day before his letter of 31 October; Murat, that it had surrendered to an officer of Lannes's.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French letters, read from the page images; no source read gives a different result. Neither source read prints the capitulation's terms. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'capitulation of Boldekow, 30 October'; as in claim side-b-strength for what was handed over; Lannes and Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 30./10. KAPITULATION von Boldekow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p233-figures-v1",
+          "section": "p233",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (transcribed from the page image)",
+          "quote": "Kapitulation von Boldekow den 30. Oktober."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. No passage read describes any fighting at Boldekow: in Höpfner the park's escort had left before the capitulation, which was negotiated through a French officer. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss was the park. Höpfner: 25 guns, 48 ammunition wagons, spare carriages, 14 officers, 250 artillerymen, 300 drivers and about 800 horses handed over, the escort having gone off across the Peene. Bodart: 25 guns, 48 ammunition wagons and 800 horses taken and about 600 men made prisoner. Lannes: 1,500 men, almost all artillery, 200 dragoons, 30 guns, 60 caissons and many wagons of munitions surrendered to his outposts. Murat: 60 mounted gunners on their way to join the park were brought in by a party.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. Bodart's guns, wagons and horses are Höpfner's figures, and his about 600 men are Höpfner's 564 rounded up (our arithmetic); which source Bodart used was not checked. Murat's 60 gunners were taken separately and are not added. English renderings (ours): Höpfner, as in claim side-b-strength; Bodart, as in claim bodart-strength; Lannes and Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "boldekow-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Boldekow, a village in Pomerania, 14 km south of Anklam. Höpfner calls it the nearest Prussian village, to which the column marched from Friedland on the morning of the 30th; the column had come by Alt-Strelitz and Bredenfelde, 8¼ miles from Rheinsberg, and Friedland, 4 miles further; Lieutenant Braun II met the enemy at Neuensund, 1¼ miles short of Strasburg; the escort went off across the Peene. Murat met the park 1 league from Friedland on 31 October.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and routes as described, read from the page images. English renderings (ours): Bodart, '(village in Prussia, Pomerania, 14 km south of Anklam)'; Höpfner, as in claims side-b-command for the march, Friedland, Boldekow and Lieutenant Braun's errand, side-a-strength for Neuensund and side-b-strength for the escort's flight; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Dorf in Preußen, Pommern, 14 km südl. von Anklam)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Die Artillerie marschirte daher am 29. des Morgens auf Friedland (4 M.), wo sie um 5 Uhr Abends eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner says the column travelled with requisitioned teams as far as Rheinsberg, but the last of these horses had to be dismissed there for want of forage, scarcely any being found even for the artillery horses; in Mecklenburg no teams could be had, and the artillery horses were wholly overdriven and starved, so the march could only go slowly; little forage was found at Friedland, and the column marched to Boldekow at least to get forage. Side A (French): Lannes called the park all well horsed, and in a further letter its gunners almost all mounted and marching in the greatest order.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's state, brought from the retreat, from Höpfner's page images of pp. 234-235; Lannes's letters from the page image of p. 568 and the OCR of p. 597. Lannes's 'well horsed' and Höpfner's starved horses are kept as given. English renderings (ours): Höpfner, 'as far as Rheinsberg, which was reached on the 27th at 6 o'clock in the morning, everything had been driven in one stretch with requisitioned teams; but as the last horses had already been brought from Stüdenitz and had no more forage, they were obliged to dismiss them, because forage could scarcely be found for the artillery horses'; 'march could only advance slowly, as in Mecklenburg no requisitioned teams were to be had and the artillery horses were wholly overdriven and starved. In Friedland only a little forage could be found'; as in claim side-b-command for the march to Boldekow; Lannes, as in claims side-b-strength-french and side-a-command.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Bis Rheinsberg, das man am 27. um 6 Uhr Morgens erreichte, war Alles in einem Strich mit Vorspann gefahren; da aber die letzten Pferde bereits aus Stüdenitz mitgenommen waren und kein Futter mehr hatten, so sah man sich genöthigt, sie zu entlassen, weil kaum für die Artilleriepferde Futter aufzutreiben war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Marsch konnte nur langsam vorschreiten, da im Mecklenburgischen kein Vorspann zu erhalten und die Artilleriepferde gänzlich abgetrieben und verhungert waren. In Friedland war nur wenig Futter aufzutreiben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "No passage read shows how side A learned of the park before Lieutenant Braun II, met at Neuensund, gave himself out as a parlementaire and was taken to Lannes at Pasewalk (Höpfner). Murat met the park the next morning 1 league from Friedland, and a party scouting his left brought in mounted gunners going to join it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and Murat's letter, read from the page images. English renderings (ours): Höpfner, as in claims side-b-command for Lieutenant Braun's errand and side-a-strength; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: at Rheinsberg Prince Hohenlohe's expected orders did not come, and news arrived of a fight of Blücher's rear guard; at Bredenfelde the column learned that Pasewalk was in the enemy's hands; at Friedland an officer from Major Knesebeck, bringing General Bila the news of Hohenlohe's capitulation at Prenzlau, gave Major Höpfner certainty of it; at Boldekow came news that the enemy was pushing into Mecklenburg, confirmed by a patrol from Friedland, and Lieutenant Braun II was sent towards Pasewalk to see how far the enemy had come.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 234-235. English renderings (ours): as in claim side-b-command for Rheinsberg, Bredenfelde, Boldekow and Braun's errand; 'immediately afterwards an officer from Major Knesebeck arrived, who was to bring General Bila the news that Prince Hohenlohe had capitulated at Prenzlau, of which Major Höpfner now also received certainty'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Gleich darauf traf ein Offizier vom Major Knesebeck ein, der dem General Bila die Nachricht bringen sollte, daß der Fürst Hohenlohe bei Prenzlau kapitulirt habe, wovon der Major Höpfner nun ebenfalls Gewißheit erhielt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A took the park and sent it to the rear: Lannes was having it all filed off to Spandau, and in a further letter sent it off from Pasewalk to Spandau, suggesting that the Emperor could have its gunners taken to Italy; Murat wrote that the park was directed on Stettin.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Lannes's and Murat's letters; the letters of 31 October from the page images, Lannes's further letter from the OCR. The destinations differ and are kept as given. English renderings (ours): Lannes, as in claims side-b-strength-french and side-a-command; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "En vérité, Sire, je n'ai jamais rien vu de plus beau que ces hommes. C'est un superbe parc. Je le fais partir d'ici ce matin et le dirige sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B sought to bring the park to safety: by Prince Hohenlohe's order it was to rest at Breddin and Stüdenitz, reach Rheinsberg in 2 days and await further orders, and Blücher urged particular haste; Major Höpfner meant to follow General Bila to Anklam until Bila sent word not to; with neither Anklam nor Stettin open, the column marched to Boldekow at least to get forage, and the escort went off to save itself across the Peene.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 234-236. English renderings (ours): Höpfner, as in claims side-b-strength for the order to rest and side-b-command for the haste, Bila's message, the council and the march to Boldekow; as in claim side-b-strength for the escort.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "24. Oktober unter der Bedeckung von 24 Kürassieren des Regiments Heising die Ortschaften Breddin und Stüdenitz, zwischen Havelberg und Kyritz, erreicht, um daselbst auf Befehl des Fürsten Hohenlohe Ruhetag zu halten, in 2 Tagen Rheinsberg zu erreichen, und weitere Befehle zu erwarten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Am 26. erreichte so die Artillerie über Wusterhausen das Dorf Wildberg, marschirte am 27. in der Nacht durch Neu-Ruppin nach Rheinsberg, da der General Blücher dem Führer der Artillerie-Kolonne, dem Major Höpfner, beim Marsch durch Gantzer besondere Eile empfohlen hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner sprach daselbst noch den General Bila I., der im Begriff war, nach Anklam zu gehen, und eröffnete ihm, daß es seine Absicht sei, am folgenden Tage ebenfalls dahin zu marschiren. Es dauerte indessen nicht lange, so sandte der General Bila zurück und ließ dem Major sagen: er möge nicht nach Anklam marschiren, sondern seine Maßregeln nach Gutdünken treffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner war in großer Verlegenheit was weiter zu thun sei, und versammelte die sämmtlichen Offiziere, um zu berathschlagen, wohin man sich zu wenden habe, wenn man weder nach Anklam, noch nach Stettin marschiren könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) was advancing: at Boldekow the Prussians heard the enemy was pushing into Mecklenburg, their officer met the enemy at Neuensund, and Bodart has the French under Lannes force the capitulation. Side B did not resist: its escort declared no resistance could be expected and went off across the Peene, and the park capitulated to a French officer sent to negotiate.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A was advancing on and pursuing side B, and side B made no resistance. The phase is left unresolved: the passages read do not show who set the French advance towards Boldekow, and the contact was made by the Prussian lieutenant sent out to reconnoitre. English renderings (ours): Höpfner, as in claims side-b-command for the news at Boldekow, side-a-strength for Neuensund and the French officer, and side-b-strength for the escort; Bodart, as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Die Infanteriebedeckung, gleich den wenigen Kürassieren, erklärten, daß von ihnen kein Widerstand zu erwarten, da Leute und Pferde zu entkräftet seien; auch war diese Bedeckung für eine Wagenkolonne von so großer Ausdehnung viel zu gering, um sie selbst unter günstigeren Umständen zu beschützen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no works: the park stood in the village of Boldekow, to which it had marched for forage, and the French are described only at Neuensund and Pasewalk and as Lannes's outposts. No fighting took place.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe where both sides stood and name no fortification; the village was held without named works. English renderings (ours): Höpfner, as in claims side-b-command for the march to Boldekow and side-a-strength for Neuensund and Pasewalk; Lannes, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the rest of Lannes's further letter from Pasewalk (Foucart t. II, pp. 597-598), read only in the OCR; a French return of the park and its prisoners; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests; whether the author Höpfner was related to the park's commander, Major Höpfner. Figures seen only in the OCR and not restated: Lannes's figures for the park, its teams and its gunners in that letter (p. 597).",
+    "Most consequential gap: who and how many side B were. Höpfner's men handed over were the park's 14 officers, 250 artillerymen and 300 drivers, 564 in all (our arithmetic), the escort having left; Bodart has the escort capitulate and about 600 men taken; Lannes has 1,500 men, almost all artillery, and 200 dragoons. Side A's force is not given at all. A French return of the prisoners, or Lannes's outpost reports, could settle both.",
+    "Disputes kept as separate claims: the men (564 from Höpfner's figures, by our arithmetic; about 600, Bodart; 1,500 and 200 dragoons, Lannes; Murat's 60 mounted gunners taken separately); the guns (25, Höpfner and Bodart; 30, Lannes); the wagons (48 ammunition wagons, Höpfner and Bodart; 60 caissons and many wagons, Lannes); whether the escort capitulated (Bodart) or had gone off across the Peene (Höpfner); the park's destination (Spandau, Lannes; Stettin, Murat); the state of its horses (starved, Höpfner; well horsed, Lannes).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 25 guns, 48 wagons and 800 horses are Höpfner's figures and his about 600 men Höpfner's 564 rounded up, by our arithmetic); Foucart, t. II (the French side's documents: Lannes's and Murat's letters of 31 October from the page images, Lannes's further letter from the OCR); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Boldekow passage names no source)."
+  ]
 }
 ```
 
@@ -13740,6 +16860,1078 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B375c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Küstrin entry (capitulation, 1 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under Colonel Ingersleben and the French before it, Gudin's division of Davout's corps and, after its recall, the 85th regiment under General Gauthier, from the fight at the bridgehead on 31 October to the capitulation and the occupation of the fortress on 1 November. The preparations from 17 October and Davout's arrival after the surrender are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) as the garrison of 2,400 men with 92 guns under Colonel v. Ingersleben, and side A (French) as 1,500 French under Brigadier General Gauthier, to whom the garrison surrendered without striking a blow. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner details the garrison and its guns (claim side-b-strength), the Emperor and the 25th Bulletin give other figures (claim side-b-strength-french), and Höpfner names only the 85th regiment under Gauthier as left before the fortress (claim side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 1/11. capitulation of Küstrin'; 'the Prussian garrison (2,400 men with 92 guns) under Colonel v. Ingersleben surrenders without striking a blow to 1,500 French under Brigadier General Gauthier'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Küstrin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: by 30 October 80 guns stood on the walls, supplied with 200 rounds, and 12 more in reserve. Besides a sufficient number of artillerymen the garrison was the 3rd musketeer battalions of the regiments Oranien, Zenge and Prinz Heinrich and 75 hussars of the regiment Usedom under Rittmeister Kalbow, who had come from Merseburg and stayed at Küstrin by the King's order: in all about 2400 men, of whom 1600 were fully fit for service. At the commandant's council Colonel Weyherr said that his battalion had very many untrained men, and the engineer lieutenant Thynkel that the fortress could defend itself with 1600 men and sufficient guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 325-327. The garrison was set before the engagement, so the claim is tagged inherited. The guns total 92 (our arithmetic). English renderings (ours): 'on 30 October all the arrangements were finished'; '80 guns were suitably placed on the walls and supplied with 200 rounds, 12 guns stood in reserve; the outworks were palisaded, the bridgehead covered by abatis and wolf pits. There was no lack of ammunition'; 'the garrison consisted, besides the sufficient number of artillerymen, of the 3rd musketeer battalions of the regiments Oranien, Zenge and Prinz Heinrich and 75 hussars of the regiment Usedom under Rittmeister Kalbow, who had gone from Merseburg to Küstrin and had stayed there by order of the King'; 'in all the garrison amounted to about 2400 men, among them 1600 men fully fit for service'; 'the senior staff officer, Colonel Weyherr of the regiment Prinz Heinrich, declared that his battalion had very many untrained men, and that, rather than so many people being made unhappy by the burning of the suburbs, it would be more advisable to surrender the fortress'; 'the engineer lieutenant Thynkel gave his view: the fortress must defend itself, because it could defend itself with 1600 men of garrison and sufficient guns'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand außer der hinlänglichen Anzahl Artilleristen aus den 3. Musketier-Bataillonen der Regimenter Oranien, Zenge und Prinz Heinrich und 75 Husaren des Regiments Usedom unter dem Rittmeister Kalbow, der von Merseburg nach Küstrin gegangen und daselbst auf Befehl des Königs verblieben war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Im Ganzen betrug die Besatzung etwa 2400 Mann, worunter 1600 völlig dienstfähige Mannschaften."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the Emperor wrote to the Grand Duke of Berg on 2 November that Küstrin had surrendered the day before, and that 80 guns and considerable magazines of subsistence had been found there and 4,000 prisoners taken. The 25th Bulletin of the same day: 4,000 men made prisoners of war there and 90 guns found on the ramparts.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images of pp. 617 and 648; not reconciled with Höpfner's or Bodart's (claims side-b-strength, bodart-strength). The garrison was set before the engagement, so the claim is tagged inherited. English renderings (ours): the Emperor, 'the Emperor to the Grand Duke of Berg, at Demmin. Berlin, 2 November 1806'; 'Küstrin surrendered yesterday. We found there 80 guns and considerable magazines of subsistence; we took 4,000 prisoners there'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'Marshal Davout had Küstrin invested and summoned, and this place has surrendered. 4,000 men were taken prisoners of war there. The officers return home on parole, and the soldiers are taken to France. 90 guns were found on the ramparts'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 1,500 French under Brigadier General Gauthier. Höpfner: the light cavalry of Davout's 3rd corps had pushed detachments towards Küstrin on the right bank of the Oder from Frankfurt, and on the 29th Davout detached Gudin's division (Höpfner's Güdin) with 12 guns from Müncheberg against Küstrin; in the night before 1 November Gudin was ordered to rejoin the corps at Frankfurt at once and, leaving at daybreak, left behind only the 85th infantry regiment under General Gauthier, returning with his division once he heard of the surrender. Höpfner also names General Petit at the outposts and Colonel Düplin of the 85th, and by the terms 3 companies of French grenadiers were to occupy the gates. The 25th Bulletin says Davout had Küstrin invested and summoned. No passage read gives the strength of Gudin's division or of the 85th.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart and Höpfner, read from the page images, with Höpfner's sentence on Gudin's return from the OCR; the Bulletin from the page image of p. 648. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'the light cavalry of the 3rd corps had already arrived at Frankfurt on 26 October under General Vialannes, had the Oder bridge there restored, and pushed detachments forward on the right bank towards Küstrin'; 'with the main body of the corps Marshal Davout set out on the 28th from the area in front of Berlin, and on the 29th detached from Müncheberg the division Güdin with 12 guns on Küstrin, to seize the bridgehead there if possible'; 'in the night before 1 November General Güdin received the order to set out at once for the main body of the 3rd corps at Frankfurt, as Napoleon would set part of Marshal Augereau's troops marching to Küstrin and assign them to invest the fortress'; 'General Güdin had to comply with the order, set out at daybreak on 1 November, and left behind only the 85th infantry regiment under General Gauthier'; 'General Güdin returned at once with his division on receiving news of the surrender of Küstrin' (OCR); as in claim side-a-command for General Petit, Colonel Düplin and the terms; the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Die leichte Kavallerie des 3. Korps war bereits am 26. Oktober unter dem General Vialannes in Frankfurt eingetroffen, hatte daselbst die Oderbrücke herstellen lassen, und auf dem rechten Ufer Abtheilungen gegen Küstrin vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin mußte dem Befehl genügen, brach mit Anbruch des 1. Novembers auf, und ließ nur das 85. Infanterie-Regiment unter dem General Gauthier zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Güdin kehrte nach erhaltener Nachricht von der Uebergabe von Küſtrin ſogleich mit ſeiner Diviſion zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der General schien sich auf Unterhandlungen einlassen zu wollen, wurde darin indessen durch den anwesenden Oberst Düplin des 85. Regmts. behindert, der erklärte: wenn die Stadt nicht binnen 2 Stunden übergeben würde, das Bombardement seinen Anfang nähme."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Brigadier General Gauthier as side A's (French) commander and Colonel v. Ingersleben as side B's (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner calls Ingersleben the commandant of Küstrin; in his account Gudin summoned the fortress, Gauthier and Colonel Düplin received the commandant, and 'the French general' dictated the terms (claims side-a-command, side-b-command). The 25th Bulletin credits Davout with investing and summoning the place. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Oberst v. Ingersleben"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Brig.-Gen. Gauthier"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Davout detached Gudin's division against Küstrin to seize its bridgehead if possible. After the fight at the bridgehead Gudin summoned the fortress and let the commandant know that he would bombard the town if surrender were refused; recalled that night, he left only the 85th regiment under General Gauthier. When the commandant's envoy, Lieutenant Thynkel, came to negotiate an armistice, General Petit seemed willing to negotiate, but Colonel Düplin of the 85th declared that unless the town were surrendered within 2 hours the bombardment would begin. Gauthier and Düplin received the commandant and told him that Stettin had fallen, Hohenlohe's corps was captured and Küstrin badly garrisoned, and that the bombardment would begin at once and not stop until the town was in ashes; the French general dictated the terms, and grenadiers crossing the Oder soon occupied the fortress. Davout then went to Küstrin in person (OCR passage). The 25th Bulletin: Davout had Küstrin invested and summoned.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner from the page images of pp. 324-328, with his sentence on Davout from the OCR; the Bulletin from the page image of p. 648. By Höpfner's account the summons, the threats and the dictated terms were the French commanders' own steps at Küstrin; the move on Küstrin was Davout's order (claim posture). Höpfner does not say which general dictated the terms. English renderings (ours): Höpfner, 'with the main body of the corps Marshal Davout set out on the 28th from the area in front of Berlin, and on the 29th detached from Müncheberg the division Güdin with 12 guns on Küstrin, to seize the bridgehead there if possible'; 'General Güdin summoned the fortress and let the commandant know that he would bombard the town if the surrender were refused'; 'in the night before 1 November General Güdin received the order to set out at once for the main body of the 3rd corps at Frankfurt, as Napoleon would set part of Marshal Augereau's troops marching to Küstrin and assign them to invest the fortress'; 'General Güdin had to comply with the order, set out at daybreak on 1 November, and left behind only the 85th infantry regiment under General Gauthier'; 'Lieutenant Thynkel believed he had to obey, met the first French post at the far end of the suburb, and was taken to General Petit, who was about to have the posts relieved'; 'the general seemed willing to enter into negotiations, but was prevented from it by Colonel Düplin of the 85th regiment, who was present and declared: if the town were not surrendered within 2 hours, the bombardment would begin'; 'the commandant was received on the other side by General Gauthier and Colonel Düplin; it was put to him that Stettin had fallen, the Hohenlohe corps was captured, Küstrin badly garrisoned, the bombardment would begin at once and not stop until the town had been reduced to ashes. The commandant'; 'the French general dictated the points of capitulation, by which at noon on 1 November the gates were to be occupied by 3 companies of French grenadiers, the garrison was to lay down its arms, safeguards were to be granted to the members of the Chamber and the property of the inhabitants protected. Lieutenant Thynkel refused his signature'; 'immediately after the signing the commandant crossed back over the Oder accompanied by Colonel Düplin and two soldiers, and in a short time the fortress was occupied by grenadiers crossing over'; 'Marshal Davout went at once in person to Küstrin, had the bridges restored and made all arrangements so that the following corps should profit from the unexpected conquest of a fortified place on the Oder, which together with Stettin offered an excellent base for the further operations against the Vistula' (OCR); the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin mußte dem Befehl genügen, brach mit Anbruch des 1. Novembers auf, und ließ nur das 85. Infanterie-Regiment unter dem General Gauthier zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der General schien sich auf Unterhandlungen einlassen zu wollen, wurde darin indessen durch den anwesenden Oberst Düplin des 85. Regmts. behindert, der erklärte: wenn die Stadt nicht binnen 2 Stunden übergeben würde, das Bombardement seinen Anfang nähme."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Gleich nach vollzogener Unterschrift fuhr der Kommandant in Begleitung des Obersten Düplin und zweier Soldaten über die Oder zurück, und in geringer Zeit war die Festung durch hinübersetzende Grenadiere besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Davout ging für feine Perſon ſogleich nach Küſtrin, ließ die Brücken herſtellen und alle Anſtalten treffen, um die nachfolgenden Korps von der unerwarteten Eroberung eines feſten Platzes an der Oder, der in Gemeinſchaft mit Stettin eine treffliche Baſis zu den weiteren Operationen gegen die Weichſel bot, vortheilen zu laſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Colonel Ingersleben, the commandant, had been ordered on 17 October to make all defensive arrangements to secure the fortress against a forcible attack. In the fight at the bridgehead the Prussians escaped over the bridge he had already set on fire. That evening, when bugles sounded at the end of the Oder bridge, he told the engineer of the place, Lieutenant Thynkel, to go over and ask what the alarm meant and to threaten to burn the suburbs; when Thynkel objected to threatening or negotiating with the enemy, he sent the artillery lieutenant Wille to agree that if the enemy kept quiet he would not fire on the bridgehead. On the morning of 1 November he told his staff officers that he had sure news of a corps of 100,000 men approaching on the right bank, that no relief was to be expected and that the state of the garrison was known to all. Colonel Weyherr advised surrender rather than see the suburbs burned, Colonel Manteuffel agreed, trusting the commandant to act on his instructions, Colonel Boumann of the artillery said the commandant could do as he pleased, and Thynkel held that the fortress must and could defend itself, the main wall holding even without the outworks, and that a bombardment would not take it, the garrison having casemates. The commandant declared that he would not have the town burned and sent Thynkel to negotiate an armistice of 8 to 14 days; on Thynkel's report he said there was no time to lose and went himself, his wife's pleas being set aside by the Küstrin Kammerpräsident, who had gained great influence over him. Received by Gauthier and Düplin, he let himself be moved to capitulate, answering Thynkel's objections that he knew the Grand Duke of Berg was approaching with 100,000 men, after which no capitulation would be possible, and that he must not let the town be burned or its citizens made unhappy. Thynkel refused to sign. A court martial sentenced Ingersleben to be shot for proven cowardice; the King pardoned him to fortress imprisonment for life.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. Höpfner does not name his sources for this passage. A Kammerpräsident was the president of a provincial chamber (Kammer). English renderings (ours): 'the commandant of Küstrin, Colonel Ingersleben, received on 17 October the order to make all defensive arrangements to secure the fortress against a forcible attack'; as in claim side-b-losses for the fight at the bridgehead; 'still in the evening at 6 o'clock bugles were heard repeatedly in the fortress at the'; 'end of the Oder bridge'; 'the commandant charged the engineer of the place, Lieutenant Thynkel, to go across and ask what the alarm meant; he would, if the enemy did not keep quiet, have the suburbs set on fire'; 'Lieutenant Thynkel represented to him how unfitting it was to threaten the enemy, and to negotiate with him at all'; 'instead of him the commandant now sent the artillery lieutenant Wille across to come to an understanding with the enemy that if they kept quiet, he, the commandant, would not have the bridgehead fired on'; 'Colonel Ingersleben assembled the staff officers of the garrison on the morning of 1 November and put it to them that the enemy was before the gates of the fortress, and that he had received sure news that a corps of 100,000 men was also on the march on the right bank of the Oder; relief was not to be expected; the state of the garrison was known to all'; as in claim side-b-strength for Colonel Weyherr; 'Colonel Manteuffel of the regiment Zenge likewise voted for the surrender, relying on the honesty of the commandant to act according to the instruction given him'; 'Colonel Boumann of the'; 'artillery, who was present, answered: the commandant could do and leave undone what he would'; as in claim side-b-strength for Lieutenant Thynkel; 'the commandant objected that the garrison was not enough to man the outworks, to which Lieutenant Thynkel replied that even after abandoning the outworks the main wall could hold sufficiently'; 'he was then asked whether he could prevent the bombardment, and replied that this would contribute nothing to the taking of the fortress, as the garrison had casemates'; 'the commandant declared that he would not have the town reduced to ashes and ordered Lieutenant Thynkel to go with a trumpeter to the enemy general and negotiate an armistice of 8 to 14 days'; 'as soon as Lieutenant Thynkel came back and reported, Colonel Ingersleben said: “now there is no time to lose” — and made ready to go in person to the enemy general, ordering Lieutenant Thynkel to follow him'; 'about to be ferried over the Oder, the commandant was stopped by his wife and implored not to make his family unhappy; but these representations were soon set aside by the Küstrin Kammerpräsident, who had gained a great influence over the colonel'; as in claim side-a-command for his reception; 'let himself be moved by this to capitulate, and when Lieutenant Thynkel made representations against it, he answered: he knew that the Grand Duke of Berg was on the march with 100,000 men and then no capitulation would be possible any more; he must not let the town be reduced to ashes and the citizens be made unhappy'; as in claim side-a-command for the terms; 'the commandant was sentenced by court martial to be shot for proven cowardice, but pardoned by the King with fortress imprisonment for life'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Noch am Abend um 6 Uhr hörte man in der Festung am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Ende der Oderbrücke wiederholentlich blasen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Kommandant trug dem Ingenieur vom Platz, Lieutenant Thynkel, auf, sich hinüber zu begeben, um zu fragen, was die Allarmirung bedeute; er werde, wenn der Feind sich nicht ruhig verhalte, die Vorstädte in Brand setzen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel stellte ihm vor, wie unpassend es sei, dem Feinde zu drohen, und überhaupt mit ihm zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Statt seiner sandte der Kommandant nun den Artillerie-Lieutenant Wille hinüber, um sich mit dem Feinde zu verständigen, daß wenn man sich ruhig verhalte, er, der Kommandant, auf den Brückenkopf nicht schießen lassen werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Manteuffel vom Regmt. Zenge stimmte ebenfalls für die Uebergabe, indem er sich auf die Redlichkeit des Kommandanten verlasse, daß dieser nach der ihm ertheilten Instruktion handeln werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der anwesende Oberst Boumann von"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "der Artillerie antwortete: der Kommandant könne thun und lassen was er wolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant erklärte, daß er die Stadt nicht einäschern lassen werde und befahl dem Lieutenant Thynkel, sich mit einem Trompeter zum feindlichen General zu verfügen und um einen 8 bis 14tägigen Waffenstillstand zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "So wie der Lieutenant Thynkel zurückkam und Meldung machte, sagte der Oberst Ingersleben: „nun ist keine Zeit zu verlieren“ — und machte sich bereit, sich persönlich zu dem feindlichen General zu verfügen, indem er dem Lieutenant Thynkel befahl, ihm zu folgen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Im Begriff, sich über die Oder setzen zu lassen, wurde der Kommandant von seiner Frau angehalten und flehentlich gebeten, seine Familie nicht unglücklich zu machen; doch von dem Küstriner Kammerpräsidenten, der sich einen großen Einfluß auf den Obersten erworben hatte, wurden diese Vorstellungen bald beseitigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde wegen bewiesener Feigheit durch Kriegsgericht zum Todtschießen verurtheilt, doch vom Könige mit lebenswieriger Festungsstrafe begnadigt. —"
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Küstrin on 1 November: the Prussian garrison surrendered without striking a blow to the French under Gauthier and was led away as prisoners of war, the officers being released on parole. Höpfner dates it 1 November: by the terms the French general dictated, the gates were to be occupied at noon by 3 companies of French grenadiers, the garrison was to lay down its arms, the members of the Chamber were to be granted safeguards and the inhabitants' property protected; grenadiers crossing the Oder soon occupied the fortress, and the garrison, assembled in the market square, threw down its arms. The Emperor wrote on 2 November that Küstrin had surrendered the day before; the 25th Bulletin, that Davout had it invested and summoned and it surrendered, the officers returning home on parole and the soldiers being taken to France.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French documents, read from the page images; no source read gives a different result. Bodart's 'without striking a blow' describes the capitulation; he does not mention the fight at the bridgehead the day before (claim side-b-losses). English renderings (ours): Bodart, as in claim bodart-strength, and 'the garrison was led away as prisoners of war, officers released on their word of honour'; Höpfner, 'capitulation of Küstrin on 1 November'; as in claim side-a-command for the terms and the occupation; 'the garrison, assembled on the market square, threw their muskets, pouches and sabres on the ground, partly in indignation, partly with cheering and shouting, and Colonel Ingersleben, heaped with the reproaches of the subaltern officers, had to escape from the market square'; the Emperor and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Küstrin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Besatzung wurde kriegsgefangen abgeführt, Offiziere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Kapitulation von Küstrin am 1. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Gleich nach vollzogener Unterschrift fuhr der Kommandant in Begleitung des Obersten Düplin und zweier Soldaten über die Oder zurück, und in geringer Zeit war die Festung durch hinübersetzende Grenadiere besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die auf dem Marktplatz versammelte Besatzung warf theils aus Unwillen, theils unter Jubel und Geschrei die Gewehre, Taschen und Säbel auf den Boden, und der Oberst Ingersleben mußte sich, überhäuft von den Vorwürfen der Subalternoffiziere, vom Marktplatze retten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Höpfner says the fortress's batteries drove the enemy back emphatically after it entered the bridgehead on 31 October, but gives no French loss, and Bodart says the garrison surrendered without striking a blow. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B lost the fortress and its garrison. Höpfner: in the fight at the bridgehead on 31 October Lieutenant Falkenhayn of the Zenge regiment was shot dead as the Prussians escaped over the burning bridge; on 1 November the garrison, about 2400 men by his count before the capitulation, laid down its arms, and the artillerymen had to be removed from their guns by force. Bodart: the garrison of 2,400 men with 92 guns was led away as prisoners of war, the officers released on parole. The Emperor: 80 guns, considerable magazines of subsistence and 4,000 prisoners. The 25th Bulletin: 4,000 prisoners of war and 90 guns found on the ramparts.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images, not combined. Höpfner gives no count of the prisoners; his about 2400 is the garrison's strength before the capitulation. Bodart's 2,400 men and 92 guns are Höpfner's figures (92 is his 80 and 12, by our arithmetic); which source Bodart used was not checked. English renderings (ours): Höpfner, 'on 31 October the advance guard of the division Güdin came upon the detachment of Rittmeister Kalbow, which had gone forward to reconnoitre the enemy, at Manschenow on the left bank of the Oder'; 'the hussars were thrown back after some hand-to-hand fighting, pursued and driven into the bridgehead together with the infantry outposts. The enemy entered the bridgehead with them and the Prussians had to escape over the bridge, already set on fire by the commandant, during which Lieutenant Falkenhayn of the regiment Zenge was shot dead'; as in claim side-b-strength for the garrison; as in claims side-a-command for the terms and capitulation for the arms thrown down; 'the artillerymen on the walls had to be removed from their guns by force'; Bodart, as in claims bodart-strength and capitulation; the Emperor and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Im Ganzen betrug die Besatzung etwa 2400 Mann, worunter 1600 völlig dienstfähige Mannschaften."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die auf dem Marktplatz versammelte Besatzung warf theils aus Unwillen, theils unter Jubel und Geschrei die Gewehre, Taschen und Säbel auf den Boden, und der Oberst Ingersleben mußte sich, überhäuft von den Vorwürfen der Subalternoffiziere, vom Marktplatze retten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die Artilleristen auf den Wällen mußten mit Gewalt von ihren Geschützen entfernt werden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Besatzung wurde kriegsgefangen abgeführt, Offiziere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "kuestrin-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Küstrin, a town in Brandenburg, at the confluence of the Warthe and the Oder, 25 km north-east of Frankfurt an der Oder. Höpfner: the fortress had a main wall, palisaded outworks and casemates, and a bridgehead covered by abatis and wolf pits; Gudin's advance guard met the Prussian hussars at Manschenow on the left bank of the Oder and drove them into the bridgehead, from which the Prussians escaped over a bridge the commandant had already set on fire; the first French post stood at the far end of the suburb, and the commandant, about to have himself ferried over the Oder, was received on the other side by General Gauthier and Colonel Düplin. The 25th Bulletin calls the place in very good condition and situated in the middle of the marshes.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images; no plan of Küstrin was inspected, and where each work stood is taken only from the narrative. English renderings (ours): Bodart, '(town in Prussia, Brandenburg, at the confluence of the Warthe with the Oder, 25 km north-east of Frankfurt an der Oder)'; Höpfner, as in claims side-b-strength for the walls, outworks and bridgehead, side-b-losses for Manschenow and the bridge, side-b-command for the main wall, the casemates and the commandant's crossing, and side-a-command for the first French post and the commandant's reception; the Bulletin, 'the place, in very good condition, is situated in the middle of the marshes; it holds considerable magazines. It is one of the most important conquests of the army; it has completed making us masters of all the places on the Oder'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Stadt in Preußen, Brandenburg, am Einfluß der Warthe in die Oder, 25 km nordöstl. von Frankfurt an der Oder)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Im Begriff, sich über die Oder setzen zu lassen, wurde der Kommandant von seiner Frau angehalten und flehentlich gebeten, seine Familie nicht unglücklich zu machen; doch von dem Küstriner Kammerpräsidenten, der sich einen großen Einfluß auf den Obersten erworben hatte, wurden diese Vorstellungen bald beseitigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): by the King's order of 25 October the fortress was to be provisioned for 3 months; 50 oxen, 9 Wispel of peas, 2 of millet, 2 of lentils, 100 hundredweight of hay and 60 Schock of straw were brought in at once, and it already held 4254 Wispel of rye for baking, 878 for fodder, 3802 Wispel of flour, 53 of barley, 689 of oats and 3048 quarts of brandy. Its 80 guns on the walls were supplied with 200 rounds, and there was no lack of ammunition. Side A's (French) accounts: the Emperor wrote that considerable magazines of subsistence were found there, and the 25th Bulletin calls its magazines considerable.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's supply, set before the engagement, from Höpfner's page image of p. 325; the French accounts from the page images of pp. 617 and 648. The old measures are kept as printed, without conversion. A later Bulletin's sentence on the magazines, seen only in the OCR, is deferred. English renderings (ours): Höpfner, 'under 25 October the King gave the order to provision the fortress for 3 months with meat, vegetables etc., and there were brought into the fortress at once 50 oxen, 9 Wispel of peas, 2 Wispel of millet, 2 Wispel of lentils, 100 hundredweight of hay, 60 Schock of straw, in which there already lay in store 4254 Wispel of rye for baking, 878 Wispel for fodder, 3802 Wispel of flour, 53 Wispel of barley, 689 Wispel of oats and 3048 quarts of brandy'; as in claim side-b-strength for the guns and ammunition; the Emperor, as in claim side-b-strength-french; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Unterm 25. Oktober ertheilte der König den Befehl, die Festung auf 3 Monate mit Fleisch, Gemüse ꝛc. zu versehen, und wurden sogleich 50 Ochsen, 9 Wispel Erbsen, 2 Wispel Hirse, 2 Wispel Linsen, 100 Centner Heu, 60 Schock Stroh zur Festung gebracht, in welcher bereits 4254 Wispel Roggen zum Backen, 878 Wispel zum Verfüttern, 3802 Wispel Mehl, 53 Wispel Gerste, 689 Wispel Hafer und 3048 Quart Branntewein vorräthig lagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Höpfner: the light cavalry of the 3rd corps under General Vialannes, which had reached Frankfurt on 26 October, had pushed detachments forward towards Küstrin on the right bank of the Oder, and Gudin's advance guard met Rittmeister Kalbow's detachment, which had gone out to reconnoitre the enemy, at Manschenow. No passage read shows what side A knew of the garrison; Gauthier and Düplin told the commandant that Stettin had fallen, Hohenlohe's corps was captured and Küstrin was badly garrisoned. The Emperor reported the surrender to the Grand Duke of Berg the next day.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and the Emperor's letter, read from the page images. Whether what the French told the commandant was what they believed is not shown. English renderings (ours): Höpfner, as in claims side-a-strength for the light cavalry, side-b-losses for Manschenow and side-a-command for the commandant's reception; the Emperor, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Die leichte Kavallerie des 3. Korps war bereits am 26. Oktober unter dem General Vialannes in Frankfurt eingetroffen, hatte daselbst die Oderbrücke herstellen lassen, und auf dem rechten Ufer Abtheilungen gegen Küstrin vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: Rittmeister Kalbow's detachment had gone out to reconnoitre the enemy when it met Gudin's advance guard; that evening bugles sounded at the end of the Oder bridge, and the commandant sent to ask what the alarm meant. At his council he said that he had sure news of a corps of 100,000 men approaching on the right bank of the Oder; the French told him that Stettin had fallen and Hohenlohe's corps was captured; and he answered Thynkel that he knew the Grand Duke of Berg was approaching with 100,000 men. Höpfner does not say where the commandant's news came from.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. English renderings (ours): as in claims side-b-losses for Kalbow's detachment, side-b-command for the bugles, the alarm, the council and the commandant's answer to Thynkel, and side-a-command for the commandant's reception.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Noch am Abend um 6 Uhr hörte man in der Festung am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Ende der Oderbrücke wiederholentlich blasen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Kommandant trug dem Ingenieur vom Platz, Lieutenant Thynkel, auf, sich hinüber zu begeben, um zu fragen, was die Allarmirung bedeute; er werde, wenn der Feind sich nicht ruhig verhalte, die Vorstädte in Brand setzen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Davout detached Gudin's division to seize the bridgehead at Küstrin if possible; when Gudin was recalled, Napoleon would send part of Marshal Augereau's troops to invest the fortress, and Davout was to cross the Oder and cover the blockade on the Polish side (Höpfner). Gudin threatened to bombard the town if surrender were refused. The 25th Bulletin called the place one of the army's most important conquests, completing its mastery of all the places on the Oder; Höpfner has Davout go to Küstrin in person at once and make all arrangements so that the following corps could profit from the unexpected conquest of a fortified place on the Oder, which with Stettin offered an excellent base for further operations against the Vistula (OCR passage).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner from the page images of pp. 324 and 326 and the OCR of p. 328; the Bulletin from the page image of p. 648. English renderings (ours): Höpfner, as in claim side-a-command for the detachment, the summons, the recall and Davout's arrival (OCR); 'Marshal Davout was to cross the Oder and cover the blockade of Küstrin on the Polish side'; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der M. Davout sollte die Oder überschreiten und auf der polnischen Seite die Blokade von Küstrin decken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Davout ging für feine Perſon ſogleich nach Küſtrin, ließ die Brücken herſtellen und alle Anſtalten treffen, um die nachfolgenden Korps von der unerwarteten Eroberung eines feſten Platzes an der Oder, der in Gemeinſchaft mit Stettin eine treffliche Baſis zu den weiteren Operationen gegen die Weichſel bot, vortheilen zu laſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B was to hold the fortress: Colonel Ingersleben was ordered on 17 October to make all defensive arrangements to secure it against a forcible attack, the King ordered it provisioned for 3 months, and the arrangements were finished on 30 October. At the council, after the commandant spoke of the enemy before the gates and no relief, Weyherr and Manteuffel voted for surrender and Thynkel held that the fortress must defend itself; the commandant's stated aims were not to have the town burned or its citizens made unhappy, and he first sought an armistice of 8 to 14 days.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. English renderings (ours): as in claims side-b-command for the order of 17 October, the council, Manteuffel, the armistice and the commandant's answer, means-and-supply for the King's order, and side-b-strength for the end of the arrangements, Weyherr and Thynkel.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Unterm 25. Oktober ertheilte der König den Befehl, die Festung auf 3 Monate mit Fleisch, Gemüse ꝛc. zu versehen, und wurden sogleich 50 Ochsen, 9 Wispel Erbsen, 2 Wispel Hirse, 2 Wispel Linsen, 100 Centner Heu, 60 Schock Stroh zur Festung gebracht, in welcher bereits 4254 Wispel Roggen zum Backen, 878 Wispel zum Verfüttern, 3802 Wispel Mehl, 53 Wispel Gerste, 689 Wispel Hafer und 3048 Quart Branntewein vorräthig lagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Manteuffel vom Regmt. Zenge stimmte ebenfalls für die Uebergabe, indem er sich auf die Redlichkeit des Kommandanten verlasse, daß dieser nach der ihm ertheilten Instruktion handeln werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant erklärte, daß er die Stadt nicht einäschern lassen werde und befahl dem Lieutenant Thynkel, sich mit einem Trompeter zum feindlichen General zu verfügen und um einen 8 bis 14tägigen Waffenstillstand zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Davout detached Gudin's division against Küstrin to seize the bridgehead if possible; its advance guard drove the Prussian hussars and infantry outposts into the bridgehead and entered it before the fortress's batteries drove it back, and Gudin then summoned the fortress under threat of bombardment. The 25th Bulletin says Davout had the place invested and summoned. Side B then capitulated; Bodart says its garrison surrendered to the French under Gauthier without striking a blow.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded A_attacked: side A advanced on the fortress, drove its outposts into the bridgehead and summoned it, and side B capitulated. Tagged inherited: the move on Küstrin was Marshal Davout's order to Gudin's division, given before the engagement; Bodart names Gauthier as side A's commander at the capitulation. English renderings (ours): Höpfner, as in claims side-a-command for the detachment and the summons, side-b-losses for the fight at the bridgehead and side-b-command for the capitulation; 'the batteries of the fortress drove the enemy back emphatically and soon all was quiet'; Bodart, as in claim bodart-strength; the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Batterien der Festung wiesen den Feind nachdrücklich zurück und bald war Alles ruhig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress: Höpfner says the commandant was ordered to secure it against a forcible attack, and by 30 October 80 guns stood on the walls and 12 in reserve, the outworks were palisaded and the bridgehead covered by abatis and wolf pits; Thynkel held that the main wall could hold even if the outworks were abandoned, and that the garrison had casemates. The 25th Bulletin calls the place in very good condition and situated in the middle of the marshes. No works are named for side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the works were permanent fortifications held by side B and readied before the engagement, so the claim is tagged inherited. English renderings (ours): Höpfner, as in claims side-b-command for the order and for the main wall and the casemates, and side-b-strength for the arrangements, guns, outworks and bridgehead; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: a French report of the capitulation (a search of the Foucart t. II OCR for Küstrin, Gauthier, Ingersleben and Duplin found none besides the Emperor's letter and the 25th Bulletin; Davout's own correspondence, a further family, was not read); a return of Gudin's division and of the 85th regiment; the capitulation's text; the record of the court martial, which Höpfner does not cite; the rest of the Emperor's letter (Foucart t. II, p. 617). Figures seen only in the OCR and not restated: the date of Napoleon's order sending the Baden contingent to occupy the fortress (Höpfner, p. 328) and a later Bulletin's figure for the magazines found at Küstrin (Foucart t. II, p. 667), seen in the search.",
+    "Most consequential gap: side A's strength at the capitulation. Bodart gives 1,500 French under Gauthier; Höpfner names only the 85th regiment, left under Gauthier when Gudin's division and its 12 guns were recalled, and gives no strength; the Bulletin credits Davout with investing the place. A return of the 85th for 1 November could settle it, and with it whether a garrison of about 2400 (Höpfner) surrendered to a single regiment.",
+    "Disputes kept as separate claims: the garrison (about 2400 with 1600 fit, Höpfner; 2,400, Bodart; 4,000 prisoners, the Emperor and the Bulletin); the guns (80 on the walls and 12 in reserve, Höpfner, 92 by our arithmetic; 92, Bodart; 80, the Emperor; 90, the Bulletin); side A (1,500 under Gauthier, Bodart; the 85th regiment under Gauthier after Gudin's division left, Höpfner); who summoned the place (Gudin, Höpfner; Davout, the Bulletin); and Bodart's 'without striking a blow' against Höpfner's fight at the bridgehead on 31 October, in which Lieutenant Falkenhayn was shot dead.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 2,400 men and 92 guns are Höpfner's about 2400 and his 80 and 12 guns, by our arithmetic); Foucart, t. II (the French side's documents: the Emperor's letter to the Grand Duke of Berg and the 25th Bulletin, both of 2 November, from the page images; the Bulletin repeats the Emperor's 4,000 prisoners but gives 90 guns to his 80); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Küstrin passage names no source)."
+  ]
+}
+```
+
 
 ### B375d: KAPITULATION von Anklam (1./11. 1806)
 
@@ -13784,6 +17976,1559 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B375d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Anklam entry (capitulation, 1 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian columns of the brothers General Bila I and Bila II at Anklam and Beker's dragoon brigade (Bodart's Becker) with General Boussard's brigade, from the French arrival before Anklam on the morning of 31 October, with the defence of the Peene bridge and the capture of Rittmeister Hiller's detachments, to the capitulation agreed that day and carried out on 1 November. The columns' marches to Anklam are context; the capitulation of Major Langwerth's baggage column, negotiated at Anklam, belongs to the Wolgast entry and is not counted here. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as the French dragoon brigade Becker, about 1,000 men, and side B (Prussian) as 2,200 Prussians, 1,100 infantry and 1,100 cavalry, under General v. Bila, who laid down their arms before it; the men became prisoners of war and the officers were released on parole. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner, the French letters and the 25th Bulletin give other figures (claims side-b-strength, side-b-strength-french, side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 1/11. capitulation of Anklam'; 'before the French dragoon brigade Becker (about 1,000 men) 2,200 Prussians (1,100 infantry, 1,100 cavalry) under General v. Bila lay down their arms, after which the men became prisoners of war and the officers were released on their word of honour'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Anklam"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Dragonerbrigade Becker (ca. 1.000 M.) strecken 2.200 Preußen (1.100 Inft., 1.100 Kav.) unter Gen. v. Bila die Waffen, wonach die Mannschaften in Kriegsgefangenschaft gerieten, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: two columns under two brothers met at Anklam. General Bila I had left Hanover on 20 October with the 1st battalion of the regiment vac. Grävenitz, the depots of the fusilier battalions Wedel and Kaiserlingk, a detachment of 120 horses of the Bailliodz cuirassiers and the Hildesheim and Hanover cash boxes and archive. At Anklam he found the grenadier battalion Sack, which had escorted the war chest there under Lieutenant Colonel Prittwitz, and a company of the regiment Treuenfels from the escort of Major Langwerth's baggage, and ordered both to join his corps; his 120 Bailliodz horses were quartered at Görke, where the depot of the Leib-Kürassier regiment and a detachment of Hertzberg dragoons already stood. His brother, General Bila II, was expected with almost 1000 horses and filed through Anklam at daybreak on the 31st; on his march the cuirassiers of the regiment Quitzow and a troop of the Leib-Karabinier regiment had joined him (OCR passages). The general surrendered with 1100 infantry and 1073 horses.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 222, 225, 226 and 230, with the opening of Höpfner's account of Bila II's march, the cavalry that joined him and the end of p. 224 from the OCR. The columns were brought from the retreat, so the claim is tagged inherited. Höpfner does not say whether Rittmeister Hiller's detachments, captured outside the town (claim side-b-losses), are in his 1100 infantry and 1073 horses. English renderings (ours): 'meanwhile the minister Ingersleben received a letter from Colonel Scharnhorst which assumed that General Bila I had already withdrawn from Hanover'; 'this and the news, spreading ever further, of the dissolution of the Prussian army decided the general to set out from Hanover on 20 October with the 1st battalion of the regiment vac. Grävenitz, the depots of the fusilier battalions Wedel and Kaiserlingk, a detachment of 120 horses of the regiment of Bailliodz cuirassiers, the Hildesheim and Hanover cash boxes and the Hanover archive, and to take a northerly direction so as not to collide with the retreating army'; 'at Anklam General Bila I found the grenadier ba-' (OCR); 'ttalion Sack and a company of the regiment Treuenfels'; 'the grenadiers had marched off with Lieutenant Colonel Prittwitz from Lindow on the 26th as escort of the war chest, and had stayed in Anklam to hold an urgently needed rest day, after the lieutenant colonel had carried out the embarkation of the war chest on the 29th'; 'the company of Treuenfels belonged to the escort of the baggage that had left Genthin under Major Langwerth'; 'he stayed in the town with the infantry; the 120 horses of Bailliodz were quartered at Görke, on the road to Demmin, where the depot of the Leib-Kürassier regiment and a detachment of Hertzberg dragoons under Lieutenant v. d. Gröben already stood'; 'was reported, and General Bila II was also to arrive with almost 1000 horses, a decision had to be taken on the further retreat. The Bila infantry was to be embarked at Pinnow, the baggage at Wolgast'; 'when General Bila I arrived at Anklam at 10 o'clock in the evening, he ordered that the grenadier battalion Sack and the company of Treuenfels should join his corps'; 'we left General Bila II' (OCR); 'before Strasburg the cuirassiers of the regiment Quitzow under Colonel Heiligenstädt, who had become separated from Colonel Schubärt, and further on a troop of the Leib-Karabinier regiment joined him' (OCR); '... to come to know the bad spirit bred in the troops by (misfor)tunes, hardships and want of every kind, General Bila set out again at midnight, and at daybreak on the 31st filed through Anklam, where he united by chance with his brother, the infantry general Bila I'; 'at daybreak General Bila II filed through Anklam and drew up beyond the town'; 'as there was added to this the fatigue of men and horses, the idea of not being able to live on the island of Usedom, and the request of the town of Anklam not to ruin it by a further defence of the Peene, the general, in agreement with his brother, who had made no arrangements at all to cross the Peene at Lassahn or Wolgast, accepted the capitulation, and surrendered to the enemy with 1100 men of infantry and 1073 horses on 1 November'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 222 (transcribed from the page image)",
+          "quote": "Unterdessen erhielt der Minister Ingersleben ein Schreiben vom Obersten Scharnhorst, das voraussetzte, der General Bila I. habe sich bereits von Hannover abgezogen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 222 (transcribed from the page image)",
+          "quote": "Dies und die sich immer weiter verbreitenden Nachrichten von der Auflösung der preußischen Armee bestimmten den General, am 20. Oktober mit dem 1. Bataillon des Regiments vac. Grävenitz, den Depots der Füsilier-Bataillone Wedel und Kaiserlingk, einem Kommando von 120 Pferden des Regiments Bailliodz-Kürassieren, den Hildesheimschen und Hannöverschen Kassen und dem Hannöverschen Archiv von Hannover aufzubrechen, und eine nördliche Richtung einzuschlagen, um nicht mit der zurückgehenden Armee in Kollision zu kommen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 224 (OCR page boundaries; not checked against print)",
+          "quote": "In Anklam fand der General Bila I. das Grenadier⸗Ba⸗"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "taillon Sack und eine Kompagnie des Regiments Treuenfels."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Die Grenadiere waren mit dem Oberst-Lieutenant Prittwitz am 26. von Lindow zur Bedeckung der Kriegskasse abmarschirt, und zur Abhaltung eines dringend nothwendigen Ruhetages in Anklam verblieben, nachdem der Oberst-Lieutenant am 29. die Einschiffung der Kriegskasse bewerkstelligt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Die Kompagnie von Treuenfels gehörte zur Bedeckung der Bagage, die unter dem Major Langwerth von Genthin abgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Mit der Infanterie verblieb er in der Stadt; die 120 Pferde von Bailliodz wurden in Görke, auf der Straße nach Demmin untergebracht, wo bereits das Depot des Leib-Kürassier-Regiments und ein Detaschement von Hertzberg-Dragonern unter dem Lieutenant v. d. Gröben stand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "gemeldet wurde, auch der General Bila II. mit beinahe 1000 Pferden eintreffen sollte, mußte über den weiteren Rückzug Beschluß gefaßt werden. Die Bilasche Infanterie sollte bei Pinnow, die Bagage bei Wolgast eingeschifft werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Als der General Bila I. um 10 Uhr Abends in Anklam eintraf, befahl er, daß das Grenadier-Bataill. Sack und die Kompagnie von Treuenfels zu seinem Korps stoßen sollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Wir haben den General Bila II. verlaſſen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "Vor Straßburg ſtie⸗ ßen die vom Oberſten Schubärt abgekommenen Küraſſiere vom Regiment Quitzow unter dem Oberſten Heiligenſtädt, und weiter⸗ hin ein Trupp vom Leib-Karabinier⸗Regiment zu ihm,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 222 (transcribed from the page image)",
+          "quote": "fälle, Beschwerden und Mangel aller Art erzeugten schlechten Geist in den Truppen kennen zu lernen, brach der General Bila um Mitternacht wieder auf, und defilirte mit Tagesanbruch des 31. durch Anklam, wo er sich zufällig mit seinem Bruder, dem Infanterie-General Bila I., vereinigte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Mit Tagesanbruch defilirte der General Bila II. durch Anklam und stellte sich jenseits der Stadt auf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures. Lasalle wrote on 30 October, citing a postillon, of a corps outside Anklam of guards du corps, green hussars, cuirassiers and dragoons, with many infantry and above all baggage and no guns, put at 6,000 men. Beker wrote on 31 October of a corps of 2,000 men, and then of a column of 3,000 men, 1,000 to 1,200 of them cavalry, commanded by 2 generals; on 2 November, writing that the capture was larger than it had first seemed, he gave an aide-de-camp's count: besides the 2 generals, 1,200 and some mounted cavalry and more than 1,500 infantry, including 1 battalion of 700 grenadiers, with 1 flag and 4 horsed guns. Murat wrote on 1 November that the corps was 3,000 to 4,000 men, with guns, 2 generals, 2 cavalry regiments and a strong detachment of a 3rd, and 1,400 or 1,500 horses to be received. The 25th Bulletin gives 4,000 prisoners of war, and Mathieu Dumas, as Höpfner quotes him, about four thousand, among them the hussars of the King's guard.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images, with Dumas from Höpfner's footnote on the page image of p. 226; not reconciled with each other or with Höpfner's and Bodart's (claims side-b-strength, bodart-strength). The column was brought from the retreat, so the claim is tagged inherited. Beker also wrote that the number of officers far exceeded that of the soldiers, which is kept as printed. English renderings (ours): Lasalle, 'General Lasalle to the Grand Duke of Berg. Falkenwald, 30 October 1806, 7 o'clock in the evening'; 'a postillon coming back from Anklam, who left it yesterday at 5 o'clock in the evening, says that outside the gate there are many infantry, cavalry and above all baggage, that their camp stretches half a league on this side, towards Uckermünde. There are no guns. Guards du corps, green hussars, cuirassiers, dragoons, remnants of the Prussian army, make up this corps. The name of its commander is not known. The bridge of Anklam is cut on the side of Sweden. This corps is put at 6,000 men; it comes from Mecklenburg and detachments of it arrive every day'; Beker, 'General Beker to the Grand Duke of Berg. Anklam, 31 October 1806'; 'having observed with General Boussard during the day a corps of 2,000 men who had taken refuge in Pomerania, having had'; 'everything that remained on the left bank of the river charged, and taken in various attacks more than 300 cavalry and as many infantry, I have succeeded, by multiplying my demonstrations and summoning the general to give himself up as a prisoner, in forcing him to accept the capitulation that has been customary in such circumstances'; 'at this moment 2 officers sent by General Bila are leaving here, with whom I have treated on the conditions prescribed by General Belliard. Thus tomorrow morning this column, 3,000 men strong, of whom 1,000 to 1,200 cavalry, and commanded by 2 generals, will lay down its arms and be directed on Friedland, where Your Highness will give it a destination, allowing the officers to retire to their homes with their baggage, to which they are infinitely attached'; 'General Beker to General Belliard. Friedland, 2 November 1806'; 'it is not without trouble that I have managed to drive the column out of Pomerania to take it to Potsdam; the capture being larger than it seemed at first, it is extremely difficult to keep everyone in hand and to lead them through a country whose resources are exhausted'; 'to have an exact view of all that makes up the column, I have commissioned an aide-de-camp to count the men'; 'and the horses captured until I can gather all the materials that must serve to draw up a return'; 'according to the count made by this officer, there are, besides the 2 generals, 1,200 and some mounted cavalry and more than 1,500 infantry, of whom 1 battalion of 700 grenadiers, 1 flag and 4 horsed guns'; 'the number of officers far exceeds that of the soldiers, and of these several have stayed behind to wait for the equipages they had sent to the island of Usedom, on whose recovery they fix their whole attention'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 1 November 1806, half past 4 in the morning'; 'I hasten to announce to Your Majesty that the whole corps which I had been told had embarked at Anklam is in the power of your troops. General Bila, who commands it, has surrendered to General Beker, whom I am charging to take this corps to Spandau with General Boussart's dragoon brigade'; 'the corps that has capitulated is 3,000 to 4,000 men strong; there are guns and 2 generals, 2 regiments of cavalry and a strong detachment of a 3rd. To keep 1,400 or 1,500 horses that we shall receive, I am ordering General Beker to confine himself to disarming the cavalry and to take these regiments mounted as far as Potsdam, where they will hand over their horses to General Bourcier'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the result of this capitulation was 4,000 prisoners of war. The officers are sent home on parole and the soldiers are taken to France. Among these prisoners is the regiment of hussars of the King's guard, which, after the Seven Years' War, had received from the Empress Catherine, in token of their good conduct, pelisses of tiger skin'; Dumas, 'the report of the French on the events at Anklam runs as follows, after Matthieu Dumas'; 'General Becker reached Bila's column on the plain in front of the little town of Anclam; he charged it at the head of General Broussart's dragoon brigade, broke the Prussian cavalry and infantry, threw them back into the town, entered it pell-mell with the enemy, and forced General Bila to capitulate. About four thousand prisoners, among whom were the hussars of the King's guard, fell into his hands'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Un postillon revenant d'Anklam et qui en est parti hier à 5 heures du soir, dit que, hors la porte, il y a beaucoup de fantassins, de cavaliers et surtout de bagages, que leur camp s'étend à demi-lieue de ce côté-ci, vers Uckermünde. Il n'y a point de canon. Des gardes du corps, des hussards verts, des cuirassiers, des dragons, débris de l'armée prussienne, composent ce corps. On ignore le nom de son commandant. Le pont d'Anklam est coupé du côté de la Suède. On porte le nombre de ce corps à 6,000 hommes; il vient de Mecklemburg et il en arrive chaque jour des détachements."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "Après avoir observé avec le général Boussard pendant la journée un corps de 2,000 hommes réfugiés en Poméranie, après avoir fait"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "charger tout ce qui est resté sur la rive gauche de la rivière et pris dans différentes attaques plus de 300 cavaliers et autant de fantassins, je suis parvenu, en multipliant mes démonstrations, en sommant le général de se constituer prisonnier, à le forcer d'accepter la capitulation qui a été en usage dans de pareilles circonstances."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "A l'instant sortent d'ici 2 officiers envoyés par le général Bila avec lesquels j'ai traité aux conditions prescrites par M. le général Belliard. Ainsi demain matin cette colonne forte de 3,000 hommes, dont 1,000 à 1,200 de cavalerie, et commandée par 2 généraux, déposera les armes et sera dirigée sur Friedland où V. A. lui donnera une destination, en permettant aux officiers de se retirer dans leurs foyers avec leurs bagages auxquels ils tiennent infiniment."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p625-figures-v1",
+          "section": "p625",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 625 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GÉNÉRAL BELLIARD.\n\nFriedland, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p625-figures-v1",
+          "section": "p625",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 625 (transcribed from the page image)",
+          "quote": "Ce n'est pas sans peine que je suis parvenu à débusquer la colonne de la Poméranie pour la conduire à Potsdam; la capture étant plus considérable qu'elle ne paraissait dans le principe, il est extrêmement difficile de contenir tout le monde et de le diriger à travers un pays dont les ressources sont épuisées."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p625-figures-v1",
+          "section": "p625",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 625 (transcribed from the page image)",
+          "quote": "Pour avoir un aperçu exact de tout ce qui compose la colonne, j'ai donné commission à un aide de camp de compter les hommes"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "et les chevaux capturés en attendant que je puisse rassembler tous les matériaux qui doivent servir à la rédaction d'un état de situation."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "D'après le compte fait par cet officier, il existe indépendamment des 2 généraux, 1,200 et tant d'hommes de cavalerie montés et plus de 1,500 hommes d'infanterie dont 1 bataillon de 700 grenadiers, 1 drapeau et 4 pièces de canon attelées."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Le nombre d'officiers excède de beaucoup celui des soldats, et sur la quantité plusieurs sont restés en arrière pour attendre les équipages qu'ils avaient envoyés à l'île d'Usedom, et sur la reprise desquels ils fixent toute leur attention."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M. que le corps entier que l'on m'avait dit s'être embarqué à Anklam, est au pouvoir de vos troupes. Le général Bila qui le commande, s'est rendu au général Beker, que je charge de conduire ce corps à Spandau avec la brigade de dragons du général Boussart."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p594-figures-v1",
+          "section": "p594",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 594 (transcribed from the page image)",
+          "quote": "Le corps qui a capitulé est fort de 3,000 à 4,000 hommes; il y a du canon et 2 généraux, 2 régiments de cavalerie et un fort détachement d'un 3e. Pour conserver 1,400 ou 1,500 chevaux que nous recevrons, j'ordonne au général Beker de se borner à désarmer la cavalerie et à conduire ces régiments montés jusqu'à Potsdam où ils remettront leurs chevaux au général Bourcier."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le résultat de cette capitulation a été 4,000 prisonniers de guerre. Les officiers sont renvoyés sur parole et les soldats sont conduits en France. Parmi ces prisonniers se trouve le régiment des hussards de la garde du Roi, qui, après la guerre de Sept ans, avaient reçu de l'impératrice Catherine, en témoignage de leur bonne conduite, des pelisses de peau de tigre."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "1) Der Bericht der Franzosen über die Ereignisse bei Anklam lautet nach Matthieu Dumas wie folgt:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Le général Becker atteignit dans la plaine, en avant de la petite ville d'Anclam, la colonne du général Bila; il la chargea à la tête de la brigade de dragons du général Broussart, enfonça la cavalerie et l'infanterie prussiennes, les rejetta dans la ville, y entra pêle-mêle avec l'ennemi, et força le général Bila à capituler. Environ quatre mille prisonniers, parmi lesquels se trouvèrent les hussards de la garde du roi, tombèrent entre ses mains."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives the dragoon brigade Becker, about 1,000 men. Höpfner: the dragoon brigade Becker, which had already gone ahead to Pasewalk, was at once set moving from there on Anklam (OCR passage), and the French had no guns. Beker wrote that he had observed the corps during the day with General Boussard; that Boussard's brigade was extremely reduced and would barely suffice to escort the column, his own regiments being almost melted away; and he asked for 1 regiment of the division to hold Anklam. Murat wrote that he was sending Beker a gun to knock down the drawbridge, and Belliard that detachments Beker had left behind had set out the evening before to join him with a gun Belliard was sending (OCR passage). The 25th Bulletin has Beker charge with General Boussart's dragoon brigade. No passage read gives a headcount for side A.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart, Höpfner and the French letters, read from the page images, with the OCR passages marked. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'he therefore hurried with the dragoon division Grouchy and the infantry division Süchet on the ... from Löcknitz to Pasewalk, from where the dragoon brigade Becker, which had already gone ahead there, was at once set in motion towards Anklam' (OCR); 'at this moment, however, the enemy also appeared before Anklam, and Captain Poyda with the rear guard left behind in the town barely had time to draw up the Peene bridge'; 'it was the dragoon brigade Becker that appeared before the two generals Bila. As the French had no'; 'guns with them, Captain Poyda defended the Peene bridge steadfastly, while General Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow'; Beker, as in claim side-b-strength-french for the heading and the corps observed; 'as General Boussard's brigade is extremely reduced, it will barely suffice for the escort of this column, and I shall have to leave Anklam, unless Your Highness thinks fit to send me 1 regiment of the division to hold the only point on which the fugitives of the army are retreating'; 'if I am not reinforced by a regiment, since mine are almost melted away'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; 'I am sending him a gun to knock down the drawbridge and drive off whatever still seems to want to defend the crossing of the river. This corps is a medley of detachments from every corps of the army'; Belliard, 'General Belliard to General Beker. Friedland,' (OCR); 'the detachments that you had left behind had set out yesterday evening to join you, taking with them a gun of ... that I was sending you' (OCR); the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the Grand Duke of Berg had his headquarters on the 31st at Friedland. His dispositions made, he ordered the attack on the column of the Prussian general Bila, which General Beker charged, on the plain in front of the little town of Anklam, with General Boussart's dragoon brigade. Everything was broken, cavalry and infantry, and General Beker entered the town with the enemy, whom he forced to capitulate'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Dragonerbrigade Becker (ca. 1.000 M.) strecken 2.200 Preußen (1.100 Inft., 1.100 Kav.) unter Gen. v. Bila die Waffen, wonach die Mannschaften in Kriegsgefangenschaft gerieten, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Er eilte daher mit der Dragoner-Diviſion Grouchy und der Infanterie⸗ Diviſion Süchet noch am 30. von Löcknitz nach Paſewalk, von wo die bereits dahin vorausgegangene Dragoner-Brigade Becker ſogleich nach Anklam in Bewegung geſetzt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "In diesem Augenblick erschien aber auch der Feind vor Anklam und der Hauptmann Poyda mit der in der Stadt zurückgebliebenen Arriergarde hatte kaum so viel Zeit, die Peenebrücke aufzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Es war die Dragoner-Brigade Becker, die den beiden Generalen Bila gegenüber erschien. Da die Franzosen keine Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "schütze mit sich führten, so vertheidigte auch der Hauptmann Poyda die Peenebrücke standhaft, während der General Bila I. mit der Infanterie hinter dem langen Peenedamm zwischen Ziethen und Relzow aufgestellt stand."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "Après avoir observé avec le général Boussard pendant la journée un corps de 2,000 hommes réfugiés en Poméranie, après avoir fait"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "Comme la brigade du général Boussard est extrêmement réduite, elle suffira à peine à l'escorte de cette colonne, et je serai dans le cas de quitter Anklam, à moins que V. A. ne juge convenable de m'envoyer 1 régiment de la division pour conserver le seul point sur lequel se retirent les fuyards de l'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "si je ne suis point renforcé d'un régiment, puisque les miens sont presque fondus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Je lui envoie une pièce de canon pour abattre le pont-levis, et chasser tout ce qui semble encore vouloir défendre le passage de la rivière. Ce corps est un ramassis des détachements de tous les corps de l'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 595 (OCR page boundaries; not checked against print)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL BEKBR. Friedland,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 596 (OCR page boundaries; not checked against print)",
+          "quote": "Les détachements que vous aviez laissés en arrière, étaient partis hier soir pour aller vous joindre emmenant avec eux une pièce de 8 que je vous envoyais."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le grand-duc de Berg avait son quartier général le 31 à Friedland. Ses dispositions faites, il a ordonné l'attaque de la colonne du général prussien Bila, que le général Beker a chargée, sur la plaine en avant de la petite ville d'Anklam, avec la brigade de dragons du général Boussart. Tout a été enfoncé, cavalerie et infanterie, et le général Beker est entré dans la ville avec les ennemis, qu'il a forcés de capituler."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Becker (Foucart's Beker), whose dragoon brigade it was, for side A (French) and General v. Bila for side B (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner has two brothers at Anklam: the infantry general Bila I, to whom the parlementaire was sent and who accepted the capitulation, in agreement with his brother Bila II; Beker wrote of a column commanded by 2 generals; Murat named Bila as its commander and Beker as the general to whom it surrendered, with General Boussart's brigade (claims side-a-command, side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Dragonerbrigade Becker"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Gen. v. Bila die Waffen"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Murat wrote that he had had Beker summon the enemy corps at Anklam while Lasalle pushed everything on the road from Stettin to Anklam before him, and that Beker reported he had carried out the order; Belliard told Beker to summon all troops he met, to make no more written capitulations, and to say only that the troops were prisoners of war to be sent to France, the officers keeping their horses and baggage, with Beker's good offices for their parole. Beker wrote from Cosenow on 30 October that, as the fog increased the darkness and the town was closed, he had halted there and would summon the officer commanding the troops at daybreak (OCR passage). On the 31st, by his own account, he observed the corps with General Boussard, had everything left on the left bank charged, took more than 300 cavalry and as many infantry in several attacks, and by multiplying demonstrations and summoning the general forced him to accept the capitulation, treating with 2 officers sent by Bila on Belliard's conditions; to Lasalle he wrote that after various attempts and partial captures he had entered into negotiations, whose outcome he did not yet know, the night hampering him (OCR passage). Höpfner has the French make as if to cross the Peene at Stolpe, without success, and send a parlementaire who demanded surrender because Stettin had capitulated. Murat gave Beker the greatest praise, writing that he had made Bila capitulate after a very vigorous charge in the town, and the 25th Bulletin and Dumas have him charge the column on the plain and enter the town with it; Belliard complimented him for the Prince on his fine expedition (OCR passage).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The French letters, the Bulletin and Höpfner, read from the page images, with the OCR passages marked. Beker's attacks, demonstrations and summons were his own steps at Anklam, made under Murat's order (claim posture). English renderings (ours): Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; Belliard, 'General Belliard to General Beker. Pasewalk, 31 October 1806, 2 o'clock in the morning'; 'summon all the troops you meet to surrender; make no more capitulations in writing; say only that the troops are prisoners of war and sent back to France; that the officers keep their horses and baggage, and that you will use your good offices with the Prince for them to be prisoners of war on parole, which will surely not be refused them'; Beker, 'General Beker to the Grand Duke of Berg. Cosenow, 30 October 1806'; 'as the fog increases the darkness and the town is closed, I have halted at Cosenow, and tomorrow at daybreak I shall summon the officer commanding the troops to make them prisoners' (OCR); 'General Beker to the Grand Duke of Berg. Anklam, 31 October 1806'; 'having observed with General Boussard during the day a corps of 2,000 men who had taken refuge in Pomerania, having had'; 'everything that remained on the left bank of the river charged, and taken in various attacks more than 300 cavalry and as many infantry, I have succeeded, by multiplying my demonstrations and summoning the general to give himself up as a prisoner, in forcing him to accept the capitulation that has been customary in such circumstances'; 'at this moment 2 officers sent by General Bila are leaving here, with whom I have treated on the conditions prescribed by General Belliard. Thus tomorrow morning this column, 3,000 men strong, of whom 1,000 to 1,200 cavalry, and commanded by 2 generals, will lay down its arms and be directed on Friedland, where Your Highness will give it a destination, allowing the officers to retire to their homes with their baggage, to which they are infinitely attached'; 'General Beker to General Lasalle. Anklam,' (OCR); 'after making various attempts and partial captures, I have succeeded in entering into negotiations. I do not yet know the outcome of an obscure treaty, since the night hampers my operations' (OCR); Höpfner, 'the enemy made as if to cross the Peene upstream at Stolpe, but did not succeed in it'; 'the firing stopped at once, as this officer accepted a parlementaire and sent him to General Bila I. The Frenchman called on the general to surrender, as Stettin had capitulated'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 1 November 1806, half past 4 in the morning'; 'I hasten to announce to Your Majesty that the whole corps which I had been told had embarked at Anklam is in the power of your troops. General Bila, who commands it, has surrendered to General Beker, whom I am charging to take this corps to Spandau with General Boussart's dragoon brigade'; 'I owe the greatest praise to General Beker, who charged in person at the head of his dragoons at the combat of Zehdenick and at that of Wichmansdorf, which gave us the King's gendarmes, and who has at last made General Bila capitulate at Anklam after a very vigorous charge that he had carried out yesterday morning in the town. He speaks very highly of General Boussart. We lost in this charge only an adjudant sous-officier and a few dragoons'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the Grand Duke of Berg had his headquarters on the 31st at Friedland. His dispositions made, he ordered the attack on the column of the Prussian general Bila, which General Beker charged, on the plain in front of the little town of Anklam, with General Boussart's dragoon brigade. Everything was broken, cavalry and infantry, and General Beker entered the town with the enemy, whom he forced to capitulate'; Dumas, as in claim side-b-strength-french; Belliard, 'General Belliard to General Beker. Friedland,' (OCR); 'the Prince charges me, my dear General, to compliment you on your fine expedition and to express to you all his satisfaction' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL BEKER.\n\nPasewalk, 31 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "sommez de se rendre toutes les troupes que vous rencontrerez; ne faites plus de capitulation par écrit; dites seulement que les troupes sont prisonnières de guerre et renvoyées en France; que les officiers conservent leurs chevaux, bagages, et que vous emploierez vos bons offices près du Prince pour qu'ils soient prisonniers de guerre sur parole, ce qui sûrement ne leur sera pas refusé."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nCosenow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 531 (OCR page boundaries; not checked against print)",
+          "quote": "Comme le brouillard augmente l'obscurité et que la ville est fermée, j'ai fait halte à Cosenow, et demain à la pointe du jour je sommerai l'officier commandant les troupes de les constituer prison- nières."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "Après avoir observé avec le général Boussard pendant la journée un corps de 2,000 hommes réfugiés en Poméranie, après avoir fait"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "charger tout ce qui est resté sur la rive gauche de la rivière et pris dans différentes attaques plus de 300 cavaliers et autant de fantassins, je suis parvenu, en multipliant mes démonstrations, en sommant le général de se constituer prisonnier, à le forcer d'accepter la capitulation qui a été en usage dans de pareilles circonstances."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "A l'instant sortent d'ici 2 officiers envoyés par le général Bila avec lesquels j'ai traité aux conditions prescrites par M. le général Belliard. Ainsi demain matin cette colonne forte de 3,000 hommes, dont 1,000 à 1,200 de cavalerie, et commandée par 2 généraux, déposera les armes et sera dirigée sur Friedland où V. A. lui donnera une destination, en permettant aux officiers de se retirer dans leurs foyers avec leurs bagages auxquels ils tiennent infiniment."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-31-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (OCR page boundaries; not checked against print)",
+          "quote": "LE GÉNÉRAL BEKER AU GÉNÉRAL LASALLE. Anklam,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-31-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 566 (OCR page boundaries; not checked against print)",
+          "quote": "après avoir fait différentes tentatives et des prises partielles, je suis parvenu à entrer en négociations. J'ignore encore l'issue d'un traité obscur, puisque la nuit contrarie mes opérations."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Der Feind machte Miene, die Peene oberhalb bei Stolpe zu überschreiten, glückte indessen damit nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Alsbald hörte das Feuer auf, da dieser Offizier einen Parlamentair annahm und zum General Bila I. sandte. Der Franzose forderte den General auf, sich zu ergeben, da Stettin kapitulirt habe."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M. que le corps entier que l'on m'avait dit s'être embarqué à Anklam, est au pouvoir de vos troupes. Le général Bila qui le commande, s'est rendu au général Beker, que je charge de conduire ce corps à Spandau avec la brigade de dragons du général Boussart."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je dois les plus grands éloges au général Beker qui a chargé lui-même à la tête de ses dragons au combat de Zehdenick, à celui de Wichmansdorf qui nous a donné les gendarmes du Roi, et qui vient enfin de faire capituler le général Bila à Anklam après une charge très-vigoureuse qu'il a fait exécuter hier matin dans la ville. Il se loue beaucoup du général Boussart. Nous n'avons perdu dans cette charge qu'un adjudant sous-officier et quelques dragons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le grand-duc de Berg avait son quartier général le 31 à Friedland. Ses dispositions faites, il a ordonné l'attaque de la colonne du général prussien Bila, que le général Beker a chargée, sur la plaine en avant de la petite ville d'Anklam, avec la brigade de dragons du général Boussart. Tout a été enfoncé, cavalerie et infanterie, et le général Beker est entré dans la ville avec les ennemis, qu'il a forcés de capituler."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "1) Der Bericht der Franzosen über die Ereignisse bei Anklam lautet nach Matthieu Dumas wie folgt:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Le général Becker atteignit dans la plaine, en avant de la petite ville d'Anclam, la colonne du général Bila; il la chargea à la tête de la brigade de dragons du général Broussart, enfonça la cavalerie et l'infanterie prussiennes, les rejetta dans la ville, y entra pêle-mêle avec l'ennemi, et força le général Bila à capituler. Environ quatre mille prisonniers, parmi lesquels se trouvèrent les hussards de la garde du roi, tombèrent entre ses mains."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 595 (OCR page boundaries; not checked against print)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL BEKBR. Friedland,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 595 (OCR page boundaries; not checked against print)",
+          "quote": "Le Prince me charge, mon cher Général, de vous faire compliment sur votre belle expédition et de vous témoigner toute sa satisfaction ;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: General Bila I, who reached Anklam at 10 in the evening, had the cash boxes and archives he had brought shipped to Usedom in the night before the 31st. On the morning of the 31st, with news of the enemy's approach growing, he had the troops fall in and sent the baggage to Pinnow to be ferried over before them; Major Nostitz went ahead to arrange the ferries, and the general left his brother to cross at Wolgast. He left Anklam at 7 in the morning and only then sent an orderly to Rittmeister Hiller at Görke to march through Anklam. As the enemy appeared, Captain Poyda with the rear guard barely had time to draw up the Peene bridge, and he held it until 5 in the evening while Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow, meaning to march off to Pinnow in the night. When Captain Zimietzki's grenadier company relieved Poyda, its captain accepted a parlementaire and sent him to the general. Despairing of escape, though his brother had fully prepared him for Stettin's fall, and weighing the fatigue of men and horses, the idea that they could not live on Usedom and the town's request not to be ruined by a further defence, the general, in agreement with his brother, who had made no arrangements to cross at Lassahn or Wolgast, accepted the capitulation. Höpfner judges that it differed little from Pasewalk: the infantry had only 1½ miles to march to the Pinnow ferry and the cavalry 2½ to Lassahn and 3 to Wolgast, and the town's request made no sense.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 225-227 and 230. Höpfner does not name his sources for this passage. English renderings (ours): 'when General Bila I arrived at Anklam at 10 o'clock in the evening, he ordered that the grenadier battalion Sack and the company of Treuenfels should join his corps'; 'General Bila I had the cash boxes and archives he had brought embarked for Usedom that same night before the 31st under the lead of Captain Heyden, to go to Kolberg or Danzig'; 'after the union of the two generals Bila had thus taken place, and the news of the enemy's approach had increased, General Bila I had the troops present in Anklam fall in on the morning of the 31st, but sent the baggage off to Pinnow, so that it would be across before the troops arrived'; 'Major Nostitz of vac. Grävenitz went ahead to set up the ferrying. The general left it to his brother to cross the Peene at Wolgast and to send an officer ahead there as well'; 'at 7 o'clock in the morning General Bila I left Anklam and only now sent an orderly to Rittmeister Hiller at Görke with the order to march through Anklam'; 'at this moment, however, the enemy also appeared before Anklam, and Captain Poyda with the rear guard left behind in the town barely had time to draw up the Peene bridge'; 'it was the dragoon brigade Becker that appeared before the two generals Bila. As the French had no'; 'guns with them, Captain Poyda defended the Peene bridge steadfastly, while General Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow'; 'the general intended to march off to Pinnow in the night, and would probably have carried out this intention undisturbed, had misfortune not brought him a parlementaire'; 'until 5 o'clock in the evening Captain Poyda had held his ground at the Peene bridge, when he was relieved there by the grenadier company of Captain Zimietzki'; as in claim side-a-command for the parlementaire; 'although the general had been fully prepared for this event by his brother, he nevertheless despaired of escaping with his troops, as the French could always forestall him again from Stettin'; 'as there was added to this the fatigue of men and horses, the idea of not being able to live on the island of Usedom, and the request of the town of Anklam not to ruin it by a further defence of the Peene, the general, in agreement with his brother, who had made no arrangements at all to cross the Peene at Lassahn or Wolgast, accepted the capitulation, and surrendered to the enemy with 1100 men of infantry and 1073 horses on 1 November'; 'this capitulation differs little from the one at Pasewalk. The fall of Stettin could not take from General Bila the hope of still escaping; in the worst case there remained to him the attempt to embark at Swinemünde'; 'the fatigue of men and horses may have been very great, but the infantry had probably already recovered somewhat, and had only a march of 1½ miles to the Pinnow ferry, the cavalry 2½ to Lassahn and 3 miles to Wolgast, where they could have crossed at all leisure if a small part had been sacrificed at the Peene bridge at Anklam'; 'the request of the town of Anklam made no sense at all; the musketry at the bridge could not possibly do it particular harm, and to escape the tumult such a fight causes, one cannot after all ask a couple of thousand men to submit to the disgrace of a capitulation'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Als der General Bila I. um 10 Uhr Abends in Anklam eintraf, befahl er, daß das Grenadier-Bataill. Sack und die Kompagnie von Treuenfels zu seinem Korps stoßen sollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Der General Bila I. ließ noch in der Nacht zum 31. die mitgebrachten Kassen und Archive unter Führung des Hauptmanns Heyden nach Usedom einschiffen, um nach Kolberg oder Danzig zu gehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Nachdem so die Vereinigung beider Generale Bila stattgefunden, und die Nachrichten vom Anrücken des Feindes sich vermehrt hatten, ließ der General Bila I. am 31. Morgens die in Anklam anwesenden Truppen antreten, die Bagage aber nach Pinnow abgehen, damit diese übergesetzt wäre, bevor die Truppen einträfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Der Major Nostitz von vac. Grävenitz ging voraus zur Einrichtung der Fähranstalten. Seinem Bruder überließ es der General, bei Wolgast die Peene zu passiren und dahin ebenfalls einen Offizier vorauszuschicken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Um 7 Uhr Morgens verließ der General Bila I. Anklam und sandte nun erst eine Ordonnanz zum Rittmeister Hiller nach Görke mit dem Befehl, durch Anklam zu marschiren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "In diesem Augenblick erschien aber auch der Feind vor Anklam und der Hauptmann Poyda mit der in der Stadt zurückgebliebenen Arriergarde hatte kaum so viel Zeit, die Peenebrücke aufzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Es war die Dragoner-Brigade Becker, die den beiden Generalen Bila gegenüber erschien. Da die Franzosen keine Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "schütze mit sich führten, so vertheidigte auch der Hauptmann Poyda die Peenebrücke standhaft, während der General Bila I. mit der Infanterie hinter dem langen Peenedamm zwischen Ziethen und Relzow aufgestellt stand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Der General beabsichtigte in der Nacht nach Pinnow abzumarschiren, und würde dies Vorhaben auch wohl ungestört ausgeführt haben, wenn das Unglück ihm nicht einen Parlamentair zugeführt hätte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Bis um 5 Uhr Abends hatte nämlich der Hauptmann Poyda sich an der Peenebrücke behauptet, als er daselbst durch die Grenadier-Kompagnie des Hauptmanns Zimietzki abgelöst wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Alsbald hörte das Feuer auf, da dieser Offizier einen Parlamentair annahm und zum General Bila I. sandte. Der Franzose forderte den General auf, sich zu ergeben, da Stettin kapitulirt habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Obgleich der General durch seinen Bruder auf dieses Ereigniß vollständig vorbereitet war, verzweifelte er dennoch mit seinen Truppen zu entkommen, indem die Franzosen ihm von Stettin aus immer wieder zuvorkommen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Es unterscheidet sich diese Kapitulation wenig von der zu Pasewalk. Der Fall von Stettin konnte dem General Bila die Hoffnung nicht benehmen, noch zu entkommen; es blieb ihm im schlimmsten Fall noch der Versuch übrig, sich bei Swienemünde einzuschiffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Die Ermüdung von Mannschaft und Pferden mag sehr groß gewesen sein, aber die Infanterie hatte sich wohl bereits in etwas erholt, und nur noch einen Marsch von 1½ Meilen bis zur Pinnower Fähre, die Kavallerie nach Lassahn 2½ und nach Wolgast 3 Meilen, wo man mit aller Muße übersetzen konnte, wenn man einen kleinen Theil an der Peenebrücke bei Anklam opferte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Die Vorstellung der Stadt Anklam hatte gar keinen Sinn; es konnte ihr das Gewehrfeuer an der Brücke unmöglich besondern Schaden zufügen, und um dem Tumult, den ein solches Gefecht veranlaßt, zu entgehen, kann man doch nicht verlangen, daß ein Paar tausend Mann sich der Schande einer Kapitulation unterziehen."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Anklam on 1 November: 2,200 Prussians under General v. Bila laid down their arms before the dragoon brigade Becker; the men became prisoners of war and the officers were released on parole. Höpfner: the general accepted the capitulation and surrendered with 1100 infantry and 1073 horses on 1 November. Beker wrote on 31 October that the column would lay down its arms the next morning; Murat, on 1 November, that Bila had surrendered to Beker; the 25th Bulletin, that Beker forced the column to capitulate, the officers being sent home on parole and the soldiers taken to France.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French documents, read from the page images; no source read gives a different result. The capitulation was agreed on 31 October and the arms laid down on 1 November (Beker, Höpfner). Belliard had told Beker to make no more written capitulations, and no text of this one was read. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'as there was added to this the fatigue of men and horses, the idea of not being able to live on the island of Usedom, and the request of the town of Anklam not to ruin it by a further defence of the Peene, the general, in agreement with his brother, who had made no arrangements at all to cross the Peene at Lassahn or Wolgast, accepted the capitulation, and surrendered to the enemy with 1100 men of infantry and 1073 horses on 1 November'; Beker, 'General Beker to the Grand Duke of Berg. Anklam, 31 October 1806'; 'at this moment 2 officers sent by General Bila are leaving here, with whom I have treated on the conditions prescribed by General Belliard. Thus tomorrow morning this column, 3,000 men strong, of whom 1,000 to 1,200 cavalry, and commanded by 2 generals, will lay down its arms and be directed on Friedland, where Your Highness will give it a destination, allowing the officers to retire to their homes with their baggage, to which they are infinitely attached'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 1 November 1806, half past 4 in the morning'; 'I hasten to announce to Your Majesty that the whole corps which I had been told had embarked at Anklam is in the power of your troops. General Bila, who commands it, has surrendered to General Beker, whom I am charging to take this corps to Spandau with General Boussart's dragoon brigade'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the Grand Duke of Berg had his headquarters on the 31st at Friedland. His dispositions made, he ordered the attack on the column of the Prussian general Bila, which General Beker charged, on the plain in front of the little town of Anklam, with General Boussart's dragoon brigade. Everything was broken, cavalry and infantry, and General Beker entered the town with the enemy, whom he forced to capitulate'; 'the result of this capitulation was 4,000 prisoners of war. The officers are sent home on parole and the soldiers are taken to France. Among these prisoners is the regiment of hussars of the King's guard, which, after the Seven Years' War, had received from the Empress Catherine, in token of their good conduct, pelisses of tiger skin'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Anklam"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Dragonerbrigade Becker (ca. 1.000 M.) strecken 2.200 Preußen (1.100 Inft., 1.100 Kav.) unter Gen. v. Bila die Waffen, wonach die Mannschaften in Kriegsgefangenschaft gerieten, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "A l'instant sortent d'ici 2 officiers envoyés par le général Bila avec lesquels j'ai traité aux conditions prescrites par M. le général Belliard. Ainsi demain matin cette colonne forte de 3,000 hommes, dont 1,000 à 1,200 de cavalerie, et commandée par 2 généraux, déposera les armes et sera dirigée sur Friedland où V. A. lui donnera une destination, en permettant aux officiers de se retirer dans leurs foyers avec leurs bagages auxquels ils tiennent infiniment."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M. que le corps entier que l'on m'avait dit s'être embarqué à Anklam, est au pouvoir de vos troupes. Le général Bila qui le commande, s'est rendu au général Beker, que je charge de conduire ce corps à Spandau avec la brigade de dragons du général Boussart."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le grand-duc de Berg avait son quartier général le 31 à Friedland. Ses dispositions faites, il a ordonné l'attaque de la colonne du général prussien Bila, que le général Beker a chargée, sur la plaine en avant de la petite ville d'Anklam, avec la brigade de dragons du général Boussart. Tout a été enfoncé, cavalerie et infanterie, et le général Beker est entré dans la ville avec les ennemis, qu'il a forcés de capituler."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le résultat de cette capitulation a été 4,000 prisonniers de guerre. Les officiers sont renvoyés sur parole et les soldats sont conduits en France. Parmi ces prisonniers se trouve le régiment des hussards de la garde du Roi, qui, après la guerre de Sept ans, avaient reçu de l'impératrice Catherine, en témoignage de leur bonne conduite, des pelisses de peau de tigre."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "Murat wrote that side A (French) lost in the charge only an adjudant sous-officier and a few dragoons. No other source read gives a French loss, and Bodart prints none.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Murat's letter of 1 November, read from the page image of p. 593. Höpfner calls Dumas's account of a charge that broke the column and entered the town 'so many words, so many untruths' (claim side-b-losses), so the loss is reported, not confirmed. English rendering (ours): Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 1 November 1806, half past 4 in the morning'; 'I owe the greatest praise to General Beker, who charged in person at the head of his dragoons at the combat of Zehdenick and at that of Wichmansdorf, which gave us the King's gendarmes, and who has at last made General Bila capitulate at Anklam after a very vigorous charge that he had carried out yesterday morning in the town. He speaks very highly of General Boussart. We lost in this charge only an adjudant sous-officier and a few dragoons'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je dois les plus grands éloges au général Beker qui a chargé lui-même à la tête de ses dragons au combat de Zehdenick, à celui de Wichmansdorf qui nous a donné les gendarmes du Roi, et qui vient enfin de faire capituler le général Bila à Anklam après une charge très-vigoureuse qu'il a fait exécuter hier matin dans la ville. Il se loue beaucoup du général Boussart. Nous n'avons perdu dans cette charge qu'un adjudant sous-officier et quelques dragons."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B lost the corps. Höpfner: the general surrendered with 1100 infantry and 1073 horses, and Rittmeister Hiller, on his way to Anklam with the detachments of Bailliodz cuirassiers and Hertzberg dragoons and the depot of the Leib-Kürassier regiment, was surrounded on all sides and captured; he names no killed or wounded, and the cash boxes and archives had been shipped to Usedom in the night before the 31st. Bodart: 2,200 Prussians laid down their arms, the men becoming prisoners of war and the officers released on parole. Murat on 31 October: Beker had taken only the tail of the corps, 400 men including 260 mounted cuirassiers, the rest having crossed the Peene in the night and raised the drawbridge; Beker: more than 300 cavalry and as many infantry taken in several attacks before the capitulation. The French figures for the whole corps are in claim side-b-strength-french. The 25th Bulletin says that the chest of Bila's corps and part of the baggage had crossed the Peene into Swedish Pomerania (OCR passage for the end of the sentence).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images, not combined; Höpfner's footnote calls Dumas's French account of the charge 'so many words, so many untruths'. Whether Hiller's detachments and the prisoners Beker took in his attacks are inside Höpfner's 1100 and 1073 or the French totals is not shown. English renderings (ours): Höpfner, 'as there was added to this the fatigue of men and horses, the idea of not being able to live on the island of Usedom, and the request of the town of Anklam not to ruin it by a further defence of the Peene, the general, in agreement with his brother, who had made no arrangements at all to cross the Peene at Lassahn or Wolgast, accepted the capitulation, and surrendered to the enemy with 1100 men of infantry and 1073 horses on 1 November'; 'Rittmeister Hiller, on the march to Anklam, was surrounded on all sides by the enemy and taken prisoner with the detachments of Bailliodz cuirassiers, Hertzberg dragoons and the depot of the Leib-Kürassier regiment'; as in claim side-b-command for the cash boxes; 'the report of the French on the events at Anklam runs as follows, after Matthieu Dumas'; 'so many words, so many untruths; but it would have been more honourable for the Prussian generals if they had seen themselves forced to capitulate in this way'; Bodart, as in claim bodart-strength; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; Beker, 'General Beker to the Grand Duke of Berg. Anklam, 31 October 1806'; 'having observed with General Boussard during the day a corps of 2,000 men who had taken refuge in Pomerania, having had'; 'everything that remained on the left bank of the river charged, and taken in various attacks more than 300 cavalry and as many infantry, I have succeeded, by multiplying my demonstrations and summoning the general to give himself up as a prisoner, in forcing him to accept the capitulation that has been customary in such circumstances'; 'at this moment 2 officers sent by General Bila are leaving here, with whom I have treated on the conditions prescribed by General Belliard. Thus tomorrow morning this column, 3,000 men strong, of whom 1,000 to 1,200 cavalry, and commanded by 2 generals, will lay down its arms and be directed on Friedland, where Your Highness will give it a destination, allowing the officers to retire to their homes with their baggage, to which they are infinitely attached'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the chest of General Bila's corps and part of the ba-'; 'ggage had crossed the Peene and were in Swedish Pomerania; the Grand Duke of Berg has had them claimed' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Der im Abmarsch nach Anklam begriffene Rittmeister Hiller wurde mit den Detaschements von Bailliodz-Kürassieren, Hertzberg-Dragonern und dem Depot des Leib-Kürassier-Regiments von allen Seiten vom Feinde umringt und gefangen genommen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Der General Bila I. ließ noch in der Nacht zum 31. die mitgebrachten Kassen und Archive unter Führung des Hauptmanns Heyden nach Usedom einschiffen, um nach Kolberg oder Danzig zu gehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "1) Der Bericht der Franzosen über die Ereignisse bei Anklam lautet nach Matthieu Dumas wie folgt:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "So viel Worte, so viel Unwahrheiten; aber ehrenvoller für die preußischen Generale wäre es gewesen, sie hätten sich auf diese Weise zur Kapitulation genöthigt gesehen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Vor der französischen Dragonerbrigade Becker (ca. 1.000 M.) strecken 2.200 Preußen (1.100 Inft., 1.100 Kav.) unter Gen. v. Bila die Waffen, wonach die Mannschaften in Kriegsgefangenschaft gerieten, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "Après avoir observé avec le général Boussard pendant la journée un corps de 2,000 hommes réfugiés en Poméranie, après avoir fait"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "charger tout ce qui est resté sur la rive gauche de la rivière et pris dans différentes attaques plus de 300 cavaliers et autant de fantassins, je suis parvenu, en multipliant mes démonstrations, en sommant le général de se constituer prisonnier, à le forcer d'accepter la capitulation qui a été en usage dans de pareilles circonstances."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "A l'instant sortent d'ici 2 officiers envoyés par le général Bila avec lesquels j'ai traité aux conditions prescrites par M. le général Belliard. Ainsi demain matin cette colonne forte de 3,000 hommes, dont 1,000 à 1,200 de cavalerie, et commandée par 2 généraux, déposera les armes et sera dirigée sur Friedland où V. A. lui donnera une destination, en permettant aux officiers de se retirer dans leurs foyers avec leurs bagages auxquels ils tiennent infiniment."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La caisse du corps du général Bila et une partie des ba-"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "bulletin-25",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 649 (OCR page boundaries; not checked against print)",
+          "quote": "gages avaient passé la Peene et se trouvaient dans la Pomé- ranie suédoise ; le grand-duc de Berg les a fait réclamer."
+        }
+      ]
+    },
+    {
+      "id": "anklam-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Anklam, a town in Pomerania, on the Peene, 75 km north-west of Stettin. Höpfner: the Peene bridge at Anklam could be drawn up; Bila I's infantry stood behind the long Peene causeway between Ziethen and Relzow, and Stolpe lay upstream; the baggage crossed the Peene onto Swedish territory; the infantry had 1½ miles to march to the Pinnow ferry and the cavalry 2½ to Lassahn and 3 to Wolgast, and Görke lay on the road to Demmin. Lasalle wrote, citing a postillon, that the corps' camp stretched half a league towards Uckermünde, and that the bridge of Anklam was cut on the side of Sweden; Beker, halted at Cosenow, wrote that the fog increased the darkness and the town was closed (OCR passage); Murat, that the rest of the enemy corps had crossed the Peene in the night and raised the drawbridge; the Bulletin speaks of a plain in front of the little town. Foucart's note puts Anklam 22 km from Friedland.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and ground as described, read from the page images, with Beker's closed town from the OCR; no plan of Anklam was inspected. English renderings (ours): Bodart, '(town in Prussia, Pomerania, on the Peene, 75 km north-west of Stettin)'; Höpfner, 'at this moment, however, the enemy also appeared before Anklam, and Captain Poyda with the rear guard left behind in the town barely had time to draw up the Peene bridge'; 'it was the dragoon brigade Becker that appeared before the two generals Bila. As the French had no'; 'guns with them, Captain Poyda defended the Peene bridge steadfastly, while General Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow'; as in claim side-a-command for Stolpe; 'the baggage column went over the Peene onto Swedish territory and formed a wagon laager, to continue the march from it'; as in claims side-b-command for the distances and side-b-strength for Görke; Lasalle, 'General Lasalle to the Grand Duke of Berg. Falkenwald, 30 October 1806, 7 o'clock in the evening'; 'a postillon coming back from Anklam, who left it yesterday at 5 o'clock in the evening, says that outside the gate there are many infantry, cavalry and above all baggage, that their camp stretches half a league on this side, towards Uckermünde. There are no guns. Guards du corps, green hussars, cuirassiers, dragoons, remnants of the Prussian army, make up this corps. The name of its commander is not known. The bridge of Anklam is cut on the side of Sweden. This corps is put at 6,000 men; it comes from Mecklenburg and detachments of it arrive every day'; Beker, as in claim side-a-command (OCR); Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'the Grand Duke of Berg had his headquarters on the 31st at Friedland. His dispositions made, he ordered the attack on the column of the Prussian general Bila, which General Beker charged, on the plain in front of the little town of Anklam, with General Boussart's dragoon brigade. Everything was broken, cavalry and infantry, and General Beker entered the town with the enemy, whom he forced to capitulate'; Foucart's note, '2. From Cosenow to Friedland by Dargibell, 20 km; from Friedland to Anklam, 22 km'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Stadt in Preußen, Pommern, an der Peene, 75 km nordwestl. von Stettin)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "In diesem Augenblick erschien aber auch der Feind vor Anklam und der Hauptmann Poyda mit der in der Stadt zurückgebliebenen Arriergarde hatte kaum so viel Zeit, die Peenebrücke aufzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Es war die Dragoner-Brigade Becker, die den beiden Generalen Bila gegenüber erschien. Da die Franzosen keine Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "schütze mit sich führten, so vertheidigte auch der Hauptmann Poyda die Peenebrücke standhaft, während der General Bila I. mit der Infanterie hinter dem langen Peenedamm zwischen Ziethen und Relzow aufgestellt stand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Der Feind machte Miene, die Peene oberhalb bei Stolpe zu überschreiten, glückte indessen damit nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage-Kolonne ging über die Peene auf schwedisches Gebiet und bildete eine Wagenburg, um aus solcher den Marsch weiter fortzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Die Ermüdung von Mannschaft und Pferden mag sehr groß gewesen sein, aber die Infanterie hatte sich wohl bereits in etwas erholt, und nur noch einen Marsch von 1½ Meilen bis zur Pinnower Fähre, die Kavallerie nach Lassahn 2½ und nach Wolgast 3 Meilen, wo man mit aller Muße übersetzen konnte, wenn man einen kleinen Theil an der Peenebrücke bei Anklam opferte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Mit der Infanterie verblieb er in der Stadt; die 120 Pferde von Bailliodz wurden in Görke, auf der Straße nach Demmin untergebracht, wo bereits das Depot des Leib-Kürassier-Regiments und ein Detaschement von Hertzberg-Dragonern unter dem Lieutenant v. d. Gröben stand."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Un postillon revenant d'Anklam et qui en est parti hier à 5 heures du soir, dit que, hors la porte, il y a beaucoup de fantassins, de cavaliers et surtout de bagages, que leur camp s'étend à demi-lieue de ce côté-ci, vers Uckermünde. Il n'y a point de canon. Des gardes du corps, des hussards verts, des cuirassiers, des dragons, débris de l'armée prussienne, composent ce corps. On ignore le nom de son commandant. Le pont d'Anklam est coupé du côté de la Suède. On porte le nombre de ce corps à 6,000 hommes; il vient de Mecklemburg et il en arrive chaque jour des détachements."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nCosenow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 531 (OCR page boundaries; not checked against print)",
+          "quote": "Comme le brouillard augmente l'obscurité et que la ville est fermée, j'ai fait halte à Cosenow, et demain à la pointe du jour je sommerai l'officier commandant les troupes de les constituer prison- nières."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le grand-duc de Berg avait son quartier général le 31 à Friedland. Ses dispositions faites, il a ordonné l'attaque de la colonne du général prussien Bila, que le général Beker a chargée, sur la plaine en avant de la petite ville d'Anklam, avec la brigade de dragons du général Boussart. Tout a été enfoncé, cavalerie et infanterie, et le général Beker est entré dans la ville avec les ennemis, qu'il a forcés de capituler."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "2. De Cosenow à Friedland par Dargibell, 20 kil.; — de Friedland à Anklam, 22 kil."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner speaks of the bad spirit that misfortune, hardship and want of every kind had bred in Bila II's troops, and gives among the reasons for accepting the capitulation the fatigue of men and horses and the idea that they could not live on Usedom, though he judges that the infantry had probably recovered somewhat and that the island could have fed so small a detachment just after the harvest. Beker wrote that the column, having found no help in Pomerania, was starving. Side A (French): Beker wrote that Boussard's brigade was extremely reduced and his own regiments almost melted away, and on 2 November that the country's resources were exhausted; Murat, on 1 November, that they were very tired and that the cavalry would absolutely need rest.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Both sides' state, brought from the pursuit and the retreat, from the page images. English renderings (ours): Höpfner, as in claims side-b-strength for the bad spirit and side-b-command for the reasons and the fatigue; 'if the ferries used had been sunk, they were safe from any pursuit by the enemy, and could have rested men and horses undisturbed on the island of Usedom, for the island is not so poor that immediately after the harvest it could not have found provisions for so small a detachment'; Beker, as in claim side-b-strength-french for the heading; 'this column, having found no assistance in Pomerania, is starving'; as in claim side-a-strength for his brigades; as in claim side-b-strength-french for his letter of 2 November; Murat, as in claim side-b-strength-french for the heading; 'driven back to the Baltic Sea. We are'; 'very tired; the cavalry will absolutely need rest'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 222 (transcribed from the page image)",
+          "quote": "fälle, Beschwerden und Mangel aller Art erzeugten schlechten Geist in den Truppen kennen zu lernen, brach der General Bila um Mitternacht wieder auf, und defilirte mit Tagesanbruch des 31. durch Anklam, wo er sich zufällig mit seinem Bruder, dem Infanterie-General Bila I., vereinigte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Die Ermüdung von Mannschaft und Pferden mag sehr groß gewesen sein, aber die Infanterie hatte sich wohl bereits in etwas erholt, und nur noch einen Marsch von 1½ Meilen bis zur Pinnower Fähre, die Kavallerie nach Lassahn 2½ und nach Wolgast 3 Meilen, wo man mit aller Muße übersetzen konnte, wenn man einen kleinen Theil an der Peenebrücke bei Anklam opferte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Versenkte man die benutzten Fähren, so war man vor jeder Verfolgung des Feindes sicher, und konnte ungestört auf der Insel Usedom Leute und Pferde ruhen lassen, denn so arm ist die Insel nicht, daß sie nicht unmittelbar nach der Ernte für ein so kleines Detaschement hätte Lebensmittel auftreiben können."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "Cette colonne n'ayant trouvé aucune assistance en Poméranie, est affamée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "Comme la brigade du général Boussard est extrêmement réduite, elle suffira à peine à l'escorte de cette colonne, et je serai dans le cas de quitter Anklam, à moins que V. A. ne juge convenable de m'envoyer 1 régiment de la division pour conserver le seul point sur lequel se retirent les fuyards de l'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "si je ne suis point renforcé d'un régiment, puisque les miens sont presque fondus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p625-figures-v1",
+          "section": "p625",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 625 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GÉNÉRAL BELLIARD.\n\nFriedland, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p625-figures-v1",
+          "section": "p625",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 625 (transcribed from the page image)",
+          "quote": "Ce n'est pas sans peine que je suis parvenu à débusquer la colonne de la Poméranie pour la conduire à Potsdam; la capture étant plus considérable qu'elle ne paraissait dans le principe, il est extrêmement difficile de contenir tout le monde et de le diriger à travers un pays dont les ressources sont épuisées."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "acculés à la mer Baltique. Nous sommes"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p594-figures-v1",
+          "section": "p594",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 594 (transcribed from the page image)",
+          "quote": "bien fatigués¹; la cavalerie aura absolument besoin de repos;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Lasalle wrote on 30 October, citing a postillon who had left Anklam the previous evening, of a corps of guards du corps, green hussars, cuirassiers and dragoons, with many infantry and much baggage and no guns, its commander unknown, put at 6,000 men, with detachments arriving every day. Beker approached Anklam on the evening of the 30th to reconnoitre the bivouac fires on the Stettin road, found the point guarded by a picket of hussars backed by infantry, and heard from peasants and a postillon that the town was crowded with fugitives from every regiment; he would summon the officer commanding the troops at daybreak, who, he wrote, did not know how near the French were or where to retreat, since Beker was certain that the Swedes refused to receive them in Pomerania, except their baggage (OCR passages). On 31 October Beker wrote that he was certain Blücher had recrossed the Oder 5 days before. After the capitulation an order from Friedland for chef d'escadron Boyer found it astonishing that no one could yet say whether the corps that had capitulated belonged to Blücher's or Hohenlohe's column (OCR passage).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The French letters, read from the page images, with the OCR passages marked. English renderings (ours): Lasalle, 'General Lasalle to the Grand Duke of Berg. Falkenwald, 30 October 1806, 7 o'clock in the evening'; 'a postillon coming back from Anklam, who left it yesterday at 5 o'clock in the evening, says that outside the gate there are many infantry, cavalry and above all baggage, that their camp stretches half a league on this side, towards Uckermünde. There are no guns. Guards du corps, green hussars, cuirassiers, dragoons, remnants of the Prussian army, make up this corps. The name of its commander is not known. The bridge of Anklam is cut on the side of Sweden. This corps is put at 6,000 men; it comes from Mecklenburg and detachments of it arrive every day'; Beker, as in claim side-a-command for the heading of 30 October; 'I approached the town of Anklam at 8 o'clock in the evening to reconnoitre the bivouac fires set up on the Stettin road; the point I made for was guarded by a picket of hussars supported by infantry; and some peasants, as well as a postillon, who had come out of the town, assured me that it was crowded with fugitives from all the regiments, without being able to answer the questions about the march of General Blücher'; as in claim side-a-command for the fog (OCR); 'he does not know how near the French troops are and does not know besides where to retreat, since I am certain that the Swedes refuse to receive them in Pomerania, except the baggage, which has already been sent into the interior of Pomerania both from Mecklenburg and from Anklam' (OCR); Beker, as in claim side-b-strength-french for the heading of 31 October; 'I am certain that General Blücher recrossed the Oder 5 days ago with 2 regiments of cavalry and some artillery'; the order, 'order for chef d'escadron Boyer. Friedland,' (OCR); 'it is astonishing that nobody has yet been able to say positively to whom the corps that capitulated belongs, whether it was part of Blücher's or Hohenlohe's column, and how many people passed through Anklam on the day the leading troops appeared, etc.' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL LASALLE AU GRAND-DUC DE BERG.\n\nFalkenwald, 30 octobre 1806, 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p529-figures-v1",
+          "section": "p529",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 529 (transcribed from the page image)",
+          "quote": "Un postillon revenant d'Anklam et qui en est parti hier à 5 heures du soir, dit que, hors la porte, il y a beaucoup de fantassins, de cavaliers et surtout de bagages, que leur camp s'étend à demi-lieue de ce côté-ci, vers Uckermünde. Il n'y a point de canon. Des gardes du corps, des hussards verts, des cuirassiers, des dragons, débris de l'armée prussienne, composent ce corps. On ignore le nom de son commandant. Le pont d'Anklam est coupé du côté de la Suède. On porte le nombre de ce corps à 6,000 hommes; il vient de Mecklemburg et il en arrive chaque jour des détachements."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nCosenow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "Je me suis approché à 8 heures du soir de la ville d'Anklam pour reconnaître les feux de bivouac établis sur la route de Stettin; le point sur lequel je me suis dirigé était gardé par un piquet de hussards appuyé d'infanterie; et quelques paysans, ainsi qu'un postillon, sortis de la ville, m'ont assuré qu'elle était encombrée de fuyards de tous les régiments, sans pouvoir répondre aux questions relatives à la marche du général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 531 (OCR page boundaries; not checked against print)",
+          "quote": "Comme le brouillard augmente l'obscurité et que la ville est fermée, j'ai fait halte à Cosenow, et demain à la pointe du jour je sommerai l'officier commandant les troupes de les constituer prison- nières."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 531 (OCR page boundaries; not checked against print)",
+          "quote": "Il ignore la proximité des troupes françaises et ne sait d'ail- leurs par ou se retirer, puisque j'ai la certitude que les Suédois se refusent de les recevoir en Poméranie, à l'exception des bagages, qui ont déjà été dirigés, tant du Mecklemburg que d'Anklam, dans l'inté- rieur de la Poméranie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai la certitude que le général Blücher a repassé l'Oder, il y a 5 jours, avec 2 régiments de cavalerie et de l'artillerie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 595 (OCR page boundaries; not checked against print)",
+          "quote": "OBDBE POUR LE CHEF D ESCADRON BOTER. Friedland,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 595 (OCR page boundaries; not checked against print)",
+          "quote": "Il est éton- nant qu'on n'ait pas encore pu dire d'une manière positive à qui appartient le corps qui a capitulé, s'il faisait partie de la colonne de Bliicher ou de Hohenlohe, et combien il a passé de monde par Anklam, le jour que les premières troupes ont paru, etc."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: Bila II, needing rest, sent Lieutenant Falkenhausen II of the Bila hussars to Stettin to report to Prince Hohenlohe, and the lieutenant came back with the news that Hohenlohe had capitulated at Prenzlau and that the governor of Stettin, negotiating with the enemy, would no longer let General Bila into the fortress and advised him to turn to Swedish Pomerania (OCR passages); Höpfner says the governor's refusal of passage to Bila II brought about the capitulation of Anklam. On the way Bila II learned that the enemy held Ferdinandshof, and the Anklam ferry was found already taken across the Peene; Bila I, who by Höpfner's judgment did very wrong to change direction at once on the statements of men coming back from the Anklam ferry, learned at Leopoldshagen that it was his brother who had reached Uckermünde, that Stettin was invested and that the Swedes had opened the crossing at Pinnow (OCR passages). At Anklam the news of the enemy's approach grew on the morning of the 31st; the parlementaire's demand rested on Stettin's capitulation, for which his brother had fully prepared Bila I.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "From the history of side B: the page images of pp. 217, 225 and 226, with the OCR passages marked. English renderings (ours): 'we left General Bila II' (OCR); 'as rest was necessary, the general sent Lieutenant Falkenhausen II of the Bila hussars to Stettin to report to Prince Hohenlohe, whom he expected there' (OCR); 'the lieutenant soon returned with the news that Prince Hohenlohe had capitulated at Prenzlau, that the governor of Stettin was in negotiations with the enemy, and had declared to him that he could no longer let General Bila into the fortress, and therefore advised him to turn to Swedish Pomerania' (OCR); 'but the governor saw fit not only to keep back no man for the fortress duty, but even refused General Bila II passage, and thereby brought about the capitulation of Anklam, as will be shown later'; 'but he did learn that the enemy had already occupied Ferdinandshof — on the road from Pasewalk to Anklam' (OCR); 'the Anklam ferry was found already taken away to the Pinnow ferry beyond the Peene' (OCR); 'at Leopoldshagen he stopped, exhausted, and learned that it was his brother who had arrived at Uckermünde, that Stettin was invested and that the Swedes had opened the crossing at Pinnow' (OCR); 'General Bila I had done very wrong in changing direction at once on the statements of those coming back from the Anklam ferry' (OCR); as in claim side-b-command for the news on the morning of the 31st and for the general's despair; as in claim side-a-command for the parlementaire.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Wir haben den General Bila II. verlaſſen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "Da nothwendig geruht werden mußte, ſo ſchickte der General den Lieutenant Falkenhauſen II. von Bila⸗ Huſaren nach Stettin, um dem Fürften Hohenlohe, den er da- ſelbſt erwartete, Bericht zu erſtatten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "Der Lieutenant kehrte bald mit der Nachricht zurück, daß der Fürſt Hohenlohe bei Prenzlau kapitulirt habe, daß der Gouverneur von Stettin in Unterhand⸗ lungen mit dem Feinde begriffen ſei, und ihm erklärt habe, den General Bila nicht mehr in die Feſtung laſſen zu können, ihm daher rathe, ſich nach Schwediſch-Pommern zu wenden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p217-figures-v1",
+          "section": "p217",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 217 (transcribed from the page image)",
+          "quote": "doch fand es der Gouverneur für gut, nicht nur keinen Mann zum Festungsdienst zurückzubehalten, sondern er verweigerte sogar dem General Bila II. den Durchzug und veranlaßte dadurch die Kapitulation von Anklam, wie später gezeigt werden wird."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "wohl aber er- fuhr er, daß der Feind bereits Ferdinandshof — auf der Straße von Paſewalk nach Anklam — beſetzt habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "Man fand die Anklamer-Fähre bereits nach der Pinnower⸗Fähre jenſeits der Peene abgeführt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 224 (OCR page boundaries; not checked against print)",
+          "quote": "In Leopoldshagen blieb er ermüdet liegen und erfuhr, daß es ſein Bruder ſei, der in Uckermünde angekommen, daß Stettin berannt ſei und die Schweden die Ueberfahrt bei Pinnow frei gegeben hatten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 224 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Bila I. hatte ſehr übel daran gethan, daß er auf Grund der Ausſagen der von der Anklamer-Fähre Zurück⸗ kehrenden ſofort die Richtung veränderte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Nachdem so die Vereinigung beider Generale Bila stattgefunden, und die Nachrichten vom Anrücken des Feindes sich vermehrt hatten, ließ der General Bila I. am 31. Morgens die in Anklam anwesenden Truppen antreten, die Bagage aber nach Pinnow abgehen, damit diese übergesetzt wäre, bevor die Truppen einträfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Alsbald hörte das Feuer auf, da dieser Offizier einen Parlamentair annahm und zum General Bila I. sandte. Der Franzose forderte den General auf, sich zu ergeben, da Stettin kapitulirt habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Obgleich der General durch seinen Bruder auf dieses Ereigniß vollständig vorbereitet war, verzweifelte er dennoch mit seinen Truppen zu entkommen, indem die Franzosen ihm von Stettin aus immer wieder zuvorkommen konnten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A sought to cut off the columns making for Stettin: Höpfner has Murat, once Stettin had fallen, arrange to cut them off from the Oder before they learned of its fall, and hurry to Pasewalk, from where Beker's brigade was set moving on Anklam (OCR passages). Murat meant to have Beker summon the corps at Anklam while Lasalle swept the road from Stettin, and meant always to keep Anklam occupied by a detachment (OCR passage); Belliard's instructions were to take the troops met as prisoners of war without written capitulations. After the surrender Murat charged Beker with taking the corps to Spandau with Boussart's brigade and with claiming the treasure, a few leagues from Anklam in the interior of Pomerania, from the authorities of the country, and ordered him to disarm the cavalry but lead its regiments mounted to Potsdam so as to keep 1,400 or 1,500 horses.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner's OCR passages and the French letters, read from the page images, with the OCR passage marked. English renderings (ours): Höpfner, 'as soon as Stettin had fallen, the Grand Duke of Berg made every arrangement to cut off from the Oder the columns that would try to reach Stettin by a detour to the north, before they could be informed of the fall of the place and take another direction' (OCR); as in claim side-a-strength for Becker's brigade (OCR); Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'I shall always have Anklam occupied by a detachment which will have its line of retreat on Stettin' (OCR); Belliard, as in claim side-a-command; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 1 November 1806, half past 4 in the morning'; 'I hasten to announce to Your Majesty that the whole corps which I had been told had embarked at Anklam is in the power of your troops. General Bila, who commands it, has surrendered to General Beker, whom I am charging to take this corps to Spandau with General Boussart's dragoon brigade'; 'General Beker informs me that the treasure is a few leagues from Anklam in the interior of Pomerania. I am charging this general to claim it from the authorities of the country, announcing to them that if they refuse I shall cross the Peene with my whole army corps and lay their country under contribution'; as in claim side-b-strength-french for the horses.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Sobald Stettin über war, traf der Großherzog von Berg alle Veranſtaltungen, die Kolonnen, welche ſuchen würden, Stet⸗ tin durch ein Ausbiegen nach Norden zu erreichen, von der Oder abzuſchneiden, bevor ſie noch von dem Fall des Platzes unterrich⸗ tet ſein und eine andere Richtung einſchlagen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Er eilte daher mit der Dragoner-Diviſion Grouchy und der Infanterie⸗ Diviſion Süchet noch am 30. von Löcknitz nach Paſewalk, von wo die bereits dahin vorausgegangene Dragoner-Brigade Becker ſogleich nach Anklam in Bewegung geſetzt wurde."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-31-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (OCR page boundaries; not checked against print)",
+          "quote": "Je ferai toujours occuper Anklam par un détachement qui aura sa retraite sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL BEKER.\n\nPasewalk, 31 octobre 1806, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "sommez de se rendre toutes les troupes que vous rencontrerez; ne faites plus de capitulation par écrit; dites seulement que les troupes sont prisonnières de guerre et renvoyées en France; que les officiers conservent leurs chevaux, bagages, et que vous emploierez vos bons offices près du Prince pour qu'ils soient prisonniers de guerre sur parole, ce qui sûrement ne leur sera pas refusé."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 1er novembre 1806, 4 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M. que le corps entier que l'on m'avait dit s'être embarqué à Anklam, est au pouvoir de vos troupes. Le général Bila qui le commande, s'est rendu au général Beker, que je charge de conduire ce corps à Spandau avec la brigade de dragons du général Boussart."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p593-figures-v1",
+          "section": "p593",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 593 (transcribed from the page image)",
+          "quote": "Le général Beker m'annonce que le trésor se trouve à quelques lieues d'Anklam dans l'intérieur de la Poméranie. Je charge ce général de le réclamer auprès des autorités du pays, en leur annonçant que sur leur refus je passerai la Peene avec tout mon corps d'armée et que j'irai mettre leur pays à contribution."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p594-figures-v1",
+          "section": "p594",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 594 (transcribed from the page image)",
+          "quote": "Le corps qui a capitulé est fort de 3,000 à 4,000 hommes; il y a du canon et 2 généraux, 2 régiments de cavalerie et un fort détachement d'un 3e. Pour conserver 1,400 ou 1,500 chevaux que nous recevrons, j'ordonne au général Beker de se borner à désarmer la cavalerie et à conduire ces régiments montés jusqu'à Potsdam où ils remettront leurs chevaux au général Bourcier."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B sought to get across the Peene: Bila II set out from Falkenwalde in the night to keep along the Haff towards Demmin, to join Blücher if possible, of whom there was no news, and the Anklam ferry was found already taken across the Peene (OCR passages); the Bila infantry was to embark at Pinnow and the baggage at Wolgast; Bila I shipped the cash boxes and archives to Usedom for Kolberg or Danzig, sent the baggage to Pinnow to cross before the troops, left his brother to cross at Wolgast and meant to march off to Pinnow in the night. The town of Anklam asked not to be ruined by a further defence of the Peene.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "From the history of side B: the page images of pp. 225, 226 and 230, with the OCR passages marked. English renderings (ours): as in claim side-b-strength for the opening of Bila II's march (OCR); 'in the night to the ... the general therefore set out from Falkenwalde with the intention of keeping along the Haff and then in the direction of Demmin, so as if possible to join General Blücher, of whom there was no news at all' (OCR); as in claim side-b-information for the ferry (OCR); as in claims side-b-strength for the embarkation plan and side-b-command for the cash boxes, the baggage, the Wolgast crossing, the night march and the town's request.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Wir haben den General Bila II. verlaſſen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "In der Nacht zum 30. brach der General ſomit von Fal⸗ kenwalde in der Abſicht auf, ſich längs des Haffs und dann in der Richtung auf Demmin zu halten, um ſich wo möglich mit dem General Blücher zu vereinigen, von dem man gar keine Nach⸗ richt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 221 (OCR page boundaries; not checked against print)",
+          "quote": "Man fand die Anklamer-Fähre bereits nach der Pinnower⸗Fähre jenſeits der Peene abgeführt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "gemeldet wurde, auch der General Bila II. mit beinahe 1000 Pferden eintreffen sollte, mußte über den weiteren Rückzug Beschluß gefaßt werden. Die Bilasche Infanterie sollte bei Pinnow, die Bagage bei Wolgast eingeschifft werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Der General Bila I. ließ noch in der Nacht zum 31. die mitgebrachten Kassen und Archive unter Führung des Hauptmanns Heyden nach Usedom einschiffen, um nach Kolberg oder Danzig zu gehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Nachdem so die Vereinigung beider Generale Bila stattgefunden, und die Nachrichten vom Anrücken des Feindes sich vermehrt hatten, ließ der General Bila I. am 31. Morgens die in Anklam anwesenden Truppen antreten, die Bagage aber nach Pinnow abgehen, damit diese übergesetzt wäre, bevor die Truppen einträfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Der Major Nostitz von vac. Grävenitz ging voraus zur Einrichtung der Fähranstalten. Seinem Bruder überließ es der General, bei Wolgast die Peene zu passiren und dahin ebenfalls einen Offizier vorauszuschicken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Der General beabsichtigte in der Nacht nach Pinnow abzumarschiren, und würde dies Vorhaben auch wohl ungestört ausgeführt haben, wenn das Unglück ihm nicht einen Parlamentair zugeführt hätte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Da hierzu noch die Ermüdung von Leuten und Pferden, die Vorstellung, auf der Insel Usedom nicht leben zu können, und das Gesuch der Stadt Anklam hinzutrat, sie nicht durch eine weitere Vertheidigung der Peene zu ruiniren, so nahm der General in Uebereinstimmung mit seinem Bruder, der noch gar keine Anstalten getroffen hatte, bei Lassahn oder Wolgast über die Peene zu gehen, die Kapitulation an, und ergab sich dem Feinde mit 1100 Mann Infanterie und 1073 Pferden am 1. November."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Höpfner has Murat hurry to Pasewalk, from where Beker's dragoon brigade was set moving on Anklam (OCR passages), and Murat had Beker summon the corps there, which Beker reported he had done; the French appeared before Anklam as Bila I was leaving it, attacked what remained on the left bank, made as if to cross at Stolpe and sent a parlementaire to summon the general. Side B held the Peene bridge until the parlementaire came, then capitulated.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded A_attacked: side A advanced on Anklam, attacked and summoned side B, which defended the bridge and capitulated. Tagged inherited: the move on Anklam and the summons were Murat's orders, given before the engagement; the attacks and demonstrations Beker made under them are in claim side-a-command. English renderings (ours): Höpfner, as in claims side-a-objectives for the Grand Duke's arrangements (OCR), side-a-strength for Becker's brigade (OCR), side-b-command for Bila I leaving Anklam and side-a-command for Stolpe and the parlementaire; 'at this moment, however, the enemy also appeared before Anklam, and Captain Poyda with the rear guard left behind in the town barely had time to draw up the Peene bridge'; 'it was the dragoon brigade Becker that appeared before the two generals Bila. As the French had no'; 'guns with them, Captain Poyda defended the Peene bridge steadfastly, while General Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; Beker, 'General Beker to the Grand Duke of Berg. Anklam, 31 October 1806'; 'having observed with General Boussard during the day a corps of 2,000 men who had taken refuge in Pomerania, having had'; 'everything that remained on the left bank of the river charged, and taken in various attacks more than 300 cavalry and as many infantry, I have succeeded, by multiplying my demonstrations and summoning the general to give himself up as a prisoner, in forcing him to accept the capitulation that has been customary in such circumstances'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Sobald Stettin über war, traf der Großherzog von Berg alle Veranſtaltungen, die Kolonnen, welche ſuchen würden, Stet⸗ tin durch ein Ausbiegen nach Norden zu erreichen, von der Oder abzuſchneiden, bevor ſie noch von dem Fall des Platzes unterrich⸗ tet ſein und eine andere Richtung einſchlagen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 220 (OCR page boundaries; not checked against print)",
+          "quote": "Er eilte daher mit der Dragoner-Diviſion Grouchy und der Infanterie⸗ Diviſion Süchet noch am 30. von Löcknitz nach Paſewalk, von wo die bereits dahin vorausgegangene Dragoner-Brigade Becker ſogleich nach Anklam in Bewegung geſetzt wurde."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Um 7 Uhr Morgens verließ der General Bila I. Anklam und sandte nun erst eine Ordonnanz zum Rittmeister Hiller nach Görke mit dem Befehl, durch Anklam zu marschiren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "In diesem Augenblick erschien aber auch der Feind vor Anklam und der Hauptmann Poyda mit der in der Stadt zurückgebliebenen Arriergarde hatte kaum so viel Zeit, die Peenebrücke aufzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Es war die Dragoner-Brigade Becker, die den beiden Generalen Bila gegenüber erschien. Da die Franzosen keine Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "schütze mit sich führten, so vertheidigte auch der Hauptmann Poyda die Peenebrücke standhaft, während der General Bila I. mit der Infanterie hinter dem langen Peenedamm zwischen Ziethen und Relzow aufgestellt stand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Der Feind machte Miene, die Peene oberhalb bei Stolpe zu überschreiten, glückte indessen damit nicht."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nAnklam, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p562-figures-v1",
+          "section": "p562",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 562 (transcribed from the page image)",
+          "quote": "Après avoir observé avec le général Boussard pendant la journée un corps de 2,000 hommes réfugiés en Poméranie, après avoir fait"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "charger tout ce qui est resté sur la rive gauche de la rivière et pris dans différentes attaques plus de 300 cavaliers et autant de fantassins, je suis parvenu, en multipliant mes démonstrations, en sommant le général de se constituer prisonnier, à le forcer d'accepter la capitulation qui a été en usage dans de pareilles circonstances."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "Alsbald hörte das Feuer auf, da dieser Offizier einen Parlamentair annahm und zum General Bila I. sandte. Der Franzose forderte den General auf, sich zu ergeben, da Stettin kapitulirt habe."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no fortification at Anklam: Höpfner has the Peene bridge drawn up and held by Captain Poyda's rear guard, with Bila I's infantry behind the long Peene causeway; Murat writes that the rest of the enemy corps raised the drawbridge, and Beker, halted at Cosenow, that the town was closed (OCR passage). No works are named for side A.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe a held river bridge that could be drawn up and a closed town, and name no fortification. English renderings (ours): Höpfner, 'at this moment, however, the enemy also appeared before Anklam, and Captain Poyda with the rear guard left behind in the town barely had time to draw up the Peene bridge'; 'it was the dragoon brigade Becker that appeared before the two generals Bila. As the French had no'; 'guns with them, Captain Poyda defended the Peene bridge steadfastly, while General Bila I stood with the infantry behind the long Peene causeway between Ziethen and Relzow'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'I had the honour to announce to you this morning that I was marching on Friedland, and that I would have summoned by General'; 'Beker the enemy corps that was at Anklam, while General Lasalle would push before him everything on the road from Stettin to Anklam, making for Stretense'; 'General Beker reports to me that he has indeed carried out my order, but that he has taken prisoner only the tail of this corps, the rest having crossed the Peene in the night and raised the drawbridge on him. 400 men have fallen into his power, of whom 260 mounted cuirassiers'; Beker, as in claim side-a-command (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "In diesem Augenblick erschien aber auch der Feind vor Anklam und der Hauptmann Poyda mit der in der Stadt zurückgebliebenen Arriergarde hatte kaum so viel Zeit, die Peenebrücke aufzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Es war die Dragoner-Brigade Becker, die den beiden Generalen Bila gegenüber erschien. Da die Franzosen keine Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p226-figures-v1",
+          "section": "p226",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 226 (transcribed from the page image)",
+          "quote": "schütze mit sich führten, so vertheidigte auch der Hauptmann Poyda die Peenebrücke standhaft, während der General Bila I. mit der Infanterie hinter dem langen Peenedamm zwischen Ziethen und Relzow aufgestellt stand."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "J'ai eu l'honneur de vous annoncer ce matin¹ que je marchais sur Friedland, et que je ferais sommer par le général"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Beker le corps ennemi qui se trouvait à Anklam, tandis que le général Lasalle pousserait devant lui tout ce qui se trouvait sur la route de Stettin à Anklam, en se portant sur Stretense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p564-figures-v1",
+          "section": "p564",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 564 (transcribed from the page image)",
+          "quote": "Le général Beker me rend compte qu'il a effectivement exécuté mon ordre, mais qu'il n'a fait prisonnière que la queue de ce corps, le reste ayant passé la Peene dans la nuit, et ayant levé sur lui le pont-levis. 400 hommes sont tombés en son pouvoir dont 260 cuirassiers montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p530-figures-v1",
+          "section": "p530",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 530 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BEKER AU GRAND-DUC DE BERG.\n\nCosenow, 30 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "stettin-pasewalk-30-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 531 (OCR page boundaries; not checked against print)",
+          "quote": "Comme le brouillard augmente l'obscurité et que la ville est fermée, j'ai fait halte à Cosenow, et demain à la pointe du jour je sommerai l'officier commandant les troupes de les constituer prison- nières."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the return of the column Beker promised and the return of prisoners by arm and regiment that Belliard asked for (Foucart t. II, p. 596, OCR); a text of the capitulation, if one was written, since Belliard had ordered no more written capitulations; Mathieu Dumas's account, read only as Höpfner quotes it; Murat's letter of the evening of 31 October, to which his letter of 1 November refers, not located; Foucart's footnote on pp. 563-564; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests; Belliard's report to the Major General (Foucart t. II, p. 620, read for the Wolgast entry), whose wagons of flour, grain and baggage taken in the night are taken at a place it does not name and are not assigned to this entry. Figures seen only in the OCR and not restated: the marches, hours and distances of the two Bila columns before Anklam (Höpfner, pp. 220-224), the Prince of Solms-Braunfels's crossing to Usedom (p. 224), Beker's figure in his letter to Lasalle (Foucart t. II, p. 566) and the calibre of the gun Belliard sent (p. 596).",
+    "Most consequential gap: side B's strength, and what was taken in the fighting as against at the capitulation. Höpfner's 1100 infantry and 1073 horses, Bodart's 2,200, Beker's count of 1,200 and some mounted cavalry and more than 1,500 infantry, and the 4,000 of the Bulletin and Dumas cannot all describe the same body, and Murat's 400 taken in the tail and Beker's more than 300 cavalry and as many infantry may or may not be inside them. Beker's promised return, or the return Belliard asked for, could settle it.",
+    "Disputes kept as separate claims: side B's strength (as above, with the postillon's 6,000, Beker's 2,000 and then 3,000 with 1,000 to 1,200 cavalry, and Murat's 3,000 to 4,000 with 1,400 or 1,500 horses); side B's guns (none, the postillon; guns, Murat; 4 horsed guns, Beker's count; Höpfner names none); the course of the action (Höpfner: a bridge held until a parlementaire came and Hiller's detachments captured outside the town, with no charge; Murat on 31 October: only the tail taken, the rest across the Peene behind a raised drawbridge; Murat on 1 November: a very vigorous charge in the town; the Bulletin and Dumas: a charge on the plain and an entry into the town with the enemy, which Höpfner calls 'so many words, so many untruths'); the French loss (an adjudant sous-officier and a few dragoons, Murat, in a charge that Höpfner's narrative does not have); who commanded side B (General v. Bila, Bodart; the brothers Bila I and Bila II, Höpfner; 2 generals, Beker); names as printed (Becker and Beker; Boussard, Boussart and Broussart).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 1,100 infantry and 1,100 cavalry are Höpfner's 1100 infantry and 1073 horses rounded up, and his 2,200 their sum, by our arithmetic); Foucart, t. II (the French side's documents: Lasalle's, Belliard's, Beker's and Murat's letters and the 25th Bulletin from the page images, with further letters from the OCR; Murat's letters pass on Beker's reports); Höpfner, Bd. 2, 2nd edition (the Prussian side's history, quoting Mathieu Dumas for the French account; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Anklam passage names no source)."
+  ]
+}
+```
+
 
 ### B375e: KAPITULATION von Wolgast (3./11. 1806)
 
@@ -13825,6 +19570,1577 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": false,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B375e",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Wolgast entry (capitulation, 3 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian baggage columns of Major Langwerth and Lieutenant Colonel Prittwitz at Wolgast and the French parties that took them, from the arrival of the news of the Anklam capitulation at Wolgast to Langwerth's capitulation, negotiated at Anklam through Count Henckel, and Prittwitz's, signed at Wolgast on 2 November and carried out on the morning of 3 November. The columns' marches, Murat's orders that sent the parties over the Peene and the baggage that had crossed to Usedom are context; the capitulation of the Bila columns at Anklam is a separate entry and is not counted here. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart prints no strength for side A (French), the French under Colonel Daru. He gives side B (Prussian) as 2,500 Prussians, mostly train troops, under Lieutenant Colonel v. Prittwitz and Major v. Langwerth, with 500 wagons and the war chest, whom the French forced to capitulate; the detachment and all its baggage became prisoners of war and the officers were released on parole. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner and the French documents give other accounts (claims side-b-strength, side-b-strength-french, side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 3/11. capitulation of Wolgast'; 'the French under Colonel Daru force 2,500 Prussians under Lieutenant Colonel v. Prittwitz and Major v. Langwerth (mostly train troops) with 500 wagons and the war chest to capitulate, after which the detachment with all the baggage became prisoners of war. The officers were released on their word of honour'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 3./11. KAPITULATION von Wolgast"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Oberst Daru zwingen 2.500 Preußen unter Obstlt. v. Prittwitz und Major v. Langwerth (zumeist Traintruppen) mit 500 Wägen und der Kriegskasse zur Kapitulation, wonach das Detachement mit der ganzen Bagage in Kriegsgefangenschaft geriet. Die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: two columns. Major Langwerth had left Genthin on 22 October with the baggage of Prince Hohenlohe's troops, escorted in part by a company of the regiment Treuenfels; swollen by all the baggage that had followed from Magdeburg, his column was 500 wagons with 2500–3000 horses by the time it reached Friedland on the 28th. Lieutenant Colonel Prittwitz, the intendant, had left Lindow on the 26th with the army's war chest, the commanders' chaises left behind, pack horses and the sick on requisitioned wagons, escorted by the grenadier battalion Sack and 40 horses, with a crowd of unarmed men. The baggage marched from Anklam for Wolgast covered by the grenadier battalion Sack and a Treuenfels company, which occupied Anklam, with Captain Freyberg of the König von Bayern dragoons forming the outposts; the flour column stayed at Anklam, and General Bila I, arriving there, ordered the grenadier battalion Sack and the Treuenfels company to join his corps. At Wolgast the means of crossing were so poor that only Freyberg's cavalry escort and the baggage of 3 cavalry regiments had crossed when the news of the Anklam capitulation came. Lieutenant Tralles's park column No. 8, which had joined the baggage, burned its vehicles and threw its munitions into the water.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 225, 227, 228, 230 and 232, with the end of the sentence on the news from Anklam from the OCR. The columns were brought from the retreat, so the claim is tagged inherited. Höpfner gives no count of the men left at Wolgast. English renderings (ours): 'Major Langwerth, who had left Genthin on 22 October with the baggage of the troops of Prince Hohenlohe'; '[the auxiliary ending that clause,] reached Wittstock on the 25th as ordered. The column had gradually grown very considerably through all the baggage that had left Magdeburg later and followed it, so that the march went forward with extreme difficulty'; 'the company of Treuenfels belonged to the escort of the baggage that had left Genthin under Major Langwerth'; 'on the 27th Neu-Brandenburg was reached, on the 28th Friedland, where the column had reached a strength of 500 wagons with 2500–3000 horses'; 'Lieutenant Colonel and Intendant Prittwitz had, as already related, left the army on the 26th from Lindow with the war chest of the army, the commanders' chaises still left behind, pack horses and the sick carried on requisitioned wagons, under the escort of the grenadier battalion Sack and 40 horses. A crowd of unarmed men had joined him'; 'when General Bila I arrived at Anklam at 10 o'clock in the evening, he ordered that the grenadier battalion Sack and the company of Treuenfels should join his corps'; 'at 10 o'clock in the evening of the 30th the march was begun, covered by the grenadier battalion Sack and a company of Treuenfels, which occupied Anklam, while Captain Freyberg of the König von Bayern dragoons formed the outposts'; 'only the flour column stayed in Anklam, to secure the great need of bread for the troops. Officers had gone ahead to round up boats and workers at Wolgast'; 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); 'Lieutenant Tralles's park column No. 8, which had joined the baggage, had used the time to burn its vehicles and throw the munitions into the water'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Der Major Langwerth, der am 22. Oktober mit der Bagage der Truppen des Fürsten Hohenlohe von Genthin abgegangen"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "war, erreichte dem Befehle gemäß am 25. Wittstock. Die Kolonne hatte sich durch alle die Bagage, die später aus Magdeburg gegangen und ihr nachgezogen war, allmälig sehr bedeutend vermehrt, so daß der Marsch äußerst beschwerlich von Statten ging."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Die Kompagnie von Treuenfels gehörte zur Bedeckung der Bagage, die unter dem Major Langwerth von Genthin abgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "Am 27. erreichte man Neu-Brandenburg, am 28. Friedland, wo die Kolonne eine Stärke von 500 Wagen mit 2500—3000 Pferden erreicht hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "Der Oberstlieutenant und Intendant Prittwitz war, wie früher bereits mitgetheilt worden, am 26. von Lindow mit der Kriegskasse der Armee, den noch zurückgebliebenen Kommandeurchaisen, Packpferden und den auf Vorspannwagen transportirten Kranken unter der Bedeckung des Grenadierbataillons Sack und 40 Pferden von der Armee abgegangen. Eine Menge Unbewaffneter hatte sich ihm angeschlossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Als der General Bila I. um 10 Uhr Abends in Anklam eintraf, befahl er, daß das Grenadier-Bataill. Sack und die Kompagnie von Treuenfels zu seinem Korps stoßen sollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Um 10 Uhr Abends am 30. wurde der Marsch angetreten, gedeckt durch das Grenadier-Bataillon Sack und eine Kompagnie von Treuenfels, welche Anklam besetzten, während Hauptmann Freyberg von König von Bayern-Dragonern die Vorposten bildete."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Nur die Mehl-Kolonne blieb in Anklam, um den großen Bedarf an Brod für die Truppen sicher zu stellen. Offiziere waren vorausgegangen, um Schiffsgefäße und Arbeiter bei Wolgast zusammenzutreiben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Die Parkkolonne Nr. 8. des Lieutenants Tralles, die sich der Bagage angeschlossen, hatte die Zeit benutzt, die Fahrzeuge verbrannt und die Munition ins Wasser geworfen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Déry reported about 2,000 men of all arms at Wolgast, 84 officers and 4,000 to 5,000 horses of dragoons, hussars and caissons, and the capitulation calls the force the garrison of Wolgast, made up of the depots of the regiments of the Prussian army. The report on Captain Guérin's detachment gives 800 men of various cavalry depots of all arms, 1,500 infantry of various corps forming small depots, and 300 caissons or horsed vehicles. Boyer wrote from Anklam that the enemy had only columns of equipages left. Murat wrote from Demmin on 2 November that all the equipages of the army, escorted by about 1,000 men, had passed through the town all the previous day, and that he had sent Déry after them; Belliard reported from Demmin that before the bridge over the Peene was cut many equipages and stray men had crossed into Pomerania, making for Greifswald or Stralsund.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images of pp. 620-621 and 626-628; not reconciled with each other or with Höpfner's and Bodart's (claims side-b-strength, bodart-strength). Höpfner brings Langwerth's and Prittwitz's columns to the Peene by Friedland and Anklam, not by Demmin, so whether Murat's equipages and their escort are the train taken at Wolgast is not shown. The columns were brought from the retreat, so the claim is tagged inherited. English renderings (ours): Déry, 'Chef d'escadron Déry to the Grand Duke of Berg. Wolgast, 2 November 1806'; 'I have the honour to send you herewith the capitulation made between Lieutenant Colonel de Prittwitz and me. There are at this'; 'moment at Wolgast about 2,000 men of all arms, 84 officers and 4,000 to 5,000 horses of dragoons, hussars and caissons. The King's treasure of 10 millions had already gone off 6 days ago by Anklam. I found at Wolgast only one regimental chest containing 1,000 francs in small change'; the capitulation, '1. Capitulation of the garrison of Wolgast between the lieutenant colonel and intendant M. de Prittwitz and M. Déry, lieutenant colonel, aide-de-camp of His Imperial Highness the Grand Duke of Berg'; 'Art. 1. The garrison of Wolgast, made up of the depots of the regiments of the Prussian army, is prisoner of war; it will march out of the place tomorrow at 9 o'clock, lay down its arms on the glacis and hand over all the horses, wagons and other effects belonging to His Majesty the King of Prussia'; '2. The officers of the different regiments will keep their arms,'; 'horses and baggage; they will pledge their word of honour not to serve against His Majesty the Emperor and King until duly exchanged; they will receive passports to return to their homes. The footmen will return home'; '3. All the chests of the regiments, those belonging to the King and those that may be on the island of Usedom will be faithfully handed over'; 'done at Wolgast, 2 November. Prittwitz. Déry'; the report, 'report of the detachment of Captain Guérin, of the 10th dragoons, which left Demmin on 2 November with 50 men of the regiment and 50 men of the 11th'; 'this detachment left Demmin at 2 o'clock in the morning, made for Wolgast (Swedish Pomerania), marching in pursuit of the baggage of the Prussian army'; 'the detachment arrived near Wolgast at nightfall, fell on the enemy outposts and took them prisoner; as soon as the outposts had been carried, Captain Guérin sent M. Coulon, sub-lieutenant of the regiment, with a trumpeter to summon'; 'the enemy corps to surrender. This summons was accepted; 800 men of various cavalry depots of all arms, 1,500 infantry of various corps, forming small depots, and 300 caissons or horsed vehicles were the result of this affair'; 'Colonel Dommanget, of the 10th dragoons'; Boyer, 'Chef d'escadron Boyer to General Belliard. Anklam, 2 November 1806'; 'I am going to cross into Sweden with 25 men to reconnoitre the march of the enemy, who, according to the information I have, is passing onto the island of Usedom, chiefly by Wolgast; but he has only columns of equipages left, to which I have had Major Langvert tell them that I granted them the same capitulation as him. They will arrive tomorrow; but, General, please give me orders about these horses and baggage'; Murat, 'the Grand Duke of Berg to the Emperor. Demmin, 2 November 1806, 10 o'clock in the morning'; 'there passed through this town yesterday, all day long, all the equipages of the army escorted by about 1,000 men; I have sent after them my aide-de-camp Déry with 1 squadron of dragoons by the bridge of Demmin, and 1 squadron of hussars by Jarmen toward Gützkow to take them in flank, while my squadron of dragoons will stop their head at Anklam. The first convoy having capitulated this night at Anklam, I have reason to think that everything that has crossed the Peene will capitulate likewise'; Belliard, 'General Belliard to the Major General. Demmin, 1 November 1806, 9 o'clock in the morning'; 'the bridge over the Peene had been cut; before it was broken many equipages and stray men had crossed into Pomerania, following the Peene and making for Greifswald or Stralsund;'; 'it appears that the Swedes will not let them pass, for a convoy of equipages escorted by various detachments has sent 2 officers by Anklam to capitulate, which was done in the night'; 'this morning 3 squadrons crossed the Peene at Demmin, Jarmen and Anklam to set off in pursuit of all the detachments and baggage that threw themselves into Pomerania yesterday,'; footnote 1, 'this report bears as its date in the register 1 November, 9 o'clock in the morning. It is entered in the middle of the correspondence of 2 November. It is probable that it was begun on the evening of the 1st and finished only on the 2nd at 9 o'clock in the morning, from the phrase This morning 3 squadrons.... It should be dated at the head Demmin, 1 November, and at the foot, 2 November, 9 o'clock in the morning'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "moment à Wolgast environ 2,000 hommes de toutes armes, 84 officiers et 4,000 à 5,000 chevaux de dragons, hussards et de caissons. Le trésor du Roi de 10 millions avait déjà filé depuis 6 jours par Anklam. Je n'ai trouvé à Wolgast qu'une caisse de régiment contenant 1,000 fr. en petite monnaie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "1. Capitulation de la garnison de Wolgast entre le lieutenant-colonel et intendant M. de Prittwitz et M. Déry, lieutenant-colonel, aide de camp de S. A. I. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Art. 1er. — La garnison de Wolgast, composée des dépôts des régiments de l'armée prussienne, est prisonnière de guerre; elle sortira demain à 9 heures de la place, déposera les armes sur le glacis et remettra tous les chevaux, fourgons et autres effets appartenant à S. M. le roi de Prusse."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "2. — MM. les officiers des différents régiments conserveront leurs armes,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "chevaux et bagages; ils s'engageront sur leur parole d'honneur à ne pas servir contre S. M. l'Empereur et Roi jusqu'à parfait échange; ils recevront des passeports pour retourner dans leurs foyers. Les valets de pied retourneront chez eux."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "3. — Toutes les caisses des régiments, celles appartenant au Roi et celles qui peuvent se trouver dans l'île d'Usedom seront remises fidèlement."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Fait à Wolgast, le 2 novembre.\n\nPRITTWITZ. DÉRY."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Le détachement est arrivé à nuit close près de Wolgast, est tombé sur les avant-postes ennemis, les a fait prisonniers; aussitôt les avant-postes enlevés, le capitaine Guérin détacha M. Coulon, sous-lieutenant du régiment, avec un trompette, pour aller sommer"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "le corps ennemi de se rendre. Cette sommation fut acceptée; 800 hommes de divers dépôts de cavalerie de toutes armes, 1,500 hommes d'infanterie de divers corps, formant des petits dépôts, et 300 caissons ou voitures attelées furent le résultat de cette affaire."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON BOYER AU GÉNÉRAL BELLIARD.\n\nAnklam, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Je vais passer en Suède avec 25 hommes pour reconnaître la marche de l'ennemi qui, d'après les renseignements que j'ai, passe dans l'île d'Usedom, principalement par Wolgast; mais il n'a plus que des colonnes d'équipages à qui j'ai fait dire par le major Langvert que je leur accordais la même capitulation qu'à lui. Elles arriveront demain; mais, mon Général, veuillez me donner des ordres sur ces chevaux et bagages."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\nDemmin, 1er novembre 1806, 9 heures du matin¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Le pont sur la Peene avait été coupé; avant sa rupture beaucoup d'équipages, des hommes égarés avaient passé dans la Poméranie longeant la Peene et se dirigeant sur Greifswald² ou Stralsund;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "il paraît que les Suédois ne veulent pas les laisser passer, car un convoi d'équipages escorté par différents détachements a envoyé 2 officiers par Anklam pour capituler, ce qui a été fait dans la nuit....."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Ce matin 3 escadrons ont passé la Peene à Demmin, Jarmen et Anklam pour se mettre à la poursuite de tous les détachements et bagages qui se sont jetés dans la Poméranie hier,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "1. Ce rapport porte comme date sur le registre, 1er novembre, 9 heures du matin. Il est enregistré au milieu de la correspondance du 2 novembre. Il est probable qu'il a été commencé le 1er au soir et terminé seulement le 2 à 9 heures du matin, depuis la phrase Ce matin 3 escadrons.... Il devrait être daté en tête Demmin, 1er novembre et au bas, 2 novembre, 9 heures du matin."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart names the French under Colonel Daru and gives no strength. Höpfner: a French raiding party under Colonel Darü approached Wolgast. Murat wrote to the Emperor from Demmin on 2 November that he had sent his aide-de-camp Déry after the Prussian equipages with 1 squadron of dragoons by the bridge of Demmin and 1 squadron of hussars by Jarmen toward Gützkow, to take them in flank, while his squadron of dragoons stopped their head at Anklam. In the Prince's name Belliard ordered Lasalle to send a squadron of his brigade over the Peene at Jarmen toward Gützkow, adding that 2 squadrons of dragoons were crossing at Demmin and Anklam, and told Boyer that a squadron of hussars was crossing at Jarmen and one of dragoons at Demmin; his report to the Major General has 3 squadrons crossing the Peene at Demmin, Jarmen and Anklam. Déry wrote from Wolgast that he would leave 50 men from the 2 detachments of dragoons and hussars to escort the captured train and rejoin Murat with the rest of his troop; a note gives these as a dragoon detachment from Demmin and a hussar detachment from Jarmen. The report on Captain Guérin's dragoon detachment has it leave Demmin with 50 men of the 10th dragoons and 50 of the 11th. No passage read gives the strength of the hussar squadron, so no total for side A is given.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart, Höpfner and the French documents, read from the page images; the letters of pp. 618-621 were read as this battle's targeted follow-up, the note on p. 627 referring to p. 618. Guérin's detachment numbers 100 men (our arithmetic). The squadron at Anklam is not counted here. A remark printed after Déry's letter says that he does not mention the detachments with him and that Guérin does not appear to have been under his orders (claim side-a-command). English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'meanwhile an enemy raiding party under Colonel Darü approached the town of Wolgast. Lieutenant Colonel Prittwitz, who had meanwhile also arrived from Usedom, was summoned to surrender by a parlementaire'; Murat, 'the Grand Duke of Berg to the Emperor. Demmin, 2 November 1806, 10 o'clock in the morning'; 'there passed through this town yesterday, all day long, all the equipages of the army escorted by about 1,000 men; I have sent after them my aide-de-camp Déry with 1 squadron of dragoons by the bridge of Demmin, and 1 squadron of hussars by Jarmen toward Gützkow to take them in flank, while my squadron of dragoons will stop their head at Anklam. The first convoy having capitulated this night at Anklam, I have reason to think that everything that has crossed the Peene will capitulate likewise'; Belliard, 'General Belliard to General Lasalle. Demmin, 2 November 1806, half past six in the morning'; 'the Prince orders you to have a squadron of your brigade cross the Peene at Jarmen to make for Gützkow, which appears to be the route the equipages of the Prussian army have followed; cross at Demmin; you will stop everything you can find, and the Prince orders that all the chests be kept intact (the same order as for chef d'escadron Boyer)'; 'the squadron that crosses the Peene may fall back on Anklam or on Demmin as circumstances allow; 2 squadrons of dragoons are crossing the Peene at Demmin and at Anklam to scour the country'; 'General Belliard to chef d'escadron Boyer, at Anklam. Demmin, 2 November 1806, 6 o'clock in the morning'; 'the Prince orders you to cross the Peene with 25 men to reconnoitre the route the enemy has followed to reach the island. You will summon all the parties you meet to surrender and grant them the same conditions as those who have already surrendered'; 'a squadron of hussars is crossing the Peene at Jarmen and one of dragoons at Demmin. If you find the Swedes, you will not begin hostilities with them, but if they oppose your march, you will reply'; as in claim side-b-strength-french for the report to the Major General; Déry, as in claim side-b-strength-french for the heading; 'I shall leave for the escort of these equipages 50 men taken from the 2 detachments of dragoons and hussars, and tomorrow I shall try to rejoin Your Imperial Highness at Demmin with the rest of my troop'; the note, '1. Detachment of dragoons that left Demmin and detachment of hussars that left Jarmen. For the latter detachment see General Lasalle's order, page 618'; the report, as in claim side-b-strength-french; its note, '2. Detachment taken in equal numbers from the 2 regiments of the brigade'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Oberst Daru zwingen 2.500 Preußen unter Obstlt. v. Prittwitz und Major v. Langwerth (zumeist Traintruppen) mit 500 Wägen und der Kriegskasse zur Kapitulation, wonach das Detachement mit der ganzen Bagage in Kriegsgefangenschaft geriet. Die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Während dessen näherte sich eine feindliche Streifpartei unter dem Obersten Darü der Stadt Wolgast. Der Oberst-Lieutenant Prittwitz, der mittlerweile ebenfalls von Usedom eingetroffen war, wurde durch einen Parlamentair zur Uebergabe aufgefordert."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL LASALLE.\n\nDemmin, 2 novembre 1806, 6 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous fassiez passer la Peene à Jarmen à un escadron de votre brigade pour se porter sur Gützkow² qui paraît être la route qu'ont suivie les équipages de l'armée prussienne; passez à Demmin; vous arrêterez tout ce que vous pourrez trouver et le Prince ordonne qu'on conserve intactes toutes les caisses (même ordre que pour le chef d'escadron Boyer)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "L'escadron qui passera la Peene pourra rabattre sur Anklam ou sur Demmin suivant les circonstances; 2 escadrons de dragons passent la Peene à Demmin et à Anklam pour battre la campagne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU CHEF D'ESCADRON BOYER, A ANKLAM.\n\nDemmin, 2 novembre 1806, 6 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous passiez la Peene avec 25 hommes pour reconnaître la route qu'a suivie l'ennemi pour se rendre dans l'île. Vous sommerez de se rendre tous les partis que vous rencontrerez et vous leur accorderez les mêmes conditions qu'à ceux qui se sont déjà rendus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "Un escadron de hussards passe la Peene à Jarmen et un de dragons à Demmin. Si vous trouvez les Suédois, vous ne commencerez pas les hostilités avec eux, mais, s'ils s'opposaient à votre marche, vous riposteriez."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\nDemmin, 1er novembre 1806, 9 heures du matin¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Le pont sur la Peene avait été coupé; avant sa rupture beaucoup d'équipages, des hommes égarés avaient passé dans la Poméranie longeant la Peene et se dirigeant sur Greifswald² ou Stralsund;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "il paraît que les Suédois ne veulent pas les laisser passer, car un convoi d'équipages escorté par différents détachements a envoyé 2 officiers par Anklam pour capituler, ce qui a été fait dans la nuit....."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Ce matin 3 escadrons ont passé la Peene à Demmin, Jarmen et Anklam pour se mettre à la poursuite de tous les détachements et bagages qui se sont jetés dans la Poméranie hier,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "1. Ce rapport porte comme date sur le registre, 1er novembre, 9 heures du matin. Il est enregistré au milieu de la correspondance du 2 novembre. Il est probable qu'il a été commencé le 1er au soir et terminé seulement le 2 à 9 heures du matin, depuis la phrase Ce matin 3 escadrons.... Il devrait être daté en tête Demmin, 1er novembre et au bas, 2 novembre, 9 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Je laisserai pour l'escorte de ces équipages 50 hommes pris dans les 2 détachements de dragons et de hussards¹, et demain je tâcherai de rejoindre V. A. I. à Demmin avec le reste de ma troupe."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "1. Détachement de dragons parti de Demmin et détachement de hussards parti de Jarmen. Voir pour ce dernier détachement l'ordre du général Lasalle, page 618."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "2. Détachement pris en nombre égal dans les 2 régiments de la brigade."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Colonel Daru as side A's (French) commander and Lieutenant Colonel v. Prittwitz and Major v. Langwerth as side B's (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner names a raiding party under Colonel Darü; the capitulation Foucart prints is between Prittwitz and Déry, chef d'escadron in the heading of his letter and lieutenant colonel and aide-de-camp of the Grand Duke of Berg in the capitulation; in Höpfner, Langwerth's column capitulated separately through Rittmeister Count Henckel at Anklam (claims side-a-command, side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Oberst Daru"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Obstlt. v. Prittwitz und Major v. Langwerth"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Count Bronikowski (claim side-b-command) had already given the officer of the 22nd dragoon regiment commanding at Anklam such an account of the column's state that Count Henckel, on his arrival, could only conclude a capitulation for Langwerth's column, by which the escort laid down its arms as prisoners of war, the officers, NCOs and men kept their property, royal property was handed over, and nothing more might cross the Peene after 6 in the afternoon of 1 November. Meanwhile a French raiding party under Colonel Darü approached Wolgast and summoned Prittwitz by a parlementaire, demanding all the chests and the property of the absent officers; the latter demand was dropped. Foucart prints Boyer's letter from Anklam of 2 November, saying that he had had Major Langwerth tell the remaining columns of equipages that he granted them the same capitulation; Déry's letter from Wolgast sending Murat the capitulation made between Prittwitz and himself; and the report on Captain Guérin's detachment, which left Demmin at 2 in the morning in pursuit of the Prussian baggage, fell on the enemy outposts at nightfall and took them, and sent Sub-Lieutenant Coulon with a trumpeter to summon the enemy, which accepted. A remark printed after Déry's letter says that Déry does not mention the detachments with him and that Guérin does not appear to have been under his orders.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner and the French documents, read from the page images. The summonses and terms were the French officers' own steps at Anklam and Wolgast; Murat's orders that sent the parties are in claim posture. English renderings (ours): Höpfner, 'Count Bronikowski had already given the officer of the 22nd dragoon regiment commanding in Anklam such an account of the state of the column that nothing remained for Count Henckel on his arrival but to conclude a capitulation for the Langwerth column (he did not name the Prittwitz column). The terms ran'; '1) the escort lays down its arms and is prisoner of war'; '2) the officers keep their property, like the non-commissioned officers and men; royal property is handed over'; '3) from 6 o'clock in the afternoon of 1 November nothing more may cross the Peene, and whatever crosses is included in the capitulation'; 'meanwhile an enemy raiding party under Colonel Darü approached the town of Wolgast. Lieutenant Colonel Prittwitz, who had meanwhile also arrived from Usedom, was summoned to surrender by a parlementaire'; 'he tried in vain to make the Frenchman understand the difference between royal and regimental chests; the delivery of all chests was demanded, as well as the property of the absent officers'; 'as at last at least the latter demand was dropped, Lieutenant Colonel Prittwitz had to resolve to conclude a second capitulation, which thus differed from the first in that the regimental chests too were handed over. It was carried out on the morning of 3 November'; Boyer, 'Chef d'escadron Boyer to General Belliard. Anklam, 2 November 1806'; 'I am going to cross into Sweden with 25 men to reconnoitre the march of the enemy, who, according to the information I have, is passing onto the island of Usedom, chiefly by Wolgast; but he has only columns of equipages left, to which I have had Major Langvert tell them that I granted them the same capitulation as him. They will arrive tomorrow; but, General, please give me orders about these horses and baggage'; Déry, 'Chef d'escadron Déry to the Grand Duke of Berg. Wolgast, 2 November 1806'; 'I have the honour to send you herewith the capitulation made between Lieutenant Colonel de Prittwitz and me. There are at this'; the report, 'report of the detachment of Captain Guérin, of the 10th dragoons, which left Demmin on 2 November with 50 men of the regiment and 50 men of the 11th'; 'this detachment left Demmin at 2 o'clock in the morning, made for Wolgast (Swedish Pomerania), marching in pursuit of the baggage of the Prussian army'; 'the detachment arrived near Wolgast at nightfall, fell on the enemy outposts and took them prisoner; as soon as the outposts had been carried, Captain Guérin sent M. Coulon, sub-lieutenant of the regiment, with a trumpeter to summon'; 'the enemy corps to surrender. This summons was accepted; 800 men of various cavalry depots of all arms, 1,500 infantry of various corps, forming small depots, and 300 caissons or horsed vehicles were the result of this affair'; 'Colonel Dommanget, of the 10th dragoons'; the remark, 'M. Déry does not speak in his report of the detachments that accompanied him, and Captain Guérin, commanding the detachment of dragoons, does not appear for his part to have been under M. Déry's orders'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Graf Bronikowski¹) hatte dem in Anklam kommandirenden Offizier des 22. Dragoner-Regiments bereits einen solchen Bericht von dem Zustand der Kolonne gemacht, daß dem Grafen Henckel bei seiner Ankunft nichts übrig blieb, als für die Langwerthsche Kolonne — die Prittwitzsche nannte er nicht — eine Kapitulation abzuschließen. Die Bedingungen lauteten:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "1) Die Bedeckung legt die Waffen nieder und ist kriegsgefangen;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "2) die Offiziere behalten ihr Eigenthum, gleich den Unteroffizieren und Gemeinen, das königliche Eigenthum wird abgegeben;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "3) von Nachmittags 6 Uhr am 1. Novbr. darf nichts mehr die Peene passiren, und was übergeht, ist mit in die Kapitulation eingeschlossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Während dessen näherte sich eine feindliche Streifpartei unter dem Obersten Darü der Stadt Wolgast. Der Oberst-Lieutenant Prittwitz, der mittlerweile ebenfalls von Usedom eingetroffen war, wurde durch einen Parlamentair zur Uebergabe aufgefordert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Er versuchte vergebens dem Franzosen den Unterschied zwischen königlichen und Regimentskassen begreiflich zu machen; man verlangte die Auslieferung aller Kassen, so wie auch das Eigenthum der abwesenden Offiziere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Da endlich wenigstens die letzte Forderung nachgelassen wurde, mußte sich der Oberst-Lieutenant Prittwitz entschließen, eine zweite Kapitulation abzuschließen, die sich also von der ersteren dadurch unterschied, daß auch die Regimentskassen abgegeben wurden. Sie kam am 3. November Morgens zur Ausführung."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON BOYER AU GÉNÉRAL BELLIARD.\n\nAnklam, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Je vais passer en Suède avec 25 hommes pour reconnaître la marche de l'ennemi qui, d'après les renseignements que j'ai, passe dans l'île d'Usedom, principalement par Wolgast; mais il n'a plus que des colonnes d'équipages à qui j'ai fait dire par le major Langvert que je leur accordais la même capitulation qu'à lui. Elles arriveront demain; mais, mon Général, veuillez me donner des ordres sur ces chevaux et bagages."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Le détachement est arrivé à nuit close près de Wolgast, est tombé sur les avant-postes ennemis, les a fait prisonniers; aussitôt les avant-postes enlevés, le capitaine Guérin détacha M. Coulon, sous-lieutenant du régiment, avec un trompette, pour aller sommer"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "le corps ennemi de se rendre. Cette sommation fut acceptée; 800 hommes de divers dépôts de cavalerie de toutes armes, 1,500 hommes d'infanterie de divers corps, formant des petits dépôts, et 300 caissons ou voitures attelées furent le résultat de cette affaire."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "M. Déry ne parle pas dans son rapport des détachements qui l'accompagnaient, et le capitaine Guérin commandant le détachement de dragons n'a pas l'air de son côté de s'être trouvé sous les ordres de M. Déry."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Major Langwerth, without news of the army since the 26th and without further orders, decided at Friedland to take the road to Anklam. Prittwitz and Langwerth went ahead to Usedom to arrange supply and the crossing; Prittwitz fell mortally ill there, and Langwerth, given bad horses at the Amt Pudagta (as printed), reached Wolgast only on 1 November. When the news of the Anklam capitulation came, insubordination spread and the column dissolved; when the major came back (by the context Langwerth; the OCR line that names him is garbled) the idea of capitulating arose and many officers joined in; Rittmeister Count Henckel, who was against it, let himself be persuaded to negotiate with the French general at Anklam, and on seeing that the enemy had not yet entered Swedish territory sent Lieutenant Schmeling back to Langwerth to protest once more; but Lieutenant Count Bronikowski, who had pushed himself in as a companion, galloped into Anklam ahead of him (OCR passages) and gave the officer of the 22nd dragoon regiment commanding there such an account of the column's state that Henckel could only conclude a capitulation for Langwerth's column, not naming Prittwitz's. Höpfner notes that Bronikowski soon after entered the service of the Polish insurgents. Langwerth went to Anklam himself to get better terms. Prittwitz, summoned at Wolgast, tried in vain to separate the royal from the regimental chests and, once the demand for the absent officers' property was dropped, concluded a second capitulation that gave up the regimental chests too; it was carried out on the morning of 3 November. Höpfner finds no excuse for Langwerth's conduct but the complete exhaustion of all strength, which produced a state that excluded any vigorous measure (OCR passage for the end of the sentence); otherwise the chests could have been taken over the Peene, the horses swum across, the rest destroyed and the men ferried over by force (OCR passage).",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 228, 230 and 232, with the OCR passages marked. Höpfner does not name his sources for this passage. English renderings (ours): 'at Friedland Major Langwerth received the news that the enemy was already raiding as far as Pasewalk, news that an officer sent out confirmed. As the major had learned nothing of the army since the 26th and had received no further orders, he decided to take the road to Anklam'; 'Lieutenant Colonel Prittwitz and Major Langwerth went ahead to Usedom to make arrangements for supply and for ferrying over the Peene. The lieutenant colonel was struck down at Usedom by a mortal illness, and Major Langwerth, at the Amt Pudagta, where he had arranged everything with the officials, was given such bad horses that he could reach Wolgast only on 1 November'; 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); 'insubordination spread, and the news spread by soldiers coming back that Swinemünde too was already occupied by the French brought about a complete dissolution' (OCR); 'but when that major came back, the thought of capitulation arose with him, and many of the officers present joined in. Count Henckel was against it, but at last let himself be persuaded to undertake the negotiation and to travel to Anklam, to arrange what was necessary with the French general there' (OCR); 'but when the Rittmeister perceived that the enemy had not yet set foot on Swedish territory at all, he sent Lieutenant Schmeling, who was accompanying him, back to Major Langwerth to make representations against the capitulation once more' (OCR); 'the other accompanying officer, who had pushed himself into this company, a Lieutenant Count Bronikowski of the Henckel cuirassiers, was to wait for Rittmeister Count Henckel at the junction of the roads to Anklam, but instead rode into Anklam at a gallop' (OCR); 'to keep him from a rash step, but came too late'; as in claim side-a-command for Bronikowski's account and the terms; 'he soon afterwards went into the service of the Polish insurgents'; 'Major Langwerth went to Anklam himself to obtain better terms'; 'meanwhile an enemy raiding party under Colonel Darü approached the town of Wolgast. Lieutenant Colonel Prittwitz, who had meanwhile also arrived from Usedom, was summoned to surrender by a parlementaire'; 'he tried in vain to make the Frenchman understand the difference between royal and regimental chests; the delivery of all chests was demanded, as well as the property of the absent officers'; 'as at last at least the latter demand was dropped, Lieutenant Colonel Prittwitz had to resolve to conclude a second capitulation, which thus differed from the first in that the regimental chests too were handed over. It was carried out on the morning of 3 November'; 'there is no other excuse for the conduct of Major Langwerth than the complete exhaustion of all strength,'; 'by which a state was produced that excluded any vigorous measure' (OCR); 'otherwise the simplest thing would have been: to get the chests over the Peene, have the horses still strong enough swim across, burn and smash everything that could not be saved, have the men present ferried over by the Wolgast boatmen under compulsion, and then sink all the boats' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "In Friedland bekam der Major Langwerth die Nachricht, der Feind streife bereits bis Pasewalk, eine Nachricht, die ein abgesandter Offizier bestätigte. Da der Major seit dem 26. nichts von der Armee erfahren und keine weitern Befehle erhalten hatte, so beschloß er, den Weg nach Anklam einzuschlagen. —"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Der Oberst-Lieutenant Prittwitz und der Major Langwerth gingen nach Usedom voraus, um Anstalten zur Verpflegung und Ueberschiffung über die Peene zu treffen. Der Oberst-Lieutenant wurde in Usedom von einer tödtlichen Krankheit befallen, und der Major Langwerth erhielt auf dem Amte Pudagta, wo er mit den Beamten Alles verabredet hatte, so schlechte Pferde, daß er erst am 1. November in Wolgast eintreffen konnte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Die Inſubordination riß ein, und die von zurück⸗ kehrenden Soldaten verbreitete Nachricht, daß auch Swienemünde bereits von den Franzoſen beſetzt ſei, brachte eine völlige Auflö- fung herbei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "doch als jener Major zurückkam, tauchte mit ihm auch der Gedanke an Kapitulation auf, und viele der anweſenden Offiziere traten bei. Der Graf Henckel war dagegen, ließ ſich aber endlich durch Zureden bewegen, die Unterhandlung zu übernehmen, und nach Anklam zu reiſen, um mit dem dortigen franzöſiſchen General das Nöthige zu verabreden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "doch als der Ritt⸗ meiſter wahrnahm, daß derſelbe das ſchwediſche Gebiet noch gar nicht betreten hatte, ſo ſchickte er den ihn begleitenden Lieutenant Schmeling zum Major Langwerth zurück, um nochmals gegen die Kapitulation Vorſtellungen zu machen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Der andere begleitende Offizier, der ſich zu ſolcher Begleitung aufgedrängt hatte, ein Lieutenant Graf Bronikowski von Henckel⸗Küraſſieren, ſollte den Rittmeiſter Graf Henckel an dem Vereinigungspunkt der Wege nach Anklam abwarten, ritt aber ſtatt deſſen im Galopp nach Anklam hinein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "ihn von einem unüberlegten Schritt abzuhalten, kam indessen zu spät."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Graf Bronikowski¹) hatte dem in Anklam kommandirenden Offizier des 22. Dragoner-Regiments bereits einen solchen Bericht von dem Zustand der Kolonne gemacht, daß dem Grafen Henckel bei seiner Ankunft nichts übrig blieb, als für die Langwerthsche Kolonne — die Prittwitzsche nannte er nicht — eine Kapitulation abzuschließen. Die Bedingungen lauteten:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "1) Er ging bald darauf in die Dienste der polnischen Insurgenten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Major Langwerth begab sich, um bessere Bedingungen zu erhalten, selbst nach Anklam."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Während dessen näherte sich eine feindliche Streifpartei unter dem Obersten Darü der Stadt Wolgast. Der Oberst-Lieutenant Prittwitz, der mittlerweile ebenfalls von Usedom eingetroffen war, wurde durch einen Parlamentair zur Uebergabe aufgefordert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Er versuchte vergebens dem Franzosen den Unterschied zwischen königlichen und Regimentskassen begreiflich zu machen; man verlangte die Auslieferung aller Kassen, so wie auch das Eigenthum der abwesenden Offiziere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Da endlich wenigstens die letzte Forderung nachgelassen wurde, mußte sich der Oberst-Lieutenant Prittwitz entschließen, eine zweite Kapitulation abzuschließen, die sich also von der ersteren dadurch unterschied, daß auch die Regimentskassen abgegeben wurden. Sie kam am 3. November Morgens zur Ausführung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Es giebt für das Verhalten des Majors Langwerth keine andere Entschuldigung, als die gänzliche Erschöpfung aller Kräfte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "wodurch ein Zuſtand erzeugt wurde, der jede kräftige Maaßregel ausſchloß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "Sonſt wäre es das Einfachſte geweſen: die Kaſſen über die Peene zu ſchaffen, die noch hinlänglich kräftigen Pferde durchſchwimmen zu laſſen, Alles was nicht zu retten war zu ver⸗ brennen und zu zerſchlagen, die vorhandene Mannſchaft durch Zwang von den Wolgaſter Schiffern überfegen zu laſſen, und dann alle Fahrzeuge zu verſenken"
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Wolgast on 3 November: the French under Colonel Daru forced 2,500 Prussians under Prittwitz and Langwerth, with 500 wagons and the war chest, to capitulate; the detachment with all its baggage became prisoners of war and the officers were released on parole. Höpfner heads his passage 'capitulation of Wolgast on 2 and 3 November': Langwerth's column capitulated through Count Henckel at Anklam, and Prittwitz concluded a second capitulation at Wolgast, carried out on the morning of 3 November. On the French side Belliard reported that a convoy of equipages escorted by various detachments had sent 2 officers by Anklam to capitulate, which was done in the night, and Murat wrote on 2 November that the first convoy had capitulated that night at Anklam. The capitulation Foucart prints, signed at Wolgast on 2 November by Prittwitz and Déry, makes the garrison of Wolgast prisoners of war, to march out of the place the next day at 9, lay down its arms on the glacis and hand over the King of Prussia's horses, wagons and effects; the officers keep their arms, horses and baggage and give their parole not to serve until exchanged; the footmen go home; and all the regimental and royal chests, including those on Usedom, are to be handed over.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the capitulation, read from the page images; no source read gives a different result. Bodart's date is the day Höpfner has the second capitulation carried out. Neither Belliard nor Murat names the convoy that capitulated by way of Anklam, so that it was Langwerth's column is not shown; footnote 1 to Belliard's report judges the report begun on the evening of the 1st and finished on the 2nd, so which night it means is not shown either. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'capitulation of Wolgast on 2 and 3 November'; as in claim side-a-command for the capitulations; Belliard and Murat, as in claim side-b-strength-french; the capitulation, '1. Capitulation of the garrison of Wolgast between the lieutenant colonel and intendant M. de Prittwitz and M. Déry, lieutenant colonel, aide-de-camp of His Imperial Highness the Grand Duke of Berg'; 'Art. 1. The garrison of Wolgast, made up of the depots of the regiments of the Prussian army, is prisoner of war; it will march out of the place tomorrow at 9 o'clock, lay down its arms on the glacis and hand over all the horses, wagons and other effects belonging to His Majesty the King of Prussia'; '2. The officers of the different regiments will keep their arms,'; 'horses and baggage; they will pledge their word of honour not to serve against His Majesty the Emperor and King until duly exchanged; they will receive passports to return to their homes. The footmen will return home'; '3. All the chests of the regiments, those belonging to the King and those that may be on the island of Usedom will be faithfully handed over'; 'done at Wolgast, 2 November. Prittwitz. Déry'; Déry, 'Chef d'escadron Déry to the Grand Duke of Berg. Wolgast, 2 November 1806'; 'I have the honour to send you herewith the capitulation made between Lieutenant Colonel de Prittwitz and me. There are at this'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 3./11. KAPITULATION von Wolgast"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Oberst Daru zwingen 2.500 Preußen unter Obstlt. v. Prittwitz und Major v. Langwerth (zumeist Traintruppen) mit 500 Wägen und der Kriegskasse zur Kapitulation, wonach das Detachement mit der ganzen Bagage in Kriegsgefangenschaft geriet. Die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p227-figures-v1",
+          "section": "p227",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 227 (transcribed from the page image)",
+          "quote": "Kapitulation von Wolgast am 2. und 3. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Graf Bronikowski¹) hatte dem in Anklam kommandirenden Offizier des 22. Dragoner-Regiments bereits einen solchen Bericht von dem Zustand der Kolonne gemacht, daß dem Grafen Henckel bei seiner Ankunft nichts übrig blieb, als für die Langwerthsche Kolonne — die Prittwitzsche nannte er nicht — eine Kapitulation abzuschließen. Die Bedingungen lauteten:"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Da endlich wenigstens die letzte Forderung nachgelassen wurde, mußte sich der Oberst-Lieutenant Prittwitz entschließen, eine zweite Kapitulation abzuschließen, die sich also von der ersteren dadurch unterschied, daß auch die Regimentskassen abgegeben wurden. Sie kam am 3. November Morgens zur Ausführung."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\nDemmin, 1er novembre 1806, 9 heures du matin¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Le pont sur la Peene avait été coupé; avant sa rupture beaucoup d'équipages, des hommes égarés avaient passé dans la Poméranie longeant la Peene et se dirigeant sur Greifswald² ou Stralsund;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "il paraît que les Suédois ne veulent pas les laisser passer, car un convoi d'équipages escorté par différents détachements a envoyé 2 officiers par Anklam pour capituler, ce qui a été fait dans la nuit....."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "Ce matin 3 escadrons ont passé la Peene à Demmin, Jarmen et Anklam pour se mettre à la poursuite de tous les détachements et bagages qui se sont jetés dans la Poméranie hier,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "1. Ce rapport porte comme date sur le registre, 1er novembre, 9 heures du matin. Il est enregistré au milieu de la correspondance du 2 novembre. Il est probable qu'il a été commencé le 1er au soir et terminé seulement le 2 à 9 heures du matin, depuis la phrase Ce matin 3 escadrons.... Il devrait être daté en tête Demmin, 1er novembre et au bas, 2 novembre, 9 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "1. Capitulation de la garnison de Wolgast entre le lieutenant-colonel et intendant M. de Prittwitz et M. Déry, lieutenant-colonel, aide de camp de S. A. I. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Art. 1er. — La garnison de Wolgast, composée des dépôts des régiments de l'armée prussienne, est prisonnière de guerre; elle sortira demain à 9 heures de la place, déposera les armes sur le glacis et remettra tous les chevaux, fourgons et autres effets appartenant à S. M. le roi de Prusse."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "2. — MM. les officiers des différents régiments conserveront leurs armes,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "chevaux et bagages; ils s'engageront sur leur parole d'honneur à ne pas servir contre S. M. l'Empereur et Roi jusqu'à parfait échange; ils recevront des passeports pour retourner dans leurs foyers. Les valets de pied retourneront chez eux."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "3. — Toutes les caisses des régiments, celles appartenant au Roi et celles qui peuvent se trouver dans l'île d'Usedom seront remises fidèlement."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Fait à Wolgast, le 2 novembre.\n\nPRITTWITZ. DÉRY."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": "The report on Captain Guérin's detachment: the enemy outposts, surprised, could not resist; a few carbine shots were fired on each side, and Captain Guérin's horse was wounded by a ball and died the next day. No passage read gives a loss of men for side A (French), and Bodart prints none.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Colonel Dommanget's report on the detachment, read from the page images of pp. 627-628. English renderings (ours): the report, as in claim side-b-strength-french for the heading and signature; 'the enemy outposts, having been surprised, could not resist; a few carbine shots were fired on each side. Captain Guérin had his horse wounded by a ball, and it died of it the next day'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis ayant été surpris ne purent résister; quelques coups de carabine furent tirés de part et d'autre. Le capitaine Guérin eut son cheval blessé d'une balle et en périt le lendemain."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B lost Langwerth's column and the train left at Wolgast. Bodart: 2,500 men with 500 wagons and the war chest taken prisoner with all the baggage. Déry: about 2,000 men, 84 officers and 4,000 to 5,000 horses at Wolgast, but only one regimental chest with 1,000 francs in small change, the King's treasure of 10 millions having gone off by Anklam 6 days before. The report on Guérin's detachment: the enemy outposts taken prisoner, then 800 cavalry depot men, 1,500 infantry and 300 caissons or vehicles. Höpfner gives no total of prisoners: the cavalry escort and the baggage of 3 cavalry regiments had crossed before the news from Anklam, Tralles's park column destroyed its vehicles and munitions, and the army's war chest had been shipped from Anklam on the 29th; the war chests shipped at Anklam reached Kolberg by way of Wollin, and some officers who had heard of the capitulations got passes from the French general Bertrand or went back to Anklam or Wolgast to be included in them (OCR passages).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images, with the OCR passages marked; not combined. Whether Déry's and the report's figures count the same men is not shown. English renderings (ours): Bodart, as in claim bodart-strength; Déry, 'Chef d'escadron Déry to the Grand Duke of Berg. Wolgast, 2 November 1806'; 'I have the honour to send you herewith the capitulation made between Lieutenant Colonel de Prittwitz and me. There are at this'; 'moment at Wolgast about 2,000 men of all arms, 84 officers and 4,000 to 5,000 horses of dragoons, hussars and caissons. The King's treasure of 10 millions had already gone off 6 days ago by Anklam. I found at Wolgast only one regimental chest containing 1,000 francs in small change'; the report, 'report of the detachment of Captain Guérin, of the 10th dragoons, which left Demmin on 2 November with 50 men of the regiment and 50 men of the 11th'; 'this detachment left Demmin at 2 o'clock in the morning, made for Wolgast (Swedish Pomerania), marching in pursuit of the baggage of the Prussian army'; 'the detachment arrived near Wolgast at nightfall, fell on the enemy outposts and took them prisoner; as soon as the outposts had been carried, Captain Guérin sent M. Coulon, sub-lieutenant of the regiment, with a trumpeter to summon'; 'the enemy corps to surrender. This summons was accepted; 800 men of various cavalry depots of all arms, 1,500 infantry of various corps, forming small depots, and 300 caissons or horsed vehicles were the result of this affair'; 'Colonel Dommanget, of the 10th dragoons'; Höpfner, 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); as in claim side-b-strength for Tralles's column; 'the grenadiers had marched off with Lieutenant Colonel Prittwitz from Lindow on the 26th as escort of the war chest, and had stayed in Anklam to hold an urgently needed rest day, after the lieutenant colonel had carried out the embarkation of the war chest on the 29th'; 'the war chests of the main army, of the Hohenlohe and Rüchel corps, which had been embarked at Anklam, landed at the Lebbin hill on the island of Wollin and from there reached Kolberg safely by land' (OCR); 'a part, who had heard of the capitulations of Anklam and Wolgast, got passes from the French general Bertrand, who came to Swinemünde with the engineer of the place of Stettin, Major Harenberg, or went back to Anklam or Wolgast to have themselves included in the capitulations' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Oberst Daru zwingen 2.500 Preußen unter Obstlt. v. Prittwitz und Major v. Langwerth (zumeist Traintruppen) mit 500 Wägen und der Kriegskasse zur Kapitulation, wonach das Detachement mit der ganzen Bagage in Kriegsgefangenschaft geriet. Die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "moment à Wolgast environ 2,000 hommes de toutes armes, 84 officiers et 4,000 à 5,000 chevaux de dragons, hussards et de caissons. Le trésor du Roi de 10 millions avait déjà filé depuis 6 jours par Anklam. Je n'ai trouvé à Wolgast qu'une caisse de régiment contenant 1,000 fr. en petite monnaie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Le détachement est arrivé à nuit close près de Wolgast, est tombé sur les avant-postes ennemis, les a fait prisonniers; aussitôt les avant-postes enlevés, le capitaine Guérin détacha M. Coulon, sous-lieutenant du régiment, avec un trompette, pour aller sommer"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "le corps ennemi de se rendre. Cette sommation fut acceptée; 800 hommes de divers dépôts de cavalerie de toutes armes, 1,500 hommes d'infanterie de divers corps, formant des petits dépôts, et 300 caissons ou voitures attelées furent le résultat de cette affaire."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Die Parkkolonne Nr. 8. des Lieutenants Tralles, die sich der Bagage angeschlossen, hatte die Zeit benutzt, die Fahrzeuge verbrannt und die Munition ins Wasser geworfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Die Grenadiere waren mit dem Oberst-Lieutenant Prittwitz am 26. von Lindow zur Bedeckung der Kriegskasse abmarschirt, und zur Abhaltung eines dringend nothwendigen Ruhetages in Anklam verblieben, nachdem der Oberst-Lieutenant am 29. die Einschiffung der Kriegskasse bewerkstelligt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "Die Kriegskaſſen der Hauptarmee, des Hohenloheſchen und Ruͤchelſchen Korps, die bei Anklam eingeſchifft worden waren, landeten am Lebbinſchen Berg auf der Inſel Wollin und erreich⸗ ten von dort zu Lande gluͤclich Kolberg,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "ein Theil, der von den Kapitu⸗ lationen von Anklam und Wolgaſt gehört hatte, ließ ſich von dem franzöſiſchen General Bertrand, der mit dem Ingenieur vom Platze Stettin, dem Major Harenberg, nach Swienemünde kam, Päſſe geben oder ging nach Anklam oder Wolgaſt zurück, um ſich in die Kapitulationen einſchließen zu laſſen."
+        }
+      ]
+    },
+    {
+      "id": "wolgast-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Wolgast, a town in Pomerania, at the mouth of the Peene, opposite the island of Usedom; his locator names the country as Prussia and does not say whether it describes 1806. The report on Guérin's detachment places Wolgast in Swedish Pomerania, and Höpfner has the baggage cross the Peene onto Swedish territory, where Swedish officers would allow only transit through Swedish Pomerania. Murat wrote of the squadron of dragoons pursuing the baggage on the left bank of the Peene in Swedish Pomerania, and Belliard told Boyer not to begin hostilities with the Swedes but to reply if they opposed his march. The means of crossing at Wolgast were meagre (Höpfner; claim means-and-supply). The capitulation has the garrison march out of the place and lay down its arms on the glacis. Those who got across went on over Usedom to Swinemünde (OCR passage).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and ground as described, read from the page images, with the OCR passage marked; no plan of Wolgast was inspected. The town's country differs between Bodart's locator and the French documents and Höpfner, and is recorded, not resolved. English renderings (ours): Murat, 'the rest of the 5th hussar regiment will hold post at Demmin to watch the outlet from Malchin, to receive all the baggage still reaching us at this moment by that road, to support the squadron of dragoons that is pursuing the baggage on the left bank of the Peene in Swedish Pomerania, and lastly to escort the prisoners'; Belliard, as in claim side-a-strength; Bodart, '(town in Prussia, Pomerania, at the mouth of the Peene, opposite the island of Usedom)'; the report, as in claim side-b-strength-french; Höpfner, 'the baggage column went over the Peene onto Swedish territory and formed a wagon laager, to continue the march from it'; 'the Swedish officer commanding on the Peene had no objection to the wagons, but demanded that the armed men should stay in Anklam. An officer arriving from Greifswald, however, also insisted that the wagons move on at once, because only transit through Swedish Pomerania could be permitted'; 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); the capitulation, as in claim capitulation; 'the mass of the stragglers, the cavalry escorts and the part of the baggage that had crossed reached Swinemünde, after the whole had roamed the island of Usedom without discipline, plundering and marauding' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Stadt in Preußen, Pommern, an der Mündung der Peene, gegenüber der Insel Usedom)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage-Kolonne ging über die Peene auf schwedisches Gebiet und bildete eine Wagenburg, um aus solcher den Marsch weiter fortzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Der an der Peene kommandirende schwedische Offizier hatte gegen die Wagen nichts einzuwenden, verlangte aber, daß die bewaffnete Mannschaft in Anklam verbleiben solle. Ein von Greifswalde eintreffender Offizier drang aber auch darauf, daß die Wagen gleich weiter zögen, weil nur der Durchzug durch Schwedisch-Pommern gestattet werden könne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Le reste du 5e régiment de hussards tiendra poste à Demmin pour observer le débouché de Malchin, recevoir tous les bagages qui nous arrivent encore dans ce moment-ci par cette route, pour soutenir l'escadron de dragons qui poursuit les bagages sur la rive gauche de la Peene en Poméranie suédoise, et enfin pour escorter les prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU CHEF D'ESCADRON BOYER, A ANKLAM.\n\nDemmin, 2 novembre 1806, 6 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous passiez la Peene avec 25 hommes pour reconnaître la route qu'a suivie l'ennemi pour se rendre dans l'île. Vous sommerez de se rendre tous les partis que vous rencontrerez et vous leur accorderez les mêmes conditions qu'à ceux qui se sont déjà rendus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "Un escadron de hussards passe la Peene à Jarmen et un de dragons à Demmin. Si vous trouvez les Suédois, vous ne commencerez pas les hostilités avec eux, mais, s'ils s'opposaient à votre marche, vous riposteriez."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "1. Capitulation de la garnison de Wolgast entre le lieutenant-colonel et intendant M. de Prittwitz et M. Déry, lieutenant-colonel, aide de camp de S. A. I. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Art. 1er. — La garnison de Wolgast, composée des dépôts des régiments de l'armée prussienne, est prisonnière de guerre; elle sortira demain à 9 heures de la place, déposera les armes sur le glacis et remettra tous les chevaux, fourgons et autres effets appartenant à S. M. le roi de Prusse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "Die Maſſe der Verſprengten, die Kavallerie-Bedeckungen und der übergeſetzte Theil der Bagage langten bei Swienemuͤnde an, nachdem Alles ohne Zucht die Inſel Uſedom durchſtreift, geplün⸗ dert und marodirt hatte."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner says the column, swollen by baggage, marched with extreme difficulty; in Mecklenburg getting provisions was very hard, and only careful work by officers sent ahead kept the teams on the march; the flour column stayed at Anklam to secure bread for the troops; Langwerth was given bad horses at the Amt Pudagta (as printed); the means of crossing at Wolgast were meagre; after the news from Anklam the Swedish garrison was withdrawn to Stralsund, all help from the Swedish boatmen stopped and the Usedom boatmen were soon worn out by the heavy work; and horses were sold and swapped and effects burned (OCR passages). Side A (French): Déry left 50 men from his detachments to escort the captured train.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's state, brought from the retreat, from Höpfner's page images of pp. 228 and 230, with the OCR passages marked; Déry from the page image of p. 627. Where the Swedish garrison was withdrawn from is garbled in the OCR. English renderings (ours): Höpfner, as in claim side-b-strength for the column's growth; 'from the 26th Major Langwerth thus marched in Mecklenburg, where the procuring of necessities met very great difficulties, since by agreement their requisition was to be made through the foreign department. Only through praiseworthy care, by sending skilful officers ahead, did they manage to have so many provisions delivered that the teams could stay on the march'; as in claim side-b-strength for the flour column; 'Lieutenant Colonel Prittwitz and Major Langwerth went ahead to Usedom to make arrangements for supply and for ferrying over the Peene. The lieutenant colonel was struck down at Usedom by a mortal illness, and Major Langwerth, at the Amt Pudagta, where he had arranged everything with the officials, was given such bad horses that he could reach Wolgast only on 1 November'; 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); 'an immediate consequence [a stray letter in the OCR] was the withdrawal of the Swedish garrison of [a word garbled in the OCR] to Stralsund and the end of all help on the part of the Swedish boatmen. Now the strength of the boatmen of Usedom was soon exhausted by the heavy work,' (OCR); 'horses were sold and swapped, effects burned' (OCR); Déry, as in claim side-a-strength.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "war, erreichte dem Befehle gemäß am 25. Wittstock. Die Kolonne hatte sich durch alle die Bagage, die später aus Magdeburg gegangen und ihr nachgezogen war, allmälig sehr bedeutend vermehrt, so daß der Marsch äußerst beschwerlich von Statten ging."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "Vom 26. ab marschirte der Major Langwerth somit im Mecklenburgischen, wo die Herbeischaffung der Lebensbedürfnisse dadurch, daß nach Uebereinkommen die Ausschreibung derselben durch das auswärtige Departement geschehen sollte, sehr große Schwierigkeiten hatte. Nur durch eine lobenswerthe Sorgfalt, durch Voraussendung gewandter Offiziere, gelang es, die Lieferung so vieler Lebensmittel zu bewirken, daß die Gespanne im Marsch bleiben konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Nur die Mehl-Kolonne blieb in Anklam, um den großen Bedarf an Brod für die Truppen sicher zu stellen. Offiziere waren vorausgegangen, um Schiffsgefäße und Arbeiter bei Wolgast zusammenzutreiben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Der Oberst-Lieutenant Prittwitz und der Major Langwerth gingen nach Usedom voraus, um Anstalten zur Verpflegung und Ueberschiffung über die Peene zu treffen. Der Oberst-Lieutenant wurde in Usedom von einer tödtlichen Krankheit befallen, und der Major Langwerth erhielt auf dem Amte Pudagta, wo er mit den Beamten Alles verabredet hatte, so schlechte Pferde, daß er erst am 1. November in Wolgast eintreffen konnte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Eine unmittelbare Folge d war die Zurücknahme der ſchwediſchen Beſatzung von wollen nach Stralſund und die Einftellung aller Hülfe von Seiten der ſchwediſchen Schiffer. Nun waren die Kräfte der Schiffer von Uſedom von der ſchweren Arbeit bald erſchöpft,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Pferde wurden verkauft und vertauſcht, Effecten verbrannt;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Je laisserai pour l'escorte de ces équipages 50 hommes pris dans les 2 détachements de dragons et de hussards¹, et demain je tâcherai de rejoindre V. A. I. à Demmin avec le reste de ma troupe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Boyer wrote from Anklam on 2 November that by his information the enemy was passing onto the island of Usedom, chiefly by Wolgast, but had only columns of equipages left, and that he would cross into Sweden with 25 men to reconnoitre. Guérin's detachment marched from Demmin in pursuit of the Prussian army's baggage. Déry reported the force and the single chest he found at Wolgast and that the King's treasure had gone by Anklam 6 days before; a remark printed after his letter says he did not mention the detachments with him. Murat reported that all the equipages of the army had passed through Demmin all the previous day with an escort of about 1,000 men; Belliard took Gützkow to be the route the Prussian equipages had followed, and reported that the Swedes appeared not to be letting them pass. Höpfner says Count Bronikowski gave the officer of the 22nd dragoon regiment commanding at Anklam an account of the column's state (claim side-b-command).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The French documents and Höpfner, read from the page images. English renderings (ours): Boyer, 'Chef d'escadron Boyer to General Belliard. Anklam, 2 November 1806'; 'I am going to cross into Sweden with 25 men to reconnoitre the march of the enemy, who, according to the information I have, is passing onto the island of Usedom, chiefly by Wolgast; but he has only columns of equipages left, to which I have had Major Langvert tell them that I granted them the same capitulation as him. They will arrive tomorrow; but, General, please give me orders about these horses and baggage'; the report, as in claim side-b-strength-french; Déry, 'Chef d'escadron Déry to the Grand Duke of Berg. Wolgast, 2 November 1806'; 'I have the honour to send you herewith the capitulation made between Lieutenant Colonel de Prittwitz and me. There are at this'; 'moment at Wolgast about 2,000 men of all arms, 84 officers and 4,000 to 5,000 horses of dragoons, hussars and caissons. The King's treasure of 10 millions had already gone off 6 days ago by Anklam. I found at Wolgast only one regimental chest containing 1,000 francs in small change'; the remark, as in claim side-a-command; Murat and Belliard's report, as in claim side-b-strength-french; Belliard's order to Lasalle, as in claim side-a-strength; Höpfner, as in claim side-a-command.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON BOYER AU GÉNÉRAL BELLIARD.\n\nAnklam, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Je vais passer en Suède avec 25 hommes pour reconnaître la marche de l'ennemi qui, d'après les renseignements que j'ai, passe dans l'île d'Usedom, principalement par Wolgast; mais il n'a plus que des colonnes d'équipages à qui j'ai fait dire par le major Langvert que je leur accordais la même capitulation qu'à lui. Elles arriveront demain; mais, mon Général, veuillez me donner des ordres sur ces chevaux et bagages."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "moment à Wolgast environ 2,000 hommes de toutes armes, 84 officiers et 4,000 à 5,000 chevaux de dragons, hussards et de caissons. Le trésor du Roi de 10 millions avait déjà filé depuis 6 jours par Anklam. Je n'ai trouvé à Wolgast qu'une caisse de régiment contenant 1,000 fr. en petite monnaie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "M. Déry ne parle pas dans son rapport des détachements qui l'accompagnaient, et le capitaine Guérin commandant le détachement de dragons n'a pas l'air de son côté de s'être trouvé sous les ordres de M. Déry."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL LASALLE.\n\nDemmin, 2 novembre 1806, 6 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous fassiez passer la Peene à Jarmen à un escadron de votre brigade pour se porter sur Gützkow² qui paraît être la route qu'ont suivie les équipages de l'armée prussienne; passez à Demmin; vous arrêterez tout ce que vous pourrez trouver et le Prince ordonne qu'on conserve intactes toutes les caisses (même ordre que pour le chef d'escadron Boyer)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL.\n\nDemmin, 1er novembre 1806, 9 heures du matin¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "il paraît que les Suédois ne veulent pas les laisser passer, car un convoi d'équipages escorté par différents détachements a envoyé 2 officiers par Anklam pour capituler, ce qui a été fait dans la nuit....."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Graf Bronikowski¹) hatte dem in Anklam kommandirenden Offizier des 22. Dragoner-Regiments bereits einen solchen Bericht von dem Zustand der Kolonne gemacht, daß dem Grafen Henckel bei seiner Ankunft nichts übrig blieb, als für die Langwerthsche Kolonne — die Prittwitzsche nannte er nicht — eine Kapitulation abzuschließen. Die Bedingungen lauteten:"
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: at Friedland Langwerth heard that the enemy was raiding as far as Pasewalk, which an officer sent out confirmed, and he had had no news of the army since the 26th; at Anklam came the news of the capitulation at Prenzlau and of the investment of Stettin; at Wolgast the news of the Anklam capitulation came while the baggage was still crossing, and soldiers coming back spread the news that Swinemünde too was in French hands; Count Henckel saw that the enemy had not yet entered Swedish territory (OCR passages).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 228 and 230, with the OCR passages marked. English renderings (ours): as in claim side-b-command for Friedland, the news from Anklam, the rumour about Swinemünde and Henckel's observation; 'meanwhile the news of the capitulation at Prenzlau, as well as of the investment of Stettin, also came in'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "In Friedland bekam der Major Langwerth die Nachricht, der Feind streife bereits bis Pasewalk, eine Nachricht, die ein abgesandter Offizier bestätigte. Da der Major seit dem 26. nichts von der Armee erfahren und keine weitern Befehle erhalten hatte, so beschloß er, den Weg nach Anklam einzuschlagen. —"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Während dessen ging auch die Nachricht von der Kapitulation bei Prenzlau, so wie von der Berennung von Stettin ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Die Inſubordination riß ein, und die von zurück⸗ kehrenden Soldaten verbreitete Nachricht, daß auch Swienemünde bereits von den Franzoſen beſetzt ſei, brachte eine völlige Auflö- fung herbei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "doch als der Ritt⸗ meiſter wahrnahm, daß derſelbe das ſchwediſche Gebiet noch gar nicht betreten hatte, ſo ſchickte er den ihn begleitenden Lieutenant Schmeling zum Major Langwerth zurück, um nochmals gegen die Kapitulation Vorſtellungen zu machen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A sought the Prussian baggage and its chests: Murat sent Déry after the equipages with a squadron of dragoons by Demmin and a squadron of hussars by Jarmen toward Gützkow to take them in flank, while his squadron of dragoons stopped their head at Anklam, expecting everything that had crossed the Peene to capitulate as the first convoy had; in the Prince's name Belliard ordered the Jarmen squadron to stop everything it could find and all chests to be kept intact, and told Boyer that the Prince meant to have all prizes taken in money distributed to the cavalry; Guérin's detachment marched in pursuit of the baggage; Boyer meant to reconnoitre the enemy's march and granted the columns of equipages Langwerth's terms; the French demanded all the chests from Prittwitz (Höpfner), and the capitulation required all the regimental and royal chests, including those on Usedom; Déry meant to send all the vehicles, horses and men to Anklam the next day and rejoin Murat at Demmin.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The French documents and Höpfner, read from the page images. English renderings (ours): Murat, as in claim side-b-strength-french; Belliard, as in claim side-a-strength for the order to Lasalle; 'as for the vehicles carrying the chests, whatever they may be, they will not follow the convoy; you will gather everything that is a chest into the treasury; you will have it guarded very carefully and send it at once to headquarters at Demmin. The Prince's intention is to have all the prizes taken in money distributed to the cavalry'; the report, as in claim side-b-strength-french; Boyer, 'Chef d'escadron Boyer to General Belliard. Anklam, 2 November 1806'; 'I am going to cross into Sweden with 25 men to reconnoitre the march of the enemy, who, according to the information I have, is passing onto the island of Usedom, chiefly by Wolgast; but he has only columns of equipages left, to which I have had Major Langvert tell them that I granted them the same capitulation as him. They will arrive tomorrow; but, General, please give me orders about these horses and baggage'; Höpfner, 'he tried in vain to make the Frenchman understand the difference between royal and regimental chests; the delivery of all chests was demanded, as well as the property of the absent officers'; the capitulation, as in claim side-b-strength-french; Déry, as in claim side-b-strength-french for the heading; 'tomorrow I shall send off to Anklam all the vehicles, the horses and the men'; as in claim side-a-strength for the escort.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL LASALLE.\n\nDemmin, 2 novembre 1806, 6 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous fassiez passer la Peene à Jarmen à un escadron de votre brigade pour se porter sur Gützkow² qui paraît être la route qu'ont suivie les équipages de l'armée prussienne; passez à Demmin; vous arrêterez tout ce que vous pourrez trouver et le Prince ordonne qu'on conserve intactes toutes les caisses (même ordre que pour le chef d'escadron Boyer)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU CHEF D'ESCADRON BOYER, A ANKLAM.\n\nDemmin, 2 novembre 1806, 6 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p619-figures-v1",
+          "section": "p619",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 619 (transcribed from the page image)",
+          "quote": "quant aux voitures qui portent les caisses, quelles qu'elles puissent être, elles ne suivront pas le convoi; vous réunirez tout ce qui est caisse au trésor; vous le ferez garder très-soigneusement et vous l'enverrez de suite au quartier général à Demmin. L'intention du Prince est de faire distribuer à la cavalerie toutes les prises faites en argent."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON BOYER AU GÉNÉRAL BELLIARD.\n\nAnklam, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Je vais passer en Suède avec 25 hommes pour reconnaître la marche de l'ennemi qui, d'après les renseignements que j'ai, passe dans l'île d'Usedom, principalement par Wolgast; mais il n'a plus que des colonnes d'équipages à qui j'ai fait dire par le major Langvert que je leur accordais la même capitulation qu'à lui. Elles arriveront demain; mais, mon Général, veuillez me donner des ordres sur ces chevaux et bagages."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Er versuchte vergebens dem Franzosen den Unterschied zwischen königlichen und Regimentskassen begreiflich zu machen; man verlangte die Auslieferung aller Kassen, so wie auch das Eigenthum der abwesenden Offiziere."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "1. Capitulation de la garnison de Wolgast entre le lieutenant-colonel et intendant M. de Prittwitz et M. Déry, lieutenant-colonel, aide de camp de S. A. I. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "3. — Toutes les caisses des régiments, celles appartenant au Roi et celles qui peuvent se trouver dans l'île d'Usedom seront remises fidèlement."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "LE CHEF D'ESCADRON DÉRY AU GRAND-DUC DE BERG.\n\nWolgast, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous faire passer ci-joint la capitulation passée entre le lieutenant-colonel de Prittwitz et moi¹. Il se trouve en ce"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Demain je ferai partir pour Anklam toutes les voitures, les chevaux et les hommes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Je laisserai pour l'escorte de ces équipages 50 hommes pris dans les 2 détachements de dragons et de hussards¹, et demain je tâcherai de rejoindre V. A. I. à Demmin avec le reste de ma troupe."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B sought to save the baggage and the chests across the Peene: Colonel Massenbach had directed Langwerth's column by Mecklenburg and Strasburg to Stettin, and Langwerth turned for Anklam when he heard the enemy was at Pasewalk; Prittwitz had the army's war chest embarked on the 29th, at Anklam, and rumours about Hohenlohe's column then led to an order that it be shipped at Swinemünde for Danzig (OCR passages); the baggage was to be embarked at Wolgast, with officers sent ahead to round up boats and workers there, and Prittwitz and Langwerth went ahead to Usedom to arrange supply and the crossing. Once a capitulation was in view, Langwerth sought better terms at Anklam and Prittwitz tried to keep the regimental chests apart from the royal ones.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 225, 228, 230 and 232, with the OCR passages marked. English renderings (ours): 'at Wittstock the instruction came from Colonel Massenbach to take the further way through Mecklenburg as thought best, to re-enter the Uckermark at Strasburg, where the bridge at Pasewalk would then be free, so as to march by Löcknitz to Stettin'; as in claim side-b-command for Friedland; as in claim side-b-losses for the war chest; 'unfavourable rumours about the Hohenlohe column, which could not be cleared up, led to the order that the war chest should be shipped at Swinemünde for Danzig' (OCR); 'was reported, and General Bila II was also to arrive with almost 1000 horses, a decision had to be taken on the further retreat. The Bila infantry was to be embarked at Pinnow, the baggage at Wolgast'; as in claim side-b-strength for the officers sent ahead; 'Lieutenant Colonel Prittwitz and Major Langwerth went ahead to Usedom to make arrangements for supply and for ferrying over the Peene. The lieutenant colonel was struck down at Usedom by a mortal illness, and Major Langwerth, at the Amt Pudagta, where he had arranged everything with the officials, was given such bad horses that he could reach Wolgast only on 1 November'; as in claim side-b-command for Langwerth's journey to Anklam; 'he tried in vain to make the Frenchman understand the difference between royal and regimental chests; the delivery of all chests was demanded, as well as the property of the absent officers'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "In Wittstock ging vom Obersten Massenbach die Weisung ein: den weitern Weg nach Gutbefinden durch das Mecklenburgische zu nehmen, bei Straßburg die Uckermark wieder zu betreten, wo dann die Brücke bei Pasewalk frei sein würde, um über Löcknitz nach Stettin zu marschiren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p228-figures-v1",
+          "section": "p228",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 228 (transcribed from the page image)",
+          "quote": "In Friedland bekam der Major Langwerth die Nachricht, der Feind streife bereits bis Pasewalk, eine Nachricht, die ein abgesandter Offizier bestätigte. Da der Major seit dem 26. nichts von der Armee erfahren und keine weitern Befehle erhalten hatte, so beschloß er, den Weg nach Anklam einzuschlagen. —"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p225-figures-v1",
+          "section": "p225",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 225 (transcribed from the page image)",
+          "quote": "Die Grenadiere waren mit dem Oberst-Lieutenant Prittwitz am 26. von Lindow zur Bedeckung der Kriegskasse abmarschirt, und zur Abhaltung eines dringend nothwendigen Ruhetages in Anklam verblieben, nachdem der Oberst-Lieutenant am 29. die Einschiffung der Kriegskasse bewerkstelligt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (OCR page boundaries; not checked against print)",
+          "quote": "Die Kriegskaſſen der Hauptarmee, des Hohenloheſchen und Ruͤchelſchen Korps, die bei Anklam eingeſchifft worden waren, landeten am Lebbinſchen Berg auf der Inſel Wollin und erreich⸗ ten von dort zu Lande gluͤclich Kolberg,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 229 (OCR page boundaries; not checked against print)",
+          "quote": "Nachtheilige Gerüchte über die Hohenloheſche Kolonne, die nicht aufgeklärt werden konnten, beſtimmten zu dem Befehl, daß die Kriegskaſſe in Swienemünde nach Danzig eingeſchifft werden ſolle,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "gemeldet wurde, auch der General Bila II. mit beinahe 1000 Pferden eintreffen sollte, mußte über den weiteren Rückzug Beschluß gefaßt werden. Die Bilasche Infanterie sollte bei Pinnow, die Bagage bei Wolgast eingeschifft werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Nur die Mehl-Kolonne blieb in Anklam, um den großen Bedarf an Brod für die Truppen sicher zu stellen. Offiziere waren vorausgegangen, um Schiffsgefäße und Arbeiter bei Wolgast zusammenzutreiben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Der Oberst-Lieutenant Prittwitz und der Major Langwerth gingen nach Usedom voraus, um Anstalten zur Verpflegung und Ueberschiffung über die Peene zu treffen. Der Oberst-Lieutenant wurde in Usedom von einer tödtlichen Krankheit befallen, und der Major Langwerth erhielt auf dem Amte Pudagta, wo er mit den Beamten Alles verabredet hatte, so schlechte Pferde, daß er erst am 1. November in Wolgast eintreffen konnte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Major Langwerth begab sich, um bessere Bedingungen zu erhalten, selbst nach Anklam."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Er versuchte vergebens dem Franzosen den Unterschied zwischen königlichen und Regimentskassen begreiflich zu machen; man verlangte die Auslieferung aller Kassen, so wie auch das Eigenthum der abwesenden Offiziere."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Murat sent his aide-de-camp Déry with a squadron of dragoons by Demmin and a squadron of hussars by Jarmen after the Prussian equipages that had passed through Demmin, and Belliard, in the Prince's name, ordered the Jarmen squadron to stop everything it could find (Foucart). A French raiding party approached Wolgast and summoned Prittwitz by a parlementaire (Höpfner); Guérin's detachment, pursuing the baggage, fell on the outposts at nightfall, took them prisoner and summoned the enemy, which accepted (the French report). Side B's outposts, surprised, could not resist, and Langwerth's column capitulated at Anklam through Count Henckel without fighting.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded A_attacked: side A advanced on and summoned side B, which capitulated. Tagged inherited: the pursuit over the Peene was Murat's order, given before the engagement, as the order to Lasalle to which the note on p. 627 refers shows for the hussars; the summonses and terms the officers made under it are in claim side-a-command. English renderings (ours): Murat, as in claim side-b-strength-french; Belliard, as in claim side-a-strength for the order to Lasalle; Höpfner, 'meanwhile an enemy raiding party under Colonel Darü approached the town of Wolgast. Lieutenant Colonel Prittwitz, who had meanwhile also arrived from Usedom, was summoned to surrender by a parlementaire'; as in claim side-a-command for Henckel's capitulation; the report, 'report of the detachment of Captain Guérin, of the 10th dragoons, which left Demmin on 2 November with 50 men of the regiment and 50 men of the 11th'; 'this detachment left Demmin at 2 o'clock in the morning, made for Wolgast (Swedish Pomerania), marching in pursuit of the baggage of the Prussian army'; 'the detachment arrived near Wolgast at nightfall, fell on the enemy outposts and took them prisoner; as soon as the outposts had been carried, Captain Guérin sent M. Coulon, sub-lieutenant of the regiment, with a trumpeter to summon'; 'the enemy corps to surrender. This summons was accepted; 800 men of various cavalry depots of all arms, 1,500 infantry of various corps, forming small depots, and 300 caissons or horsed vehicles were the result of this affair'; 'Colonel Dommanget, of the 10th dragoons'; as in claim side-a-losses for the outposts; the note, as in claim side-a-strength.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p620-figures-v1",
+          "section": "p620",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 620 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nDemmin, 2 novembre 1806, 10 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p621-figures-v1",
+          "section": "p621",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 621 (transcribed from the page image)",
+          "quote": "Il a passé hier par cette ville, pendant toute la journée, tous les équipages de l'armée escortés par environ 1,000 hommes; j'ai envoyé à leurs trousses mon aide de camp Déry avec 1 escadron de dragons par le pont de Demmin, et 1 escadron de hussards par Jarmen sur Gützkow pour les prendre en flanc, tandis que mon escadron de dragons arrêtera la tête sur Anklam. Le premier convoi ayant capitulé cette nuit à Anklam, j'ai lieu de penser que tout ce qui a passé la Peene capitulera de même."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU GÉNÉRAL LASALLE.\n\nDemmin, 2 novembre 1806, 6 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "Le Prince ordonne que vous fassiez passer la Peene à Jarmen à un escadron de votre brigade pour se porter sur Gützkow² qui paraît être la route qu'ont suivie les équipages de l'armée prussienne; passez à Demmin; vous arrêterez tout ce que vous pourrez trouver et le Prince ordonne qu'on conserve intactes toutes les caisses (même ordre que pour le chef d'escadron Boyer)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p618-figures-v1",
+          "section": "p618",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 618 (transcribed from the page image)",
+          "quote": "L'escadron qui passera la Peene pourra rabattre sur Anklam ou sur Demmin suivant les circonstances; 2 escadrons de dragons passent la Peene à Demmin et à Anklam pour battre la campagne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Während dessen näherte sich eine feindliche Streifpartei unter dem Obersten Darü der Stadt Wolgast. Der Oberst-Lieutenant Prittwitz, der mittlerweile ebenfalls von Usedom eingetroffen war, wurde durch einen Parlamentair zur Uebergabe aufgefordert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p232-figures-v1",
+          "section": "p232",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 232 (transcribed from the page image)",
+          "quote": "Der Graf Bronikowski¹) hatte dem in Anklam kommandirenden Offizier des 22. Dragoner-Regiments bereits einen solchen Bericht von dem Zustand der Kolonne gemacht, daß dem Grafen Henckel bei seiner Ankunft nichts übrig blieb, als für die Langwerthsche Kolonne — die Prittwitzsche nannte er nicht — eine Kapitulation abzuschließen. Die Bedingungen lauteten:"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "RAPPORT DU DÉTACHEMENT DU CAPITAINE GUÉRIN, DU 10e DE DRAGONS, PARTI DE DEMMIN LE 2 NOVEMBRE AVEC 50 HOMMES DU RÉGIMENT ET 50 HOMMES DU 11e²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Ce détachement est parti de Demmin à 2 heures du matin, s'est dirigé sur Wolgast (Poméranie suédoise), marchant à la poursuite des bagages de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "Le détachement est arrivé à nuit close près de Wolgast, est tombé sur les avant-postes ennemis, les a fait prisonniers; aussitôt les avant-postes enlevés, le capitaine Guérin détacha M. Coulon, sous-lieutenant du régiment, avec un trompette, pour aller sommer"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "le corps ennemi de se rendre. Cette sommation fut acceptée; 800 hommes de divers dépôts de cavalerie de toutes armes, 1,500 hommes d'infanterie de divers corps, formant des petits dépôts, et 300 caissons ou voitures attelées furent le résultat de cette affaire."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Le colonel DOMMANGET, du 10e de dragons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis ayant été surpris ne purent résister; quelques coups de carabine furent tirés de part et d'autre. Le capitaine Guérin eut son cheval blessé d'une balle et en périt le lendemain."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p627-figures-v1",
+          "section": "p627",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 627 (transcribed from the page image)",
+          "quote": "1. Détachement de dragons parti de Demmin et détachement de hussards parti de Jarmen. Voir pour ce dernier détachement l'ordre du général Lasalle, page 618."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The capitulation Foucart prints calls side B (Prussian) the garrison of Wolgast and has it march out of the place and lay down its arms on the glacis. No other passage read names works at Wolgast: Höpfner describes baggage columns trying to cross the Peene, and the French report has the outposts surprised and unable to resist. No works are named for side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified on the capitulation's words alone, 'the place' and 'the glacis', which name a work held by side B before the engagement, so the claim is tagged inherited. The alternative is none_named: no other passage read names any work at Wolgast, and nothing read shows whether the place had works beyond these words. English renderings (ours): the capitulation, as in claim side-b-strength-french; Höpfner, 'the baggage had arrived safely, but the means of crossing at Wolgast were so meagre that only the cavalry escort of Captain Freyberg and the baggage of 3 cavalry regiments had been ferried over when the news of the'; 'capitulation at Anklam arrived' (OCR); the report, as in claim side-a-losses.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "1. Capitulation de la garnison de Wolgast entre le lieutenant-colonel et intendant M. de Prittwitz et M. Déry, lieutenant-colonel, aide de camp de S. A. I. le grand-duc de Berg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p626-figures-v1",
+          "section": "p626",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 626 (transcribed from the page image)",
+          "quote": "Art. 1er. — La garnison de Wolgast, composée des dépôts des régiments de l'armée prussienne, est prisonnière de guerre; elle sortira demain à 9 heures de la place, déposera les armes sur le glacis et remettra tous les chevaux, fourgons et autres effets appartenant à S. M. le roi de Prusse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p230-figures-v1",
+          "section": "p230",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 230 (transcribed from the page image)",
+          "quote": "Die Bagage war glücklich angekommen, aber die Uebergangsmittel bei Wolgast waren so dürftig, daß erst die Kavallerie-Bedeckung des Hauptmanns Freyberg und die Bagage von 3 Kavallerie-Regimentern übergesetzt waren, als die Nachricht von der"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "capitulations-after-prenzlau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 231 (OCR page boundaries; not checked against print)",
+          "quote": "Kapitulation bei Anklam eintraf."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p628-figures-v1",
+          "section": "p628",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 628 (transcribed from the page image)",
+          "quote": "Les avant-postes ennemis ayant été surpris ne purent résister; quelques coups de carabine furent tirés de part et d'autre. Le capitaine Guérin eut son cheval blessé d'une balle et en périt le lendemain."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: a French return of the prisoners, horses, wagons and chests; the strength of the hussar squadron sent by Jarmen; the text of Langwerth's capitulation beyond Höpfner's summary; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests; whether Höpfner's Colonel Darü and Bodart's Colonel Daru are Foucart's Déry, Murat's aide-de-camp, who signed the capitulation with Prittwitz at Wolgast (the party, place and date agree, the names and ranks do not); where the wagons of flour, grain and baggage that Belliard reports taken in the night were taken (Foucart t. II, p. 620), which are not assigned to this entry. Figures seen only in the OCR and not restated: the hour at which the war chest left Anklam for Usedom, the day of the column's rest at Anklam and the length of the joined columns (Höpfner, p. 229), and a figure in the garbled OCR line on how the war chests went on from Kolberg to Danzig (p. 233).",
+    "Most consequential gap: the size of each side at Wolgast. The targeted follow-up read the order to which the note on Foucart t. II, p. 627 refers and the French letters around it (pp. 618-621): side A was Déry with a squadron of dragoons and a squadron of hussars, the dragoon detachment 50 men from each of its two regiments by the report, but no passage read gives the hussars' strength. Side B's figures (Bodart's 2,500 mostly train troops with 500 wagons; Höpfner's 500 wagons and 2500–3000 horses for Langwerth's column at Friedland; Déry's about 2,000 men, 84 officers and 4,000 to 5,000 horses; the report's 800 cavalry depot men, 1,500 infantry and 300 vehicles; Murat's escort of about 1,000 men for the equipages that passed Demmin) are not reconciled, and none says how many came under Langwerth's capitulation and how many under Prittwitz's. A French return of the prisoners could settle side B.",
+    "Disputes kept as separate claims: the strength (as above); the war chest (taken, Bodart; embarked at Anklam on the 29th, Höpfner, with the war chests reaching Kolberg by Wollin in his OCR passage; the King's treasure of 10 millions gone off by Anklam 6 days before Déry's letter of 2 November and a single regimental chest of 1,000 francs found, Déry); the French commander (Colonel Daru, Bodart; Colonel Darü's raiding party, Höpfner; Déry, chef d'escadron in the heading of his letter, lieutenant colonel and aide-de-camp of the Grand Duke of Berg in the capitulation and Murat's aide-de-camp in Murat's letter, who signed the capitulation, with Guérin's detachment apparently not under his orders by the remark printed after his letter, Foucart); one capitulation (Bodart) or two (Langwerth's at Anklam and Prittwitz's at Wolgast, Höpfner, with Boyer's grant of Langwerth's terms to the columns of equipages and Belliard's and Murat's convoy that capitulated by way of Anklam in the night); the date (3 November, Bodart; 2 and 3 November, Höpfner; signed on 2 November to be carried out the next day, the capitulation); the town's country (Prussia, Bodart's locator, which does not say whether it describes 1806; Swedish Pomerania, the French report, Murat and Höpfner's Swedish officers); the fortification code (B_fortified on the capitulation's 'place' and 'glacis'; none_named on every other passage read).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 500 wagons match Höpfner's, his 2,500 men equal the lower of Höpfner's figures for the column's horses, 2500–3000, and his Colonel Daru matches Höpfner's Colonel Darü); Foucart, t. II (the French side's documents: Murat's letter to the Emperor, Belliard's orders and report, Boyer's and Déry's letters, the capitulation and Colonel Dommanget's report on Guérin's detachment, all from the page images); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Wolgast passage names no source)."
+  ]
 }
 ```
 
@@ -14963,3 +22279,97 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `hoepfner-1855-bd2-p181-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p181-figures.txt
 - `hoepfner-1855-bd2-p185-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p185.jpg
 - `hoepfner-1855-bd2-p185-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p185-figures.txt
+- `hoepfner-1855-bd2-p209-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p209.jpg
+- `hoepfner-1855-bd2-p209-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p209-figures.txt
+- `hoepfner-1855-bd2-p214-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p214.jpg
+- `hoepfner-1855-bd2-p214-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p214-figures.txt
+- `hoepfner-1855-bd2-p215-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p215.jpg
+- `hoepfner-1855-bd2-p215-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p215-figures.txt
+- `hoepfner-1855-bd2-p216-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p216.jpg
+- `hoepfner-1855-bd2-p216-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p216-figures.txt
+- `hoepfner-1855-bd2-p217-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p217.jpg
+- `hoepfner-1855-bd2-p217-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p217-figures.txt
+- `hoepfner-1855-bd2-p218-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p218.jpg
+- `hoepfner-1855-bd2-p218-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p218-figures.txt
+- `hoepfner-1855-bd2-p219-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p219.jpg
+- `hoepfner-1855-bd2-p219-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p219-figures.txt
+- `hoepfner-1855-bd2-p222-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p222.jpg
+- `hoepfner-1855-bd2-p222-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p222-figures.txt
+- `hoepfner-1855-bd2-p225-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p225.jpg
+- `hoepfner-1855-bd2-p225-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p225-figures.txt
+- `hoepfner-1855-bd2-p226-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p226.jpg
+- `hoepfner-1855-bd2-p226-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p226-figures.txt
+- `hoepfner-1855-bd2-p227-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p227.jpg
+- `hoepfner-1855-bd2-p227-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p227-figures.txt
+- `hoepfner-1855-bd2-p228-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p228.jpg
+- `hoepfner-1855-bd2-p228-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p228-figures.txt
+- `hoepfner-1855-bd2-p230-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p230.jpg
+- `hoepfner-1855-bd2-p230-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p230-figures.txt
+- `hoepfner-1855-bd2-p232-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p232.jpg
+- `hoepfner-1855-bd2-p232-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p232-figures.txt
+- `hoepfner-1855-bd2-p233-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p233.jpg
+- `hoepfner-1855-bd2-p233-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p233-figures.txt
+- `hoepfner-1855-bd2-p234-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p234.jpg
+- `hoepfner-1855-bd2-p234-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p234-figures.txt
+- `hoepfner-1855-bd2-p235-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p235.jpg
+- `hoepfner-1855-bd2-p235-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p235-figures.txt
+- `hoepfner-1855-bd2-p236-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p236.jpg
+- `hoepfner-1855-bd2-p236-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p236-figures.txt
+- `hoepfner-1855-bd2-p324-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p324.jpg
+- `hoepfner-1855-bd2-p324-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p324-figures.txt
+- `hoepfner-1855-bd2-p325-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p325.jpg
+- `hoepfner-1855-bd2-p325-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p325-figures.txt
+- `hoepfner-1855-bd2-p326-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p326.jpg
+- `hoepfner-1855-bd2-p326-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p326-figures.txt
+- `hoepfner-1855-bd2-p327-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p327.jpg
+- `hoepfner-1855-bd2-p327-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p327-figures.txt
+- `hoepfner-1855-bd2-p328-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p328.jpg
+- `hoepfner-1855-bd2-p328-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p328-figures.txt
+- `foucart-prusse-1890-t2-p524-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p524.jpg
+- `foucart-prusse-1890-t2-p524-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p524-figures.txt
+- `foucart-prusse-1890-t2-p525-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p525.jpg
+- `foucart-prusse-1890-t2-p525-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p525-figures.txt
+- `foucart-prusse-1890-t2-p526-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p526.jpg
+- `foucart-prusse-1890-t2-p526-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p526-figures.txt
+- `foucart-prusse-1890-t2-p527-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p527.jpg
+- `foucart-prusse-1890-t2-p527-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p527-figures.txt
+- `foucart-prusse-1890-t2-p529-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p529.jpg
+- `foucart-prusse-1890-t2-p529-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p529-figures.txt
+- `foucart-prusse-1890-t2-p530-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p530.jpg
+- `foucart-prusse-1890-t2-p530-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p530-figures.txt
+- `foucart-prusse-1890-t2-p553-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p553.jpg
+- `foucart-prusse-1890-t2-p553-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p553-figures.txt
+- `foucart-prusse-1890-t2-p562-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p562.jpg
+- `foucart-prusse-1890-t2-p562-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p562-figures.txt
+- `foucart-prusse-1890-t2-p563-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p563.jpg
+- `foucart-prusse-1890-t2-p563-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p563-figures.txt
+- `foucart-prusse-1890-t2-p564-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p564.jpg
+- `foucart-prusse-1890-t2-p564-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p564-figures.txt
+- `foucart-prusse-1890-t2-p565-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p565.jpg
+- `foucart-prusse-1890-t2-p565-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p565-figures.txt
+- `foucart-prusse-1890-t2-p568-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p568.jpg
+- `foucart-prusse-1890-t2-p568-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p568-figures.txt
+- `foucart-prusse-1890-t2-p593-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p593.jpg
+- `foucart-prusse-1890-t2-p593-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p593-figures.txt
+- `foucart-prusse-1890-t2-p594-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p594.jpg
+- `foucart-prusse-1890-t2-p594-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p594-figures.txt
+- `foucart-prusse-1890-t2-p617-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p617.jpg
+- `foucart-prusse-1890-t2-p617-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p617-figures.txt
+- `foucart-prusse-1890-t2-p625-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p625.jpg
+- `foucart-prusse-1890-t2-p625-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p625-figures.txt
+- `foucart-prusse-1890-t2-p626-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p626.jpg
+- `foucart-prusse-1890-t2-p626-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p626-figures.txt
+- `foucart-prusse-1890-t2-p627-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p627.jpg
+- `foucart-prusse-1890-t2-p627-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p627-figures.txt
+- `foucart-prusse-1890-t2-p628-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p628.jpg
+- `foucart-prusse-1890-t2-p628-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p628-figures.txt
+- `foucart-prusse-1890-t2-p648-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p648.jpg
+- `foucart-prusse-1890-t2-p648-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p648-figures.txt
+- `foucart-prusse-1890-t2-p618-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p618.jpg
+- `foucart-prusse-1890-t2-p618-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p618-figures.txt
+- `foucart-prusse-1890-t2-p619-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p619.jpg
+- `foucart-prusse-1890-t2-p619-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p619-figures.txt
+- `foucart-prusse-1890-t2-p620-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p620.jpg
+- `foucart-prusse-1890-t2-p620-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p620-figures.txt
+- `foucart-prusse-1890-t2-p621-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p621.jpg
+- `foucart-prusse-1890-t2-p621-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p621-figures.txt

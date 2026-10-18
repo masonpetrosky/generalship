@@ -1,0 +1,1067 @@
+{
+  "schema_version": 1,
+  "battle_id": "B375c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Küstrin entry (capitulation, 1 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under Colonel Ingersleben and the French before it, Gudin's division of Davout's corps and, after its recall, the 85th regiment under General Gauthier, from the fight at the bridgehead on 31 October to the capitulation and the occupation of the fortress on 1 November. The preparations from 17 October and Davout's arrival after the surrender are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) as the garrison of 2,400 men with 92 guns under Colonel v. Ingersleben, and side A (French) as 1,500 French under Brigadier General Gauthier, to whom the garrison surrendered without striking a blow. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner details the garrison and its guns (claim side-b-strength), the Emperor and the 25th Bulletin give other figures (claim side-b-strength-french), and Höpfner names only the 85th regiment under Gauthier as left before the fortress (claim side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 1/11. capitulation of Küstrin'; 'the Prussian garrison (2,400 men with 92 guns) under Colonel v. Ingersleben surrenders without striking a blow to 1,500 French under Brigadier General Gauthier'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Küstrin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: by 30 October 80 guns stood on the walls, supplied with 200 rounds, and 12 more in reserve. Besides a sufficient number of artillerymen the garrison was the 3rd musketeer battalions of the regiments Oranien, Zenge and Prinz Heinrich and 75 hussars of the regiment Usedom under Rittmeister Kalbow, who had come from Merseburg and stayed at Küstrin by the King's order: in all about 2400 men, of whom 1600 were fully fit for service. At the commandant's council Colonel Weyherr said that his battalion had very many untrained men, and the engineer lieutenant Thynkel that the fortress could defend itself with 1600 men and sufficient guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 325-327. The garrison was set before the engagement, so the claim is tagged inherited. The guns total 92 (our arithmetic). English renderings (ours): 'on 30 October all the arrangements were finished'; '80 guns were suitably placed on the walls and supplied with 200 rounds, 12 guns stood in reserve; the outworks were palisaded, the bridgehead covered by abatis and wolf pits. There was no lack of ammunition'; 'the garrison consisted, besides the sufficient number of artillerymen, of the 3rd musketeer battalions of the regiments Oranien, Zenge and Prinz Heinrich and 75 hussars of the regiment Usedom under Rittmeister Kalbow, who had gone from Merseburg to Küstrin and had stayed there by order of the King'; 'in all the garrison amounted to about 2400 men, among them 1600 men fully fit for service'; 'the senior staff officer, Colonel Weyherr of the regiment Prinz Heinrich, declared that his battalion had very many untrained men, and that, rather than so many people being made unhappy by the burning of the suburbs, it would be more advisable to surrender the fortress'; 'the engineer lieutenant Thynkel gave his view: the fortress must defend itself, because it could defend itself with 1600 men of garrison and sufficient guns'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand außer der hinlänglichen Anzahl Artilleristen aus den 3. Musketier-Bataillonen der Regimenter Oranien, Zenge und Prinz Heinrich und 75 Husaren des Regiments Usedom unter dem Rittmeister Kalbow, der von Merseburg nach Küstrin gegangen und daselbst auf Befehl des Königs verblieben war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Im Ganzen betrug die Besatzung etwa 2400 Mann, worunter 1600 völlig dienstfähige Mannschaften."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the Emperor wrote to the Grand Duke of Berg on 2 November that Küstrin had surrendered the day before, and that 80 guns and considerable magazines of subsistence had been found there and 4,000 prisoners taken. The 25th Bulletin of the same day: 4,000 men made prisoners of war there and 90 guns found on the ramparts.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images of pp. 617 and 648; not reconciled with Höpfner's or Bodart's (claims side-b-strength, bodart-strength). The garrison was set before the engagement, so the claim is tagged inherited. English renderings (ours): the Emperor, 'the Emperor to the Grand Duke of Berg, at Demmin. Berlin, 2 November 1806'; 'Küstrin surrendered yesterday. We found there 80 guns and considerable magazines of subsistence; we took 4,000 prisoners there'; the Bulletin, '25th Bulletin of the Grande Armée. Berlin, 2 November 1806'; 'Marshal Davout had Küstrin invested and summoned, and this place has surrendered. 4,000 men were taken prisoners of war there. The officers return home on parole, and the soldiers are taken to France. 90 guns were found on the ramparts'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 1,500 French under Brigadier General Gauthier. Höpfner: the light cavalry of Davout's 3rd corps had pushed detachments towards Küstrin on the right bank of the Oder from Frankfurt, and on the 29th Davout detached Gudin's division (Höpfner's Güdin) with 12 guns from Müncheberg against Küstrin; in the night before 1 November Gudin was ordered to rejoin the corps at Frankfurt at once and, leaving at daybreak, left behind only the 85th infantry regiment under General Gauthier, returning with his division once he heard of the surrender. Höpfner also names General Petit at the outposts and Colonel Düplin of the 85th, and by the terms 3 companies of French grenadiers were to occupy the gates. The 25th Bulletin says Davout had Küstrin invested and summoned. No passage read gives the strength of Gudin's division or of the 85th.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart and Höpfner, read from the page images, with Höpfner's sentence on Gudin's return from the OCR; the Bulletin from the page image of p. 648. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'the light cavalry of the 3rd corps had already arrived at Frankfurt on 26 October under General Vialannes, had the Oder bridge there restored, and pushed detachments forward on the right bank towards Küstrin'; 'with the main body of the corps Marshal Davout set out on the 28th from the area in front of Berlin, and on the 29th detached from Müncheberg the division Güdin with 12 guns on Küstrin, to seize the bridgehead there if possible'; 'in the night before 1 November General Güdin received the order to set out at once for the main body of the 3rd corps at Frankfurt, as Napoleon would set part of Marshal Augereau's troops marching to Küstrin and assign them to invest the fortress'; 'General Güdin had to comply with the order, set out at daybreak on 1 November, and left behind only the 85th infantry regiment under General Gauthier'; 'General Güdin returned at once with his division on receiving news of the surrender of Küstrin' (OCR); as in claim side-a-command for General Petit, Colonel Düplin and the terms; the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Die leichte Kavallerie des 3. Korps war bereits am 26. Oktober unter dem General Vialannes in Frankfurt eingetroffen, hatte daselbst die Oderbrücke herstellen lassen, und auf dem rechten Ufer Abtheilungen gegen Küstrin vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin mußte dem Befehl genügen, brach mit Anbruch des 1. Novembers auf, und ließ nur das 85. Infanterie-Regiment unter dem General Gauthier zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Güdin kehrte nach erhaltener Nachricht von der Uebergabe von Küſtrin ſogleich mit ſeiner Diviſion zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der General schien sich auf Unterhandlungen einlassen zu wollen, wurde darin indessen durch den anwesenden Oberst Düplin des 85. Regmts. behindert, der erklärte: wenn die Stadt nicht binnen 2 Stunden übergeben würde, das Bombardement seinen Anfang nähme."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Brigadier General Gauthier as side A's (French) commander and Colonel v. Ingersleben as side B's (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner calls Ingersleben the commandant of Küstrin; in his account Gudin summoned the fortress, Gauthier and Colonel Düplin received the commandant, and 'the French general' dictated the terms (claims side-a-command, side-b-command). The 25th Bulletin credits Davout with investing and summoning the place. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Oberst v. Ingersleben"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "unter Brig.-Gen. Gauthier"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Davout detached Gudin's division against Küstrin to seize its bridgehead if possible. After the fight at the bridgehead Gudin summoned the fortress and let the commandant know that he would bombard the town if surrender were refused; recalled that night, he left only the 85th regiment under General Gauthier. When the commandant's envoy, Lieutenant Thynkel, came to negotiate an armistice, General Petit seemed willing to negotiate, but Colonel Düplin of the 85th declared that unless the town were surrendered within 2 hours the bombardment would begin. Gauthier and Düplin received the commandant and told him that Stettin had fallen, Hohenlohe's corps was captured and Küstrin badly garrisoned, and that the bombardment would begin at once and not stop until the town was in ashes; the French general dictated the terms, and grenadiers crossing the Oder soon occupied the fortress. Davout then went to Küstrin in person (OCR passage). The 25th Bulletin: Davout had Küstrin invested and summoned.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner from the page images of pp. 324-328, with his sentence on Davout from the OCR; the Bulletin from the page image of p. 648. By Höpfner's account the summons, the threats and the dictated terms were the French commanders' own steps at Küstrin; the move on Küstrin was Davout's order (claim posture). Höpfner does not say which general dictated the terms. English renderings (ours): Höpfner, 'with the main body of the corps Marshal Davout set out on the 28th from the area in front of Berlin, and on the 29th detached from Müncheberg the division Güdin with 12 guns on Küstrin, to seize the bridgehead there if possible'; 'General Güdin summoned the fortress and let the commandant know that he would bombard the town if the surrender were refused'; 'in the night before 1 November General Güdin received the order to set out at once for the main body of the 3rd corps at Frankfurt, as Napoleon would set part of Marshal Augereau's troops marching to Küstrin and assign them to invest the fortress'; 'General Güdin had to comply with the order, set out at daybreak on 1 November, and left behind only the 85th infantry regiment under General Gauthier'; 'Lieutenant Thynkel believed he had to obey, met the first French post at the far end of the suburb, and was taken to General Petit, who was about to have the posts relieved'; 'the general seemed willing to enter into negotiations, but was prevented from it by Colonel Düplin of the 85th regiment, who was present and declared: if the town were not surrendered within 2 hours, the bombardment would begin'; 'the commandant was received on the other side by General Gauthier and Colonel Düplin; it was put to him that Stettin had fallen, the Hohenlohe corps was captured, Küstrin badly garrisoned, the bombardment would begin at once and not stop until the town had been reduced to ashes. The commandant'; 'the French general dictated the points of capitulation, by which at noon on 1 November the gates were to be occupied by 3 companies of French grenadiers, the garrison was to lay down its arms, safeguards were to be granted to the members of the Chamber and the property of the inhabitants protected. Lieutenant Thynkel refused his signature'; 'immediately after the signing the commandant crossed back over the Oder accompanied by Colonel Düplin and two soldiers, and in a short time the fortress was occupied by grenadiers crossing over'; 'Marshal Davout went at once in person to Küstrin, had the bridges restored and made all arrangements so that the following corps should profit from the unexpected conquest of a fortified place on the Oder, which together with Stettin offered an excellent base for the further operations against the Vistula' (OCR); the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin mußte dem Befehl genügen, brach mit Anbruch des 1. Novembers auf, und ließ nur das 85. Infanterie-Regiment unter dem General Gauthier zurück."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der General schien sich auf Unterhandlungen einlassen zu wollen, wurde darin indessen durch den anwesenden Oberst Düplin des 85. Regmts. behindert, der erklärte: wenn die Stadt nicht binnen 2 Stunden übergeben würde, das Bombardement seinen Anfang nähme."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Gleich nach vollzogener Unterschrift fuhr der Kommandant in Begleitung des Obersten Düplin und zweier Soldaten über die Oder zurück, und in geringer Zeit war die Festung durch hinübersetzende Grenadiere besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Davout ging für feine Perſon ſogleich nach Küſtrin, ließ die Brücken herſtellen und alle Anſtalten treffen, um die nachfolgenden Korps von der unerwarteten Eroberung eines feſten Platzes an der Oder, der in Gemeinſchaft mit Stettin eine treffliche Baſis zu den weiteren Operationen gegen die Weichſel bot, vortheilen zu laſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Colonel Ingersleben, the commandant, had been ordered on 17 October to make all defensive arrangements to secure the fortress against a forcible attack. In the fight at the bridgehead the Prussians escaped over the bridge he had already set on fire. That evening, when bugles sounded at the end of the Oder bridge, he told the engineer of the place, Lieutenant Thynkel, to go over and ask what the alarm meant and to threaten to burn the suburbs; when Thynkel objected to threatening or negotiating with the enemy, he sent the artillery lieutenant Wille to agree that if the enemy kept quiet he would not fire on the bridgehead. On the morning of 1 November he told his staff officers that he had sure news of a corps of 100,000 men approaching on the right bank, that no relief was to be expected and that the state of the garrison was known to all. Colonel Weyherr advised surrender rather than see the suburbs burned, Colonel Manteuffel agreed, trusting the commandant to act on his instructions, Colonel Boumann of the artillery said the commandant could do as he pleased, and Thynkel held that the fortress must and could defend itself, the main wall holding even without the outworks, and that a bombardment would not take it, the garrison having casemates. The commandant declared that he would not have the town burned and sent Thynkel to negotiate an armistice of 8 to 14 days; on Thynkel's report he said there was no time to lose and went himself, his wife's pleas being set aside by the Küstrin Kammerpräsident, who had gained great influence over him. Received by Gauthier and Düplin, he let himself be moved to capitulate, answering Thynkel's objections that he knew the Grand Duke of Berg was approaching with 100,000 men, after which no capitulation would be possible, and that he must not let the town be burned or its citizens made unhappy. Thynkel refused to sign. A court martial sentenced Ingersleben to be shot for proven cowardice; the King pardoned him to fortress imprisonment for life.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. Höpfner does not name his sources for this passage. A Kammerpräsident was the president of a provincial chamber (Kammer). English renderings (ours): 'the commandant of Küstrin, Colonel Ingersleben, received on 17 October the order to make all defensive arrangements to secure the fortress against a forcible attack'; as in claim side-b-losses for the fight at the bridgehead; 'still in the evening at 6 o'clock bugles were heard repeatedly in the fortress at the'; 'end of the Oder bridge'; 'the commandant charged the engineer of the place, Lieutenant Thynkel, to go across and ask what the alarm meant; he would, if the enemy did not keep quiet, have the suburbs set on fire'; 'Lieutenant Thynkel represented to him how unfitting it was to threaten the enemy, and to negotiate with him at all'; 'instead of him the commandant now sent the artillery lieutenant Wille across to come to an understanding with the enemy that if they kept quiet, he, the commandant, would not have the bridgehead fired on'; 'Colonel Ingersleben assembled the staff officers of the garrison on the morning of 1 November and put it to them that the enemy was before the gates of the fortress, and that he had received sure news that a corps of 100,000 men was also on the march on the right bank of the Oder; relief was not to be expected; the state of the garrison was known to all'; as in claim side-b-strength for Colonel Weyherr; 'Colonel Manteuffel of the regiment Zenge likewise voted for the surrender, relying on the honesty of the commandant to act according to the instruction given him'; 'Colonel Boumann of the'; 'artillery, who was present, answered: the commandant could do and leave undone what he would'; as in claim side-b-strength for Lieutenant Thynkel; 'the commandant objected that the garrison was not enough to man the outworks, to which Lieutenant Thynkel replied that even after abandoning the outworks the main wall could hold sufficiently'; 'he was then asked whether he could prevent the bombardment, and replied that this would contribute nothing to the taking of the fortress, as the garrison had casemates'; 'the commandant declared that he would not have the town reduced to ashes and ordered Lieutenant Thynkel to go with a trumpeter to the enemy general and negotiate an armistice of 8 to 14 days'; 'as soon as Lieutenant Thynkel came back and reported, Colonel Ingersleben said: “now there is no time to lose” — and made ready to go in person to the enemy general, ordering Lieutenant Thynkel to follow him'; 'about to be ferried over the Oder, the commandant was stopped by his wife and implored not to make his family unhappy; but these representations were soon set aside by the Küstrin Kammerpräsident, who had gained a great influence over the colonel'; as in claim side-a-command for his reception; 'let himself be moved by this to capitulate, and when Lieutenant Thynkel made representations against it, he answered: he knew that the Grand Duke of Berg was on the march with 100,000 men and then no capitulation would be possible any more; he must not let the town be reduced to ashes and the citizens be made unhappy'; as in claim side-a-command for the terms; 'the commandant was sentenced by court martial to be shot for proven cowardice, but pardoned by the King with fortress imprisonment for life'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Noch am Abend um 6 Uhr hörte man in der Festung am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Ende der Oderbrücke wiederholentlich blasen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Kommandant trug dem Ingenieur vom Platz, Lieutenant Thynkel, auf, sich hinüber zu begeben, um zu fragen, was die Allarmirung bedeute; er werde, wenn der Feind sich nicht ruhig verhalte, die Vorstädte in Brand setzen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel stellte ihm vor, wie unpassend es sei, dem Feinde zu drohen, und überhaupt mit ihm zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Statt seiner sandte der Kommandant nun den Artillerie-Lieutenant Wille hinüber, um sich mit dem Feinde zu verständigen, daß wenn man sich ruhig verhalte, er, der Kommandant, auf den Brückenkopf nicht schießen lassen werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Manteuffel vom Regmt. Zenge stimmte ebenfalls für die Uebergabe, indem er sich auf die Redlichkeit des Kommandanten verlasse, daß dieser nach der ihm ertheilten Instruktion handeln werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der anwesende Oberst Boumann von"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "der Artillerie antwortete: der Kommandant könne thun und lassen was er wolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant erklärte, daß er die Stadt nicht einäschern lassen werde und befahl dem Lieutenant Thynkel, sich mit einem Trompeter zum feindlichen General zu verfügen und um einen 8 bis 14tägigen Waffenstillstand zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "So wie der Lieutenant Thynkel zurückkam und Meldung machte, sagte der Oberst Ingersleben: „nun ist keine Zeit zu verlieren“ — und machte sich bereit, sich persönlich zu dem feindlichen General zu verfügen, indem er dem Lieutenant Thynkel befahl, ihm zu folgen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Im Begriff, sich über die Oder setzen zu lassen, wurde der Kommandant von seiner Frau angehalten und flehentlich gebeten, seine Familie nicht unglücklich zu machen; doch von dem Küstriner Kammerpräsidenten, der sich einen großen Einfluß auf den Obersten erworben hatte, wurden diese Vorstellungen bald beseitigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde wegen bewiesener Feigheit durch Kriegsgericht zum Todtschießen verurtheilt, doch vom Könige mit lebenswieriger Festungsstrafe begnadigt. —"
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Küstrin on 1 November: the Prussian garrison surrendered without striking a blow to the French under Gauthier and was led away as prisoners of war, the officers being released on parole. Höpfner dates it 1 November: by the terms the French general dictated, the gates were to be occupied at noon by 3 companies of French grenadiers, the garrison was to lay down its arms, the members of the Chamber were to be granted safeguards and the inhabitants' property protected; grenadiers crossing the Oder soon occupied the fortress, and the garrison, assembled in the market square, threw down its arms. The Emperor wrote on 2 November that Küstrin had surrendered the day before; the 25th Bulletin, that Davout had it invested and summoned and it surrendered, the officers returning home on parole and the soldiers being taken to France.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French documents, read from the page images; no source read gives a different result. Bodart's 'without striking a blow' describes the capitulation; he does not mention the fight at the bridgehead the day before (claim side-b-losses). English renderings (ours): Bodart, as in claim bodart-strength, and 'the garrison was led away as prisoners of war, officers released on their word of honour'; Höpfner, 'capitulation of Küstrin on 1 November'; as in claim side-a-command for the terms and the occupation; 'the garrison, assembled on the market square, threw their muskets, pouches and sabres on the ground, partly in indignation, partly with cheering and shouting, and Colonel Ingersleben, heaped with the reproaches of the subaltern officers, had to escape from the market square'; the Emperor and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 1./11. KAPITULATION von Küstrin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Besatzung wurde kriegsgefangen abgeführt, Offiziere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Kapitulation von Küstrin am 1. November."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Gleich nach vollzogener Unterschrift fuhr der Kommandant in Begleitung des Obersten Düplin und zweier Soldaten über die Oder zurück, und in geringer Zeit war die Festung durch hinübersetzende Grenadiere besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die auf dem Marktplatz versammelte Besatzung warf theils aus Unwillen, theils unter Jubel und Geschrei die Gewehre, Taschen und Säbel auf den Boden, und der Oberst Ingersleben mußte sich, überhäuft von den Vorwürfen der Subalternoffiziere, vom Marktplatze retten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Höpfner says the fortress's batteries drove the enemy back emphatically after it entered the bridgehead on 31 October, but gives no French loss, and Bodart says the garrison surrendered without striking a blow. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B lost the fortress and its garrison. Höpfner: in the fight at the bridgehead on 31 October Lieutenant Falkenhayn of the Zenge regiment was shot dead as the Prussians escaped over the burning bridge; on 1 November the garrison, about 2400 men by his count before the capitulation, laid down its arms, and the artillerymen had to be removed from their guns by force. Bodart: the garrison of 2,400 men with 92 guns was led away as prisoners of war, the officers released on parole. The Emperor: 80 guns, considerable magazines of subsistence and 4,000 prisoners. The 25th Bulletin: 4,000 prisoners of war and 90 guns found on the ramparts.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images, not combined. Höpfner gives no count of the prisoners; his about 2400 is the garrison's strength before the capitulation. Bodart's 2,400 men and 92 guns are Höpfner's figures (92 is his 80 and 12, by our arithmetic); which source Bodart used was not checked. English renderings (ours): Höpfner, 'on 31 October the advance guard of the division Güdin came upon the detachment of Rittmeister Kalbow, which had gone forward to reconnoitre the enemy, at Manschenow on the left bank of the Oder'; 'the hussars were thrown back after some hand-to-hand fighting, pursued and driven into the bridgehead together with the infantry outposts. The enemy entered the bridgehead with them and the Prussians had to escape over the bridge, already set on fire by the commandant, during which Lieutenant Falkenhayn of the regiment Zenge was shot dead'; as in claim side-b-strength for the garrison; as in claims side-a-command for the terms and capitulation for the arms thrown down; 'the artillerymen on the walls had to be removed from their guns by force'; Bodart, as in claims bodart-strength and capitulation; the Emperor and the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Im Ganzen betrug die Besatzung etwa 2400 Mann, worunter 1600 völlig dienstfähige Mannschaften."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Der französische General diktirte die Kapitulationspunkte, nach welchem am Mittag des 1. Novembers die Thore durch 3 Kompagnien französischer Grenadiere besetzt werden, die Garnison das Gewehr strecken, den Mitgliedern der Kammer Sauvegarden bewilligt, das Eigenthum der Einwohner geschützt werden sollte. Der Lieutenant Thynkel verweigerte die Unterschrift."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die auf dem Marktplatz versammelte Besatzung warf theils aus Unwillen, theils unter Jubel und Geschrei die Gewehre, Taschen und Säbel auf den Boden, und der Oberst Ingersleben mußte sich, überhäuft von den Vorwürfen der Subalternoffiziere, vom Marktplatze retten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "Die Artilleristen auf den Wällen mußten mit Gewalt von ihren Geschützen entfernt werden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Besatzung wurde kriegsgefangen abgeführt, Offiziere auf Ehrenwort entlassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ]
+    },
+    {
+      "id": "kuestrin-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Küstrin, a town in Brandenburg, at the confluence of the Warthe and the Oder, 25 km north-east of Frankfurt an der Oder. Höpfner: the fortress had a main wall, palisaded outworks and casemates, and a bridgehead covered by abatis and wolf pits; Gudin's advance guard met the Prussian hussars at Manschenow on the left bank of the Oder and drove them into the bridgehead, from which the Prussians escaped over a bridge the commandant had already set on fire; the first French post stood at the far end of the suburb, and the commandant, about to have himself ferried over the Oder, was received on the other side by General Gauthier and Colonel Düplin. The 25th Bulletin calls the place in very good condition and situated in the middle of the marshes.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images; no plan of Küstrin was inspected, and where each work stood is taken only from the narrative. English renderings (ours): Bodart, '(town in Prussia, Brandenburg, at the confluence of the Warthe with the Oder, 25 km north-east of Frankfurt an der Oder)'; Höpfner, as in claims side-b-strength for the walls, outworks and bridgehead, side-b-losses for Manschenow and the bridge, side-b-command for the main wall, the casemates and the commandant's crossing, and side-a-command for the first French post and the commandant's reception; the Bulletin, 'the place, in very good condition, is situated in the middle of the marshes; it holds considerable magazines. It is one of the most important conquests of the army; it has completed making us masters of all the places on the Oder'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Stadt in Preußen, Brandenburg, am Einfluß der Warthe in die Oder, 25 km nordöstl. von Frankfurt an der Oder)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Lieutenant Thynkel glaubte gehorchen zu müssen, traf am äußersten Ende der Vorstadt den ersten französischen Posten, und wurde zum General Petit geführt, der im Begriff war, die Posten ablösen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Im Begriff, sich über die Oder setzen zu lassen, wurde der Kommandant von seiner Frau angehalten und flehentlich gebeten, seine Familie nicht unglücklich zu machen; doch von dem Küstriner Kammerpräsidenten, der sich einen großen Einfluß auf den Obersten erworben hatte, wurden diese Vorstellungen bald beseitigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): by the King's order of 25 October the fortress was to be provisioned for 3 months; 50 oxen, 9 Wispel of peas, 2 of millet, 2 of lentils, 100 hundredweight of hay and 60 Schock of straw were brought in at once, and it already held 4254 Wispel of rye for baking, 878 for fodder, 3802 Wispel of flour, 53 of barley, 689 of oats and 3048 quarts of brandy. Its 80 guns on the walls were supplied with 200 rounds, and there was no lack of ammunition. Side A's (French) accounts: the Emperor wrote that considerable magazines of subsistence were found there, and the 25th Bulletin calls its magazines considerable.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's supply, set before the engagement, from Höpfner's page image of p. 325; the French accounts from the page images of pp. 617 and 648. The old measures are kept as printed, without conversion. A later Bulletin's sentence on the magazines, seen only in the OCR, is deferred. English renderings (ours): Höpfner, 'under 25 October the King gave the order to provision the fortress for 3 months with meat, vegetables etc., and there were brought into the fortress at once 50 oxen, 9 Wispel of peas, 2 Wispel of millet, 2 Wispel of lentils, 100 hundredweight of hay, 60 Schock of straw, in which there already lay in store 4254 Wispel of rye for baking, 878 Wispel for fodder, 3802 Wispel of flour, 53 Wispel of barley, 689 Wispel of oats and 3048 quarts of brandy'; as in claim side-b-strength for the guns and ammunition; the Emperor, as in claim side-b-strength-french; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Unterm 25. Oktober ertheilte der König den Befehl, die Festung auf 3 Monate mit Fleisch, Gemüse ꝛc. zu versehen, und wurden sogleich 50 Ochsen, 9 Wispel Erbsen, 2 Wispel Hirse, 2 Wispel Linsen, 100 Centner Heu, 60 Schock Stroh zur Festung gebracht, in welcher bereits 4254 Wispel Roggen zum Backen, 878 Wispel zum Verfüttern, 3802 Wispel Mehl, 53 Wispel Gerste, 689 Wispel Hafer und 3048 Quart Branntewein vorräthig lagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Höpfner: the light cavalry of the 3rd corps under General Vialannes, which had reached Frankfurt on 26 October, had pushed detachments forward towards Küstrin on the right bank of the Oder, and Gudin's advance guard met Rittmeister Kalbow's detachment, which had gone out to reconnoitre the enemy, at Manschenow. No passage read shows what side A knew of the garrison; Gauthier and Düplin told the commandant that Stettin had fallen, Hohenlohe's corps was captured and Küstrin was badly garrisoned. The Emperor reported the surrender to the Grand Duke of Berg the next day.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and the Emperor's letter, read from the page images. Whether what the French told the commandant was what they believed is not shown. English renderings (ours): Höpfner, as in claims side-a-strength for the light cavalry, side-b-losses for Manschenow and side-a-command for the commandant's reception; the Emperor, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Die leichte Kavallerie des 3. Korps war bereits am 26. Oktober unter dem General Vialannes in Frankfurt eingetroffen, hatte daselbst die Oderbrücke herstellen lassen, und auf dem rechten Ufer Abtheilungen gegen Küstrin vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG, A DEMMIN.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p617-figures-v1",
+          "section": "p617",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 617 (transcribed from the page image)",
+          "quote": "Küstrin s'est rendu hier. Nous y avons trouvé 80 pièces de canon et des magasins de subsistances considérables; nous y avons fait 4,000 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: Rittmeister Kalbow's detachment had gone out to reconnoitre the enemy when it met Gudin's advance guard; that evening bugles sounded at the end of the Oder bridge, and the commandant sent to ask what the alarm meant. At his council he said that he had sure news of a corps of 100,000 men approaching on the right bank of the Oder; the French told him that Stettin had fallen and Hohenlohe's corps was captured; and he answered Thynkel that he knew the Grand Duke of Berg was approaching with 100,000 men. Höpfner does not say where the commandant's news came from.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. English renderings (ours): as in claims side-b-losses for Kalbow's detachment, side-b-command for the bugles, the alarm, the council and the commandant's answer to Thynkel, and side-a-command for the commandant's reception.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Noch am Abend um 6 Uhr hörte man in der Festung am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Ende der Oderbrücke wiederholentlich blasen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Kommandant trug dem Ingenieur vom Platz, Lieutenant Thynkel, auf, sich hinüber zu begeben, um zu fragen, was die Allarmirung bedeute; er werde, wenn der Feind sich nicht ruhig verhalte, die Vorstädte in Brand setzen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant wurde jenseits durch den General Gauthier und den Obersten Düplin empfangen; man stellte ihm vor: Stettin sei über, das Hohenlohesche Korps gefangen, Küstrin schlecht besetzt, das Bombardement werde sogleich beginnen und nicht eher aufhören, als bis die Stadt eingeäschert worden. Der Kommandant"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Davout detached Gudin's division to seize the bridgehead at Küstrin if possible; when Gudin was recalled, Napoleon would send part of Marshal Augereau's troops to invest the fortress, and Davout was to cross the Oder and cover the blockade on the Polish side (Höpfner). Gudin threatened to bombard the town if surrender were refused. The 25th Bulletin called the place one of the army's most important conquests, completing its mastery of all the places on the Oder; Höpfner has Davout go to Küstrin in person at once and make all arrangements so that the following corps could profit from the unexpected conquest of a fortified place on the Oder, which with Stettin offered an excellent base for further operations against the Vistula (OCR passage).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner from the page images of pp. 324 and 326 and the OCR of p. 328; the Bulletin from the page image of p. 648. English renderings (ours): Höpfner, as in claim side-a-command for the detachment, the summons, the recall and Davout's arrival (OCR); 'Marshal Davout was to cross the Oder and cover the blockade of Küstrin on the Polish side'; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "In der Nacht zum 1. November erhielt der General Güdin den Befehl, sofort zum Gros des 3. Korps nach Frankfurt aufzubrechen, indem Napoleon einen Theil der Truppen des M. Augereau nach Küstrin in Marsch setzen und zur Einschließung der Festung bestimmen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der M. Davout sollte die Oder überschreiten und auf der polnischen Seite die Blokade von Küstrin decken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "kuestrin",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Davout ging für feine Perſon ſogleich nach Küſtrin, ließ die Brücken herſtellen und alle Anſtalten treffen, um die nachfolgenden Korps von der unerwarteten Eroberung eines feſten Platzes an der Oder, der in Gemeinſchaft mit Stettin eine treffliche Baſis zu den weiteren Operationen gegen die Weichſel bot, vortheilen zu laſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B was to hold the fortress: Colonel Ingersleben was ordered on 17 October to make all defensive arrangements to secure it against a forcible attack, the King ordered it provisioned for 3 months, and the arrangements were finished on 30 October. At the council, after the commandant spoke of the enemy before the gates and no relief, Weyherr and Manteuffel voted for surrender and Thynkel held that the fortress must defend itself; the commandant's stated aims were not to have the town burned or its citizens made unhappy, and he first sought an armistice of 8 to 14 days.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 325-328. English renderings (ours): as in claims side-b-command for the order of 17 October, the council, Manteuffel, the armistice and the commandant's answer, means-and-supply for the King's order, and side-b-strength for the end of the arrangements, Weyherr and Thynkel.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Unterm 25. Oktober ertheilte der König den Befehl, die Festung auf 3 Monate mit Fleisch, Gemüse ꝛc. zu versehen, und wurden sogleich 50 Ochsen, 9 Wispel Erbsen, 2 Wispel Hirse, 2 Wispel Linsen, 100 Centner Heu, 60 Schock Stroh zur Festung gebracht, in welcher bereits 4254 Wispel Roggen zum Backen, 878 Wispel zum Verfüttern, 3802 Wispel Mehl, 53 Wispel Gerste, 689 Wispel Hafer und 3048 Quart Branntewein vorräthig lagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Ingersleben versammelte am Morgen des 1. Novembers die Stabsoffiziere der Garnison, stellte ihnen vor, daß der Feind vor den Thoren der Festung, und daß ihm die sichere Nachricht geworden sei, auch auf der rechten Oderseite sei ein Korps von 100,000 Mann im Anmarsch; Entsatz sei nicht zu erwarten; die Beschaffenheit der Besatzung sei allen bekannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der älteste Stabsoffizier, Oberst Weyherr vom Regiment Prinz Heinrich, erklärte, daß sein Bataillon sehr viele ungeübte Leute besäße, und daß, bevor durch das Niederbrennen der Vorstädte so viele Menschen unglücklich würden, es gerathener sei, die Festung zu übergeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der Oberst Manteuffel vom Regmt. Zenge stimmte ebenfalls für die Uebergabe, indem er sich auf die Redlichkeit des Kommandanten verlasse, daß dieser nach der ihm ertheilten Instruktion handeln werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Ingenier-Lieutenant Thynkel sprach sich dahin aus: die Festung müsse sich vertheidigen, weil sie sich mit 1600 Mann Besatzung und hinlänglichem Geschütz vertheidigen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant erklärte, daß er die Stadt nicht einäschern lassen werde und befahl dem Lieutenant Thynkel, sich mit einem Trompeter zum feindlichen General zu verfügen und um einen 8 bis 14tägigen Waffenstillstand zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Davout detached Gudin's division against Küstrin to seize the bridgehead if possible; its advance guard drove the Prussian hussars and infantry outposts into the bridgehead and entered it before the fortress's batteries drove it back, and Gudin then summoned the fortress under threat of bombardment. The 25th Bulletin says Davout had the place invested and summoned. Side B then capitulated; Bodart says its garrison surrendered to the French under Gauthier without striking a blow.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded A_attacked: side A advanced on the fortress, drove its outposts into the bridgehead and summoned it, and side B capitulated. Tagged inherited: the move on Küstrin was Marshal Davout's order to Gudin's division, given before the engagement; Bodart names Gauthier as side A's commander at the capitulation. English renderings (ours): Höpfner, as in claims side-a-command for the detachment and the summons, side-b-losses for the fight at the bridgehead and side-b-command for the capitulation; 'the batteries of the fortress drove the enemy back emphatically and soon all was quiet'; Bodart, as in claim bodart-strength; the Bulletin, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p324-figures-v1",
+          "section": "p324",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 324 (transcribed from the page image)",
+          "quote": "Mit dem Gros des Korps setzte sich der M. Davout am 28. aus der Gegend vorwärts von Berlin in Marsch, und detaschirte am 29. von Müncheberg die Division Güdin mit 12 Stück Geschütz auf Küstrin, um sich wo möglich des dortigen Brückenkopfs zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 31. Oktober stieß die Avantgarde der Division Güdin bei Manschenow auf dem linken Oderufer auf das Kommando des Rittmeisters Kalbow, das zur Rekognoszirung des Feindes vorgegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Husaren wurden nach einigem Handgemeng zurückgeworfen, verfolgt und gemeinschaftlich mit den Infanterie-Vorposten in den Brückenkopf getrieben. Der Feind drang mit in den Brückenkopf ein und die Preußen mußten sich über die bereits vom Kommandanten in Brand gesetzte Brücke retten, wobei der Lieutenant Falkenhayn vom Regiment Zenge erschossen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Die Batterien der Festung wiesen den Feind nachdrücklich zurück und bald war Alles ruhig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p326-figures-v1",
+          "section": "p326",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 326 (transcribed from the page image)",
+          "quote": "Der General Güdin forderte die Festung auf, und ließ den Kommandanten wissen, daß er die Stadt bombardiren werde, wenn die Uebergabe verweigert würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p328-figures-v1",
+          "section": "p328",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 328 (transcribed from the page image)",
+          "quote": "ließ sich hierdurch zur Kapitulation bewegen, und als ihm der Lieutenant Thynkel Vorstellungen dagegen machte, antwortete er: er wisse, daß der Großherzog von Berg mit 100,000 Mann im Anmarsch und dann keine Kapitulation mehr möglich sei; er dürfe die Stadt nicht einäschern und die Bürger nicht unglücklich machen lassen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die preußische Besatzung (2.400 M. mit 92 Geschützen) unter Oberst v. Ingersleben ergibt sich ohne Schwertstreich an 1.500 Franzosen unter Brig.-Gen. Gauthier."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "Le maréchal Davout a fait cerner et sommer Küstrin, et cette place s'est rendue. On y a fait 4,000 hommes prisonniers de guerre. Les officiers retournent chez eux sur parole, et les soldats sont conduits en France. 90 pièces de canon ont été trouvées sur les remparts."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress: Höpfner says the commandant was ordered to secure it against a forcible attack, and by 30 October 80 guns stood on the walls and 12 in reserve, the outworks were palisaded and the bridgehead covered by abatis and wolf pits; Thynkel held that the main wall could hold even if the outworks were abandoned, and that the garrison had casemates. The 25th Bulletin calls the place in very good condition and situated in the middle of the marshes. No works are named for side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the works were permanent fortifications held by side B and readied before the engagement, so the claim is tagged inherited. English renderings (ours): Höpfner, as in claims side-b-command for the order and for the main wall and the casemates, and side-b-strength for the arrangements, guns, outworks and bridgehead; the Bulletin, as in claim kuestrin-ground.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Der Kommandant von Küstrin, Oberst Ingersleben, erhielt am 17. Oktober den Befehl, alle Vertheidigungs-Anstalten zu treffen, um die Festung gegen einen gewaltsamen Angriff zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "Am 30. Oktober waren alle Anstalten beendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p325-figures-v1",
+          "section": "p325",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 325 (transcribed from the page image)",
+          "quote": "80 Geschütze waren auf den Wällen zweckmäßig aufgestellt und mit 200 Schuß versehen, 12 Stück Geschütz standen in Reserve; die Außenwerke waren pallisadirt, der Brückenkopf durch Verhaue und Wolfsgruben gedeckt. An Munition fehlte es nicht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Der Kommandant machte die Einwendung, daß die Garnison nicht ausreiche, die Außenwerke zu besetzen, worauf der Lieutenant Thynkel entgegnete, daß auch nach dem Verlassen der Außenwerke der Hauptwall sich hinlänglich halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p327-figures-v1",
+          "section": "p327",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 327 (transcribed from the page image)",
+          "quote": "Er wurde hierauf befragt: ob er das Bombardement verhüten könne? und erwiederte: daß dies zur Einnahme der Festung nichts beitrage, da die Garnison Kasematten habe."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "25e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 2 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p648-figures-v1",
+          "section": "p648",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 648 (transcribed from the page image)",
+          "quote": "La place, en très bon état, est située au milieu des marais; elle renferme des magasins considérables. C'est une des conquêtes les plus importantes de l'armée; elle a achevé de nous rendre maîtres de toutes les places sur l'Oder."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: a French report of the capitulation (a search of the Foucart t. II OCR for Küstrin, Gauthier, Ingersleben and Duplin found none besides the Emperor's letter and the 25th Bulletin; Davout's own correspondence, a further family, was not read); a return of Gudin's division and of the 85th regiment; the capitulation's text; the record of the court martial, which Höpfner does not cite; the rest of the Emperor's letter (Foucart t. II, p. 617). Figures seen only in the OCR and not restated: the date of Napoleon's order sending the Baden contingent to occupy the fortress (Höpfner, p. 328) and a later Bulletin's figure for the magazines found at Küstrin (Foucart t. II, p. 667), seen in the search.",
+    "Most consequential gap: side A's strength at the capitulation. Bodart gives 1,500 French under Gauthier; Höpfner names only the 85th regiment, left under Gauthier when Gudin's division and its 12 guns were recalled, and gives no strength; the Bulletin credits Davout with investing the place. A return of the 85th for 1 November could settle it, and with it whether a garrison of about 2400 (Höpfner) surrendered to a single regiment.",
+    "Disputes kept as separate claims: the garrison (about 2400 with 1600 fit, Höpfner; 2,400, Bodart; 4,000 prisoners, the Emperor and the Bulletin); the guns (80 on the walls and 12 in reserve, Höpfner, 92 by our arithmetic; 92, Bodart; 80, the Emperor; 90, the Bulletin); side A (1,500 under Gauthier, Bodart; the 85th regiment under Gauthier after Gudin's division left, Höpfner); who summoned the place (Gudin, Höpfner; Davout, the Bulletin); and Bodart's 'without striking a blow' against Höpfner's fight at the bridgehead on 31 October, in which Lieutenant Falkenhayn was shot dead.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 2,400 men and 92 guns are Höpfner's about 2400 and his 80 and 12 guns, by our arithmetic); Foucart, t. II (the French side's documents: the Emperor's letter to the Grand Duke of Berg and the 25th Bulletin, both of 2 November, from the page images; the Bulletin repeats the Emperor's 4,000 prisoners but gives 90 guns to his 80); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Küstrin passage names no source)."
+  ]
+}

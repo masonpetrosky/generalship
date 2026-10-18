@@ -32,12 +32,12 @@ frame. Brief v2 adds the coded posture and fortification dimensions of decision 
 check now rebuilds every selection from its parent.
 
 **Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
-(23 entries), and its next sub-batch is 2b-ii, from Stettin to Wolgast. On 2026-10-16 the owner
+(23 entries), and its next batch is 2c, from Lübeck to Nienburg. On 2026-10-16 the owner
 set no usage cap and had the main session research, draft and verify each group itself, without
 subagents ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is
 logged per group.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 7 of the 23 entries of
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 13 of the 23 entries of
 `fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
 
 - `third-coalition 1805`, all 22 entries in six batches:
@@ -60,11 +60,13 @@ logged per group.
   Höpfner's Prussian history:
   - batch 2a: Saalfeld, Jena and Auerstedt (B371b, B372a and B373a), about 6.2 million tokens;
   - sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (B373b and B374a–c), about 2.4 million
-    tokens.
+    tokens;
+  - sub-batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast (B374d and
+    B375a–e), about 3.5 million tokens.
 
-The cohort's other 292 engagements would need about 170 to 200 million tokens at the two finished
-groups' rates, roughly 11 to 13 sessions. At sub-batch 2b-i's rate of about 600,000 an entry they
-would need about 175 million. Batch 2a's three entries, the group's largest battles, took about 2
+The cohort's other 286 engagements would need about 165 to 190 million tokens at the two finished
+groups' rates, roughly 11 to 13 sessions. At sub-batch 2b-ii's rate of about 590,000 an entry they
+would need about 170 million. Batch 2a's three entries, the group's largest battles, took about 2
 million each. The Civil War work below is complete as recorded, and its cohorts,
 ledgers and runs are unchanged.
 

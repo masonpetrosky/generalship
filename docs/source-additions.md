@@ -1721,3 +1721,51 @@ Rights:
 
 Each work is retained as the full OCR text with downscaled page images. Use: the drafts for B373b,
 B374a, B374b and B374c. No model inputs are changed. The registry now holds 2,526 records.
+
+## Foucart t. II and Höpfner Bd. 2 page images for Stettin to Wolgast, 2026-10-18
+
+94 records pinned in `data/raw/napoleonic-fourth-coalition-1806-v1/` for sub-batch 2b-ii of the
+`fourth-coalition 1806` first pass (Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast):
+47 page images, each with its figure transcription. No parent or selection was added. Most of the
+pages fall in sections of the selections registered for sub-batch 2b-i. Foucart's pp. 618–621 and
+628, read for Wolgast, fall outside them and are cited from their transcriptions.
+
+- **Foucart**, *Campagne de Prusse (1806): Prenzlow–Lubeck* (1890): 24 page images with
+  transcriptions. A page that serves several places is listed under each:
+  - Stettin: pp. 524–527, 529, 530, 553 and 568;
+  - Pasewalk: pp. 524, 529 and 553;
+  - Boldekow: pp. 563, 565 and 568;
+  - Küstrin: pp. 617 and 648;
+  - Anklam: pp. 529, 530, 562–564, 593, 594, 625, 626 and 648;
+  - Wolgast: pp. 618–621 and 626–628.
+- **Höpfner**, *Der Krieg von 1806 und 1807*, Theil 1, Bd. 2 (1855, second edition): 23 page
+  images with transcriptions:
+  - Stettin: pp. 216–219;
+  - Pasewalk: pp. 209 and 214–216;
+  - Boldekow: pp. 233–236;
+  - Küstrin: pp. 324–328;
+  - Anklam: pp. 217, 222, 225–227 and 230;
+  - Wolgast: pp. 225, 227, 228, 230 and 232.
+
+The page images are single pages, downscaled to 1600 pixels on the longest side. Foucart's leaf
+numbers are n = printed + 37 for these pages, and Höpfner's n = printed + 7. Each image's printed
+page was checked on the image. Each transcription holds the passages its note names, read from the
+image. 2 of the 47 record a check of figures on a full-resolution crop:
+- Foucart p. 524: the day and the hour in the dateline of Murat's letter to the Emperor.
+- Höpfner p. 214: the table, whose total row equals the sum of the two rows above it (our
+  arithmetic: 75 + 110 = 185 officers; 1957 + 2086 = 4043 men).
+
+No figure is taken from the OCR.
+
+A fix forward: the committed selection `foucart-prusse-1890-t2-selections-v1` gives the dates of
+its `kuestrin-2-nov` and `bulletin-25` sections as read on the registered page images of pp. 617
+and 648. Those images were not registered when it was committed. They are registered now, and
+both read "Berlin, 2 novembre 1806", the date the selection gives. The committed record is
+unchanged.
+
+Rights and dependence are as recorded for sub-batch 2b-i. In the passages read for these places,
+Höpfner names Mathieu Dumas's account for Anklam and "a reliable report" on the state of the works
+at Stettin, and no other source.
+
+Use: the drafts for B374d, B375a, B375b, B375c, B375d and B375e. No model inputs are changed. The
+registry now holds 2,620 records.

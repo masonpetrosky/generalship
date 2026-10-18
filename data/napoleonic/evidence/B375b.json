@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "battle_id": "B375b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Boldekow entry (capitulation, 30 October 1806) in cohort v1's fourth-coalition 1806 group: the artillery park that Blücher had brought round the Harz, under Major Höpfner, from its march from Friedland to Boldekow on the morning of the 30th to its capitulation there through an officer sent by Marshal Lannes. The park's march from Breddin and Stüdenitz is context; the 60 mounted gunners brought in by a party of Murat's, reported in his letter of the 31st, are not added. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart prints no strength for either side. He has the French under Marshal Lannes (side A, French) force the escort of Blücher's artillery park under Major v. Höpfner (side B, Prussian) to capitulate, after which 25 guns, 48 ammunition wagons and 800 horses fell into the enemy's hands and about 600 men into captivity (claim side-b-losses). By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner and the French letters give other accounts of the park and of who was in it (claims side-b-strength, side-b-strength-french). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 30/10. capitulation of Boldekow'; 'the French under Marshal Lannes force the escort of Blücher's artillery park under Major v. Höpfner to capitulate, after which 25 guns, 48 ammunition wagons, 800 horses fell into the hands of the enemy and about 600 men into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 30./10. KAPITULATION von Boldekow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the artillery park that General Blücher had brought round the Harz reached Breddin and Stüdenitz on 24 October under an escort of 24 cuirassiers of the Heising regiment; at Rheinsberg the artillery lieutenant Westphal joined it with 6 train and bread wagons and 250 horses, and at Friedland Lieutenant Streit's park column No. 5 with 24 more vehicles, much baggage and an infantry detachment of 100 men. The infantry escort and the few cuirassiers declared that no resistance could be expected of them, men and horses being too exhausted, and the escort was far too small for so long a column of wagons. By the time of the capitulation the whole escort had gone off to save itself across the Peene; 14 officers, 250 artillerymen, 300 drivers and about 800 horses were handed over with 25 guns and 48 ammunition wagons.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 233-236. The column was brought from the retreat, so the claim is tagged inherited. The men handed over total 564 (our arithmetic). Bodart's 'escort' (Bedeckungsmannschaft) is not Höpfner's: in Höpfner the escort had left, and the men handed over were the park's officers, artillerymen and drivers. English renderings (ours): 'the artillery park, which General Blücher had led so happily round the Harz and so particularly commended to Colonel Massenbach at the meeting in Neustadt on the Dosse, had on the'; '24th of October, under the escort of 24 cuirassiers of the regiment Heising, reached the villages of Breddin and Stüdenitz, between Havelberg and Kyritz, to hold a rest day there by order of Prince Hohenlohe, reach Rheinsberg in 2 days and await further orders'; 'after the artillery lieutenant Westphal had joined him with 6 train and bread wagons and 250 horses'; 'at Friedland park column No. 5 of Lieutenant Streit joined the artillery column with another 24 vehicles, much baggage and an infantry detachment of 100 men'; 'the infantry escort, like the few cuirassiers, declared that no resistance was to be expected of them, as men and horses were too exhausted; this escort was also far too small for a column of wagons of such great length to protect it even in more favourable circumstances'; 'it was believed that under these circumstances a capitulation had to be made, and there were handed over to the enemy 25 guns, 48 ammunition wagons, spare carriages etc., 14 officers, 250 artillerymen, 300 drivers and about 800 horses'; 'the whole escort had gone off to save itself across the Peene'. 'ꝛc.' is the print's abbreviation for 'etc.'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p233-figures-v1",
+          "section": "p233",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (transcribed from the page image)",
+          "quote": "Der Artilleriepark, den der General Blücher so glücklich um den Harz geführt und dem Obersten Massenbach bei der Unterredung in Neustadt a. D. so besonders empfohlen, hatte am"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "24. Oktober unter der Bedeckung von 24 Kürassieren des Regiments Heising die Ortschaften Breddin und Stüdenitz, zwischen Havelberg und Kyritz, erreicht, um daselbst auf Befehl des Fürsten Hohenlohe Ruhetag zu halten, in 2 Tagen Rheinsberg zu erreichen, und weitere Befehle zu erwarten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Friedland stieß die Parkkolonne Nr. 5. des Lieutenants Streit mit noch 24 Fahrzeugen, vieler Bagage und einem Infanterie-Kommando von 100 Mann zur Artillerie-Kolonne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Die Infanteriebedeckung, gleich den wenigen Kürassieren, erklärten, daß von ihnen kein Widerstand zu erwarten, da Leute und Pferde zu entkräftet seien; auch war diese Bedeckung für eine Wagenkolonne von so großer Ausdehnung viel zu gering, um sie selbst unter günstigeren Umständen zu beschützen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Lannes wrote to the Emperor on 31 October that 1,500 men, almost all artillery, 200 dragoons, 30 guns, 60 caissons and many wagons full of munitions, all well horsed, had surrendered the day before to his outposts. Murat wrote the same day that he had met the great artillery park, which had surrendered to an officer of Lannes's, 1 league from Friedland, and that a party scouting his left had brought in 60 mounted gunners on their way to join it.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's figures, read from the page images; not reconciled with Höpfner's or Bodart's (claims side-b-strength, bodart-strength). Lannes's further letter from Pasewalk repeats figures for the park and its gunners, seen only in the OCR and not restated. The column was brought from the retreat, so the claim is tagged inherited. English renderings (ours): Lannes, 'Marshal Lannes to the Emperor. Pasewalk, 31 October 1806'; 'I have the honour to inform Your Majesty that 1,500 men, almost all of the artillery, 200 dragoons, 30 guns, 60 caissons and many wagons filled with munitions, all well horsed, surrendered yesterday to my outposts. I am having all of it filed off to Spandau'; Murat, 'the Grand Duke of Berg to the Emperor. Friedland, 31 October 1806, 6 o'clock in the evening'; 'this morning, 1 league from Friedland, I met the great artillery park, which had surrendered to an officer of Marshal Lannes, and a party of a few men who were scouting my left brought us 60 mounted gunners who were going to join this same park, which is directed on Stettin'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart names only the French under Marshal Lannes. Lannes says the park surrendered to his outposts, and Murat that it surrendered to an officer of Lannes's. In Höpfner, Lieutenant Braun II met the enemy at Neuensund, 1¼ miles short of Strasburg, and Lannes, who had gone to Pasewalk in person, sent him back to Boldekow with a French officer to negotiate. A party of a few men scouting Murat's left brought in 60 mounted gunners. No passage read gives the strength of the French troops to whom the park surrendered.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart, Höpfner and the French letters, read from the page images. English renderings (ours): Bodart, as in claim bodart-strength; Lannes, as in claim side-b-strength-french; Murat, as in claim side-b-strength-french; Höpfner, as in claim side-b-command for Lieutenant Braun's errand; 'he came upon the enemy at Neuensund — 1¼ miles before Strasburg — and, as he gave himself out as a parlementaire, was sent to Marshal Lannes at Pasewalk, who had gone to this place in person and sent him back with a French'; 'officer to Boldekow to negotiate with the commanding officer'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Lannes as side A's (French) commander and Major v. Höpfner as side B's (Prussian).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Höpfner calls Major Höpfner the leader of the artillery column and has Lannes send a French officer to negotiate with the commanding officer; Murat says the park surrendered to an officer of Lannes's, and Lannes that it surrendered to his outposts (claims side-a-command, side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Artillerieparks unter Major v. Höpfner"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: when Lieutenant Braun II, met at Neuensund, gave himself out as a parlementaire, he was sent to Marshal Lannes at Pasewalk, who had gone there in person and sent him back to Boldekow with a French officer to negotiate with the commanding officer. Lannes wrote that the park surrendered to his outposts and that he was having it all filed off to Spandau; Murat, that it had surrendered to an officer of Lannes's. In a further letter from Pasewalk Lannes wrote that he had never seen finer men than the park's gunners, that it was a superb park, which he was sending off from there that morning to Spandau, and that the gunners, almost all mounted and marching in the greatest order, could be taken to Italy if the Emperor wished.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner and the letters of 31 October from the page images; Lannes's further letter from the OCR. The negotiation was Lannes's own step by Höpfner's account. English renderings (ours): Höpfner, as in claims side-b-command for Lieutenant Braun's errand and side-a-strength; Lannes, as in claim side-b-strength-french; Murat, as in claim side-b-strength-french; Lannes, 'Marshal Lannes to the Emperor. Pasewalk,' (OCR); 'truly, Sire, I have never seen anything finer than these men. It is a superb park. I am sending it off from here this morning and directing it on Spandau' (OCR); 'almost all these gunners are mounted and march in the greatest order. Your Imperial Majesty could, if you wished, have them taken to Italy' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "En vérité, Sire, je n'ai jamais rien vu de plus beau que ces hommes. C'est un superbe parc. Je le fais partir d'ici ce matin et le dirige sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Major Höpfner led the artillery column, which Blücher had urged to make particular haste. At Rheinsberg, when Prince Hohenlohe's expected orders failed to come and news arrived of a fight of Blücher's rear guard, he judged it unwise either to march on Fürstenberg or to spend the night at Rheinsberg, and marched by Alt-Strelitz towards Woldeck; at Bredenfelde, hearing that Pasewalk was in the enemy's hands, he turned to Friedland. There he told General Bila I that he meant to follow him to Anklam the next day, but Bila sent word that he should not march to Anklam but take his measures at his own discretion. In great perplexity the major called all the officers together to decide where to turn if they could march neither to Anklam nor to Stettin, and they resolved to march to Boldekow for forage. There, hearing that the enemy was pushing into Mecklenburg, they sent Lieutenant Braun II with a trumpeter towards Pasewalk to see how far the enemy had come; when the French officer came back with him, it was thought that a capitulation had to be made. Höpfner adds that no one thought of destroying the artillery material or of saving the men on the horses still found fit.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 234-236. Höpfner does not name his sources, and the passive 'man glaubte' does not say who decided to capitulate. English renderings (ours): 'on the 26th the artillery thus reached the village of Wildberg by Wusterhausen, and marched on the 27th in the night through Neu-Ruppin to Rheinsberg, as General Blücher had particularly urged haste on the leader of the artillery column, Major Höpfner, during the march through Gantzer'; 'when at Rheinsberg the expected orders of Prince Hohenlohe failed to come, and towards evening the news of a fight of General Blücher's rear guard also came in, Major Höpfner did not think it advisable to march on Fürstenberg as well, nor yet to spend the night at Rheinsberg, but, after the artillery lieutenant Westphal had also joined him with 6 train and bread wagons and 250 horses, he set out at half past 8 in the evening and marched to Alt-Strelitz, where he arrived on the morning of the 28th at half past 5, had the horses fed there and continued the march in the direction of Woldeck'; 'at 5 o'clock in the evening he reached Bredenfelde (8¼ miles from Rheinsberg), where he received the news that Pasewalk was already in the hands of the enemy, so that the road to Strasburg could no longer properly be taken'; 'the artillery therefore marched on the morning of the 29th on Friedland (4 miles), where it arrived at 5 o'clock in the evening'; 'Major Höpfner there also spoke with General Bila I, who was about to go to Anklam, and told him that it was his intention to march there as well the next day. It was not long, however, before General Bila sent back and had the major told that he should not march to Anklam, but take his measures at his discretion'; 'Major Höpfner was in great perplexity about what to do next, and assembled all the officers to deliberate where to turn if they could march neither to Anklam nor to Stettin'; 'it was therefore decided to march first, on the morning of the 30th, to the nearest Prussian village, Boldekow, so as at least to get forage'; 'in Boldekow came the news that the enemy was pushing into Mecklenburg, which was confirmed by a patrol coming from Friedland'; 'Lieutenant Braun II of the artillery was now sent with a trumpeter in the direction of Pasewalk to see how far the enemy had advanced'; as in claim side-a-strength for his meeting with the enemy and the French officer; as in claim side-b-strength for the capitulation; 'no one thought of destroying the artillery material or of trying to save the men on the horses still found fit'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Am 26. erreichte so die Artillerie über Wusterhausen das Dorf Wildberg, marschirte am 27. in der Nacht durch Neu-Ruppin nach Rheinsberg, da der General Blücher dem Führer der Artillerie-Kolonne, dem Major Höpfner, beim Marsch durch Gantzer besondere Eile empfohlen hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Die Artillerie marschirte daher am 29. des Morgens auf Friedland (4 M.), wo sie um 5 Uhr Abends eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner sprach daselbst noch den General Bila I., der im Begriff war, nach Anklam zu gehen, und eröffnete ihm, daß es seine Absicht sei, am folgenden Tage ebenfalls dahin zu marschiren. Es dauerte indessen nicht lange, so sandte der General Bila zurück und ließ dem Major sagen: er möge nicht nach Anklam marschiren, sondern seine Maßregeln nach Gutdünken treffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner war in großer Verlegenheit was weiter zu thun sei, und versammelte die sämmtlichen Offiziere, um zu berathschlagen, wohin man sich zu wenden habe, wenn man weder nach Anklam, noch nach Stettin marschiren könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "An eine Zerstörung des Artillerie-Materials und einen Versuch zur Rettung der Mannschaft auf den noch tauglich befundenen Pferden, hat Niemand gedacht."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Boldekow on 30 October: the French under Lannes forced the park's escort to capitulate. Höpfner dates it 30 October and says that it was thought a capitulation had to be made, and the park was handed over to the enemy. Lannes wrote that the park surrendered to his outposts the day before his letter of 31 October; Murat, that it had surrendered to an officer of Lannes's.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the French letters, read from the page images; no source read gives a different result. Neither source read prints the capitulation's terms. English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'capitulation of Boldekow, 30 October'; as in claim side-b-strength for what was handed over; Lannes and Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "1806 30./10. KAPITULATION von Boldekow"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p233-figures-v1",
+          "section": "p233",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 233 (transcribed from the page image)",
+          "quote": "Kapitulation von Boldekow den 30. Oktober."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. No passage read describes any fighting at Boldekow: in Höpfner the park's escort had left before the capitulation, which was negotiated through a French officer. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss was the park. Höpfner: 25 guns, 48 ammunition wagons, spare carriages, 14 officers, 250 artillerymen, 300 drivers and about 800 horses handed over, the escort having gone off across the Peene. Bodart: 25 guns, 48 ammunition wagons and 800 horses taken and about 600 men made prisoner. Lannes: 1,500 men, almost all artillery, 200 dragoons, 30 guns, 60 caissons and many wagons of munitions surrendered to his outposts. Murat: 60 mounted gunners on their way to join the park were brought in by a party.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. Bodart's guns, wagons and horses are Höpfner's figures, and his about 600 men are Höpfner's 564 rounded up (our arithmetic); which source Bodart used was not checked. Murat's 60 gunners were taken separately and are not added. English renderings (ours): Höpfner, as in claim side-b-strength; Bodart, as in claim bodart-strength; Lannes and Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Man glaubte unter diesen Umständen eine Kapitulation eingehen zu müssen und übergab dem Feinde 25 Stück Geschütze, 48 Munitionswagen, Vorrathslaffeten ꝛc., 14 Offiziere, 250 Artilleristen, 300 Knechte und gegen 800 Pferde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "boldekow-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Boldekow, a village in Pomerania, 14 km south of Anklam. Höpfner calls it the nearest Prussian village, to which the column marched from Friedland on the morning of the 30th; the column had come by Alt-Strelitz and Bredenfelde, 8¼ miles from Rheinsberg, and Friedland, 4 miles further; Lieutenant Braun II met the enemy at Neuensund, 1¼ miles short of Strasburg; the escort went off across the Peene. Murat met the park 1 league from Friedland on 31 October.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and routes as described, read from the page images. English renderings (ours): Bodart, '(village in Prussia, Pomerania, 14 km south of Anklam)'; Höpfner, as in claims side-b-command for the march, Friedland, Boldekow and Lieutenant Braun's errand, side-a-strength for Neuensund and side-b-strength for the escort's flight; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "(Dorf in Preußen, Pommern, 14 km südl. von Anklam)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Die Artillerie marschirte daher am 29. des Morgens auf Friedland (4 M.), wo sie um 5 Uhr Abends eintraf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner says the column travelled with requisitioned teams as far as Rheinsberg, but the last of these horses had to be dismissed there for want of forage, scarcely any being found even for the artillery horses; in Mecklenburg no teams could be had, and the artillery horses were wholly overdriven and starved, so the march could only go slowly; little forage was found at Friedland, and the column marched to Boldekow at least to get forage. Side A (French): Lannes called the park all well horsed, and in a further letter its gunners almost all mounted and marching in the greatest order.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's state, brought from the retreat, from Höpfner's page images of pp. 234-235; Lannes's letters from the page image of p. 568 and the OCR of p. 597. Lannes's 'well horsed' and Höpfner's starved horses are kept as given. English renderings (ours): Höpfner, 'as far as Rheinsberg, which was reached on the 27th at 6 o'clock in the morning, everything had been driven in one stretch with requisitioned teams; but as the last horses had already been brought from Stüdenitz and had no more forage, they were obliged to dismiss them, because forage could scarcely be found for the artillery horses'; 'march could only advance slowly, as in Mecklenburg no requisitioned teams were to be had and the artillery horses were wholly overdriven and starved. In Friedland only a little forage could be found'; as in claim side-b-command for the march to Boldekow; Lannes, as in claims side-b-strength-french and side-a-command.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Bis Rheinsberg, das man am 27. um 6 Uhr Morgens erreichte, war Alles in einem Strich mit Vorspann gefahren; da aber die letzten Pferde bereits aus Stüdenitz mitgenommen waren und kein Futter mehr hatten, so sah man sich genöthigt, sie zu entlassen, weil kaum für die Artilleriepferde Futter aufzutreiben war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Marsch konnte nur langsam vorschreiten, da im Mecklenburgischen kein Vorspann zu erhalten und die Artilleriepferde gänzlich abgetrieben und verhungert waren. In Friedland war nur wenig Futter aufzutreiben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "No passage read shows how side A learned of the park before Lieutenant Braun II, met at Neuensund, gave himself out as a parlementaire and was taken to Lannes at Pasewalk (Höpfner). Murat met the park the next morning 1 league from Friedland, and a party scouting his left brought in mounted gunners going to join it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and Murat's letter, read from the page images. English renderings (ours): Höpfner, as in claims side-b-command for Lieutenant Braun's errand and side-a-strength; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: at Rheinsberg Prince Hohenlohe's expected orders did not come, and news arrived of a fight of Blücher's rear guard; at Bredenfelde the column learned that Pasewalk was in the enemy's hands; at Friedland an officer from Major Knesebeck, bringing General Bila the news of Hohenlohe's capitulation at Prenzlau, gave Major Höpfner certainty of it; at Boldekow came news that the enemy was pushing into Mecklenburg, confirmed by a patrol from Friedland, and Lieutenant Braun II was sent towards Pasewalk to see how far the enemy had come.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 234-235. English renderings (ours): as in claim side-b-command for Rheinsberg, Bredenfelde, Boldekow and Braun's errand; 'immediately afterwards an officer from Major Knesebeck arrived, who was to bring General Bila the news that Prince Hohenlohe had capitulated at Prenzlau, of which Major Höpfner now also received certainty'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Als in Rheinsberg die erwarteten Befehle des Fürsten Hohenlohe ausblieben, gegen Abend auch noch die Nachricht von einem Gefecht der Arriergarde des Generals Blücher einging, hielt der Major Höpfner es nicht für rathsam, ebenfalls auf Fürstenberg zu marschiren, aber auch nicht die Nacht in Rheinsberg zuzubringen, sondern, nachdem noch der Artillerie-Lieutenant Westphal mit 6 Train- und Brodwagen und 250 Pferden zu ihm gestoßen war, brach er um ½9 Uhr Abends auf und marschirte nach Alt-Strelitz, wo er am Morgen des 28. um ½6 Uhr eintraf, daselbst füttern ließ und den Marsch in der Richtung auf Woldeck fortsetzte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Um 5 Uhr Abends erreichte er Bredenfelde (8¼ Meile von Rheinsberg), wo er die Nachricht erhielt, daß Pasewalk bereits in den Händen des Feindes sei, mithin auch der Weg nach Straßburg nicht füglich mehr eingeschlagen werden könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Gleich darauf traf ein Offizier vom Major Knesebeck ein, der dem General Bila die Nachricht bringen sollte, daß der Fürst Hohenlohe bei Prenzlau kapitulirt habe, wovon der Major Höpfner nun ebenfalls Gewißheit erhielt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man sandte nun den Lieutenant Braun II. von der Artillerie mit einem Trompeter in die Richtung auf Pasewalk, um zu sehen, wie weit der Feind vorgedrungen sei."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A took the park and sent it to the rear: Lannes was having it all filed off to Spandau, and in a further letter sent it off from Pasewalk to Spandau, suggesting that the Emperor could have its gunners taken to Italy; Murat wrote that the park was directed on Stettin.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Lannes's and Murat's letters; the letters of 31 October from the page images, Lannes's further letter from the OCR. The destinations differ and are kept as given. English renderings (ours): Lannes, as in claims side-b-strength-french and side-a-command; Murat, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "LE MARÉCHAL LANNES A L' EMPEREUR. Pasewalk,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "En vérité, Sire, je n'ai jamais rien vu de plus beau que ces hommes. C'est un superbe parc. Je le fais partir d'ici ce matin et le dirige sur Spandau."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "anklam-park-1-nov",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 597 (OCR page boundaries; not checked against print)",
+          "quote": "Pres- que tous ces canonnière sont à cheval et marchent dans le plus grand ordre. V. M. I. pourrait, si elle voulait, les faire conduire en Italie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p563-figures-v1",
+          "section": "p563",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 563 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR.\n\nFriedland, 31 octobre 1806, 6 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p565-figures-v1",
+          "section": "p565",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 565 (transcribed from the page image)",
+          "quote": "J'ai rencontré ce matin à 1 lieue de Friedland le grand parc d'artillerie qui s'était rendu à un officier de M. le maréchal Lannes, et un parti de quelques hommes qui éclairait ma gauche nous a ramené 60 artilleurs montés qui allaient joindre ce même parc qui est dirigé sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B sought to bring the park to safety: by Prince Hohenlohe's order it was to rest at Breddin and Stüdenitz, reach Rheinsberg in 2 days and await further orders, and Blücher urged particular haste; Major Höpfner meant to follow General Bila to Anklam until Bila sent word not to; with neither Anklam nor Stettin open, the column marched to Boldekow at least to get forage, and the escort went off to save itself across the Peene.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 234-236. English renderings (ours): Höpfner, as in claims side-b-strength for the order to rest and side-b-command for the haste, Bila's message, the council and the march to Boldekow; as in claim side-b-strength for the escort.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "24. Oktober unter der Bedeckung von 24 Kürassieren des Regiments Heising die Ortschaften Breddin und Stüdenitz, zwischen Havelberg und Kyritz, erreicht, um daselbst auf Befehl des Fürsten Hohenlohe Ruhetag zu halten, in 2 Tagen Rheinsberg zu erreichen, und weitere Befehle zu erwarten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p234-figures-v1",
+          "section": "p234",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 234 (transcribed from the page image)",
+          "quote": "Am 26. erreichte so die Artillerie über Wusterhausen das Dorf Wildberg, marschirte am 27. in der Nacht durch Neu-Ruppin nach Rheinsberg, da der General Blücher dem Führer der Artillerie-Kolonne, dem Major Höpfner, beim Marsch durch Gantzer besondere Eile empfohlen hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner sprach daselbst noch den General Bila I., der im Begriff war, nach Anklam zu gehen, und eröffnete ihm, daß es seine Absicht sei, am folgenden Tage ebenfalls dahin zu marschiren. Es dauerte indessen nicht lange, so sandte der General Bila zurück und ließ dem Major sagen: er möge nicht nach Anklam marschiren, sondern seine Maßregeln nach Gutdünken treffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Der Major Höpfner war in großer Verlegenheit was weiter zu thun sei, und versammelte die sämmtlichen Offiziere, um zu berathschlagen, wohin man sich zu wenden habe, wenn man weder nach Anklam, noch nach Stettin marschiren könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) was advancing: at Boldekow the Prussians heard the enemy was pushing into Mecklenburg, their officer met the enemy at Neuensund, and Bodart has the French under Lannes force the capitulation. Side B did not resist: its escort declared no resistance could be expected and went off across the Peene, and the park capitulated to a French officer sent to negotiate.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A was advancing on and pursuing side B, and side B made no resistance. The phase is left unresolved: the passages read do not show who set the French advance towards Boldekow, and the contact was made by the Prussian lieutenant sent out to reconnoitre. English renderings (ours): Höpfner, as in claims side-b-command for the news at Boldekow, side-a-strength for Neuensund and the French officer, and side-b-strength for the escort; Bodart, as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "In Boldekow ging die Nachricht ein, daß der Feind ins Mecklenburgische vordringe, was durch eine Patrouille, die von Friedland kam, bestätigt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "zösischen Offizier nach Boldekow zurückschickte, um mit dem kommandirenden Offizier zu unterhandeln."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p375",
+          "locator": "Bodart (1908), p. 375",
+          "quote": "Die Franzosen unter Marschall Lannes nötigen die Bedeckungsmannschaft des Blücher'schen Artillerieparks unter Major v. Höpfner zur Kapitulation, wonach 25 Kanonen, 48 Munitionswägen, 800 Pferde in die Hände des Feindes und ca. 600 M. in Kriegsgefangenschaft gerieten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Die Infanteriebedeckung, gleich den wenigen Kürassieren, erklärten, daß von ihnen kein Widerstand zu erwarten, da Leute und Pferde zu entkräftet seien; auch war diese Bedeckung für eine Wagenkolonne von so großer Ausdehnung viel zu gering, um sie selbst unter günstigeren Umständen zu beschützen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p236-figures-v1",
+          "section": "p236",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 236 (transcribed from the page image)",
+          "quote": "Die gesammte Bedeckung hatte sich entfernt, um sich über die Peene zu retten. —"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no works: the park stood in the village of Boldekow, to which it had marched for forage, and the French are described only at Neuensund and Pasewalk and as Lannes's outposts. No fighting took place.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe where both sides stood and name no fortification; the village was held without named works. English renderings (ours): Höpfner, as in claims side-b-command for the march to Boldekow and side-a-strength for Neuensund and Pasewalk; Lannes, as in claim side-b-strength-french.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Man beschloß daher am 30. Morgens vorerst nach dem nächsten preußischen Dorf Boldekow zu marschiren, um wenigstens Futter zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p235-figures-v1",
+          "section": "p235",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 235 (transcribed from the page image)",
+          "quote": "Derselbe stieß in Neuensund — 1¼ M. vor Straßburg — auf den Feind und wurde, da er sich für einen Parlamentair ausgab, zum M. Lannes nach Pasewalk geschickt, der für seine Person nach diesem Orte gegangen war und ihn mit einem fran-"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\nPasewalk, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p568-figures-v1",
+          "section": "p568",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 568 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de prévenir V. M. que 1,500 hommes, presque tous de l'artillerie, 200 dragons, 30 pièces de canon, 60 caissons et beaucoup de chariots remplis de munitions, le tout bien attelé, se sont rendus hier à mes avant-postes. Je fais filer tout cela sur Spandau."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the rest of Lannes's further letter from Pasewalk (Foucart t. II, pp. 597-598), read only in the OCR; a French return of the park and its prisoners; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests; whether the author Höpfner was related to the park's commander, Major Höpfner. Figures seen only in the OCR and not restated: Lannes's figures for the park, its teams and its gunners in that letter (p. 597).",
+    "Most consequential gap: who and how many side B were. Höpfner's men handed over were the park's 14 officers, 250 artillerymen and 300 drivers, 564 in all (our arithmetic), the escort having left; Bodart has the escort capitulate and about 600 men taken; Lannes has 1,500 men, almost all artillery, and 200 dragoons. Side A's force is not given at all. A French return of the prisoners, or Lannes's outpost reports, could settle both.",
+    "Disputes kept as separate claims: the men (564 from Höpfner's figures, by our arithmetic; about 600, Bodart; 1,500 and 200 dragoons, Lannes; Murat's 60 mounted gunners taken separately); the guns (25, Höpfner and Bodart; 30, Lannes); the wagons (48 ammunition wagons, Höpfner and Bodart; 60 caissons and many wagons, Lannes); whether the escort capitulated (Bodart) or had gone off across the Peene (Höpfner); the park's destination (Spandau, Lannes; Stettin, Murat); the state of its horses (starved, Höpfner; well horsed, Lannes).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 25 guns, 48 wagons and 800 horses are Höpfner's figures and his about 600 men Höpfner's 564 rounded up, by our arithmetic); Foucart, t. II (the French side's documents: Lannes's and Murat's letters of 31 October from the page images, Lannes's further letter from the OCR); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war, but the Boldekow passage names no source)."
+  ]
+}

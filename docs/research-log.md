@@ -1487,6 +1487,228 @@ primary-verified; no separate review was made.
   - The cohort's 292 remaining engagements would need about 175 million tokens at this rate.
   - About 3.9 million remain in this session.
 
+## 1806 first pass, batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast (2026-10-18)
+
+The second part of batch 2b of `fourth-coalition 1806`: the capitulations that followed Prince
+Hohenlohe's at Prenzlau, from Stettin to Wolgast. Batch 2c, from Lübeck to Nienburg, follows.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B374d | Stettin (capitulation) | 29 October 1806 | 18 |
+| B375a | Pasewalk (capitulation) | 29 October 1806 | 18 |
+| B375b | Boldekow (capitulation) | 30 October 1806 | 18 |
+| B375c | Küstrin (capitulation) | 1 November 1806 | 18 |
+| B375d | Anklam (capitulation) | 1 November 1806 | 18 |
+| B375e | Wolgast (capitulation) | 3 November 1806 | 18 |
+
+The main session researched, drafted and verified the six without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of sub-batch 2b-i, whose selections already held these
+  sections ([source additions](source-additions.md)):
+  - Foucart's *Campagne de Prusse (1806): Prenzlow–Lubeck* (1890), the French side's documents:
+    - Stettin: Murat's letter with the capitulation, Belliard's and Lasalle's letters and the 24th
+      Bulletin. Murat's further orders and Lannes's and Belliard's continuations were read only in
+      the OCR.
+    - Pasewalk: Murat's letters of 28 and 30 October, Milhaud's letter to Belliard with Foucart's
+      note, and the 24th Bulletin.
+    - Boldekow: Lannes's and Murat's letters of 31 October. Lannes's further letter was read only
+      in the OCR.
+    - Küstrin: the Emperor's letter to the Grand Duke of Berg and the 25th Bulletin, both of 2
+      November.
+    - Anklam: Lasalle's, Belliard's, Beker's and Murat's letters and the 25th Bulletin, with further
+      letters read only in the OCR. Murat's letters pass on Beker's reports.
+    - Wolgast: Murat's letter to the Emperor, Belliard's orders and report, Boyer's and Déry's
+      letters, the capitulation, and Colonel Dommanget's report on Guérin's detachment.
+  - Höpfner's *Der Krieg von 1806 und 1807*, Theil 1, Bd. 2 (2nd edition, 1855), the Prussian
+    history: its account of the capitulations after Prenzlau (pp. 209–236) and of Küstrin
+    (pp. 324–328). For Anklam it quotes Mathieu Dumas's account of the French side. The Stettin
+    passage names no source beyond "a reliable report" on the state of the works, and the other
+    passages name none.
+
+  94 records were registered: 47 page images (24 of Foucart, 23 of Höpfner) with their figure
+  transcriptions. No parent or selection was added. Every figure in a value is read from a page
+  image or from Bodart. Sums are labelled as ours.
+  - Bodart matches Höpfner's figures at every place (our arithmetic):
+    - Stettin: his 5,300 with 100 officers is Höpfner's 100 officers and 5184 men rounded up, and
+      his 281 guns are Höpfner's 187 serviceable and 94 for emergencies.
+    - Pasewalk: his 185 officers, 8 guns and 1 wagon are Höpfner's, and his 2,100 horses round up
+      Höpfner's 2087. His 4,200 is close to Höpfner's 4228 officers and men.
+    - Boldekow: his 25 guns, 48 wagons and 800 horses are Höpfner's, and his about 600 men round
+      up Höpfner's 564.
+    - Küstrin: his 2,400 men and 92 guns equal Höpfner's about 2400 and his 80 and 12 guns.
+    - Anklam: his 1,100 infantry and 1,100 cavalry are Höpfner's 1100 infantry and 1073 horses
+      rounded up, and his 2,200 is their sum.
+    - Wolgast: his 500 wagons are Höpfner's, his 2,500 men equal the lower of Höpfner's figures
+      for the column's horses (2500–3000), and his Colonel Daru is Höpfner's Colonel Darü.
+
+    The passages read do not show what he used.
+- **Drafts.** 108 claims with 1,017 citations: 104 supported and 4 unknown. The unknowns are side
+  A's losses at Stettin, Pasewalk, Boldekow and Küstrin, which no passage read gives; they are not
+  set to zero. Every draft covers the nine dimensions.
+  - Phases: 45 unresolved, 37 inherited, 12 commander-created and 14 post-outcome.
+  - Posture: side A attacked in all six (A_attacked), and side B capitulated.
+    - Stettin and Boldekow are tagged unresolved. At Stettin, Murat sent Belliard to summon the
+      commandant, but Lasalle had begun the summons before Belliard came; the passages read do not
+      settle whether it was Lasalle's own initiative or Murat's order. At Boldekow they do not show
+      who set the French advance, and the contact was made by the Prussian lieutenant sent out to
+      reconnoitre.
+    - Pasewalk, Küstrin, Anklam and Wolgast are tagged inherited:
+      - Pasewalk: Milhaud's approach was set by the pursuit before it, and the parleys were begun
+        by the Prussian officers.
+      - Küstrin: Davout ordered Gudin's division against the place.
+      - Anklam: Murat ordered the move and the summons.
+      - Wolgast: Murat ordered the pursuit over the Peene, as the order to Lasalle to which
+        Foucart's note on p. 627 refers shows for the hussars.
+  - Fortification:
+    - Stettin and Küstrin: B_fortified, tagged inherited, for their permanent works.
+    - Wolgast: B_fortified, tagged inherited, on the capitulation's words "the place" and "the
+      glacis" alone. Every other passage read would give none_named.
+    - Pasewalk, Boldekow and Anklam: none_named, tagged unresolved. At Anklam the passages name a
+      bridge that could be drawn up and a closed town, but no works.
+- **Disputes kept visible.**
+  - Stettin:
+    - The garrison: 100 officers and 5184 men (Höpfner); 5,300 with 100 officers (Bodart); 5,500
+      taken (Lasalle); 6,000 (the Bulletin).
+    - The guns: 187 serviceable and 94 for emergencies (Höpfner); 281 (Bodart); 120 (Lasalle); 160
+      (the Bulletin).
+    - The hour of the capitulation. It is dated 6 in the evening of the 29th and was approved by
+      Belliard that night; Belliard reported it at 1 in the morning; Höpfner has it carried out in
+      the night to the 30th, with Lasalle in the town at 6 in the morning before it was signed.
+      Murat's report is dated 2 in the morning in its dateline and 5 in the morning in Höpfner.
+    - Romberg's rank: Major General (Bodart); General-Lieutenant (Höpfner); lieutenant-général (the
+      capitulation).
+    - Bodart's "without a stroke of the sword" against Belliard's few cannon shots.
+  - Pasewalk:
+    - Side B's strength: 185 officers and 4043 men with 2087 horses, 8 guns and 1 powder wagon,
+      and Hagen's 2000 infantry (Höpfner); 4,200 with 185 officers, 2,100 horses, 8 guns and 1
+      ammunition wagon (Bodart); 2,000 cavalry, 3,000 infantry and 5,000 prisoners (Milhaud); 6,000
+      (Murat and the Bulletin).
+    - Side A: 600 horse (Milhaud); 700 (Bodart).
+    - The flags: 36 (Milhaud); none counted by Höpfner or Bodart.
+    - Who received the capitulation: Milhaud (Bodart and the French letters), or a negotiator with
+      powers from the Grand Duke, the draft going to him at Löcknitz for ratification (Höpfner).
+  - Boldekow:
+    - The men: 564 from Höpfner's figures (our arithmetic); about 600 (Bodart); 1,500 and 200
+      dragoons (Lannes). Murat counts 60 mounted gunners taken separately.
+    - The guns: 25 (Höpfner, Bodart); 30 (Lannes). The wagons: 48 ammunition wagons (Höpfner,
+      Bodart); 60 caissons and many wagons (Lannes).
+    - Whether the escort capitulated (Bodart) or had gone off across the Peene (Höpfner).
+    - The park's destination (Spandau, Lannes; Stettin, Murat) and its horses (starved, Höpfner;
+      well horsed, Lannes).
+  - Küstrin:
+    - The garrison: about 2400 with 1600 fit (Höpfner); 2,400 (Bodart); 4,000 prisoners (the
+      Emperor, the Bulletin).
+    - The guns: 80 on the walls and 12 in reserve (Höpfner), 92 by our arithmetic; 92 (Bodart); 80
+      (the Emperor); 90 (the Bulletin).
+    - Side A: 1,500 under Gauthier (Bodart); the 85th regiment, left under Gauthier when Gudin's
+      division was recalled (Höpfner). Who summoned the place: Gudin (Höpfner) or Davout (the
+      Bulletin).
+    - Bodart's "without striking a blow" against Höpfner's fight at the bridgehead on 31 October,
+      in which Lieutenant Falkenhayn was shot dead.
+  - Anklam:
+    - Side B's strength: 1100 infantry and 1073 horses (Höpfner); 2,200 (Bodart); 1,200 and some
+      mounted cavalry and more than 1,500 infantry (Beker's count); 4,000 (the Bulletin and Dumas).
+      Earlier estimates: the postillon's 6,000; Beker's 2,000 and then 3,000 with 1,000 to 1,200
+      cavalry; Murat's 3,000 to 4,000 with 1,400 or 1,500 horses. Murat's 400 taken in the tail and
+      Beker's more than 300 cavalry and as many infantry may or may not be inside these.
+    - Side B's guns: none (the postillon); guns (Murat); 4 horsed guns (Beker's count); none named
+      by Höpfner.
+    - The course of the action:
+      - Höpfner: a bridge held until a parlementaire came, and Hiller's detachments captured outside
+        the town, with no charge.
+      - Murat on 31 October: only the tail taken, the rest across the Peene behind a raised
+        drawbridge. On 1 November: a very vigorous charge in the town.
+      - The Bulletin and Dumas: a charge on the plain and an entry into the town with the enemy,
+        which Höpfner calls "so many words, so many untruths".
+    - The French loss: an adjudant sous-officier and a few dragoons (Murat), in a charge that
+      Höpfner's narrative does not have.
+    - Side B's commander: General v. Bila (Bodart); the brothers Bila I and Bila II (Höpfner); 2
+      generals (Beker).
+    - Names as printed: Becker and Beker; Boussard, Boussart and Broussart.
+  - Wolgast:
+    - The strength. Bodart: 2,500, mostly train troops, with 500 wagons. Höpfner: 500 wagons and
+      2500–3000 horses for Langwerth's column at Friedland. Déry: about 2,000 men, 84 officers and
+      4,000 to 5,000 horses. The French report: 800 cavalry depot men, 1,500 infantry and 300
+      vehicles. Murat: an escort of about 1,000 men for the equipages that passed Demmin. None says
+      how many came under Langwerth's capitulation and how many under Prittwitz's.
+    - The war chest: taken (Bodart); embarked at Anklam on the 29th (Höpfner); the King's treasure
+      of 10 millions gone 6 days before, and a single regimental chest of 1,000 francs found (Déry).
+    - The French commander: Colonel Daru (Bodart); Colonel Darü's raiding party (Höpfner); Déry,
+      chef d'escadron in his letter's heading and the Grand Duke's aide-de-camp in the
+      capitulation, which he signed.
+    - One capitulation (Bodart) or two, Langwerth's at Anklam and Prittwitz's at Wolgast (Höpfner).
+    - The date: 3 November (Bodart); 2 and 3 November (Höpfner); signed on 2 November to be
+      carried out the next day (the capitulation).
+    - The town's country: Prussia in Bodart's locator; Swedish Pomerania in the French report, in
+      Murat and in Höpfner's Swedish officers.
+- **Gaps.** Two targeted follow-ups were run:
+  - Küstrin: an OCR search of Foucart's volume for Küstrin, Gauthier, Ingersleben and Duplin found
+    no French report of the capitulation besides the Emperor's letter and the 25th Bulletin.
+    Davout's own correspondence, a further family, was not read.
+  - Wolgast: the order to which Foucart's note on p. 627 refers, and the French letters around it
+    (pp. 618–621), were read. They settled the posture's phase as inherited and gave the dragoon
+    detachment as 50 men from each of its two regiments. The hussars' strength is still unknown.
+
+  Each draft names the record that could close its most consequential gap:
+  - Stettin: side A's strength. The only figure is the 800 cavalry and 2 guns before which the
+    garrison laid down its arms. A return of Lasalle's brigade or Murat's situation reports could
+    settle it.
+  - Pasewalk: side A's strength, 600 (Milhaud) or 700 (Bodart). A return of Milhaud's brigade could
+    settle it.
+  - Boldekow: who and how many side B were; side A's force is not given at all. A French return of
+    the prisoners, or Lannes's outpost reports, could settle both.
+  - Küstrin: side A's strength, and with it whether a garrison of about 2400 surrendered to a
+    single regiment. A return of the 85th for 1 November could settle it.
+  - Anklam: side B's strength, and what was taken in the fighting as against at the capitulation.
+    Beker's promised return, or the return Belliard asked for, could settle it.
+  - Wolgast: the size of each side. A French return of the prisoners could settle side B.
+- **Verification.** The six drafts were checked as a sub-batch before release. The check:
+  - read every claim of Stettin, Pasewalk, Boldekow, Küstrin and Anklam against its cited passages
+    and their context. Wolgast had its full recheck while it was drafted.
+  - checked that the subject and attribution of each statement are in the claim's own quotes.
+    Where Höpfner refers to the subject only by a pronoun, the claim also cites the sentence that
+    names it.
+  - checked every figure in a value against a page-image or Bodart quote, every rendering of an
+    OCR passage for digits and number words, and every figure in the open questions against the
+    draft's page-image quotes.
+  - read on the page images figures that the OCR misreads or loses:
+    - in Höpfner: "am 26." (OCR "20.") on p. 225, "1. November" on p. 226, "1000 Pferden" on
+      p. 230, "1¼ M." (OCR "14 M.") on p. 235, "könne" (OCR "konne") on p. 327, and the table on
+      p. 214, which the OCR garbles;
+    - in Foucart: "500" (OCR "Ô00") on p. 530, datelines whose "30" and "1806" the OCR gives as
+      "80" and "1808", and Déry's "2 novembre" (OCR "8").
+  - fixed what it found:
+    - Stettin: the words "seen and approved the present capitulation to be carried out", printed
+      above Romberg's and Lasalle's names, are no longer read as Lasalle's approval; whose approval
+      they record is not shown. Also "the Emperor's hussars", a missing citation, and an open
+      question's note on a heading read only in the OCR.
+    - Pasewalk: wording brought into line with its quotes, among it "found there", "came back"
+      and "not practicable", and subjects brought inside the quotes.
+    - Boldekow: Braun II's name brought inside the quotes; "Friedland, in Mecklenburg", which no
+      passage read gives, removed; "by the time of the capitulation".
+    - Küstrin: renderings that ran beyond their quotes; the ground restated from the passages
+      (the abatis and wolf pits, and the bridge the commandant had already set on fire); Bodart's
+      "without striking a blow" now cited in the posture claim; "the Grand Duke of Berg" for Murat,
+      whom no quote there names.
+    - Anklam: anchor sentences cited where Höpfner names the subject only by a pronoun; renderings
+      of passages the claim does not cite removed, and Beker's report rendered in parts matched to
+      the claims that cite them; Beker's charge "in person"; the French loss put "in a charge that
+      Höpfner's narrative does not have", not one he denies.
+    - Wolgast, while it was drafted: names, units and attributions corrected against their quotes,
+      Langwerth marked as named by context where the OCR line that names him is garbled, and a note
+      that Bodart's locator does not say whether it describes 1806.
+    - Across the sub-batch: the attribution of the remark printed after Déry's letter on p. 627;
+      the cross-note on Belliard's wagons of flour, grain and baggage, which no draft assigns to
+      Anklam or Wolgast; Boldekow's 564, labelled as our arithmetic.
+
+  The evidence check passes on all 2,620 sources and 39 drafts (789 claims, 13 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 3.5 million tokens, roughly 590,000 an entry. The sub-batch held six
+  capitulations and 94 records, with no new volume.
+  - The cohort's 286 remaining engagements would need about 170 million tokens at this rate.
+  - About 0.35 million remain in this session.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
