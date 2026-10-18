@@ -2259,6 +2259,140 @@ primary-verified; no separate review was made.
   pages read and withdrawn. The estimate for the cohort's other 280 engagements stays at about 165
   to 190 million tokens.
 
+## 1806 first pass, sub-batch 2d-ii: Breslau (2026-10-18)
+
+The second part of batch 2d of `fourth-coalition 1806`: the siege and capitulation of Breslau,
+the capital of Prussian Silesia. Batch 2d is complete.
+
+| Entry | Engagement | Date (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B378b | Breslau (siege and capture) | 6 December 1806 to 6 January 1807 | 18 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the group's two families. Every cited passage was read from a registered
+  page image ([source additions](source-additions.md)):
+  - Höpfner, Bd. 4, chapter 16, each page transcribed whole: the King's order of 22 November to
+    the commandants (p. 36); the defence's preparations, the second investment and the siege to
+    the failed storm of 23 December (pp. 47–65); the summons, the armistice and its end on
+    25–26 December (pp. 79–81); the governor's conduct on 30 December, while the relief was beaten
+    nearby (pp. 86–87); and the end of the siege, the capitulation, the governor's reasons and
+    Höpfner's judgement (pp. 109–112, 114, 116 and 118). His formation table of the Silesian corps
+    (pp. 15–17, registered for Groß-Glogau) is reused. He cites General Lindener's journal,
+    Colonel Blein's report to Napoleon, a statement of the French artillery officers, Du Casse and
+    the *Geschichte der Belagerung von Breslau*, and names no source for the garrison's returns,
+    the councils or the negotiations.
+  - Foucart's *Campagne de Pologne*, t. II (1882), newly registered: the Emperor's letters to
+    Prince Jérôme of 3 December (pp. 93–94) and to the major general of 17 December (p. 97) and
+    7 January (p. 113); the major general's letter to Jérôme of 3 December (p. 94) and Jérôme's
+    letter to Vandamme of 8 December (p. 96), both as Foucart summarises and excerpts them; and
+    Foucart's narrative of the investment, the covering detachments and the capitulation
+    (pp. 93, 95–97, 108 and 112). By its own footnote it leaves the operations against the place
+    aside.
+
+  The pages were found by OCR scans of Höpfner's chapter 16 and of t. II for Breslau. 81 records
+  were registered: the t. II OCR parent and 40 page images (32 of Höpfner and 8 of t. II) with their
+  figure transcriptions. Every registered page is cited. No figure in a value is taken from the
+  OCR.
+- **Not used.** Völderndorff's Bavarian history and the contemporary account of the siege in the
+  Lower Silesian Digital Library, both noted for this entry, were not read: the brief allows two
+  families besides Bodart. *Campagne de Pologne* t. I pp. 146 and 242 were read in the OCR and not
+  used.
+- **Draft.** 18 claims with 426 citations, all supported. Phases: 10 unresolved, 3 inherited,
+  3 post_outcome and 2 commander_created.
+  - The posture is coded `A_attacked` and left unresolved. Side A invested, bombarded, summoned
+    and tried to storm the fortress. Side B burnt the suburbs that covered side A, made the
+    expedition of 7 December and the sortie of 16 December, repulsed the storm and did not sortie
+    on 30 December.
+  - The fortification is coded `both_fortified` and left unresolved: side B's permanent fortress
+    and side A's parallels, approaches and batteries. A coding that counted only the fortress would
+    give `B_fortified`.
+  - Side A's losses are a partial post_outcome claim: Captain Debruir captured, 10 prisoners taken
+    by the sortie, losses without figures in the night to 23 December and in the storm, where two
+    raft carriers were shot and a French officer and some privates captured. No total is given.
+  - The command is left open from 20 December. The Emperor's order of 17 December left the
+    command of the siege to Vandamme; by Höpfner, Jérôme kept the corps command through
+    Hédouville, and Vandamme acted without Hédouville's knowledge. The draft assigns the credit to
+    no one commander.
+  - The boundary leaves the Prussian relief attempts under the Prince of Anhalt-Pless, among them
+    Strehlen and the advance of 30 December, and the French operations against them outside the
+    entry. Bodart has no entry for them.
+- **Disputes kept visible.**
+  - The garrison: 6,000 men with 272 guns (Bodart); 135 officers and 5841 men on 1 January and
+    6000 at the second investment, of whom Höpfner counts 5000 as real defenders against the
+    10,320 of the arming plan of 1805, with 208 guns on the walls and 46 in reserve or unusable;
+    a fifth of the garrison necessary (the Emperor, from intercepted letters). Bodart's 6,000 and
+    135 officers are Höpfner's figures, but his 272 guns match none: 208 and 46 make 254 (our
+    arithmetic).
+  - The garrison at the end: 116 officers and 5270 men marched out, 240 guns handed over
+    (Höpfner); 5,500 men filed past (Foucart); 135 officers on parole (Bodart). The marchers are
+    19 officers and 571 men fewer than the return of 1 January (our arithmetic).
+  - Side A: 27,000 with 52 guns (Bodart); 22,000 with Deroy's division of 10,000 (the adjutant's
+    assurance of 18 December); the 2nd division 4,700 (Jérôme, 8 December); more than 30,000 with
+    two units arriving (the Emperor, 7 January). The armaments Höpfner names make 25 pieces on
+    10 December, 32 on 15 December and 16 for Vandamme's new batteries (our arithmetic), with no
+    total.
+  - The dates: Vandamme at Lissa on the 6th and the right bank invested on the 8th (Höpfner);
+    Montbrun investing the left bank on the 7th and Vandamme arriving on the 8th (Foucart);
+    Deroy's division about the 18th (Höpfner) or the 20th (Foucart); the capitulation signed on
+    3 January at 9 in the evening (Foucart) or on 5 January after 6 (Höpfner); Bodart's end date,
+    6 January, the evening the gates were handed over in Höpfner; the march-out on the 7th
+    (Höpfner) or the garrison filing past Jérôme on the 8th (Foucart).
+  - The talks of 25–26 December: an armistice refused, granted and ended by the governor because
+    of the burghers' mood and side A's works (Höpfner); talks for surrender broken off on news of
+    the Prince of Pless's reassembly (Foucart).
+  - The storm: two accounts in Höpfner, side A seen at 6 crossing by cask bridges at the ravelin R.
+    and the first raft in the ditch at 5 near the Ohlau gate.
+  - The garrison's dead: 13 by Lindener's journal, beside the sortie's 1 officer and 10 men.
+- **Gaps.** No targeted follow-up was run.
+  - The most consequential gap is side A's strength and guns before Breslau. A return of the
+    Silesian corps for late December or early January, or the French artillery's account of the
+    siege, could close it.
+  - Deferred:
+    - Höpfner's Plan XVIII of Breslau, not inspected;
+    - Höpfner's pp. 32–35 and 37–46 (the first move against Breslau and the governor-general of
+      Silesia) and his account of the relief attempts (pp. 66–78, 82–85 and 88–108), not read
+      beyond the OCR;
+    - pp. 108, 113, 115 and 117, read in the OCR only, among them the day the frost set in, the
+      governor's reasons 3–5, the heading and first items of the list of faults, and the break-out
+      disposition Höpfner proposes;
+    - not seen: the capitulation's text, the summonses, the intercepted letters, Lindener's
+      journal, Blein's report, Du Casse and the *Geschichte der Belagerung von Breslau*.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed Höpfner's and Foucart's pages whole from the images, every figure on
+    full-resolution crops, and settled OCR misreads on the images, among them 'le 8' on t. II
+    pp. 95 and 112, '12—15′' on Höpfner's p. 64 and '1806.' on t. II p. 97; it corrected the
+    transcription notes before registration, among them the paragraph breaks on pp. 58 and 62 and
+    a repeated phrase in p. 49's note;
+  - reread every cited passage against its transcription and fixed what the reread found, among it:
+    - Höpfner's 5000 real defenders are his estimate on stated assumptions, not a count;
+    - the Emperor's order of 17 December went through the major general, and Jérôme was to send
+      Deroy's division on Lowicz;
+    - Vandamme had ordered his four new batteries before the bombardment of 25 December; the draft
+      no longer says he built them, or that Duveyrier refused the armistice of 8 days on 3 January;
+    - side A's firing only at the town belongs to the 20th, and the 'feint' at Neudorf was the
+      gathering of the crossing material there;
+    - Lieutenant Zimmermann had silenced the right-bank fire before the 11th;
+    - the storm's two times are two accounts, not one timing dispute;
+  - fixed the attribution of Höpfner's judgements: items 3–6 of the list of faults are given as
+    the list's, since its heading on p. 115 was read only in the OCR, and his break-out reckoning
+    now carries his own statement that it is a general point and not a charge;
+  - cited transcribed passages that the first draft had left out, among them:
+    - the governor's reply of 26 December to the burghers' petition;
+    - the reports of the engineer of the place and of Lieutenant Schorlemmer on 30 December;
+    - Vandamme at Lissa on 6 December and Blein's rafts;
+    - the complaints of indiscipline behind Jérôme's arrangement;
+    - the burghers' mood after 30 December and the artillery's conduct, with Blein's praise;
+  - checked that no number in a value lacks a cited passage, which removed the storm's date from
+    the strength claim and added the passages dating the summonses of 10 and 15 December to the
+    defenders' command claim.
+
+  The evidence check passes on all 2,991 sources and 46 drafts (916 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 1.9 million tokens by the session's token counter. The estimate for the
+  cohort's other 279 engagements stays at about 165 to 190 million tokens.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

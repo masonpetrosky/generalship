@@ -1931,3 +1931,39 @@ Glogau, pp. 56–66 without pp. 59–60 and 63, and withdrawn before commit unde
 ceiling; no record of it was added ([research log](research-log.md)).
 
 Use: the draft for B377b. No model inputs are changed. The registry now holds 2,910 records.
+
+## *Campagne de Pologne* t. II and Höpfner Bd. 4 page images for Breslau, 2026-10-18
+
+81 records for sub-batch 2d-ii: one OCR parent and 40 page images with their figure
+transcriptions. No selection is added.
+
+- **Foucart, *Campagne de Pologne*, t. II** (Paris, 1882; Internet Archive
+  `campagnedepolog01foucgoog`, a University of California copy digitised by Google): the OCR parent
+  `foucart-pologne-1882-t2-ocr-v1`, retained complete, and 8 page images with transcriptions:
+  - pp. 93–97: the operations on the upper Oder, with the Emperor's and the major general's
+    letters to Prince Jérôme of 3 December, Jérôme's letter to Vandamme of 8 December, the
+    Emperor's letter to the major general of 17 December, and Foucart's narrative of the
+    investment and the covering detachments;
+  - p. 108: the talks of 25–26 December and the move on Ohlau;
+  - pp. 112–113: the capitulation and the Emperor's letter of 7 January.
+
+  It continues t. I and is in Foucart's family. Its leaf numbers are n = printed + 11 for the pages
+  registered, checked on the images. The title page was read on image n12, which is not
+  registered.
+- **Höpfner, Bd. 4**: 32 page images with transcriptions, each whole, from chapter 16 on the
+  governor-general of Silesia and the siege and capitulation of Breslau: p. 36, pp. 47–65,
+  pp. 79–81, pp. 86–87, pp. 109–112, p. 114, p. 116 and p. 118. The leaf numbers are
+  n = printed + 12, as for pp. 15–31, checked on the images.
+
+Every figure is transcribed from the image, on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence: t. II's parent records the Internet Archive's NOT_IN_COPYRIGHT mark and the
+title page's reservation of the rights of reproduction and translation. In the passages read it
+prints the French side's letters, several in summary or excerpt, and by its own footnote its
+narrative leaves the operations against the place aside. In the passages read Höpfner cites General
+Lindener's journal, Colonel Blein's report to Napoleon, a statement of the French artillery
+officers, Du Casse and the *Geschichte der Belagerung von Breslau*. He names no source for the
+garrison's returns, the councils or the negotiations.
+
+Use: the draft for B378b. No model inputs are changed. The registry now holds 2,991 records.
