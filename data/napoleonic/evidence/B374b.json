@@ -1,0 +1,1181 @@
+{
+  "schema_version": 1,
+  "battle_id": "B374b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Spandau entry (capitulation, 25 October 1806) in cohort v1's fourth-coalition 1806 group: Lannes's corps, with dragoons of Beaumont's division under Latour-Maubourg, before the citadel of Spandau held by Major Benekendorf's garrison, from the abandonment of the town to the capitulation on the 25th. The skirmish with a Prussian patrol before the gates is context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) as the garrison of 1,000 men under Major v. Benekendorf, which surrendered without a fight to the French under Marshal Lannes. He gives no strength for side A. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison as not over 900 men, and the French letters as 1,200 (claims side-b-strength, side-b-strength-french). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 25/10. capitulation of Spandau'; 'the Prussian garrison (1,000 men) under Major v. Benekendorf surrenders without a stroke of the sword to the French under Marshal Lannes'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 25./10. KAPITULATION von Spandau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Die preußische Garnison (1.000 M.) unter Major v. Benekendorf ergibt sich ohne Schwertstreich an die Franzosen unter Marschall Lannes."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B in Höpfner: when the town was abandoned the garrison, the 3rd battalion of the King's regiment, 3 invalid companies and 65 artillerymen, not over 900 men strong after deducting the sick and unfit, withdrew into the citadel. There was powder for a little over 60 cartridges a man and 2475 rounds for 71 guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page image of p. 129. The garrison was the place's own, so the claim is tagged inherited. English renderings (ours): 'when on 22 October no workers had yet come in, and the enemy had already crossed the Elbe'; 'the town was abandoned and the garrison — the 3rd battalion of the King's regiment, 3 invalid companies and 65 artillerymen, not over 900 men strong after deducting the sick and unfit — withdrew to the citadel'; 'as the promised powder had not arrived from Berlin, there were only 142 hundredweight of powder, from which a little over 60 cartridges per man and 2475 rounds for 71 guns could be made up'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Als am 22. Oktober noch immer keine Arbeiter eingekommen waren, und der Feind die Elbe bereits überschritten hatte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "wurde die Stadt verlassen und die Garnison — das 3. Bataillon vom Königs-Regimente, 3 Invaliden-Kompagnien und 65 Artilleristen, nach Abzug der Kranken und Unbrauchbaren nicht über 900 Mann stark — zog sich nach der Citadelle zurück,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Da das versprochene Pulver von Berlin nicht eingetroffen war, so hatte man nur 142 Centner Pulver, von denen etwas über 60 Patronen per Mann und 2475 Schuß auf 71 Geschütze angefertigt werden konnten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B, side A's figures: General Bertrand reported to the Emperor that by the bailiff's account there were 400 invalids, 400 of the King's troops and 80 horses, but apparently 300 invalids and 300 men of various corps more; from what they showed on the ramparts they seemed to have no more than 400 men, and no cavalry; and they agreed in saying there were 50, 60 or 90 guns in the place. Lannes wrote that the citadel had 1,200 men of garrison, and the Emperor told Davout that 1,200 prisoners had been taken there.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's reports of 25 October, read from the page images; Bertrand's are estimates from informants and from what he saw, not reconciled with Lannes's, the Emperor's, Höpfner's or Bodart's figures (claims side-b-strength, bodart-strength). English renderings (ours): Bertrand, 'report to His Majesty the Emperor. Spandau, 25 October 1806'; 'according to the bailiff there are 400 invalids and 400 men of the King's troops and 80 horses'; 'but it appears that there are 300 invalids and 300 men of various corps more'; 'it did not seem to me from what they showed on the ramparts that they had more than 400 men, no cavalry'; 'they agree in saying that there are in the place 50, 60, 90 guns'; 'guns. General Bertrand'; Lannes, 'Marshal Lannes to the Emperor. 25 October 1806'; as in claim spandau-ground for the citadel in the lake; 'it has 1,200 men of garrison'; the Emperor, 'the Emperor to Marshal Davout'; 'Potsdam, 25 October 1806, 5 o'clock in the evening'; 'I announce to you the news that Spandau has just surrendered. There were found there 80 guns, much powder, much food and 300 state prisoners. 1,200 prisoners were taken there'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Suivant le bailli il y a 400 invalides et 400 hommes des troupes du Roi et 80 chevaux."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Mais il paraît qu'il y a 300 invalides et 300 hommes de divers corps en plus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Il ne m'a pas paru d'après ce qu'ils ont montré sur les remparts qu'ils eussent plus de 400 hommes, point de cavalerie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Ils s'accordent à dire qu'il y a dans la place 50, 60, 90 pièces de canon."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "V. M. sera étonnée quand elle verra la citadelle; elle est au milieu d'un lac et susceptible d'une grande défense."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Elle a 1,200 hommes de garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Potsdam, 25 octobre 1806, 5 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Je vous annonce la nouvelle que Spandau vient de se rendre. On y a trouvé 80 pièces de canon, beaucoup de poudre, beaucoup de vivres et 300 prisonniers d'État. On y a fait 1,200 prisonniers."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A before the citadel: Bertrand's second report, at noon on the 25th, places the artillery, puts the light infantry in the houses to fire on the rampart, 2 line regiments on the height out of range, the dragoons in sight of the place and the infantry along the water on the front of attack and the 3 adjacent sides, while 25 dragoons crossed the Spree in boats to close the fourth side. Höpfner has the town occupied in the night by a light infantry regiment of Lannes's, and Suchet's division of Lannes's corps come before Spandau. No passage read gives a headcount for side A.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bertrand's dispositions read from the page image of p. 317; Höpfner's from the OCR, the regiment's number not restated. Bodart gives no French strength. English renderings (ours): Bertrand, 'report to His Majesty the Emperor. Spandau, 25 October 1806. It is noon'; 'the artillery is being placed as shown on the attached plan. Within half an hour the place will be summoned and the artillery in play'; 'the light infantry is disposed in the houses to fire on the rampart'; 'the 2 line regiments are on the height in view of the place, out of range'; 'the dragoons are in view of the place'; 'the infantry occupies the banks of the water on the front of attack and the 3 adjacent sides'; 'the 25 dragoons have crossed the Spree in boats above the arm that flows into the ditches or pools surrounding the place, and block the place on the fourth side, the road that runs along the fort and leads to Charlottenburg'; 'from the top of the houses. General Bertrand'; Höpfner, 'and in the night the town was occupied by the ... light infantry regiment of Marshal Lannes' (OCR); 'Suchet's division of Marshal Lannes's corps moved before Spandau, and the third summons followed with the remark that the citadel was after all only a' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806.\n\nIl est midi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "du haut des maisons.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "L'artillerie se place telle qu'elle est indiquée au plan ci-joint. Sous demi-heure la place sera sommée et l'artillerie en jeu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "L'infanterie légère est disposée dans les maisons pour faire feu sur le rempart."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Les 2 régiments de ligne sont sur la hauteur en vue de la place, hors de portée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Les dragons sont en vue de la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "L'infanterie occupe les bords de l'eau sur le front d'attaque et les 3 côtés adjacents."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Les 25 dragons ont passé la Sprée dans des bateaux au-dessus du bras qui se jette dans les fossés ou flaques qui environnent la place et bloquent la place du quatrième côté, la route qui longe le fort et conduit à Charlottenburg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "und in der Nacht wurde die Stadt vom 17. leichten In⸗ fanterie-Regiment des M. Lannes beſetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "rückte die Divifion Süchet vom Korps des M. Lannes vor Spandau, und es erfolgte die dritte Aufforderung mit der Bemerkung, daß ja die Citadelle nur ein"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Lannes as side A's commander and Major v. Benekendorf as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. The capitulation was signed for Lannes by his chief of staff Victor and by Major Benekendorff as commandant (claim capitulation); Höpfner has the first summons made in the name of the Grand Duke of Berg and Lannes, and both of them come into the room while the terms were being drafted (claim side-a-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "unter Major v. Benekendorf"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "an die Franzosen unter Marschall Lannes."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the citadel was summoned three times, the first time in the name of the Grand Duke of Berg and Marshal Lannes, and a fourth parlementaire followed; the third summons came with the remark that the citadel was only a state prison and could not hold. Bertrand, whom the commandant asked to speak with, told him that the infantry and artillery were advancing, that Spandau was not a fortified place but a prison, so that defending it was against the law of war and its defenders would in that case be put to the sword, and that the French must be masters of the fort. Lannes wrote that the governor would not hear of capitulation, that he had been obliged to go into the citadel himself, and that the governor ended by doing all he wished. Höpfner has the Grand Duke, Lannes and General Victor come into the room while the points of capitulation were still being worked on, as French soldiers drove the Prussians from the walls.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Lannes's account and the heading and signature of Bertrand's report from the page images; Bertrand's words and Höpfner's account from the OCR. English renderings (ours): Höpfner, 'a parlementaire was admitted who summoned the fortress in the name of the Grand Duke of Berg and Marshal Lannes' (OCR); 'the citadel was summoned a second time in vain' (OCR); as in claim side-a-strength for the third summons (OCR); 'was a state prison and could not hold' (OCR); 'a fourth parlementaire appeared' (OCR); Bertrand, as in claim side-b-strength-french for the heading and signature; 'the commandant having asked to speak to me, I told him that the infantry and artillery were advancing, that Spandau being not a place but a prison, it was against the law of war to defend it, that in that case they would be put to the sword' (OCR); 'but that we must be masters of the fort' (OCR); Lannes, as in claim side-b-strength-french for the heading and date; 'the governor would not hear of capitulation. I was obliged to go myself into the citadel, and he ended by doing everything I wanted'; Höpfner, 'in short, while they were still working on the points of the capitulation, the Grand Duke of Berg, Marshal Lannes, General Victor and several other French officers came into the room, French soldiers pressed into the citadel and drove the Prussians from the walls, so that these were occupied before the capitulation was even concluded' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "wurde ein Parla⸗ mentair eingelaſſen, der die Feſtung im Namen des Großherzogs von Berg und des M. Lannes aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "wurde die Citadelle zum zweitenmal vergebens aufgefordert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "rückte die Divifion Süchet vom Korps des M. Lannes vor Spandau, und es erfolgte die dritte Aufforderung mit der Bemerkung, daß ja die Citadelle nur ein"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Staatsgefängniß ſei und ſich nicht halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "erſchien ein vierter Parlamentair."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "Le commandant ayant demandé à me parler, je lui ai dit que l'infanterie et l'artillerie s'avançaient, que Spandau n'étant pas une place mais une prison, il était contre le droit de la guerre de s'y défendre, qu'ils seraient passés dans ce cas au fil de l'épée ;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "mais que nous devions être maîtres du fort."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Le Gouverneur ne voulait pas entendre parler de capitulation². J'ai été obligé de me rendre moi-même dans la citadelle, et il a fini par faire tout ce que j'ai voulu."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Genug, während man noch an den Kapitulationspunkten arbeitete, traten der Großherzog von Berg, der M. Lannes, der General Victor und mehrere andere franzöfifche Offiziere in das Zimmer, drangen franzöſiſche Soldaten in die Citadelle ein und verjagten die Preußen von den Wällen, ſo daß dieſe beſetzt waren, bevor noch die Kapitulation abgeſchloſſen worden;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Major Benekendorf, the commandant, wrote to the King that the citadel was secure against a coup de main and that, failing other orders, he would leave the enemy only the ruins of the fortress. The commandant's reply to the summons made to him, a copy of which went with Lannes's letter, was that the fortress would not surrender but would not oppose the passage of the French troops entering by the Potsdam gate and leaving by the Charlottenburg gate, provided they did not approach the fortress, its bridges and its gates. In Höpfner's account the commandant called a council of war in which all the members but the engineer captain Meinert voted to surrender, though no shot had yet been fired, citing the bad state of the works, the insufficient ammunition and garrison and the harm a defence would do to the King's interest and the inhabitants'. He declared to the parlementaire his readiness to surrender, the judge-advocate was to draw up the points of capitulation, and during this work he is said to have waved his handkerchief to the post at the drawbridge to let it down. He was later sentenced to be shot, and pardoned by the King to fortress imprisonment for life. Bertrand reported that a young officer said only that they had the King's order to defend themselves and would die, and that the commandant is old.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner and Bertrand's words from the OCR; the reply and the heading and signature of Bertrand's report from the page images. The handkerchief is reported ('soll'), and Höpfner's dates and the year of the sentence are not restated. English renderings (ours): Höpfner, 'the commandant, Major Benekendorf, wrote to the King that the citadel was secured against a coup de main, and if he received no other orders he would leave the enemy with the garrison only the ruins of the fortress' (OCR); the reply, 'reply of the commandant of Spandau to the summons that had been made to him. (Copy attached to the letter of Marshal Lannes.)'; 'the fortress of Spandau will not surrender, but it will not oppose the'; 'passage of the imperial French troops provided that these, entering by the Potsdam gate to leave by that of Charlottenburg and reach the road of that name, do not approach the fortress, its bridges and its gates, which would be regarded as hostility and repelled by force'; Höpfner, 'now the commandant had a council of war called, in which, with the exception of the engineer captain Meinert, all members voted for surrender, although no shot had yet been fired, and that with regard to the bad state of the works, the insufficiency of the ammunition and garrison and the harm to the royal interest and that of the inhabitants in a defence' (OCR); 'the commandant declared to the parlementaire his readiness to surrender, and the judge-advocate of the government was to draw up the points of capitulation' (OCR); 'during this work the commandant went to and fro, and is said to have waved with his handkerchief to the post at the drawbridge to let it down' (OCR); 'the commandant was sentenced in ... to be shot, but pardoned by the King with lifelong fortress imprisonment' (OCR); Bertrand, as in claim side-b-strength-french for the heading and signature; 'a young officer confined himself to saying that they had the King's order to defend themselves, that they would die. The commandant is old' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "ſchrieb der Kommandant, Major Benekendorf, an den König, daß die Citadelle gegen einen Handſtreich geſichert ſei, und wenn er keine andern Befehle erhalte, ſo wolle er mit der Garniſon dem Feinde nur die Truͤmmer der Feſtung überlaſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "RÉPONSE DU COMMANDANT DE SPANDAU A LA SOMMATION QUI LUI AVAIT ÉTÉ FAITE. (Copie jointe à la lettre du maréchal Lannes.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "La forteresse de Spandau ne se rendra pas, mais elle ne s'opposera pas au"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "passage des troupes françaises impériales pourvu que celles-ci, en entrant par la porte de Potsdam pour sortir par celle de Charlottenburg et gagner la route de ce nom, n'approchent pas la forteresse, ses ponts et ses portes, ce qui serait regardé comme hostilité et repoussé par la force."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Nunmehr ließ der Kommandant einen Kriegsrath zuſammen⸗ berufen, in welchem, mit Ausnahme des Ingenieur-Hauptmanns Meinert, alle Mitglieder für die Uebergabe ſtimmten, obgleich noch kein Schuß gefallen war, und zwar mit Rückſicht auf den ſchlech⸗ ten Zuſtand der Werke, auf die Unzulänglichkeit der Munition und Beſatzung und den Schaden für das königliche Intereſſe und das der Einwohner bei einer Vertheidigung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Der Kom⸗ mandant erklärte gegen den Parlamentair ſeine Bereitwilligkeit zur Uebergabe, und der Gouvernements-Auditeur ſollte die Kapitula⸗ tionspunkte aufſetzen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Während dieſer Arbeit ging der Kom⸗ mandant ab und zu, und ſoll dem Poſten an der Zugbrücke mit dem Schnupftuch gewinkt haben, den Aufzug herunter zu laſſen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Der Kommandant wurde 1808 zum Todtſchießen verurtheilt, doch vom Könige mit lebenswieriger Feſtungsſtrafe begnadigt."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "Un jeune officier s'est borné à dire qu'ils avaient ordre du Roi de se défendre, qu'ils mourraient. Le commandant est âgé."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Spandau on 25 October: the garrison surrendered without a fight to the French under Lannes. The capitulation, signed at Spandau on 25 October by General Victor for Lannes and by Major Benekendorff, let the officers go where they wished with their arms and effects, had Lannes undertake to ask the Emperor that the invalids and their wives keep their effects and stay in the citadel, made the NCOs and soldiers prisoners of war and handed over the fortress at once with its artillery, arms, munitions and supplies. Höpfner says French soldiers occupied the walls before the capitulation was concluded, leaving the garrison at the enemy's mercy, but the French granted the terms already offered.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the capitulation's text, read from the page image of p. 318, and Höpfner's account (OCR); no source read gives a different result. English renderings (ours): Bodart, as in claim bodart-strength; the capitulation, 'we, divisional general in the service of His Imperial and Royal Majesty, grand cordon of the Legion of Honour, chief of the general staff of the 5th corps of the Grande Armée, empowered by Marshal of the Empire Lannes'; 'and Major de Benekendorff, major in the service of His Majesty the King of Prussia, commandant of the fortress of Spandau, have agreed on what follows'; 'art. 1. The officers of the garrison of Spandau will withdraw where they wish with their arms, clothes and other effects belonging to them'; 'art. 2. Marshal Lannes undertakes to ask His Imperial and Royal Majesty that the invalids and their wives also keep their effects and may stay in the citadel'; 'art. 3. The NCOs and soldiers forming the garrison of the fortress of Spandau are prisoners of war'; 'art. 4. The fortress will be handed over at once to the French army with the artillery, arms, munitions, in general all its supplies'; 'Spandau, 25 October 1806'; 'Victor. De Benekendorff'; Lannes, as in claim side-b-strength-french for the heading and date; 'I have the honour to send Your Imperial Majesty the capitulation of the citadel of Spandau'; Höpfner, as in claim side-a-command for the entry into the citadel (OCR); 'the garrison was left to the mercy of the enemy. The French granted, however, the terms already offered' (OCR); 'according to which the garrison [was to be] prisoners of war, the officers released on their word of honour keeping their property' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 25./10. KAPITULATION von Spandau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Die preußische Garnison (1.000 M.) unter Major v. Benekendorf ergibt sich ohne Schwertstreich an die Franzosen unter Marschall Lannes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Nous, général divisionnaire au service de S. M. I. et R., grand-cordon de la Légion d'honneur, chef de l'état-major général du 5e corps de la Grande Armée, fondé de pouvoirs de M. le maréchal d'empire Lannes,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Et M. le major de Benekendorff, major au service de S. M. le roi de Prusse, commandant de la forteresse de Spandau, sommes convenus de ce qui suit :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Spandau, le 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "VICTOR. DE BENEKENDORFF."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 1er. — MM. les officiers de la garnison de Spandau se retireront où ils voudront avec leurs armes, hardes et autres effets à eux appartenant."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 2. — M. le maréchal Lannes s'engage à demander à S. M. I. et R. que les invalides et leurs femmes conservent aussi leurs effets et qu'ils puissent rester dans la citadelle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 3. — Les sous-officiers et soldats formant la garnison de la forteresse de Spandau sont prisonniers de guerre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 4. — La forteresse sera sur-le-champ remise à l'armée française avec l'artillerie, armes, munitions, en général tous ses approvisionnements."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de faire parvenir à V. M. I. la capitulation de la citadelle de Spandau¹."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Genug, während man noch an den Kapitulationspunkten arbeitete, traten der Großherzog von Berg, der M. Lannes, der General Victor und mehrere andere franzöfifche Offiziere in das Zimmer, drangen franzöſiſche Soldaten in die Citadelle ein und verjagten die Preußen von den Wällen, ſo daß dieſe beſetzt waren, bevor noch die Kapitulation abgeſchloſſen worden;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "die Beſatzung war der Gnade des Feindes anheimgegeben. Die Franzoſen bewillig⸗ ten indeſſen die bereits angebotenen Bedingungen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "nach welchen die Beſatzung kriegsgefangen, die Offiziere mit Belaſſung ihres Eigenthums auf ihr Ehrenwort entlaſſen werden ſollten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Bodart has the garrison surrender without a stroke of the sword, and Höpfner says no shot had yet been fired when the council of war voted to surrender (claims bodart-strength, side-b-command); the skirmish before the gates on the eve, which the boundary note treats as context, is outside this count. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss: Bodart has the garrison of 1,000 surrender; the capitulation (claim capitulation) made the NCOs and soldiers prisoners of war and handed over the fortress with its artillery, arms, munitions and supplies, the officers withdrawing where they wished. The Emperor told Davout that 80 guns, much powder, much food and 300 state prisoners had been found there and 1,200 prisoners taken. Höpfner's garrison was not over 900 men, and his ammunition count is for 71 guns (claim side-b-strength).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. The Emperor's 1,200 prisoners is the same figure as Lannes's 1,200 garrison (claim side-b-strength-french); his 300 state prisoners are the prison's inmates, not the garrison. English renderings (ours): Bodart, as in claim bodart-strength; the capitulation, as in claim capitulation for its parties, date and signatures and arts. 1, 3 and 4; the Emperor, as in claim side-b-strength-french; Höpfner, as in claim side-b-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Die preußische Garnison (1.000 M.) unter Major v. Benekendorf ergibt sich ohne Schwertstreich an die Franzosen unter Marschall Lannes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Nous, général divisionnaire au service de S. M. I. et R., grand-cordon de la Légion d'honneur, chef de l'état-major général du 5e corps de la Grande Armée, fondé de pouvoirs de M. le maréchal d'empire Lannes,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Et M. le major de Benekendorff, major au service de S. M. le roi de Prusse, commandant de la forteresse de Spandau, sommes convenus de ce qui suit :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Spandau, le 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "VICTOR. DE BENEKENDORFF."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 1er. — MM. les officiers de la garnison de Spandau se retireront où ils voudront avec leurs armes, hardes et autres effets à eux appartenant."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 3. — Les sous-officiers et soldats formant la garnison de la forteresse de Spandau sont prisonniers de guerre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Art. 4. — La forteresse sera sur-le-champ remise à l'armée française avec l'artillerie, armes, munitions, en général tous ses approvisionnements."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Potsdam, 25 octobre 1806, 5 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Je vous annonce la nouvelle que Spandau vient de se rendre. On y a trouvé 80 pièces de canon, beaucoup de poudre, beaucoup de vivres et 300 prisonniers d'État. On y a fait 1,200 prisonniers."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "wurde die Stadt verlassen und die Garnison — das 3. Bataillon vom Königs-Regimente, 3 Invaliden-Kompagnien und 65 Artilleristen, nach Abzug der Kranken und Unbrauchbaren nicht über 900 Mann stark — zog sich nach der Citadelle zurück,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Da das versprochene Pulver von Berlin nicht eingetroffen war, so hatte man nur 142 Centner Pulver, von denen etwas über 60 Patronen per Mann und 2475 Schuß auf 71 Geschütze angefertigt werden konnten."
+        }
+      ]
+    },
+    {
+      "id": "spandau-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Spandau, a fortified town, in Brandenburg 9 km west of Berlin. Lannes: the citadel stands in the middle of a lake and is capable of a great defence. Höpfner: the Havel, which surrounds the citadel, lay full of rafted timber. Latour-Maubourg: the fort is surrounded by water and cannot be invested. Bertrand: half the town had an enclosure surrounded by water, which the enemy abandoned; besides the pools the place has ditches full of water, plainly seen from the housetops. Höpfner has the enemy bring several guns up beyond the Spree towards noon, placed only with difficulty on the wet meadow ground.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground and water as described; Lannes's letter, Latour-Maubourg's heading, the headings and signatures of Bertrand's reports and his second report from the page images, the rest from the OCR. English renderings (ours): Bodart, '(fortified town in Prussia, Brandenburg, 9 km west of Berlin)'; Lannes, as in claim side-b-strength-french for the heading and date; 'Your Majesty will be astonished when you see the citadel; it is in the middle of a lake and capable of a great defence'; Höpfner, 'the Havel, which surrounds the citadel, lay however full of rafted timber' (OCR); Latour-Maubourg, 'Brigadier General Latour-Maubourg to General Beaumont, commanding the 3rd dragoon division, on the march to Spandau. Spandau, 25 October 1806'; 'the fort is surrounded by water and cannot be invested' (OCR); Bertrand, as in claim side-b-strength-french for the first report's heading and signature; 'half the town had an enclosure DD surrounded by water, which is abandoned by the enemy' (OCR); as in claim side-a-strength for the second report's heading and signature; 'if the place does not surrender at the sound of the artillery, the place is of a nature to require a siege. Besides the pools the place has ditches full of water, which one sees distinctly from the top of the houses'; Höpfner, 'the enemy now pushed posts' (OCR); 'towards noon he brought up several guns beyond the Spree, which could be placed only with difficulty on the wet meadow ground' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "(Befestigte Stadt in Preußen, Brandenburg, 9 km westl. von Berlin)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "V. M. sera étonnée quand elle verra la citadelle; elle est au milieu d'un lac et susceptible d'une grande défense."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (OCR page boundaries; not checked against print)",
+          "quote": "Die Havel, welche die Citadelle umſchließt, lag indeſſen voller Floͤßholz,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DE BRIGADE LATOUR-MAUBOURG A M. LE GÉNÉRAL BEAUMONT, COMMANDANT LA 3e DIVISION DE DRAGONS, EN MARCHE SUR SPANDAU¹.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "le fort est entouré d'eau et ne peut être cerné."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "La moitié de la ville avait une enceinte DD environnée d'eau qui est abandonnée par l'ennemi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806.\n\nIl est midi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "du haut des maisons.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Si la place ne se rend pas au bruit de l'artillerie, la place est de nature à exiger un siège. Outre les flaques la place a des fossés pleins d'eau qu'on voit distinctement du haut des maisons."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Der Feind ſchob nun Poſten"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Gegen Mittag führte er mehrere Gefchüge jenſeits der Spree auf, die nur mit Mühe auf dem naſſen Wieſengrund placirt werden konnten;"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B: Höpfner says no money had been spent on the fortress for years; guns with ammunition were ordered from Berlin, and the guns arrived with the engineers, but the ammunition did not; as the promised powder had not come, there were only 142 hundredweight, enough for a little over 60 cartridges a man and 2475 rounds for 71 guns; 50 barrels of drinking water were brought into the citadel because its pumps gave only foul water; the magistrate gathered provisions. The Emperor reported much powder and much food found in the place. Side A: in a postscript Lannes wrote that 'we' must leave because of food, the 5th corps having set out that morning without a piece of bread.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "The garrison's means from Höpfner (p. 129 from the page image, the rest from the OCR) and the French letters from the page images; Lannes's postscript follows his letter at the head of p. 319. The stores were the place's before the French arrived, so the claim is tagged inherited; Lannes's want of bread is the attacker's, noted with it. English renderings (ours): Höpfner, 'the improbability that it would come to an attack on Spandau had caused no money to be spent on this fortress for years' (OCR); 'the Ober-Kriegs-Kollegium ordered that ... guns with ammunition should go from Berlin to Spandau' (OCR); 'the guns arrived, and with them the engineers, of whom the place engineer was fairly deaf and blind' (OCR); '[the ammu]nition stayed away' (OCR); as in claim side-b-strength for the powder; 'at the same time 50 barrels of drinking water were brought into the citadel, as the pumps there gave only foul water'; 'the magistrate of Spandau had seen to the gathering of provisions' (OCR); the Emperor, as in claim side-b-strength-french; Lannes, as in claim side-b-strength-french for the heading and date; 'P.S. — The officer bearing this will carry Your Majesty's orders. It is urgent that we leave here because of food. The 5th corps left this morning without a piece of bread'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 128 (OCR page boundaries; not checked against print)",
+          "quote": "Die Unwahr⸗ ſcheinlichkeit, daß es zu einem Angriff von Spandau kommen würde, hatte veranlaßt, daß ſeit Jahren keine Koſten auf dieſe Feſtung verwandt worden waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 128 (OCR page boundaries; not checked against print)",
+          "quote": "befahl das Ober⸗ Kriegs⸗Kollegium, daß 24 Geſchuͤtze mit Munition von Berlin nach Spandau abgehen ſollten,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 128 (OCR page boundaries; not checked against print)",
+          "quote": "traf das Geſchütz ein, und mit demſelben die Ingenieurs, von denen der Platz⸗Ingenieur ziemlich taub und blind war;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (OCR page boundaries; not checked against print)",
+          "quote": "nition blieb aus."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Da das versprochene Pulver von Berlin nicht eingetroffen war, so hatte man nur 142 Centner Pulver, von denen etwas über 60 Patronen per Mann und 2475 Schuß auf 71 Geschütze angefertigt werden konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Zugleich brachte man 50 Fässer Trinkwasser in die Citadelle, da die Pumpen daselbst nur faules Wasser gaben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "Der Magiftrat von Spandau hatte für bie Zuſaumenbringung von Lebensmitteln Sorge getragen,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Potsdam, 25 octobre 1806, 5 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "Je vous annonce la nouvelle que Spandau vient de se rendre. On y a trouvé 80 pièces de canon, beaucoup de poudre, beaucoup de vivres et 300 prisonniers d'État. On y a fait 1,200 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p319-figures-v1",
+          "section": "p319",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 319 (transcribed from the page image)",
+          "quote": "P.-S. — L'officier porteur de la présente portera les ordres de V. M. Il est urgent que nous sortions d'ici à cause des vivres. Le 5e corps est parti ce matin sans un morceau de pain."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Latour-Maubourg found at Spandau General Bertrand, who had made a reconnaissance. Bertrand sent the Emperor a sketch of the fort as far as he could judge it at a first rapid glance, and estimated the garrison from the bailiff's account and from what was shown on the ramparts (claim side-b-strength-french); his first report presumed that the enclosure had ditches but was not certain, and his second says the place has ditches full of water, plainly seen from the housetops. Lannes, sending the capitulation, wrote that he had questioned the officers a great deal; they would say nothing, but from their answers he gathered that the column that seemed to be retiring on Stettin had passed in the night.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's reports; Latour-Maubourg's note and Bertrand's first report from the OCR, with their headings, Bertrand's signatures, his second report and Lannes's letter from the page images. English renderings (ours): Latour-Maubourg, as in claim spandau-ground for the heading; 'I found here, General, General Bertrand, who has made a reconnaissance' (OCR); Bertrand, as in claim side-b-strength-french for the heading, the bailiff's account, what was shown on the ramparts and the signature; 'I enclose a sketch of the fort, as far as I could judge it at a first rapid glance' (OCR); 'the place has an enclosure with a parapet, and I presume ditches. I am not certain of it' (OCR); as in claims side-a-strength and spandau-ground for the second report's heading, the ditches seen from the houses and the signature; Lannes, as in claim side-b-strength-french for the heading and date; 'I have the honour to send Your Imperial Majesty the capitulation of the citadel of Spandau'; 'I do not want to lose a moment, so that Your Majesty can give his orders to the troops to pursue this column which seems to be retiring on Stettin'; 'I have questioned the officers a great deal, but they will say nothing. I noticed however from their answers that this column passed this night'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DE BRIGADE LATOUR-MAUBOURG A M. LE GÉNÉRAL BEAUMONT, COMMANDANT LA 3e DIVISION DE DRAGONS, EN MARCHE SUR SPANDAU¹.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "J'ai trouvé ici, mon général, le général Bertrand qui a fait une reconnaissance"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "Je joins ici un croquis du fort autant que j'ai pu en juger à un premier aperçu rapide."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Suivant le bailli il y a 400 invalides et 400 hommes des troupes du Roi et 80 chevaux."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Il ne m'a pas paru d'après ce qu'ils ont montré sur les remparts qu'ils eussent plus de 400 hommes, point de cavalerie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "La place a une enceinte avec parapet et je présume des fossés. Je n'en suis pas certain."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806.\n\nIl est midi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "du haut des maisons.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Si la place ne se rend pas au bruit de l'artillerie, la place est de nature à exiger un siège. Outre les flaques la place a des fossés pleins d'eau qu'on voit distinctement du haut des maisons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de faire parvenir à V. M. I. la capitulation de la citadelle de Spandau¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Je ne veux pas perdre un moment pour que V. M. puisse donner ses ordres aux troupes pour poursuivre cette colonne qui paraît se retirer sur Stettin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "J'ai beaucoup questionné les officiers, mais ils ne veulent rien dire. Je me suis pourtant aperçu par leurs réponses que cette colonne a filé cette nuit."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: forest officials, doing outpost duty for want of cavalry, reported the enemy's approach; large watch fires towards Potsdam showed considerable enemy forces; and the third summons came with the remark that the citadel was only a state prison and could not hold.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, from the OCR. English renderings (ours): 'and as cavalry was lacking, outpost duty was done by the forest officials of the district and the jäger under them' (OCR); 'the forest officials reported that the enemy was approaching' (OCR); 'large watch fires in the direction of Potsdam showed considerable enemy forces' (OCR); as in claims side-a-strength and side-a-command for the third summons (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (OCR page boundaries; not checked against print)",
+          "quote": "und da es an Kavallerie fehlte, jo wurde von den Forſtoffizianten der Umgegend und durch die unterhabenden Jäger der Vorpoſten⸗ dienſt verſehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "berichteten die Forſtoffizianten, daß ſich der Feind nähere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "Große Wachtfeuer in der Richtung auf Potsdam zeigten bedeutende feindliche Streitkräfte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "rückte die Divifion Süchet vom Korps des M. Lannes vor Spandau, und es erfolgte die dritte Aufforderung mit der Bemerkung, daß ja die Citadelle nur ein"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Staatsgefängniß ſei und ſich nicht halten könne."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A wanted the fort: Bertrand told the commandant that the French must be masters of it, and believed that a lively cannonade, above all if a breach could be made, which would need a little time and demonstrations of troops in boats with ladders, and the filling of a ditch, would frighten the commandant. Lannes, sending the capitulation, wrote that he did not want to lose a moment, so that the Emperor could order the troops to pursue the column that seemed to be retiring on Stettin.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bertrand's words from the OCR, with his report's heading and signature and Lannes's letter from the page images. English renderings (ours): Bertrand, as in claim side-b-strength-french for the heading and signature and in claim side-a-command for what he told the commandant (OCR); 'I believe that after a lively cannon fire, and above all if a breach can be made, which would require a little time and demonstrations of troops in boats with ladders, and filling the ditch hg, the commandant of the garrison will be frightened' (OCR); Lannes, as in claims side-b-strength-french and side-a-information for the heading and date, the capitulation sent and the column.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "Le commandant ayant demandé à me parler, je lui ai dit que l'infanterie et l'artillerie s'avançaient, que Spandau n'étant pas une place mais une prison, il était contre le droit de la guerre de s'y défendre, qu'ils seraient passés dans ce cas au fil de l'épée ;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "mais que nous devions être maîtres du fort."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "Je crois qu'après un feu vif de canon et surtout si on peut faire brèche, ce qui exigerait un peu de temps et de démons- trations de troupes dans des barques avec des échelles, et comblant le fossé hg, on effrayera le commandant de la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de faire parvenir à V. M. I. la capitulation de la citadelle de Spandau¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "Je ne veux pas perdre un moment pour que V. M. puisse donner ses ordres aux troupes pour poursuivre cette colonne qui paraît se retirer sur Stettin."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B: the engineers were ordered to put the town's rampart, with its wet ditch, in a state of defence and secure its two exits against a coup de main; when no workers had come and the enemy had crossed the Elbe, the town was abandoned and the garrison withdrew into the citadel. The commandant wrote to the King that, failing other orders, he would leave the enemy only the ruins of the fortress, and replied to the summons made to him that the fortress would not surrender.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, the orders from the OCR and the withdrawal from the page image of p. 129; the reply from the page image of p. 318. English renderings (ours): Höpfner, 'the engineers had the order to put the town's rampart, using the wet ditch, in a state of defence, and to secure the two exits against a coup de main' (OCR); as in claim side-b-strength for the town's abandonment; as in claim side-b-command for the commandant's letter (OCR) and the reply's heading and opening.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (OCR page boundaries; not checked against print)",
+          "quote": "Die Ingenieurs hatten den Befehl, die Stadt: umwallung, mit Benutzung des naſſen Grabens, in Vertheidigungs⸗ ſtand zu ſetzen, und die beiden Ausgänge gegen einen Handſtreich zu ſichern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Als am 22. Oktober noch immer keine Arbeiter eingekommen waren, und der Feind die Elbe bereits überschritten hatte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "wurde die Stadt verlassen und die Garnison — das 3. Bataillon vom Königs-Regimente, 3 Invaliden-Kompagnien und 65 Artilleristen, nach Abzug der Kranken und Unbrauchbaren nicht über 900 Mann stark — zog sich nach der Citadelle zurück,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "ſchrieb der Kommandant, Major Benekendorf, an den König, daß die Citadelle gegen einen Handſtreich geſichert ſei, und wenn er keine andern Befehle erhalte, ſo wolle er mit der Garniſon dem Feinde nur die Truͤmmer der Feſtung überlaſſen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "RÉPONSE DU COMMANDANT DE SPANDAU A LA SOMMATION QUI LUI AVAIT ÉTÉ FAITE. (Copie jointe à la lettre du maréchal Lannes.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "La forteresse de Spandau ne se rendra pas, mais elle ne s'opposera pas au"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Bertrand's second report places the artillery, with the infantry along the water on the front of attack and the adjacent sides and dragoons closing the fourth side, and says the place will be summoned within half an hour; Höpfner has three summonses and a fourth parlementaire. Side B's council of war voted to surrender though no shot had yet been fired.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Both sides' accounts describe the French investing and summoning the place and side B surrendering without a shot. The phase is left unresolved: the passages read show the French investment and summonses but no order from above to attack Spandau, only Lannes's hope that the Emperor's wishes would be fulfilled. English renderings (ours): Bertrand, as in claim side-a-strength for the heading, the artillery and the summons, the infantry, the dragoons and the signature; Höpfner, as in claim side-a-command for the summonses (OCR) and in claim side-b-command for the council (OCR); Lannes, as in claim side-b-strength-french for the heading and date; 'I hope that Your Majesty's wishes will be fulfilled'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806.\n\nIl est midi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "du haut des maisons.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "L'artillerie se place telle qu'elle est indiquée au plan ci-joint. Sous demi-heure la place sera sommée et l'artillerie en jeu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "L'infanterie occupe les bords de l'eau sur le front d'attaque et les 3 côtés adjacents."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "Les 25 dragons ont passé la Sprée dans des bateaux au-dessus du bras qui se jette dans les fossés ou flaques qui environnent la place et bloquent la place du quatrième côté, la route qui longe le fort et conduit à Charlottenburg."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "wurde ein Parla⸗ mentair eingelaſſen, der die Feſtung im Namen des Großherzogs von Berg und des M. Lannes aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "wurde die Citadelle zum zweitenmal vergebens aufgefordert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "rückte die Divifion Süchet vom Korps des M. Lannes vor Spandau, und es erfolgte die dritte Aufforderung mit der Bemerkung, daß ja die Citadelle nur ein"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "erſchien ein vierter Parlamentair."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 131 (OCR page boundaries; not checked against print)",
+          "quote": "Nunmehr ließ der Kommandant einen Kriegsrath zuſammen⸗ berufen, in welchem, mit Ausnahme des Ingenieur-Hauptmanns Meinert, alle Mitglieder für die Uebergabe ſtimmten, obgleich noch kein Schuß gefallen war, und zwar mit Rückſicht auf den ſchlech⸗ ten Zuſtand der Werke, auf die Unzulänglichkeit der Munition und Beſatzung und den Schaden für das königliche Intereſſe und das der Einwohner bei einer Vertheidigung."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "J'espère que les vœux de V. M. seront remplis."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held the citadel of Spandau, a permanent fortress that Lannes describes as standing in the middle of a lake and capable of a great defence. Höpfner says the citadel was in no particular state but had no practicable breach, nor could one easily be made, because its rampart consisted of several tiers of vaults; even an enemy who approached it and seized the covered way could not cross the main ditch except under the fire of the works; but for want of time the parapets could not be raised, and gabions had to be made instead. Bertrand reported an enclosure with a parapet and about a dozen guns in battery around the fort, which seemed to him crowded with buildings and easy to set on fire.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the citadel's works were permanent and held by side B, so the claim is tagged inherited. English renderings (ours): Höpfner, 'only on the 23rd did workers arrive from the country, who were now used to repair the citadel. It was in no particular condition, but there was also no practicable breach, nor could one easily be made, as the rampart consisted of several vaults lying one above the other'; 'but even if the enemy approached the citadel by means of it and seized the covered way, he was still not able to cross the main ditch except under the fire of the works' (OCR); 'it was just as disadvantageous that, likewise for want of time, no work could be done on raising the parapets; gabions had to be made instead' (OCR); Bertrand, as in claim side-b-strength-french for the heading and signature and in claim side-a-information for the enclosure (OCR); 'around the fort a dozen guns in battery' (OCR); 'the fort seems to me crowded with buildings and easy to set on fire' (OCR); Lannes, as in claim side-b-strength-french for the heading and date and in claim spandau-ground for the lake.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p129-figures-v1",
+          "section": "p129",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 129 (transcribed from the page image)",
+          "quote": "Erst am 23. trafen Arbeiter vom Lande ein, die nun zur Herstellung der Citadelle verwandt wurden. Es befand sich dieselbe in keinem sonderlichen Zustande, aber es war doch auch keine gangbare Bresche vorhanden, und konnte solche auch nicht leicht erzielt werden, da der Wall aus mehreren über einander liegenden Gewölben bestand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "doch wenn auch der Feind ſich mittelft deſſelben der Citadelle näherte und ſich des gedeckten Weges be⸗ mächtigte, ſo war er doch nicht im Stande, den Hauptgraben anders als unter dem Feuer der Werke zu überſchreiten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "spandau",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 130 (OCR page boundaries; not checked against print)",
+          "quote": "Ebenſo nachtheilig war es, daß ebenfalls wegen Mangel an Zeit nicht an Erhöhung der Bruſtwehren gearbeitet werden konnte; es mußten zum Erſatz Schanzkörbe angefertigt werden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p315-figures-v1",
+          "section": "p315",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (transcribed from the page image)",
+          "quote": "RAPPORT A S. M. L'EMPEREUR.\n\nSpandau, 25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p317-figures-v1",
+          "section": "p317",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 317 (transcribed from the page image)",
+          "quote": "pièces de canon.\n\nLe général BERTRAND."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "La place a une enceinte avec parapet et je présume des fossés. Je n'en suis pas certain."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 316 (OCR page boundaries; not checked against print)",
+          "quote": "Sur le pourtour du fort une douzaine de pièces en batterie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "spandau",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 315 (OCR page boundaries; not checked against print)",
+          "quote": "Le fort me paraît obstrué de bâtiments et facile à incendier."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR.\n\n25 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p318-figures-v1",
+          "section": "p318",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 318 (transcribed from the page image)",
+          "quote": "V. M. sera étonnée quand elle verra la citadelle; elle est au milieu d'un lac et susceptible d'une grande défense."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Lannes's promised return of what was found in the place; Bertrand's sketch and the plan of the attack; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests, and of the commandant's trial. Figures seen only in the OCR and not restated: the guns ordered from Berlin (Höpfner, p. 128), the hours and dates of the summonses and of the council (pp. 130-131), the number of the light infantry regiment (p. 130), the patrol's horses (p. 130), the year of the sentence (p. 131), the widths of the water in Bertrand's first report (Foucart t. II, pp. 315-316), and the cartridges ordered in Höpfner's footnote (p. 129).",
+    "Most consequential gap: the garrison's size, given as not over 900 (Höpfner), 1,000 (Bodart) and 1,200 (Lannes, and the Emperor's prisoners), with Bertrand's informants' 800, or 1,400 with the 600 more that apparently were there (our arithmetic), and his own sight of no more than 400; Lannes's promised return of the place or a French list of the prisoners could settle it. The guns are similarly uncertain (71 in Höpfner's ammunition count, 80 in the Emperor's letter, 50 to 90 by Bertrand's informants).",
+    "Disputes kept as separate claims: the garrison (not over 900, Höpfner; 1,000, Bodart; 1,200, Lannes and the Emperor; Bertrand's estimates); the guns (71 in Höpfner's ammunition count; 80, the Emperor; 50, 60 or 90, Bertrand's informants; a dozen in battery reported by Bertrand, OCR); whether the capitulation was concluded before the French occupied the walls (Höpfner says not).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked); Foucart, t. II (the French side's documents: Latour-Maubourg's note, Bertrand's reports, Lannes's letter with the capitulation and the commandant's reply, the Emperor's letter to Davout); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war into those who fell into captivity by capitulation or otherwise, but the Spandau passage does not name its sources)."
+  ]
+}

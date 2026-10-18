@@ -1630,3 +1630,94 @@ are Google scans whose OCR keeps Google's front-matter notice, which asks for no
 for the attribution watermark to be kept. Each is retained as the full OCR text with downscaled page
 images. Use: the drafts for B371b, B372a and B373a. No model inputs are changed. The registry now
 holds 2,456 records.
+
+## Foucart t. II and Höpfner Bd. 2 for Erfurt to Prenzlau, 2026-10-18
+
+70 records pinned in `data/raw/napoleonic-fourth-coalition-1806-v1/` for sub-batch 2b-i of the
+`fourth-coalition 1806` first pass (Erfurt, Halle, Spandau and Prenzlau). Both works are the next
+volumes of families registered for batch 2a.
+
+- **Foucart**, *Campagne de Prusse (1806): Prenzlow–Lubeck* (Paris, 1890), group
+  `foucart-campagne-de-prusse`, the second volume of the work whose first is
+  `foucart-prusse-1887-t1-ocr-v1`. By its preface (July 1890) it ends the staff journal of the
+  campaign of Prussia. Its documents come from the Emperor's cabinet and the major general's, and
+  many from the registers of Marshal Soult, of General Compans (chief of staff of the 4th corps)
+  and of General Belliard (chief of staff of the cavalry reserve). Its aim is a book of military
+  instruction, not an account of the campaign.
+  - The OCR (`foucart-prusse-1890-t2-ocr-v1`, item `campagnedepruss00foucgoog`), made with ABBYY
+    FineReader 8.0 from a University of California copy digitised by Google (Google Books
+    `h0ZBAAAAIAAJ`). The Internet Archive's date field reads 1887 and its year field 1890.
+  - The selection `foucart-prusse-1890-t2-selections-v1`, with 13 sections:
+    - `erfurt-15-oct` (pp. 19–22), `erfurt-16-oct` (pp. 34–40) and `erfurt-murat-16-oct`
+      (pp. 47–48), for Erfurt;
+    - `halle` (pp. 99–106), `spandau` (pp. 315–319) and `prenzlau` (pp. 455–459);
+    - for 2b-ii: `stettin-pasewalk-30-oct` (pp. 524–531), `bulletin-24` (pp. 553–557),
+      `anklam-park-31-oct` (pp. 562–569), `anklam-park-1-nov` (pp. 593–598), `kuestrin-2-nov`
+      (p. 617), `anklam-wolgast-2-nov` (pp. 625–627) and `bulletin-25` (pp. 648–649).
+  - 18 page images with transcriptions: pp. 47 and 48, Murat's letter of 16 October from Erfurt;
+    pp. 99–104 and 106, for Halle; pp. 315 and 317–319, for Spandau; pp. 455–459, for Prenzlau.
+- **Höpfner**, *Der Krieg von 1806 und 1807*, erster Theil, zweiter Band (Berlin, 1855, second
+  edition), group `hoepfner-krieg-1806-1807`. It is the second volume of the work whose first volume
+  is registered in its first edition (`hoepfner-1850-bd1-ocr-v1`). The second edition's own
+  preface, if any, was not found in this volume.
+  - The OCR (`hoepfner-1855-bd2-ocr-v1`, item `10595282bsb`), made with Tesseract 5.3.0 for German
+    and Fraktur from the Bayerische Staatsbibliothek's copy, shelfmark Mil.g. 351 o-2, from the
+    library's digital collections (`bsb10595282`). The text is set in Fraktur.
+  - The selection `hoepfner-1855-bd2-selections-v1`, with six sections: `erfurt` (pp. 15–20),
+    `halle` (pp. 41–61), `spandau` (pp. 128–131) and `prenzlau` (pp. 177–198), and for 2b-ii
+    `capitulations-after-prenzlau` (pp. 209–236) and `kuestrin` (pp. 324–328).
+  - 15 page images with transcriptions: pp. 15, 16 and 19, for Erfurt; pp. 50, 59 and 60, for
+    Halle; p. 129, for Spandau; pp. 181, 185, 186, 189, 192, 194, 196 and 197, for Prenzlau.
+
+**Dependence.**
+
+- Foucart prints the French documents, so it is not independent of them: the Emperor's and the
+  major general's letters, the marshals' and generals' letters and reports, capitulations, extracts
+  of the 1st corps's journal in his footnotes, and Bulletins. The reports are interested accounts
+  by their authors. Its figures for the Prussian forces are second-hand, from the French reports.
+  It also prints, after the 24th Bulletin, a French translation of Prince Hohenlohe's report to the
+  King of Prussia, which its introduction says was intercepted; no draft cites it.
+- Höpfner is the Prussian side's account. By the preface of his first volume (December 1849), the
+  work rests above all on the records of the judicial inquiries held after the war into those who
+  fell into captivity by capitulation or otherwise. The passages read on these four places name few
+  of their sources. For Halle he cites the Duke of Württemberg's report for a loss figure. For
+  Prenzlau he quotes Massenbach's memoir, follows Rittmeister v. d. Marwitz's report and cites
+  Hohenlohe's.
+- Höpfner's figures for the French are second-hand. In the passages read he names "die Berichte der
+  Franzosen" for Prenzlau and Mathieu Dumas's account for Anklam, and otherwise does not name their
+  source.
+- Höpfner's edition (1855) is older than Foucart's volume (1890). No passage read shows that Foucart
+  used Höpfner.
+- Bodart matches figures in both families in places (see the research log), but the passages read
+  do not show what he used.
+
+The page images are single pages, downscaled to 1600 pixels on the longest side. Foucart's leaf
+numbers are n = printed + 33 to p. 304, + 35 for pp. 305–480 (after a plate) and + 37 from p. 481.
+Höpfner's are n = printed + 7 throughout. Each image's printed page was checked on the image. Each
+transcription holds the passages its note names, read from the image. 7 of the 33 record a check
+of figures on a full-resolution crop, and the note to p. 47 records an hour the image leaves
+uncertain (8 or 3). Each quote's page is taken from the djvu.xml page boundaries, and each
+selection records its parent's character ranges. No figure is taken from the OCR.
+
+Corrections made before the records were committed:
+- The transcription of p. 315 was widened to Latour-Maubourg's heading and dateline, read from the
+  image, and re-registered.
+- The Foucart selection's note called Préval a general; he was a colonel. The Foucart parent's
+  inspection note gave the Erfurt pages as pp. 35–40; they are pp. 33–40. Both were corrected.
+- The 32 Höpfner Bd. 2 records had said the library's rights statement was not checked, and that
+  the library digitised the copy. Neither the Internet Archive's metadata nor the library's
+  manifest says who digitised it, so the identifier now names the library only as the holding
+  institution, and the rights field gives the manifest's statement.
+
+Rights:
+- Foucart (1890) is marked NOT_IN_COPYRIGHT by the Internet Archive. It is a Google scan whose OCR
+  keeps Google's front-matter notice, which asks for non-commercial use and for the attribution
+  watermark to be kept.
+- Höpfner's Internet Archive item has no copyright-status or rights field. The Bayerische
+  Staatsbibliothek's IIIF manifest for `bsb10595282`, read on 2026-10-18, gives the licence
+  `https://rightsstatements.org/vocab/NoC-NC/1.0/` (No Copyright - Non-Commercial Use Only), with
+  the attribution "München, Bayerische Staatsbibliothek". The library's record gives the author's
+  dates as 1797–1858.
+
+Each work is retained as the full OCR text with downscaled page images. Use: the drafts for B373b,
+B374a, B374b and B374c. No model inputs are changed. The registry now holds 2,526 records.

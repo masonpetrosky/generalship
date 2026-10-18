@@ -1,0 +1,1457 @@
+{
+  "schema_version": 1,
+  "battle_id": "B374a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Halle entry (engagement, 17 October 1806) in cohort v1's fourth-coalition 1806 group: Bernadotte's 1st corps against Duke Eugen of Württemberg's Prussian reserve corps, from the French approach over the Saale bridges to the pursuit beyond Landsberg and the regiment Treskow's fight on the left bank. The Duke's retreat to Magdeburg and the detachments at Merseburg and Leipzig are context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 14,500 infantry and 1,500 cavalry, 16,000 men, under Marshal Bernadotte, and side B (Prussians) 18 battalions and 20 squadrons, 11,500 infantry, 2,200 cavalry and 62 guns, 13,700 men, under General of Cavalry Duke E. of Württemberg. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner also gives about 16,000 for side A, but very nearly 11,000 for side B in action, with 2,791 of the reserve corps's infantry absent (claim hoepfner-strength); those two figures sum to 13,791 (our arithmetic), close to Bodart's 13,700, but no source read says that Bodart's figure counts the absent infantry. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 17/10. engagement at Halle (4.)'; 'victory of the French (14,500 inf., 1,500 cav. = 16,000 men) under Marshal Bernadotte over the Prussians (18 bns., 20 sqns. = 11,500 inf., 2,200 cav., 62 guns = 13,700 men) under Gen. of Cav. Duke E. of Württemberg'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 17./10. TREFFEN bei Halle (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Sieg der Franzosen (14.500 Inft., 1.500 Kav. = 16.000 M.) unter Marschall Bernadotte über die Preußen (18 Btln., 20 Esk. = 11.500 Inft., 2.200 Kav., 62 Kan. = 13.700 M.) unter Gen. d. Kav. Hz. E. v. Württemberg."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "hoepfner-strength",
+      "dimension": "strength",
+      "value": "Höpfner: in the camp at the time stood 2 grenadier and 9 musketeer battalions, 5 squadrons of dragoons, 8 squadrons of hussars, two 12-pounder batteries and half a horse battery; at the first firing the 2 companies of Knorr arrived from Leipzig, and towards noon the dragoon regiment Heyking and the 12-pounder battery Hart. With these troops and the garrison of the bridges very nearly 11,000 men went into action against about 16,000 men of the two divisions Düpont and Drouet and Marshal Bernadotte's cavalry, as 2791 men of the reserve corps's infantry were absent. The regiment Treskow, which had continued its march on Halle, sighted several columns that officers sent out reported to be enemies: it was the column of General Drouet.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page image of p. 50; it gives both sides in one sentence and does not itemise its 16,000. The print names the divisions Düpont and Drouet, while the French documents have Dupont's and Rivaud's divisions in the attack on the town and the heights and Drouet's against the column on the left bank (claim foucart-side-a); the claim keeps Höpfner's wording. Höpfner does not itemise the 2791 absent, so whether the Duke's own dispositions caused the shortfall is not established and the phase is left unresolved. English renderings (ours): 'in the camp there stood at this time — after the battalion of Jung-Larisch had returned from Leipzig at 1 o'clock in the night — still 2 grenadier and 9 musketeer battalions, 5 squadrons of dragoons, 8 squadrons of hussars, which last had left their quarters at the first cannon shot, two 12-pounder batteries and half a horse battery'; 'at the time of the first firing the 2 companies of Knorr also arrived from Leipzig, and towards noon the dragoon regiment Heyking and the 12-pounder battery Hart'; 'with these troops and the garrison of the bridges very nearly 11,000 men went into action against about 16,000 men of the two divisions Düpont and Drouet and the cavalry of Marshal Bernadotte, as 2791 men of infantry of the reserve corps were absent'; 'the regiment Treskow, which had received news of the army's defeat already at Aschersleben but had nevertheless continued its march on Halle' (OCR); 'now several columns were seen turning towards the heath. Officers sent out reported that they were enemies. It was the column of General Drouet' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p50-figures-v1",
+          "section": "p50",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 50 (transcribed from the page image)",
+          "quote": "Im Lager standen um diese Zeit — nachdem in der Nacht um 1 Uhr das Bataillon von Jung-Larisch aus Leipzig zurückgekehrt war — noch 2 Grenadier-, 9 Musketier-Bataillone, 5 Schwadr. Dragoner, 8 Schwadr. Husaren, welche Letzteren beim ersten Kanonenschuß ihre Quartiere verlassen hatten, 2—12pfündige und ½ reitende Batterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p50-figures-v1",
+          "section": "p50",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 50 (transcribed from the page image)",
+          "quote": "Zur Zeit des ersten Feuers langten auch die 2 Kompagnien von Knorr aus Leipzig, und gegen Mittag noch das Dragoner-Regmt. Heyking und die 12pfündige Batterie Hart an."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p50-figures-v1",
+          "section": "p50",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 50 (transcribed from the page image)",
+          "quote": "Mit diesen Truppen und der Besatzung der Brücken gingen ziemlich genau 11,000 Mann gegen etwa 16,000 Mann der beiden Divisionen Düpont und Drouet und der Kavallerie des M. Bernadotte ins Gefecht, da 2791 Mann Infanterie des Reserve-Korps abwesend waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 57 (OCR page boundaries; not checked against print)",
+          "quote": "Das Infanterie⸗Regmt. Treskow, das bereits in Aſchersleben Nachricht von der Niederlage der Armee erhalten, aber dennoch den Marſch auf Halle fortgeſetzt hatte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 57 (OCR page boundaries; not checked against print)",
+          "quote": "Nun wurde man mehrere Kolonnen gewahr, die ſich gegen die Haide wandten. Abgeſchickte Offiziere meldeten, daß es Feinde ſeien. Es war die Kolonne des Generals Drouet,"
+        }
+      ]
+    },
+    {
+      "id": "foucart-side-b",
+      "dimension": "strength",
+      "value": "Side B, side A's figures: Bernadotte wrote to the Emperor that his corps had set out to march on Halle and attack Duke Eugène of Württemberg, who he had just learned had arrived there 2 days before with nearly 25,000 fresh troops, the reserve of the Prussian army; that the first bridge was defended by several battalions and 4 guns; and that once master of the town he had the enemy's position, defended by 20,000 men, attacked. The corps journal, in Foucart's footnote, judged the enemy forming for battle on the heights behind the town to be 20,000 to 25,000 strong. Dupont wrote that the bridge was defended by 2,000 men and several guns; that the heights above the town were suddenly seen covered with troops, judged to be the army of the Prince of Württemberg; that this Prince had held the position for 2 days with a corps of about 30,000 men; and that the enemy, re-formed half a league from the town, was no doubt not a little astonished to see how inferior in numbers was the corps that had beaten it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's reports of 18 October and the corps journal in Foucart's footnote, read from the page images except Dupont's line on the enemy re-forming (OCR); interested estimates of the enemy, not reconciled with each other, all well above Höpfner's 11,000 and Bodart's 13,700 (claims hoepfner-strength, bodart-strength). English renderings (ours): Bernadotte, 'Marshal Bernadotte to the Emperor'; 'Halle, 18 October 1806'; 'the 1st corps of the Grande Armée left yesterday at 2 o'clock in the night to march on Halle'; 'and attack Duke Eugène of Württemberg, who I had just learned had arrived there 2 days before with nearly 25,000 men of fresh troops, forming the reserve of the Prussian army'; 'General Dupont received the order to carry the town: the 32nd and a battalion of the 9th light, seconded by 3 pieces of light artillery, would make the attack on the first bridge, defended by several battalions and 4 guns'; 'once master of the town, I sent the 96th to support the 9th and 32nd, who in debouching could not have stood up to the enemy, and I had his position, defended by 20,000 men, attacked'; the journal, 'General Maison followed him to reconnoitre the enemy, who was making dispositions to defend the front of the town and the bridges, while at the same time he formed for battle on the heights that dominate it behind'; 'he was judged to be 20,000 to 25,000 men strong. (Journal of the 1st corps.)'; Dupont, 'General Dupont to Marshal Bernadotte'; 'Halle, 18 October 1806'; 'new forces were at once gathered there, so that this bridge was defended by 2,000 men and several guns'; 'at the same time the heights that dominate the town of Halle on the right bank of the Saale were suddenly seen covered with troops, and it was judged that it was the army under the orders of the Prince of Württemberg'; 'indeed this Prince had held this important position for 2 days with a corps of about 30,000 men'; 'the enemy for his part re-formed before us half a league from' (OCR); 'the town, and he was no doubt not a little astonished to see how inferior to him in number was the corps by which he had been beaten'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Le 1er corps de la Grande Armée est parti hier à 2 heures de la nuit pour marcher sur Halle"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "attaquer le duc Eugène de Würtemberg que je venais d'apprendre y être arrivé depuis 2 jours avec près de 25,000 hommes de troupes fraîches, formant la réserve de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Le général Dupont reçut l'ordre d'enlever la ville : le 32e et un bataillon du 9e léger, secondés par 3 pièces d'artillerie légère, feraient l'attaque du premier pont défendu par plusieurs bataillons et 4 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "Une fois maître de la ville, j'envoyai le 96e pour soutenir les 9e et 32e² qui en débouchant n'auraient pas pu tenir tête à l'ennemi, et je fis attaquer sa position défendue par 20,000 hommes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "général Maison le suivit pour reconnaître l'ennemi qui faisait des dispositions pour défendre le front de la ville et les ponts, en même temps qu'il se formait en bataille sur les hauteurs qui la dominent en arrière;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "on le jugea fort de 20,000 à 25,000 hommes. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "De nouvelles forces y ont été aussitôt rassemblées de manière que ce pont était défendu par 2,000 hommes et plusieurs pièces de canon."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Dans le même temps on a vu tout à coup les hauteurs qui dominent la ville de Halle sur la rive droite de la Saale couvertes de troupes et on a jugé que c'était l'armée aux ordres du prince de Würtemberg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "En effet ce Prince occupait depuis 2 jours cette position importante avec un corps d'environ 30,000 hommes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 105 (OCR page boundaries; not checked against print)",
+          "quote": "L'ennemi de son côté s'est reformé devant nous à une demi-lieue de"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "la ville et il n'a pas été sans doute peu étonné de voir combien le corps par lequel il avait été battu lui était inférieur en nombre."
+        }
+      ]
+    },
+    {
+      "id": "foucart-side-a",
+      "dimension": "strength",
+      "value": "Side A in its own reports: Bernadotte had with him only 12 guns and 12 caissons for his whole corps, the rest having stayed behind at the defile of Dornburg. His order gave the attack on the first bridge to the 32e and a battalion of the 9e léger, seconded by 3 pieces of light artillery; once master of the town he sent the 96e to support the 9e and 32e, and immediately afterwards passed the 2e and 4e hussars and all Rivaud's division but a reserve battalion; the 2 divisions and the 2 hussar regiments moved on the enemy. When a column showed itself on his rear on the left bank of the Saale, Drouet's division, already recalled, arrived faster than expected, and Bernadotte ordered Drouet to have the column attacked by the 27e léger and the 95e; he had also brought up the 94e to support the great attack. Höpfner has Bernadotte order Düpont to attack with the 4 battalions of the 9th light and 32nd line regiments and keep the 2 battalions of the 96th and the hussars in reserve at Passendorf. Dupont wrote that his guns were few.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Units from Bernadotte's and Dupont's letters and Höpfner, read from the page images; no source read gives a headcount for side A other than Höpfner's and Bodart's 16,000 (claims hoepfner-strength, bodart-strength). English renderings (ours): Bernadotte, 'it is well to observe to Your Majesty that I had with me only 12 guns and 12 caissons for my whole army corps, the rest having stayed behind at the defile of Dornburg'; as in claim foucart-side-b for the first attack and the 96th; 'immediately afterwards I passed the 2nd and 4th hussars and the whole division Rivaud, except for one reserve battalion'; 'the 2 divisions and the 2 hussar regiments moved on the enemy'; as in claim side-a-information for the column on the left bank; 'I had already recalled the division Drouet; this general, at the sound of the guns, had so pressed his march that he arrived much faster than could have been expected'; 'I ordered him to have the column that had appeared on our left and behind our line attacked by the 27th light and the 95th'; 'I had brought up the 94th to support the great attack'; Höpfner, 'but now Marshal Bernadotte ordered General Düpont to undertake the attack with the 4 battalions of the 9th light and the 32nd line regiments, and to leave the 2 battalions of the 96th line regiment and the hussars at Passendorf in reserve'; Dupont, 'while the enemy played his artillery on us, to which we could reply only weakly, given the small number of our guns'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p103-figures-v1",
+          "section": "p103",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (transcribed from the page image)",
+          "quote": "Il est bon d'observer à V. M. que je n'avais avec moi que 12 pièces de canon et 12 caissons pour tout mon corps d'armée, le reste étant resté en arrière au défilé de Dornburg;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Le général Dupont reçut l'ordre d'enlever la ville : le 32e et un bataillon du 9e léger, secondés par 3 pièces d'artillerie légère, feraient l'attaque du premier pont défendu par plusieurs bataillons et 4 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "Une fois maître de la ville, j'envoyai le 96e pour soutenir les 9e et 32e² qui en débouchant n'auraient pas pu tenir tête à l'ennemi, et je fis attaquer sa position défendue par 20,000 hommes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "immédiatement après, je fis passer les 2e et 4e de hussards et toute la division Rivaud à l'exception d'un bataillon de réserve³."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "les 2 divisions et les 2 régiments de hussards se portèrent sur l'ennemi,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Pendant que ces divers combats se succédaient sur la hauteur au delà de Halle, une colonne s'était fait voir sur nos derrières à la rive gauche de la Saale, et un autre petit corps venant sans doute de Merseburg cherchait à inquiéter notre flanc droit."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Déjà j'avais rappelé la division Drouet; ce général, au bruit du canon, avait tellement pressé sa marche qu'il arriva beaucoup plus vite qu'on n'aurait pu s'y attendre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Je lui ordonnai de faire attaquer la colonne qui avait paru sur notre gauche et en arrière de notre ligne par le 27e léger et le 95e."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "J'avais fait avancer le 94e pour soutenir la grande attaque;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p50-figures-v1",
+          "section": "p50",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 50 (transcribed from the page image)",
+          "quote": "doch nun befahl der M. Bernadotte dem General Düpont: mit den 4 Bataillonen des 9. leichten und des 32. Linien-Regmts. den Angriff zu unternehmen, die 2 Bataillone des 96. Linien-Regmts. und die Husaren bei Passendorf in Reserve zu belassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "pendant que l'ennemi faisait jouer sur nous son artillerie à laquelle nous ne pouvions répondre que faiblement, attendu le petit nombre de nos bouches à feu."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Bernadotte as side A's commander and General of Cavalry Duke E. of Württemberg as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Bernadotte's letter names his opponent Duke Eugène of Württemberg and Höpfner the Duke Eugen of Württemberg; both have Bernadotte command side A (claims side-a-command, side-b-command). English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "unter Marschall Bernadotte"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "unter Gen. d. Kav. Hz. E. v. Württemberg."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Bernadotte, arrived with his corps at Querfurt, was informed there that the Duke's reserve corps lay at Halle and directed his march there to attack and beat it. Bernadotte wrote that he left Drouet's division at Unter-Teutschenthal to watch a column said to be coming from Eisleben; having reached the heights of Passendorf and seen the enemy holding the town, he judged it the moment to attack and that the town had to be taken before the Eisleben column could join the main body and before another small corps from Merseburg could join it; Dupont was ordered to carry the town, and Bernadotte gave the order not to fire but to close with the bayonet; once master of the town he sent in the 96e and had the position attacked, then passed the hussars and Rivaud's division; he had recalled Drouet, and ordered him to have the column behind his line attacked. A paragraph that Foucart prints after the journal extract in his footnote, with no attribution of its own, says Bernadotte began the attack only when Rivaud's division was debouching.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The decisions as Bernadotte reported them, read from the page images, with Höpfner's account and the paragraph in Foucart's footnote from the OCR. On the page image that paragraph stands apart after the journal extract's closing attribution and carries none of its own, so it is not given as the journal's. English renderings (ours): Höpfner, 'Marshal Bernadotte, who had arrived on the ... in and near Querfurt with his corps in order to advance in a straight line from Weimar to Magdeburg, was informed there that the reserve corps of Duke Eugen of Württemberg was camped at Halle' (OCR); 'thought it entirely in keeping with this general order if he directed his march on Halle in order to attack and beat the Prussian corps' (as in claim side-a-objectives, OCR); Bernadotte, 'I judged it necessary to leave the division of General Drouet at Unter-Teutschenthal, pushing its cavalry regiment to Wansleben, to observe the column that was said to be coming from Eisleben to Halle'; as in claim side-a-information for the heights of Passendorf; 'I judged that it was the moment to attack and that it was absolutely necessary to seize the town before the column of Eisleben could rejoin the main corps, and also before another small corps coming from Merseburg could have made its junction'; 'I gave the order not to fire and to close with the enemy with the bayonet'; as in claims foucart-side-b and foucart-side-a for the first attack, the 96th, the hussars and Rivaud's division, Drouet's recall and the attack on the column; Foucart's footnote, 'the head of the column of the division Rivaud was beginning to appear. (Journal of the ... corps.) Marshal Bernadotte had the attack begun only at the moment when the division Rivaud was debouching and was thus within reach of supporting the division Dupont' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Bernadotte, der am 16. in und bei Querfurt mit ſeinem Korps eingetroffen war, um in gerader Richtung von Weimar nach Magdeburg vorzugehen, wurde daſelbſt benachrich- tigt, daß das Reſervekorps des Herzogs Eugen von Württemberg bei Halle lagere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der Marſchall, der von Napoleon nur den allgemeinen Befehl hatte, den Preußen nach Kräften Abbruch zu thun, und die Straße von Erfurt und von Weißenfels auf Halle zu unterbrechen, überhaupt die geſchlagene Armee zu verhindern, Halle, und damit die direkte Verbindung über die mittlere Elbe, wieder zu gewinnen, glaubte es dieſem allgemeinen Befehl ganz entſprechend, wenn er ſeinen Marſch auf Halle richtete, um das preußiſche Korps anzugreifen und zu ſchlagen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "je jugeai nécessaire de laisser la division du général Drouet à Unter-Teutschenthal, poussant son régiment de cavalerie⁴ à Wansleben, pour observer la colonne que l'on disait venir d'Eisleben à Halle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Parvenu sur les hauteurs de Passendorf, je m'aperçus que l'ennemi tenait la ville de Halle avec beaucoup de monde et une tête de pont, et que tout son corps d'armée couronnait les hauteurs au delà⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Je jugeai que c'était le moment d'attaquer et qu'il fallait absolument s'emparer de la ville avant que la colonne d'Eisleben pût rejoindre le grand corps, et aussi avant qu'un autre petit corps venant de Merseburg eût pu faire sa jonction¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Le général Dupont reçut l'ordre d'enlever la ville : le 32e et un bataillon du 9e léger, secondés par 3 pièces d'artillerie légère, feraient l'attaque du premier pont défendu par plusieurs bataillons et 4 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Je donnai l'ordre de ne point faire feu et d'aborder l'ennemi à la baïonnette."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "Une fois maître de la ville, j'envoyai le 96e pour soutenir les 9e et 32e² qui en débouchant n'auraient pas pu tenir tête à l'ennemi, et je fis attaquer sa position défendue par 20,000 hommes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "immédiatement après, je fis passer les 2e et 4e de hussards et toute la division Rivaud à l'exception d'un bataillon de réserve³."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Déjà j'avais rappelé la division Drouet; ce général, au bruit du canon, avait tellement pressé sa marche qu'il arriva beaucoup plus vite qu'on n'aurait pu s'y attendre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Je lui ordonnai de faire attaquer la colonne qui avait paru sur notre gauche et en arrière de notre ligne par le 27e léger et le 95e."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (OCR page boundaries; not checked against print)",
+          "quote": "La tôle de colonne de la division Rivaud commençait à paraître. (Journal du 1er corps.) Le maréchal Bernadotte ne fit commencer 1 attaque qu'au moment où la divison Rivaud débouchait et se trouvait ainsi à portée de soutenir la division Dupont."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the Duke, though informed of the beaten army's retreat, could not bring himself to leave Halle, believing he must first gather all his troops and holding the King's order to keep large stores ready at Halle for the army; so the retreat was not begun and even the baggage stayed with the corps. At Major Bergen's repeated urging that the corps must march off to the Elbe, the Duke called the division generals to his quarters in Halle; the march back was discussed, and they had just agreed on it when a trumpeter reported the dragoons surprised at Passendorf. The Duke attached little weight to it and rode to the Saale bridge still taking it for a reconnaissance; he went forward over the high bridge with the bridge post, reinforced by the guard, and a gun, then gave General Hinrichs the command at the bridge, returned to the town and ordered the camp's tents struck. Fortunately, in Höpfner's words, the Duke became aware of the danger in time and hurried in person with the grenadier battalions Vieregg and Schmeling to the Ober-Steinthor, where the French were already pressing forward, and the enemy were thrown back to the Unter-Steinthor. Höpfner judges the defeat at Halle as much the result of grave errors as the defeats at Jena and Auerstedt.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, all from the OCR. Höpfner's judgment is a historian's verdict, kept as his. English renderings (ours): 'although the Duke was now also informed by the Halberstadt chamber of the retreat of the beaten army via Nordhausen' (OCR); 'he still could not resolve to leave Halle, since he believed he must first gather all the troops, and had the King's order to hold considerable stores of bread, slaughter cattle etc. ready at Halle for the army' (OCR); 'so the retreat was not begun; even the baggage stayed with the corps' (OCR); 'at the repeated urgent representations of Major Bergen that one must march off to the Elbe, a meeting of the division generals in his quarters in Halle was ordered by Duke Eugen' (OCR); 'with these generals the march back was now con[sidered]' (OCR); 'and as they had just declared themselves fully agreed on it' (OCR); 'a trumpeter of the Herzberg dragoons [arrived] at the Duke's with the report that the regiment had been surprised in Passendorf' (OCR); 'the Duke laid no great weight on this report' (OCR); 'the Duke now rode to the Saale bridge, still of the view that it was only a reconnaissance by the enemy' (OCR); 'the Duke first went forward over the high bridge with the post of the Saale bridge, reinforced by the guard, and a gun' (OCR); 'he handed General Hinrichs the command at the bridge and returned to the town, where he ordered the tents of the camp struck' (OCR); 'fortunately the Duke became aware of this dangerous situation in time and hurried in person with the grenadier battalions Vieregg and Schmeling and the ... horse battery Holtzendorf to the Ober-Steinthor, where the French were already pressing forward' (OCR); 'the enemy were thrown back to the Unter-Steinthor' (OCR); 'the defeat of the Prussian reserve corps at Halle was just as much the consequence of grave errors as the defeats at Jena and Auerstedt' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "Obgleich der Herzog nun auch durch die Halberſtädtſche Kammer von dem Rückzuge der geſchlagenen Armee über Nordhauſeu benachrichtigt wurde,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "ſo konnte er ſich doch noch nicht entſchließen, Halle zu verlaſſen, da er doch erſt alle Truppen glaubte verfammeln zu muͤſſen, und den Befehl vom Könige hatte, bei Halle für die Armee anſehnliche Vorräthe von Brod, Schlacht— vieh ꝛc. in Bereitſchaft zu halten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der Rückzug wurde alſo nicht angetreten; felbft die Bagage verblieb beim Korps,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "wurde auf wiederholte dringende Vorſtellungen des Majors Bergen, daß man nach der Elbe abmarſchiren müſſe, vom Herzog Eugen eine Zuſammen⸗ berufung der Diviſionsgenerale in deſſen Quartier in Halle be- fohlen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Mit dieſen Generalen wurde nun der Rückmarſch über⸗"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "und indem man ſich jo eben darüber völlig einverſtanden erklärte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "ein Trompeter von Herzberg⸗Dragonern beim Herzog mit der Meldung an, daß das Regiment in Paſſen⸗ dorf überfallen ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog legte nicht viel Gewicht auf dieſe Meldung,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog ritt nun nach der Saalbrücke, immer noch in der Anſicht, daß es ſich nur um eine Rekognoszirung des Feindes handele,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog ging zuerſt mit dem durch die Wache ver⸗ ſtärkten Poſten der Saalbrücke und einer Kanone über die hohe Brücke vor,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 49 (OCR page boundaries; not checked against print)",
+          "quote": "übergab er dem General Hinrichs das Kommando an der Brücke und kehrte nach der Stadt zurück, wo er befahl, die Zelte des Lagers abzubrechen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 52 (OCR page boundaries; not checked against print)",
+          "quote": "Zum Glück wurde der Herzog dieſes bedenkliche Verhältniß noch rechtzeitig gewahr und eilte in Perſon mit den Grenadier⸗Bataill. Vieregg und Schmeling und der + reit. Batt. Holgendorf nach dem Ober⸗ Steinthor, wo die Franzoſen bereits vordrangen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 52 (OCR page boundaries; not checked against print)",
+          "quote": "Die Feinde wurden nach dem Unter⸗Steinthor zurückgeworfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (OCR page boundaries; not checked against print)",
+          "quote": "Die Niederlage des preußiſchen Reſerve-Korps bei Halle war eben ſo ſehr die Folge ſchwerer Fehler, als die Niederlagen bei Jena und Auerſtädt."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart codes the engagement at Halle on 17 October 1806 as a victory of the French under Marshal Bernadotte over the Prussians under the Duke of Württemberg. Bernadotte reported that the enemy was driven as far as 4 leagues from Halle, beyond Landsberg, where night overtook the French, and fled in full rout; Dupont, that at 3 o'clock the battle was completely won. Höpfner calls it the defeat of the Prussian reserve corps: the enemy pursued only at a distance, the last shot fell at sunset, and the corps, reunited in a bivouac between Zerbst and Gommern, went on to Magdeburg.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's heading and entry, read from the page image in the frame transcription, with Bernadotte's and Dupont's letters from the page images and Höpfner from the OCR. The sources read agree on the winner. English renderings (ours): Bodart, as in claim bodart-strength; Bernadotte, as in claim foucart-side-b for the heading; 'finally the enemy was led as far as 4 leagues from Halle, beyond Landsberg, where night overtook us'; 'this rapid movement had completed the decision of the enemy's retreat, who fled in full rout'; Dupont, as in claim foucart-side-b for the heading; 'it was then 3 o'clock and the battle was completely won'; Höpfner, as in claim side-b-command for the defeat (OCR); 'the enemy pursued only at a distance, and with sunset the last shot fell' (OCR); 'the reserve corps reunited in a bivouac between Zerbst and Gommern' (OCR); 'then all set off again, rested in the night to the ... for some hours at Gommern and arrived at ... o'clock in the forenoon on the ... at Magdeburg' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "1806 17./10. TREFFEN bei Halle (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Sieg der Franzosen (14.500 Inft., 1.500 Kav. = 16.000 M.) unter Marschall Bernadotte über die Preußen (18 Btln., 20 Esk. = 11.500 Inft., 2.200 Kav., 62 Kan. = 13.700 M.) unter Gen. d. Kav. Hz. E. v. Württemberg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "enfin l'ennemi fut mené jusqu'à 4 lieues de Halle, au delà de Landsberg, où la nuit nous surprit¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "ce mouvement rapide avait achevé de déterminer la retraite de l'ennemi, qui se sauva en pleine déroute²."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Il était alors 3 heures et la bataille était complètement gagnée."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (OCR page boundaries; not checked against print)",
+          "quote": "Die Niederlage des preußiſchen Reſerve-Korps bei Halle war eben ſo ſehr die Folge ſchwerer Fehler, als die Niederlagen bei Jena und Auerſtädt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "Der Feind verfolgte nur entfernt, und mit Sonnen-Untergang fiel der letzte Schuß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "Das Reſervekorps vereinigte ſich wieder in einem Bivouak zwiſchen Zerbſt und Gommern;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "dann brach Alles wieder auf, ruhte in der Nacht zum 19. einige Stunden bei Gom⸗ mern und langte um 10. Uhr Vormittags am 19. bei Magdeburg an,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives side A's loss as about 800 men (6 staff and 28 subaltern officers) killed and wounded, and side B's as 1,000 killed and wounded and 4,200 prisoners, 5,200 men in all (113 officers), 37%, with 11 guns and 4 flags.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. Several of his figures agree with Höpfner's or come close (claims side-b-losses-reported, side-a-losses-reported), by our arithmetic: Höpfner's 13 dead, 26 badly wounded and 74 captured officers make 113, Bodart's officer figure; Höpfner's 11 guns and 4 flags are Bodart's; his 513 wounded in Halle, about 200 wounded who dragged themselves away and not over 300 dead make 1,013, close to Bodart's 1,000 killed and wounded; and the French loss that Höpfner reports, under 800, is close to Bodart's about 800. Höpfner's 26 badly wounded officers exclude the regiment Treskow's. 5,200 of Bodart's 13,700 is 38% by our arithmetic; he prints 37%. English renderings (ours): 'French losses: about 800 men (6 staff, 28 subaltern officers) killed and wounded'; 'Prussian losses: 1,000 men killed and wounded, 4,200 prisoners, together 5,200 men (113 officers) = 37%, 11 guns, 4 flags'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Frz. Verl.: ca. 800 M. (6 Stb.-, 28 Ob.-Offz.) tot u. verw."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Preuß. Verl.: 1.000 M. tot u. verw. 4.200 „ Gefg. zus. 5.200 M. (113 Offz.) = 37% 11 Kan., 4 Fahnen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "Sieg der Franzosen (14.500 Inft., 1.500 Kav. = 16.000 M.) unter Marschall Bernadotte über die Preußen (18 Btln., 20 Esk. = 11.500 Inft., 2.200 Kav., 62 Kan. = 13.700 M.) unter Gen. d. Kav. Hz. E. v. Württemberg."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the reports. Höpfner: 13 officers killed (4 staff and 9 subaltern), 26 badly wounded (not counting the regiment Treskow's), 74 captured, circa 5000 men killed, wounded, captured and missing, 11 guns (not counting the regimental guns) and 4 flags; the Duke gives his total loss as 8 guns and 3000 and some hundred men; 513 wounded Prussians lay in Halle, about 200 wounded dragged themselves away, and the dead are said not to have exceeded 300. Bernadotte: about 5,000 prisoners, among them 2 generals, 3 colonels and nearly 150 officers, 4 flags and at least 30 guns taken in the open field; he also reports that nearly 1,800 men of the column that had appeared on his left and rear laid down their arms with 4 guns. Dupont: 4,000 to 5,000 prisoners and about thirty guns, besides many killed and wounded. The corps journal and Höpfner have the regiment Treskow taken whole or for the most part.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images except the journal's and Höpfner's lines on the regiment Treskow (OCR); not combined. Bernadotte's about 5,000 is his total of prisoners for the day; the letter does not say whether it includes the 1,800 of the column. Höpfner's 5000 mixes killed, wounded, prisoners and missing. The Duke's own report, which Höpfner cites, was not read. English renderings (ours): Höpfner, 'the loss of the Prussians in the action at Halle consisted of 13 dead officers, namely 4 staff and 9 subaltern officers, 26 badly wounded (without those of the regiment Treskow), 74 captured officers, circa 5000 men in dead, wounded, captured and missing, 11 guns (without the regimental guns) and 4 flags'; 'the Duke gives the total loss as 8 guns and 3000 and some hundred men'; '513 wounded Prussians lay in Halle; about 200 wounded dragged themselves away with [the troops], and of dead there are said to have been not over 300 men'; Bernadotte, 'the results of this day are about 5,000 prisoners, of whom 2 generals, 3 colonels, several lieutenant-colonels and majors and nearly 150 officers; 4 flags and at least 30 guns taken in the open field'; as in claim foucart-side-a for the column attacked on Drouet's orders; 'after a very murderous fire, nearly 1,800 men laid down their arms with 4 guns, and the rest escaped only under cover of night'; Dupont, as in claim foucart-side-b for the heading; 'we have taken 4,000 to 5,000 prisoners of war and some thirty guns'; 'the Prussians lost besides many men killed or wounded'; 'the prisoners reported that regiments were almost entirely destroyed'; the journal, 'the whole regiment of Treskow, which tried to cover its retreat, was taken entire with its flags' (OCR); 'the enemy fleeing at full speed and abandoning everything, the Prince ordered a position to be taken. (Journal of the ... corps.)' (OCR); Höpfner, 'the regiment Treskow had formed in line with ... companies' (OCR); 'the regiment defended itself bravely for a while longer, but was finally, after the great loss of ... dead and a still larger number of wounded, for the most part captured' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p59-figures-v1",
+          "section": "p59",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 59 (transcribed from the page image)",
+          "quote": "Der Verlust der Preußen im Gefecht bei Halle bestand in 13 todten Offizieren, und zwar 4 Stabs- und 9 Subaltern-Offizieren²), 26 schwer verwundeten (ohne die des Regiments Treskow), 74 gefangenen Offizieren, circa 5000 Gemeinen an Todten, Verwundeten, Gefangenen und Vermißten, 11 Geschützen (ohne die Regimentskanonen) und 4 Fahnen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p59-figures-v1",
+          "section": "p59",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 59 (transcribed from the page image)",
+          "quote": "Der Herzog giebt den Gesammtverlust auf 8 Kanonen und 3000 und etliche hundert Mann an."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p59-figures-v1",
+          "section": "p59",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 59 (transcribed from the page image)",
+          "quote": "In Halle haben 513 verwundete Preußen gelegen; etwa 200 Verwundete haben sich mit fortgeschleppt, und an Todten sollen nicht über 300 Mann gewesen sein."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p103-figures-v1",
+          "section": "p103",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (transcribed from the page image)",
+          "quote": "Les résultats de cette journée sont environ 5,000 prisonniers dont 2 généraux, 3 colonels, plusieurs lieutenants-colonels et majors et près de 150 officiers; 4 drapeaux et au moins 30 pièces de canon prises en rase campagne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Je lui ordonnai de faire attaquer la colonne qui avait paru sur notre gauche et en arrière de notre ligne par le 27e léger et le 95e."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Après un feu très-meurtrier, près de 1,800 hommes mirent bas les armes avec 4 pièces de canon, et le reste ne s'échappa qu'à la faveur de la nuit."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Nous avons fait 4,000 à 5,000 prisonniers de guerre et pris une trentaine de bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Les Prussiens ont perdu en outre beaucoup de monde tué ou blessé."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Les prisonniers ont rapporté que des régiments ont été presque entièrement détruits."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (OCR page boundaries; not checked against print)",
+          "quote": "Tout le régiment de Treskow qui voulait soutenir sa retraite fut pris en entier avec ses drapeaux ;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (OCR page boundaries; not checked against print)",
+          "quote": "l'ennemi fuyant à toutes jambes en abandonnant tout, le Prince ordonna do prendre position. (Journal du 1\" corps.)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 57 (OCR page boundaries; not checked against print)",
+          "quote": "Das Regiment Treskow hatte ſich mit 9 Kompagnien in Linie formirt,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 58 (OCR page boundaries; not checked against print)",
+          "quote": "Das Regiment wehrte ſich noch eine Zeitlang tapfer, wurde aber endlich nach dem großen Verluſt von 200 Todten und einer noch größern Anzahl Ver⸗ wundeter, zum größten Theil gefangen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the reports: Höpfner says the French give their loss as under 800 men; Dupont, reporting on the division he commands, put 'our loss' in killed or wounded at 400 to 500 men. Bernadotte's letter, as read, gives no figure for the corps.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Höpfner's figure is the French one at second hand. Dupont's letter reports on his own division and leaves Rivaud's to that general, so his figure is read as his division's. Both read from the page images. Bodart's about 800 (claim bodart-losses) is close to the French figure that Höpfner reports. English renderings (ours): Höpfner, 'the French give their loss as not yet 800 men'; Dupont, as in claim foucart-side-b for the heading; 'the division that I command, having broken camp near Querfurt yesterday at 2 o'clock in the morning, moved on Halle, where it arrived at 10 o'clock'; 'General of division Rivaud appeared shortly afterwards, but it is for this general to report to you on what concerns his division'; 'our loss in killed or wounded is 400 to 500 men'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p60-figures-v1",
+          "section": "p60",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (transcribed from the page image)",
+          "quote": "Die Franzosen geben ihren Verlust auf noch nicht 800 Mann an."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "La division que je commande ayant levé hier son camp près de Querfurt à 2 heures du matin s'est portée sur Halle où elle est arrivée à 10 heures."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Le général de division Rivaud a paru peu de temps après, mais c'est à ce général à vous rendre compte de ce qui concerne sa division."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p106-figures-v1",
+          "section": "p106",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 106 (transcribed from the page image)",
+          "quote": "Notre perte en tués ou blessés est de 400 à 500 hommes."
+        }
+      ]
+    },
+    {
+      "id": "halle-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Halle in the Prussian province of Saxony on the Saale, 32 km north-west of Leipzig. Foucart's footnote to Bernadotte's letter, attributed at its close to the corps journal: the town lies on the slope of the right bank, its wall and 4 gates dominated on that side by the crest of the hill no more than 150 toises away; several arms of the river and marshes separate it from the left bank, crossed by a dyke a quarter league long, flanked by groves and islets; on that side the town is closed by two old enclosures, each with a covered bridge before it. Bernadotte wrote that to cross all these obstacles one had to file along a dyke exposed to all the enemy's fire. Höpfner: the high bridge, the foremost walled Saale bridge, could not be defended by artillery from behind because of its high arched build, so Major Crety, arriving there, crossed it and set up his guns beyond on the dyke; the French, continually reinforced, soon pressed out at all the gates, through the gardens and over the loam walls of the suburbs. Dupont wrote that the Prince of Württemberg had batteries set up facing the gates the French had to pass, with numerous battalions adding their fire, that the ground favoured them, and that the ground the French held was commanded by the heights touching the town, which were crowned with troops.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground and works as described. The description of the town is in Foucart's footnote 5 to Bernadotte's letter, which runs from p. 99 to p. 100 and closes with '(Journal du 1er corps.)'; it is read from the page images, as are Bernadotte's line on the dyke and Bodart's entry; Höpfner's and Dupont's lines are from the OCR. English renderings (ours): Bodart, '(town in Prussia, province of Saxony, on the Saale, 32 km north-west of Leipzig)'; the journal, 'Halle lies on the slope of the right bank; on this side its enclosure of walls and its 4 gates are dominated by the crest of the hill, which is no more than 150 toises from it at most'; 'the town is separated from the left bank of the Saale by several arms of the river and marshes over which a dyke has been built, a quarter of a league long and flanked on the left by groves in the marshes and on the right by islets'; 'the town is closed on this side by two old enclosures and before each is a covered bridge'; as in claim foucart-side-b for the closing attribution; Bernadotte, as in claim foucart-side-b for the heading; 'to cross all these obstacles one had to file along a dyke exposed to all the enemy's fire'; Höpfner, 'before the foremost walled Saale bridge, the so-called high bridge' (OCR); 'when Major Crety arrived at the bridge with a company and ... guns' (OCR); 'since from behind it could not be defended by artillery because of its high arched build' (OCR); 'the major crossed over, set up his guns beyond on the dyke and placed the other grenadier companies, arriving gradually, to the right of the dyke near the toll house' (OCR); as in claim fortification for the French pressing out at all the gates (OCR); Dupont, as in claim foucart-side-b for the heading; 'the Prince of Württemberg had had batteries set up facing the gates through which we had to pass, and numerous battalions added the most violent fire to this obstacle; the ground favoured them; the one we occupied was commanded by the heights that touch the town and that were crowned with troops' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p374",
+          "locator": "Bodart (1908), p. 374",
+          "quote": "(Stadt in Preußen, Provinz Sachsen, an der Saale, 32 km nordwestl. von Leipzig)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle est situé sur le penchant de la rive droite; de ce côté son enceinte de murailles et ses 4 portes sont dominées par la crête du coteau qui n'en est éloignée que de 150 toises au plus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "La ville est séparée de la rive gauche de la Saale par plusieurs bras de rivière et des marais sur lesquels on a construit une digue longue d'un quart de lieu et flanquée à gauche par des bosquets dans les marais et à droite par des ilots."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "La ville est fermée de ce côté par deux vieilles enceintes et en avant de chacune est un pont couvert."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "on le jugea fort de 20,000 à 25,000 hommes. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "pour franchir tous ces obstacles, il fallait défiler sur une digue exposée à tous les feux de l'ennemi;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "vor der vorderſten, gemauer⸗ ten Saalbrücke, der ſogenannten hohen Brücke,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 49 (OCR page boundaries; not checked against print)",
+          "quote": "Als der Major Crety mit einer Kompagnie und 2 Kanonen bei der Brücke anlangte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 49 (OCR page boundaries; not checked against print)",
+          "quote": "da ſie von rück⸗ wärts wegen ihrer hohen gewölbten Bauart nicht durch Artillerie vertheidigt werden konnte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 49 (OCR page boundaries; not checked against print)",
+          "quote": "ging der Major hinüber, ſtellte ſeine Geſchütze jenſeits auf dem Damm auf und placirte die andern allmälig eintreffenden Grenadier⸗Kompagnien rechts des Dammes in der Nähe des Zollhauſes."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 53 (OCR page boundaries; not checked against print)",
+          "quote": "Die nunmehr fortgeſetzt verſtärkten Franzoſen drangen bald zu allen Thoren, durch die Gärten und über die Lehmwände der Vorſtädte hinaus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 105 (OCR page boundaries; not checked against print)",
+          "quote": "Le prince de Wurtemberg avait fait dresser des batteries en faee des portes par lesquelles il nous fallait passer et de nombreux bataillons ajoutaient à cet obstacle le feu le plus violent ; le terrain les favorisait ; celui que nous occupions se trouvait commandé par les hauteurs qui touchent la ville et qui étaient couronnées de troupes."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side A: Bernadotte had only 12 guns and 12 caissons with his whole corps, the rest having stayed at the defile of Dornburg, and his parks arrived only on the afternoon after the fight; the corps had marched from 2 o'clock in the night, and the corps journal says the troops were worn out by the night march. Side B: the Duke had the King's order to keep large stores of bread and cattle ready at Halle for the army, and worked with the minister Angern on moving the magazine at Halle to Bernburg; when the cry went up that the French were there, the baggage drove off without orders in wild flight towards Dessau, and the baggage was for the most part lost; on the whole retreat no refreshments were issued to men or horses, and the infantry lost almost more men to exhaustion on the march than in the fight.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's artillery and march from Bernadotte's letter, read from the page images; the rest from the OCR. The passages mix stores held before the action with losses after it, so the phase is left unresolved. English renderings (ours): Bernadotte, as in claim foucart-side-a for the 12 guns; 'my parks arrived today in the afternoon'; 'the 1st corps of the Grande Armée left yesterday at 2 o'clock in the night to march on Halle'; the journal, 'all the troops were worn out by the march of the preceding night' (OCR); as in claim side-b-losses-reported for the journal's closing attribution (OCR); Höpfner, as in claim side-b-command for the King's order (OCR); 'the Duke busied himself together with the minister Angern with the removal of the magazine at Halle to Bernburg' (OCR); 'this baggage had however already driven off without orders, as soon as the cry went up: the French are here!, and was in the wildest flight towards Dessau' (OCR); '[of] baggage the greatest part was lost' (OCR); 'without any refreshments being issued to men and horses on this whole retreat' (OCR); 'the infantry had suffered almost more loss through men exhausted on the march than through the action' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p103-figures-v1",
+          "section": "p103",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (transcribed from the page image)",
+          "quote": "Il est bon d'observer à V. M. que je n'avais avec moi que 12 pièces de canon et 12 caissons pour tout mon corps d'armée, le reste étant resté en arrière au défilé de Dornburg;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p103-figures-v1",
+          "section": "p103",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (transcribed from the page image)",
+          "quote": "mes parcs sont arrivés aujourd'hui dans l'après-midi,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Le 1er corps de la Grande Armée est parti hier à 2 heures de la nuit pour marcher sur Halle"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (OCR page boundaries; not checked against print)",
+          "quote": "toutes les troupes étaient harassées par la marche de lt nuit précédente"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 103 (OCR page boundaries; not checked against print)",
+          "quote": "l'ennemi fuyant à toutes jambes en abandonnant tout, le Prince ordonna do prendre position. (Journal du 1\" corps.)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "ſo konnte er ſich doch noch nicht entſchließen, Halle zu verlaſſen, da er doch erſt alle Truppen glaubte verfammeln zu muͤſſen, und den Befehl vom Könige hatte, bei Halle für die Armee anſehnliche Vorräthe von Brod, Schlacht— vieh ꝛc. in Bereitſchaft zu halten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 44 (OCR page boundaries; not checked against print)",
+          "quote": "beſchäftigte ſich der Herzog gemeinſchaftlich mit dem Miniſter Angern mit der Fortſchaffung des Magazins zu Halle nach Bernburg,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 49 (OCR page boundaries; not checked against print)",
+          "quote": "Dieſe Bagage war indeſſen bereits ohne Befehl, fo wie ſich das Ger ſchrei: die Franzoſen find da! erhoben hatte, davon gefahren und in der wildeſten Flucht nach Deſſau begriffen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "Bagage ging zum größten Theil ver⸗ loren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "ohne daß auf dieſem ganzen Rückzuge irgend welche Erfri⸗ ſchungen an Mannſchaften und Pferde verabreicht worden wären."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 55 (OCR page boundaries; not checked against print)",
+          "quote": "Die Infanterie hatte beinahe mehr Verluſte durch Ermüdete auf dem Marſch als durch das Gefecht erhalten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Höpfner: Bernadotte, arrived with his corps at Querfurt, was informed there that the Duke's reserve corps lay at Halle. Bernadotte wrote that he had just learned that the Duke had arrived at Halle 2 days before with nearly 25,000 fresh troops, that his light troops reported an enemy corps retiring on Halle by the Eisleben road, and that on reaching the heights of Passendorf he saw the enemy holding Halle in strength with a bridgehead and his whole corps crowning the heights beyond. The corps journal, in Foucart's footnote, has General Maison reconnoitre the enemy as he prepared to defend the front of the town and the bridges and formed for battle on the heights behind it; Dupont's advance guard reconnoitred the town and found the bridge held. While the fighting went on beyond Halle, a column showed itself on Bernadotte's rear on the left bank of the Saale, and a small corps, no doubt from Merseburg, sought to trouble his right flank.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's reports and Höpfner; Bernadotte's numbers for the enemy are in claim foucart-side-b. English renderings (ours): Höpfner, as in claim side-a-command (OCR); Bernadotte, as in claim foucart-side-b for the heading, the march on Halle and the Duke's arrival; 'the reconnaissances of light troops reported to me that an enemy corps was to retire on Halle by the road from Eisleben'; 'having reached the heights of Passendorf, I saw that the enemy held the town of Halle with many men and a bridgehead, and that his whole army corps crowned the heights beyond'; the journal, as in claim foucart-side-b for Maison's reconnaissance and the closing attribution; Dupont, as in claim foucart-side-b for the heading; 'the advance guard of my division advanced towards the town to reconnoitre it, and it was found that the bridge leading to it was occupied by the enemy'; Bernadotte, 'while these various fights followed one another on the height beyond Halle, a column had shown itself on our rear on the left bank of the Saale, and another small corps, no doubt coming from Merseburg, was trying to trouble our right flank'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Bernadotte, der am 16. in und bei Querfurt mit ſeinem Korps eingetroffen war, um in gerader Richtung von Weimar nach Magdeburg vorzugehen, wurde daſelbſt benachrich- tigt, daß das Reſervekorps des Herzogs Eugen von Württemberg bei Halle lagere."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Le 1er corps de la Grande Armée est parti hier à 2 heures de la nuit pour marcher sur Halle"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "attaquer le duc Eugène de Würtemberg que je venais d'apprendre y être arrivé depuis 2 jours avec près de 25,000 hommes de troupes fraîches, formant la réserve de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "les reconnaissances de troupes légères me rendirent compte qu'un corps ennemi devait se retirer sur Halle par la route d'Eisleben."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Parvenu sur les hauteurs de Passendorf, je m'aperçus que l'ennemi tenait la ville de Halle avec beaucoup de monde et une tête de pont, et que tout son corps d'armée couronnait les hauteurs au delà⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "général Maison le suivit pour reconnaître l'ennemi qui faisait des dispositions pour défendre le front de la ville et les ponts, en même temps qu'il se formait en bataille sur les hauteurs qui la dominent en arrière;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "on le jugea fort de 20,000 à 25,000 hommes. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "L'avant-garde de ma division s'est avancée vers la ville pour la reconnaître et on a trouvé que le pont qui y conduit était occupé par l'ennemi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p102-figures-v1",
+          "section": "p102",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 102 (transcribed from the page image)",
+          "quote": "Pendant que ces divers combats se succédaient sur la hauteur au delà de Halle, une colonne s'était fait voir sur nos derrières à la rive gauche de la Saale, et un autre petit corps venant sans doute de Merseburg cherchait à inquiéter notre flanc droit."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: the King's order reached the Duke on his journey to Halle; on the onward journey he heard the cannonades of Jena and Auerstedt and concluded, from the King's letter and the fire receding, that the enemy's turning movement had been beaten off; half a day then passed without his receiving news of the previous day's battles, and the reports that came in contradicted each other; then came a report of Davout at Naumburg and Weißenfels, and a wounded officer of the regiment Renouard told him of the main army's defeat. He was also informed of the beaten army's retreat by the Halberstadt chamber, and in Höpfner's view sufficiently informed of the army's state by General Tschammer. When the attack came, a hussar officer back from patrol had reported only an hour before that nothing of the enemy had been seen near Merseburg and Lauchstädt; the dragoons' outpost was attacked so unexpectedly that the regiment was rather surprised, and the Duke took the attack for a reconnaissance.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, all from the OCR; the strength given for Davout in the report is not restated. English renderings (ours): 'Duke Eugen went in person on the ... to Halle. On the journey the royal order of the ... reached him' (OCR); 'on the further journey the Duke heard clearly the cannonades at Jena and Auerstedt, and concluded, in connection with the King's letter, as the fire receded, that the intended turning movement of the enemy had been beaten back' (OCR); 'half the ... passed without the Duke having received news of the battles of the previous day, and the news that came in contradicted each other' (OCR); 'the report came in that Marshal Davout stood with ... men in Naumburg and Weißenfels' (OCR); 'at the same time a wounded officer of the regiment Renouard arrived in Halle, who told the Duke of the defeat of the main army, the wounding of the Duke of Brunswick, his journey back etc.' (OCR); as in claim side-b-command for the Halberstadt chamber (OCR); 'the said order of the King however no longer made any sense, since the Duke had been sufficiently enlightened by General Tschammer about the state of the army' (OCR); 'since only an hour before a hussar officer returning from patrol had made the report that nothing of the enemy had been seen in the area of Merseburg and Lauchstädt' (OCR); 'the outpost of the regiment Herzberg dragoons had in fact been attacked so unexpectedly and thrown back on the regiment's quarters that the regiment was rather surprised' (OCR); as in claim side-b-command for the reconnaissance (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 42 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog Eugen ging für ſeine Perſon am 14. nach Halle. Auf der Reiſe ging ihm der königliche Befehl vom 12."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 43 (OCR page boundaries; not checked against print)",
+          "quote": "Auf der Weiterreiſe hörte der Herzog deutlich die Kanonaden bei Jena und Auerſtädt, und ſchloß, im Zuſammenhang mit dem Schreiben des Königs, da das Feuer ſich entfernte, daß die beabſichtigte Umgehung des Feindes zurückgeſchlagen worden ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 43 (OCR page boundaries; not checked against print)",
+          "quote": "Der halbe 15. verging, ohne daß der Herzog Nachrichten von den Schlachten des vergangenen Tages erhalten hätte, und die Nachrichten, welche einliefen, widerſprachen ſich."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 44 (OCR page boundaries; not checked against print)",
+          "quote": "die Meldung ein, daß der M. Davout mit 30,000 Mann in Naumburg und Weißenfels ſtände."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 44 (OCR page boundaries; not checked against print)",
+          "quote": "Gleich⸗ zeitig traf ein verwundeter Offizier des Regiments Renouard in Halle ein, welcher dem Herzog die Niederlage der Hauptarmee, die Verwundung des Herzogs von Braunſchweig, deſſen Rück⸗ reiſe ꝛc. mittheilte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "Obgleich der Herzog nun auch durch die Halberſtädtſche Kammer von dem Rückzuge der geſchlagenen Armee über Nordhauſeu benachrichtigt wurde,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "Der gedachte Befehl des Königs hatte aber gar keinen Sinn mehr, da der Herzog durch den General Tſchammer genügend über die Verhältniſſe der Armee aufgeklärt worden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "da erſt eine Stunde vorher ein von Patrouille zurüdfehrender Huſaren⸗Offizier den Rapport gemacht hatte, daß in der Gegend von Merſeburg und Lauchſtädt nichts vom Feinde geſehen worden ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "Die Feldwache des Regiments Herzberg-Dra⸗ goner war in der That ſo unerwartet angegriffen und auf die Quartiere des Regiments zurückgeworfen worden, daß dieſes ziem⸗ lich überraſcht wurde,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog ritt nun nach der Saalbrücke, immer noch in der Anſicht, daß es ſich nur um eine Rekognoszirung des Feindes handele,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Höpfner: Bernadotte had from Napoleon only the general order to do the Prussians as much harm as he could, to cut the roads from Erfurt and Weißenfels to Halle and generally to keep the beaten army from regaining Halle and with it the direct connection over the middle Elbe; he judged it in keeping with this order to march on Halle to attack and beat the Prussian corps. Bernadotte wrote that the town had to be taken before the Eisleben column and the small corps from Merseburg could join the main body.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner's account of the order (OCR) and Bernadotte's own purpose in his letter (page image). English renderings (ours): Höpfner, as in claim side-a-command for Bernadotte at Querfurt (OCR); 'the marshal, who had from Napoleon only the general order to do the Prussians as much harm as possible and to cut the road from Erfurt and from Weißenfels to Halle, in general to prevent the beaten army from regaining Halle, and with it the direct connection over the middle Elbe, thought it entirely in keeping with this general order if he directed his march on Halle in order to attack and beat the Prussian corps' (OCR); Bernadotte, as in claim foucart-side-b for the heading and in claim side-a-command for the moment to attack.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Bernadotte, der am 16. in und bei Querfurt mit ſeinem Korps eingetroffen war, um in gerader Richtung von Weimar nach Magdeburg vorzugehen, wurde daſelbſt benachrich- tigt, daß das Reſervekorps des Herzogs Eugen von Württemberg bei Halle lagere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der Marſchall, der von Napoleon nur den allgemeinen Befehl hatte, den Preußen nach Kräften Abbruch zu thun, und die Straße von Erfurt und von Weißenfels auf Halle zu unterbrechen, überhaupt die geſchlagene Armee zu verhindern, Halle, und damit die direkte Verbindung über die mittlere Elbe, wieder zu gewinnen, glaubte es dieſem allgemeinen Befehl ganz entſprechend, wenn er ſeinen Marſch auf Halle richtete, um das preußiſche Korps anzugreifen und zu ſchlagen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Je jugeai que c'était le moment d'attaquer et qu'il fallait absolument s'emparer de la ville avant que la colonne d'Eisleben pût rejoindre le grand corps, et aussi avant qu'un autre petit corps venant de Merseburg eût pu faire sa jonction¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Höpfner: on the Duke's journey to Halle a royal order reached him that he should give up the march on Leipzig and take a firm position at Merseburg to secure that crossing for the King's army; he also had the King's order to keep stores ready at Halle for the army and wanted first to gather all his troops. It is fairly certain, Höpfner says, that Berlin asked him not to go to Halle but to stand on the right bank of the Elbe covering the crossings at Wittenberg and Roslau. In his judgment the purpose of holding the crossing at Merseburg was lost once the army was beaten, and the Duke should have hurried to reach the middle Elbe at Wittenberg before the enemy. At Major Bergen's urging that the corps must march off to the Elbe, the Duke called his division generals, and they had just agreed on the march back when a report came that the dragoons had been surprised at Passendorf.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, all from the OCR. English renderings (ours): as in claim side-b-information for the royal order on the journey (OCR); 'that he should give up the march on Leipzig and take a firm position at Merseburg, in order to secure the crossing there for the King's army' (OCR); as in claim side-b-command for the stores and the gathering of the troops (OCR); 'on the other hand it is fairly certain that from Berlin the Duke was asked not to go to Halle, but to take post on the right bank of the Elbe to cover the crossings at Wittenberg and Roslau, and so to secure Berlin' (OCR); 'the Duke of Württemberg had the order to hold the Saale crossing at Merseburg' (OCR); '[this] purpose had been entirely lost after the army had been beaten' (OCR); 'the next thing would therefore have been for the Duke to hurry to reach the middle Elbe at Wittenberg before the enemy' (OCR); as in claim side-b-command for the council, the march back and the trumpeter's report (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 42 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog Eugen ging für ſeine Perſon am 14. nach Halle. Auf der Reiſe ging ihm der königliche Befehl vom 12."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 43 (OCR page boundaries; not checked against print)",
+          "quote": "daß er den Marſch auf Leipzig aufgeben und eine feſte Stellung bei Merſeburg nehmen ſolle, um der Armee des Königs den dortigen Uebergang zu ſichern,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "ſo konnte er ſich doch noch nicht entſchließen, Halle zu verlaſſen, da er doch erſt alle Truppen glaubte verfammeln zu muͤſſen, und den Befehl vom Könige hatte, bei Halle für die Armee anſehnliche Vorräthe von Brod, Schlacht— vieh ꝛc. in Bereitſchaft zu halten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 46 (OCR page boundaries; not checked against print)",
+          "quote": "dagegen iſt es ziemlich ſicher, daß man von Berlin aus den Herzog aufforderte, nicht auf Halle zu gehen, ſondern ſich auf dem rechten Elbufer zur Deckung der Uebergänge bei Wittenberg und Roslau, und ſo⸗ mit zur Sicherung von Berlin, aufzuſtellen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (OCR page boundaries; not checked against print)",
+          "quote": "Der Herzog von Württemberg hatte den Befehl, den Saal- übergang bei Merſeburg feſtzuhalten,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (OCR page boundaries; not checked against print)",
+          "quote": "Zweck war gänzlich verloren gegangen, nachdem die Armee geſchlagen worden war,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 60 (OCR page boundaries; not checked against print)",
+          "quote": "Das Nächſte wäre alſo geweſen, daß der Herzog eilte, die mittlere Elbe bei Wittenberg vor dem Feinde zu erreichen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "wurde auf wiederholte dringende Vorſtellungen des Majors Bergen, daß man nach der Elbe abmarſchiren müſſe, vom Herzog Eugen eine Zuſammen⸗ berufung der Diviſionsgenerale in deſſen Quartier in Halle be- fohlen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Mit dieſen Generalen wurde nun der Rückmarſch über⸗"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "und indem man ſich jo eben darüber völlig einverſtanden erklärte,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 48 (OCR page boundaries; not checked against print)",
+          "quote": "ein Trompeter von Herzberg⸗Dragonern beim Herzog mit der Meldung an, daß das Regiment in Paſſen⸗ dorf überfallen ſei."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Bernadotte set out to march on Halle and attack the Duke's corps; Dupont was ordered to carry the town, and in less than three quarters of an hour three bridges, two great defiles and two gates were carried; once master of the town Bernadotte had the enemy's position attacked, and after a most stubborn resistance it was carried. Side B defended the bridges, the town and the position; its counterstrokes, the Duke's grenadiers at the Ober-Steinthor and General Usedom's attack with horsemen of his regiment on the French cavalry in the retreat, were made in defence and to win the infantry a head start.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Both sides' accounts agree on who attacked. The attack was Bernadotte's own decision under a general order (claim side-a-objectives), so the claim is tagged commander_created. English renderings (ours): Höpfner, as in claims side-a-command and side-a-objectives for Bernadotte's march (OCR) and in claim foucart-side-a for the attack order; Bernadotte, as in claim foucart-side-b for the heading, the march on Halle, the order to Dupont and the attack on the position, and in claim side-a-command for the moment to attack; 'in less than three quarters of an hour, three bridges, two great defiles and two gates were carried'; 'after a most stubborn resistance the position was carried'; Höpfner, as in claim side-b-command for the grenadiers at the Ober-Steinthor and the enemy thrown back (OCR); 'had not General Usedom, who had until then accompanied the retreat on its flank, attacked the French cavalry between Braschwitz and Rabatz with about ... horses of his regiment, to win the infantry a head start' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der M. Bernadotte, der am 16. in und bei Querfurt mit ſeinem Korps eingetroffen war, um in gerader Richtung von Weimar nach Magdeburg vorzugehen, wurde daſelbſt benachrich- tigt, daß das Reſervekorps des Herzogs Eugen von Württemberg bei Halle lagere."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 47 (OCR page boundaries; not checked against print)",
+          "quote": "Der Marſchall, der von Napoleon nur den allgemeinen Befehl hatte, den Preußen nach Kräften Abbruch zu thun, und die Straße von Erfurt und von Weißenfels auf Halle zu unterbrechen, überhaupt die geſchlagene Armee zu verhindern, Halle, und damit die direkte Verbindung über die mittlere Elbe, wieder zu gewinnen, glaubte es dieſem allgemeinen Befehl ganz entſprechend, wenn er ſeinen Marſch auf Halle richtete, um das preußiſche Korps anzugreifen und zu ſchlagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p50-figures-v1",
+          "section": "p50",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 50 (transcribed from the page image)",
+          "quote": "doch nun befahl der M. Bernadotte dem General Düpont: mit den 4 Bataillonen des 9. leichten und des 32. Linien-Regmts. den Angriff zu unternehmen, die 2 Bataillone des 96. Linien-Regmts. und die Husaren bei Passendorf in Reserve zu belassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Le 1er corps de la Grande Armée est parti hier à 2 heures de la nuit pour marcher sur Halle"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "attaquer le duc Eugène de Würtemberg que je venais d'apprendre y être arrivé depuis 2 jours avec près de 25,000 hommes de troupes fraîches, formant la réserve de l'armée prussienne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Je jugeai que c'était le moment d'attaquer et qu'il fallait absolument s'emparer de la ville avant que la colonne d'Eisleben pût rejoindre le grand corps, et aussi avant qu'un autre petit corps venant de Merseburg eût pu faire sa jonction¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "Le général Dupont reçut l'ordre d'enlever la ville : le 32e et un bataillon du 9e léger, secondés par 3 pièces d'artillerie légère, feraient l'attaque du premier pont défendu par plusieurs bataillons et 4 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "enfin, en moins de trois quarts d'heure, trois ponts, deux grands défilés et deux portes furent emportés;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "Une fois maître de la ville, j'envoyai le 96e pour soutenir les 9e et 32e² qui en débouchant n'auraient pas pu tenir tête à l'ennemi, et je fis attaquer sa position défendue par 20,000 hommes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p101-figures-v1",
+          "section": "p101",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (transcribed from the page image)",
+          "quote": "après une résistance des plus opiniâtres la position fut enlevée;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 52 (OCR page boundaries; not checked against print)",
+          "quote": "Zum Glück wurde der Herzog dieſes bedenkliche Verhältniß noch rechtzeitig gewahr und eilte in Perſon mit den Grenadier⸗Bataill. Vieregg und Schmeling und der + reit. Batt. Holgendorf nach dem Ober⸗ Steinthor, wo die Franzoſen bereits vordrangen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 52 (OCR page boundaries; not checked against print)",
+          "quote": "Die Feinde wurden nach dem Unter⸗Steinthor zurückgeworfen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 54 (OCR page boundaries; not checked against print)",
+          "quote": "wenn nicht der General Uſedom, der bisher den Ruͤckzug zur Seite begleitet hatte, zwiſchen Braſchwitz und Rabatz mit etwa 800 Pferden ſeines Regiments die franzöſiſche Kavallerie ange⸗ griffen hate, um der Infanterie einen Vorſprung zu verſchaffen."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a walled town: Bernadotte saw the enemy holding Halle in strength with a bridgehead, and reported that three bridges, two great defiles and two gates were carried; Foucart's footnote, attributed at its close to the corps journal, describes the town's wall and 4 gates and, towards the Saale, two old enclosures each with a covered bridge before it. Höpfner has the fusilier battalions returning from Merseburg stay in alarm houses in the suburbs and occupy the gates. The journal has the French in turn barricade themselves at the gates, still too weak to sally out and attack the enemy's position behind the town, until the moment to debouch; an enemy column that had pushed back the French troops defending the Ulrich gate was met in a square of the town and thrown back. Dupont writes that the Prince of Württemberg had batteries set up facing the gates the French had to pass, and that the French opened exits to the right and left of the gates. Höpfner: here too the Prussians resisted stoutly and threw the French back several times, and the French pressed from behind over the garden walls into Lange's inn close by the Ober-Galgthor and fired on the Prussians from it; continually reinforced, they soon pressed out at all the gates, through the gardens and over the loam walls of the suburbs.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the town's wall, gates and bridges were permanent works held by side B at the start, so the claim is tagged inherited. A coding that counted the French defence of the captured gates would give both_fortified, with that part gained during the action; one that counted only the fight for the position on the heights beyond the town, where the passages read name no field works, would give none_named. English renderings (ours): Bernadotte, as in claim foucart-side-b for the heading, in claim side-a-information for the bridgehead and in claim posture for the bridges and gates; the journal, as in claim halle-ground for the wall, gates and enclosures and the closing attribution; Höpfner, 'those returning from Merseburg' (OCR); '[fu]silier battalions, which arrived at ... o'clock, stayed in alarm houses in the suburbs and occupied the gates' (OCR); the journal, 'our troops, still too weak to sally and attack the position of the enemy army behind the town, barricaded themselves at the gates while waiting for the moment to debouch. (Journal of the ... corps.)' (OCR); 'arriving on one of the squares of the town, this regiment found the head of an enemy column that was entering after having pushed back our troops who defended the Ulrich gate. It at once attacked this column and threw the enemy back on his position. (Journal of the ... corps.)' (OCR); Dupont, as in claim foucart-side-b for the heading; 'the Prince of Württemberg had had batteries set up facing the gates through which we had to pass' (OCR); 'we opened ourselves exits to the right and left of the gates' (OCR); Höpfner, 'here too the Prussians put up the liveliest resistance, threw the French back several times, and here too these sought to reach their aim by pressing from behind over the garden walls into Lange's inn close by the Ober-Galgthor and firing on the Prussians from there' (OCR); 'the French, now continually reinforced, soon pressed out at all the gates, through the gardens and over the loam walls of the suburbs' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Parvenu sur les hauteurs de Passendorf, je m'aperçus que l'ennemi tenait la ville de Halle avec beaucoup de monde et une tête de pont, et que tout son corps d'armée couronnait les hauteurs au delà⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "enfin, en moins de trois quarts d'heure, trois ponts, deux grands défilés et deux portes furent emportés;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "Halle est situé sur le penchant de la rive droite; de ce côté son enceinte de murailles et ses 4 portes sont dominées par la crête du coteau qui n'en est éloignée que de 150 toises au plus."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p99-figures-v1",
+          "section": "p99",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 99 (transcribed from the page image)",
+          "quote": "La ville est fermée de ce côté par deux vieilles enceintes et en avant de chacune est un pont couvert."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p100-figures-v1",
+          "section": "p100",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 100 (transcribed from the page image)",
+          "quote": "on le jugea fort de 20,000 à 25,000 hommes. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 44 (OCR page boundaries; not checked against print)",
+          "quote": "Die von Merſeburg zurückkehrenden"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 44 (OCR page boundaries; not checked against print)",
+          "quote": "ſilierbataillone, die um 10 Uhr eintrafen, blieben in Allarmhäuſern in den Vorſtädten und beſetzten die Thore."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (OCR page boundaries; not checked against print)",
+          "quote": "Nos troupes encore trop faibles pour sortir et attaquer la position de l'ar- mée ennemie en arrière de la ville se barricadèrent aux portes en attendant le moment de déboucher. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 101 (OCR page boundaries; not checked against print)",
+          "quote": "En arrivant sur une des places de la ville, ce régiment trouva une tète de colonne ennemie qui y pé- nétrait après avoir repoussé nos troupes qui défendaient la porte d'Ulrichs. Il attaqua sur-le-champ celte colonne et rejeta l'ennemi sur sa position. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DUPONT AU MARÉCHAL BERNADOTTE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 104 (transcribed from the page image)",
+          "quote": "Halle, 18 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 105 (OCR page boundaries; not checked against print)",
+          "quote": "Le prince de Wurtemberg avait fait dresser des batteries en faee des portes par lesquelles il nous fallait passer"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "halle",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 105 (OCR page boundaries; not checked against print)",
+          "quote": "nous nous sommes ouverts des issues à droite et à gauche des portes ;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 52 (OCR page boundaries; not checked against print)",
+          "quote": "Auch hier leiſteten die Preußen den lebhafteſten Widerſtand, warfen die Franzoſen mehreremal zurück, und auch hier ſuchten dieſe ihren Zweck dadurch zu erreichen, daß ſie von hinten über die Gartenwände in den dicht am Ober-Galgthor befindlichen Langeſchen Gaſthof drangen und von dort die Preußen beſchoſſen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "halle",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 53 (OCR page boundaries; not checked against print)",
+          "quote": "Die nunmehr fortgeſetzt verſtärkten Franzoſen drangen bald zu allen Thoren, durch die Gärten und über die Lehmwände der Vorſtädte hinaus."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the Duke of Württemberg's own report, whose loss figure Höpfner cites; Rivaud's and Drouet's reports (Dupont leaves Rivaud's division to its general's report) and the Journal du 1er corps beyond Foucart's footnotes; a French return of the losses and prisoners; Höpfner's plan of Halle and the order of battle in his footnote (pp. 44-45), whose table the OCR garbles. Figures seen only in the OCR and not restated: the strength in the report of Davout's position (Höpfner, p. 44), the fusilier battalions back from Merseburg (p. 44), the guns with which Major Crety reached the bridge (p. 49), the regiment Treskow's companies in line (p. 57) and its dead (p. 58), the horses in General Usedom's charge (p. 54), and the dates and hours in Höpfner's and the journal's accounts.",
+    "Attribution: on Foucart's p. 100 the paragraph saying that Bernadotte began the attack only when Rivaud's division was debouching stands after the journal extract's closing attribution and has none of its own; the claims give it as Foucart's footnote, not the journal's. The description of the town in footnote 5 (pp. 99-100) is given as the journal's, since the footnote closes with that attribution.",
+    "Most consequential gap: side B's strength in action and how its loss divides between the bridge and town, the position and the regiment Treskow's column. Höpfner's 11,000 in action and Bodart's 13,700 differ by about his 2,791 absent infantry (our arithmetic), and the French estimates of 20,000 to 30,000 are far above both; a page image of Höpfner's order of battle (pp. 44-45) could give the units and their strengths.",
+    "Disputes kept as separate claims: side B's strength (very nearly 11,000 in action, Höpfner; 13,700, Bodart; nearly 25,000 and 20,000 defending the position, Bernadotte; 20,000 to 25,000, the journal; about 30,000, Dupont); the prisoners (about 5,000, Bernadotte; 4,000 to 5,000, Dupont; 4,200, Bodart; Höpfner's circa 5000 men killed, wounded, captured and missing; the Duke's total of 3000 and some hundred); the guns (at least 30, Bernadotte; about thirty, Dupont; 11 without the regimental guns, Höpfner and Bodart; 8, the Duke); side A's loss (under 800 by the French figure in Höpfner, about 800 in Bodart; 400 to 500 in Dupont's division); and the divisions Höpfner names with the cavalry (Düpont and Drouet) against the French documents' Dupont and Rivaud.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his officers, guns and flags match Höpfner's figures and his killed and wounded and French loss come close to them, by our arithmetic); Foucart, t. II (the French side's documents: Bernadotte's and Dupont's letters of 18 October and the corps journal in his footnotes, interested accounts); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; its French loss figure is second-hand)."
+  ]
+}

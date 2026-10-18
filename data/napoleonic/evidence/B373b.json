@@ -1,0 +1,983 @@
+{
+  "schema_version": 1,
+  "battle_id": "B373b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Erfurt entry (capitulation, 15 October 1806) in cohort v1's fourth-coalition 1806 group: Murat's cavalry, with Ney's infantry arriving in the evening, against the Prussian troops gathered at Erfurt under the Prince of Orange and Field Marshal Möllendorf, from the French charge on the heights behind the town on the 15th to the execution of the capitulation on the 16th. The Duke of Weimar's corps, which skirmished nearby and marched off, is context. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side B (Prussian) 10,000 men under Lieutenant-General the Prince of Orange, whom the French under Grand Duke Murat forced to surrender. He gives no strength for side A. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the same 10,000 as the men who fell into the enemy's hands (claim side-b-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'the French under Grand Duke Murat force 10,000 Prussians under Lt.-Gen. Prince of Orange to surrender'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die Franzosen unter Großherzog Murat zwingen 10.000 Preußen unter Gen.-Lt. Pz. v. Oranien zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B in Höpfner: the Petersberg's garrison was the 3rd battalions of the infantry regiments Zweiffel and Wartensleben, about 1000 men together; only on 13 October had it been decided to include the town in the defence, General Rüchel leaving the regiment Kurfürst von Hessen as its garrison. Besides the Petersberg's garrison there were in Erfurt the regiments Kurfürst von Hessen, Schenk and Wedell, the grenadier guard battalion, parts of the regiments Winning, Alt-Larisch and Arnim, 250 men of the regiment Schimonski and stragglers of a host of other regiments. General Larisch had arrived that morning with remnants of Rüchel's corps. By the capitulation, concluded in the night to the 16th, 10,000 men fell into the enemy's hands.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, the figures read from the page images; it does not total the units it lists, and its 10,000 is the number taken, which Bodart repeats (claim bodart-strength). The troops in the town were the garrison and the remnants and stragglers gathered there before the action, so the claim is tagged inherited. English renderings (ours): 'the garrison consisted of the 3rd battalions of the infantry regiments Zweiffel and Wartensleben, about 1000 men together'; 'only on 13 October had the decision been taken to bring the town into the defence, and General Rüchel had left the regiment Kurfürst von Hessen as garrison'; 'besides the garrison of the Petersberg there were also in Erfurt: the regiments Kurfürst von Hessen, Schenk, Wedell, the grenadier guard battalion, parts of the regiments Winning, Alt-Larisch, Arnim, 250 men of the regiment Schimonski, and stragglers'; 'of a host of other regiments' (OCR); 'on the ... in the morning General Larisch arrived' (OCR); 'with remnants of Rüchel's corps' (OCR); 'and in the night to the 16th the capitulation was indeed concluded, by which 10,000 men and very large stores of ammunition fell into the enemy's hands'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus den 3. Bataillonen der Infanterie-Regimenter Zweiffel und Wartensleben, zusammen etwa 1000 Mann."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "Erst am 13. Oktober hatte man den Beschluß gefaßt, die Stadt mit in die Vertheidigung zu ziehen und war vom General Rüchel das Regiment Kurfürst von Hessen als Besatzung zurückgelassen worden,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Außer der Garnison des Petersberges befanden sich in Erfurt noch: die Regmtr. Kurfürst von Hessen, Schenk, Wedell, das Grenadier-Gardebataill., Theile der Regmtr. Winning, Alt-Larisch, Arnim, 250 Mann vom Regmt. Schimonski, und Versprengte"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "von einer Menge anderer Regimenter."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (OCR page boundaries; not checked against print)",
+          "quote": "Am 15. Vormittags langte der General Lariſch,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (OCR page boundaries; not checked against print)",
+          "quote": "mit Trümmern des Rüchelſchen Korps an,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "und in der Nacht zum 16. wurde in der That die Kapitulation abgeschlossen, durch welche 10,000 Mann und sehr große Munitionsvorräthe dem Feinde in die Hände fielen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-murat",
+      "dimension": "strength",
+      "value": "Side B, side A's figures: in his letter to the Emperor from Erfurt of 16 October, reporting the capitulation executed, Murat wrote that the cavalry had attacked alone the day before, without infantry, a corps of about 10,000 infantry and 3 cavalry regiments, driven it from its position and forced it to shut itself in the place; the cavalry alone, with a corps of 3,000 men, had got away; so a corps of 6,000 to 7,000 men had had to surrender in a place safe from a coup de main with a good citadel. He did not know the number of prisoners precisely but put it at at least 6,000, and 5,000 wounded.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's estimate after the capitulation was executed, read from the page images; an interested report, and its 6,000 to 7,000 and its at least 6,000 prisoners and 5,000 wounded are not reconciled with each other or with Höpfner's 10,000 (claim side-b-strength). Murat's earlier figures were seen only in the OCR (claim side-a-information). English renderings (ours): 'Erfurt, 16 October 1806'; 'I have the honour to report to Your Majesty that the capitulation is entirely executed'; 'I owe the highest praise to Your Majesty's cavalry; it attacked alone yesterday without infantry a corps of about 10,000 infantry and 3 cavalry regiments, drove it from its position, took its guns and forced it to shut itself in the place'; 'the cavalry alone, with a corps of 3,000 men, managed to escape'; 'thus, without infantry, a corps of 6,000 to 7,000 men commanded by old generals has been obliged to surrender in a place safe from a coup de main and with a good citadel'; 'although I do not know precisely the number of prisoners, I can assure Your Majesty that there are at least 6,000, and 5,000 wounded'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Erfurt, 16 octobre 1806,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à V. M. que la capitulation est entièrement exécutée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "Je dois les plus grands éloges à la cavalerie de V. M.; elle a attaqué seule hier sans infanterie un corps à peu près de 10,000 hommes d'infanterie et de 3 régiments de cavalerie, l'a chassé de sa position, lui a enlevé ses canons et l'a forcé de s'enfermer dans la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "La cavalerie seule avec un corps de 3,000 hommes est parvenue à se sauver."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "Ainsi, sans infanterie, un corps de 6,000 à 7,000 hommes commandés par de vieux généraux a été obligé de se rendre dans une place à l'abri d'un coup de main et ayant une bonne citadelle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Quoique je ne connaisse pas précisément le nombre des prisonniers, je puis affirmer à V. M. qu'il y en a au moins 6,000, et 5,000 blessés."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A was Murat's cavalry, with the infantry of Ney's corps arriving only in the evening. In his letter from before Erfurt Murat wrote that all the cavalry had already reached the town when he was ordered to leave half of it at Weimar, that he was sending Sahuc's division on to Buttelstädt, and that a cuirassier division with the hussar brigade surrounded the town, with Milhaud's brigade before it. Höpfner says the Prussians had to do only with enemy cavalry. No passage read gives a headcount for side A.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's units from Murat's letter and Höpfner (OCR passages); the hour of Ney's arrival, which Höpfner gives and Murat's letter of the next night gives differently in the OCR, is not restated, nor are the divisions' numbers. Bodart gives no French strength. English renderings (ours): Murat, 'the grand duke of Berg to the Emperor. Before Erfurt'; 'all the cavalry had already reached Erfurt when I received the order to leave half of it at Weimar'; 'I give the order to the division Sahuc to move on Buttelstädt'; 'the ... cuirassier division with the hussar brigade surrounds the town'; 'Milhaud brigade, before Erfurt' (OCR); Höpfner, 'one had had to do only with enemy cavalry, for the infantry of Ney's corps arrived before Erfurt only at ... in the evening' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "LE GKAND-DUC DE BERG À L'EMPEREUR. Devant Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "Toute la cavalerie était déjà rendue à Erfurt lorsque j'ai reçu l'ordre d'en laisser lamoitiéàWeimar."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "Je donne Tordre à la division Sahuc de se porter sur Buttelstâdt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "la 2* division de cuirassiers avec la brigade de hussards cerne la ville."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "Brigade Milhaud, devant Erfurt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "Man hatte nur mit feindlicher Kavallerie zu thun gehabt, denn die Infanterie des Neyſchen Korps traf erſt um 10 Uhr Abends vor Erfurt ein;"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Grand Duke Murat as side A's commander and Lieutenant-General the Prince of Orange as side B's.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders. Murat's letters and Höpfner agree that Murat commanded before Erfurt; on side B Höpfner has the Prince of Orange give the orders and dictate the capitulation, with Field Marshal Möllendorf present and Major Prüschenk the commandant (claim side-b-command).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die Franzosen unter Großherzog Murat zwingen"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "unter Gen.-Lt. Pz. v. Oranien zur Übergabe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Murat found the rear guard of a corps of cavalry and infantry in position on the heights behind Erfurt and had it charged; the enemy cavalry fled and the town gave refuge to the infantry and the cavalry. As the infantry did not come, he had the place summoned, threatening to burn it, through Colonel Préval. The major general wrote to Murat that His Majesty would not let the men in Erfurt march out without being prisoners of war, and set out the only capitulation His Majesty could grant (claim capitulation). Murat then reported that, in accordance with the capitulation, the dragoons had taken possession of the gates of Erfurt and handed them at once to the infantry of Ney's corps.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's decisions from Murat's and the major general's letters (OCR passages), interested accounts. English renderings (ours): Murat, 'I found the rear guard of a corps in position on the heights behind Erfurt, made up of cavalry and infantry. I had it charged'; 'the enemy cavalry fled and the nearness of the town gave refuge to the infantry and the cavalry'; 'seeing that the infantry did not arrive, I had the place summoned and threatened to have it burned if it did not surrender. Colonel Préval was charged with this mission'; the major general, 'the major general to the grand duke of Berg. Weimar'; 'His Majesty charges me to tell you, my Prince, that he does not consent to let the ... men who are in Erfurt march out without being prisoners of war; here is the only capitulation His Majesty can grant'; Murat, 'the grand duke of Berg to the Emperor. Under the walls of Erfurt'; 'in accordance with the capitulation that I had the honour to send Your Majesty, the dragoons have taken possession of the gates of the town of Erfurt and at once handed them over to the infantry of Marshal Ney's corps' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "j'ai trouvé l'arrière- garde d'un corps en position sur les hauteurs en arrière d'Erfurt composé de cavalerie et d'infanterie. Je l'ai fait charger."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "La cavalerie ennemie a fui et la proximité de la ville a donné un asile à l'infanterie et à la cavalerie"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "Voyant que l'infanterie n'ar- rivait pas, j'ai fait sommer la place et j'ai menacé de la faire brûler si elle ne se rendait pas. M. le colonel Préval a été chargé de cette mission."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG. Weiraar,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "S. M. me charge de vous dire, mon Prince, qu'elle ne consent pas à laisser sortir les 6,000 hommes qui sont dans Erfurt sans être prisonniers de guerre ; voici la seule capitu- lation que S. M. peut accorder :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 38 (OCR page boundaries; not checked against print)",
+          "quote": "le grand-duc de berg a l'empereur. Sous les murs d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 38 (OCR page boundaries; not checked against print)",
+          "quote": "Conformément à la capitulation que j'ai eu l'honneur d'adresser à V. M., les dragons ont pris possession des portes de la ville d'Erfurt et tout de suite remis à l'infanterie du corps de M. le maréchal Ney."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the Prince of Orange had arrived in Erfurt, and after him Field Marshal Möllendorf, who had the prince assemble the generals and staff officers on the Petersberg; towards noon Möllendorf gave the definite order for the baggage to leave at once for Langensalza and the cavalry and the infantry to follow at set hours. General Larisch at once left his position on the Galgenberg with the infantry and fell back in disorder to the town. Having received the King's order to march to Sömmerda, Larisch resolved to carry it out at once, but the prince had him halt and, on the Petersberg, repeated the order, since getting through was no longer possible; when Larisch appealed to the King's order, the prince gave the strict order that he stay in Erfurt with the troops and have the walls manned. The commandant, Major Prüschenk, at first meant to defend himself seriously but soon changed his mind; Möllendorf attended only the start of the negotiations. The prince dictated the points of the capitulation to Major Lossau of the general staff. Höpfner judges that not defending the town was in order, but that it would then have been a duty to take the troops out at once to continue the retreat under the Duke of Weimar's protection, and that the surrender of the Petersberg was irresponsible: against a regular attack it could have held out 19 days.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's decisions in side B's history, with its judgments, which are evaluations, not measured effects. Préval's letter has the prince and Möllendorf ask to march out with arms, baggage and battalion guns rather than become prisoners of war (claim side-b-objectives). English renderings (ours): 'meanwhile the Prince of Orange' (OCR); 'had arrived in Erfurt; after him Field Marshal Möllendorf, who charged the prince to assemble the generals and staff officers on the Petersberg for the parole' (OCR); 'towards noon this had been carried out, and the field marshal gave the definite order that the baggage should leave at once for Langensalza, the cavalry at ... o'clock, the infantry at ... o'clock' (OCR); 'General Larisch at once left his position on the Galgenberg with the infantry and fell back in disorder to the town' (OCR); 'General Larisch, to whom the King's order to march to Sömmerda had come directly in the town, resolved to carry it out at once' (OCR); 'he received through an adjutant of the Prince of Orange the order to halt and to come in person to the Petersberg' (OCR); 'up on the Petersberg the Prince of Orange repeated the order already given to halt, since getting through was no longer possible' (OCR); 'the general appealed to the King's order; the prince, however, gave the strict order that he should stay in Erfurt with the troops and have the walls manned by ... regiments' (OCR); 'the commandant, Major Prüschenk, wanted at first to defend himself seriously, but soon changed his mind' (OCR); 'Field Marshal Möllendorf attended only the beginning of the negotiations' (OCR); 'the Prince of Orange dictated the points of the capitulation to Major Lossau of the general staff'; 'that the town of Erfurt was not defended was in order, but then it would have been a duty to take the troops out at once, to let them continue the retreat under the protection of the Duke of Weimar'; 'the surrender of the Petersberg, however, was irresponsible'; 'against a regular attack the Petersberg could have held out 19 days; but the enemy was not prepared for that'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Während deſſen war der Prinz von Oranien,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "in Erfurt eingetroffen; nach ihm der Feld⸗Marſchall Möl⸗ lendorf, der dem Prinzen auftrug, die Generale und Stabsofft⸗ ziere auf dem Petersberge zur Parole zu verſammeln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Gegen Mittag war dies in Ausführung gebracht, und der Feldmarſchall gab den beſtimmten Befehl: daß das Gepäck ſogleich nach Lan⸗ genſalza, die Kavallerie um 4 Uhr, die Infanterie um 5 Uhr dahin abgehen ſolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Lariſch verließ for gleich mit der Infanterie ſeine Aufſtellung auf dem Galgenberge und zog ſich in Unordnung nach der Stadt zurück,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Lariſch, welchem der königliche Befehl, nach Sömmerda zu marſchiren, in der Stadt unmitteldar zugegangen war, beſchloß ihn ſogleich auszuführen;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "erhielt er durch einen Adjutanten des Prinzen von Oranien den Befehl, Halt zu machen und für ſeine Perſon nach dem Petersberg zu kommen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "oben auf dem Pe⸗ tersberg wiederholte der Prinz von Oranien den bereits ertheilten Befehl zum Halten, indem ein Durchkommen nicht mehr möglich ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "Der General berief ſich auf die Ordre des Königs; der Prinz gab indeſſen den gemeſſenen Befehl, daß er mit den Trup⸗ pen in Erfurt bleiben und die Wälle durch 2 Regimenter beſetzen laſſen ſolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "Der Kommandant, der Major Prüſchenk, wollte ſich anfänglich ernſthaft vertheidigen, wurde aber bald anderer Meinung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "Der Feldmarſchall Möllendorf wohnte nur dem Beginn der Unter⸗ handlungen bei,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Der Prinz von Oranien diktirte dem Major Lossau vom Generalstabe die Kapitulationspunkte in die Feder,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Daß man die Stadt Erfurt nicht vertheidigte, war in der Ordnung, aber dann wäre es Pflicht gewesen, die Truppen sofort heraus zu ziehen, um sie unter dem Schutz des Herzogs von Weimar den Rückzug fortsetzen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Die Uebergabe des Petersberges war jedoch unverantwortlich."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Gegen einen regelmäßigen Angriff konnte sich der Petersberg 19 Tage halten; doch dazu war der Feind nicht vorbereitet."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Erfurt on 15 October: the Prussian troops marched out with the honours of war, laid down their arms on the glacis and became prisoners of war; the officers, among them a field marshal and six generals, were released on their word not to serve against France until exchanged. Höpfner says the capitulation was concluded in the night to the 16th; men from the Bayreuth country were sent home and the rest treated as prisoners of war. The terms the major general sent Murat as the only capitulation His Majesty could grant were that the troops march out with the honours of war, file through the middle of the French army and lay down their arms, the soldiers keeping their booty and the officers their baggage; all were to be prisoners of war, the soldiers and even the generals to be sent to France, though the Emperor left Murat latitude to let the officers go home on their undertaking not to serve before their exchange. Murat reported on the 16th that the capitulation had been entirely executed.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the agreeing accounts; no source read gives a different result. The capitulation's own text was not found in the passages read. Bodart dates the entry the 15th and Höpfner the conclusion the night to the 16th. English renderings (ours): Bodart, 'the Prussian troops were allowed to march out with the honours of war, but had to lay down their arms on the glacis and give themselves up as prisoners of war'; 'the officers (among them 1 field marshal, 6 generals) were granted free departure against the obligation on their word of honour not to serve against France before their exchange'; Höpfner, 'and in the night to the 16th the capitulation was indeed concluded'; 'all the men from the Bayreuth country were sent home, the rest regarded as prisoners of war' (OCR); the major general, 'here is the only capitulation His Majesty can grant: the troops will march out with the honours of war, file through the middle of the French army, lay down their arms. The soldiers will keep their booty, the officers their baggage; they will all be prisoners of war; the soldiers will go to France; even the generals will have to be sent there; however the Emperor leaves you the latitude to' (OCR); 'allow the officers to go home with the undertaking not to serve before their exchange' (OCR); Murat, 'Erfurt, 16 October 1806'; 'I have the honour to report to Your Majesty that the capitulation is entirely executed'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "15./10. KAPITULATION von Erfurt"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die preußischen Truppen durften mit Kriegsehren ausziehen, mußten jedoch auf dem Glacis die Waffen niederlegen und sich kriegsgefangen geben."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Den Offizieren (worunter 1 GFM., 6 Gen.) wurde gegen die ehrenwörtliche Verpflichtung, vor ihrer Auswechslung nicht gegen Frankreich zu dienen, freier Abzug bewilligt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "und in der Nacht zum 16. wurde in der That die Kapitulation abgeschlossen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "Alle Mannſchaften aus dem Bayreuthiſchen wurden in ihre Heimath entlaſſen, die Uebri⸗ gen als Kriegsgefangene betrachtet."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "voici la seule capitu- lation que S. M. peut accorder : « Les troupes sortiront avec les honneurs de la guerre, « défileront au milieu de l'armée française, poseront les « armes. Les soldats conserveront leur butin, les officiers « leurs bagages ; ils seront tous prisonniers de guerre ; les « soldats iront en France ; il faudra même y envoyer les gé- « néraux ; cependant PEmpereur vous laisse la latitude de"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 37 (OCR page boundaries; not checked against print)",
+          "quote": "« permettre aux officiers de se rendre chez eux avec l'enga- « gement de ne pas servir avant leur échange. »"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Erfurt, 16 octobre 1806,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à V. M. que la capitulation est entièrement exécutée."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives side A's loss in the charges of the 15th before Erfurt, and Bodart prints none. Murat's letter of the 16th says two regiments lost their colonels 'dans cette brillante journée', which by its context refers to the battle of the 14th. Unknown, not zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B's loss: Bodart has the 10,000 Prussians surrender, lay down their arms on the glacis and become prisoners of war, their officers released on parole, and the French find 65 guns in Erfurt. Höpfner says that by the capitulation 10,000 men and very large stores of ammunition fell into the enemy's hands. Murat counted at least 6,000 prisoners and 5,000 wounded, 60 guns in battery taken, 20 to 25 battalion guns and as many more the enemy was forced to abandon in the field, and sent the Emperor 9 guidons and 7 flags; he also reported that several battalions found by the cavalry on their way to quarters in the villages had laid down their arms, and at least 2,000 prisoners taken on the day before. Höpfner records that in the cavalry's retreat a gun of the battery Neander was thrown into the water in the throng on the narrow Gera bridge, and that the gun and the ammunition wagons were lost.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Bodart's from the frame transcription), not combined; Murat's figures are not separated between the charges of the 15th and the capitulation, and his 2,000 of 'la journée d'hier' may overlap the rest. Bodart's 65 guns match the Petersberg's armament in Höpfner (claim means-and-supply), which may be their source. English renderings (ours): Bodart, as in claims bodart-strength and capitulation, and 'the French found 65 guns in Erfurt'; Höpfner, as in claim side-b-strength for the 10,000; Murat, 'at least 6,000, and 5,000 wounded. 60 guns in battery have been taken, 20 to 25 battalion guns and as many that we forced the enemy to abandon in the field'; 'several battalions found by Your Majesty's cavalry, which were going to take quarters in the villages, have laid down their arms; there were in the'; 'course of yesterday at least 2,000 prisoners'; 'I have the honour to send Your Majesty 9 guidons and 7 flags'; Höpfner, 'of the ...-pounder battery Neander, which had marched to Erfurt with General Larisch, a gun was thrown into the water in the retreat of the cavalry in the throng over the narrow Gera bridge, and the drivers of the ammunition wagons were wounded by their own cavalrymen and the traces cut, so that gun and wagons were lost' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die Franzosen unter Großherzog Murat zwingen 10.000 Preußen unter Gen.-Lt. Pz. v. Oranien zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die preußischen Truppen durften mit Kriegsehren ausziehen, mußten jedoch auf dem Glacis die Waffen niederlegen und sich kriegsgefangen geben."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Den Offizieren (worunter 1 GFM., 6 Gen.) wurde gegen die ehrenwörtliche Verpflichtung, vor ihrer Auswechslung nicht gegen Frankreich zu dienen, freier Abzug bewilligt."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Die Franzosen fanden in Erfurt 65 Geschütze vor."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "und in der Nacht zum 16. wurde in der That die Kapitulation abgeschlossen, durch welche 10,000 Mann und sehr große Munitionsvorräthe dem Feinde in die Hände fielen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "qu'il y en a au moins 6,000, et 5,000 blessés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "60 pièces de canon en batterie ont été prises, de 20 à 25 canons de bataillon et autant que nous avons forcé l'ennemi d'abandonner dans la campagne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Plusieurs bataillons qui ont été trouvés par la cavalerie de V. M., qui allaient cantonner dans les villages, ont mis bas les armes; il y a eu dans la"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "journée d'hier au moins 2,000 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "J'ai l'honneur d'adresser à V. M. 9 guidons et 7 drapeaux"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Von der 12pfündigen Batterie Neander, welche mit dem General Lariſch nach Erfurt marſchirt war, wurde beim Rückzuge der Kavallerie in dem Gedränge über die ſchmale Gerabrücke eine Kanone ins Waſſer geworfen, und die Knechte der Munitionswagen von den eigenen Kavalleriſten verwundet, die Zugſtränge zerhauen, ſo daß Kanone und Wagen verloren gingen."
+        }
+      ]
+    },
+    {
+      "id": "erfurt-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Erfurt in the Prussian province of Saxony, 20 km west of Weimar. Höpfner: of Erfurt only the Petersberg and the Cyriaksburg had been put in a state of defence, the Cyriaksburg being of little strength; the town's drawbridges and gates were not in order and its ditches partly dry and fordable. General Larisch took up a badly chosen position with the remnants of Rüchel's corps on the Galgenberg, northeast of the town, with its defiles and the Gera behind them; the Prussian cavalry fell back in disorder past the town, and in its retreat a gun was lost in the throng on the narrow Gera bridge. Murat called Erfurt a place safe from a coup de main with a good citadel; Préval, writing from the citadel, described it as well armed and palisaded.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Ground from Bodart, Höpfner and side A's letters; no plan of Erfurt was inspected. English renderings (ours): Bodart, 'town in Prussia, province of Saxony, 20 km west of Weimar'; Höpfner, 'of Erfurt only the Petersberg and the Cyriaksburg had been put in a state of defence ... the Cyriaksburg nevertheless of little strength because of its many wooden buildings and its otherwise poor state of fortification'; 'the drawbridges and gates were not in order, the ditches partly without water and fordable'; 'on the ... in the morning General Larisch arrived' (OCR); 'with remnants of Rüchel's corps, and placed himself with them in a badly chosen position on the Galgenberg, northeast of the town, with its defiles and the Gera behind' (OCR); 'the Prussian cavalry fell back in disorder past Erfurt on the right and was gathered behind the town' (OCR); 'in the retreat of the cavalry a gun was thrown into the water in the throng over the narrow Gera bridge' (OCR); Murat, 'in a place safe from a coup de main and with a good citadel'; Préval, 'Colonel Préval to the grand duke of Berg. From the citadel of Erfurt'; 'the citadel well armed and palisaded' (OCR).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "(Stadt in Preußen, Provinz Sachsen, 20 km westl. von Weimar)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 15 (transcribed from the page image)",
+          "quote": "Von Erfurt waren nur der Petersberg und die Cyriaksburg in Vertheidigungsstand gesetzt und mit Munition und Proviant versehen worden, doch die Cyriaksburg dennoch wegen der vielen hölzernen Gebäude und ihres sonstigen schlechten Befestigungszustandes wegen, wenig haltbar."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "doch waren die Zugbrücken und Thore nicht im Stande, die Gräben zum Theil ohne Wasser und zu durchwaten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (OCR page boundaries; not checked against print)",
+          "quote": "Am 15. Vormittags langte der General Lariſch,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (OCR page boundaries; not checked against print)",
+          "quote": "mit Trümmern des Rüchelſchen Korps an, und ſtellte ſich mit denſelben in einer übel gewählten Stellung auf dem Galgenberge, nordöſtlich von der Stadt, die Defileen derſelben und der Gera im Rücken, auf."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Die preußiſche Kavallerie zog ſich in Unordnung rechts bei Erfurt vorbei und wurde hinter der Stadt geſammelt,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "beim Rückzuge der Kavallerie in dem Gedränge über die ſchmale Gerabrücke eine Kanone ins Waſſer geworfen,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "dans une place à l'abri d'un coup de main et ayant une bonne citadelle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "LE COLONEL PRÉVAL AU GRAND-DUC DE BEBQ. Do la citadelle d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "la citadelle bien armée et palissadée."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Höpfner: the Petersberg was armed with 65 guns and stocked with 4000 Centner of powder, very large stores of flour, but less of other provisions, much time having been lost in correspondence over requisitioning; by his footnote part of the ammunition of Hohenlohe's corps and of the field depot lay on the Petersberg. In the negotiations it was then declared on the Prussian side that any resistance was useless and that the huge stores of ammunition made even the Petersberg incapable of defence, there being no rooms to store them safely; Höpfner answers that the great stores of powder were no justification, as there were enough unoccupied safe vaults and the buildings nearest the ramparts would have given the timber for new bombproof buildings in two days. The major general wrote to Murat that His Majesty expected him to take the measures needed to keep the magazines from being disorganised, and Murat, leaving the town, reported great magazines and many guns.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Means and supply as Höpfner gives them, the figures read from the page images, with side A's letters (OCR). No ration or ammunition return was inspected. English renderings (ours): Höpfner, 'the Petersberg was equipped with 65 guns, the considerable store of 4000 Centner of powder, very considerable stores of flour, but with fewer of food of other kinds, as much time had been lost writing back and forth about the requisitioning'; 'part of the ammunition of Hohenlohe's corps and of the field depot lay on the Petersberg'; 'now it was declared that any resistance was useless, that a storm could not be repelled' (OCR); 'and that the huge stores of ammunition on the Petersberg made even it incapable of defence, since there were no rooms for safe storage' (OCR); 'the great stores of powder gave no justification; there were still enough unoccupied, safe vaults, and the buildings standing nearest the ramparts would have given the timber to provide new bombproof buildings in two days'; the major general, 'the major general to the grand duke of Berg. Weimar, ... October ..., ... in the morning' (OCR); 'His Majesty expects you to tell him this morning of the taking of Erfurt and to take the measures needed so that the magazines are not disorganised' (OCR); Murat, 'the grand duke of Berg to the Emperor. Under the walls of Erfurt'; 'I am leaving the town'; 'great magazines, many guns' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 15 (transcribed from the page image)",
+          "quote": "Der Petersberg war mit 65 Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "schützen, dem bedeutenden Vorrath von 4000 Centner Pulver¹), sehr bedeutenden Mehlvorräthen, dagegen mit geringern an Lebensmitteln anderer Art ausgerüstet, indem durch Hin- und Herschreiben, betreff der Beitreibung, viel Zeit verloren gegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "1) Es lag auf dem Petersberg ein Theil der Munition des Hohenloheschen Korps und des Feld-Depots."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "Nun erklärte man, daß jeder Widerſtand unnütz ſei, ein Sturm nicht abgeſchlagen werden könne,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "und daß die ungeheuern Munitionsvorräthe auf dem Petersberge auch dieſen vertheidigungs⸗ unfähig machten, da man keine Räume zum ſicheren Unterbrin⸗ gen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Die großen Pulvervorräthe gaben keine Rechtfertigung; es waren noch unbelegte, sichere Gewölbe genug vorhanden, und die den Wällen zunächst stehenden Gebäude hätten das Holz hergegeben, um in zwei Tagen neue bombenfeste Gebäude zu beschaffen;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 34 (OCR page boundaries; not checked against print)",
+          "quote": "LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG. Woimar, 16 octobre 1606, 2 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 35 (OCR page boundaries; not checked against print)",
+          "quote": "S. M. s'attend que vous lui apprendrez ce matin la prisa d'Erfurt et que vous prendrez les mesures nécessaires pour que les magasins ne soient pas désorganisés :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 38 (OCR page boundaries; not checked against print)",
+          "quote": "le grand-duc de berg a l'empereur. Sous les murs d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 39 (OCR page boundaries; not checked against print)",
+          "quote": "Je sors de la ville :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 39 (OCR page boundaries; not checked against print)",
+          "quote": "de grands magasins, beaucoup de canons,"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Murat's knowledge of the garrison grew as the place surrendered. In his letter from before Erfurt he wrote that the town was occupied by ... infantry and ... cavalry regiments that would probably try to escape in the night, and that the place had ... guns in battery, ... infantry and a very good citadel (figures read in the OCR). The major general then wrote to him of the ... men in Erfurt, and Murat, leaving the town, of about ... prisoners (OCR); in his letter of 16 October reporting the capitulation executed he gave at least 6,000 prisoners and 5,000 wounded without knowing their number precisely. Préval reported from the citadel that the presence of the Prince of Orange, Marshal Möllendorf and other general officers made the capitulation more difficult.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's information as its letters give it; the earlier figures were seen only in the OCR and are not restated. English renderings (ours): Murat, as in claim side-a-strength for the heading (OCR); 'occupied by ... infantry regiments and ... cavalry regiments which will probably try to escape in the night'; 'the place has ... guns in battery, ... infantry and a very good citadel' (OCR); the major general, as in claim side-a-command (OCR); Murat, as in claim side-a-command for the heading, 'I am leaving the town'; 'there are about ... prisoners' (OCR); 'Erfurt, 16 October 1806'; 'I have the honour to report to Your Majesty that the capitulation is entirely executed'; 'although I do not know precisely the number of prisoners, I can assure Your Majesty that there are at least 6,000, and 5,000 wounded'; Préval, as in claim erfurt-ground for the heading, 'I have to report to Your Imperial Highness that the stay here of the Prince of Orange-Nassau, lieutenant general in the service of His Prussian Majesty, of Marshal Möllendorf and of ... general officers makes the capitulation more difficult' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "LE GKAND-DUC DE BERG À L'EMPEREUR. Devant Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "occupée par 4 régiments d'in- fanterie et 3 régiments de cavalerie qui vraisemblablement chercheront à s'évader la nuit."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "la place a 40 pièces de canon en bat- terie, 2,000 hommes d'infanterie et une très bonne citadelle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG. Weiraar,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "S. M. me charge de vous dire, mon Prince, qu'elle ne consent pas à laisser sortir les 6,000 hommes qui sont dans Erfurt sans être prisonniers de guerre ; voici la seule capitu- lation que S. M. peut accorder :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 38 (OCR page boundaries; not checked against print)",
+          "quote": "le grand-duc de berg a l'empereur. Sous les murs d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 39 (OCR page boundaries; not checked against print)",
+          "quote": "Je sors de la ville :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 39 (OCR page boundaries; not checked against print)",
+          "quote": "Il y a environ 6,000 prisonniers,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Erfurt, 16 octobre 1806,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de rendre compte à V. M. que la capitulation est entièrement exécutée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p47-figures-v1",
+          "section": "p47",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 47 (transcribed from the page image)",
+          "quote": "Quoique je ne connaisse pas précisément le nombre des prisonniers, je puis affirmer à V. M. qu'il y en a au moins 6,000, et 5,000 blessés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "LE COLONEL PRÉVAL AU GRAND-DUC DE BEBQ. Do la citadelle d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "J'ai à rendre compte à V. A. I. que le séjour ici de M. le prince d'Orange -Nassau, lieutenant général au service de S. M. prussienne, de M. le maréchal Mtillendorf et de 3 officiers généraux, rend la capitulation plus difficile."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: around noon those in Erfurt learned of the approach of the Duke of Weimar, and soon afterward the enemy's approach was reported. On the Petersberg the Prince of Orange told Larisch that getting through was no longer possible. In the negotiations it was then declared on the Prussian side that any resistance was useless and that a storm could not be repelled. Höpfner adds that the Petersberg could have held out 19 days against a regular attack, for which the enemy was not prepared.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's information and beliefs as Höpfner gives them (OCR passages, with his judgment from the page image). English renderings (ours): 'around noon one learned of the approach of the Duke of Weimar, and soon afterward the approach of the enemy was also reported' (OCR); 'up on the Petersberg the Prince of Orange repeated the order already given to halt, since getting through was no longer possible' (OCR); 'now it was declared that any resistance was useless, that a storm could not be repelled' (OCR); 'against a regular attack the Petersberg could have held out 19 days; but the enemy was not prepared for that'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Um Mittag erfuhr man den Anmarſch des Herzogs von Weimar, und bald darauf wurde auch die An⸗ näherung des Feindes gemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "oben auf dem Pe⸗ tersberg wiederholte der Prinz von Oranien den bereits ertheilten Befehl zum Halten, indem ein Durchkommen nicht mehr möglich ſei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "Nun erklärte man, daß jeder Widerſtand unnütz ſei, ein Sturm nicht abgeſchlagen werden könne,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 19 (transcribed from the page image)",
+          "quote": "Gegen einen regelmäßigen Angriff konnte sich der Petersberg 19 Tage halten; doch dazu war der Feind nicht vorbereitet."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's aims: the major general wrote to Murat that the Emperor's intention was that he have the enemy pursued with the sword at its back; His Majesty expected to hear from him that morning of the taking of Erfurt, with its magazines kept from being disorganised, and once Erfurt was taken Murat was to leave a good garrison of the troops of Ney's corps that had suffered most in the battle, Ney's corps marching to support the pursuit. In a further letter the major general refused the men in Erfurt any terms but captivity, adding that the campaign was only beginning and His Majesty meant to profit from his victory; if they would not surrender, Ney was to blockade the town with a large detachment of cavalry while Murat followed the enemy with the rest. The Emperor wrote that he had seen the capitulation with pleasure and would have been very sorry had the prisoners not been sent to France.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Aims set from above, in the major general's and the Emperor's letters after the summons (OCR passages). English renderings (ours): the major general, 'the major general to the grand duke of Berg. Weimar, ... October ..., ... in the morning. The Emperor's intention, my Prince, is that you have the enemy pursued with the sword at its back, following the direction of the information you will have' (OCR); 'His Majesty expects you to tell him this morning of the taking of Erfurt and to take the measures needed so that the magazines are not disorganised: once you have taken Erfurt, you will leave a good garrison made up of the troops of Marshal Ney's corps that suffered most in the battle, and that Marshal, with his army corps, will march to support you in the movement you make to pursue the enemy' (OCR); as in claim side-a-command for the further letter and the refusal (OCR); 'we are only at the beginning of the campaign, and His Majesty means to profit from his victory. If the troops in Erfurt will not surrender, you will order Marshal Ney to blockade the town; you will leave him a large detachment of cavalry and follow the enemy with the rest' (OCR); the Emperor, 'the Emperor to the grand duke of Berg'; 'I have seen the capitulation of Erfurt with pleasure. I would have been very sorry had the prisoners not been sent to France' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 34 (OCR page boundaries; not checked against print)",
+          "quote": "LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG. Woimar, 16 octobre 1606, 2 heures du matin. L'intention de l'Empereur, mon Prince, est que vous fas- siez poursuivre l'ennemi l'épée dans les reins, suivant la direction des renseignements que vous aurez."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 35 (OCR page boundaries; not checked against print)",
+          "quote": "S. M. s'attend que vous lui apprendrez ce matin la prisa d'Erfurt et que vous prendrez les mesures nécessaires pour que les magasins ne soient pas désorganisés : une fois que vous aurez pris Erfurt, vous laisserez une bonne garnison composée des troupes du corps du maréchal Ney qui ont le plus souffert dans la bataille, et ce Maréchal, avec son corps d'armée, marchera pour vous soutenir dans le mouvement que vous ferez pour aller à la poursuite de l'ennemi ;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG. Weiraar,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 36 (OCR page boundaries; not checked against print)",
+          "quote": "S. M. me charge de vous dire, mon Prince, qu'elle ne consent pas à laisser sortir les 6,000 hommes qui sont dans Erfurt sans être prisonniers de guerre ; voici la seule capitu- lation que S. M. peut accorder :"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 37 (OCR page boundaries; not checked against print)",
+          "quote": "Nous n'en sommes qu'au début de la campagne, et S. M. veut profiter de sa victoire. Si les troupes qui sont dans Erfurt ne veulent pas se rendre, vous ordonnerez au maré- chal Ney de faire le blocus de la ville ; vous lui laisserez un gros détachement de cavalerie et vous suivrez l'ennemi avec le reste."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 40 (OCR page boundaries; not checked against print)",
+          "quote": "l'empereur AU GRAND-DUC DE BERG."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-16-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 40 (OCR page boundaries; not checked against print)",
+          "quote": "J'ai vu avec plaisir la capitulation d'Erfurt. J'aurais été bien fâché que les prisonniers n'eussent pas été envoyés en France."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's aims: towards noon Möllendorf gave the definite order for the baggage to leave at once for Langensalza and the cavalry and the infantry to follow at set hours; soon after noon a courier brought the order for the retreating troops to go to Sömmerda, which reached General Larisch in the town as the King's order. The Prince of Orange instead had Larisch stay in Erfurt and man the walls. In the negotiations, by Préval's report, the prince and Möllendorf asked to march out with arms, baggage and battalion guns rather than be made prisoners of war by a capitulation that would stain their reputation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's aims from Höpfner and Préval's report (OCR passages); the reasons for the prince's order to stay are given only as his statement that getting through was no longer possible. English renderings (ours): Höpfner, as in claim side-b-command for Möllendorf's order (OCR); 'soon after noon the Feldjäger Horster came to Erfurt with the order to the retreating troops to go to Sömmerda' (OCR); 'General Larisch, to whom the King's order to march to Sömmerda had come directly in the town' (OCR); as in claim side-b-command for the order to stay (OCR); Préval, as in claim erfurt-ground for the heading (OCR); 'the Prince of Orange and His Excellency Marshal Möllendorf expect from Your Highness's generosity not to require that they stain their reputation by a capitulation that would make them, and their garrison, prisoners of war; they ask to march out with arms, baggage and battalion guns' (OCR).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Gegen Mittag war dies in Ausführung gebracht, und der Feldmarſchall gab den beſtimmten Befehl: daß das Gepäck ſogleich nach Lan⸗ genſalza, die Kavallerie um 4 Uhr, die Infanterie um 5 Uhr dahin abgehen ſolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Bald nach Mittag kam der Feldjäger Horſter nach Erfurt mit dem Befehl an die retirirenden Truppen, nach Sömmerda zu gehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "Der General Lariſch, welchem der königliche Befehl, nach Sömmerda zu marſchiren, in der Stadt unmitteldar zugegangen war,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 18 (OCR page boundaries; not checked against print)",
+          "quote": "Der General berief ſich auf die Ordre des Königs; der Prinz gab indeſſen den gemeſſenen Befehl, daß er mit den Trup⸗ pen in Erfurt bleiben und die Wälle durch 2 Regimenter beſetzen laſſen ſolle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "LE COLONEL PRÉVAL AU GRAND-DUC DE BEBQ. Do la citadelle d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "M. le prince d'Orange et S. Exe. le maré- chal de Mollendorf attendent de la générosité de V. A. de ne point exiger qu'ils entachent leur réputation par une capitulation qui les rendrait, ainsi que leur garnison, prisonniers de guerre ; ils deman- dent à sortir avec armes, bagages et canons de bataillon,"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Murat had the Prussian rear guard on the heights behind Erfurt charged, the enemy cavalry fled and the town gave refuge to the infantry and the cavalry; the French, held off by some cannon shots, brought up horse artillery and fired on the Johannes gate; Captain Baillot, with a dragoon division in pursuit, fired on a Prussian column making for the town, and the howitzers of two dragoon divisions bombarded the town until night against the fire of the ramparts; the place was then summoned. Side B's cavalry advanced against the enemy to cover the infantry's retreat to the town, and its resistance could only be short.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Both sides' accounts describe the French attacking and summoning and side B falling back into the town and capitulating; the French artillery fire is from General Rott's report on the artillery of the reserves, printed in a footnote. The phase is left unresolved: the passages read show Murat's pursuit and the summons, but no order from above to attack Erfurt itself; the major general's letters written after the summons expect the taking of Erfurt and set the terms (claim side-a-objectives). English renderings (ours): Murat, as in claim side-a-command for the charge, the flight and the summons (OCR); Höpfner, 'some cannon shots stopped the enemy's further pursuit; he brought up horse artillery and fired on the Johannes gate of Erfurt' (OCR); Rott, 'General Rott, commanding the artillery of the reserve corps, to General Songis' (OCR); 'on ... October, the ... dragoon division pursuing the enemy retreating on Erfurt, Captain Baillot received the order to fire on a Prussian column heading for the town; which was carried out with enough success to hasten that column's retreat and make it abandon part of its baggage' (OCR); 'some hours later, the howitzer of this division and that of the ... dragoon division, commanded by Captain Churlaud, placed themselves in battery within good range of the town, threw a fairly considerable quantity of shells into it and, although entirely uncovered, kept up their fire until night against that of the ramparts' (OCR); Höpfner, 'while the cavalry mounted and advanced against the enemy to cover the retreat of the infantry. The enemy soon pressed forward with such superior cavalry that, with such exhausted strength, the resistance could only be short' (OCR).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "j'ai trouvé l'arrière- garde d'un corps en position sur les hauteurs en arrière d'Erfurt composé de cavalerie et d'infanterie. Je l'ai fait charger."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 19 (OCR page boundaries; not checked against print)",
+          "quote": "La cavalerie ennemie a fui et la proximité de la ville a donné un asile à l'infanterie et à la cavalerie"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "Einige Kanonenſchuͤſſe hinderten den Feind an der weitern Ver⸗ folgung; er zog reitende Artillerie vor und beſchoß das Johannes—⸗ thor von Erfurt."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "LS GÉNÉRAL. ROTT, COmiANDAVT l'aRTILLBBIB DU CORPS DBS BRSBBVBS, AU OBHBBAL SOMGIS."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "Le 15 octobre, la in division de dragons poursuivant l'ennemi en retraite sur Erfurt, le capitaine Baillot reçut ordre de faire feu sur une colonne prus- sienne qui se dirigeait vers la ville ; ce qui fut exécuté avec assez de succès pour précipiter la retraite de cette colonne et la déterminer à abandonner une partio de ses bagages."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 21 (OCR page boundaries; not checked against print)",
+          "quote": "Quelques heures après, l'obusier do cette division et celui de la s* division de dragons commandé par le capitaine Churlaud so mirent en batterie à bonne portée de la ville, y lancèrent une quantité assez considérable d'obus, et quoique entièrement à découvert, soutinrent jusqu'à la nuit leur feu contre celui des remparts:"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 20 (OCR page boundaries; not checked against print)",
+          "quote": "Voyant que l'infanterie n'ar- rivait pas, j'ai fait sommer la place et j'ai menacé de la faire brûler si elle ne se rendait pas. M. le colonel Préval a été chargé de cette mission."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-selections-v1",
+          "section": "erfurt",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 17 (OCR page boundaries; not checked against print)",
+          "quote": "während die Kavallerie aufſaß und dem Feinde entgegenrüdte, um den Rück⸗ zug der Infanterie zu decken. Der Feind drang bald mit ſo über⸗ legener Kavallerie vor, daß mit fo erfchöpften Kräften der Wider⸗ ſtand nur kurz ſein konnte."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a fortified town: the Petersberg citadel, armed with 65 guns, and the Cyriaksburg had been put in a state of defence, though the Cyriaksburg was of little strength, the town's drawbridges and gates were not in order and its ditches were partly dry and fordable. Murat called Erfurt a place safe from a coup de main with a good citadel, and Préval described the citadel as well armed and palisaded.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the works were permanent fortifications held by side B and put in a state of defence before the action, so the claim is tagged inherited. A coding that counted only the fight on the heights before the town, where no works are named, would give none_named. English renderings (ours): as in claims erfurt-ground and means-and-supply.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 15 (transcribed from the page image)",
+          "quote": "Von Erfurt waren nur der Petersberg und die Cyriaksburg in Vertheidigungsstand gesetzt und mit Munition und Proviant versehen worden, doch die Cyriaksburg dennoch wegen der vielen hölzernen Gebäude und ihres sonstigen schlechten Befestigungszustandes wegen, wenig haltbar."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 15 (transcribed from the page image)",
+          "quote": "Der Petersberg war mit 65 Ge-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "schützen, dem bedeutenden Vorrath von 4000 Centner Pulver¹), sehr bedeutenden Mehlvorräthen, dagegen mit geringern an Lebensmitteln anderer Art ausgerüstet, indem durch Hin- und Herschreiben, betreff der Beitreibung, viel Zeit verloren gegangen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 16 (transcribed from the page image)",
+          "quote": "doch waren die Zugbrücken und Thore nicht im Stande, die Gräben zum Theil ohne Wasser und zu durchwaten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p48-figures-v1",
+          "section": "p48",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 48 (transcribed from the page image)",
+          "quote": "dans une place à l'abri d'un coup de main et ayant une bonne citadelle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "LE COLONEL PRÉVAL AU GRAND-DUC DE BEBQ. Do la citadelle d'Erfurt,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-selections-v1",
+          "section": "erfurt-15-oct",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 22 (OCR page boundaries; not checked against print)",
+          "quote": "la citadelle bien armée et palissadée."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: the text of the capitulation itself, which the passages read do not print; the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests; French returns of the prisoners and of the artillery and stores taken; a plan of Erfurt and its citadels. Figures seen only in the OCR and not restated: the hour of Murat's letter from before Erfurt of the 15th and its figures for the garrison and the guns in battery (Foucart t. II, pp. 19-20), the number of officers whose return on parole Murat granted (p. 20), the major general's figure for the men in Erfurt and Murat's for the prisoners on the 16th (pp. 36, 39), the hours in Murat's letter from the bivouac of the 16th (pp. 21-22), Höpfner's hours for Möllendorf's order, Préval's arrival and Ney's infantry (pp. 17, 18, 20), and the hour in the dateline of Murat's letter of the 16th on p. 47, which the page image leaves uncertain (8 or 3).",
+    "Most consequential gap: side B's strength and its composition at the surrender. Höpfner's 10,000 (and Bodart's) is the number taken, his units are not totalled, and Murat's estimates range from 6,000 to 7,000 surrendered to at least 6,000 prisoners and 5,000 wounded; a Prussian or French return of the prisoners could close it. Side A's strength before the town is unknown.",
+    "Disputes kept as separate claims: the men taken as 10,000 (Höpfner, Bodart), 6,000 to 7,000 surrendered, or at least 6,000 prisoners and 5,000 wounded (Murat); the guns as 65 (Bodart; Höpfner's armament of the Petersberg) or 60 in battery and 20 to 25 battalion guns (Murat); Ney's infantry's arrival in the evening at different hours in Höpfner and Murat (OCR).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 65 guns match Höpfner's armament of the Petersberg); Foucart, t. II (the French side's documents: Murat's, Préval's, the major general's and the Emperor's letters and General Rott's report, interested accounts); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war into those who fell into captivity by capitulation or otherwise, but the passages read on Erfurt do not name their sources)."
+  ]
+}

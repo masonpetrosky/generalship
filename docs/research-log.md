@@ -1332,6 +1332,161 @@ was made.
     rate. At the finished groups' rates they would need about 170 to 200 million.
   - About 6.3 million remain in this session.
 
+## 1806 first pass, batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (2026-10-18)
+
+The first part of batch 2b of `fourth-coalition 1806`, from the capitulation of Erfurt to Prince
+Hohenlohe's at Prenzlau. Batch 2b is split in two so that each commit's verification stays
+bounded; 2b-ii, from Stettin to Wolgast, follows.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B373b | Erfurt (capitulation) | 15 October 1806 | 18 |
+| B374a | Halle | 17 October 1806 | 19 |
+| B374b | Spandau (capitulation) | 25 October 1806 | 18 |
+| B374c | Prenzlau (capitulation) | 28 October 1806 | 18 |
+
+The main session researched, drafted and verified the four without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of batch 2a, in their next volumes
+  ([source additions](source-additions.md)):
+  - Foucart's *Campagne de Prusse (1806): Prenzlow–Lubeck* (1890). For Erfurt it prints Murat's,
+    Colonel Préval's, the major general's and the Emperor's letters and General Rott's report on
+    the artillery of the reserves. For Halle it prints Bernadotte's and Dupont's letters of 18
+    October, with extracts of the 1st corps's journal in Foucart's footnotes. For Spandau it prints
+    Latour-Maubourg's note, Bertrand's two reports, Lannes's letter with the capitulation and the
+    commandant's reply, and the Emperor's letter to Davout. For Prenzlau it prints Milhaud's note,
+    Murat's letter to the Emperor and Grouchy's report.
+  - Höpfner's *Der Krieg von 1806 und 1807*, Theil 1, Bd. 2 (2nd edition, 1855), the Prussian
+    history. For Prenzlau it quotes Massenbach's memoir, follows Rittmeister v. d. Marwitz's report
+    and cites Hohenlohe's.
+
+  70 records were registered: two OCR parents, two selections and 33 page images (18 of Foucart,
+  15 of Höpfner) with their figure transcriptions. The selections also hold the sections for
+  2b-ii. Every figure in a value is read from a page image or from Bodart. Sums are labelled as
+  ours.
+  - Bodart matches these sources in places:
+    - At Erfurt his 65 guns equal Höpfner's armament of the Petersberg.
+    - At Halle his officers, guns and flags equal Höpfner's figures, and his killed and wounded and
+      French loss come close to them (our arithmetic).
+    - At Prenzlau his 10,000 men and 1,800 horses are Höpfner's estimate, and his 45 flags and 64
+      guns are the French reports' figures as Höpfner gives them.
+
+    The passages read do not show what he used.
+- **Drafts.** 73 claims with 692 citations: 70 supported and 3 unknown. The unknowns are side A's
+  losses at Erfurt, Spandau and Prenzlau, which no passage read gives; they are not set to zero.
+  Every draft covers the nine dimensions.
+  - Phases: 33 unresolved, 20 inherited, 10 commander-created and 10 post-outcome.
+  - Posture: side A attacked in all four (A_attacked).
+    - Erfurt and Spandau are tagged unresolved. The passages read show Murat's pursuit and summons
+      at Erfurt and Lannes's investment and summonses at Spandau, but no order from above to attack
+      either place.
+    - Halle is commander-created: Bernadotte attacked by his own decision under a general order.
+    - Prenzlau is commander-created: Murat ordered the attack on the suburb on the field.
+  - Fortification: B_fortified for all four, tagged inherited.
+    - Erfurt: the Petersberg and the Cyriaksburg had been put in a state of defence. A coding that
+      counted only the fight on the heights before the town would give none_named.
+    - Halle: the town's wall, gates and bridges. Counting the French defence of the captured gates
+      would give both_fortified; counting only the fight for the position beyond the town would
+      give none_named.
+    - Spandau: the citadel in its lake, which surrendered before a shot was fired.
+    - Prenzlau: the town's wall, palisades and gates, which checked the pursuit. Counting only the
+      open position where the army capitulated would give none_named.
+- **Disputes kept visible.**
+  - Erfurt:
+    - The men taken: 10,000 (Höpfner, Bodart); 6,000 to 7,000 surrendered, or at least 6,000
+      prisoners and 5,000 wounded (Murat).
+    - The guns: 65 (Bodart; Höpfner's armament of the Petersberg); 60 in battery and 20 to 25
+      battalion guns (Murat).
+    - The hour of Ney's infantry's arrival, which Höpfner and Murat give differently (OCR).
+  - Halle:
+    - Side B's strength: very nearly 11,000 in action (Höpfner); 13,700 (Bodart); nearly 25,000,
+      with 20,000 defending the position (Bernadotte); 20,000 to 25,000 (the journal); about 30,000
+      (Dupont).
+    - The prisoners: about 5,000 (Bernadotte); 4,000 to 5,000 (Dupont); 4,200 (Bodart). Höpfner
+      gives about 5000 killed, wounded, captured and missing, and cites the Duke of Württemberg's
+      total of 3000 and some hundred.
+    - The guns: at least 30 (Bernadotte); about thirty (Dupont); 11 without the regimental guns
+      (Höpfner, Bodart); 8 (the Duke).
+    - Side A's loss: under 800 by the French figure in Höpfner; about 800 (Bodart); 400 to 500 in
+      Dupont's division (Dupont).
+    - The divisions with the cavalry: Dupont and Drouet in Höpfner, Dupont and Rivaud in the French
+      documents.
+  - Spandau:
+    - The garrison: not over 900 (Höpfner); 1,000 (Bodart); 1,200 (Lannes, and the Emperor's
+      prisoners). Bertrand's informants give 800, or 1,400 with the 600 more apparently there (our
+      arithmetic), and he saw no more than 400 on the ramparts.
+    - The guns: 71 in Höpfner's ammunition count; 80 (the Emperor); 50, 60 or 90 (Bertrand's
+      informants); a dozen in battery (Bertrand, OCR).
+    - Whether the capitulation was concluded before the French occupied the walls (Höpfner says
+      not).
+  - Prenzlau:
+    - Side B's strength and prisoners: Höpfner's table of 300 officers, 8831 men and 1616 horses,
+      with some units not counted, and his estimate of not over 10,000 men and 1800 horses; 10,000
+      with 400 officers (Bodart); 16,000 infantry and 6 cavalry regiments (Murat); 18,000 and 36
+      guns (Milhaud's informants); 7-8000 (Massenbach).
+    - Guns and flags: 64 and 45 (Bodart); 60 and 60 (Murat), with 18 guns taken by Grouchy; 8 guns
+      in the suburb (Grouchy); 30 besides the regimental guns (Höpfner).
+    - The terms: prisoners of war in Murat, released on parole in Höpfner; arms laid down in Murat,
+      only stacked in Höpfner.
+    - Whether Lannes's corps was near: the parlementaire's and Murat's claims, Taubenheim's
+      voltigeurs, and Höpfner's note on Lannes's arrival at Templin.
+- **Gaps.** No targeted follow-up was run in this sub-batch. Each draft names the record that
+  could close its most consequential gap:
+  - Erfurt: side B's strength and composition at the surrender. A Prussian or French return of the
+    prisoners could close it. Side A's strength before the town is unknown.
+  - Halle: side B's strength in action, and how its loss divides between the bridges and town, the
+    position and the regiment Treskow's column. A page image of Höpfner's order of battle
+    (pp. 44–45), whose table the OCR garbles, could give the units and their strengths.
+  - Spandau: the garrison's size. Lannes's promised return of the place or a French list of the
+    prisoners could settle it.
+  - Prenzlau: side B's strength and loss at the capitulation. A French return of the prisoners or
+    the sources of Höpfner's table could settle it.
+
+  While drafting, Höpfner's Prenzlau selection was extended back to p. 177, so that the Prussian
+  account of the fight in the suburb is citable.
+- **Verification.** The four drafts were checked as a sub-batch before release. The check:
+  - read every claim of Erfurt, Halle and Spandau against its cited passages and their context.
+    Prenzlau had its full recheck while it was drafted, and its Foucart citations were rechecked
+    for headings.
+  - checked that the subject and attribution of each statement are in the claim's own quotes,
+    including letter headings, signatures and the corps journal's closing attributions;
+  - checked every figure in a value against a page-image or Bodart quote, and every rendering of an
+    OCR passage for digits and number words. New this sub-batch, it also checked every figure in
+    the open questions against the draft's page-image quotes. The remaining flags are page numbers,
+    an edition number, number words, figures read from page images, labelled sums and one hour that
+    the page image leaves uncertain.
+  - fixed what it found:
+    - Erfurt:
+      - values and renderings that ran beyond their quotes: the Langensalza order, Höpfner's
+        judgment and the Emperor's terms;
+      - Foucart's `erfurt-16-oct` section, extended back to the major general's letter heading on
+        p. 34;
+      - the selection's note, which called Préval a general (he was a colonel), and the parent
+        record's Erfurt pages (pp. 33–40);
+      - figures read only in the OCR that the open questions restated.
+    - Halle:
+      - the description of the town, given as Foucart's note, is a footnote that closes with the
+        corps journal's attribution. A paragraph on p. 100 that follows the journal extract has no
+        attribution of its own and is now given as Foucart's footnote, not the journal's;
+      - headings and closing attributions added, and subjects brought inside the quotes;
+      - overstated verbs ('carried', 'stopped the pursuit', 'match', 'no food or drink');
+      - the corps number in the journal's attribution, read only in the OCR, elided.
+    - Spandau:
+      - Latour-Maubourg's heading, missing from the transcription of p. 315, read from the image
+        and added. The record was re-registered before it was committed.
+      - Bertrand's two reports now cited with their headings and signatures;
+      - the attribution of Lannes's postscript, and renderings that ran beyond their quotes.
+    - The family notes now give the basis for Höpfner's reliance on the post-war judicial inquiries,
+      the preface of his first volume, instead of asserting it for each place.
+
+  The evidence check passes on all 2,526 sources and 33 drafts (681 claims, 9 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 2.4 million tokens, roughly 600,000 an entry. The sub-batch held one battle,
+  three capitulations, two new volumes and 70 records.
+  - The cohort's 292 remaining engagements would need about 175 million tokens at this rate.
+  - About 3.9 million remain in this session.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
