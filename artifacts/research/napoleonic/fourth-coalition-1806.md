@@ -31129,6 +31129,1781 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B377b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Groß-Glogau entry (investment and capitulation, 2 December 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under its vice-governor, Lieutenant General Reinhart, and the Confederation of the Rhine's troops before it under Prince Jérôme, from the appearance of Lefebvre-Desnouettes' cavalry on 7 November through the investment by Deroy's Bavarian division from the 10th, the bombardments and the abandoned storm, and the blockade by the Württemberg division under Vandamme from 28 November, to the capitulation agreed on 2 December and the handover on the 3rd. The corps' formation at the start of operations, the French orders, and the suspension of arms of 16 November, which was not ratified, are context. The move of Lefebvre's and Montbrun's cavalry against Breslau from 14 November and the investment of Breslau, Bodart's separate entry, are outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A as the Bavarians and French, 8,000 Bavarians and 1,000 French, together 9,000 men, under the Bavarian Lieutenant General v. Deroy, and side B (Prussian) as the garrison of 3,200 men with 124 guns under Lieutenant General v. Reinhart, which side A forced to surrender after a 15-day blockade; the garrison fell into captivity as prisoners of war, and the officers were released on their word of honour. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison's parts and total (claim side-b-strength), Davout's officer and the 32nd Bulletin other figures for it (claim side-b-strength-other), and Höpfner and the French letters and Bulletin side A's troops (claim side-a-strength). Bodart's 124 guns are Höpfner's 124; his 3,200 men are below Höpfner's 3228, so they are not Höpfner's figure rounded up as his rule states (our comparison). No passage read gives side A a total near his 9,000 or names a French troop unit before Glogau: the French named there are generals, Lefebvre-Desnouettes, Montbrun and Vandamme (our reading). His 15 days counted back from 2 December reach 17 November, while Höpfner has the place invested on 7 November and enclosed by Deroy's division on the 10th (our arithmetic and comparison). Which source Bodart used was not checked. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 2/12. investment and capitulation of Groß-Glogau'; 'the Bavarians and French (8,000 Bavarians and 1,000 French, together 9,000 men) under the Bavarian Lieutenant General v. Deroy force the Prussian garrison (3,200 men with 124 guns) under Lieutenant General v. Reinhart to surrender after a 15-day blockade'; 'the garrison fell into captivity as prisoners of war, the officers were released on their word of honour'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 2./12. EINSCHLIESSUNG und KAPITULATION von Groß-Glogau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Bayern und Franzosen (8.000 Bayern und 1.000 Franzosen zus. 9.000 M.) unter dem bayr. Gen.-Lt. v. Deroy zwingen nach 15tägiger Blokade die preußische Besatzung (3.200 M. mit 124 Geschützen) unter Gen.-Lt. v. Reinhart zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Garnison geriet in Kriegsgefangenschaft, die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: on the day of the investment the fortress of Glogau counted in usable men the 3rd musketeer battalions of vac. Grevenitz, Tschepe and Zastrow, after the enrolment of several Ranzionirte, 2388 men; a detachment of the infantry regiment Zenge, 88; 4 invalid companies, 235; artillery, 358; Grenzjäger, 91; miners, 16; mounted cavalry from several depots, 52; together 3228 men, the greater part of them Poles who were only waiting for the first opportunity to go over to the enemy. There were 124 guns on the walls. During the investment, Höpfner adds, the unreliability of the soldiers born in South Prussia showed itself more and more, and muskets and cartridges wilfully spoiled were found with some men of Tschepe's battalion.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 18 and 25; the table's figures were checked on full-resolution crops. The garrison was in Glogau before the investment, so the claim is tagged inherited. The rows make the printed 3228 (our arithmetic); Höpfner names no source for them. 'Ranzionirte' is read as soldiers who had got away from the enemy and rejoined (our reading). The garrison's desertions and losses are in claim side-b-losses. English renderings (ours): 'on the day of the investment the fortress of Glogau counted in usable men: the 3rd musketeer battalions of vac. Grevenitz, Tschepe and Zastrow, after the enrolment of several Ranzionirte, 2388 men; a detachment of the infantry regiment Zenge 88; 4 invalid companies 235; artillery 358; Grenzjäger [frontier riflemen] 91; miners 16; mounted cavalry from several depots 52; together 3228 men, of whom the greater part were Poles, who were only waiting for the first opportunity to be able to go over to the enemy'; 'there were 124 pieces of ordnance on the walls; there was no lack either of munition or of provisions to withstand a lengthy siege; the burghers too, despite the shortness of the time, had supplied themselves with food as far as possible'; 'unfortunately the unreliability of the soldiers born in South Prussia showed itself more and more in the garrison. Muskets and cartridges wilfully spoiled were found with some men of the 3rd musketeer battalion von Tschepe'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Die Festung Glogau¹) zählte am Tage der Berennung an brauchbaren Mannschaften:\nDie 3. Musketierbataillone von vac. Grevenitz, Tschepe und Zastrow nach Einstellung mehrerer Ranzionirter | 2388 M.\nein Kommando des Infanterie-Regts. Zenge | 88 〃\n4 Invaliden-Kompagnien | 235 〃\nArtillerie | 358 〃\nGrenzjäger | 91 〃\nMineurs | 16 〃\nberittene Kavallerie von mehreren Depots | 52 〃\nzusammen | 3228 M.\nvon denen der größere Theil aus Polen bestand, die nur die erste Gelegenheit abwarteten, um zum Feinde übergehen zu können."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "An Geschütz befanden sich 124 Stück auf den Wällen; es fehlte weder an Munition noch an Proviant, um eine langwierige Belagerung zu bestehen; auch die Bürger hatten sich, trotz der Kürze der Zeit, möglichst mit Lebensmitteln versehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Leider zeigte sich in der Garnison immer mehr die Unsicherheit der aus Südpreußen gebürtigen Soldaten. Man fand bei einigen Mannschaften des 3. Musketierbats. von Tschepe Gewehre und Patronen, die muthwillig verdorben waren."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-other",
+      "dimension": "strength",
+      "value": "Side B (Prussian), other figures: Marshal Davout wrote to the Emperor from Francfort on 4 November that one of his officers, sent toward Breslau with 80 horse, wrote from Beuthen on the Oder, a few leagues from Glogau, that the garrison of Glogau amounted to 3,500 men, of whom 1,000 cavalry, composed like Küstrin's of 3rd battalions, and that Major General Margitz commanded the place. The 32nd Bulletin, of 16 November: the King of Prussia had one regiment left in the place of Gross-Glogau, which was besieged.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Davout's letter and the Bulletin, read from the page images; the figures were checked on full-resolution crops. Not reconciled with Höpfner's figures or Bodart's (claims side-b-strength, bodart-strength). The garrison was in Glogau before the investment, so the claim is tagged inherited. Davout's 3,500 is above Höpfner's 3228, and his 1,000 cavalry compare with Höpfner's 52 mounted cavalry of the depots (our comparison). Davout's 'Margitz' is not a name Höpfner gives; Höpfner names Major General Marwitz as commandant of the town (claim bodart-commanders; our comparison). English renderings (ours): 'Marshal Davout to the Emperor. Francfort, 4 November 1806'; 'I received this morning a report from one of my officers whom I sent toward Breslau with 80 horse to stop the couriers and get news; he writes to me from Beuthen on the Oder, a few leagues from Glogau, that all Silesia is without Prussian' (the word continues on p. 42; the note mark refers to Foucart's footnote, not transcribed); 'troops, except the fortresses; that the garrison of Glogau amounts to 3,500 men, of whom 1,000 cavalry. It is composed, like that of Küstrin, of 3rd battalions. Major General Margitz commands the place. He is said to be very uneasy and mediocre' (the first sentence ends the sentence begun on p. 41); '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'there remains today to the King of Prussia one regiment in the place of' (the sentence continues on p. 849); 'Gross-Glogau, which is besieged, one at Breslau, one at Brieg, 2 at Warsaw and some regiments at Königsberg; in all, about 15,000 men of infantry and 3 or 4,000 men of cavalry' (the end of the sentence begun on p. 848).",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p41-figures-v1",
+          "section": "p41",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 41 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT A L'EMPEREUR.\n\nFrancfort, 4 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p41-figures-v1",
+          "section": "p41",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 41 (transcribed from the page image)",
+          "quote": "J'ai reçu ce matin un rapport d'un de mes officiers que j'ai envoyé sur Breslau avec 80 chevaux pour arrêter les courriers et avoir des nouvelles; il m'écrit de Beuthen sur l'Oder, à quelques lieues de Glogau¹, que toute la Silésie est sans troupes prus-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p42-figures-v1",
+          "section": "p42",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 42 (transcribed from the page image)",
+          "quote": "siennes, excepté les places fortes; que la garnison de Glogau se monte à 3,500 hommes dont 1,000 de cavalerie. Elle est composée, comme celle de Küstrin, des 3es bataillons. Le général-major Margitz commande la place. Il passe pour être très-inquiet et médiocre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "Il reste aujourd'hui au roi de Prusse un régiment dans la place de"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Gross-Glogau qui est assiégée, un à Breslau, un à Brieg, 2 à Varsovie et quelques régiments à Königsberg; en tout, à peu près 15,000 hommes d'infanterie et 3 ou 4,000 hommes de cavalerie."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (the Confederation of the Rhine's troops under Prince Jérôme, with French generals). Höpfner's formation and strength at the beginning of operations: the first Bavarian division, Lieutenant General Deroy, 8185 men in the brigades of Siebein and Raglowich; the second, Lieutenant General Wrede, 5830 men in the brigades of Mezzanelli (3596) and Count Minucci; together 14,015 Bavarians; the Württemberg division, Lieutenant General Seckendorf, 8642 men; the Silesian corps 29½ battalions, 26 squadrons and 48 guns, or 17,650 men of infantry, 3241 of cavalry and 1055 of artillery, or 22,946 men; the 6th and 14th Line Infantry Regiments, the 5th light battalion La Motte and apparently several batteries arrived only later. Wrede's division reached Krossen on 4 November, Deroy's on the 7th and the Württemberg contingent on the 8th, when the corps was united. By Napoleon's order the cavalry formed 3 brigades: Mezzanelli's of the 1st Chevauxlegers and 1st Dragoons, Lefebvre-Desnouettes' of the 2nd and 3rd Chevauxlegers and 2nd Dragoons, and Montbrun's of the 3 Württemberg cavalry regiments. The first force before Glogau: Lefebvre with his brigade and a light battery on the left bank, sent on 6 November, with two squadrons of Chevauxlegers crossing to the right bank at Neusalz so that the fortress could be invested on both banks on 7 November (Höpfner); 3 cavalry regiments and 6 pieces of light artillery, with two squadrons before the bridgehead on the right bank (Foucart's narrative); 2,000 Bavarian horse (the 30th Bulletin). The major general's letter of 5 November ordered Deroy to invest Glogau with 6,000 men. Deroy's division had to advance from Krossen on 9 November so as to enclose the place on the 10th, Raglowich on the left bank and Siebein on the right (Höpfner); by the 30th Bulletin it invested Glogau on the 9th. The artillery of Wrede's division arrived on the evening of the 12th. On the 14th Lefebvre, with the 3rd Chevauxlegers and 2nd Dragoons, a Württemberg cavalry regiment and a light battery, and Montbrun with the rest of his brigade moved against Breslau, the 2nd Chevauxlegers posted halfway; Wrede's division was ordered to Polkwitz, on the road to Breslau, and the rest of the Württemberg division later to Kuttlau. The Württemberg brigade Lilienberg arrived on the right bank on 16 November and relieved Siebein on the 17th. The major general's letter of 16 November sent 2,000 Württemberg infantry, all their cavalry and 4 guns to Lissa. Deroy's division left on the 25th; the Württemberg division, about 8000 men strong, stayed, with 1 battalion on the right bank and the rest on the left from the 26th; Vandamme, entrusted with the blockade, arrived on the 28th, and Montbrun's cavalry brigade covered the blockade toward Breslau at Polkwitz. No passage read gives a return of side A at the capitulation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and the French letters and Bulletin, read from the page images; the figures were checked on full-resolution crops. The troops before Glogau changed with the orders of the Emperor and of Jérôme, so the phase is left unresolved. Höpfner's table does not add up in two places: the second division's rows, with the 3596 carried over, make 7018, not the printed 5830, and the Württemberg rows make 8652, not 8642; his corps figures make 21,946, not the printed 22,946, and the printed division totals, 14,015 and 8642, make 22,657; the printed 8185 and 5830 make the printed 14,015 (our arithmetic). Lefebvre's three regiments in Höpfner's table make 1097 men (our arithmetic), against the 30th Bulletin's 2,000 horse (our comparison). Höpfner's note gives a battery as 4 cannon and 2 howitzers; Foucart's narrative gives Lefebvre 6 pieces of light artillery, and the 30th Bulletin has the place bombarded on the 8th by 10 howitzers (our comparison). The 6,000 of 5 November and the 2,000 sent to Lissa are orders, not counts, and whether the Lissa detachment went is not shown. Bodart's 8,000 Bavarians and 1,000 French are in claim bodart-strength. English renderings (ours): 'the Confederation of the Rhine's troops thus coming together had the following formation and strength at the beginning of operations:'; 'First Bavarian Division. Lieutenant General Deroy. 1st Brigade, Major General Siebein: 1st Line Infantry Regiment (Leib-Regiment) 1407 men; 10th ditto (Junker) 1257; 6th light battalion Taxis 707; 2 companies of Jäger 408; 1st Chevauxlegers Regiment Kronprinz 444; 1st battery Peters 117. 2nd Brigade, Major General Raglowich: 4th Line Infantry Regiment 1576 men; 5th ditto (Preising) 1568; 1st Dragoon Regiment Minucci 435; 2nd battery Göschel 122; light battery Koppelt 144; [total] 8185 men'; 'Second Bavarian Division. Lieutenant General Wrede. 1st Brigade, Major General Mezzanelli: 2nd Line Infantry Regiment Kronprinz 1351 men; 13th ditto 1180; 3rd light battalion Preising 572; 2nd Chevauxlegers Regiment König 384; 1st battery Kaspers 109; [total] 3596 men' (the table continues on p. 16); 'carried forward 3596 men. 2nd Brigade, Major General Count Minucci: 3rd Line Infantry Regiment Herzog Karl 1269 men; 7th ditto Löwenstein 642; 4th light battalion Zoller 571; 3rd Chevauxlegers Regiment Leiningen 399; 2nd battery Vandouse 107; 2nd Dragoon Regiment Taxis 314; 12-pounder battery Tausch 120; [total] 5830 men. Together 14,015 men Bavarians'; 'Württemberg Division. Lieutenant General Seckendorf. 1st Brigade, Major General Lilienberg: Infantry Regiment Kronprinz 813 men; ditto Seckendorf 815; ditto Lilienberg 819. 2nd Brigade, Major General Schröder: Infantry Regiment Prinz Wilhelm 818 men; ditto Schröder 817. Light Brigade, Colonel Neubronn: 1st Jäger battalion Hügel 725 men; 2nd ditto Scharfenstein 744; 1st light infantry battalion Neubronn 753; 2nd ditto Brüssel 739. Lieutenant Colonel L'Estocq: 1st Chevauxlegers Regiment König 455 men; 2nd ditto 462; 1st mounted Jäger Regiment 348; horse battery Besner 130 men; foot battery Bausch 214. Together 8642 men Württembergers'; 'the Silesian corps thus consisted at the time of 29½ battalions, 26 squadrons and 48 guns, or 17,650 men' (the sentence continues on p. 17); 'infantry, 3241 men cavalry and 1055 men artillery, or 22,946 men' (the end of the sentence begun on p. 16); '1) there arrived only later the 6th and 14th Line Infantry Regiments and the 5th light battalion La Motte and, as it seems, also several batteries. The battery consisted of 4 cannon and 2 howitzers'; 'the division Wrede had arrived from Franconia by way of Schleiz and Plauen at Dresden on 25 October and had been set in march from there on the 30th by way of Hoyerswerda, Kottbus, Peiz and Guben on Krossen, which place it reached on 4 November'; 'the division Deroy, having reached Bayreuth on 21 October, reached Dresden on 2 November, after relieving the 13th Infantry Regiment before the Plassenburg by the 6th Regiment. It set out again from Dresden as early as the 3rd and reached Krossen on 7 November'; 'the Württemberg contingent reached Dresden from Ellwangen on the 3rd and Krossen on 8 November, so that on that day the corps was united'; 'by Napoleon's order the cavalry was divided into 3 brigades: under the Bavarian Major General Mezzanelli the 1st Chevauxlegers and 1st Dragoon Regiments, under Jerome's general and adjutant Lefebvre-Desnouettes the 2nd and 3rd Chevauxlegers and 2nd Dragoon Regiments, and under the French General Montbrun, whom Napoleon sent to the corps, the 3 Württemberg cavalry regiments'; 'as early as 6 November General Lefebvre had been set in march to that end with his brigade and a light battery on the left bank of the Oder against Glogau, to move the commandant to surrender by the surprising appearance of this cavalry, as had succeeded so splendidly at Erfurt and Stettin'; 'two squadrons of Chevauxlegers crossed to the right bank of the Oder at Neusalz, so as to be able to invest the fortress on both banks on 7 November'; 'on the right General Lefebvre-Desnöettes moved on the 7th before Glogau by the left bank of the Oder with 3 cavalry regiments and 6 pieces of light artillery while two squadrons appeared before the bridgehead on the right bank. The enemy's cavalry patrols were thrown back into the place' (Foucart's narrative); '30th Bulletin of the Grande Armée. Berlin, 10 November 1806'; 'Prince Jérôme has had the place of Glogau, capital of Upper Silesia, blockaded by Brigade General Lefebvre at the head of 2,000 Bavarian horse. The place was bombarded on the 8th by 10 howitzers served by light artillery. The Prince has praised the conduct of the Bavarian cavalry. General Deroy, with his division, invested Glogau on the 9th; talks have been opened for its surrender'; 'the Major General to Prince Jérôme. Berlin, 5 November 1806'; 'the Emperor orders that Your Highness send' (the sentence continues on p. 57); 'General Deroy to invest the place of Glogau with 6,000 men... Your Highness will prescribe to General Deroy to have himself scouted for and to send cavalry parties toward Breslau to intercept the couriers and learn thereby the situation of that place..... General Deroy will be before Glogau on the 7th or 8th at the latest; you on the 6th in the evening at Grüneberg; the Württembergers on the 7th at Zullichau in position' (the first sentence ends the sentence begun on p. 56; the points are the print's); 'as soon as Jerome had received General Lefebvre's report, he made all arrangements to enter Silesia now. The division Deroy had to advance from Krossen to Glogau on 9 November, so as to enclose the place on the 10th with the brigade Raglowich on the left bank and with the brigade Siebein on the right bank'; 'on 11 November the Bavarians worked on the left bank at cover for six batteries, and on the evening of the 12th the artillery of the division Wrede also arrived from Grüneberg before Glogau. At midnight the guns were brought into these earthworks, each of them, with the exception of battery No. 5, armed with 4 cannon and 2 howitzers; the said' (the sentence continues on p. 21); 'the brigade Lilienberg of the Württemberg division received the order to march on the 15th from Züllichau to Glogau' (the sentence continues on p. 23); 'to relieve the brigade Siebein, which was to unite with the brigade Raglowich on the left bank of the Oder; the division Wrede had already received the order to march on the 14th from Grüneberg to Polkwitz and to take post on the road to Breslau, and later the rest of the Württemberg division also received the order to advance on the 18th to Kuttlau. Only the corps' heavy baggage remained at Grüneberg' (the first sentence ends the sentence begun on p. 22); 'likewise on the 14th General Lefebvre advanced with the 3rd Chevauxlegers and 2nd Dragoon Regiments, a Württemberg cavalry regiment and a light battery on the left bank, and General Montbrun on the right bank of the Oder with the rest of his cavalry brigade, against Breslau, and the 2nd Chevauxlegers Regiment received the order to post itself halfway between Glogau and Breslau, to keep up the connection between this cavalry and the blockading troops'; 'on 16 November at 4½ in the morning the enemy's fire began anew on both banks of the Oder. The town burned in perhaps 30 places, but through the exemplary conduct of the burghers, supported by some men detailed for it, the fire was this time too put out everywhere'; 'on this day the Württemberg brigade Lilienberg arrived before Glogau on the right bank of the Oder'; 'on 17 November early the Bavarians set fire to the wood still standing at the Schießhaus, whereby the building itself was laid in ashes. The Württembergers relieved the brigade Siebein on this day, which moved to the left bank; a bridge at Beichau was to maintain the connection between the two banks'; 'the Major General to Prince Jérôme. Berlin, 16 November 1806'; 'the Emperor charges me to inform Your Imperial Highness that you are to keep the Württemberg troops on the right bank of the Oder and the Bavarian troops on the left bank. Order the Württemberg troops to move before Glogau and blockade that town on the right bank; send 2,000 men of Württemberg infantry, all the cavalry of that nation and 4 pieces of artillery to Lissa, from where it will put itself in correspondence at once with the troops of Marshal Davout who are at Posen;'; 'in consequence of this the Bavarian division Deroy set out from Glogau on the 25th, crossed the Oder at Beichau and went by way of Lissa to Kalisch; the division Wrede left the hutted camp at Polkwitz, crossed the Oder at Steinau on a bridge for whose building General Montbrun, back from the expedition against Breslau, had driven the boats together, and united on the 28th with the first-named division at Kalisch, from where the two Bavarian cavalry brigades Lefebvre and Mezzanelli pushed on over the Warthe'; 'before Glogau there remained the Württemberg division, about 8000 men strong, which because of its weakness left only 1 battalion on the right bank of the Oder, but crossed with the rest to the left bank on the 26th'; 'Napoleon entrusted the continuation of the blockade to the French General Vandamme, but he arrived at Glogau only on the 28th. The cavalry brigade Montbrun secured the blockade toward Breslau by a position at Polkwitz'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 15 (transcribed from the page image)",
+          "quote": "Die somit zusammentretenden Rheinbundstruppen hatten beim Beginn der Operationen folgende Formation und Stärke:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 15 (transcribed from the page image)",
+          "quote": "Erste bayersche Division.\nG.-L. Deroy.\n1. Brigade. G.-M. Siebein.\n1. Linien-Inf.-Regt. (Leib-Regt.) | 1407 Mann\n10. 〃 〃 〃 (Junker) | 1257 〃\n6. leichtes Bataillon Taxis | 707 〃\n2 Kompagnien Jäger | 408 〃\n1. Chevauxlegers-Regt. Kronprinz | 444 〃\n1. Batterie Peters | 117 〃\n2. Brigade. G.-M. Raglowich.\n4. Linien-Inf.-Regt. | 1576 Mann\n5. 〃 〃 〃 (Preising) | 1568 〃\n1. Dragoner-Regt. Minucci | 435 〃\n2. Batterie Göschel | 122 〃\nleichte Batterie Koppelt | 144 〃\n[total] | 8185 Mann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 15 (transcribed from the page image)",
+          "quote": "Zweite bayersche Division.\nG.-L. Wrede.\n1. Brigade. G.-M. Mezzanelli.\n2. Linien-Inf.-Regt. Kronprinz | 1351 Mann\n13. 〃 〃 〃 | 1180 〃\n3. leichtes Bataillon Preising | 572 〃\n2. Chevauxlegers-Regt. König | 384 〃\n1. Batterie Kaspers | 109 〃\n[total] | 3596 Mann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 16 (transcribed from the page image)",
+          "quote": "Transport | 3596 Mann.\n2. Brigade. G.-M. Graf Minucci.\n3. Linien-Inf.-Regt. Herzog Karl | 1269 Mann\n7. 〃 〃 〃 Löwenstein | 642 〃\n4. leichtes Bataillon Zoller | 571 〃\n3. Chevauxlegers-Regt. Leiningen | 399 〃\n2. Batterie Vandouse | 107 〃\n2. Dragoner-Regt. Taxis | 314 〃\n12pfündige Batterie Tausch | 120 〃\n[total] | 5830 Mann.\nZusammen 14,015 Mann Bayern.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 16 (transcribed from the page image)",
+          "quote": "Württembergische Division.\nG.-L. Seckendorf.\n1. Brigade. G.-M. Lilienberg.\nInfanterie-Regt. Kronprinz | 813 Mann\n〃 〃 Seckendorf | 815 〃\n〃 〃 Lilienberg | 819 〃\n2. Brigade. G.-M. Schröder.\nInfanterie-Regt. Prinz Wilhelm | 818 Mann\n〃 〃 Schröder | 817 〃\nLeichte Brigade. Oberst Neubronn.\n1. Jägerbataillon Hügel | 725 Mann\n2. 〃 Scharfenstein | 744 〃\n1. leichtes Inf.-Bat. Neubronn | 753 〃\n2. 〃 〃 〃 Brüssel | 739 〃\nOberstlieut. L'Estocq.\n1. Chevauxlegers-Regt. König | 455 Mann\n2. 〃 〃 〃 | 462 〃\n1. Jäger-Regt. zu Pferde | 348 〃\nreitende Batterie Besner | 130 Mann\nFußbatterie Bausch | 214 〃\nZusammen 8642 M. Württemberger."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 16 (transcribed from the page image)",
+          "quote": "Das schlesische Korps bestand somit zur Zeit aus 29½ Bataillonen, 26 Schwadronen und 48 Geschützen, oder 17,650 Mann"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Infanterie, 3241 Mann Kavallerie und 1055 Mann Artillerie, oder 22,946 Mann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p16-figures-v1",
+          "section": "p16",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 16 (transcribed from the page image)",
+          "quote": "1) Es trafen erst später ein das 6. und 14. Linien-Infant.-Regt. und das 5. leichte Bataillon La Motte und wie es scheint auch mehrere Batterien. Die Batterie bestand aus 4 Kanonen und 2 Haubitzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Die Division Wrede war aus Franken über Schleiz und Plauen am 25. Oktober in Dresden eingetroffen und von dort am 30. über Hoyerswerda, Kottbus, Peiz und Guben auf Krossen in Marsch gesetzt worden, welchen Ort sie am 4. November erreichte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Die Division Deroy, am 21. Oktober in Bayreuth angelangt, erreichte Dresden am 2. November, nachdem sie vor der Plassenburg das 13. Infanterie-Regiment durch das 6. Regiment abgelöst hatte. Am 3. brach sie bereits von Dresden wieder auf und erreichte Krossen am 7. November."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Das württembergische Kontingent erreichte von Ellwangen her Dresden am 3. und Krossen am 8. November, so daß an diesem Tage das Korps vereinigt war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Auf Befehl Napoleons wurde die Kavallerie in 3 Brigaden getheilt, und zwar unter dem bayerschen General-M. Mezzanelli das 1. Chevauxlegers- und 1. Dragoner-Regiment, unter dem General und Adjutanten Jerome's Lefebvre-Desnouettes das 2. und 3. Chevauxlegers- und 2. Dragoner-Regiment, und unter dem französischen General Montbrun, den Napoleon zum Korps sandte, die 3 württembergischen Kavallerie-Regimenter."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Bereits am 6. November war zu dem Ende der General Lefebvre mit seiner Brigade und einer leichten Batterie auf dem linken Oder-Ufer gegen Glogau in Marsch gesetzt worden, um durch das überraschende Auftreten dieser Kavallerie den Kommandanten zur Uebergabe zu bewegen, wie dies bei Erfurt und Stettin so trefflich geglückt war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Zwei Schwadronen Chevauxlegers gingen bei Neusalz auf das rechte Oder-Ufer, um am 7. November die Festung auf beiden Ufern berennen zu können."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p68-figures-v1",
+          "section": "p68",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 68 (transcribed from the page image)",
+          "quote": "A la droite le général Lefebvre-Desnöettes se portait le 7 devant Glogau par la rive gauche de l'Oder avec 3 régiments de cavalerie et 6 pièces d'artillerie légère pendant que deux escadrons se présentaient devant la tête de pont de la rive droite. Les patrouilles de cavalerie ennemie étaient rejetées dans la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p806-figures-v1",
+          "section": "p806",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 806 (transcribed from the page image)",
+          "quote": "30e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 10 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p806-figures-v1",
+          "section": "p806",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 806 (transcribed from the page image)",
+          "quote": "Le prince Jérôme a fait bloquer la place de Glogau, capitale de la Haute-Silésie, par le général de brigade Lefebvre, à la tête de 2,000 chevaux bavarois. La place a été bombardée le 8 par 10 obusiers servis par de l'artillerie légère. Le Prince a fait l'éloge de la conduite de la cavalerie bavaroise. Le général Deroy, avec sa division, a investi Glogau le 9; on est entré en pourparlers pour sa reddition."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 5 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "L'Empereur ordonne que Votre Altesse envoie le"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p57-figures-v1",
+          "section": "p57",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 57 (transcribed from the page image)",
+          "quote": "général Deroy pour investir la place de Glogau avec 6,000 hommes... Votre Altesse prescrira au général Deroy de se faire éclairer et d'envoyer des partis de cavalerie sur Breslau pour intercepter les courriers et connaître par là la situation de cette place..... Le général Deroy sera le 7 ou 8 au plus tard devant Glogau; vous le 6 au soir à Grüneberg; les Wurtembergeois le 7 à Zullichau en position."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Sobald Jerome den Bericht des Generals Lefebvre erhalten hatte, traf er alle Anordnungen, um nun in Schlesien einzurücken. Die Division Deroy mußte am 9. November von Krossen nach Glogau vorrücken, um am 10. mit der Brigade Raglowich den Platz auf dem linken Ufer, mit der Brigade Siebein auf dem rechten Ufer einzuschließen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Am 11. November arbeiteten die Bayern auf dem linken Ufer an Deckungen zu sechs Batterien, und am 12. Abends traf noch die Artillerie der Division Wrede von Grüneberg vor Glogau ein. Um Mitternacht wurden die Geschütze in diese Erd-Aufwürfe eingeführt, und zwar jeder, mit Ausnahme der Batterie Nr. 5, durch 4 Kanonen und 2 Haubitzen armirt; die genannte"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Die Brigade Lilienberg der württembergischen Division erhielt den Befehl, am 15. von Züllichau nach Glogau zu mar-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "schiren, um die Brigade Siebein abzulösen, welche sich mit der Brigade Raglowich auf dem linken Oder-Ufer vereinigen sollte; die Division Wrede hatte bereits den Befehl erhalten, am 14. von Grüneberg auf Polkwitz zu marschiren und sich auf der Straße nach Breslau aufzustellen, und später erhielt auch noch der Rest der württembergischen Division den Befehl, am 18. auf Kuttlau vorzurücken. Nur die schwere Bagage des Korps verblieb bei Grüneberg."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Ebenfalls am 14. rückte der General Lefebvre mit dem 3. Chevauxlegers- und 2. Dragoner-Regiment, einem württembergischen Kavallerie-Regiment und einer leichten Batterie auf dem linken, der General Montbrun auf dem rechten Oder-Ufer mit dem Rest seiner Kavallerie-Brigade gegen Breslau vor, und das 2. Chevauxlegers-Regiment erhielt den Befehl, sich auf dem halben Wege zwischen Glogau und Breslau zu postiren, um die Verbindung zwischen dieser Kavallerie und den Blokadetruppen zu unterhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Den 16. November um 4½ Uhr Morgens begann das feindliche Feuer aufs Neue auf beiden Ufern der Oder. Die Stadt brannte wohl an 30 Orten, doch wurde durch das musterhafte Verhalten der Bürgerschaft, unterstützt durch einige kommandirte Mannschaft, das Feuer auch diesmal überall gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "An diesem Tage traf die württembergische Brigade Lilienberg vor Glogau auf dem rechten Oder-Ufer ein."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Am 17. November in der Frühe zündeten die Bayern das noch stehen gebliebene Holz am Schießhause an, wobei das Gebäude selbst in Asche gelegt wurde. Die Württemberger lösten an diesem Tage die Brigade Siebein ab, welche auf das linke Ufer rückte; eine Brücke bei Beichau sollte die Verbindung zwischen beiden Ufern erhalten."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 104 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 104 (transcribed from the page image)",
+          "quote": "L'Empereur me charge de prévenir Votre Altesse impériale qu'elle doit tenir les troupes de Wurtemberg sur la rive droite de l'Oder et les troupes bavaroises sur la rive gauche. Donnez l'ordre aux troupes de Wurtemberg de se porter devant Glogau et de bloquer cette ville sur la rive droite; envoyez 2,000 hommes d'infanterie wurtembergeoise, toute la cavalerie de cette nation et 4 pièces d'artillerie à Lissa, d'où elle se mettra en correspondance sur-le-champ avec les troupes du maréchal Davout qui sont à Posen;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "In Folge dessen brach die bayersche Division Deroy am 25. von Glogau auf, ging bei Beichau über die Oder und über Lissa nach Kalisch; die Division Wrede verließ das Barackenlager bei Polkwitz, überschritt bei Steinau die Oder auf einer Brücke, zu deren Bau der von der Expedition gegen Breslau zurückgekehrte General Montbrun die Schiffe zusammengetrieben hatte, und vereinigte sich am 28. mit der erstgenannten Division bei Kalisch, von wo aus die beiden bayerschen Kavallerie-Brigaden Lefebvre und Mezzanelli über die Warthe poussirten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Vor Glogau war die etwa 8000 Mann starke württembergische Division verblieben, welche bei ihrer Schwäche nur 1 Bataillon auf dem rechten Oderufer beließ, mit dem Rest aber am 26. auf das linke Ufer überging."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Napoleon übertrug dem französischen General Vandamme die Fortführung der Blokade, doch traf derselbe erst am 28. bei Glogau ein. Die Kavallerie-Brigade Montbrun sicherte die Blokade gegen Breslau durch eine Aufstellung bei Polkwitz."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names the Bavarian Lieutenant General v. Deroy as side A's commander and Lieutenant General v. Reinhart as side B's. Höpfner: Napoleon had given his brother Jérôme command over the Bavarian divisions of Deroy and Wrede and the Württemberg contingent; the King had named Lieutenant General Reinhart vice-governor of Glogau, where he arrived only on 30 October; Major General Marwitz was commandant of the town, Major Lichtenberg artillery officer and Captain Moritz engineer officer of the place. Deroy's division left Glogau on the 25th; Napoleon entrusted the continuation of the blockade to the French General Vandamme, who arrived on the 28th, and on 2 December, after Vandamme's general staff officer brought proposals of capitulation, agreement was soon reached. The major general's letter of 22 November ordered Deroy's division to leave on the 24th and entrusted the blockade to Vandamme and the Württemberg troops under his orders.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed commanders, read from the frame transcription, with Höpfner and the major general's letter, read from the page images. Side A's command passed during the blockade, on the Emperor's orders, from the Bavarian division before the place to Vandamme, while side B's commanders were in post before the investment; one claim carries one phase, so it is unresolved. Bodart's Reinhart is Höpfner's vice-governor (our comparison). His Deroy commanded the Bavarian division before Glogau from 10 November, but by Höpfner and the letter of 22 November the division left before the capitulation, which Vandamme concluded (claims capitulation, side-a-command); Jérôme, to whom Napoleon gave the command of the corps, is not named by Bodart (our comparison). The credit is not assigned here to any one commander. The capitulation's text, which would show who signed it, was not seen. English renderings (ours): Bodart, as in claim bodart-strength; 'Napoleon had given his brother Jerome command over the Bavarian divisions Deroy and Wrede and over the Württemberg contingent, and had destined these troops to operate on the right wing of the Grande Armée by way of Dresden on Krossen, so as to be ready from this last point still to support the troops entering South Prussia and, as these advanced further, to be employed against the province of Silesia, which remained lying to the side'; 'the King had named Lieutenant General Reinhart vice-governor of Glogau; he had arrived there only on 30 October. Major General Marwitz was commandant of the town, Major Lichtenberg artillery officer and Captain Moritz engineer officer of the place'; 'in consequence of this the Bavarian division Deroy set out from Glogau on the 25th, crossed the Oder at Beichau and went by way of Lissa to Kalisch; the division Wrede left the hutted camp at Polkwitz, crossed the Oder at Steinau on a bridge for whose building General Montbrun, back from the expedition against Breslau, had driven the boats together, and united on the 28th with the first-named division at Kalisch, from where the two Bavarian cavalry brigades Lefebvre and Mezzanelli pushed on over the Warthe'; 'Napoleon entrusted the continuation of the blockade to the French General Vandamme, but he arrived at Glogau only on the 28th. The cavalry brigade Montbrun secured the blockade toward Breslau by a position at Polkwitz'; 'on 2 December the government now had new points of capitulation drafted, without calling the prescribed formal council of war, and when at noon the copies were not yet ready, an officer was sent to General Vandamme to apologise for this delay. The officer sent returned with General Vandamme's general staff officer and proposals of capitulation that agreed in essentials with those of the government. Agreement was therefore now reached very soon, and that same evening the Breslau and Oder gates were occupied by the Württembergers'; 'the Major General to Prince Jérôme. Berlin, 22 November 1806, one o'clock in the afternoon'; 'the Emperor orders you to have General Deroy's Bavarian division leave, on the 24th, the position it occupies before Glogau to go to Kalisch, where His Majesty's intention is that it arrive on the 27th or 28th'; 'His Majesty orders that the blockade of Glogau be entrusted to General Vandamme and to the Württemberg troops under his orders'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter dem bayr. Gen.-Lt. v. Deroy"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter Gen.-Lt. v. Reinhart"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p15-figures-v1",
+          "section": "p15",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 15 (transcribed from the page image)",
+          "quote": "Napoleon hatte seinem Bruder Jerome den Befehl über die bayerschen Divisionen Deroy und Wrede und über das württembergische Kontingent übertragen, und diese Truppen dazu bestimmt, auf dem rechten Flügel der großen Armee über Dresden auf Krossen zu operiren, um von diesem letzteren Punkte aus noch bereit zu sein, die in Südpreußen einrückenden Truppen zu unterstützen und beim weitern Vordringen derselben gegen die zur Seite liegen bleibende Provinz Schlesien verwandt zu werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Der König hatte den General-Lieutenant Reinhart zum Vice-Gouverneur von Glogau ernannt; es war derselbe erst am 30. Oktober daselbst eingetroffen. Der General-Major Marwitz war Kommandant der Stadt, der Major Lichtenberg Artillerie-, und der Hauptmann Moritz Ingenieur-Offizier vom Platz."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "In Folge dessen brach die bayersche Division Deroy am 25. von Glogau auf, ging bei Beichau über die Oder und über Lissa nach Kalisch; die Division Wrede verließ das Barackenlager bei Polkwitz, überschritt bei Steinau die Oder auf einer Brücke, zu deren Bau der von der Expedition gegen Breslau zurückgekehrte General Montbrun die Schiffe zusammengetrieben hatte, und vereinigte sich am 28. mit der erstgenannten Division bei Kalisch, von wo aus die beiden bayerschen Kavallerie-Brigaden Lefebvre und Mezzanelli über die Warthe poussirten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Napoleon übertrug dem französischen General Vandamme die Fortführung der Blokade, doch traf derselbe erst am 28. bei Glogau ein. Die Kavallerie-Brigade Montbrun sicherte die Blokade gegen Breslau durch eine Aufstellung bei Polkwitz."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 2. Dezember ließ nun das Gouvernement neue Kapitulationspunkte entwerfen, ohne den vorschriftlichen förmlichen Kriegsrath zusammenzuberufen, und als man um Mittag mit den Abschriften noch nicht fertig war, wurde ein Offizier an den General Vandamme gesandt, um wegen dieser Verspätung um Entschuldigung zu bitten. Der abgeschickte Offizier kehrte mit dem Generalstabs-Offizier des Generals Vandamme und Kapitulationsvorschlägen zurück, welche im Wesentlichen mit denen des Gouvernements übereinstimmten. Man wurde daher nunmehr sehr bald einig, und noch am Abend das Breslauer- und Oderthor durch die Württemberger besetzt."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉROME.\n\nBerlin, 22 novembre 1806, une heure après midi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "L'Empereur vous ordonne de faire partir, le 24, la division bavaroise du général Deroy de la position qu'elle occupe devant Glogau pour se rendre à Kalisch, où l'intention de Sa Majesté est qu'elle arrive le 27 ou le 28."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "Sa Majesté ordonne que le blocus de Glogau soit confié au général Vandamme¹ et aux troupes wurtembergeoises sous ses ordres."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: Lefebvre advanced with the cavalry in regimental echelons against the glacis while the light battery fired from the Protestant churchyard and threw some shells into the town; driven back by canister toward Prostau, the cavalry enclosed the fortress on both banks and summoned it by two parlementaires, and Lefebvre, seeing that he could achieve nothing with cavalry alone, reported to headquarters and had two earthworks raised in the night by country people. On 8 November the cannonade went on; the engineer officer with the detachment found the place in a state that permitted a forcible attack but, the corps' troops being too little known, asked only for 5-6 batteries of 8-10 guns, above all high-angle pieces; at 11 o'clock there was a new parley with the news that Stettin and Küstrin had fallen. On Lefebvre's report Jérôme had the place enclosed on the 10th. Immediately after side A's fire of the 13th its artillery was withdrawn from the cover, which only infantry pickets held, with posts pushed forward and stronger infantry detachments with light artillery placed out of cannon range; after these arrangements Lefebvre, with a Bavarian officer, summoned the fortress for the third and last time in Jérôme's name, Jérôme having moved his headquarters to Ziebern; on its refusal Jérôme had siege guns brought up and the munition replenished, and a further summons threatened to lay waste the town and announced the surrender of Küstrin and Magdeburg. Deserters' news led Jérôme to plan a coup de main for the night to the 17th; with fascines and ladders ready, Deroy declared that he could not count on his troops for it, and the storm was given up to await the siege guns; Berthier answered Jérôme's report that Deroy's observations were very just. The infantry's approach in small pits from the 19th was made on Napoleon's order, to unsettle the garrison; pressed by Napoleon, Jérôme was about to attempt the bridgehead on the right bank when he received the order to leave only one division before Glogau. Vandamme, arriving on the 28th, summoned the fortress and was refused; after the bombardment of 1 December he summoned it again with the assurance that no relief could be hoped for and gave his word of honour in writing; he rejected a capitulation with free withdrawal, and his general staff officer brought proposals that agreed in essentials with the government's.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images. These were the steps of side A's commanders before Glogau, so the claim is tagged commander-created. Höpfner cites no document for Lefebvre's report, the engineer officer's judgement or the summonses, and prints Berthier's answer on the storm only in a footnote. The French orders that set these steps are in claim side-a-objectives. English renderings (ours): 'General Lefebvre advanced with the cavalry in regimental echelons against the glacis, while the light battery opened its fire at the Protestant churchyard and threw some shells into the town'; 'the canister fire from the works drove the Bavarian cavalry back toward Prostau, and they contented themselves with enclosing the fortress on both banks and summoning it by two parlementaires. The governor rejected the proposals'; 'General Lefebvre soon recognised that he would achieve nothing with the cavalry alone, and reported at once to headquarters on the result of his mission, but used the night to have two earthworks raised by country people brought together, to cover the guns he had brought with him'; 'on the morning of 8 November at 6 o'clock the cannonade against the fortress was continued, during which the' (the sentence continues on p. 20); 'engineer officer attached to the detachment reconnoitred the place and found it in a state that well permitted a forcible attack. Since, however, the troops of the corps were too little known as to their competence to entrust them with an undertaking still so hazardous, he asked only for the building of 5-6 batteries of 8-10 guns, above all high-angle pieces, to bombard works and town' (the first sentence ends the sentence begun on p. 19); 'at 11 o'clock, after the cannonade, there was a parley anew, with the communication that Stettin and Küstrin had fallen and the Prussian army was shattered'; 'as soon as Jerome had received General Lefebvre's report, he made all arrangements to enter Silesia now. The division Deroy had to advance from Krossen to Glogau on 9 November, so as to enclose the place on the 10th with the brigade Raglowich on the left bank and with the brigade Siebein on the right bank'; 'on the 13th at 4 in the morning the enemy opened his fire on both banks, although the darkness allowed aiming only at the fire of the fortress batteries, which answered with liveliness. The town burned in thirteen different places, but everywhere the fires were soon put out'; 'immediately after the end of the fire the enemy withdrew his artillery from the cover and occupied it only with infantry pickets; posts were pushed forward, and stronger infantry detachments with light artillery were placed out of cannon range'; 'after these arrangements General Lefebvre, accompanied by a Bavarian officer, was sent as parlementaire to the fortress, to summon it for the third and last time in the name of Jerome, who had moved his headquarters to Ziebern near Glogau'; 'when Jerome became aware from the Prussian government's answer that the fortress would let it come to more serious measures for its capture, he at once had every effort made to bring up siege guns and above all to replenish the munition, so that the fire could be reopened in the night to the 15th'; 'a further summons, in which Jerome declared that he would lay waste the town in the most terrible manner if the capitulation were not accepted, and at the same time communicated army orders announcing the surrender of Küstrin and Magdeburg, was again rejected'; 'it was deserters, too, who brought the enemy the most exact news of the state of the works, so that Jerome formed the plan of taking the fortress by a coup de main in the night to the 17th'; 'fascines, ladders etc., everything lay ready, when at the moment of execution General Deroy declared that he did not believe he could count on his troops for so doubtful an undertaking, since they, not used to such hazardous attacks, might easily lack the boldness and energy that alone make success certain. The storm had to be given up and the siege guns awaited'; '1) on Jerome's report of the abandonment of the storm Napoleon had Marshal Berthier answer: \"I have put your letter before the Emperor, Monseigneur; His Majesty finds that the observations General Deroy made to you are very just; one cannot take a town by assault when one has not made the breach and when there is an escarp and a good counterscarp; His Majesty thinks that those who could be of the opinion of such an attack were very greatly wrong; for one would lose many men uselessly there.\"'; 'the enemy gradually approached the works with his infantry in small pits and opened his musket fire on the 19th, so that the bullets flew into the town'; 'these arrangements on the enemy's side had been made on Napoleon's order, to unsettle the garrison day and night thereby and make it worn down and inclined to surrender'; 'continually pressed by Napoleon to hasten the capture of Glogau, Jerome was about to attempt an attack on the bridgehead on the right bank of the Oder; but circumstances arose that prevented the execution. Jerome received, that is, the order to leave only one division before Glogau and to set out with the rest of the corps with all speed against Kalisch'; 'as soon as General Vandamme had arrived on the afternoon of the 28th, he had the fortress summoned, but was rejected'; 'on 1 December at 6¼ in the morning the bombardment began and lasted until after 9 o'clock. The garrison's artillery had indeed answered with vigour, but the enemy had achieved his purpose. The certainty that siege guns had arrived, that the enemy had it in his power to burn the town to ashes, had completely changed the government's mind'; 'immediately after the end of the fire General Vandamme sent a parlementaire anew and summoned the fortress with the assurance that no relief was to be hoped for, since neither a Prussian nor a Russian army stood on this side of the Vistula and the King of Prussia was already in Russia. Since the governor would not believe these statements, the French general gave his word of honour in writing for further confirmation'; 'although the governor had shortly before fallen out with Major Puttlitz over entering into a capitulation and on that occasion had declared that he would let himself be buried under the ruins of the town, he now nevertheless proposed to the enemy a capitulation with free withdrawal. General Vandamme rejected this proposal, and the governor promised to make other proposals the next day'; 'on 2 December the government now had new points of capitulation drafted, without calling the prescribed formal council of war, and when at noon the copies were not yet ready, an officer was sent to General Vandamme to apologise for this delay. The officer sent returned with General Vandamme's general staff officer and proposals of capitulation that agreed in essentials with those of the government. Agreement was therefore now reached very soon, and that same evening the Breslau and Oder gates were occupied by the Württembergers'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Der General Lefebvre rückte mit der Kavallerie in Regiments-Echelons gegen das Glacis vor, während die leichte Batterie am evangelischen Kirchhof ihr Feuer eröffnete und einige Granaten nach der Stadt warf."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Das Kartätschfeuer von den Werken wies die bayersche Kavallerie gegen Prostau zurück und begnügte man sich, die Festung auf beiden Ufern zu umschließen und durch zwei Parlamentairs aufzufordern. Der Gouverneur wies die Anträge zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Der General Lefebvre erkannte bald, daß er mit der Kavallerie allein nichts ausrichten würde, und berichtete sofort nach dem Hauptquartier über den Erfolg seiner Sendung, jedoch benutzte er die Nacht, um durch zusammengebrachte Landleute zwei Erdaufwürfe zur Deckung der mitgeführten Geschütze arbeiten zu lassen.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am Morgen des 8. Novembers um 6 Uhr wurde die Kanonade gegen die Festung fortgesetzt, während welcher der dem"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Detaschement mitgegebene Ingenieur-Offizier den Platz rekognoszirte und ihn in einem Zustande fand, der einen gewaltsamen Angriff wohl gestattete. Da indessen die Truppen des Korps in Bezug auf ihre Tüchtigkeit zu wenig gekannt waren, um ihnen ein solches immer noch gewagtes Unternehmen anzuvertrauen, so verlangte er nur den Bau von 5—6 Batterien zu 8—10 Geschützen, besonders Wurfgeschütz, um Werke und Stadt zu beschießen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Um 11 Uhr, nach der Kanonade, wurde aufs Neue parlamentirt, unter Mittheilung, daß Stettin und Küstrin gefallen und die preußische Armee zertrümmert sei."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Sobald Jerome den Bericht des Generals Lefebvre erhalten hatte, traf er alle Anordnungen, um nun in Schlesien einzurücken. Die Division Deroy mußte am 9. November von Krossen nach Glogau vorrücken, um am 10. mit der Brigade Raglowich den Platz auf dem linken Ufer, mit der Brigade Siebein auf dem rechten Ufer einzuschließen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Am 13. um 4 Uhr Morgens eröffnete der Feind auf beiden Ufern sein Feuer, obgleich die Dunkelheit nur eine Richtung nach dem Feuer der Festungsbatterien gestattete, die mit Lebhaftigkeit antworteten. Die Stadt brannte an dreizehn verschiedenen Orten, doch wurde überall bald gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Gleich nach Beendigung des Feuers zog der Feind seine Artillerie aus den Deckungen zurück und besetzte dieselben nur durch Infanteriepikets; Posten wurden vorgeschoben, und stärkere Infanterie-Detaschements mit leichter Artillerie außer Kanonenschußweite aufgestellt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Nach diesen Anordnungen wurde der General Lefebvre, in Begleitung eines bayerschen Offiziers, als Parlamentair nach der Festung gesandt, um diese im Namen Jerome's, der sein Hauptquartier nach Ziebern bei Glogau verlegt hatte, zum dritten- und letztenmal aufzufordern."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Als Jerome durch die Antwort des preußischen Gouvernements gewahr wurde, daß die Festung es auf ernsthaftere Anstalten zur Eroberung ankommen lassen würde, ließ er sofort Alles aufbieten, um Belagerungsgeschütz herbeiführen und vor Allem die Munition ergänzen zu lassen, damit in der Nacht zum 15. das Feuer wieder eröffnet werden konnte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Eine abermalige Aufforderung, in welcher Jerome erklärte, die Stadt auf das Schrecklichste zu verwüsten, wenn die Kapitulation nicht angenommen würde, und zugleich Armeebefehle mittheilte, welche die Uebergabe von Küstrin und Magdeburg verkündigten, wurde wiederum zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Deserteurs waren es auch, welche dem Feinde die genauesten Nachrichten über den Zustand der Werke brachten, so daß Jerome den Plan faßte, in der Nacht zum 17. sich durch einen Handstreich der Festung zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Faschinen, Leitern ꝛc., Alles lag bereit, als im Augenblick der Ausführung der General Deroy erklärte, daß er nicht glaube, für ein so mißliches Unternehmen auf seine Truppen rechnen zu können, indem es denselben, nicht gewöhnt an dergleichen gewagte Angriffe, leicht an der nöthigen Kühnheit und Energie fehlen dürfte, welche allein einen Erfolg sicher stellen. Der Sturm mußte aufgegeben und das Belagerungsgeschütz abgewartet werden.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "1) Auf den Bericht Jerome's über das Aufgeben des Sturmes ließ Napoleon durch den M. Berthier antworten: »J'ai mis sous les yeux de l'Empereur, Monseigneur, votre lettre; S. M. trouve que les observations que vous a faites le général Deroy sont très justes; on ne peut pas prendre une ville d'assaut quand on na pas fait la brèche et quand il y a une escarpe et une bonne contreescarpe; S. M. pense que ceux qui ont pu être de l'avis d'une pareille attaque ont eu très grand tort; car on y perdrait beaucoup de monde inutilement.«"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Der Feind näherte sich den Werken allmälig mit seiner Infanterie in kleinen Gruben und eröffnete am 19. sein Gewehrfeuer, so daß die Kugeln bis in die Stadt flogen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Es waren diese Anordnungen von Seiten des Feindes auf Befehl Napoleons getroffen worden, um dadurch die Besatzung Tag und Nacht zu beunruhigen und mürbe und zur Uebergabe geneigt zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Fortgesetzt von Napoleon gedrängt, die Einnahme von Glogau zu beschleunigen, stand Jerome im Begriff, einen Angriff auf den Brückenkopf auf dem rechten Oder-Ufer zu versuchen; indessen traten Verhältnisse ein, welche die Ausführung behinderten. Jerome erhielt nämlich den Befehl, vor Glogau nur eine Division zu belassen, mit dem Rest des Korps aber schleunigst gegen Kalisch aufzubrechen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Sobald der General Vandamme am 28. Nachmittags eingetroffen war, ließ er die Festung auffordern, wurde aber zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Am 1. Dezember um 6¼ Uhr Morgens begann das Bombardement und dauerte bis nach 9 Uhr. Die Artillerie der Besatzung hatte zwar mit Nachdruck geantwortet, aber der Feind hatte seinen Zweck erreicht. Die Gewißheit, daß Belagerungsgeschütz eingetroffen, daß der Feind es in seiner Macht hatte, die Stadt einzuäschern, hatte das Gouvernement völlig umgestimmt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Gleich nach Beendigung des Feuers sandte der General Vandamme aufs Neue einen Parlamentair, und forderte die Festung mit der Versicherung auf, daß kein Entsatz zu hoffen sei, indem weder eine preußische noch eine russische Armee diesseits der Weichsel stehe und der König von Preußen bereits in Rußland sei. Da der Gouverneur diesen Angaben keinen Glauben schenken wollte, so gab der französische General zu mehrerer Bestätigung schriftlich sein Ehrenwort."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Obgleich der Gouverneur sich in Bezug auf das Eingehen in eine Kapitulation kurz vorher mit dem Major Puttlitz überworfen und bei dieser Gelegenheit erklärt hatte, sich unter den Trümmern der Stadt begraben zu lassen, schlug er nunmehr dennoch dem Feinde eine Kapitulation mit freiem Abzuge vor. Der General Vandamme verwarf diesen Antrag, und der Gouverneur versprach, am folgenden Tage andere Vorschläge zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 2. Dezember ließ nun das Gouvernement neue Kapitulationspunkte entwerfen, ohne den vorschriftlichen förmlichen Kriegsrath zusammenzuberufen, und als man um Mittag mit den Abschriften noch nicht fertig war, wurde ein Offizier an den General Vandamme gesandt, um wegen dieser Verspätung um Entschuldigung zu bitten. Der abgeschickte Offizier kehrte mit dem Generalstabs-Offizier des Generals Vandamme und Kapitulationsvorschlägen zurück, welche im Wesentlichen mit denen des Gouvernements übereinstimmten. Man wurde daher nunmehr sehr bald einig, und noch am Abend das Breslauer- und Oderthor durch die Württemberger besetzt."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the garrison put its most reliable battalion, Grevenitz's, on the weakest places of the main wall on the left bank, Tschepe's on the rest and the worst, Zastrow's, in the Dom-Retranchement on the right bank, a detachment of the best invalids in the Sternschanze and the rest of the invalids in its gorge; the cavalry and Jäger patrolled the abandoned outworks, and the burghers did duty in the town. On 7 November the foot and mounted Jäger and the cavalry reconnoitred toward Herrendorf and fell back after losing 4 prisoners, and the governor rejected the first summonses. All works, sorties and the like that could give occasion for desertion were stopped. To the summons after the fire of 13 November the governor answered, by French statements, that he recognised the impossibility of defending himself and would lay the points of capitulation before a council of war, and asked for a written summons; the council of war, despite the artillery officer's statements on the bad carriages and deficient serving of the guns, rejected surrender, and Major Puttlitz, commander of the 3rd musketeer battalion of vac. Grevenitz, who had spoken most decidedly against capitulating, carried the refusal at 2 in the afternoon of the 14th; burghers who asked the government to surrender the town got no answer. A further summons was refused. On 18 November a detachment under the engineer officer raided the Grundmühle. From the 19th the engineer urged the artillery officer in vain to fire canister at the enemy's pits, which the artillery officer called a useless waste of munition. On 22 November Lieutenant Sommerfeld took the Zenge detachment into the nearest outworks and, on the engineer's proposal, a 12-pounder was put into the counterguard of the Prussian ravelin, while the Jäger went into the outworks to the right of the ravelin. On the 28th a plot in Tschepe's battalion was discovered, its ringleaders shot and the rest made to run the gauntlet; Vandamme's summons of that day was refused. The bombardment of 1 December completely changed the government's mind; the governor, who had shortly before quarrelled with Puttlitz over capitulating and declared that he would be buried under the ruins of the town, proposed a capitulation with free withdrawal, and on 2 December the government had new points drafted without calling the prescribed formal council of war. Höpfner gives the government's reasons as the insufficiency of the garrison for the works that had to be held, the unreliability of the 3rd battalions of Tschepe and Zastrow, made up of Poles, whose commanders said they could no longer rely on their men, the arrival of the siege guns, which made the complete ruin of the town unavoidable, and the impossibility of relief. He judges that these reasons could not justify a capitulation, since the government knew the investing troops were comparatively very weak and the royal order of 2 November communicated to it demanded a defence to the last man, and that the governor rejected every proposal while only the soldier's losses were at stake but resolved on surrender as soon as the first bombs threatened the town and the welfare of 10,000 inhabitants.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 18-31. These were the decisions of the governor, the government and the garrison's officers, so the claim is tagged commander-created. Höpfner cites no document for the councils, marks the governor's answer of the 13th as given by French statements, and prints in a footnote a letter of refusal (claim side-b-objectives); the judgement is his own. English renderings (ours): 'the most reliable battalion of the garrison, the battalion von Grevenitz, occupied the weakest places of the main wall on the left bank of the Oder, the less reliable battalion von Tschepe the rest of it, and the worst battalion, von Zastrow, the Dom-Retranchement [the cathedral entrenchment] on the right bank of the Oder; a detachment of the best invalids held the Sternschanze [star fort] at the fortress's upper junction with the Oder, the rest of the invalids occupied the gorge' (the sentence continues on p. 19); 'of this work; the cavalry and the Jäger were used to patrol the abandoned outworks. The burghers did duty in the town' (the first sentence ends the sentence begun on p. 18); 'on 7 November at 2 in the afternoon mounted messengers from the neighbouring villages brought the report that the enemy was approaching, and at 3½ the foot and mounted Jäger and the cavalry moved out in the direction of Herrendorf to reconnoitre'; 'this detachment was a few thousand paces from the works when it already came upon numerous troops of enemy cavalry, and had to fall back on the fortress after the loss of 4 prisoners'; 'the canister fire from the works drove the Bavarian cavalry back toward Prostau, and they contented themselves with enclosing the fortress on both banks and summoning it by two parlementaires. The governor rejected the proposals'; 'on the garrison's side all works, sorties etc. that could give occasion for desertion were stopped, since the losses by desertion would very soon have weakened the garrison to the utmost'; 'on the 13th at 4 in the morning the enemy opened his fire on both banks, although the darkness allowed aiming only at the fire of the fortress batteries, which answered with liveliness. The town burned in thirteen different places, but everywhere the fires were soon put out'; 'the governor answered, according to French statements, that he recognised the impossibility of defending himself, and that he would at once call a council of war and lay the points of capitulation before it; at the same time he asked for a written summons, which was given him forthwith'; 'the council of war met, but despite the statements of the place's artillery officer on the bad state of the gun carriages and the deficient serving of the guns, the' (the sentence continues on p. 22); 'surrender was rejected' (the end of the sentence begun on p. 21); 'the brave Major Puttlitz, commander of the 3rd musketeer battalion of vac. Grevenitz, who had spoken out most decidedly against the capitulation, was charged at 2 in the afternoon of the 14th with carrying the refusal to the enemy'; 'on the same day some burghers asked the government to surrender the town, but received no answer'; 'a further summons, in which Jerome declared that he would lay waste the town in the most terrible manner if the capitulation were not accepted, and at the same time communicated army orders announcing the surrender of Küstrin and Magdeburg, was again rejected'; 'on 18 November the fortress artillery tried to set on fire the water mill lying nearest the Sternschanze, the so-called Grundmühle, which gave shelter to a Bavarian post, but did not achieve its aim'; 'under the lead of the place's engineer officer a detachment of 1 officer, 40 men of the 3rd battalion von Grevenitz and some artillerymen with pitch wreaths went forward to the mill, quickly occupied the exit of the buildings, took prisoner after slight resistance the enemy post, surprised, of 1 officer and 23 men of the 4th Line Regiment, set the buildings on fire and returned to the fortress. The miller, however, managed to save the mill'; 'the enemy gradually approached the works with his infantry in small pits and opened his musket fire on the 19th, so that the bullets flew into the town'; 'in the following days this fire was continued, and in vain the place's engineer tried to move the artillery officer to hinder the enemy from continuing his digging in, and to damp his fire, by lively canister fire. The artillery officer declared this a useless waste of munition, so that the enemy fire came ever nearer and became ever more regular, at times also supported by shell fire'; 'at last on 22 November, when the enemy had approached with his pits especially along the avenue of Rauschwitz, Lieutenant Sommerfeld was sent forward with the detachment of the regiment Zenge into the nearest outworks, and on the proposal of the place's engineer a 12-pounder was brought into the counterguard of the Prussian ravelin, so as to take the' (the sentence continues on p. 27); 'advanced enemy in flank and rear. To the same end the garrison's Jäger went into the outworks to the right of the ravelin toward the Oder. The enemy infantry fire was markedly quenched by this and in the following days kept up only moderately' (the first sentence ends the sentence begun on p. 26); 'on the 28th another plot was discovered in the 3rd musketeer' (the word continues on p. 28); 'battalion von Tschepe; the ringleaders were shot, the other men punished by running the gauntlet' (the end of the sentence begun on p. 27); 'as soon as General Vandamme had arrived on the afternoon of the 28th, he had the fortress summoned, but was rejected'; 'on 1 December at 6¼ in the morning the bombardment began and lasted until after 9 o'clock. The garrison's artillery had indeed answered with vigour, but the enemy had achieved his purpose. The certainty that siege guns had arrived, that the enemy had it in his power to burn the town to ashes, had completely changed the government's mind'; 'although the governor had shortly before fallen out with Major Puttlitz over entering into a capitulation and on that occasion had declared that he would let himself be buried under the ruins of the town, he now nevertheless proposed to the enemy a capitulation with free withdrawal. General Vandamme rejected this proposal, and the governor promised to make other proposals the next day'; 'on 2 December the government now had new points of capitulation drafted, without calling the prescribed formal council of war, and when at noon the copies were not yet ready, an officer was sent to General Vandamme to apologise for this delay. The officer sent returned with General Vandamme's general staff officer and proposals of capitulation that agreed in essentials with those of the government. Agreement was therefore now reached very soon, and that same evening the Breslau and Oder gates were occupied by the Württembergers'; 'the reasons that moved the government to surrender were the following: 1) the insufficiency of the garrison for the defence of the works that necessarily had to be held; 2) the unreliability of the 3rd battalions of Tschepe and Zastrow, made up of Poles, whose commanders had themselves declared that they could no longer rely on their men; 3) the arrival of the enemy's siege guns, by which the complete ruin of the town would have been unavoidable, and 4) the impossibility of a relief'; 'even if these reasons must in themselves be recognised as correct, they have not the slightest force to justify a capitulation, since the government knew that the investing troops were comparatively very weak, and the royal order of 2 November communicated to it expressly demanded a defence to the last man'; 'so long as it was only a question in Glogau of losses that fell on the soldier, the governor rejected every proposal to surrender; but as soon as the first bombs fell in the town, threatened it with devastation, and the welfare of 10,000 inhabitants was in danger, misgivings set in, and the surrender was resolved'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Das sicherste Bataillon der Besatzung, das Bataillon von Grevenitz, besetzte die schwächsten Stellen des Hauptwalles auf dem linken Oder-Ufer, den Rest desselben das minder sichere Bataillon von Tschepe, und das schlechteste Bataillon von Zastrow das Dom-Retranchement auf dem rechten Oder-Ufer; ein Kommando der besten Invaliden hielt die Sternschanze, am obern Anschluß der Festung an die Oder, der Rest der Invaliden besetzte die Kehle"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "dieses Werkes; die Kavallerie und die Jäger wurden zum Patrouilliren der verlassenen Außenwerke benutzt. Die Bürger versahen den Dienst in der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am 7. Nov. Nachmittags 2 Uhr brachten reitende Boten aus den benachbarten Dörfern die Meldung, daß der Feind im Anmarsch sei, und um 3½ Uhr rückten die Fuß- und reitenden Jäger und die Kavallerie in der Richtung auf Herrendorf zur Rekognoszirung aus."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Es war dies Detaschement wenige tausend Schritt von den Werken entfernt, als es bereits auf zahlreiche Trupps feindlicher Kavallerie stieß, und sich nach dem Verlust von 4 Gefangenen nach der Festung zurückziehen mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Das Kartätschfeuer von den Werken wies die bayersche Kavallerie gegen Prostau zurück und begnügte man sich, die Festung auf beiden Ufern zu umschließen und durch zwei Parlamentairs aufzufordern. Der Gouverneur wies die Anträge zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Von Seiten der Besatzung wurden alle Arbeiten, Ausfälle ꝛc., welche Gelegenheit zur Desertion geben konnten, eingestellt, da die Verluste durch Desertion die Besatzung sehr bald aufs Aeußerste geschwächt haben würden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Am 13. um 4 Uhr Morgens eröffnete der Feind auf beiden Ufern sein Feuer, obgleich die Dunkelheit nur eine Richtung nach dem Feuer der Festungsbatterien gestattete, die mit Lebhaftigkeit antworteten. Die Stadt brannte an dreizehn verschiedenen Orten, doch wurde überall bald gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Der Gouverneur antwortete, nach französischen Angaben, daß er die Unmöglichkeit erkenne, sich zu vertheidigen, und daß er sofort einen Kriegsrath zusammenberufen und diesem die Kapitulationspunkte vorlegen werde; zugleich verlangte er eine schriftliche Aufforderung, die ihm alsbald zu Theil wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Der Kriegsrath trat zusammen, doch trotz der Angaben des Artillerie-Offiziers vom Platz über die schlechte Laffetirung und mangelhafte Bedienung der Geschütze wurde die"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Uebergabe zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Der brave Major Puttlitz, Kommandeur des 3. Musketierbataillons von vac. Grevenitz, der sich am entschiedensten gegen die Kapitulation ausgesprochen hatte, wurde um 2 Uhr Nachmittags des 14. beauftragt, dem Feinde die abschlägliche Antwort zu überbringen.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Noch an demselben Tage baten einige Bürger das Gouvernement um die Uebergabe der Stadt, erhielten indessen keine Antwort."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Eine abermalige Aufforderung, in welcher Jerome erklärte, die Stadt auf das Schrecklichste zu verwüsten, wenn die Kapitulation nicht angenommen würde, und zugleich Armeebefehle mittheilte, welche die Uebergabe von Küstrin und Magdeburg verkündigten, wurde wiederum zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Am 18. November versuchte die Artillerie der Festung, die zunächst der Sternschanze belegene Wassermühle, die sogenannte Grundmühle, welche einem bayerschen Posten Schutz gewährte, in Brand zu setzen, gelangte indessen nicht zum Ziel."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Unter der Führung des Ingenieur-Offiziers vom Platz ging ein Kommando von 1 Offizier, 40 Mann vom 3. Bataillon von Grevenitz und einigen Artilleristen mit Pechkränzen nach der Mühle vor, besetzte schnell den Ausgang der Gebäude, nahm den feindlichen, überraschten Posten von 1 Offizier und 23 Mann des 4. Linien-Regiments nach geringem Widerstand gefangen, zündete die Gebäude an und kehrte nach der Festung zurück. Es gelang indessen dem Müller, die Mühle zu retten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Der Feind näherte sich den Werken allmälig mit seiner Infanterie in kleinen Gruben und eröffnete am 19. sein Gewehrfeuer, so daß die Kugeln bis in die Stadt flogen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "In den folgenden Tagen wurde dies Feuer fortgesetzt, und vergebens bemühte sich der Ingenieur vom Platz, den Artillerie-Offizier zu bewegen, durch ein lebhaftes Kartätschfeuer theils den Feind an Fortsetzung der Eingrabungen zu hindern, theils dessen Feuer zu dämpfen. Der Artillerie-Offizier erklärte dies für eine unnütze Munitionsverschwendung, so daß das feindliche Feuer immer näher rückte und immer regelmäßiger ward, zuweilen auch durch Granatfeuer unterstützt wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Endlich am 22. November, als der Feind sich mit seinen Gruben besonders längs der Allee von Rauschwitz genähert hatte, wurde der Lieutenant Sommerfeld mit dem Detaschement des Regiments Zenge in die zunächst gelegenen Außenwerke vorgesandt, auch auf den Vorschlag des Ingenieurs vom Platz ein 12pfünder in die Kontregarde des preußischen Ravelins gebracht, um den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "vorgegangenen Feind in Flanke und Rücken zu nehmen. Zu gleichem Zweck gingen die Jäger der Besatzung in die Außenwerke rechts des Ravelins gegen die Oder. Das feindliche Infanterie-Feuer wurde hierdurch merklich gelöscht und in den folgenden Tagen nur mäßig unterhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Am 28. wurde ein anderes Komplott im 3. Musketierba-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "taillon von Tschepe entdeckt; die Rädelsführer wurden erschossen, die übrigen Mannschaften durch Gassenlaufen bestraft."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Sobald der General Vandamme am 28. Nachmittags eingetroffen war, ließ er die Festung auffordern, wurde aber zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Am 1. Dezember um 6¼ Uhr Morgens begann das Bombardement und dauerte bis nach 9 Uhr. Die Artillerie der Besatzung hatte zwar mit Nachdruck geantwortet, aber der Feind hatte seinen Zweck erreicht. Die Gewißheit, daß Belagerungsgeschütz eingetroffen, daß der Feind es in seiner Macht hatte, die Stadt einzuäschern, hatte das Gouvernement völlig umgestimmt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Obgleich der Gouverneur sich in Bezug auf das Eingehen in eine Kapitulation kurz vorher mit dem Major Puttlitz überworfen und bei dieser Gelegenheit erklärt hatte, sich unter den Trümmern der Stadt begraben zu lassen, schlug er nunmehr dennoch dem Feinde eine Kapitulation mit freiem Abzuge vor. Der General Vandamme verwarf diesen Antrag, und der Gouverneur versprach, am folgenden Tage andere Vorschläge zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 2. Dezember ließ nun das Gouvernement neue Kapitulationspunkte entwerfen, ohne den vorschriftlichen förmlichen Kriegsrath zusammenzuberufen, und als man um Mittag mit den Abschriften noch nicht fertig war, wurde ein Offizier an den General Vandamme gesandt, um wegen dieser Verspätung um Entschuldigung zu bitten. Der abgeschickte Offizier kehrte mit dem Generalstabs-Offizier des Generals Vandamme und Kapitulationsvorschlägen zurück, welche im Wesentlichen mit denen des Gouvernements übereinstimmten. Man wurde daher nunmehr sehr bald einig, und noch am Abend das Breslauer- und Oderthor durch die Württemberger besetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "Die Gründe, welche das Gouvernement zur Uebergabe bewogen, waren folgende:\n1) die Unzulänglichkeit der Besatzung zur Vertheidigung der nothwendig zu haltenden Werke;\n2) die Unsicherheit der aus Polen zusammengesetzten 3. Bataillone von Tschepe und Zastrow, deren Kommandeurs selbst erklärt hatten, sich auf ihre Mannschaften nicht mehr verlassen zu können;\n3) die Ankunft des feindlichen Belagerungsgeschützes, wodurch der völlige Ruin der Stadt unvermeidlich gewesen, und\n4) die Unmöglichkeit eines Entsatzes."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "Wenn diese Gründe an und für sich auch als richtig anerkannt werden müssen, so besitzen sie dennoch nicht die geringste Kraft, um eine Kapitulation zu rechtfertigen, da das Gouvernement wußte, daß die Einschließungstruppen verhältnißmäßig sehr schwach waren, und der mitgetheilte königliche Befehl vom 2. November ausdrücklich eine Vertheidigung bis auf den letzten Mann forderte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p31-figures-v1",
+          "section": "p31",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 31 (transcribed from the page image)",
+          "quote": "So lange es sich in Glogau nur um Verluste handelte, welche den Soldaten trafen, wies der Gouverneur jeden Antrag zur Uebergabe zurück; sobald aber die ersten Bomben in die Stadt fielen, diese mit Verheerung bedrohten, das Glück von 10,000 Einwohnern in Gefahr stand, traten Bedenklichkeiten ein, und die Uebergabe war beschlossen."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the investment and capitulation of Groß-Glogau on 2 December: the Bavarians and French under Deroy forced the Prussian garrison under Reinhart to surrender after a 15-day blockade; the garrison fell into captivity as prisoners of war, the officers released on their word of honour. Höpfner: on 2 December the government had new points of capitulation drafted, Vandamme's general staff officer brought proposals that agreed with them in essentials, agreement was soon reached, and that evening the Württembergers occupied the Breslau and Oder gates; a mutiny then broke out in part of the garrison, which broke open the Jesuit church, where the stores of several cavalry depots and the effects of many private persons were kept, until the quiet part of the garrison put it down by force of arms. On 3 December the fortress was formally handed over: the troops marched out and laid down on the glacis their muskets, mostly broken beforehand; the invalids were released and the remaining men transported as prisoners of war. So fell Glogau, without the enemy having opened any siege works or dared a storm; the walls had suffered nothing, the damage to the burghers' houses was comparatively slight, and the fortress artillery was in completely good condition. The Emperor wrote to the Grand Duke of Berg from Posen on 3 December that Glogau had surrendered.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's and the Emperor's accounts, read from the page images (Bodart's from the frame transcription); no source read gives a different result. The capitulation's text was not seen; its terms are Höpfner's summary and Bodart's. Bodart's date, 2 December, is the day Höpfner has the capitulation agreed and the gates occupied; the formal handover is 3 December in Höpfner (our comparison). Bodart's release of the officers on parole is not in Höpfner, who has the invalids released and the rest taken as prisoners of war (claim side-b-losses). Höpfner's statement that side A opened no siege works stands beside his own account of its trenches and pits (claim fortification). English renderings (ours): Bodart, as in claim bodart-strength; 'on 2 December the government now had new points of capitulation drafted, without calling the prescribed formal council of war, and when at noon the copies were not yet ready, an officer was sent to General Vandamme to apologise for this delay. The officer sent returned with General Vandamme's general staff officer and proposals of capitulation that agreed in essentials with those of the government. Agreement was therefore now reached very soon, and that same evening the Breslau and Oder gates were occupied by the Württembergers'; 'until this moment the garrison had kept quiet, but now a mutiny broke out among part of it, in which the Jesuit church, where the stores of several cavalry depots and the effects of many private persons brought there for safety were kept, was broken open and many excesses committed, until it was put down by force of arms by the quiet part of the garrison'; 'on 3 December the fortress was formally handed over. The troops marched out and laid down on the glacis their muskets, which had mostly been broken beforehand. The invalids were released, the remaining men transported as prisoners of war'; 'so fell Glogau, without the enemy having opened any siege works or dared a storm. The walls had suffered nothing at all; the damage to the burghers' houses was comparatively slight; the fortress artillery was in completely good condition, despite the place's artillery officer having stated the contrary;' (the sentence continues on p. 30); 'the Emperor to the Grand Duke of Berg. Posen, 3 December 1806'; 'Glogau has surrendered'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 2./12. EINSCHLIESSUNG und KAPITULATION von Groß-Glogau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Bayern und Franzosen (8.000 Bayern und 1.000 Franzosen zus. 9.000 M.) unter dem bayr. Gen.-Lt. v. Deroy zwingen nach 15tägiger Blokade die preußische Besatzung (3.200 M. mit 124 Geschützen) unter Gen.-Lt. v. Reinhart zur Übergabe."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Garnison geriet in Kriegsgefangenschaft, die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 2. Dezember ließ nun das Gouvernement neue Kapitulationspunkte entwerfen, ohne den vorschriftlichen förmlichen Kriegsrath zusammenzuberufen, und als man um Mittag mit den Abschriften noch nicht fertig war, wurde ein Offizier an den General Vandamme gesandt, um wegen dieser Verspätung um Entschuldigung zu bitten. Der abgeschickte Offizier kehrte mit dem Generalstabs-Offizier des Generals Vandamme und Kapitulationsvorschlägen zurück, welche im Wesentlichen mit denen des Gouvernements übereinstimmten. Man wurde daher nunmehr sehr bald einig, und noch am Abend das Breslauer- und Oderthor durch die Württemberger besetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Bis zu diesem Augenblick hatte sich die Besatzung ruhig verhalten, doch nun brach unter einem Theil derselben ein Aufstand aus, bei welchem die Jesuiterkirche, worin sich die Kammern mehrerer Kavallerie-Depots und die hierher in Sicherheit gebrachten Effekten vieler Privatpersonen befanden, erbrochen und mehrfache Exzesse begangen wurden, bis er durch die Gewalt der Waffen des ruhigen Theils der Besatzung unterdrückt wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 3. Dezember wurde die Festung förmlich übergeben. Die Truppen rückten aus und streckten auf dem Glacis die Gewehre, welche meist vorher zerbrochen worden waren. Die Invaliden wurden entlassen, die übrigen Mannschaften als Kriegsgefangene transportirt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "So fiel Glogau, ohne daß der Feind irgend welche Belagerungsarbeiten eröffnet oder einen Sturm gewagt hätte. Die Wälle hatten gar nichts gelitten; der Schaden an den Bürgerhäusern war verhältnißmäßig gering; das Festungsgeschütz war in vollständig gutem Zustande, trotz dem daß der Artillerie-Offizier vom Platz darüber das Gegentheil ausgesagt hatte; Mu-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p215-figures-v1",
+          "section": "p215",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 215 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG.\n\nPosen, 3 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "Glogau s'est rendu."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's losses in the passages read are partial. Höpfner: on 18 November a sortie took prisoner the Bavarian post at the Grundmühle, 1 officer and 23 men of the 4th Line Regiment; on 16 November battery No. 4 and the batteries on the right bank kept up their fire until 10 o'clock without suffering any loss. No passage read gives a total loss for side A.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Höpfner, read from the page images; the figures were checked on full-resolution crops. They cover only parts of the investment and are not a total; Bodart's entry gives no loss for side A (claim bodart-strength). No passage read gives side A's loss in the bombardments of 13, 15 and 16 November and 1 December, or from the garrison's fire on the pits from the 19th and on 22 November. English renderings (ours): 'on 18 November the fortress artillery tried to set on fire the water mill lying nearest the Sternschanze, the so-called Grundmühle, which gave shelter to a Bavarian post, but did not achieve its aim'; 'under the lead of the place's engineer officer a detachment of 1 officer, 40 men of the 3rd battalion von Grevenitz and some artillerymen with pitch wreaths went forward to the mill, quickly occupied the exit of the buildings, took prisoner after slight resistance the enemy post, surprised, of 1 officer and 23 men of the 4th Line Regiment, set the buildings on fire and returned to the fortress. The miller, however, managed to save the mill'; 'on 16 November at 4½ in the morning the enemy's fire began anew on both banks of the Oder. The town burned in perhaps 30 places, but through the exemplary conduct of the burghers, supported by some men detailed for it, the fire was this time too put out everywhere'; 'the fortress artillery answered still more decidedly than on the previous day, especially with canister and high-angle fire, so that the enemy gave the order to withdraw the guns from the cover before daybreak. A countermand of this order, to keep up by continued fire the blaze that had broken out in the town, found the batteries, except No. 4, already evacuated, so that only the latter and those on the right bank continued the fire until 10 o'clock, without suffering any loss, although the fortress artillery concentrated its fire against battery No. 4'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Am 18. November versuchte die Artillerie der Festung, die zunächst der Sternschanze belegene Wassermühle, die sogenannte Grundmühle, welche einem bayerschen Posten Schutz gewährte, in Brand zu setzen, gelangte indessen nicht zum Ziel."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Unter der Führung des Ingenieur-Offiziers vom Platz ging ein Kommando von 1 Offizier, 40 Mann vom 3. Bataillon von Grevenitz und einigen Artilleristen mit Pechkränzen nach der Mühle vor, besetzte schnell den Ausgang der Gebäude, nahm den feindlichen, überraschten Posten von 1 Offizier und 23 Mann des 4. Linien-Regiments nach geringem Widerstand gefangen, zündete die Gebäude an und kehrte nach der Festung zurück. Es gelang indessen dem Müller, die Mühle zu retten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Den 16. November um 4½ Uhr Morgens begann das feindliche Feuer aufs Neue auf beiden Ufern der Oder. Die Stadt brannte wohl an 30 Orten, doch wurde durch das musterhafte Verhalten der Bürgerschaft, unterstützt durch einige kommandirte Mannschaft, das Feuer auch diesmal überall gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Die Festungs-Artillerie antwortete noch entschiedener als am vergangenen Tage, besonders durch Kartätsch- und Wurffeuer, so daß der Feind den Befehl ertheilte, die Geschütze vor Tagesanbruch aus den Deckungen zurückzunehmen. Ein Widerruf dieses Befehls, um durch fortgesetztes Feuer den in der Stadt entstandenen Brand zu unterhalten, fand die Batterien, bis auf die Nr. 4, bereits geräumt, so daß nur die letztere und die auf dem rechten Ufer das Feuer bis um 10 Uhr fortsetzten, ohne irgend einen Verlust zu erleiden, obgleich die Festungs-Artillerie gegen die Batterie Nr. 4 ihr Feuer konzentrirte."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B (Prussian) lost the fortress and its garrison. Höpfner: the garrison's loss came to 30-40 dead, as many wounded, and about 200 deserters; in the night to the 28th a plot of 96 men of the 3rd musketeer battalion von Zastrow went over to the enemy, having blown up the Dom gate, barriers and drawbridges, the Zerbau redoubt and the bridge over the old Oder, wounded the artillerymen in the redoubt or forced them to desert, and spiked its cannon; on 7 November the reconnaissance lost 4 prisoners. At the handover on 3 December the troops laid down their muskets, mostly broken beforehand, the invalids were released and the remaining men transported as prisoners of war; the walls had suffered nothing, the fortress artillery was in completely good condition, and munition and provisions were present in abundance. Bodart: the garrison fell into captivity as prisoners of war, the officers released on their word of honour. The Emperor wrote on 3 December that Glogau had surrendered and that he had ordered 4,000 muskets to be sent from it to Warsaw to arm the Poles.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Bodart's from the frame transcription), not combined. Höpfner does not say whether his 200 deserters include the 96 of the night to the 28th, or how many men were taken prisoner or released; no passage read counts the guns, muskets or stores taken, apart from the Emperor's 4,000 muskets. Höpfner's 3228 men and 124 guns before the investment are in claim side-b-strength. English renderings (ours): Bodart, as in claim bodart-strength; 'on 7 November at 2 in the afternoon mounted messengers from the neighbouring villages brought the report that the enemy was approaching, and at 3½ the foot and mounted Jäger and the cavalry moved out in the direction of Herrendorf to reconnoitre'; 'this detachment was a few thousand paces from the works when it already came upon numerous troops of enemy cavalry, and had to fall back on the fortress after the loss of 4 prisoners'; 'so fell Glogau, without the enemy having opened any siege works or dared a storm. The walls had suffered nothing at all; the damage to the burghers' houses was comparatively slight; the fortress artillery was in completely good condition, despite the place's artillery officer having stated the contrary;' (the sentence continues on p. 30); 'munition and provisions were present in abundance; the loss of the garrison came to 30-40 dead, as many wounded, and about 200 deserters' (the end of the sentence begun on p. 29); 'in the night to the 28th a plot of 96 men of the 3rd musketeer battalion von Zastrow went over to the enemy. The deserters had blown up the Dom gate, the barriers and drawbridges, the Zerbau redoubt and the bridge over the old Oder, partly wounded the artillerymen in the redoubt, partly forced them to desert, and spiked the cannon there'; 'on 3 December the fortress was formally handed over. The troops marched out and laid down on the glacis their muskets, which had mostly been broken beforehand. The invalids were released, the remaining men transported as prisoners of war'; 'the Emperor to the Grand Duke of Berg. Posen, 3 December 1806'; 'Glogau has surrendered'; 'I have ordered that 4,000 muskets be sent from that place to Warsaw to arm the Poles'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am 7. Nov. Nachmittags 2 Uhr brachten reitende Boten aus den benachbarten Dörfern die Meldung, daß der Feind im Anmarsch sei, und um 3½ Uhr rückten die Fuß- und reitenden Jäger und die Kavallerie in der Richtung auf Herrendorf zur Rekognoszirung aus."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Es war dies Detaschement wenige tausend Schritt von den Werken entfernt, als es bereits auf zahlreiche Trupps feindlicher Kavallerie stieß, und sich nach dem Verlust von 4 Gefangenen nach der Festung zurückziehen mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "So fiel Glogau, ohne daß der Feind irgend welche Belagerungsarbeiten eröffnet oder einen Sturm gewagt hätte. Die Wälle hatten gar nichts gelitten; der Schaden an den Bürgerhäusern war verhältnißmäßig gering; das Festungsgeschütz war in vollständig gutem Zustande, trotz dem daß der Artillerie-Offizier vom Platz darüber das Gegentheil ausgesagt hatte; Mu-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "nition und Proviant waren in Fülle vorhanden; der Verlust der Garnison betrug 30—40 Todte, eben so viele Verwundete, und gegen 200 Deserteurs."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "In der Nacht zum 28. ging ein Komplott von 96 Mann des 3. Musketierbataillons von Zastrow zum Feinde über. Die Deserteurs hatten das Domthor, die Barrieren und Aufziehbrücken, die Zerbauer Redoute und die Brücke über die alte Oder gesprengt, die Artilleristen in der Redoute theils verwundet, theils zur Desertion gezwungen und die Kanonen daselbst vernagelt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 3. Dezember wurde die Festung förmlich übergeben. Die Truppen rückten aus und streckten auf dem Glacis die Gewehre, welche meist vorher zerbrochen worden waren. Die Invaliden wurden entlassen, die übrigen Mannschaften als Kriegsgefangene transportirt."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Garnison geriet in Kriegsgefangenschaft, die Offiziere wurden gegen Ehrenwort entlassen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p215-figures-v1",
+          "section": "p215",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 215 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG.\n\nPosen, 3 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "Glogau s'est rendu."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "J'ai ordonné qu'on envoyât de cette place sur Varsovie 4,000 fusils pour armer les Polonais."
+        }
+      ]
+    },
+    {
+      "id": "glogau-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Groß-Glogau, a town in Prussia, province of Silesia, on the Oder, 50 km north of Liegnitz; the 30th Bulletin calls Glogau the capital of Upper Silesia. Höpfner: the fortress lay on both banks of the Oder, with its main wall on the left bank, the Dom-Retranchement on the right bank and the Sternschanze at its upper junction with the Oder; the Schießhaus, a farmstead, stood close below the town on the Oder; side A approached especially along the avenue of Rauschwitz; the batteries on the right bank stood behind the dam before Zerbau; a bridge at Beichau was to keep the connection between the banks; and on 30 November the roads were so bad from the wet weather that the small mortars and the howitzers, brought up on sledges, could be put into the batteries only at 8 in the evening.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images (Bodart's from the frame transcription). Höpfner's Plan Nr. XVII of Glogau was not inspected, and where each work stood is taken only from the descriptions; the works themselves are in claim fortification. The 30th Bulletin's 'capital of Upper Silesia' is kept as printed. The ground is tagged inherited; the weather and the roads are kept with it. English renderings (ours): Bodart, '(town in Prussia, province of Silesia, on the Oder, 50 km north of Liegnitz)'; '30th Bulletin of the Grande Armée. Berlin, 10 November 1806'; 'Prince Jérôme has had the place of Glogau, capital of Upper Silesia, blockaded by Brigade General Lefebvre at the head of 2,000 Bavarian horse. The place was bombarded on the 8th by 10 howitzers served by light artillery. The Prince has praised the conduct of the Bavarian cavalry. General Deroy, with his division, invested Glogau on the 9th; talks have been opened for its surrender'; 'the most reliable battalion of the garrison, the battalion von Grevenitz, occupied the weakest places of the main wall on the left bank of the Oder, the less reliable battalion von Tschepe the rest of it, and the worst battalion, von Zastrow, the Dom-Retranchement [the cathedral entrenchment] on the right bank of the Oder; a detachment of the best invalids held the Sternschanze [star fort] at the fortress's upper junction with the Oder, the rest of the invalids occupied the gorge' (the sentence continues on p. 19); 'of this work; the cavalry and the Jäger were used to patrol the abandoned outworks. The burghers did duty in the town' (the first sentence ends the sentence begun on p. 18); 'during this cannonade the enemy set fire in several places to the stock of wood of 10-15,000 Klafter [cords] standing by the Schießhaus [shooting house], a farmstead close below the town on the Oder'; 'at last on 22 November, when the enemy had approached with his pits especially along the avenue of Rauschwitz, Lieutenant Sommerfeld was sent forward with the detachment of the regiment Zenge into the nearest outworks, and on the proposal of the place's engineer a 12-pounder was brought into the counterguard of the Prussian ravelin, so as to take the' (the sentence continues on p. 27); 'battery received only 2 cannon and 1 howitzer. On the right bank only ½ a Bavarian battery and a Württemberg battery brought up, or 9 guns, had been placed behind the dam to the left before Zerbau' (the first sentence ends the sentence begun on p. 20); 'on 17 November early the Bavarians set fire to the wood still standing at the Schießhaus, whereby the building itself was laid in ashes. The Württembergers relieved the brigade Siebein on this day, which moved to the left bank; a bridge at Beichau was to maintain the connection between the two banks'; 'on the evening of the same day six vessels with siege guns and munition arrived at Beichau. On 29 November the unloading of the projectiles began, which were housed in the church of Prostau; on the 30th the guns, 6 small and 4 heavy mortars and 4 howitzers of heavy calibre, were disembarked, but the roads had become so bad from the wet weather that had set in that only in the evening at 8 o'clock could the small mortars and the howitzers, brought up on sledges, be put into the batteries, and, together with the field howitzers already standing there, the following distribution took place: in battery No. 1, 2 mortars and 2 howitzers; in No. 2, 3 and 5, 2 howitzers each; in No. 4 and 6, 2 mortars and 2 howitzers each'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "(Stadt in Preußen, Provinz Schlesien, an der Oder, 50 km nördl. von Liegnitz)."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p806-figures-v1",
+          "section": "p806",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 806 (transcribed from the page image)",
+          "quote": "30e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 10 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p806-figures-v1",
+          "section": "p806",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 806 (transcribed from the page image)",
+          "quote": "Le prince Jérôme a fait bloquer la place de Glogau, capitale de la Haute-Silésie, par le général de brigade Lefebvre, à la tête de 2,000 chevaux bavarois. La place a été bombardée le 8 par 10 obusiers servis par de l'artillerie légère. Le Prince a fait l'éloge de la conduite de la cavalerie bavaroise. Le général Deroy, avec sa division, a investi Glogau le 9; on est entré en pourparlers pour sa reddition."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Das sicherste Bataillon der Besatzung, das Bataillon von Grevenitz, besetzte die schwächsten Stellen des Hauptwalles auf dem linken Oder-Ufer, den Rest desselben das minder sichere Bataillon von Tschepe, und das schlechteste Bataillon von Zastrow das Dom-Retranchement auf dem rechten Oder-Ufer; ein Kommando der besten Invaliden hielt die Sternschanze, am obern Anschluß der Festung an die Oder, der Rest der Invaliden besetzte die Kehle"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "dieses Werkes; die Kavallerie und die Jäger wurden zum Patrouilliren der verlassenen Außenwerke benutzt. Die Bürger versahen den Dienst in der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Während dieser Kanonade zündete der Feind den beim Schießhause — ein Gehöft nahe unterhalb der Stadt an der Oder — stehenden Holzvorrath von 10—15,000 Klaftern an mehreren Orten an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Endlich am 22. November, als der Feind sich mit seinen Gruben besonders längs der Allee von Rauschwitz genähert hatte, wurde der Lieutenant Sommerfeld mit dem Detaschement des Regiments Zenge in die zunächst gelegenen Außenwerke vorgesandt, auch auf den Vorschlag des Ingenieurs vom Platz ein 12pfünder in die Kontregarde des preußischen Ravelins gebracht, um den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Batterie erhielt nur 2 Kanonen und 1 Haubitze. Auf dem rechten Ufer waren nur ½ bayersche Batterie und eine herbeigeführte württembergische Batterie; oder 9 Geschütze, hinter dem Damm links vor Zerbau aufgestellt worden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Am 17. November in der Frühe zündeten die Bayern das noch stehen gebliebene Holz am Schießhause an, wobei das Gebäude selbst in Asche gelegt wurde. Die Württemberger lösten an diesem Tage die Brigade Siebein ab, welche auf das linke Ufer rückte; eine Brücke bei Beichau sollte die Verbindung zwischen beiden Ufern erhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "An demselben Tage Abends langten sechs Fahrzeuge mit Belagerungsgeschütz und Munition bei Beichau an. Am 29. November begann die Ausladung der Geschosse, die in der Kirche von Prostau untergebracht wurden; am 30. wurden die Geschütze — 6 kleine und 4 schwere Mörser und 4 Haubitzen schweren Kalibers — ausgeschifft, doch waren die Wege durch die eingetretene nasse Witterung so schlecht geworden, daß erst am Abend um 8 Uhr die kleinen Mörser und die Haubitzen, auf Schleifen herangebracht, in die Batterien eingeführt werden konnten, und, im Verein mit den bereits stehenden Feldhaubitzen, folgende Vertheilung stattfand: in der Batterie Nr. 1. 2 Mörser und 2 Haubitzen, in der Nr. 2., 3. und 5. je 2 Haubitzen, in Nr. 4. und 6. je 2 Mörser und 2 Haubitzen."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian), in Höpfner: 124 guns stood on the walls, and there was no lack of munition or provisions for a lengthy siege; the burghers too had laid in food. During the investment the garrison was very well fed: burghers sent warm meals to the walls, a collection was made for the artillerymen, few in number and heavily worked, and the Jewish community gave 100 coats, so that with the clothing stores of the cavalry depots most of the men on duty had coats. Side A dug off the pipes that brought the town's drinking water, so that pumps were set in the Oder. At the council of war the artillery officer spoke of the bad carriages and deficient serving of the guns; at the fall the fortress artillery was in good condition and munition and provisions were present in abundance. Side A: the Emperor wrote on 10 November that he had ordered the general commanding at Küstrin to embark 6 mortars and 4 siege howitzers for Glogau, and that all the boats on the Oder should be collected for a bridge. Höpfner: the batteries were armed with 4 cannon and 2 howitzers each, battery No. 5 with 2 cannon and 1 howitzer, with 9 guns on the right bank; after the refusal Jérôme had siege guns brought up and the munition replenished, and the batteries were rearmed with 12-pounders and howitzers, battery No. 6 being given up; the mortars and heavy howitzers expected from Küstrin, embarked on the 14th, were held up by the water level of the Oder; six vessels with siege guns and munition reached Beichau on the evening of the 28th, and on the 30th 6 small and 4 heavy mortars and 4 heavy howitzers were disembarked, with 30 rounds ready for the siege guns and 40 for the field howitzers, while the 4 heavy mortars could not yet be brought up. The major general's letter of 16 November ordered a bridge over the Oder near Glogau and, since Lissa and the other towns in that part must have much grain, a requisition of 100,000 rations of oats and 20,000 quintals of wheat or flour, to be sent to Posen. Höpfner has the corps' heavy baggage remain at Grüneberg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and the French letters, read from the page images; the figures were checked on full-resolution crops. Side B's guns and stores were set before the investment, side A's guns and supplies came from the commanders' dispositions; one claim carries one phase, so it is unresolved. The Emperor's 6 mortars and 4 howitzers ordered and Höpfner's 6 small and 4 heavy mortars and 4 heavy howitzers disembarked are kept as given (our comparison). Whether the requisition of 16 November was made is not shown. No passage read counts side A's daily needs or the stores found at the capitulation. English renderings (ours): 'there were 124 pieces of ordnance on the walls; there was no lack either of munition or of provisions to withstand a lengthy siege; the burghers too, despite the shortness of the time, had supplied themselves with food as far as possible'; 'the garrison meanwhile was very well fed'; 'a great part of the burghers sent the troops on the walls warm breakfast, even dinner, and a collection was made throughout the town for the artillerymen, who because of their small number had an especially heavy service'; 'to protect the soldiers better against the raw weather, the burghers set up fair booths behind the walls; indeed even the numerous Jewish community collected and gave the garrison 100 coats, so that, with the help of the clothing stores of the cavalry depots, the men on duty could for the most part be provided with coats'; 'it was felt very keenly that the enemy dug off the pipes by which the town was supplied with drinking water, so that pumps had to be set in the Oder to make do with river water'; 'the council of war met, but despite the statements of the place's artillery officer on the bad state of the gun carriages and the deficient serving of the guns, the' (the sentence continues on p. 22); 'surrender was rejected' (the end of the sentence begun on p. 21); 'so fell Glogau, without the enemy having opened any siege works or dared a storm. The walls had suffered nothing at all; the damage to the burghers' houses was comparatively slight; the fortress artillery was in completely good condition, despite the place's artillery officer having stated the contrary;' (the sentence continues on p. 30); 'munition and provisions were present in abundance; the loss of the garrison came to 30-40 dead, as many wounded, and about 200 deserters' (the end of the sentence begun on p. 29); 'the Emperor to Prince Jérôme. Berlin, 10 November 1806'; 'I greatly wish to be master of Glogau. I have given orders to the general commanding at Küstrin to embark 6 mortars and 4 siege howitzers and to send them to you to bombard the town. If Glogau surrenders, send an officer to inform Küstrin of it, so that this movement is not made'; 'have all the boats you come upon on the Oder collected, so as to make a bridge in one night and wherever you wish'; 'on 11 November the Bavarians worked on the left bank at cover for six batteries, and on the evening of the 12th the artillery of the division Wrede also arrived from Grüneberg before Glogau. At midnight the guns were brought into these earthworks, each of them, with the exception of battery No. 5, armed with 4 cannon and 2 howitzers; the said' (the sentence continues on p. 21); 'battery received only 2 cannon and 1 howitzer. On the right bank only ½ a Bavarian battery and a Württemberg battery brought up, or 9 guns, had been placed behind the dam to the left before Zerbau' (the first sentence ends the sentence begun on p. 20); 'when Jerome became aware from the Prussian government's answer that the fortress would let it come to more serious measures for its capture, he at once had every effort made to bring up siege guns and above all to replenish the munition, so that the fire could be reopened in the night to the 15th'; 'the gun cover was built more solidly, and since the fortress's 6-pounders did no damage but did betray the weakness of the blockading troops' artillery, it was decided to restrict themselves more to the use of the howitzers and 12-pounders and to arm the batteries accordingly, so that batteries No. 2, 3 and 4 were each equipped with two 12-pounders and 2 howitzers, battery No. 1 with two 12-pounders, and only battery No. 5 with two 6-pounders and 1 howitzer, while battery No. 6 was given up entirely'; 'in the night to the 18th the blockading troops worked on the left bank of the Oder at trenches about 100 paces long, to the right and left of the several batteries, so as to place in them 200 men of infantry each to cover the artillery,' (the sentence continues on p. 26); 'and everything was prepared for setting up the mortars and heavy howitzers expected from Küstrin, which had been embarked on the 14th but were held up by the water level of the Oder' (the end of the sentence begun on p. 25); 'as soon as General Vandamme had arrived on the afternoon of the 28th, he had the fortress summoned, but was rejected'; 'on the evening of the same day six vessels with siege guns and munition arrived at Beichau. On 29 November the unloading of the projectiles began, which were housed in the church of Prostau; on the 30th the guns, 6 small and 4 heavy mortars and 4 howitzers of heavy calibre, were disembarked, but the roads had become so bad from the wet weather that had set in that only in the evening at 8 o'clock could the small mortars and the howitzers, brought up on sledges, be put into the batteries, and, together with the field howitzers already standing there, the following distribution took place: in battery No. 1, 2 mortars and 2 howitzers; in No. 2, 3 and 5, 2 howitzers each; in No. 4 and 6, 2 mortars and 2 howitzers each'; 'for the siege guns 30, for the field howitzers 40 rounds lay ready in the batteries. By night the town was to be shelled, by day partly the town, partly the cavaliers of the fortress and the embrasures of the works. The 4 heavy mortars had not yet been brought up'; 'the Major General to Prince Jérôme. Berlin, 16 November 1806'; 'the Emperor wishes you to have a bridge thrown over the Oder near Glogau; this bridge will have the double advantage of favouring your blockade and giving you the means of moving rapidly from one bank to the other'; 'the town of Lissa and the other towns in that part must have much grain; the Emperor therefore wishes you to make a requisition of 100,000 rations of oats, 20,000 quintals of wheat or flour and to have them sent as soon as possible to Posen'; 'the brigade Lilienberg of the Württemberg division received the order to march on the 15th from Züllichau to Glogau' (the sentence continues on p. 23); 'to relieve the brigade Siebein, which was to unite with the brigade Raglowich on the left bank of the Oder; the division Wrede had already received the order to march on the 14th from Grüneberg to Polkwitz and to take post on the road to Breslau, and later the rest of the Württemberg division also received the order to advance on the 18th to Kuttlau. Only the corps' heavy baggage remained at Grüneberg' (the first sentence ends the sentence begun on p. 22).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "An Geschütz befanden sich 124 Stück auf den Wällen; es fehlte weder an Munition noch an Proviant, um eine langwierige Belagerung zu bestehen; auch die Bürger hatten sich, trotz der Kürze der Zeit, möglichst mit Lebensmitteln versehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Die Besatzung wurde während dessen sehr gut verpflegt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Ein großer Theil der Bürgerschaft schickte den Truppen auf den Wällen warmes Frühstück, selbst Mittagbrod, und für die Artilleristen, die bei ihrer geringen Zahl einen besonders schweren Dienst hatten, wurde in der ganzen Stadt kollektirt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Um die Soldaten mehr gegen die rauhe Witterung zu schützen, schlugen die Bürger hinter den Wällen Jahrmarktsbuden auf, ja, selbst die zahlreiche Judenschaft sammelte, und schenkte der Besatzung 100 Mäntel, so daß, mit Zuhülfenahme der Montirungskammern der Kavallerie-Depots, die dienstthuende Mannschaft zum größten Theil mit Mänteln versehen werden konnte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Sehr empfindlich bemerkte man, daß der Feind die Röhrleitungen, durch welche die Stadt mit Trinkwasser versorgt wurde, abgrub, so daß man Pumpen in die Oder setzen mußte, um sich mit Flußwasser zu begnügen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Der Kriegsrath trat zusammen, doch trotz der Angaben des Artillerie-Offiziers vom Platz über die schlechte Laffetirung und mangelhafte Bedienung der Geschütze wurde die"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Uebergabe zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "So fiel Glogau, ohne daß der Feind irgend welche Belagerungsarbeiten eröffnet oder einen Sturm gewagt hätte. Die Wälle hatten gar nichts gelitten; der Schaden an den Bürgerhäusern war verhältnißmäßig gering; das Festungsgeschütz war in vollständig gutem Zustande, trotz dem daß der Artillerie-Offizier vom Platz darüber das Gegentheil ausgesagt hatte; Mu-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "nition und Proviant waren in Fülle vorhanden; der Verlust der Garnison betrug 30—40 Todte, eben so viele Verwundete, und gegen 200 Deserteurs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU PRINCE JÉRÔME.\n\nBerlin, 10 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "Je désire fort être maître de Glogau. J'ai donné ordre au général qui commande à Küstrin de faire embarquer 6 mortiers et 4 obusiers de siége et de vous les envoyer pour bombarder la ville. Si Glogau se rend, envoyez un officier en prévenir à Küstrin, afin qu'on ne fasse pas ce mouvement."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "Faites ramasser tous les bateaux que vous rencontrerez sur l'Oder, afin de faire un pont dans une nuit et où vous voudrez."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Am 11. November arbeiteten die Bayern auf dem linken Ufer an Deckungen zu sechs Batterien, und am 12. Abends traf noch die Artillerie der Division Wrede von Grüneberg vor Glogau ein. Um Mitternacht wurden die Geschütze in diese Erd-Aufwürfe eingeführt, und zwar jeder, mit Ausnahme der Batterie Nr. 5, durch 4 Kanonen und 2 Haubitzen armirt; die genannte"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Batterie erhielt nur 2 Kanonen und 1 Haubitze. Auf dem rechten Ufer waren nur ½ bayersche Batterie und eine herbeigeführte württembergische Batterie; oder 9 Geschütze, hinter dem Damm links vor Zerbau aufgestellt worden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Als Jerome durch die Antwort des preußischen Gouvernements gewahr wurde, daß die Festung es auf ernsthaftere Anstalten zur Eroberung ankommen lassen würde, ließ er sofort Alles aufbieten, um Belagerungsgeschütz herbeiführen und vor Allem die Munition ergänzen zu lassen, damit in der Nacht zum 15. das Feuer wieder eröffnet werden konnte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Die Geschützdeckungen wurden solider ausgeführt, und da die 6pfünder der Festung keinen Schaden zufügten, wohl aber die Schwäche der Artillerie der Blokadetruppen verriethen, so beschloß man, sich mehr auf den Gebrauch der Haubitzen und 12pfünder zu beschränken, und demgemäß die Batterien zu armiren, so daß die Batterien Nr. 2, 3 und 4 jede mit 2—12pfündern und 2 Haubitzen, die Batterie Nr. 1 mit 2—12pfündern, und nur die Batterie Nr. 5 mit 2—6pfündern und 1 Haubitze ausgerüstet, die Batterie Nr. 6 aber ganz aufgegeben wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "In der Nacht zum 18. arbeiteten die Blokadetruppen auf dem linken Oder-Ufer an Laufgräben von etwa 100 Schritt Ausdehnung, rechts und links der einzelnen Batterien, um darin je 200 Mann Infanterie zur Deckung der Artillerie aufzustellen,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "auch wurde Alles zur Aufstellung der aus Küstrin erwarteten Mörser und schweren Haubitzen vorbereitet, welche am 14. eingeschifft waren, aber durch den Wasserstand der Oder aufgehalten wurden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Sobald der General Vandamme am 28. Nachmittags eingetroffen war, ließ er die Festung auffordern, wurde aber zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "An demselben Tage Abends langten sechs Fahrzeuge mit Belagerungsgeschütz und Munition bei Beichau an. Am 29. November begann die Ausladung der Geschosse, die in der Kirche von Prostau untergebracht wurden; am 30. wurden die Geschütze — 6 kleine und 4 schwere Mörser und 4 Haubitzen schweren Kalibers — ausgeschifft, doch waren die Wege durch die eingetretene nasse Witterung so schlecht geworden, daß erst am Abend um 8 Uhr die kleinen Mörser und die Haubitzen, auf Schleifen herangebracht, in die Batterien eingeführt werden konnten, und, im Verein mit den bereits stehenden Feldhaubitzen, folgende Vertheilung stattfand: in der Batterie Nr. 1. 2 Mörser und 2 Haubitzen, in der Nr. 2., 3. und 5. je 2 Haubitzen, in Nr. 4. und 6. je 2 Mörser und 2 Haubitzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Für die Belagerungsgeschütze lagen in den Batterien 30, für die Feldhaubitzen 40 Wurf bereit. Bei Nacht sollte die Stadt beworfen werden, bei Tage theils die Stadt, theils die Kavaliere der Festung und die Scharten der Werke. Die 4 schweren Mörser hatten noch nicht herangeschafft werden können."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 104 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p105-figures-v1",
+          "section": "p105",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 105 (transcribed from the page image)",
+          "quote": "L'Empereur désire que vous fassiez jeter un pont sur l'Oder près Glogau; ce pont aura le double avantage de favoriser votre blocus et de vous donner les moyens de vous porter rapidement d'une rive sur l'autre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p105-figures-v1",
+          "section": "p105",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 105 (transcribed from the page image)",
+          "quote": "La ville de Lissa et les autres villes dans cette partie doivent avoir beaucoup de blés; l'Empereur désire donc que vous fassiez une réquisition de 100,000 rations d'avoine, 20,000 quintaux de blé ou farine et que vous les fassiez diriger le plus tôt possible sur Posen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Die Brigade Lilienberg der württembergischen Division erhielt den Befehl, am 15. von Züllichau nach Glogau zu mar-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "schiren, um die Brigade Siebein abzulösen, welche sich mit der Brigade Raglowich auf dem linken Oder-Ufer vereinigen sollte; die Division Wrede hatte bereits den Befehl erhalten, am 14. von Grüneberg auf Polkwitz zu marschiren und sich auf der Straße nach Breslau aufzustellen, und später erhielt auch noch der Rest der württembergischen Division den Befehl, am 18. auf Kuttlau vorzurücken. Nur die schwere Bagage des Korps verblieb bei Grüneberg."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A: Marshal Davout's letter of 4 November reports that his officer wrote from Beuthen that all Silesia was without Prussian troops except the fortresses and that the garrison of Glogau amounted to 3,500 men, of whom 1,000 cavalry, under Major General Margitz, who was said to be very uneasy and mediocre. The major general's letter of 5 November had Deroy send cavalry parties toward Breslau to intercept the couriers and learn the situation of that place, and the Emperor wrote on 10 November that Lefebvre ought to have sent Jérôme more information on what had happened in the country. Höpfner: on 8 November the engineer officer with Lefebvre reconnoitred the place and found it in a state that permitted a forcible attack, but the corps' troops were too little known for it; deserters brought side A the most exact news of the state of the works, which led to the plan of a coup de main; and the rumour of the approach of a Russian corps 10,000 men strong gave occasion to a concentration of the corps. The 32nd Bulletin, of 16 November, counted one regiment of the King of Prussia in Gross-Glogau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters and Bulletin, read from the page images, with Höpfner. The passages read do not show what side A knew of the garrison's true strength or of its unreliability before the deserters came, or what Lefebvre reported; Davout's figures are also in claim side-b-strength-other. The engineer officer's judgement and the deserters' news are Höpfner's account, without a cited report. English renderings (ours): 'Marshal Davout to the Emperor. Francfort, 4 November 1806'; 'I received this morning a report from one of my officers whom I sent toward Breslau with 80 horse to stop the couriers and get news; he writes to me from Beuthen on the Oder, a few leagues from Glogau, that all Silesia is without Prussian' (the word continues on p. 42; the note mark refers to Foucart's footnote, not transcribed); 'troops, except the fortresses; that the garrison of Glogau amounts to 3,500 men, of whom 1,000 cavalry. It is composed, like that of Küstrin, of 3rd battalions. Major General Margitz commands the place. He is said to be very uneasy and mediocre' (the first sentence ends the sentence begun on p. 41); 'the Major General to Prince Jérôme. Berlin, 5 November 1806'; 'the Emperor orders that Your Highness send' (the sentence continues on p. 57); 'General Deroy to invest the place of Glogau with 6,000 men... Your Highness will prescribe to General Deroy to have himself scouted for and to send cavalry parties toward Breslau to intercept the couriers and learn thereby the situation of that place..... General Deroy will be before Glogau on the 7th or 8th at the latest; you on the 6th in the evening at Grüneberg; the Württembergers on the 7th at Zullichau in position' (the first sentence ends the sentence begun on p. 56; the points are the print's); 'the Emperor to Prince Jérôme. Berlin, 10 November 1806'; 'General Lefebvre ought to have sent you more information on what has happened in the country'; 'on the morning of 8 November at 6 o'clock the cannonade against the fortress was continued, during which the' (the sentence continues on p. 20); 'engineer officer attached to the detachment reconnoitred the place and found it in a state that well permitted a forcible attack. Since, however, the troops of the corps were too little known as to their competence to entrust them with an undertaking still so hazardous, he asked only for the building of 5-6 batteries of 8-10 guns, above all high-angle pieces, to bombard works and town' (the first sentence ends the sentence begun on p. 19); 'it was deserters, too, who brought the enemy the most exact news of the state of the works, so that Jerome formed the plan of taking the fortress by a coup de main in the night to the 17th'; 'the rumour of the approach of a Russian corps 10,000 men strong gave occasion for this concentration of the corps'; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'there remains today to the King of Prussia one regiment in the place of' (the sentence continues on p. 849); 'Gross-Glogau, which is besieged, one at Breslau, one at Brieg, 2 at Warsaw and some regiments at Königsberg; in all, about 15,000 men of infantry and 3 or 4,000 men of cavalry' (the end of the sentence begun on p. 848).",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p41-figures-v1",
+          "section": "p41",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 41 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT A L'EMPEREUR.\n\nFrancfort, 4 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p41-figures-v1",
+          "section": "p41",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 41 (transcribed from the page image)",
+          "quote": "J'ai reçu ce matin un rapport d'un de mes officiers que j'ai envoyé sur Breslau avec 80 chevaux pour arrêter les courriers et avoir des nouvelles; il m'écrit de Beuthen sur l'Oder, à quelques lieues de Glogau¹, que toute la Silésie est sans troupes prus-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p42-figures-v1",
+          "section": "p42",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 42 (transcribed from the page image)",
+          "quote": "siennes, excepté les places fortes; que la garnison de Glogau se monte à 3,500 hommes dont 1,000 de cavalerie. Elle est composée, comme celle de Küstrin, des 3es bataillons. Le général-major Margitz commande la place. Il passe pour être très-inquiet et médiocre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 5 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "L'Empereur ordonne que Votre Altesse envoie le"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p57-figures-v1",
+          "section": "p57",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 57 (transcribed from the page image)",
+          "quote": "général Deroy pour investir la place de Glogau avec 6,000 hommes... Votre Altesse prescrira au général Deroy de se faire éclairer et d'envoyer des partis de cavalerie sur Breslau pour intercepter les courriers et connaître par là la situation de cette place..... Le général Deroy sera le 7 ou 8 au plus tard devant Glogau; vous le 6 au soir à Grüneberg; les Wurtembergeois le 7 à Zullichau en position."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU PRINCE JÉRÔME.\n\nBerlin, 10 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "Le général Lefebvre aurait dû vous envoyer plus de renseignements sur ce qui s'est passé dans le pays."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am Morgen des 8. Novembers um 6 Uhr wurde die Kanonade gegen die Festung fortgesetzt, während welcher der dem"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Detaschement mitgegebene Ingenieur-Offizier den Platz rekognoszirte und ihn in einem Zustande fand, der einen gewaltsamen Angriff wohl gestattete. Da indessen die Truppen des Korps in Bezug auf ihre Tüchtigkeit zu wenig gekannt waren, um ihnen ein solches immer noch gewagtes Unternehmen anzuvertrauen, so verlangte er nur den Bau von 5—6 Batterien zu 8—10 Geschützen, besonders Wurfgeschütz, um Werke und Stadt zu beschießen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Deserteurs waren es auch, welche dem Feinde die genauesten Nachrichten über den Zustand der Werke brachten, so daß Jerome den Plan faßte, in der Nacht zum 17. sich durch einen Handstreich der Festung zu bemächtigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Das Gerücht von dem Heranrücken eines 10,000 Mann starken russischen Korps gab die Veranlassung zu dieser Konzentrirung des Korps."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "Il reste aujourd'hui au roi de Prusse un régiment dans la place de"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Gross-Glogau qui est assiégée, un à Breslau, un à Brieg, 2 à Varsovie et quelques régiments à Königsberg; en tout, à peu près 15,000 hommes d'infanterie et 3 ou 4,000 hommes de cavalerie."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B (Prussian), in Höpfner: since 30 October Glogau had been prepared for Bavarian troops being destined for Silesia; on 7 November at 2 in the afternoon mounted messengers from the neighbouring villages reported the enemy's approach, and the reconnaissance toward Herrendorf met numerous troops of enemy cavalry. At the parley of 8 November side A communicated that Stettin and Küstrin had fallen and the Prussian army was shattered; a later summons communicated army orders announcing the surrender of Küstrin and Magdeburg. After the bombardment of 1 December Vandamme assured the governor that no relief could be hoped for, since neither a Prussian nor a Russian army stood on this side of the Vistula and the King of Prussia was already in Russia, and, as the governor would not believe it, gave his word of honour in writing. Höpfner says the government knew the investing troops were comparatively very weak, and that the royal order of 2 November, demanding a defence to the last man, had been communicated to it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The passages read do not show whether the governor knew of the suspension of arms of 16 November, whose article 2 named Glogau (claim side-a-objectives), or what he knew of side A's strength beyond Höpfner's statement; the royal order of 2 November was not seen. Vandamme's assurance and the army orders are side A's communications, kept as Höpfner gives them. English renderings (ours): 'since 30 October Glogau had been prepared for Bavarian troops being destined for Silesia'; 'on 7 November at 2 in the afternoon mounted messengers from the neighbouring villages brought the report that the enemy was approaching, and at 3½ the foot and mounted Jäger and the cavalry moved out in the direction of Herrendorf to reconnoitre'; 'this detachment was a few thousand paces from the works when it already came upon numerous troops of enemy cavalry, and had to fall back on the fortress after the loss of 4 prisoners'; 'on the morning of 8 November at 6 o'clock the cannonade against the fortress was continued, during which the' (the sentence continues on p. 20); 'engineer officer attached to the detachment reconnoitred the place and found it in a state that well permitted a forcible attack. Since, however, the troops of the corps were too little known as to their competence to entrust them with an undertaking still so hazardous, he asked only for the building of 5-6 batteries of 8-10 guns, above all high-angle pieces, to bombard works and town' (the first sentence ends the sentence begun on p. 19); 'at 11 o'clock, after the cannonade, there was a parley anew, with the communication that Stettin and Küstrin had fallen and the Prussian army was shattered'; 'a further summons, in which Jerome declared that he would lay waste the town in the most terrible manner if the capitulation were not accepted, and at the same time communicated army orders announcing the surrender of Küstrin and Magdeburg, was again rejected'; 'on 1 December at 6¼ in the morning the bombardment began and lasted until after 9 o'clock. The garrison's artillery had indeed answered with vigour, but the enemy had achieved his purpose. The certainty that siege guns had arrived, that the enemy had it in his power to burn the town to ashes, had completely changed the government's mind'; 'immediately after the end of the fire General Vandamme sent a parlementaire anew and summoned the fortress with the assurance that no relief was to be hoped for, since neither a Prussian nor a Russian army stood on this side of the Vistula and the King of Prussia was already in Russia. Since the governor would not believe these statements, the French general gave his word of honour in writing for further confirmation'; 'even if these reasons must in themselves be recognised as correct, they have not the slightest force to justify a capitulation, since the government knew that the investing troops were comparatively very weak, and the royal order of 2 November communicated to it expressly demanded a defence to the last man'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Seit dem 30. Oktober war man in Glogau darauf vorbereitet, daß bayersche Truppen nach Schlesien bestimmt seien."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am 7. Nov. Nachmittags 2 Uhr brachten reitende Boten aus den benachbarten Dörfern die Meldung, daß der Feind im Anmarsch sei, und um 3½ Uhr rückten die Fuß- und reitenden Jäger und die Kavallerie in der Richtung auf Herrendorf zur Rekognoszirung aus."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Es war dies Detaschement wenige tausend Schritt von den Werken entfernt, als es bereits auf zahlreiche Trupps feindlicher Kavallerie stieß, und sich nach dem Verlust von 4 Gefangenen nach der Festung zurückziehen mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Am Morgen des 8. Novembers um 6 Uhr wurde die Kanonade gegen die Festung fortgesetzt, während welcher der dem"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Detaschement mitgegebene Ingenieur-Offizier den Platz rekognoszirte und ihn in einem Zustande fand, der einen gewaltsamen Angriff wohl gestattete. Da indessen die Truppen des Korps in Bezug auf ihre Tüchtigkeit zu wenig gekannt waren, um ihnen ein solches immer noch gewagtes Unternehmen anzuvertrauen, so verlangte er nur den Bau von 5—6 Batterien zu 8—10 Geschützen, besonders Wurfgeschütz, um Werke und Stadt zu beschießen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Um 11 Uhr, nach der Kanonade, wurde aufs Neue parlamentirt, unter Mittheilung, daß Stettin und Küstrin gefallen und die preußische Armee zertrümmert sei."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Eine abermalige Aufforderung, in welcher Jerome erklärte, die Stadt auf das Schrecklichste zu verwüsten, wenn die Kapitulation nicht angenommen würde, und zugleich Armeebefehle mittheilte, welche die Uebergabe von Küstrin und Magdeburg verkündigten, wurde wiederum zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Am 1. Dezember um 6¼ Uhr Morgens begann das Bombardement und dauerte bis nach 9 Uhr. Die Artillerie der Besatzung hatte zwar mit Nachdruck geantwortet, aber der Feind hatte seinen Zweck erreicht. Die Gewißheit, daß Belagerungsgeschütz eingetroffen, daß der Feind es in seiner Macht hatte, die Stadt einzuäschern, hatte das Gouvernement völlig umgestimmt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Gleich nach Beendigung des Feuers sandte der General Vandamme aufs Neue einen Parlamentair, und forderte die Festung mit der Versicherung auf, daß kein Entsatz zu hoffen sei, indem weder eine preußische noch eine russische Armee diesseits der Weichsel stehe und der König von Preußen bereits in Rußland sei. Da der Gouverneur diesen Angaben keinen Glauben schenken wollte, so gab der französische General zu mehrerer Bestätigung schriftlich sein Ehrenwort."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "Wenn diese Gründe an und für sich auch als richtig anerkannt werden müssen, so besitzen sie dennoch nicht die geringste Kraft, um eine Kapitulation zu rechtfertigen, da das Gouvernement wußte, daß die Einschließungstruppen verhältnißmäßig sehr schwach waren, und der mitgetheilte königliche Befehl vom 2. November ausdrücklich eine Vertheidigung bis auf den letzten Mann forderte."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A: Höpfner says Napoleon wished early on to take Glogau quickly, because with Stettin and Küstrin it completed the basing on the Oder for the advance over the Vistula and its possession opened a direct connection from southern Germany by way of Dresden to South Prussia, and that Lefebvre was sent on 6 November to move the commandant to surrender by the surprising appearance of his cavalry, as at Erfurt and Stettin. The major general's letter of 5 November sent Deroy to invest Glogau with 6,000 men and to be before it on the 7th or 8th at the latest. The Emperor wrote on 10 November that he greatly wished to be master of Glogau and was sending mortars and howitzers to bombard the town, and that once Glogau was invested Jérôme should send cavalry toward Breslau. The major general wrote on 16 November that the Württembergers were to blockade the town on the right bank, with 2,000 Württemberg infantry, all their cavalry and 4 guns sent to Lissa to put themselves in correspondence with Marshal Davout's troops at Posen, and all the Bavarians to unite on the left: the Emperor must have Glogau, whatever it cost, so the place was to be strictly blockaded, and a bridge was to be thrown over the Oder near Glogau to favour the blockade; one Bavarian division was to advance toward Breslau to Parchwitz or Lüben. Berthier answered Jérôme's report on the abandoned storm that Deroy's observations were very just, that a town could not be taken by assault without a breach where there was an escarp and a good counterscarp, and that those who favoured such an attack were very wrong. Höpfner: the infantry's approach from the 19th was ordered by Napoleon to unsettle the garrison and make it inclined to surrender, and Napoleon continually pressed Jérôme to hasten the capture. The suspension of arms signed at Charlottenburg on 16 November, printed with the 33rd Bulletin of 17 November, provided in article 2 that the French troops would occupy in Silesia the places of Glogau and Breslau, and in article 4 that the places named in article 2 would be handed over within the eight days following the exchange of ratifications, their garrisons not to be prisoners of war but directed on Kœnigsberg; ratifications were to be exchanged at Graudenz at the latest on the 21st, and by Foucart's note hostilities were to cease only then; the 35th Bulletin, of 28 November, says the King of Prussia told Duroc that he could not ratify it. The major general's letter of 22 November sent Deroy's and Wrede's divisions to Kalisch from the 24th and entrusted the blockade of Glogau to Vandamme and the Württembergers; Foucart cites an order of 27 November to Vandamme to go before Glogau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, the French letters and the Bulletins, read from the page images. The aims moved from a surprise by cavalry (6-7 November) through investment and bombardment to a strict blockade at any cost (16 November), with the unratified suspension of arms of 16 November offering Glogau by treaty, and then to a blockade by one division under Vandamme (22 November); they came from the Emperor and from the commanders, so the phase is left unresolved. Berthier's answer on the storm is quoted only in Höpfner's footnote, in French; the letter was not seen in Foucart. The passages read do not show whether Jérôme or the garrison knew of the suspension. The sentence on hostilities is Foucart's note, not the suspension's text. English renderings (ours): 'Napoleon had wished early on to make himself master of the fortress of Glogau quickly, because, with Stettin and Küstrin, it completed the basing on the Oder for the further advance over the Vistula, and the possession of Glogau opened a direct connection from southern Germany by way of Dresden to South Prussia'; 'as early as 6 November General Lefebvre had been set in march to that end with his brigade and a light battery on the left bank of the Oder against Glogau, to move the commandant to surrender by the surprising appearance of this cavalry, as had succeeded so splendidly at Erfurt and Stettin'; 'the Major General to Prince Jérôme. Berlin, 5 November 1806'; 'the Emperor orders that Your Highness send' (the sentence continues on p. 57); 'General Deroy to invest the place of Glogau with 6,000 men... Your Highness will prescribe to General Deroy to have himself scouted for and to send cavalry parties toward Breslau to intercept the couriers and learn thereby the situation of that place..... General Deroy will be before Glogau on the 7th or 8th at the latest; you on the 6th in the evening at Grüneberg; the Württembergers on the 7th at Zullichau in position' (the first sentence ends the sentence begun on p. 56; the points are the print's); 'the Emperor to Prince Jérôme. Berlin, 10 November 1806'; 'I greatly wish to be master of Glogau. I have given orders to the general commanding at Küstrin to embark 6 mortars and 4 siege howitzers and to send them to you to bombard the town. If Glogau surrenders, send an officer to inform Küstrin of it, so that this movement is not made'; 'from the moment that Glogau is invested by General Deroy, send cavalry parties toward Breslau, and, as it is possible that the enemy has men there, send a considerable force on both banks. You may continue to charge your two French brigade generals, with their corps, with this mission'; 'the Major General to Prince Jérôme. Berlin, 16 November 1806'; 'the Emperor charges me to inform Your Imperial Highness that you are to keep the Württemberg troops on the right bank of the Oder and the Bavarian troops on the left bank. Order the Württemberg troops to move before Glogau and blockade that town on the right bank; send 2,000 men of Württemberg infantry, all the cavalry of that nation and 4 pieces of artillery to Lissa, from where it will put itself in correspondence at once with the troops of Marshal Davout who are at Posen;'; 'as I told you, unite all the Bavarians on the left bank: the Emperor must have Glogau, whatever it costs; so have that place strictly blockaded'; 'the Emperor wishes you to have a bridge thrown over the Oder near Glogau; this bridge will have the double advantage of favouring your blockade and giving you the means of moving rapidly from one bank to the other'; 'have one of the Bavarian divisions advance from Glogau toward Breslau, which can keep itself at Parchwitz or at Lüben; from there it will make it easier for you to get subsistence and will be able to support the cavalry that will be before Breslau'; '1) on Jerome's report of the abandonment of the storm Napoleon had Marshal Berthier answer: \"I have put your letter before the Emperor, Monseigneur; His Majesty finds that the observations General Deroy made to you are very just; one cannot take a town by assault when one has not made the breach and when there is an escarp and a good counterscarp; His Majesty thinks that those who could be of the opinion of such an attack were very greatly wrong; for one would lose many men uselessly there.\"'; 'the enemy gradually approached the works with his infantry in small pits and opened his musket fire on the 19th, so that the bullets flew into the town'; 'these arrangements on the enemy's side had been made on Napoleon's order, to unsettle the garrison day and night thereby and make it worn down and inclined to surrender'; 'continually pressed by Napoleon to hasten the capture of Glogau, Jerome was about to attempt an attack on the bridgehead on the right bank of the Oder; but circumstances arose that prevented the execution. Jerome received, that is, the order to leave only one division before Glogau and to set out with the rest of the corps with all speed against Kalisch'; '1. 33rd Bulletin of the Grande Armée. Berlin, 17 November 1806' (the '1.' is the footnote's mark); 'the attached suspension of arms was signed yesterday at Charlottenburg'; 'Art. 2. — The troops of His Majesty the Emperor of the French, King of Italy, shall occupy the part of southern Prussia lying on the right bank of the Vistula as far as the mouth of the Bug, Thorn, the fortress and town of Graudenz, the town and citadel of Danzig, the places of Colberg and Lenczyc, which shall be handed over to them for security; and in Silesia, the places of Glogau and Breslau, with the portion of that province lying on the right bank of the Oder, and the part of it lying on the left bank of the same river which shall have as its limit a line resting on that river 5 leagues above Breslau, passing by Ohlau and Zobten, 3 leagues behind Schweidnitz and without including it, and from there to Freyburg and Landshut, and joining Bohemia at Liebau'; 'Art. 4. — The places of Hameln and Nienburg, as well as those designated in article 2, shall be handed over to the French troops with their armament and munitions, of which an inventory shall be drawn up, within the eight days following the exchange of the ratifications of the present suspension of arms. The garrisons of these places shall not be prisoners of war; they shall be directed on Kœnigsberg, and they shall be given every facility necessary for this'; 'Art. 6. — The present suspension of arms shall be ratified by the two high contracting powers, and the exchange of ratifications shall take place at Graudenz at the latest on the 21st of the present month'; 'done at Charlottenburg, 16 November 1806'; 'hostilities were to cease only at the moment of the exchange of ratifications'; '35th Bulletin of the Grande Armée. Posen, 28 November 1806'; 'the marshal of the palace, Duroc, went as far as Osterode, where he saw the King of Prussia, who declared to him that part of his states was occupied by the Russians and that he was entirely in their dependence; that consequently he could not ratify the suspension of arms that his plenipotentiaries had concluded, because he could not carry out its stipulations'; 'the Major General to Prince Jérôme. Berlin, 22 November 1806, one o'clock in the afternoon'; 'the Emperor orders you to have General Deroy's Bavarian division leave, on the 24th, the position it occupies before Glogau to go to Kalisch, where His Majesty's intention is that it arrive on the 27th or 28th'; 'you will likewise have the 2nd Bavarian division, called General de Wrède's, leave Parchwitz on the same day, the 24th, to be likewise at Kalisch on the 27th or 28th at the latest'; 'His Majesty orders that the blockade of Glogau be entrusted to General Vandamme and to the Württemberg troops under his orders'; '1. order to General Vandamme to go before Glogau (Major General, Meseritz, 27 November 1806, 5 in the morning)' (Foucart's footnote).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Napoleon hatte frühzeitig gewünscht, sich der Festung Glogau schnell zu bemächtigen, weil dieselbe neben Stettin und Küstrin die Basirung auf die Oder beim weitern Vordringen über die Weichsel vollendete, und mit dem Besitz von Glogau eine direkte Verbindung aus dem südlichen Deutschland über Dresden nach Südpreußen eröffnet wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Bereits am 6. November war zu dem Ende der General Lefebvre mit seiner Brigade und einer leichten Batterie auf dem linken Oder-Ufer gegen Glogau in Marsch gesetzt worden, um durch das überraschende Auftreten dieser Kavallerie den Kommandanten zur Uebergabe zu bewegen, wie dies bei Erfurt und Stettin so trefflich geglückt war."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 5 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p56-figures-v1",
+          "section": "p56",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 56 (transcribed from the page image)",
+          "quote": "L'Empereur ordonne que Votre Altesse envoie le"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p57-figures-v1",
+          "section": "p57",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 57 (transcribed from the page image)",
+          "quote": "général Deroy pour investir la place de Glogau avec 6,000 hommes... Votre Altesse prescrira au général Deroy de se faire éclairer et d'envoyer des partis de cavalerie sur Breslau pour intercepter les courriers et connaître par là la situation de cette place..... Le général Deroy sera le 7 ou 8 au plus tard devant Glogau; vous le 6 au soir à Grüneberg; les Wurtembergeois le 7 à Zullichau en position."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU PRINCE JÉRÔME.\n\nBerlin, 10 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "Je désire fort être maître de Glogau. J'ai donné ordre au général qui commande à Küstrin de faire embarquer 6 mortiers et 4 obusiers de siége et de vous les envoyer pour bombarder la ville. Si Glogau se rend, envoyez un officier en prévenir à Küstrin, afin qu'on ne fasse pas ce mouvement."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p81-figures-v1",
+          "section": "p81",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 81 (transcribed from the page image)",
+          "quote": "Du moment que Glogau sera investi par le général Deroy, envoyez des partis de cavalerie sur Breslau, et, comme il est possible que l'ennemi ait du monde, envoyez une force considérable sur l'une et l'autre rive. Vous pouvez continuer à charger vos deux généraux de brigade français, avec leurs corps, de cette mission."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 104 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉRÔME.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p104-figures-v1",
+          "section": "p104",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 104 (transcribed from the page image)",
+          "quote": "L'Empereur me charge de prévenir Votre Altesse impériale qu'elle doit tenir les troupes de Wurtemberg sur la rive droite de l'Oder et les troupes bavaroises sur la rive gauche. Donnez l'ordre aux troupes de Wurtemberg de se porter devant Glogau et de bloquer cette ville sur la rive droite; envoyez 2,000 hommes d'infanterie wurtembergeoise, toute la cavalerie de cette nation et 4 pièces d'artillerie à Lissa, d'où elle se mettra en correspondance sur-le-champ avec les troupes du maréchal Davout qui sont à Posen;"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p105-figures-v1",
+          "section": "p105",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 105 (transcribed from the page image)",
+          "quote": "Comme je vous l'ai dit, réunissez sur la rive gauche tous les Bavarois : il faut que l'Empereur ait Glogau, telle chose qu'il en coûte; faites donc bloquer strictement cette place."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p105-figures-v1",
+          "section": "p105",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 105 (transcribed from the page image)",
+          "quote": "L'Empereur désire que vous fassiez jeter un pont sur l'Oder près Glogau; ce pont aura le double avantage de favoriser votre blocus et de vous donner les moyens de vous porter rapidement d'une rive sur l'autre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p105-figures-v1",
+          "section": "p105",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 105 (transcribed from the page image)",
+          "quote": "faites avancer de Glogau sur Breslau une des divisions bavaroises qui pourra se tenir à Parchwitz ou à Lüben; de là elle vous facilitera les moyens d'avoir des subsistances et sera à même de soutenir la cavalerie qui sera sur Breslau."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "1) Auf den Bericht Jerome's über das Aufgeben des Sturmes ließ Napoleon durch den M. Berthier antworten: »J'ai mis sous les yeux de l'Empereur, Monseigneur, votre lettre; S. M. trouve que les observations que vous a faites le général Deroy sont très justes; on ne peut pas prendre une ville d'assaut quand on na pas fait la brèche et quand il y a une escarpe et une bonne contreescarpe; S. M. pense que ceux qui ont pu être de l'avis d'une pareille attaque ont eu très grand tort; car on y perdrait beaucoup de monde inutilement.«"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Der Feind näherte sich den Werken allmälig mit seiner Infanterie in kleinen Gruben und eröffnete am 19. sein Gewehrfeuer, so daß die Kugeln bis in die Stadt flogen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Es waren diese Anordnungen von Seiten des Feindes auf Befehl Napoleons getroffen worden, um dadurch die Besatzung Tag und Nacht zu beunruhigen und mürbe und zur Uebergabe geneigt zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "Fortgesetzt von Napoleon gedrängt, die Einnahme von Glogau zu beschleunigen, stand Jerome im Begriff, einen Angriff auf den Brückenkopf auf dem rechten Oder-Ufer zu versuchen; indessen traten Verhältnisse ein, welche die Ausführung behinderten. Jerome erhielt nämlich den Befehl, vor Glogau nur eine Division zu belassen, mit dem Rest des Korps aber schleunigst gegen Kalisch aufzubrechen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "1. 33e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 17 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "La suspension d'armes ci-jointe a été signée hier à Charlottenburg."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "ART. 2. — Les troupes de S. M. l'Empereur des Français, Roi d'Italie, occuperont la partie de la Prusse méridionale qui se trouve sur la rive droite de la Vistule jusqu'à l'embouchure du Bug, Thorn, la forteresse et la ville de Graudenz, la ville et la citadelle de Danzig, les places de Colberg et de Lenczyc, qui leur seront remises pour sûreté; et en Silésie, les places de Glogau et de Breslau, avec la portion de cette province qui se trouve sur la rive droite de l'Oder, et la partie de celle située sur la rive gauche de cette même rivière, qui aura, pour limite une ligne appuyée à cette rivière, à 5 lieues au-dessus de Breslau, passant à Ohlau, Zobten, à 3 lieues derrière Schweidnitz et sans le comprendre, et de là à Freyburg, Landshut, et joignant la Bohême à Liebau."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "ART. 4. — Les places de Hameln et Nienburg, ainsi que celles désignées dans l'article 2, seront remises aux troupes françaises avec leurs armements et munitions, dont il sera dressé un inventaire, dans les huit jours qui suivront l'échange des ratifications de la présente suspension d'armes. Les garnisons de ces places ne seront pas prisonnières de guerre; elles seront dirigées sur Kœnigsberg, et on leur donnera à cet effet toutes les facilités nécessaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "ART. 6. — La présente suspension d'armes sera ratifiée par les deux hautes puissances contractantes, et l'échange des ratifications aura lieu à Graudenz, au plus tard le 21 du présent mois."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Fait à Charlottenburg, le 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Les hostilités ne devaient cesser qu'au moment de l'échange des ratifications."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "35e BULLETIN DE LA GRANDE ARMÉE.\n\nPosen, 28 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Le maréchal du palais, Duroc, a été jusqu'à Osterode, où il a vu le roi de Prusse, qui lui a déclaré qu'une partie de ses États était occupée par les Russes, et qu'il était entièrement dans leur dépendance; qu'en conséquence il ne pouvait ratifier la suspension d'armes qu'avaient conclue ses plénipotentiaires, parce qu'il ne pourrait pas en exécuter les stipulations."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU PRINCE JÉROME.\n\nBerlin, 22 novembre 1806, une heure après midi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "L'Empereur vous ordonne de faire partir, le 24, la division bavaroise du général Deroy de la position qu'elle occupe devant Glogau pour se rendre à Kalisch, où l'intention de Sa Majesté est qu'elle arrive le 27 ou le 28."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "Vous ferez partir également, le même jour 24, de Parchwitz la 2e division bavaroise, dite du général de Wrède, pour être également rendue à Kalisch le 27 ou le 28 au plus tard."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "Sa Majesté ordonne que le blocus de Glogau soit confié au général Vandamme¹ et aux troupes wurtembergeoises sous ses ordres."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p145-figures-v1",
+          "section": "p145",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 145 (transcribed from the page image)",
+          "quote": "1. Ordre au général Vandamme de se rendre devant Glogau. (Major général, Meseritz, 27 novembre 1806, 5 heures du matin.)"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B (Prussian): the governor's answer that Puttlitz carried on 14 November, as Höpfner prints it in French, said that he was not permitted to make use of the prince's goodwill before fulfilling his duties to the King his master, and that when he should see the impossibility of defending the fortress any longer he hoped for an equitable and honourable capitulation. Höpfner: the royal order of 2 November, communicated to the government, expressly demanded a defence to the last man. After the bombardment of 1 December the governor, who had shortly before declared that he would let himself be buried under the ruins of the town, proposed a capitulation with free withdrawal, which Vandamme rejected; the government's reasons for surrender were the insufficiency of the garrison for the works, the unreliability of the battalions made up of Poles, the arrival of the siege guns and the impossibility of relief.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The aims moved from defence, under the royal order, to capitulation on the best terms obtainable; they came from the King's order and from the governor and government, so the phase is left unresolved. Höpfner's report, from French statements, that the governor recognised on the 13th the impossibility of defending himself (claim side-b-command) stands beside the letter he prints, which promises a capitulation only when that impossibility is seen (our comparison). The royal order of 2 November was not seen. English renderings (ours): 'the brave Major Puttlitz, commander of the 3rd musketeer battalion of vac. Grevenitz, who had spoken out most decidedly against the capitulation, was charged at 2 in the afternoon of the 14th with carrying the refusal to the enemy'; '1) the answer ran: \"Monseigneur! General Lefebvre, whom Your Imperial Highness sent into the place, has made me the proposal with which you charged him. I am deeply touched by the sentiments of benevolence and goodness that Your Imperial Highness has been pleased to show both for the garrison and for the inhabitants of the town, but I am not permitted to make use of them before having fulfilled the duties I owe the King my master. I am convinced that His Majesty the Emperor as well as Your Imperial Highness know how to esteem him who, even in misfortune, fulfils his duties.\" \"When I should see the impossibility of defending any longer the fortress entrusted to me, I hope that Your Imperial Highness will be pleased still to grant me an equitable and honourable capitulation.\"'; 'even if these reasons must in themselves be recognised as correct, they have not the slightest force to justify a capitulation, since the government knew that the investing troops were comparatively very weak, and the royal order of 2 November communicated to it expressly demanded a defence to the last man'; 'on 1 December at 6¼ in the morning the bombardment began and lasted until after 9 o'clock. The garrison's artillery had indeed answered with vigour, but the enemy had achieved his purpose. The certainty that siege guns had arrived, that the enemy had it in his power to burn the town to ashes, had completely changed the government's mind'; 'although the governor had shortly before fallen out with Major Puttlitz over entering into a capitulation and on that occasion had declared that he would let himself be buried under the ruins of the town, he now nevertheless proposed to the enemy a capitulation with free withdrawal. General Vandamme rejected this proposal, and the governor promised to make other proposals the next day'; 'the reasons that moved the government to surrender were the following: 1) the insufficiency of the garrison for the defence of the works that necessarily had to be held; 2) the unreliability of the 3rd battalions of Tschepe and Zastrow, made up of Poles, whose commanders had themselves declared that they could no longer rely on their men; 3) the arrival of the enemy's siege guns, by which the complete ruin of the town would have been unavoidable, and 4) the impossibility of a relief'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Der brave Major Puttlitz, Kommandeur des 3. Musketierbataillons von vac. Grevenitz, der sich am entschiedensten gegen die Kapitulation ausgesprochen hatte, wurde um 2 Uhr Nachmittags des 14. beauftragt, dem Feinde die abschlägliche Antwort zu überbringen.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "1) Die Antwort lautete: »Monseigneur! Le général Lefebvre que V. A. I. a envoyé dans la place, m'a fait la proposition dont Vous l'avez chargé. Je suis on ne peut plus touché des sentiments de bienveillance et de bonté que V. A. I. a bien voulu témoigner tant pour la garnison que pour les habitants de la ville, mais il ne m'est pas permis d'en faire usage, avant d'avoir rempli les devoirs que j'ai envers le roi mon maître. Je suis convaincu que S. M. l'Empereur ainsi que V. A. I. savent estimer celui qui, même dans le malheur, remplit ses devoirs.« »Lorsque je verrais l'impossibilité de défendre plus longtemps la forteresse qui m'est confiée, j'espère que V. A. I. voudra bien encore m'accorder une capitulation équitable et honorable.«"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "Wenn diese Gründe an und für sich auch als richtig anerkannt werden müssen, so besitzen sie dennoch nicht die geringste Kraft, um eine Kapitulation zu rechtfertigen, da das Gouvernement wußte, daß die Einschließungstruppen verhältnißmäßig sehr schwach waren, und der mitgetheilte königliche Befehl vom 2. November ausdrücklich eine Vertheidigung bis auf den letzten Mann forderte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Am 1. Dezember um 6¼ Uhr Morgens begann das Bombardement und dauerte bis nach 9 Uhr. Die Artillerie der Besatzung hatte zwar mit Nachdruck geantwortet, aber der Feind hatte seinen Zweck erreicht. Die Gewißheit, daß Belagerungsgeschütz eingetroffen, daß der Feind es in seiner Macht hatte, die Stadt einzuäschern, hatte das Gouvernement völlig umgestimmt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Obgleich der Gouverneur sich in Bezug auf das Eingehen in eine Kapitulation kurz vorher mit dem Major Puttlitz überworfen und bei dieser Gelegenheit erklärt hatte, sich unter den Trümmern der Stadt begraben zu lassen, schlug er nunmehr dennoch dem Feinde eine Kapitulation mit freiem Abzuge vor. Der General Vandamme verwarf diesen Antrag, und der Gouverneur versprach, am folgenden Tage andere Vorschläge zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p30-figures-v1",
+          "section": "p30",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 30 (transcribed from the page image)",
+          "quote": "Die Gründe, welche das Gouvernement zur Uebergabe bewogen, waren folgende:\n1) die Unzulänglichkeit der Besatzung zur Vertheidigung der nothwendig zu haltenden Werke;\n2) die Unsicherheit der aus Polen zusammengesetzten 3. Bataillone von Tschepe und Zastrow, deren Kommandeurs selbst erklärt hatten, sich auf ihre Mannschaften nicht mehr verlassen zu können;\n3) die Ankunft des feindlichen Belagerungsgeschützes, wodurch der völlige Ruin der Stadt unvermeidlich gewesen, und\n4) die Unmöglichkeit eines Entsatzes."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked: Bodart has the Bavarians and French force the garrison to surrender after a 15-day blockade. Höpfner: Lefebvre's cavalry and light battery came before the fortress on 7 November and enclosed it on both banks; Deroy's division enclosed it on the 10th; side A bombarded the town on the 13th, 15th and 16th of November and on 1 December, summoned the fortress repeatedly, approached the works with infantry in small pits from the 19th, gave up a planned storm, and received the capitulation on 2 December and the formal handover on the 3rd. Side B stopped all sorties that could give occasion for desertion, but on 18 November a detachment raided the Grundmühle, and on 22 November troops went into the nearest outworks to take the enemy's pits in flank and rear.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A invested, bombarded and summoned the fortress, and side B, apart from a raid and a move into the outworks, defended it until it capitulated. The phase is left unresolved: the investment followed the Emperor's and Jérôme's orders, while the summonses, the bombardments and the terms were the commanders' own (claims side-a-command, side-a-objectives). English renderings (ours): Bodart, as in claim bodart-strength; 'two squadrons of Chevauxlegers crossed to the right bank of the Oder at Neusalz, so as to be able to invest the fortress on both banks on 7 November'; 'the canister fire from the works drove the Bavarian cavalry back toward Prostau, and they contented themselves with enclosing the fortress on both banks and summoning it by two parlementaires. The governor rejected the proposals'; 'as soon as Jerome had received General Lefebvre's report, he made all arrangements to enter Silesia now. The division Deroy had to advance from Krossen to Glogau on 9 November, so as to enclose the place on the 10th with the brigade Raglowich on the left bank and with the brigade Siebein on the right bank'; 'on the 13th at 4 in the morning the enemy opened his fire on both banks, although the darkness allowed aiming only at the fire of the fortress batteries, which answered with liveliness. The town burned in thirteen different places, but everywhere the fires were soon put out'; 'on the 15th the fire of the blockading troops began anew at 4½ in the morning and lasted until 9 o'clock. In the town two houses burned down'; 'on 16 November at 4½ in the morning the enemy's fire began anew on both banks of the Oder. The town burned in perhaps 30 places, but through the exemplary conduct of the burghers, supported by some men detailed for it, the fire was this time too put out everywhere'; 'on 1 December at 6¼ in the morning the bombardment began and lasted until after 9 o'clock. The garrison's artillery had indeed answered with vigour, but the enemy had achieved his purpose. The certainty that siege guns had arrived, that the enemy had it in his power to burn the town to ashes, had completely changed the government's mind'; 'the enemy gradually approached the works with his infantry in small pits and opened his musket fire on the 19th, so that the bullets flew into the town'; 'fascines, ladders etc., everything lay ready, when at the moment of execution General Deroy declared that he did not believe he could count on his troops for so doubtful an undertaking, since they, not used to such hazardous attacks, might easily lack the boldness and energy that alone make success certain. The storm had to be given up and the siege guns awaited'; 'on 2 December the government now had new points of capitulation drafted, without calling the prescribed formal council of war, and when at noon the copies were not yet ready, an officer was sent to General Vandamme to apologise for this delay. The officer sent returned with General Vandamme's general staff officer and proposals of capitulation that agreed in essentials with those of the government. Agreement was therefore now reached very soon, and that same evening the Breslau and Oder gates were occupied by the Württembergers'; 'on 3 December the fortress was formally handed over. The troops marched out and laid down on the glacis their muskets, which had mostly been broken beforehand. The invalids were released, the remaining men transported as prisoners of war'; 'on the garrison's side all works, sorties etc. that could give occasion for desertion were stopped, since the losses by desertion would very soon have weakened the garrison to the utmost'; 'on 18 November the fortress artillery tried to set on fire the water mill lying nearest the Sternschanze, the so-called Grundmühle, which gave shelter to a Bavarian post, but did not achieve its aim'; 'under the lead of the place's engineer officer a detachment of 1 officer, 40 men of the 3rd battalion von Grevenitz and some artillerymen with pitch wreaths went forward to the mill, quickly occupied the exit of the buildings, took prisoner after slight resistance the enemy post, surprised, of 1 officer and 23 men of the 4th Line Regiment, set the buildings on fire and returned to the fortress. The miller, however, managed to save the mill'; 'at last on 22 November, when the enemy had approached with his pits especially along the avenue of Rauschwitz, Lieutenant Sommerfeld was sent forward with the detachment of the regiment Zenge into the nearest outworks, and on the proposal of the place's engineer a 12-pounder was brought into the counterguard of the Prussian ravelin, so as to take the' (the sentence continues on p. 27); 'advanced enemy in flank and rear. To the same end the garrison's Jäger went into the outworks to the right of the ravelin toward the Oder. The enemy infantry fire was markedly quenched by this and in the following days kept up only moderately' (the first sentence ends the sentence begun on p. 26).",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Bayern und Franzosen (8.000 Bayern und 1.000 Franzosen zus. 9.000 M.) unter dem bayr. Gen.-Lt. v. Deroy zwingen nach 15tägiger Blokade die preußische Besatzung (3.200 M. mit 124 Geschützen) unter Gen.-Lt. v. Reinhart zur Übergabe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p17-figures-v1",
+          "section": "p17",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 17 (transcribed from the page image)",
+          "quote": "Zwei Schwadronen Chevauxlegers gingen bei Neusalz auf das rechte Oder-Ufer, um am 7. November die Festung auf beiden Ufern berennen zu können."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Das Kartätschfeuer von den Werken wies die bayersche Kavallerie gegen Prostau zurück und begnügte man sich, die Festung auf beiden Ufern zu umschließen und durch zwei Parlamentairs aufzufordern. Der Gouverneur wies die Anträge zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Sobald Jerome den Bericht des Generals Lefebvre erhalten hatte, traf er alle Anordnungen, um nun in Schlesien einzurücken. Die Division Deroy mußte am 9. November von Krossen nach Glogau vorrücken, um am 10. mit der Brigade Raglowich den Platz auf dem linken Ufer, mit der Brigade Siebein auf dem rechten Ufer einzuschließen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Am 13. um 4 Uhr Morgens eröffnete der Feind auf beiden Ufern sein Feuer, obgleich die Dunkelheit nur eine Richtung nach dem Feuer der Festungsbatterien gestattete, die mit Lebhaftigkeit antworteten. Die Stadt brannte an dreizehn verschiedenen Orten, doch wurde überall bald gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Am 15. begann das Feuer der Blokadetruppen um 4½ Uhr Morgens aufs Neue bis 9 Uhr. In der Stadt brannten zwei Häuser nieder."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Den 16. November um 4½ Uhr Morgens begann das feindliche Feuer aufs Neue auf beiden Ufern der Oder. Die Stadt brannte wohl an 30 Orten, doch wurde durch das musterhafte Verhalten der Bürgerschaft, unterstützt durch einige kommandirte Mannschaft, das Feuer auch diesmal überall gelöscht."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p28-figures-v1",
+          "section": "p28",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 28 (transcribed from the page image)",
+          "quote": "Am 1. Dezember um 6¼ Uhr Morgens begann das Bombardement und dauerte bis nach 9 Uhr. Die Artillerie der Besatzung hatte zwar mit Nachdruck geantwortet, aber der Feind hatte seinen Zweck erreicht. Die Gewißheit, daß Belagerungsgeschütz eingetroffen, daß der Feind es in seiner Macht hatte, die Stadt einzuäschern, hatte das Gouvernement völlig umgestimmt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Der Feind näherte sich den Werken allmälig mit seiner Infanterie in kleinen Gruben und eröffnete am 19. sein Gewehrfeuer, so daß die Kugeln bis in die Stadt flogen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "Faschinen, Leitern ꝛc., Alles lag bereit, als im Augenblick der Ausführung der General Deroy erklärte, daß er nicht glaube, für ein so mißliches Unternehmen auf seine Truppen rechnen zu können, indem es denselben, nicht gewöhnt an dergleichen gewagte Angriffe, leicht an der nöthigen Kühnheit und Energie fehlen dürfte, welche allein einen Erfolg sicher stellen. Der Sturm mußte aufgegeben und das Belagerungsgeschütz abgewartet werden.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 2. Dezember ließ nun das Gouvernement neue Kapitulationspunkte entwerfen, ohne den vorschriftlichen förmlichen Kriegsrath zusammenzuberufen, und als man um Mittag mit den Abschriften noch nicht fertig war, wurde ein Offizier an den General Vandamme gesandt, um wegen dieser Verspätung um Entschuldigung zu bitten. Der abgeschickte Offizier kehrte mit dem Generalstabs-Offizier des Generals Vandamme und Kapitulationsvorschlägen zurück, welche im Wesentlichen mit denen des Gouvernements übereinstimmten. Man wurde daher nunmehr sehr bald einig, und noch am Abend das Breslauer- und Oderthor durch die Württemberger besetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "Am 3. Dezember wurde die Festung förmlich übergeben. Die Truppen rückten aus und streckten auf dem Glacis die Gewehre, welche meist vorher zerbrochen worden waren. Die Invaliden wurden entlassen, die übrigen Mannschaften als Kriegsgefangene transportirt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p21-figures-v1",
+          "section": "p21",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 21 (transcribed from the page image)",
+          "quote": "Von Seiten der Besatzung wurden alle Arbeiten, Ausfälle ꝛc., welche Gelegenheit zur Desertion geben konnten, eingestellt, da die Verluste durch Desertion die Besatzung sehr bald aufs Aeußerste geschwächt haben würden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Am 18. November versuchte die Artillerie der Festung, die zunächst der Sternschanze belegene Wassermühle, die sogenannte Grundmühle, welche einem bayerschen Posten Schutz gewährte, in Brand zu setzen, gelangte indessen nicht zum Ziel."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Unter der Führung des Ingenieur-Offiziers vom Platz ging ein Kommando von 1 Offizier, 40 Mann vom 3. Bataillon von Grevenitz und einigen Artilleristen mit Pechkränzen nach der Mühle vor, besetzte schnell den Ausgang der Gebäude, nahm den feindlichen, überraschten Posten von 1 Offizier und 23 Mann des 4. Linien-Regiments nach geringem Widerstand gefangen, zündete die Gebäude an und kehrte nach der Festung zurück. Es gelang indessen dem Müller, die Mühle zu retten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Endlich am 22. November, als der Feind sich mit seinen Gruben besonders längs der Allee von Rauschwitz genähert hatte, wurde der Lieutenant Sommerfeld mit dem Detaschement des Regiments Zenge in die zunächst gelegenen Außenwerke vorgesandt, auch auf den Vorschlag des Ingenieurs vom Platz ein 12pfünder in die Kontregarde des preußischen Ravelins gebracht, um den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "vorgegangenen Feind in Flanke und Rücken zu nehmen. Zu gleichem Zweck gingen die Jäger der Besatzung in die Außenwerke rechts des Ravelins gegen die Oder. Das feindliche Infanterie-Feuer wurde hierdurch merklich gelöscht und in den folgenden Tagen nur mäßig unterhalten."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress on both banks of the Oder. Höpfner: the palisading could not be completed and only the weakest places were secured, work going on during the investment; the mass of the outworks was given up and the defence restricted to the main wall, since the garrison seemed too weak and unreliable and the guns too few, and the outworks were so low that they had little defensibility and, being impossible to palisade, would only have favoured desertion; the garrison held the main wall on the left bank, the Dom-Retranchement on the right bank and the Sternschanze, with patrols in the abandoned outworks; on 22 November troops went back into the nearest outworks and a 12-pounder into the counterguard of the Prussian ravelin. At the fall the walls had suffered nothing. Side A: Lefebvre used the night after his arrival to have two earthworks raised to cover his guns, later called batteries No. 4 and 5; on 11 November the Bavarians worked on the left bank at cover for six batteries, built more solidly after the refusal and repaired under the fortress's fire; in the night to the 18th they worked at trenches of about 100 paces to the right and left of the batteries, to hold 200 infantry each to cover the artillery; from the 19th the infantry approached in small pits. Höpfner nevertheless says that Glogau fell without side A having opened any siege works.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded both_fortified: side B defended permanent works, and side A placed its guns behind earthworks and held trenches and pits under the fortress's fire. The fortress is permanent (inherited); side A's works were made for the blockade on its commanders' dispositions (commander-created); one claim carries one phase, so it is unresolved. A coding that counted only the defended fortress would give B_fortified. Höpfner's statement that side A opened no siege works is kept beside his account of its trenches and pits; we read it as meaning no formal siege approaches against the works (our reading). Höpfner's Plan Nr. XVII was not inspected. English renderings (ours): 'the palisading could not be completed despite all activity; it had only been possible to secure the weakest places, but work went on with effort even during the investment'; 'the mass of the outworks had been given up and the defence restricted rather to the main wall, since the garrison seemed too weak and too unreliable and the number of guns too small, and at the same time the outworks were so low that they had little defensibility and, being impossible to palisade, would only have favoured desertion'; 'the most reliable battalion of the garrison, the battalion von Grevenitz, occupied the weakest places of the main wall on the left bank of the Oder, the less reliable battalion von Tschepe the rest of it, and the worst battalion, von Zastrow, the Dom-Retranchement [the cathedral entrenchment] on the right bank of the Oder; a detachment of the best invalids held the Sternschanze [star fort] at the fortress's upper junction with the Oder, the rest of the invalids occupied the gorge' (the sentence continues on p. 19); 'of this work; the cavalry and the Jäger were used to patrol the abandoned outworks. The burghers did duty in the town' (the first sentence ends the sentence begun on p. 18); 'at last on 22 November, when the enemy had approached with his pits especially along the avenue of Rauschwitz, Lieutenant Sommerfeld was sent forward with the detachment of the regiment Zenge into the nearest outworks, and on the proposal of the place's engineer a 12-pounder was brought into the counterguard of the Prussian ravelin, so as to take the' (the sentence continues on p. 27); 'advanced enemy in flank and rear. To the same end the garrison's Jäger went into the outworks to the right of the ravelin toward the Oder. The enemy infantry fire was markedly quenched by this and in the following days kept up only moderately' (the first sentence ends the sentence begun on p. 26); 'so fell Glogau, without the enemy having opened any siege works or dared a storm. The walls had suffered nothing at all; the damage to the burghers' houses was comparatively slight; the fortress artillery was in completely good condition, despite the place's artillery officer having stated the contrary;' (the sentence continues on p. 30); 'General Lefebvre soon recognised that he would achieve nothing with the cavalry alone, and reported at once to headquarters on the result of his mission, but used the night to have two earthworks raised by country people brought together, to cover the guns he had brought with him'; '1) later called batteries No. 4 and 5'; 'on 11 November the Bavarians worked on the left bank at cover for six batteries, and on the evening of the 12th the artillery of the division Wrede also arrived from Grüneberg before Glogau. At midnight the guns were brought into these earthworks, each of them, with the exception of battery No. 5, armed with 4 cannon and 2 howitzers; the said' (the sentence continues on p. 21); 'the gun cover was built more solidly, and since the fortress's 6-pounders did no damage but did betray the weakness of the blockading troops' artillery, it was decided to restrict themselves more to the use of the howitzers and 12-pounders and to arm the batteries accordingly, so that batteries No. 2, 3 and 4 were each equipped with two 12-pounders and 2 howitzers, battery No. 1 with two 12-pounders, and only battery No. 5 with two 6-pounders and 1 howitzer, while battery No. 6 was given up entirely'; 'the fortress answered more lively than on the 13th and did the cover considerable damage, so that here and there the guns had to be withdrawn onto the open field and the cover' (the sentence continues on p. 24); 'repaired, while the fortress harassed the workers with its fire' (the end of the sentence begun on p. 23); 'in the night to the 18th the blockading troops worked on the left bank of the Oder at trenches about 100 paces long, to the right and left of the several batteries, so as to place in them 200 men of infantry each to cover the artillery,' (the sentence continues on p. 26); 'and everything was prepared for setting up the mortars and heavy howitzers expected from Küstrin, which had been embarked on the 14th but were held up by the water level of the Oder' (the end of the sentence begun on p. 25); 'the enemy gradually approached the works with his infantry in small pits and opened his musket fire on the 19th, so that the bullets flew into the town'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Die Pallisadirung hatte bei aller Thätigkeit nicht vollendet werden können; es war nur gelungen, die schwächsten Stellen zu sichern, doch arbeitete man noch während der Berennung mit Anstrengung."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Die Masse der Außenwerke hatte man aufgegeben, und sich mehr auf den Hauptwall zur Vertheidigung beschränkt, indem die Besatzung zu schwach und zu unsicher, die Zahl der Geschütze zu gering schien, zugleich die Außenwerke so niedrig waren, daß sie nur geringe Vertheidigungsfähigkeit besaßen, und bei der Unmöglichkeit sie zu pallisadiren, nur die Desertion begünstigt haben würden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p18-figures-v1",
+          "section": "p18",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 18 (transcribed from the page image)",
+          "quote": "Das sicherste Bataillon der Besatzung, das Bataillon von Grevenitz, besetzte die schwächsten Stellen des Hauptwalles auf dem linken Oder-Ufer, den Rest desselben das minder sichere Bataillon von Tschepe, und das schlechteste Bataillon von Zastrow das Dom-Retranchement auf dem rechten Oder-Ufer; ein Kommando der besten Invaliden hielt die Sternschanze, am obern Anschluß der Festung an die Oder, der Rest der Invaliden besetzte die Kehle"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "dieses Werkes; die Kavallerie und die Jäger wurden zum Patrouilliren der verlassenen Außenwerke benutzt. Die Bürger versahen den Dienst in der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Endlich am 22. November, als der Feind sich mit seinen Gruben besonders längs der Allee von Rauschwitz genähert hatte, wurde der Lieutenant Sommerfeld mit dem Detaschement des Regiments Zenge in die zunächst gelegenen Außenwerke vorgesandt, auch auf den Vorschlag des Ingenieurs vom Platz ein 12pfünder in die Kontregarde des preußischen Ravelins gebracht, um den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p27-figures-v1",
+          "section": "p27",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 27 (transcribed from the page image)",
+          "quote": "vorgegangenen Feind in Flanke und Rücken zu nehmen. Zu gleichem Zweck gingen die Jäger der Besatzung in die Außenwerke rechts des Ravelins gegen die Oder. Das feindliche Infanterie-Feuer wurde hierdurch merklich gelöscht und in den folgenden Tagen nur mäßig unterhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p29-figures-v1",
+          "section": "p29",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 29 (transcribed from the page image)",
+          "quote": "So fiel Glogau, ohne daß der Feind irgend welche Belagerungsarbeiten eröffnet oder einen Sturm gewagt hätte. Die Wälle hatten gar nichts gelitten; der Schaden an den Bürgerhäusern war verhältnißmäßig gering; das Festungsgeschütz war in vollständig gutem Zustande, trotz dem daß der Artillerie-Offizier vom Platz darüber das Gegentheil ausgesagt hatte; Mu-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "Der General Lefebvre erkannte bald, daß er mit der Kavallerie allein nichts ausrichten würde, und berichtete sofort nach dem Hauptquartier über den Erfolg seiner Sendung, jedoch benutzte er die Nacht, um durch zusammengebrachte Landleute zwei Erdaufwürfe zur Deckung der mitgeführten Geschütze arbeiten zu lassen.¹)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p19-figures-v1",
+          "section": "p19",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 19 (transcribed from the page image)",
+          "quote": "1) später Batterie Nr. 4 und 5 genannt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p20-figures-v1",
+          "section": "p20",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 20 (transcribed from the page image)",
+          "quote": "Am 11. November arbeiteten die Bayern auf dem linken Ufer an Deckungen zu sechs Batterien, und am 12. Abends traf noch die Artillerie der Division Wrede von Grüneberg vor Glogau ein. Um Mitternacht wurden die Geschütze in diese Erd-Aufwürfe eingeführt, und zwar jeder, mit Ausnahme der Batterie Nr. 5, durch 4 Kanonen und 2 Haubitzen armirt; die genannte"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p22-figures-v1",
+          "section": "p22",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 22 (transcribed from the page image)",
+          "quote": "Die Geschützdeckungen wurden solider ausgeführt, und da die 6pfünder der Festung keinen Schaden zufügten, wohl aber die Schwäche der Artillerie der Blokadetruppen verriethen, so beschloß man, sich mehr auf den Gebrauch der Haubitzen und 12pfünder zu beschränken, und demgemäß die Batterien zu armiren, so daß die Batterien Nr. 2, 3 und 4 jede mit 2—12pfündern und 2 Haubitzen, die Batterie Nr. 1 mit 2—12pfündern, und nur die Batterie Nr. 5 mit 2—6pfündern und 1 Haubitze ausgerüstet, die Batterie Nr. 6 aber ganz aufgegeben wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Die Festung antwortete lebhafter als am 13. und fügte den Deckungen bedeutenden Schaden zu, so daß hier und da die Geschütze auf das freie Feld zurückgezogen und die Dek-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 24 (transcribed from the page image)",
+          "quote": "kungen hergestellt werden mußten, wobei die Festung die Arbeiter durch ihr Feuer belästigte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p25-figures-v1",
+          "section": "p25",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 25 (transcribed from the page image)",
+          "quote": "In der Nacht zum 18. arbeiteten die Blokadetruppen auf dem linken Oder-Ufer an Laufgräben von etwa 100 Schritt Ausdehnung, rechts und links der einzelnen Batterien, um darin je 200 Mann Infanterie zur Deckung der Artillerie aufzustellen,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "auch wurde Alles zur Aufstellung der aus Küstrin erwarteten Mörser und schweren Haubitzen vorbereitet, welche am 14. eingeschifft waren, aber durch den Wasserstand der Oder aufgehalten wurden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd4-p26-figures-v1",
+          "section": "p26",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 4 (1851), p. 26 (transcribed from the page image)",
+          "quote": "Der Feind näherte sich den Werken allmälig mit seiner Infanterie in kleinen Gruben und eröffnete am 19. sein Gewehrfeuer, so daß die Kugeln bis in die Stadt flogen."
+        }
+      ],
+      "code": "both_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Höpfner's Plan Nr. XVII of Glogau, not inspected; the part of Höpfner's chapter 15 before p. 15, on the first measures for the defence of Silesia, not read beyond its heading and first page in the OCR; the continuation of the major general's letter of 22 November on Foucart, Campagne de Pologne, t. I, p. 146, which concerns the Württemberg cavalry left toward Breslau and Jérôme's move to Kalisch, kept for the Breslau entry; the capitulation's text, the royal order of 2 November, Berthier's letter on the abandoned storm (seen only in Höpfner's footnote), and Jérôme's and Lefebvre's reports, not found in the pages read; and the contemporary account of the siege of Breslau in the Lower Silesian Digital Library, kept for the Breslau entry. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength and composition at the capitulation. Höpfner's Württemberg division of about 8000 men, from which the major general's letter of 16 November ordered 2,000 infantry, all the cavalry and 4 guns to Lissa, and Montbrun's cavalry at Polkwitz are the only figures for the force under Vandamme, and Bodart's 8,000 Bavarians and 1,000 French match no body of troops before Glogau in the passages read. A return of the Württemberg division or Vandamme's report on the capitulation could close it.",
+    "Disputes kept as separate claims or within them: the garrison (3228 men and 124 guns, Höpfner; 3,200 men and 124 guns, Bodart; 3,500 including 1,000 cavalry, Davout's officer; one regiment, the 32nd Bulletin); side A at the capitulation (9,000, of them 1,000 French, under Deroy, Bodart; Deroy's division gone on the 25th and the Württembergers under Vandamme taking the capitulation, Höpfner and the order of 22 November); the first force before Glogau (Lefebvre's brigade and a light battery, Höpfner; 3 cavalry regiments and 6 pieces, Foucart's narrative; 2,000 horse, the 30th Bulletin); Deroy's investment (the 10th, Höpfner; the 9th, the 30th Bulletin); the first bombardment (on the 8th by 10 howitzers, the 30th Bulletin; a cannonade on the 7th and 8th and the first fire from six batteries on the 13th, Höpfner); the siege guns (6 mortars and 4 howitzers ordered, the Emperor; 6 small and 4 heavy mortars and 4 heavy howitzers, Höpfner); the governor's answer of the 13th and 14th (that he recognised the impossibility of defence, by French statements, Höpfner's text; a refusal, the letter in his footnote); the siege works (none opened, Höpfner's verdict; batteries, trenches and pits, his narrative); the day of the capitulation (2 December, Bodart; agreed on the 2nd and handed over on the 3rd, Höpfner); and the prisoners (the garrison captive with the officers on parole, Bodart; the invalids released and the rest prisoners, Höpfner).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his 124 guns agree with Höpfner's, his 3,200 men are not Höpfner's 3228 rounded up, and his 1,000 French match no troop body in the passages read); Foucart, Campagne de Prusse, t. II, and Campagne de Pologne, t. I, one family (the same author's editions of the French side's documents, from the page images: Davout's letter of 4 November, the major general's letters to Jérôme of 5, 16 and 22 November, the Emperor's to Jérôme of 10 November and to the Grand Duke of Berg of 3 December, the 30th, 32nd, 33rd and 35th Bulletins, the suspension of arms of 16 November printed with the 33rd, and Foucart's narrative on p. 68); Höpfner, Bd. 4 (the Prussian side's history, the same work and family as his first and second volumes; he cites no document for the garrison's strength, the councils or the capitulation's terms, marks the governor's answer of the 13th as given by French statements, and prints the governor's letter and Berthier's answer in French). Völderndorff's Bavarian history, the account of side A's Bavarian divisions (fourth book, pp. 56-66; pp. 59-60, 63 not read), was read on the page images and not used: the brief allows two families besides Bodart, and the group's two campaign families were kept."
+  ]
+}
+```
+
 
 ### B377c: GEFECHT bei Czarnowo (23./12. 1806)
 
@@ -32327,3 +34102,56 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `foucart-pologne-1882-t1-p215-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p215-figures.txt
 - `foucart-pologne-1882-t1-p216-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p216.jpg
 - `foucart-pologne-1882-t1-p216-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p216-figures.txt
+- `hoepfner-1851-bd4-ocr-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-djvu.txt
+- `hoepfner-1851-bd4-p15-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p15.jpg
+- `hoepfner-1851-bd4-p15-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p15-figures.txt
+- `hoepfner-1851-bd4-p16-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p16.jpg
+- `hoepfner-1851-bd4-p16-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p16-figures.txt
+- `hoepfner-1851-bd4-p17-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p17.jpg
+- `hoepfner-1851-bd4-p17-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p17-figures.txt
+- `hoepfner-1851-bd4-p18-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p18.jpg
+- `hoepfner-1851-bd4-p18-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p18-figures.txt
+- `hoepfner-1851-bd4-p19-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p19.jpg
+- `hoepfner-1851-bd4-p19-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p19-figures.txt
+- `hoepfner-1851-bd4-p20-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p20.jpg
+- `hoepfner-1851-bd4-p20-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p20-figures.txt
+- `hoepfner-1851-bd4-p21-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p21.jpg
+- `hoepfner-1851-bd4-p21-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p21-figures.txt
+- `hoepfner-1851-bd4-p22-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p22.jpg
+- `hoepfner-1851-bd4-p22-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p22-figures.txt
+- `hoepfner-1851-bd4-p23-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p23.jpg
+- `hoepfner-1851-bd4-p23-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p23-figures.txt
+- `hoepfner-1851-bd4-p24-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p24.jpg
+- `hoepfner-1851-bd4-p24-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p24-figures.txt
+- `hoepfner-1851-bd4-p25-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p25.jpg
+- `hoepfner-1851-bd4-p25-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p25-figures.txt
+- `hoepfner-1851-bd4-p26-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p26.jpg
+- `hoepfner-1851-bd4-p26-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p26-figures.txt
+- `hoepfner-1851-bd4-p27-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p27.jpg
+- `hoepfner-1851-bd4-p27-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p27-figures.txt
+- `hoepfner-1851-bd4-p28-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p28.jpg
+- `hoepfner-1851-bd4-p28-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p28-figures.txt
+- `hoepfner-1851-bd4-p29-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p29.jpg
+- `hoepfner-1851-bd4-p29-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p29-figures.txt
+- `hoepfner-1851-bd4-p30-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p30.jpg
+- `hoepfner-1851-bd4-p30-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p30-figures.txt
+- `hoepfner-1851-bd4-p31-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p31.jpg
+- `hoepfner-1851-bd4-p31-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-p31-figures.txt
+- `foucart-pologne-1882-t1-p41-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p41.jpg
+- `foucart-pologne-1882-t1-p41-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p41-figures.txt
+- `foucart-pologne-1882-t1-p42-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p42.jpg
+- `foucart-pologne-1882-t1-p42-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p42-figures.txt
+- `foucart-pologne-1882-t1-p56-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p56.jpg
+- `foucart-pologne-1882-t1-p56-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p56-figures.txt
+- `foucart-pologne-1882-t1-p57-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p57.jpg
+- `foucart-pologne-1882-t1-p57-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p57-figures.txt
+- `foucart-pologne-1882-t1-p68-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p68.jpg
+- `foucart-pologne-1882-t1-p68-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p68-figures.txt
+- `foucart-pologne-1882-t1-p81-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p81.jpg
+- `foucart-pologne-1882-t1-p81-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p81-figures.txt
+- `foucart-pologne-1882-t1-p104-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p104.jpg
+- `foucart-pologne-1882-t1-p104-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p104-figures.txt
+- `foucart-pologne-1882-t1-p105-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p105.jpg
+- `foucart-pologne-1882-t1-p105-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p105-figures.txt
+- `foucart-pologne-1882-t1-p145-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p145.jpg
+- `foucart-pologne-1882-t1-p145-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p145-figures.txt

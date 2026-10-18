@@ -80,6 +80,13 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   (pp. 132, 133, 215 and 216) were checked. P. 215 carries no printed number: the chapter heading
   '3 ET 4 DÉCEMBRE.' stands at its head, and the next leaf, n239, carries p. 216's running head.
   T. II (campagnedepolog01foucgoog) is not registered.
+- Höpfner Theil 2, Bd. 4 (1851; bub_gb_9PVKAAAAcAAJ), registered in 2d-i: leaf n = printed + 12
+  for pp. 15-31, checked on the images. Chapter 15 opens the volume's text, and chapter 16, on
+  the governor-general of Silesia and the siege and capitulation of Breslau, begins on p. 33.
+  Völderndorff's fourth book has its own pagination (11748199bsb, n = printed + 333), noted in
+  case it replaces a family later.
+- The ceiling is Bodart plus two families per entry. In this group they are Foucart and
+  Höpfner; a Bavarian or Württemberg history would have to replace one of them.
 
 ## Status
 
@@ -108,11 +115,19 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   *Campagne de Pologne* t. I, and Höpfner Bd. 2; primary-verified. 91 records registered (the
   *Campagne de Pologne* t. I OCR parent and 45 page images with figure transcriptions). About
   1.9 million tokens. Batch 2c is complete.
-- Next: batch 2d, Groß-Glogau B377b and Breslau B378b. Höpfner Theil 2, Bd. 4 (1851;
-  bub_gb_9PVKAAAAcAAJ, also bub_gb_ccATAAAAYAAJ) is the candidate for the Prussian side in
-  Silesia. On the French side, *Campagne de Pologne* t. I, registered in 2c-iv, prints the
-  Emperor's letter of 3 December reporting Glogau's surrender and the bombardment of Breslau
-  (p. 216, registered), and the registered transcription of Foucart t. II p. 806 holds the 30th
-  Bulletin's paragraph on Glogau. Bodart's side A is Bavarian and French at Glogau and French,
-  Bavarian and Württemberg at Breslau, so a Bavarian or Württemberg family may be needed; record
-  it as a gap if none is found.
+- 2026-10-18, sub-batch 2d-i: Groß-Glogau drafted from Bodart, Foucart (*Campagne de Pologne*
+  t. I with t. II) and Höpfner Bd. 4; primary-verified. 53 records registered (the Höpfner Bd. 4
+  OCR parent and 26 page images with figure transcriptions). About 2.3 million tokens.
+  Völderndorff's Bavarian account (fourth book, pp. 56-66) was read and transcribed, cited as a
+  fourth family in the first draft, and withdrawn before commit under the ceiling of Bodart plus
+  two families. Its transcriptions are not in the repository.
+- Next: sub-batch 2d-ii, Breslau B378b. Höpfner Bd. 4 has the first move against Breslau at the
+  end of chapter 15 (pp. 31-32, p. 31 registered) and the siege and capitulation in chapter 16
+  from p. 33. Foucart's *Campagne de Pologne* t. I has the rest of the order of 22 November on
+  p. 146 (read, not registered) and the Emperor's letter of 3 December on the bombardment
+  (p. 216, registered); search its OCR for Breslau (30 lines). Its documents end, by the OCR's
+  date lines, on 29 December 1806, so the capitulation of early January may need t. II
+  (campagnedepolog01foucgoog, the same family, not registered). Bodart, Foucart and Höpfner
+  fill the ceiling, so Völderndorff and the contemporary siege account in the Lower Silesian
+  Digital Library stay out unless one replaces a family; record the Bavarian and Württemberg
+  side's own figures as a gap.

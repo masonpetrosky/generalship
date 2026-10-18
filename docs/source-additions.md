@@ -1892,3 +1892,42 @@ names no source.
 
 Use: the drafts for B376d and B377a. No model inputs are changed. The registry now holds 2,857
 records.
+
+## Höpfner Bd. 4 and *Campagne de Pologne* t. I page images for Groß-Glogau, 2026-10-18
+
+53 records for sub-batch 2d-i: one OCR parent and 26 page images with their figure
+transcriptions. No selection is added.
+
+- **Höpfner, *Der Krieg von 1806 und 1807*, Zweiter Theil, Vierter Band** (Berlin, 1851; Internet
+  Archive `bub_gb_9PVKAAAAcAAJ`, an Austrian National Library copy digitised by Google): the OCR
+  parent `hoepfner-1851-bd4-ocr-v1`, retained complete, and 17 page images with transcriptions,
+  pp. 15–31, each whole. They are the Glogau account of chapter 15, which opens the volume with the
+  first measures for the defence of Silesia and ends with the first move against Breslau on
+  pp. 31–32. It is the same work and family as Höpfner's Bd. 1 and Bd. 2. Its leaf numbers are
+  n = printed + 12 for the pages registered, checked on the images. The title page was read on
+  image n7, which is not registered.
+- **Foucart, *Campagne de Pologne* t. I**: 9 page images with transcriptions:
+  - Davout's letter to the Emperor of 4 November (pp. 41–42);
+  - the major general's letters to Prince Jérôme of 5 November (pp. 56–57), 16 November
+    (pp. 104–105) and 22 November (p. 145);
+  - the Emperor's letter to Jérôme of 10 November (p. 81);
+  - Foucart's narrative of 7 November (p. 68).
+
+  All nine are at n = printed + 23, checked. P. 146, which continues the letter of 22 November,
+  was read on its image and is kept for Breslau.
+
+Every figure is transcribed from the image, on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence: Höpfner's Bd. 4 records the Public Domain Mark that the Internet Archive
+item gives, and the author's dates from the Bayerische Staatsbibliothek's record of Bd. 2. In the
+passages read he gives the strength of the Confederation of the Rhine's corps unit by unit without
+naming a source, and marks the governor's answer of 13 November as given by French statements. On
+p. 31 a footnote sets a French statement against a Bavarian report. *Campagne de Pologne* is as
+recorded for sub-batch 2c-iv.
+
+Völderndorff's fourth book (the Bamberg copy registered in 1805) was read and transcribed for
+Glogau, pp. 56–66 without pp. 59–60 and 63, and withdrawn before commit under the three-family
+ceiling; no record of it was added ([research log](research-log.md)).
+
+Use: the draft for B377b. No model inputs are changed. The registry now holds 2,910 records.

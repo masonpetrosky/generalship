@@ -2134,6 +2134,131 @@ primary-verified; no separate review was made.
     it shares with Hameln.
   - The estimate for the cohort's other 281 engagements stays at about 165 to 190 million tokens.
 
+## 1806 first pass, sub-batch 2d-i: Groß-Glogau (2026-10-18)
+
+The first part of batch 2d of `fourth-coalition 1806`: the investment and capitulation of
+Groß-Glogau, the Prussian fortress on the Oder in Silesia.
+
+| Entry | Engagement | Date (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B377b | Groß-Glogau (investment and capitulation) | 2 December 1806 | 18 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the group's two families. Every cited passage was read from a registered
+  page image ([source additions](source-additions.md)):
+  - Höpfner, Theil 2, Bd. 4 (1851), a new volume of his family: the Glogau account of
+    chapter 15, pp. 15–31, each page transcribed whole. The chapter opens the volume with the
+    first measures for the defence of Silesia; that part was not read beyond its heading and
+    first page. He gives the Confederation of the Rhine's corps in Silesia unit by unit and the
+    garrison by its parts, naming no source for either. He marks the governor's answer of
+    13 November as given by French statements, and prints in French footnotes the governor's
+    letter of refusal and Berthier's answer to Jérôme's report on the abandoned storm.
+  - Foucart's *Campagne de Pologne*, t. I:
+    - Davout's letter to the Emperor of 4 November (pp. 41–42);
+    - the major general's letters to Prince Jérôme of 5, 16 and 22 November (pp. 56–57, 104–105
+      and 145);
+    - the Emperor's letter to Jérôme of 10 November (p. 81);
+    - Foucart's narrative of 7 November (p. 68);
+    - reused from sub-batch 2c-iv: the 33rd Bulletin with the suspension of arms of 16 November,
+      whose article 2 names Glogau, the 35th Bulletin (pp. 132–133) and the Emperor's letter of
+      3 December (pp. 215–216).
+  - Foucart t. II, registered earlier: the 30th and 32nd Bulletins (p. 806; pp. 848–849).
+
+  The French documents were found by an OCR search of *Campagne de Pologne* t. I for Glogau
+  (35 lines). 53 records were registered: the Höpfner Bd. 4 OCR parent and 26 page images (17 of
+  Höpfner and 9 of *Campagne de Pologne*) with their figure transcriptions. No figure in a value is
+  taken from the OCR.
+- **Not used: Völderndorff.** The Bavarian official history, *Kriegsgeschichte von Bayern* (1826),
+  registered for Steken in 1805, tells the Bavarian divisions' part at Glogau in its fourth book.
+  Its pp. 56–58, 61–62 and 64–66 were read on the page images and transcribed, and the first draft
+  cited them as a fourth family. The check before release removed them: the brief allows two
+  families besides Bodart, and the group's two campaign families were kept, as Heilmann's *Wrede*
+  was left out at Steken. The 14 page records were withdrawn before commit, so no Völderndorff
+  figure or passage stands in the draft.
+- **Draft.** 18 claims with 262 citations, all supported. Phases: 10 unresolved, 3 inherited,
+  3 post_outcome and 2 commander_created.
+  - The posture is coded `A_attacked` and left unresolved. Side A invested, bombarded and
+    summoned the fortress. Side B stopped all sorties that could give occasion for desertion,
+    apart from a raid on the Grundmühle and a move into the outworks against side A's pits.
+  - The fortification is coded `both_fortified` and left unresolved: side B's permanent fortress,
+    and side A's gun cover, trenches and pits. Höpfner also says that side A opened no siege works;
+    a coding that counted only the fortress would give `B_fortified`.
+  - Side A's losses are a partial post_outcome claim: the Grundmühle post of 1 officer and 23 men
+    taken on 18 November, and no loss at battery No. 4 on 16 November. No total is given.
+  - Bodart's commander, Deroy, left with his division on 25 November, and Vandamme, with the
+    Württemberg division, took the capitulation. The draft assigns the credit to no one commander.
+  - The boundary leaves the cavalry's move on Breslau from 14 November, and the siege of Breslau,
+    to Bodart's Breslau entry. The suspension of arms of 16 November, never ratified, is context.
+- **Disputes kept visible.**
+  - The garrison: 3228 men and 124 guns (Höpfner); 3,200 men and 124 guns (Bodart), so Bodart's
+    figure is not Höpfner's rounded up; 3,500, of them 1,000 cavalry (Davout's officer,
+    4 November); one regiment (the 32nd Bulletin).
+  - Side A at the capitulation: 9,000, of them 1,000 French, under Deroy (Bodart); the Württemberg
+    division of about 8000 under Vandamme, after Deroy's division had left (Höpfner and the order
+    of 22 November). No passage read names a French troop unit before Glogau.
+  - Höpfner's own table: the second Bavarian division's rows make 7018, not the printed 5830, the
+    Württemberg rows 8652, not 8642, and the corps' arms 21,946, not 22,946, while the printed
+    division totals make 22,657 (our arithmetic).
+  - The first force before Glogau: Lefebvre's brigade and a light battery (Höpfner); 3 cavalry
+    regiments and 6 pieces (Foucart's narrative); 2,000 Bavarian horse (the 30th Bulletin), where
+    Höpfner's table gives the three regiments 1097 men (our arithmetic).
+  - Deroy's investment: the 10th (Höpfner); the 9th (the 30th Bulletin). The first bombardment:
+    on the 8th by 10 howitzers (the 30th Bulletin); a cannonade on the 7th and 8th and the first
+    fire from six batteries on the 13th (Höpfner).
+  - The siege guns: 6 mortars and 4 howitzers ordered (the Emperor, 10 November); 6 small and
+    4 heavy mortars and 4 heavy howitzers disembarked (Höpfner).
+  - The governor's answer of 13 November: that he recognised the impossibility of defence, by
+    French statements (Höpfner's text); a refusal (the letter in Höpfner's footnote).
+  - The siege works: none opened (Höpfner's verdict); batteries, trenches and pits (his
+    narrative).
+  - The date: 2 December (Bodart); agreed on the 2nd and handed over on the 3rd (Höpfner). The
+    prisoners: the garrison captive, its officers on parole (Bodart); the invalids released and
+    the rest prisoners (Höpfner). Bodart's 15-day blockade counts back to 17 November, while
+    Höpfner has the place invested on 7 November (our arithmetic).
+- **Gaps.** No targeted follow-up was run.
+  - The most consequential gap is side A's strength and composition at the capitulation. A return
+    of the Württemberg division or Vandamme's report could close it.
+  - Deferred:
+    - Höpfner's Plan Nr. XVII of Glogau, and the part of his chapter 15 before p. 15;
+    - *Campagne de Pologne* p. 146, the rest of the order of 22 November, kept for Breslau;
+    - not found in the pages read: the capitulation's text, the royal order of 2 November,
+      Berthier's letter on the storm (seen only in Höpfner's footnote) and Jérôme's and
+      Lefebvre's reports;
+    - the contemporary account of the siege of Breslau in the Lower Silesian Digital Library,
+      kept for Breslau.
+  - The passages read do not show whether the governor or Jérôme knew of the suspension of arms.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed Höpfner's pages whole and the Foucart passages from the page images, every figure
+    on full-resolution crops, and corrected the transcription notes against the images before
+    registration, among them the word divided as 'Dek-' and 'kungen' across pp. 23–24, the print's
+    spelling 'Desnöettes' on Foucart's p. 68, and the running head of p. 81;
+  - reread every cited passage against its transcription and fixed what the reread found, among it:
+    - side A's third summons of 13 November followed its withdrawal of the guns behind infantry
+      pickets after the fire; the draft now cites that sentence;
+    - Lefebvre's two squadrons crossed at Neusalz so that the fortress could be invested on both
+      banks, not to invest the right bank alone;
+    - on 30 November the wet roads held back the small mortars and the howitzers, brought up on
+      sledges, until 8 in the evening; the draft no longer says that all the guns had to come on
+      sledges;
+    - the capitulation was agreed after Vandamme's staff officer brought proposals; the draft no
+      longer says it was agreed with Vandamme in person;
+    - Höpfner's printed division totals, 14,015 and 8642, make 22,657 (our arithmetic), another
+      discrepancy now in the strength claim;
+  - cited transcribed passages that the first draft had left out: the corps' arrival at Krossen,
+    the spoiled muskets and cartridges in Tschepe's battalion, and the Lissa detachment ordered on
+    16 November;
+  - corrected the new parent record's inspection note: chapter 15 begins the volume's text, not
+    p. 15, and turns from Glogau to Breslau on p. 31;
+  - removed the fourth family, as above.
+
+  The evidence check passes on all 2,910 sources and 45 drafts (898 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 2.3 million tokens by the session's token counter, including the Völderndorff
+  pages read and withdrawn. The estimate for the cohort's other 280 engagements stays at about 165
+  to 190 million tokens.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
