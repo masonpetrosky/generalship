@@ -32,12 +32,13 @@ frame. Brief v2 adds the coded posture and fortification dimensions of decision 
 check now rebuilds every selection from its parent.
 
 **Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
-(23 entries), and batch 2e, Czarnowo, Pultusk and Golymin, is next. On 2026-10-16
-the owner set no usage cap and had the main session research, draft and verify each group itself,
-without subagents ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
+(23 entries). Batch 2e is under way: Czarnowo is drafted, and Pultusk and Golymin are next. On
+2026-10-16 the owner set no usage cap and had the main session research, draft and verify each
+group itself, without subagents
+([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
 Usage is logged per group.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 20 of the 23 entries of
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 21 of the 23 entries of
 `fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
 
 - `third-coalition 1805`, all 22 entries in six batches:
@@ -68,12 +69,14 @@ Usage is logged per group.
   - sub-batch 2c-iii: Magdeburg (B376c), about 1.5 million tokens;
   - sub-batch 2c-iv: Hameln and Nienburg (B376d and B377a), about 1.9 million tokens;
   - sub-batch 2d-i: Groß-Glogau (B377b), about 2.3 million tokens;
-  - sub-batch 2d-ii: Breslau (B378b), about 1.9 million tokens.
+  - sub-batch 2d-ii: Breslau (B378b), about 1.9 million tokens;
+  - sub-batch 2e-i: Czarnowo (B377c), about 3.7 million tokens.
 
-The cohort's other 279 engagements would need about 165 to 190 million tokens at the two finished
-groups' rates, roughly 11 to 13 sessions. At sub-batch 2b-ii's rate of about 590,000 an entry they
-would need about 170 million. Batch 2a's three entries, the group's largest battles, took about 2
-million each. The Civil War work below is complete as recorded, and its cohorts,
+The cohort's other 278 engagements would need about 160 to 185 million tokens at the two finished
+groups' rates, roughly 11 to 12 sessions, and about 330 million, roughly 22 sessions, at the 1806
+group's rate so far of about 1.2 million an entry. At sub-batch 2b-ii's rate of about 590,000 an
+entry they would need about 165 million. Batch 2a's three entries, the group's largest battles,
+took about 2 million each. The Civil War work below is complete as recorded, and its cohorts,
 ledgers and runs are unchanged.
 
 ## Open owner decisions

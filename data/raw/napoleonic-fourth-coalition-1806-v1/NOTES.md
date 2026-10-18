@@ -82,12 +82,24 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   T. II (campagnedepolog01foucgoog), registered in 2d-ii, is at n = printed + 11 for the eight
   pages registered (pp. 93-97, 108, 112 and 113), checked on the images; its title page is image
   n12, not registered.
+  In 2e-i, t. I pp. 372-376, 390-401 and 439-440 were registered (n = printed + 25), and t. II's
+  unnumbered summary return of December 1806 on leaf n486, the first text page after the
+  half-title 'SITUATIONS' on n484.
 - Höpfner Theil 2, Bd. 4 (1851; bub_gb_9PVKAAAAcAAJ), registered in 2d-i: leaf n = printed + 12
   for pp. 15-31 and for the Breslau pages registered in 2d-ii (p. 36 to p. 118), checked on the
   images. Chapter 15 opens the volume's text, and chapter 16, on
   the governor-general of Silesia and the siege and capitulation of Breslau, begins on p. 33.
   Völderndorff's fourth book has its own pagination (11748199bsb, n = printed + 333), noted in
   case it replaces a family later.
+- Höpfner Theil 2, Bd. 3 (1851; 10594714bsb, Bayerische Staatsbibliothek), registered in 2e-i:
+  leaf n = printed + 10 for pp. 23-24 and 82-95, checked on the images. The title page (n5) and the
+  preface to the second part (n7-n8) were read on the images and are not registered. The second
+  edition (1855; bub_gb_l74TAAAAYAAJ) was compared in the OCR only. The image of p. 26 (n36: the
+  army's totals by the report of 23 October and Höpfner's comment on them) is in this directory,
+  untracked and unregistered; transcribe and register it with the Pultusk pages.
+- Grouped renderings: the rendering check reads only R_ names written in a claim's own rationale,
+  so a module-level string joining renderings (a letter's heading and dateline) is not seen; write
+  the rend(...) call into each claim.
 - The ceiling is Bodart plus two families per entry. In this group they are Foucart and
   Höpfner; a Bavarian or Württemberg history would have to replace one of them.
 
@@ -129,8 +141,13 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   parent and 40 page images with figure transcriptions). About 1.9 million tokens. Batch 2d is
   complete. Völderndorff and the Lower Silesian Digital Library's siege account stayed out under
   the ceiling.
-- Next: batch 2e, the Polish engagements of December 1806, Czarnowo B377c, Pultusk B377d and
-  Golymin B378a. *Campagne de Pologne* (Pultusk et Golymin), t. I and t. II, both registered, has
-  the French documents. Höpfner's Theil 2, Bd. 3, noted above for 2e (10594714bsb, 1851;
-  bub_gb_l74TAAAAYAAJ, 2nd edition, 1855), is not registered; register one edition and record
-  which one each claim uses. Search the Foucart volumes' OCR for each place.
+- 2026-10-18, sub-batch 2e-i: Czarnowo drafted from Bodart, Foucart (*Campagne de Pologne* t. I
+  and t. II) and Höpfner Bd. 3 (1851 edition, newly registered); primary-verified. 73 records
+  registered (the Höpfner Bd. 3 OCR parent and 36 page images with figure transcriptions). About
+  3.7 million tokens. The one targeted follow-up, for side A's strength, found t. II's summary
+  return, which gives the 3rd corps but not the troops engaged.
+- Next: sub-batch 2e-ii, Pultusk B377d, then 2e-iii, Golymin B378a. Leads, from the OCR: Höpfner
+  Bd. 3 p. 26 (image here, see above) and p. 27 (an estimate of the Russian army's strength); his
+  account of Pultusk and Golymin from p. 96 (the volume's errata correct pp. 129 and 135);
+  *Campagne de Pologne* t. I pp. 438-502 and the first pages of t. II. Search the OCR for each
+  place, and fix each entry's families before reading a new work.

@@ -1967,3 +1967,61 @@ officers, Du Casse and the *Geschichte der Belagerung von Breslau*. He names no 
 garrison's returns, the councils or the negotiations.
 
 Use: the draft for B378b. No model inputs are changed. The registry now holds 2,991 records.
+
+## Höpfner Bd. 3 and *Campagne de Pologne* t. I and t. II page images for Czarnowo, 2026-10-18
+
+73 records for sub-batch 2e-i: one OCR parent and 36 page images with their figure
+transcriptions. No selection is added.
+
+- **Höpfner, *Der Krieg von 1806 und 1807*, Theil 2, Bd. 3** (Berlin, 1851; Internet Archive
+  `10594714bsb`, the Bayerische Staatsbibliothek's copy, shelfmark Mil.g. 105 m-3): the OCR parent
+  `hoepfner-1851-bd3-ocr-v1`, retained complete, and 16 page images with transcriptions, each
+  whole:
+  - pp. 23–24: Bennigsen's army by the report of 23 October 1806, with the 2nd Division's
+    composition and totals;
+  - pp. 82–95: the Russian dispositions from 18 December, Kaminskoi's arrival, Napoleon's aims,
+    Davout's preparations at the Wkra's mouth, Ostermann's position at Czarnowo, the disposition
+    Napoleon dictated, the night action, the losses and Höpfner's judgement.
+
+  It is the third volume, and the first of the second part (the campaign of 1807), of the work
+  whose first, second and fourth volumes are registered, so it is in Höpfner's family. Its leaf
+  numbers are n = printed + 10 for the pages registered, checked on the images. The title page (n5)
+  and the preface to the second part (n7 and n8) were read on the images and are not registered.
+  The second edition (Berlin, 1855; `bub_gb_l74TAAAAYAAJ`) was compared in the OCR and is not
+  registered. The image of p. 26 was downloaded and transcribed for the Pultusk entry and is not
+  registered.
+- **Foucart, *Campagne de Pologne*, t. I**: 19 page images with transcriptions:
+  - pp. 372–376: the major general's letter to Davout of 22 December, half past eleven in the
+    morning, Davout's letter without a dateline, and the editor's narrative of the night of
+    22 December;
+  - pp. 390–401: the end of the major general's letter to Lannes of 23 December and the extract of
+    the 3rd corps's journal of marches and operations on the night combat at Czarnowo, with the
+    order the Emperor dictated and the table of losses, and the editor's paragraph after it;
+  - pp. 439–440: the end of the major general's letter to Davout and the beginning of his letter
+    to Lannes, both of 25 December, with the editor's paragraphs between.
+
+  Leaf numbers are n = printed + 25, as recorded for pp. 306–512, checked on the images. The
+  headings and datelines on pp. 371, 388 and 438 and the text of p. 389 were read on the images and
+  are not registered.
+- **Foucart, *Campagne de Pologne*, t. II**: 1 page image with transcription, the unnumbered page
+  on leaf n486, the first text page after the half-title 'SITUATIONS' on n484: the editor's summary
+  return of the troops that took part in the operations of December 1806, a quotation of the
+  Emperor's letter to the grand-duc de Berg of 14 December, and the editor's comment.
+
+Every figure is transcribed from the image, on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence: Bd. 3's parent records the Bayerische Staatsbibliothek's statement from its
+IIIF manifest, No Copyright – Non-Commercial Use Only, with its attribution, 'München, Bayerische
+Staatsbibliothek'; the
+Internet Archive item has no rights field. By the preface to the second part, Höpfner's sources for
+the Russian army's operations include extracts from Bennigsen's memoirs, the reports of the
+Prussian officers attached to the Russian troops and surveys of the battlefields made after the
+peace. In the passages read he gives the Russian losses as the Russians give them and the French
+losses as the French admit them, translates Napoleon's disposition, sets French against Russian
+reports on the opening of the fire, and names the report of 23 October handed in by General
+Chlebowski; he names no source for the position at Czarnowo. Foucart's t. I prints the French
+side's letters and the 3rd corps's journal in extract, and t. II's summary return rests, by the
+editor's comment, on authentic documents that he does not name.
+
+Use: the draft for B377c. No model inputs are changed. The registry now holds 3,064 records.

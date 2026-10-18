@@ -2393,6 +2393,126 @@ primary-verified; no separate review was made.
 - **Usage.** About 1.9 million tokens by the session's token counter. The estimate for the
   cohort's other 279 engagements stays at about 165 to 190 million tokens.
 
+## 1806 first pass, sub-batch 2e-i: Czarnowo (2026-10-18)
+
+The first part of batch 2e of `fourth-coalition 1806`: the night combat at Czarnowo, where the
+3rd corps crossed the Wkra at its mouth under Napoleon's direction and drove General Ostermann's
+Russian force back on Nasielsk.
+
+| Entry | Engagement | Date (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B377c | Czarnowo (combat) | 23 December 1806 | 20 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the group's two families. Every cited passage was read from a registered
+  page image ([source additions](source-additions.md)):
+  - Höpfner, Bd. 3 (1851), newly registered, each page transcribed whole: Bennigsen's army by the
+    report of 23 October, with the 2nd Division's composition and totals (pp. 23–24); and the
+    Russian dispositions from 18 December, Kaminskoi's arrival, Napoleon's aims, Davout's
+    preparations at the Wkra's mouth, Ostermann's position, the disposition Napoleon dictated, the
+    night action, the losses and Höpfner's judgement (pp. 82–95). He gives the Russian losses as
+    the Russians give them and the French losses as the French admit them, translates the
+    disposition, and names no source for the position at Czarnowo or his estimate of 5000.
+  - Foucart's *Campagne de Pologne*, t. I: the major general's letter to Davout of 22 December,
+    half past eleven in the morning, Davout's letter without a dateline and the editor's narrative
+    of the night of 22 December (pp. 372–376); the extract of the 3rd corps's journal of marches
+    and operations on the night combat, with the order the Emperor dictated to Colonel Hervo and
+    the table of losses of two divisions (pp. 390–401); and the major general's letter to Lannes of
+    25 December (pp. 439–440).
+  - Foucart's t. II: the editor's summary return of the troops in the December operations, on the
+    unnumbered page of leaf n486, found by the one targeted follow-up.
+
+  The pages were found by searching the three volumes' OCR. 73 records were registered: Höpfner
+  Bd. 3's OCR parent and 36 page images (16 of Höpfner, 19 of t. I and 1 of t. II) with their
+  figure transcriptions. Every registered page is cited. No figure in a value is taken from the
+  OCR.
+- **Not used.** Höpfner's second edition of Bd. 3 (1855) was compared in the OCR and is not
+  registered. His p. 26, with the army's totals by the report of 23 October and his comment on
+  them, was transcribed from the image and is kept for the Pultusk entry, unregistered.
+  *Campagne de Pologne* t. I pp. 371, 388–389 and 438 were read on the images for the headings and
+  datelines of letters that run onto the registered pages, and are not registered.
+- **Draft.** 20 claims with 353 citations, all supported. Phases: 10 unresolved,
+  4 commander_created, 4 post_outcome and 2 inherited.
+  - The posture is coded `A_attacked` and tagged commander_created: Napoleon reconnoitred the Wkra
+    and dictated the attack on the field. Side B's four attacks on Petit's detachment in the
+    captured works and the last Russian attacks before the retreat, the journal's renewed charge
+    and Höpfner's attack by Ostermann, were counterattacks. The attack Kaminskoi ordered for the
+    24th was forestalled.
+  - The fortification is coded `B_fortified` and left unresolved. Side B fought from batteries,
+    breastworks, entrenchments, redoubts and abatis. By Höpfner the pioneers completed the
+    position's works on the 21st, but the battery at the burnt bridge of Pomiechowo was already
+    there, and no passage says who made the abatis. Side A's entrenched camp and bridgehead held
+    only the reserve. A coding that counted Petit's defence of the captured works, or the
+    bridgehead, would give `both_fortified`.
+  - Both commands are commander_created. Side A's runs from the major general's conditional
+    instruction of 22 December and Davout's preparations to Napoleon's dictated disposition and
+    Davout's and Morand's orders in the action. Side B's is Ostermann's position and conduct,
+    within Bennigsen's dispositions and Kaminskoi's orders.
+  - The boundary leaves Nasielsk on the 24th, Augereau's fight at Kolozomb, the reserve cavalry on
+    the upper Wkra, and Pultusk and Golymin outside the entry.
+- **Disputes kept visible.**
+  - Side B's strength: 5,500 (Bodart); about 5000 for the position (Höpfner's estimate); 15,000
+    with twenty pieces (the 3rd corps's journal); a division of about 15,000 on the Wkra (the major
+    general, 25 December). The report of 23 October gives the whole 2nd Division 16,244 combatants
+    before the campaign (our arithmetic).
+  - Side B's guns at Czarnowo: 32 by Höpfner's list (our arithmetic); twenty in the journal.
+  - Side A's strength: Bodart's 18,000 matches no passage read; the summary return gives the
+    3rd corps 21,500 infantry and 750 cavalry in the middle of December.
+  - Side A's losses: 850 with 16 officers (Bodart); 100 dead and 750 wounded with 58 officers, as
+    the French admit (Höpfner, who assumes more); the journal's table for two divisions makes 807
+    with 67 officers (our arithmetic).
+  - Side B's losses: 1,400 with 3 generals and 38 officers, 500 prisoners and 5 cannon (Bodart);
+    the Russians' own figures make 1,392 with 3 generals and 38 officers (Höpfner; our arithmetic),
+    and about 500 wounded were the only prisoners (Höpfner), against a few hundred prisoners,
+    500 wounded and 5 pieces (the journal).
+  - The timing: the troops began to cross the bridge about 3 in the afternoon (Foucart's note); the
+    signal after 4 and Morand's order to cross at 7 (Höpfner); the French fire opened at once by
+    French reports and after an hour by Russian ones (Höpfner).
+  - The date (23 December, Bodart; the night to 24 December, Höpfner), the river (the Bug, Bodart;
+    the Narew, the journal and Höpfner), and the Wkra's bank in the letter of 25 December (the
+    right bank, as printed, against the left bank in the journal and Davout's letter).
+- **Gaps.** One targeted follow-up was run, for side A's strength. It found the summary return,
+  which gives the 3rd corps but not the troops engaged.
+  - The most consequential gap is still side A's engaged strength. A return of the 3rd corps for
+    23 December, or Davout's report of the action, could close it. Side B's strength at the
+    position rests on Höpfner's estimate, without a Russian return.
+  - Deferred:
+    - Höpfner's plan of the action at Czarnowo and his overview sheet, not inspected;
+    - Höpfner's pp. 22, 81 and 96, seen only in the OCR, and p. 25, not read;
+    - *Campagne de Pologne* t. I pp. 377–387 and 402–437, not read;
+    - not seen: the 45th Bulletin, Davout's report, the Russian reports Höpfner draws on and the
+      documents behind the summary return.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed the pages whole from the images, the figures on full-resolution crops, and settled
+    OCR misreads on the images, among them '25' toises on t. I p. 393 (OCR '26'), 'Zatowa' on
+    p. 375 (OCR 'Zalowa') and the print's '(?)' after 'Kanals' on Höpfner's p. 88 (OCR '(2)');
+  - reread every cited passage against its transcription and fixed what the reread found, among it:
+    - Davout reinforced Petit three times; the great part of the 21st that then moved on Czarnowo
+      is not said to have been sent to him;
+    - the regiment whose cartridges were spent is the 17th by the sentence before, now cited;
+    - the battery of 2 twelve-pounders faced the village of Pomiechowo, not Czarnowo;
+    - the major general's letter of 25 December places the field marshal commanding the Russian
+      army at Nasielsk without naming him;
+    - Davout's account of the enemy at Ciexin is what he had told Morand;
+    - Ostermann recognised the fire for what it meant; no passage says the French fires deceived
+      him;
+    - the attack on the Russian left and right is the journal's account of the plan, not the text
+      of the dictated order;
+    - Höpfner's version of the disposition gives the 17th's intervals as 60 paces, now cited;
+  - checked that no number in a value lacks a cited passage, which removed a date from side A's
+    command claim and a division number from the posture claim;
+  - wrote out in each claim the renderings of citations grouped across claims.
+
+  The evidence check passes on all 3,064 sources and 47 drafts (936 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 3.7 million tokens by the session's token counter, above any earlier batch's
+  rate per entry: it registered a new volume and 36 pages. Recomputed for the cohort's other
+  278 engagements, the estimate at the two finished groups' rates is about 160 to 185 million
+  tokens. At the 1806 group's rate so far, about 1.2 million an entry, they would need about
+  330 million.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

@@ -32949,6 +32949,2347 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B377c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Czarnowo entry (combat, 23 December 1806) in cohort v1's fourth-coalition 1806 group: General Ostermann's Russian force at the mouth of the Wkra, from his posting there on 18 and 19 December, and the crossing and night attack of Marshal Davout's 3rd corps under Napoleon's direction, from the Emperor's arrival on the 23rd to the Russian retreat on Nasielsk in the morning of the 24th. Side B's army before the campaign, the orders of 22 December and the French crossing of the Narew are context. The fighting at Nasielsk on the 24th, the fighting of Marshal Augereau's corps at Kolozomb, the movements of the reserve cavalry on the upper Wkra and the battles of Pultusk and Golymin, separate entries, are outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 18,000 men under Napoleon I and side B (Russian) 5,500 men under Lieutenant General Count Ostermann at Czarnowo on 23 December 1806. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 5,500 Russians are near Höpfner's 'circa 5000' for Ostermann's position (claim hoepfner-side-b) and well below the 15,000 of the 3rd corps's journal and of the major general's letter of 25 December (claim foucart-side-b) (our comparison). No passage read gives side A 18,000 men: the summary return Foucart prints gives the whole 3rd corps, in the middle of December, 21,500 infantry and 750 cavalry present under arms, 22,250 (our arithmetic), while Friant's division arrived only at daybreak and the 3rd division, apart from Petit's detachment, stayed in reserve (claim side-a-strength). The troops each side had at hand followed its commanders' dispositions, so the phase is unresolved. Which source Bodart used was not checked. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 23/12. Combat at Czarnowo (6.)'; 'victory of the French (18,000 men) under Napoleon I over the Russians (5,500 men) under Lieutenant General Count Ostermann'. 'Gen.-Lt.' is General-Leutnant, 'Gf.' Graf and 'M.' Mann in Bodart's list of abbreviations.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Napoleon I. über die Russen (5.500 M.) unter Gen.-Lt. Gf. Ostermann."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "G.-L., Gen.-Lt. — General-Leutnant"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gf. — Graf"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        }
+      ]
+    },
+    {
+      "id": "hoepfner-side-b",
+      "dimension": "strength",
+      "value": "Side B (Russian) in Höpfner. By the report of 23 October that the Prussian General Chlebowski, posted to the headquarters, handed in to the King, the 2nd Division of Lieutenant General Count Ostermann had 20 squadrons under Major General Koschin (the Life Cuirassier Regiment, the Kargopol Dragoons, the Isum Hussars and the Cossack regiments Ilowaiski IX and Jefromow III); 6 battalions under Major General Mazowskoi (the Pavlov Grenadiers and Rostov Musketeers), 6 under Major General Sukin II (the Petersburg Grenadiers and Jeletz Musketeers) and 6 under Major General Count Liewen (the 1st and 20th Jäger Regiments); 60 guns under Colonel Stawitzki (2 batteries of 12-pounders, 2 of 6-pounders and 1 horse battery); and 1 company of pioneers: together 544 officers, 1110 non-commissioned officers, 344 musicians, 14,246 privates and 1267 non-combatants, with 3434 riding and 2479 draught horses. On 18 December Ostermann with the rest of the 2nd Division held the Wkra from Borkowo down to its mouth and the Narew upstream from the mouth, having relieved most of the 6th Division that day, while General Dorochow observed the crossing at Borkowo with, among other troops, 2 battalions of the 1st Jäger Regiment, 1 battalion of the Isum Hussars and the Cossack regiment Ilowaiski IX of the 2nd Division. Ostermann's position: at Czarnowo the 20th Jäger Regiment, 1 battalion each of the 1st and 4th Jäger Regiments, 2 battalions of the Rostov Musketeers, 1 Cossack regiment, 6 horse, 12 12-pounder and 14 6-pounder guns and 1 pioneer company; 1 battalion of the St Petersburg Grenadiers at Orzechowo and 2 at Dembe; the Jeletz Musketeers at Izbice; 5 squadrons of Alexandrov hussars at Brody and Kikol; 1 battalion of the Rostov Musketeers at Psucin; the Pavlov Grenadiers and a heavy battery at Nasielsk, the division's assembly point; the Kargopol Dragoons at Czaiki; and the Life Cuirassiers at Ciepelin. Besides the 7 battalions at Czarnowo, Ostermann could count at first only on the grenadier battalion at Orzechowo and the musketeer battalion at Psucin, which with the Alexandrov hussars could reinforce the post within a few hours; for about 5000 men the extent of the position, over ¼ mile, was too great for a resistance that could hope to throw the enemy back over the river. When the signal was given he reinforced the advanced troops in the lowland with 6 Jäger companies; 2 battalions seem to have stood at the redoubts on the right wing, 3 in the centre and on the left at Czarnowo, and probably 2 Jäger battalions in the lowland toward the island; the grenadier battalion from Orzechowo arrived during the fight, the Alexandrov hussars came out of the wood from Brody, and 3 Jäger battalions and 4 squadrons of hussars formed the rearguard.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, side B's ally's history, read from the page images (pp. 23, 24, 82 and 85-93). The report of 23 October gives the whole division before the campaign, not the force at Czarnowo: its officers, non-commissioned officers, musicians and privates make 16,244 (our arithmetic), besides the non-combatants. Höpfner comments on the army's totals by this report on his p. 26, which is kept for the Pultusk entry and not cited here. Höpfner's 'circa 5000 Mann' is his estimate for the position and names no source. The 20th Jäger Regiment, if it had 3 of the 6 battalions the report gives the 1st and 20th Jäger, makes with the 4 other battalions his 7 (our arithmetic and reading). The guns at Czarnowo, 6, 12 and 14, make 32, and the 4, 2 and 6 12-pounders he puts in three of the batteries make the 12 12-pounders (our arithmetic); the journal of the 3rd corps gives twenty pieces (claim foucart-side-b). His account of the battalions' posts at the signal is hedged ('scheinen', 'wohl'). The force at Czarnowo followed Bennigsen's dispositions and Ostermann's own (claim side-b-command), so the phase is unresolved. English renderings (ours): 'first, there stood ready to advance on the Russian frontier on 1 November the army of General of Cavalry v. Bennigsen, which, according to the report handed in to the King by the Prussian General Chlebowski, posted to the headquarters,' (p. 23); '[report] of 23 October consisted of the 2nd, 3rd, 4th and 6th Divisions and had the following composition:' (p. 24); 'II. Division of Lieutenant General Count Ostermann'; '20 squadrons, Major General Koschin'; 'Life Cuirassier Regiment'; 'Kargopol Dragoon Regiment'; 'Isum Hussar Regiment'; 'Cossack Regiment Ilowaiski IX.'; '〃 〃 Jefromow III.' (the ditto marks repeat 'Cossack Regiment'); '6 battalions, Major General Mazowskoi'; 'Pavlov Grenadier Regiment'; 'Rostov Musketeer Regiment'; '6 battalions, Major General Sukin II.'; 'Petersburg Grenadier Regiment'; 'Jeletz Musketeer Regiment'; '6 battalions, Major General Count Liewen'; '1st Jäger Regiment'; '20th 〃 〃' (Jäger Regiment); '60 guns, Colonel Stawitzki'; '2 batteries 12-pounders'; '2 〃 6-pounders' (batteries); '1 horse battery'; '1 company of pioneers'; 'together: 544 officers, 1110 non-commissioned officers, 344 musicians, 14,246 privates, 1267 non-combatants, 3434 riding and 2479 draught horses'; 'for this the army had received the following disposition on 18 December:'; 'General Ostermann with the rest of the 2nd Division held the Wkra from Borkowo downstream to its mouth in the Narew, and that river upstream from the mouth, having relieved the greater part of the 6th Division that day;'; 'General Dorochow — 2 battalions of the 1st Jäger Regiment, 1 battalion of the Isum Hussars and the Cossack Regiment Ilowaiski IX. of the 2nd Division, 1 battalion of the 3rd Jäger Regiment and 6 horse guns of the 4th Division — observed the crossing of the Wkra at Borkowo;'; 'all this determined him to direct his main attention to this point and to take up the following position:'; 'at Czarnowo: the 20th Jäger Regiment, 1 battalion' (p. 85); 'of the 1st and 1 battalion of the 4th Jäger Regiment, 2 battalions of the Rostov Musketeer Regiment, 1 Cossack regiment, 6 horse, 12 12-pounder and 14 6-pounder guns and 1 pioneer company' (p. 86); 'at Orzechowo on the Narew, ¾ mile above Czarnowo, stood 1 battalion of the St Petersburg Grenadier Regiment'; 'at Dembe, ½ mile above Orzechowo, 2 battalions of the same regiment'; 'at Izbice, ¼ mile above Dembe, the Jeletz Musketeer Regiment'; '5 squadrons of Alexandrov hussars stood partly at Brody on the Wkra, ½ mile from Czarnowo, partly at Kikol on the Narew'; 'in Psucin, ¾ mile north of Czarnowo, 1 battalion of the Rostov Musketeer Regiment'; 'in and near Nasielsk, where the assembly point of the 2nd Division was, the Pavlov Grenadier Regiment and a heavy battery'; 'at Czaiki, 1 mile south-west of Nasielsk, the Kargopol Dragoon Regiment, and'; 'at Ciepelin, 1¼ miles from Izbice, the Life Cuirassier Regiment'; 'it can be seen from this position that General Ostermann, besides the 7 battalions at Czarnowo, could at first count only' (p. 86); 'on the grenadier battalion at Orzechowo and the musketeer battalion in Psucin for support, since these, together with the Alexandrov hussars, could reinforce the post within a few hours' (p. 87); 'General Ostermann's position on the fairly steep valley edge of the Narew, with both wings securely anchored, was in itself not at all unfavourable for making the French advance after the crossing difficult, but for about 5000 men the extent of over ¼ mile was too great to offer a resistance from which one could hope to throw the enemy back over the river'; 'General Ostermann recognised the fire for what it meant, and at once reinforced the advanced troops in the lowland with 6 companies of Jäger'; '2 battalions seem to have taken post to protect the redoubts on the right wing opposite Pomiechowo, 3 battalions in the centre and on the left wing at Czarnowo, while probably 2 Jäger battalions had been pushed forward in the lowland toward the island'; 'the arrival of the grenadier battalion from Orzechowo, as well as the effective artillery fire, allowed General Ostermann to repulse this attack too, but he saw from the ever more extending and thickening skirmish fire that he had to deal with a very superior enemy'; 'the Alexandrov hussars, debouching from the wood from Brody, joined their fighting infantry, but could achieve nothing in the darkness and drew off toward Czarnowo'; 'it had become 4 o'clock in the morning of the 24th, so that the Russian troops had stood under fire for about 12 hours. 3 battalions of Jäger and 4 squadrons of hussars formed the rearguard'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Zunächst stand am 1. November an der russischen Grenze zum Vormarsch bereit, die Armee des Generals der Kavallerie v. Bennigsen, die nach dem, dem Könige durch den in das Hauptquartier kommandirten preußischen General Chlebowski, eingereichten"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Rapport vom 23. Oktober aus der 2., 3., 4. und 6ten Division bestand und folgende Zusammensetzung hatte:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 24 (transcribed from the page image)",
+          "quote": "II. Division des G.-L. Graf Ostermann.\n\n20 Schwadr. G.-M. Koschin.\nLeib-Kürassier-Regiment\nKargopolsches Dragoner-Regt.\nIsumsches Husaren-Regt.\nKosaken-Regt. Ilowaiski IX.\n〃 〃 Jefromow III.\n6 Bataillone G.-M. Mazowskoi.\nPawlowskisches Grenadier-Regt.\nRostowsches Musketier-Regt.\n6 Bataillone G.-M. Sukin II.\nPetersburgsches Grenadier-Regt.\nJeletzkisches Musketier-Regt.\n6 Bataillone G.-M. Graf Liewen.\n1stes Jäger-Regt.\n20stes 〃 〃\n60 Geschütze Oberst Stawitzki.\n2 Batterien 12pfünder\n2 〃 6pfünder\n1 reitende Batterie\n1 Kompagnie Pioniere."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Zusammen: 544 Offiziere, 1110 Unteroffiziere, 344 Spielleute, 14,246 Gemeine, 1267 Nicht-Kombattanten, 3434 Reit- und 2479 Zugpferde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "Die Armee hatte hierzu am 18. Dezember folgende Aufstellung erhalten:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "der General Ostermann mit dem Rest der 2. Division hielt die Wkra von Borkowo abwärts bis zur Mündung in den Narew und diesen Strom von der Mündung aufwärts besetzt, nachdem er an diesem Tage den größten Theil der 6. Division abgelöst hatte;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "der General Dorochow — 2 Bat. des 1. Jäger-Regts., 1 Bat. der Isumschen Husaren und das Kosaken-Regiment Ilowaiski IX. von der 2. Division, 1 Bat. des 3. Jäger-Regts. und 6 reit. Geschütze der 4. Division — beobachtete den Wkra-Uebergang bei Borkowo;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Dies Alles bestimmte ihn, sein Hauptaugenmerk auf diesen Punkt zu richten und folgende Aufstellung zu nehmen:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Bei Czarnowo: das 20. Jäger-Regiment, 1 Bataillon"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "des 1. und 1 Bat. des 4. Jäger-Regts., 2 Bat. des Rostowschen Musketier-Regts., 1 Kosaken-Regiment, 6 reitende, 12—12pfündige, 14—6pfündige Geschütze und 1 Pionier-Kompagnie."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Bei Orzechowo am Narew, ¾ Meilen oberhalb Czarnowo, stand 1 Bat. des St. Petersburgischen Grenadier-Regts."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Bei Dembe, ½ Meile oberhalb Orzechowo, 2 Bat. desselben Regiments."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Bei Izbice, ¼ Meile oberhalb Dembe, das Jeletzkische Musketier-Regiment."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "5 Schwadronen Alexandrowscher Husaren standen theils bei Brody an der Wkra, ½ Meile von Czarnowo, theils bei Kikol am Narew."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "In Psucin, ¾ Meile nördlich von Czarnowo, 1 Bat. des Rostowschen Musketier-Regiments."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "In und bei Nasielsk, wo der Sammelplatz der 2. Division war, das Pawlowskische Grenadier-Regiment und eine schwere Batterie."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Bei Czaiki, 1 Meile südwestlich von Nasielsk, das Kargopolsche Dragoner-Regiment, und"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "bei Ciepelin, 1¼ Meile von Izbice, das Leib-Kürassier-Regiment."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Es ist aus dieser Aufstellung zu ersehen, daß der General Ostermann außer den 7 Bataillonen bei Czarnowo, zunächst nur"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "noch auf das Grenadierbataillon zu Orzechowo und das Musketierbataillon in Psucin zur Unterstützung zählen konnte, indem diese in Gemeinschaft mit den Alexandrowschen Husaren den Posten in wenigen Stunden verstärken konnten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Die Stellung des Generals Ostermann auf dem ziemlich steilen Thalrande des Narews und mit sicherer Anlehnung beider Flügel, war an sich gar nicht ungünstig, um den Vormarsch der Franzosen nach dem Uebergange zu erschweren, aber für circa 5000 Mann war die Ausdehnung von über ¼ Meile zu bedeutend, um einen Widerstand zu leisten, in Folge dessen man hoffen konnte, den Feind über den Fluß zurückzuwerfen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "Der General Ostermann erkannte den Brand für das, was er bedeutete, und verstärkte die Vortruppen in der Niederung sogleich durch 6 Kompagnien Jäger."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "2 Bataillone scheinen zum Schutz der Schanzen auf dem rechten Flügel gegenüber von Pomiechowo, 3 Bataillone im Centrum und auf dem linken Flügel bei Czarnowo Aufstellung gefunden zu haben, während wohl 2 Jäger-Bataillone in der Niederung gegen die Insel vorgeschoben waren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Das Eintreffen des Grenadierbataillons aus Orzechowo, so wie das wirksame Artillerie-Feuer, gestatteten dem General Ostermann, auch diesen Angriff zurückzuweisen, doch sah er aus dem sich immer mehr ausdehnenden und verdichtenden Tirailleur-Feuer, daß er mit einem sehr überlegenen Feinde zu thun habe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die von Brody aus dem Walde debouschirenden Alexandrowschen Husaren schlossen sich ihrer fechtenden Infanterie an, konnten aber in der Dunkelheit nichts ausrichten, und zogen sich gegen Czarnowo ab."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Es war 4 Uhr Morgens des 24. geworden, so daß die russischen Truppen gegen 12 Stunden im Feuer gestanden hatten. 3 Bataillone Jäger und 4 Schwadronen Husaren machten die Arriergarde."
+        }
+      ]
+    },
+    {
+      "id": "foucart-side-b",
+      "dimension": "strength",
+      "value": "Side B (Russian) in the documents Foucart prints: the extract of the 3rd corps's journal of marches and operations puts the Russian camp on the hill at 15,000 men, defended by twenty pieces placed mostly behind breastworks. The major general wrote to Marshal Lannes on 25 December that the enemy had had a division of about 15,000 men to defend the right bank of the Wkra and the bridge of Pomichowo, and another of the same strength defending Kolozomb, and that the division that defended the Wkra had been beaten at Pomichowo, Czarnowo and Nasielsk.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (pp. 390, 391, 439 and 440). The journal is Davout's corps's own record and names no source for its 15,000; its twenty pieces are fewer than the 32 guns of Höpfner's list for the position (claim hoepfner-side-b; our arithmetic). The letter was written after the action and gives the French view of the whole Russian force on the Wkra; its 'rive droite de la Wkra' is printed so, while the journal and Davout's letter of 22 December put the Russian position and batteries on the Wkra's left bank (claims czarnowo-ground and side-a-information; our comparison). Both 15,000s are about three times Höpfner's 'circa 5000' and Bodart's 5,500 (claims hoepfner-side-b and bodart-strength; our comparison). The phase is unresolved, as in claim hoepfner-side-b. English renderings (ours): the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)' (p. 390); 'it was on this part of the hill that the camp of the Russians stood, 15,000 men strong, defended by twenty pieces of artillery placed for the most part behind breastworks' (p. 391); the letter, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806' (p. 439); 'he had a division of about 15,000 men to defend the right bank of the Wkra and the bridge of Pomichowo; another division of the same strength defended Kolozomb, with its point of support at Nowemiasto. The division that defended the Wkra was beaten at Pomichowo, Czarnowo and Nasielsk, where the field marshal commanding the Russian army in chief was' (p. 440).",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "C'est sur cette partie de la colline qu'était le camp des Russes, au nombre de 15,000 hommes défendus par vingt bouches à feu placées la plupart derrière des épaulements."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Il avait une division d'environ 15,000 hommes pour défendre la rive droite de la Wkra et le pont de Pomichowo; une autre division de même force défendait Kolozomb, ayant son point d'appui à Nowemiasto. La division qui défendait la Wkra a été battue à Pomichowo, Czarnowo et Nasielsk où se trouvait le feld-maréchal qui commande en chef l'armée russe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): the summary return of the troops that took part in the operations of December 1806, which Foucart prints and calls correct since it rests on authentic documents, gives the 3rd corps 21,500 infantry and 750 cavalry present under arms; by his comment it shows the army in the middle of December. The order the Emperor dictated on the field committed the 1st division (Morand): two battalions formed from the 8 voltigeur companies and the battalion of the 13th light, in 3 columns each followed by 3 guns, then 3 pickets of 60 mounted chasseurs, the 17th regiment with 3 squadrons of light cavalry behind it, and the rest of the division; the 3rd division was to stay in the bridgehead in reserve, except General Petit with part of it (Höpfner). Morand's 3 columns were the 2nd battalion of the 13th light, the voltigeur companies of the 17th and 30th, and those of the 51st and 61st regiments; the 30th, the 17th and the 2nd battalion of the 13th light attacked Czarnowo in echelons, followed by Marulaz's cavalry, some squadrons of dragoons under Latour-Maubourg and the 2nd battalion of the 17th, while the 51st took up the abandoned positions and the 61st formed the last echelon. Petit attacked the works opposite Pomichowo with 400 men of the 12th of the line, seconded by Captain Perrin's landing party of 50 men, 30 of the best skirmishers of the 3rd division and 2 guns on the right bank and by the 6 pieces in position on the heights of the right bank before Pomichowo; Davout reinforced him with a voltigeur company of the 85th and two elite companies of the 21st, then 5 companies of the 2nd battalion of the 12th and a squadron of the 1st chasseurs under Colonel Exelmans, and a great part of the 21st advanced on Czarnowo. The first battalion of the 13th light stayed on the left bank of the Narew. Foucart adds that the crossing of the Wkra near its confluence was protected on the left flank by Lasalle's brigade and Klein's division. In Höpfner, Morand's division had 8 battalions, the 1st cavalry reserve followed Davout's corps on the 22nd and 23rd, and Friant's division, which had bivouacked behind Pomiechowo, was brought up to Czarnowo and arrived only at daybreak.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Foucart t. II, the unnumbered page on leaf n486, and t. I, pp. 376, 392-401; Höpfner pp. 88, 89 and 93). The return's 3rd corps, 21,500 and 750, 22,250 (our arithmetic), is the whole corps in the middle of December, not the troops engaged, and Foucart does not name the documents it rests on. No passage read counts side A's troops at Czarnowo or gives Bodart's 18,000 (claim bodart-strength). In the passages read the troops that crossed the Wkra during the action were the 1st division, Petit's troops of the 3rd division with the reinforcements sent to him, and the cavalry of Marulaz and Latour-Maubourg; which reserve cavalry the return's other rows cover is not shown. Which troops fought followed the Emperor's disposition (claim napoleon-decision), so the phase is unresolved. English renderings (ours): the return, 'summary return of the troops that took part in the operations of the campaign of December 1806'; 'present under arms'; 'infantry | cavalry'; '3rd corps | 21,500 | 750'; 'the summary return above, which is correct since it rests on authentic documents, proves that in the middle of December the whole cavalry of the army did not reach 25,000 horses and that the infantry did not exceed 110,000 men present under arms,'; the journal, 'then, on the ground itself, he gave the following order, which was written at his dictation by Colonel Hervo, sub-chief of staff of the 3rd corps:'; '« the 1st division will pass into the island and form as far as possible from the enemy'; '« all that belongs to the 3rd division will stay in the bridgehead, taking no part at all in the attack, and will remain in reserve'; '« two battalions will be formed from the 8 voltigeur companies, which, with the battalion of the 13th light, will form 3 columns; these 3 columns will move in the greatest silence to the three ends of the canal and halt in the middle of the island, so as to be out of musket range. They will each have 3 pieces of cannon behind them'; '« the 3 columns will cross, and from the moment they have passed to the other side, 3 pickets of mounted chasseurs, each of 60 men, will cross' (p. 392); 'to charge the enemy, outrun him and take prisoners' (p. 393); '« the 17th regiment will cross immediately after and form in line, leaving between each battalion an interval of 25 toises, behind which 3 squadrons of light cavalry will be placed'; '« the rest of the 1st division will cross afterwards and form behind. »'; 'General Morand, in conformity with His Majesty's orders, composed the first 3 columns of attack thus:'; 'the 1st of the 2nd battalion of the 13th light;'; 'the 2nd of the voltigeur companies of the 17th and the 30th;'; 'the 3rd of those of the 51st and 61st regiments'; 'the enemy knew perfectly the ground over which the 30th, the 17th and the 2nd battalion of the 13th light advanced in echelons, who, in the darkness of the night, were guided only by the fire of the enemy's cannon and musketry'; 'the 2nd battalion of the 13th, General Marulaz's cavalry and some squadrons of dragoons commanded by General Latour-Maubourg, with the 2nd battalion of the 17th, formed two echelons and followed the movement of the centre'; 'the 51st successively took the positions abandoned by the attacking troops, and the 61st formed the last echelon of this order of battle'; 'while the division Morand was carrying Czarnowo under the eyes of the Emperor, General Petit, at the head of 400 men of the 12th of the line (3rd division), had advanced toward the entrenchments on the heights opposite Pomichowo, seconded, on arriving level with the head of the island, by Captain Perrin's detachment'; 'the marshal had given him 50 men, who were protected by 30 of the best skirmishers of the 3rd division and by 2 pieces of artillery charged with going up the right bank as Captain Perrin and General Petit went up the left bank, and so always taking in flank the Russian troops opposed to them'; 'but the 3 companies, seconded by the 6 pieces of artillery in position on the heights of the right bank in front of Pomichowo and by the 2 pieces that were going up the river on the same bank, threw themselves on the redoubts so briskly that the enemy had time only to fire a single discharge of his artillery, which he sent off rapidly along the high road to Czarnowo'; 'the marshal reinforced the troops with General Petit with a company of voltigeurs of the 85th and two elite companies of the 21st. This reinforcement had not yet arrived when the enemy made a third attack, equally fruitless'; 'during this lull the marshal sent new reinforcements: 5 companies of the 2nd battalion of the 12th arrived under the orders of Chef de bataillon Pierre, while the rest of this battalion was kept back to guard the bridge'; 'the marshal reinforced General Petit once more with a squadron of the 1st chasseurs commanded by Colonel Exelmans'; 'a great part of the 21st regiment moved forward on Czarnowo'; 'the division Morand carried out its movement at nightfall without the enemy's knowledge; it bivouacked for the night within the bridgehead. The first battalion of the 13th light stayed on the left bank of the Narew and guarded the line from Sierock to Topolin, taking care to keep up the same number of fires and to provide the usual rounds and patrols'; Foucart, 'the passage of the Wkra near its confluence was protected on the left flank by the brigade Lasalle and the division Klein'; Höpfner, '„from the 8 voltigeur companies — of the 8 battalions of the division Morand — two battalions are formed, which together with the battalion of the 13th Light Regiment form 3 columns'; '„after the crossing of the Wkra has been accomplished, the division advances against Czarnowo to attack the left wing of the Russian position, while General Petit, with part of the 3rd Division, crosses the Wkra at the same point as the 1st, advances upstream along the left bank of the Wkra and takes possession of the Russian entrenchments on the right wing, opposite Pomiechowo.“'; 'the 1st cavalry reserve followed Davout's corps on the 22nd and 23rd'; 'when the French had at last completed the bridge over the Narew at Okunin on 22 December, the division Friant of Davout's corps also crossed the river and bivouacked in the wood behind and to the left of Pomiechowo'; 'to give the troops of Generals Morand and Petit some rest, Napoleon had the division Friant brought up to Czarnowo on the left bank of the Wkra. It arrived only at daybreak, to advance further against Nasielsk'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "SITUATION SOMMAIRE DES TROUPES QUI PRIRENT PART AUX OPÉRATIONS DE LA CAMPAGNE DE DÉCEMBRE 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "Présents sous les armes.\nInfanterie. | Cavalerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "3e corps | 21 500 | 750"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "La situation sommaire ci-dessus, qui est juste puisqu'elle s'appuie sur des documents authentiques, prouve qu'au milieu de décembre toute la cavalerie de l'armée n'atteignait pas 25,000 chevaux et que l'infanterie ne dépassait pas 110,000 hommes présents sous les armes,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "Elle donna ensuite, sur le terrain même, l'ordre suivant qui fut écrit sous sa dictée par le colonel Hervo, sous-chef d'état-major du 3e corps :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« La 1re division passera dans l'île et se formera le plus loin possible de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Tout ce qui appartient à la 3e division restera dans la tête de pont, ne devant participer en rien à l'attaque, et demeurera en réserve."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« On formera deux bataillons avec les 8 compagnies de voltigeurs, ce qui, avec le bataillon du 13e léger, formera 3 colonnes; ces 3 colonnes se porteront, dans le plus grand silence, sur les trois extrémités du canal, et s'arrêteront au milieu de l'île, de manière à être hors de portée de fusillade. Elles auront chacune derrière elle 3 pièces de canon."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Les 3 colonnes passeront, et du moment qu'elles seront passées de l'autre côté, 3 piquets de chasseurs à cheval, chacun de 60 hommes, passeront"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "pour charger l'ennemi, le gagner de vitesse et faire des prisonniers."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "« Le 17e régiment passera immédiatement après, se mettra en bataille, laissant entre chaque bataillon un intervalle de 25 toises, en arrière duquel seront placés 3 escadrons de cavalerie légère."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "« Le reste de la 1re division passera après et se formera en arrière. »"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Le général Morand, en conformité des ordres de Sa Majesté, composa ainsi les 3 premières colonnes d'attaque :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "La 1re du 2e bataillon du 13e léger;"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "La 2e des compagnies de voltigeurs du 17e et du 30e;"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "La 3e de celles des 51e et 61e régiments."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "L'ennemi connaissait parfaitement le terrain sur lequel s'avançaient en échelons le 30e, le 17e et le 2e bataillon du 13e léger qui, au milieu des ténèbres de la nuit, n'étaient guidés que par le feu des canons et de la mousqueterie ennemie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "Le 2e bataillon du 13e, la cavalerie du général Marulaz et quelques escadrons de dragons, commandés par le général Latour-Maubourg, avec le 2e bataillon du 17e, formaient deux échelons et suivaient le mouvemement du centre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "Le 51e prenait successivement les positions abandonnées par les troupes attaquantes, et le 61e formait le dernier échelon de cet ordre de bataille."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "Pendant que la division Morand enlevait Czarnowo sous les yeux de l'Empereur, le général Petit, à la tête de 400 hommes du 12e de ligne (3e division), s'était avancé vers les retranchements sur les hauteurs vis-à-vis Pomichowo, secondé en arrivant à la hauteur de la tête de l'île par le détachement du capitaine Perrin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Le maréchal lui avait donné 50 hommes qui furent protégés par 30 des meilleurs tirailleurs de la 3e division et par 2 pièces d'artillerie chargées de remonter la rive droite à mesure que le capitaine Perrin et le général Petit remonteraient la rive gauche, et de prendre ainsi toujours en flanc les troupes russes qui leur seraient opposées."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "mais les 3 compagnies secondées par les 6 pièces d'artillerie en position sur les hauteurs de la rive droite, en avant de Pomichowo, et par les 2 pièces qui, sur la même rive, remontaient la rivière, se jetèrent sur les redoutes avec tant de vivacité, que l'ennemi n'eut que le temps de faire une seule décharge de son artillerie, qu'il fit filer avec rapidité sur la grande route de Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Le maréchal renforça les troupes qui étaient avec le général Petit d'une compagnie de voltigeurs du 85e et de deux compagnies d'élite du 21e. Ce renfort n'était pas encore arrivé que l'ennemi fit une troisième attaque également infructueuse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Pendant ce repos, le maréchal envoya de nouveaux renforts : 5 compagnies du 2e bataillon du 12e arrivèrent sous les ordres du chef de bataillon Pierre, tandis que le reste de ce bataillon était réservé à la garde du pont."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "Le maréchal renforça encore le général Petit d'un escadron du 1er de chasseurs commandé par le colonel Exelmans."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "Une grande partie du 21e régiment se porta en avant sur Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p376-figures-v1",
+          "section": "p376",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 376 (transcribed from the page image)",
+          "quote": "La division Morand exécuta son mouvement à l'entrée de la nuit sans que l'ennemi en eût connaissance; elle bivouaqua la nuit dans l'enceinte de la tête de pont. Le premier bataillon du 13e léger resta sur la rive gauche de la Narew et garda la ligne depuis Sierock jusqu'à Topolin, ayant soin d'entretenir le même nombre de feux et de fournir les rondes et les patrouilles ordinaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "Le passage de la Wkra près de son confluent était protégé sur le flanc gauche par la brigade Lasalle et la division Klein."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "„Von den 8 Voltigeurs-Kompagnien — der 8 Bat. der Division Morand — werden zwei Bataillone gebildet, welche im Verein mit dem Bataillon des 13. leichten Regiments 3 Kolonnen bilden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "„Nach vollbrachtem Uebergang über die Wkra rückt die Division gegen Czarnowo vor, um den linken Flügel der russischen Aufstellung anzugreifen, während General Petit, mit einem Theil der 3. Division, die Wkra auf demselben Punkt wie die 1. überschreitet, am linken Ufer der Wkra aufwärts vorgeht, und sich der russischen Verschanzungen auf dem rechten Flügel, gegenüber von Pomiechowo, bemächtigt.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Die 1. Kavallerie-Reserve folgte dem Davoutschen Korps am 22. und 23."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Als die Franzosen endlich am 22. Dezember die Brücke über den Narew bei Okunin vollendet hatten, überschritt auch die Division Friant des Davoutschen Korps den Fluß und bivouakirte in dem Gehölz hinter und links seitwärts von Pomiechowo."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Um den Truppen der Generale Morand und Petit einige Ruhe zu gönnen, ließ Napoleon die Division Friant auf das linke Wkra-Ufer nach Czarnowo heranziehen. Sie traf erst mit Tagesanbruch ein, um gegen Nasielsk weiter vorzugehen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Napoleon I as side A's commander and Lieutenant General Count Ostermann as side B's. In Höpfner Ostermann commanded the 2nd Division and held the Wkra from Borkowo to its mouth; the army was General Bennigsen's, and Field Marshal Kaminskoi, who arrived at Pultusk on 21 December, drove Bennigsen to Nowemiasto and ordered all the troops to advance against the Wkra; the major general's letter of 25 December says that the field marshal commanding the Russian army in chief was at Nasielsk. Napoleon was on the field: he arrived at Okunin at 9 in the morning of the 23rd (Höpfner), at the entrenched camp between 9 and 10 (the journal), and dictated the order of attack (claim napoleon-decision).",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; Höpfner and Foucart from the page images (Höpfner pp. 23, 24, 82-84 and 88; Foucart pp. 390, 439 and 440). The commands were set before the action, so the claim is tagged inherited; Napoleon's and Davout's decisions on the field are in claims side-a-command and napoleon-decision, and Ostermann's in claim side-b-command. English renderings (ours): Bodart, as in claim bodart-strength; 'Gen.-Lt.' is General-Leutnant, 'Gf.' Graf and 'M.' Mann in Bodart's list of abbreviations; Höpfner, 'first, there stood ready to advance on the Russian frontier on 1 November the army of General of Cavalry v. Bennigsen, which, according to the report handed in to the King by the Prussian General Chlebowski, posted to the headquarters,' (p. 23); '[report] of 23 October consisted of the 2nd, 3rd, 4th and 6th Divisions and had the following composition:' (p. 24); 'General Bennigsen had, as has been shown, very soon given up the offensive and decided to await the French in a central position at Pultusk, at the same time defending the line of the Wkra with suitable forces'; 'General Ostermann with the rest of the 2nd Division held the Wkra from Borkowo downstream to its mouth in the Narew, and that river upstream from the mouth, having relieved the greater part of the 6th Division that day;'; 'on 21 December Field Marshal Kaminskoi at last arrived at Pultusk on a peasant cart'; 'with violent reproaches he drove' (p. 83); 'General Bennigsen to Nowemiasto, and ordered all the troops to advance against the Wkra' (p. 84); 'Napoleon in person went to Jablonna on the 22nd and arrived at Okunin on the 23rd at 9 in the morning'; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'the Emperor left Warsaw on the 23rd at 3 in the morning so as to be at daybreak at Marshal Davout's bridge on the Narew. He arrived between 9 and 10 in the morning at the entrenched camp. He began by visiting the entrenched camp; then, in the presence of the Russians who lined the left bank, he reconnoitred the Wkra from Pomichowo to the two arms of this river at its mouth' (p. 390); the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'he had a division of about 15,000 men to defend the right bank of the Wkra and the bridge of Pomichowo; another division of the same strength defended Kolozomb, with its point of support at Nowemiasto. The division that defended the Wkra was beaten at Pomichowo, Czarnowo and Nasielsk, where the field marshal commanding the Russian army in chief was'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Napoleon I. über die Russen (5.500 M.) unter Gen.-Lt. Gf. Ostermann."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "G.-L., Gen.-Lt. — General-Leutnant"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gf. — Graf"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p23-figures-v1",
+          "section": "p23",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 23 (transcribed from the page image)",
+          "quote": "Zunächst stand am 1. November an der russischen Grenze zum Vormarsch bereit, die Armee des Generals der Kavallerie v. Bennigsen, die nach dem, dem Könige durch den in das Hauptquartier kommandirten preußischen General Chlebowski, eingereichten"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p24-figures-v1",
+          "section": "p24",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 24 (transcribed from the page image)",
+          "quote": "Rapport vom 23. Oktober aus der 2., 3., 4. und 6ten Division bestand und folgende Zusammensetzung hatte:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "Der General Bennigsen hatte die Offensive, wie gezeigt worden, sehr bald aufgegeben, und beschlossen, in einer Centralstellung bei Pultusk die Franzosen zu erwarten, zugleich mit angemessenen Kräften die Linie der Wkra zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "der General Ostermann mit dem Rest der 2. Division hielt die Wkra von Borkowo abwärts bis zur Mündung in den Narew und diesen Strom von der Mündung aufwärts besetzt, nachdem er an diesem Tage den größten Theil der 6. Division abgelöst hatte;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Am 21. Dezember kam endlich der Feldmarschall Kaminskoi in Pultusk auf einem Bauerwagen an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Unter heftigen Vorwürfen trieb er den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "General Bennigsen nach Nowemiasto, und befahl das Vorrücken aller Truppen gegen die Wkra."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Napoleon ging für seine Person am 22. nach Jablonna, und traf am 23. Morgens 9 Uhr bei Okunin ein."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "L'Empereur partit de Varsovie le 23 à 3 heures du matin pour se trouver au jour au pont du maréchal Davout sur la Narew. Il arriva entre 9 heures et 10 heures du matin au camp retranché. Il commença par visiter le camp retranché; il fit ensuite, en présence des Russes qui bordaient la rive gauche, la reconnaissance de la Wkra depuis Pomichowo jusqu'aux deux bras de cette rivière à son embouchure."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Il avait une division d'environ 15,000 hommes pour défendre la rive droite de la Wkra et le pont de Pomichowo; une autre division de même force défendait Kolozomb, ayant son point d'appui à Nowemiasto. La division qui défendait la Wkra a été battue à Pomichowo, Czarnowo et Nasielsk où se trouvait le feld-maréchal qui commande en chef l'armée russe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Side A's command. The major general wrote to Marshal Davout from Warsaw at half past eleven in the morning of 22 December that the Emperor intended his corps to cross the Narew bridge; that, the grand duke of Berg being ill, the command of the reserve cavalry was given to General Nansouty; and that, if the enemy's position at Czarnowo was not too formidable and he had no more than 12,000 men, Davout was to attack him the next day at daybreak with his whole corps; all this was to be taken less as an order than as an instruction. Davout answered that the first orders had reached his headquarters at half past twelve and General Morand only about 3 o'clock, and that it would be impossible for him to cross the Wkra the next day, though he would do it if there were any possibility. Davout had prepared the crossing: he had the island at the Wkra's mouth occupied by Petit's brigade, a bridge laid over the right arm and batteries built on the island, and rafts and boats made (Höpfner). The Emperor then came to the field himself and gave the order of attack, written at his dictation (claim napoleon-decision). General Morand composed the 3 columns as ordered and, at 7 o'clock, after General Marulaz's cavalry had arrived, gave the order to cross (Höpfner); when the 17th had used up its cartridges, he had it relieved by the 30th. Once the whole 1st division, Marulaz's brigade and Latour-Maubourg's dragoons had crossed, the marshal ordered Morand to advance with his whole division on Czarnowo and take the village, and charged General Petit with attacking the right with 400 men of the 12th of the line; he reinforced Petit three times. Morand carried Czarnowo under the Emperor's eyes, and the Emperor expressed his satisfaction on the field to Morand and Petit; to rest their troops he had Friant's division brought up to Czarnowo (Höpfner). Höpfner judges Davout's preparations and Napoleon's arrangements for the crossing entirely exemplary.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Read from the page images (Foucart pp. 372-376, 392, 394, 396, 398-401; Höpfner pp. 85, 91, 93 and 94). The attack and its conduct were decided on the field by Napoleon, Davout and Morand, so the claim is tagged commander_created; the major general's letter of the 22nd set the conditions under which Davout was to attack (claims side-a-objectives and posture). Davout's letter has no dateline in the print; it answers the major general's first orders of the 22nd, and its place in the correspondence of that day is Foucart's (our reading). The three reinforcements are the voltigeurs of the 85th with the elite companies of the 21st, the 5 companies of the 12th and Exelmans's squadron (claim side-a-strength). The regiment whose cartridges were spent is the one Colonel Lanusse had just re-formed, the 17th (our reading). English renderings (ours): the major general, 'the major general to Marshal Davout'; 'Warsaw, 22 December 1806, half past 11 in the morning' (p. 372); 'I wrote to you two hours ago, Marshal, to let you know that the Emperor's intention was that your army corps should cross the bridge of the Narew:'; 'the grand duke of Berg being ill, His Majesty has ordered me to give the command of the cavalry reserve to General Nansouty, who will carry his headquarters to Ianowo with the division Klein'; 'it is probable that the enemy has only an advanced guard at Czarnowo; if his position is not too formidable and he has not more than 12,000 men, you will attack him tomorrow at daybreak with your whole corps united'; 'besides, all that I have just told you, Marshal, is to be considered less as an order than as an instruction according to which' (p. 373); 'His Majesty wishes you to let him know the situation of things' (p. 374); Davout, 'Marshal Davout to the major general'; 'Your Highness's first orders for making the 3rd corps cross the Narew reached my headquarters at half past twelve; they were sent on at once to General Morand, who could receive them only about 3 o'clock; I do not expect him here before midnight'; 'it will be impossible for me to be in a position to cross the Wkra tomorrow; however, if there is any possibility, I shall do it'; Höpfner, 'Marshal Davout, with a more practised eye than his opponents, had recognised early how important for his crossing of the Wkra the possession of the bushy island that the river forms at its mouth must become, since the left arm — that is, the one on the Russian side — could be bridged with small means'; 'he had therefore had the island occupied by the brigade Petit and at once had a bridge laid over the right arm and batteries on the island itself; rafts and boats were also made, to prepare the crossing of the left arm'; 'at 7 o'clock, after General Marulaz had arrived with his cavalry, General Morand gave the order to cross'; 'to give the troops of Generals Morand and Petit some rest, Napoleon had the division Friant brought up to Czarnowo on the left bank of the Wkra. It arrived only at daybreak, to advance further against Nasielsk'; 'Marshal Davout's preparations and Napoleon's arrangements for the crossing itself are entirely exemplary; here one finds the great general again in smaller tactical measures too'; the journal, 'then, on the ground itself, he gave the following order, which was written at his dictation by Colonel Hervo, sub-chief of staff of the 3rd corps:'; 'General Morand, in conformity with His Majesty's orders, composed the first 3 columns of attack thus:'; 'Colonel Lanusse advanced at the head of the 17th regiment as far as the batteries that defended its approaches. He had made himself master of these batteries when the enemy debouched in great force on his left flank and his rear and forced him to fall back on his right. At the same time the enemy vigorously attacked the 13th and the voltigeurs'; 'Colonel Lanusse re-formed his regiment in good order at the edge of the woods, where the enemy did not dare pursue him'; 'however, as this regiment had used up its cartridges, General Morand thought he should have it relieved by the 30th regiment, which Colonel Valterre commanded. At the moment when General Brouard was advancing to the foot of the entrenchment, he was wounded in the face by a canister ball'; 'meanwhile the whole 1st division had crossed the Wkra, as had General Marulaz's brigade and General Latour-Maubourg's brigade of dragoons'; 'then the marshal ordered General Morand to advance with his whole division on Czarnowo and take this village. He charged General Petit, with 400 men of the 12th of the line, with attacking the right'; 'the marshal reinforced the troops with General Petit with a company of voltigeurs of the 85th and two elite companies of the 21st. This reinforcement had not yet arrived when the enemy made a third attack, equally fruitless'; 'during this lull the marshal sent new reinforcements: 5 companies of the 2nd battalion of the 12th arrived under the orders of Chef de bataillon Pierre, while the rest of this battalion was kept back to guard the bridge'; 'the marshal reinforced General Petit once more with a squadron of the 1st chasseurs commanded by Colonel Exelmans'; 'while the division Morand was carrying Czarnowo under the eyes of the Emperor, General Petit, at the head of 400 men of the 12th of the line (3rd division), had advanced toward the entrenchments on the heights opposite Pomichowo, seconded, on arriving level with the head of the island, by Captain Perrin's detachment'; 'His Majesty deigned to express to General Morand on the battlefield his satisfaction with the vigour of his attack, as also to General Petit. Many Russians remained on the battlefield'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "Varsovie, 22 décembre 1806, 11 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "Je vous ai écrit il y a deux heures, M. le Maréchal, pour vous faire connaître que l'intention de l'Empereur était que votre corps d'armée passât le pont de la Narew :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "Le grand-duc de Berg se trouvant malade, Sa Majesté m'a ordonné de donner le commandement de la réserve de cavalerie au général Nansouty qui portera son quartier général à Ianowo avec la division Klein."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "Il est probable que l'ennemi ne doit avoir à Czarnowo qu'une avant-garde; si sa position n'est pas trop formidable et qu'il n'y ait pas plus de 12,000 hommes, vous l'attaquerez demain au jour avec tout votre corps réuni."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "d'ailleurs tout ce que je viens de vous dire, M. le Maréchal, doit être moins considéré comme un ordre que comme une instruction d'après laquelle"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "Sa Majesté désire que vous lui fassiez connaître la situation des choses."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "Les premiers ordres de Votre Altesse pour faire passer la Narew au 3e corps sont parvenus à mon quartier général à midi et demi; ils ont été expédiés de suite au général Morand qui n'a pu les recevoir que vers 3 heures; je ne l'attends pas ici avant minuit."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p375-figures-v1",
+          "section": "p375",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 375 (transcribed from the page image)",
+          "quote": "Il sera impossible que demain je sois en mesure de passer la Wkra; cependant s'il y a quelque possibilité, je le ferai."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Der M. Davout hatte mit geübterem Blick als seine Gegner frühzeitig erkannt, wie wichtig ihm zum Uebergang über die Wkra der Besitz der bebuschten Insel werden mußte, welche der Fluß bei seiner Mündung bildet, da der linke Arm — also der nach der russischen Seite gelegene — mit geringen Mitteln überbrückt werden konnte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Er hatte daher die Insel von der Brigade Petit besetzen und alsbald eine Brücke über den rechten Arm und Batterien auf der Insel selbst anlegen lassen; auch wurden Flöße und Boote angefertigt, um den Uebergang über den linken Arm vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Um 7 Uhr, nachdem der General Marulaz mit seiner Kavallerie eingetroffen war, gab der General Morand den Befehl zum Uebergang."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Um den Truppen der Generale Morand und Petit einige Ruhe zu gönnen, ließ Napoleon die Division Friant auf das linke Wkra-Ufer nach Czarnowo heranziehen. Sie traf erst mit Tagesanbruch ein, um gegen Nasielsk weiter vorzugehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Die Vorbereitungen des M. Davout, die Anordnungen Napoleons zum Uebergang selbst, sind durchaus musterhaft; man findet hier den großen General auch in kleineren taktischen Maßregeln wieder."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "Elle donna ensuite, sur le terrain même, l'ordre suivant qui fut écrit sous sa dictée par le colonel Hervo, sous-chef d'état-major du 3e corps :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Le général Morand, en conformité des ordres de Sa Majesté, composa ainsi les 3 premières colonnes d'attaque :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse s'avança à la tête du 17e régiment jusqu'aux batteries qui en défendaient les avenues. Il s'était rendu maître de ces batteries, lorsque l'ennemi déboucha en grande force sur son flanc gauche et sur ses derrières et le força de se replier sur sa droite. En même temps l'ennemi attaqua vivement le 13e et les voltigeurs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse rétablit en bon ordre son régiment à la tête des bois, où l'ennemi n'osa pas le poursuivre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Cependant comme ce régiment avait consommé ses cartouches, le général Morand crut devoir le faire relever par le 30e régiment que commandait le colonel Valterre. Au moment où le général Brouard s'avançait jusqu'au pied du retranchement, il fut blessé au visage par un biscaïen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Cependant toute la 1re division avait passé la Wkra ainsi que la brigade du général Marulaz et celle de dragons du général Latour-Maubourg."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Alors le maréchal donna ordre au général Morand de s'avancer avec toute sa division sur Czarnowo et de s'emparer de ce village. Il chargea le général Petit, avec 400 hommes du 12e de ligne, d'attaquer la droite."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Le maréchal renforça les troupes qui étaient avec le général Petit d'une compagnie de voltigeurs du 85e et de deux compagnies d'élite du 21e. Ce renfort n'était pas encore arrivé que l'ennemi fit une troisième attaque également infructueuse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Pendant ce repos, le maréchal envoya de nouveaux renforts : 5 compagnies du 2e bataillon du 12e arrivèrent sous les ordres du chef de bataillon Pierre, tandis que le reste de ce bataillon était réservé à la garde du pont."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "Le maréchal renforça encore le général Petit d'un escadron du 1er de chasseurs commandé par le colonel Exelmans."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "Pendant que la division Morand enlevait Czarnowo sous les yeux de l'Empereur, le général Petit, à la tête de 400 hommes du 12e de ligne (3e division), s'était avancé vers les retranchements sur les hauteurs vis-à-vis Pomichowo, secondé en arrivant à la hauteur de la tête de l'île par le détachement du capitaine Perrin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "Sa Majesté daigna témoigner sur le champ de bataille au général Morand sa satisfaction sur la vigueur de son attaque, ainsi qu'au général Petit. Beaucoup de Russes restèrent sur le champ de bataille."
+        }
+      ]
+    },
+    {
+      "id": "napoleon-decision",
+      "dimension": "responsibility",
+      "value": "Napoleon's decision. In the 3rd corps's journal the Emperor left Warsaw at 3 in the morning of the 23rd, arrived between 9 and 10 at the entrenched camp, visited it and reconnoitred the Wkra from Pomichowo to its two arms at the mouth in the presence of the Russians, examined the ground several times and climbed by a ladder onto a house on the island to see beyond the other bank. Then, on the ground, he gave the order, written at his dictation by Colonel Hervo, sub-chief of staff of the 3rd corps: the 1st division to pass into the island and form as far as possible from the enemy; everything of the 3rd division to stay in the bridgehead in reserve, taking no part in the attack; two battalions formed from the 8 voltigeur companies and the battalion of the 13th light to make 3 columns, which were to move in the greatest silence to the three ends of the canal and halt in the middle of the island out of musket range, each with 3 guns behind it; each column to detach its guns with a voltigeur company, which would open fire under cover of the hedges while the artillery officers placed their batteries and fired canister at the troops opposing the passage; the bridges to be thrown under this artillery's protection; once the 3 columns had crossed, 3 pickets of mounted chasseurs of 60 men each to cross, charge the enemy and take prisoners; the 17th regiment to follow and form line with intervals of 25 toises between its battalions and 3 squadrons of light cavalry behind them; and the rest of the 1st division to cross and form behind. The division was to attack the left of the Russian camp at Czarnowo, while Petit, of the 3rd division, crossed at the same point, went up the left bank and seized the Russian entrenchments on their right opposite Pomichowo. The Emperor had 6 12-pounders placed on the heights before Pomichowo to take the Russian right in flank and ordered wet straw lit near Pomichowo over 3 to 400 toises as a diversion; the rest of Marulaz's light cavalry was to follow Petit and cut off the enemy's artillery; General Hanicque was to bring forward all available boats to bridge the first arm, and Colonel Tousard's engineers were to repair the Pomichowo bridge and bridge the second arm; Captain Perrin, the marshal's aide-de-camp, was to land 100 paces above the island. Höpfner gives the disposition in German, dictated by Napoleon after he had inspected the preparations, the river below Pomiechowo and the ground before the island, which he is said to have surveyed from the gable of a house on the island; in his version the 17th leaves intervals of 60 paces and the straw was to burn over 800 to 1000 paces.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Read from the page images (Foucart pp. 390-394; Höpfner pp. 88 and 89). The order was Napoleon's own, given on the ground after his reconnaissance, so the claim is tagged commander_created. Höpfner's German follows the journal's order closely, with its 25 toises as 60 paces and the straw's 3 to 400 toises as 800—1000 paces (our comparison); his 'soll' marks the house on the island as hearsay, while the journal states it. English renderings (ours): the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'the Emperor left Warsaw on the 23rd at 3 in the morning so as to be at daybreak at Marshal Davout's bridge on the Narew. He arrived between 9 and 10 in the morning at the entrenched camp. He began by visiting the entrenched camp; then, in the presence of the Russians who lined the left bank, he reconnoitred the Wkra from Pomichowo to the two arms of this river at its mouth'; 'His Majesty examined all this ground several times; he even climbed, by means of a ladder, onto a house in the island, the better to observe the place and see what was happening beyond' (p. 391); 'the other bank' (p. 392); 'then, on the ground itself, he gave the following order, which was written at his dictation by Colonel Hervo, sub-chief of staff of the 3rd corps:'; '« the 1st division will pass into the island and form as far as possible from the enemy'; '« all that belongs to the 3rd division will stay in the bridgehead, taking no part at all in the attack, and will remain in reserve'; '« two battalions will be formed from the 8 voltigeur companies, which, with the battalion of the 13th light, will form 3 columns; these 3 columns will move in the greatest silence to the three ends of the canal and halt in the middle of the island, so as to be out of musket range. They will each have 3 pieces of cannon behind them'; '« each column will detach its pieces, escorted by a company of voltigeurs. These companies will open the musketry, covering themselves by the hedges; meanwhile the artillery officers will place their batteries and fire canister at the battalions and troops that the enemy will not fail to oppose to the passage'; '« under the protection of this artillery the bridges will be thrown'; '« the 3 columns will cross, and from the moment they have passed to the other side, 3 pickets of mounted chasseurs, each of 60 men, will cross' (p. 392); 'to charge the enemy, outrun him and take prisoners' (p. 393); '« the 17th regiment will cross immediately after and form in line, leaving between each battalion an interval of 25 toises, behind which 3 squadrons of light cavalry will be placed'; '« the rest of the 1st division will cross afterwards and form behind. »'; 'this division, after the passage of the Wkra, was to move on Czarnowo to attack the left of the Russian camp, while General Petit, of the 3rd division, was likewise to cross the same river at the same point as the 1st division, go up the left bank and seize the Russian entrenchments made on their right opposite Pomichowo'; 'to second this last operation, the Emperor had 6 12-pounder pieces placed on the heights in front of Pomichowo, so as to take the right wing of the Russian camp in flank while General Petit attacked it in front'; 'His Majesty likewise ordered a great quantity of wet straw to be lit near Pomichowo over 3 to 400 toises along the bank, and care to be taken to keep up a great smoke'; 'the aim was to make a diversion and give the enemy anxiety about a crossing opposite' (p. 393); 'Pomichowo, on the enemy's right, while the real crossing would be made lower down at the island, over the two arms, near the mouth of the river in the Narew' (p. 394); 'the rest of General Marulaz's light cavalry had orders to follow General Petit's brigade and to cut off the enemy's artillery at the moment he came to withdraw it from his entrenchments opposite Pomichowo'; 'His Majesty ordered General Hanicque to bring forward all the available boats to throw a bridge over the first arm of the Wkra, while Colonel Tousard and the engineer officers under his orders were charged with repairing the bridge of Pomichowo and throwing one over the second arm of the island'; 'in addition, Captain Perrin, the marshal's aide-de-camp, was charged with making a landing 100 paces above the island at the confluence of the Wkra'; Höpfner, 'after Napoleon had inspected the preparations for the crossing of the Wkra, the nature of the river from Pomiechowo downstream, and the ground in front of the island on the left bank, which he is said to have surveyed from the gable of a house on the island, he dictated the following attack disposition:'; '„the 1st Division — Morand — moves into the island and forms as far from the enemy as possible.“'; '„everything belonging to the 3rd Division — Gudin — stays in the bridgehead, unmoved, in reserve.“'; '„from the 8 voltigeur companies — of the 8 battalions of the division Morand — two battalions are formed, which together with the battalion of the 13th Light Regiment form 3 columns'; '„the 17th Regiment follows immediately, forms, and leaves between each battalion an interval of 60 paces, behind which 3 light squadrons place themselves.“'; '„after the crossing of the Wkra has been accomplished, the division advances against Czarnowo to attack the left wing of the Russian position, while General Petit, with part of the 3rd Division, crosses the Wkra at the same point as the 1st, advances upstream along the left bank of the Wkra and takes possession of the Russian entrenchments on the right wing, opposite Pomiechowo.“'; '„to support this last movement, 6 12-pounders on the heights in front of Pomiechowo flank the right wing of the enemy, which General Petit is destined to attack.“'; 'in addition Napoleon ordered heaps of wet straw to be lit along the Wkra at Pomiechowo over a length of 800—1000 paces, to make the enemy anxious about a crossing on his right flank; he further ordered General Marulaz, with the light cavalry brigade of Davout's corps, to follow General Petit and if possible to take the enemy's artillery at the moment it drove out of the batteries opposite Pomiechowo;'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "L'Empereur partit de Varsovie le 23 à 3 heures du matin pour se trouver au jour au pont du maréchal Davout sur la Narew. Il arriva entre 9 heures et 10 heures du matin au camp retranché. Il commença par visiter le camp retranché; il fit ensuite, en présence des Russes qui bordaient la rive gauche, la reconnaissance de la Wkra depuis Pomichowo jusqu'aux deux bras de cette rivière à son embouchure."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Sa Majesté examina tout ce terrain à plusieurs reprises; elle monta même, au moyen d'une échelle, au-dessus d'une maison située dans l'île, pour mieux observer les lieux et voir ce qui se passait au delà"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "de l'autre rive."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "Elle donna ensuite, sur le terrain même, l'ordre suivant qui fut écrit sous sa dictée par le colonel Hervo, sous-chef d'état-major du 3e corps :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« La 1re division passera dans l'île et se formera le plus loin possible de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Tout ce qui appartient à la 3e division restera dans la tête de pont, ne devant participer en rien à l'attaque, et demeurera en réserve."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« On formera deux bataillons avec les 8 compagnies de voltigeurs, ce qui, avec le bataillon du 13e léger, formera 3 colonnes; ces 3 colonnes se porteront, dans le plus grand silence, sur les trois extrémités du canal, et s'arrêteront au milieu de l'île, de manière à être hors de portée de fusillade. Elles auront chacune derrière elle 3 pièces de canon."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Chaque colonne détachera ses pièces escortées par une compagnie de voltigeurs. Ces compagnies commenceront la fusillade, se couvrant par les haies; pendant ce temps, les officiers d'artillerie placeront leurs batteries et tireront à mitraille sur les bataillons et les troupes que l'ennemi ne manquera pas d'opposer au passage."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Sous la protection de cette artillerie on jettera les ponts."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Les 3 colonnes passeront, et du moment qu'elles seront passées de l'autre côté, 3 piquets de chasseurs à cheval, chacun de 60 hommes, passeront"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "pour charger l'ennemi, le gagner de vitesse et faire des prisonniers."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "« Le 17e régiment passera immédiatement après, se mettra en bataille, laissant entre chaque bataillon un intervalle de 25 toises, en arrière duquel seront placés 3 escadrons de cavalerie légère."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "« Le reste de la 1re division passera après et se formera en arrière. »"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Cette division, après le passage de la Wkra, devait se porter sur Czarnowo pour attaquer la gauche du camp russe, tandis que le général Petit, de la 3e division, devait passer également la même rivière et au même point que la 1re division, remonter la rive gauche et venir s'emparer des retranchements russes faits sur leur droite vis-à-vis Pomichowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Pour seconder cette dernière opération, l'Empereur fit placer 6 pièces de 12 sur les hauteurs en avant de Pomichowo, afin de battre en flanc l'aile droite du camp russe pendant que le général Petit l'attaquerait de front."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Sa Majesté ordonna également qu'on allumât près de Pomichowo une grande quantité de paille mouillée sur 3 à 400 toises, le long du rivage, et d'avoir soin d'entretenir une grande fumée."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Le but était de faire une diversion et de donner à l'ennemi l'inquiétude d'un passage en face"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "de Pomichowo, à la droite de l'ennemi, tandis que le véritable passage se ferait plus bas dans l'île, sur les deux bras, près l'embouchure de la rivière dans la Narew."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Le reste de la cavalerie légère du général Marulaz eut ordre de suivre la brigade du général Petit et de couper l'artillerie de l'ennemi au moment où il viendrait à la retirer de ses retranchements en face de Pomichowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Sa Majesté ordonna au général Hanicque de faire avancer tous les bateaux disponibles pour jeter un pont sur le premier bras de la Wkra, tandis que le colonel Tousard et les officiers du génie sous ses ordres étaient chargés de réparer le pont de Pomichowo et d'en jeter un sur le deuxième bras de l'île."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "En outre, le capitaine Perrin, aide de camp du maréchal, fut chargé de faire un débarquement à 100 pas au-dessus de l'île du confluent de la Wkra."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Nachdem Napoleon die Vorarbeiten zum Uebergang über die Wkra, die Beschaffenheit des Flusses von Pomiechowo abwärts, und das Terrain vor der Insel auf dem linken Ufer, das er von dem Giebel eines Hauses auf der Insel überschaut haben soll, besichtigt hatte, diktirte er die nachstehende Angriffsdisposition:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "„Die 1. Division — Morand — rückt in die Insel und formirt sich so entfernt als möglich vom Feinde.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "„Alles was zur 3. Division — Gudin — gehört, verbleibt im Brückenkopf unverrückt in Reserve.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "„Von den 8 Voltigeurs-Kompagnien — der 8 Bat. der Division Morand — werden zwei Bataillone gebildet, welche im Verein mit dem Bataillon des 13. leichten Regiments 3 Kolonnen bilden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "„Das 17. Regiment folgt unmittelbar, formirt sich und läßt zwischen jedem Bataillon eine Intervalle von 60 Schritt, hinter welche sich 3 leichte Schwadronen setzen.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "„Nach vollbrachtem Uebergang über die Wkra rückt die Division gegen Czarnowo vor, um den linken Flügel der russischen Aufstellung anzugreifen, während General Petit, mit einem Theil der 3. Division, die Wkra auf demselben Punkt wie die 1. überschreitet, am linken Ufer der Wkra aufwärts vorgeht, und sich der russischen Verschanzungen auf dem rechten Flügel, gegenüber von Pomiechowo, bemächtigt.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "„Um diese letztere Bewegung zu unterstützen, flankiren 6—12pfünder auf den Höhen vorwärts von Pomiechowo, den rechten Flügel des Feindes, welchen General Petit anzugreifen bestimmt ist.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "Außerdem befahl Napoleon, Haufen nassen Strohes in der Ausdehnung von 800—1000 Schritt längs der Wkra bei Pomiechowo anzuzünden, um den Feind für einen Uebergang in seiner rechten Flanke besorgt zu machen; er befahl ferner dem General Marulaz, mit der leichten Kavallerie-Brigade des Davoutschen Korps, dem General Petit zu folgen, und wo möglich die Artillerie des Feindes im Augenblick des Abfahrens aus den Batterien gegenüber von Pomiechowo zu nehmen;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Side B's command. General Bennigsen had soon given up the offensive and decided to await the French in a central position at Pultusk, defending the line of the Wkra with suitable forces, Pultusk being the general assembly and retreat point. Field Marshal Kaminskoi arrived at Pultusk on 21 December; his bodily sufferings had made him wholly unaccountable, at times to the point of losing consciousness; with violent reproaches he drove Bennigsen to Nowemiasto and ordered all the troops to advance against the Wkra, and on 23 December at Nowemiasto, abusing the generals assembled there, he ordered the attack for the next day. General Ostermann learned on the 18th, on his arrival at Nasielsk, that the enemy was assembling at the Wkra's mouth opposite Czarnowo and held the island, moved his quarters to Czarnowo on the 19th and, after several reconnaissances, took up his position there; he was wholly uncertain whether he was only to observe, to defend himself seriously or to attack. In the action he reinforced the advanced troops when he saw the signal; the advanced Jäger were ordered back to the batteries; when Petit attacked his right he brought the heavy guns from the Pomiechowo battery to the centre and replaced them with 4 horse guns; seeing that he faced a very superior enemy, he sent the heavy guns ahead on the road to Nasielsk, to take up a new position under the protection of the Pavlov Grenadiers; forced back onto the open field behind the village, he attacked once more to make his retreat in due order and then marched on Nasielsk. Three generals, Prince Schachofskoi, Lambert and Mitzki, were wounded. Höpfner judges that more than Ostermann achieved was not possible.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images (pp. 82-87, 90-94). Ostermann's position and his decisions in the fight were his own, within Bennigsen's dispositions and Kaminskoi's orders, so the claim is tagged commander_created. Höpfner names no Russian source for these decisions, except that the losses are the Russians' own figures (claim side-b-losses-reported). The passages read do not say who ordered the advanced Jäger back. English renderings (ours): 'General Bennigsen had, as has been shown, very soon given up the offensive and decided to await the French in a central position at Pultusk, at the same time defending the line of the Wkra with suitable forces'; 'Pultusk had been designated the general assembly and retreat point'; 'on 21 December Field Marshal Kaminskoi at last arrived at Pultusk on a peasant cart'; 'his bodily sufferings had made the old field marshal wholly unaccountable, and at times reached such a degree that he lost consciousness'; 'with violent reproaches he drove' (p. 83); 'General Bennigsen to Nowemiasto, and ordered all the troops to advance against the Wkra' (p. 84); 'on 23 December he went himself to Nowemiasto, heaped the most violent abuse on the generals assembled there and ordered the attack for the following day, although he still had nothing in hand but what was already posted on the Wkra and the Sonna; and the order would have had to be carried out, had the French not fortunately forestalled it by attacking'; 'General Ostermann learned as early as the 18th, on his arrival at Nasielsk, that the enemy was assembling at the mouth of the Wkra, opposite the village of Czarnowo, and had taken possession of the said island and held it'; 'he therefore moved his quarters to Czarnowo on the 19th and soon satisfied himself by several reconnaissances that the enemy, under cover of the overgrown island, was building a bridge over the main arm of the Wkra, sought to cover this work by laying out batteries, and at the same time was having rafts and boats worked on at the farm of Gora'; 'all this determined him to direct his main attention to this point and to take up the following position:'; 'the general was still awaiting the dispatch of pontoons, to be able to throw a bridge over the Wkra at Brody, and was wholly uncertain about his task, whether he was only to observe, or to defend himself seriously, or to proceed offensively. What he did was done only from the military instinct that something had to be done to make possible the retreat of the troops on the upper Wkra and the upper Narew'; 'General Ostermann recognised the fire for what it meant, and at once reinforced the advanced troops in the lowland with 6 companies of Jäger'; 'the advanced Russian Jäger received the order to fall back on the batteries'; 'General Ostermann recognised that the enemy was putting in all his forces to gain his left wing, and when he saw that now the right wing too was being attacked by General Petit, he had the heavy guns drawn from the battery at Pomiechowo to the centre and replaced by 4 horse guns'; 'the arrival of the grenadier battalion from Orzechowo, as well as the effective artillery fire, allowed General Ostermann to repulse this attack too, but he saw from the ever more extending and thickening skirmish fire that he had to deal with a very superior enemy'; 'he therefore withdrew the heavy guns from the centre and sent them ahead through Czarnowo onto the road to Nasielsk, where they were to take up a new position under the protection of the Pavlov Grenadier Regiment'; 'the French brought more artillery into action. The village and the valley edge were stormed from all sides, and General Ostermann was at last compelled to withdraw onto the open field behind the village'; 'General Ostermann, so as to be able to carry out his retreat in due order, went over to the attack once more, threw the French back into the village, and used the momentary pause to begin the march on Nasielsk, accompanied by a violent artillery fire'; 'the Russians give their loss as 4 officers and 515 men dead, 3 generals (Prince Schachofskoi, Lambert and Mitzki), 34 officers and 836 men wounded. The French' (p. 93); 'to achieve more than General Ostermann had achieved was not possible'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "Der General Bennigsen hatte die Offensive, wie gezeigt worden, sehr bald aufgegeben, und beschlossen, in einer Centralstellung bei Pultusk die Franzosen zu erwarten, zugleich mit angemessenen Kräften die Linie der Wkra zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Pultusk war als der allgemeine Sammel- und Rückzugspunkt bestimmt worden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Am 21. Dezember kam endlich der Feldmarschall Kaminskoi in Pultusk auf einem Bauerwagen an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Die körperlichen Leiden hatten den alten Feldmarschall völlig unzurechnungsfähig gemacht, und erreichten bisweilen einen so hohen Grad, daß er die Besinnung verlor."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Unter heftigen Vorwürfen trieb er den"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "General Bennigsen nach Nowemiasto, und befahl das Vorrücken aller Truppen gegen die Wkra."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Am 23. Dezember ging er selbst nach Nowemiasto, überhäufte die dort versammelten Generale mit den heftigsten Schmähungen und befahl den Angriff für den folgenden Tag, obgleich er noch nichts in Händen hatte, als was bereits an der Wkra und Sonna aufgestellt stand; auch hätte der Befehl ausgeführt werden müssen, wenn nicht glücklicherweise die Franzosen im Angriff zuvorgekommen wären."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Der General Ostermann erfuhr schon am 18. bei seinem Eintreffen bei Nasielsk, daß der Feind sich an der Wkra-Mündung, dem Dorfe Czarnowo gegenüber, versammle, und sich in den Besitz der gedachten Insel gesetzt und behauptet habe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Er verlegte daher sein Quartier am 19. nach Czarnowo, und überzeugte sich bald durch mehrfache Rekognoszirungen, daß der Feind unter dem Schutz der bewachsenen Insel an einer Brücke über den Hauptarm der Wkra baue, diese Arbeit durch die Anlage von Batterien zu decken suche, und zugleich auf dem Hofe von Gora an Flößen und Booten arbeiten lasse."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Dies Alles bestimmte ihn, sein Hauptaugenmerk auf diesen Punkt zu richten und folgende Aufstellung zu nehmen:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Der General erwartete noch die Sendung von Pontons, um bei Brody eine Brücke über die Wkra schlagen zu können und war über seine Bestimmung völlig unsicher, ob er nur beobachten, oder sich ernsthaft vertheidigen, oder angriffsweise verfahren sollte. Was er that, geschah nur in dem militärischen Takt, daß etwas geschehen müsse, um den Rückzug der Truppen an der obern Wkra und dem obern Narew möglich zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "Der General Ostermann erkannte den Brand für das, was er bedeutete, und verstärkte die Vortruppen in der Niederung sogleich durch 6 Kompagnien Jäger."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Die vorgeschobenen russischen Jäger erhielten den Befehl, sich auf die Batterien zurückzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Der General Ostermann erkannte, daß der Feind alle Kräfte ansetze, um seinen linken Flügel zu gewinnen, und als er sah, daß nunmehr auch der rechte Flügel durch den General Petit angegriffen wurde, so ließ er die schweren Geschütze aus der Batterie bei Pomiechowo nach der Mitte heranziehen und sie durch 4 reitende Geschütze ersetzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Das Eintreffen des Grenadierbataillons aus Orzechowo, so wie das wirksame Artillerie-Feuer, gestatteten dem General Ostermann, auch diesen Angriff zurückzuweisen, doch sah er aus dem sich immer mehr ausdehnenden und verdichtenden Tirailleur-Feuer, daß er mit einem sehr überlegenen Feinde zu thun habe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Er zog deshalb die schweren Geschütze aus dem Centrum zurück, und sandte sie durch Czarnowo auf den Weg nach Nasielsk voraus, wo sie unter dem Schutz des Pawlowskischen Grenadier-Regiments eine neue Aufstellung nehmen sollten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Die Franzosen brachten mehr Artillerie ins Gefecht. Von allen Seiten wurde das Dorf und der Thalrand gestürmt, und der General Ostermann wurde endlich genöthigt, sich auf das freie Feld hinter dem Dorf zurückzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Der General Ostermann, um seinen Rückzug mit gehöriger Ordnung vollführen zu können, ging noch einmal zum Angriff vor, warf die Franzosen in das Dorf zurück, und benutzte die augenblickliche Pause, um, begleitet von einem heftigen Artillerie-Feuer, den Marsch auf Nasielsk anzutreten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die Russen geben ihren Verlust auf 4 Offiziere, 515 Mann Todte, 3 Generale (Fürst Schachofskoi, Lambert und Mitzki), 34 Offiziere, 836 Mann Verwundete an. Die Franzosen geste-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Mehr zu leisten, als der General Ostermann geleistet hatte, war nicht möglich."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart codes the combat at Czarnowo on 23 December 1806 as a victory of the French under Napoleon I over the Russians under Lieutenant General Count Ostermann. In the 3rd corps's journal the enemy, attacked and pressed everywhere, abandoned his entrenchments, his positions and part of his artillery, came back to the charge once more and then retreated for good, taking the road to Nasielsk. In Höpfner the village and the valley edge were stormed from all sides, and Ostermann, forced onto the open field behind the village, attacked once more and began the march on Nasielsk; it was then 4 in the morning of the 24th, and the Russians reached Nasielsk at 8 without being further troubled. Höpfner judges that the time needed to assemble the rest of the division at Nasielsk was gained, and that more had been neither intended nor possible. The major general wrote on 25 December that the division that defended the Wkra had been beaten at Pomichowo, Czarnowo and Nasielsk.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's heading and entry, read from the page image in the frame transcription; Foucart and Höpfner from the page images (pp. 390, 397, 398, 400, 401, 439 and 440; Höpfner pp. 88, 92-95). The sources read agree that side B left the field to side A; Höpfner's judgement that the Russians gained the time they sought is his view of their aim (claim side-b-objectives), not a different result. Bodart dates the action 23 December; Höpfner heads it 'in the night to 24 December' and ends it at 4 in the morning of the 24th (our comparison). English renderings (ours): Bodart, as in claim bodart-strength; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'in vain the enemy wished to resist: attacked and pressed everywhere, he abandoned his entrenchments, his posi-' (p. 397); '-tions and even part of his artillery' (p. 398); 'but after withdrawing in disorder as far as the wood, the Russians returned to the charge with new fury. The French marched on the enemy and came within 30 paces of him. This boldness and a well-sustained fire decided the enemy on a definitive retreat'; 'the enemy took the road to Nasielsk; he was pursued into the wood by the 1st battalion of the 17th and by the 51st, supported by General Latour-Maubourg at the head of his dragoons and flanked by the light cavalry'; Höpfner, 'combat at Czarnowo in the night to 24 December'; 'the French brought more artillery into action. The village and the valley edge were stormed from all sides, and General Ostermann was at last compelled to withdraw onto the open field behind the village'; 'General Ostermann, so as to be able to carry out his retreat in due order, went over to the attack once more, threw the French back into the village, and used the momentary pause to begin the march on Nasielsk, accompanied by a violent artillery fire'; 'it had become 4 o'clock in the morning of the 24th, so that the Russian troops had stood under fire for about 12 hours. 3 battalions of Jäger and 4 squadrons of hussars formed the rearguard'; 'Davout's light cavalry went forward in pursuit, but was soon held up by the woods that began, so that the Russians, without being further troubled, reached Nasielsk at 8 in the morning, where the other troops of the division had already withdrawn; the detachment of General Dorochow also arrived before the French'; 'through the correct' (p. 94); 'measures of the Russian general and the excellent bearing of his troops, despite their exhaustion, the time required for the assembly of the other troops of the division at Nasielsk was gained; more one had neither wished nor been able to achieve; but the loss of over ¼ of the forces is certainly considerable' (p. 95); the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'he had a division of about 15,000 men to defend the right bank of the Wkra and the bridge of Pomichowo; another division of the same strength defended Kolozomb, with its point of support at Nowemiasto. The division that defended the Wkra was beaten at Pomichowo, Czarnowo and Nasielsk, where the field marshal commanding the Russian army in chief was'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Napoleon I. über die Russen (5.500 M.) unter Gen.-Lt. Gf. Ostermann."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "En vain l'ennemi voulut résister : partout attaqué et pressé il abandonna ses retranchements, ses posi-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "tions et même une partie de son artillerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "Mais après s'être retirés en désordre jusqu'au bois, les Russes revinrent à la charge avec une nouvelle fureur. Les Français marchèrent à l'ennemi et s'en approchèrent à 30 pas. Cette audace et un feu bien soutenu décidèrent l'ennemi à une retraite définitive."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "L'ennemi prit la route de Nasielsk; il fut poursuivi jusque dans le bois par le 1er bataillon du 17e et par le 51e, soutenus par le général Latour-Maubourg à la tête de ses dragons et flanqués par la cavalerie légère."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Gefecht bei Czarnowo in der Nacht zum 24. Dezember."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Die Franzosen brachten mehr Artillerie ins Gefecht. Von allen Seiten wurde das Dorf und der Thalrand gestürmt, und der General Ostermann wurde endlich genöthigt, sich auf das freie Feld hinter dem Dorf zurückzuziehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Der General Ostermann, um seinen Rückzug mit gehöriger Ordnung vollführen zu können, ging noch einmal zum Angriff vor, warf die Franzosen in das Dorf zurück, und benutzte die augenblickliche Pause, um, begleitet von einem heftigen Artillerie-Feuer, den Marsch auf Nasielsk anzutreten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Es war 4 Uhr Morgens des 24. geworden, so daß die russischen Truppen gegen 12 Stunden im Feuer gestanden hatten. 3 Bataillone Jäger und 4 Schwadronen Husaren machten die Arriergarde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die Davoutsche leichte Kavallerie ging zur Verfolgung vor, wurde aber bald durch die eintretenden Waldungen aufgehalten, so daß die Russen, ohne weiter beunruhigt zu werden, um 8 Uhr Morgens Nasielsk erreichten, wohin sich bereits die übrigen Truppen der Division zurückgezogen hatten; auch das Detaschement des Generals Dorochow langte vor den Franzosen an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Durch die richtigen"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p95-figures-v1",
+          "section": "p95",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 95 (transcribed from the page image)",
+          "quote": "Maßregeln des russischen Generals und die treffliche Haltung seiner Truppen, trotz deren Erschöpfung, wurde die erforderliche Zeit zur Versammlung der übrigen Truppen der Division bei Nasielsk gewonnen; mehr hatte man nicht erreichen wollen und können; doch ist der Verlust von über ¼ der Kräfte allerdings bedeutend."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Il avait une division d'environ 15,000 hommes pour défendre la rive droite de la Wkra et le pont de Pomichowo; une autre division de même force défendait Kolozomb, ayant son point d'appui à Nowemiasto. La division qui défendait la Wkra a été battue à Pomichowo, Czarnowo et Nasielsk où se trouvait le feld-maréchal qui commande en chef l'armée russe."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives the French losses as 850 men (16 officers) and the Russian losses as 1,400 men (3 generals, 38 officers), of whom 500 prisoners, and 5 cannon.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. His Russian 1,400 with 3 generals and 38 officers is near the Russians' own figures in Höpfner, 4 officers and 515 men dead and 3 generals, 34 officers and 836 men wounded, which make 1,392 with 3 generals and 38 officers (our arithmetic); his 500 prisoners match in number Höpfner's about 500 wounded left in Czarnowo and the journal's 500 wounded taken there, and his 5 cannon the journal's 5 pieces (claim side-b-losses-reported; our comparison). His French 850 equals the 100 dead and 750 wounded that the French admit in Höpfner (our arithmetic), but his 16 officers are neither Höpfner's 58 nor the 67 officers of the journal's table (claim side-a-losses-reported; our arithmetic). Which source Bodart used was not checked. English renderings (ours): Bodart, 'French losses: 850 men (16 officers) | Russian losses: 1,400 men (3 generals, 38 officers), (of whom 500 prisoners), 5 cannon'; 'Gen.' is Général en chef oder General, 'Offz.' Offizier and 'M.' Mann in Bodart's list of abbreviations; 'Verl.', 'wor.' and 'Gefg.' are not in it, and we read them as Verlust, worunter and Gefangene.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Franz. Verl.: 850 M. (16 Offz.) | Russ. Verl.: 1.400 M. (3 Gen. 38 Offz.), (wor. 500 Gefg.), 5 Kanonen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gen. — Général en chef oder General"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Offz. — Offizier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's losses as reported: in Höpfner the French admit the loss of 100 dead and 750 wounded, among them 58 officers, though he assumes that as attackers they lost more than the Russians. The extract of the 3rd corps's journal ends with a table of losses: for the 1st division 1 officer killed and 58 wounded and 22 men killed and 582 wounded, and for the 3rd division 2 officers killed and 6 wounded and 21 men killed and 115 wounded; General Brouard was wounded in the face by a canister ball.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Read from the page images (Höpfner pp. 93 and 94; Foucart pp. 390, 396 and 401). The journal's table, for the 1st and 3rd divisions only, makes 663 and 144, 807 in all, of whom 67 officers (our arithmetic); it has no total row and no line for the cavalry, and it ends the extract, before a paragraph in the editor's small type. Höpfner's 58 officers equal the 58 wounded officers of the 1st division in the table (our comparison), and he names no source for the French admission. Bodart's 850 with 16 officers is in claim bodart-losses. English renderings (ours): Höpfner, 'the Russians give their loss as 4 officers and 515 men dead, 3 generals (Prince Schachofskoi, Lambert and Mitzki), 34 officers and 836 men wounded. The French' (p. 93); 'admit the loss of 100 dead and 750 wounded, among them 58 officers; but it is to be assumed that as attackers they lost more than the Russians. As prisoners only about 500 wounded, who had stayed behind in Czarnowo, fell into the hands of the French' (p. 94); the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'officers | men'; 'killed | wounded | killed | wounded'; 'losses'; '1st division | 1 | 58 | 22 | 582'; '3rd division | 2 | 6 | 21 | 115'; 'however, as this regiment had used up its cartridges, General Morand thought he should have it relieved by the 30th regiment, which Colonel Valterre commanded. At the moment when General Brouard was advancing to the foot of the entrenchment, he was wounded in the face by a canister ball'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die Russen geben ihren Verlust auf 4 Offiziere, 515 Mann Todte, 3 Generale (Fürst Schachofskoi, Lambert und Mitzki), 34 Offiziere, 836 Mann Verwundete an. Die Franzosen geste-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "hen den Verlust von 100 Todten und 750 Verwundeten, worunter 58 Offiziere, ein; jedoch ist anzunehmen, daß sie als Angreifende mehr als die Russen verloren haben. An Gefangenen fielen den Franzosen nur etwa 500 Verwundete, die in Czarnowo zurückgeblieben waren, in die Hände."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "OFFICIERS. | TROUPE.\nTués. | Blessés. | Tués. | Blessés.\nPERTES.\n1re division | 1 | 58 | 22 | 582\n3e division | 2 | 6 | 21 | 115"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Cependant comme ce régiment avait consommé ses cartouches, le général Morand crut devoir le faire relever par le 30e régiment que commandait le colonel Valterre. Au moment où le général Brouard s'avançait jusqu'au pied du retranchement, il fut blessé au visage par un biscaïen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's losses as reported: in Höpfner the Russians give their loss as 4 officers and 515 men dead and 3 generals (Prince Schachofskoi, Lambert and Mitzki), 34 officers and 836 men wounded; as prisoners only about 500 wounded, who had stayed behind in Czarnowo, fell into French hands; and Höpfner calls the loss of over ¼ of the forces considerable. In the 3rd corps's journal the division took 5 pieces, a few hundred prisoners and 500 wounded at Czarnowo, and many Russians remained on the battlefield; the enemy had abandoned part of his artillery, and at the redoubts opposite Pomichowo he had time only for a single discharge before sending his guns off along the road to Czarnowo, saving them only by the darkness.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Read from the page images (Höpfner pp. 93-95; Foucart pp. 390, 397, 398 and 401). Höpfner's Russian figures make 519 dead and 873 wounded, 1,392 in all, with 41 officers counting the 3 generals (our arithmetic); 1,392 is 28% of his about 5000 (our arithmetic), in keeping with his 'über ¼'. The journal's 'a few hundred prisoners and 500 wounded' may count unwounded prisoners beside the wounded, while Höpfner says the prisoners were only about 500 wounded (our comparison); the journal's 5 pieces match Bodart's 5 cannon in number (claim bodart-losses). English renderings (ours): Höpfner, 'the Russians give their loss as 4 officers and 515 men dead, 3 generals (Prince Schachofskoi, Lambert and Mitzki), 34 officers and 836 men wounded. The French' (p. 93); 'admit the loss of 100 dead and 750 wounded, among them 58 officers; but it is to be assumed that as attackers they lost more than the Russians. As prisoners only about 500 wounded, who had stayed behind in Czarnowo, fell into the hands of the French' (p. 94); 'through the correct' (p. 94); 'measures of the Russian general and the excellent bearing of his troops, despite their exhaustion, the time required for the assembly of the other troops of the division at Nasielsk was gained; more one had neither wished nor been able to achieve; but the loss of over ¼ of the forces is certainly considerable' (p. 95); the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'the division took 5 pieces and a few hundred prisoners and 500 wounded taken at Czarnowo'; 'His Majesty deigned to express to General Morand on the battlefield his satisfaction with the vigour of his attack, as also to General Petit. Many Russians remained on the battlefield'; 'in vain the enemy wished to resist: attacked and pressed everywhere, he abandoned his entrenchments, his posi-' (p. 397); '-tions and even part of his artillery' (p. 398); 'but the 3 companies, seconded by the 6 pieces of artillery in position on the heights of the right bank in front of Pomichowo and by the 2 pieces that were going up the river on the same bank, threw themselves on the redoubts so briskly that the enemy had time only to fire a single discharge of his artillery, which he sent off rapidly along the high road to Czarnowo'; 'he owed its preservation only to the darkness of the night'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die Russen geben ihren Verlust auf 4 Offiziere, 515 Mann Todte, 3 Generale (Fürst Schachofskoi, Lambert und Mitzki), 34 Offiziere, 836 Mann Verwundete an. Die Franzosen geste-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "hen den Verlust von 100 Todten und 750 Verwundeten, worunter 58 Offiziere, ein; jedoch ist anzunehmen, daß sie als Angreifende mehr als die Russen verloren haben. An Gefangenen fielen den Franzosen nur etwa 500 Verwundete, die in Czarnowo zurückgeblieben waren, in die Hände."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Durch die richtigen"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p95-figures-v1",
+          "section": "p95",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 95 (transcribed from the page image)",
+          "quote": "Maßregeln des russischen Generals und die treffliche Haltung seiner Truppen, trotz deren Erschöpfung, wurde die erforderliche Zeit zur Versammlung der übrigen Truppen der Division bei Nasielsk gewonnen; mehr hatte man nicht erreichen wollen und können; doch ist der Verlust von über ¼ der Kräfte allerdings bedeutend."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "La division prit 5 pièces et quelques centaines de prisonniers et 500 blessés pris à Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p401-figures-v1",
+          "section": "p401",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 401 (transcribed from the page image)",
+          "quote": "Sa Majesté daigna témoigner sur le champ de bataille au général Morand sa satisfaction sur la vigueur de son attaque, ainsi qu'au général Petit. Beaucoup de Russes restèrent sur le champ de bataille."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "En vain l'ennemi voulut résister : partout attaqué et pressé il abandonna ses retranchements, ses posi-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "tions et même une partie de son artillerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "mais les 3 compagnies secondées par les 6 pièces d'artillerie en position sur les hauteurs de la rive droite, en avant de Pomichowo, et par les 2 pièces qui, sur la même rive, remontaient la rivière, se jetèrent sur les redoutes avec tant de vivacité, que l'ennemi n'eut que le temps de faire une seule décharge de son artillerie, qu'il fit filer avec rapidité sur la grande route de Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "Il n'en dut la conservation qu'à l'obscurité de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "czarnowo-ground",
+      "dimension": "terrain",
+      "value": "Czarnowo is a village in Russian Poland on the right bank of the Bug, 30 km north-west of Warsaw (Bodart). In the 3rd corps's journal the fairly steep hill bordering the right bank of the Narew runs straight from Czarnowo to the Wkra opposite Pomichowo and dominates the plain between the Narew and the Wkra at their confluence; the Russians' flanks rested on the Narew on the left and on the Wkra on the right; the space between the Russian camp and the two rivers was partly marshy meadow and woods in which the Russians had made abatis, which made it as hard to force as the camp itself; and the Russians had burnt the bridge of Pomichowo, destroyed an old bridge above it and burnt the bridge over the second arm at the island. A ravine protects the village, which the 1st battalion of the 30th used to turn it; the 1st battalion of the 17th attacked it from the left through pine woods; and French echelons took their place on the great plateau in front of the village. In Höpfner the left arm of the bushy island that the Wkra forms at its mouth, the arm on the Russian side, could be bridged with small means, and the island by its position covered the bridgehead at Okunin and hid the French preparations; Ostermann's position on the fairly steep valley edge of the Narew, with both wings securely anchored, was not unfavourable in itself, but for about 5000 men its extent of over ¼ mile was too great for a resistance that could hope to throw the enemy back over the river; woods begin about 2000 paces behind Czarnowo and continue, with few open places, to Nasielsk, and they soon held up the French pursuit. The action was fought at night: Foucart's note quotes the 45th Bulletin that in that season night fell at four and day came only at eight; the journal says the French advanced in the darkness guided only by the enemy's fire, over ground the enemy knew perfectly, and Höpfner that the thick darkness in the unknown, broken ground made their advance uncommonly difficult.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's location, read from the page image in the frame transcription; Foucart and Höpfner from the page images (Foucart pp. 390, 391, 395 and 397; Höpfner pp. 85, 87, 88, 91 and 93). Bodart names the river the Bug, while the journal places the hill on the right bank of the Narew and Höpfner the position on the valley edge of the Narew (our comparison; the passages read do not say where the Bug's name ends). The ground, the river and the season were given before the action, so the claim is tagged inherited; the abatis and the burnt bridges were side B's work (claim fortification), and fighting at night followed side A's timing (claim posture). Höpfner's plan of the action was not inspected. English renderings (ours): Bodart, '(village in Russian Poland, on the right bank of the Bug, 30 km north-west of Warsaw)'; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'the fairly steep hill that borders the right bank of the Narew continues in a straight line from Czarnowo to the Wkra opposite Pomichowo and dominates the whole plain between the right bank of the Narew and the left bank of the Wkra at its confluence'; 'their flanks were perfectly supported, the left on the Narew, the right on the Wkra; this right flank was protected by breastworks'; 'the whole space between the Russian camp and the two rivers was partly covered with marshy meadows and woods in which the Russians had made abatis, which made this whole space in front of the camp as difficult to force as their camp itself'; 'the Russians had, in retiring, burnt the bridge of Pomichowo and had entirely destroyed an old bridge upstream of the first, already half ruined. They had likewise burnt the bridge over the second arm of the island at the confluence of the Wkra, by which they had communicated before General Petit drove them from the island'; 'the 1st battalion of the 30th, entering the ravine that protects the village of Czarnowo, turned it; the 2nd battalion of the same regiment attacked the village in front. The 1st battalion of the 17th, forming the 3rd echelon, advanced through the pine woods and attacked the village from the left'; 'they came to take their place on the great plateau in front of the village'; 'the enemy knew perfectly the ground over which the 30th, the 17th and the 2nd battalion of the 13th light advanced in echelons, who, in the darkness of the night, were guided only by the fire of the enemy's cannon and musketry'; his note '2. The troops began to cross the bridge about 3 in the afternoon, but « in this season it is night at four o'clock and day only at eight ». (45th Bulletin.)'; Höpfner, 'Marshal Davout, with a more practised eye than his opponents, had recognised early how important for his crossing of the Wkra the possession of the bushy island that the river forms at its mouth must become, since the left arm — that is, the one on the Russian side — could be bridged with small means'; 'by its position the island covered the bridgehead at Okunin and hid the further preparations for the crossing'; 'General Ostermann's position on the fairly steep valley edge of the Narew, with both wings securely anchored, was in itself not at all unfavourable for making the French advance after the crossing difficult, but for about 5000 men the extent of over ¼ mile was too great to offer a resistance from which one could hope to throw the enemy back over the river'; 'with some care the retreat of the Russians could not so easily' (p. 87); 'be endangered, since about 2000 paces behind Czarnowo woods already begin, which continue, interrupted by few open places, as far as Nasielsk' (p. 88); 'Davout's light cavalry went forward in pursuit, but was soon held up by the woods that began, so that the Russians, without being further troubled, reached Nasielsk at 8 in the morning, where the other troops of the division had already withdrawn; the detachment of General Dorochow also arrived before the French'; 'the advance of the French was made uncommonly difficult by the thick darkness in the unknown, broken ground; only the fire of the Russians gave some orientation'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "(Dorf in Russisch-Polen, am rechten Bugufer, 30 km nordwestl. von Warschau)."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "La colline assez escarpée qui borde la rive droite de la Narew, se prolonge en ligne droite depuis Czarnowo jusqu'à la Wkra vis-à-vis Pomichowo et domine toute la plaine comprise entre la rive droite de la Narew et la rive gauche de la Wkra à son confluent."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Leurs flancs étaient parfaitement appuyés, la gauche à la Narew, la droite à la Wkra; ce flanc droit était protégé par des épaulements."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Tout l'espace entre le camp russe et les deux rivières était en partie couvert de prairies marécageuses et de bois où les Russes avaient fait des abatis, ce qui rendait tout cet espace en avant du camp aussi difficile à forcer que leur camp même."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Les Russes avaient en se retirant brûlé le pont de Pomichowo et avaient entièrement détruit un vieux pont situé en amont du premier et déjà à moitié ruiné. Ils avaient également brûlé le pont sur le deuxième bras de l'île au confluent de la Wkra, par où ils communiquaient avant que le général Petit ne les eût chassés de l'île."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "Le 1er bataillon du 30e pénétrant dans le ravin qui protége le village de Czarnowo, le tourna; le 2e bataillon du même régiment attaqua le village de front. Le 1er bataillon du 17e, formant le 3e échelon, s'avança à travers les bois de sapins, et attaqua le village par la gauche."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "Ils vinrent prendre rang sur le grand plateau en avant du village."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "L'ennemi connaissait parfaitement le terrain sur lequel s'avançaient en échelons le 30e, le 17e et le 2e bataillon du 13e léger qui, au milieu des ténèbres de la nuit, n'étaient guidés que par le feu des canons et de la mousqueterie ennemie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "2. Les troupes commencèrent à passer le pont vers 3 heures de l'après-midi, mais « dans cette saison, il fait nuit à quatre heures et il ne fait jour qu'à huit ». (45e Bulletin.)"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Der M. Davout hatte mit geübterem Blick als seine Gegner frühzeitig erkannt, wie wichtig ihm zum Uebergang über die Wkra der Besitz der bebuschten Insel werden mußte, welche der Fluß bei seiner Mündung bildet, da der linke Arm — also der nach der russischen Seite gelegene — mit geringen Mitteln überbrückt werden konnte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Die Insel deckte durch ihre Lage den Brückenkopf bei Okunin und verbarg die weiteren Vorarbeiten zum Uebergang."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Die Stellung des Generals Ostermann auf dem ziemlich steilen Thalrande des Narews und mit sicherer Anlehnung beider Flügel, war an sich gar nicht ungünstig, um den Vormarsch der Franzosen nach dem Uebergange zu erschweren, aber für circa 5000 Mann war die Ausdehnung von über ¼ Meile zu bedeutend, um einen Widerstand zu leisten, in Folge dessen man hoffen konnte, den Feind über den Fluß zurückzuwerfen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Der Rückzug der Russen konnte bei einiger Vorsicht so leicht"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "nicht gefährdet werden, da etwa 2000 Schritt hinter Czarnowo bereits Waldungen beginnen, die sich, durch wenige offene Stellen unterbrochen, bis Nasielsk fortziehen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Die Davoutsche leichte Kavallerie ging zur Verfolgung vor, wurde aber bald durch die eintretenden Waldungen aufgehalten, so daß die Russen, ohne weiter beunruhigt zu werden, um 8 Uhr Morgens Nasielsk erreichten, wohin sich bereits die übrigen Truppen der Division zurückgezogen hatten; auch das Detaschement des Generals Dorochow langte vor den Franzosen an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Das Vorgehen der Franzosen wurde durch die dichte Finsterniß in dem unbekannten, durchschnittenen Terrain ungemein erschwert; nur das Feuer der Russen gewährte einige Orientirung."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Means and supply. Side B: in Höpfner the Russian troops in the position had to struggle with hunger and cold, above all the advanced troops in the lowland; Ostermann was still awaiting pontoons to bridge the Wkra at Brody; and the 6th Division, which had scarcely arrived at Zbroszki, was to turn back again, although the troops could hardly move forward on the bottomless roads. Side A: Davout had rafts and boats made for crossing the left arm (Höpfner); the Emperor ordered General Hanicque to bring forward all available boats to bridge the first arm and Colonel Tousard's engineers to repair the Pomichowo bridge and bridge the second arm; the bridge over the first arm was thrown in 2 hours, and the columns crossed it; at the second arm the voltigeurs of the 13th crossed by a ferry-boat, the 1st company of the 17th by a boat the engineer troops brought, two more boats were brought by the sailors of the Guard, the engineer officers built a bridge for the cavalry and artillery, and Captain Galliardi with the regiments' sappers opened a wide passage through the forest to the road from Pomichowo to Czarnowo; in Höpfner the engineer troops brought a ferry and several boats from the Narew into the arm. The 17th used up its cartridges and was relieved by the 30th. Before crossing the Narew the reserve cavalry was ordered on the 22nd to take bread for 2 days and meat for 4, and the heavy baggage and the artillery reserves stayed on the left bank. Höpfner leaves open whether demonstrations by Friant's division above Pomiechowo could have eased the frontal attack, and says the means of crossing were lacking for a real crossing by small detachments.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 84, 85, 87, 91 and 94; Foucart pp. 376, 394-396). The French bridging was ordered for this attack (commander-created), while the Russians' hunger, cold and roads were given conditions; one claim carries one phase, so it is unresolved. English renderings (ours): Höpfner, 'the troops had to struggle with hunger and cold in this position; the advanced troops in the lowland above all had a hard time of it'; 'the general was still awaiting the dispatch of pontoons, to be able to throw a bridge over the Wkra at Brody, and was wholly uncertain about his task, whether he was only to observe, or to defend himself seriously, or to proceed offensively. What he did was done only from the military instinct that something had to be done to make possible the retreat of the troops on the upper Wkra and the upper Narew'; 'General Sedmoratzki with the 6th Division, which had scarcely arrived at Zbroszki, was to turn back again, although the troops could hardly move forward on the bottomless roads'; 'he had therefore had the island occupied by the brigade Petit and at once had a bridge laid over the right arm and batteries on the island itself; rafts and boats were also made, to prepare the crossing of the left arm'; 'the 3 columns advanced against the arm to be bridged, into which the engineer troops had brought a ferry and several boats from the Narew'; 'how far demonstrations against the Wkra above Pomiechowo by the division Friant, standing near, could have helped to make General Ostermann anxious for his retreat early and so to ease the frontal attack must, given the ignorance of the locality and of the other circumstances, be left open'; 'for a real crossing by small detachments, which could have produced a great effect in the wooded ground on the far side, the means of crossing were lacking'; Foucart, 'His Majesty ordered General Hanicque to bring forward all the available boats to throw a bridge over the first arm of the Wkra, while Colonel Tousard and the engineer officers under his orders were charged with repairing the bridge of Pomichowo and throwing one over the second arm of the island'; 'they crossed the first arm of the Wkra on the bridge that the artillery had just thrown there'; 'crossed the island and advanced at nightfall as far as the second arm'; Foucart's note '1. This bridge was thrown in 2 hours'; 'the voltigeur company of the 13th got across by means of a ferry-boat, the 1st company of the 17th by means of a boat that the engineer troops brought up; two more boats were brought by the sailors of the Guard, and the engineer officers established a bridge over which the cavalry and artillery crossed, while Captain Galliardi, with all the sappers of the regiments, opened a wide pas-' (p. 395); '-sage in the forest from the bank to the road leading from Pomichowo to Czarnowo' (p. 396); 'Colonel Lanusse advanced at the head of the 17th regiment as far as the batteries that defended its approaches. He had made himself master of these batteries when the enemy debouched in great force on his left flank and his rear and forced him to fall back on his right. At the same time the enemy vigorously attacked the 13th and the voltigeurs'; 'Colonel Lanusse re-formed his regiment in good order at the edge of the woods, where the enemy did not dare pursue him'; 'however, as this regiment had used up its cartridges, General Morand thought he should have it relieved by the 30th regiment, which Colonel Valterre commanded. At the moment when General Brouard was advancing to the foot of the entrenchment, he was wounded in the face by a canister ball'; 'all the cavalry of the reserve received the order, on the 22nd in the morning, to take bread for 2 days and meat for 4 days before crossing the Narew'; 'the heavy baggage and the reserves of the artillery stayed on the left bank'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Die Truppen hatten in dieser Aufstellung mit Hunger und Kälte zu kämpfen; besonders hatten die Vortruppen in der Niederung einen harten Stand."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Der General erwartete noch die Sendung von Pontons, um bei Brody eine Brücke über die Wkra schlagen zu können und war über seine Bestimmung völlig unsicher, ob er nur beobachten, oder sich ernsthaft vertheidigen, oder angriffsweise verfahren sollte. Was er that, geschah nur in dem militärischen Takt, daß etwas geschehen müsse, um den Rückzug der Truppen an der obern Wkra und dem obern Narew möglich zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Der General Sedmoratzki mit der 6. Division, der kaum bei Zbroszki eingetroffen war, sollte wieder umkehren, obgleich die Truppen in den grundlosen Wegen kaum vorwärts konnten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Er hatte daher die Insel von der Brigade Petit besetzen und alsbald eine Brücke über den rechten Arm und Batterien auf der Insel selbst anlegen lassen; auch wurden Flöße und Boote angefertigt, um den Uebergang über den linken Arm vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Die 3 Kolonnen rückten gegen den zu überbrückenden Arm vor, in welchen die Genietruppen aus dem Narew eine Fähre und mehrere Kähne eingeführt hatten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "In wie weit noch Demonstrationen gegen die Wkra oberhalb Pomiechowo durch die nahestehende Division Friant hätten dazu beitragen können, den General Ostermann frühzeitig für seinen Rückzug besorgt zu machen und dadurch den Frontangriff zu erleichtern, muß, bei der Unkenntniß der Oertlichkeit und der sonstigen Verhältnisse, dahin gestellt bleiben."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Zu einem wirklichen Uebergang kleiner Abtheilungen, die in dem jenseitigen Waldterrain großen Effekt hervorbringen konnten, fehlte es an Uebergangsmitteln."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Sa Majesté ordonna au général Hanicque de faire avancer tous les bateaux disponibles pour jeter un pont sur le premier bras de la Wkra, tandis que le colonel Tousard et les officiers du génie sous ses ordres étaient chargés de réparer le pont de Pomichowo et d'en jeter un sur le deuxième bras de l'île."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "Elles passèrent le premier bras de la Wkra sur le pont que l'artillerie venait d'y jeter"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "traversèrent l'île et s'avancèrent à l'entrée de la nuit jusqu'au deuxième bras"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "1. Ce pont fut jeté en 2 heures."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "La compagnie de voltigeurs du 13e y parvint au moyen d'un bac. La 1re compagnie du 17e au moyen d'une barque que les troupes du génie amenèrent; deux nouvelles barques furent amenées par les matelots de la Garde, et les officiers du génie établirent un pont sur lequel la cavalerie et l'artillerie passèrent pendant que le capitaine Galliardi, avec tous les sapeurs des régiments, ouvrait un large pas-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "sage dans la forêt depuis le rivage jusqu'au chemin qui conduit de Pomichowo à Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse s'avança à la tête du 17e régiment jusqu'aux batteries qui en défendaient les avenues. Il s'était rendu maître de ces batteries, lorsque l'ennemi déboucha en grande force sur son flanc gauche et sur ses derrières et le força de se replier sur sa droite. En même temps l'ennemi attaqua vivement le 13e et les voltigeurs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse rétablit en bon ordre son régiment à la tête des bois, où l'ennemi n'osa pas le poursuivre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Cependant comme ce régiment avait consommé ses cartouches, le général Morand crut devoir le faire relever par le 30e régiment que commandait le colonel Valterre. Au moment où le général Brouard s'avançait jusqu'au pied du retranchement, il fut blessé au visage par un biscaïen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p376-figures-v1",
+          "section": "p376",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 376 (transcribed from the page image)",
+          "quote": "Toute la cavalerie de la réserve reçut l'ordre, le 22 dans la matinée, de prendre du pain pour 2 jours et de la viande pour 4 jours, avant de passer la Narew."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p376-figures-v1",
+          "section": "p376",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 376 (transcribed from the page image)",
+          "quote": "Les gros équipages et les réserves de l'artillerie restèrent sur la rive gauche."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information. On 22 December the major general wrote that the enemy probably had only an advanced guard at Czarnowo. Davout wrote that he had told General Morand that, by the latest reports to reach him, the enemy had an infantry regiment at Ciexin, opposite Borkowo, 6 guns and some squadrons of Cossacks and hussars, and some cavalry at Blandowo; he added that two fairly strong batteries on the left bank of the Wkra, one opposite the bridge of Pomichowo and the other a little to the right, had fired on his cavalry, seemed to him considerable and were being worked on continually; and that many bivouac fires were seen in the woods toward Brody and Czarnowo. On the 23rd the Emperor visited the entrenched camp, reconnoitred the Wkra in the presence of the Russians, examined the ground several times and climbed onto a house on the island to see beyond the other bank (the journal; Höpfner reports the house as hearsay). In the night the enemy knew the ground perfectly, while the French echelons were guided only by the fire of the enemy's guns and musketry (the journal); in Höpfner only the Russians' fire gave some orientation. After the action the major general wrote to Marshal Lannes that it seemed necessary to tell him what had happened and the presumed position with regard to the enemy, and that the enemy had had a division of about 15,000 men on the Wkra and another of the same strength at Kolozomb (claim foucart-side-b).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Foucart pp. 372-375, 390-392, 397, 439 and 440; Höpfner pp. 88 and 91). The major general's 'only an advanced guard' and the conditions he set (claim side-a-command) show the information on which the attack was planned before the Emperor's reconnaissance; the journal's 15,000 (claim foucart-side-b) is a figure written after the action. The earlier reports reached side A before the Emperor took charge on the field, while his reconnaissance was his own, so the phase is unresolved. English renderings (ours): the major general, 'the major general to Marshal Davout'; 'Warsaw, 22 December 1806, half past 11 in the morning'; 'it is probable that the enemy has only an advanced guard at Czarnowo; if his position is not too formidable and he has not more than 12,000 men, you will attack him tomorrow at daybreak with your whole corps united'; Davout, 'Marshal Davout to the major general'; 'Your Highness's first orders for making the 3rd corps cross the Narew reached my headquarters at half past twelve; they were sent on at once to General Morand, who could receive them only about 3 o'clock; I do not expect him here before midnight'; 'I told him that, according to the latest reports that had reached me, the enemy had a regiment of infantry at Ciexin, opposite Borkowo, 6 pieces of cannon and some squadrons of Cossacks and hussars, and some cavalry at Blandowo'; 'two fairly strong batteries on the left bank of the Wkra, the one opposite the bridge of Pomichowo and the other a little to the right, fired on our cavalry; these two batteries seem to me considerable, and the enemy is working on them continually'; 'in the woods toward Brody and Czarnowo many bivouac fires are seen'; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'the Emperor left Warsaw on the 23rd at 3 in the morning so as to be at daybreak at Marshal Davout's bridge on the Narew. He arrived between 9 and 10 in the morning at the entrenched camp. He began by visiting the entrenched camp; then, in the presence of the Russians who lined the left bank, he reconnoitred the Wkra from Pomichowo to the two arms of this river at its mouth'; 'His Majesty examined all this ground several times; he even climbed, by means of a ladder, onto a house in the island, the better to observe the place and see what was happening beyond' (p. 391); 'the other bank' (p. 392); 'the enemy knew perfectly the ground over which the 30th, the 17th and the 2nd battalion of the 13th light advanced in echelons, who, in the darkness of the night, were guided only by the fire of the enemy's cannon and musketry'; Höpfner, 'after Napoleon had inspected the preparations for the crossing of the Wkra, the nature of the river from Pomiechowo downstream, and the ground in front of the island on the left bank, which he is said to have surveyed from the gable of a house on the island, he dictated the following attack disposition:'; 'the advance of the French was made uncommonly difficult by the thick darkness in the unknown, broken ground; only the fire of the Russians gave some orientation'; the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'in the present state of things, it seems necessary to me to let you know what has happened and the presumed position in which we find ourselves with regard to the enemy'; 'he had a division of about 15,000 men to defend the right bank of the Wkra and the bridge of Pomichowo; another division of the same strength defended Kolozomb, with its point of support at Nowemiasto. The division that defended the Wkra was beaten at Pomichowo, Czarnowo and Nasielsk, where the field marshal commanding the Russian army in chief was'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "Varsovie, 22 décembre 1806, 11 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "Il est probable que l'ennemi ne doit avoir à Czarnowo qu'une avant-garde; si sa position n'est pas trop formidable et qu'il n'y ait pas plus de 12,000 hommes, vous l'attaquerez demain au jour avec tout votre corps réuni."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "Les premiers ordres de Votre Altesse pour faire passer la Narew au 3e corps sont parvenus à mon quartier général à midi et demi; ils ont été expédiés de suite au général Morand qui n'a pu les recevoir que vers 3 heures; je ne l'attends pas ici avant minuit."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p374-figures-v1",
+          "section": "p374",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 374 (transcribed from the page image)",
+          "quote": "Je l'ai prévenu que d'après les derniers rapports qui m'étaient parvenus l'ennemi avait un régiment d'infanterie à Ciexin, vis-à-vis de Borkowo, 6 pièces de canon et quelques escadrons de cosaques et de hussards, et à Blandowo quelque cavalerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p375-figures-v1",
+          "section": "p375",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 375 (transcribed from the page image)",
+          "quote": "Deux batteries assez fortes sur la rive gauche de la Wkra, l'une vis-à-vis le pont de Pomichowo, et l'autre un peu sur la droite, ont tiré sur notre cavalerie; ces deux batteries me paraissent considérables et l'ennemi y travaille continuellement."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p375-figures-v1",
+          "section": "p375",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 375 (transcribed from the page image)",
+          "quote": "Dans les bois du côté de Brody et de Czarnowo on voit beaucoup de feux de bivouac"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "L'Empereur partit de Varsovie le 23 à 3 heures du matin pour se trouver au jour au pont du maréchal Davout sur la Narew. Il arriva entre 9 heures et 10 heures du matin au camp retranché. Il commença par visiter le camp retranché; il fit ensuite, en présence des Russes qui bordaient la rive gauche, la reconnaissance de la Wkra depuis Pomichowo jusqu'aux deux bras de cette rivière à son embouchure."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Sa Majesté examina tout ce terrain à plusieurs reprises; elle monta même, au moyen d'une échelle, au-dessus d'une maison située dans l'île, pour mieux observer les lieux et voir ce qui se passait au delà"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "de l'autre rive."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "L'ennemi connaissait parfaitement le terrain sur lequel s'avançaient en échelons le 30e, le 17e et le 2e bataillon du 13e léger qui, au milieu des ténèbres de la nuit, n'étaient guidés que par le feu des canons et de la mousqueterie ennemie."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Nachdem Napoleon die Vorarbeiten zum Uebergang über die Wkra, die Beschaffenheit des Flusses von Pomiechowo abwärts, und das Terrain vor der Insel auf dem linken Ufer, das er von dem Giebel eines Hauses auf der Insel überschaut haben soll, besichtigt hatte, diktirte er die nachstehende Angriffsdisposition:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Das Vorgehen der Franzosen wurde durch die dichte Finsterniß in dem unbekannten, durchschnittenen Terrain ungemein erschwert; nur das Feuer der Russen gewährte einige Orientirung."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Dans la situation actuelle des choses, il me paraît nécessaire de vous faire connaître ce qui s'est passé et la position présumée où nous nous trouvons à l'égard de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Il avait une division d'environ 15,000 hommes pour défendre la rive droite de la Wkra et le pont de Pomichowo; une autre division de même force défendait Kolozomb, ayant son point d'appui à Nowemiasto. La division qui défendait la Wkra a été battue à Pomichowo, Czarnowo et Nasielsk où se trouvait le feld-maréchal qui commande en chef l'armée russe."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B's information. Ostermann learned on the 18th, on reaching Nasielsk, that the enemy was assembling at the Wkra's mouth opposite Czarnowo and had taken and held the island; after moving to Czarnowo on the 19th he satisfied himself by several reconnaissances that the enemy, under cover of the overgrown island, was building a bridge over the Wkra's main arm, covering the work with batteries, and having rafts and boats made at the farm of Gora. By its position the island covered the bridgehead at Okunin and hid the further preparations (Höpfner). Side A tried to mislead him: a battalion left on the Narew's left bank kept up the usual bivouac fires from Sierock to Topolin, and Morand's division moved at nightfall without the enemy's knowledge; the burning straw near Pomichowo was to make the enemy fear a crossing on his right. Ostermann recognised the fire for what it meant and at once reinforced his advanced troops; later he recognised that the enemy was throwing all his forces against his left wing, and saw from the ever wider and thicker skirmish fire that he faced a very superior enemy (Höpfner). Höpfner reproaches the troops of the Russian 6th Division, whom the 2nd relieved, for neglecting the Wkra island.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 85, 88-90, 92 and 94; Foucart pp. 376, 393 and 394). Ostermann's reconnaissances were his own, while side A's attempts to mislead him and the 6th Division's neglect of the island were not, so the phase is unresolved. The passages read do not say whether the Russians were in fact deceived by the fires; Höpfner has Ostermann recognise the fire for what it meant and reinforce his advanced troops at once. English renderings (ours): Höpfner, 'General Ostermann learned as early as the 18th, on his arrival at Nasielsk, that the enemy was assembling at the mouth of the Wkra, opposite the village of Czarnowo, and had taken possession of the said island and held it'; 'he therefore moved his quarters to Czarnowo on the 19th and soon satisfied himself by several reconnaissances that the enemy, under cover of the overgrown island, was building a bridge over the main arm of the Wkra, sought to cover this work by laying out batteries, and at the same time was having rafts and boats worked on at the farm of Gora'; 'by its position the island covered the bridgehead at Okunin and hid the further preparations for the crossing'; 'the division Morand also crossed the Narew, but bivouacked in the bridgehead, and left a battalion on the left bank of the Narew to keep up the usual bivouac fires from Sierock to Topolin (opposite Orzechowo)'; 'in addition Napoleon ordered heaps of wet straw to be lit along the Wkra at Pomiechowo over a length of 800—1000 paces, to make the enemy anxious about a crossing on his right flank; he further ordered General Marulaz, with the light cavalry brigade of Davout's corps, to follow General Petit and if possible to take the enemy's artillery at the moment it drove out of the batteries opposite Pomiechowo;'; 'General Ostermann recognised the fire for what it meant, and at once reinforced the advanced troops in the lowland with 6 companies of Jäger'; 'General Ostermann recognised that the enemy was putting in all his forces to gain his left wing, and when he saw that now the right wing too was being attacked by General Petit, he had the heavy guns drawn from the battery at Pomiechowo to the centre and replaced by 4 horse guns'; 'the arrival of the grenadier battalion from Orzechowo, as well as the effective artillery fire, allowed General Ostermann to repulse this attack too, but he saw from the ever more extending and thickening skirmish fire that he had to deal with a very superior enemy'; 'the troops of the Russian 6th Division, who had been relieved by those of the 2nd Division, are to be definitely reproached for neglecting the Wkra island,'; 'once the French had taken possession of the island, its recapture and the direct prevention of the crossing had become impossible, and the Russians lacked the forces for an indirect defence'; the journal, 'the division Morand carried out its movement at nightfall without the enemy's knowledge; it bivouacked for the night within the bridgehead. The first battalion of the 13th light stayed on the left bank of the Narew and guarded the line from Sierock to Topolin, taking care to keep up the same number of fires and to provide the usual rounds and patrols'; 'the aim was to make a diversion and give the enemy anxiety about a crossing opposite' (p. 393); 'Pomichowo, on the enemy's right, while the real crossing would be made lower down at the island, over the two arms, near the mouth of the river in the Narew' (p. 394).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Der General Ostermann erfuhr schon am 18. bei seinem Eintreffen bei Nasielsk, daß der Feind sich an der Wkra-Mündung, dem Dorfe Czarnowo gegenüber, versammle, und sich in den Besitz der gedachten Insel gesetzt und behauptet habe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Er verlegte daher sein Quartier am 19. nach Czarnowo, und überzeugte sich bald durch mehrfache Rekognoszirungen, daß der Feind unter dem Schutz der bewachsenen Insel an einer Brücke über den Hauptarm der Wkra baue, diese Arbeit durch die Anlage von Batterien zu decken suche, und zugleich auf dem Hofe von Gora an Flößen und Booten arbeiten lasse."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Die Insel deckte durch ihre Lage den Brückenkopf bei Okunin und verbarg die weiteren Vorarbeiten zum Uebergang."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Die Division Morand ging zwar ebenfalls über den Narew, bivouakirte aber im Brückenkopf, und ließ ein Bataillon am linken Narewufer zurück, um von Sierock bis Topolin (Orzechowo gegenüber) die gewöhnlichen Bivouaksfeuer zu unterhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "Außerdem befahl Napoleon, Haufen nassen Strohes in der Ausdehnung von 800—1000 Schritt längs der Wkra bei Pomiechowo anzuzünden, um den Feind für einen Uebergang in seiner rechten Flanke besorgt zu machen; er befahl ferner dem General Marulaz, mit der leichten Kavallerie-Brigade des Davoutschen Korps, dem General Petit zu folgen, und wo möglich die Artillerie des Feindes im Augenblick des Abfahrens aus den Batterien gegenüber von Pomiechowo zu nehmen;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "Der General Ostermann erkannte den Brand für das, was er bedeutete, und verstärkte die Vortruppen in der Niederung sogleich durch 6 Kompagnien Jäger."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Der General Ostermann erkannte, daß der Feind alle Kräfte ansetze, um seinen linken Flügel zu gewinnen, und als er sah, daß nunmehr auch der rechte Flügel durch den General Petit angegriffen wurde, so ließ er die schweren Geschütze aus der Batterie bei Pomiechowo nach der Mitte heranziehen und sie durch 4 reitende Geschütze ersetzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Das Eintreffen des Grenadierbataillons aus Orzechowo, so wie das wirksame Artillerie-Feuer, gestatteten dem General Ostermann, auch diesen Angriff zurückzuweisen, doch sah er aus dem sich immer mehr ausdehnenden und verdichtenden Tirailleur-Feuer, daß er mit einem sehr überlegenen Feinde zu thun habe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Den Truppen der russischen 6. Division, die von denen der 2. Division abgelöst worden waren, ist aus der Vernachlässigung der Wkra-Insel ein bestimmter Vorwurf zu machen,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Als die Franzosen sich erst in den Besitz der Insel gesetzt hatten, war die Wiedereroberung derselben und die unmittelbare Verwehrung des Ueberganges unmöglich geworden, und zu der mittelbaren Vertheidigung fehlte es den Russen an Kräften."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p376-figures-v1",
+          "section": "p376",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 376 (transcribed from the page image)",
+          "quote": "La division Morand exécuta son mouvement à l'entrée de la nuit sans que l'ennemi en eût connaissance; elle bivouaqua la nuit dans l'enceinte de la tête de pont. Le premier bataillon du 13e léger resta sur la rive gauche de la Narew et garda la ligne depuis Sierock jusqu'à Topolin, ayant soin d'entretenir le même nombre de feux et de fournir les rondes et les patrouilles ordinaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Le but était de faire une diversion et de donner à l'ennemi l'inquiétude d'un passage en face"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "de Pomichowo, à la droite de l'ennemi, tandis que le véritable passage se ferait plus bas dans l'île, sur les deux bras, près l'embouchure de la rivière dans la Narew."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's objectives. In Höpfner, when Napoleon reached Warsaw at midnight to the 19th, he did not intend to attack the Russian army at once and bring the Emperor Alexander to peace by a decisive battle; for the time being he sought only quiet winter quarters, for which the Russians and Prussians had to be driven back behind the forest and marsh country on the Omulef and Pisch and behind the East Prussian lake line, and first the Wkra had to be crossed. The major general wrote on 22 December that the Emperor counted on being master of the whole right bank of the Wkra in the course of the day, and that Davout was to attack the enemy at Czarnowo the next day at daybreak with his whole corps if his position was not too formidable and he had no more than 12,000 men. In the journal's account of the plan the 1st division was to attack the left of the Russian camp at Czarnowo and Petit to seize the Russian entrenchments on their right opposite Pomichowo; the straw fires were a diversion to make the enemy fear a crossing at Pomichowo while the real crossing was made lower down; Marulaz's cavalry was to cut off the enemy's artillery as it withdrew. Davout ordered the attack on Czarnowo to gain, with the village, a firm footing on the valley edge (Höpfner).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 84, 85 and 92; Foucart pp. 372, 373, 393 and 394). The aims of the campaign came from above, while the plan of attack was made on the field (claim napoleon-decision), so the phase is unresolved. English renderings (ours): Höpfner, 'with Napoleon's arrival in Warsaw at midnight to the 19th the operations received a new impetus. Not that he had intended to attack the Russian army at once and to bring the Emperor Alexander to peace by a decisive battle; for the time being he sought nothing but quiet winter quarters, but to be able to take them up, the Russians and Prussians had to be driven back behind the forest and marsh country on the Omulef and Pisch and behind the East Prussian lake line'; 'first it was necessary to cross the Wkra'; 'Marshal Davout gave the order to attack Czarnowo, so as to gain, with the capture of the village, a firm footing on the valley edge as well'; the major general, 'the major general to Marshal Davout'; 'Warsaw, 22 December 1806, half past 11 in the morning'; 'Marshal Augereau will have his headquarters this evening at Plonsk; thus the Emperor counts on being master of the whole right bank of the Wkra in the course of the day'; 'it is probable that the enemy has only an advanced guard at Czarnowo; if his position is not too formidable and he has not more than 12,000 men, you will attack him tomorrow at daybreak with your whole corps united'; the journal, 'this division, after the passage of the Wkra, was to move on Czarnowo to attack the left of the Russian camp, while General Petit, of the 3rd division, was likewise to cross the same river at the same point as the 1st division, go up the left bank and seize the Russian entrenchments made on their right opposite Pomichowo'; 'the aim was to make a diversion and give the enemy anxiety about a crossing opposite' (p. 393); 'Pomichowo, on the enemy's right, while the real crossing would be made lower down at the island, over the two arms, near the mouth of the river in the Narew' (p. 394); 'the rest of General Marulaz's light cavalry had orders to follow General Petit's brigade and to cut off the enemy's artillery at the moment he came to withdraw it from his entrenchments opposite Pomichowo'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Mit der Ankunft Napoleons um Mitternacht zum 19. in Warschau erhielten die Operationen einen neuen Schwung. Nicht daß er die Absicht gehabt hätte, die russische Armee alsbald anzugreifen, und durch eine entscheidende Schlacht den Kaiser Alexander zum Frieden zu bewegen; er trachtete vorläufig nach nichts als nach ruhigen Winter-Quartieren, doch um diese beziehen zu können, mußten die Russen und Preußen bis hinter die Wald- und Sumpfgegenden am Omulef und Pisch und hinter die ostpreußische Seelinie zurückgetrieben werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Zunächst lag es ob, die Wkra zu überschreiten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Der M. Davout ertheilte den Befehl, Czarnowo anzugreifen, um mit der Eroberung des Dorfes auch auf dem Thalrand festen Fuß zu fassen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL DAVOUT."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p372-figures-v1",
+          "section": "p372",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 372 (transcribed from the page image)",
+          "quote": "Varsovie, 22 décembre 1806, 11 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "Le maréchal Augereau aura son quartier général ce soir à Plonsk; ainsi l'Empereur compte que dans la journée il se trouvera maître de toute la rive droite de la Wkra."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p373-figures-v1",
+          "section": "p373",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 373 (transcribed from the page image)",
+          "quote": "Il est probable que l'ennemi ne doit avoir à Czarnowo qu'une avant-garde; si sa position n'est pas trop formidable et qu'il n'y ait pas plus de 12,000 hommes, vous l'attaquerez demain au jour avec tout votre corps réuni."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Cette division, après le passage de la Wkra, devait se porter sur Czarnowo pour attaquer la gauche du camp russe, tandis que le général Petit, de la 3e division, devait passer également la même rivière et au même point que la 1re division, remonter la rive gauche et venir s'emparer des retranchements russes faits sur leur droite vis-à-vis Pomichowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Le but était de faire une diversion et de donner à l'ennemi l'inquiétude d'un passage en face"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "de Pomichowo, à la droite de l'ennemi, tandis que le véritable passage se ferait plus bas dans l'île, sur les deux bras, près l'embouchure de la rivière dans la Narew."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p394-figures-v1",
+          "section": "p394",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 394 (transcribed from the page image)",
+          "quote": "Le reste de la cavalerie légère du général Marulaz eut ordre de suivre la brigade du général Petit et de couper l'artillerie de l'ennemi au moment où il viendrait à la retirer de ses retranchements en face de Pomichowo."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's objectives. Bennigsen had decided to await the French in a central position at Pultusk and to defend the line of the Wkra with suitable forces, Pultusk being the general assembly and retreat point. Kaminskoi did not declare his plans; that he wanted to attack was all that was learned, and on 23 December he ordered the attack for the next day, which the French forestalled. Ostermann, uncertain of his task, acted from the military instinct that something had to be done to make possible the retreat of the troops on the upper Wkra and the upper Narew; he could at best hold against a very superior enemy until the rest of his division and Dorochow's detachment had reached Nasielsk, and he had set himself no more than this in his position; more troops could not be gathered at Czarnowo, since the upper Narew as far as Zegrz could not be stripped and Nasielsk had to be held to take in the troops along the lower Wkra and the Narew. At the end he attacked once more to make his retreat in due order. In Höpfner's judgement the time required to assemble the rest of the division at Nasielsk was gained, and more had been neither intended nor possible.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, read from the page images (pp. 82-84, 87 and 93-95). Bennigsen's and Kaminskoi's aims were set above Ostermann, while his limited aim was his own, so the phase is unresolved. Höpfner gives Ostermann's aim as his own reading of what the general did and did not intend; he names no order or report of Ostermann's. English renderings (ours): 'General Bennigsen had, as has been shown, very soon given up the offensive and decided to await the French in a central position at Pultusk, at the same time defending the line of the Wkra with suitable forces'; 'Pultusk had been designated the general assembly and retreat point'; 'what plans he really had, the field marshal did not declare; he wanted to attack, that was all that was learned'; 'on 23 December he went himself to Nowemiasto, heaped the most violent abuse on the generals assembled there and ordered the attack for the following day, although he still had nothing in hand but what was already posted on the Wkra and the Sonna; and the order would have had to be carried out, had the French not fortunately forestalled it by attacking'; 'the general was still awaiting the dispatch of pontoons, to be able to throw a bridge over the Wkra at Brody, and was wholly uncertain about his task, whether he was only to observe, or to defend himself seriously, or to proceed offensively. What he did was done only from the military instinct that something had to be done to make possible the retreat of the troops on the upper Wkra and the upper Narew'; 'the crossing of the French over the narrow arm of the Wkra, under the protection of the batteries on the island, could not be prevented. General Ostermann therefore had to reckon on having to deal early with a very superior enemy, against whom at best he could hold only until the other troops of his division and the detachment of General Dorochow on the Wkra at Borkowo had reached the point of Nasielsk. General Ostermann had not set himself more than this in his position either'; 'to unite more troops at Czarnowo did not seem well feasible, since the stretch of the upper Narew as far as Zegrz could not be stripped, and the post of Nasielsk had to be held to take in the troops along the lower Wkra and the Narew'; 'General Ostermann, so as to be able to carry out his retreat in due order, went over to the attack once more, threw the French back into the village, and used the momentary pause to begin the march on Nasielsk, accompanied by a violent artillery fire'; 'through the correct' (p. 94); 'measures of the Russian general and the excellent bearing of his troops, despite their exhaustion, the time required for the assembly of the other troops of the division at Nasielsk was gained; more one had neither wished nor been able to achieve; but the loss of over ¼ of the forces is certainly considerable' (p. 95).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p82-figures-v1",
+          "section": "p82",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 82 (transcribed from the page image)",
+          "quote": "Der General Bennigsen hatte die Offensive, wie gezeigt worden, sehr bald aufgegeben, und beschlossen, in einer Centralstellung bei Pultusk die Franzosen zu erwarten, zugleich mit angemessenen Kräften die Linie der Wkra zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p83-figures-v1",
+          "section": "p83",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 83 (transcribed from the page image)",
+          "quote": "Pultusk war als der allgemeine Sammel- und Rückzugspunkt bestimmt worden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Was er eigentlich für Pläne habe, darüber erklärte sich der Feldmarschall nicht; er wolle angreifen, das war Alles, was man erfuhr."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Am 23. Dezember ging er selbst nach Nowemiasto, überhäufte die dort versammelten Generale mit den heftigsten Schmähungen und befahl den Angriff für den folgenden Tag, obgleich er noch nichts in Händen hatte, als was bereits an der Wkra und Sonna aufgestellt stand; auch hätte der Befehl ausgeführt werden müssen, wenn nicht glücklicherweise die Franzosen im Angriff zuvorgekommen wären."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Der General erwartete noch die Sendung von Pontons, um bei Brody eine Brücke über die Wkra schlagen zu können und war über seine Bestimmung völlig unsicher, ob er nur beobachten, oder sich ernsthaft vertheidigen, oder angriffsweise verfahren sollte. Was er that, geschah nur in dem militärischen Takt, daß etwas geschehen müsse, um den Rückzug der Truppen an der obern Wkra und dem obern Narew möglich zu machen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Der Uebergang der Franzosen über den schmalen Arm der Wkra, unter dem Schutz der Batterien auf der Insel, war nicht zu verhindern. Der General Ostermann mußte daher darauf rechnen, frühzeitig mit einem sehr überlegenen Feind zu thun zu bekommen, gegen welchen er sich im günstigsten Falle nur so lange behaupten konnte, bis die übrigen Truppen seiner Division und das Detaschement des Generals Dorochow an der Wkra bei Borkowo den Punkt von Nasielsk erreicht haben würden. Ein Mehreres hatte sich der General Ostermann auch bei seiner Aufstellung nicht vorgesetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p87-figures-v1",
+          "section": "p87",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 87 (transcribed from the page image)",
+          "quote": "Mehr Truppen bei Czarnowo zu vereinigen, schien nicht gut thunlich, da man die Strecke des obern Narews bis Zegrz nicht entblößen durfte, und der Posten von Nasielsk zur Aufnahme der Truppen längs der untern Wkra und des Narews gehalten werden mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Der General Ostermann, um seinen Rückzug mit gehöriger Ordnung vollführen zu können, ging noch einmal zum Angriff vor, warf die Franzosen in das Dorf zurück, und benutzte die augenblickliche Pause, um, begleitet von einem heftigen Artillerie-Feuer, den Marsch auf Nasielsk anzutreten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p94-figures-v1",
+          "section": "p94",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 94 (transcribed from the page image)",
+          "quote": "Durch die richtigen"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p95-figures-v1",
+          "section": "p95",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 95 (transcribed from the page image)",
+          "quote": "Maßregeln des russischen Generals und die treffliche Haltung seiner Truppen, trotz deren Erschöpfung, wurde die erforderliche Zeit zur Versammlung der übrigen Truppen der Division bei Nasielsk gewonnen; mehr hatte man nicht erreichen wollen und können; doch ist der Verlust von über ¼ der Kräfte allerdings bedeutend."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Bodart has a victory of the French. The Emperor dictated the order of attack on the field on 23 December. After 4 in the afternoon the burning of a house in Pomiechowo and of the straw along the Wkra gave the signal, and the French batteries opened fire, by French reports at once and by Russian reports only after an hour (Höpfner); Foucart's note says the troops began to cross the bridge about 3 in the afternoon. The columns reached the second arm at nightfall, and about 7 o'clock the order to cross was given and the 13th and 17th were sent forward; Morand's division then attacked Czarnowo and Petit the works opposite Pomichowo through the night. Side B defended its position: the Russian infantry at the batteries threw back the 17th and the 30th and pursued them toward the island, the Russians attacked Petit's detachment in the captured works four times, the fourth about 2 in the morning, and returned to the charge once more before retreating, and Ostermann attacked once more to make his retreat in order, marching off at 4 in the morning of the 24th (Höpfner). Kaminskoi had ordered an attack for the 24th, which the French forestalled.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded A_attacked: side A crossed the Wkra and attacked the Russian position, and side B's attacks were counterattacks against French troops that had crossed the Wkra or taken its works, which by the brief do not make the defender an attacker; Kaminskoi's attack was ordered but not made. Napoleon, side A's commander at this engagement (Bodart), decided the attack on the field after his reconnaissance and dictated it (claim napoleon-decision), so the claim is tagged commander_created; the major general's letter of the 22nd had already told Davout to attack the next day at daybreak under conditions (claim side-a-command). The time the crossing began is kept as reported: about 3 in the afternoon in Foucart's note, which is attached to the columns' crossing of the first arm (our reading), the signal after 4 and Morand's order to cross at 7 in Höpfner, and about 7 for the advance of the 13th and 17th in the journal (our comparison). English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'after Napoleon had inspected the preparations for the crossing of the Wkra, the nature of the river from Pomiechowo downstream, and the ground in front of the island on the left bank, which he is said to have surveyed from the gable of a house on the island, he dictated the following attack disposition:'; 'it was already after 4 in the afternoon when the signal for the attack was given by setting fire to a house in Pomiechowo and to the straw along the Wkra'; 'by French reports immediately after the signal had been given,' (p. 90); 'by Russian ones only after an hour had passed, the French batteries opened their fire' (p. 91); 'at 7 o'clock, after General Marulaz had arrived with his cavalry, General Morand gave the order to cross'; 'on the French side the 17th Regiment under Colonel Lanusse followed first, to reconnoitre the approach to Czarnowo'; 'received with canister by the Russian batteries in front of the village and in the centre, the regiment was repulsed. The 30th Regiment went forward in support, but the attack succeeded no better. The Russian infantry posted at the batteries pursued the French as far as the island; General Brouard, who had led the last attack, was wounded at the foot of a battery'; 'according to French statements the general, who was gradually reinforced by all the troops of his brigade, held his ground against all the attacks of the Russians, who wished to retake the redoubts'; 'General Ostermann, so as to be able to carry out his retreat in due order, went over to the attack once more, threw the French back into the village, and used the momentary pause to begin the march on Nasielsk, accompanied by a violent artillery fire'; 'it had become 4 o'clock in the morning of the 24th, so that the Russian troops had stood under fire for about 12 hours. 3 battalions of Jäger and 4 squadrons of hussars formed the rearguard'; 'on 23 December he went himself to Nowemiasto, heaped the most violent abuse on the generals assembled there and ordered the attack for the following day, although he still had nothing in hand but what was already posted on the Wkra and the Sonna; and the order would have had to be carried out, had the French not fortunately forestalled it by attacking'; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; his note '2. The troops began to cross the bridge about 3 in the afternoon, but « in this season it is night at four o'clock and day only at eight ». (45th Bulletin.)'; 'crossed the island and advanced at nightfall as far as the second arm'; 'the 13th regiment, with the voltigeur companies, had the order to move forward and the 17th to reconnoitre the approaches to Czarnowo. It might then have been 7 in the evening'; 'Colonel Lanusse advanced at the head of the 17th regiment as far as the batteries that defended its approaches. He had made himself master of these batteries when the enemy debouched in great force on his left flank and his rear and forced him to fall back on his right. At the same time the enemy vigorously attacked the 13th and the voltigeurs'; 'then the marshal ordered General Morand to advance with his whole division on Czarnowo and take this village. He charged General Petit, with 400 men of the 12th of the line, with attacking the right'; 'while the division Morand was carrying Czarnowo under the eyes of the Emperor, General Petit, at the head of 400 men of the 12th of the line (3rd division), had advanced toward the entrenchments on the heights opposite Pomichowo, seconded, on arriving level with the head of the island, by Captain Perrin's detachment'; 'hardly had the troops been placed when the enemy attacked on all points, engaging a fusillade supported by some pieces of artillery placed on the high road to Czarnowo'; 'the fire ceased on both sides, but a few minutes later the Russians tried a new attack, which, for the same reasons, had no more success than the preceding one'; 'the marshal reinforced the troops with General Petit with a company of voltigeurs of the 85th and two elite companies of the 21st. This reinforcement had not yet arrived when the enemy made a third attack, equally fruitless'; 'about two in the morning the enemy tried a fourth attack, advancing in front and throwing his skirmishers onto the flanks'; 'but our troops again forced the enemy (after half an hour) to withdraw'; 'but after withdrawing in disorder as far as the wood, the Russians returned to the charge with new fury. The French marched on the enemy and came within 30 paces of him. This boldness and a well-sustained fire decided the enemy on a definitive retreat'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 23./12. GEFECHT bei Czarnowo (6.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Napoleon I. über die Russen (5.500 M.) unter Gen.-Lt. Gf. Ostermann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "Nachdem Napoleon die Vorarbeiten zum Uebergang über die Wkra, die Beschaffenheit des Flusses von Pomiechowo abwärts, und das Terrain vor der Insel auf dem linken Ufer, das er von dem Giebel eines Hauses auf der Insel überschaut haben soll, besichtigt hatte, diktirte er die nachstehende Angriffsdisposition:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "Es war bereits nach 4 Uhr Nachmittags, als durch das Anzünden eines Hauses in Pomiechowo und des Strohes längs der Wkra das Zeichen zum Angriff gegeben wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "Nach französischen Berichten gleich nach dem gegebenen Signal,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "nach russischen erst nach Verlauf einer Stunde, eröffneten die französischen Batterien ihr Feuer."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Um 7 Uhr, nachdem der General Marulaz mit seiner Kavallerie eingetroffen war, gab der General Morand den Befehl zum Uebergang."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Französischer Seits folgte zunächst das 17. Regiment unter dem Obersten Lanusse, um die Annäherung an Czarnowo zu rekognosziren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p91-figures-v1",
+          "section": "p91",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 91 (transcribed from the page image)",
+          "quote": "Von den russischen Batterien vorwärts des Dorfes und im Centrum mit Kartätschen empfangen, wurde das Regiment zurückgewiesen. Das 30. Regiment ging zur Unterstützung vor, doch glückte der Angriff eben so wenig. Die bei den Batterien aufgestellte russische Infanterie verfolgte die Franzosen bis gegen die Insel; der General Brouard, der den letzten Angriff geführt hatte, wurde am Fuß einer Batterie verwundet."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Nach französ. Angaben behauptete sich der General, der allmälig durch sämmtliche Truppen seiner Brigade verstärkt wurde, gegen alle Angriffe der Russen, welche die Schanzen zurückerobern wollten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Der General Ostermann, um seinen Rückzug mit gehöriger Ordnung vollführen zu können, ging noch einmal zum Angriff vor, warf die Franzosen in das Dorf zurück, und benutzte die augenblickliche Pause, um, begleitet von einem heftigen Artillerie-Feuer, den Marsch auf Nasielsk anzutreten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Es war 4 Uhr Morgens des 24. geworden, so daß die russischen Truppen gegen 12 Stunden im Feuer gestanden hatten. 3 Bataillone Jäger und 4 Schwadronen Husaren machten die Arriergarde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p84-figures-v1",
+          "section": "p84",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 84 (transcribed from the page image)",
+          "quote": "Am 23. Dezember ging er selbst nach Nowemiasto, überhäufte die dort versammelten Generale mit den heftigsten Schmähungen und befahl den Angriff für den folgenden Tag, obgleich er noch nichts in Händen hatte, als was bereits an der Wkra und Sonna aufgestellt stand; auch hätte der Befehl ausgeführt werden müssen, wenn nicht glücklicherweise die Franzosen im Angriff zuvorgekommen wären."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "2. Les troupes commencèrent à passer le pont vers 3 heures de l'après-midi, mais « dans cette saison, il fait nuit à quatre heures et il ne fait jour qu'à huit ». (45e Bulletin.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p395-figures-v1",
+          "section": "p395",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 395 (transcribed from the page image)",
+          "quote": "traversèrent l'île et s'avancèrent à l'entrée de la nuit jusqu'au deuxième bras"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le 13e régiment, avec les compagnies de voltigeurs, eut l'ordre de se porter en avant et le 17e de reconnaître les approches de Czarnowo. Il pouvait être alors 7 heures du soir."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse s'avança à la tête du 17e régiment jusqu'aux batteries qui en défendaient les avenues. Il s'était rendu maître de ces batteries, lorsque l'ennemi déboucha en grande force sur son flanc gauche et sur ses derrières et le força de se replier sur sa droite. En même temps l'ennemi attaqua vivement le 13e et les voltigeurs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Alors le maréchal donna ordre au général Morand de s'avancer avec toute sa division sur Czarnowo et de s'emparer de ce village. Il chargea le général Petit, avec 400 hommes du 12e de ligne, d'attaquer la droite."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "Pendant que la division Morand enlevait Czarnowo sous les yeux de l'Empereur, le général Petit, à la tête de 400 hommes du 12e de ligne (3e division), s'était avancé vers les retranchements sur les hauteurs vis-à-vis Pomichowo, secondé en arrivant à la hauteur de la tête de l'île par le détachement du capitaine Perrin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "A peine les troupes furent placées que l'ennemi attaqua sur tous les points en engageant une fusillade soutenue par quelques pièces d'artillerie placées sur la grande route de Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Le feu cessa de part et d'autre, mais quelques minutes après les Russes essayèrent une nouvelle attaque qui, par les mêmes causes, n'eut pas plus de succès que la précédente."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Le maréchal renforça les troupes qui étaient avec le général Petit d'une compagnie de voltigeurs du 85e et de deux compagnies d'élite du 21e. Ce renfort n'était pas encore arrivé que l'ennemi fit une troisième attaque également infructueuse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Vers les deux heures du matin, l'ennemi tenta une quatrième attaque en s'avançant de front et jetant ses tirailleurs sur les flancs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "mais nos troupes forcèrent de nouveau l'ennemi (au bout d'une demi-heure) de se retirer."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p400-figures-v1",
+          "section": "p400",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 400 (transcribed from the page image)",
+          "quote": "Mais après s'être retirés en désordre jusqu'au bois, les Russes revinrent à la charge avec une nouvelle fureur. Les Français marchèrent à l'ennemi et s'en approchèrent à 30 pas. Cette audace et un feu bien soutenu décidèrent l'ennemi à une retraite définitive."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B fought from field works. In Höpfner, in the position Ostermann took up, the battery already built at the burnt bridge of Pomiechowo was reinforced by 4 12-pounders, a battery of 2 12-pounders was built opposite the village of Pomiechowo itself and a French battery laid out there, one of 6 12-pounders on the road from Czarnowo to Pomiechowo to command the communication from the island to Czarnowo, and one in front of Czarnowo to defend the approach to the village directly; all these works were completed by the pioneers on the 21st. Napoleon's disposition names the Russian entrenchments on the right wing opposite Pomiechowo; 2 battalions seem to have guarded the redoubts there, which Petit occupied as the Russian artillery evacuated them, redoubts open at the rear (Höpfner). In the 3rd corps's journal twenty Russian pieces stood mostly behind breastworks, the right flank was protected by breastworks, and the Russians had made abatis in the woods before the camp; the plan named the Russian entrenchments made on their right opposite Pomichowo; Lanusse reached the batteries defending the approaches to Czarnowo; General Brouard was wounded at the foot of the entrenchment; the enemy abandoned his entrenchments and positions; Petit's companies threw themselves on the redoubts and he placed part of his men in the works the enemy had just abandoned, holding them against repeated attacks. Side A's 3rd division stayed in the bridgehead in reserve, taking no part in the attack, and the journal names the entrenched camp the Emperor visited; Davout had had batteries built on the island (Höpfner).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded B_fortified: side B defended its position from field works and abatis that the passages name. Most of the works were built by the pioneers in the position Ostermann took up after his reconnaissances from the 19th, so they were made for this engagement on side B's commander's dispositions (our reading); but the battery at the burnt bridge of Pomiechowo was already built, and the passages read do not say by whom, nor who made the abatis; one claim carries one phase, so it is unresolved. Side A's bridgehead and entrenched camp held only its reserve, which took no part in the attack, and no passage read describes its island batteries as works; a coding that counted Petit's defence of the captured works, gained during the action, or the bridgehead would give both_fortified. Höpfner's plan of the action was not inspected. English renderings (ours): Höpfner, 'all this determined him to direct his main attention to this point and to take up the following position:'; 'the battery already laid out at the burnt bridge of Pomiechowo was reinforced by 4 12-pounders; opposite the village itself and an enemy battery laid out there a battery of 2 12-pounders was built, and on the road from Czarnowo to Pomiechowo a battery of 6 12-pounders, which was to command the communication from the island to Czarnowo and prevent the approach to the position, and finally a battery was laid out in front of Czarnowo, which defended the approach to this village directly'; 'all these works had already been completed by the pioneers on the 21st. Some Jäger companies occupied the lowland between the Narew and the Wkra'; '„after the crossing of the Wkra has been accomplished, the division advances against Czarnowo to attack the left wing of the Russian position, while General Petit, with part of the 3rd Division, crosses the Wkra at the same point as the 1st, advances upstream along the left bank of the Wkra and takes possession of the Russian entrenchments on the right wing, opposite Pomiechowo.“'; '2 battalions seem to have taken post to protect the redoubts on the right wing opposite Pomiechowo, 3 battalions in the centre and on the left wing at Czarnowo, while probably 2 Jäger battalions had been pushed forward in the lowland toward the island'; 'during this long-lasting night fight General Petit had followed behind the division Morand and, accompanied by Captain Perrin on the left and by the skirmishers with the 2 guns' (p. 92); 'on the right bank of the Wkra, had advanced against the Russian right wing' (p. 93); 'there he occupied the redoubts, open at the rear, which the Russian artillery soon evacuated, and with the rest formed masses in the darkness'; 'he had therefore had the island occupied by the brigade Petit and at once had a bridge laid over the right arm and batteries on the island itself; rafts and boats were also made, to prepare the crossing of the left arm'; '„everything belonging to the 3rd Division — Gudin — stays in the bridgehead, unmoved, in reserve.“'; the journal, 'night combat at Czarnowo'; '(extract from the journal of marches and operations of the 3rd corps)'; 'it was on this part of the hill that the camp of the Russians stood, 15,000 men strong, defended by twenty pieces of artillery placed for the most part behind breastworks'; 'their flanks were perfectly supported, the left on the Narew, the right on the Wkra; this right flank was protected by breastworks'; 'the whole space between the Russian camp and the two rivers was partly covered with marshy meadows and woods in which the Russians had made abatis, which made this whole space in front of the camp as difficult to force as their camp itself'; 'this division, after the passage of the Wkra, was to move on Czarnowo to attack the left of the Russian camp, while General Petit, of the 3rd division, was likewise to cross the same river at the same point as the 1st division, go up the left bank and seize the Russian entrenchments made on their right opposite Pomichowo'; 'Colonel Lanusse advanced at the head of the 17th regiment as far as the batteries that defended its approaches. He had made himself master of these batteries when the enemy debouched in great force on his left flank and his rear and forced him to fall back on his right. At the same time the enemy vigorously attacked the 13th and the voltigeurs'; 'however, as this regiment had used up its cartridges, General Morand thought he should have it relieved by the 30th regiment, which Colonel Valterre commanded. At the moment when General Brouard was advancing to the foot of the entrenchment, he was wounded in the face by a canister ball'; 'in vain the enemy wished to resist: attacked and pressed everywhere, he abandoned his entrenchments, his posi-' (p. 397); '-tions and even part of his artillery' (p. 398); 'but the 3 companies, seconded by the 6 pieces of artillery in position on the heights of the right bank in front of Pomichowo and by the 2 pieces that were going up the river on the same bank, threw themselves on the redoubts so briskly that the enemy had time only to fire a single discharge of his artillery, which he sent off rapidly along the high road to Czarnowo'; 'master of this position, General Petit brought forward' (p. 398); 'the rest of his 400 men. He placed part of them in the works the enemy had just abandoned and formed the rest in square' (p. 399); 'this attack was received with firmness; the enemy, again taken in flank by the artillery of the right bank, was obliged to withdraw'; 'the Emperor left Warsaw on the 23rd at 3 in the morning so as to be at daybreak at Marshal Davout's bridge on the Narew. He arrived between 9 and 10 in the morning at the entrenched camp. He began by visiting the entrenched camp; then, in the presence of the Russians who lined the left bank, he reconnoitred the Wkra from Pomichowo to the two arms of this river at its mouth'; '« all that belongs to the 3rd division will stay in the bridgehead, taking no part at all in the attack, and will remain in reserve'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Dies Alles bestimmte ihn, sein Hauptaugenmerk auf diesen Punkt zu richten und folgende Aufstellung zu nehmen:"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Die bereits bei der abgebrannten Brücke von Pomiechowo angelegte Batterie wurde durch 4—12pfünder verstärkt; dem Dorfe selbst und einer daselbst angelegten feindlichen Batterie gegenüber wurde eine Batterie von 2—12pfündern, am Wege von Czarnowo nach Pomiechowo eine Batterie von 6—12pfündern erbaut, welche die Kommunikation von der Insel nach Czarnowo beherrschen und die Annäherung an die Stellung verhindern sollte, und endlich eine Batterie vorwärts Czarnowo angelegt, welche die Annäherung an dieses Dorf unmittelbar vertheidigte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p86-figures-v1",
+          "section": "p86",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 86 (transcribed from the page image)",
+          "quote": "Alle diese Arbeiten waren bereits am 21. durch die Pioniere vollendet. Einige Jäger-Kompagnien besetzten die Niederung zwischen Narew und Wkra."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p89-figures-v1",
+          "section": "p89",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 89 (transcribed from the page image)",
+          "quote": "„Nach vollbrachtem Uebergang über die Wkra rückt die Division gegen Czarnowo vor, um den linken Flügel der russischen Aufstellung anzugreifen, während General Petit, mit einem Theil der 3. Division, die Wkra auf demselben Punkt wie die 1. überschreitet, am linken Ufer der Wkra aufwärts vorgeht, und sich der russischen Verschanzungen auf dem rechten Flügel, gegenüber von Pomiechowo, bemächtigt.“"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p90-figures-v1",
+          "section": "p90",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 90 (transcribed from the page image)",
+          "quote": "2 Bataillone scheinen zum Schutz der Schanzen auf dem rechten Flügel gegenüber von Pomiechowo, 3 Bataillone im Centrum und auf dem linken Flügel bei Czarnowo Aufstellung gefunden zu haben, während wohl 2 Jäger-Bataillone in der Niederung gegen die Insel vorgeschoben waren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p92-figures-v1",
+          "section": "p92",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 92 (transcribed from the page image)",
+          "quote": "Während dieses lange anhaltenden nächtlichen Gefechts war der General Petit hinter der Division Morand gefolgt, und von dem Kapitain Perrin auf dem linken und von den Tirailleurs mit den 2 Ge-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "schützen auf dem rechten Wkra-Ufer begleitet, gegen den russischen rechten Flügel vorgegangen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p93-figures-v1",
+          "section": "p93",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 93 (transcribed from the page image)",
+          "quote": "Er besetzte daselbst die von der russischen Artillerie alsbald geräumten hinten offenen Schanzen, und formirte mit dem Rest in der Dunkelheit Massen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p85-figures-v1",
+          "section": "p85",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 85 (transcribed from the page image)",
+          "quote": "Er hatte daher die Insel von der Brigade Petit besetzen und alsbald eine Brücke über den rechten Arm und Batterien auf der Insel selbst anlegen lassen; auch wurden Flöße und Boote angefertigt, um den Uebergang über den linken Arm vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p88-figures-v1",
+          "section": "p88",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 88 (transcribed from the page image)",
+          "quote": "„Alles was zur 3. Division — Gudin — gehört, verbleibt im Brückenkopf unverrückt in Reserve.“"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "COMBAT DE NUIT A CZARNOWO."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des marches et opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "C'est sur cette partie de la colline qu'était le camp des Russes, au nombre de 15,000 hommes défendus par vingt bouches à feu placées la plupart derrière des épaulements."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Leurs flancs étaient parfaitement appuyés, la gauche à la Narew, la droite à la Wkra; ce flanc droit était protégé par des épaulements."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p391-figures-v1",
+          "section": "p391",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 391 (transcribed from the page image)",
+          "quote": "Tout l'espace entre le camp russe et les deux rivières était en partie couvert de prairies marécageuses et de bois où les Russes avaient fait des abatis, ce qui rendait tout cet espace en avant du camp aussi difficile à forcer que leur camp même."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p393-figures-v1",
+          "section": "p393",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 393 (transcribed from the page image)",
+          "quote": "Cette division, après le passage de la Wkra, devait se porter sur Czarnowo pour attaquer la gauche du camp russe, tandis que le général Petit, de la 3e division, devait passer également la même rivière et au même point que la 1re division, remonter la rive gauche et venir s'emparer des retranchements russes faits sur leur droite vis-à-vis Pomichowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Le colonel Lanusse s'avança à la tête du 17e régiment jusqu'aux batteries qui en défendaient les avenues. Il s'était rendu maître de ces batteries, lorsque l'ennemi déboucha en grande force sur son flanc gauche et sur ses derrières et le força de se replier sur sa droite. En même temps l'ennemi attaqua vivement le 13e et les voltigeurs."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p396-figures-v1",
+          "section": "p396",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 396 (transcribed from the page image)",
+          "quote": "Cependant comme ce régiment avait consommé ses cartouches, le général Morand crut devoir le faire relever par le 30e régiment que commandait le colonel Valterre. Au moment où le général Brouard s'avançait jusqu'au pied du retranchement, il fut blessé au visage par un biscaïen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p397-figures-v1",
+          "section": "p397",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 397 (transcribed from the page image)",
+          "quote": "En vain l'ennemi voulut résister : partout attaqué et pressé il abandonna ses retranchements, ses posi-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "tions et même une partie de son artillerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "mais les 3 compagnies secondées par les 6 pièces d'artillerie en position sur les hauteurs de la rive droite, en avant de Pomichowo, et par les 2 pièces qui, sur la même rive, remontaient la rivière, se jetèrent sur les redoutes avec tant de vivacité, que l'ennemi n'eut que le temps de faire une seule décharge de son artillerie, qu'il fit filer avec rapidité sur la grande route de Czarnowo."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p398-figures-v1",
+          "section": "p398",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 398 (transcribed from the page image)",
+          "quote": "Maître de cette position, le général Petit fit avancer"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "le reste de ses 400 hommes. Il en plaça une partie dans les ouvrages que l'ennemi venait d'abandonner et forma le reste en carré."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p399-figures-v1",
+          "section": "p399",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 399 (transcribed from the page image)",
+          "quote": "Cette attaque fut reçue avec fermeté; l'ennemi pris encore en flanc par l'artillerie de la rive droite fut obligé de se retirer."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p390-figures-v1",
+          "section": "p390",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 390 (transcribed from the page image)",
+          "quote": "L'Empereur partit de Varsovie le 23 à 3 heures du matin pour se trouver au jour au pont du maréchal Davout sur la Narew. Il arriva entre 9 heures et 10 heures du matin au camp retranché. Il commença par visiter le camp retranché; il fit ensuite, en présence des Russes qui bordaient la rive gauche, la reconnaissance de la Wkra depuis Pomichowo jusqu'aux deux bras de cette rivière à son embouchure."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p392-figures-v1",
+          "section": "p392",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 392 (transcribed from the page image)",
+          "quote": "« Tout ce qui appartient à la 3e division restera dans la tête de pont, ne devant participer en rien à l'attaque, et demeurera en réserve."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Höpfner's plan of the action at Czarnowo and his overview sheet, not inspected; his p. 22, p. 81 and p. 96, seen only in the OCR at the edges of the registered pages; his p. 25, where the list of the report of 23 October continues, not read, and p. 26 (the army's totals and his comment on them), kept for the Pultusk entry; Foucart, Campagne de Pologne, t. I, p. 371, pp. 388-389 and p. 438, read on the page images only for the headings and datelines of letters that run onto the registered pages (on p. 389 also the letter's text), not registered or cited; pp. 377-387 and pp. 402-437, between and after the registered pages, not read; the 45th Bulletin itself, Davout's report on the action, the Russian reports on which Höpfner draws and the documents behind the summary return in t. II, not seen. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength at Czarnowo. Bodart's 18,000 matches no figure in the passages read; the summary return in t. II gives the 3rd corps for the middle of December, but no passage counts the troops that crossed the Wkra. The one targeted follow-up, for side A's strength, found that return. A return of the 3rd corps for 23 December, or Davout's report of the action, could close the gap; none was found in the pages read. Side B's strength at the position rests on Höpfner's estimate, without a Russian return.",
+    "Disputes kept as separate claims or within them: side B's strength (5,500, Bodart; about 5000, Höpfner; 15,000 with twenty pieces, the journal; a division of about 15,000, the major general's letter of 25 December); side B's guns at Czarnowo (Höpfner's list against the journal's twenty pieces); side A's losses (850 with 16 officers, Bodart; 100 dead and 750 wounded with 58 officers as the French admit, Höpfner, who assumes more; the journal's table for two divisions); the prisoners (about 500 wounded only, Höpfner; a few hundred prisoners and 500 wounded, the journal; 500, Bodart); the opening of the French fire (at once by French reports, after an hour by Russian reports, Höpfner); the timing of the crossing (the troops began to cross the bridge about 3 in the afternoon, Foucart's note; the signal after 4 and Morand's order to cross at 7, Höpfner; about 7 for the advance, the journal), which the passages read do not fully reconcile; the date (23 December, Bodart; the night to the 24th, Höpfner); the river at Czarnowo (the Bug, Bodart; the Narew, the journal and Höpfner); and the Wkra's bank in the letter of 25 December (the right bank, as printed, against the left bank in the journal and Davout's letter).",
+    "Families and dependence: Bodart (a compilation; his Russian losses are close to the Russians' figures in Höpfner, his prisoners and guns match Höpfner and the journal in number, and his French 850 equals the French admission in Höpfner, while his 18,000, his 5,500 and his 16 officers match no figure in the passages read); Foucart, Campagne de Pologne, t. I and t. II, one family with his Campagne de Prusse (the same author's edition of the French side's documents: the major general's letters of 22 and 25 December, Davout's letter without a dateline, the extract of the 3rd corps's journal, Davout's corps's own record, with the order the Emperor dictated and the losses of two divisions, and the editor's narrative, notes and summary return, whose documents he does not name); Höpfner, Bd. 3 (the Prussian side's history of the campaign, the same work and family as his first, second and fourth volumes; he gives the Russian losses as the Russians give them and the French losses as the French admit them, translates the disposition, sets French against Russian reports on the opening of the fire, and names the report of 23 October handed in by General Chlebowski for the 2nd Division's composition, but no source for the position at Czarnowo or his 5000)."
+  ]
+}
+```
+
 
 ### B377d: SCHLACHT bei Pultusk (26./12. 1806)
 
@@ -36995,3 +39336,76 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `foucart-pologne-1882-t2-p112-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-p112-figures.txt
 - `foucart-pologne-1882-t2-p113-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-p113.jpg
 - `foucart-pologne-1882-t2-p113-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-p113-figures.txt
+- `hoepfner-1851-bd3-ocr-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-djvu.txt
+- `hoepfner-1851-bd3-p23-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p23.jpg
+- `hoepfner-1851-bd3-p23-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p23-figures.txt
+- `hoepfner-1851-bd3-p24-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p24.jpg
+- `hoepfner-1851-bd3-p24-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p24-figures.txt
+- `hoepfner-1851-bd3-p82-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p82.jpg
+- `hoepfner-1851-bd3-p82-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p82-figures.txt
+- `hoepfner-1851-bd3-p83-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p83.jpg
+- `hoepfner-1851-bd3-p83-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p83-figures.txt
+- `hoepfner-1851-bd3-p84-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p84.jpg
+- `hoepfner-1851-bd3-p84-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p84-figures.txt
+- `hoepfner-1851-bd3-p85-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p85.jpg
+- `hoepfner-1851-bd3-p85-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p85-figures.txt
+- `hoepfner-1851-bd3-p86-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p86.jpg
+- `hoepfner-1851-bd3-p86-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p86-figures.txt
+- `hoepfner-1851-bd3-p87-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p87.jpg
+- `hoepfner-1851-bd3-p87-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p87-figures.txt
+- `hoepfner-1851-bd3-p88-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p88.jpg
+- `hoepfner-1851-bd3-p88-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p88-figures.txt
+- `hoepfner-1851-bd3-p89-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p89.jpg
+- `hoepfner-1851-bd3-p89-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p89-figures.txt
+- `hoepfner-1851-bd3-p90-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p90.jpg
+- `hoepfner-1851-bd3-p90-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p90-figures.txt
+- `hoepfner-1851-bd3-p91-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p91.jpg
+- `hoepfner-1851-bd3-p91-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p91-figures.txt
+- `hoepfner-1851-bd3-p92-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p92.jpg
+- `hoepfner-1851-bd3-p92-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p92-figures.txt
+- `hoepfner-1851-bd3-p93-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p93.jpg
+- `hoepfner-1851-bd3-p93-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p93-figures.txt
+- `hoepfner-1851-bd3-p94-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p94.jpg
+- `hoepfner-1851-bd3-p94-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p94-figures.txt
+- `hoepfner-1851-bd3-p95-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p95.jpg
+- `hoepfner-1851-bd3-p95-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p95-figures.txt
+- `foucart-pologne-1882-t1-p372-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p372.jpg
+- `foucart-pologne-1882-t1-p372-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p372-figures.txt
+- `foucart-pologne-1882-t1-p373-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p373.jpg
+- `foucart-pologne-1882-t1-p373-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p373-figures.txt
+- `foucart-pologne-1882-t1-p374-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p374.jpg
+- `foucart-pologne-1882-t1-p374-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p374-figures.txt
+- `foucart-pologne-1882-t1-p375-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p375.jpg
+- `foucart-pologne-1882-t1-p375-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p375-figures.txt
+- `foucart-pologne-1882-t1-p376-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p376.jpg
+- `foucart-pologne-1882-t1-p376-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p376-figures.txt
+- `foucart-pologne-1882-t1-p390-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p390.jpg
+- `foucart-pologne-1882-t1-p390-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p390-figures.txt
+- `foucart-pologne-1882-t1-p391-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p391.jpg
+- `foucart-pologne-1882-t1-p391-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p391-figures.txt
+- `foucart-pologne-1882-t1-p392-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p392.jpg
+- `foucart-pologne-1882-t1-p392-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p392-figures.txt
+- `foucart-pologne-1882-t1-p393-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p393.jpg
+- `foucart-pologne-1882-t1-p393-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p393-figures.txt
+- `foucart-pologne-1882-t1-p394-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p394.jpg
+- `foucart-pologne-1882-t1-p394-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p394-figures.txt
+- `foucart-pologne-1882-t1-p395-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p395.jpg
+- `foucart-pologne-1882-t1-p395-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p395-figures.txt
+- `foucart-pologne-1882-t1-p396-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p396.jpg
+- `foucart-pologne-1882-t1-p396-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p396-figures.txt
+- `foucart-pologne-1882-t1-p397-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p397.jpg
+- `foucart-pologne-1882-t1-p397-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p397-figures.txt
+- `foucart-pologne-1882-t1-p398-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p398.jpg
+- `foucart-pologne-1882-t1-p398-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p398-figures.txt
+- `foucart-pologne-1882-t1-p399-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p399.jpg
+- `foucart-pologne-1882-t1-p399-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p399-figures.txt
+- `foucart-pologne-1882-t1-p400-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p400.jpg
+- `foucart-pologne-1882-t1-p400-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p400-figures.txt
+- `foucart-pologne-1882-t1-p401-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p401.jpg
+- `foucart-pologne-1882-t1-p401-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p401-figures.txt
+- `foucart-pologne-1882-t1-p439-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p439.jpg
+- `foucart-pologne-1882-t1-p439-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p439-figures.txt
+- `foucart-pologne-1882-t1-p440-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p440.jpg
+- `foucart-pologne-1882-t1-p440-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p440-figures.txt
+- `foucart-pologne-1882-t2-n486-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-n486.jpg
+- `foucart-pologne-1882-t2-n486-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-n486-figures.txt
