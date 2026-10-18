@@ -1783,3 +1783,33 @@ names C. v. W.'s *Operationsplan der preußisch-sächsischen Armee im Jahre 1806
 and no other source.
 
 Use: the draft for B376b. No model inputs are changed. The registry now holds 2,646 records.
+
+## Foucart t. II and Höpfner Bd. 2 page images for Lübeck, 2026-10-18
+
+54 records for sub-batch 2c-ii: 27 page images with their figure transcriptions, 13 of Foucart's
+t. II (pp. 732–735, 738–745 and 801) and 14 of Höpfner's Bd. 2 (pp. 272, 273, 277, 279, 282–284,
+287, 288, 292–295 and 299). No parent or selection is added.
+
+- **Foucart.** Bernadotte's letter to the Grand Duke of Berg of 6 November, 4 in the morning, and
+  his letter to the major general of 7 November, with the 1st corps journal in a footnote
+  (pp. 732–735 and 738–740); Soult's letter to the Emperor of 6 November with its footnotes, among
+  them the 4th corps's report and General Lariboisière's account (pp. 741–743); the Grand Duke of
+  Berg's letter to the Emperor of
+  6 November, 9 in the evening (pp. 744–745); and the 29th Bulletin's account of the day (p. 801).
+  Each transcription gives the passages its note names. A page that continues a letter takes the
+  letter's date as read on the page image where the letter begins; p. 801 takes the Bulletin's
+  date from the image of p. 799, registered for sub-batch 2c-i.
+- **Höpfner.** The Prussian account from Gadebusch to the fall of Lübeck, Major Ende's
+  capitulation and Major Witzleben's detachment, transcribed whole or in the passages each note
+  names.
+
+The OCR misreads several figures, among them 25 pieces as 26 (Foucart p. 735), Legrand's 2,500
+prisoners as 600 (p. 743), Höpfner's 4—5000 as 45000 (p. 272) and ½4 Uhr as 4 Uhr (p. 294). Every
+figure is transcribed from the image, most on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence are as recorded for sub-batch 2b-i. In the passages read for Lübeck, Höpfner
+names no source. Foucart's footnotes quote the 1st corps journal, the 4th corps's report and
+General Lariboisière.
+
+Use: the draft for B376a. No model inputs are changed. The registry now holds 2,700 records.

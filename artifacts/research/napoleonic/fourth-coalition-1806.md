@@ -21191,6 +21191,2271 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B376a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Lübeck entry (engagement, 6 November 1806) in cohort v1's fourth-coalition 1806 group: the French 1st and 4th corps and the Grand Duke of Berg's cavalry against General Blücher's corps at Lübeck, from the French approach that morning, with the baggage convoy and the Swedish detachment taken on the march, through the storm of the gates to the pursuit that evening and night: Major Ende's capitulation behind Krempelsdorf, Major Witzleben's detachment near Moisling and the surprise of Schwartau, whose prisoners, most of the regiment Kunheim by Höpfner, are placed in this entry's reported losses and not added to Bodart's figures. The Swedes were not Prussian troops, and the claims keep them apart where the sources do. The capitulation of Ratkau on 7 November is B376b; the 29th Bulletin's 16,000 prisoners cover both days and are not split. Travemünde's surrender and General Pelet's capitulation, both later, are outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as 30,000 men under Marshals Bernadotte and Soult and side B (Prussian) as 15,000 men under Lieutenant General von Blücher. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives side B's garrison in battalions and guns, and the 1st corps journal about 20,000 Prussians (claims side-b-strength, side-b-strength-french); no other count of side A was read (claim side-a-strength). 'M.' is Mann and 'Gen.-Lt.' General-Leutnant in Bodart's list of abbreviations. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 6/11. engagement at Lübeck (4.)'; 'victory of the French (30,000 men) under Marshals Bernadotte and Soult over the Prussians (15,000 men) under Lieutenant General von Blücher'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 6./11. TREFFEN bei Lübeck (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Sieg der Franzosen (30.000 M.) unter den Marschällen Bernadotte und Soult über die Preußen (15.000 M.) unter Gen.-Lt. v. Blücher."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "G.-L., Gen.-Lt. — General-Leutnant"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the garrison of Lübeck consisted of 13 battalions, to which the regiment Jung-Larisch, 1 fusilier battalion and 6 companies of Jäger were later added, and of 52 guns. At Gadebusch, before the march to Lübeck, the army had lost perhaps 4—5000 men on the retreat through fights, desertion and exhaustion; it still had numerous cavalry, but with very worn horses, and about 100 guns, and only the 1st corps had enough ammunition. After the town was lost, General Blücher had left of the whole garrison only 1 battalion of Oels, 2 weak battalions of Manstein, 2 battalions of Kunheim, 1 battalion and 1 company of Jung-Larisch, the remains of the 2nd battalion Natzmer and the small remains of the Jäger and fusiliers.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 272, 283-284 and 292; the 4—5000 was checked on a full-resolution crop (the OCR reads 45000). The passages read give no headcount for the garrison or for the cavalry outside the town. The corps was brought from the retreat, so the claim is tagged inherited. The army's state is cited with the sentence after it, which names General Blücher. English renderings (ours): 'after such arrangements Lübeck seemed in a quite respectable state of defence'; 'the garrison consisted of 13 battalions, to which later the regiment Jung-Larisch, 1 fusilier battalion and 6 companies of Jäger were added, and of 52 guns'; 'the army had lost perhaps 4—5000 men on the retreat through fights, desertion and men worn out; it still had, it is true, numerous cavalry, but with very exhausted horses, counted about 100 guns, but only the 1st corps had sufficient ammunition'; 'General Blücher was therefore also not of the opinion that he should fight at Gadebusch with the greatly superior enemy, but believed that he must first reach a position in which the troops could be granted some rest in safety'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'of the whole garrison there remained to him only: 1 battalion of Oels, 2 weak battalions of Manstein, 2 battalions of Kunheim, 1 battalion and 1 company of Jung-Larisch, the remains of the 2nd battalion Natzmer and the slight remains of the Jäger and fusiliers'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Nach solchen Anordnungen schien Lübeck in einen ganz achtungswerthen Vertheidigungszustand."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus 13 Bataillonen,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "zu denen später noch das Regiment Jung-Larisch, 1 Füsilierbat. und 6 Kompagnien Jäger stießen, und aus 52 Geschützen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Die Armee hatte durch Gefechte, Desertion und Ermüdete wohl 4—5000 Mann auf dem Rückzuge verloren, hatte zwar noch eine zahlreiche Kavallerie, jedoch mit sehr ermatteten Pferden, zählte gegen 100 Geschütze, aber nur das 1. Korps hatte hinreichende Munition;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der General Blücher war daher auch nicht der Meinung, sich bei Gadebusch mit dem sehr überlegenen Feinde zu schlagen, sondern glaubte fürs Erste eine Stellung erreichen zu müssen, in welcher man den Truppen mit Sicherheit einige Ruhe würde gönnen können."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Von der ganzen Besatzung waren ihm nur geblieben: 1 Bataill. von Oels, 2 schwache Bataillone von Manstein, 2 Bataill. von Kunheim, 1 Bataill. und 1 Kompagnie von Jung-Larisch, die Reste vom 2. Bataill. Natzmer und die geringen Reste der Jäger und Füsiliere."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the 1st corps journal, quoted in Foucart's footnote to Bernadotte's letter of 7 November, gives the Prussians about 20,000 men on the rampart and around the town with a formidable artillery, 25 pieces on the Burgthor front alone (7 on the isolated bastion, the rest on the curtain, the right-hand bastion and in the tambour), and a corps of about 5,000 men that had come out of the town and taken position under the batteries in front of the tambour. Bernadotte wrote that he drove before him about 5,000 men who had come forward; that the convoy taken after Selmsdorf was escorted by about 1,000 infantry and 2 squadrons of hussars; and that 3,000 men who had come out of Lübeck to cover its entry withdrew in great disorder. At Schönberg at 4 in the morning of the 6th he had written to the Grand Duke of Berg that the enemy had very few men at Lübeck. The Grand Duke wrote that General Blücher commanded all the remains of the Prussian army gathered together.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters and the journal in Foucart's footnote, read from the page images; the 25 was checked on a full-resolution crop (the OCR reads 26). Interested estimates made at different moments, not reconciled with each other, with Bodart's 15,000 (claim bodart-strength) or with Höpfner's units (claim side-b-strength). The footnote closes with its attribution to the 1st corps journal. English renderings (ours): 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'the Prussians had about 20,000 men both on the rampart and around the town, with a formidable artillery; on the Burgthor front alone they had posted 25 pieces, 7 on the isolated bastion and the rest on the curtain, on the right-hand bastion and in the tambour'; 'a corps of about 5,000 men had come out of the town and taken position under the protection of the batteries in front of the tambour'; 'the ground between the two is entirely marshy, though passable in some places. (Journal of the 1st corps.)'; 'meanwhile I advanced on the town with all the rest of my army corps and drove before me about 5,000 men who had come forward'; 'arrived at Selmsdorf, I and my escort were charged by the enemy hussars'; 'I had 1 battalion of Drouet's division advance, preceded by some voltigeurs, and soon we had in our power a convoy of 300 baggage wagons escorted by about 1,000 infantry and 2 squadrons of hussars, who all laid down their arms'; '3,000 men who had come out of Lübeck to protect the entry of this convoy withdrew in great disorder'; 'Marshal Bernadotte to the Grand Duke of Berg. Schönberg, 6 November 1806, 4 o'clock in the morning'; 'all the reports that have reached me and the result of the reconnaissances I sent out give me the certainty that the enemy has not made the hook towards Wismar that we suspected, and that he has very few men at Lübeck'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'General Blücher, who commands all the remains of the Prussian army gathered together, had awaited Your Majesty's troops in Lübeck'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Les Prussiens avaient environ 20,000 hommes tant sur le rempart qu'autour de la ville avec une artillerie formidable; sur le seul front de la Burgthor, ils avaient posté 25 bouches à feu, 7 sur le bastion isolé et le reste sur la courtine, sur le bastion de droite et dans le tambour."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Un corps d'environ 5,000 hommes était sorti de la ville et avait pris position sous la protection des batteries en avant du tambour."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Le terrain compris entre les deux est entièrement marécageux, quoique praticable dans quelques endroits. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Sur ces entrefaites j'avançais sur la ville avec tout le reste de mon corps d'armée et je chassais devant moi environ 5,000 hommes qui s'étaient portés en avant."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Arrivé à Selmsdorf je fus chargé moi et mon escorte par les hussards ennemis;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "je fis avancer 1 bataillon de la division Drouet précédé par quelques voltigeurs et bientôt nous eûmes en notre pouvoir un convoi de 300 voitures d'équipages escorté par environ 1,000 hommes d'infanterie et 2 escadrons de hussards qui tous mirent bas les armes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "3,000 hommes qui étaient sortis de Lübeck pour protéger l'entrée de ce convoi se retirèrent en grand désordre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU GRAND-DUC DE BERG."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Schönberg, 6 novembre 1806, 4 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Tous les rapports qui me sont parvenus et le résultat des reconnaissances que j'ai envoyées, me donnent la certitude que l'ennemi n'a point fait le crochet que nous soupçonnions sur Wismar, et qu'il n'a que très-peu de monde à Lübeck."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Le général Blücher, qui commande tous les restes de l'armée prussienne réunis, avait attendu les troupes de V. M. dans Lübeck."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 30,000 men under Bernadotte and Soult; no other count of side A was read. The units named: Bernadotte's 1st corps, with Drouet's division at the head of the attack, Rivaud's division, Dupont's division in reserve behind the town watching the banks of the Trave, and 3 light cavalry regiments under Tilly (the 5th chasseurs and the 2nd and 4th hussars); General Rouyer, with part of his brigade, was charged with the ships carrying Swedish troops at Schlutup, and Höpfner has Bernadotte leave 'General Rougere' there with a half-brigade. Höpfner has Bernadotte follow the stormers into the town with 2 divisions, Düpont's division staying in reserve outside. Soult's corps, the 4th, came from Ratzeburg: Legrand's division was charged with the advanced work of the Mühlen gate, which the Corsican tirailleurs and the tirailleurs du Pô carried while the 26th light, supported by the 18th and 75th of the line, scaled the rampart; Leval's division was directed on the Hertzberg gate and Saint-Hilaire's kept in reserve, and Soult wrote that the use of all these forces was not necessary. The Grand Duke of Berg names Grouchy's and d'Hautpoul's divisions, Lasalle's brigade, with which he marched in person with Soult, and Sahuc's division following. The 29th Bulletin has Drouet lead the 27th light and the 94th and 95th against the batteries.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart from the frame transcription, the rest read from the page images. The corps were brought up by the pursuit, but which of their troops were engaged was the commanders' choice (Dupont's and Saint-Hilaire's divisions in reserve, Rouyer's men at Schlutup), so the phase is left unresolved. Soult's corps is identified as the 4th by Foucart's footnote to his letter, which cites the 4th corps's report for the march from Ratzeburg. Höpfner's 'Düpont' and 'Rougere' are kept as printed. English renderings (ours): Bodart, as in claim bodart-strength; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'I ordered Drouet's division, which was at the head, to form by divisions and half-battalions and to advance, preceded by its voltigeur companies and supported by some pieces of cannon that I at once had placed on the'; 'during the attack on this last gate I had ordered General Rivaud to detach some companies to take a bastion placed on the left while I had it battered by 2 pieces of artillery'; 'Rivaud's division, debouching from the town into the country, met Legrand's division of Marshal Soult's corps'; 'Dupont's division stayed in reserve behind the town and was charged with watching the banks of the Trave, always ready to support the attack'; 'the 3 light cavalry regiments had also stayed there'; 'as soon as the town was in our power, I ordered General Tilly, who commanded them, to pass through it and debouch'; 'the 5th chasseur regiment went on the Travemünde road and the 2nd and 4th hussars on the Stockelsdorf road'; 'continuing our march we arrived at Schlutup, where we indeed saw on the Trave several ships ready to sail with Swedish troops, part of them already embarked, the others on the shore'; 'I charged General Rouyer, with part of his brigade, to make himself master of them'; 'Marshal Bernadotte left General Rougere there with a half-brigade and had some artillery set up in a bay of the Trave, which swept the river lengthwise, but himself continued the march on Lübeck'; 'thereby the Bellevue bastion was abandoned right after the storming of the Burgthor, and Marshal Bernadotte could at once follow the stormers into the town with 2 divisions and detach strong parties to open the Hörter and Mühlen gates to the troops of Marshal Soult and the Grand Duke of Berg'; 'Düpont's division remained in reserve outside the town'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'as I had the honour of reporting to Your Majesty in my last report, the army corps left Ratzeburg this morning before daylight and headed for Lübeck'; 'by following the left bank of the lake of Ratzeburg. (Report of the 4th corps.)'; 'General Legrand's division was charged with carrying the advanced work of the Mühlen gate'; 'the Corsican tirailleurs and the tirailleurs du Pô carried it with the bayonet after a resistance of an hour'; 'the 26th light infantry, supported by the 18th and 75th of the line, scaled the rampart at the same time, and the artillery broke in the gate'; 'General Leval's division was at the same time directed on the Hertzberg gate, which it was also to carry; that of General Saint-Hilaire was in reserve'; 'but the use of all these forces was not necessary'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'Grouchy's and d'Hautpoul's divisions appeared there at the same hour: the Prince of Ponte-Corvo by the Rehna road, Marshal Soult by the Ratzeburg road and the heavy cavalry by a road between the 2 army corps'; 'I marched in person with Marshal Soult and General Lasalle's brigade'; 'meanwhile Sahuc's division and the whole of Marshal Soult's corps were following; the various roads were intercepted; the rivers Wakenitz and Steckenitz were reconnoitred and observed'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'General Drouet, at the head of the 27th light infantry and the 94th and 95th regiments, approached the batteries with the coolness and intrepidity that belong to French troops'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Sieg der Franzosen (30.000 M.) unter den Marschällen Bernadotte und Soult über die Preußen (15.000 M.) unter Gen.-Lt. v. Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "J'ordonnai à la division Drouet qui se trouvait en tête de se former par division et demi-bataillons et d'avancer précédée par ses compagnies de voltigeurs et soutenue par quelques pièces de canon que je fis de suite établir sur les"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Pendant l'attaque de cette dernière porte j'avais ordonné au général Rivaud de détacher quelques compagnies pour s'emparer d'un bastion placé à la gauche tandis que je le faisais battre par 2 pièces d'artillerie;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "La division Rivaud en débouchant de la ville dans la campagne rencontra la division Legrand du corps de M. le maréchal Soult."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "La division Dupont est restée en réserve derrière la ville et a été chargée d'observer les bords de la Trave, se tenant toujours prête à soutenir l'attaque."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Les 3 régiments de cavalerie légère y étaient également restés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Dès que la ville a été en notre pouvoir, j'ai ordonné au général Tilly qui les commandait, de la passer et de déboucher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Le 5e régiment de chasseurs s'est porté sur la route de Travemünde et les 2e et 4e de hussards sur celle de Stockelsdorf."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Continuant notre marche nous arrivâmes à Schlutup où nous reconnûmes effectivement sur la Trave plusieurs bâtiments prêts à mettre à la voile avec des troupes suédoises dont une partie déjà embarquées, les autres sur le rivage."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je chargeai le général Rouyer avec une partie de sa brigade de s'en rendre maître;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Der M. Bernadotte ließ den General Rougere mit einer halben Brigade stehen und in einer Bucht der Trave einige Artillerie aufstellen, welche den Fluß der Länge nach bestrich, setzte selbst aber den Marsch nach Lübeck fort."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p288-figures-v1",
+          "section": "p288",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 288 (transcribed from the page image)",
+          "quote": "Hierdurch war das Bastion Bellevue gleich nach Erstürmung des Burgthores verlassen und der M. Bernadotte konnte den Stürmenden alsbald mit 2 Divisionen in die Stadt folgen, und starke Abtheilungen detaschiren, um den Truppen des M. Soult und des Großherzogs von Berg das Hörter- und Mühlenthor zu öffnen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p288-figures-v1",
+          "section": "p288",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 288 (transcribed from the page image)",
+          "quote": "Die Division Düpont blieb in Reserve außerhalb der Stadt."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Ainsi que j'ai eu l'honneur d'en rendre compte à V. M. par mon dernier rapport, le corps d'armée est parti ce matin avant le jour de Ratzeburg et s'est dirigé sur Lübeck¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "1. En suivant la rive gauche du lac de Ratzeburg. (Rapport du 4e corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "La division du général Legrand⁴ a été chargée d'enlever l'ouvrage avancé de la porte de Mühlen⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Les tirailleurs corses et les tirailleurs du Pô l'ont emporté à la baïonnette après une ré-"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "sistance d'une heure."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Le 26e d'infanterie légère, soutenu par les 18e et 75e de ligne, ont escaladé en même temps le rempart, et l'artillerie enfonçait la porte."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "La division du général Leval était en même temps dirigée sur la porte de Hertzberg qu'elle devait aussi enlever¹; celle du général Saint-Hilaire était en réserve."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Mais l'emploi de toutes ces forces n'a pas été nécessaire."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Les divisions Grouchy et d'Hautpoul y ont paru à la même heure : le prince de Ponte-Corvo par la route de Rehna, le maréchal Soult par celle de Ratzeburg et la grosse cavalerie par une route intermédiaire entre les 2 corps d'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "J'ai marché de ma personne avec M. le maréchal Soult et la brigade du général Lasalle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Cependant la division Sahuc et tout le corps de M. le maréchal Soult suivaient; les différentes routes étaient interceptées; les rivières de la Wakenitz et de la Steckenitz étaient reconnues et observées."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "Le général Drouet, à la tête du 27e d'infanterie légère et des 94e et 95e régiments, aborda les batteries avec ce sang-froid et cette intrépidité qui appartiennent aux troupes françaises."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshals Bernadotte and Soult for side A (French) and Lieutenant General von Blücher for side B (Prussian).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription. Who directed side A's attack differs among the French reports: Soult credits the Grand Duke of Berg with having principally directed the attacks, while the Grand Duke credits the marshals' dispositions (claim side-a-command); so the phase is left unresolved. The passages read do not dispute side B's commander. 'Gen.-Lt.' is General-Leutnant in Bodart's list of abbreviations. English rendering (ours): as in claim bodart-strength.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Sieg der Franzosen (30.000 M.) unter den Marschällen Bernadotte und Soult über die Preußen (15.000 M.) unter Gen.-Lt. v. Blücher."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "G.-L., Gen.-Lt. — General-Leutnant"
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the three marshals, united at Schwerin, decided there on 4 November, given their superiority, to leave General Blücher no time to establish himself anywhere in a strong position; finding the position at Gadebusch abandoned on 5 November, Bernadotte followed directly by Rhena to Schönberg, while the Grand Duke of Berg and Soult turned left by Ratzeburg. Bernadotte wrote that he had agreed with Soult that Soult would march on Ratzeburg and he on Lübeck. Learning in the night that Swedes were about to embark, Bernadotte at once sent General Maison with some voltigeur companies, some guns and 100 horses to Schlutupp to interrupt the shipping on the Trave (Höpfner); at Schlutup he charged General Rouyer, with part of his brigade, to take the ships, then ordered him to sink them and throw troops onto the left bank to summon the Swedes (Bernadotte). Before Lübeck, though the enemy meant to defend the place and the ground gave him great advantages, Bernadotte did not hesitate to order the attack: Drouet's division, at the head, was to form by divisions and half-battalions and advance behind its voltigeurs, supported by guns; during the attack on the outer gate he ordered Rivaud to detach companies to take a bastion on the left; and once the town was taken he ordered Tilly to pass through it with the 3 light cavalry regiments and debouch. In Soult's corps Legrand's division was charged with the advanced work of the Mühlen gate, by Soult's order according to the Grand Duke of Berg, while Leval's division was directed on another gate and Saint-Hilaire's kept in reserve. The Grand Duke wrote that he marched in person with Soult and Lasalle's brigade, that he ordered the cavalry let through to pursue on the Travemünde road, and that d'Hautpoul had orders to summon Blücher. Soult wrote that the Grand Duke had principally directed the attacks; the Grand Duke, that no better dispositions could have been made than the marshals'. Höpfner: at the Mühlenthor, prisoners said that the Grand Duke commanded opposite.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's letters and side B's history, read from the page images. These were decisions taken in the action by side A's commanders, so the claim is tagged commander-created. The claim does not give the direction of the whole attack to one commander: Soult's and the Grand Duke's letters differ on it, and both are kept. English renderings (ours): 'the three marshals united at Schwerin had decided there on 4 November, given their superiority, to leave General Blücher no time to establish himself anywhere in a strong position'; 'when they therefore found the position at Gadebusch evacuated on 5 November and learned of the Prussians' retreat on Lübeck, Marshal Bernadotte followed at once directly from Gadebusch by Rhena to Schönberg, while the Grand Duke of Berg and Marshal Soult turned left by Ratzeburg'; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'I came to an understanding with Marshal Soult, and it was agreed that he would march on Ratzeburg and I on Lübeck'; 'still in the night to the 6th Marshal Bernadotte learned that a detachment of Swedes had withdrawn from Lauenburg to Lübeck and was about to embark at Travemünde'; 'he at once sent General Maison with some voltigeur companies, some guns and 100 horses to Schlutupp, with the order to interrupt the shipping on the Trave from there'; 'continuing our march we arrived at Schlutup, where we indeed saw on the Trave several ships ready to sail with Swedish troops, part of them already embarked, the others on the shore'; 'I charged General Rouyer, with part of his brigade, to make himself master of them'; 'but I ordered General Rouyer to sink the ships and at once throw some troops onto the left bank, summoning them to surrender if they did not want to be cut to pieces'; 'I soon recognised that the enemy meant to defend the place and that the locality gave him great advantages'; '[but, strong in the in]trepidity of our troops, I did not hesitate to order the attack'; 'I ordered Drouet's division, which was at the head, to form by divisions and half-battalions and to advance, preceded by its voltigeur companies and supported by some pieces of cannon that I at once had placed on the'; 'the inner gate was taken, but new resistance was met at the outer gate, which, like the rampart, was manned with infantry and defended by 2 pieces'; 'during the attack on this last gate I had ordered General Rivaud to detach some companies to take a bastion placed on the left while I had it battered by 2 pieces of artillery'; 'the 3 light cavalry regiments had also stayed there'; 'as soon as the town was in our power, I ordered General Tilly, who commanded them, to pass through it and debouch'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'General Legrand's division was charged with carrying the advanced work of the Mühlen gate'; 'General Leval's division was at the same time directed on the Hertzberg gate, which it was also to carry; that of General Saint-Hilaire was in reserve'; 'His Imperial and Royal Highness the Grand Duke of Berg, who principally directed the attacks and who had brought up his cavalry to take part in them'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'I marched in person with Marshal Soult and General Lasalle's brigade'; 'then General Legrand received Marshal Soult's order to attack the advanced works of the Mühlen gate'; 'then I ordered the cavalry to be let through, which pursued the enemy at sword's point on the Travemünde road, by which General Blücher withdrew'; 'General d'Hautpoul has the order to summon General Blücher'; 'it is impossible to make better dispositions than those the Marshals made'; 'the Mühlenthor was attacked first, early on the 6th, by Marshal Soult and the Grand Duke of Berg'; 'prisoners stated that the Grand Duke of Berg commanded opposite, and the presence of much cavalry confirmed it'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Die drei bei Schwerin vereinigten Marschälle hatten daselbst am 4. November beschlossen, bei ihrer Ueberlegenheit, dem General Blücher keine Zeit zu lassen, sich irgendwo in einer starken Stellung festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Als sie daher am 5. November die Stellung bei Gadebusch geräumt fanden und den Rückzug der Preußen auf Lübeck erfuhren, folgte der M. Bernadotte sogleich unmittelbar von Gadebusch über Rhena bis Schönberg, während der Großherzog von Berg und der M. Soult sich links über Ratzeburg wandten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p733-figures-v1",
+          "section": "p733",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 733 (transcribed from the page image)",
+          "quote": "Je m'entendis avec M. le maréchal Soult, et il fut convenu qu'il marcherait sur Ratzeburg et moi sur Lübeck."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Noch in der Nacht zum 6. erfuhr der M. Bernadotte, daß eine Abtheilung Schweden sich von Lauenburg nach Lübeck abgezogen hätte, und im Begriff stände, sich bei Travemünde einzuschiffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Er sandte sogleich den General Maison mit einigen Voltigeurs-Kompagnien, einigen Geschützen und 100 Pferden mit dem Befehl nach Schlutupp, von dort aus die Schiffahrt auf der Trave zu unterbrechen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Continuant notre marche nous arrivâmes à Schlutup où nous reconnûmes effectivement sur la Trave plusieurs bâtiments prêts à mettre à la voile avec des troupes suédoises dont une partie déjà embarquées, les autres sur le rivage."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je chargeai le général Rouyer avec une partie de sa brigade de s'en rendre maître;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "mais j'ordonnai au général Rouyer de couler bas les bâtiments et de jeter de suite quelques troupes sur la rive gauche en les sommant de se rendre, si elles ne voulaient pas être taillées en pièces."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je reconnus bientôt que l'ennemi voulait défendre la place et que les localités lui assuraient de grands avantages,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "trépidité de nos troupes je ne balançai pas à ordonner l'attaque."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "J'ordonnai à la division Drouet qui se trouvait en tête de se former par division et demi-bataillons et d'avancer précédée par ses compagnies de voltigeurs et soutenue par quelques pièces de canon que je fis de suite établir sur les"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "on s'empara de la porte intérieure, mais on trouva une nouvelle résistance à la porte extérieure qui était, ainsi que le rempart, garnie d'infanterie et défendue par 2 pièces;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Pendant l'attaque de cette dernière porte j'avais ordonné au général Rivaud de détacher quelques compagnies pour s'emparer d'un bastion placé à la gauche tandis que je le faisais battre par 2 pièces d'artillerie;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Les 3 régiments de cavalerie légère y étaient également restés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Dès que la ville a été en notre pouvoir, j'ai ordonné au général Tilly qui les commandait, de la passer et de déboucher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "La division du général Legrand⁴ a été chargée d'enlever l'ouvrage avancé de la porte de Mühlen⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "La division du général Leval était en même temps dirigée sur la porte de Hertzberg qu'elle devait aussi enlever¹; celle du général Saint-Hilaire était en réserve."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "S. A. I. et R. le grand-duc de Berg qui a principalement dirigé les attaques et qui avait fait arriver sa cavalerie pour y prendre part,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "J'ai marché de ma personne avec M. le maréchal Soult et la brigade du général Lasalle."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Alors le général Legrand a reçu l'ordre de M. le maréchal Soult d'attaquer les ouvrages avancés de la porte de Mühlen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Alors j'ai ordonné qu'on laissât déboucher la cavalerie qui a poursuivi l'ennemi l'épée dans les reins sur la route de Travemünde, par où s'est retiré le général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Le général d'Hautpoul a l'ordre de sommer le général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Il est impossible de faire de meilleures dispositions que celles qu'ont faites MM. les Maréchaux."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Das Mühlenthor wurde am 6. früh zuerst von dem M. Soult und dem Großherzog von Berg angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Gefangene sagten aus, daß der Großherzog von Berg gegenüber kommandire, und die Anwesenheit vieler Kavallerie bestätigte es."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: General Blücher would not fight at Gadebusch against the much superior enemy and decided to fall back on Lübeck, which the Duke of Brunswick-Oels was to take by goodwill or force. In Lübeck the regiments Manstein and Oels stood under the Duke of Oels, who was to command at the Burgthor; from there Blücher rode to the Hörter-Thor, where he handed the command to Colonel Görtzke of the regiment Owstien, showed him his position himself and gave him his instructions, and then to the Mühlenthor, where General Lettow commanded and all had orders to defend themselves to the utmost and think of no retreat; the other troops stood on other parts of the walls or in reserve in the town's squares under the commandant, General Natzmer. To a deputation of citizens asking him to leave the town Blücher answered that he would defend himself to the last man, and he forbade General Lettow's measure of burning the houses before the Mühlenthor. Towards noon the Duke of Oels, having sent to Blücher for support, ordered the fusiliers back into the town; there was then no reserve, no arrangement for closing the Burgthor and no commander there, since the Duke had had himself ferried to the Bellevue bastion for another horse, and when the enemy pressed up under that battery he ordered the 1st battalion of his regiment to march off. Outside the lost town Blücher hoped to attack it again in the night, then, hearing the defenders still firing at the Hörter and Mühlen gates, decided to attack at once with the regiment Kunheim under Colonel Thümen; the attack failed, and the retreat was taken towards the cavalry gathered behind Lübeck. At the Mühlenthor, at 2 in the afternoon, General Lettow had to have the chamade beaten.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images. These were side B's commanders' decisions in the action, so the claim is tagged commander-created. Where Höpfner says only 'the General' or 'he', the claim cites the sentence before or after it that names Blücher; the 'he' who ordered the fusiliers back is read as the Duke of Oels, the subject of the clause before it. English renderings (ours): 'General Blücher was therefore also not of the opinion that he should fight at Gadebusch with the greatly superior enemy, but believed that he must first reach a position in which the troops could be granted some rest in safety'; 'General Blücher therefore decided to go back to Lübeck'; 'the Duke of Brunswick-Oels was to take possession of the town by goodwill or by force'; 'on the curtain beside the Bellevue bastion stood the infantry regiment Manstein'; 'both this regiment and the regiment Oels stood under the command of the Duke of Oels, who was to command at the Burgthor'; 'from the Burgthor General Blücher rode to the Hörter-[Thor]'; '[Hörter-]Thor, where he handed the command to Colonel Görtzke, commander of the infantry regiment Owstien, showed him his position himself and gave him his instructions'; 'from the Hörterthor the General went to the Mühlenthor, where French cavalry had very early alarmed the troops still outside the gate'; 'there General Lettow commanded, with the regiment Tschammer on the wall right and left of the gate, and with the half grenadier battalion Rabiel, the rest of the regiment Winning, 100 riflemen of the regiment Kunheim, a company of the regiment Natzmer and several other collected men in a position before the gate, together with the regiment of Pletz hussars'; 'all had the order to defend themselves to the utmost and to think of no retreat'; 'all the other troops stood partly on other parts of the wall, partly in reserve in the squares of the town, under the command of the commandant, General Natzmer'; 'at half past eight a deputation of the citizenry had come to General Blücher to move him to leave the town, as he had promised the day before'; 'the General answered that circumstances had changed, that he had not believed the enemy so near; a withdrawal was therefore now no longer to be thought of; he would defend himself to the last man'; 'General Lettow had had the houses before the Mühlenthor cleared in order to set them on fire and thereby entirely hinder the enemy's attack for a long time, but General Blücher forbade this measure'; 'at last towards noon, after the Duke of Oels had already sent Lieutenant Stülpnagel of the regiment Oels on his own horse to General Blücher to ask for support, he ordered that the fusiliers should withdraw into the town, so that the artillery standing on the wall could fire freely'; 'in the Burgthor there stood no reserve, nor had any arrangement been made to close the gate, nor was there a commander who might have given orders for the defence, since the Duke, who had taken part in the last part of the action on foot, had at once had himself ferried in a boat to the Bellevue bastion to get another riding horse there'; 'the artillery on the Bellevue bastion had at first worked powerfully with canister against the following enemy during the action at the Burgthor, and so for the moment at least prevented a pressing-on in great masses; but when the enemy, skirmishing, pushed up under the battery, the Duke of Oels ordered that the 1st battalion of his regiment should march off and leave only a detachment with the artillery'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'outside the town General Blücher found the Duke of Oels and General Natzmer already there'; 'despite the unfavourable circumstances the General conceived the hope of being able to attack Lübeck again with success in the following night, and this hope calmed him for the moment'; 'but hardly had he moved a little away from the town with the rescued infantry when he heard the very lively fire of the troops still defending themselves at the Hörter and Mühlen gates'; 'this brought him to the decision to risk another attack on Lübeck at once'; 'the regiment Kunheim had to face about, form columns of sections and go forward to the attack under the leadership of the brave Colonel Thümen'; 'the superiority was however too great, and when the bridge at the gate was now also occupied by the French, the Prussians were fired on most heavily in front and flanks'; 'the retreat had to be taken towards the cavalry gathered behind Lübeck'; 'the men were almost all dead or wounded, the cartridges all fired off, in the town the fighting had long since stopped, when at last at 2 o'clock in the afternoon General Lettow had to have the chamade beaten'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der General Blücher war daher auch nicht der Meinung, sich bei Gadebusch mit dem sehr überlegenen Feinde zu schlagen, sondern glaubte fürs Erste eine Stellung erreichen zu müssen, in welcher man den Truppen mit Sicherheit einige Ruhe würde gönnen können."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "Der General Blücher entschloß sich daher, nach Lübeck zurückzugehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "Der Herzog von Braunschweig-Oels sollte sich der Stadt mit Güte oder Gewalt bemächtigen;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Auf der Kourtine neben dem Bastion Bellevue stand das Infanterie-Regiment Manstein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Sowohl dieses Regiment, als das Regiment Oels standen unter dem Befehl des Herzogs von Oels, der am Burgthor kommandiren sollte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Vom Burgthor ritt der General Blücher nach dem Hörter-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Thor, wo er dem Obersten Görtzke, Kommandeur des Infanterie-Regiments Owstien, den Befehl übergab, ihm selbst die Aufstellung anwies und die Instruktion ertheilte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Vom Hörterthor begab sich der General zum Mühlenthor, wo bereits sehr früh französische Kavallerie die außerhalb des Thores noch befindlichen Truppen allarmirt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Daselbst kommandirte der General Lettow, mit dem Regiment Tschammer, auf dem Wall rechts und links des Thores, mit dem halben Grenadier-Bataill. Rabiel, dem Rest des Regiments Winning, 100 Schützen vom Regiment Kunheim, einer Kompagnie vom Regiment Natzmer und mehreren anderen gesammelten Mannschaften, in einer Aufstellung vor dem Thore im Verein mit dem Regiment Pletz-Husaren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Alles hatte den Befehl, sich aufs Aeußerste zu vertheidigen und an keinen Rückzug zu denken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Alle übrigen Truppen standen zum Theil auf andern Walltheilen, zum Theil in Reserve auf den Plätzen der Stadt, unter dem Befehl des Kommandanten, Generals Natzmer."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Um ½9 Uhr war eine Deputation der Bürgerschaft zum General Blücher gekommen, um ihn zu bewegen, die Stadt zu verlassen, wie er es am Tage zuvor verheißen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Der General antwortete, daß die Umstände sich geändert hätten, daß er den Feind nicht so nahe geglaubt habe; es sei daher nunmehr an einen Abzug nicht mehr zu denken; er werde sich bis auf den letzten Mann wehren;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Der General Lettow hatte die Häuser vor dem Mühlenthor räumen lassen um sie anzuzünden, und dadurch den Angriff des Feindes lange Zeit gänzlich zu behindern, indessen untersagte der General Blücher diese Maßregel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p287-figures-v1",
+          "section": "p287",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 287 (transcribed from the page image)",
+          "quote": "Endlich gegen Mittag, nachdem der Herzog von Oels bereits den Lieutenant Stülpnagel vom Regmt. Oels auf seinem Pferde zum General Blücher geschickt hatte, um Unterstützung zu erbitten, befahl er, daß sich die Füsiliere nach der Stadt abziehen sollten, damit die auf dem Walle stehende Artillerie frei schießen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p287-figures-v1",
+          "section": "p287",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 287 (transcribed from the page image)",
+          "quote": "Im Burgthor stand weder eine Reserve, noch war irgend eine Anstalt zum Sperren des Thores getroffen, noch gab es einen Befehlshaber, der Anordnungen zur Vertheidigung erlassen hätte, da der Herzog, der den letzten Theil des Gefechts zu Fuß mitgemacht, sich sogleich auf einem Kahn hatte nach dem Bastion Bellevue übersetzen lassen, um dort ein anderes Reitpferd zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p288-figures-v1",
+          "section": "p288",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 288 (transcribed from the page image)",
+          "quote": "Die Artillerie auf dem Bastion Bellevue hatte anfänglich während des Gefechts am Burgthor kräftig gegen den nachfolgenden Feind mit Kartätschen gewirkt, und dadurch wenigstens ein Nachdringen mit großen Massen augenblicklich verhindert, indessen als der Feind tiraillirend bis unter die Batterie drang, befahl der Herzog von Oels, daß das 1. Bataill. seines Regiments abmarschiren und nur ein Kommando bei der Artillerie zurücklassen solle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Außerhalb der Stadt fand der General Blücher bereits den Herzog von Oels und den General Natzmer."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General faßte trotz der ungünstigen Umstände die Hoffnung, Lübeck in der folgenden Nacht noch einmal mit Erfolg angreifen zu können, und diese Hoffnung beruhigte ihn für den Augenblick."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Kaum hatte er sich indessen mit der geretteten Infanterie etwas von der Stadt entfernt, als er das sehr lebhafte Feuer der sich noch am Hörter- und Mühlenthor vertheidigenden Truppen hörte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Dies brachte ihn auf den Entschluß, sofort noch einen Angriff auf Lübeck zu wagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Das Regmt. Kunheim mußte Front machen, Sektions-Kolonnen formiren und unter Führung des tapfern Obersten Thümen zum Angriff vorgehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Die Uebermacht war indessen zu groß, und als nun auch die Brücke am Thor von den Franzosen besetzt wurde, wurden die Preußen in Front und Flanken aufs Lebhafteste beschossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Der Rückzug mußte auf die hinter Lübeck versammelte Kavallerie angetreten werden.¹)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Die Mannschaft war fast sämmtlich todt oder verwundet, die Patronen sämmtlich verfeuert, in der Stadt hatte das Gefecht bereits längst aufgehört, als endlich um 2 Uhr Nachmittags der General Lettow Chamade schlagen lassen mußte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart codes the engagement at Lübeck on 6 November 1806 as a victory of the French under Marshals Bernadotte and Soult over the Prussians under Blücher. Höpfner: General Blücher had to fight his way out of the town and lost with Lübeck a great part of his artillery and the main strength of his infantry; at half past three Lübeck was wholly in French hands. Soult wrote that Legrand forced the Mühlen gate as the 1st corps entered the town from another side; the Grand Duke of Berg, that the Prince of Ponte-Corvo had the same success at the Burgen gate, that the heads of the 2 corps met in the middle of the town, and that the cavalry pursued the enemy on the Travemünde road, by which Blücher withdrew.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's heading and entry, read from the page image in the frame transcription, with Höpfner and the letters from the page images. The sources read agree on the winner. Höpfner's '½4 Uhr' is half past three, checked on a full-resolution crop (the OCR reads '4 Uhr'). English renderings (ours): Bodart, as in claim bodart-strength; 'the General now had to fight his way out of the town in earnest and was fired on from every cross street on the way'; 'outside the town General Blücher found the Duke of Oels and General Natzmer already there'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'at half past three Lübeck was wholly in the hands of the French'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'General Legrand forced the Mühlen gate and entered the town at the same time as the 1st army corps was entering it from another side'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'while Marshal Soult thus forced the enemy at the Mühlen gate and penetrated into the interior of the town, the Prince of Ponte-Corvo had had the same success at the Burgen gate'; 'the heads of column of the 2 army corps met in the middle of the town: everything was overthrown; never was there fighting with more fury; the streets are strewn with corpses'; 'then I ordered the cavalry to be let through, which pursued the enemy at sword's point on the Travemünde road, by which General Blücher withdrew'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 6./11. TREFFEN bei Lübeck (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Sieg der Franzosen (30.000 M.) unter den Marschällen Bernadotte und Soult über die Preußen (15.000 M.) unter Gen.-Lt. v. Blücher."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General mußte sich nun förmlich aus der Stadt hinausschlagen und wurde auf diesem Wege aus allen Querstraßen beschossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Außerhalb der Stadt fand der General Blücher bereits den Herzog von Oels und den General Natzmer."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p294-figures-v1",
+          "section": "p294",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 294 (transcribed from the page image)",
+          "quote": "Um ½4 Uhr war Lübeck vollständig in den Händen der Franzosen;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Le général Legrand a forcé la porte de Mühlen et est entré dans la ville en même temps que le 1er corps d'armée y pénétrait par un autre côté;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Tandis que M. le maréchal Soult forçait ainsi l'ennemi par la porte de Mühlen et pénétrait dans l'intérieur de la ville, M. le prince de Ponte-Corvo avait obtenu les mêmes succès à la porte de Burgen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Les têtes de colonne des 2 corps d'armée se sont rencontrées au milieu de la ville : tout a été renversé; jamais on ne s'est battu avec plus d'acharnement; les rues sont jonchées de cadavres."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Alors j'ai ordonné qu'on laissât déboucher la cavalerie qui a poursuivi l'ennemi l'épée dans les reins sur la route de Travemünde, par où s'est retiré le général Blücher."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives the French losses as about 2,000 men (63 officers) and the Prussian losses as about 6,000 men, among them about 4,000 prisoners.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. His about 4,000 prisoners equal the 29th Bulletin's 4,000 for the day at Lübeck, and his about 2,000 French are above Bernadotte's more than 1,500 killed or wounded, which is for the 1st corps (claims side-b-losses-reported, side-a-losses-reported); which sources Bodart used was not checked. 6,000 is 40% of his 15,000 (our arithmetic); he prints no percentage. 'Offz.' is Offizier and 'M.' Mann in Bodart's list of abbreviations; 'Gefg.' is read as Gefangene, prisoners (the list gives 'gfg., gef.' for gefangen). English rendering (ours): 'French losses: about 2,000 men (63 officers)'; 'Prussian losses: about 6,000 men (among them about 4,000 prisoners)'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Franz. Verl.: ca. 2.000 M. (63 Offz.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Preuß. Verl.: ca. 6.000 M. (worunter ca. 4.000 Gefg.)."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Offz. — Offizier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "gfg., gef. — gefangen"
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's loss in the reports, kept apart. Bernadotte: the day's results were nearly 3,000 killed or wounded, more than 5,000 prisoners including the Swedes, 10 flags, 2 standards and more than 30 guns; his account counts the convoy of 300 wagons and its escort of about 1,000 infantry and 2 squadrons of hussars, who all laid down their arms, the 2 guns and 1,200 prisoners taken at the outer gate, 500 men and 2 guns in the bastion on the left, 4 squadrons cut off by the 2nd and 4th hussars that surrendered to the Grand Duke of Berg's cavalry, a battalion made to lay down its arms, a whole squadron taken by the 5th chasseurs, 500 more prisoners at Schwartau, and 2,000 prisoners disputed between Legrand's and Rivaud's divisions. Soult: 1,500 prisoners with their officers and 2 generals in the attack on the Mühlen gate, 4 Prussian squadrons cut off with their guns that capitulated, and for the day at least 6,000 prisoners, 50 guns, several flags and standards, 3 generals and much baggage; the 4th corps's report in Foucart's footnotes gives Legrand's division 2,500 prisoners with their officers and 2 generals, 9 flags and 25 guns with their caissons, has the light cavalry take the surrender of 3 squadrons of Prussian dragoons with 4 guns near Fackenburg, and has the cavalry pick up the equivalent of a battalion at Padelügge. The Grand Duke of Berg: a guidon and 200 mounted men taken before the town, 1,200 men and 3 generals in the advanced works, a column of 6 squadrons and some battalions, withdrawn by the Hamburg road, that surrendered to Soult's light cavalry, and for the day 5,000 men, 3 or 4 generals and at least 50 guns. The 29th Bulletin: 4,000 prisoners, 60 guns, several generals and a great number of officers killed or taken, and the convoy of 300 wagons. Höpfner: General Blücher lost with Lübeck 22 guns without the regimental cannon and the main strength of his infantry; the regiment Tschammer alone lost about 300 men, and the rest of the regiment Owstien surrendered after very great loss; about 4000 wounded had to be cared for and 5—6000 prisoners were lodged in the churches; behind Krempelsdorf Major Ende's capitulation handed over about 360 more horses and 4 horse guns, and Major Witzleben's 4 companies, still 9 officers and 136 men, were overwhelmed; the baggage sent to Wismar under Captain Froideville was taken on the march; and in the night the enemy surprised Schwartau and took most of the regiment Kunheim at the bridge. The Swedish detachment at Schlutup, not Prussian, is given apart: more than 600 prisoners (Bernadotte), 1,000 or 1,200 already embarked (the Grand Duke of Berg), 1,600 (the Bulletin).",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images, not combined. They overlap and count different things: the Grand Duke's 1,200 in the advanced works and Soult's 1,500 in the Mühlen-gate attack may be the same men, Legrand's 2,500 fall within Soult's 6,000, Bernadotte's 5,000 include the Swedes, and Höpfner does not say whose wounded his 4000 were. The passages read do not establish whether Major Ende's capitulation is the surrender of the 3 dragoon squadrons with 4 guns or of the 4 squadrons with their guns, nor whether Bernadotte's 500 at Schwartau are the regiment Kunheim's men. The 4th corps's 2,500 (the OCR reads 600) and 25, and its 3 squadrons, were checked on full-resolution crops. The 29th Bulletin's 16,000 prisoners cover Lübeck and Ratkau together and are not split; Ratkau is B376b. English renderings (ours): 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'the results of the day are nearly 3,000 men killed or wounded, more than 5,000 prisoners including the Swedes, 10 flags, 2 standards and more than 30 pieces of cannon'; 'arrived at Selmsdorf, I and my escort were charged by the enemy hussars'; 'I had 1 battalion of Drouet's division advance, preceded by some voltigeurs, and soon we had in our power a convoy of 300 baggage wagons escorted by about 1,000 infantry and 2 squadrons of hussars, who all laid down their arms'; 'the inner gate was taken, but new resistance was met at the outer gate, which, like the rampart, was manned with infantry and defended by 2 pieces'; 'there were taken besides the 2 pieces and 1,200 prisoners'; 'during the attack on this last gate I had ordered General Rivaud to detach some companies to take a bastion placed on the left while I had it battered by 2 pieces of artillery'; '500 men and 2 pieces of cannon were taken there'; 'the 5th chasseur regiment went on the Travemünde road and the 2nd and 4th hussars on the Stockelsdorf road'; 'the 2nd and 4th cut off 4 enemy squadrons, which surrendered to the cavalry of the Grand Duke of Berg, which had just debouched immediately after mine'; 'they then made a battalion lay down its arms'; 'the 5th, heading for Travemünde, where the main body of the enemy had withdrawn, charged part of its rearguard and took a whole squadron'; 'Rivaud's and Drouet's divisions, having continued their march on Schwartau, drove the enemy out of it and took 500 more prisoners from him'; 'a dispute arose between Legrand's division and Rivaud's division over 2,000 prisoners who, pursued by General Rivaud's troops, threw themselves on those of General Legrand'; 'continuing our march we arrived at Schlutup, where we indeed saw on the Trave several ships ready to sail with Swedish troops, part of them already embarked, the others on the shore'; 'more than 600 Swedes surrendered as prisoners of war, under the orders of Colonel Count de Meurner'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'General Legrand's division was charged with carrying the advanced work of the Mühlen gate'; '1,500 prisoners with their officers and 2 generals were taken in this attack'; 'as soon as the cavalry could debouch, that of the army corps set off in pursuit of the enemy'; 'in its first movement it cut off 4 Prussian squadrons with their guns. After a slight resistance, they capitulated'; 'this day yields at least 6,000 prisoners, 50 cannon, several flags and standards, 3 generals and a considerable amount of baggage'; 'Legrand's division took on the ramparts of the town, at the outworks and in the streets 2,500 prisoners with their officers and 2 generals (Generals Haufberg and Zwiffel); it took 9 flags and 25 pieces of cannon with their caissons'; 'Adjutant-commandant Cosson, his chief of staff, and his own aides-de-camp. (4th corps.)'; 'the light cavalry of the army corps, having gone towards Fackenburg, a Danish village, met 3 squadrons of Prussian dragoons with 4 pieces of cannon who, unable to get through by Holstein, had their retreat cut off and surrendered after making some efforts (useless, in truth) to open a way'; 'the cavalry of His Highness the Grand Duke of Berg and that of the 1st corps took the Travemünde road. (4th corps.)'; 'the cavalry was posted in the village of Padelügge, where it picked up the equivalent of an enemy battalion that had been cut off. (4th corps.)'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'Marshal Soult's light troops and the Lasalle brigade met the enemy a league in front of the town, charged him, overthrew him, carried off a guidon and took 200 mounted men'; 'then General Legrand received Marshal Soult's order to attack the advanced works of the Mühlen gate'; '1,200 men and 3 generals who defended them were made prisoner'; 'a column that had withdrawn by the Hamburg road, 6 squadrons and some battalions strong, surrendered to Marshal Soult's light cavalry'; 'Sire, 5,000 men, 3 or 4 generals, at least 50 pieces of cannon were the results of this day'; 'the Prince of Ponte-Corvo took 1,000 or 1,200 Swedes who were already embarked'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'arrived at Schlutup on the Trave, he had a corps of 1,600 Swedes surrounded, who had at last judged it fitting to carry out their retreat from the Lauenburg to embark on the Trave'; 'a convoy of 300 wagons, which General Savary had pursued from Wismar, was enveloped by the Prince of Ponte-Corvo's column and taken'; '4,000 prisoners, 60 pieces of cannon, several generals, a great number of officers killed or taken, such is the result of this fine day'; 'these 2 days destroyed the last corps that remained of the Prussian army, and won us the rest of the artillery of that army, many flags and 16,000 prisoners, among whom are 4,000 men of cavalry'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'the regiment Tschammer alone had a loss of about 300 men'; 'when the Mühlenthor had been opened, cavalry broke into the town; the regiment Owstien formed square, and only after very great loss did the rest of the regiment and the Jäger and fusiliers who had fled to it have to surrender'; 'about 4000 wounded had to be cared for, 5—6000 prisoners lodged in the churches, to whom only boiled flour, black bread and straw were handed through the windows'; 'the fire of the horse artillery was stopped and an officer with a trumpeter sent forward and taken to Colonel Ricaud, aide of Marshal Soult, who brought Major Ende behind Krempelsdorf to the Grand Duke of Berg, Marshal Bernadotte and Marshal Soult'; 'the capitulation was soon concluded and about 360 more horses and 4 horse guns handed over to the enemy, after the squadron posted at Hambergen had also come up'; 'Major Witzleben, who had already partly destroyed the bridge at Moisling, was disturbed in this work by the enemy cavalry that had crossed at Krumeß and Kronsvoer, and soon afterwards also attacked by enemy infantry'; 'on this march he was unexpectedly attacked from a garden wall on the left by a considerable mass of enemy infantry and in front by cavalry, and overwhelmed before the guns could even unlimber'; 'the 4 companies were still 9 officers 136 men strong'; 'on the march the part of the Prussian baggage that had been sent on 3 November from Dobbertin to Wismar under Captain Froideville was overtaken and taken by the French troops'; 'while in Ratkau, at General Blücher's headquarters, the necessary arrangements for the following day were still being made, the report came in that the enemy had surprised Schwartau and taken the troops posted there prisoner'; 'hardly had this happened when the enemy, under cover of the dark, rainy night, attacked the dragoon posts with the greatest violence'; 'so the enemy, pressing on fast, was able to scatter everything in the darkness and take most of the regiment Kunheim prisoner at the bridge in the village'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p740-figures-v1",
+          "section": "p740",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 740 (transcribed from the page image)",
+          "quote": "Les résultats de la journée sont près de 3,000 hommes tués ou blessés, plus de 5,000 prisonniers y compris les Suédois, 10 drapeaux, 2 étendards et plus de 30 pièces de canon."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Arrivé à Selmsdorf je fus chargé moi et mon escorte par les hussards ennemis;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "je fis avancer 1 bataillon de la division Drouet précédé par quelques voltigeurs et bientôt nous eûmes en notre pouvoir un convoi de 300 voitures d'équipages escorté par environ 1,000 hommes d'infanterie et 2 escadrons de hussards qui tous mirent bas les armes;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "on s'empara de la porte intérieure, mais on trouva une nouvelle résistance à la porte extérieure qui était, ainsi que le rempart, garnie d'infanterie et défendue par 2 pièces;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "On y prit en outre les 2 pièces et 1,200 prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Pendant l'attaque de cette dernière porte j'avais ordonné au général Rivaud de détacher quelques compagnies pour s'emparer d'un bastion placé à la gauche tandis que je le faisais battre par 2 pièces d'artillerie;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "l'on y a pris 500 hommes et 2 pièces de canon."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Le 5e régiment de chasseurs s'est porté sur la route de Travemünde et les 2e et 4e de hussards sur celle de Stockelsdorf."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Les 2e et 4e ont coupé 4 escadrons ennemis qui se sont rendus à la cavalerie du grand-duc de Berg qui venait de déboucher immédiatement après la mienne;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "ils ont ensuite fait mettre bas les armes à un bataillon."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Le 5e se dirigeant sur Travemünde où s'était retiré le gros de l'ennemi, a chargé une partie de son arrière-garde et a pris un escadron entier."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "Les divisions Rivaud et Drouet ayant continué leur marche"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p739-figures-v1",
+          "section": "p739",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 739 (transcribed from the page image)",
+          "quote": "sur Schwartau, en ont débusqué l'ennemi et lui firent encore 500 prisonniers¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p739-figures-v1",
+          "section": "p739",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 739 (transcribed from the page image)",
+          "quote": "Il s'est élevé une discussion entre la division Legrand et la division Rivaud au sujet de 2,000 prisonniers qui, poursuivis par les troupes du général Rivaud, furent se jeter sur celles du général Legrand;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Continuant notre marche nous arrivâmes à Schlutup où nous reconnûmes effectivement sur la Trave plusieurs bâtiments prêts à mettre à la voile avec des troupes suédoises dont une partie déjà embarquées, les autres sur le rivage."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Plus de 600 Suédois se rendirent prisonniers de guerre, sous les ordres de M. le colonel comte de Meurner."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "La division du général Legrand⁴ a été chargée d'enlever l'ouvrage avancé de la porte de Mühlen⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "1,500 prisonniers avec leurs officiers et 2 généraux ont été pris dans cette attaque."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Aussitôt que la cavalerie a pu déboucher, celle du corps d'armée s'est mise à la poursuite de l'ennemi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Dans son premier mouvement elle a coupé 4 escadrons prussiens avec leurs canons. Après une légère résistance, ils ont capitulé³."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "Cette journée produit au moins 6,000 prisonniers, 50 canons, plusieurs drapeaux et étendards, 3 généraux et considérablement de bagages¹."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "1. La division Legrand fit sur les remparts de la ville, aux avancées et dans les rues, 2,500 prisonniers avec leurs officiers et 2 généraux (les généraux Haufberg et Zwiffel); elle prit 9 drapeaux et 25 pièces de canon avec leurs caissons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "l'adjudant-commandant Cosson, son chef d'état-major, et ses propres aides de camp. (4e corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "3. La cavalerie légère du corps d'armée s'étant portée sur Fackenburg,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "village danois, rencontra 3 escadrons de dragons prussiens avec 4 pièces de canon qui, ne pouvant pénétrer par le Holstein, avaient la retraite coupée et qui se rendirent après avoir fait quelques efforts (inutiles à la vérité) pour s'ouvrir un passage."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "La cavalerie de S. A. le grand-duc de Berg et celle du 1er corps prirent la route de Travemünde. (4e corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "La cavalerie fut établie au village de Padelügge, où elle ramassa la valeur d'un bataillon ennemi qui avait été coupé. (4e corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Les troupes légères de M. le maréchal Soult et la brigade Lasalle ont rencontré l'ennemi à une lieue en avant de la ville, l'ont chargé, culbuté, ont enlevé un guidon et pris 200 hommes montés."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Alors le général Legrand a reçu l'ordre de M. le maréchal Soult d'attaquer les ouvrages avancés de la porte de Mühlen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "1,200 hommes et 3 généraux qui les défendaient ont été faits prisonniers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Une colonne qui s'était retirée par la route de Hamburg, forte de 6 escadrons et de quelques bataillons, s'est rendue à la cavalerie légère de M. le maréchal Soult."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Sire, 5,000 hommes, 3 ou 4 généraux, au moins 50 pièces de canon ont été les résultats de cette journée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Le prince de Ponte-Corvo a pris 1,000 ou 1,200 Suédois qui étaient déjà embarqués."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "Arrivé à Schlutup sur la Trave, il fit environner un corps de 1,600 Suédois qui avaient enfin jugé convenable d'opérer leur retraite du Lauenburg pour s'embarquer sur la Trave."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "Un convoi de 300 voitures, que le général Savary avait poursuivi de Wismar, fut enveloppé par la colonne du prince de Ponte-Corvo et pris."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "4,000 prisonniers, 60 pièces de canon, plusieurs généraux, un grand nombre d'officiers tués ou pris, tel est le résultat de cette belle journée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "Ces 2 journées ont détruit le dernier corps qui restait de l'armée prussienne, et nous ont valu le reste de l'artillerie de cette armée, beaucoup de drapeaux et 16,000 prisonniers, parmi lesquels se trouvent 4,000 hommes de cavalerie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p294-figures-v1",
+          "section": "p294",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 294 (transcribed from the page image)",
+          "quote": "Das Regiment Tschammer hatte allein einen Verlust von gegen 300 Mann.¹)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p294-figures-v1",
+          "section": "p294",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 294 (transcribed from the page image)",
+          "quote": "Als das Mühlenthor geöffnet worden, drang Kavallerie in die Stadt ein; das Regiment Owstien formirte Quarree und erst nach sehr großem Verlust mußte sich der Rest des Regiments und die zu demselben geflüchteten Jäger und Füsiliere ergeben.²)"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p295-figures-v1",
+          "section": "p295",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 295 (transcribed from the page image)",
+          "quote": "Etwa 4000 Verwundete mußten versorgt, 5—6000 Gefangene in den Kirchen untergebracht werden, denen man durch die Fenster nur gekochtes Mehl, schwarzes Brod und Stroh verabreichte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p299-figures-v1",
+          "section": "p299",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 299 (transcribed from the page image)",
+          "quote": "Das Feuer der reit. Artillerie ward eingestellt und ein Offizier mit einem Trompeter vorgesandt, und zum Obersten Ricaud, Adjutanten des M. Soult, geführt, der den Major Ende hinter Krempelsdorf zum Großherzog von Berg, dem M. Bernadotte und M. Soult brachte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p299-figures-v1",
+          "section": "p299",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 299 (transcribed from the page image)",
+          "quote": "Die Kapitulation wurde bald abgeschlossen und dem Feinde noch etwa 360 Pferde und 4 reit. Geschütze übergeben, nachdem sich noch die bei Hambergen aufgestellte Schwadron herangezogen hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p299-figures-v1",
+          "section": "p299",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 299 (transcribed from the page image)",
+          "quote": "Der Major Witzleben, der die Brücke bei Moisling bereits zum Theil zerstört hatte, wurde durch die bei Krumeß und Kronsvoer übergegangene feindliche Kavallerie in dieser Arbeit gestört, und bald darauf auch durch feindliche Infanterie angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p299-figures-v1",
+          "section": "p299",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 299 (transcribed from the page image)",
+          "quote": "Auf diesem Marsch wurde er unerwartet von einer Gartenmauer zur Linken her von einer ansehnlichen feindlichen Infanterie-Masse und in der Front von Kavallerie angegriffen. und bevor die Geschütze noch abprotzen konnten, überwältigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p299-figures-v1",
+          "section": "p299",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 299 (transcribed from the page image)",
+          "quote": "Die 4 Kompagnien waren noch 9 Offiziere 136 Mann stark."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Auf dem Marsch wurde der Theil der preußischen Bagage, der am 3. November von Dobbertin nach Wismar unter dem Hauptmann Froideville entsendet worden war, von den französischen Truppen eingeholt und genommen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p300-figures-v1",
+          "section": "p300",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 300 (transcribed from the page image)",
+          "quote": "Während in Ratkau im Hauptquartier des Generals Blücher noch für den folgenden Tag die erforderlichen Anordnungen getroffen wurden, ging die Meldung ein, daß der Feind Schwartau überfallen und die dort aufgestellten Truppen gefangen genommen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p301-figures-v1",
+          "section": "p301",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 301 (transcribed from the page image)",
+          "quote": "Kaum war dies geschehen, als der Feind unter dem Schutz der finstern, regnigten Nacht die Dragonerposten mit dem größten Ungestüm angriff."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p301-figures-v1",
+          "section": "p301",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 301 (transcribed from the page image)",
+          "quote": "so war es denn dem rasch nachdringenden Feinde möglich, Alles in der Finsterniß auseinanderzusprengen und den größten Theil des Regiments Kunheim an der Brücke im Flecken gefangen zu nehmen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's loss in the reports: Bernadotte estimated his corps's loss at more than 1,500 killed or wounded, with several companies now commanded only by their sergeant-major and many brave officers to regret, and at the outer gate the 8th regiment had already lost many men. The 4th corps's report says the loss of Legrand's division was not very considerable. The Grand Duke of Berg wrote that Lasalle, received under the walls by 6 rounds of canister, lost some men. Höpfner says the Prussian artillery at the Mühlenthor inflicted great losses on the enemy. No passage read gives a figure for Soult's corps or the cavalry, or a total for side A other than Bodart's about 2,000.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Side A's letters and side B's history, read from the page images, with Bodart from the frame transcription; the 1,500 was checked on a full-resolution crop. Bernadotte's 'our loss' is read as his corps's, the subject of his letter. Bodart's about 2,000 (claim bodart-losses) is above Bernadotte's figure. English renderings (ours): Bodart, as in claim bodart-losses; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'this day was one of the most brilliant that can be cited; but Your Highness will understand that it must also have been very bloody; we have to regret many brave officers'; 'I estimate our loss at more than 1,500 men killed or wounded; several companies are now commanded only by their sergeant-major'; 'the inner gate was taken, but new resistance was met at the outer gate, which, like the rampart, was manned with infantry and defended by 2 pieces'; 'the 8th regiment had already lost many men without anything being able to shake its ardour'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'Legrand's division took on the ramparts of the town, at the outworks and in the streets 2,500 prisoners with their officers and 2 generals (Generals Haufberg and Zwiffel); it took 9 flags and 25 pieces of cannon with their caissons'; 'through the effect of the wise dispositions that General Legrand made and the rare intrepidity the men showed, their loss was not very considerable'; 'Adjutant-commandant Cosson, his chief of staff, and his own aides-de-camp. (4th corps.)'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'General Lasalle, carrying through his charge, arrived under the walls of the town, where he was received by 6 rounds of canister; he lost some men and kept his position'; 'the Mühlenthor was attacked first, early on the 6th, by Marshal Soult and the Grand Duke of Berg'; 'at last a lively attack followed, in which the cannonade became very heavy; the enemy however had to give up his purpose, since the Prussian artillery at the Mühlenthor, supported by that at the Hörterthor, was very superior and inflicted great losses on the enemy'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p739-figures-v1",
+          "section": "p739",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 739 (transcribed from the page image)",
+          "quote": "Cette journée a été une des plus brillantes que l'on puisse citer; mais V. A. concevra qu'elle a dû être aussi fort sanglante; nous avons à regretter beaucoup de braves officiers."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p739-figures-v1",
+          "section": "p739",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 739 (transcribed from the page image)",
+          "quote": "J'estime notre perte à plus de 1,500 hommes tués ou blessés;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p739-figures-v1",
+          "section": "p739",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 739 (transcribed from the page image)",
+          "quote": "plusieurs compagnies ne sont plus commandées que par leur sergent-major."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "on s'empara de la porte intérieure, mais on trouva une nouvelle résistance à la porte extérieure qui était, ainsi que le rempart, garnie d'infanterie et défendue par 2 pièces;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p738-figures-v1",
+          "section": "p738",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 738 (transcribed from the page image)",
+          "quote": "le 8e régiment avait déjà perdu beaucoup de monde sans que rien ne pût ébranler son ardeur."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "1. La division Legrand fit sur les remparts de la ville, aux avancées et dans les rues, 2,500 prisonniers avec leurs officiers et 2 généraux (les généraux Haufberg et Zwiffel); elle prit 9 drapeaux et 25 pièces de canon avec leurs caissons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "Par l'effet des sages dispositions que le général Legrand prit et par la rare intrépidité que les hommes montrèrent, leur perte ne fut pas très-considérable."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "l'adjudant-commandant Cosson, son chef d'état-major, et ses propres aides de camp. (4e corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Le général Lasalle, en fournissant sa charge, est arrivé sous les murs de la ville où il a été reçu par 6 coups de canon à mitraille; il a perdu quelques hommes et a conservé sa position."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Das Mühlenthor wurde am 6. früh zuerst von dem M. Soult und dem Großherzog von Berg angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Endlich erfolgte ein lebhafter Angriff, wobei die Kanonade sehr heftig wurde; der Feind mußte jedoch von seinem Vorhaben abstehen, da die preußische Artillerie am Mühlenthor, von der am Hörterthor unterstützt, sehr überlegen war, und dem Feinde große Verluste zufügte."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Franz. Verl.: ca. 2.000 M. (63 Offz.)"
+        }
+      ]
+    },
+    {
+      "id": "lubeck-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Lübeck, a free city of northern Germany, on the Trave, 15 km from the Baltic. Höpfner: the town lay on the right bank of the Trave at the inflow of the Wakenitz; on the German side it had 3 gates, the Burgthor, where the roads from Gadebusch by Herrenburg, from Schlutupp and from Travemünde met, the Mühlenthor, which took the roads from Ratzeburg and Hamburg, and the Hörter-Thor between them; on the left bank only the Holstein gate led to Danish territory; and on this stretch the Trave could be crossed only on bridges. Before the Burgthor the ground rose towards the Galgenberg and overlooked the gate and the half-circle work before it, whose approach was a causeway 20 paces wide between the water of the broad Wakenitz and the deep Trave, flanked for 200 paces by the Bellevue bastion beyond the Trave. Bernadotte wrote that the town was surrounded by marshes, that on his side a lake covered its whole front, and that all his troops had to file along a causeway leading to the gate. The 1st corps journal, in Foucart's footnote: Lübeck lies in a plain, marshy in places, whose accidents do not give the attacker great advantages for placing his artillery; the roads from Schönberg and Travemünde meet at the gate at right angles, bordered by deep ditches, gardens, trees and houses, and the ground between them is entirely marshy, though passable in places.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's locator and the descriptions, read from the page images (Bodart's from the frame transcription). The ground was there before the action, so the claim is tagged inherited. The journal's description is in Foucart's footnote 1 to Bernadotte's letter, which closes with '(Journal du 1er corps.)'. Höpfner's 'Halbzirkel' is rendered 'half-circle'. English renderings (ours): Bodart, '(free city in northern Germany, on the Trave, 15 km from the Baltic)'; 'the town of Lübeck, on the right bank of the Trave at the inflow of the Wakenitz, had in earlier times a bastioned main wall with wet ditches, which were fed by the Trave and the Wakenitz'; 'the German side, or the enclosure on the right bank of the Trave, had 3 gates: the Burgthor, in which the roads from Gadebusch by Herrenburg, from Schlutupp and from Travemünde by the Herren-Fähre met; the Mühlenthor, which took the roads from Ratzeburg and from Hamburg; and the Hörter-Thor between them'; 'on the left bank of the Trave only the Holstein gate led to Danish territory'; 'it still had wall and ditch, and if it were properly defended, the infantry posted along the Trave on Lübeck and Swedish territory, the cavalry could recover behind it, the infantry also be properly fed, and since the enemy needed some days to pass the Trave, which on this stretch can be crossed only on bridges, the General could accept the fight under very favourable circumstances'; 'to this unpleasant position was added that the ground before the Burgthor rose towards the Galgenberg and fully overlooked the gate and the half-circle'; 'the approach to the half-circle was formed by a causeway 20 paces wide, bounded on both sides by the water of the broad Wakenitz and the deep Trave for 100 paces from the half-circle'; 'the Bellevue bastion, lying beyond the Trave, flanked the causeway for 200 paces with artillery and musket fire'; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'the town is surrounded by marshes, and on our side a lake covered its whole front'; 'to reach it all the troops had to file along a causeway that leads to the gate of the town'; 'Lübeck is in the middle of a plain, marshy in certain places, and the accidents of the ground are not considerable enough to give the attacker great advantages for placing his artillery'; 'the two roads from Schönberg and from Travemünde join at the gate at right angles to each other; they are bordered by fairly deep ditches, gardens, trees and houses'; 'the ground between the two is entirely marshy, though passable in some places. (Journal of the 1st corps.)'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "(Freie Stadt in Norddeutschland, an der Trave, 15 km von der Ostsee)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Die Stadt Lübeck¹), auf dem rechten Ufer der Trave am Einfluß der Wakenitz, hatte in frühern Zeiten einen bastionirten Hauptwall mit nassen Gräben, die durch die Trave und Wakenitz gespeist wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Die deutsche Seite, oder die Umwallung auf dem rechten Traveufer, hatte 3 Thore: das Burgthor, iu welchem sich die Straßen von Gadebusch über Herrenburg, von Schlutupp und von Travemünde über die Herren-Fähre, vereinigten; das Mühlenthor, welches die Straßen von Ratzeburg und von Hamburg aufnahm, und das Hörter-Thor zwischen inne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Auf dem linken Ufer der Trave führte nur das Holsteinsche Thor nach dem Dänischen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "er hatte noch Wall und Graben, und wurde er gehörig vertheidigt, die Infanterie längs der Trave auf lübeckschem und schwedischem Gebiet aufgestellt, so konnte die Kavallerie sich dahinter erholen, auch die Infanterie sich gehörig verpflegen, und da der Feind einiger Tage bedurfte, um die, auf dieser Strecke nur auf Brücken zu überschreitende, Trave zu passiren, so konnte der General das Gefecht unter sehr günstigen Umständen annehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Zu dieser unangenehmen Aufstellung kam noch, daß das Terrain vor dem Burgthor gegen den Galgenberg anstieg, und das Thor und den Halbzirkel völlig einsah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Den Zugang zu dem Halbzirkel bildete ein 20 Schritt breiter Damm, auf beiden Seiten durch das Wasser der breiten Wakenitz und der tiefen Trave auf 100 Schritt Entfernung vom Halbzirkel begrenzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Das jenseits der Trave liegende Bastion Bellevue flankirte den Damm auf 200 Schritt durch Artillerie- und Gewehrfeuer."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "La ville est entourée de marais et de notre côté un lac en couvrait tout le front."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Il fallait pour y arriver que toutes les troupes défilassent sur une chaussée qui conduit à la porte de la ville."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "1. Lübeck est au milieu d'une plaine marécageuse en certains endroits et les accidents du terrain ne sont pas assez considérables pour donner de grands avantages à l'attaquant pour l'établissement de son artillerie."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Les deux routes de Schönberg et de Travemünde se joignent à la porte perpendiculairement l'une à l'autre; elles sont bordées de fossés assez profonds, de jardins, d'arbres et de maisons."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Le terrain compris entre les deux est entièrement marécageux, quoique praticable dans quelques endroits. (Journal du 1er corps.)"
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian), in Höpfner: at Gadebusch the army still had numerous cavalry, but with very worn horses, and about 100 guns, but only the 1st corps had enough ammunition; the infantry lacked shoes, so that most had already walked their feet sore; money, bread and forage were lacking, the country around Gadebusch could not quickly make good the want, and there was no baggage. General Blücher had sent Rittmeister Bardeleben to Hamburg to raise a loan of 100,000 Reichsthaler to pay the troops. Lübeck, a rich trading town, offered money, food and shoes in plenty. In the town a hussar officer clearing the streets of vehicles also sent back the artillery's ammunition wagons in the half-circle before the Burgthor, so that the half battery of 12-pounders had for the moment only the 3 rounds of canister in the trail boxes; later the wagons were brought back to the nearest work, still at a considerable distance. At the Mühlenthor the cartridges were all fired off before the chamade. No passage read describes side A's supply.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images; the ½ and the 3 were checked on full-resolution crops. The passages mix the state brought from the retreat with events in the action, so the phase is left unresolved. Höpfner's '½ — 12pfündige Batterie' is read as a half battery of 12-pounders. English renderings (ours): 'the army had lost perhaps 4—5000 men on the retreat through fights, desertion and men worn out; it still had, it is true, numerous cavalry, but with very exhausted horses, counted about 100 guns, but only the 1st corps had sufficient ammunition'; 'the infantry lacked shoes, so that most had already walked their feet sore'; 'there was a want of money, of bread and forage, and the country around Gadebusch was not suited to make good quickly what was lacking; there was a want of baggage'; 'General Blücher was therefore also not of the opinion that he should fight at Gadebusch with the greatly superior enemy, but believed that he must first reach a position in which the troops could be granted some rest in safety'; 'the inspection adjutant, Rittmeister Bardeleben, had been sent by General Blücher to Hamburg to raise a loan of 100,000 Reichsthaler for the payment of the soldiers' pay'; 'the latter place was the nearest, only 5 miles away, was like Hamburg a rich trading [town]'; '[trading] town, in which all needs in money, food, shoes etc. were found in plenty'; 'hardly were the guns set up when a hussar officer, who had the order to clear the streets of the mass of vehicles, also sent back the artillery's ammunition wagons in the half-circle, so that the half 12-pounder battery had for the moment for its guns only the 3 rounds of canister in the trail boxes'; 'only later did they succeed in bringing the ammunition wagons back to the work nearest the post, but still at a considerable distance'; 'to this unpleasant position was added that the ground before the Burgthor rose towards the Galgenberg and fully overlooked the gate and the half-circle'; 'they defended themselves at the Mühlenthor, thus attacked in the right flank, front and rear, under General Lettow like desperate men, although the enemy had occupied the houses behind the walls, uncovered the roofs and fired on the defenders most heavily from there'; 'the men were almost all dead or wounded, the cartridges all fired off, in the town the fighting had long since stopped, when at last at 2 o'clock in the afternoon General Lettow had to have the chamade beaten'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Die Armee hatte durch Gefechte, Desertion und Ermüdete wohl 4—5000 Mann auf dem Rückzuge verloren, hatte zwar noch eine zahlreiche Kavallerie, jedoch mit sehr ermatteten Pferden, zählte gegen 100 Geschütze, aber nur das 1. Korps hatte hinreichende Munition;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "es fehlte der Infanterie an Schuhen, so daß die Mehrzahl sich bereits die Füße durchgelaufen hatte;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "es fehlte an Geld¹), an Brod und Futter, und die Gegend von Gadebusch war nicht geeignet, das Fehlende schnell zu ersetzen; es fehlte an Bagage."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der General Blücher war daher auch nicht der Meinung, sich bei Gadebusch mit dem sehr überlegenen Feinde zu schlagen, sondern glaubte fürs Erste eine Stellung erreichen zu müssen, in welcher man den Truppen mit Sicherheit einige Ruhe würde gönnen können."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "1) Der Inspektions-Adjutant, Rittmeister Bardeleben, war vom General Blücher nach Hamburg gesandt worden, um zur Bezahlung des Soldes ein Anlehen von 100,000 Rthlr. zu machen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der letztere Ort war der nächste, nur 5 Meilen entfernt, war gleich Hamburg eine reiche Handels-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "stadt, in der man alle Bedürfnisse an Geld, Lebensmitteln, Schuhen ꝛc. reichlich vorfand;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Kaum waren die Geschütze aufgestellt, als ein Husaren-Offizier, der den Befehl hatte, die Straßen von der Menge Fuhrwerk frei zu machen, auch die Munitionswagen der Artillerie im Halbzirkel zurückwies, so daß die ½ — 12pfündige Batterie augenblicklich für das Geschütz nur die 3 Kartätschschuß im Laffetenkasten bei sich hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Erst später gelang es, die Munitionswagen wieder bis zu dem dem Posten zunächst gelegenen Werke, aber immer noch in bedeutender Entfernung, zurückzuführen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Zu dieser unangenehmen Aufstellung kam noch, daß das Terrain vor dem Burgthor gegen den Galgenberg anstieg, und das Thor und den Halbzirkel völlig einsah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Sie wehrten sich am Mühlenthor, somit in der rechten Flanke, Front und im Rücken angegriffen, unter dem General Lettow wie Verzweifelte, obgleich der Feind die Häuser hinter den Wällen besetzt, die Dächer abgedeckt hatte und die Vertheidiger von dort aus auf das Heftigste beschoß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Die Mannschaft war fast sämmtlich todt oder verwundet, die Patronen sämmtlich verfeuert, in der Stadt hatte das Gefecht bereits längst aufgehört, als endlich um 2 Uhr Nachmittags der General Lettow Chamade schlagen lassen mußte."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "At Schönberg at 4 in the morning of the 6th Bernadotte wrote to the Grand Duke of Berg that all the reports and reconnaissances gave him the certainty that the enemy had not made the suspected turn towards Wismar and had very few men at Lübeck. His letter of 7 November says that his reconnaissances had told him that Blücher had directed part of his troops on Lübeck while another column took the Ratzeburg road, and that in the night he learned that 2,000 Swedes retreating from the Lauenburg had entered Lübeck and were to embark on the Trave; Höpfner has the marshals find the Gadebusch position abandoned on 5 November and learn of the Prussians' retreat on Lübeck, and Bernadotte learn of the Swedes in the night to the 6th. Before the town Bernadotte soon recognised that the enemy meant to defend it and that the locality gave him great advantages. The Grand Duke of Berg wrote that the rivers Wakenitz and Steckenitz were reconnoitred and observed.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters and side B's history, read from the page images; the 2,000 was checked on a full-resolution crop. Bernadotte's morning estimate stands against the larger figures in his own letter of the 7th and in the journal (claim side-b-strength-french). English renderings (ours): 'Marshal Bernadotte to the Grand Duke of Berg. Schönberg, 6 November 1806, 4 o'clock in the morning'; 'all the reports that have reached me and the result of the reconnaissances I sent out give me the certainty that the enemy has not made the hook towards Wismar that we suspected, and that he has very few men at Lübeck'; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'since then my reconnaissances told me that General Blücher had indeed directed part of his troops on Lübeck, but that at the same time another column had taken the road to Ratzeburg'; 'during the night I learned that 2,000 Swedes retreating from the Lauenburg had entered Lübeck yesterday and were to embark there on the Trave'; 'when they therefore found the position at Gadebusch evacuated on 5 November and learned of the Prussians' retreat on Lübeck, Marshal Bernadotte followed at once directly from Gadebusch by Rhena to Schönberg, while the Grand Duke of Berg and Marshal Soult turned left by Ratzeburg'; 'still in the night to the 6th Marshal Bernadotte learned that a detachment of Swedes had withdrawn from Lauenburg to Lübeck and was about to embark at Travemünde'; 'I soon recognised that the enemy meant to defend the place and that the locality gave him great advantages'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'meanwhile Sahuc's division and the whole of Marshal Soult's corps were following; the various roads were intercepted; the rivers Wakenitz and Steckenitz were reconnoitred and observed'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU GRAND-DUC DE BERG."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Schönberg, 6 novembre 1806, 4 heures du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Tous les rapports qui me sont parvenus et le résultat des reconnaissances que j'ai envoyées, me donnent la certitude que l'ennemi n'a point fait le crochet que nous soupçonnions sur Wismar, et qu'il n'a que très-peu de monde à Lübeck."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p733-figures-v1",
+          "section": "p733",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 733 (transcribed from the page image)",
+          "quote": "depuis, mes reconnaissances m'apprirent que le général Blücher avait effectivement dirigé une partie de ses troupes sur Lübeck, mais qu'en même temps une autre colonne avait pris le chemin de Ratzeburg."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p733-figures-v1",
+          "section": "p733",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 733 (transcribed from the page image)",
+          "quote": "Pendant la nuit j'appris que 2,000 Suédois se retirant du Lauenburg étaient entrés hier à Lübeck et devaient s'y embarquer sur la Trave."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Als sie daher am 5. November die Stellung bei Gadebusch geräumt fanden und den Rückzug der Preußen auf Lübeck erfuhren, folgte der M. Bernadotte sogleich unmittelbar von Gadebusch über Rhena bis Schönberg, während der Großherzog von Berg und der M. Soult sich links über Ratzeburg wandten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Noch in der Nacht zum 6. erfuhr der M. Bernadotte, daß eine Abtheilung Schweden sich von Lauenburg nach Lübeck abgezogen hätte, und im Begriff stände, sich bei Travemünde einzuschiffen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je reconnus bientôt que l'ennemi voulait défendre la place et que les localités lui assuraient de grands avantages,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Cependant la division Sahuc et tout le corps de M. le maréchal Soult suivaient; les différentes routes étaient interceptées; les rivières de la Wakenitz et de la Steckenitz étaient reconnues et observées."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: the Elbe crossing at Lauenburg had been given up, by some accounts because of news that some thousands of enemy cavalry already blocked the way. At half past eight General Blücher told a deputation of citizens that circumstances had changed and that he had not believed the enemy so near. At the Mühlenthor prisoners said that the Grand Duke of Berg commanded opposite, and the presence of much cavalry confirmed it; Blücher stayed mostly at the Mühlenthor, where he had expected the main attack. After the Burgthor fell, Captain Müffling pointed out to him that he was already cut off from the Holstein gate; outside the town the Duke of Oels said he had not known that the General was still in the town, and General Natzmer that, as he was about to advance to the Burgthor in support, the routed Prussian troops and the enemy's were already coming at him. In the night, while orders for the next day were being given at Ratkau, the report came that the enemy had surprised Schwartau and taken the troops there prisoner.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The sentence at the head of p. 292 begins on p. 291, which was not transcribed; its 'him' is read as Blücher from the sentences that follow ('the General ...'; 'outside the town General Blücher found ...'). The report of Schwartau's surprise came in the night, at Ratkau, after the town was lost. English renderings (ours): 'the Elbe crossing at Lauenburg was given up; according to some statements, because there was news that the way there had already been blocked by some thousands of enemy cavalry'; 'at half past eight a deputation of the citizenry had come to General Blücher to move him to leave the town, as he had promised the day before'; 'the General answered that circumstances had changed, that he had not believed the enemy so near; a withdrawal was therefore now no longer to be thought of; he would defend himself to the last man'; 'the Mühlenthor was attacked first, early on the 6th, by Marshal Soult and the Grand Duke of Berg'; 'prisoners stated that the Grand Duke of Berg commanded opposite, and the presence of much cavalry confirmed it'; 'General Blücher, who had stayed mostly at the Mühlenthor, where he had expected the main attack, had, after'; 'and to withdraw to the Holstein gate, when Captain Müffling pointed out to him that he was already cut off from there, since the fire at the Trave bridge, which was still defended by light troops, had grown ever livelier'; 'the General now had to fight his way out of the town in earnest and was fired on from every cross street on the way'; 'outside the town General Blücher found the Duke of Oels and General Natzmer already there'; 'the Duke replied that he had not known that the General was still in the town, and General Natzmer said that at the moment he had wanted to advance towards the Burgthor in support, the routed troops of his own side and the enemy's were already coming towards him'; 'while in Ratkau, at General Blücher's headquarters, the necessary arrangements for the following day were still being made, the report came in that the enemy had surprised Schwartau and taken the troops posted there prisoner'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Den Elbübergang bei Lauenburg gab man auf; nach einigen Angaben, weil man Nachrichten hatte, daß der Weg dahin bereits durch einige Tausend Mann feindlicher Kavallerie verlegt worden sei,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Um ½9 Uhr war eine Deputation der Bürgerschaft zum General Blücher gekommen, um ihn zu bewegen, die Stadt zu verlassen, wie er es am Tage zuvor verheißen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Der General antwortete, daß die Umstände sich geändert hätten, daß er den Feind nicht so nahe geglaubt habe; es sei daher nunmehr an einen Abzug nicht mehr zu denken; er werde sich bis auf den letzten Mann wehren;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Das Mühlenthor wurde am 6. früh zuerst von dem M. Soult und dem Großherzog von Berg angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Gefangene sagten aus, daß der Großherzog von Berg gegenüber kommandire, und die Anwesenheit vieler Kavallerie bestätigte es."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p288-figures-v1",
+          "section": "p288",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 288 (transcribed from the page image)",
+          "quote": "Der General Blücher, der sich meist beim Mühlenthor aufgehalten, wo er den Hauptangriff vermuthet hatte, war, nachdem"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "und sich nach dem Holsteinschen-Thor zurückziehen, als ihm der Hauptmann Müffling bemerkbar machte, daß er von dort bereits abgeschnitten sei, da das Feuer an der Travebrücke, die noch durch leichte Truppen vertheidigt wurde, immer lebhafter geworden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General mußte sich nun förmlich aus der Stadt hinausschlagen und wurde auf diesem Wege aus allen Querstraßen beschossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Außerhalb der Stadt fand der General Blücher bereits den Herzog von Oels und den General Natzmer."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der Herzog erwiederte, daß er nicht gewußt habe, daß der General noch in der Stadt sei, und der General Natzmer sagte, daß ihm in dem Augenblick, wo er gegen das Burgthor habe zur Unterstützung vorgehen wollen, bereits die geworfenen eigenen und die feindlichen Truppen entgegen gekommen wären."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p300-figures-v1",
+          "section": "p300",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 300 (transcribed from the page image)",
+          "quote": "Während in Ratkau im Hauptquartier des Generals Blücher noch für den folgenden Tag die erforderlichen Anordnungen getroffen wurden, ging die Meldung ein, daß der Feind Schwartau überfallen und die dort aufgestellten Truppen gefangen genommen habe."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Höpfner: the three marshals decided at Schwerin on 4 November, given their superiority, to leave General Blücher no time to establish himself anywhere in a strong position. Bernadotte sent General Maison to Schlutupp to interrupt the shipping on the Trave (Höpfner) and charged General Rouyer to take the Swedish ships (his letter). On the evening of the 6th the Grand Duke of Berg wrote that he hoped the result would be the capture of General Blücher's whole corps and the Duke of Weimar's, that at daybreak all the cavalry would march on Blücher, and that d'Hautpoul had orders to summon him; Soult, that the remainder of Blücher's column and General Wenniping's, which had withdrawn towards Travemünde, would be pursued there the next day and no doubt forced to surrender unless it broke through the cordon of Danish troops on the Holstein frontier.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's letters and side B's history, read from the page images. These were the marshals' own aims in the pursuit and the action, so the claim is tagged commander-created; no order from above for the attack on Lübeck was read. 'Wenniping' is printed so in Foucart and kept. English renderings (ours): 'the three marshals united at Schwerin had decided there on 4 November, given their superiority, to leave General Blücher no time to establish himself anywhere in a strong position'; 'still in the night to the 6th Marshal Bernadotte learned that a detachment of Swedes had withdrawn from Lauenburg to Lübeck and was about to embark at Travemünde'; 'he at once sent General Maison with some voltigeur companies, some guns and 100 horses to Schlutupp, with the order to interrupt the shipping on the Trave from there'; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'continuing our march we arrived at Schlutup, where we indeed saw on the Trave several ships ready to sail with Swedish troops, part of them already embarked, the others on the shore'; 'I charged General Rouyer, with part of his brigade, to make himself master of them'; 'the Grand Duke of Berg to the Emperor. Lübeck, 6 November 1806, 9 o'clock in the evening'; 'Sire, I hasten to announce to Your Majesty the most brilliant success, the result of which will be, I hope, the capture of the whole corps of General Blücher and that of the Duke of Weimar'; 'tomorrow at daybreak all the cavalry will march on General Blücher'; 'General d'Hautpoul has the order to summon General Blücher'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'the remainder of General Blücher's column and that of General Wenniping, united, withdrew towards Travemünde'; 'tomorrow it will be pursued there and no doubt forced to surrender, unless it forces the cordon of Danish troops on the Holstein frontier'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Die drei bei Schwerin vereinigten Marschälle hatten daselbst am 4. November beschlossen, bei ihrer Ueberlegenheit, dem General Blücher keine Zeit zu lassen, sich irgendwo in einer starken Stellung festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Noch in der Nacht zum 6. erfuhr der M. Bernadotte, daß eine Abtheilung Schweden sich von Lauenburg nach Lübeck abgezogen hätte, und im Begriff stände, sich bei Travemünde einzuschiffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Er sandte sogleich den General Maison mit einigen Voltigeurs-Kompagnien, einigen Geschützen und 100 Pferden mit dem Befehl nach Schlutupp, von dort aus die Schiffahrt auf der Trave zu unterbrechen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Continuant notre marche nous arrivâmes à Schlutup où nous reconnûmes effectivement sur la Trave plusieurs bâtiments prêts à mettre à la voile avec des troupes suédoises dont une partie déjà embarquées, les autres sur le rivage."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je chargeai le général Rouyer avec une partie de sa brigade de s'en rendre maître;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806, 9 heures du soir."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p744-figures-v1",
+          "section": "p744",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 744 (transcribed from the page image)",
+          "quote": "Sire, je m'empresse d'annoncer à V. M. le plus brillant succès dont le résultat sera, je l'espère, la prise de tout le corps du général Blücher et de celui du duc de Weimar."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Demain à la pointe du jour toute la cavalerie marchera sur le général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p745-figures-v1",
+          "section": "p745",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 745 (transcribed from the page image)",
+          "quote": "Le général d'Hautpoul a l'ordre de sommer le général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Le restant de la colonne du général Blücher et de"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "celle du général Wenniping réunies s'est retiré vers Travemünde."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p743-figures-v1",
+          "section": "p743",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 743 (transcribed from the page image)",
+          "quote": "Demain il y sera poursuivi et sans doute obligé de se rendre à moins qu'il ne force le cordon de troupes danoises qui est sur la frontière du Holstein."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Höpfner: General Blücher would not fight at Gadebusch but sought first a position where the troops could be given some rest in safety. Of the two directions left, Hamburg and Lübeck, Lübeck was the nearer, a rich trading town with plenty of money, food and shoes; it still had wall and ditch, and if it were properly defended, with the infantry along the Trave on Lübeck and Swedish territory, the cavalry could recover behind it and the infantry be fed, and since the enemy needed some days to cross the Trave, the General could accept battle in very favourable circumstances; reinforcement by the Swedish troops that had withdrawn to Lübeck to embark at Travemünde was also counted on. In Lübeck Blücher told the citizens' deputation that he would defend himself to the last man, and at the Mühlenthor all had orders to defend themselves to the utmost and think of no retreat. When the town was lost he hoped to attack it again in the night, then decided to attack at once.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images. These were Blücher's own aims, so the claim is tagged commander-created. Where Höpfner says only 'the General' or 'he', the claim cites the sentence that names Blücher. English renderings (ours): 'General Blücher was therefore also not of the opinion that he should fight at Gadebusch with the greatly superior enemy, but believed that he must first reach a position in which the troops could be granted some rest in safety'; 'there remained next only two directions: to Hamburg or to Lübeck'; 'the latter place was the nearest, only 5 miles away, was like Hamburg a rich trading [town]'; '[trading] town, in which all needs in money, food, shoes etc. were found in plenty'; 'it still had wall and ditch, and if it were properly defended, the infantry posted along the Trave on Lübeck and Swedish territory, the cavalry could recover behind it, the infantry also be properly fed, and since the enemy needed some days to pass the Trave, which on this stretch can be crossed only on bridges, the General could accept the fight under very favourable circumstances'; 'it was also counted on to see the army reinforced by the Swedish troops, which had withdrawn from the Lauenburg country to Lübeck to be embarked at Travemünde'; 'General Blücher therefore decided to go back to Lübeck'; 'at half past eight a deputation of the citizenry had come to General Blücher to move him to leave the town, as he had promised the day before'; 'the General answered that circumstances had changed, that he had not believed the enemy so near; a withdrawal was therefore now no longer to be thought of; he would defend himself to the last man'; 'from the Hörterthor the General went to the Mühlenthor, where French cavalry had very early alarmed the troops still outside the gate'; 'all had the order to defend themselves to the utmost and to think of no retreat'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'despite the unfavourable circumstances the General conceived the hope of being able to attack Lübeck again with success in the following night, and this hope calmed him for the moment'; 'but hardly had he moved a little away from the town with the rescued infantry when he heard the very lively fire of the troops still defending themselves at the Hörter and Mühlen gates'; 'this brought him to the decision to risk another attack on Lübeck at once'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der General Blücher war daher auch nicht der Meinung, sich bei Gadebusch mit dem sehr überlegenen Feinde zu schlagen, sondern glaubte fürs Erste eine Stellung erreichen zu müssen, in welcher man den Truppen mit Sicherheit einige Ruhe würde gönnen können."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Man hatte nächstdem nur noch zwei Richtungen: nach Hamburg oder nach Lübeck."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p272-figures-v1",
+          "section": "p272",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 272 (transcribed from the page image)",
+          "quote": "Der letztere Ort war der nächste, nur 5 Meilen entfernt, war gleich Hamburg eine reiche Handels-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "stadt, in der man alle Bedürfnisse an Geld, Lebensmitteln, Schuhen ꝛc. reichlich vorfand;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "er hatte noch Wall und Graben, und wurde er gehörig vertheidigt, die Infanterie längs der Trave auf lübeckschem und schwedischem Gebiet aufgestellt, so konnte die Kavallerie sich dahinter erholen, auch die Infanterie sich gehörig verpflegen, und da der Feind einiger Tage bedurfte, um die, auf dieser Strecke nur auf Brücken zu überschreitende, Trave zu passiren, so konnte der General das Gefecht unter sehr günstigen Umständen annehmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "Man rechnete auch darauf, die Armee durch die schwedischen Truppen verstärkt zu sehen, die sich aus dem Lauenburgischen nach Lübeck abgezogen hatten, um in Travemünde eingeschifft zu werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p273-figures-v1",
+          "section": "p273",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 273 (transcribed from the page image)",
+          "quote": "Der General Blücher entschloß sich daher, nach Lübeck zurückzugehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Um ½9 Uhr war eine Deputation der Bürgerschaft zum General Blücher gekommen, um ihn zu bewegen, die Stadt zu verlassen, wie er es am Tage zuvor verheißen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Der General antwortete, daß die Umstände sich geändert hätten, daß er den Feind nicht so nahe geglaubt habe; es sei daher nunmehr an einen Abzug nicht mehr zu denken; er werde sich bis auf den letzten Mann wehren;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Vom Hörterthor begab sich der General zum Mühlenthor, wo bereits sehr früh französische Kavallerie die außerhalb des Thores noch befindlichen Truppen allarmirt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Alles hatte den Befehl, sich aufs Aeußerste zu vertheidigen und an keinen Rückzug zu denken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General faßte trotz der ungünstigen Umstände die Hoffnung, Lübeck in der folgenden Nacht noch einmal mit Erfolg angreifen zu können, und diese Hoffnung beruhigte ihn für den Augenblick."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Kaum hatte er sich indessen mit der geretteten Infanterie etwas von der Stadt entfernt, als er das sehr lebhafte Feuer der sich noch am Hörter- und Mühlenthor vertheidigenden Truppen hörte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Dies brachte ihn auf den Entschluß, sofort noch einen Angriff auf Lübeck zu wagen."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked the town held by side B. Bernadotte, seeing that the enemy meant to defend it, ordered the attack, with Drouet's division at the head; on the other side Soult's light artillery was placed 100 toises from the place and the enemy attacked at once, and Legrand's division carried the advanced work and forced the Mühlen gate; Höpfner has the Mühlenthor attacked first, early on the 6th, by Soult and the Grand Duke of Berg. The 29th Bulletin: the enemy thought he could gain a day there, but to see him, reconnoitre him and attack him was the affair of an instant. Side B defended the walls and gates; after the Burgthor fell, General Blücher counter-attacked with the regiment Kunheim to within 100 paces of the Holstein gate and was driven back.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded A_attacked: all the accounts read have side A attack the town and its gates and side B defend them. Tagged commander-created: the attack followed the marshals' decision of 4 November to leave Blücher no time and Bernadotte's own order on seeing the defences (claim side-a-command). English renderings (ours): 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'I soon recognised that the enemy meant to defend the place and that the locality gave him great advantages'; '[but, strong in the in]trepidity of our troops, I did not hesitate to order the attack'; 'I ordered Drouet's division, which was at the head, to form by divisions and half-battalions and to advance, preceded by its voltigeur companies and supported by some pieces of cannon that I at once had placed on the'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'as soon as the light artillery had arrived, it was placed 100 toises from the place and the works, and the enemy was attacked at once'; 'General Legrand's division was charged with carrying the advanced work of the Mühlen gate'; 'General Legrand forced the Mühlen gate and entered the town at the same time as the 1st army corps was entering it from another side'; 'the Mühlenthor was attacked first, early on the 6th, by Marshal Soult and the Grand Duke of Berg'; 'the three marshals united at Schwerin had decided there on 4 November, given their superiority, to leave General Blücher no time to establish himself anywhere in a strong position'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'the enemy had hastily arranged the old enceinte of Lübeck; he had placed batteries on the bastions; he did not doubt that he could gain a day there; but to see him, reconnoitre him and attack him was the affair of an instant'; 'the gates are at once broken in, the bastions scaled, the enemy put to flight, and the Prince of Ponte-Corvo's corps enters by the Trave gate'; 'General Blücher lost with Lübeck a great part of his artillery, 22 guns without the regimental cannon, and the main strength of the infantry'; 'this brought him to the decision to risk another attack on Lübeck at once'; 'the regiment Kunheim had to face about, form columns of sections and go forward to the attack under the leadership of the brave Colonel Thümen'; 'he pressed forward, accompanied by Generals Blücher and Natzmer and the Duke of Oels, at a slow pace with determination to within 100 paces of the Holstein gate, despite the heavy flanking fire from the walls'; 'the superiority was however too great, and when the bridge at the gate was now also occupied by the French, the Prussians were fired on most heavily in front and flanks'; 'the retreat had to be taken towards the cavalry gathered behind Lübeck'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p734-figures-v1",
+          "section": "p734",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 734 (transcribed from the page image)",
+          "quote": "Je reconnus bientôt que l'ennemi voulait défendre la place et que les localités lui assuraient de grands avantages,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "trépidité de nos troupes je ne balançai pas à ordonner l'attaque."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "J'ordonnai à la division Drouet qui se trouvait en tête de se former par division et demi-bataillons et d'avancer précédée par ses compagnies de voltigeurs et soutenue par quelques pièces de canon que je fis de suite établir sur les"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Aussitôt que l'artillerie légère a été arrivée³, elle a été placée à 100 toises de la place et des ouvrages, et l'ennemi a été immédiatement attaqué."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "La division du général Legrand⁴ a été chargée d'enlever l'ouvrage avancé de la porte de Mühlen⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Le général Legrand a forcé la porte de Mühlen et est entré dans la ville en même temps que le 1er corps d'armée y pénétrait par un autre côté;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p284-figures-v1",
+          "section": "p284",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 284 (transcribed from the page image)",
+          "quote": "Das Mühlenthor wurde am 6. früh zuerst von dem M. Soult und dem Großherzog von Berg angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p277-figures-v1",
+          "section": "p277",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 277 (transcribed from the page image)",
+          "quote": "Die drei bei Schwerin vereinigten Marschälle hatten daselbst am 4. November beschlossen, bei ihrer Ueberlegenheit, dem General Blücher keine Zeit zu lassen, sich irgendwo in einer starken Stellung festzusetzen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "L'ennemi avait arrangé à la hâte l'ancienne enceinte de Lübeck; il avait disposé des batteries sur les bastions; il ne doutait pas qu'il ne pût gagner là une journée; mais le voir, le reconnaître et l'attaquer fut l'affaire d'un instant."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "Les portes sont aussitôt enfoncées, les bastions escaladés, l'ennemi mis en fuite et le corps du prince de Ponte-Corvo entre par la porte de la Trave."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Der General Blücher verlor mit Lübeck einen großen Theil seiner Artillerie, 22 Geschütze ohne die Regimentskanonen, und die Hauptkräfte der Infanterie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Dies brachte ihn auf den Entschluß, sofort noch einen Angriff auf Lübeck zu wagen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Das Regmt. Kunheim mußte Front machen, Sektions-Kolonnen formiren und unter Führung des tapfern Obersten Thümen zum Angriff vorgehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p292-figures-v1",
+          "section": "p292",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 292 (transcribed from the page image)",
+          "quote": "Derselbe drang in Begleitung der Generale Blücher, Natzmer und des Herzogs von Oels im"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "langsamen Schritt mit Entschlossenheit bis auf 100 Schritt vom Holsteinschen-Thor ungeachtet des heftigen Flankenfeuers von den Wällen vor."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Die Uebermacht war indessen zu groß, und als nun auch die Brücke am Thor von den Franzosen besetzt wurde, wurden die Preußen in Front und Flanken aufs Lebhafteste beschossen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p293-figures-v1",
+          "section": "p293",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 293 (transcribed from the page image)",
+          "quote": "Der Rückzug mußte auf die hinter Lübeck versammelte Kavallerie angetreten werden.¹)"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a fortified town. Höpfner: Lübeck had in earlier times a bastioned main wall with wet ditches fed by the Trave and the Wakenitz; the parapets had begun to be removed, but the walls and ditches were still fully sufficient to repulse a storm. The 1st corps journal, in Foucart's footnote: the bastioned enceinte was dismantled, but the terre-pleins and the ditches, at least 10 feet deep, in which the Trave and the Wakenitz flow, had been kept, and in place of the former demi-lune a tambour of spaced palisades on a retaining wall had been built. Bernadotte wrote that the Prussians had made the gate a veritable place d'armes, bristling with cannon, with guns on 2 bastions on the flanks of the entrance; the 29th Bulletin, that the enemy was fortifying himself at Lübeck and had hastily arranged its old enceinte and placed batteries on the bastions. At the Hörter-Thor two horse guns were posted about 200 paces ahead and secured against cavalry by felled trees, and the 4 battalion pieces stood on the broken-down powder tower (Höpfner). Soult wrote of the advanced work of the Mühlen gate and of a kind of hornwork, entirely detached and defended by 2 battalions, that was also forced.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: the walls, ditches and gates were permanent works held by side B at the start, so the claim is tagged inherited; the batteries and the felled trees were side B's preparations before the attack. All the accounts read have side A storm works that side B held. English renderings (ours): 'the town of Lübeck, on the right bank of the Trave at the inflow of the Wakenitz, had in earlier times a bastioned main wall with wet ditches, which were fed by the Trave and the Wakenitz'; 'at the time the parapets had begun to be removed, but the walls and ditches were still fully sufficient to repulse a storm'; 'Marshal Bernadotte to the major general. Lübeck, 7 November 1806'; 'the town formerly had a bastioned enceinte; it is dismantled, but the terre-pleins have been kept, as well as the ditches, at least 10 feet deep, in which the Trave and the Wakenitz flow'; 'in place of the demi-lune that once existed, a tambour has been built of spaced palisades set on a retaining wall and closed by a barrier like the enceinte'; 'the ground between the two is entirely marshy, though passable in some places. (Journal of the 1st corps.)'; 'the Prussians had made this gate a veritable place d'armes'; 'it bristled with cannon, and 2 bastions placed on the flanks of the entrance had also been armed with pieces that took obliquely everything heading for the town; in front of this formidable position all their light infantry had taken post with the field artillery'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'meanwhile the enemy was fortifying himself at Lübeck'; 'the enemy had hastily arranged the old enceinte of Lübeck; he had placed batteries on the bastions; he did not doubt that he could gain a day there; but to see him, reconnoitre him and attack him was the affair of an instant'; 'from the Burgthor General Blücher rode to the Hörter-[Thor]'; '[Hörter-]Thor, where he handed the command to Colonel Görtzke, commander of the infantry regiment Owstien, showed him his position himself and gave him his instructions'; 'two horse guns were set up about 200 paces ahead with an escort, where a side road led left through the gardens, and secured against the onset of cavalry by felled trees'; 'the 4 battalion pieces were posted on the broken-down powder tower so that they could act on all sides and keep up a cross fire with the 6-pounder battery Lange on the high walls right and left of the Mühlenthor'; 'Marshal Soult to the Emperor. Lübeck, 6 November 1806'; 'General Legrand's division was charged with carrying the advanced work of the Mühlen gate'; 'a kind of hornwork, entirely detached and defended by 2 battalions, still held and put up a lively resistance; but it was also forced and all were taken'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Die Stadt Lübeck¹), auf dem rechten Ufer der Trave am Einfluß der Wakenitz, hatte in frühern Zeiten einen bastionirten Hauptwall mit nassen Gräben, die durch die Trave und Wakenitz gespeist wurden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p279-figures-v1",
+          "section": "p279",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 279 (transcribed from the page image)",
+          "quote": "Zur Zeit hatte man angefangen, die Brustwehren abzutragen, doch waren die Wälle und Gräben noch völlig zureichend, um einen Sturm abzuschlagen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p732-figures-v1",
+          "section": "p732",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 732 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "La ville avait autrefois une enceinte bastionnée; elle est démantelée, mais on a conservé les terre-pleins ainsi que les fossés profonds de 10 pieds au moins et dans lesquels coulent la Trave et la Wakenitz."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "A la place de la demi-lune qui existait jadis, on a construit un tambour en palissades espacées placées sur un mur d'appui et fermé par une barrière pareille à l'enceinte."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Le terrain compris entre les deux est entièrement marécageux, quoique praticable dans quelques endroits. (Journal du 1er corps.)"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Les Prussiens avaient fait de cette porte une véritable place d'armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p735-figures-v1",
+          "section": "p735",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 735 (transcribed from the page image)",
+          "quote": "Elle était hérissée de canons et 2 bastions placés sur les flancs de l'entrée avaient aussi été armés de pièces qui battaient en écharpe tout ce qui se dirigeait sur la ville; en avant de cette position formidable toute leur infanterie légère avait pris poste avec l'artillerie de campagne."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "Cependant l'ennemi se fortifiait à Lübeck."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p801-figures-v1",
+          "section": "p801",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 801 (transcribed from the page image)",
+          "quote": "L'ennemi avait arrangé à la hâte l'ancienne enceinte de Lübeck; il avait disposé des batteries sur les bastions; il ne doutait pas qu'il ne pût gagner là une journée; mais le voir, le reconnaître et l'attaquer fut l'affaire d'un instant."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p282-figures-v1",
+          "section": "p282",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 282 (transcribed from the page image)",
+          "quote": "Vom Burgthor ritt der General Blücher nach dem Hörter-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Thor, wo er dem Obersten Görtzke, Kommandeur des Infanterie-Regiments Owstien, den Befehl übergab, ihm selbst die Aufstellung anwies und die Instruktion ertheilte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Zwei reitende Geschütze wurden etwa 200 Schritt vorwärts mit einer Bedeckung da aufgestellt, wo ein Seitenweg links durch die Gärten führte, und durch umgehauene Bäume gegen das Anprallen der Kavallerie gesichert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p283-figures-v1",
+          "section": "p283",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 283 (transcribed from the page image)",
+          "quote": "Die 4 Bataillonsstücke wurden auf dem abgebrochenen Pulverthurm so postirt, daß sie nach allen Seiten wirken, und mit der 6pfündigen Batterie Lange auf den hohen Wällen rechts und links des Mühlenthors, ein kreuzendes Feuer unterhalten konnten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "Lübeck, 6 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p741-figures-v1",
+          "section": "p741",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 741 (transcribed from the page image)",
+          "quote": "La division du général Legrand⁴ a été chargée d'enlever l'ouvrage avancé de la porte de Mühlen⁵."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p742-figures-v1",
+          "section": "p742",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 742 (transcribed from the page image)",
+          "quote": "Une espèce d'ouvrage à cornes, absolument détaché et défendu par 2 bataillons, tenait encore et faisait une vive résistance; mais il a été également forcé et tout a été pris²."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Foucart pp. 736-737, the rest of Bernadotte's account of the storm of the Burgthor with the 1st corps journal in his footnotes, read only in the OCR and not transcribed; the OCR there shows a figure for prisoners that was not checked against the page image and is not restated. On p. 733, the sixth paragraph of Bernadotte's letter, on Colonel Gérard and General Maison, and the footnotes; the footnotes of p. 739 (the 1st corps's position on the evening of the 6th and two orders of 7 November), General L. Berthier's letter to General Dupont (pp. 739-740), the paragraphs of p. 740 between the passages transcribed, and the end of Bernadotte's letter with its postscript (p. 741); the Grand Duke of Berg's postscript, which continues on p. 746; the detailed list of the 1st corps's dead and wounded that Bernadotte's chief of staff was to send. Höpfner's pages between those transcribed (pp. 274-276, 278, 280-281, 285-286, 289-291, 296, 298), among them the defence of the Burgthor and Blücher's way through the town, and his plan of Lübeck. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength and the forces engaged. Bodart's 30,000 is the only count read; the French letters name divisions and regiments without numbers, and Soult says not all his forces were needed. A return of the 1st and 4th corps and of the cavalry reserve for early November would bound it; the fold-out situation tables in Foucart's annexes (after p. 939), not read, are the nearest candidate, and the same follow-up would serve the Ratkau entry.",
+    "Disputes kept as separate claims: side B's strength (15,000, Bodart; about 20,000 on the rampart and around the town, with about 5,000 outside, the 1st corps journal; very few men at Lübeck, Bernadotte's letter of 4 in the morning; 13 battalions with later reinforcements and 52 guns, Höpfner); the prisoners of the day (about 4,000, Bodart and the 29th Bulletin; more than 5,000 with the Swedes, Bernadotte; at least 6,000, Soult; 5,000 men, the Grand Duke of Berg; 5—6000 lodged in the churches, Höpfner); the guns (more than 30, Bernadotte; at least 50, Soult and the Grand Duke; 60, the Bulletin; 22 without the regimental cannon, Höpfner; 25 for Legrand's division alone, the 4th corps); the Swedes (2,000 entered Lübeck, by Bernadotte's information; more than 600 taken, Bernadotte; 1,000 or 1,200, the Grand Duke; 1,600, the Bulletin); side A's loss (about 2,000, Bodart; more than 1,500 killed or wounded in the 1st corps, Bernadotte); the squadrons cut off after the town fell (4 with their guns, Soult; 4 that surrendered to the Grand Duke's cavalry, Bernadotte; 3 dragoon squadrons with 4 guns near Fackenburg, the 4th corps); and who directed side A's attack (the Grand Duke of Berg principally, Soult; the marshals' dispositions, the Grand Duke).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his about 4,000 prisoners equal the 29th Bulletin's 4,000); Foucart, t. II (the French side's documents, interested accounts: Bernadotte's letters of 6 and 7 November, Soult's and the Grand Duke of Berg's of 6 November and the 29th Bulletin of 9 November, with the 1st corps journal, the 4th corps's report and General Lariboisière quoted in his footnotes; the Grand Duke's letter and the Bulletin name the marshal who came by Rehna and Schönberg the Prince of Ponte-Corvo, where Höpfner and Bernadotte's own letter have Bernadotte, and the claims keep each source's wording); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; the surprise of Schwartau is cited from pp. 300-301, registered for B376b)."
+  ]
+}
+```
+
 
 ### B376b: KAPITULATION von Ratkau (7./11. 1806)
 
@@ -23543,3 +25808,57 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `foucart-prusse-1890-t2-p799-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p799-figures.txt
 - `foucart-prusse-1890-t2-p802-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p802.jpg
 - `foucart-prusse-1890-t2-p802-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p802-figures.txt
+- `hoepfner-1855-bd2-p272-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p272.jpg
+- `hoepfner-1855-bd2-p272-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p272-figures.txt
+- `hoepfner-1855-bd2-p273-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p273.jpg
+- `hoepfner-1855-bd2-p273-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p273-figures.txt
+- `hoepfner-1855-bd2-p277-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p277.jpg
+- `hoepfner-1855-bd2-p277-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p277-figures.txt
+- `hoepfner-1855-bd2-p279-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p279.jpg
+- `hoepfner-1855-bd2-p279-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p279-figures.txt
+- `hoepfner-1855-bd2-p282-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p282.jpg
+- `hoepfner-1855-bd2-p282-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p282-figures.txt
+- `hoepfner-1855-bd2-p283-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p283.jpg
+- `hoepfner-1855-bd2-p283-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p283-figures.txt
+- `hoepfner-1855-bd2-p284-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p284.jpg
+- `hoepfner-1855-bd2-p284-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p284-figures.txt
+- `hoepfner-1855-bd2-p287-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p287.jpg
+- `hoepfner-1855-bd2-p287-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p287-figures.txt
+- `hoepfner-1855-bd2-p288-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p288.jpg
+- `hoepfner-1855-bd2-p288-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p288-figures.txt
+- `hoepfner-1855-bd2-p292-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p292.jpg
+- `hoepfner-1855-bd2-p292-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p292-figures.txt
+- `hoepfner-1855-bd2-p293-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p293.jpg
+- `hoepfner-1855-bd2-p293-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p293-figures.txt
+- `hoepfner-1855-bd2-p294-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p294.jpg
+- `hoepfner-1855-bd2-p294-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p294-figures.txt
+- `hoepfner-1855-bd2-p295-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p295.jpg
+- `hoepfner-1855-bd2-p295-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p295-figures.txt
+- `hoepfner-1855-bd2-p299-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p299.jpg
+- `hoepfner-1855-bd2-p299-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p299-figures.txt
+- `foucart-prusse-1890-t2-p732-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p732.jpg
+- `foucart-prusse-1890-t2-p732-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p732-figures.txt
+- `foucart-prusse-1890-t2-p733-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p733.jpg
+- `foucart-prusse-1890-t2-p733-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p733-figures.txt
+- `foucart-prusse-1890-t2-p734-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p734.jpg
+- `foucart-prusse-1890-t2-p734-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p734-figures.txt
+- `foucart-prusse-1890-t2-p735-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p735.jpg
+- `foucart-prusse-1890-t2-p735-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p735-figures.txt
+- `foucart-prusse-1890-t2-p738-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p738.jpg
+- `foucart-prusse-1890-t2-p738-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p738-figures.txt
+- `foucart-prusse-1890-t2-p739-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p739.jpg
+- `foucart-prusse-1890-t2-p739-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p739-figures.txt
+- `foucart-prusse-1890-t2-p740-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p740.jpg
+- `foucart-prusse-1890-t2-p740-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p740-figures.txt
+- `foucart-prusse-1890-t2-p741-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p741.jpg
+- `foucart-prusse-1890-t2-p741-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p741-figures.txt
+- `foucart-prusse-1890-t2-p742-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p742.jpg
+- `foucart-prusse-1890-t2-p742-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p742-figures.txt
+- `foucart-prusse-1890-t2-p743-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p743.jpg
+- `foucart-prusse-1890-t2-p743-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p743-figures.txt
+- `foucart-prusse-1890-t2-p744-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p744.jpg
+- `foucart-prusse-1890-t2-p744-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p744-figures.txt
+- `foucart-prusse-1890-t2-p745-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p745.jpg
+- `foucart-prusse-1890-t2-p745-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p745-figures.txt
+- `foucart-prusse-1890-t2-p801-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p801.jpg
+- `foucart-prusse-1890-t2-p801-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p801-figures.txt

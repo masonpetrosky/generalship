@@ -1777,6 +1777,111 @@ primary-verified; no separate review was made.
     165 to 190 million tokens for the cohort's other 285 engagements stands.
   - Under 0.03 million remain in this session, so Lübeck to Nienburg are left to the next one.
 
+## 1806 first pass, sub-batch 2c-ii: Lübeck (2026-10-18)
+
+The second part of batch 2c of `fourth-coalition 1806`: the storm of Lübeck on 6 November, the
+day before the capitulation at Ratkau (B376b). Magdeburg (B376c), Hameln (B376d) and Nienburg
+(B377a) complete batch 2c.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B376a | Lübeck (engagement) | 6 November 1806 | 19 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of batch 2b, whose cited passages were all read from
+  registered page images ([source additions](source-additions.md)):
+  - Foucart t. II, the French side's documents:
+    - Bernadotte's letter to the Grand Duke of Berg from Schönberg, 4 in the morning of
+      6 November (p. 732);
+    - his letter to the major general of 7 November (pp. 732–735 and 738–740), with the 1st corps
+      journal in the footnote of p. 735;
+    - Soult's letter to the Emperor of 6 November (pp. 741–743), with the 4th corps's report and
+      General Lariboisière in its footnotes;
+    - the Grand Duke of Berg's letter to the Emperor of 6 November, 9 in the evening
+      (pp. 744–745);
+    - the 29th Bulletin of 9 November (p. 801, with pp. 799 and 802 from sub-batch 2c-i).
+  - Höpfner Bd. 2, pp. 272–273, 277, 279, 282–284, 287–288, 292–295 and 299: the Prussian account
+    from Gadebusch to the fall of the town, Major Ende's capitulation and Major Witzleben's
+    detachment. The surprise of Schwartau is cited from pp. 300–301, registered for 2c-i.
+
+  54 records were registered: 27 page images (13 of Foucart, 14 of Höpfner) with their figure
+  transcriptions. No parent or selection was added. No figure in a value is taken from the OCR.
+- **Drafts.** 19 claims with 342 citations, all supported. Phases: 7 unresolved,
+  5 commander_created, 4 post_outcome and 3 inherited.
+  - Posture is coded `A_attacked` as commander_created. The attack followed the marshals' decision
+    of 4 November to leave Blücher no time and Bernadotte's own order on seeing the defences.
+  - Fortification is coded `B_fortified` as inherited: side B held the town's permanent walls,
+    ditches and gates.
+  - The boundary note places the night surprise of Schwartau in this entry, as B376b left it to
+    do. Its prisoners, most of the regiment Kunheim by Höpfner, are reported here and not added to
+    Bodart's figures. The note also:
+    - keeps the Swedish detachment taken at Schlutup apart from the Prussians where the sources
+      do;
+    - does not split the Bulletin's 16,000 prisoners for both days;
+    - excludes Ratkau (B376b), Travemünde's surrender and Pelet's capitulation.
+- **Disputes kept visible.**
+  - Side B's strength:
+    - Bodart: 15,000.
+    - The 1st corps journal: about 20,000 on the rampart and around the town, with about 5,000
+      outside.
+    - Bernadotte, writing at 4 that morning: very few men at Lübeck.
+    - Höpfner: 13 battalions, later reinforcements and 52 guns.
+  - The prisoners of the day:
+    - about 4,000 (Bodart and the Bulletin);
+    - more than 5,000 including the Swedes (Bernadotte);
+    - at least 6,000 (Soult);
+    - 5,000 (the Grand Duke of Berg);
+    - 5—6000 lodged in the churches (Höpfner).
+  - The guns: from Höpfner's 22 without the regimental cannon to the Bulletin's 60.
+  - The Swedes taken: more than 600 (Bernadotte), 1,000 or 1,200 (the Grand Duke), 1,600 (the
+    Bulletin).
+  - Side A's loss: Bodart's about 2,000, and Bernadotte's more than 1,500 killed or wounded in the
+    1st corps.
+  - The squadrons cut off after the town fell.
+  - Who directed side A's attack: the Grand Duke of Berg principally, in Soult's letter, or the
+    marshals' dispositions, in the Grand Duke's.
+- **Gaps.** No targeted follow-up was run.
+  - The most consequential gap is side A's strength. Bodart's 30,000 is the only count read, and
+    the French letters name divisions without numbers. The fold-out situation tables in Foucart's
+    annexes, after p. 939, are the lead for this entry and for Ratkau; they were not read.
+  - Deferred:
+    - Foucart pp. 736–737, the rest of Bernadotte's account of the storm with the 1st corps
+      journal, read only in the OCR;
+    - the untranscribed parts of pp. 733 and 739–741, and the Grand Duke's postscript (p. 746);
+    - Höpfner's pages between those transcribed, among them the fight at the Burgthor, and his
+      plan of Lübeck.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed every figure from the page images, mostly on full-resolution crops, and corrected
+    the OCR's misreadings to the print:
+    - 25 pieces on the Burgthor front, not 26;
+    - Legrand's 2,500 prisoners, not 600;
+    - Höpfner's 4—5000, not 45000;
+    - his ½4 Uhr, not 4 Uhr;
+  - fixed the date note of p. 733 before registration: it had named the wrong page for the date
+    line of Bernadotte's letter;
+  - reread every cited passage against its transcription;
+  - added three citations that were missing:
+    - the ships carrying Swedish troops at Schlutup, which the strength claim names;
+    - the 4th corps's attribution of the Fackenburg footnote;
+    - the Hamburg-road column's surrender to Soult's light cavalry, now worded as the Grand Duke
+      gives it.
+
+  The evidence check passes on all 2,700 sources and 41 drafts (826 claims, 14 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 1.0 million tokens for the one entry and its 54 records, by the session's token
+  counter.
+  - That is above sub-batch 2b-ii's rate of about 590,000 an entry and about half of each large
+    battle in batch 2a. Lübeck has three French reports and a long Prussian account.
+  - The estimate for the cohort's other 284 engagements stands at about 165 to 190 million tokens.
+- **Corrections to the 2c-i entry.**
+  - Its last line, "Under 0.03 million remain in this session", described what was left of that
+    session's token allowance at the time. The work went on in a new allowance, and Lübeck is
+    recorded here.
+  - Its gap note places the fold-out situation tables after "Höpfner's p. 939". They are in
+    Foucart's annexes, after p. 939, as the B376b draft says.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
