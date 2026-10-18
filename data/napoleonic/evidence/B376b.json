@@ -1,0 +1,1139 @@
+{
+  "schema_version": 1,
+  "battle_id": "B376b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Ratkau entry (capitulation, 7 November 1806) in cohort v1's fourth-coalition 1806 group: General Blücher's corps from the night of 6 to 7 November at Ratkau to its capitulation there and its defile at noon. The fight for Lübeck on 6 November (B376a), with Majors Ende's and Witzleben's detachments taken that day, is not counted here. The surprise of Schwartau in the night is context: its prisoners, most of the regiment Kunheim, are not counted here, and whether they belong with B376a is left to that entry. The 29th Bulletin's 16,000 prisoners cover both days and are not added. Travemünde's surrender on 8 November and General Pelet's capitulation of 11 and 12 November are outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as about 40,000 men under Marshals Bernadotte and Soult, and side B (Prussian) as 9,000 Prussians, of whom about 4,000 cavalry, under Lieutenant General von Blücher; besides the regimental guns, 16 guns fell to the French. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner and the French documents give other figures (claims side-b-strength, side-b-strength-french, side-a-strength). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 7/11. capitulation of Ratkau'; 'the French (about 40,000 men) under Marshals Bernadotte and Soult force 9,000 men of Prussians (of whom about 4,000 men cavalry) under Lieutenant General von Blücher to capitulate, after which the corps went into captivity and the officers were released on parole'; 'besides the regimental guns, 16 more guns became the booty of the French'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 7./11. KAPITULATION von Ratkau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter den Marschällen Bernadotte und Soult zwingen 9.000 M. Preußen (wov. ca. 4.000 M. Kavallerie) unter Gen.-Lt. von Blücher zur Kapitulation, wonach das Korps in Kriegsgefangenschaft geriet, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Außer den Regimentskanonen wurden noch 16 Geschütze die Beute der Franzosen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: General Blücher's corps had only about 8000 men left, and the artillery and the infantry, except the regiment Borcke and the grenadier battalion Gaudi, were without ammunition. Citing the work 'Operationsplan der preußisch-sächsischen Armee im Jahre 1806' by C. v. W., Höpfner gives the infantry still taken prisoner by the capitulation at Ratkau as 4050 men and the cavalry as 3760, a figure he calls only approximate because returns could not be made after the preceding events; 16 guns, without the regimental cannon, were handed over.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 303 and 305; the 3760 was checked on a full-resolution crop (the OCR reads 3700). The corps was brought from the retreat, so the claim is tagged inherited. 4050 and 3760 make 7810 (our arithmetic), close to Höpfner's about 8000; the two counts are kept as given. General Blücher is named in the sentence that follows the state of the corps. English renderings (ours): 'ahead, in Schwartau and Lübeck, the enemy; on the right the Danish border; on the left the Trave, held by the enemy; behind, the sea and the enemy in Travemünde; and with this the artillery and the infantry, except the regiment Borcke and the grenadier battalion Gaudi, without ammunition, the men without bread, the horses without forage, both exhausted and shaken to the utmost, and only about 8000 men left'; 'nevertheless General Blücher had Marshal Bernadotte told through the parlementaire that his position was not yet as bad as he, the marshal, might think, that he would therefore never accept a capitulation unless it were very honourable; for the rest one must wait for the day to agree on what followed'; 'according to the work \"Plan of operations of the Prusso-Saxon army in the year 1806 by C. v. W.\", the infantry still taken prisoner by the capitulation at Ratkau is reckoned at 4050 men, the cavalry at 3760 men, but this is only an approximate figure, since after the preceding events the submission of returns had been impossible'; 'of guns, without the regimental cannon, 16 more were handed over'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Vorwärts in Schwartau und Lübeck der Feind, zur Rechten die dänische Grenze, zur Linken die vom Feinde besetzte Trave, im Rücken das Meer und der Feind in Travemünde; dazu die Artillerie und die Infanterie, mit Ausnahme des Regiments Borcke und des Grenadier-Bataillons Gaudi, ohne Munition, die Mannschaft ohne Brod, die Pferde ohne Futter, Beide aufs Aeußerste erschöpft und erschüttert, und nur noch etwa 8000 Mann übrig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Dessenungeachtet ließ der General Blücher dem M. Bernadotte durch den Parlamentair sagen, daß seine Lage noch nicht so übel sei, als er, der Marschall, glauben möchte, daß er daher auch nie eine Kapitulation annehmen werde, wenn sie nicht sehr ehrenvoll wäre; übrigens müsse man den Tag abwarten, um das Weitere zu verabreden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Nach dem Werke: „Operationsplan der preußisch-sächsischen Armee im Jahre 1806 von C. v. W.“ wird die Infanterie, welche noch durch die Kapitulation bei Ratkau kriegsgefangen wurde, auf 4050 Mann, die Kavallerie auf 3760 Mann berechnet, doch ist dies nur eine ungefähre Angabe, da nach den vorangegangenen Begebenheiten die Eingabe von Rapporten unmöglich gewesen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "An Geschützen, ohne die Regiments-Kanonen, wurden noch 16 Stück übergeben."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: Belliard reported on 7 November that 27 battalions and 52 squadrons laid down their arms and that the prisoners were estimated at 12 or 15,000; Bernadotte, on 8 November, that 27 battalions and 52 squadrons laid down their arms. Soult wrote on 8 November that the troops under Blücher were made up of the column Blücher had led himself and the Duke of Weimar's, with the remains of Prince Hohenlohe's column that had rallied to them, and that Sahuc's dragoon division was taking to Potsdam the 53 Prussian squadrons, more than 6,000 horses, that had surrendered.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's reports, read from the page images; the 52 of Belliard's letter and Soult's 53 and 6,000 were checked on full-resolution crops. They count the corps that surrendered, brought from the retreat, so the claim is tagged inherited. Soult's 53 squadrons differ from the 52 of Belliard and Bernadotte; both are kept as given. English renderings (ours): 'General Belliard to the major general. Lübeck, 7 November 1806'; 'at noon the column defiled before His Majesty's troops and 27 battalions and 52 squadrons laid down their arms'; 'the number of prisoners is estimated at 12 or 15,000'; 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'after taking the opinion of His Highness the Grand Duke of Berg, I authorised Generals Rivaud and Tilly, who were facing them, to accept in the name of the 3 corps of the Grande Armée the capitulation, a copy of which I send Your Majesty; 27 battalions and 52 squadrons laid down their arms'; 'Marshal Soult to the Emperor. Lübeck, 8 November 1806'; 'His Imperial and Royal Highness the Grand Duke of Berg having had the honour of reporting to Your Majesty the capitulation of all the Prussian troops under General Blücher, which were made up of the column this general had himself led and that of the Duke of Weimar, as well as the remains of Prince Hohenlohe's column which had rallied to them'; 'the 4th dragoon division, commanded by General Sahuc, which is for the moment part of the corps, is taking to Potsdam the 53 Prussian squadrons, making more than 6,000 horses, which surrendered'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "A midi la colonne a défilé devant les troupes de S. M. et 27 bataillons et 52 escadrons ont déposé les armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "On évalue le nombre des prisonniers à 12 ou 15,000."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Après avoir pris l'avis de S. A. le grand-duc de Berg, j'ai autorisé les généraux Rivaud et Tilly qui se trouvaient en présence à accepter au nom des 3 corps de la Grande Armée la capitulation dont je remets copie à V. M.; 27 bataillons et 52 escadrons ont déposé leurs armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "S. A. I. et R. le grand-duc de Berg ayant eu l'honneur de rendre compte à V. M. de la capitulation de toutes les troupes prussiennes aux ordres du général Blücher, lesquelles se composaient de la colonne que ce général avait lui-même conduite et de celle du duc de Weimar, ainsi que des débris de la colonne du prince Hohenlohe qui s'y étaient ralliés,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "La 4e division de dragons, commandée par le général Sahuc, qui fait momentanément partie du corps d'armée, conduit à Potsdam les 53 escadrons prussiens, formant plus de 6,000 chevaux, qui se sont rendus;"
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives about 40,000 under Bernadotte and Soult. The Grand Duke of Berg wrote that Blücher's corps surrendered to the 3 corps gathered at Lübeck, and Bernadotte authorised Rivaud and Tilly to accept the capitulation in the name of the 3 corps of the Grande Armée. The 29th Bulletin has the Grand Duke surround the enemy near Schwartau before daylight on the 7th with Lasalle's brigade and d'Hautpoul's cuirassier division. In Höpfner, Generals Tilly and Rivaud put to Blücher the impossibility of resisting 80,000 men any longer. No passage read gives a count of the French troops present.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart from the frame transcription, the rest read from the page images. The corps were brought up by the pursuit, so the claim is tagged inherited. The 80,000 is what the French generals told Blücher, as Höpfner reports it, not a count. English renderings (ours): Bodart, as in claim bodart-strength; 'the Grand Duke of Berg to the Emperor. Behind Schwartau, 7 November 1806, half past ten in the morning'; 'I hasten to announce to Your Majesty that General Blücher's corps surrendered this morning to the 3 corps that are gathered at Lübeck'; 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'after taking the opinion of His Highness the Grand Duke of Berg, I authorised Generals Rivaud and Tilly, who were facing them, to accept in the name of the 3 corps of the Grande Armée the capitulation, a copy of which I send Your Majesty; 27 battalions and 52 squadrons laid down their arms'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'on the 7th before daylight everyone was on horseback and the Grand Duke of Berg surrounded the enemy near Schwartau with the Lasalle brigade and d'Hautpoul's cuirassier division'; Höpfner, 'both generals were taken to Ratkau, where they put to General Blücher the impossibility of resisting 80,000 men any longer'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter den Marschällen Bernadotte und Soult zwingen 9.000 M. Preußen (wov. ca. 4.000 M. Kavallerie) unter Gen.-Lt. von Blücher zur Kapitulation, wonach das Korps in Kriegsgefangenschaft geriet, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "En arrière de Schwartau, 7 novembre 1806, 10 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M.. que le corps du général Blücher s'est rendu ce matin aux 3 corps d'armée qui se trouvent réunis à Lübeck."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Après avoir pris l'avis de S. A. le grand-duc de Berg, j'ai autorisé les généraux Rivaud et Tilly qui se trouvaient en présence à accepter au nom des 3 corps de la Grande Armée la capitulation dont je remets copie à V. M.; 27 bataillons et 52 escadrons ont déposé leurs armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "Le 7 avant le jour tout le monde était à cheval et le grand-duc de Berg cernait l'ennemi près de Schwartau avec la brigade Lasalle et la division de cuirassiers d'Hautpoul."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Beide Generale wurden nach Ratkau geführt, wo sie dem General Blücher die Unmöglichkeit vorstellten, länger gegen 80,000 Mann zu widerstehen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshals Bernadotte and Soult for side A (French) and Lieutenant General von Blücher for side B (Prussian). The capitulation Foucart prints is signed by Lieutenant General de Blücher and General of Division Rivaud.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry and the capitulation's signatures, read from the page images. Bernadotte had authorised Rivaud and Tilly to accept it (claim side-a-command). English renderings (ours): Bodart, as in claim bodart-strength; the capitulation, 'done in duplicate at Ratzkaw, 7 November 1806'; 'Lieutenant General de Blücher'; 'General of Division Rivaud'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter den Marschällen Bernadotte und Soult zwingen 9.000 M. Preußen (wov. ca. 4.000 M. Kavallerie) unter Gen.-Lt. von Blücher zur Kapitulation, wonach das Korps in Kriegsgefangenschaft geriet, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Fait double à Ratzkaw, le 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le lieutenant-général DE BLÜCHER."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le général de division RIVAUD."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Bernadotte wrote on 8 November that the morning before, as he was preparing to attack the rest of the enemy gathered at Ratkau, Blücher asked to capitulate, and that after taking the Grand Duke of Berg's opinion he authorised Generals Rivaud and Tilly, who faced the enemy, to accept the capitulation in the name of the 3 corps. Belliard wrote that the Prince had sent a dragoon officer to summon Blücher to surrender and lay down his arms, and that Blücher had accepted the conditions when Rivaud and Tilly reached the advance guard and made the capitulation with him. In Höpfner a dragoon officer summoned Blücher in the Grand Duke of Berg's name towards morning; at daybreak the leader of the French advance guard claimed to have orders to attack, and Tilly and Rivaud would stop the attack only if Blücher capitulated at once on Bernadotte's terms. The two generals came back from the field before Ratkau saying that, having met the Grand Duke there, the draft had to be changed, since all 3 corps had taken part.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's letters and side B's history, read from the page images. The summons and the terms were decided at the engagement by side A's commanders, so the claim is tagged commander-created. Belliard's 'Prince' is not named in the passage read; Höpfner has the dragoon officer's summons made in the Grand Duke of Berg's name. English renderings (ours): 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I hasten today to announce to Your Majesty that yesterday morning, as I was preparing to attack the rest of the enemy troops gathered at Ratkau, General Blücher asked me to capitulate'; 'after taking the opinion of His Highness the Grand Duke of Berg, I authorised Generals Rivaud and Tilly, who were facing them, to accept in the name of the 3 corps of the Grande Armée the capitulation, a copy of which I send Your Majesty; 27 battalions and 52 squadrons laid down their arms'; 'General Belliard to the major general. Lübeck, 7 November 1806'; 'the Prince sent an officer of dragoons to summon General Blücher to surrender with his corps and lay down his arms'; 'General Blücher had accepted the conditions when Generals Rivaud and Tilly arrived at the advance guard and made a capitulation with General Blücher'; Höpfner, 'towards the morning of 7 November a dragoon officer also arrived in Ratkau, who summoned General Blücher to surrender in the name of the Grand Duke of Berg'; 'the leader of the enemy advance guard, however, asserted that he had the order to attack'; 'the Prussian officer had himself taken to Generals Tilly and Rivaud, who would stop the attack only if General Blücher capitulated at once, as Marshal Bernadotte offered the following terms: to lay down their arms and surrender as prisoners of war, but keep all their property'; 'the two French generals went with the draft capitulation to the field in front of Ratkau, where Marshal Bernadotte was supposed to be, but soon came back and remarked that they had met the Grand Duke of Berg there, and that this made a change necessary, since all 3 corps had taken part in the happy result'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Je m'empresse aujourd'hui d'annoncer à V. M. qu'hier matin comme je me disposais à attaquer le reste des troupes ennemies réunies à Ratkau, le général Blücher m'a fait demander à capituler."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Après avoir pris l'avis de S. A. le grand-duc de Berg, j'ai autorisé les généraux Rivaud et Tilly qui se trouvaient en présence à accepter au nom des 3 corps de la Grande Armée la capitulation dont je remets copie à V. M.; 27 bataillons et 52 escadrons ont déposé leurs armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le Prince a envoyé un officier de dragons pour sommer M. le général Blücher de se rendre avec son corps d'armée et de déposer les armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le général Blücher avait accepté les conditions, lorsque les généraux Rivaud et Tilly sont arrivés à l'avant-garde et ont fait avec le général Blücher une capitulation"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Gegen Morgen des 7. Novembers traf noch ein Dragoner-Offizier in Ratkau ein, der im Namen des Großherzogs von Berg den General Blücher zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der Führer der feindlichen Avantgarde behauptete indessen, den Befehl zum Angriff zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der preußische Offizier ließ sich zu den Generalen Tilly und Rivaud führen, welche den Angriff nur einstellen wollten, wenn der General Blücher gleich kapitulire, indem der M. Bernadotte folgende Bedingungen anböte: die Waffen niederzulegen und sich kriegsgefangen zu ergeben, dagegen alles Eigenthum zu behalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Die beiden französischen Generale begaben sich mit dem Kapitulations-Entwurf nach dem Felde vorwärts Ratkau, wo sich der M. Bernadotte befinden sollte, kamen aber bald zurück und bemerkten, daß sie den Großherzog von Berg daselbst getroffen hätten, und dies eine Abänderung nothwendig mache, da alle 3 Korps an dem glücklichen Resultate Theil genommen;"
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: General Blücher gave up, reluctantly, the plan of a night attack on Lübeck and ordered his troops to assemble between Ivendorf and Travemünde at 9 the next morning. Through the parlementaire he had Bernadotte told that he would never accept a capitulation that was not very honourable. Summoned towards morning, he sent officers to all his troops with orders to halt and not fire on the enemy, and answered the Grand Duke of Berg that he had entered into negotiations with Bernadotte. Captain Müffling drafted a capitulation whose preamble said that Blücher lacked bread, forage and ammunition; when the French generals reported that the Grand Duke of Berg held it unusual to state reasons in a capitulation, Blücher held that his own honour and the corps's required them, and wrote under the capitulation: 'I capitulate because I have no bread and no ammunition.'",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 297 and 303-305. These were Blücher's decisions at the engagement, so the claim is tagged commander-created. Where the passage says only 'the General', the claim cites the sentence before it that names Blücher. English renderings (ours): Höpfner, 'General Blücher sent Lieutenant Phull as parlementaire to Marshal Bernadotte and asked for good treatment of the prisoners'; 'in view of the disproportion that had arisen between infantry and artillery and the cavalry, the General decided, though only with difficulty, to give up the plan of a night attack on Lübeck'; 'the order was therefore sent to all troops to assemble the next morning at 9 o'clock between Ivendorf and Travemünde'; 'nevertheless General Blücher had Marshal Bernadotte told through the parlementaire that his position was not yet as bad as he, the marshal, might think, that he would therefore never accept a capitulation unless it were very honourable; for the rest one must wait for the day to agree on what followed'; 'the General now sent officers to all troops with the order to stand still and not to fire on the enemy, and then had the Grand Duke of Berg answered, on the summons given, that he had entered into negotiations with Marshal Bernadotte, with whom he had already been fighting for 8 days'; 'Captain Müffling now had to draw up a capitulation, which said in its preamble: \"As General Blücher lacks bread, forage and ammunition, he accepts the capitulation that Marshal Prince of Ponte-Corvo has had offered to him\"'; 'the Grand Duke had also remarked that it was not customary to state in capitulations the reason why one had entered into them'; 'General Blücher declared, however, that it was necessary for his own honour and that of the corps that the reasons that decided him to capitulate be known'; 'General Blücher now wrote under the capitulation: \"I capitulate because I have no bread and no ammunition.\" Blücher'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Der General Blücher schickte den Lieutenant Phull als Parlamentair an den M. Bernadotte, und ließ um gute Behandlung der Gefangenen bitten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Im Hinblick auf das eingetretene Mißverhältniß von Infanterie und Artillerie zur Kavallerie entschloß sich der General, wenngleich nur schwer, den Plan zum nächtlichen Ueberfall von Lübeck aufzugeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Es wurde daher an alle Truppen der Befehl geschickt, sich am andern Morgen um 9 Uhr zwischen Ivendorf und Travemünde zu versammeln, indem es die Absicht des Generals war, die noch vorhandene Infanterie nach Travemünde zu werfen, mit der Kavallerie unter den Kanonen der Werke die günstigen Momente zum Einhauen abzuwarten, und sich so lange zu wehren als noch Munition vorhanden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Dessenungeachtet ließ der General Blücher dem M. Bernadotte durch den Parlamentair sagen, daß seine Lage noch nicht so übel sei, als er, der Marschall, glauben möchte, daß er daher auch nie eine Kapitulation annehmen werde, wenn sie nicht sehr ehrenvoll wäre; übrigens müsse man den Tag abwarten, um das Weitere zu verabreden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Gegen Morgen des 7. Novembers traf noch ein Dragoner-Offizier in Ratkau ein, der im Namen des Großherzogs von Berg den General Blücher zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der General schickte nunmehr an alle Truppen Offiziere mit dem Befehl, stehen zu bleiben und nicht auf den Feind zu schießen, und ließ dann dem Großherzog von Berg auf die ergangene Aufforderung erwiedern, daß er mit dem M. Bernadotte, mit dem er sich bereits seit 8 Tagen schlage, in Unterhandlungen getreten sei,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der Hauptmann Müffling mußte nun eine Kapitulation aufsetzen, welche im Eingang sagte: „Da es dem General Blücher an Brod, Fourage und Munition fehlt, so nimmt er die Kapitulation an, die ihm der Marschall Prinz von Ponte-Corvo hat anbieten lassen.“"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "auch habe der Großherzog geäußert, daß es nicht gebräuchlich sei, in Kapitulationen die Ursache aufzuführen, warum man sie eingegangen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der General Blücher erklärte indessen, daß es zu seiner eigenen und der Ehre des Korps nöthig sei, daß man die Gründe erfahre, die ihn zur Kapitulation bestimmten,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Der General Blücher setzte nun unter die Kapitulation: „Ich kapitulire, weil ich kein Brod und keine Munition habe.“ Blücher."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Ratkau on 7 November: the corps went into captivity and the officers were released on parole. The capitulation Foucart prints, done at 'Ratzkaw' on 7 November and signed by Blücher and Rivaud, makes all the troops under Blücher prisoners of war; arms, horses, guns and munitions were to be handed over at once; officers kept their arms, horses and baggage and the men their packs; officers were prisoners on parole; the military chest and all the funds of His Prussian Majesty at Blücher's disposal were to be handed over; and the corps was to defile at noon with the honours of war and lay down its arms after passing the French left. The Grand Duke of Berg reported that morning that the corps had surrendered and would defile within the hour; Belliard, that it defiled at noon. Höpfner: the troops defiled past the French army at noon, and a fair number of officers escaped through Danish territory.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with the capitulation's text and the reports, read from the page images (Bodart's from the frame transcription); no source read gives a different result. Foucart prints the capitulation as an extract in a footnote to Belliard's letter; article 6 is not restated. The 29th Bulletin calls it the capitulation of Schwartau. English renderings (ours): Bodart, as in claim bodart-strength; article 1, 'the troops under the orders of His Excellency General de Blücher, cavalry, infantry and artillery and every detachment forming part of his command, shall be prisoners of war'; article 2, 'the arms, horses, cannon and munitions of every kind shall be handed over to the French army at once'; article 3, 'the officers of every rank, including the cadets, shall keep their arms, horses and baggage; the non-commissioned officers and soldiers shall keep their packs and valises'; article 4, 'the officers surrender as prisoners on parole and undertake to go to the place that will be indicated to them'; article 5, 'the military chest and all the funds belonging to His Prussian Majesty that are at the disposal of General de Blücher shall be handed over to the French army'; article 7, 'the corps of His Excellency General de Blücher shall defile today at noon, with the honours of war, before the French army with its arms, cannon, flags and standards unfurled. It shall lay down its arms after it has passed the left of the French army'; 'done in duplicate at Ratzkaw, 7 November 1806'; 'Lieutenant General de Blücher'; 'General of Division Rivaud'; 'the Grand Duke of Berg to the Emperor. Behind Schwartau, 7 November 1806, half past ten in the morning'; 'I hasten to announce to Your Majesty that General Blücher's corps surrendered this morning to the 3 corps that are gathered at Lübeck'; 'it will defile in an hour before them'; 'General Belliard to the major general. Lübeck, 7 November 1806'; 'at noon the column defiled before His Majesty's troops and 27 battalions and 52 squadrons laid down their arms'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; 'the fourth by the capitulation of Schwartau'; Höpfner, 'at noon the Blücher troops defiled past the French army'; 'a fair number of officers managed to save themselves through Danish territory and escape captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 7./11. KAPITULATION von Ratkau"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter den Marschällen Bernadotte und Soult zwingen 9.000 M. Preußen (wov. ca. 4.000 M. Kavallerie) unter Gen.-Lt. von Blücher zur Kapitulation, wonach das Korps in Kriegsgefangenschaft geriet, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "1. Art. 1er. — Les troupes sous les ordres de S. Exc. M. le général de Blücher, tant cavalerie, infanterie, qu'artillerie et tout détachement faisant partie de son commandement, seront prisonnières de guerre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "2. — Les armes, chevaux, canons et munitions de toute espèce seront sur-le-champ remis à l'armée française."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "3. — MM. les officiers de tout grade, y compris les cadets, conserveront leurs armes, chevaux et bagages; les bas officiers et soldats conserveront leurs sacs et porte-manteaux."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "4. — MM. les officiers se rendent prisonniers sur parole et s'engagent à se rendre sur le point qui leur sera indiqué."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "5. — La caisse militaire et tous les fonds appartenant à S. M. prussienne qui sont à la disposition de M. le général de Blücher, seront remis à l'armée française;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "7. — Le corps d'armée de S. Exc. M. le général de Blücher défilera aujourd'hui à midi, avec les honneurs de la guerre, en présence de l'armée française avec ses armes, canons, drapeaux et étendards déployés. Il déposera les armes après qu'il aura dépassé la gauche de l'armée française."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Fait double à Ratzkaw, le 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le lieutenant-général DE BLÜCHER."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le général de division RIVAUD."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GRAND-DUC DE BERG A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "En arrière de Schwartau, 7 novembre 1806, 10 heures et demie du matin."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Je m'empresse d'annoncer à V. M.. que le corps du général Blücher s'est rendu ce matin aux 3 corps d'armée qui se trouvent réunis à Lübeck."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Il va défiler dans une heure devant eux;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "A midi la colonne a défilé devant les troupes de S. M. et 27 bataillons et 52 escadrons ont déposé les armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "la quatrième par la capitulation de Schwartau."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Um Mittag defilirten die Blücherschen Truppen bei der französischen Armee vorbei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Eine ziemliche Anzahl Offiziere wußte sich durchs Dänische zu retten und der Kriegsgefangenschaft zu entziehen."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a French loss at Ratkau or in the night surprise of Schwartau before it, and Bodart prints none. The corps capitulated without a fight on the morning of the 7th. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B (Prussian) lost the corps that capitulated. Höpfner: 4050 infantry and 3760 cavalry taken prisoner by the capitulation, by C. v. W.'s approximate reckoning, and 16 guns besides the regimental cannon. Bodart: 9,000 Prussians, of whom about 4,000 cavalry, into captivity, and 16 guns besides the regimental guns. Belliard: 27 battalions and 52 squadrons laid down their arms, the prisoners estimated at 12 or 15,000. Bernadotte: 27 battalions and 52 squadrons, and enemy flags, 15 of them won on the field of battle; his letter, which also covers the 6th, does not say how many came from the capitulation. Soult: 53 squadrons, more than 6,000 horses. The 29th Bulletin gives 16,000 prisoners, among them 4,000 cavalry, for 'these 2 days' together, the day at Lübeck and the capitulation, and 4,000 prisoners for the day at Lübeck alone.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts read from the page images (Bodart's from the frame transcription), not combined. The Bulletin's 16,000 covers Lübeck and Ratkau together and is not this entry's figure; the 4,000 it gives for Lübeck belong to B376a. Bodart's 16 guns are Höpfner's; which source Bodart used was not checked. Before the capitulation, in the night surprise of Schwartau, most of the regiment Kunheim was captured at the bridge (Höpfner); that loss is not counted here (see the boundary note). English renderings (ours): 'according to the work \"Plan of operations of the Prusso-Saxon army in the year 1806 by C. v. W.\", the infantry still taken prisoner by the capitulation at Ratkau is reckoned at 4050 men, the cavalry at 3760 men, but this is only an approximate figure, since after the preceding events the submission of returns had been impossible'; 'of guns, without the regimental cannon, 16 more were handed over'; Bodart, as in claim bodart-strength; 'General Belliard to the major general. Lübeck, 7 November 1806'; 'at noon the column defiled before His Majesty's troops and 27 battalions and 52 squadrons laid down their arms'; 'the number of prisoners is estimated at 12 or 15,000'; 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I have sent the major general the details of the successes won on the day of the 6th over the Prussian troops and the Swedish troops'; 'after taking the opinion of His Highness the Grand Duke of Berg, I authorised Generals Rivaud and Tilly, who were facing them, to accept in the name of the 3 corps of the Grande Armée the capitulation, a copy of which I send Your Majesty; 27 battalions and 52 squadrons laid down their arms'; 'tomorrow, Sire, I shall have the honour of sending Your Majesty the enemy flags, of which 15 were won on the field of battle'; 'Marshal Soult to the Emperor. Lübeck, 8 November 1806'; 'the 4th dragoon division, commanded by General Sahuc, which is for the moment part of the corps, is taking to Potsdam the 53 Prussian squadrons, making more than 6,000 horses, which surrendered'; '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; '4,000 prisoners, 60 pieces of cannon, several generals, a great number of officers killed or taken, such is the result of this fine day'; 'these 2 days destroyed the last corps that remained of the Prussian army, and won us the rest of the artillery of that army, many flags and 16,000 prisoners, among whom are 4,000 men of cavalry'; Höpfner, 'so the enemy, pressing on fast, was able to scatter everything in the darkness and take most of the regiment Kunheim prisoner at the bridge in the village'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Nach dem Werke: „Operationsplan der preußisch-sächsischen Armee im Jahre 1806 von C. v. W.“ wird die Infanterie, welche noch durch die Kapitulation bei Ratkau kriegsgefangen wurde, auf 4050 Mann, die Kavallerie auf 3760 Mann berechnet, doch ist dies nur eine ungefähre Angabe, da nach den vorangegangenen Begebenheiten die Eingabe von Rapporten unmöglich gewesen war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "An Geschützen, ohne die Regiments-Kanonen, wurden noch 16 Stück übergeben."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter den Marschällen Bernadotte und Soult zwingen 9.000 M. Preußen (wov. ca. 4.000 M. Kavallerie) unter Gen.-Lt. von Blücher zur Kapitulation, wonach das Korps in Kriegsgefangenschaft geriet, die Offiziere gegen Ehrenwort entlassen wurden."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Außer den Regimentskanonen wurden noch 16 Geschütze die Beute der Franzosen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "A midi la colonne a défilé devant les troupes de S. M. et 27 bataillons et 52 escadrons ont déposé les armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "On évalue le nombre des prisonniers à 12 ou 15,000."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "J'ai transmis à M. le Major général le détail des succès remportés dans la journée du 6 sur les troupes prussiennes et sur les troupes suédoises."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Après avoir pris l'avis de S. A. le grand-duc de Berg, j'ai autorisé les généraux Rivaud et Tilly qui se trouvaient en présence à accepter au nom des 3 corps de la Grande Armée la capitulation dont je remets copie à V. M.; 27 bataillons et 52 escadrons ont déposé leurs armes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Demain, Sire, j'aurai l'honneur d'envoyer à V. M. les drapeaux ennemis dont 15 ont été conquis sur le champ de bataille;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL SOULT A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p785-figures-v1",
+          "section": "p785",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 785 (transcribed from the page image)",
+          "quote": "La 4e division de dragons, commandée par le général Sahuc, qui fait momentanément partie du corps d'armée, conduit à Potsdam les 53 escadrons prussiens, formant plus de 6,000 chevaux, qui se sont rendus;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "4,000 prisonniers, 60 pièces de canon, plusieurs généraux, un grand nombre d'officiers tués ou pris, tel est le résultat de cette belle journée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "Ces 2 journées ont détruit le dernier corps qui restait de l'armée prussienne, et nous ont valu le reste de l'artillerie de cette armée, beaucoup de drapeaux et 16,000 prisonniers, parmi lesquels se trouvent 4,000 hommes de cavalerie."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p301-figures-v1",
+          "section": "p301",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 301 (transcribed from the page image)",
+          "quote": "so war es denn dem rasch nachdringenden Feinde möglich, Alles in der Finsterniß auseinanderzusprengen und den größten Theil des Regiments Kunheim an der Brücke im Flecken gefangen zu nehmen."
+        }
+      ]
+    },
+    {
+      "id": "ratkau-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Ratkau as a village 8 km north of Lübeck. Höpfner: the country around Ratkau and Schwartau was unsuited to cavalry movements in large bodies, and the road and fields as far as Travemünde were enclosed by hedges; north of Travemünde there was said to be a plain, with old works behind which infantry could hold. On the road to Schwartau the way was blocked by vehicles and by the exhausted infantry lying on it. Blücher's corps had the enemy ahead in Schwartau and Lübeck, the Danish border on its right, the Trave held by the enemy on its left, and the sea and, as it believed, the enemy in Travemünde behind it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's locator and side B's history, read from the page images. The enemy in Travemünde was the corps's belief at the time; Höpfner says it was learned after the capitulation that Travemünde had not been given up (claim side-b-information). English renderings (ours): Bodart, '(village in Germany, 8 km north of Lübeck)'; Höpfner, as in claim side-b-strength for the state of the corps and Blücher's reply; 'the country around Ratkau and Schwartau was not suited to cavalry movements on a large scale, the road and the fields as far as Travemünde were enclosed with hedges; on the other hand north of Travemünde there was said to be a plain, and the old works of the place to be in a state that infantry could hold behind them'; 'towards Schwartau the road was jammed by vehicles, or blocked by the exhausted infantry encamped on it'; 'ahead, in Schwartau and Lübeck, the enemy; on the right the Danish border; on the left the Trave, held by the enemy; behind, the sea and the enemy in Travemünde; and with this the artillery and the infantry, except the regiment Borcke and the grenadier battalion Gaudi, without ammunition, the men without bread, the horses without forage, both exhausted and shaken to the utmost, and only about 8000 men left'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "(Dorf in Deutschland, 8 km nördl. von Lübeck)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Die Gegend von Ratkau und Schwartau eignete sich nicht zu Kavalleriebewegungen im Großen, der Weg und die Felder bis Travemünde waren mit Hecken eingefaßt; dagegen sollte nördlich von Travemünde eine Ebene, und die alten Werke des Orts in einem Zustande sein, daß Infanterie sich dahinter halten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p300-figures-v1",
+          "section": "p300",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 300 (transcribed from the page image)",
+          "quote": "nach Schwartau hin war der Weg durch Fuhrwerk verfahren, oder durch die gelagerte ermattete Infanterie verstopft."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Vorwärts in Schwartau und Lübeck der Feind, zur Rechten die dänische Grenze, zur Linken die vom Feinde besetzte Trave, im Rücken das Meer und der Feind in Travemünde; dazu die Artillerie und die Infanterie, mit Ausnahme des Regiments Borcke und des Grenadier-Bataillons Gaudi, ohne Munition, die Mannschaft ohne Brod, die Pferde ohne Futter, Beide aufs Aeußerste erschöpft und erschüttert, und nur noch etwa 8000 Mann übrig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Dessenungeachtet ließ der General Blücher dem M. Bernadotte durch den Parlamentair sagen, daß seine Lage noch nicht so übel sei, als er, der Marschall, glauben möchte, daß er daher auch nie eine Kapitulation annehmen werde, wenn sie nicht sehr ehrenvoll wäre; übrigens müsse man den Tag abwarten, um das Weitere zu verabreden."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian): Höpfner says the artillery and the infantry, except the regiment Borcke and the grenadier battalion Gaudi, were without ammunition, the men without bread and the horses without forage, both exhausted and shaken to the utmost; the capitulation's draft preamble gave Blücher's want of bread, forage and ammunition as its reason, and Blücher wrote that he capitulated because he had no bread and no ammunition. Side A (French): Bernadotte asked the Emperor to let the 1st corps rest for a dozen days to restore men and horses, gather stragglers and above all restore some discipline.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history and side A's letter, read from the page images. The state of both forces was brought from the pursuit, so the claim is tagged inherited. The state of the corps is cited with the sentence that names Blücher. English renderings (ours): 'ahead, in Schwartau and Lübeck, the enemy; on the right the Danish border; on the left the Trave, held by the enemy; behind, the sea and the enemy in Travemünde; and with this the artillery and the infantry, except the regiment Borcke and the grenadier battalion Gaudi, without ammunition, the men without bread, the horses without forage, both exhausted and shaken to the utmost, and only about 8000 men left'; 'nevertheless General Blücher had Marshal Bernadotte told through the parlementaire that his position was not yet as bad as he, the marshal, might think, that he would therefore never accept a capitulation unless it were very honourable; for the rest one must wait for the day to agree on what followed'; Höpfner, as in claim side-b-command for the preamble and Blücher's line; 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I beg Your Majesty to allow the 1st corps to take cantonments for a dozen days: this rest is indispensable to restore the men and the horses, gather the stragglers and above all restore some discipline'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Vorwärts in Schwartau und Lübeck der Feind, zur Rechten die dänische Grenze, zur Linken die vom Feinde besetzte Trave, im Rücken das Meer und der Feind in Travemünde; dazu die Artillerie und die Infanterie, mit Ausnahme des Regiments Borcke und des Grenadier-Bataillons Gaudi, ohne Munition, die Mannschaft ohne Brod, die Pferde ohne Futter, Beide aufs Aeußerste erschöpft und erschüttert, und nur noch etwa 8000 Mann übrig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Dessenungeachtet ließ der General Blücher dem M. Bernadotte durch den Parlamentair sagen, daß seine Lage noch nicht so übel sei, als er, der Marschall, glauben möchte, daß er daher auch nie eine Kapitulation annehmen werde, wenn sie nicht sehr ehrenvoll wäre; übrigens müsse man den Tag abwarten, um das Weitere zu verabreden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der Hauptmann Müffling mußte nun eine Kapitulation aufsetzen, welche im Eingang sagte: „Da es dem General Blücher an Brod, Fourage und Munition fehlt, so nimmt er die Kapitulation an, die ihm der Marschall Prinz von Ponte-Corvo hat anbieten lassen.“"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Der General Blücher setzte nun unter die Kapitulation: „Ich kapitulire, weil ich kein Brod und keine Munition habe.“ Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "je la supplie de permettre au 1er corps de cantonner pendant une douzaine de jours : ce repos est indispensable pour refaire les hommes et les chevaux, rassembler les traînards, et surtout remettre un peu la discipline¹"
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Bernadotte knew the rest of the enemy troops were gathered at Ratkau when he prepared to attack them. Höpfner says it was learned later that the supposed parlementaire who claimed Travemünde had been taken, a native of Prenzlau, had probably been sent by Bernadotte only to learn, under the pretext of a parley, the state of Blücher's army. Side A's reports on the Prussian strength vary (claim side-b-strength-french).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letter and side B's history, read from the page images. Höpfner's 'probably' is kept: the passages read do not show who sent the man or on whose orders. English renderings (ours): 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I hasten today to announce to Your Majesty that yesterday morning, as I was preparing to attack the rest of the enemy troops gathered at Ratkau, General Blücher asked me to capitulate'; Höpfner, as in claim side-b-information for the parlementaire's assurance; 'it was learned later that this supposed parlementaire was a native of Prenzlau and had probably been sent only by Marshal Bernadotte to inform himself, under the pretext of parleying, of the state of the Blücher army'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Je m'empresse aujourd'hui d'annoncer à V. M. qu'hier matin comme je me disposais à attaquer le reste des troupes ennemies réunies à Ratkau, le général Blücher m'a fait demander à capituler."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "Der den Herzog begleitende Parlamentair hatte alsbald das Wort ergriffen und auf seine Ehre versichert, daß Travemünde schon am Nachmittag von den Franzosen in Besitz genommen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "1) Später erfuhr man, daß dieser angebliche Parlamentair aus Prenzlau gebürtig und wahrscheinlich nur vom M. Bernadotte abgeschickt worden war, um unter dem Vorwande des Parlamentirens sich von der Lage der Blücherschen Armee zu unterrichten."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Höpfner: while orders for the next day were being given at Ratkau, news came that the enemy had surprised Schwartau and taken the troops there. At midnight the Duke of Oels arrived at Ratkau with a French parlementaire and said Travemünde had surrendered; the officer leading the baggage had told the Duke he found its gates occupied by the enemy, and the parlementaire assured on his honour that the French had held Travemünde since the afternoon. Woken by Captain Müffling, Blücher had both questioned further, and both kept to their statements. Cavalry officers who had been at Travemünde told Blücher that cavalry could not move between Ratkau and that place. Only after the capitulation was it learned that Travemünde had not been given up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images of pp. 300-305. Whether the false report was a French ruse is Höpfner's 'probably' (claim side-a-information), so the phase is left unresolved. English renderings (ours): Höpfner, as in claim side-a-command for the summons; 'the Duke became touchy, and nothing was left for Captain Müffling but to wake General Blücher, who had had an attack of fever'; 'while in Ratkau, at General Blücher's headquarters, the necessary arrangements for the following day were still being made, the report came in that the enemy had surprised Schwartau and taken the troops posted there prisoner'; 'at midnight the Duke of Oels arrived at headquarters in Ratkau with an enemy parlementaire and assured that he had found him before Travemünde, which place had surrendered to the enemy'; 'the Duke had sent for the officer leading the baggage and taken him roughly to task, but received his assurance that he had driven as far as Travemünde, found the gates occupied by the enemy and turned back at once so as not to let the baggage entrusted to him fall into enemy hands'; 'the parlementaire accompanying the Duke had at once spoken up and assured on his honour that Travemünde had been taken by the French that afternoon'; 'the General now had the Duke and the parlementaire questioned further, and both kept to their statements'; 'the General had spoken with several sensible cavalry officers who had been in Travemünde the day before, and all had assured that it was impossible to move with cavalry between Ratkau and that place'; 'only after the capitulation did one learn that Travemünde had not been given up'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p300-figures-v1",
+          "section": "p300",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 300 (transcribed from the page image)",
+          "quote": "Während in Ratkau im Hauptquartier des Generals Blücher noch für den folgenden Tag die erforderlichen Anordnungen getroffen wurden, ging die Meldung ein, daß der Feind Schwartau überfallen und die dort aufgestellten Truppen gefangen genommen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p301-figures-v1",
+          "section": "p301",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 301 (transcribed from the page image)",
+          "quote": "denn um Mitternacht kam der Herzog von Oels mit einem feindlichen Parlamentair im Hauptquartier Ratkau an und versicherte, denselben vor Travemünde gefunden zu haben, welcher Platz sich dem Feinde ergeben habe;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "Der Herzog hatte sich den die Bagage führenden Offizier kommen lassen, und ihn derb angelassen, indessen von ihm die Versicherung erhalten, daß er bis Travemünde gefahren, die Thore vom Feinde besetzt gefunden habe und alsbald umgekehrt sei, um nicht die ihm anvertraute Bagage in Feindes Hand fallen zu lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "Der den Herzog begleitende Parlamentair hatte alsbald das Wort ergriffen und auf seine Ehre versichert, daß Travemünde schon am Nachmittag von den Franzosen in Besitz genommen sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "Der Herzog wurde empfindlich und es blieb dem Hauptmann Müffling nichts übrig, als den General Blücher, der einen Fieberanfall gehabt hatte, zu wecken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p302-figures-v1",
+          "section": "p302",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 302 (transcribed from the page image)",
+          "quote": "Der General ließ nun den Herzog und den Parlamentair weiter befragen, und beide blieben bei ihren Angaben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Gegen Morgen des 7. Novembers traf noch ein Dragoner-Offizier in Ratkau ein, der im Namen des Großherzogs von Berg den General Blücher zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Der General hatte mehrere verständige Kavallerie-Offiziere gesprochen, die am vergangenen Tage in Travemünde gewesen waren, und Alle hatten versichert, daß es unmöglich sei, sich zwischen Ratkau und jenem Orte mit Kavallerie zu bewegen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p305-figures-v1",
+          "section": "p305",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 305 (transcribed from the page image)",
+          "quote": "Erst nach der Kapitulation erfuhr man, daß Travemünde nicht über war."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A (French) aimed to make Blücher's corps surrender. Bernadotte was preparing to attack the rest of the enemy gathered at Ratkau; the Prince's dragoon officer summoned Blücher to surrender with his corps and lay down his arms (Belliard); and Tilly and Rivaud would stop the attack only if Blücher capitulated at once, laying down arms and surrendering as prisoners of war (Höpfner). Afterwards, Belliard wrote, having no more enemies to fight, the corps set out to rejoin the Grande Armée.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side A's letters and side B's history, read from the page images. The attack and the summons were decided at the engagement by side A's commanders, so the claim is tagged commander-created. English renderings (ours): 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I hasten today to announce to Your Majesty that yesterday morning, as I was preparing to attack the rest of the enemy troops gathered at Ratkau, General Blücher asked me to capitulate'; 'General Belliard to the major general. Lübeck, 7 November 1806'; Belliard and Höpfner, as in claim side-a-command for the summons and the terms; 'having no more enemies to fight, the corps set out to rejoin the Grande Armée'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Je m'empresse aujourd'hui d'annoncer à V. M. qu'hier matin comme je me disposais à attaquer le reste des troupes ennemies réunies à Ratkau, le général Blücher m'a fait demander à capituler."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL BELLIARD AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p757-figures-v1",
+          "section": "p757",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 757 (transcribed from the page image)",
+          "quote": "Lübeck, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "Le Prince a envoyé un officier de dragons pour sommer M. le général Blücher de se rendre avec son corps d'armée et de déposer les armes."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der preußische Offizier ließ sich zu den Generalen Tilly und Rivaud führen, welche den Angriff nur einstellen wollten, wenn der General Blücher gleich kapitulire, indem der M. Bernadotte folgende Bedingungen anböte: die Waffen niederzulegen und sich kriegsgefangen zu ergeben, dagegen alles Eigenthum zu behalten."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p759-figures-v1",
+          "section": "p759",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 759 (transcribed from the page image)",
+          "quote": "N'ayant plus d'ennemis à combattre, le corps d'armée s'est mis en marche pour rallier la Grande Armée."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B (Prussian), in Höpfner: having given up the night attack on Lübeck, Blücher intended to throw the infantry he still had into Travemünde, wait with the cavalry under the guns of its works for chances to charge, and defend himself as long as ammunition lasted. He would accept only a very honourable capitulation, and when he did capitulate he insisted that the reasons be known for his own honour and the corps's.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images. These were Blücher's own intentions at the engagement, so the claim is tagged commander-created. English renderings (ours): Höpfner, as in claim side-b-command for Phull's errand, the plan, the reply and the reasons; 'it being the General's intention to throw the infantry still available into Travemünde, with the cavalry to await under the cannon of the works the favourable moments for charging, and to defend himself as long as ammunition was still at hand'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Der General Blücher schickte den Lieutenant Phull als Parlamentair an den M. Bernadotte, und ließ um gute Behandlung der Gefangenen bitten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Im Hinblick auf das eingetretene Mißverhältniß von Infanterie und Artillerie zur Kavallerie entschloß sich der General, wenngleich nur schwer, den Plan zum nächtlichen Ueberfall von Lübeck aufzugeben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Es wurde daher an alle Truppen der Befehl geschickt, sich am andern Morgen um 9 Uhr zwischen Ivendorf und Travemünde zu versammeln, indem es die Absicht des Generals war, die noch vorhandene Infanterie nach Travemünde zu werfen, mit der Kavallerie unter den Kanonen der Werke die günstigen Momente zum Einhauen abzuwarten, und sich so lange zu wehren als noch Munition vorhanden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Dessenungeachtet ließ der General Blücher dem M. Bernadotte durch den Parlamentair sagen, daß seine Lage noch nicht so übel sei, als er, der Marschall, glauben möchte, daß er daher auch nie eine Kapitulation annehmen werde, wenn sie nicht sehr ehrenvoll wäre; übrigens müsse man den Tag abwarten, um das Weitere zu verabreden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der General Blücher erklärte indessen, daß es zu seiner eigenen und der Ehre des Korps nöthig sei, daß man die Gründe erfahre, die ihn zur Kapitulation bestimmten,"
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: before daylight on the 7th the Grand Duke of Berg surrounded the enemy near Schwartau (29th Bulletin), Bernadotte was preparing to attack the rest of the enemy at Ratkau when Blücher asked to capitulate, and at daybreak the leader of the French advance guard claimed orders to attack. In the night before, the French had surprised Schwartau. Side B halted its troops, ordered them not to fire and capitulated.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded A_attacked: side A was advancing to attack side B, which halted and capitulated. Tagged commander-created: the attack at Ratkau was Bernadotte's own preparation on the morning of the 7th, and no order from above to attack at Ratkau was read. English renderings (ours): '29th Bulletin of the Grande Armée. Berlin, 9 November 1806'; Bulletin, as in claim side-a-strength for the encirclement; 'Marshal Bernadotte to the Emperor. Lübeck, 8 November 1806'; 'I hasten today to announce to Your Majesty that yesterday morning, as I was preparing to attack the rest of the enemy troops gathered at Ratkau, General Blücher asked me to capitulate'; Höpfner, as in claim side-a-command for the advance guard; 'with daybreak on the 7th the field guards reported the enemy's approach'; as in claim side-b-information for the surprise of Schwartau and in claim side-a-command for the summons; 'hardly had this happened when the enemy, under cover of the dark, rainy night, attacked the dragoon posts with the greatest violence'; as in claim side-b-command for the halt.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p802-figures-v1",
+          "section": "p802",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 802 (transcribed from the page image)",
+          "quote": "Le 7 avant le jour tout le monde était à cheval et le grand-duc de Berg cernait l'ennemi près de Schwartau avec la brigade Lasalle et la division de cuirassiers d'Hautpoul."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL BERNADOTTE A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Lübeck, 8 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p783-figures-v1",
+          "section": "p783",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 783 (transcribed from the page image)",
+          "quote": "Je m'empresse aujourd'hui d'annoncer à V. M. qu'hier matin comme je me disposais à attaquer le reste des troupes ennemies réunies à Ratkau, le général Blücher m'a fait demander à capituler."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Mit Tagesanbruch des 7. meldeten die Feldwachen den Anmarsch des Feindes."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der Führer der feindlichen Avantgarde behauptete indessen, den Befehl zum Angriff zu haben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p300-figures-v1",
+          "section": "p300",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 300 (transcribed from the page image)",
+          "quote": "Während in Ratkau im Hauptquartier des Generals Blücher noch für den folgenden Tag die erforderlichen Anordnungen getroffen wurden, ging die Meldung ein, daß der Feind Schwartau überfallen und die dort aufgestellten Truppen gefangen genommen habe."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p301-figures-v1",
+          "section": "p301",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 301 (transcribed from the page image)",
+          "quote": "Kaum war dies geschehen, als der Feind unter dem Schutz der finstern, regnigten Nacht die Dragonerposten mit dem größten Ungestüm angriff."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p303-figures-v1",
+          "section": "p303",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 303 (transcribed from the page image)",
+          "quote": "Gegen Morgen des 7. Novembers traf noch ein Dragoner-Offizier in Ratkau ein, der im Namen des Großherzogs von Berg den General Blücher zur Uebergabe aufforderte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Der General schickte nunmehr an alle Truppen Offiziere mit dem Befehl, stehen zu bleiben und nicht auf den Feind zu schießen, und ließ dann dem Großherzog von Berg auf die ergangene Aufforderung erwiedern, daß er mit dem M. Bernadotte, mit dem er sich bereits seit 8 Tagen schlage, in Unterhandlungen getreten sei,"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no works at Ratkau: in the night before, General Blücher stayed in the village, where his hussar regiment was quartered and 6 companies of Jung-Larisch occupied the churchyard, and the capitulation was negotiated in and before Ratkau. The old works Höpfner mentions are Travemünde's, which Blücher meant to reach.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe a village and an occupied churchyard and name no fortification at Ratkau. A coding that counted the occupied churchyard as a work would give B_fortified. English renderings (ours): Höpfner, 'in the night to the 7th the General remained in Ratkau, where his hussar regiment was quartered and the 6 companies of Jung-Larisch occupied the churchyard'; as in claim side-b-command for Phull's errand; as in claim side-a-strength for the generals taken to Ratkau and in claim side-a-command for the field in front of Ratkau; as in claim ratkau-ground for Travemünde's old works.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Der General Blücher schickte den Lieutenant Phull als Parlamentair an den M. Bernadotte, und ließ um gute Behandlung der Gefangenen bitten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "In der Nacht zum 7. verblieb der General in Ratkau, wo sein Husaren-Regiment kantonirte, und die 6 Kompagnien von Jung-Larisch den Kirchhof besetzten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Beide Generale wurden nach Ratkau geführt, wo sie dem General Blücher die Unmöglichkeit vorstellten, länger gegen 80,000 Mann zu widerstehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p304-figures-v1",
+          "section": "p304",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 304 (transcribed from the page image)",
+          "quote": "Die beiden französischen Generale begaben sich mit dem Kapitulations-Entwurf nach dem Felde vorwärts Ratkau, wo sich der M. Bernadotte befinden sollte, kamen aber bald zurück und bemerkten, daß sie den Großherzog von Berg daselbst getroffen hätten, und dies eine Abänderung nothwendig mache, da alle 3 Korps an dem glücklichen Resultate Theil genommen;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p297-figures-v1",
+          "section": "p297",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 297 (transcribed from the page image)",
+          "quote": "Die Gegend von Ratkau und Schwartau eignete sich nicht zu Kavalleriebewegungen im Großen, der Weg und die Felder bis Travemünde waren mit Hecken eingefaßt; dagegen sollte nördlich von Travemünde eine Ebene, und die alten Werke des Orts in einem Zustande sein, daß Infanterie sich dahinter halten könne."
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Belliard's promised return of the prisoners and the guns; the capitulation's original or Bernadotte's copy, of which Foucart prints an extract; the rest of Bernadotte's and Soult's letters of 8 November (Foucart t. II, pp. 784 and 786), the order of General Compans on the surrendered cavalry's horses (p. 763), read only in the OCR, and the work by C. v. W. that Höpfner cites; Höpfner's account of Travemünde's surrender (p. 306); the records of the Prussian judicial inquiries held after the war, on which by the preface of his first volume Höpfner's work chiefly rests. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength. Bodart's about 40,000 is the only figure besides the 80,000 the French generals named to Blücher (Höpfner), and no return of the 1st and 4th corps and of the cavalry reserve for 7 November was read. The fold-out situation tables in Foucart's annexes (after p. 939), among them one the OCR heads '... de la réserve. Situation au 8 novembre', could give part of it; they were not read.",
+    "Disputes kept as separate claims: side B's strength (about 8000 left, Höpfner, and C. v. W.'s 4050 infantry and 3760 cavalry, 7810 by our arithmetic; 9,000 with about 4,000 cavalry, Bodart; 12 or 15,000 prisoners, Belliard; the Bulletin's 16,000 with 4,000 cavalry for 6 and 7 November together); the squadrons (52, Belliard and Bernadotte; 53 with more than 6,000 horses, Soult); side A (about 40,000, Bodart; the 80,000 of the French generals, Höpfner); who summoned Blücher (a dragoon officer sent by the Prince, Belliard; in the Grand Duke of Berg's name, Höpfner) and on whose authority the capitulation was accepted (Bernadotte's, by his letter; the draft changed because all 3 corps had taken part, Höpfner); the name of the capitulation (Ratkau, Bodart and Höpfner; 'Ratzkaw' in its text; Schwartau, the 29th Bulletin).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked, though his 16 guns besides the regimental guns are Höpfner's); Foucart, t. II (the French side's documents: the Grand Duke of Berg's letter of 7 November, Belliard's letter with the capitulation's extract, Bernadotte's and Soult's letters of 8 November and the 29th Bulletin, from the page images); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; by the preface of his first volume the work rests chiefly on the records of the judicial inquiries held after the war; for the prisoners he cites the work by C. v. W., and the Ratkau passage names no other source)."
+  ]
+}

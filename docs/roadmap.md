@@ -32,12 +32,12 @@ frame. Brief v2 adds the coded posture and fortification dimensions of decision 
 check now rebuilds every selection from its parent.
 
 **Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
-(23 entries), and its next batch is 2c, from Lübeck to Nienburg. On 2026-10-16 the owner
-set no usage cap and had the main session research, draft and verify each group itself, without
-subagents ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is
-logged per group.
+(23 entries), and batch 2c continues with Lübeck, Magdeburg, Hameln and Nienburg. On 2026-10-16
+the owner set no usage cap and had the main session research, draft and verify each group itself,
+without subagents ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
+Usage is logged per group.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 13 of the 23 entries of
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 14 of the 23 entries of
 `fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
 
 - `third-coalition 1805`, all 22 entries in six batches:
@@ -62,9 +62,10 @@ logged per group.
   - sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (B373b and B374a–c), about 2.4 million
     tokens;
   - sub-batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast (B374d and
-    B375a–e), about 3.5 million tokens.
+    B375a–e), about 3.5 million tokens;
+  - sub-batch 2c-i: Ratkau (B376b), about 0.3 million tokens.
 
-The cohort's other 286 engagements would need about 165 to 190 million tokens at the two finished
+The cohort's other 285 engagements would need about 165 to 190 million tokens at the two finished
 groups' rates, roughly 11 to 13 sessions. At sub-batch 2b-ii's rate of about 590,000 an entry they
 would need about 170 million. Batch 2a's three entries, the group's largest battles, took about 2
 million each. The Civil War work below is complete as recorded, and its cohorts,

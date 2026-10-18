@@ -86,6 +86,11 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
 - 2026-10-18, sub-batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast drafted
   from Bodart, Foucart t. II and Höpfner Bd. 2; primary-verified. 94 records registered (47 page
   images with figure transcriptions). About 3.5 million tokens.
-- Next: batch 2c, Lübeck B376a, Ratkau B376b, Magdeburg B376c, Hameln B376d and Nienburg B377a,
-  split into sub-batches as its size requires. Check first which of them the registered volumes
-  and selections cover.
+- 2026-10-18, sub-batch 2c-i: Ratkau drafted from Bodart, Foucart t. II and Höpfner Bd. 2;
+  primary-verified. 26 records registered (13 page images with figure transcriptions). About
+  0.3 million tokens.
+- Next: the rest of batch 2c, Lübeck B376a, Magdeburg B376c, Hameln B376d and Nienburg B377a,
+  split into sub-batches as its size requires. A scan of the OCR located the sections: Höpfner
+  Bd. 2, Lübeck pp. 271–303, Magdeburg pp. 308–336, Hameln and Nienburg pp. 340–378; Foucart t. II,
+  Lübeck about pp. 709–765 and Magdeburg about pp. 788–866. Foucart's volume does not reach the
+  Hameln and Nienburg capitulations, so a French family for them must come from elsewhere.

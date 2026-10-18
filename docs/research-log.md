@@ -1709,6 +1709,74 @@ primary-verified; no separate review was made.
   - The cohort's 286 remaining engagements would need about 170 million tokens at this rate.
   - About 0.35 million remain in this session.
 
+## 1806 first pass, sub-batch 2c-i: Ratkau (2026-10-18)
+
+The first part of batch 2c of `fourth-coalition 1806`: Blücher's capitulation at Ratkau on the
+morning after the fight for Lübeck. It was taken alone because the session's remaining budget
+could hold one bounded capitulation but not the Lübeck battle. Lübeck (B376a), Magdeburg (B376c),
+Hameln (B376d) and Nienburg (B377a) follow in 2c.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B376b | Ratkau (capitulation) | 7 November 1806 | 18 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of batch 2b, whose cited passages were all read from
+  registered page images ([source additions](source-additions.md)):
+  - Foucart t. II, the French side's documents:
+    - the Grand Duke of Berg's letter to the Emperor and Belliard's letter to the major general,
+      both of 7 November (p. 757);
+    - the rest of Belliard's letter and the capitulation (p. 759);
+    - Bernadotte's letter to the Emperor (p. 783) and Soult's letter (p. 785), both of 8 November;
+    - the 29th Bulletin of 9 November (pp. 799 and 802).
+  - Höpfner Bd. 2, pp. 297 and 300–305, the Prussian account of the night at Ratkau, the surprise
+    at Schwartau, the summons, the negotiation and the capitulation. For the prisoners it cites
+    C. v. W.'s *Operationsplan der preußisch-sächsischen Armee im Jahre 1806*, which was not read.
+
+  26 records were registered: 13 page images (6 of Foucart, 7 of Höpfner) with their figure
+  transcriptions. No parent or selection was added. No figure in a value is taken from the OCR.
+- **Drafts.** 18 claims with 157 citations: 17 supported and 1 unknown, side A's losses, which no
+  passage read gives and which is not set to zero. Phases: 7 unresolved (with the unknown),
+  5 commander_created, 4 inherited and 2 post_outcome. Posture is coded `A_attacked` as
+  commander_created, from the French moves of the morning of the 7th: the Grand Duke of Berg's
+  encirclement and Bernadotte's preparation to attack. Fortification is `none_named` and
+  unresolved. The boundary note keeps the fight for Lübeck (B376a) out of the
+  entry, leaves the prisoners of the Schwartau night surprise for B376a to place, does not add the
+  Bulletin's 16,000 for both days, and excludes Travemünde's surrender of 8 November and Pelet's
+  capitulation of 11–12 November.
+- **Disputes kept visible.**
+  - Side B's strength: Höpfner's about 8000 men left, and C. v. W.'s 4050 infantry and 3760
+    cavalry, 7810 in our arithmetic; Bodart's 9,000 with about 4,000 cavalry; Belliard's estimate
+    of 12 or 15,000 prisoners; the Bulletin's 16,000 for the two days together.
+  - The squadrons that laid down their arms: 52 for Belliard and Bernadotte, 53 for Soult.
+  - Side A: Bodart's about 40,000, or the 80,000 the French generals named to Blücher.
+  - Who summoned Blücher, and on whose authority the capitulation was accepted.
+  - The name: Ratkau in Bodart and Höpfner, Ratzkaw in the capitulation, Schwartau in the Bulletin.
+- **Gaps.** No targeted follow-up was run. The most consequential gap is side A's strength, which
+  only Bodart's figure and the generals' claim give; the fold-out situation tables after Höpfner's
+  p. 939 are the lead and were not read. Deferred: Belliard's promised return, the original
+  capitulation, the rest of Bernadotte's and Soult's letters (pp. 784 and 786), Compans's order on
+  p. 763 (read only in the OCR), the C. v. W. work, Höpfner's p. 306 and the inquiry records.
+- **Verification.** The draft was checked before release. The check:
+  - reread every cited passage against its page image and transcription, and read the figures
+    3760, 8000, 27 and 52, and 53 and 6,000 from full-resolution crops; the OCR's 3700 for the
+    cavalry is corrected to the printed 3760;
+  - fixed what it found: anchor sentences that name Blücher cited where Höpfner says only "the
+    General"; "the Grand Duke of Berg", since no quote names Murat; the Grand Duke's remark that
+    reasons are not customary in a capitulation, now cited where the claim uses it; the date of
+    Bernadotte's letter; renderings that ran beyond their quotes, among them the men and horses
+    "exhausted and shaken"; the flags, whose source letter also covers the 6th; and the Bulletin's
+    figures, now given for the two days and for the day at Lübeck as it gives them.
+
+  The evidence check passes on all 2,646 sources and 40 drafts (807 claims, 14 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 0.3 million tokens for the one entry and its 26 records, with no new volume.
+  - A single capitulation is not a fair rate for the battles to come, and the earlier estimate of
+    165 to 190 million tokens for the cohort's other 285 engagements stands.
+  - Under 0.03 million remain in this session, so Lübeck to Nienburg are left to the next one.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

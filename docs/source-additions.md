@@ -1769,3 +1769,17 @@ at Stettin, and no other source.
 
 Use: the drafts for B374d, B375a, B375b, B375c, B375d and B375e. No model inputs are changed. The
 registry now holds 2,620 records.
+
+## Foucart t. II and Höpfner Bd. 2 page images for Ratkau, 2026-10-18
+
+26 records for sub-batch 2c-i: 13 page images with their figure transcriptions, 6 of Foucart's
+t. II (pp. 757, 759, 783, 785, 799 and 802) and 7 of Höpfner's Bd. 2 (pp. 297 and 300–305). No
+parent or selection is added. Each Foucart transcription gives its passages with the document's
+date; the Höpfner pages are transcribed whole, except p. 303's footnote, which concerns Lübeck. No
+figure is taken from the OCR.
+
+Rights and dependence are as recorded for sub-batch 2b-i. In the passages read for Ratkau, Höpfner
+names C. v. W.'s *Operationsplan der preußisch-sächsischen Armee im Jahre 1806* for the prisoners,
+and no other source.
+
+Use: the draft for B376b. No model inputs are changed. The registry now holds 2,646 records.
