@@ -74,6 +74,12 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
 - Höpfner's general source statement is in the preface of Bd. 1 (the post-war judicial inquiries);
   his place sections rarely name sources. Do not attribute a place's account to the inquiry records
   beyond what that preface says.
+- *Campagne de Pologne* t. I (Foucart, 1882; campagnedepolog02foucgoog), registered in 2c-iv, is
+  in Foucart's family. Leaf offsets from its djvu.xml page boundaries: n = printed + 23 to p. 305,
+  + 25 for pp. 306-512, + 27 for pp. 513-528 and + 29 from p. 529; the four registered images
+  (pp. 132, 133, 215 and 216) were checked. P. 215 carries no printed number: the chapter heading
+  '3 ET 4 DÉCEMBRE.' stands at its head, and the next leaf, n239, carries p. 216's running head.
+  T. II (campagnedepolog01foucgoog) is not registered.
 
 ## Status
 
@@ -98,10 +104,15 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
 - Correction to the earlier scan: Höpfner's Magdeburg section is pp. 330–336, not 308–336, and
   Hameln and Nienburg are his chapter 19, on the Weser, pp. 339–383, not 340–378. Foucart's
   Magdeburg documents run from p. 276 (Ney's summons of 23 October) to p. 827 (the 31st Bulletin).
-- Next: the rest of batch 2c, Hameln B376d and Nienburg B377a, from Höpfner pp. 339–383. Foucart's
-  volume does not reach the capitulations, but the OCR shows Hameln in the Emperor's letter to Ney
-  of 9 November (p. 794), in letters on pp. 834–835 and 845–846, among them Marshal Mortier's to
-  the Emperor, and in a passage on General Savary's blockade (p. 849). A French family for
-  the capitulations themselves must come from elsewhere or be recorded as a gap. The registered
-  transcription of p. 806 also holds the 30th Bulletin's paragraph on Glogau, for B377b in
-  batch 2d.
+- 2026-10-18, sub-batch 2c-iv: Hameln and Nienburg drafted from Bodart, Foucart t. II with
+  *Campagne de Pologne* t. I, and Höpfner Bd. 2; primary-verified. 91 records registered (the
+  *Campagne de Pologne* t. I OCR parent and 45 page images with figure transcriptions). About
+  1.9 million tokens. Batch 2c is complete.
+- Next: batch 2d, Groß-Glogau B377b and Breslau B378b. Höpfner Theil 2, Bd. 4 (1851;
+  bub_gb_9PVKAAAAcAAJ, also bub_gb_ccATAAAAYAAJ) is the candidate for the Prussian side in
+  Silesia. On the French side, *Campagne de Pologne* t. I, registered in 2c-iv, prints the
+  Emperor's letter of 3 December reporting Glogau's surrender and the bombardment of Breslau
+  (p. 216, registered), and the registered transcription of Foucart t. II p. 806 holds the 30th
+  Bulletin's paragraph on Glogau. Bodart's side A is Bavarian and French at Glogau and French,
+  Bavarian and Württemberg at Breslau, so a Bavarian or Württemberg family may be needed; record
+  it as a gap if none is found.

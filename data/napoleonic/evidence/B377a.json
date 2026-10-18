@@ -1,0 +1,1151 @@
+{
+  "schema_version": 1,
+  "battle_id": "B377a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Nienburg entry (capitulation, 26 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under its commandant, General Strachwitz, and General Savary's troops before it, from Savary's march from Hameln and the approach of the first patrols on 24 November through the summons and the negotiation of the 25th to the fall of the place on the 26th. The fortress's restoration from 1803, the earlier summons by a division of Mortier's corps, the French orders to observe Hameln and Nienburg, and the suspension of arms of 16 November, which was not ratified, are context. Hameln (B376d), which Savary's troops took before moving on Nienburg, is outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as 6,000 men under General of Division Savary, and side B (Prussian) as the garrison of 3,000 men with 51 guns under Major General v. Strachwitz, which the French forced to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison's parts and total (claim side-b-strength), the Emperor and Mortier other estimates (claim side-b-strength-french), and Höpfner and the French letters side A's troops (claim side-a-strength). Bodart's 3,000 is Höpfner's 2911 rounded up, and his 51 guns are Höpfner's 39 cannon, 10 howitzers and 2 mortars, without the 12 Wallbüchsen (our comparison and arithmetic). His 6,000 for side A is the figure he prints for Savary's force at Hameln (B376d; our comparison); no passage read gives a total for side A at Nienburg. Which source Bodart used was not checked. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 26/11. capitulation of Nienburg'; 'the French (6,000 men) under General of Division Savary force the Prussian garrison (3,000 men, 51 guns) under Major General v. Strachwitz to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./11. KAPITULATION von Nienburg"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the garrison consisted of the 3rd battalions of the infantry regiments Prinz Ferdinand, Lettow and Wedell, a company of the 2nd battalion of the regiment vac. Grävenitz and 3 invalid companies, or 2689 men of infantry, 168 men of artillery and 54 hussars, together 2911 men; since the fortress's garrison was properly reckoned at only 1500 men, it numbered double the strength required.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page image of p. 380; the figures were checked on full-resolution crops. The garrison was in Nienburg before Savary's approach, so the claim is tagged inherited. Höpfner's 2689, 168 and 54 make his 2911 (our arithmetic); he names no source for these figures, and does not say how many of the 2911 belonged to the invalid companies. English renderings (ours): 'the garrison consisted of the 3rd battalions of the infantry regiments Prinz Ferdinand, Lettow and Wedell, a company of the 2nd battalion of the regiment vac. Grävenitz and 3 invalid companies, or 2689 men of infantry, 168 men of artillery, 54 hussars, together 2911 men'; 'since the garrison of the fortress was properly reckoned at only 1500 men, it thus numbered double the strength required'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus den 3. Bataillonen der Infant.-Regmtr. Prinz Ferdinand, Lettow und Wedell, einer Kompagnie des 2. Bataill. des Regiments vac. Grävenitz und 3 Invaliden-Kompagnien, oder 2689 M. Infanterie, 168 M. Artillerie, 54 Husaren, zusammen 2911 Mann."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Da die Besatzung der Festung eigentlich nur auf 1500 M. berechnet war, so zählte sie mithin die doppelte Stärke des Bedarfs."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the Emperor wrote to the King of Holland on 22 October that the Prussians did not have 1,500 men of garrison at Nienburg on the Weser; Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg together were estimated at 10,000 men, who could intercept French convoys and detachments if they were not closely observed.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's letters, read from the page images; the figures were checked on full-resolution crops. Not reconciled with Höpfner's figures or Bodart's (claims side-b-strength, bodart-strength). The garrison was in Nienburg before Savary's approach, so the claim is tagged inherited. The Emperor's 'not 1,500' is below Höpfner's 2911 and close to the 1500 for which Höpfner says the fortress was reckoned (our comparison); the passages read do not say on what it rested. Mortier's 10,000 covers Hameln and Nienburg together and is not divided between them. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 6,000 men under General of Division Savary. The 32nd Bulletin, of 16 November: Savary had been charged with the blockade of Hameln with the Dutch division. Höpfner: on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse; Savary, after leaving a garrison of 100 French and 150 Dutch at Hameln, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached the town; on the 25th Savary, accompanied by General Schramm and several officers, was fetched in by the commandant. Earlier, a division of Mortier's corps marching past had summoned the fortress. Mortier wrote on 13 November that he was ordering Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line and the 2nd of cavalry, all Dutch troops, weak corps whose return he had not yet obtained, with 10 pieces of ordnance. No passage read gives a return of side A before Nienburg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart from the frame transcription; Höpfner and the French letters read from the page images, the figures checked on full-resolution crops. The force before Nienburg was the one Savary led from Hameln, whose composition and strength the passages read do not give; it followed Savary's dispositions after the capitulation of Hameln and orders the passages read do not give, so the phase is left unresolved. Bodart's 6,000 is the figure he prints for Savary's force at Hameln (B376d; our comparison), and is not shown to be a count. The passages read do not say whether the two regiments or the howitzers that reached Hameln on 22 November went on to Nienburg, whether Mortier's observation troops of 13 November stood before Nienburg when Savary came, or when the division of Mortier's corps passed and summoned it. English renderings (ours): Bodart, as in claim bodart-strength; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'General Savary has been charged with the blockade of Hameln with the Dutch division'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le général Savary a été chargé du blocus de Hameln avec la division hollandaise."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Savary as side A's (French) commander and Major General v. Strachwitz as side B's (Prussian). Höpfner: the commandant was Major General Strachwitz, to whom Artillery Major Colson, who had particularly distinguished himself at the siege of Valenciennes, had been attached as second commandant to support him, on General Blücher's recommendation; the engineer of the place was Captain Geyling, and Major Dreßler did the duty of town major. Savary set out from Hameln against Nienburg, and on the 25th the commandant, having fetched him into the town, urged him in person for over an hour to grant the garrison free withdrawal.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders, read from the frame transcription, with Höpfner, read from the page images. Bodart's commanders are Höpfner's (our comparison). The capitulation's text, which would show who signed it, was not seen. English renderings (ours): Bodart, as in claim bodart-strength; 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'Artillery Major Colson, who had particularly distinguished himself at the siege of Valenciennes, had been attached to General Strachwitz as second commandant, to support him, on the recommendation of General Blücher. The engineer of the place was Captain Geyling'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter Div.-Gen. Savary"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter GM. v. Strachwitz"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Dem General Strachwitz war, als zweiter Kommandant, zur Unterstützung, auf Empfehlung des Generals Blücher, der Artillerie-Major Colson, der sich bei der Belagerung von Valenciennes besonders ausgezeichnet hatte, beigegeben. Ingenieur vom Platz war der Hauptmann Geyling."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: a division of Mortier's corps marching past had earlier summoned the fortress, and was refused. General Savary, leaving a garrison of 100 French and 150 Dutch at Hameln, set out on both banks of the Weser against Nienburg, and the first patrols approached the town on the 24th. On the evening of 24 November a parlementaire of Savary's brought the summons to surrender, with an account of all the Prussian army's well-known misfortunes and the remark that insignificant Nienburg was incapable of any defence; a second parlementaire, General Schramm, who came soon after, sought to prove to the commandant that the conditions he had sent could not possibly be granted him, but invited him to a verbal discussion with Savary. On the 25th at 9 in the morning the commandant fetched in Savary, accompanied by Schramm and several officers, and for over an hour urged him in vain to grant the garrison free withdrawal; the French Captain Semery drew up the points of the capitulation with Major Dreßler.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images of pp. 378 and 380-382. These were the steps of side A's commanders before Nienburg, so the claim is tagged commander-created. Höpfner gives the summons and Schramm's argument in summary and cites no document for them in the passages read; the commandant's conditions are in claim side-b-command. Who commanded the division of Mortier's corps that summoned the fortress earlier, and when, is not stated in the passages read. English renderings (ours): 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains and ladders fixed in the re-entrant angles, to make up for the lack of a covered way and of posterns; he had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium that called at Nienburg from Hameln. To Savary's summons of the 24th the commandant, in the presence of Majors Colson and Dreßler, rejected all proposals, but sent word that he was inclined to capitulate if granted a three-week armistice and then free withdrawal to the King's army; he accepted Schramm's invitation to a discussion with Savary and fixed it for the next day. He then called to a council of war, besides those named, the commanders of the 3rd musketeer battalions, Lieutenant Colonels Schönowski and Brandenstein, both well into their sixties, and Major Gordon. All the staff officers held it advisable to surrender on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes, and Colson and Captain Geyling especially described the fortress's state as desperate, since besides fire the frost, perhaps soon to set in, was to be feared, when the ditches would freeze and the enemy would grant no capitulation at all; Colson, also weighing the general situation of the state, declared it wholly useless to defend Nienburg under the circumstances. All the officers present then agreed to the surrender and signed the protocol of the proceedings; Strachwitz meant to put the condition of free withdrawal once more but believed from the outset that it would not be granted. On the 25th, after urging it on Savary in vain for over an hour, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was done with Major Colson and Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell. Officers of the garrison came and went during the negotiations, most of the commanders having given notice the evening before that there would be a capitulation; no one was found who opposed it, the general misfortune and the idea that Nienburg could not be held having struck down every energetic resolve from the outset. Höpfner's judgement: even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed nor the town set on fire if the fortress's heavy calibres kept the enemy at the proper distance.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 380-383. These were the decisions of the commandant and his council, so the claim is tagged commander-created. Höpfner cites no document for the council or its protocol in the passages read, and the judgement is his own. The council's fear that a bombardment would turn the town to ashes stands beside Höpfner's description, in which a road 30 paces wide between the wall and the buildings meant that the burning of the town did not hinder the defence (claim nienburg-ground); both are kept. English renderings (ours): 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'General Strachwitz accepted the offer and fixed the following day for it'; 'after General Schramm had left the fortress, the commandant called together to a council of war, besides the persons named above, the commanders of the 3rd musketeer battalions; they were Lieutenant Colonels Schönowski and Brandenstein, both well into their sixties, and Major Gordon'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'all the officers present thereupon agreed to the surrender and signed the protocol of the proceedings'; 'General Strachwitz meant to put forward the condition of free withdrawal once more, but believed from the outset that it would not be granted'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'during the negotiations officers of the garrison came and went, since most of the commanders had already given notice the evening before that there would be a capitulation'; 'no one was found who would have stood up against it; the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset'; 'even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited first, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed, nor the town set on' (the sentence continues on p. 383); 'fire, if the heavy calibres of the fortress kept the enemy at the proper distance' (the end of the sentence begun on p. 382).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz nahm das Anerbieten an und bestimmte dazu den folgenden Tag."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Nachdem der General Schramm die Festung verlassen hatte, berief der Kommandant außer den oben genannten Personen noch die Kommandeurs der 3. Musketier-Bataillone zum Kriegsrath zusammen; es waren die Oberst-Lieutenants Schönowski und Brandenstein, beide hoch in den Sechzigern, und der Major Gordon."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche anwesende Offiziere willigten hierauf in die Uebergabe und unterzeichneten das Protokoll der Verhandlung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz wollte noch einmal die Bedingung des freien Abzuges hinstellen, glaubte aber von vornherein, daß sie nicht gewährt werden möchte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Während der Verhandlungen gingen Offiziere der Garnison ab und zu, da die meisten Kommandeurs bereits am Abend vorher die Mittheilung gemacht hatten, daß man kapituliren werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Es fand sich Niemand, der dagegen aufgetreten wäre; das allgemeine Unglück und die Vorstellung von der Unhaltbarkeit Nienburg's schlugen jeden energischen Entschluß von vornherein nieder."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Wenn ein baldiger Fall bei ernstlichen Anstalten des Feindes auch vorauszusehen war, so mußten solche Anstalten doch wenigstens erst abgewartet werden, da mit dem leichten Feldgeschütz des Feindes weder Schleusen noch Batardeaus so leicht zerstört, noch die Stadt in Brand"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "gesetzt werden konnte, wenn die schweren Kaliber der Festung den Feind in der gehörigen Entfernung erhielten."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Nienburg on 26 November: the French under Savary forced the Prussian garrison under Major General v. Strachwitz to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war. Höpfner: on the 25th, after the commandant had urged Savary in vain to grant free withdrawal, Major Dreßler and the French Captain Semery drew up the points of the capitulation; after the parole it was made known and the bridgehead handed over to the enemy at once, while the walls stayed occupied by the Prussians until the morning of the 26th. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer on his own authority destroyed a great part of the munition stores to keep them from the enemy. The officers were released on their word of honour, and the Feldwebel, some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be taken only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept their horses and other property, the men their knapsacks. So on 26 November Nienburg too fell into the enemy's hands without any defence; with it fell, Silesia excepted, Prussia's last strong point on the left bank of the Oder. The Emperor wrote to the Grand Duke of Berg from Posen on 3 December that Glogau had surrendered and that the place of Nienburg had likewise surrendered.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the Emperor's letter, read from the page images (Bodart's from the frame transcription); no source read gives a different result. The capitulation's text was not seen; its terms are Höpfner's summary. Höpfner has the capitulation drawn up on the 25th and made known after the parole, which we read as that evening, the Prussians holding the walls until the morning of the 26th, the day he gives for the fall; Bodart's date is the 26th (our reading and comparison). Bodart's captivity of the garrison and Höpfner's releases, with only a small remainder taken to France, are kept as given (claim side-b-losses). English renderings (ours): Bodart, as in claim bodart-strength; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'after the parole the capitulation was made known and the bridgehead handed over to the enemy at once. The walls remained occupied by the Prussians until the morning of the 26th'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'the officers were released on their word of honour, the Feldwebel [sergeants], some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be transported only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept horses and other property, the men their knapsacks'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'; 'with Nienburg fell, with the exception of Silesia, the last strong point of Prussia on the left bank of the Oder'; 'the Emperor to the Grand Duke of Berg. Posen, 3 December 1806'; 'Glogau has surrendered'; 'the place of Nienburg has likewise surrendered'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./11. KAPITULATION von Nienburg"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Nach der Parole wurde die Kapitulation bekannt gemacht und der Brückenkopf dem Feinde sogleich übergeben. Die Wälle blieben noch bis zum 26. Morgens von den Preußen besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Die Offiziere wurden auf Ehrenwort, die Feldwebel, einige Unteroffiziere und verheirathete Soldaten mit Pässen in die Heimath entlassen; alle Westphalen unter den Soldaten sollten nur nach Minden transportirt und von dort entlassen werden; die übrige, aber geringe Mannschaft wurde nach Frankreich gebracht; die Offiziere behielten Pferde und sonstiges Eigenthum, die Leute ihre Tornister."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "Mit Nienburg fiel — mit Ausnahme Schlesiens — der letzte feste Punkt Preußens auf dem linken Oder-Ufer."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p215-figures-v1",
+          "section": "p215",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 215 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG.\n\nPosen, 3 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "Glogau s'est rendu."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "La place de Nienburg s'est également rendue."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Bodart has the garrison capitulate without a stroke of the sword, and Höpfner says Nienburg fell without any defence (claim capitulation); no passage read describes any fighting at Nienburg. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B (Prussian) lost the fortress and its garrison. Bodart: the garrison fell into captivity as prisoners of war. Höpfner: the officers were released on their word of honour, and the Feldwebel, some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be taken only to Minden and released there; the remaining, but small, body of men was taken to France. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer destroyed a great part of the munition stores on his own authority to keep them from the enemy. Nienburg fell without any defence.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Bodart's from the frame transcription), not combined. No passage read counts the prisoners, the men released, the dead or wounded, or the guns and stores taken; Höpfner's 2911 men and his guns before the capitulation are in claims side-b-strength and means-and-supply. English renderings (ours): Bodart, as in claim bodart-strength; 'the officers were released on their word of honour, the Feldwebel [sergeants], some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be transported only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept horses and other property, the men their knapsacks'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Die Offiziere wurden auf Ehrenwort, die Feldwebel, einige Unteroffiziere und verheirathete Soldaten mit Pässen in die Heimath entlassen; alle Westphalen unter den Soldaten sollten nur nach Minden transportirt und von dort entlassen werden; die übrige, aber geringe Mannschaft wurde nach Frankreich gebracht; die Offiziere behielten Pferde und sonstiges Eigenthum, die Leute ihre Tornister."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        }
+      ]
+    },
+    {
+      "id": "nienburg-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Nienburg, a town in Prussia, province of Hanover, on the right bank of the Weser, 45 km north-west of Hanover. Höpfner: Nienburg, on the right bank of the Weser, had been largely razed soon after the Seven Years' War, but was to some extent put in order again for defence in 1803, when the French took possession of Hanover. The fortress formed a triangle whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off, so that only the northern side, between the Weser and the inundation, remained open to a regular attack; the two places of arms on the wings of that front were overlooked from the heights before it. A ravelin served as bridgehead on the left bank of the Weser, and the valley heights overlooked it. The town was narrow and badly built, mostly of half-timbered houses, so that a bombardment could soon lay it in ashes; but since a road 30 paces wide ran between the wall and the buildings where the Weser and the inundation did not secure the place, the burning of the town did not hinder the defence. Savary's troops approached on both banks of the Weser.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images. No plan of Nienburg was inspected, and where each work stood is taken only from Höpfner's description; the works themselves are in claim fortification. 'Geschützt', of the mill, is read as the closing of its sluice gates (our reading). Höpfner gives the road's width in paces; it is not converted. English renderings (ours): Bodart, '(town in Prussia, province of Hanover, on the right bank of the Weser, 45 km north-west of Hanover)'; 'Nienburg, situated on the right bank of the Weser, had been for the most part razed soon after the Seven Years' War, but in 1803, when the French took possession of Hanover, had been to some' (the word 'einigermaßen', to some extent, continues on p. 379); 'extent put in order again for defence' (the end of the sentence begun on p. 378); 'accordingly the fortress formed a triangle, whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off' ('geschützt', read as the closing of the mill's sluice gates; our reading); 'thus only the northern side of the triangle, between the Weser and the inundation, remained for a regular attack'; 'a continuous covered way did not exist, but only two places of arms on the wings of the front, overlooked from the heights lying before it, and between the middle bastions a ravelin covering the Norder gate'; 'a ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank of the Weser; the valley heights, however, overlooked the bridgehead, against which cover had been sought by bonnets and traverses'; 'the town was narrow and badly built, consisting mostly of half-timbered houses, so that it could soon be laid in ashes by a bombardment; but since a road 30 paces wide ran between the wall and the buildings where the Weser and the inundation did not secure the place, the defence was not hindered by the burning of the town'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "(Stadt in Preußen, Provinz Hannover, am rechten Weserufer, 45 km nordwestl. von Hannover)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Nienburg, auf dem rechten Ufer der Weser belegen, war bald nach dem 7jährigen Kriege größtentheils geschleift, im Jahre 1803 aber, als die Franzosen Hannover in Besitz nahmen, eini-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "germaßen wieder zur Vertheidigung zugerichtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Hiernach bildete die Festung ein Dreieck, dessen südlicher Schenkel durch ein Flüßchen, die Aue, bespült wurde, das die Gräben füllte und sein ganzes linkes Ufer überschwemmte, sobald die Mühle auf der Südseite der Festung, zwischen der Stadt und dem Hornwerk, geschützt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Es blieb somit nur der nördliche Schenkel des Dreiecks zu einem regelmäßigen Angriff zwischen Weser und Inondation übrig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Ein zusammenhängender gedeckter Weg war nicht vorhanden, sondern nur zwei von den vorliegenden Höhen eingesehene Waffenplätze auf den Flügeln der Front, und zwischen den mittleren Bastionen ein Ravelin zur Deckung des Norder-Thores."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Als Brückenkopf auf dem linken Weserufer diente ein Ravelin mit nassen Gräben und gut pallisadirtem gedeckten Weg; die Thalhöhen sahen indessen den Brückenkopf ein, wogegen man sich durch Bonnets und Traversen zu sichern gesucht hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Stadt war eng und schlecht gebaut, meist aus Fachwerkshäusern bestehend, so daß sie durch ein Bombardement bald in Asche gelegt werden konnte; doch da ein 30 Schritt breiter Weg zwischen dem Wall und den Gebäuden, da, wo die Weser und die Inondation nicht sicherten, vorhanden war, so wurde durch den Brand der Stadt die Vertheidigung nicht behindert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian), in Höpfner: a supply of munitions and provisions for more than 3 weeks was stored bombproof, and the commandant's building and the hospital were covered in the same way, though by report only weakly; each main work had small bombproof shelters. There were 39 cannon of all calibres, 10 howitzers, 2 mortars and 12 Wallbüchsen, thus a sufficient number for the fortress. At the council of war Colson and Geyling feared, besides fire, the frost, perhaps soon to set in, when the ditches would freeze. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer destroyed a great part of the munition stores. Side A (French): on 22 November two French regiments arrived at Hameln with some 10-pounder howitzers, probably taken in Hesse; Mortier wrote on 13 November that he was also leaving Dumonceau, with the troops left in observation before Hameln and Nienburg, 10 pieces of ordnance. Höpfner's judgement speaks of the enemy's light field guns and of the fortress's heavy calibres.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and Mortier's letter, read from the page images, the figures checked on full-resolution crops. Side B's guns and stores were set before Savary's approach; side A's guns came from its commanders' dispositions; one claim carries one phase, so it is unresolved. Höpfner's guns make 51 without the 12 Wallbüchsen (our arithmetic), Bodart's 51 (claim bodart-strength). Höpfner does not say for how many men the 3 weeks' supply was reckoned. Whether the howitzers that reached Hameln or Mortier's 10 pieces came before Nienburg is not shown. No passage read counts the stores found at the capitulation. English renderings (ours): 'a supply of munitions and provisions for more than 3 weeks was stored bombproof; in the same way, though by report only weakly, the commandant's building and the hospital were also covered'; 'each main work had small bombproof shelters'; 'of guns there were 39 cannon of all calibres, 10 howitzers, 2 mortars and 12 Wallbüchsen [rampart guns], thus a sufficient number for the fortress'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'; 'even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited first, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed, nor the town set on' (the sentence continues on p. 383); 'fire, if the heavy calibres of the fortress kept the enemy at the proper distance' (the end of the sentence begun on p. 382).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "An Munition und Lebensmitteln war ein Vorrath für mehr als 3 Wochen bombensicher untergebracht; in gleicher Weise, wenn auch der Angabe nach nur schwach, waren auch das Kommandanturgebäude und das Lazareth eingedeckt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Jedes Hauptwerk hatte kleine bombenfeste Behältnisse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "An Geschützen waren 39 Kanonen von allen Kalibern, 10 Haubitzen, 2 Mörser und 12 Wallbüchsen, für die Festung also eine hinreichende Zahl, vorhanden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Wenn ein baldiger Fall bei ernstlichen Anstalten des Feindes auch vorauszusehen war, so mußten solche Anstalten doch wenigstens erst abgewartet werden, da mit dem leichten Feldgeschütz des Feindes weder Schleusen noch Batardeaus so leicht zerstört, noch die Stadt in Brand"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "gesetzt werden konnte, wenn die schweren Kaliber der Festung den Feind in der gehörigen Entfernung erhielten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A (French): the Emperor wrote to the King of Holland on 22 October that the Prussians did not have 1,500 men of garrison at Nienburg on the Weser, and on 31 October that Hameln and Nienburg would not be slow to surrender when they learned of their country's disasters; Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg were estimated at 10,000 men. Höpfner: Savary's summons of 24 November said that insignificant Nienburg was incapable of any defence, and on the 25th Savary was fetched into the town and led to the commandant's headquarters.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters, read from the page images, with Höpfner's. The passages read do not show what side A knew of the garrison's strength, works or stores at Nienburg, or what it learned on entering the town; the Emperor's 'not 1,500' and Mortier's 10,000 are also in claim side-b-strength-french. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B (Prussian), in Höpfner: the commandant did not even admit to his presence the deputation of the Hanoverian Landes-Kollegium that called at Nienburg from Hameln. Savary's summons of 24 November came with an account of all the Prussian army's well-known misfortunes; at the council of war Colson took the general situation of the state into consideration; and, Höpfner says, the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The passages read do not show whether the garrison knew of Hameln's capitulation of 20 November or of the suspension of arms of 16 November, whose article 4 named Hameln and Nienburg (claim side-a-objectives), what the Hanoverian deputation came to say, or what side B knew of Savary's strength; Höpfner calls the Prussian army's misfortunes well known without saying when the garrison learned of them. English renderings (ours): 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'no one was found who would have stood up against it; the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Es fand sich Niemand, der dagegen aufgetreten wäre; das allgemeine Unglück und die Vorstellung von der Unhaltbarkeit Nienburg's schlugen jeden energischen Entschluß von vornherein nieder."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A (French): on 31 October the Emperor wrote to the King of Holland that Hameln and Nienburg would not be slow to surrender when they learned of their country's disasters, and that he should put a small corps of observation before them, without blockading them, to keep them from raiding the country; on 7 November he told Mortier to leave a small corps before Hameln and Nienburg and to move into Lauenburg and on Hamburg, from where, according to the orders the Emperor would send, Mortier would move into Swedish Pomerania in pursuit of Blücher's column. Mortier wrote on 12 November that he would leave two small corps to observe Hameln and Nienburg as the Emperor prescribed, and on 13 November that he was ordering Dumonceau to leave troops in observation before both. The suspension of arms signed at Charlottenburg on 16 November, which the 33rd Bulletin, of 17 November, prints, provided in article 4 that Hameln and Nienburg, with the places named in article 2, would be handed over to the French troops with their armament and munitions within the eight days following the exchange of ratifications, their garrisons not to be prisoners of war but directed on Kœnigsberg; ratifications were to be exchanged at Graudenz at the latest on the 21st, and by Foucart's note hostilities were to cease only then. The 35th Bulletin, of 28 November, says the King of Prussia told Duroc at Osterode that he could not ratify it. Höpfner: after Hameln, Savary set out against Nienburg; his summons of 24 November said that insignificant Nienburg was incapable of any defence, Schramm argued that the commandant's conditions could not be granted, and on the 25th the commandant's urging could not move Savary to grant the garrison free withdrawal.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The Emperor's and Mortier's letters and the Bulletins, read from the page images, with Höpfner. The aims moved from observation without blockade (31 October to 13 November) to Savary's summons and his refusal of free withdrawal (24 and 25 November); they came from the Emperor and from the commanders, so the phase is left unresolved. No order for the move against Nienburg was read. The capitulation made the garrison prisoners of war by Bodart, or released most of it by Höpfner (claim side-b-losses), while the suspension, had it been ratified, would have sent it to Kœnigsberg (our comparison); the passages read do not show whether Savary or the garrison knew of the suspension. The sentence on hostilities is Foucart's note, not the suspension's text. English renderings (ours): 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'the Emperor to Marshal Mortier. Berlin, 7 November 1806'; 'you will leave a small corps before Hameln and Nienburg and will move into Lauenburg and from there on Hamburg, from where, according to the orders I would send you, you would move into Swedish Pomerania in pursuit of General Blücher's column'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'I shall leave two small corps to observe Hameln and Nienburg as you prescribe to me'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; '1. 33rd Bulletin of the Grande Armée. Berlin, 17 November 1806' (the '1.' is the footnote's mark); 'the attached suspension of arms was signed yesterday at Charlottenburg'; 'Art. 4. — The places of Hameln and Nienburg, as well as those designated in article 2, shall be handed over to the French troops with their armament and munitions, of which an inventory shall be drawn up, within the eight days following the exchange of the ratifications of the present suspension of arms. The garrisons of these places shall not be prisoners of war; they shall be directed on Kœnigsberg, and they shall be given every facility necessary for this'; 'Art. 6. — The present suspension of arms shall be ratified by the two high contracting powers, and the exchange of ratifications shall take place at Graudenz at the latest on the 21st of the present month'; 'done at Charlottenburg, 16 November 1806'; 'hostilities were to cease only at the moment of the exchange of ratifications'; '35th Bulletin of the Grande Armée. Posen, 28 November 1806'; 'the marshal of the palace, Duroc, went as far as Osterode, where he saw the King of Prussia, who declared to him that part of his states was occupied by the Russians and that he was entirely in their dependence; that consequently he could not ratify the suspension of arms that his plenipotentiaries had concluded, because he could not carry out its stipulations'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p771-figures-v1",
+          "section": "p771",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 771 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL MORTIER.\n\nBerlin, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p772-figures-v1",
+          "section": "p772",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 772 (transcribed from the page image)",
+          "quote": "Vous laisserez un petit corps devant Hameln et Nienburg et vous vous porterez dans le Lauenburg et de là sur Hamburg d'où, selon les ordres que je vous enverrais, vous vous porteriez dans la Poméranie suédoise, à la poursuite de la colonne du général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Je laisserai deux petits corps pour observer Hameln et Nienburg ainsi que vous me le prescrivez."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "1. 33e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 17 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "La suspension d'armes ci-jointe a été signée hier à Charlottenburg."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "ART. 4. — Les places de Hameln et Nienburg, ainsi que celles désignées dans l'article 2, seront remises aux troupes françaises avec leurs armements et munitions, dont il sera dressé un inventaire, dans les huit jours qui suivront l'échange des ratifications de la présente suspension d'armes. Les garnisons de ces places ne seront pas prisonnières de guerre; elles seront dirigées sur Kœnigsberg, et on leur donnera à cet effet toutes les facilités nécessaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "ART. 6. — La présente suspension d'armes sera ratifiée par les deux hautes puissances contractantes, et l'échange des ratifications aura lieu à Graudenz, au plus tard le 21 du présent mois."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Fait à Charlottenburg, le 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Les hostilités ne devaient cesser qu'au moment de l'échange des ratifications."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "35e BULLETIN DE LA GRANDE ARMÉE.\n\nPosen, 28 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Le maréchal du palais, Duroc, a été jusqu'à Osterode, où il a vu le roi de Prusse, qui lui a déclaré qu'une partie de ses États était occupée par les Russes, et qu'il était entièrement dans leur dépendance; qu'en conséquence il ne pouvait ratifier la suspension d'armes qu'avaient conclue ses plénipotentiaires, parce qu'il ne pourrait pas en exécuter les stipulations."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B (Prussian), in Höpfner: when Prussia took possession of the country it was decided to restore the works so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege. To Savary's summons the commandant rejected all proposals but sent word that he was inclined to capitulate if granted a three-week armistice and then free withdrawal to the King's army; the council of war held it advisable to surrender to the enemy on advantageous terms, and Colson declared it wholly useless under the circumstances to defend Nienburg. Strachwitz meant to put the condition of free withdrawal once more, and on the 25th urged it on Savary in vain for over an hour.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The aims moved from a defence able to withstand a three-week siege to capitulation on the best terms obtainable; they came from the decision on the works and from the commandant and his council, so the phase is left unresolved. The passages read give no order to the garrison after Jena. English renderings (ours): 'when Prussia took possession of the country it was decided to restore the fortifications so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'General Strachwitz meant to put forward the condition of free withdrawal once more, but believed from the outset that it would not be granted'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme des Landes durch Preußen wurde beschlossen, die Festungswerke so weit herzustellen, daß Nienburg als sicherer Uebergang über die Weser dienen und eine dreiwöchentliche Belagerung aushalten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz wollte noch einmal die Bedingung des freien Abzuges hinstellen, glaubte aber von vornherein, daß sie nicht gewährt werden möchte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Bodart has the French under Savary force the garrison to capitulate without a stroke of the sword. Höpfner: Savary set out against Nienburg on both banks of the Weser, the first patrols approached the town on the 24th, and that evening his parlementaire summoned the fortress to surrender; on the 25th the commandant negotiated with Savary, and after the parole the capitulation was made known and the bridgehead handed over; so on 26 November Nienburg too fell into the enemy's hands without any defence. No passage read describes any fighting at Nienburg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A approached and summoned the fortress and side B capitulated without fighting. The phase is left unresolved: Savary's move followed the capitulation of Hameln and orders the passages read do not give, while the summons and the terms were the commanders' own (claims side-a-command, side-a-objectives). English renderings (ours): Bodart, as in claim bodart-strength; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'after the parole the capitulation was made known and the bridgehead handed over to the enemy at once. The walls remained occupied by the Prussians until the morning of the 26th'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Nach der Parole wurde die Kapitulation bekannt gemacht und der Brückenkopf dem Feinde sogleich übergeben. Die Wälle blieben noch bis zum 26. Morgens von den Preußen besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress: Höpfner says Nienburg, largely razed soon after the Seven Years' War, was to some extent put in order again for defence in 1803, and that when Prussia took possession it was decided to restore the works so that it could withstand a three-week siege. The fortress formed a triangle whose southern side was covered by the inundation of the Aue; the north front had three polygons in a straight line, whose main wall was strengthened by a kind of tenaille, with no continuous covered way but two places of arms on its wings and a ravelin covering the Norder gate; the south front had two polygons, the main wall up to the half bastion at the Weser junction surrounded by a kind of counterguard, a ravelin covering the Lein gate and a hornwork before the half bastion at the upper Weser junction, again with no continuous covered way but 2 places of arms; the gorge was closed only by a palisaded wall, and all the works were of earth. A ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank; the valley heights overlooked it, against which cover had been sought by bonnets and traverses. Strachwitz had palisades set on the berm before the curtains and ladders fixed in the re-entrant angles for want of a covered way and posterns; to relieve the garrisons of the places of arms and the counterguard the men had to climb over the breastwork. The sluices, none of them quite tight, held well enough to give the main ditch its proper depth of water; each main work had small bombproof shelters; and on the whole the works could withstand a three-week formal attack. No passage read describes any works of side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: side B held permanent works, readied before Savary's approach, so the claim is tagged inherited. English renderings (ours): 'Nienburg, situated on the right bank of the Weser, had been for the most part razed soon after the Seven Years' War, but in 1803, when the French took possession of Hanover, had been to some' (the word 'einigermaßen', to some extent, continues on p. 379); 'extent put in order again for defence' (the end of the sentence begun on p. 378); 'when Prussia took possession of the country it was decided to restore the fortifications so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege'; 'accordingly the fortress formed a triangle, whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off' ('geschützt', read as the closing of the mill's sluice gates; our reading); 'this front was fortified by three polygons lying in a straight line, whose main wall was strengthened by a kind of tenaille'; 'a continuous covered way did not exist, but only two places of arms on the wings of the front, overlooked from the heights lying before it, and between the middle bastions a ravelin covering the Norder gate'; 'the south front consisted of two polygons'; 'the main wall up to the half bastion at the Weser junction was surrounded by a kind of counterguard. A ravelin covered the Lein gate; a hornwork lay before the half bastion at the upper Weser junction'; 'on this front too there was no continuous covered way, but only 2 places of arms before the Lein gate and the hornwork'; 'the gorge of the fortress was closed only by a palisaded wall. All the works were built of earth'; 'a ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank of the Weser; the valley heights, however, overlooked the bridgehead, against which cover had been sought by bonnets and traverses'; 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'to relieve the garrisons of the places of arms and of the counterguard, the men had to climb over the breastwork'; 'the sluices, it is true, were none of them quite tight, but they held well enough to give the main ditch the proper depth of water'; 'each main work had small bombproof shelters'; 'on the whole the state of the works was such that a three-week formal attack could be withstood'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Nienburg, auf dem rechten Ufer der Weser belegen, war bald nach dem 7jährigen Kriege größtentheils geschleift, im Jahre 1803 aber, als die Franzosen Hannover in Besitz nahmen, eini-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "germaßen wieder zur Vertheidigung zugerichtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme des Landes durch Preußen wurde beschlossen, die Festungswerke so weit herzustellen, daß Nienburg als sicherer Uebergang über die Weser dienen und eine dreiwöchentliche Belagerung aushalten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Hiernach bildete die Festung ein Dreieck, dessen südlicher Schenkel durch ein Flüßchen, die Aue, bespült wurde, das die Gräben füllte und sein ganzes linkes Ufer überschwemmte, sobald die Mühle auf der Südseite der Festung, zwischen der Stadt und dem Hornwerk, geschützt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Diese Front war durch drei in gerader Linie liegende Polygone befestigt, deren Hauptwall durch eine Art Grabenscheere verstärkt war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Ein zusammenhängender gedeckter Weg war nicht vorhanden, sondern nur zwei von den vorliegenden Höhen eingesehene Waffenplätze auf den Flügeln der Front, und zwischen den mittleren Bastionen ein Ravelin zur Deckung des Norder-Thores."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Süd-Front bestand aus zwei Polygonen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Der Hauptwall bis zum halben Bastion am Weser-Anschluß war mit einer Art Kontregarde umgeben. Ein Ravelin deckte das Lein-Thor; ein Hornwerk lag vor dem halben Bastion am obern Weser-Anschluß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Auch auf dieser Front bestand kein zusammenhängender gedeckter Weg, sondern nur 2 Waffenplätze vor dem Lein-Thor und dem Hornwerke."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Kehle der Festung war nur durch einen pallisadirten Wall geschlossen. Alle Werke waren in Erde erbaut."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Als Brückenkopf auf dem linken Weserufer diente ein Ravelin mit nassen Gräben und gut pallisadirtem gedeckten Weg; die Thalhöhen sahen indessen den Brückenkopf ein, wogegen man sich durch Bonnets und Traversen zu sichern gesucht hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Um die Besatzungen der Waffenplätze und der Kontregarde abzulösen, mußten die Leute über die Brustwehr klettern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Die Schleusen waren zwar alle nicht ganz dicht, doch hielten sie hinreichend, um dem Hauptgraben die gehörige Wassertiefe zu geben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Jedes Hauptwerk hatte kleine bombenfeste Behältnisse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Im Ganzen war der Zustand der Werke dergestalt, daß ein dreiwöchentlicher förmlicher Angriff überstanden werden konnte."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: seen only in the OCR, a later letter of the Emperor to the Grand Duke of Berg in Foucart, Campagne de Pologne, t. I, pp. 241-242, which repeats that Nienburg has surrendered; the rest of Höpfner, Bd. 2, p. 383, on the war material lost in the campaign, not transcribed; General Savary's report and any order for the move on Nienburg, not found in the Foucart pages read; and the capitulation's text. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength at Nienburg. Bodart's 6,000 is the only total, the figure he also prints for Savary's force at Hameln; Höpfner gives only the garrison of 100 French and 150 Dutch that Savary left at Hameln, and Mortier's observation troops of 13 November, weak and without a return, are not shown at Nienburg. A return of Savary's column, such as his report on Nienburg, could close it.",
+    "Disputes kept as separate claims or within them: the date (the capitulation drawn up on the 25th and made known after the parole, and the place falling on the 26th, Höpfner; 26 November, Bodart); the garrison (2689 infantry, 168 artillery and 54 hussars, together 2911, against a strength of 1500 for which the fortress was reckoned, Höpfner; 3,000, Bodart; under 1,500, the Emperor on 22 October; 10,000 at Hameln and Nienburg together, Mortier on 13 November); the guns (39 cannon, 10 howitzers, 2 mortars and 12 Wallbüchsen, Höpfner; 51, Bodart); the prisoners (the garrison into captivity, Bodart; the officers, the Feldwebel, some non-commissioned officers and married soldiers released, the Westphalians to be released at Minden and only the small remainder taken to France, Höpfner); and the burning of the town (a bombardment would quickly turn it into a heap of ashes, the council of war; its burning would not hinder the defence, Höpfner's description).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his 3,000 men and 51 guns agree with Höpfner's 2911 and his 39 cannon, 10 howitzers and 2 mortars, and his 6,000 for side A is his figure for Hameln); Foucart, Campagne de Prusse, t. II, and Campagne de Pologne, t. I, one family (the same author's editions of the French side's documents, from the page images: the Emperor's letters to the King of Holland of 22 and 31 October, to Mortier of 7 November and to the Grand Duke of Berg of 3 December, Mortier's letters to the Emperor of 12 and 13 November, the 32nd, 33rd and 35th Bulletins, and the suspension of arms of 16 November printed with the 33rd, with Foucart's note on it); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; in this section he cites no document for the summons, the council of war, its protocol or the capitulation's terms)."
+  ]
+}

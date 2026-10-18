@@ -27563,6 +27563,2327 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B376d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Hameln entry (capitulation, 20 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under its commandant, General Schöler, with General Lecoq's corps, and the troops of the King of Holland, of Marshal Mortier and then of General Savary before it, from the joining of Lecoq's corps on 23 October through the investment of 7 November and the summonses and negotiations to the capitulation of 20 November, the mutiny and the French occupation of 21 November. The fortress's preparation from August 1806, Lecoq's march towards the Elbe and back, and the suspension of arms of 16 November, which was not ratified, are context. Nienburg (B377a), which Savary's troops took after leaving Hameln, and Magdeburg (B376c) are outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as 6,000 men under General of Division Savary, and side B (Prussian) as the garrison of 10,000 men with 129 guns under Major General v. Lecoq, which the French forced to capitulate after a 14-day blockade, the garrison then to be led away into captivity. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison's parts and his own totals (claim side-b-strength), the French letters other estimates (claim side-b-strength-french), and Höpfner and the French letters side A's troops (claim side-a-strength). Bodart's 10,000 is Höpfner's 'almost 10,000' and the top of his 9—10,000, and his 6,000 is Höpfner's 'only 6000' for the enemy (our comparison); but Höpfner's 93, 46, 21 and 15 guns, without the unserviceable ones, make 175 (our arithmetic), not Bodart's 129. Which source Bodart used was not checked. Bodart names Lecoq as the garrison's commander, while Höpfner has Schöler as commandant (claim bodart-commanders). English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 20/11. capitulation of Hameln'; 'the French (6,000 men) under General of Division Savary, after a 14-day blockade, force the Prussian garrison (10,000 men with 129 guns) under Major General v. Lecoq to capitulate, after which the garrison was to be led away into captivity'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 20./11. KAPITULATION von Hameln"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen nach 14tägiger Blokade die preußische Besatzung (10.000 M. mit 129 Geschützen) unter GM. v. Lecoq zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft abgeführt werden sollte."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: of infantry there were originally in Hameln the regiment Prinz Oranien and the 3rd musketeer battalions of Kurfürst von Hessen, Hagken, Tschammer and Schenk, of which the first two together numbered only 314 men, 3058 men in all, joined by the invalid companies of the regiments Tschammer, Schenk, Kurfürst von Hessen and Hagken; 181 artillerymen, so that the infantry had to give 3 assistants per gun to make 5 men to serve it; 2 officers and 28 men of the miner corps; and a detachment of 40 horses of the Köhler and Pletz hussars as the fortress's cavalry. Recruits and the replacement men of the regiments Treuenfels and Strachwitz, together about 1000 men, reinforced it at the end of September and the beginning of October, and after the events on the Saale some 1000 stragglers probably also came in, so that the garrison amounted to over 5000 men. On 23 October General Hagken's detachment was drawn into the garrison, and in exchange the 1st battalion of Oranien, 810 men, joined General Lecoq, whose corps thereby reached 4000 men. The protocol of the council that followed General Loison's summons held that a corps of 9000 men must be dearer to the King than so remote a fortress; after the capitulation Höpfner gives the garrison as 9—10,000 men strong, and as almost 10,000.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page images of pp. 349-350, 361 and 376-377; the figures were checked on full-resolution crops. The garrison and Lecoq's corps were at Hameln before the investment, so the claim is tagged inherited. Höpfner names no source for these figures, and gives none for General Hagken's detachment or the invalid companies. Reading the 810-man battalion as taken from the garrison's over 5000 in exchange for Hagken's detachment, the garrison and Lecoq's 4000 make over 8190 without that detachment (our reading and arithmetic); the passages read do not reconcile this with the protocol's 9000 or the later 9—10,000 and almost 10,000. The 9000 is the protocol's figure for the corps to be kept for the King, not a count. English renderings (ours): 'of infantry there were originally in Hameln: the regiment Prinz Oranien, the 3rd musketeer battalions of Kurfürst von Hessen, Hagken, Tschammer and Schenk, of which the first two, however, together numbered only 314 men, 3058 men in all, to which the invalid companies of the regiments Tschammer, Schenk, Kurfürst von Hessen and Hagken were added'; 'of artillery there were 181 men in the fortress, so that 3 assistants per gun still had to be given by the infantry to obtain 5 men to serve it'; 'of the miner corps 2 officers and 28 men were present'; 'a detachment of 40 horses of the Köhler and Pletz hussars formed the cavalry of the fortress'; 'this garrison was reinforced at the end of September and the beginning of October by recruits and by the replacement men of the regiments Treuenfels and Strachwitz, together by about 1000 men, and also after'; 'the unhappy events on the Saale some 1000 stragglers probably also turned up in the fortress, so that the garrison amounted to over 5000 men'; 'this was the state of things when General Hagken's detachment was drawn into the garrison on 23 October, and in exchange the 1st battalion of Oranien, 810 men strong, joined General Lecoq, whose corps thereby reached a strength of 4000 men'; 'in a protocol signed by all it was unanimously declared that the free withdrawal was to be accepted, since in the prevailing circumstances a corps of 9000 men must be dearer to the King than holding so remote a fortress, which must in any case fall in 2 months at the latest; but before the capitulation was concluded an officer was to be sent to the Elbe to convince himself of the truth of the circumstances stated'; 'in all, of the garrison 9—10,000 men strong, about 600 men were taken prisoner, although General Savary's report speaks of 6000 men'; 'so Hameln fell, in a complete state of defence, with a garrison of almost 10,000 men, with stores for a long time — without the great stores of the burghers — into the hands of an enemy only 6000 men strong, who in guns had nothing but 6-pounder cannon and 3 old 30-pounder hanging mortars, which he had first fetched from Rinteln'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "An Infanterie war ursprünglich in Hameln: das Regmt. Prinz Oranien, die 3. Musketier-Bataillone von Kurfürst von Hessen, Hagken, Tschammer und Schenk, wovon die beiden ersteren aber nur zusammen 314 Mann zählten, im Ganzen 3058 Mann, zu welchen noch die Invaliden-Kompagnien der Regmtr. Tschammer, Schenk, Kurfürst von Hessen und Hagken stießen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "An Artillerie befanden sich 181 Mann in der Festung, so daß noch per Geschütz 3 Handlanger von der Infanterie abgegeben werden mußten, um 5 Mann zur Bedienung zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Vom Mineur-Korps waren 2 Offiziere und 28 Mann vorhanden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Ein Kommando von 40 Pferden von Köhler- und Pletz-Husaren bildete die Kavallerie der Festung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Diese Besatzung wurde Ende Septembers und Anfangs Oktobers durch Rekruten und durch die Ersatzmannschaften der Regimenter Treuenfels und Strachwitz, zusammen durch etwa 1000 Mann, verstärkt, so wie auch nach"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "den unglücklichen Ereignissen an der Saale sich wohl noch gegen 1000 Versprengte in der Festung einfanden, so daß die Besatzung über 5000 Mann betrug."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Dies war die Lage der Dinge als das Detaschement des Generals Hagken am 23. Oktober zur Garnison gezogen wurde, und dagegen das 810 Mann starke 1. Bataill. von Oranien zum General Lecoq stieß, dessen Korps dadurch die Stärke von 4000 Mann erreichte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "In einem, von Allen unterschriebenen Protokolle, wurde einstimmig ausgesprochen, daß der freie Abzug anzunehmen sei, da unter den obwaltenden Verhältnissen dem Könige ein Korps von 9000 Mann lieber sein müsse, als die Behauptung einer so entlegenen Festung, die in 2 Monaten spätestens doch fallen müsse; jedoch sei vor Abschließung der Kapitulation ein Offizier nach der Elbe zu schicken, um sich von der Wahrheit der angegebenen Umstände zu überzeugen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Im Ganzen wurden von der 9—10,000 Mann starken Garnison etwa 600 Mann kriegsgefangen, obgleich der Bericht des Generals Savary von 6000 M. spricht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "So fiel Hameln, im vollkommenen Vertheidigungszustande mit einer Garnison von fast 10,000 Mann, mit Vorräthen auf längere Zeit — ohne die großen Vorräthe der Bürger — in die Hände eines nur 6000 Mann starken Feindes, der an Geschütz außer 6pfündigen Kanonen nichts als 3 alte 30pfündige Hängemortiere besaß, die er erst aus Rinteln herbeigeholt hatte."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the Emperor wrote to the King of Holland on 22 October that the Prussians did not have 1,500 men of garrison at Nienburg and that he had reason to think they had at Hameln only just what was necessary for the garrison; on 9 November he wrote to Ney that the King of Holland reported 7,000 men at Hameln camped under the walls of the place. Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg together were estimated at 10,000 men, who could intercept French convoys and detachments if they were not closely observed.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's letters, read from the page images; the figures were checked on full-resolution crops. Not reconciled with Höpfner's figures or Bodart's (claims side-b-strength, bodart-strength). The garrison and Lecoq's corps were at Hameln before the investment, so the claim is tagged inherited. The passages read do not say whether the King of Holland's 7,000 camped under the walls are Lecoq's corps, which Höpfner has camped at the foot of the Klütberg from 24 October (claim side-b-command), or the whole garrison; Mortier's 10,000 covers Hameln and Nienburg together. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'the Emperor to Marshal Ney. Berlin, 9 November 1806'; 'the King of Holland informs me that there are at Hameln 7,000 men camped under the walls of the place'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p794-figures-v1",
+          "section": "p794",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 794 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL NEY.\n\nBerlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p794-figures-v1",
+          "section": "p794",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 794 (transcribed from the page image)",
+          "quote": "Le roi de Hollande me mande qu'il y a à Hameln 7,000 hommes campés sous les murs de la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 6,000 men under General of Division Savary. Höpfner: the division Gobert of the Army of the North was set in motion directly against Hameln while the division Michaud marched there from Kassel by Hörter; on 7 November the enemy advanced with a cavalry brigade, a Dutch Guard dragoon regiment and a hussar regiment, the troops at Gr. Berkel belonging to the division Gobert; on 10 November part of Mortier's corps appeared, Mortier having detached a division against Hameln. On the 13th it was learned that the King of Holland's guards and some other regiments had left with him, and that the division of Mortier's corps was said to have left earlier for Hamburg. After a page not read, Höpfner says it was known for certain that the enemy had moved down the Weser with a great part of his forces, and that General Lecoq estimated the enemy left behind at only 6000 men. On the 19th the Prince of Waldeck said that Italian troops had arrived at Pyrmont to reinforce the blockading troops. By Höpfner, Napoleon's order of 13 November to Mortier judged the Dutch corps of about 6000 men sufficient if properly entrenched, and his order of 18 November to Savary said that the 12th light infantry regiment was already on its way from Kassel as reinforcement and that General Lagrange was to be asked to send some cavalry. On the 20th, when the Prussian generals rode to the Wehrberg Warte, a crowd of French officers stood before the house where Savary had dismounted and two dragoon squadrons were drawn up, and on 22 November two more French regiments arrived at Hameln. Höpfner: Hameln fell to an enemy only 6000 men strong. The French letters: on 22 October the Emperor told the King of Holland that he was adding a corps of nearly 12,000 men to the King's army corps, and on 31 October that Mortier had 10,000 men and the King 12,000, together 22,000, much more than the army of Hanover needed. Mortier wrote on 12 November that the King had put at his disposal the divisions of Generals Dumonceau and Michaud, in all about 7,000 men, held back at Hameln the day before by new orders of the King; on 13 November, that the King had kept them before Hameln for some days more and that, unable to delay his march on Hamburg, he was ordering Dumonceau to leave in observation before Hameln and Nienburg the 2nd and 3rd light infantry regiments, the 7th of the line and the 2nd of cavalry, all Dutch troops, weak corps whose return he had not yet obtained, with 10 pieces of ordnance, while Michaud was to join him with his division of the 22nd, 65th and 72nd French infantry regiments and the 2nd Dutch hussars. The 32nd Bulletin, of 16 November: Savary had been charged with the blockade of Hameln with the Dutch division. No passage read gives a return of side A before Hameln at the capitulation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart from the frame transcription; Höpfner and the French letters read from the page images, the figures checked on full-resolution crops. The force before Hameln changed during the blockade, as troops arrived and left on the orders of the King of Holland, Mortier and the Emperor, so the phase is left unresolved. Bodart's 6,000 matches Höpfner's 'only 6000', Lecoq's estimate and the 'about 6000' of the order of 13 November as Höpfner gives it (our comparison); the passages read do not show that any of them is a count. Höpfner's divisions Gobert and Michaud and Mortier's divisions Dumonceau and Michaud are kept as named; whether Gobert's division is Dumonceau's is not shown. Höpfner says that as good as nothing about the enemy's movements in western Germany has been communicated from the French side, and the Emperor's orders of 13 and 18 November are known here only from his summary; they were not seen in Foucart. Whether the 12th light, the cavalry from Kassel or the Italian troops arrived before the capitulation is not shown; the two regiments of 22 November arrived after it. English renderings (ours): Bodart, as in claim bodart-strength; '[di]vision Gobert of the Army of the North in motion directly against Hameln, while the division Michaud marched there from Kassel by Hörter' (the sentence begins on p. 356, which was not read); 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'the enemy soon advanced with a cavalry brigade — a Dutch Guard dragoon regiment and a hussar regiment — and forced the Prussian officers to retreat on Kl. Berkel'; 'it was the division Gobert to which the troops that appeared at Gr. Berkel belonged; the King of Holland was present in person'; 'on 10 November part of Mortier's corps also appeared before Hameln'; 'Marshal Mortier, after leaving small garrisons, had set out by Münden and Göttingen for Hanover to take possession of that country, and had detached a division against Hameln'; 'also on the 13th many movements were seen in the enemy camps, and it was soon learned that with the King of Holland his guards and some other regiments had also left, as the division of Mortier's corps was said to have left the neighbourhood of Hameln earlier and marched on towards Hamburg, since Napoleon had ordered from Berlin under 6 November that Marshal Mortier should work together with Marshals Soult and Bernadotte for the destruction of Blücher's corps and march on Hamburg to oppose the Prussians' crossing there'; 'it was now known for certain that the enemy had moved off down the Weser with a great part of his forces and had almost entirely evacuated the left bank. General Lecoq himself estimated the enemy left behind at only 6000 men. His camp was seen in the area this side of Fischbeck'; 'on the 19th in the afternoon the Prince of Waldeck came to Hameln and told the generals everything he knew of the events in the Prussian army, assured them also that the French had already crossed the Vistula, so that Prussia was irretrievably lost. He further said that Italian troops had already arrived at Pyrmont to reinforce the blockading troops'; 'under 13 November Napoleon had ordered Marshal Mortier now to set about the investment of Hameln in earnest, to have two bridges thrown over the Weser and to arrange for the blockading troops to entrench themselves properly so as to be safe against any sortie; Rinteln was to serve them as a base and supply the guns for the attack; the Dutch corps, about 6000 men strong, seemed sufficient to be safe against the garrison if properly entrenched'; 'under 18 November Napoleon at last directed General Savary from Berlin to leave at once and go before Hameln to take command of the blockading troops; the guns from Rinteln were to bombard the place and so hasten its surrender, the field guns to defend the entrenchments; the 12th light infantry regiment was already on its way from Kassel as reinforcement; the commandant there, General Lagrange, was further to be asked to send off some cavalry; the garrison of Hameln could be granted a capitulation by which it would be prisoners of war, the officers released on parole, but the private soldiers transported to France etc.'; 'on the morning of the 20th Generals Schöler, Hagken and Lecoq and Colonel Heyn, commander of the regiment Oranien, rode with their adjutants under the escort of Lieutenant Santha's hussars to the Wehrberg Warte; General Wedell had received the command in Hameln in the commandant's absence'; 'a crowd of French officers were before the house where General Savary had dismounted; two dragoon squadrons were drawn up;'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'; 'so Hameln fell, in a complete state of defence, with a garrison of almost 10,000 men, with stores for a long time — without the great stores of the burghers — into the hands of an enemy only 6000 men strong, who in guns had nothing but 6-pounder cannon and 3 old 30-pounder hanging mortars, which he had first fetched from Rinteln'; 'it will now be necessary to make up for the enemy's movements in western Germany, though it is to be remarked from the outset that as good as nothing about them has been communicated from the French side'; 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'send me the formation of your army corps, to which I am adding a corps of nearly 12,000 men'; 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Marshal Mortier has 10,000 men and you 12,000; you will thus have 22,000 men; that will be much more than you need for the army of Hanover'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'the King has put at my disposal the divisions of Generals Dumonceau and Michaud; they should form in all about 7,000 men. They were held back yesterday at Hameln by new orders of the King'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the King of Holland has thought fit to keep the divisions Dumonceau and Michaud before Hameln for some days more'; 'being unable to delay my march on Hamburg, I must leave behind these troops that the King had put at my disposal'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'; 'I am charging General Michaud to come and join me, heading for Luneburg, with his division, composed of the 22nd, 65th and 72nd regiments of French infantry, the 2nd Dutch hussars;'; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'General Savary has been charged with the blockade of Hameln with the Dutch division'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen nach 14tägiger Blokade die preußische Besatzung (10.000 M. mit 129 Geschützen) unter GM. v. Lecoq zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft abgeführt werden sollte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "vision Gobert der Nord-Armee direkt gegen Hameln in Bewegung setzte, während die Division Michaud von Kassel über Hörter eben dahin marschirte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Der Feind rückte bald mit einer Kavallerie-Brigade — einem holländischen Garde-Dragoner- und einem Husaren-Regmt. — vor und nöthigte die preußischen Offiziere zum Rückzuge auf Kl. Berkel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Es war die Division Gobert, zu der die bei Gr. Berkel erschienenen Truppen gehörten; der König von Holland war selbst gegenwärtig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Am 10. November erschien auch ein Theil des Mortierschen Korps vor Hameln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Der M. Mortier war nach Zurücklassung geringer Besatzungen über Münden und Göttingen nach Hannover aufgebrochen, um dieses Land in Besitz zu nehmen, und hatte eine Division gegen Hameln detaschirt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Ebenfalls am 13. gewahrte man viele Bewegungen in den feindlichen Lägern und erfuhr bald, daß mit dem Könige von Holland auch seine Garden und einige andere Regimenter abgezogen wären, so wie schon früher die Division des Mortierschen Korps die Gegend von Hameln verlassen und weiter gegen Hamburg marschirt sein sollte, da Napoleon unterm 6. November von Berlin aus befohlen hatte, daß der M. Mortier mit den Marschällen Soult und Bernadotte gemeinschaftlich zur Vernichtung des Blücherschen Korps wirken und auf Hamburg marschiren solle, um dem Uebergange der Preußen daselbst entgegenzutreten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Man wußte nun entschieden, daß der Feind mit einem großen Theil seiner Kräfte sich die Weser abwärts gezogen und das linke Ufer fast ganz geräumt habe. Der General Lecoq selbst schätzte den zurückgebliebenen Feind nur auf 6000 Mann. Man sah sein Lager in der Gegend diesseits Fischbeck."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Am 19. Nachmittags kam der Fürst von Waldeck nach Hameln und erzählte den Generalen Alles, was er von den Begebenheiten bei der preußischen Armee wußte, versicherte auch, daß die Franzosen bereits die Weichsel überschritten hätten, mithin Preußen unwiederbringlich verloren sei. Weiter erzählte er, daß italienische Truppen zur Verstärkung der Blokadetruppen bereits in Pyrmont angekommen seien."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Napoleon hatte unterm 13. November dem M. Mortier befohlen, nunmehr ernsthaft an die Einschließung von Hameln zu gehen, zwei Brücken über die Weser schlagen zu lassen und anzuordnen, daß die Blokadetruppen sich gehörig verschanzten, um gegen jeden Ausfall sicher zu sein; Rinteln solle ihnen als Stützpunkt dienen, und die Geschütze zum Angriff hergeben; das etwa 6000 Mann starke holländische Korps scheine ausreichend, um gehörig verschanzt gegen die Besatzung gesichert zu sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Unterm 18. November bestimmte Napoleon aus Berlin endlich dem General Savary, sofort abzureisen und sich vor Hameln zu begeben, um das Kommando über die Blokadetruppen zu übernehmen; die Geschütze aus Rinteln sollten den Platz bewerfen und dadurch die Uebergabe beschleunigen, die Feldgeschütze die Verschanzungen vertheidigen; das 12. leichte Infanterie-Regiment sei bereits von Kassel zur Verstärkung unterweges; der dortige Kommandant, General Lagrange, solle noch aufgefordert werden, einige Kavallerie abgehen zu lassen; der Garnison von Hameln könne eine Kapitulation bewilligt werden, durch welche sie kriegsgefangen, die Offiziere auf ihr Ehrenwort entlassen, die Gemeinen aber nach Frankreich transportirt würden ꝛc."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Am 20. Morgens ritten die Generale Schöler, Hagken und Lecoq und der Oberst Heyn, Kommandeur des Regmts. Oranien, mit ihren Adjutanten unter der Bedeckung der Husaren des Lieut. Santha nach der Wehrberger Warte; der General Wedell hatte in der Abwesenheit des Kommandanten den Befehl in Hameln erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Eine Menge französischer Offiziere befand sich vor dem Hause, wo der General Savary abgestiegen war; zwei Dragoner-Schwadronen waren aufmarschirt;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "So fiel Hameln, im vollkommenen Vertheidigungszustande mit einer Garnison von fast 10,000 Mann, mit Vorräthen auf längere Zeit — ohne die großen Vorräthe der Bürger — in die Hände eines nur 6000 Mann starken Feindes, der an Geschütz außer 6pfündigen Kanonen nichts als 3 alte 30pfündige Hängemortiere besaß, die er erst aus Rinteln herbeigeholt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p353-figures-v1",
+          "section": "p353",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 353 (transcribed from the page image)",
+          "quote": "Es wird jetzt nothwendig sein, die Bewegungen des Feindes im westlichen Deutschland nachzuholen, doch ist von vorn herein zu bemerken, daß von französischer Seite darüber so viel wie gar nichts mitgetheilt worden ist."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "Envoyez-moi la formation de votre corps d'armée, auquel je joins un corps de près de 12,000 hommes."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Le maréchal Mortier a 10,000 hommes et vous 12,000; vous aurez ainsi 22,000 hommes; ce sera beaucoup plus qu'il ne vous faut pour l'armée de Hanovre."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Le Roi a mis à ma disposition les divisions des généraux Dumonceau et Michaud; elles doivent former en tout environ 7,000 hommes. Elles ont été retenues hier à Hameln par de nouveaux ordres du Roi."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Le roi de Hollande a cru devoir garder encore pendant quelques jours les divisions Dumonceau et Michaud devant Hameln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Ne pouvant point retarder ma marche sur Hamburg, je dois laisser en arrière ces troupes que le Roi avait mises à ma disposition."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Je charge le général Michaud de venir me rejoindre, en se dirigeant sur Luneburg, avec sa division composée des 22e, 65e et 72e régiments d'infanterie française, le 2e de hussards hollandais;"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le général Savary a été chargé du blocus de Hameln avec la division hollandaise."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Savary as side A's (French) commander and Major General v. Lecoq as side B's (Prussian). Höpfner: Major General and Engineer Brigadier Schöler was appointed commandant of Hameln in May, and Lecoq commanded his own corps, which reached 4000 men on 23 October and camped at the foot of the Klütberg from the 24th; at the Wehrberg Warte Lecoq drafted the capitulation and the commandant signed it, and Schöler refused to let Colonel Caprivi sign as well, since he, the general, was commandant of the town and of the forts. Savary announced his arrival as commander of the besieging corps on the evening of the 19th, sent by Napoleon's order of 18 November to take command of the blockading troops; the 32nd Bulletin, of 16 November, already says that he had been charged with the blockade of Hameln with the Dutch division.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders, read from the frame transcription, with Höpfner and the 32nd Bulletin, read from the page images. Bodart's choice of Lecoq rather than the commandant is kept as printed; the capitulation's text, which would show who signed it, was not seen. The Bulletin is dated two days before the order of 18 November as Höpfner gives it; both are kept (claim side-a-command). English renderings (ours): Bodart, as in claim bodart-strength; 'immediately after the taking of possession Major General Strachwitz commanded in Hameln, but in May Major General and Engineer Brigadier Schöler, an old man of 75, physically and mentally wholly dulled, and therefore slow to decide and extremely anxious, was appointed commandant'; 'this was the state of things when General Hagken's detachment was drawn into the garrison on 23 October, and in exchange the 1st battalion of Oranien, 810 men strong, joined General Lecoq, whose corps thereby reached a strength of 4000 men'; 'on 24 October General Lecoq led his corps into a camp at the foot of the Klütberg, and had its entrenchment begun at once'; 'General Savary now wanted to dictate the points of capitulation at once, but General Lecoq declined this, drafted the capitulation in French himself, and the commandant signed the collated copy after General Lecoq had assured him that there was nothing more to object to'; 'the colonel answered only with tears. When General Savary asked him to sign the capitulation as well, General Schöler refused this with the remark that the colonel did not need to sign, since he, the general, was commandant of the town and of the forts'; 'quite unexpectedly a parlementaire was again announced on the evening of the 19th'; 'it was Captain Charles with a letter from General Savary, in which he announced to the commandant his arrival as commander of the besieging corps, and at the same time expressed his pleasure at the commandant's sensible views of the state of affairs, adding that he nevertheless could not accept the conditions put, since the King of Prussia had not a battalion left and was himself in flight; he wished to settle the rest orally, and left it to them to fix the time and place for it'; 'under 18 November Napoleon at last directed General Savary from Berlin to leave at once and go before Hameln to take command of the blockading troops; the guns from Rinteln were to bombard the place and so hasten its surrender, the field guns to defend the entrenchments; the 12th light infantry regiment was already on its way from Kassel as reinforcement; the commandant there, General Lagrange, was further to be asked to send off some cavalry; the garrison of Hameln could be granted a capitulation by which it would be prisoners of war, the officers released on parole, but the private soldiers transported to France etc.'; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'General Savary has been charged with the blockade of Hameln with the Dutch division'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "unter Div.-Gen. Savary"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "unter GM. v. Lecoq"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Gleich nach der Besitznahme befehligte in Hameln der General-Major Strachwitz, doch im Mai wurde der General-Major und Ingenieur-Brigadier Schöler, ein 75jähriger Greis, körperlich und geistig völlig abgestumpft, daher auch schwer von Entschluß und äußerst ängstlich, zum Kommandanten ernannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Dies war die Lage der Dinge als das Detaschement des Generals Hagken am 23. Oktober zur Garnison gezogen wurde, und dagegen das 810 Mann starke 1. Bataill. von Oranien zum General Lecoq stieß, dessen Korps dadurch die Stärke von 4000 Mann erreichte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Am 24. Oktober führte der General Lecoq sein Korps in ein Lager am Fuß des Klütberges, und ließ sofort die Verschanzung desselben beginnen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der General Savary wollte nun sofort die Kapitulationspunkte diktiren, indessen lehnte der General Lecoq dies ab, entwarf die Kapitulation in französischer Sprache selbst, und der Kommandant unterzeichnete das collationirte Exemplar, nachdem der General Lecoq versichert hatte, daß nichts mehr zu erinnern sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Der Oberst antwortete nur durch Thränen. Als der General Savary ihn aufforderte, die Kapitulation mit zu unterzeichnen, wies dies der General Schöler mit dem Bemerken zurück, daß der Oberst nicht zu unterzeichnen brauche, da er, der General, Kommandant der Stadt und der Forts sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Ganz unerwartet wurde am Abend des 19. abermals ein Parlamentair angemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Es war der Kapitain Charles mit einem Schreiben des Generals Savary, worin dieser dem Kommandanten seine Ankunft als Befehlshaber des Belagerungskorps meldete, zugleich seine Freude über die verständigen Ansichten des Kommandanten über die Lage der Dinge mit dem Hinzufügen ausdrückte, daß er aber dennoch auf die gestellten Bedingungen nicht eingehen könne, da der König von Preußen kein Bataillon mehr besitze und selbst auf der Flucht sei; er wünsche das Weitere mündlich abzumachen, und überlasse es, Zeit und Ort hierzu zu bestimmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Unterm 18. November bestimmte Napoleon aus Berlin endlich dem General Savary, sofort abzureisen und sich vor Hameln zu begeben, um das Kommando über die Blokadetruppen zu übernehmen; die Geschütze aus Rinteln sollten den Platz bewerfen und dadurch die Uebergabe beschleunigen, die Feldgeschütze die Verschanzungen vertheidigen; das 12. leichte Infanterie-Regiment sei bereits von Kassel zur Verstärkung unterweges; der dortige Kommandant, General Lagrange, solle noch aufgefordert werden, einige Kavallerie abgehen zu lassen; der Garnison von Hameln könne eine Kapitulation bewilligt werden, durch welche sie kriegsgefangen, die Offiziere auf ihr Ehrenwort entlassen, die Gemeinen aber nach Frankreich transportirt würden ꝛc."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le général Savary a été chargé du blocus de Hameln avec la division hollandaise."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the division Gobert, with the King of Holland present, drove the Prussian outposts back on 7 November and completed the investment on the left bank that day; on the 8th the enemy reconnoitred the fortress, and on the 9th threw a bridge over the Weser at Ohr under a howitzer battery on the Ohrberg, attacked the post at the Afferde Warte and took up camps at Aerzen, the King's headquarters, and at Ohr on both banks; Rinteln and Hessen-Oldendorf were occupied and Rinteln's guns brought before Hameln. On the 10th part of Mortier's corps appeared and its tirailleurs attacked the covered way at the Mühlen gate, and General of Division Loison brought a letter from the King summoning Lecoq to capitulate in return for free withdrawal and threatening to burn the town in 24 hours; the King approved free withdrawal to the Prussian King's army as the main point, referring the details to Loison and Colonel Brüne. On the 12th, complaining of the detention of General Brack, who by Höpfner had been sent to Hameln on a wholly empty pretext, the King summoned the fortress to surrender in two hours, sending the news of the fall of Magdeburg and Napoleon's army order on Ratkau; he refused to receive Lecoq and demanded that the garrison surrender as prisoners of war, and General Michaud, who commanded the advance guard, wrote that the commandant might send an officer to General Blücher but must then surrender, the garrison becoming prisoners of war. Michaud then announced that the King had left and he had taken the chief command, sending the Bulletins on the capitulations of Prenzlau, Stettin and Küstrin; on the 18th General dü Monceau, who had relieved Michaud, wrote that Napoleon was angered at the Prussian generals' conduct and had ordered that no more capitulation be granted them if they did not surrender at once, and summoned them to negotiate. On the evening of the 19th Savary announced his arrival as commander of the besieging corps and refused the conditions put; at the meeting at the Wehrberg Warte on the 20th he told the Prussian generals in his Emperor's name that the last moment for capitulation had come, added the lie that Glogau and Breslau had already capitulated and wanted to dictate the terms, and the French rejected the 5th article of Lecoq's draft. Mortier wrote on 12 November that he had moved on Hameln by the King of Holland's order to surround it on the right bank and debouched by Hastenbeck on the evening of the 9th, and that on the 10th all the enemy posts were driven into the place and dislodged from the brick fort on the Hamel, at half range from the town. Höpfner: Napoleon had chosen the right man to reach the goal quickly.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner and Mortier's letter, read from the page images. These were the steps of side A's commanders before Hameln, so the claim is tagged commander-created; the changes of command followed orders from above (claim side-a-objectives). Dü Monceau's letter came 'on the same day' as the relief of Fort George's garrison on the 18th. Höpfner gives the letters of the King, Michaud, dü Monceau and Savary in summary and cites no document for them in the passages read. The 32nd Bulletin, of 16 November, already has Savary charged with the blockade (claim bodart-commanders), while by Höpfner Napoleon's order sending him is of 18 November and he announced his arrival on the 19th; the dates are kept as given. Mortier's brick fort on the Hamel may be the inundation redoubt that Höpfner has abandoned on the commandant's order in the night to the 10th and occupied by the enemy, who later left it (claim side-b-command); the passages read do not establish it, so Mortier's 'dislodged' and Höpfner's abandonment are both kept. The 'right man' is Höpfner's judgement. English renderings (ours): 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'the enemy soon advanced with a cavalry brigade — a Dutch Guard dragoon regiment and a hussar regiment — and forced the Prussian officers to retreat on Kl. Berkel'; 'an enemy column was seen marching towards the Weser and going into bivouacs; and by the occupation of the wood between Berkel and Hemeringen the investment of the fortress on the left bank was completed that same day'; 'it was the division Gobert to which the troops that appeared at Gr. Berkel belonged; the King of Holland was present in person'; 'on 8 November General Lecoq reconnoitred the enemy and the enemy the fortress, which led to an insignificant cannonade'; 'on the 9th the enemy, under the protection of a howitzer battery set up on the Ohrberg, threw a bridge over the Weser at Ohr, for which the boats had been brought downstream'; 'the Prussian post at the Afferde Warte was at once attacked in superior force and, though reinforced from the fortress, pushed back to the barrier'; 'the enemy now took up camps at Aerzen, where the King of Holland's headquarters was, and at Ohr on both banks of the river'; 'Rinteln and Hessen-Oldendorf were occupied by him. In the former place the Hessian garrison had been disarmed and the guns on hand brought before Hameln'; 'on 10 November part of Mortier's corps also appeared before Hameln'; 'an enemy column moved from Rehrsen to the Baßberg and attacked the covered way with tirailleurs, who posted themselves in the gardens and garden houses in front and for a long time kept up their fire with the garrison of the covered way at the Mühlen gate'; 'it was General of Division Loison, who brought a letter from the King of Holland to General Lecoq, in which he summoned him, communicating the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., to capitulate in return for free withdrawal, but in case of refusal threatened to reduce the town to ashes in 24 hours and to lay all the resulting misfortune on the general'; 'he was very kindly received; the King approved the main point: that the garrison could go by the nearest road to the King's army; but referred him for the details to General Loison and Colonel Brüne'; 'it was the enemy General Brack whom Major Beaufort had found with the commandant, and who had been sent to Hameln on a wholly empty pretext'; 'on the ground of General Brack's failure to return, the King of Holland on the 12th sent a parlementaire anew, complained in serious words of that general's detention, and at the same time summoned the commandant and the generals of the garrison to surrender the fortress in two hours if they did not wish to be treated with all severity'; 'to impress them still more, the news of the fall of Magdeburg and the army order in which Napoleon praises the marshals who had pursued Blücher's corps and forced it to capitulate at Ratkau were attached to the summons'; 'at Ohr he met General Michaud, who commanded the enemy advance guard and had him announced to the King of Holland'; 'the King refused to receive the general, and only had him told that the garrison must now in any case surrender as prisoners of war. General Lecoq rejected this condition, but allowed a French officer to accompany him to Hameln with a letter from General Michaud to the commandant, where he was let in in the evening without blindfold'; 'the letter contained nothing but the repetition of the news from the theatre of war already communicated in the morning, with the addition that after such events it was unreasonable still to want to defend the fortress, but that the commandant was permitted to send an officer to General Blücher to convince himself of the truth of what had been communicated, though after this officer's return the fortress must then be surrendered and the garrison become prisoners of war'; 'General Michaud announced by a parlementaire that the King of Holland had left for another destination, and that he, the general, had taken over the chief command. At the same time he sent the Bulletins that announced the unhappy capitulations of Prenzlau, Stettin and Küstrin'; 'on the 18th the garrison of Fort George was relieved by the 1st battalion Oranien and the 3rd battalion of Schenk, since it had many sick from the damp casemates and the fort had no hospital'; 'on the same day, in the afternoon, the Dutch Colonel Stedtmann, who had already been in Hameln once as a parlementaire and spoke German fluently, came to the fortress again with the Prussian officer whom General Lecoq had sent to repay the enemy general the board costs of the captured officers, and brought the commandant a letter from General dü Monceau, who had relieved General Michaud in the command'; 'the letter contained the notice that Napoleon was angered in the highest degree at the conduct of the Prussian generals and had ordered that they be treated with the utmost severity, and that no capitulation be granted them any more if they did not surrender the fortress forthwith'; 'to this was joined the summons to negotiate with Colonel Stedtmann, or to send a plenipotentiary officer with him to Hessen-Oldendorf'; 'quite unexpectedly a parlementaire was again announced on the evening of the 19th'; 'it was Captain Charles with a letter from General Savary, in which he announced to the commandant his arrival as commander of the besieging corps, and at the same time expressed his pleasure at the commandant's sensible views of the state of affairs, adding that he nevertheless could not accept the conditions put, since the King of Prussia had not a battalion left and was himself in flight; he wished to settle the rest orally, and left it to them to fix the time and place for it'; 'at first the Prussian generals refused the meeting, but at last agreed to fix the rendezvous for the 20th at 9 o'clock in the morning at the Wehrberg Warte'; 'the French general received the Prussian generals very brusquely, told them in his Emperor's name that the last moment for capitulation had come, that later nothing more would be ag-'; 'reed to; he repeated the story of all the misfortune that had struck the Prussian state, and added the lie that Glogau and Breslau had already capitulated'; 'General Savary now wanted to dictate the points of capitulation at once, but General Lecoq declined this, drafted the capitulation in French himself, and the commandant signed the collated copy after General Lecoq had assured him that there was nothing more to object to'; 'the 5th article of the draft capitulation, as General Leeoq had drawn it up, commended the officers who belonged to provinces that might be ceded at the peace to the favour of the new monarch with regard to their maintenance in case of invalidity; it was rejected by the French as inadmissible'; 'Napoleon had chosen the right man to reach the goal quickly'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'I moved on Hameln, by the King of Holland's order, to surround that strong place on the right bank of the Weser'; 'on the evening of the 9th I debouched by Hastenbeck; on the 10th, in the course of the day, all the enemy posts were driven back into the place and dislodged from the brick fort situated on the Hamel, at half range from the town'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Der Feind rückte bald mit einer Kavallerie-Brigade — einem holländischen Garde-Dragoner- und einem Husaren-Regmt. — vor und nöthigte die preußischen Offiziere zum Rückzuge auf Kl. Berkel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Man sah eine feindliche Kolonne gegen die Weser marschiren und Bivouaks beziehen; auch wurde durch Besetzung des Waldes zwischen Berkel und Hemeringen die Einschließung der Festung auf dem linken Ufer noch an diesem Tage vollendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Es war die Division Gobert, zu der die bei Gr. Berkel erschienenen Truppen gehörten; der König von Holland war selbst gegenwärtig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 8. November rekognoszirte der General Lecoq den Feind und dieser die Festung, wobei es zu einer unbedeutenden Kanonade kam."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 9. schlug der Feind unter dem Schutz einer auf dem Ohrberge errichteten Haubitz-Batterie bei Ohr eine Brücke über die Weser, wozu die Kähne stromabwärts zugeführt worden waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Alsbald wurde der preußische Posten an der Afferder-Warte mit Uebermacht angegriffen und, obgleich von der Festung aus verstärkt, doch bis an die Barriere zurückgedrängt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Der Feind bezog nun Läger bei Aerzen, wo das Hauptquartier des Königs von Holland, und bei Ohr auf beiden Ufern des Flusses."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Rinteln und Hessen-Oldendorf wurden von ihm besetzt. In ersterem Orte hatte man die hessische Besatzung entwaffnet und die vorhandenen Geschütze vor Hameln gebracht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Am 10. November erschien auch ein Theil des Mortierschen Korps vor Hameln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Eine feindliche Kolonne zog sich von Rehrsen nach dem Baßberge und griff den gedeckten Weg durch Tirailleurs an, die sich in den vorliegenden Gärten und Gartenhäusern postirten und geraume Zeit ihr Feuer mit der Besatzung des gedeckten Weges am Mühlenthor unterhielten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Es war der Divisions-General Loison, der ein Schreiben des Königs von Holland an den General Lecoq brachte, in welchem er diesen, unter Mittheilung der Lage der verschiedenen preußischen Korps und der Uebergabe von Stettin, Küstrin ꝛc. zur Kapitulation gegen freien Abzug aufforderte, im Weigerungsfalle aber drohte, die Stadt in 24 Stunden einzuäschern und alles daraus entstehende Unglück dem General aufzubürden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Er wurde sehr freundlich empfangen; der König genehmigte den Hauptpunkt: daß die Garnison sich auf dem nächsten Wege zur Armee des Königs begeben könne; verwies aber wegen der Details an den General Loison und den Obersten Brüne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Es war der feindliche General Brack, den der Major Beaufort beim Kommandanten gefunden hatte, und der unter einem ganz nichtigen Vorwande nach Hameln geschickt worden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Auf Grund des Ausbleibens des Generals Brack sandte der König von Holland am 12. aufs Neue einen Parlamentair, beschwerte sich in ernsten Worten über das Zurückhalten jenes Generals, und forderte zugleich den Kommandanten und die Generale der Besatzung auf, die Festung in zwei Stunden zu übergeben, wenn sie nicht mit aller Strenge behandelt werden wollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Um noch mehr zu imponiren, wurde der Aufforderung die Nachricht von dem Falle Magdeburgs und der Armeebefehl beigefügt, in welchem Napoleon die Marschälle belobt, welche das Blüchersche Korps verfolgt und zur Kapitulation bei Ratkau genöthigt hatten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "In Ohr traf er den General Michaud, der die feindliche Avantgarde kommandirte und ihn beim Könige von Holland anmelden ließ."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der König schlug es ab, den General zu empfangen, und ließ ihm nur sagen, daß die Besatzung sich jetzt jedenfalls kriegsgefangen ergeben müsse. Der General Lecoq wies diese Bedingung zurück, gestattete aber, daß ihn ein französischer Offizier mit einem Briefe des Generals Michaud an den Kommandanten nach Hameln begleitete, wo er am Abend mit unverbundenen Augen eingelassen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der Brief enthielt nichts als die Wiederholung der bereits am Morgen mitgetheilten Nachrichten von dem Kriegsschauplatze, mit dem Hinzufügen, daß es nach solchen Ereignissen unverständig sei, die Festung noch vertheidigen zu wollen, daß man aber gestatte, daß der Kommandant einen Offizier zum General Blücher sende, um sich von der Wahrheit des Mitgetheilten zu überzeugen, doch nach der Rückkehr dieses Offiziers müsse dann auch die Festung übergeben, die Besatzung kriegsgefangen werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Der General Michaud zeigte durch einen Parlamentair an, daß der König von Holland zu einer andern Bestimmung abgegangen sei, und daß er, der General, den Oberbefehl übernommen habe. Gleichzeitig schickte er die Bülletins mit, welche die unglücklichen Kapitulationen von Prenzlau, Stettin und Küstrin verkündigten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Am 18. wurde die Garnison des Forts George durch das 1. Bataill. Oranien und das 3. Bataill. von Schenk abgelöst, da sie durch die feuchten Kasematten viele Kranke hatte und das Fort kein Lazareth besaß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "An demselben Tage kam Nachmittags mit dem preußischen Offizier, der vom General Lecoq abgeschickt worden war, um dem feindlichen General die Zehrkosten der gefangenen Offiziere zurückzugeben, der holländische Oberst Stedtmann, der schon einmal als Parlamentair in Hameln gewesen war, und geläufig deutsch sprach, wiederum nach der Festung, und brachte dem Kommandanten ein Schreiben des Generals dü Monceau, der den General Michaud im Kommando abgelöst hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Das Schreiben enthielt die Anzeige, daß Napoleon im höchsten Grade über das Verhalten der preußischen Generale erzürnt sei und befohlen habe, sie auf das Strengste zu behandeln, ihnen keine Kapitulation mehr zu bewilligen, wenn sie nicht alsbald die Festung übergäben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Hieran knüpfte sich die Aufforderung, mit dem Obersten Stedtmann zu unterhandeln, oder in Begleitung desselben einen bevollmächtigten Offizier nach Hessen-Oldendorf zu senden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Ganz unerwartet wurde am Abend des 19. abermals ein Parlamentair angemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Es war der Kapitain Charles mit einem Schreiben des Generals Savary, worin dieser dem Kommandanten seine Ankunft als Befehlshaber des Belagerungskorps meldete, zugleich seine Freude über die verständigen Ansichten des Kommandanten über die Lage der Dinge mit dem Hinzufügen ausdrückte, daß er aber dennoch auf die gestellten Bedingungen nicht eingehen könne, da der König von Preußen kein Bataillon mehr besitze und selbst auf der Flucht sei; er wünsche das Weitere mündlich abzumachen, und überlasse es, Zeit und Ort hierzu zu bestimmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Erst schlugen die preußischen Generale die Zusammenkunft ab, bequemten sich aber endlich doch, das Rendezvous auf den 20. um 9 Uhr Morgens bei der Wehrberger Warte festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Der französische General empfing die preußischen Generale sehr barsch, sagte ihnen im Namen seines Kaisers, daß der letzte Augenblick zur Kapitulation gekommen sei, man später sich zu Nichts mehr ver-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "stehen würde; er wiederholte die Erzählung von all dem Unglück, das den preußischen Staat betroffen hatte, und fügte die Lüge hinzu, daß Glogau und Breslau bereits kapitulirt hätten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der General Savary wollte nun sofort die Kapitulationspunkte diktiren, indessen lehnte der General Lecoq dies ab, entwarf die Kapitulation in französischer Sprache selbst, und der Kommandant unterzeichnete das collationirte Exemplar, nachdem der General Lecoq versichert hatte, daß nichts mehr zu erinnern sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der 5. Artikel des Kapitulations-Entwurfs, wie ihn der General Leeoq aufgesetzt hatte, empfahl diejenigen Offiziere, welche Provinzen angehörten, die beim Friedensschluß abgetreten werden konnten, der Gnade des neuen Monarchen in Bezug auf ihren Lebensunterhalt im Fall der Invalidität; er wurde als unstatthaft von den Franzosen zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Napoleon hatte den rechten Mann gewählt, um schnell zum Ziele zu gelangen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "je me suis porté sur Hameln, d'après l'ordre du roi de Hollande, pour cerner cette place forte sur la rive droite du Weser."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Le 9 au soir je débouchai par Hastenbeck; le 10 dans la journée tous les postes ennemis furent repoussés dans la place et délogés du fort en briques situé sur le Hamel, à demi-portée de la ville."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the commandant, Major General and Engineer Brigadier Schöler, appointed in May, was an old man of 75, physically and mentally wholly dulled, slow to decide and extremely anxious; Colonel Caprivi of the regiment Oranien commanded Fort George. Schöler made difficulties about feeding Lecoq's troops from the fortress. Lecoq camped his corps at the foot of the Klütberg on 24 October and began to entrench it, but on the evening of the 25th resolved to withdraw across the Elbe and on the 26th marched for Münder and Lauenau without informing General Hagken, who had proposed falling on the rear of the troops blockading Magdeburg or marching through Saxony to Silesia; later a council of Wedell and the corps's commanders answered that the corps's departure from Hameln was no longer advisable. On 7 November Captain Hiller was ordered to lead the 1st battalion of Oranien and 2 horse-artillery guns to the Warte at Kl. Berkel to receive the outposts. In the night to the 10th the inundation redoubt was abandoned on the commandant's order; when the enemy later left it, the garrison reoccupied it. After Loison's summons Lecoq held himself bound to accept free withdrawal for his troops, and since Loison would agree to nothing unless the commandant joined, Schöler called all the generals and commanders except Caprivi; their protocol, signed by all, accepted free withdrawal, on Lecoq's condition that an officer first verify the circumstances at the Elbe, and Lieutenant Colonel Hamelberg went to the King of Holland at Aerzen to work out the draft. After Major Beaufort presented the officer corps's remonstrance, the commandant had it declared that there would be no capitulation; Caprivi drew his battalions into the fort and, reprimanded, answered that he would in no case give it up just like that, and Lecoq wrote to the commandant not to be hasty with the surrender. The King's news of the 12th moved both to think of surrender again: Lecoq rode to the enemy camp to seek good terms and rejected surrender as prisoners of war, and, since none of the commanders thought a capitulation justified on Michaud's conditions and Caprivi spoke vehemently against it, the commandant answered that there would be time to think of capitulating when all means of defence were exhausted; it was announced that every capitulation was broken off. On the 13th the commandant promised Caprivi not to negotiate before 20 December; Lecoq quartered his troops in the town and directed the defence with the commandant, 'if what happened can be so called'; the redoubts were abandoned and the coupure in the gorge was given to Caprivi. Though everything seemed to invite a sortie, Höpfner says, they contented themselves with letting Hiller, at his request, try with a hundred volunteers and 16 hussars to bring in guns the enemy had left near Hemeringen. On the 18th Lecoq offered dü Monceau that the commandant would hand over the fortress on 20 December if no relief had come, having first asked Caprivi not to oppose the surrender a second time on that day, to which Caprivi answered that it was still a long way off. The Prince of Waldeck's news of the 19th wholly discouraged the generals, though in public they still prepared a serious defence; that evening the commandant did not want to receive Savary's parlementaire, but Lecoq thought it better to learn at once what the enemy wanted, and the generals, after first refusing, agreed to meet at the Wehrberg Warte on the 20th. There Schöler believed nothing remained but to capitulate, since the enemy stood on the Baßberg only 900 paces from the covered way and was protected against sorties by the inundation, and a bombardment could burn the town and the magazines, which were not bombproof; Lecoq drafted the capitulation and assured the commandant that there was nothing to object to, and the commandant signed; Lecoq told Caprivi everything was settled, and Caprivi answered only with tears. General Wedell, left in command in Hameln, told officers who urged him to oppose the capitulation that it was the business of the commandant and of General Lecoq. Höpfner's judgement: the excuses for the capitulation come to nothing in view of the strong, well-equipped garrison; one would do wrong to have expected greater energy from the 75-year-old commandant, the fault lying, as at Magdeburg, rather in entrusting such posts to such men; Lecoq had every gift for an outstanding defence but seems to have lost all composure, holding every further effort useless and stifling every stirring of sound spirit; and none of the other senior officers had the courage to take the responsibility and put himself at the head of the defence.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 349-377. These were the decisions of the commandant, of Lecoq and of the other commanders at Hameln, so the claim is tagged commander-created. Höpfner cites no document for the council, the protocol or the letters in the passages read, and his judgements of the commanders are his own. Pages 351-352, 362, 366, 368 and 374 were not read, so Lecoq's march and return, the beginning of Major Beaufort's remonstrance, the events on p. 366, the outcome of Hiller's attempt and the officers' letter of the night of the 20th are not restated; the council on p. 353 is not dated in the passage read. English renderings (ours): 'immediately after the taking of possession Major General Strachwitz commanded in Hameln, but in May Major General and Engineer Brigadier Schöler, an old man of 75, physically and mentally wholly dulled, and therefore slow to decide and extremely anxious, was appointed commandant'; 'Colonel Caprivi of the regiment Oranien was appointed commandant of Fort George'; 'General Schöler made difficulties about feeding these troops from the fortress, so that General Lecoq saw himself compelled to levy provisions from the surrounding country in every way, and at the same time to bring in from Beverungen a magazine still on hand'; 'on 24 October General Lecoq led his corps into a camp at the foot of the Klütberg, and had its entrenchment begun at once'; 'when, however, on the evening of the 25th he received news from Hanover that the road through Neustadt, Lüneburg and Artlenburg was still free of the enemy, he suddenly resolved once more to withdraw across the Elbe, and that same night sent Captain Hiller ahead to prepare the march on that line'; 'on the 26th he already set out with the corps for Münder and Lauenau, the advance guard for Neustadt, without informing General Hagken, who had wanted to join him and had proposed falling on the rear of the troops blockading Magdeburg or marching through unoccupied Saxony to Silesia'; 'thereupon General Lecoq called together General Wedell and the commanders of his corps, and put to them the question whether the corps's departure from Hameln was still advisable, since the enemy was already approaching. The answer was in the negative'; 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'Captain Hiller at once received the order to lead the 1st battalion of Oranien and 2 horse-artillery guns to the Warte at Kl. Berkel and post them there to receive the outposts'; 'in the night to the 10th the new, though faultily laid-out, inundation redoubt on the right bank of the Weser was abandoned on the commandant's order, since in his opinion it was useless, because the inundation could no longer be drained. The enemy occupied it at once'; 'later the enemy left the redoubt of his own accord, and it was at once reoccupied by the garrison, since it was considered well placed for sending patrols from it to the Afferde Warte'; 'General Lecoq held himself obliged to accept a free withdrawal to the King's army for the troops under his command; but unless the commandant joined in this capitulation, General Loison would agree to nothing'; 'General Schöler therefore called to him all the generals and commanders, with the exception of Colonel Caprivi, and asked their opinion of the proposals made'; 'in a protocol signed by all it was unanimously declared that the free withdrawal was to be accepted, since in the prevailing circumstances a corps of 9000 men must be dearer to the King than holding so remote a fortress, which must in any case fall in 2 months at the latest; but before the capitulation was concluded an officer was to be sent to the Elbe to convince himself of the truth of the circumstances stated'; 'this last condition was set by General Lecoq'; 'Lieutenant Colonel Hamelberg of the regiment Hagken was sent in the evening with his adjutant and with General Lecoq's adjutant, Lieutenant Below, to the King of Holland at Aerzen, to work out the draft of the capitulation'; 'it was the enemy General Brack whom Major Beaufort had found with the commandant, and who had been sent to Hameln on a wholly empty pretext'; 'the major again found some French officers with the commandant, presented the officer corps's remonstrance, and so impressed him by it that he ordered the major to declare that there would be no capitulation'; 'Colonel Caprivi, who about midday had likewise learned by chance that a capitulation was said to have been concluded, had at once drawn his battalions from the town into the fort, and did not obey the commandant's order to come into the town'; 'when the latter thereupon gave him a sharp reprimand in a letter, and declared at the same time that he was commandant of the fortress and the fort only a part of it, the colonel answered that he had acted according to duty and conscience and would in no case give up the fort just like that'; 'even General Lecoq wrote to the commandant that he should by no means be hasty with the surrender of the fortress, since the King perhaps expected a serious defence after all'; 'on the ground of General Brack's failure to return, the King of Holland on the 12th sent a parlementaire anew, complained in serious words of that general's detention, and at the same time summoned the commandant and the generals of the garrison to surrender the fortress in two hours if they did not wish to be treated with all severity'; 'this news moved the commandant, as well as General Lecoq, to think of surrender again'; 'the colonel accepted the invitation, while General Lecoq rode with Captain Hiller and Lieutenant Below to the enemy camp, to obtain good terms of capitulation if possible and at the same time to reconnoitre the enemy'; 'the King refused to receive the general, and only had him told that the garrison must now in any case surrender as prisoners of war. General Lecoq rejected this condition, but allowed a French officer to accompany him to Hameln with a letter from General Michaud to the commandant, where he was let in in the evening without blindfold'; 'to this letter the commandant answered, since none of the commanders considered a capitulation justified under the conditions it contained, and Colonel Caprivi in particular spoke out vehemently against it, that under the conditions given there would still be time to think of a capitulation when all means of defence were exhausted'; 'to quiet the garrison's discontent at the many negotiations, it was formally announced that every capitulation had been broken off and that a serious defence would be made'; 'on the 13th an inventory of all stores was taken, and it turned out that with the most ample rations the provisions would last until 20 December, whereupon the commandant gave Colonel Caprivi the promise, before this'; 'day, not to enter into any negotiation with the enemy'; 'meanwhile the weather had become very bad, and General Lecoq was thereby induced to leave the camp and quarter his troops in the town with the commandant's permission; he himself took quarters in the commandant's building and now directed the further defence together with the commandant, if what happened can be so called'; 'besides the 2nd battalion of Oranien, the 4 companies of the 2nd battalion of vac. Grävenitz were now also moved to Fort George. The redoubts were abandoned as soon as the camp's magazines had been cleared; on the other hand the coupure in the gorge was closed and its defence also entrusted to Colonel Caprivi'; 'the wooded ground up to there was perfectly known, and everything seemed to invite a sortie, given the superiority over the enemy, since the enemy's cavalry was not to be feared in the broken ground'; 'nevertheless they contented themselves with allowing Captain Hiller, at his request, to advance on the left bank of the Weser to try to bring into the fortress some guns that the enemy had left standing near Hemeringen. For this purpose he received a hundred volunteer marksmen of the infantry regiment Lettow and 16 hussars,' (the sentence continues on p. 368, which was not read); 'on the 18th the garrison of Fort George was relieved by the 1st battalion Oranien and the 3rd battalion of Schenk, since it had many sick from the damp casemates and the fort had no hospital'; 'when Colonel Stedtmann, on being asked, named the garrison's captivity as the main condition, General Lecoq, who had command of the French language, as the commandant had not, drew up a letter in which he told General dü Monceau that they had indeed full knowledge of the misfortune of the Prussian army and so counted on no relief, but that they nevertheless meant, in duty, to hold the fortress until all means of defence were exhausted or all provisions consumed; if, therefore, General dü Monceau really intended to spare the town, the commandant would hand over the fortress on 20 December, provided no relief had arrived by then;'; 'before taking this step General Lecoq had spoken with Colonel Caprivi to move him not to oppose the surrender a second time on 20 December, the day on which the provisions would run out, but the latter had answered that that was still a long way off, so there was no need yet to think of surrender'; 'on the 19th in the afternoon the Prince of Waldeck came to Hameln and told the generals everything he knew of the events in the Prussian army, assured them also that the French had already crossed the Vistula, so that Prussia was irretrievably lost. He further said that Italian troops had already arrived at Pyrmont to reinforce the blockading troops'; 'this news, communicated by a prince attached to the Prussian state, wholly discouraged the generals, while in public they still prepared everything for a serious defence and held a conference on it with the artillery and engineer officers'; 'quite unexpectedly a parlementaire was again announced on the evening of the 19th'; 'the commandant did not want to receive him, but General Lecoq thought it better to learn at once what the enemy wanted'; 'at first the Prussian generals refused the meeting, but at last agreed to fix the rendezvous for the 20th at 9 o'clock in the morning at the Wehrberg Warte'; 'all were silent, and as General Savary pressed General Schöler to declare himself, the latter in fact believed that nothing else remained for him but to capitulate, since the enemy stood on the Baßberg only 900 paces from the covered way and was protected against sorties by the inundation, while a bombardment could easily reduce the town, and with it the magazines, which were not bombproof, to ashes, and so on'; 'General Savary now wanted to dictate the points of capitulation at once, but General Lecoq declined this, drafted the capitulation in French himself, and the commandant signed the collated copy after General Lecoq had assured him that there was nothing more to object to'; 'when Colonel Caprivi arrived at the Wehrberg Warte, General Savary went to meet him, but before he could even speak with him, General Lecoq took him into a'; 'window and told him that everything was settled, since in the unhappy circumstances no choice had remained'; 'the colonel answered only with tears. When General Savary asked him to sign the capitulation as well, General Schöler refused this with the remark that the colonel did not need to sign, since he, the general, was commandant of the town and of the forts'; 'on the morning of the 20th Generals Schöler, Hagken and Lecoq and Colonel Heyn, commander of the regiment Oranien, rode with their adjutants under the escort of Lieutenant Santha's hussars to the Wehrberg Warte; General Wedell had received the command in Hameln in the commandant's absence'; 'already in the morning some senior officers had suspected what was going on outside, and had spoken of it with General Wedell at the parole; Major Eller, commander of the 3rd battalion of Hagken, Colonel Renzel, commander of the 3rd battalion of Schenk, and Colonel Oertel, commander of the infantry regiment Lettow, had called on the general to oppose the capitulation, but he had given the answer: \"Do you not know Prussian subordination? That is the business of the commandant and of General Lecoq; they have to answer for everything.\"'; 'all the excuses brought forward for the capitulation that were taken from the fortress's situation come to nothing in view of the strong garrison, well equipped with everything; the reasons based on the political situation of the state were even more reprehensible; the commandant knows no other consideration than the preservation of his fortress'; 'but will one condemn the commandant for his conduct? one would do wrong to have expected greater energy from a physically and mentally wholly worn-out old man of 75 in such shattering circumstances as those of the year 1806'; 'here as at Magdeburg the fault lies far more in such important posts having been entrusted to such men, who were thus given up to disgrace after a long, honourable life'; 'it is otherwise with General Lecoq, who was equipped with all the gifts that could fit a man for an outstanding defence'; 'it seems, however, that the never-imagined, impossible-seeming, terrible fate of the fatherland had taken all composure from him too, so that he held every further exertion useless, every sacrifice still made for the Prussian cause reprehensible; hence his activity in stifling in the germ every stirring of sound spirit'; 'the other senior officers, mostly also very old, had probably become dulled in the monotony of service, for although almost all may have felt the whole shame of such a capitulation, none had the courage to take the responsibility on himself and put himself at the head of the defence' (the sentence's last word, on p. 378, is outside the transcribed passage).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Gleich nach der Besitznahme befehligte in Hameln der General-Major Strachwitz, doch im Mai wurde der General-Major und Ingenieur-Brigadier Schöler, ein 75jähriger Greis, körperlich und geistig völlig abgestumpft, daher auch schwer von Entschluß und äußerst ängstlich, zum Kommandanten ernannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Der Oberst Caprivi vom Regiment Oranien wurde zum Kommandanten des Forts George ernannt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Der General Schöler machte Schwierigkeiten, diese Truppen aus der Festung zu verpflegen, so daß sich der General Lecoq genöthigt sah, auf alle Weise aus der Umgegend Lebensmittel beizutreiben, zugleich aus Beverungen ein noch vorhandenes Magazin herbeizuführen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Am 24. Oktober führte der General Lecoq sein Korps in ein Lager am Fuß des Klütberges, und ließ sofort die Verschanzung desselben beginnen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Als er indessen am Abend des 25. aus Hannover die Nachricht erhielt, daß die Straße über Neustadt, Lüneburg und Artlenburg noch frei vom Feinde sei, faßte er plötzlich noch einmal den Entschluß sich über die Elbe zurückzuziehen, und schickte noch in der Nacht den Hauptmann Hiller voraus, um den Marsch auf genannter Linie vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Am 26. brach er bereits mit dem Korps nach Münder und Lauenau, die Avantgarde nach Neustadt, auf, ohne dem General Hagken Mittheilung zu machen, der sich ihm hatte anschließen wollen und den Vorschlag gemacht hatte, den Blokadetruppen von Magdeburg in den Rücken zu fallen oder durch das unbesetzte Sachsen nach Schlesien zu ziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p353-figures-v1",
+          "section": "p353",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 353 (transcribed from the page image)",
+          "quote": "Darauf berief der General Lecoq den General Wedell und die Kommandeurs seines Korps zusammen, und legte ihnen die Frage vor, ob der Abmarsch des Korps von Hameln noch anräthig, da der Feind bereits im Anmarsch sei. Die Antwort fiel verneinend aus."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Der Hauptmann Hiller erhielt sogleich den Befehl, das 1. Bataill. von Oranien und 2 reit. Geschütze nach der Warte bei Kl. Berkel zu führen und sie dort zur Aufnahme der Vorposten aufzustellen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "In der Nacht zum 10. wurde die neue, wenn auch fehlerhaft angelegte Inondations-Schanze auf dem rechten Weserufer auf Befehl des Kommandanten verlassen, da sie nach seiner Meinung unnütz war, weil die Ueberschwemmung nicht mehr abgelassen werden könne. Der Feind besetzte sie sogleich."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Später verließ der Feind die Schanze freiwillig, und wurde sie von der Garnison sogleich wieder besetzt, da man sie für gelegen betrachtete, um von ihr aus Patrouillen nach der Afferder-Warte zu senden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Der General Lecoq hielt sich verpflichtet, für die unter seinem Befehl stehenden Truppen einen freien Abzug zur Armee des Königs annehmen zu müssen; indessen, ohne daß sich der Kommandant dieser Kapitulation anschlösse, wollte der General Loison auf nichts eingehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Der General Schöler berief deshalb alle Generale und Kommandeure, mit Ausnahme des Obersten Caprivi, zu sich, und befragte sie um ihre Ansicht über die gemachten Vorschläge."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "In einem, von Allen unterschriebenen Protokolle, wurde einstimmig ausgesprochen, daß der freie Abzug anzunehmen sei, da unter den obwaltenden Verhältnissen dem Könige ein Korps von 9000 Mann lieber sein müsse, als die Behauptung einer so entlegenen Festung, die in 2 Monaten spätestens doch fallen müsse; jedoch sei vor Abschließung der Kapitulation ein Offizier nach der Elbe zu schicken, um sich von der Wahrheit der angegebenen Umstände zu überzeugen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Diese letztere Bedingung wurde vom General Lecoq gestellt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Der Oberst-Lieutenant Hamelberg vom Regmt. Hagken wurde am Abend mit seinem Adjutanten und mit dem Adjutanten des Generals Lecoq, Lieut. Below, nach Aerzen zu dem König von Holland gesandt, um den Entwurf zur Kapitulation zu bearbeiten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Es war der feindliche General Brack, den der Major Beaufort beim Kommandanten gefunden hatte, und der unter einem ganz nichtigen Vorwande nach Hameln geschickt worden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Der Major fand wieder einige französische Offiziere bei dem Kommandanten, trug die Vorstellung des Offizierkorps vor, und machte dadurch auf ihn solchen Eindruck, daß er dem Major befahl, zu erklären, es würde nicht kapitulirt werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Der Oberst Caprivi, der um Mittag zufällig ebenfalls erfahren hatte, daß eine Kapitulation abgeschlossen sein solle, hatte augenblicklich seine Bataillone aus der Stadt nach dem Fort gezogen, und leistete dem Befehl des Kommandanten, nach der Stadt zu kommen, keine Folge."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Als dieser ihm hierauf in einem Briefe einen scharfen Verweis ertheilte, und zugleich erklärte, daß er Kommandant der Festung, das Fort aber nur ein Theil derselben sei, so antwortete der Oberst, daß er nach Pflicht und Gewissen gehandelt habe und das Fort in keinem Falle ohne Weiteres übergeben werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Selbst der General Lecoq schrieb dem Kommandanten, er möge sich doch ja nicht mit der Uebergabe der Festung übereilen, da der König doch vielleicht eine ernste Vertheidigung erwarte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Auf Grund des Ausbleibens des Generals Brack sandte der König von Holland am 12. aufs Neue einen Parlamentair, beschwerte sich in ernsten Worten über das Zurückhalten jenes Generals, und forderte zugleich den Kommandanten und die Generale der Besatzung auf, die Festung in zwei Stunden zu übergeben, wenn sie nicht mit aller Strenge behandelt werden wollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Diese Nachrichten bewogen den Kommandanten, so wie den General Lecoq, wiederum an die Uebergabe zu denken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der Oberst folgte der Einladung, wogegen der General Lecoq mit dem Hauptmann Hiller und dem Lieut. Below nach dem feindlichen Lager ritt, um wo möglich gute Kapitulations-Bedingungen zu erhalten und zugleich den Feind zu rekognosziren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der König schlug es ab, den General zu empfangen, und ließ ihm nur sagen, daß die Besatzung sich jetzt jedenfalls kriegsgefangen ergeben müsse. Der General Lecoq wies diese Bedingung zurück, gestattete aber, daß ihn ein französischer Offizier mit einem Briefe des Generals Michaud an den Kommandanten nach Hameln begleitete, wo er am Abend mit unverbundenen Augen eingelassen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Auf diesen Brief antwortete der Kommandant, als keiner der Kommandeurs unter den darin enthaltenen Bedingungen eine Kapitulation gerechtfertigt erachtete, und besonders der Oberst Caprivi heftig dagegen auftrat, daß unter den gegebenen Bedingungen es noch Zeit sein würde, an eine Kapitulation zu denken, wenn alle Vertheidigungsmittel erschöpft sein würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Um das Mißvergnügen der Garnison wegen des vielen Unterhandelns zu stillen, wurde förmlich bekannt gemacht, daß jede Kapitulation abgebrochen sei und man sich ernsthaft vertheidigen werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Am 13. wurde eine Aufnahme aller Vorräthe angestellt, und es ergab sich, daß bei den reichlichsten Portionen die Lebensmittel noch bis zum 20. Dezember genügen würden, worauf der Kommandant dem Obersten Caprivi das Versprechen gab, vor diesem"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Tage sich mit dem Feinde in keine Unterhandlung einzulassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Das Wetter war mittlerweile sehr schlecht geworden und der General Lecoq sah sich dadurch veranlaßt, das Lager zu verlassen und seine Truppen mit Bewilligung des Kommandanten in der Stadt einzuquartieren; er selbst nahm Quartier im Kommandanturgebäude und leitete nun in Gemeinschaft mit dem Kommandanten die weitere Vertheidigung, wenn man das, was geschah, so bezeichnen will."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Außer dem 2. Bataillon von Oranien wurden nunmehr auch noch die 4 Kompagnien des 2. Bataill. von vac. Grävenitz nach dem Fort George verlegt. Die Redouten wurden verlassen, sobald die Magazine des Lagers geräumt worden waren; dagegen wurde die Koupüre in der Kehle geschlossen und ihre Vertheidigung dem Obersten Caprivi mit übertragen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Das bewaldete Terrain bis dahin war vollkommen bekannt, und Alles schien bei der Ueberlegenheit über den Feind zu einem Ausfall einzuladen, da die Kavallerie des Feindes in dem durchschnittenen Terrain nicht zu fürchten war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Dennoch begnügte man sich, dem Hauptmann Hiller auf sein Ansuchen zu gestatten, auf dem linken Weserufer vorzugehen, um zu versuchen, einige Geschütze, die der Feind in der Gegend von Hemeringen hatte stehen lassen, nach der Festung zu bringen. Er erhielt zu dem Zweck hundert freiwillige Schützen vom Infanterie-Regmt. Lettow und 16 Husaren,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Am 18. wurde die Garnison des Forts George durch das 1. Bataill. Oranien und das 3. Bataill. von Schenk abgelöst, da sie durch die feuchten Kasematten viele Kranke hatte und das Fort kein Lazareth besaß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Als der Oberst Stedtmann auf Befragen als Hauptbedingung die Kriegsgefangenschaft der Garnison anführte, setzte der General Lecoq, der der französischen Sprache mächtig war, der Kommandant aber nicht, ein Schreiben auf, in welchem er dem General dü Monceau sagte: daß man zwar von dem Unglück der preußischen Armee vollständig Kenntniß habe, also auch auf keinen Entsatz rechne, daß man aber dennoch pflichtgemäß die Festung so lange halten wolle, bis alle Mittel der Vertheidigung erschöpft, oder alle Lebensmittel verzehrt seien; wenn daher der General dü Monceau wirklich gesonnen sei, die Stadt zu schonen, so wolle der Kommandant am 20. Dezember die Festung überliefern, sofern kein Entsatz bis dahin eingetroffen sei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Der General Lecoq hatte, bevor er diesen Schritt that, mit dem Obersten Caprivi gesprochen, um ihn zu bewegen, sich am 20. Dezember, an welchem Tage die Lebensmittel ausgingen, nicht zum zweitenmal der Uebergabe zu widersetzen, dieser hatte aber geantwortet, bis dahin sei noch lange hin, man brauche daher auch noch nicht an die Uebergabe zu denken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Am 19. Nachmittags kam der Fürst von Waldeck nach Hameln und erzählte den Generalen Alles, was er von den Begebenheiten bei der preußischen Armee wußte, versicherte auch, daß die Franzosen bereits die Weichsel überschritten hätten, mithin Preußen unwiederbringlich verloren sei. Weiter erzählte er, daß italienische Truppen zur Verstärkung der Blokadetruppen bereits in Pyrmont angekommen seien."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Diese, durch einen dem preußischen Staate zugethanen Fürsten mitgetheilten Nachrichten, entmuthigten die Generale völlig, während sie öffentlich noch Alles zu einer ernsthaften Vertheidigung vorbereiteten und hierzu eine Konferenz mit den Artillerie- und Ingenieur-Offizieren hielten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Ganz unerwartet wurde am Abend des 19. abermals ein Parlamentair angemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Der Kommandant wollte ihn nicht annehmen, doch der General Lecoq meinte, es sei besser gleich zu erfahren, was der Feind wolle."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Erst schlugen die preußischen Generale die Zusammenkunft ab, bequemten sich aber endlich doch, das Rendezvous auf den 20. um 9 Uhr Morgens bei der Wehrberger Warte festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Alles schwieg, und da der General Savary in den General Schöler drang, sich zu erklären, so glaubte derselbe in der That, es sei ihm nichts anders übrig geblieben als zu kapituliren, da ja der Feind auf dem Baßberg nur 900 Schritt vom gedeckten Wege entfernt stehe und durch die Inondation gegen Ausfälle geschützt sei, ein Bombardement aber die Stadt und somit auch die nicht bombensicheren Magazine leicht einäschern könne, u. dergl. m."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der General Savary wollte nun sofort die Kapitulationspunkte diktiren, indessen lehnte der General Lecoq dies ab, entwarf die Kapitulation in französischer Sprache selbst, und der Kommandant unterzeichnete das collationirte Exemplar, nachdem der General Lecoq versichert hatte, daß nichts mehr zu erinnern sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Als der Oberst Caprivi auf der Wehrberger Warte ankam, ging ihm der General Savary entgegen, doch bevor derselbe noch mit ihm sprechen konnte, nahm ihn der General Lecoq in ein"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Fenster und theilte ihm mit, daß Alles abgemacht sei, da unter den unglücklichen Verhältnissen keine Wahl geblieben wäre."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Der Oberst antwortete nur durch Thränen. Als der General Savary ihn aufforderte, die Kapitulation mit zu unterzeichnen, wies dies der General Schöler mit dem Bemerken zurück, daß der Oberst nicht zu unterzeichnen brauche, da er, der General, Kommandant der Stadt und der Forts sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Am 20. Morgens ritten die Generale Schöler, Hagken und Lecoq und der Oberst Heyn, Kommandeur des Regmts. Oranien, mit ihren Adjutanten unter der Bedeckung der Husaren des Lieut. Santha nach der Wehrberger Warte; der General Wedell hatte in der Abwesenheit des Kommandanten den Befehl in Hameln erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Bereits Vormittags hatten einige höhere Offiziere geahnt, was draußen vorging, und bei der Parole mit dem General Wedell darüber gesprochen; der Major Eller, Kommandeur des 3. Bataill. von Hagken, der Oberst Renzel, Kommandeur des 3. Bataill. von Schenk und der Oberst Oertel, Kommandeur des Inf.-Regmts. Lettow, hatten den General aufgefordert, sich der Kapitulation zu widersetzen, doch hatte dieser die Antwort ertheilt: „Kennen Sie nicht die preußische Subordination? Das ist Sache des Kommandanten und des Generals Lecoq, die haben Alles zu verantworten.“"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Alle für die Kapitulation beigebrachten Entschuldigungsgründe, aus der Lage der Festung hergenommen, zerfallen in Nichts in Betreff der starken, mit allem wohl ausgerüsteten Garnison; die Gründe, welche auf die politische Lage des Staates fußten, waren aber noch verwerflicher; der Kommandant kennt keine andere Rücksicht als die Erhaltung seiner Festung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Will man aber den Kommandanten über sein Verhalten verdammen? man thäte Unrecht, wenn man von einem körperlich und geistig völlig abgelebten 75jährigen Greise unter so erschütternden Verhältnissen, wie die des Jahres 1806, eine größere Energie erwartet hätte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Hier wie bei Magdeburg liegt die Schuld bei weitem mehr darin, daß man so wichtige Posten solchen Männern anvertraut hatte und sie somit nach einem langen, ehrenvollen Leben der Schande Preis gab."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Anders stellt es sich mit dem General Lecoq, der mit allen Gaben ausgerüstet war, die zu einer ausgezeichneten Vertheidigung befähigen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Es scheint indessen auch ihm das nie geahnte, für unmöglich gehaltene, entsetzliche Schicksal des Vaterlandes alle Fassung genommen zu haben, so daß er jede weitere Anstrengung für nutzlos, jedes Opfer für verwerflich hielt, das noch der preußischen Sache gebracht wurde; daher seine Thätigkeit, jede Regung von tüchtiger Gesinnung im Keime zu ersticken."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Die übrigen höhern Offiziere, meist auch hoch bejahrt, waren wohl in der Einförmigkeit des Dienstes stumpf geworden, denn obgleich fast Alle die ganze Schmach solcher Kapitulation gefühlt haben mögen, so hatte doch keiner den Muth, die Verantwortlichkeit auf sich zu nehmen, und sich selbst an die Spitze der Vertheidigung zu"
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Hameln on 20 November: the French under Savary forced the garrison to capitulate after a 14-day blockade, after which it was to be led away into captivity; when the capitulation was made known a mutiny broke out among the garrison, ending in the desertion and flight of the greater part of it to the left bank of the Weser, not occupied by the enemy, so that only a weak remnant (600 men) fell into French hands. Höpfner: on the morning of the 20th Generals Schöler, Hagken and Lecoq and Colonel Heyn rode to the Wehrberg Warte, where the commandant signed the collated copy of the capitulation Lecoq had drafted in French: the garrison became prisoners of war, the men to be transported to France and the officers released on parole, the men to keep their knapsacks and the officers their property, and on 22 November at 9 in the morning the garrison was to march out of the Oster gate and lay down its arms; several oral agreements were also made, among them a sum of money to be paid to the commandant for the officers with the longest way home. The generals left at 5 o'clock, and at the gate, the commandant especially, told of the capitulation, so that the soldiers learned of it before the officers, which alone, Höpfner says, brought about the uprising; at 6 the staff officers were ordered to the commandant, and the news spread quickly in the town. The men of the regiment Hagken and of the 3rd battalions broke open the magazines, got drunk and fired their muskets in the streets, especially against the commandant's house; only single companies of Lettow, Oranien and Grävenitz and especially the hussars kept order until the next morning, when the mutineers broke open the bridge gate, threw their muskets and ammunition into the Weser and ran off, and, the left bank not being occupied by the enemy, the men escaped almost all. On the morning of the 21st Savary wrote to Lecoq that the capitulation would be kept, all Prussian officers being answerable for it with property, liberty and life, and called on the commandant to name the rebellious officers; when the French advanced they found the gates unoccupied and took possession of the fortress, and the soldiers still in Hameln were shut in a church and later led away to Rinteln. Savary let the dragoons, hussars, fusiliers and Jäger and Hiller's company of Lettow go home with passes, and on the 21st had several officers arrested who had been pointed out to him as having spoken loudest against the capitulation, releasing them the next day.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account, read from the page images (Bodart's from the frame transcription); no source read gives a different result. The capitulation's text was not seen; its terms are Höpfner's summary, and he says the 5th article of Lecoq's draft was rejected (claim side-a-command). Höpfner's investment of the left bank on 7 November and the capitulation of the 20th span 14 days counted inclusively, Bodart's 14-day blockade (our arithmetic). Höpfner does not date the occupation in the passages read: Savary's letter came on the morning of the 21st, and he had officers arrested 'still on the 21st', which suggests the French were in Hameln that day, before the march-out agreed for the 22nd (our reading). The officers' letter to which Savary's answered, on p. 374, was not read. English renderings (ours): Bodart, as in claim bodart-strength, and 'after this capitulation was made known a mutiny broke out among the garrison, which ended with the desertion and flight of the greater part of the garrison to the left bank of the Weser, not occupied by the enemy, so that only a weak remnant (600 men) fell into the hands of the French'; 'on the morning of the 20th Generals Schöler, Hagken and Lecoq and Colonel Heyn, commander of the regiment Oranien, rode with their adjutants under the escort of Lieutenant Santha's hussars to the Wehrberg Warte; General Wedell had received the command in Hameln in the commandant's absence'; 'General Savary now wanted to dictate the points of capitulation at once, but General Lecoq declined this, drafted the capitulation in French himself, and the commandant signed the collated copy after General Lecoq had assured him that there was nothing more to object to'; 'the garrison became prisoners of war; the men were to be transported to France, the officers released on parole, the former to keep their knapsacks, the latter their property. On 22 November at 9 o'clock in the morning the garrison was to march out of the Oster gate and lay down its arms'; 'several oral agreements were also made'; 'thus a sum of money was to be paid to the commandant to distribute among those officers who had the longest way home; thus the authorisation of sales of oats that the commandant had made in the last days to pay various bills for shipping freight etc., and so on'; 'at 5 o'clock the generals left the Wehrberg Warte and returned to Hameln. At the gate they were already telling — the commandant especially — that a capitulation had been made, so that the soldiers learned of the misfortune earlier than the officers. This alone brought about the later uprising, and through it made it difficult for a vigorous man to put himself at the head and carry on the defence'; 'at 6 o'clock all the staff officers were ordered to the commandant. The news of the capitulation spread quickly in the town'; 'the men of the regiment Hagken and of the 3rd battalions broke open the magazines, got drunk, scattered or sold the provisions, fired their muskets in the streets, especially against the commandant's house,'; 'only single companies of the regiments Lettow, Oranien and Grävenitz, but especially the hussars, stayed in order, partly at their posts on the ramparts, partly in the town, until the following morning, when the mutineers broke open the bridge gate, threw their muskets and ammunition into the Weser and ran off'; 'now everything dissolved, and since most of the regiments had their cantons in Westphalia and the left bank of the Weser was not occupied by the enemy, the men escaped almost all, and at later enquiries gave themselves out as deserters to escape captivity, while in fact at most 20 men had deserted during the investment. Several burghers and soldiers had been wounded and killed by the musket fire'; 'on the morning of the 21st Captain Charles brought a letter from General Savary to General Lecoq'; 'it contained the declaration, composed in the haughtiest tone, that he was not accustomed to yield to rebellious movements; that it was unheard of for an undisciplined troop to be granted the right to add to a capitulation already concluded conditions that concerned merely its private interest; that the capitulation would be kept and all Prussian officers made answerable for it with property, liberty and life; that on entering, if he met the slightest resistance, he would exercise the greatest severity; that he called on the commandant to name the rebellious officers to him, so that the whole weight of vengeance for such conduct might fall on them'; 'when this letter arrived, resistance was no longer to be thought of, and so when the French advanced they found the gates unoccupied and at once took possession of the fortress. The soldiers still in Hameln were picked up, shut in a church and later led away to Rinteln'; 'to the dragoons, hussars, fusiliers and Jäger, who had always shown themselves equally capable in the few small engagements, and to the company of Captain Hiller of the regiment Lettow, which had stayed at its post until the French entered, General Savary granted, to show them his respect and especially to mock the generals, that they could go home with passes'; 'General Savary had several officers arrested on the 21st who had been pointed out to him as those who had spoken out most loudly against the capitulation, among others the Lieutenants Rhade and Malachowski, but they were released the next day and treated like the other officers'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "1806 20./11. KAPITULATION von Hameln"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen nach 14tägiger Blokade die preußische Besatzung (10.000 M. mit 129 Geschützen) unter GM. v. Lecoq zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft abgeführt werden sollte."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Nach Bekanntmachung dieser Kapitulation entstand unter der Besatzung eine Meuterei, welche mit der Desertion und Flucht des größten Teiles der Garnison auf das vom Feinde unbesetzte linke Weserufer endete, so daß nur ein schwacher Rest (600 M.) den Franzosen in die Hände fiel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Am 20. Morgens ritten die Generale Schöler, Hagken und Lecoq und der Oberst Heyn, Kommandeur des Regmts. Oranien, mit ihren Adjutanten unter der Bedeckung der Husaren des Lieut. Santha nach der Wehrberger Warte; der General Wedell hatte in der Abwesenheit des Kommandanten den Befehl in Hameln erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der General Savary wollte nun sofort die Kapitulationspunkte diktiren, indessen lehnte der General Lecoq dies ab, entwarf die Kapitulation in französischer Sprache selbst, und der Kommandant unterzeichnete das collationirte Exemplar, nachdem der General Lecoq versichert hatte, daß nichts mehr zu erinnern sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Die Garnison wurde kriegsgefangen; die Mannschaften sollten nach Frankreich transportirt, die Offiziere auf ihr Ehrenwort entlassen werden, Erstere ihre Tornister, die Letztern ihr Eigenthum behalten. Am 22. November um 9 Uhr Morgens sollte die Garnison aus dem Osterthor marschiren und die Waffen niederlegen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Außerdem wurden noch mehrere mündliche Verabredungen getroffen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "So sollte dem Kommandanten eine Summe Geldes ausgezahlt werden, um sie unter diejenigen Offiziere zu vertheilen, die den weitesten Weg nach ihrer Heimath hätten; so die Autorisation zu Haferverkäufen, die der Kommandant in den letzten Tagen gemacht hatte, um verschiedene Rechnungen für Schiffsfrachten ꝛc. zu bezahlen u. dergl. m."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Um 5 Uhr verließen die Generale die Wehrberger Warte und kehrten nach Hameln zurück. Am Thore erzählten sie bereits — besonders der Kommandant — daß kapitulirt worden sei, so daß die Soldaten von dem Unglück früher benachrichtigt wurden als die Offiziere. Hierdurch allein wurde der spätere Aufruhr herbeigeführt, und durch diesen es schwierig gemacht, daß sich ein kräftiger Mann an die Spitze stellte und die Vertheidigung weiter fortführte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Um 6 Uhr wurden sämmtliche Stabsoffiziere zum Kommandanten beordert. Die Nachricht von der Kapitulation verbreitete sich schnell in der Stadt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Die Mannschaften des Regmts. Hagken und der 3. Bataillone erbrachen die Magazine, berauschten sich, zerstreuten oder verkauften die Lebensmittel, schossen die Gewehre in den Straßen ab, besonders gegen das Haus des Kommandanten,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Nur einzelne Kompagnien von den Regimentern Lettow, Oranien und Grävenitz, besonders aber die Husaren, blieben theils auf ihren Posten auf den Wällen, theils in der Stadt bis am folgenden Morgen in Ordnung, wo die Meuterer das Brückenthor erbrachen, ihre Gewehre und Munition in die Weser warfen und davon liefen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Nun löste sich Alles auf, und da die meisten Regimenter ihre Kantons in Westphalen hatten und das linke Weserufer vom Feinde nicht besetzt war, so entkamen die Leute fast sämmtlich, und gaben sich bei spätern Nachfragen für Deserteurs aus, um der Kriegsgefangenschaft zu entgehen, während in der That höchstens 20 Mann in der Zeit der Berennung desertirt waren. Mehrere Bürger und Soldaten waren durch das Gewehrfeuer verwundet und getödtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Am 21. Morgens brachte der Kapitain Charles ein Schreiben des Generals Savary an den General Lecoq."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Dasselbe enthielt die im hochmüthigsten Tone abgefaßte Erklärung, daß er nicht gewohnt sei, aufrührerischen Bewegungen nachzugeben; daß es unerhört sei, daß einer undisziplinirten Truppe das Recht eingeräumt werde, einer abgeschlossenen Kapitulation noch Bedingungen zuzufügen, die bloß ihr Privat-Interesse beträfen; daß die Kapitulation werde gehalten werden und alle preußischen Offiziere mit Vermögen, Freiheit und Leben dafür verantwortlich gemacht werden würden; daß er beim Einrücken, wenn er den geringsten Widerstand fände, die größte Strenge werde walten lassen; daß er den Kommandanten auffordere, ihm die aufrührerischen Offiziere namhaft zu machen, damit für solches Betragen auf sie die ganze Last der Rache fallen könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Als dies Schreiben einging, war an einen Widerstand nicht mehr zu denken, und als daher die Franzosen vorrückten, fanden sie die Thore unbesetzt und nahmen sogleich die Festung in Besitz. Die noch in Hameln befindlichen Soldaten wurden aufgegriffen, in eine Kirche gesperrt und später nach Rinteln abgeführt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Den Dragonern, Husaren, Füsilieren und Jägern, die sich in den wenigen kleinen Gefechten immer gleich tüchtig gezeigt hatten, und der Kompagnie des Hauptmanns Hiller vom Regmt. Lettow, die bis zum Einrücken der Franzosen auf ihrem Posten verblieben war, gewährte der General Savary, um ihnen seine Achtung zu bezeigen, und besonders den Generalen zum Hohne, daß sie mit Pässen in ihre Heimath gehen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Der General Savary ließ noch am 21. mehrere Offiziere, welche ihm als solche bezeichnet worden waren, die sich am lautesten gegen die Kapitulation erklärt hätten, arretiren, so unter anderen die Lieutenants Rhade und Malachowski, doch wurden sie am folgenden Tage wieder entlassen und gleich den andern Offizieren behandelt."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's (French) loss in Höpfner: on 7 November a company behind the Berkel Warte received the pursuing enemy cavalry with several well-aimed volleys, by which, and by the fire of the horse artillery and of the guns of Fort No. I, the cavalry lost some men and withdrew; according to the statement of an enemy officer the enemy lost some 50 men, among them Colonel Loger, aide-de-camp of the King of Holland, who died a few days later at Aerzen. No passage read gives a French loss for the rest of the blockade or a total for side A, and Bodart prints none.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Höpfner, read from the page images of pp. 357-359; the figure was checked on a full-resolution crop. His 'some 50' is an enemy officer's statement for the action of 7 November only, and is not a total. The fighting of 9 and 10 November and the attack on the covered way are given no French loss in the passages read (claim posture). English renderings (ours): 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'the battalion of Oranien and the two horse-artillery guns had posted themselves on the height behind the Berkel Warte; one company pushed forward to behind the Warte'; 'this company received the pursuing enemy cavalry with several well-aimed volleys, by which, as also by the fire of the horse artillery and of the guns of Fort No. I, it lost some men and withdrew'; 'infantry 12 men in killed and wounded. The enemy lost, according to the statement of an enemy officer, some 50 men, among them Colonel Loger, aide-de-camp of the King of Holland, who died a few days later at Aerzen'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Das Bataillon von Oranien und die beiden reit. Geschütze hatten sich auf der Höhe hinter der Berkelschen Warte postirt; eine Kompagnie bis hinter die Warte vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Diese Kompagnie empfing die verfolgende feindliche Kavallerie mit mehreren wohlgezielten Salven, wodurch sie, so wie auch von dem Feuer der reit. Artillerie und der Geschütze des Forts Nr. I. einige Mannschaft verlor und sich zurückzog."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Infanterie 12 Mann an Todten und Verwundeten verloren. Der Feind verlor, nach der Aussage eines feindlichen Offiziers, gegen 50 Mann, darunter den Obersten Loger, Adjutant des Königs von Holland, der einige Tage darauf in Aerzen starb."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B (Prussian) lost the fortress and its garrison. Bodart: after the mutiny only a weak remnant (600 men) fell into French hands. Höpfner: in all about 600 men of the garrison of 9—10,000 were taken prisoner, although General Savary's report speaks of 6000; the men escaped almost all, and at later enquiries gave themselves out as deserters to escape captivity, while in fact at most 20 men had deserted during the investment; several burghers and soldiers were wounded and killed by the musket fire; the soldiers still in Hameln were shut in a church and later led away to Rinteln, Savary let the dragoons, hussars, fusiliers and Jäger and Hiller's company go home with passes, and only a few of the officers tried to escape to reach the army in Prussia or Silesia. Hameln fell with stores for a long time, without the great stores of the burghers. Before the capitulation, on 7 November, of the Prussian troops actually engaged, about 200 men strong, the cavalry lost 17 men and the infantry 12 in killed and wounded.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Bodart's from the frame transcription), not combined. Bodart's 600 is Höpfner's 'about 600' (our comparison). Savary's report, which Höpfner cites for 6000, was not seen. No passage read counts the guns, powder or stores taken at the capitulation; Höpfner's guns and powder before the investment are in claim means-and-supply, and his paragraphs on the pay and the garrison's chests (p. 376) were not transcribed. The dead and wounded of the mutiny are not counted. English renderings (ours): Bodart, 'after this capitulation was made known a mutiny broke out among the garrison, which ended with the desertion and flight of the greater part of the garrison to the left bank of the Weser, not occupied by the enemy, so that only a weak remnant (600 men) fell into the hands of the French'; 'in all, of the garrison 9—10,000 men strong, about 600 men were taken prisoner, although General Savary's report speaks of 6000 men'; 'now everything dissolved, and since most of the regiments had their cantons in Westphalia and the left bank of the Weser was not occupied by the enemy, the men escaped almost all, and at later enquiries gave themselves out as deserters to escape captivity, while in fact at most 20 men had deserted during the investment. Several burghers and soldiers had been wounded and killed by the musket fire'; 'when this letter arrived, resistance was no longer to be thought of, and so when the French advanced they found the gates unoccupied and at once took possession of the fortress. The soldiers still in Hameln were picked up, shut in a church and later led away to Rinteln'; 'to the dragoons, hussars, fusiliers and Jäger, who had always shown themselves equally capable in the few small engagements, and to the company of Captain Hiller of the regiment Lettow, which had stayed at its post until the French entered, General Savary granted, to show them his respect and especially to mock the generals, that they could go home with passes'; 'of the garrison's officers only a few had tried to save themselves in order to reach the army in Prussia or Silesia; on the contrary several had declared that they held it beneath their dignity to flee without arms and in disguise'; 'so Hameln fell, in a complete state of defence, with a garrison of almost 10,000 men, with stores for a long time — without the great stores of the burghers — into the hands of an enemy only 6000 men strong, who in guns had nothing but 6-pounder cannon and 3 old 30-pounder hanging mortars, which he had first fetched from Rinteln'; 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'of the Prussian troops actually engaged, about 200 men strong, the cavalry had lost 17 men, the'; 'infantry 12 men in killed and wounded. The enemy lost, according to the statement of an enemy officer, some 50 men, among them Colonel Loger, aide-de-camp of the King of Holland, who died a few days later at Aerzen'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Nach Bekanntmachung dieser Kapitulation entstand unter der Besatzung eine Meuterei, welche mit der Desertion und Flucht des größten Teiles der Garnison auf das vom Feinde unbesetzte linke Weserufer endete, so daß nur ein schwacher Rest (600 M.) den Franzosen in die Hände fiel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Im Ganzen wurden von der 9—10,000 Mann starken Garnison etwa 600 Mann kriegsgefangen, obgleich der Bericht des Generals Savary von 6000 M. spricht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Nun löste sich Alles auf, und da die meisten Regimenter ihre Kantons in Westphalen hatten und das linke Weserufer vom Feinde nicht besetzt war, so entkamen die Leute fast sämmtlich, und gaben sich bei spätern Nachfragen für Deserteurs aus, um der Kriegsgefangenschaft zu entgehen, während in der That höchstens 20 Mann in der Zeit der Berennung desertirt waren. Mehrere Bürger und Soldaten waren durch das Gewehrfeuer verwundet und getödtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Als dies Schreiben einging, war an einen Widerstand nicht mehr zu denken, und als daher die Franzosen vorrückten, fanden sie die Thore unbesetzt und nahmen sogleich die Festung in Besitz. Die noch in Hameln befindlichen Soldaten wurden aufgegriffen, in eine Kirche gesperrt und später nach Rinteln abgeführt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Den Dragonern, Husaren, Füsilieren und Jägern, die sich in den wenigen kleinen Gefechten immer gleich tüchtig gezeigt hatten, und der Kompagnie des Hauptmanns Hiller vom Regmt. Lettow, die bis zum Einrücken der Franzosen auf ihrem Posten verblieben war, gewährte der General Savary, um ihnen seine Achtung zu bezeigen, und besonders den Generalen zum Hohne, daß sie mit Pässen in ihre Heimath gehen konnten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p376-figures-v1",
+          "section": "p376",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 376 (transcribed from the page image)",
+          "quote": "Von den Offizieren der Garnison hatten nur wenige ihre Rettung versucht, um die Armee in Preußen oder Schlesien zu erreichen; im Gegentheil hatten sich mehrere ausgesprochen, daß sie es unter ihrer Würde hielten, ohne Waffen und verkleidet zu entfliehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "So fiel Hameln, im vollkommenen Vertheidigungszustande mit einer Garnison von fast 10,000 Mann, mit Vorräthen auf längere Zeit — ohne die großen Vorräthe der Bürger — in die Hände eines nur 6000 Mann starken Feindes, der an Geschütz außer 6pfündigen Kanonen nichts als 3 alte 30pfündige Hängemortiere besaß, die er erst aus Rinteln herbeigeholt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Von den wirklich ins Gefecht gekommenen etwa 200 Mann starken preußischen Truppen hatte die Kavallerie 17 Mann, die"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Infanterie 12 Mann an Todten und Verwundeten verloren. Der Feind verlor, nach der Aussage eines feindlichen Offiziers, gegen 50 Mann, darunter den Obersten Loger, Adjutant des Königs von Holland, der einige Tage darauf in Aerzen starb."
+        }
+      ]
+    },
+    {
+      "id": "hameln-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Hameln, a town in Prussia, province of Hanover, on the Weser, 40 km south-west of Hanover. Höpfner: the fortress lay on the right bank of the Weser, fortified on the land side by a detached bastion and 8 bastions, a fausse-braye, a broad and deep main ditch watered by the Hamelbach with small ravelins, covered way and advanced ditch, with lunettes before the detached bastion and the 3 gate ravelins; the water side was only badly defended, by the fortified island of the Werder, and the bridge by a large flèche flanked by 2 small ones. On the right bank the valley heights, namely the Baßberg, came within 1000 paces of the town, and except for the higher ground before the Oster gate the whole valley floor could be flooded by the Hamelbach through a sluice 1600 paces south-east of the fortress. On the left bank the Klütberg, 620 feet high, came within 200 paces of the Weser about 900 paces above the bridgehead, the heights running on in an arc to the north-west until they neared the river again 3600 paces below; on its south-eastern tip lay Fort George, three separate forts, No. I on the summit, No. II lower on the ridge and No. III on the slope to the Weser, with mine galleries before Nos. I and III, and two redoubts half-way secured its link with the bridgehead. The enemy came on 7 November by the road from Lemgo, driving in the posts this side of Aerzen; the occupation of the wood between Berkel and Hemeringen completed the investment on the left bank; the enemy bridged the Weser at Ohr under a battery on the Ohrberg and camped at Aerzen and at Ohr on both banks; a column moved from Rehrsen to the Baßberg and its tirailleurs used the gardens and garden houses before the Mühlen gate; the enemy's camp was later seen this side of Fischbeck, the wooded ground up to it being perfectly known and the enemy's cavalry not to be feared in the broken ground; and the left bank was not occupied by the enemy when the garrison dissolved. Mortier places a brick fort on the Hamel at half range from the town.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images. No plan of Hameln was inspected, and where each work stood is taken only from Höpfner's description; the rest of his description of the Werder and the bridgehead, and the hedges and the coupure on the Pyrmont road, are not restated. Höpfner gives distances in paces and the Klütberg's height in feet; they are not converted. Mortier's brick fort may be the inundation redoubt that Höpfner places 1300 paces from the fortress (claim fortification); the passages read do not establish it. English renderings (ours): Bodart, '(town in Prussia, province of Hanover, on the Weser, 40 km south-west of Hanover)'; 'the fortress of Hameln on the right bank of the Weser was fortified on the land side by a detached bastion and 8 bastions, a fausse-braye, a broad and deep main ditch watered by the Hamelbach, with small ravelins, covered way and advanced ditch; lunettes lay before the detached bastion at the lower junction with the Weser and before the 3 gate ravelins'; 'the water side of the fortress was only badly defended, by a fortified island, the Werder'; 'the bridge was defended by a large flèche, flanked by 2 small flèches with ditches and covered way'; 'on the right bank of the Weser the valley heights, namely the Baßberg, come within 1000 paces of the town. Except for the somewhat higher ground before the Oster gate, the whole valley floor could be flooded by the Hamelbach, for which purpose a sluice had been built in the brook 1600 paces south-east of the fortress'; 'on the left bank, about 900 paces above the bridgehead, the Klütberg, 620 feet high, comes within 200 paces of the Weser, and from it the valley heights run on in an arc to the north-west until, 3600 paces below, they come close to the river again'; 'on the south-eastern tip of the Klütberg lay Fort George, consisting of three separate forts: No. I on the summit, No. II lower but still on the ridge, No. III on the slope towards the Weser; all three linked by an open communication, Nos. II and III also by an underground one'; 'before No. I on the hill side and before No. III towards the Weser lay mine galleries'; 'two redoubts lying half-way secured the link between Fort George and the bridgehead'; 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'an enemy column was seen marching towards the Weser and going into bivouacs; and by the occupation of the wood between Berkel and Hemeringen the investment of the fortress on the left bank was completed that same day'; 'on the 9th the enemy, under the protection of a howitzer battery set up on the Ohrberg, threw a bridge over the Weser at Ohr, for which the boats had been brought downstream'; 'the enemy now took up camps at Aerzen, where the King of Holland's headquarters was, and at Ohr on both banks of the river'; 'an enemy column moved from Rehrsen to the Baßberg and attacked the covered way with tirailleurs, who posted themselves in the gardens and garden houses in front and for a long time kept up their fire with the garrison of the covered way at the Mühlen gate'; 'it was now known for certain that the enemy had moved off down the Weser with a great part of his forces and had almost entirely evacuated the left bank. General Lecoq himself estimated the enemy left behind at only 6000 men. His camp was seen in the area this side of Fischbeck'; 'the wooded ground up to there was perfectly known, and everything seemed to invite a sortie, given the superiority over the enemy, since the enemy's cavalry was not to be feared in the broken ground'; 'now everything dissolved, and since most of the regiments had their cantons in Westphalia and the left bank of the Weser was not occupied by the enemy, the men escaped almost all, and at later enquiries gave themselves out as deserters to escape captivity, while in fact at most 20 men had deserted during the investment. Several burghers and soldiers had been wounded and killed by the musket fire'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'on the evening of the 9th I debouched by Hastenbeck; on the 10th, in the course of the day, all the enemy posts were driven back into the place and dislodged from the brick fort situated on the Hamel, at half range from the town'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "(Stadt in Preußen, Provinz Hannover, an der Weser, 40 km südwestl. von Hannover)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p347-figures-v1",
+          "section": "p347",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 347 (transcribed from the page image)",
+          "quote": "Die Festung Hameln auf dem rechten Weserufer war auf der Landseite durch ein detaschirtes Bastion und 8 Bastione, eine Faussebraye, einen breiten und tiefen, durch den Hamelbach bewässerten Hauptgraben mit kleinen Ravelinen, gedeckten Weg und Vorgraben befestigt; Lünetten lagen vor dem detaschirten Bastion am untern Weser-Anschluß und vor den 3 Thor-Ravelinen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p347-figures-v1",
+          "section": "p347",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 347 (transcribed from the page image)",
+          "quote": "Die Wasserseite der Festung war durch eine befestigte Insel, den Werder, nur schlecht vertheidigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Die Brücke war durch eine große Flesche, flankirt durch 2 kleine Fleschen mit Gräben und gedecktem Wege, vertheidigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Auf dem rechten Weserufer nähern sich die Thalhöhen, namentlich der Baßberg, der Stadt bis auf 1000 Schritt. Mit Ausnahme des etwas höheren Terrains vor dem Oster-Thor, konnte die ganze Thalniederung durch den Hamelbach überschwemmt werden, zu welchem Behuf 1600 Schritt s. ö. von der Festung eine Schleuse in dem Bach erbaut war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Auf dem linken Ufer nähert sich etwa 900 Schritt oberhalb der Brückenschanze der 620 Fuß hohe Klütberg der Weser auf 200 Schritt, und von ihm ziehen sich, in nordwestlicher Richtung, im Bogen die Thalhöhen weiter, bis sie 3600 Schritt unterhalb wieder nahe an den Fluß treten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Auf der südöstlichen Spitze des Klütberges lag das Fort George, aus drei abgesonderten Forts bestehend: Nr. I. auf dem Gipfel, Nr. II. tiefer aber noch auf dem Rücken, Nr. III. auf dem Hang nach der Weser; alle drei durch eine offene Kommunikation verbunden, Nr. II. u. III. auch durch eine unterirdische."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Vor Nr. I. nach der Bergseite und vor Nr. III. nach der Weser lagen Minen-Gallerien."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Die Verbindung zwischen dem Fort George und der Brückenschanze sicherten zwei Redouten auf halbem Wege liegend."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Man sah eine feindliche Kolonne gegen die Weser marschiren und Bivouaks beziehen; auch wurde durch Besetzung des Waldes zwischen Berkel und Hemeringen die Einschließung der Festung auf dem linken Ufer noch an diesem Tage vollendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 9. schlug der Feind unter dem Schutz einer auf dem Ohrberge errichteten Haubitz-Batterie bei Ohr eine Brücke über die Weser, wozu die Kähne stromabwärts zugeführt worden waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Der Feind bezog nun Läger bei Aerzen, wo das Hauptquartier des Königs von Holland, und bei Ohr auf beiden Ufern des Flusses."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Eine feindliche Kolonne zog sich von Rehrsen nach dem Baßberge und griff den gedeckten Weg durch Tirailleurs an, die sich in den vorliegenden Gärten und Gartenhäusern postirten und geraume Zeit ihr Feuer mit der Besatzung des gedeckten Weges am Mühlenthor unterhielten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Man wußte nun entschieden, daß der Feind mit einem großen Theil seiner Kräfte sich die Weser abwärts gezogen und das linke Ufer fast ganz geräumt habe. Der General Lecoq selbst schätzte den zurückgebliebenen Feind nur auf 6000 Mann. Man sah sein Lager in der Gegend diesseits Fischbeck."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Das bewaldete Terrain bis dahin war vollkommen bekannt, und Alles schien bei der Ueberlegenheit über den Feind zu einem Ausfall einzuladen, da die Kavallerie des Feindes in dem durchschnittenen Terrain nicht zu fürchten war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Nun löste sich Alles auf, und da die meisten Regimenter ihre Kantons in Westphalen hatten und das linke Weserufer vom Feinde nicht besetzt war, so entkamen die Leute fast sämmtlich, und gaben sich bei spätern Nachfragen für Deserteurs aus, um der Kriegsgefangenschaft zu entgehen, während in der That höchstens 20 Mann in der Zeit der Berennung desertirt waren. Mehrere Bürger und Soldaten waren durch das Gewehrfeuer verwundet und getödtet worden."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Le 9 au soir je débouchai par Hastenbeck; le 10 dans la journée tous les postes ennemis furent repoussés dans la place et délogés du fort en briques situé sur le Hamel, à demi-portée de la ville."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian), in Höpfner: the fortress was in a very bad state when the Prussians took possession of it, but work began at once; on 13 August came the order to put Hameln in a state of defence, and guns and ammunition arrived gradually from Magdeburg, so that there were 93 guns for the town's fortifications, 46 for Fort No. I, 21 for Fort No. II and 15 for Fort No. III, without the unserviceable ones, with 8400 Centner of powder, mostly already in cartridges, and sufficient iron and lead ammunition; with 181 artillerymen the infantry had to give 3 assistants per gun to make 5 men to serve it. In October the place was amply provisioned for 4000 men for 3 months; Schöler made difficulties about feeding Lecoq's troops from the fortress, so that Lecoq levied provisions in the surrounding country and brought in a magazine from Beverungen. On the 13th an inventory of all stores showed that with the most ample rations the provisions would last until 20 December; only wood was lacking for that time, and Caprivi had it felled and brought in before the forts under a strong line of skirmishers. Fort George's garrison had many sick from the damp casemates, and the fort had no hospital. At the meeting with Savary, Schöler feared that a bombardment could burn the town and the magazines, which were not bombproof. Höpfner: Hameln fell with stores for a long time, without the burghers' great stores, to an enemy who had in guns only 6-pounder cannon and 3 old 30-pounder hanging mortars, first fetched from Rinteln. Side A (French): Rinteln's Hessian garrison was disarmed and its guns brought before Hameln; by Höpfner, Napoleon's orders of 13 and 18 November made Rinteln the blockade's base and the source of the guns for the attack, which were to bombard the place, the field guns defending the entrenchments; Mortier wrote on 13 November that he was also leaving Dumonceau, with the troops left in observation, 10 pieces of ordnance; and on 22 November two French regiments arrived with some 10-pounder howitzers, probably taken in Hesse.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and Mortier's letter, read from the page images, the figures checked on full-resolution crops. Side B's guns and stores were set before the investment; side A's guns came from the commanders' dispositions and the Emperor's orders; one claim carries one phase, so it is unresolved. Höpfner's guns make 175 (our arithmetic), not Bodart's 129 (claim bodart-strength). Old measures are kept as printed. The provisioning for 4000 men for 3 months is dated only 'in October', and the inventory of the 13th does not say for how many men it was reckoned. No passage read counts the stores found at the capitulation. The two regiments with howitzers arrived after the capitulation. English renderings (ours): 'when the Prussians took possession of Hameln the fortress was in a very bad state, but work on it had begun actively at once'; 'on 13 August the order arrived to put Hameln in a state of defence'; 'the necessary guns and ammunition arrived gradually from Magdeburg, so that 93 guns for the town's fortifications, 46 for Fort No. I, 21 for Fort No. II and 15 guns for Fort No. III, without the unserviceable ones, with 8400 Centner of powder, mostly already in cartridges, and sufficient iron and lead ammunition were present'; 'of artillery there were 181 men in the fortress, so that 3 assistants per gun still had to be given by the infantry to obtain 5 men to serve it'; 'in October the place was amply provisioned for 4000 men for 3 months'; 'General Schöler made difficulties about feeding these troops from the fortress, so that General Lecoq saw himself compelled to levy provisions from the surrounding country in every way, and at the same time to bring in from Beverungen a magazine still on hand'; 'on the 13th an inventory of all stores was taken, and it turned out that with the most ample rations the provisions would last until 20 December, whereupon the commandant gave Colonel Caprivi the promise, before this'; 'only wood was lacking for the time given, so the colonel just named had wood felled and brought in in front of the forts under the protection of a strong line of skirmishers'; 'on the 18th the garrison of Fort George was relieved by the 1st battalion Oranien and the 3rd battalion of Schenk, since it had many sick from the damp casemates and the fort had no hospital'; 'all were silent, and as General Savary pressed General Schöler to declare himself, the latter in fact believed that nothing else remained for him but to capitulate, since the enemy stood on the Baßberg only 900 paces from the covered way and was protected against sorties by the inundation, while a bombardment could easily reduce the town, and with it the magazines, which were not bombproof, to ashes, and so on'; 'so Hameln fell, in a complete state of defence, with a garrison of almost 10,000 men, with stores for a long time — without the great stores of the burghers — into the hands of an enemy only 6000 men strong, who in guns had nothing but 6-pounder cannon and 3 old 30-pounder hanging mortars, which he had first fetched from Rinteln'; 'Rinteln and Hessen-Oldendorf were occupied by him. In the former place the Hessian garrison had been disarmed and the guns on hand brought before Hameln'; 'under 13 November Napoleon had ordered Marshal Mortier now to set about the investment of Hameln in earnest, to have two bridges thrown over the Weser and to arrange for the blockading troops to entrench themselves properly so as to be safe against any sortie; Rinteln was to serve them as a base and supply the guns for the attack; the Dutch corps, about 6000 men strong, seemed sufficient to be safe against the garrison if properly entrenched'; 'under 18 November Napoleon at last directed General Savary from Berlin to leave at once and go before Hameln to take command of the blockading troops; the guns from Rinteln were to bombard the place and so hasten its surrender, the field guns to defend the entrenchments; the 12th light infantry regiment was already on its way from Kassel as reinforcement; the commandant there, General Lagrange, was further to be asked to send off some cavalry; the garrison of Hameln could be granted a capitulation by which it would be prisoners of war, the officers released on parole, but the private soldiers transported to France etc.'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme von Hameln durch die Preußen befand sich die Festung in sehr schlechtem Zustande, doch war sogleich thätig daran gearbeitet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Am 13. August ging der Befehl ein, Hameln in Vertheidigungsstand zu setzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Die nöthigen Geschütze und Munition trafen nach und nach von Magdeburg ein, so daß für die Stadtbefestigung 93 Geschütze, für das Fort Nr. I. 46, für das Fort Nr. II. 21 und das Fort Nr. III. 15 Geschütze, ohne die unbrauchbaren, mit 8400 Centner Pulver, meist schon in Patronen und Kartouschen, hinlängliche Eisen- und Blei-Munition vorhanden waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "An Artillerie befanden sich 181 Mann in der Festung, so daß noch per Geschütz 3 Handlanger von der Infanterie abgegeben werden mußten, um 5 Mann zur Bedienung zu erhalten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Mit Lebensmitteln war der Ort im Oktober reichlich für 4000 Mann auf 3 Monate versehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Der General Schöler machte Schwierigkeiten, diese Truppen aus der Festung zu verpflegen, so daß sich der General Lecoq genöthigt sah, auf alle Weise aus der Umgegend Lebensmittel beizutreiben, zugleich aus Beverungen ein noch vorhandenes Magazin herbeizuführen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Am 13. wurde eine Aufnahme aller Vorräthe angestellt, und es ergab sich, daß bei den reichlichsten Portionen die Lebensmittel noch bis zum 20. Dezember genügen würden, worauf der Kommandant dem Obersten Caprivi das Versprechen gab, vor diesem"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Nur an Holz fehlte es für die angegebene Zeit, daher der eben genannte Oberst unter dem Schutze einer starken Schützenlinie vor den Forts Holz fällen und hereinholen ließ."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Am 18. wurde die Garnison des Forts George durch das 1. Bataill. Oranien und das 3. Bataill. von Schenk abgelöst, da sie durch die feuchten Kasematten viele Kranke hatte und das Fort kein Lazareth besaß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Alles schwieg, und da der General Savary in den General Schöler drang, sich zu erklären, so glaubte derselbe in der That, es sei ihm nichts anders übrig geblieben als zu kapituliren, da ja der Feind auf dem Baßberg nur 900 Schritt vom gedeckten Wege entfernt stehe und durch die Inondation gegen Ausfälle geschützt sei, ein Bombardement aber die Stadt und somit auch die nicht bombensicheren Magazine leicht einäschern könne, u. dergl. m."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "So fiel Hameln, im vollkommenen Vertheidigungszustande mit einer Garnison von fast 10,000 Mann, mit Vorräthen auf längere Zeit — ohne die großen Vorräthe der Bürger — in die Hände eines nur 6000 Mann starken Feindes, der an Geschütz außer 6pfündigen Kanonen nichts als 3 alte 30pfündige Hängemortiere besaß, die er erst aus Rinteln herbeigeholt hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Rinteln und Hessen-Oldendorf wurden von ihm besetzt. In ersterem Orte hatte man die hessische Besatzung entwaffnet und die vorhandenen Geschütze vor Hameln gebracht."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Napoleon hatte unterm 13. November dem M. Mortier befohlen, nunmehr ernsthaft an die Einschließung von Hameln zu gehen, zwei Brücken über die Weser schlagen zu lassen und anzuordnen, daß die Blokadetruppen sich gehörig verschanzten, um gegen jeden Ausfall sicher zu sein; Rinteln solle ihnen als Stützpunkt dienen, und die Geschütze zum Angriff hergeben; das etwa 6000 Mann starke holländische Korps scheine ausreichend, um gehörig verschanzt gegen die Besatzung gesichert zu sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Unterm 18. November bestimmte Napoleon aus Berlin endlich dem General Savary, sofort abzureisen und sich vor Hameln zu begeben, um das Kommando über die Blokadetruppen zu übernehmen; die Geschütze aus Rinteln sollten den Platz bewerfen und dadurch die Uebergabe beschleunigen, die Feldgeschütze die Verschanzungen vertheidigen; das 12. leichte Infanterie-Regiment sei bereits von Kassel zur Verstärkung unterweges; der dortige Kommandant, General Lagrange, solle noch aufgefordert werden, einige Kavallerie abgehen zu lassen; der Garnison von Hameln könne eine Kapitulation bewilligt werden, durch welche sie kriegsgefangen, die Offiziere auf ihr Ehrenwort entlassen, die Gemeinen aber nach Frankreich transportirt würden ꝛc."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A (French): the Emperor wrote to the King of Holland on 22 October that he had reason to think the Prussians had at Hameln only just what was necessary for the garrison, and on 31 October that Hameln and Nienburg would soon surrender when they learned of their country's disasters; on 9 November he wrote to Ney that the King of Holland reported 7,000 men at Hameln camped under the walls of the place. Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg were estimated at 10,000 men, and that he had not yet been able to obtain the return of the corps he left in observation. Höpfner: on 8 November the enemy reconnoitred the fortress; Loison, who came with the summons before the attack on the Mühlen gate, was let into the fortress with his whole suite without blindfolds, and the enemy officers with him talked with the numerous burghers gathered before the commandant's building and walked about the town unsupervised, even visiting wine houses; the enemy General Brack, sent to Hameln on what Höpfner calls a wholly empty pretext, was found with the commandant; a French officer who accompanied Lecoq back from the enemy camp with Michaud's letter was let in in the evening without blindfold; and Savary, on the evening of the 19th, expressed his pleasure at the commandant's sensible views of the state of affairs.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters, read from the page images, with Höpfner's. The passages read do not show what side A learned from these visits, or whether it knew of the garrison's stores or of Lecoq's estimate of the blockading force; Savary's 'sensible views' follow Lecoq's offer of 18 November to hand over the fortress on 20 December (claim side-b-command). The garrison estimates are also in claim side-b-strength-french. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'the Emperor to Marshal Ney. Berlin, 9 November 1806'; 'the King of Holland informs me that there are at Hameln 7,000 men camped under the walls of the place'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'; 'on 8 November General Lecoq reconnoitred the enemy and the enemy the fortress, which led to an insignificant cannonade'; 'even before the attack on the Mühlen gate had taken place, a parlementaire appeared there, who soon afterwards, on the order of the commandant's adjutant, Lieutenant Schmidt, was let into the fortress with his whole suite without blindfolds'; 'it was General of Division Loison, who brought a letter from the King of Holland to General Lecoq, in which he summoned him, communicating the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., to capitulate in return for free withdrawal, but in case of refusal threatened to reduce the town to ashes in 24 hours and to lay all the resulting misfortune on the general'; 'the hussars accompanying the parlementaire had halted before the commandant's building; the enemy officers joined them, talked with the numerous burghers gathered there, then walked about the town unsupervised and even visited various wine houses'; 'it was the enemy General Brack whom Major Beaufort had found with the commandant, and who had been sent to Hameln on a wholly empty pretext'; 'the King refused to receive the general, and only had him told that the garrison must now in any case surrender as prisoners of war. General Lecoq rejected this condition, but allowed a French officer to accompany him to Hameln with a letter from General Michaud to the commandant, where he was let in in the evening without blindfold'; 'quite unexpectedly a parlementaire was again announced on the evening of the 19th'; 'it was Captain Charles with a letter from General Savary, in which he announced to the commandant his arrival as commander of the besieging corps, and at the same time expressed his pleasure at the commandant's sensible views of the state of affairs, adding that he nevertheless could not accept the conditions put, since the King of Prussia had not a battalion left and was himself in flight; he wished to settle the rest orally, and left it to them to fix the time and place for it'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p794-figures-v1",
+          "section": "p794",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 794 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL NEY.\n\nBerlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p794-figures-v1",
+          "section": "p794",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 794 (transcribed from the page image)",
+          "quote": "Le roi de Hollande me mande qu'il y a à Hameln 7,000 hommes campés sous les murs de la place."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 8. November rekognoszirte der General Lecoq den Feind und dieser die Festung, wobei es zu einer unbedeutenden Kanonade kam."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Noch ehe der Angriff gegen das Mühlenthor erfolgt war, erschien daselbst ein Parlamentair, der bald darauf auf Anordnung des Adjutanten des Kommandanten, des Lieut. Schmidt, mit seinem ganzen Gefolge mit unverbundenen Augen in die Festung eingelassen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Es war der Divisions-General Loison, der ein Schreiben des Königs von Holland an den General Lecoq brachte, in welchem er diesen, unter Mittheilung der Lage der verschiedenen preußischen Korps und der Uebergabe von Stettin, Küstrin ꝛc. zur Kapitulation gegen freien Abzug aufforderte, im Weigerungsfalle aber drohte, die Stadt in 24 Stunden einzuäschern und alles daraus entstehende Unglück dem General aufzubürden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Die den Parlamentair begleitenden Husaren waren vor der Kommandantur halten geblieben; zu ihnen gesellten sich die feindlichen Offiziere, unterhielten sich mit den zahlreich versammelten Bürgern, gingen dann unbeaufsichtigt in der Stadt umher und besuchten sogar verschiedene Weinhäuser."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Es war der feindliche General Brack, den der Major Beaufort beim Kommandanten gefunden hatte, und der unter einem ganz nichtigen Vorwande nach Hameln geschickt worden war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der König schlug es ab, den General zu empfangen, und ließ ihm nur sagen, daß die Besatzung sich jetzt jedenfalls kriegsgefangen ergeben müsse. Der General Lecoq wies diese Bedingung zurück, gestattete aber, daß ihn ein französischer Offizier mit einem Briefe des Generals Michaud an den Kommandanten nach Hameln begleitete, wo er am Abend mit unverbundenen Augen eingelassen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Ganz unerwartet wurde am Abend des 19. abermals ein Parlamentair angemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Es war der Kapitain Charles mit einem Schreiben des Generals Savary, worin dieser dem Kommandanten seine Ankunft als Befehlshaber des Belagerungskorps meldete, zugleich seine Freude über die verständigen Ansichten des Kommandanten über die Lage der Dinge mit dem Hinzufügen ausdrückte, daß er aber dennoch auf die gestellten Bedingungen nicht eingehen könne, da der König von Preußen kein Bataillon mehr besitze und selbst auf der Flucht sei; er wünsche das Weitere mündlich abzumachen, und überlasse es, Zeit und Ort hierzu zu bestimmen."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B (Prussian), in Höpfner: on the evening of 25 October Lecoq learned from Hanover that the road through Neustadt, Lüneburg and Artlenburg was still free of the enemy; at Münder a spy told him that the enemy held Braunschweig with numerous cavalry and raided as far as Ohof, as Hiller also learned at Neustadt, and from the newspapers he learned of the enemy's rapid advance towards Berlin and of the King of Holland's approach to the Weser. On 7 November Lieutenant Massow's outposts reported the enemy's advance on the road from Lemgo, and on the 8th Lecoq reconnoitred the enemy. Loison's letter gave the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., and the protocol required that an officer first be sent to the Elbe to verify the circumstances stated. The King's summons of the 12th brought the news of the fall of Magdeburg and Napoleon's army order on Ratkau; Lecoq rode to the enemy camp partly to reconnoitre the enemy, and Michaud's letter repeated the news of the morning and allowed the commandant to send an officer to General Blücher to verify it. Michaud then sent the Bulletins announcing the capitulations of Prenzlau, Stettin and Küstrin. On the 13th it was learned that the King of Holland had left with his guards and some other regiments, and that the division of Mortier's corps was said to have marched towards Hamburg earlier; later it was known for certain that the enemy had moved down the Weser with a great part of his forces and almost entirely evacuated the left bank, and Lecoq estimated the enemy left behind at only 6000 men. On the 18th dü Monceau wrote that Napoleon was angered at the Prussian generals' conduct, and Lecoq answered that they had full knowledge of the Prussian army's misfortune and counted on no relief. On the 19th the Prince of Waldeck told the generals all he knew of the Prussian army, that the French had already crossed the Vistula, so that Prussia was irretrievably lost, and that Italian troops had arrived at Pyrmont to reinforce the blockading troops; this news wholly discouraged the generals. Savary wrote that the King of Prussia had not a battalion left and was himself in flight, and on the 20th repeated the story of the Prussian state's misfortunes, adding the lie that Glogau and Breslau had already capitulated.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. Höpfner calls Savary's statement on Glogau and Breslau a lie; it is kept as his. The passages read do not show whether anyone at Hameln knew of the suspension of arms of 16 November, whose article 4 named Hameln and Nienburg (claim side-a-objectives). Pages 351-352 and 366, on Lecoq's march and on the days after the 13th, were not read. English renderings (ours): 'when, however, on the evening of the 25th he received news from Hanover that the road through Neustadt, Lüneburg and Artlenburg was still free of the enemy, he suddenly resolved once more to withdraw across the Elbe, and that same night sent Captain Hiller ahead to prepare the march on that line'; 'at Münder General Lecoq received from a spy the news that the enemy had occupied Braunschweig with numerous cavalry and was raiding as far as Ohof; news that Captain Hiller had also received at Neustadt'; 'when the general now also saw from the newspapers the enemy's rapid advance in the direction of Berlin and learned of the King of Holland's approach to the Weser, he gave his' (the sentence continues on p. 351, which was not read); 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'on 8 November General Lecoq reconnoitred the enemy and the enemy the fortress, which led to an insignificant cannonade'; 'it was General of Division Loison, who brought a letter from the King of Holland to General Lecoq, in which he summoned him, communicating the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., to capitulate in return for free withdrawal, but in case of refusal threatened to reduce the town to ashes in 24 hours and to lay all the resulting misfortune on the general'; 'in a protocol signed by all it was unanimously declared that the free withdrawal was to be accepted, since in the prevailing circumstances a corps of 9000 men must be dearer to the King than holding so remote a fortress, which must in any case fall in 2 months at the latest; but before the capitulation was concluded an officer was to be sent to the Elbe to convince himself of the truth of the circumstances stated'; 'on the ground of General Brack's failure to return, the King of Holland on the 12th sent a parlementaire anew, complained in serious words of that general's detention, and at the same time summoned the commandant and the generals of the garrison to surrender the fortress in two hours if they did not wish to be treated with all severity'; 'to impress them still more, the news of the fall of Magdeburg and the army order in which Napoleon praises the marshals who had pursued Blücher's corps and forced it to capitulate at Ratkau were attached to the summons'; 'the colonel accepted the invitation, while General Lecoq rode with Captain Hiller and Lieutenant Below to the enemy camp, to obtain good terms of capitulation if possible and at the same time to reconnoitre the enemy'; 'the letter contained nothing but the repetition of the news from the theatre of war already communicated in the morning, with the addition that after such events it was unreasonable still to want to defend the fortress, but that the commandant was permitted to send an officer to General Blücher to convince himself of the truth of what had been communicated, though after this officer's return the fortress must then be surrendered and the garrison become prisoners of war'; 'General Michaud announced by a parlementaire that the King of Holland had left for another destination, and that he, the general, had taken over the chief command. At the same time he sent the Bulletins that announced the unhappy capitulations of Prenzlau, Stettin and Küstrin'; 'also on the 13th many movements were seen in the enemy camps, and it was soon learned that with the King of Holland his guards and some other regiments had also left, as the division of Mortier's corps was said to have left the neighbourhood of Hameln earlier and marched on towards Hamburg, since Napoleon had ordered from Berlin under 6 November that Marshal Mortier should work together with Marshals Soult and Bernadotte for the destruction of Blücher's corps and march on Hamburg to oppose the Prussians' crossing there'; 'it was now known for certain that the enemy had moved off down the Weser with a great part of his forces and had almost entirely evacuated the left bank. General Lecoq himself estimated the enemy left behind at only 6000 men. His camp was seen in the area this side of Fischbeck'; 'on the 18th the garrison of Fort George was relieved by the 1st battalion Oranien and the 3rd battalion of Schenk, since it had many sick from the damp casemates and the fort had no hospital'; 'the letter contained the notice that Napoleon was angered in the highest degree at the conduct of the Prussian generals and had ordered that they be treated with the utmost severity, and that no capitulation be granted them any more if they did not surrender the fortress forthwith'; 'when Colonel Stedtmann, on being asked, named the garrison's captivity as the main condition, General Lecoq, who had command of the French language, as the commandant had not, drew up a letter in which he told General dü Monceau that they had indeed full knowledge of the misfortune of the Prussian army and so counted on no relief, but that they nevertheless meant, in duty, to hold the fortress until all means of defence were exhausted or all provisions consumed; if, therefore, General dü Monceau really intended to spare the town, the commandant would hand over the fortress on 20 December, provided no relief had arrived by then;'; 'on the 19th in the afternoon the Prince of Waldeck came to Hameln and told the generals everything he knew of the events in the Prussian army, assured them also that the French had already crossed the Vistula, so that Prussia was irretrievably lost. He further said that Italian troops had already arrived at Pyrmont to reinforce the blockading troops'; 'this news, communicated by a prince attached to the Prussian state, wholly discouraged the generals, while in public they still prepared everything for a serious defence and held a conference on it with the artillery and engineer officers'; 'it was Captain Charles with a letter from General Savary, in which he announced to the commandant his arrival as commander of the besieging corps, and at the same time expressed his pleasure at the commandant's sensible views of the state of affairs, adding that he nevertheless could not accept the conditions put, since the King of Prussia had not a battalion left and was himself in flight; he wished to settle the rest orally, and left it to them to fix the time and place for it'; 'at first the Prussian generals refused the meeting, but at last agreed to fix the rendezvous for the 20th at 9 o'clock in the morning at the Wehrberg Warte'; 'the French general received the Prussian generals very brusquely, told them in his Emperor's name that the last moment for capitulation had come, that later nothing more would be ag-'; 'reed to; he repeated the story of all the misfortune that had struck the Prussian state, and added the lie that Glogau and Breslau had already capitulated'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Als er indessen am Abend des 25. aus Hannover die Nachricht erhielt, daß die Straße über Neustadt, Lüneburg und Artlenburg noch frei vom Feinde sei, faßte er plötzlich noch einmal den Entschluß sich über die Elbe zurückzuziehen, und schickte noch in der Nacht den Hauptmann Hiller voraus, um den Marsch auf genannter Linie vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "In Münder erhielt der General Lecoq durch einen Kundschafter die Nachricht, daß der Feind Braunschweig mit zahlreicher Kavallerie besetzt habe und bis Ohof streife; eine Nachricht, die auch der Hauptmann Hiller in Neustadt erhalten hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Als der General nun auch aus den Zeitungen das schnelle Vordringen des Feindes in der Richtung auf Berlin ersah und die Annäherung des Königs von Holland an die Weser erfuhr, gab er sei-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 8. November rekognoszirte der General Lecoq den Feind und dieser die Festung, wobei es zu einer unbedeutenden Kanonade kam."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Es war der Divisions-General Loison, der ein Schreiben des Königs von Holland an den General Lecoq brachte, in welchem er diesen, unter Mittheilung der Lage der verschiedenen preußischen Korps und der Uebergabe von Stettin, Küstrin ꝛc. zur Kapitulation gegen freien Abzug aufforderte, im Weigerungsfalle aber drohte, die Stadt in 24 Stunden einzuäschern und alles daraus entstehende Unglück dem General aufzubürden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "In einem, von Allen unterschriebenen Protokolle, wurde einstimmig ausgesprochen, daß der freie Abzug anzunehmen sei, da unter den obwaltenden Verhältnissen dem Könige ein Korps von 9000 Mann lieber sein müsse, als die Behauptung einer so entlegenen Festung, die in 2 Monaten spätestens doch fallen müsse; jedoch sei vor Abschließung der Kapitulation ein Offizier nach der Elbe zu schicken, um sich von der Wahrheit der angegebenen Umstände zu überzeugen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Auf Grund des Ausbleibens des Generals Brack sandte der König von Holland am 12. aufs Neue einen Parlamentair, beschwerte sich in ernsten Worten über das Zurückhalten jenes Generals, und forderte zugleich den Kommandanten und die Generale der Besatzung auf, die Festung in zwei Stunden zu übergeben, wenn sie nicht mit aller Strenge behandelt werden wollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Um noch mehr zu imponiren, wurde der Aufforderung die Nachricht von dem Falle Magdeburgs und der Armeebefehl beigefügt, in welchem Napoleon die Marschälle belobt, welche das Blüchersche Korps verfolgt und zur Kapitulation bei Ratkau genöthigt hatten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der Oberst folgte der Einladung, wogegen der General Lecoq mit dem Hauptmann Hiller und dem Lieut. Below nach dem feindlichen Lager ritt, um wo möglich gute Kapitulations-Bedingungen zu erhalten und zugleich den Feind zu rekognosziren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der Brief enthielt nichts als die Wiederholung der bereits am Morgen mitgetheilten Nachrichten von dem Kriegsschauplatze, mit dem Hinzufügen, daß es nach solchen Ereignissen unverständig sei, die Festung noch vertheidigen zu wollen, daß man aber gestatte, daß der Kommandant einen Offizier zum General Blücher sende, um sich von der Wahrheit des Mitgetheilten zu überzeugen, doch nach der Rückkehr dieses Offiziers müsse dann auch die Festung übergeben, die Besatzung kriegsgefangen werden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Der General Michaud zeigte durch einen Parlamentair an, daß der König von Holland zu einer andern Bestimmung abgegangen sei, und daß er, der General, den Oberbefehl übernommen habe. Gleichzeitig schickte er die Bülletins mit, welche die unglücklichen Kapitulationen von Prenzlau, Stettin und Küstrin verkündigten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Ebenfalls am 13. gewahrte man viele Bewegungen in den feindlichen Lägern und erfuhr bald, daß mit dem Könige von Holland auch seine Garden und einige andere Regimenter abgezogen wären, so wie schon früher die Division des Mortierschen Korps die Gegend von Hameln verlassen und weiter gegen Hamburg marschirt sein sollte, da Napoleon unterm 6. November von Berlin aus befohlen hatte, daß der M. Mortier mit den Marschällen Soult und Bernadotte gemeinschaftlich zur Vernichtung des Blücherschen Korps wirken und auf Hamburg marschiren solle, um dem Uebergange der Preußen daselbst entgegenzutreten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Man wußte nun entschieden, daß der Feind mit einem großen Theil seiner Kräfte sich die Weser abwärts gezogen und das linke Ufer fast ganz geräumt habe. Der General Lecoq selbst schätzte den zurückgebliebenen Feind nur auf 6000 Mann. Man sah sein Lager in der Gegend diesseits Fischbeck."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Am 18. wurde die Garnison des Forts George durch das 1. Bataill. Oranien und das 3. Bataill. von Schenk abgelöst, da sie durch die feuchten Kasematten viele Kranke hatte und das Fort kein Lazareth besaß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Das Schreiben enthielt die Anzeige, daß Napoleon im höchsten Grade über das Verhalten der preußischen Generale erzürnt sei und befohlen habe, sie auf das Strengste zu behandeln, ihnen keine Kapitulation mehr zu bewilligen, wenn sie nicht alsbald die Festung übergäben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Als der Oberst Stedtmann auf Befragen als Hauptbedingung die Kriegsgefangenschaft der Garnison anführte, setzte der General Lecoq, der der französischen Sprache mächtig war, der Kommandant aber nicht, ein Schreiben auf, in welchem er dem General dü Monceau sagte: daß man zwar von dem Unglück der preußischen Armee vollständig Kenntniß habe, also auch auf keinen Entsatz rechne, daß man aber dennoch pflichtgemäß die Festung so lange halten wolle, bis alle Mittel der Vertheidigung erschöpft, oder alle Lebensmittel verzehrt seien; wenn daher der General dü Monceau wirklich gesonnen sei, die Stadt zu schonen, so wolle der Kommandant am 20. Dezember die Festung überliefern, sofern kein Entsatz bis dahin eingetroffen sei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Am 19. Nachmittags kam der Fürst von Waldeck nach Hameln und erzählte den Generalen Alles, was er von den Begebenheiten bei der preußischen Armee wußte, versicherte auch, daß die Franzosen bereits die Weichsel überschritten hätten, mithin Preußen unwiederbringlich verloren sei. Weiter erzählte er, daß italienische Truppen zur Verstärkung der Blokadetruppen bereits in Pyrmont angekommen seien."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Diese, durch einen dem preußischen Staate zugethanen Fürsten mitgetheilten Nachrichten, entmuthigten die Generale völlig, während sie öffentlich noch Alles zu einer ernsthaften Vertheidigung vorbereiteten und hierzu eine Konferenz mit den Artillerie- und Ingenieur-Offizieren hielten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Es war der Kapitain Charles mit einem Schreiben des Generals Savary, worin dieser dem Kommandanten seine Ankunft als Befehlshaber des Belagerungskorps meldete, zugleich seine Freude über die verständigen Ansichten des Kommandanten über die Lage der Dinge mit dem Hinzufügen ausdrückte, daß er aber dennoch auf die gestellten Bedingungen nicht eingehen könne, da der König von Preußen kein Bataillon mehr besitze und selbst auf der Flucht sei; er wünsche das Weitere mündlich abzumachen, und überlasse es, Zeit und Ort hierzu zu bestimmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Erst schlugen die preußischen Generale die Zusammenkunft ab, bequemten sich aber endlich doch, das Rendezvous auf den 20. um 9 Uhr Morgens bei der Wehrberger Warte festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Der französische General empfing die preußischen Generale sehr barsch, sagte ihnen im Namen seines Kaisers, daß der letzte Augenblick zur Kapitulation gekommen sei, man später sich zu Nichts mehr ver-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "stehen würde; er wiederholte die Erzählung von all dem Unglück, das den preußischen Staat betroffen hatte, und fügte die Lüge hinzu, daß Glogau und Breslau bereits kapitulirt hätten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A (French): on 31 October the Emperor wrote to the King of Holland that Hameln and Nienburg would soon surrender when they learned of their country's disasters, and that he should put a small corps of observation before them, without blockading them, to keep them from raiding the country; on 7 November he told Mortier to leave a small corps before Hameln and Nienburg and to move into Lauenburg and on Hamburg, in pursuit of Blücher's column. The 29th Bulletin, of 9 November: Mortier had set out for Hanover and Hamburg with his army corps, and the King of Holland had had Hameln blockaded. Mortier wrote on 12 November that he had moved on Hameln by the King's order to surround it on the right bank, and would leave two small corps to observe Hameln and Nienburg as the Emperor prescribed; on 13 November, that he was ordering Dumonceau to leave troops in observation before both. The 32nd Bulletin, of 16 November: Mortier had arrived with the 8th corps at Hamburg to close the Elbe and the Weser, and Savary had been charged with the blockade of Hameln with the Dutch division. By Höpfner, Napoleon ordered Mortier on 13 November to set about the investment of Hameln in earnest, with two bridges over the Weser and the blockading troops properly entrenched against sorties, Rinteln to serve as base and supply the guns for the attack; and on 18 November ordered Savary to Hameln to take command of the blockading troops, the guns from Rinteln to bombard the place to hasten its surrender, and the garrison to be granted a capitulation as prisoners of war, the officers released on parole and the private soldiers transported to France. The King of Holland first summoned the garrison through Loison to capitulate in return for free withdrawal, and approved free withdrawal as the main point, then on the 12th demanded surrender and refused Lecoq any terms but captivity. The suspension of arms signed at Charlottenburg on 16 November, which the 33rd Bulletin, of 17 November, prints, provided in article 4 that Hameln and Nienburg, with the places named in article 2, would be handed over to the French troops with their armament and munitions within the eight days following the exchange of ratifications, their garrisons not to be prisoners of war but directed on Kœnigsberg; ratifications were to be exchanged at Graudenz at the latest on the 21st, and by Foucart's note hostilities were to cease only then. The 35th Bulletin, of 28 November, says the King of Prussia told Duroc at Osterode that he could not ratify it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The Emperor's and Mortier's letters and the Bulletins, read from the page images, with Höpfner's summary of Napoleon's orders of 13 and 18 November, which were not seen in Foucart. The aims moved from observation without blockade (31 October) to blockade (9 and 16 November) and to investment, bombardment and a capitulation as prisoners of war (13 and 18 November, by Höpfner); they came from the Emperor and from the commanders before Hameln, so the phase is left unresolved. The capitulation of 20 November made the garrison prisoners of war (claim capitulation), while the suspension of arms, had it been ratified, would have sent it to Kœnigsberg (our comparison); the passages read do not show whether anyone before Hameln knew of the suspension. The sentence on hostilities is Foucart's note, not the suspension's text. English renderings (ours): 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'the Emperor to Marshal Mortier. Berlin, 7 November 1806'; 'you will leave a small corps before Hameln and Nienburg and will move into Lauenburg and from there on Hamburg, from where, according to the orders I would send you, you would move into Swedish Pomerania in pursuit of General Blücher's column'; '29th Bulletin of the Grande Armée'; 'Berlin, 9 November 1806'; 'Marshal Mortier has set out for Hanover and for Hamburg with his army corps'; 'the King of Holland has had Hameln blockaded'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'I moved on Hameln, by the King of Holland's order, to surround that strong place on the right bank of the Weser'; 'I shall leave two small corps to observe Hameln and Nienburg as you prescribe to me'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'Marshal Mortier has arrived with the 8th corps at Hamburg to close the Elbe and the Weser'; 'General Savary has been charged with the blockade of Hameln with the Dutch division'; 'under 13 November Napoleon had ordered Marshal Mortier now to set about the investment of Hameln in earnest, to have two bridges thrown over the Weser and to arrange for the blockading troops to entrench themselves properly so as to be safe against any sortie; Rinteln was to serve them as a base and supply the guns for the attack; the Dutch corps, about 6000 men strong, seemed sufficient to be safe against the garrison if properly entrenched'; 'under 18 November Napoleon at last directed General Savary from Berlin to leave at once and go before Hameln to take command of the blockading troops; the guns from Rinteln were to bombard the place and so hasten its surrender, the field guns to defend the entrenchments; the 12th light infantry regiment was already on its way from Kassel as reinforcement; the commandant there, General Lagrange, was further to be asked to send off some cavalry; the garrison of Hameln could be granted a capitulation by which it would be prisoners of war, the officers released on parole, but the private soldiers transported to France etc.'; 'it was General of Division Loison, who brought a letter from the King of Holland to General Lecoq, in which he summoned him, communicating the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., to capitulate in return for free withdrawal, but in case of refusal threatened to reduce the town to ashes in 24 hours and to lay all the resulting misfortune on the general'; 'he was very kindly received; the King approved the main point: that the garrison could go by the nearest road to the King's army; but referred him for the details to General Loison and Colonel Brüne'; 'on the ground of General Brack's failure to return, the King of Holland on the 12th sent a parlementaire anew, complained in serious words of that general's detention, and at the same time summoned the commandant and the generals of the garrison to surrender the fortress in two hours if they did not wish to be treated with all severity'; 'the King refused to receive the general, and only had him told that the garrison must now in any case surrender as prisoners of war. General Lecoq rejected this condition, but allowed a French officer to accompany him to Hameln with a letter from General Michaud to the commandant, where he was let in in the evening without blindfold'; '1. 33rd Bulletin of the Grande Armée. Berlin, 17 November 1806' (the '1.' is the footnote's mark); 'the attached suspension of arms was signed yesterday at Charlottenburg'; 'Art. 4. — The places of Hameln and Nienburg, as well as those designated in article 2, shall be handed over to the French troops with their armament and munitions, of which an inventory shall be drawn up, within the eight days following the exchange of the ratifications of the present suspension of arms. The garrisons of these places shall not be prisoners of war; they shall be directed on Kœnigsberg, and they shall be given every facility necessary for this'; 'Art. 6. — The present suspension of arms shall be ratified by the two high contracting powers, and the exchange of ratifications shall take place at Graudenz at the latest on the 21st of the present month'; 'done at Charlottenburg, 16 November 1806'; 'hostilities were to cease only at the moment of the exchange of ratifications'; '35th Bulletin of the Grande Armée. Posen, 28 November 1806'; 'the marshal of the palace, Duroc, went as far as Osterode, where he saw the King of Prussia, who declared to him that part of his states was occupied by the Russians and that he was entirely in their dependence; that consequently he could not ratify the suspension of arms that his plenipotentiaries had concluded, because he could not carry out its stipulations'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p771-figures-v1",
+          "section": "p771",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 771 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL MORTIER.\n\nBerlin, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p772-figures-v1",
+          "section": "p772",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 772 (transcribed from the page image)",
+          "quote": "Vous laisserez un petit corps devant Hameln et Nienburg et vous vous porterez dans le Lauenburg et de là sur Hamburg d'où, selon les ordres que je vous enverrais, vous vous porteriez dans la Poméranie suédoise, à la poursuite de la colonne du général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p805-figures-v1",
+          "section": "p805",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 805 (transcribed from the page image)",
+          "quote": "Le maréchal Mortier s'est mis en marche pour le Hanovre et pour Hamburg avec son corps d'armée."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p805-figures-v1",
+          "section": "p805",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 805 (transcribed from the page image)",
+          "quote": "Le roi de Hollande a fait bloquer Hameln."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "je me suis porté sur Hameln, d'après l'ordre du roi de Hollande, pour cerner cette place forte sur la rive droite du Weser."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Je laisserai deux petits corps pour observer Hameln et Nienburg ainsi que vous me le prescrivez."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le maréchal Mortier est arrivé avec le 8e corps à Hamburg pour fermer l'Elbe et le Weser."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le général Savary a été chargé du blocus de Hameln avec la division hollandaise."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Napoleon hatte unterm 13. November dem M. Mortier befohlen, nunmehr ernsthaft an die Einschließung von Hameln zu gehen, zwei Brücken über die Weser schlagen zu lassen und anzuordnen, daß die Blokadetruppen sich gehörig verschanzten, um gegen jeden Ausfall sicher zu sein; Rinteln solle ihnen als Stützpunkt dienen, und die Geschütze zum Angriff hergeben; das etwa 6000 Mann starke holländische Korps scheine ausreichend, um gehörig verschanzt gegen die Besatzung gesichert zu sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Unterm 18. November bestimmte Napoleon aus Berlin endlich dem General Savary, sofort abzureisen und sich vor Hameln zu begeben, um das Kommando über die Blokadetruppen zu übernehmen; die Geschütze aus Rinteln sollten den Platz bewerfen und dadurch die Uebergabe beschleunigen, die Feldgeschütze die Verschanzungen vertheidigen; das 12. leichte Infanterie-Regiment sei bereits von Kassel zur Verstärkung unterweges; der dortige Kommandant, General Lagrange, solle noch aufgefordert werden, einige Kavallerie abgehen zu lassen; der Garnison von Hameln könne eine Kapitulation bewilligt werden, durch welche sie kriegsgefangen, die Offiziere auf ihr Ehrenwort entlassen, die Gemeinen aber nach Frankreich transportirt würden ꝛc."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Es war der Divisions-General Loison, der ein Schreiben des Königs von Holland an den General Lecoq brachte, in welchem er diesen, unter Mittheilung der Lage der verschiedenen preußischen Korps und der Uebergabe von Stettin, Küstrin ꝛc. zur Kapitulation gegen freien Abzug aufforderte, im Weigerungsfalle aber drohte, die Stadt in 24 Stunden einzuäschern und alles daraus entstehende Unglück dem General aufzubürden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Er wurde sehr freundlich empfangen; der König genehmigte den Hauptpunkt: daß die Garnison sich auf dem nächsten Wege zur Armee des Königs begeben könne; verwies aber wegen der Details an den General Loison und den Obersten Brüne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Auf Grund des Ausbleibens des Generals Brack sandte der König von Holland am 12. aufs Neue einen Parlamentair, beschwerte sich in ernsten Worten über das Zurückhalten jenes Generals, und forderte zugleich den Kommandanten und die Generale der Besatzung auf, die Festung in zwei Stunden zu übergeben, wenn sie nicht mit aller Strenge behandelt werden wollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der König schlug es ab, den General zu empfangen, und ließ ihm nur sagen, daß die Besatzung sich jetzt jedenfalls kriegsgefangen ergeben müsse. Der General Lecoq wies diese Bedingung zurück, gestattete aber, daß ihn ein französischer Offizier mit einem Briefe des Generals Michaud an den Kommandanten nach Hameln begleitete, wo er am Abend mit unverbundenen Augen eingelassen wurde."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "1. 33e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 17 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "La suspension d'armes ci-jointe a été signée hier à Charlottenburg."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "ART. 4. — Les places de Hameln et Nienburg, ainsi que celles désignées dans l'article 2, seront remises aux troupes françaises avec leurs armements et munitions, dont il sera dressé un inventaire, dans les huit jours qui suivront l'échange des ratifications de la présente suspension d'armes. Les garnisons de ces places ne seront pas prisonnières de guerre; elles seront dirigées sur Kœnigsberg, et on leur donnera à cet effet toutes les facilités nécessaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "ART. 6. — La présente suspension d'armes sera ratifiée par les deux hautes puissances contractantes, et l'échange des ratifications aura lieu à Graudenz, au plus tard le 21 du présent mois."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Fait à Charlottenburg, le 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Les hostilités ne devaient cesser qu'au moment de l'échange des ratifications."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "35e BULLETIN DE LA GRANDE ARMÉE.\n\nPosen, 28 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Le maréchal du palais, Duroc, a été jusqu'à Osterode, où il a vu le roi de Prusse, qui lui a déclaré qu'une partie de ses États était occupée par les Russes, et qu'il était entièrement dans leur dépendance; qu'en conséquence il ne pouvait ratifier la suspension d'armes qu'avaient conclue ses plénipotentiaires, parce qu'il ne pourrait pas en exécuter les stipulations."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B (Prussian), in Höpfner: on 13 August the order came to put Hameln in a state of defence. Lecoq resolved on the evening of the 25th to withdraw across the Elbe, while General Hagken proposed falling on the rear of the troops blockading Magdeburg or marching through unoccupied Saxony to Silesia; a council of Lecoq's commanders later judged the corps's departure from Hameln no longer advisable. After Loison's summons Lecoq held himself bound to accept free withdrawal to the King's army for his troops, and the protocol held that a corps of 9000 men must be dearer to the King than holding so remote a fortress, which must fall in 2 months at the latest. Lecoq wrote to the commandant that the King perhaps expected a serious defence; Caprivi would in no case give up the fort just like that; when the King of Holland demanded surrender as prisoners of war, Lecoq rejected it, the commandant answered that there would be time to think of capitulating when all means of defence were exhausted, and a serious defence was announced; the commandant promised Caprivi not to negotiate before 20 December. On the 18th Lecoq wrote that, though they counted on no relief, they meant in duty to hold the fortress until all means of defence were exhausted or all provisions consumed, and offered that the commandant would hand it over on 20 December if no relief had come. Lecoq's draft capitulation commended to the new monarch's favour the officers from provinces that might be ceded at the peace. Senior officers urged Wedell to oppose the capitulation, and the men of the regiment Hagken and of the 3rd battalions mutinied after it was made known. Höpfner: everything seemed to invite a sortie, given the superiority over the enemy, yet they contented themselves with Hiller's attempt to bring in guns; and he holds that a commandant knows no consideration other than the preservation of his fortress.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The aims shifted between withdrawal, free withdrawal, defence, delay and capitulation; they came from the orders the fortress had received and from its commanders' decisions, so the phase is left unresolved. The passages read give no order to the garrison after that of 13 August and no instruction from the King after Jena. The sentence on the commandant's duty is Höpfner's judgement. English renderings (ours): 'on 13 August the order arrived to put Hameln in a state of defence'; 'when, however, on the evening of the 25th he received news from Hanover that the road through Neustadt, Lüneburg and Artlenburg was still free of the enemy, he suddenly resolved once more to withdraw across the Elbe, and that same night sent Captain Hiller ahead to prepare the march on that line'; 'on the 26th he already set out with the corps for Münder and Lauenau, the advance guard for Neustadt, without informing General Hagken, who had wanted to join him and had proposed falling on the rear of the troops blockading Magdeburg or marching through unoccupied Saxony to Silesia'; 'thereupon General Lecoq called together General Wedell and the commanders of his corps, and put to them the question whether the corps's departure from Hameln was still advisable, since the enemy was already approaching. The answer was in the negative'; 'General Lecoq held himself obliged to accept a free withdrawal to the King's army for the troops under his command; but unless the commandant joined in this capitulation, General Loison would agree to nothing'; 'in a protocol signed by all it was unanimously declared that the free withdrawal was to be accepted, since in the prevailing circumstances a corps of 9000 men must be dearer to the King than holding so remote a fortress, which must in any case fall in 2 months at the latest; but before the capitulation was concluded an officer was to be sent to the Elbe to convince himself of the truth of the circumstances stated'; 'even General Lecoq wrote to the commandant that he should by no means be hasty with the surrender of the fortress, since the King perhaps expected a serious defence after all'; 'when the latter thereupon gave him a sharp reprimand in a letter, and declared at the same time that he was commandant of the fortress and the fort only a part of it, the colonel answered that he had acted according to duty and conscience and would in no case give up the fort just like that'; 'the King refused to receive the general, and only had him told that the garrison must now in any case surrender as prisoners of war. General Lecoq rejected this condition, but allowed a French officer to accompany him to Hameln with a letter from General Michaud to the commandant, where he was let in in the evening without blindfold'; 'to this letter the commandant answered, since none of the commanders considered a capitulation justified under the conditions it contained, and Colonel Caprivi in particular spoke out vehemently against it, that under the conditions given there would still be time to think of a capitulation when all means of defence were exhausted'; 'to quiet the garrison's discontent at the many negotiations, it was formally announced that every capitulation had been broken off and that a serious defence would be made'; 'on the 13th an inventory of all stores was taken, and it turned out that with the most ample rations the provisions would last until 20 December, whereupon the commandant gave Colonel Caprivi the promise, before this'; 'day, not to enter into any negotiation with the enemy'; 'on the 18th the garrison of Fort George was relieved by the 1st battalion Oranien and the 3rd battalion of Schenk, since it had many sick from the damp casemates and the fort had no hospital'; 'when Colonel Stedtmann, on being asked, named the garrison's captivity as the main condition, General Lecoq, who had command of the French language, as the commandant had not, drew up a letter in which he told General dü Monceau that they had indeed full knowledge of the misfortune of the Prussian army and so counted on no relief, but that they nevertheless meant, in duty, to hold the fortress until all means of defence were exhausted or all provisions consumed; if, therefore, General dü Monceau really intended to spare the town, the commandant would hand over the fortress on 20 December, provided no relief had arrived by then;'; 'the 5th article of the draft capitulation, as General Leeoq had drawn it up, commended the officers who belonged to provinces that might be ceded at the peace to the favour of the new monarch with regard to their maintenance in case of invalidity; it was rejected by the French as inadmissible'; 'already in the morning some senior officers had suspected what was going on outside, and had spoken of it with General Wedell at the parole; Major Eller, commander of the 3rd battalion of Hagken, Colonel Renzel, commander of the 3rd battalion of Schenk, and Colonel Oertel, commander of the infantry regiment Lettow, had called on the general to oppose the capitulation, but he had given the answer: \"Do you not know Prussian subordination? That is the business of the commandant and of General Lecoq; they have to answer for everything.\"'; 'the men of the regiment Hagken and of the 3rd battalions broke open the magazines, got drunk, scattered or sold the provisions, fired their muskets in the streets, especially against the commandant's house,'; 'the wooded ground up to there was perfectly known, and everything seemed to invite a sortie, given the superiority over the enemy, since the enemy's cavalry was not to be feared in the broken ground'; 'nevertheless they contented themselves with allowing Captain Hiller, at his request, to advance on the left bank of the Weser to try to bring into the fortress some guns that the enemy had left standing near Hemeringen. For this purpose he received a hundred volunteer marksmen of the infantry regiment Lettow and 16 hussars,' (the sentence continues on p. 368, which was not read); 'all the excuses brought forward for the capitulation that were taken from the fortress's situation come to nothing in view of the strong garrison, well equipped with everything; the reasons based on the political situation of the state were even more reprehensible; the commandant knows no other consideration than the preservation of his fortress'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "Am 13. August ging der Befehl ein, Hameln in Vertheidigungsstand zu setzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Als er indessen am Abend des 25. aus Hannover die Nachricht erhielt, daß die Straße über Neustadt, Lüneburg und Artlenburg noch frei vom Feinde sei, faßte er plötzlich noch einmal den Entschluß sich über die Elbe zurückzuziehen, und schickte noch in der Nacht den Hauptmann Hiller voraus, um den Marsch auf genannter Linie vorzubereiten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Am 26. brach er bereits mit dem Korps nach Münder und Lauenau, die Avantgarde nach Neustadt, auf, ohne dem General Hagken Mittheilung zu machen, der sich ihm hatte anschließen wollen und den Vorschlag gemacht hatte, den Blokadetruppen von Magdeburg in den Rücken zu fallen oder durch das unbesetzte Sachsen nach Schlesien zu ziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p353-figures-v1",
+          "section": "p353",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 353 (transcribed from the page image)",
+          "quote": "Darauf berief der General Lecoq den General Wedell und die Kommandeurs seines Korps zusammen, und legte ihnen die Frage vor, ob der Abmarsch des Korps von Hameln noch anräthig, da der Feind bereits im Anmarsch sei. Die Antwort fiel verneinend aus."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "Der General Lecoq hielt sich verpflichtet, für die unter seinem Befehl stehenden Truppen einen freien Abzug zur Armee des Königs annehmen zu müssen; indessen, ohne daß sich der Kommandant dieser Kapitulation anschlösse, wollte der General Loison auf nichts eingehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p361-figures-v1",
+          "section": "p361",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 361 (transcribed from the page image)",
+          "quote": "In einem, von Allen unterschriebenen Protokolle, wurde einstimmig ausgesprochen, daß der freie Abzug anzunehmen sei, da unter den obwaltenden Verhältnissen dem Könige ein Korps von 9000 Mann lieber sein müsse, als die Behauptung einer so entlegenen Festung, die in 2 Monaten spätestens doch fallen müsse; jedoch sei vor Abschließung der Kapitulation ein Offizier nach der Elbe zu schicken, um sich von der Wahrheit der angegebenen Umstände zu überzeugen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Selbst der General Lecoq schrieb dem Kommandanten, er möge sich doch ja nicht mit der Uebergabe der Festung übereilen, da der König doch vielleicht eine ernste Vertheidigung erwarte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Als dieser ihm hierauf in einem Briefe einen scharfen Verweis ertheilte, und zugleich erklärte, daß er Kommandant der Festung, das Fort aber nur ein Theil derselben sei, so antwortete der Oberst, daß er nach Pflicht und Gewissen gehandelt habe und das Fort in keinem Falle ohne Weiteres übergeben werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Der König schlug es ab, den General zu empfangen, und ließ ihm nur sagen, daß die Besatzung sich jetzt jedenfalls kriegsgefangen ergeben müsse. Der General Lecoq wies diese Bedingung zurück, gestattete aber, daß ihn ein französischer Offizier mit einem Briefe des Generals Michaud an den Kommandanten nach Hameln begleitete, wo er am Abend mit unverbundenen Augen eingelassen wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Auf diesen Brief antwortete der Kommandant, als keiner der Kommandeurs unter den darin enthaltenen Bedingungen eine Kapitulation gerechtfertigt erachtete, und besonders der Oberst Caprivi heftig dagegen auftrat, daß unter den gegebenen Bedingungen es noch Zeit sein würde, an eine Kapitulation zu denken, wenn alle Vertheidigungsmittel erschöpft sein würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Um das Mißvergnügen der Garnison wegen des vielen Unterhandelns zu stillen, wurde förmlich bekannt gemacht, daß jede Kapitulation abgebrochen sei und man sich ernsthaft vertheidigen werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p364-figures-v1",
+          "section": "p364",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 364 (transcribed from the page image)",
+          "quote": "Am 13. wurde eine Aufnahme aller Vorräthe angestellt, und es ergab sich, daß bei den reichlichsten Portionen die Lebensmittel noch bis zum 20. Dezember genügen würden, worauf der Kommandant dem Obersten Caprivi das Versprechen gab, vor diesem"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Tage sich mit dem Feinde in keine Unterhandlung einzulassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Am 18. wurde die Garnison des Forts George durch das 1. Bataill. Oranien und das 3. Bataill. von Schenk abgelöst, da sie durch die feuchten Kasematten viele Kranke hatte und das Fort kein Lazareth besaß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p369-figures-v1",
+          "section": "p369",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 369 (transcribed from the page image)",
+          "quote": "Als der Oberst Stedtmann auf Befragen als Hauptbedingung die Kriegsgefangenschaft der Garnison anführte, setzte der General Lecoq, der der französischen Sprache mächtig war, der Kommandant aber nicht, ein Schreiben auf, in welchem er dem General dü Monceau sagte: daß man zwar von dem Unglück der preußischen Armee vollständig Kenntniß habe, also auch auf keinen Entsatz rechne, daß man aber dennoch pflichtgemäß die Festung so lange halten wolle, bis alle Mittel der Vertheidigung erschöpft, oder alle Lebensmittel verzehrt seien; wenn daher der General dü Monceau wirklich gesonnen sei, die Stadt zu schonen, so wolle der Kommandant am 20. Dezember die Festung überliefern, sofern kein Entsatz bis dahin eingetroffen sei;"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Der 5. Artikel des Kapitulations-Entwurfs, wie ihn der General Leeoq aufgesetzt hatte, empfahl diejenigen Offiziere, welche Provinzen angehörten, die beim Friedensschluß abgetreten werden konnten, der Gnade des neuen Monarchen in Bezug auf ihren Lebensunterhalt im Fall der Invalidität; er wurde als unstatthaft von den Franzosen zurückgewiesen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p373-figures-v1",
+          "section": "p373",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 373 (transcribed from the page image)",
+          "quote": "Bereits Vormittags hatten einige höhere Offiziere geahnt, was draußen vorging, und bei der Parole mit dem General Wedell darüber gesprochen; der Major Eller, Kommandeur des 3. Bataill. von Hagken, der Oberst Renzel, Kommandeur des 3. Bataill. von Schenk und der Oberst Oertel, Kommandeur des Inf.-Regmts. Lettow, hatten den General aufgefordert, sich der Kapitulation zu widersetzen, doch hatte dieser die Antwort ertheilt: „Kennen Sie nicht die preußische Subordination? Das ist Sache des Kommandanten und des Generals Lecoq, die haben Alles zu verantworten.“"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p375-figures-v1",
+          "section": "p375",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 375 (transcribed from the page image)",
+          "quote": "Die Mannschaften des Regmts. Hagken und der 3. Bataillone erbrachen die Magazine, berauschten sich, zerstreuten oder verkauften die Lebensmittel, schossen die Gewehre in den Straßen ab, besonders gegen das Haus des Kommandanten,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Das bewaldete Terrain bis dahin war vollkommen bekannt, und Alles schien bei der Ueberlegenheit über den Feind zu einem Ausfall einzuladen, da die Kavallerie des Feindes in dem durchschnittenen Terrain nicht zu fürchten war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Dennoch begnügte man sich, dem Hauptmann Hiller auf sein Ansuchen zu gestatten, auf dem linken Weserufer vorzugehen, um zu versuchen, einige Geschütze, die der Feind in der Gegend von Hemeringen hatte stehen lassen, nach der Festung zu bringen. Er erhielt zu dem Zweck hundert freiwillige Schützen vom Infanterie-Regmt. Lettow und 16 Husaren,"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p377-figures-v1",
+          "section": "p377",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 377 (transcribed from the page image)",
+          "quote": "Alle für die Kapitulation beigebrachten Entschuldigungsgründe, aus der Lage der Festung hergenommen, zerfallen in Nichts in Betreff der starken, mit allem wohl ausgerüsteten Garnison; die Gründe, welche auf die politische Lage des Staates fußten, waren aber noch verwerflicher; der Kommandant kennt keine andere Rücksicht als die Erhaltung seiner Festung."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Bodart has the French under Savary force the garrison to capitulate after a 14-day blockade, and the 29th Bulletin says the King of Holland had had Hameln blockaded. Höpfner: on 7 November the enemy advanced on the road from Lemgo with superior cavalry; Lieutenant Treskow with 70 fusiliers and 10 Jäger held the exits of Gr. Berkel and Lieutenant Massow posted the dragoons to the right of the village, but a cavalry brigade forced them back on Kl. Berkel, where a company of the battalion of Oranien received the pursuing cavalry with volleys, and the investment on the left bank was completed that day. On the 9th the enemy bridged the Weser at Ohr and drove the post at the Afferde Warte back to the barrier, and on the 10th Mortier's troops attacked the covered way at the Mühlen gate with tirailleurs. Mortier: on the 10th all the enemy posts were driven into the place. The King of Holland summoned the fortress through Loison and again on the 12th, and Savary refused the garrison's conditions on the 19th and pressed for its capitulation on the 20th. Side B's actions were the reception of its outposts, the reoccupation of the inundation redoubt the enemy had left and Captain Hiller's attempt on the left bank to bring in guns the enemy had left near Hemeringen; Höpfner says everything seemed to invite a sortie, yet the commanders contented themselves with Hiller's attempt.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A invested and summoned the fortress and side B capitulated; side B's small actions were within the blockade and do not make it an attacker. The phase is left unresolved: the blockade followed the orders of the King of Holland and the Emperor, while the attacks, summonses and demands were the commanders' own (claims side-a-command, side-a-objectives). The outcome of Hiller's attempt, on p. 368, was not read. English renderings (ours): Bodart, as in claim bodart-strength; '29th Bulletin of the Grande Armée'; 'Berlin, 9 November 1806'; 'the King of Holland has had Hameln blockaded'; 'on 7 November at 1 o'clock Lieutenant Massow, who stood on outpost with 60 dragoons and 10 hussars, reported that the enemy was advancing on the road from Lemgo and that his posts this side of Aerzen were being pushed back by superior enemy cavalry'; 'before this support could arrive, the outpost officers had taken their measures; Lieutenant Treskow with 70 fusiliers and 10 Jäger had occupied the exits of Gr. Berkel, Lieutenant Massow had posted himself with the dragoons to the right of the village'; 'the enemy soon advanced with a cavalry brigade — a Dutch Guard dragoon regiment and a hussar regiment — and forced the Prussian officers to retreat on Kl. Berkel'; 'the battalion of Oranien and the two horse-artillery guns had posted themselves on the height behind the Berkel Warte; one company pushed forward to behind the Warte'; 'this company received the pursuing enemy cavalry with several well-aimed volleys, by which, as also by the fire of the horse artillery and of the guns of Fort No. I, it lost some men and withdrew'; 'an enemy column was seen marching towards the Weser and going into bivouacs; and by the occupation of the wood between Berkel and Hemeringen the investment of the fortress on the left bank was completed that same day'; 'on the 9th the enemy, under the protection of a howitzer battery set up on the Ohrberg, threw a bridge over the Weser at Ohr, for which the boats had been brought downstream'; 'the Prussian post at the Afferde Warte was at once attacked in superior force and, though reinforced from the fortress, pushed back to the barrier'; 'on 10 November part of Mortier's corps also appeared before Hameln'; 'an enemy column moved from Rehrsen to the Baßberg and attacked the covered way with tirailleurs, who posted themselves in the gardens and garden houses in front and for a long time kept up their fire with the garrison of the covered way at the Mühlen gate'; 'it was General of Division Loison, who brought a letter from the King of Holland to General Lecoq, in which he summoned him, communicating the position of the various Prussian corps and the surrender of Stettin, Küstrin etc., to capitulate in return for free withdrawal, but in case of refusal threatened to reduce the town to ashes in 24 hours and to lay all the resulting misfortune on the general'; 'on the ground of General Brack's failure to return, the King of Holland on the 12th sent a parlementaire anew, complained in serious words of that general's detention, and at the same time summoned the commandant and the generals of the garrison to surrender the fortress in two hours if they did not wish to be treated with all severity'; 'quite unexpectedly a parlementaire was again announced on the evening of the 19th'; 'it was Captain Charles with a letter from General Savary, in which he announced to the commandant his arrival as commander of the besieging corps, and at the same time expressed his pleasure at the commandant's sensible views of the state of affairs, adding that he nevertheless could not accept the conditions put, since the King of Prussia had not a battalion left and was himself in flight; he wished to settle the rest orally, and left it to them to fix the time and place for it'; 'at first the Prussian generals refused the meeting, but at last agreed to fix the rendezvous for the 20th at 9 o'clock in the morning at the Wehrberg Warte'; 'the French general received the Prussian generals very brusquely, told them in his Emperor's name that the last moment for capitulation had come, that later nothing more would be ag-'; 'later the enemy left the redoubt of his own accord, and it was at once reoccupied by the garrison, since it was considered well placed for sending patrols from it to the Afferde Warte'; 'the wooded ground up to there was perfectly known, and everything seemed to invite a sortie, given the superiority over the enemy, since the enemy's cavalry was not to be feared in the broken ground'; 'nevertheless they contented themselves with allowing Captain Hiller, at his request, to advance on the left bank of the Weser to try to bring into the fortress some guns that the enemy had left standing near Hemeringen. For this purpose he received a hundred volunteer marksmen of the infantry regiment Lettow and 16 hussars,' (the sentence continues on p. 368, which was not read); 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'on the evening of the 9th I debouched by Hastenbeck; on the 10th, in the course of the day, all the enemy posts were driven back into the place and dislodged from the brick fort situated on the Hamel, at half range from the town'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p376",
+          "locator": "Bodart (1908), p. 376",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen nach 14tägiger Blokade die preußische Besatzung (10.000 M. mit 129 Geschützen) unter GM. v. Lecoq zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft abgeführt werden sollte."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "29e BULLETIN DE LA GRANDE-ARMÉE."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p799-figures-v1",
+          "section": "p799",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 799 (transcribed from the page image)",
+          "quote": "Berlin, 9 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p805-figures-v1",
+          "section": "p805",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 805 (transcribed from the page image)",
+          "quote": "Le roi de Hollande a fait bloquer Hameln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Am 7. November um 1 Uhr meldete der Lieutenant Massow, der mit 60 Dragonern und 10 Husaren auf Vorposten stand, daß der Feind auf der Straße von Lemgo vorrücke und daß seine Posten diesseits Aerzen von überlegener feindlicher Kavallerie zurückgedrängt würden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Bevor diese Unterstützung noch eintreffen konnte, hatten die Vorposten-Offiziere ihre Maßregeln getroffen; der Lieutenant Treskow mit 70 Füsilieren und 10 Jägern hatte die Ausgänge von Gr. Berkel besetzt, der Lieutenant Massow sich mit den Dragonern rechts des Dorfes aufgestellt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p357-figures-v1",
+          "section": "p357",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 357 (transcribed from the page image)",
+          "quote": "Der Feind rückte bald mit einer Kavallerie-Brigade — einem holländischen Garde-Dragoner- und einem Husaren-Regmt. — vor und nöthigte die preußischen Offiziere zum Rückzuge auf Kl. Berkel."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Das Bataillon von Oranien und die beiden reit. Geschütze hatten sich auf der Höhe hinter der Berkelschen Warte postirt; eine Kompagnie bis hinter die Warte vorgeschoben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Diese Kompagnie empfing die verfolgende feindliche Kavallerie mit mehreren wohlgezielten Salven, wodurch sie, so wie auch von dem Feuer der reit. Artillerie und der Geschütze des Forts Nr. I. einige Mannschaft verlor und sich zurückzog."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p358-figures-v1",
+          "section": "p358",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 358 (transcribed from the page image)",
+          "quote": "Man sah eine feindliche Kolonne gegen die Weser marschiren und Bivouaks beziehen; auch wurde durch Besetzung des Waldes zwischen Berkel und Hemeringen die Einschließung der Festung auf dem linken Ufer noch an diesem Tage vollendet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Am 9. schlug der Feind unter dem Schutz einer auf dem Ohrberge errichteten Haubitz-Batterie bei Ohr eine Brücke über die Weser, wozu die Kähne stromabwärts zugeführt worden waren."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "Alsbald wurde der preußische Posten an der Afferder-Warte mit Uebermacht angegriffen und, obgleich von der Festung aus verstärkt, doch bis an die Barriere zurückgedrängt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Am 10. November erschien auch ein Theil des Mortierschen Korps vor Hameln."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Eine feindliche Kolonne zog sich von Rehrsen nach dem Baßberge und griff den gedeckten Weg durch Tirailleurs an, die sich in den vorliegenden Gärten und Gartenhäusern postirten und geraume Zeit ihr Feuer mit der Besatzung des gedeckten Weges am Mühlenthor unterhielten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Es war der Divisions-General Loison, der ein Schreiben des Königs von Holland an den General Lecoq brachte, in welchem er diesen, unter Mittheilung der Lage der verschiedenen preußischen Korps und der Uebergabe von Stettin, Küstrin ꝛc. zur Kapitulation gegen freien Abzug aufforderte, im Weigerungsfalle aber drohte, die Stadt in 24 Stunden einzuäschern und alles daraus entstehende Unglück dem General aufzubürden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p363-figures-v1",
+          "section": "p363",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 363 (transcribed from the page image)",
+          "quote": "Auf Grund des Ausbleibens des Generals Brack sandte der König von Holland am 12. aufs Neue einen Parlamentair, beschwerte sich in ernsten Worten über das Zurückhalten jenes Generals, und forderte zugleich den Kommandanten und die Generale der Besatzung auf, die Festung in zwei Stunden zu übergeben, wenn sie nicht mit aller Strenge behandelt werden wollten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Ganz unerwartet wurde am Abend des 19. abermals ein Parlamentair angemeldet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Es war der Kapitain Charles mit einem Schreiben des Generals Savary, worin dieser dem Kommandanten seine Ankunft als Befehlshaber des Belagerungskorps meldete, zugleich seine Freude über die verständigen Ansichten des Kommandanten über die Lage der Dinge mit dem Hinzufügen ausdrückte, daß er aber dennoch auf die gestellten Bedingungen nicht eingehen könne, da der König von Preußen kein Bataillon mehr besitze und selbst auf der Flucht sei; er wünsche das Weitere mündlich abzumachen, und überlasse es, Zeit und Ort hierzu zu bestimmen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p370-figures-v1",
+          "section": "p370",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 370 (transcribed from the page image)",
+          "quote": "Erst schlugen die preußischen Generale die Zusammenkunft ab, bequemten sich aber endlich doch, das Rendezvous auf den 20. um 9 Uhr Morgens bei der Wehrberger Warte festzusetzen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Der französische General empfing die preußischen Generale sehr barsch, sagte ihnen im Namen seines Kaisers, daß der letzte Augenblick zur Kapitulation gekommen sei, man später sich zu Nichts mehr ver-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p360-figures-v1",
+          "section": "p360",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 360 (transcribed from the page image)",
+          "quote": "Später verließ der Feind die Schanze freiwillig, und wurde sie von der Garnison sogleich wieder besetzt, da man sie für gelegen betrachtete, um von ihr aus Patrouillen nach der Afferder-Warte zu senden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Das bewaldete Terrain bis dahin war vollkommen bekannt, und Alles schien bei der Ueberlegenheit über den Feind zu einem Ausfall einzuladen, da die Kavallerie des Feindes in dem durchschnittenen Terrain nicht zu fürchten war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p367-figures-v1",
+          "section": "p367",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 367 (transcribed from the page image)",
+          "quote": "Dennoch begnügte man sich, dem Hauptmann Hiller auf sein Ansuchen zu gestatten, auf dem linken Weserufer vorzugehen, um zu versuchen, einige Geschütze, die der Feind in der Gegend von Hemeringen hatte stehen lassen, nach der Festung zu bringen. Er erhielt zu dem Zweck hundert freiwillige Schützen vom Infanterie-Regmt. Lettow und 16 Husaren,"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Le 9 au soir je débouchai par Hastenbeck; le 10 dans la journée tous les postes ennemis furent repoussés dans la place et délogés du fort en briques situé sur le Hamel, à demi-portée de la ville."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress: Höpfner describes the town's bastioned land front with its main ditch, ravelins, covered way and lunettes, the fortified island of the Werder, the bridgehead's flèches, the inundation of the Hamelbach, and Fort George's three forts with their mine galleries and the two redoubts linking them to the bridgehead. After the Prussians took possession, the casemates in the town and the fort were cleared, the breastworks improved, the palisading restored and the inundation sluice repaired and covered by a small redoubt 1300 paces from the fortress; the Weser was blocked by trees above and below, and a new coupure under the Klütberg was covered by a breastwork with gun embrasures. Lecoq's camp at the foot of the Klütberg was entrenched from 24 October. In the night to the 10th the inundation redoubt was abandoned, and later the redoubts were abandoned and the coupure in the gorge closed. For side A, Napoleon's order of 13 November, as Höpfner gives it, required the blockading troops to entrench properly against any sortie, and his order of 18 November had the field guns defend the entrenchments; Schöler held at the capitulation that the enemy was protected against sorties by the inundation. No passage read describes side A's works.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: side B defended permanent works, readied before the investment, and Lecoq's camp was entrenched before it, so the claim is tagged inherited. Napoleon's orders as Höpfner gives them required side A to entrench, and the order of 18 November speaks of its entrenchments, but no passage read shows them made; a coding that counted them would give both_fortified. English renderings (ours): 'the fortress of Hameln on the right bank of the Weser was fortified on the land side by a detached bastion and 8 bastions, a fausse-braye, a broad and deep main ditch watered by the Hamelbach, with small ravelins, covered way and advanced ditch; lunettes lay before the detached bastion at the lower junction with the Weser and before the 3 gate ravelins'; 'the water side of the fortress was only badly defended, by a fortified island, the Werder'; 'the bridge was defended by a large flèche, flanked by 2 small flèches with ditches and covered way'; 'on the right bank of the Weser the valley heights, namely the Baßberg, come within 1000 paces of the town. Except for the somewhat higher ground before the Oster gate, the whole valley floor could be flooded by the Hamelbach, for which purpose a sluice had been built in the brook 1600 paces south-east of the fortress'; 'on the south-eastern tip of the Klütberg lay Fort George, consisting of three separate forts: No. I on the summit, No. II lower but still on the ridge, No. III on the slope towards the Weser; all three linked by an open communication, Nos. II and III also by an underground one'; 'before No. I on the hill side and before No. III towards the Weser lay mine galleries'; 'two redoubts lying half-way secured the link between Fort George and the bridgehead'; 'when the Prussians took possession of Hameln the fortress was in a very bad state, but work on it had begun actively at once'; 'the casemates in the town and in the fort were cleared, the breastworks improved, the palisading restored, the inundation sluice put in usable condition, and a small redoubt built to cover it, 1300 paces from the fortress, the Weser above and be-'; 'low blocked by trees, a new coupure made under the Klütberg and covered by a breastwork with gun embrasures, and in front of it a broken breastwork carried up to a small height to link with Fort III, which lay wholly under the fort's fire'; 'on 24 October General Lecoq led his corps into a camp at the foot of the Klütberg, and had its entrenchment begun at once'; 'in the night to the 10th the new, though faultily laid-out, inundation redoubt on the right bank of the Weser was abandoned on the commandant's order, since in his opinion it was useless, because the inundation could no longer be drained. The enemy occupied it at once'; 'besides the 2nd battalion of Oranien, the 4 companies of the 2nd battalion of vac. Grävenitz were now also moved to Fort George. The redoubts were abandoned as soon as the camp's magazines had been cleared; on the other hand the coupure in the gorge was closed and its defence also entrusted to Colonel Caprivi'; 'under 13 November Napoleon had ordered Marshal Mortier now to set about the investment of Hameln in earnest, to have two bridges thrown over the Weser and to arrange for the blockading troops to entrench themselves properly so as to be safe against any sortie; Rinteln was to serve them as a base and supply the guns for the attack; the Dutch corps, about 6000 men strong, seemed sufficient to be safe against the garrison if properly entrenched'; 'under 18 November Napoleon at last directed General Savary from Berlin to leave at once and go before Hameln to take command of the blockading troops; the guns from Rinteln were to bombard the place and so hasten its surrender, the field guns to defend the entrenchments; the 12th light infantry regiment was already on its way from Kassel as reinforcement; the commandant there, General Lagrange, was further to be asked to send off some cavalry; the garrison of Hameln could be granted a capitulation by which it would be prisoners of war, the officers released on parole, but the private soldiers transported to France etc.'; 'all were silent, and as General Savary pressed General Schöler to declare himself, the latter in fact believed that nothing else remained for him but to capitulate, since the enemy stood on the Baßberg only 900 paces from the covered way and was protected against sorties by the inundation, while a bombardment could easily reduce the town, and with it the magazines, which were not bombproof, to ashes, and so on'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p347-figures-v1",
+          "section": "p347",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 347 (transcribed from the page image)",
+          "quote": "Die Festung Hameln auf dem rechten Weserufer war auf der Landseite durch ein detaschirtes Bastion und 8 Bastione, eine Faussebraye, einen breiten und tiefen, durch den Hamelbach bewässerten Hauptgraben mit kleinen Ravelinen, gedeckten Weg und Vorgraben befestigt; Lünetten lagen vor dem detaschirten Bastion am untern Weser-Anschluß und vor den 3 Thor-Ravelinen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p347-figures-v1",
+          "section": "p347",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 347 (transcribed from the page image)",
+          "quote": "Die Wasserseite der Festung war durch eine befestigte Insel, den Werder, nur schlecht vertheidigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Die Brücke war durch eine große Flesche, flankirt durch 2 kleine Fleschen mit Gräben und gedecktem Wege, vertheidigt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Auf dem rechten Weserufer nähern sich die Thalhöhen, namentlich der Baßberg, der Stadt bis auf 1000 Schritt. Mit Ausnahme des etwas höheren Terrains vor dem Oster-Thor, konnte die ganze Thalniederung durch den Hamelbach überschwemmt werden, zu welchem Behuf 1600 Schritt s. ö. von der Festung eine Schleuse in dem Bach erbaut war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Auf der südöstlichen Spitze des Klütberges lag das Fort George, aus drei abgesonderten Forts bestehend: Nr. I. auf dem Gipfel, Nr. II. tiefer aber noch auf dem Rücken, Nr. III. auf dem Hang nach der Weser; alle drei durch eine offene Kommunikation verbunden, Nr. II. u. III. auch durch eine unterirdische."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Vor Nr. I. nach der Bergseite und vor Nr. III. nach der Weser lagen Minen-Gallerien."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Die Verbindung zwischen dem Fort George und der Brückenschanze sicherten zwei Redouten auf halbem Wege liegend."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme von Hameln durch die Preußen befand sich die Festung in sehr schlechtem Zustande, doch war sogleich thätig daran gearbeitet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p348-figures-v1",
+          "section": "p348",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 348 (transcribed from the page image)",
+          "quote": "Die Kasematten in der Stadt und im Fort wurden aufgeräumt, die Brustwehren gebessert, die Pallisadirung hergestellt, die Inondationsschleuse in brauchbaren Stand gesetzt, auch zur Deckung derselben eine kleine Redoute, 1300 Schritte von der Festung, erbaut, die Weser ober- und un-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p349-figures-v1",
+          "section": "p349",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 349 (transcribed from the page image)",
+          "quote": "terhalb durch Bäume gesperrt, eine neue Koupüre unter dem Klütberg gearbeitet und durch eine mit Kanonenscharten versehene Brustwehr gedeckt, auch vor ihr eine gebrochene Brustwehr bis auf eine kleine Höhe zur Verbindung mit Fort III. geführt, die ganz unter dem Feuer des Forts lag."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p350-figures-v1",
+          "section": "p350",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 350 (transcribed from the page image)",
+          "quote": "Am 24. Oktober führte der General Lecoq sein Korps in ein Lager am Fuß des Klütberges, und ließ sofort die Verschanzung desselben beginnen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p359-figures-v1",
+          "section": "p359",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 359 (transcribed from the page image)",
+          "quote": "In der Nacht zum 10. wurde die neue, wenn auch fehlerhaft angelegte Inondations-Schanze auf dem rechten Weserufer auf Befehl des Kommandanten verlassen, da sie nach seiner Meinung unnütz war, weil die Ueberschwemmung nicht mehr abgelassen werden könne. Der Feind besetzte sie sogleich."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p365-figures-v1",
+          "section": "p365",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 365 (transcribed from the page image)",
+          "quote": "Außer dem 2. Bataillon von Oranien wurden nunmehr auch noch die 4 Kompagnien des 2. Bataill. von vac. Grävenitz nach dem Fort George verlegt. Die Redouten wurden verlassen, sobald die Magazine des Lagers geräumt worden waren; dagegen wurde die Koupüre in der Kehle geschlossen und ihre Vertheidigung dem Obersten Caprivi mit übertragen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Napoleon hatte unterm 13. November dem M. Mortier befohlen, nunmehr ernsthaft an die Einschließung von Hameln zu gehen, zwei Brücken über die Weser schlagen zu lassen und anzuordnen, daß die Blokadetruppen sich gehörig verschanzten, um gegen jeden Ausfall sicher zu sein; Rinteln solle ihnen als Stützpunkt dienen, und die Geschütze zum Angriff hergeben; das etwa 6000 Mann starke holländische Korps scheine ausreichend, um gehörig verschanzt gegen die Besatzung gesichert zu sein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p371-figures-v1",
+          "section": "p371",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 371 (transcribed from the page image)",
+          "quote": "Unterm 18. November bestimmte Napoleon aus Berlin endlich dem General Savary, sofort abzureisen und sich vor Hameln zu begeben, um das Kommando über die Blokadetruppen zu übernehmen; die Geschütze aus Rinteln sollten den Platz bewerfen und dadurch die Uebergabe beschleunigen, die Feldgeschütze die Verschanzungen vertheidigen; das 12. leichte Infanterie-Regiment sei bereits von Kassel zur Verstärkung unterweges; der dortige Kommandant, General Lagrange, solle noch aufgefordert werden, einige Kavallerie abgehen zu lassen; der Garnison von Hameln könne eine Kapitulation bewilligt werden, durch welche sie kriegsgefangen, die Offiziere auf ihr Ehrenwort entlassen, die Gemeinen aber nach Frankreich transportirt würden ꝛc."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p372-figures-v1",
+          "section": "p372",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 372 (transcribed from the page image)",
+          "quote": "Alles schwieg, und da der General Savary in den General Schöler drang, sich zu erklären, so glaubte derselbe in der That, es sei ihm nichts anders übrig geblieben als zu kapituliren, da ja der Feind auf dem Baßberg nur 900 Schritt vom gedeckten Wege entfernt stehe und durch die Inondation gegen Ausfälle geschützt sei, ein Bombardement aber die Stadt und somit auch die nicht bombensicheren Magazine leicht einäschern könne, u. dergl. m."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Höpfner, Bd. 2, pp. 351-352, 354-356, 362, 366, 368, 374 (Lecoq's march and return; the French movements in western Germany; the beginning of Major Beaufort's remonstrance; part of the days between the 13th and the 18th, with the end of Captain Hiller's attempt; and the officers' letter of the night of 20 November, which Savary's of the 21st answered), and the parts of pp. 376-378 not transcribed, among them the paragraphs on the pay and the garrison's chests; seen only in the OCR, the passages naming Hameln in Foucart t. II at pp. 75, 346, 749, 795, 831, among them the Emperor's view that Hameln's garrison was not strong, his order to occupy Rinteln to observe Hameln and his remark of 9 November that the corps that had left Hameln may have gone out to forage; General Savary's report and Napoleon's orders of 13 and 18 November, known here only from Höpfner's summary and not found in the Foucart pages read; and the capitulation's text. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength at the capitulation. Bodart's 6,000, Höpfner's 'only 6000', Lecoq's estimate of 6000 and the 'about 6000' of Napoleon's order of 13 November as Höpfner gives it are the only totals for the blockading force, and none is shown to be a count; Mortier gives the divisions Dumonceau and Michaud as about 7,000 men on 12 November, before Michaud's division was called away, and calls the Dutch corps left in observation weak, without a return. A return of the troops before Hameln for 18 to 20 November, such as General Savary's report or the King of Holland's correspondence, could close it.",
+    "Disputes kept as separate claims or within them: the garrison (over 5000 in the garrison and 4000 in Lecoq's corps, the protocol's 9000, and 9—10,000 and almost 10,000 after the capitulation, Höpfner; 10,000, Bodart; 7,000 camped under the walls, the King of Holland on 9 November; 10,000 at Hameln and Nienburg together, Mortier on 13 November); the guns (Höpfner's 93, 46, 21 and 15 without the unserviceable ones; Bodart's 129); the prisoners (about 600, Höpfner and Bodart; 6000, General Savary's report as Höpfner gives it); Savary's charge (already in the 32nd Bulletin of 16 November; by Napoleon's order of 18 November and announced on the 19th, Höpfner); the brick fort on the Hamel (its posts dislodged on the 10th, Mortier; the inundation redoubt abandoned on the commandant's order in the night to the 10th, Höpfner, if it is the same work); the French divisions before Hameln (Gobert and Michaud, Höpfner; Dumonceau and Michaud, Mortier); and the surrender of Glogau and Breslau, which Savary asserted on the 20th and Höpfner calls a lie.",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his 600 prisoners and 10,000 garrison agree with Höpfner's figures and his 6,000 with Höpfner's for the enemy, but his 129 guns do not); Foucart, Campagne de Prusse, t. II, and Campagne de Pologne, t. I, one family (the same author's editions of the French side's documents, from the page images: the Emperor's letters to the King of Holland of 22 and 31 October, to Mortier of 7 November and to Ney of 9 November, Mortier's letters to the Emperor of 12 and 13 November, the 29th, 32nd, 33rd and 35th Bulletins, and the suspension of arms of 16 November printed with the 33rd, with Foucart's note on it); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; in this section he gives Napoleon's orders of 13 and 18 November and the French commanders' letters in summary, cites General Savary's report for the prisoners and an enemy officer's statement for the French loss of 7 November, and says that as good as nothing about the enemy's movements in western Germany has been communicated from the French side, so his French-side details rest on documents he does not name)."
+  ]
+}
+```
+
 
 ### B377a: KAPITULATION von Nienburg (26./11. 1806)
 
@@ -27604,6 +29925,1162 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "indecisive_printed": false,
  "no_combat_printed": true,
  "override_reason": null
+}
+```
+
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B377a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Nienburg entry (capitulation, 26 November 1806) in cohort v1's fourth-coalition 1806 group: the Prussian garrison of the fortress under its commandant, General Strachwitz, and General Savary's troops before it, from Savary's march from Hameln and the approach of the first patrols on 24 November through the summons and the negotiation of the 25th to the fall of the place on the 26th. The fortress's restoration from 1803, the earlier summons by a division of Mortier's corps, the French orders to observe Hameln and Nienburg, and the suspension of arms of 16 November, which was not ratified, are context. Hameln (B376d), which Savary's troops took before moving on Nienburg, is outside this entry. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) as 6,000 men under General of Division Savary, and side B (Prussian) as the garrison of 3,000 men with 51 guns under Major General v. Strachwitz, which the French forced to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. Höpfner gives the garrison's parts and total (claim side-b-strength), the Emperor and Mortier other estimates (claim side-b-strength-french), and Höpfner and the French letters side A's troops (claim side-a-strength). Bodart's 3,000 is Höpfner's 2911 rounded up, and his 51 guns are Höpfner's 39 cannon, 10 howitzers and 2 mortars, without the 12 Wallbüchsen (our comparison and arithmetic). His 6,000 for side A is the figure he prints for Savary's force at Hameln (B376d; our comparison); no passage read gives a total for side A at Nienburg. Which source Bodart used was not checked. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 26/11. capitulation of Nienburg'; 'the French (6,000 men) under General of Division Savary force the Prussian garrison (3,000 men, 51 guns) under Major General v. Strachwitz to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./11. KAPITULATION von Nienburg"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength",
+      "dimension": "strength",
+      "value": "Side B (Prussian) in Höpfner: the garrison consisted of the 3rd battalions of the infantry regiments Prinz Ferdinand, Lettow and Wedell, a company of the 2nd battalion of the regiment vac. Grävenitz and 3 invalid companies, or 2689 men of infantry, 168 men of artillery and 54 hussars, together 2911 men; since the fortress's garrison was properly reckoned at only 1500 men, it numbered double the strength required.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side B's history, read from the page image of p. 380; the figures were checked on full-resolution crops. The garrison was in Nienburg before Savary's approach, so the claim is tagged inherited. Höpfner's 2689, 168 and 54 make his 2911 (our arithmetic); he names no source for these figures, and does not say how many of the 2911 belonged to the invalid companies. English renderings (ours): 'the garrison consisted of the 3rd battalions of the infantry regiments Prinz Ferdinand, Lettow and Wedell, a company of the 2nd battalion of the regiment vac. Grävenitz and 3 invalid companies, or 2689 men of infantry, 168 men of artillery, 54 hussars, together 2911 men'; 'since the garrison of the fortress was properly reckoned at only 1500 men, it thus numbered double the strength required'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Die Besatzung bestand aus den 3. Bataillonen der Infant.-Regmtr. Prinz Ferdinand, Lettow und Wedell, einer Kompagnie des 2. Bataill. des Regiments vac. Grävenitz und 3 Invaliden-Kompagnien, oder 2689 M. Infanterie, 168 M. Artillerie, 54 Husaren, zusammen 2911 Mann."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Da die Besatzung der Festung eigentlich nur auf 1500 M. berechnet war, so zählte sie mithin die doppelte Stärke des Bedarfs."
+        }
+      ]
+    },
+    {
+      "id": "side-b-strength-french",
+      "dimension": "strength",
+      "value": "Side B (Prussian), side A's (French) figures: the Emperor wrote to the King of Holland on 22 October that the Prussians did not have 1,500 men of garrison at Nienburg on the Weser; Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg together were estimated at 10,000 men, who could intercept French convoys and detachments if they were not closely observed.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Side A's letters, read from the page images; the figures were checked on full-resolution crops. Not reconciled with Höpfner's figures or Bodart's (claims side-b-strength, bodart-strength). The garrison was in Nienburg before Savary's approach, so the claim is tagged inherited. The Emperor's 'not 1,500' is below Höpfner's 2911 and close to the 1500 for which Höpfner says the fortress was reckoned (our comparison); the passages read do not say on what it rested. Mortier's 10,000 covers Hameln and Nienburg together and is not divided between them. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French): Bodart gives 6,000 men under General of Division Savary. The 32nd Bulletin, of 16 November: Savary had been charged with the blockade of Hameln with the Dutch division. Höpfner: on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse; Savary, after leaving a garrison of 100 French and 150 Dutch at Hameln, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached the town; on the 25th Savary, accompanied by General Schramm and several officers, was fetched in by the commandant. Earlier, a division of Mortier's corps marching past had summoned the fortress. Mortier wrote on 13 November that he was ordering Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line and the 2nd of cavalry, all Dutch troops, weak corps whose return he had not yet obtained, with 10 pieces of ordnance. No passage read gives a return of side A before Nienburg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart from the frame transcription; Höpfner and the French letters read from the page images, the figures checked on full-resolution crops. The force before Nienburg was the one Savary led from Hameln, whose composition and strength the passages read do not give; it followed Savary's dispositions after the capitulation of Hameln and orders the passages read do not give, so the phase is left unresolved. Bodart's 6,000 is the figure he prints for Savary's force at Hameln (B376d; our comparison), and is not shown to be a count. The passages read do not say whether the two regiments or the howitzers that reached Hameln on 22 November went on to Nienburg, whether Mortier's observation troops of 13 November stood before Nienburg when Savary came, or when the division of Mortier's corps passed and summoned it. English renderings (ours): Bodart, as in claim bodart-strength; '32nd Bulletin of the Grande Armée. Berlin, 16 November 1806'; 'General Savary has been charged with the blockade of Hameln with the Dutch division'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p848-figures-v1",
+          "section": "p848",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 848 (transcribed from the page image)",
+          "quote": "32e BULLETIN DE LA GRANDE-ARMÉE.\n\nBerlin, 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p849-figures-v1",
+          "section": "p849",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 849 (transcribed from the page image)",
+          "quote": "Le général Savary a été chargé du blocus de Hameln avec la division hollandaise."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names General of Division Savary as side A's (French) commander and Major General v. Strachwitz as side B's (Prussian). Höpfner: the commandant was Major General Strachwitz, to whom Artillery Major Colson, who had particularly distinguished himself at the siege of Valenciennes, had been attached as second commandant to support him, on General Blücher's recommendation; the engineer of the place was Captain Geyling, and Major Dreßler did the duty of town major. Savary set out from Hameln against Nienburg, and on the 25th the commandant, having fetched him into the town, urged him in person for over an hour to grant the garrison free withdrawal.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed commanders, read from the frame transcription, with Höpfner, read from the page images. Bodart's commanders are Höpfner's (our comparison). The capitulation's text, which would show who signed it, was not seen. English renderings (ours): Bodart, as in claim bodart-strength; 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'Artillery Major Colson, who had particularly distinguished himself at the siege of Valenciennes, had been attached to General Strachwitz as second commandant, to support him, on the recommendation of General Blücher. The engineer of the place was Captain Geyling'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter Div.-Gen. Savary"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "unter GM. v. Strachwitz"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Dem General Strachwitz war, als zweiter Kommandant, zur Unterstützung, auf Empfehlung des Generals Blücher, der Artillerie-Major Colson, der sich bei der Belagerung von Valenciennes besonders ausgezeichnet hatte, beigegeben. Ingenieur vom Platz war der Hauptmann Geyling."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-a-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: a division of Mortier's corps marching past had earlier summoned the fortress, and was refused. General Savary, leaving a garrison of 100 French and 150 Dutch at Hameln, set out on both banks of the Weser against Nienburg, and the first patrols approached the town on the 24th. On the evening of 24 November a parlementaire of Savary's brought the summons to surrender, with an account of all the Prussian army's well-known misfortunes and the remark that insignificant Nienburg was incapable of any defence; a second parlementaire, General Schramm, who came soon after, sought to prove to the commandant that the conditions he had sent could not possibly be granted him, but invited him to a verbal discussion with Savary. On the 25th at 9 in the morning the commandant fetched in Savary, accompanied by Schramm and several officers, and for over an hour urged him in vain to grant the garrison free withdrawal; the French Captain Semery drew up the points of the capitulation with Major Dreßler.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images of pp. 378 and 380-382. These were the steps of side A's commanders before Nienburg, so the claim is tagged commander-created. Höpfner gives the summons and Schramm's argument in summary and cites no document for them in the passages read; the commandant's conditions are in claim side-b-command. Who commanded the division of Mortier's corps that summoned the fortress earlier, and when, is not stated in the passages read. English renderings (ours): 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Höpfner: the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains and ladders fixed in the re-entrant angles, to make up for the lack of a covered way and of posterns; he had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium that called at Nienburg from Hameln. To Savary's summons of the 24th the commandant, in the presence of Majors Colson and Dreßler, rejected all proposals, but sent word that he was inclined to capitulate if granted a three-week armistice and then free withdrawal to the King's army; he accepted Schramm's invitation to a discussion with Savary and fixed it for the next day. He then called to a council of war, besides those named, the commanders of the 3rd musketeer battalions, Lieutenant Colonels Schönowski and Brandenstein, both well into their sixties, and Major Gordon. All the staff officers held it advisable to surrender on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes, and Colson and Captain Geyling especially described the fortress's state as desperate, since besides fire the frost, perhaps soon to set in, was to be feared, when the ditches would freeze and the enemy would grant no capitulation at all; Colson, also weighing the general situation of the state, declared it wholly useless to defend Nienburg under the circumstances. All the officers present then agreed to the surrender and signed the protocol of the proceedings; Strachwitz meant to put the condition of free withdrawal once more but believed from the outset that it would not be granted. On the 25th, after urging it on Savary in vain for over an hour, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was done with Major Colson and Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell. Officers of the garrison came and went during the negotiations, most of the commanders having given notice the evening before that there would be a capitulation; no one was found who opposed it, the general misfortune and the idea that Nienburg could not be held having struck down every energetic resolve from the outset. Höpfner's judgement: even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed nor the town set on fire if the fortress's heavy calibres kept the enemy at the proper distance.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Side B's history, read from the page images of pp. 380-383. These were the decisions of the commandant and his council, so the claim is tagged commander-created. Höpfner cites no document for the council or its protocol in the passages read, and the judgement is his own. The council's fear that a bombardment would turn the town to ashes stands beside Höpfner's description, in which a road 30 paces wide between the wall and the buildings meant that the burning of the town did not hinder the defence (claim nienburg-ground); both are kept. English renderings (ours): 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'General Strachwitz accepted the offer and fixed the following day for it'; 'after General Schramm had left the fortress, the commandant called together to a council of war, besides the persons named above, the commanders of the 3rd musketeer battalions; they were Lieutenant Colonels Schönowski and Brandenstein, both well into their sixties, and Major Gordon'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'all the officers present thereupon agreed to the surrender and signed the protocol of the proceedings'; 'General Strachwitz meant to put forward the condition of free withdrawal once more, but believed from the outset that it would not be granted'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'during the negotiations officers of the garrison came and went, since most of the commanders had already given notice the evening before that there would be a capitulation'; 'no one was found who would have stood up against it; the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset'; 'even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited first, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed, nor the town set on' (the sentence continues on p. 383); 'fire, if the heavy calibres of the fortress kept the enemy at the proper distance' (the end of the sentence begun on p. 382).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz nahm das Anerbieten an und bestimmte dazu den folgenden Tag."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Nachdem der General Schramm die Festung verlassen hatte, berief der Kommandant außer den oben genannten Personen noch die Kommandeurs der 3. Musketier-Bataillone zum Kriegsrath zusammen; es waren die Oberst-Lieutenants Schönowski und Brandenstein, beide hoch in den Sechzigern, und der Major Gordon."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche anwesende Offiziere willigten hierauf in die Uebergabe und unterzeichneten das Protokoll der Verhandlung."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz wollte noch einmal die Bedingung des freien Abzuges hinstellen, glaubte aber von vornherein, daß sie nicht gewährt werden möchte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Während der Verhandlungen gingen Offiziere der Garnison ab und zu, da die meisten Kommandeurs bereits am Abend vorher die Mittheilung gemacht hatten, daß man kapituliren werde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Es fand sich Niemand, der dagegen aufgetreten wäre; das allgemeine Unglück und die Vorstellung von der Unhaltbarkeit Nienburg's schlugen jeden energischen Entschluß von vornherein nieder."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Wenn ein baldiger Fall bei ernstlichen Anstalten des Feindes auch vorauszusehen war, so mußten solche Anstalten doch wenigstens erst abgewartet werden, da mit dem leichten Feldgeschütz des Feindes weder Schleusen noch Batardeaus so leicht zerstört, noch die Stadt in Brand"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "gesetzt werden konnte, wenn die schweren Kaliber der Festung den Feind in der gehörigen Entfernung erhielten."
+        }
+      ]
+    },
+    {
+      "id": "capitulation",
+      "dimension": "outcome",
+      "value": "Bodart records the capitulation of Nienburg on 26 November: the French under Savary forced the Prussian garrison under Major General v. Strachwitz to capitulate without a stroke of the sword, after which the garrison fell into captivity as prisoners of war. Höpfner: on the 25th, after the commandant had urged Savary in vain to grant free withdrawal, Major Dreßler and the French Captain Semery drew up the points of the capitulation; after the parole it was made known and the bridgehead handed over to the enemy at once, while the walls stayed occupied by the Prussians until the morning of the 26th. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer on his own authority destroyed a great part of the munition stores to keep them from the enemy. The officers were released on their word of honour, and the Feldwebel, some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be taken only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept their horses and other property, the men their knapsacks. So on 26 November Nienburg too fell into the enemy's hands without any defence; with it fell, Silesia excepted, Prussia's last strong point on the left bank of the Oder. The Emperor wrote to the Grand Duke of Berg from Posen on 3 December that Glogau had surrendered and that the place of Nienburg had likewise surrendered.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The frozen frame outcome with Höpfner's account and the Emperor's letter, read from the page images (Bodart's from the frame transcription); no source read gives a different result. The capitulation's text was not seen; its terms are Höpfner's summary. Höpfner has the capitulation drawn up on the 25th and made known after the parole, which we read as that evening, the Prussians holding the walls until the morning of the 26th, the day he gives for the fall; Bodart's date is the 26th (our reading and comparison). Bodart's captivity of the garrison and Höpfner's releases, with only a small remainder taken to France, are kept as given (claim side-b-losses). English renderings (ours): Bodart, as in claim bodart-strength; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'after the parole the capitulation was made known and the bridgehead handed over to the enemy at once. The walls remained occupied by the Prussians until the morning of the 26th'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'the officers were released on their word of honour, the Feldwebel [sergeants], some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be transported only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept horses and other property, the men their knapsacks'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'; 'with Nienburg fell, with the exception of Silesia, the last strong point of Prussia on the left bank of the Oder'; 'the Emperor to the Grand Duke of Berg. Posen, 3 December 1806'; 'Glogau has surrendered'; 'the place of Nienburg has likewise surrendered'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./11. KAPITULATION von Nienburg"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Nach der Parole wurde die Kapitulation bekannt gemacht und der Brückenkopf dem Feinde sogleich übergeben. Die Wälle blieben noch bis zum 26. Morgens von den Preußen besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Die Offiziere wurden auf Ehrenwort, die Feldwebel, einige Unteroffiziere und verheirathete Soldaten mit Pässen in die Heimath entlassen; alle Westphalen unter den Soldaten sollten nur nach Minden transportirt und von dort entlassen werden; die übrige, aber geringe Mannschaft wurde nach Frankreich gebracht; die Offiziere behielten Pferde und sonstiges Eigenthum, die Leute ihre Tornister."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "Mit Nienburg fiel — mit Ausnahme Schlesiens — der letzte feste Punkt Preußens auf dem linken Oder-Ufer."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p215-figures-v1",
+          "section": "p215",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 215 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU GRAND-DUC DE BERG.\n\nPosen, 3 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "Glogau s'est rendu."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p216-figures-v1",
+          "section": "p216",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 216 (transcribed from the page image)",
+          "quote": "La place de Nienburg s'est également rendue."
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses",
+      "dimension": "outcome",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No passage read gives a loss for side A, and Bodart prints none. Bodart has the garrison capitulate without a stroke of the sword, and Höpfner says Nienburg fell without any defence (claim capitulation); no passage read describes any fighting at Nienburg. No loss is stated, so it is left unknown, not set to zero.",
+      "citations": []
+    },
+    {
+      "id": "side-b-losses",
+      "dimension": "outcome",
+      "value": "Side B (Prussian) lost the fortress and its garrison. Bodart: the garrison fell into captivity as prisoners of war. Höpfner: the officers were released on their word of honour, and the Feldwebel, some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be taken only to Minden and released there; the remaining, but small, body of men was taken to France. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer destroyed a great part of the munition stores on his own authority to keep them from the enemy. Nienburg fell without any defence.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Separate accounts, read from the page images (Bodart's from the frame transcription), not combined. No passage read counts the prisoners, the men released, the dead or wounded, or the guns and stores taken; Höpfner's 2911 men and his guns before the capitulation are in claims side-b-strength and means-and-supply. English renderings (ours): Bodart, as in claim bodart-strength; 'the officers were released on their word of honour, the Feldwebel [sergeants], some non-commissioned officers and married soldiers released home with passes; all Westphalians among the soldiers were to be transported only to Minden and released from there; the remaining, but small, body of men was taken to France; the officers kept horses and other property, the men their knapsacks'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Die Offiziere wurden auf Ehrenwort, die Feldwebel, einige Unteroffiziere und verheirathete Soldaten mit Pässen in die Heimath entlassen; alle Westphalen unter den Soldaten sollten nur nach Minden transportirt und von dort entlassen werden; die übrige, aber geringe Mannschaft wurde nach Frankreich gebracht; die Offiziere behielten Pferde und sonstiges Eigenthum, die Leute ihre Tornister."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        }
+      ]
+    },
+    {
+      "id": "nienburg-ground",
+      "dimension": "terrain",
+      "value": "Bodart places Nienburg, a town in Prussia, province of Hanover, on the right bank of the Weser, 45 km north-west of Hanover. Höpfner: Nienburg, on the right bank of the Weser, had been largely razed soon after the Seven Years' War, but was to some extent put in order again for defence in 1803, when the French took possession of Hanover. The fortress formed a triangle whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off, so that only the northern side, between the Weser and the inundation, remained open to a regular attack; the two places of arms on the wings of that front were overlooked from the heights before it. A ravelin served as bridgehead on the left bank of the Weser, and the valley heights overlooked it. The town was narrow and badly built, mostly of half-timbered houses, so that a bombardment could soon lay it in ashes; but since a road 30 paces wide ran between the wall and the buildings where the Weser and the inundation did not secure the place, the burning of the town did not hinder the defence. Savary's troops approached on both banks of the Weser.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location and works as described, read from the page images. No plan of Nienburg was inspected, and where each work stood is taken only from Höpfner's description; the works themselves are in claim fortification. 'Geschützt', of the mill, is read as the closing of its sluice gates (our reading). Höpfner gives the road's width in paces; it is not converted. English renderings (ours): Bodart, '(town in Prussia, province of Hanover, on the right bank of the Weser, 45 km north-west of Hanover)'; 'Nienburg, situated on the right bank of the Weser, had been for the most part razed soon after the Seven Years' War, but in 1803, when the French took possession of Hanover, had been to some' (the word 'einigermaßen', to some extent, continues on p. 379); 'extent put in order again for defence' (the end of the sentence begun on p. 378); 'accordingly the fortress formed a triangle, whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off' ('geschützt', read as the closing of the mill's sluice gates; our reading); 'thus only the northern side of the triangle, between the Weser and the inundation, remained for a regular attack'; 'a continuous covered way did not exist, but only two places of arms on the wings of the front, overlooked from the heights lying before it, and between the middle bastions a ravelin covering the Norder gate'; 'a ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank of the Weser; the valley heights, however, overlooked the bridgehead, against which cover had been sought by bonnets and traverses'; 'the town was narrow and badly built, consisting mostly of half-timbered houses, so that it could soon be laid in ashes by a bombardment; but since a road 30 paces wide ran between the wall and the buildings where the Weser and the inundation did not secure the place, the defence was not hindered by the burning of the town'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "(Stadt in Preußen, Provinz Hannover, am rechten Weserufer, 45 km nordwestl. von Hannover)."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Nienburg, auf dem rechten Ufer der Weser belegen, war bald nach dem 7jährigen Kriege größtentheils geschleift, im Jahre 1803 aber, als die Franzosen Hannover in Besitz nahmen, eini-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "germaßen wieder zur Vertheidigung zugerichtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Hiernach bildete die Festung ein Dreieck, dessen südlicher Schenkel durch ein Flüßchen, die Aue, bespült wurde, das die Gräben füllte und sein ganzes linkes Ufer überschwemmte, sobald die Mühle auf der Südseite der Festung, zwischen der Stadt und dem Hornwerk, geschützt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Es blieb somit nur der nördliche Schenkel des Dreiecks zu einem regelmäßigen Angriff zwischen Weser und Inondation übrig."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Ein zusammenhängender gedeckter Weg war nicht vorhanden, sondern nur zwei von den vorliegenden Höhen eingesehene Waffenplätze auf den Flügeln der Front, und zwischen den mittleren Bastionen ein Ravelin zur Deckung des Norder-Thores."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Als Brückenkopf auf dem linken Weserufer diente ein Ravelin mit nassen Gräben und gut pallisadirtem gedeckten Weg; die Thalhöhen sahen indessen den Brückenkopf ein, wogegen man sich durch Bonnets und Traversen zu sichern gesucht hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Stadt war eng und schlecht gebaut, meist aus Fachwerkshäusern bestehend, so daß sie durch ein Bombardement bald in Asche gelegt werden konnte; doch da ein 30 Schritt breiter Weg zwischen dem Wall und den Gebäuden, da, wo die Weser und die Inondation nicht sicherten, vorhanden war, so wurde durch den Brand der Stadt die Vertheidigung nicht behindert."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        }
+      ]
+    },
+    {
+      "id": "means-and-supply",
+      "dimension": "logistics",
+      "value": "Side B (Prussian), in Höpfner: a supply of munitions and provisions for more than 3 weeks was stored bombproof, and the commandant's building and the hospital were covered in the same way, though by report only weakly; each main work had small bombproof shelters. There were 39 cannon of all calibres, 10 howitzers, 2 mortars and 12 Wallbüchsen, thus a sufficient number for the fortress. At the council of war Colson and Geyling feared, besides fire, the frost, perhaps soon to set in, when the ditches would freeze. In the night to the 26th some burghers broke open and plundered the magazines, and a young artillery officer destroyed a great part of the munition stores. Side A (French): on 22 November two French regiments arrived at Hameln with some 10-pounder howitzers, probably taken in Hesse; Mortier wrote on 13 November that he was also leaving Dumonceau, with the troops left in observation before Hameln and Nienburg, 10 pieces of ordnance. Höpfner's judgement speaks of the enemy's light field guns and of the fortress's heavy calibres.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner and Mortier's letter, read from the page images, the figures checked on full-resolution crops. Side B's guns and stores were set before Savary's approach; side A's guns came from its commanders' dispositions; one claim carries one phase, so it is unresolved. Höpfner's guns make 51 without the 12 Wallbüchsen (our arithmetic), Bodart's 51 (claim bodart-strength). Höpfner does not say for how many men the 3 weeks' supply was reckoned. Whether the howitzers that reached Hameln or Mortier's 10 pieces came before Nienburg is not shown. No passage read counts the stores found at the capitulation. English renderings (ours): 'a supply of munitions and provisions for more than 3 weeks was stored bombproof; in the same way, though by report only weakly, the commandant's building and the hospital were also covered'; 'each main work had small bombproof shelters'; 'of guns there were 39 cannon of all calibres, 10 howitzers, 2 mortars and 12 Wallbüchsen [rampart guns], thus a sufficient number for the fortress'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'in the night to the 26th some burghers broke open the magazines and plundered them, and a young artillery officer on his own authority destroyed a great part of the munition stores, to withdraw them from the enemy'; 'on 22 November two more French regiments arrived at Hameln with some 10-pounder howitzers, probably taken somewhere in Hesse'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; 'these corps, whose return I have not yet been able to obtain, are weak. I am also leaving him 10 pieces of ordnance'; 'even if a speedy fall was to be foreseen once the enemy made serious preparations, such preparations should at least have been awaited first, since with the enemy's light field guns neither sluices nor batardeaus could be so easily destroyed, nor the town set on' (the sentence continues on p. 383); 'fire, if the heavy calibres of the fortress kept the enemy at the proper distance' (the end of the sentence begun on p. 382).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "An Munition und Lebensmitteln war ein Vorrath für mehr als 3 Wochen bombensicher untergebracht; in gleicher Weise, wenn auch der Angabe nach nur schwach, waren auch das Kommandanturgebäude und das Lazareth eingedeckt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Jedes Hauptwerk hatte kleine bombenfeste Behältnisse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "An Geschützen waren 39 Kanonen von allen Kalibern, 10 Haubitzen, 2 Mörser und 12 Wallbüchsen, für die Festung also eine hinreichende Zahl, vorhanden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "In der Nacht zum 26. erbrachen einige Bürger die Magazine und plünderten sie, und ein junger Artillerie-Offizier zerstörte auf eigene Hand einen großen Theil der Munitions-Vorräthe, um sie dem Feinde zu entziehen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Am 22. November trafen noch zwei französische Regimenter mit einigen, wahrscheinlich in Hessen irgendwo genommenen 10pfündigen Haubitzen in Hameln ein."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Ces corps, dont je n'ai pu encore me procurer la situation, sont faibles. Je lui laisse aussi 10 bouches à feu."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Wenn ein baldiger Fall bei ernstlichen Anstalten des Feindes auch vorauszusehen war, so mußten solche Anstalten doch wenigstens erst abgewartet werden, da mit dem leichten Feldgeschütz des Feindes weder Schleusen noch Batardeaus so leicht zerstört, noch die Stadt in Brand"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p383-figures-v1",
+          "section": "p383",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 383 (transcribed from the page image)",
+          "quote": "gesetzt werden konnte, wenn die schweren Kaliber der Festung den Feind in der gehörigen Entfernung erhielten."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A (French): the Emperor wrote to the King of Holland on 22 October that the Prussians did not have 1,500 men of garrison at Nienburg on the Weser, and on 31 October that Hameln and Nienburg would not be slow to surrender when they learned of their country's disasters; Mortier wrote on 13 November that the enemy's forces at Hameln and Nienburg were estimated at 10,000 men. Höpfner: Savary's summons of 24 November said that insignificant Nienburg was incapable of any defence, and on the 25th Savary was fetched into the town and led to the commandant's headquarters.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side A's letters, read from the page images, with Höpfner's. The passages read do not show what side A knew of the garrison's strength, works or stores at Nienburg, or what it learned on entering the town; the Emperor's 'not 1,500' and Mortier's 10,000 are also in claim side-b-strength-french. English renderings (ours): 'the Emperor to the King of Holland. Dessau, 22 October 1806'; 'the Prussians do not have 1,500 men of garrison at Nienburg on the Weser. I have reason to think that they have at Hameln only just what is necessary for the garrison'; 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'the enemy's forces both at Hameln and at Nienburg are estimated at 10,000 men; they could intercept our convoys and our detachments if they were not closely observed'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381).",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p222-figures-v1",
+          "section": "p222",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 222 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nDessau, 22 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p223-figures-v1",
+          "section": "p223",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 223 (transcribed from the page image)",
+          "quote": "Les Prussiens n'ont pas 1,500 hommes de garnison à Nienburg sur le Weser. J'ai lieu de penser qu'ils n'ont à Hameln que juste ce qui est nécessaire pour la garnison."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p846-figures-v1",
+          "section": "p846",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 846 (transcribed from the page image)",
+          "quote": "Les forces de l'ennemi tant à Hameln qu'à Nienburg sont évaluées à 10,000 hommes; ils pourraient intercepter nos convois et nos détachements s'ils n'étaient observés de près."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B (Prussian), in Höpfner: the commandant did not even admit to his presence the deputation of the Hanoverian Landes-Kollegium that called at Nienburg from Hameln. Savary's summons of 24 November came with an account of all the Prussian army's well-known misfortunes; at the council of war Colson took the general situation of the state into consideration; and, Höpfner says, the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The passages read do not show whether the garrison knew of Hameln's capitulation of 20 November or of the suspension of arms of 16 November, whose article 4 named Hameln and Nienburg (claim side-a-objectives), what the Hanoverian deputation came to say, or what side B knew of Savary's strength; Höpfner calls the Prussian army's misfortunes well known without saying when the garrison learned of them. English renderings (ours): 'General Strachwitz had shown himself very active in arming the fortress, had rejected the earlier summons of a division of Mortier's corps marching past, and had not even admitted to his presence the deputation of the Hanoverian Landes-Kollegium [provincial government], which called at Nienburg from Hameln'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'no one was found who would have stood up against it; the general misfortune and the idea that Nienburg could not be held struck down every energetic resolve from the outset'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der General Strachwitz hatte sich bei der Armirung der Festung sehr thätig erwiesen, die frühere Aufforderung einer vorbeimarschirenden Division des Mortierschen Korps abgewiesen, auch die Deputation des Hannöverschen Landes-Kollegiums, die von Hameln aus in Nienburg ansprach, gar nicht vor sich gelassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Es fand sich Niemand, der dagegen aufgetreten wäre; das allgemeine Unglück und die Vorstellung von der Unhaltbarkeit Nienburg's schlugen jeden energischen Entschluß von vornherein nieder."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A (French): on 31 October the Emperor wrote to the King of Holland that Hameln and Nienburg would not be slow to surrender when they learned of their country's disasters, and that he should put a small corps of observation before them, without blockading them, to keep them from raiding the country; on 7 November he told Mortier to leave a small corps before Hameln and Nienburg and to move into Lauenburg and on Hamburg, from where, according to the orders the Emperor would send, Mortier would move into Swedish Pomerania in pursuit of Blücher's column. Mortier wrote on 12 November that he would leave two small corps to observe Hameln and Nienburg as the Emperor prescribed, and on 13 November that he was ordering Dumonceau to leave troops in observation before both. The suspension of arms signed at Charlottenburg on 16 November, which the 33rd Bulletin, of 17 November, prints, provided in article 4 that Hameln and Nienburg, with the places named in article 2, would be handed over to the French troops with their armament and munitions within the eight days following the exchange of ratifications, their garrisons not to be prisoners of war but directed on Kœnigsberg; ratifications were to be exchanged at Graudenz at the latest on the 21st, and by Foucart's note hostilities were to cease only then. The 35th Bulletin, of 28 November, says the King of Prussia told Duroc at Osterode that he could not ratify it. Höpfner: after Hameln, Savary set out against Nienburg; his summons of 24 November said that insignificant Nienburg was incapable of any defence, Schramm argued that the commandant's conditions could not be granted, and on the 25th the commandant's urging could not move Savary to grant the garrison free withdrawal.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The Emperor's and Mortier's letters and the Bulletins, read from the page images, with Höpfner. The aims moved from observation without blockade (31 October to 13 November) to Savary's summons and his refusal of free withdrawal (24 and 25 November); they came from the Emperor and from the commanders, so the phase is left unresolved. No order for the move against Nienburg was read. The capitulation made the garrison prisoners of war by Bodart, or released most of it by Höpfner (claim side-b-losses), while the suspension, had it been ratified, would have sent it to Kœnigsberg (our comparison); the passages read do not show whether Savary or the garrison knew of the suspension. The sentence on hostilities is Foucart's note, not the suspension's text. English renderings (ours): 'the Emperor to the King of Holland. Berlin, 31 October 1806'; 'Hameln and Nienburg will not be slow to surrender when they learn of the disasters of their country. Put a small corps of observation before them, without blockading them, to prevent them from making raids in the country'; 'the Emperor to Marshal Mortier. Berlin, 7 November 1806'; 'you will leave a small corps before Hameln and Nienburg and will move into Lauenburg and from there on Hamburg, from where, according to the orders I would send you, you would move into Swedish Pomerania in pursuit of General Blücher's column'; 'Marshal Mortier to the Emperor. Hanover, 12 November 1806'; 'I shall leave two small corps to observe Hameln and Nienburg as you prescribe to me'; 'Marshal Mortier to the Emperor. Hanover, 13 November 1806'; 'I am giving orders for General Dumonceau to leave in observation, both before Hameln and before Nienburg, the 2nd and 3rd light infantry regiments, the 7th of the line, the 2nd of cavalry, all Dutch troops'; '1. 33rd Bulletin of the Grande Armée. Berlin, 17 November 1806' (the '1.' is the footnote's mark); 'the attached suspension of arms was signed yesterday at Charlottenburg'; 'Art. 4. — The places of Hameln and Nienburg, as well as those designated in article 2, shall be handed over to the French troops with their armament and munitions, of which an inventory shall be drawn up, within the eight days following the exchange of the ratifications of the present suspension of arms. The garrisons of these places shall not be prisoners of war; they shall be directed on Kœnigsberg, and they shall be given every facility necessary for this'; 'Art. 6. — The present suspension of arms shall be ratified by the two high contracting powers, and the exchange of ratifications shall take place at Graudenz at the latest on the 21st of the present month'; 'done at Charlottenburg, 16 November 1806'; 'hostilities were to cease only at the moment of the exchange of ratifications'; '35th Bulletin of the Grande Armée. Posen, 28 November 1806'; 'the marshal of the palace, Duroc, went as far as Osterode, where he saw the King of Prussia, who declared to him that part of his states was occupied by the Russians and that he was entirely in their dependence; that consequently he could not ratify the suspension of arms that his plenipotentiaries had concluded, because he could not carry out its stipulations'; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'a second parlementaire, General Schramm, arriving soon afterwards, sought to prove to the commandant that such conditions could not possibly be granted him, but invited him to a verbal discussion with General Savary'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU ROI DE HOLLANDE.\n\nBerlin, 31 octobre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p559-figures-v1",
+          "section": "p559",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 559 (transcribed from the page image)",
+          "quote": "Hameln et Nienburg ne tarderont pas à se rendre quand ils sauront les désastres de leur patrie. Mettez devant un petit corps d'observation, sans les bloquer, pour les empêcher de faire des courses dans le pays."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p771-figures-v1",
+          "section": "p771",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 771 (transcribed from the page image)",
+          "quote": "L'EMPEREUR AU MARÉCHAL MORTIER.\n\nBerlin, 7 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p772-figures-v1",
+          "section": "p772",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 772 (transcribed from the page image)",
+          "quote": "Vous laisserez un petit corps devant Hameln et Nienburg et vous vous porterez dans le Lauenburg et de là sur Hamburg d'où, selon les ordres que je vous enverrais, vous vous porteriez dans la Poméranie suédoise, à la poursuite de la colonne du général Blücher."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p834-figures-v1",
+          "section": "p834",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 834 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 12 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p835-figures-v1",
+          "section": "p835",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 835 (transcribed from the page image)",
+          "quote": "Je laisserai deux petits corps pour observer Hameln et Nienburg ainsi que vous me le prescrivez."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL MORTIER A L'EMPEREUR.\n\nHanovre, 13 novembre 1806."
+        },
+        {
+          "source_id": "foucart-prusse-1890-t2-p845-figures-v1",
+          "section": "p845",
+          "locator": "Foucart, Campagne de Prusse (1806): Prenzlow - Lubeck (1890), p. 845 (transcribed from the page image)",
+          "quote": "Je donne des ordres pour que le général Dumonceau laisse en observation, tant devant Hameln que devant Nienburg, les 2e et 3e régiments d'infanterie légère, le 7e de ligne, le 2e de cavalerie, toutes troupes hollandaises"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "1. 33e BULLETIN DE LA GRANDE ARMÉE.\n\nBerlin, 17 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "La suspension d'armes ci-jointe a été signée hier à Charlottenburg."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p132-figures-v1",
+          "section": "p132",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 132 (transcribed from the page image)",
+          "quote": "ART. 4. — Les places de Hameln et Nienburg, ainsi que celles désignées dans l'article 2, seront remises aux troupes françaises avec leurs armements et munitions, dont il sera dressé un inventaire, dans les huit jours qui suivront l'échange des ratifications de la présente suspension d'armes. Les garnisons de ces places ne seront pas prisonnières de guerre; elles seront dirigées sur Kœnigsberg, et on leur donnera à cet effet toutes les facilités nécessaires."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "ART. 6. — La présente suspension d'armes sera ratifiée par les deux hautes puissances contractantes, et l'échange des ratifications aura lieu à Graudenz, au plus tard le 21 du présent mois."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Fait à Charlottenburg, le 16 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Les hostilités ne devaient cesser qu'au moment de l'échange des ratifications."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "35e BULLETIN DE LA GRANDE ARMÉE.\n\nPosen, 28 novembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p133-figures-v1",
+          "section": "p133",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 133 (transcribed from the page image)",
+          "quote": "Le maréchal du palais, Duroc, a été jusqu'à Osterode, où il a vu le roi de Prusse, qui lui a déclaré qu'une partie de ses États était occupée par les Russes, et qu'il était entièrement dans leur dépendance; qu'en conséquence il ne pouvait ratifier la suspension d'armes qu'avaient conclue ses plénipotentiaires, parce qu'il ne pourrait pas en exécuter les stipulations."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Ein zweiter, bald darauf eintreffender Parlamentair, der General Schramm, suchte dem Kommandanten zu beweisen, daß ihm solche Bedingungen unmöglich zugestanden werden könnten, lud ihn aber zu einer mündlichen Unterredung mit dem General Savary ein."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B (Prussian), in Höpfner: when Prussia took possession of the country it was decided to restore the works so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege. To Savary's summons the commandant rejected all proposals but sent word that he was inclined to capitulate if granted a three-week armistice and then free withdrawal to the King's army; the council of war held it advisable to surrender to the enemy on advantageous terms, and Colson declared it wholly useless under the circumstances to defend Nienburg. Strachwitz meant to put the condition of free withdrawal once more, and on the 25th urged it on Savary in vain for over an hour.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Side B's history, read from the page images. The aims moved from a defence able to withstand a three-week siege to capitulation on the best terms obtainable; they came from the decision on the works and from the commandant and his council, so the phase is left unresolved. The passages read give no order to the garrison after Jena. English renderings (ours): 'when Prussia took possession of the country it was decided to restore the fortifications so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege'; 'the commandant, in the presence of Majors Colson and Dreßler, the latter of whom did the duty of town major, rejected all proposals, but had General Savary told that he was inclined to capitulate if he were granted a three-week armistice and then free withdrawal to the King's army'; 'all the staff officers were of the opinion that it was advisable to surrender to the enemy on advantageous terms, since a bombardment would quickly turn the town into a heap of ashes; but Major Colson and Captain Geyling especially described the state of the fortress as desperate, since besides fire the frost, perhaps soon to set in, was also to be feared, when the ditches would freeze and the enemy would grant no capitulation at all'; 'Major Colson also took the general situation of the state into consideration, and declared that under the prevailing circumstances it was wholly useless to defend Nienburg'; 'General Strachwitz meant to put forward the condition of free withdrawal once more, but believed from the outset that it would not be granted'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme des Landes durch Preußen wurde beschlossen, die Festungswerke so weit herzustellen, daß Nienburg als sicherer Uebergang über die Weser dienen und eine dreiwöchentliche Belagerung aushalten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Kommandant wies im Beisein der Majors Colson und Dreßler, welcher Letztere Platzmajor-Dienste leistete, alle Anträge zurück, ließ aber dem General Savary sagen, daß er geneigt sei zu kapituliren, wenn man ihm einen dreiwöchentlichen Waffenstillstand und dann freien Abzug zur Armee des Königs bewillige."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Sämmtliche Stabs-Offiziere waren der Ansicht, daß es gerathen sei, sich dem Feinde auf vortheilhafte Bedingungen zu ergeben, da ein Bombardement die Stadt schnell in einen Aschenhaufen verwandeln würde; besonders aber schilderten der Major Colson und der Hauptmann Geyling den Zustand der Festung als verzweifelt, da außer dem Brande auch der vielleicht bald eintretende Frost zu fürchten sei, wo dann die Gräben zufrieren und der Feind gar keine Kapitulation bewilligen würde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der Major Colson zog auch die allgemeine Lage des Staats in Betracht, und erklärte, daß es unter den obwaltenden Verhältnissen gänzlich unnütz sei, Nienburg zu vertheidigen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Der General Strachwitz wollte noch einmal die Bedingung des freien Abzuges hinstellen, glaubte aber von vornherein, daß sie nicht gewährt werden möchte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A (French) attacked: Bodart has the French under Savary force the garrison to capitulate without a stroke of the sword. Höpfner: Savary set out against Nienburg on both banks of the Weser, the first patrols approached the town on the 24th, and that evening his parlementaire summoned the fortress to surrender; on the 25th the commandant negotiated with Savary, and after the parole the capitulation was made known and the bridgehead handed over; so on 26 November Nienburg too fell into the enemy's hands without any defence. No passage read describes any fighting at Nienburg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded A_attacked: side A approached and summoned the fortress and side B capitulated without fighting. The phase is left unresolved: Savary's move followed the capitulation of Hameln and orders the passages read do not give, while the summons and the terms were the commanders' own (claims side-a-command, side-a-objectives). English renderings (ours): Bodart, as in claim bodart-strength; 'General Savary, after leaving a garrison of 100 Frenchmen and 150 Dutch, set out on both banks of the Weser against Nienburg, so that on the 24th the first enemy patrols approached that town'; 'on the evening of 24 November a parlementaire of General Savary's brought the summons to surrender, with an account of all the well-known misfortunes of the Prussian army attached, and with the remark that insignificant Nienburg was surely incapable of any defence'; 'on the 25th at 9 o'clock in the morning the commandant fetched' (the sentence continues on p. 382; 'holte ... ein', went out to meet and brought in); 'General Savary, who was accompanied by General Schramm and several officers, in, and led him to the Kommandantur [the commandant's headquarters]' (the end of the sentence begun on p. 381); 'for over an hour General Strachwitz strove to move General Savary to grant the garrison free withdrawal, but since all urging was in vain, he charged Major Dreßler to draw up the points of the capitulation with the French Captain Semery, which was then done with the participation of Major Colson and of Lieutenants Bismark of the regiment Prinz Ferdinand and Longe de Beauveset of the regiment Wedell'; 'after the parole the capitulation was made known and the bridgehead handed over to the enemy at once. The walls remained occupied by the Prussians until the morning of the 26th'; 'so on 26 November Nienburg too fell into the enemy's hands without any defence'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Die Franzosen (6.000 M.) unter Div.-Gen. Savary zwingen die preußische Besatzung (3.000 M., 51 Geschütze) unter GM. v. Strachwitz ohne Schwertstreich zur Kapitulation, wonach die Garnison in Kriegsgefangenschaft geriet."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Der General Savary brach, nach Zurücklassung einer Garnison von 100 Franzosen und 150 Holländern, auf beiden Ufern der Weser gegen Nienburg auf, so daß sich am 24. die ersten feindlichen Patrouillen dieser Stadt näherten."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 24. November Abends brachte ein Parlamentair des Generals Savary, unter Beifügung der Erzählung all der bekannten Unglücksfälle der preußischen Armee, die Aufforderung zur Uebergabe, mit der Bemerkung, daß ja das unbedeutende Nienburg keiner Vertheidigung fähig sei."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p381-figures-v1",
+          "section": "p381",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 381 (transcribed from the page image)",
+          "quote": "Am 25. um 9 Uhr Morgens holte der Kommandant den"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "General Savary, der vom General Schramm und mehreren Offizieren begleitet wurde, ein und führte ihn nach der Kommandantur."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Ueber eine Stunde lang bemühte sich der General Strachwitz, den General Savary zu bewegen, der Garnison freien Abzug zu bewilligen, doch da alles Drängen vergebens war, beauftragte er den Major Dreßler, mit dem französischen Kapitaine Semery die Kapitulationspunkte aufzusetzen, was denn auch unter Zuziehung des Majors Colson und der Lieutenants Bismark vom Regiment Prinz Ferdinand und Longe de Beauveset vom Regiment Wedell geschah."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "Nach der Parole wurde die Kapitulation bekannt gemacht und der Brückenkopf dem Feinde sogleich übergeben. Die Wälle blieben noch bis zum 26. Morgens von den Preußen besetzt."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p382-figures-v1",
+          "section": "p382",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 382 (transcribed from the page image)",
+          "quote": "So fiel denn am 26. November auch Nienburg ohne alle Vertheidigung dem Feinde in die Hände."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "Side B held a permanent fortress: Höpfner says Nienburg, largely razed soon after the Seven Years' War, was to some extent put in order again for defence in 1803, and that when Prussia took possession it was decided to restore the works so that it could withstand a three-week siege. The fortress formed a triangle whose southern side was covered by the inundation of the Aue; the north front had three polygons in a straight line, whose main wall was strengthened by a kind of tenaille, with no continuous covered way but two places of arms on its wings and a ravelin covering the Norder gate; the south front had two polygons, the main wall up to the half bastion at the Weser junction surrounded by a kind of counterguard, a ravelin covering the Lein gate and a hornwork before the half bastion at the upper Weser junction, again with no continuous covered way but 2 places of arms; the gorge was closed only by a palisaded wall, and all the works were of earth. A ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank; the valley heights overlooked it, against which cover had been sought by bonnets and traverses. Strachwitz had palisades set on the berm before the curtains and ladders fixed in the re-entrant angles for want of a covered way and posterns; to relieve the garrisons of the places of arms and the counterguard the men had to climb over the breastwork. The sluices, none of them quite tight, held well enough to give the main ditch its proper depth of water; each main work had small bombproof shelters; and on the whole the works could withstand a three-week formal attack. No passage read describes any works of side A.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Coded B_fortified: side B held permanent works, readied before Savary's approach, so the claim is tagged inherited. English renderings (ours): 'Nienburg, situated on the right bank of the Weser, had been for the most part razed soon after the Seven Years' War, but in 1803, when the French took possession of Hanover, had been to some' (the word 'einigermaßen', to some extent, continues on p. 379); 'extent put in order again for defence' (the end of the sentence begun on p. 378); 'when Prussia took possession of the country it was decided to restore the fortifications so far that Nienburg could serve as a secure crossing over the Weser and withstand a three-week siege'; 'accordingly the fortress formed a triangle, whose southern side was washed by a small river, the Aue, which filled the ditches and flooded its whole left bank as soon as the mill on the south side of the fortress, between the town and the hornwork, was shut off' ('geschützt', read as the closing of the mill's sluice gates; our reading); 'this front was fortified by three polygons lying in a straight line, whose main wall was strengthened by a kind of tenaille'; 'a continuous covered way did not exist, but only two places of arms on the wings of the front, overlooked from the heights lying before it, and between the middle bastions a ravelin covering the Norder gate'; 'the south front consisted of two polygons'; 'the main wall up to the half bastion at the Weser junction was surrounded by a kind of counterguard. A ravelin covered the Lein gate; a hornwork lay before the half bastion at the upper Weser junction'; 'on this front too there was no continuous covered way, but only 2 places of arms before the Lein gate and the hornwork'; 'the gorge of the fortress was closed only by a palisaded wall. All the works were built of earth'; 'a ravelin with wet ditches and a well-palisaded covered way served as bridgehead on the left bank of the Weser; the valley heights, however, overlooked the bridgehead, against which cover had been sought by bonnets and traverses'; 'the commandant, Major General Strachwitz, had had rows of palisades set on the berm before the curtains, and ladders for climbing up fixed in the re-entrant angles at the revetment, to make up for the lack of a covered way and of posterns'; 'to relieve the garrisons of the places of arms and of the counterguard, the men had to climb over the breastwork'; 'the sluices, it is true, were none of them quite tight, but they held well enough to give the main ditch the proper depth of water'; 'each main work had small bombproof shelters'; 'on the whole the state of the works was such that a three-week formal attack could be withstood'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1855-bd2-p378-figures-v1",
+          "section": "p378",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 378 (transcribed from the page image)",
+          "quote": "Nienburg, auf dem rechten Ufer der Weser belegen, war bald nach dem 7jährigen Kriege größtentheils geschleift, im Jahre 1803 aber, als die Franzosen Hannover in Besitz nahmen, eini-"
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "germaßen wieder zur Vertheidigung zugerichtet worden."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Bei der Besitznahme des Landes durch Preußen wurde beschlossen, die Festungswerke so weit herzustellen, daß Nienburg als sicherer Uebergang über die Weser dienen und eine dreiwöchentliche Belagerung aushalten könne."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Hiernach bildete die Festung ein Dreieck, dessen südlicher Schenkel durch ein Flüßchen, die Aue, bespült wurde, das die Gräben füllte und sein ganzes linkes Ufer überschwemmte, sobald die Mühle auf der Südseite der Festung, zwischen der Stadt und dem Hornwerk, geschützt wurde."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Diese Front war durch drei in gerader Linie liegende Polygone befestigt, deren Hauptwall durch eine Art Grabenscheere verstärkt war."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Ein zusammenhängender gedeckter Weg war nicht vorhanden, sondern nur zwei von den vorliegenden Höhen eingesehene Waffenplätze auf den Flügeln der Front, und zwischen den mittleren Bastionen ein Ravelin zur Deckung des Norder-Thores."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Süd-Front bestand aus zwei Polygonen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Der Hauptwall bis zum halben Bastion am Weser-Anschluß war mit einer Art Kontregarde umgeben. Ein Ravelin deckte das Lein-Thor; ein Hornwerk lag vor dem halben Bastion am obern Weser-Anschluß."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Auch auf dieser Front bestand kein zusammenhängender gedeckter Weg, sondern nur 2 Waffenplätze vor dem Lein-Thor und dem Hornwerke."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Die Kehle der Festung war nur durch einen pallisadirten Wall geschlossen. Alle Werke waren in Erde erbaut."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p379-figures-v1",
+          "section": "p379",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 379 (transcribed from the page image)",
+          "quote": "Als Brückenkopf auf dem linken Weserufer diente ein Ravelin mit nassen Gräben und gut pallisadirtem gedeckten Weg; die Thalhöhen sahen indessen den Brückenkopf ein, wogegen man sich durch Bonnets und Traversen zu sichern gesucht hatte."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Der Kommandant, General-Major Strachwitz, hatte, um dem Mangel eines gedeckten Weges und von Poternen zu begegnen, auf der Berme vor den Kourtinen Pallisaden-Reihen setzen, und in den eingehenden Winkeln an der Plakage Leitern zum Hinaufsteigen anbringen lassen."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Um die Besatzungen der Waffenplätze und der Kontregarde abzulösen, mußten die Leute über die Brustwehr klettern."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Die Schleusen waren zwar alle nicht ganz dicht, doch hielten sie hinreichend, um dem Hauptgraben die gehörige Wassertiefe zu geben."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Jedes Hauptwerk hatte kleine bombenfeste Behältnisse."
+        },
+        {
+          "source_id": "hoepfner-1855-bd2-p380-figures-v1",
+          "section": "p380",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 2 (2nd ed., 1855), p. 380 (transcribed from the page image)",
+          "quote": "Im Ganzen war der Zustand der Werke dergestalt, daß ein dreiwöchentlicher förmlicher Angriff überstanden werden konnte."
+        }
+      ],
+      "code": "B_fortified"
+    }
+  ],
+  "open_questions": [
+    "Deferred: seen only in the OCR, a later letter of the Emperor to the Grand Duke of Berg in Foucart, Campagne de Pologne, t. I, pp. 241-242, which repeats that Nienburg has surrendered; the rest of Höpfner, Bd. 2, p. 383, on the war material lost in the campaign, not transcribed; General Savary's report and any order for the move on Nienburg, not found in the Foucart pages read; and the capitulation's text. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength at Nienburg. Bodart's 6,000 is the only total, the figure he also prints for Savary's force at Hameln; Höpfner gives only the garrison of 100 French and 150 Dutch that Savary left at Hameln, and Mortier's observation troops of 13 November, weak and without a return, are not shown at Nienburg. A return of Savary's column, such as his report on Nienburg, could close it.",
+    "Disputes kept as separate claims or within them: the date (the capitulation drawn up on the 25th and made known after the parole, and the place falling on the 26th, Höpfner; 26 November, Bodart); the garrison (2689 infantry, 168 artillery and 54 hussars, together 2911, against a strength of 1500 for which the fortress was reckoned, Höpfner; 3,000, Bodart; under 1,500, the Emperor on 22 October; 10,000 at Hameln and Nienburg together, Mortier on 13 November); the guns (39 cannon, 10 howitzers, 2 mortars and 12 Wallbüchsen, Höpfner; 51, Bodart); the prisoners (the garrison into captivity, Bodart; the officers, the Feldwebel, some non-commissioned officers and married soldiers released, the Westphalians to be released at Minden and only the small remainder taken to France, Höpfner); and the burning of the town (a bombardment would quickly turn it into a heap of ashes, the council of war; its burning would not hinder the defence, Höpfner's description).",
+    "Families and dependence: Bodart (a compilation; his sources for this entry were not checked; his 3,000 men and 51 guns agree with Höpfner's 2911 and his 39 cannon, 10 howitzers and 2 mortars, and his 6,000 for side A is his figure for Hameln); Foucart, Campagne de Prusse, t. II, and Campagne de Pologne, t. I, one family (the same author's editions of the French side's documents, from the page images: the Emperor's letters to the King of Holland of 22 and 31 October, to Mortier of 7 November and to the Grand Duke of Berg of 3 December, Mortier's letters to the Emperor of 12 and 13 November, the 32nd, 33rd and 35th Bulletins, and the suspension of arms of 16 November printed with the 33rd, with Foucart's note on it); Höpfner, Bd. 2, 2nd edition (the Prussian side's history; in this section he cites no document for the summons, the council of war, its protocol or the capitulation's terms)."
+  ]
 }
 ```
 
@@ -28759,3 +32236,94 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `foucart-prusse-1890-t2-p803-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p803-figures.txt
 - `foucart-prusse-1890-t2-p806-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p806.jpg
 - `foucart-prusse-1890-t2-p806-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p806-figures.txt
+- `foucart-pologne-1882-t1-ocr-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-djvu.txt
+- `hoepfner-1855-bd2-p347-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p347.jpg
+- `hoepfner-1855-bd2-p347-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p347-figures.txt
+- `hoepfner-1855-bd2-p348-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p348.jpg
+- `hoepfner-1855-bd2-p348-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p348-figures.txt
+- `hoepfner-1855-bd2-p349-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p349.jpg
+- `hoepfner-1855-bd2-p349-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p349-figures.txt
+- `hoepfner-1855-bd2-p350-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p350.jpg
+- `hoepfner-1855-bd2-p350-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p350-figures.txt
+- `hoepfner-1855-bd2-p353-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p353.jpg
+- `hoepfner-1855-bd2-p353-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p353-figures.txt
+- `hoepfner-1855-bd2-p357-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p357.jpg
+- `hoepfner-1855-bd2-p357-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p357-figures.txt
+- `hoepfner-1855-bd2-p358-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p358.jpg
+- `hoepfner-1855-bd2-p358-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p358-figures.txt
+- `hoepfner-1855-bd2-p359-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p359.jpg
+- `hoepfner-1855-bd2-p359-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p359-figures.txt
+- `hoepfner-1855-bd2-p360-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p360.jpg
+- `hoepfner-1855-bd2-p360-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p360-figures.txt
+- `hoepfner-1855-bd2-p361-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p361.jpg
+- `hoepfner-1855-bd2-p361-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p361-figures.txt
+- `hoepfner-1855-bd2-p363-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p363.jpg
+- `hoepfner-1855-bd2-p363-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p363-figures.txt
+- `hoepfner-1855-bd2-p364-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p364.jpg
+- `hoepfner-1855-bd2-p364-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p364-figures.txt
+- `hoepfner-1855-bd2-p365-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p365.jpg
+- `hoepfner-1855-bd2-p365-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p365-figures.txt
+- `hoepfner-1855-bd2-p367-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p367.jpg
+- `hoepfner-1855-bd2-p367-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p367-figures.txt
+- `hoepfner-1855-bd2-p369-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p369.jpg
+- `hoepfner-1855-bd2-p369-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p369-figures.txt
+- `hoepfner-1855-bd2-p370-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p370.jpg
+- `hoepfner-1855-bd2-p370-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p370-figures.txt
+- `hoepfner-1855-bd2-p371-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p371.jpg
+- `hoepfner-1855-bd2-p371-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p371-figures.txt
+- `hoepfner-1855-bd2-p372-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p372.jpg
+- `hoepfner-1855-bd2-p372-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p372-figures.txt
+- `hoepfner-1855-bd2-p373-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p373.jpg
+- `hoepfner-1855-bd2-p373-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p373-figures.txt
+- `hoepfner-1855-bd2-p375-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p375.jpg
+- `hoepfner-1855-bd2-p375-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p375-figures.txt
+- `hoepfner-1855-bd2-p376-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p376.jpg
+- `hoepfner-1855-bd2-p376-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p376-figures.txt
+- `hoepfner-1855-bd2-p377-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p377.jpg
+- `hoepfner-1855-bd2-p377-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p377-figures.txt
+- `hoepfner-1855-bd2-p378-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p378.jpg
+- `hoepfner-1855-bd2-p378-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p378-figures.txt
+- `hoepfner-1855-bd2-p379-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p379.jpg
+- `hoepfner-1855-bd2-p379-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p379-figures.txt
+- `hoepfner-1855-bd2-p380-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p380.jpg
+- `hoepfner-1855-bd2-p380-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p380-figures.txt
+- `hoepfner-1855-bd2-p381-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p381.jpg
+- `hoepfner-1855-bd2-p381-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p381-figures.txt
+- `hoepfner-1855-bd2-p382-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p382.jpg
+- `hoepfner-1855-bd2-p382-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p382-figures.txt
+- `hoepfner-1855-bd2-p383-image-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p383.jpg
+- `hoepfner-1855-bd2-p383-figures-v1`: Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Erster Theil: Der Feldzug von 1806, Zweiter Band; group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1855-bd2-p383-figures.txt
+- `foucart-prusse-1890-t2-p222-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p222.jpg
+- `foucart-prusse-1890-t2-p222-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p222-figures.txt
+- `foucart-prusse-1890-t2-p223-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p223.jpg
+- `foucart-prusse-1890-t2-p223-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p223-figures.txt
+- `foucart-prusse-1890-t2-p559-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p559.jpg
+- `foucart-prusse-1890-t2-p559-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p559-figures.txt
+- `foucart-prusse-1890-t2-p771-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p771.jpg
+- `foucart-prusse-1890-t2-p771-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p771-figures.txt
+- `foucart-prusse-1890-t2-p772-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p772.jpg
+- `foucart-prusse-1890-t2-p772-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p772-figures.txt
+- `foucart-prusse-1890-t2-p794-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p794.jpg
+- `foucart-prusse-1890-t2-p794-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p794-figures.txt
+- `foucart-prusse-1890-t2-p805-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p805.jpg
+- `foucart-prusse-1890-t2-p805-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p805-figures.txt
+- `foucart-prusse-1890-t2-p834-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p834.jpg
+- `foucart-prusse-1890-t2-p834-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p834-figures.txt
+- `foucart-prusse-1890-t2-p835-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p835.jpg
+- `foucart-prusse-1890-t2-p835-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p835-figures.txt
+- `foucart-prusse-1890-t2-p845-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p845.jpg
+- `foucart-prusse-1890-t2-p845-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p845-figures.txt
+- `foucart-prusse-1890-t2-p846-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p846.jpg
+- `foucart-prusse-1890-t2-p846-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p846-figures.txt
+- `foucart-prusse-1890-t2-p848-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p848.jpg
+- `foucart-prusse-1890-t2-p848-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p848-figures.txt
+- `foucart-prusse-1890-t2-p849-image-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p849.jpg
+- `foucart-prusse-1890-t2-p849-figures-v1`: Campagne de Prusse (1806) d'après les archives de la guerre: Prenzlow - Lubeck (title page in the OCR; the Internet Archive's title reads "Campagne de Prusse, 1806 : d'après les archives de la guerre"); group `foucart-campagne-de-prusse`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-prusse-1890-t2-p849-figures.txt
+- `foucart-pologne-1882-t1-p132-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p132.jpg
+- `foucart-pologne-1882-t1-p132-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p132-figures.txt
+- `foucart-pologne-1882-t1-p133-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p133.jpg
+- `foucart-pologne-1882-t1-p133-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p133-figures.txt
+- `foucart-pologne-1882-t1-p215-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p215.jpg
+- `foucart-pologne-1882-t1-p215-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p215-figures.txt
+- `foucart-pologne-1882-t1-p216-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p216.jpg
+- `foucart-pologne-1882-t1-p216-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p216-figures.txt

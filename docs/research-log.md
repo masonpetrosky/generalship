@@ -2011,6 +2011,129 @@ primary-verified; no separate review was made.
   pages before it cover other events, among them General Pelet's regiment after Lübeck
   (pp. 308–309). Hameln and Nienburg are chapter 19, on the Weser, pp. 339–383.
 
+## 1806 first pass, sub-batch 2c-iv: Hameln and Nienburg (2026-10-18)
+
+The last part of batch 2c of `fourth-coalition 1806`: the blockade and capitulation of Hameln and
+the capitulation of Nienburg, the two Prussian fortresses on the Weser. Batch 2c is complete.
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B376d | Hameln (capitulation) | 20 November 1806 | 18 |
+| B377a | Nienburg (capitulation) | 26 November 1806 | 18, 1 unknown |
+
+The main session researched, drafted and verified both entries without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the two families of batch 2b. Foucart's *Campagne de Pologne*, t. I, the
+  same author's next volume, joins his family. Every cited passage was read from a registered page
+  image ([source additions](source-additions.md)):
+  - Foucart t. II, the French side's documents:
+    - the Emperor's letters to the King of Holland of 22 and 31 October (pp. 222–223 and 559), to
+      Mortier of 7 November (pp. 771–772) and to Ney of 9 November (p. 794);
+    - Mortier's letters to the Emperor of 12 and 13 November (pp. 834–835 and 845–846);
+    - the 29th and 32nd Bulletins (p. 805, with p. 799 from sub-batch 2c-i; pp. 848–849).
+  - *Campagne de Pologne*, t. I (1882):
+    - in a footnote on pp. 132–133, the 33rd Bulletin with the suspension of arms of 16 November,
+      whose article 4 names Hameln and Nienburg, and an extract of the 35th Bulletin;
+    - the Emperor's letter to the Grand Duke of Berg of 3 December, which reports the surrender of
+      Glogau and Nienburg (pp. 215–216).
+  - Höpfner Bd. 2, chapter 19, on the Weser: Hameln, pp. 347–378, and Nienburg, pp. 378–383. For
+    Hameln he cites General Savary's report for the prisoners and an enemy officer's statement for
+    the French loss of 7 November. He gives Napoleon's orders of 13 and 18 November and the French
+    commanders' letters in summary, and says that as good as nothing about the enemy's movements
+    in western Germany has come from the French side. For Nienburg he names no source.
+
+  91 records were registered: the *Campagne de Pologne* OCR parent and 45 page images (13 of
+  Foucart t. II, 4 of *Campagne de Pologne* and 28 of Höpfner) with their figure transcriptions.
+  No figure in a value is taken from the OCR.
+- **Drafts.** 36 claims with 512 citations: 35 supported and 1 unknown.
+  - Hameln: 18 claims with 353 citations. Phases: 8 unresolved, 5 inherited, 3 post_outcome and
+    2 commander_created.
+  - Nienburg: 18 claims with 159 citations. Phases of the 17 supported claims: 8 unresolved,
+    5 inherited, 2 commander_created and 2 post_outcome.
+  - Both postures are coded `A_attacked` and left unresolved. At Hameln side B's small actions
+    fell within the blockade; at Nienburg no passage read describes any fighting.
+  - Both fortifications are coded `B_fortified` and tagged inherited. Napoleon's orders, as
+    Höpfner gives them, required the troops before Hameln to entrench, but no passage read shows
+    their works; counting them would give `both_fortified`.
+  - Side A's losses: at Hameln a partial post_outcome claim, an enemy officer's 'some 50' for the
+    action of 7 November as Höpfner gives it; at Nienburg unknown, not zero.
+  - Each boundary note keeps its capitulation to its own fortress. The suspension of arms of
+    16 November, never ratified, is context for both.
+- **Disputes kept visible.**
+  - Hameln's garrison:
+    - Höpfner: over 5000 in the garrison and 4000 in Lecoq's corps, the protocol's 9000, and
+      9—10,000 and almost 10,000 after the capitulation;
+    - Bodart: 10,000;
+    - the King of Holland, 9 November: 7,000 camped under the walls;
+    - Mortier, 13 November: 10,000 at Hameln and Nienburg together.
+  - Hameln's guns: Höpfner's 93, 46, 21 and 15, without the unserviceable ones, make 175 (our
+    arithmetic); Bodart prints 129.
+  - Hameln's prisoners: about 600 (Höpfner and Bodart), against 6000 in General Savary's report as
+    Höpfner gives it.
+  - Savary's charge at Hameln: already in the 32nd Bulletin of 16 November; by Napoleon's order of
+    18 November and announced on the 19th (Höpfner).
+  - The French divisions before Hameln: Gobert and Michaud (Höpfner), Dumonceau and Michaud
+    (Mortier). Mortier's brick fort on the Hamel may be Höpfner's inundation redoubt; the passages
+    read do not settle it.
+  - The surrender of Glogau and Breslau: Savary asserted it on the 20th, and Höpfner calls it a lie.
+  - Nienburg's date: drawn up on the 25th and made known after the parole, and the place fallen
+    on the 26th (Höpfner); 26 November (Bodart).
+  - Nienburg's garrison: 2689 infantry, 168 artillery and 54 hussars, together 2911, in a fortress
+    reckoned for 1500 (Höpfner); 3,000 (Bodart); under 1,500 (the Emperor, 22 October).
+  - Nienburg's prisoners: the garrison into captivity (Bodart), against Höpfner's releases, with
+    only a small remainder taken to France.
+  - Nienburg's town: a bombardment would soon turn it to ashes (the council of war); its burning
+    would not hinder the defence (Höpfner's description of the works).
+- **Gaps.** No targeted follow-up was run.
+  - At both places the most consequential gap is side A's strength. Bodart prints 6,000 for
+    Savary's force at each. At Hameln it matches Höpfner's 'only 6000' and Lecoq's estimate, and
+    none is shown to be a count; at Nienburg no other total is read. A return of the troops before
+    Hameln for 18 to 20 November, and of Savary's column at Nienburg, could close it.
+  - Deferred:
+    - Höpfner pp. 351–352, 354–356, 362, 366, 368 and 374, and the untranscribed parts of
+      pp. 376–378 and 383;
+    - seen only in the OCR: the Hameln passages of Foucart t. II at pp. 75, 346, 749, 795 and 831,
+      and a later letter of the Emperor's to the Grand Duke of Berg that repeats Nienburg's
+      surrender (*Campagne de Pologne*, pp. 241–242);
+    - not found in the Foucart pages read: General Savary's reports, Napoleon's orders of 13 and
+      18 November, any order for the move on Nienburg, and the text of either capitulation.
+  - The passages read do not show whether anyone at Hameln or Nienburg knew of the suspension of
+    arms.
+- **Verification.** The pages and the drafts were checked before release. The check:
+  - transcribed every figure from the page images, the small ones on full-resolution crops, and
+    found the OCR's year 1306 for 1806 in the date line of the Emperor's letter to Mortier of
+    7 November (p. 771);
+  - searched the OCR of both Foucart volumes for Hameln and Nienburg, and of *Campagne de
+    Pologne* also for Savary, and read each hit in its snippet;
+  - reread every cited passage against its transcription and fixed what the reread found, among it:
+    - the Hameln council's protocol held that a corps of 9000 men must be dearer to the King than
+      so remote a fortress; the draft no longer says the corps was "valued" so;
+    - Michaud's letter allowed an officer to be sent to Blücher but then required surrender, the
+      garrison becoming prisoners of war;
+    - the French, not Savary in person, rejected the 5th article of Lecoq's draft;
+    - Mortier's letter has the Prussian posts driven into the place, without naming who drove
+      them;
+    - Fort George's garrison "had many sick", as Höpfner says;
+    - at Nienburg the commandant urged free withdrawal on Savary in vain; the draft no longer says
+      that Savary refused it;
+    - Nienburg's bridgehead had bonnets and traverses by which cover against the heights "had been
+      sought";
+    - a date with no figure in its claim's citations was removed from Nienburg's side-B
+      information claim;
+  - added passages the reread showed were needed: the Prince of Waldeck's news of the 19th,
+    Mortier's statement that he could not delay his march on Hamburg, and the 10 pieces of ordnance
+    he left with Dumonceau.
+
+  The evidence check passes on all 2,857 sources and 44 drafts (880 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 1.9 million tokens for the two entries and their 91 records, by the session's
+  token counter.
+  - Hameln took most of it: a 32-page Prussian account, of which 23 pages were read, and 16 pages
+    of French documents. Nienburg added six pages of Höpfner and two of Foucart to the documents
+    it shares with Hameln.
+  - The estimate for the cohort's other 281 engagements stays at about 165 to 190 million tokens.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

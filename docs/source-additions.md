@@ -1848,3 +1848,47 @@ Höpfner names Marshal Ney's correspondence captured at Gutstadt in 1807 and the
 inquiry into the capitulation. Foucart's footnote quotes General Roguet's memoirs.
 
 Use: the draft for B376c. No model inputs are changed. The registry now holds 2,766 records.
+
+## Foucart, *Campagne de Pologne* t. I, and Foucart t. II and Höpfner Bd. 2 page images for Hameln and Nienburg, 2026-10-18
+
+91 records for sub-batch 2c-iv: one OCR parent and 45 page images with their figure
+transcriptions. No selection is added.
+
+- **Foucart, *Campagne de Pologne, novembre-décembre 1806 – janvier 1807 (Pultusk et Golymin)*,
+  t. I** (1882; Internet Archive `campagnedepolog02foucgoog`): the OCR parent
+  `foucart-pologne-1882-t1-ocr-v1`, retained complete, and 4 page images with transcriptions:
+  - pp. 132–133: the footnote that prints the 33rd Bulletin of 17 November with the suspension of
+    arms signed at Charlottenburg on 16 November, whose article 4 names Hameln and Nienburg,
+    Foucart's note on its ratification and an extract of the 35th Bulletin of 28 November;
+  - pp. 215–216: the Emperor's letter to the Grand Duke of Berg of 3 December, which reports the
+    surrender of Glogau and Nienburg. P. 215 carries no printed page number. Its page is fixed by
+    the chapter heading at its head and by the running head of p. 216 on the next leaf.
+
+  It is the volume that follows Foucart's *Campagne de Prusse*, by the same author from the same
+  archives, so the two are one witness family and never count as independent of each other. Its
+  leaf numbers, from the djvu.xml page boundaries, are n = printed + 23 to p. 305, + 25 for
+  pp. 306–512, + 27 for pp. 513–528 and + 29 from p. 529; the four registered images, all at
+  + 23, were checked.
+- **Foucart t. II**: 13 page images with transcriptions:
+  - the Emperor's letters to the King of Holland of 22 and 31 October (pp. 222, 223 and 559), to
+    Mortier of 7 November (pp. 771–772) and to Ney of 9 November (p. 794);
+  - Mortier's letters to the Emperor of 12 and 13 November (pp. 834–835 and 845–846);
+  - the end of the 29th Bulletin (p. 805), which takes its date from the image of p. 799,
+    registered for sub-batch 2c-i, and the 32nd Bulletin from its heading to the end of p. 849
+    (pp. 848–849).
+- **Höpfner Bd. 2**: 28 page images with transcriptions from chapter 19, on the Weser: Hameln,
+  pp. 347–350, 353, 357–361, 363–365, 367, 369–373 and 375–378, and Nienburg, pp. 378–383, each
+  whole or in the passages its note names.
+
+The OCR reads the year in the date line of the Emperor's letter to Mortier of 7 November as 1306
+(p. 771). Every figure is transcribed from the image, the small ones on full-resolution crops as
+the notes record, and no figure is taken from the OCR.
+
+Rights and dependence are as recorded for sub-batch 2b-i. *Campagne de Pologne* records its own:
+published 1882, marked NOT_IN_COPYRIGHT by the Internet Archive, and a Google scan whose notice asks
+for non-commercial use. In the passages read for Hameln, Höpfner cites General Savary's report for
+the prisoners and an enemy officer's statement for the French loss of 7 November; for Nienburg he
+names no source.
+
+Use: the drafts for B376d and B377a. No model inputs are changed. The registry now holds 2,857
+records.
