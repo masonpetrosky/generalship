@@ -1534,3 +1534,99 @@ Bunbury (1854) has no copyright-status field; its OCR front matter carries Corne
 Library's notice that there are no known copyright restrictions on the text in the United States.
 Koch is as recorded for batch 1c. Use: the drafts for B370c, B370d, B371a and B379c. No model
 inputs are changed. The registry now holds 2,364 records.
+
+## Foucart and Höpfner for Saalfeld, Jena and Auerstedt, 2026-10-17
+
+92 records pinned in `data/raw/napoleonic-fourth-coalition-1806-v1/` for batch 2a of the
+`fourth-coalition 1806` first pass (Saalfeld, Jena and Auerstedt):
+
+- **Foucart**, *Campagne de Prusse (1806): Iéna* (Paris, 1887), group `foucart-campagne-de-prusse`,
+  a new family. The documentary history of the campaign by Captain P. Foucart of the French army,
+  which prints the campaign's orders and reports; the Internet Archive's title adds "d'après les
+  archives de la guerre". By its preface, publishing the orders and the reports is the only way to a
+  true and exact account, and the author wished to know of the Prussian army only what the Emperor
+  knew of it day by day.
+  - The OCR (`foucart-prusse-1887-t1-ocr-v1`, item `campagnedepruss01foucgoog`), made with ABBYY
+    FineReader 8.0 from a University of California copy digitised by Google (Google Books
+    `l1pBAAAAIAAJ`).
+  - The selection `foucart-prusse-1887-t1-selections-v1`, with eight sections:
+    - `saalfeld-10-oct` (pp. 456–476) and `saalfeld-11-oct` (pp. 494–497), the documents of 10 and
+      11 October on Saalfeld;
+    - `second-bulletin` (pp. 522–525);
+    - `prussian-army` (pp. 611–613), the situation of the Prussian army from the 32nd Bulletin,
+      with Foucart's estimates and his extract of Lieutenant-Colonel von der Goltz;
+    - `fifth-bulletin` (pp. 614–620), with Foucart's notes;
+    - `suchet-jena` (pp. 632–635), General Suchet's report to Marshal Lannes;
+    - `jena-forces` (pp. 668–671), Foucart's discussion of the orders to Marshal Davout and of the
+      forces at Jena, with his tables;
+    - `auerstedt` (pp. 672–684), Davout's report and the 3rd corps's journal of operations, with
+      Foucart's notes.
+  - 26 page images with transcriptions:
+    - pp. 456, 457, 464, 465 and 474, for Saalfeld on the 10th, and pp. 494 and 497, for the 11th;
+    - pp. 522 and 524, the 2nd Bulletin;
+    - pp. 612–615, 617, 619 and 620, the Prussian army and the 5th Bulletin;
+    - pp. 632 and 635, Suchet's report, and pp. 670 and 671, the forces at Jena;
+    - pp. 672, 673, 678 and 682–684, for Auerstedt.
+- **Höpfner**, *Der Krieg von 1806 und 1807*, erster Theil, erster Band (Berlin, 1850), group
+  `hoepfner-krieg-1806-1807`, a new family. The history of the war by Colonel Eduard von Höpfner of
+  the Prussian general staff, worked up by its title page from the sources of the war archive. By
+  its preface (December 1849) it rests, besides the printed works, above all on the records of the
+  judicial inquiries held after the war, much of it on depositions established in court. It used
+  General Clausewitz's posthumous manuscript extensively.
+  - The OCR (`hoepfner-1850-bd1-ocr-v1`, item `derkriegvonundi00hpgoog`), made with Tesseract
+    5.0.0-rc2 from a library copy digitised by Google (Google Books `ZAcKAAAAIAAJ`). The text is set
+    in Fraktur.
+  - The selection `hoepfner-1850-bd1-selections-v1`, with nine sections:
+    - `errata`, the volume's list of misprints;
+    - `hohenlohe-9-oct` (pp. 240–241) and `saalfeld` (pp. 260–286);
+    - `jena-eve` (pp. 354–357) and `auerstedt-eve` (pp. 359–366), the eve of each battle;
+    - `jena` (pp. 369–411);
+    - `auerstedt` (pp. 429–471), with the fight at Sulza;
+    - `reflections` (pp. 473–475) and `reflections-auerstedt` (pp. 481–487), from chapter 10.
+  - 18 page images with transcriptions:
+    - pp. 255, 260, 262, 268, 275, 284 and 286, for Saalfeld;
+    - pp. 355 and 364–366, for the eve of the two battles;
+    - pp. 426 and 427, the losses at Jena;
+    - pp. 462, 471, 472, 481 and 485, for Auerstedt.
+
+**Dependence.**
+
+- Foucart prints the French documents, so it is not independent of them. They include the Emperor's
+  and the major general's letters and orders, the marshals' and generals' reports, extracts of the
+  corps journals and the Bulletins. The reports are interested accounts by their authors.
+- Foucart also prints, in a French translation held by its heading in the archives de la guerre, the
+  report on Saalfeld of M. de Mumpfling, an engineer in the King of Saxony's service. The report is a
+  Saxon witness, but it is counted in Foucart's family because the edition prints it.
+- Foucart's figures for the Prussian army are second-hand: the 32nd Bulletin, his own estimates from
+  it, and von der Goltz, whom he quotes. Goltz's sources were not checked. Foucart's notes also
+  quote Colonel Blein, whose account was not read beyond them.
+- Höpfner's figures for the French are second-hand, and the passages read do not name their source.
+  He quotes French documents in places, among them Napoleon's repeated order to Lannes for the 10th
+  and, at Auerstedt, a French report of its own loss. Whether these are the texts Foucart prints was
+  not checked.
+- No passage read shows that either work used the other.
+- Bodart matches figures in both families in places (see the research log), but the passages read do
+  not show what he used.
+
+The page images are single pages, served larger than 1600 px and downscaled. Foucart's leaf numbers
+are n = printed + 20 throughout the pages read. Höpfner's are + 20 to p. 315 and + 21 from p. 316;
+the scan carries the OCR of p. 317 on leaf 336, before pp. 316 and 317. Each image's printed page
+was checked on the image. Each transcription holds the whole page or the passages its note names,
+read from the image, and 18 of the 44 record a check of the figures on the Internet Archive's
+full-size page image. The OCR misreads figures that the images print: Foucart's '75' on p. 635 (OCR
+'(5') and the '26' of note 2 on p. 678 (OCR '86'). It also misreads page heads, such as '4G2' for
+Foucart's p. 462 and '459' for Höpfner's p. 455, so each quote's page is taken from the djvu.xml page
+boundaries and checked against the heads. No figure is taken from the OCR. Each selection records
+its parent's character ranges. The inspection note of Foucart's OCR record was corrected before
+registration was committed: it had not listed the pages and keyword hits read in the targeted
+follow-ups.
+
+Candidates for the later batches were downloaded but not registered, and were read only on their
+title pages and contents: Foucart's *Prenzlow-Lubeck* (1890) and *Campagne de Pologne* (1882), and
+volumes of Höpfner's later parts. The raw directory's `NOTES.md` lists them.
+
+Rights: Foucart (1887) and Höpfner (1850) are marked NOT_IN_COPYRIGHT by the Internet Archive. Both
+are Google scans whose OCR keeps Google's front-matter notice, which asks for non-commercial use and
+for the attribution watermark to be kept. Each is retained as the full OCR text with downscaled page
+images. Use: the drafts for B371b, B372a and B373a. No model inputs are changed. The registry now
+holds 2,456 records.

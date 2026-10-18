@@ -1168,6 +1168,170 @@ without subagents. The work is primary-verified; no separate review was made.
   million at this group's rate and about 200 million at the 1805 group's. At about 15 million a
   session that is roughly 12 to 13 sessions. About 12.5 million remain in this session.
 
+## 1806 first pass, batch 2a: Saalfeld, Jena and Auerstedt (2026-10-18)
+
+The first batch of `fourth-coalition 1806` (23 entries), the war against Prussia and Saxony, from
+Saalfeld to the two battles of 14 October:
+
+| Entry | Engagement | Dates (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B371b | Saalfeld | 10 October 1806 | 22 |
+| B372a | Jena | 14 October 1806 | 21 |
+| B373a | Auerstedt | 14 October 1806 | 22 |
+
+The group's five batches are planned in the raw directory's `NOTES.md`. The main session researched,
+drafted and verified the three without subagents. The work is primary-verified; no separate review
+was made.
+
+- **Sources.** Bodart and two new families, one for each side
+  ([source additions](source-additions.md)):
+  - Foucart's *Campagne de Prusse (1806): Iéna* (1887), the French staff edition of documents from
+    the archives de la guerre. It prints Napoleon's and the marshals' letters, the 2nd and 5th
+    Bulletins and a later one, General Suchet's and Marshal Davout's reports, the 3rd corps's
+    journal, Foucher's report on the 5th corps's artillery and M. de Mumpfling's Saxon report in
+    French translation. Foucart adds notes quoting Colonel Blein and Lieutenant-Colonel von der
+    Goltz, and his own tables.
+  - Höpfner's *Der Krieg von 1806 und 1807*, Theil 1, Bd. 1 (1850), the Prussian history from the
+    war archive, with reflections on each battle.
+
+  92 records were registered: two OCR parents, two selections, and 44 page images (26 of Foucart,
+  18 of Höpfner) with their figure transcriptions. Every figure in a strength value or a recorded
+  loss is read from a page image. Sums are labelled as ours.
+  - Bodart matches these sources in places, by our arithmetic:
+    - At Saalfeld his 14 French guns equal Foucher's 2, 10 and 2, and his 33 guns Höpfner's 15
+      and 18.
+    - At Jena his side B officers (312, with 9 generals and 46 staff officers) and his Saxon
+      officers (114) equal Höpfner's.
+    - At Auerstedt his 3,000 prisoners and 115 cannon equal the 3rd corps's journal, and so do
+      his 252 French officers.
+
+    The passages read do not show what he used.
+  - Mumpfling's report is a Saxon witness. It is counted in Foucart's family because it is printed
+    in the same edition.
+- **Drafts.** 65 claims with 1,220 citations, all supported. Every draft covers the nine
+  dimensions.
+  - Phases: 29 unresolved, 13 commander-created, 12 post-outcome and 11 inherited.
+  - Posture:
+    - Saalfeld: the accounts differ, so there are two claims, both commander-created. In Lannes's
+      letter, the 2nd Bulletin and Höpfner, Lannes attacked the prince's position and the
+      prince's last advance was a show of attack (A_attacked). In Suchet's report and Mumpfling's
+      the prince made a main attack of his own (both_attacked).
+    - Jena: both sides attacked (both_attacked, commander-created). The French attacked
+      Tauentzien's detachment and later Hohenlohe's line. Hohenlohe, Holtzendorf and Rüchel made
+      main attacks of their own.
+    - Auerstedt: a meeting engagement in which both sides attacked (both_attacked,
+      commander-created).
+  - Fortification: none_named for all three, tagged unresolved.
+    - Saalfeld: a coding that counted the barricaded gates would give B_fortified. One that also
+      counted the garden walls covering the French skirmishers would give both_fortified.
+    - Jena: counting the garden enclosures of Vierzehnheiligen as walls would give A_fortified.
+    - Auerstedt: Hassenhausen was held from its houses, hollow roads, hedges and gardens, with no
+      works named.
+- **Disputes kept visible.**
+  - Saalfeld:
+    - Side A's strength: 12,000 with 14 guns (Bodart); hardly more than 4,000 of the division
+      Suchet engaged (Lannes); half of that division (the 2nd Bulletin); about 14,000 (Höpfner).
+    - The guns taken: 21 with 6 more expected, then 36 to 40 (Lannes); 25 guns and 2 howitzers
+      (Foucher); 30 (the Bulletin); 33 (the parenthesis in Suchet's report, Höpfner and Bodart).
+    - The prisoners: from about 800 (Lannes) to 1,500 or 1,800 (the parentheses in Suchet's
+      report), against Bodart's 1,100.
+    - The French loss: 172 for Suchet's division (Suchet); about 200 with 14 officers (Bodart).
+    - The prince's last advance: a show of attack (Höpfner); a charge to carry the heights
+      (Suchet); a decisive attack (Mumpfling).
+    - Whether Hohenlohe's order reached the prince.
+  - Jena:
+    - Side A's strength: 96,000, of whom 54,000 came into action (Bodart). Foucart's tables give
+      83,600 men and 12,300 horses, 95,900 in all (our arithmetic), with several divisions present
+      but not engaged.
+    - Side B's strength: 54,000 with 17,000 Saxons (Bodart); some 50,000 (Höpfner); 40,000 for
+      Hohenlohe and 15,000 for Rüchel (Goltz); 44,000 and 28,000 (Foucart's estimates); 80,000
+      for the two corps before Jena (the 5th Bulletin).
+    - The French loss:
+      - 1,000 or 1,100 killed and 3,000 wounded (the 5th Bulletin), read as covering both fields;
+      - 2,645 with 75 officers for Suchet's division, perhaps with Saalfeld (Suchet);
+      - about 6,000 with 333 officers (Bodart);
+      - no credible figure (Höpfner).
+    - Side B's loss:
+      - 30,000 to 40,000 prisoners and more than 20,000 killed or wounded for both fields (the
+        Bulletin);
+      - about 12,000 killed and wounded, 15,000 prisoners and 112 cannon (Bodart, the men from
+        French sources);
+      - 312 officers (our arithmetic) and 24 Prussian guns without the battalion guns, the men's
+        loss not to be stated (Höpfner).
+    - The French centre's second attack: at Hohlstedt (the Bulletin); at Vierzehnheiligen
+      (Foucart's note, from Suchet's report).
+  - Auerstedt:
+    - Side A's strength: 27,300 with 44 guns (Bodart); 26,000 present of 28,874 effective
+      (Foucart); about 33000 (Höpfner).
+    - Side B's strength: 50,000 (Bodart, Goltz, the 5th Bulletin and Höpfner); about 48—49,000
+      (Höpfner's reckoning); 54,000 (Foucart's estimate); more than 60,000 (Davout).
+    - The French loss: 252 officers and 6,581 men in three divisions (the 3rd corps's journal);
+      7,100 with 252 officers (Bodart); 270 officers and 7000 men (a French self-report in
+      Höpfner).
+    - The Prussian loss: about 15,000 killed or wounded, 3,000 prisoners and 115 cannon (the
+      journal); about 10,000 killed and wounded, 3,000 prisoners and 115 cannon (Bodart); 268
+      officers (our arithmetic) and 57 guns without the battalion guns (Höpfner).
+    - Also disputed: how far the reserve and the Guards were engaged, the fates of Schmettau and
+      the Duke of Brunswick, and the hour Gudin's division crossed at Kösen.
+- **Gaps and the targeted follow-ups.**
+  - Saalfeld: side A's strength. The follow-up searched Foucart's OCR for 'SITUATION' and
+    'Suchet', and read the documents of 11 October and the 2nd Bulletin. It found no return of
+    the 5th corps. Foucher's guns, 2, 10 and 2, make Bodart's 14 (our arithmetic).
+  - Jena: side A's loss. The follow-up searched Foucart's Jena documents (pp. 621–668) for
+    'pertes' (12 hits) and 'tués' (24), read every hit, and selected and transcribed Suchet's
+    report. The hits are mostly losses of single units. Two larger totals were read only in the
+    OCR: the 4th corps's journal for the division Saint-Hilaire and the cavalry, and Ney's for
+    his advanced guard. There is no return for the French army at Jena.
+  - Auerstedt: how much of side B came into action. The follow-up read Höpfner's account
+    (pp. 429–471), added the fight at Sulza to the selection, and transcribed four pages. In
+    Höpfner the division Arnim fired no shot before the retreat was ordered, and the Guards and
+    light troops at Sulza, 8 battalions (our arithmetic), fought a flank action. No source read
+    counts the troops engaged.
+- **Verification.** The three drafts were checked as a batch before release. The check:
+  - read every claim of all three drafts against its cited passages and their context, and
+    checked each page locator against the page images or the OCR's page heads;
+  - checked every figure in a value against a page-image quote, and every English rendering of an
+    OCR passage for digits and number words. The remaining flags are page numbers, number words,
+    and figures read from page images.
+  - fixed what it found:
+    - Saalfeld:
+      - renderings that dropped the sources' hedges ('il paraît', 'wohl', 'sans doute');
+      - a footnote of Foucart's credited to Suchet's report;
+      - a mistranslated 'sous le rapport de' and an overstated 'last attack';
+      - the subject of Suchet's advance and the timing of the prince's march;
+      - the family note, which had counted Mumpfling's report as a separate family.
+    - Jena:
+      - Rüchel's message to Tauentzien, whose addressee the value had left unnamed;
+      - the cause of Rüchel's march: the prince's request, chosen over the King's summons;
+      - the answer to Zeschwitz, which Höpfner does not attribute to the prince;
+      - the prince's order to Holtzendorf, which its bearer could not deliver in time, and
+        Holtzendorf's attack, now cited as made;
+      - dropped hedges ('mußte', 'wohl', and Höpfner's judgment that waiting was wise);
+      - 'alors' rendered as 'at last', and 'en venir aux mains' as 'the general engagement';
+      - an overstated 'last favourable moment';
+      - two renderings that ran beyond their quotes.
+
+      17 citations were added, chiefly to show who spoke or acted.
+    - Auerstedt:
+      - the 'Laffetenkasten' rendering, Höpfner's Meile, and several referents;
+      - four added citations;
+      - an inspection note on p. 428 and an overstatement about chapter 10;
+      - Foucart's page range (668–671).
+  - found all 44 figure transcriptions cited. Of the selections' 17 sections, 16 are cited. The
+    exception is Foucart's `second-bulletin`, whose text is cited from the transcriptions of its
+    pp. 522 and 524.
+
+  The evidence check passes on all 2,456 sources and 29 drafts (608 claims, 6 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 6.2 million tokens of the session's budget, roughly 2 million an entry. The
+  batch held the group's three largest battles, two new families and 92 records. Its verification
+  read every claim of all three drafts against its passages.
+  - Of the group's other 20 entries, 14 are capitulations (one after an investment) and one is a
+    siege. The other five are battles or combats: Halle, Lübeck, Czarnowo, Pultusk and Golymin.
+  - The cohort's 296 remaining engagements would need about 600 million tokens at this batch's
+    rate. At the finished groups' rates they would need about 170 to 200 million.
+  - About 6.3 million remain in this session.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

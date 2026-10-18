@@ -31,14 +31,14 @@ directory and a validator bound to cohort v1, and a campaign group's packet is w
 frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
 check now rebuilds every selection from its parent.
 
-**Next:** first passes by complete campaign group; the next group is `fourth-coalition 1806`
-(23 entries). On 2026-10-16 the owner set no usage cap and had the main session research, draft
-and verify each group itself, without subagents
+**Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
+(23 entries), and its next batch is 2b, from Erfurt to Wolgast. On 2026-10-16 the owner set no
+usage cap and had the main session research, draft and verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)). Usage is logged per
 group.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, all primary-verified
-([research log](research-log.md)).
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 3 of the 23 entries of
+`fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
 
 - `third-coalition 1805`, all 22 entries in six batches:
   - batch 1a: Wertingen, Günzburg and Haslach (B363a–c);
@@ -56,10 +56,15 @@ group.
 - `third-coalition 1806`, the French conquest of Naples: Campo Tenese, Maida and the sieges of
   Gaëta and Amantea (B370c, B370d, B371a and B379c). The check before release removed one citation
   that took Gaëta past the brief's three source families. The group used about 2.3 million tokens.
+- `fourth-coalition 1806`, in progress: batch 2a, Saalfeld, Jena and Auerstedt (B371b, B372a and
+  B373a), from Foucart's edition of the French documents and Höpfner's Prussian history. It used
+  about 6.2 million tokens.
 
-The other 14 groups (299 engagements) would need about 175 to 200 million tokens at the two
-groups' rates, roughly 12 to 13 sessions. The Civil War work below is complete as recorded, and its
-cohorts, ledgers and runs are unchanged.
+The cohort's other 296 engagements would need about 170 to 200 million tokens at the two finished
+groups' rates, roughly 11 to 13 sessions. At batch 2a's rate of about 2 million an entry they would
+need about 600 million; its three entries are the group's largest battles, and 14 of the group's
+other 20 are capitulations. The Civil War work below is complete as recorded, and its cohorts,
+ledgers and runs are unchanged.
 
 ## Open owner decisions
 
