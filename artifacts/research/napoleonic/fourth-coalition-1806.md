@@ -35336,6 +35336,2837 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft (not verified history; extend or correct it):
+
+```json
+{
+  "schema_version": 1,
+  "battle_id": "B377d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Bounded first pass for Bodart's Pultusk entry (battle, 26 December 1806) in cohort v1's fourth-coalition 1806 group: Marshal Lannes's corps and the 3rd division of Marshal Davout's corps (Gudin's, under General Daultanne) against General Bennigsen's Russian army at Pultusk, from the French approach on 25 December to the Russian retreat in the night and morning of 27 December. Side B's retreat to Pultusk, the orders of 25 and 26 December and the movements of the other French corps are context. The combat of Golymin on the same day, a separate entry, the fighting at Czarnowo and Nasielsk before it, and the pursuit toward Rozan and Ostrolenka after 27 December are outside this entry; the 14 pieces that a Russian column abandoned near Moszyn on the 3rd division's march are reported with their place and time. Draft claims do not alter model inputs.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart gives side A (French) 24 battalions, 27 squadrons and 55 guns, 26,000 men, under Marshal Lannes, and side B (Russian) 66 battalions, 75 squadrons and 200 guns, 44,000 men, under General of Cavalry von Bennigsen, at Pultusk on 26 December 1806. By his stated rule his figures are the forces available for the engagement, rounded up.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 66 battalions are Höpfner's 66 for the Russian force at Pultusk, but his 75 squadrons are 20 more than Höpfner's 55 and his 44,000 is 3,400 more than Höpfner's 40,600 (claim hoepfner-side-b; our arithmetic). Höpfner could not determine how many guns were in action and rejects the 150 of Prince Eugen of Württemberg's diary, and Lannes reported about 50 pieces in battery (claims hoepfner-side-b and foucart-side-b), against Bodart's 200 (our comparison). His 24 battalions are Höpfner's 24 for Lannes's corps, without the 9 battalions of Gudin's division that General d'Aultanne brought up, and his 27 squadrons are one more than Höpfner's 26; his 26,000 lies between Höpfner's 'some 20,000' for Lannes's corps and 'about 30,000' with Gudin's division (claim side-a-strength; our comparison). Whether Bodart counts the 3rd division of Davout's corps is not shown. The forces at hand followed both commanders' decisions (claims side-b-command and daultanne-decision), so the phase is unresolved. Which source Bodart used was not checked. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the heading and entry: '1806 26/12. Battle at Pultusk (4.)'; 'victory of the French (24 battalions, 27 squadrons, 55 guns = 26,000 men) under Marshal Lannes over the Russians (66 battalions, 75 squadrons, 200 guns = 44,000 men) under General of Cavalry von Bennigsen'. 'Btln.' is Bataillon, 'Esk.' Eskadron, 'Gesch.' Geschütze, 'Gen. d. Kav.' General der Kavallerie and 'M.' Mann in Bodart's list of abbreviations.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (24 Btln., 27 Esk., 55 Gesch. = 26.000 M.) unter Marschall Lannes über die Russen (66 Btln., 75 Esk., 200 Gesch. = 44.000 M.) unter Gen. d. Kav. von Bennigsen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p046",
+          "locator": "Bodart (1908), p. 46",
+          "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p047",
+          "locator": "Bodart (1908), p. 47",
+          "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Btln. — Bataillon"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Esk. — Eskadron"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gesch. — Geschütze"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gen. d. Kav. — General der Kavallerie"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        }
+      ]
+    },
+    {
+      "id": "hoepfner-side-b",
+      "dimension": "strength",
+      "value": "Side B (Russian) in Höpfner: the Russian forces assembled at Pultusk on 26 December had melted, through the losses suffered, sickness and the detachments of Prince Gallizin and General Pahlen, to 40,600 men: 66 battalions, 55 squadrons, 7 foot and 2½ horse batteries and 5 Cossack pulks. Where the 5 squadrons missing by this count, the Courland dragoons, were on the day could not be determined, nor how many guns were in action; Prince Eugen of Württemberg's diary speaks of 150 guns still present, which Höpfner says cannot be right, and the 3 Prussian batteries with the army in the retreat were not at the battle. The infantry stood in three lines: 21 battalions of the 3rd and 2nd Divisions in the first, 18 in the second and 5 battalions of the 4th and 6th Divisions in the third. General Barclay de Tolly held the projecting wood on the right wing of the main body with the 1st, 3rd and 20th Jäger Regiments, with 2 battalions of the Tenginsk regiment in reserve and its 3rd battalion covering a battery; the Polish horse regiment stood between the wood and Mosino. General Baggowut's reinforced detachment before the left wing had the Starokol and Wilna regiments, 1 battalion of the Reval Musketeer Regiment, the 4th Jäger Regiment, the Tatar Horse Regiment, 2 squadrons of the Kiev Dragoons, 600 Cossacks and a battery, all of the 6th Division. 28 squadrons linked the two, the Cossacks with 10 squadrons of Alexandrov hussars spread out in front, and the cavalry and Cossacks were over 7000 men; a battalion of General Anrepp's 14th Division held the Narew bridge on the left bank while the division marched on to Ostrolenka by the field marshal's order. In the battle Bennigsen sent General Ostermann-Tolstoy with the Tula and 1 more battalion of the Reval regiment in support as far as the ravine; the Tschernigow and Lithuanian musketeer regiments and 20 squadrons went to Barclay; and the Murom and the 2nd battalion of the Reval regiment reinforced Baggowut. 29 Russian battalions did not come into action at all. General Buxhöwden, whom Bennigsen asked to serve as his reserve, returned to Makow with the 5th Division by the field marshal's order.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, the history of side B's ally, read from the page images (pp. 108-111, 113, 114, 116, 118 and 119). He names no source for the 40,600 or the order of battle (dependency note), and his footnotes say what he could not determine. The three lines make 44 battalions (our arithmetic); the passages read do not add the other battalions up to 66. His 40,600 is 3,400 below Bodart's 44,000 and his 55 squadrons 20 below Bodart's 75 (claim bodart-strength; our arithmetic). The force at Pultusk followed Bennigsen's decision to stand and the field marshal's orders to the other divisions (claim side-b-command), so the phase is unresolved. English renderings (ours): 'the Russian forces assembled at Pultusk on 26 December had melted, through the losses suffered and sickness, as well as through the detachments of Prince Gallizin and General Pahlen, to 40,600 men'; '66 battalions, 55 squadrons, 7 foot and 2½ horse batteries, 5 Cossack pulks'; 'where the 5 squadrons missing by this count, namely the Courland dragoons, were on the day of the battle could not be determined'; 'how many guns of the army, after deducting those lost and those already sent back, were in action in the battle at Pultusk could not be determined'; 'Prince Eugen of Württemberg says in his diary that 150 guns were still present, which however cannot be right'; 'that heavy artillery had been sent back is confirmed simply by the fact that the 3 Prussian batteries present with the army on the retreat were not present at the battle'; 'the infantry formed in three lines; in the first line 21 battalions of the 3rd and 2nd Divisions; in the second 18, and in the third line 5 battalions of the 4th and 6th Divisions'; 'General Barclay de Tolly held that projecting wood on the right wing of the main body with the 1st, 3rd and 20th Jäger Regiments, against an enemy advancing from Strzegocin as well as from Warsaw'; '2 battalions of the Tenginsk regiment stood in reserve; the 3rd battalion covered a battery that commanded the road to Strzegocin and Golymin; the Polish horse regiment stood between the wood and Mosino'; 'in front of the left wing, or forward of the domain of Gorki, on the road to Warsaw and beyond a ravine that runs down toward the Narew, stood, to cover the Narew bridge and the town as well as the army's left wing, the reinforced detachment of General Baggowut, consisting of the Starokol, the Wilna and 1 battalion of the Reval Musketeer Regiment, the 4th Jäger Regiment, the Tatar Horse Regiment, 2 squadrons of the Kiev Dragoon Regiment, 600 Cossacks and a battery, all troops of the 6th Division'; 'to link this detachment with General Barclay, 28 squadrons, which at first had stood on both' (p. 110); 'wings and in the reserve, had moved forward, and further forward the Cossacks, supported by 10 squadrons of Alexandrov hussars, spread out and swarmed in the bushes in front to observe the enemy' (p. 111); 'the cavalry and Cossacks, over 7000 men strong, stood very suitably to attack and hold up the enemy as he debouched from the woods'; 'a battalion of the 14th Division of General Anrepp held the Narew bridge on the left bank'; 'the division itself, which was on the march to Pultusk, continued its march to Ostrolenka on the left bank in consequence of the field marshal's order'; 'while General Bennigsen, who had the holding of Pultusk particularly at heart, sent General Ostermann-Tolstoy with the Tula and 1 more battalion of the Reval' (p. 113); 'Musketeer Regiment in support as far as the ravine' (p. 114); 'the Tschernigow Musketeer Regiment, standing on the extreme right wing, went forward to support General Barclay, and soon the Lithuanian Musketeer Regiment from what was now the second line and 20 squadrons followed too'; 'General Baggowut was thrown back at all points with the loss of his guns' (p. 117); 'into and over the ravine' (p. 118); 'reinforced by the Murom and the 2nd battalion of the Reval Musketeer Regiment and supported by a battery of General Ostermann, the Russian general went over the ravine again, threw the French back and retook the lost guns'; '29 Russian battalions did not come into action at all'; 'to that end, informing him of his decision, he had at once most urgently asked General Count Buxhöwden to serve him at least as a reserve'; 'in consequence of the field marshal's earlier order, General Count Buxhöwden had already marched off from Makow to Pultusk with the 5th Division very early on the 26th'; 'after a council of war had been held, the general resolved to follow the field marshal's order, and returned to Makow with the troops'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Die am 26. Dezember bei Pultusk versammelten russischen Streitkräfte waren durch die gehabten Verluste und Krankheiten, so wie durch die Detaschements des Fürsten Gallizin und des Generals Pahlen auf 40,600 Mann geschmolzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "66 Bataillonen, 55 Schwadronen¹), 7 Fuß- und 2½ reit. Batterien²), 5 Kosaken-Pulks."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "1) Wo die hiernach fehlenden 5 Schwadronen, nämlich die Kurländischen Dragoner, am Tage der Schlacht gewesen, war nicht zu ermitteln."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "2) Wie viel Geschütze bei der Armee nach Abrechnung der verloren gegangenen und der bereits zurückgeschickten in der Schlacht bei Pultusk in Thätigkeit gewesen sind, war nicht zu ermitteln."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Der Prinz Eugen v. Württemberg spricht in seinem Tagebuche davon, daß noch 150 Geschütze vorhanden gewesen seien, was indessen nicht richtig sein kann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Daß schwere Artillerie zurückgeschickt worden war, bestätigt sich schon dadurch, daß die bei der Armee auf dem Rückzuge anwesend gewesenen 3 preußischen Batterien bei der Schlacht nicht gegenwärtig waren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Die Infanterie formirte sich in drei Treffen; im ersten Treffen 21 Bataillone der 3. und 2. Division; im zweiten 18 und im dritten Treffen 5 Bataillone der 4. und 6. Division."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Der General Barclay de Tolly hielt mit dem 1., 3. und 20. Jäger-Regiment jenes vorspringende Gehölz auf dem rechten Flügel des Gros, sowohl gegen einen von Strzegocin als von Warschau anrückenden Feind, besetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "2 Bataillone des Tenginskischen Regiments standen in Reserve; das 3. Bataillon deckte eine Batterie, welche die Straße nach Strzegocin und Golymin beherrschte; das polnische Reiter-Regiment stand zwischen dem Gehölz und Mosino."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Vor dem linken Flügel oder vorwärts des Amtes Gorki, auf der Straße nach Warschau und jenseits eines Ravins, das gegen den Narew hinabzieht, stand zur Deckung der Narewbrücke und der Stadt, so wie auch des linken Flügels der Armee, das verstärkte Detaschement des Generals Baggowut, bestehend aus dem Starokolschen, Wilnaschen und 1 Bataillon des Revalschen Musketier-Regiments, dem 4. Jäger-Regiment, dem Tartarischen Reiter-Regiment, 2 Schwadronen des Kiewschen Dragoner-Regiments, 600 Kosaken und einer Batterie, alles Truppen der 6. Division."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Zur Verbindung zwischen diesem Detaschement und dem General Barclay waren 28 Schwadronen, die Anfangs auf beiden"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Flügeln und in der Reserve gestanden hatten, vorgegangen, und weiter vorwärts dehnten sich die Kosaken, unterstützt durch 10 Schwadronen Alexandrowscher Husaren, aus, und schwärmten zur Beobachtung des Feindes in den vorliegenden Gebüschen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Die über 7000 Mann starke Kavallerie und Kosaken standen ganz zweckmäßig, um den Feind beim Debouschiren aus den Waldungen anzugreifen und aufzuhalten;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Ein Bataillon der 14. Division des Generals Anrepp hielt die Narewbrücke auf dem linken Ufer besetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Die Division selbst, die auf dem Marsch nach Pultusk begriffen war, setzte in Folge des Befehls des Feldmarschalls den Marsch nach Ostrolenka auf dem linken Ufer fort."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "während der General Bennigsen, dem die Festhaltung von Pultusk besonders am Herzen lag, den General Ostermann-Tolstoy mit dem Tulaschen und noch 1 Bataillon des Revalschen"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p114-figures-v1",
+          "section": "p114",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 114 (transcribed from the page image)",
+          "quote": "Musketier-Regiments zur Unterstützung bis an den Ravin vorschickte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Das auf dem äußersten rechten Flügel stehende Musketier-Regiment Tschernigow ging zur Unterstützung des Generals Barclay vor und bald folgte auch das Litthauische Musketier-Regiment aus dem nunmehrigen zweiten Treffen und 20 Schwadronen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Der General Baggowut wurde auf allen Punkten mit Verlust seiner Geschütze"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "bis in und über den Ravin zurückgeworfen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Durch das Muromsche und 2. Bataillon des Revalschen Musketier-Regiments verstärkt und durch eine Batterie des Generals Ostermann unterstützt, ging der russische General aufs Neue über den Ravin, warf die Franzosen und eroberte die verloren gegangenen Geschütze zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "29 russische Bataillone sind gar nicht zum Gefecht gekommen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Er hatte zu dem Ende unter Mittheilung seines Entschlusses sofort den General Grafen Buxhöwden auf das Dringendste ersucht, ihm wenigstens als Reserve zu dienen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "In Folge des frühern Befehls des Feldmarschalls war der General Graf Buxhöwden bereits am 26. in aller Frühe mit der 5. Division von Makow nach Pultusk abmarschirt,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Nach abgehaltenem Kriegsrath beschloß der General, dem Befehle des Feldmarschalls Folge zu geben, und kehrte nach Makow mit den Truppen zurück."
+        }
+      ]
+    },
+    {
+      "id": "foucart-side-b",
+      "dimension": "strength",
+      "value": "Side B (Russian) in the French reports Foucart prints. Marshal Lannes, on 27 December, put the Russian army that fought him at 40,000 to 50,000 infantry and 5,000 or 6,000 cavalry, with about 50 guns in battery; its advance guard, he wrote, was about 5,000 cavalry and some thousand Cossacks, about 8,000 infantry and 3 cavalry regiments were sent against his right, and his left withstood the fire of about 15,000 men. On 28 December he sent the Emperor the state of the Russian troops at the action and wrote that half of these regiments were in general made up of recruits. General Corbineau wrote on 28 December that it was generally estimated that Lannes had had in front of him 30,000 to 35,000 infantry and 4,500 to 5,000 cavalry, cuirassiers, dragoons, hussars and Cossacks; that the whole left wing of the Russian army appeared to have fought at Pultusk, the corps beaten at Nasielsk among it; and that a fresh corps of 26,000 to 30,000 men under General Buxhœvden at Ostrolenka had taken part neither at Pultusk nor at Golymin. The 3rd corps's journal speaks of the very superior forces of Kamenski's corps.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (pp. 462-464, 466, 467 and 514-517). Lannes's 40,000-50,000 infantry and 5,000-6,000 cavalry make 45,000 to 56,000 (our arithmetic), above Höpfner's 40,600 and Bodart's 44,000; Corbineau's figures make 34,500 to 40,000 (our arithmetic), and he gives them as a general estimate, not a count. Lannes's about 50 guns in battery are a quarter of Bodart's 200 (our arithmetic). Lannes was side A's commander reporting the day after the battle; neither he nor Corbineau names a return, and the state of the Russian troops Lannes sent is not printed in the passages read. The phase is unresolved, as in claim hoepfner-side-b. English renderings (ours): Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'I found the enemy established on the plain before this town; his advance guard' (p. 462); 'was made up of about 5,000 cavalry and some thousand Cossacks' (p. 463); 'at the same time the enemy sent about 8,000 infantry and 3 cavalry regiments against my right, seeking to outflank me'; 'the left withstood the fire of about 15,000 men, and but for a formidable artillery they had at the head of the bridge, whose fire crushed us when we advanced too far, this whole force would have been thrown into the river'; 'I put the Russian army that fought here yesterday at 40,000 to 50,000 infantry and 5,000 or 6,000 cavalry, with about 50 pieces of cannon in battery'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 28 December 1806'; 'I have the honour to send Your Majesty the state of the Russian troops that were at the affair of the day before yesterday'; 'half of these regiments in general are made up of recruits'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'it is generally estimated that Marshal Lannes' (p. 516); 'had in front of him 30,000 to 35,000 infantry, 4,500 to 5,000 cavalry, cuirassiers, dragoons, hussars and Cossacks' (p. 517); 'it appears that the whole left wing of the Russian army fought at Pultusk and that the corps beaten at Nasielsk was part of it'; 'at Ostrolenka there must be a corps of 26,000 to 30,000 men commanded by General Buxhœvden, with General Kamenski the son and General Essen under his orders; this corps is fresh and took part neither in the combat of Pultusk nor in that of Golymin'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the general, not wishing to commit himself against the very superior forces of Kamenski's corps, was making his dispositions to take up his night position when a heavy cannonade was heard toward Pultusk'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "J'ai trouvé l'ennemi établi sur la plaine devant cette ville; son avant-garde"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "était composée d'environ 5,000 hommes de cavalerie et de quelques mille cosaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "L'ennemi a fait porter en même temps environ 8,000 hommes d'infanterie et 3 régiments de cavalerie sur ma droite cherchant à me déborder."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "La gauche a résisté au feu d'environ 15,000 hommes, et sans une artillerie formidable qu'ils avaient à la tête du pont et dont le feu nous écrasait quand nous avancions trop, toute cette troupe était culbutée dans la rivière."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Je porte l'armée russe qui s'est battue ici hier de 40,000 à 50,000 hommes d'infanterie et 5,000 ou 6,000 de cavalerie, avec environ 50 pièces de canon en batterie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de faire passer à Votre Majesté l'état des troupes russes qui étaient à l'affaire d'avant-hier."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "La moitié de ces régiments en général sont composés de recrues."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "On estime généralement que le maréchal Lannes"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p517-figures-v1",
+          "section": "p517",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 517 (transcribed from the page image)",
+          "quote": "avait en tête 30,000 à 35,000 hommes d'infanterie, 4,500 à 5,000 hommes de cavalerie, cuirassiers, dragons, hussards et cosaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "Il paraît que toute l'aile gauche de l'armée russe a combattu à Pultusk et que le corps battu à Nasielsk en faisait partie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p517-figures-v1",
+          "section": "p517",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 517 (transcribed from the page image)",
+          "quote": "A Ostrolenka doit être un corps de 26,000 à 30,000 hommes commandés par le général Buxhœvden, ayant sous ses ordres le général Kamenski fils et le général Essen; ce corps est frais et n'a pris part ni au combat de Pultusk ni à celui de Golymin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le général ne voulant point se compromettre contre les forces très supérieures du corps de Kamenski, faisait ses dispositions pour prendre sa position de nuit, lorsqu'une forte canonnade se fit entendre vers Pultusk."
+        }
+      ]
+    },
+    {
+      "id": "side-a-strength",
+      "dimension": "strength",
+      "value": "Side A (French). In Höpfner, Marshal Lannes's corps had 24 battalions and 26 squadrons, probably some 20,000 men. It formed in 2 lines: in the first, most of Suchet's division, with General Claparède's advance guard, the 17th light, on the right, covered by Treilhard's light cavalry brigade; the 64th regiment and 1 battalion of the 88th under General Wedell in the centre; and the other battalion of the 88th, the 34th regiment and Becker's dragoon division under Suchet on the left. In the second, 2 regiments of Gazan's division and the 40th regiment of Suchet's, with the 2 battalions of Gazan's 21st regiment in reserve. General d'Aultanne brought up Gudin's division of Davout's corps, 9 battalions, and with it the French forces will have been about 30,000 men. Lannes reported that he placed Suchet's division on two lines and Gazan's behind it, also on two lines. In Foucart's narrative Davout had the retreating Russians followed from 7 in the morning by his 3rd division, General Daultanne, with 170 horses (dragoons and chasseurs); in the 3rd corps's journal 70 chasseurs of the 1st regiment and 100 dragoons of General Rapp led its march, and Daultanne's pencil note says 2 pieces of 8 supported the division. The summary return Foucart prints for the troops that took part in the operations of December 1806 gives the 5th corps 18,400 infantry and 1,100 cavalry and the 3rd corps 21,500 infantry and 750 cavalry present under arms.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 112, 113, 115 and 119; Foucart t. I pp. 462, 463 and 466-469, and t. II the unnumbered page on leaf n486). Höpfner's 'wohl etliche 20,000 Mann' and 'gegen 30,000 Mann' are his estimates and name no source. The return's 5th corps, 18,400 and 1,100, makes 19,500, and its 3rd corps 22,250 (our arithmetic); both rows are whole corps in the middle of December, by Foucart's comment, and the 3rd division's share of the 3rd corps is not given in the passages read, nor which reserve-cavalry row covers Becker's (Beker's) dragoons. Bodart's 24 battalions and 26,000 are compared in claim bodart-strength. Lannes's corps came on Napoleon's order (claim side-a-objectives) and the 3rd division on General Daultanne's own decision (claim daultanne-decision), so the phase is unresolved. Höpfner spells the general d'Aultanne, Foucart's documents Daultanne. English renderings (ours): Höpfner, 'it consisted of 24 battalions, 26 squadrons, probably some 20,000 men'; 'after defiling from the woods the French deployed parallel to the Russian position in 2 lines; in the first line the greater part of the division Suchet, namely on the right wing the former advance guard under General Claparède, that is the 17th light regiment of that division, covered on the right by the light cavalry brigade Treilhard; in the centre the 64th Regiment and 1 battalion of the 88th Regiment under General Wedell; on the left wing the other battalion of this regiment and the 34th Regiment with the dragoon division Becker, under General Suchet himself'; 'the second line was formed by 2 regiments of the division Gazan and the 40th Regiment of the division Suchet; in reserve followed the 2 battalions of the 21st Regiment of the division Gazan'; 'it was General d'Aultanne with the division Gudin of Davout's corps, 9 battalions'; 'the forces of the French will have amounted to about 30,000 men on the arrival of the division Gudin, so that a definite superiority remained on the Russian side until the last moment'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'I placed the division Suchet on two lines, and that of General Gazan behind it, also on two lines'; Foucart, 'for his part, Marshal Davout, informed that the Russian troops that had spent the night near Strzegocin were retreating on Pultusk by Kensy and Lady, had them followed from 7 in the morning by his 3rd division, General Daultanne, with 170 horses (dragoons and chasseurs)'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'day, preceded by 70 chasseurs of the 1st regiment, Captain Hulot, and by 100 dragoons of General Rapp' (p. 467); 'it was probably at this moment that General Daultanne wrote to Marshal Davout the following note in pencil'; 'Marshal Lannes is attacking Pultusk. The 3rd division arrives very opportunely. It falls on the enemy's flank' (p. 468); 'the roads do not allow the artillery to come up; nevertheless 2 8-pounders support the valour of this division' (p. 469); the return, 'summary return of the troops that took part in the operations of the campaign of December 1806'; 'present under arms'; 'infantry | cavalry'; '5th corps | 18,400 | 1,100'; '3rd corps | 21,500 | 750'; 'the summary return above, which is correct since it rests on authentic documents, proves that in the middle of December the whole cavalry of the army did not reach 25,000 horses and that the infantry did not exceed 110,000 men present under arms,'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Es bestand aus 24 Bataillonen, 26 Schwadronen, wohl etliche 20,000 Mann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Nach dem Defiliren aus den Waldungen entwickelten sich die Franzosen parallel mit der russischen Aufstellung in 2 Treffen; im ersten Treffen der größere Theil der Division Suchet, und zwar auf dem rechten Flügel die bisherige Avantgarde unter dem General Claparède, nämlich das 17. leichte Regiment jener Division, rechts gedeckt durch die leichte Kavallerie-Brigade Treilhard; im Centrum das 64. Regiment und 1 Bat. des 88. Regiments unter dem General Wedell; auf dem linken Flügel das andere Bataillon dieses Regiments und das 34. Regiment nebst der Dragoner-Division Becker, unter dem General Suchet selbst."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Das zweite Treffen bildeten 2 Regimenter der Division Gazan und das 40. Regiment der Division Suchet; in Reserve folgten die 2 Bat. des 21. Regiments der Division Gazan."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Es war der General d'Aultanne mit der Division Gudin des Davoutschen Korps, 9 Bataillone."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Die Kräfte der Franzosen werden beim Eintreffen der Division Gudin gegen 30,000 Mann betragen haben, so daß bis zum letzten Augenblick ein bestimmtes Uebergewicht auf russischer Seite verblieben ist."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "J'ai placé la division Suchet sur deux lignes, et celle du général Gazan en arrière, aussi sur deux lignes."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "De son côté, le maréchal Davout, informé que les troupes russes qui avaient couché près de Strzegocin, effectuaient leur retraite sur Pultusk par Kensy et Lady, les faisait suivre dès 7 heures du matin par sa 3e division, général Daultanne, avec 170 chevaux (dragons et chasseurs)."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "jour précédée par 70 chasseurs du 1er régiment, capitaine Hulot, et par 100 dragons du général Rapp."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "1. Ce fut probablement à ce moment que le général Daultanne écrivit au maréchal Davout le billet suivant au crayon :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "Le maréchal Lannes attaque Pultusk. La 3e division arrive fort à propos. Elle tombe sur le flanc de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "les chemins ne permettent pas à l'artillerie d'arriver; cependant 2 pièces de 8 secondent la valeur de cette division."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "SITUATION SOMMAIRE DES TROUPES QUI PRIRENT PART AUX OPÉRATIONS DE LA CAMPAGNE DE DÉCEMBRE 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "Présents sous les armes.\nInfanterie. | Cavalerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "5e corps | 18 400 | 1 100"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "3e corps | 21 500 | 750"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t2-n486-figures-v1",
+          "section": "n486",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. II (1882), unnumbered page on leaf n486 (transcribed from the page image)",
+          "quote": "La situation sommaire ci-dessus, qui est juste puisqu'elle s'appuie sur des documents authentiques, prouve qu'au milieu de décembre toute la cavalerie de l'armée n'atteignait pas 25,000 chevaux et que l'infanterie ne dépassait pas 110,000 hommes présents sous les armes,"
+        }
+      ]
+    },
+    {
+      "id": "bodart-commanders",
+      "dimension": "responsibility",
+      "value": "Bodart names Marshal Lannes as side A's commander and General of Cavalry von Bennigsen as side B's. In Höpfner, Bennigsen resolved to stand at Pultusk in spite of Field Marshal Kaminskoi's definite order for an immediate retreat; Marshal Lannes set his corps in motion again at 7 in the morning of the 26th; and General d'Aultanne brought up Gudin's division of Davout's corps. General Corbineau wrote on 28 December that he had been assured that General Bennigsen lodged at Pultusk on the 26th and commanded the corps that fought Marshal Lannes, with Generals Leewof, Nedmiorasky, Ostermann and Barclay de Tolly and others under his orders.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's printed entry, read from the page image in the frame transcription; Höpfner and Foucart from the page images (Höpfner pp. 108, 112 and 115; Foucart pp. 515 and 516). The commands were set before the battle, so the claim is tagged inherited. Lannes's decision to attack is in claim lannes-decision, Daultanne's to join the battle in claim daultanne-decision and Bennigsen's decisions in claim side-b-command. Lannes's own report has the Russian general in chief commanding in person (claim lannes-on-russian-command). Corbineau's 'On m'a assuré' is hearsay. English renderings (ours): Bodart, as in claim bodart-strength; 'Btln.' is Bataillon, 'Esk.' Eskadron, 'Gesch.' Geschütze, 'Gen. d. Kav.' General der Kavallerie and 'M.' Mann in Bodart's list of abbreviations; Höpfner, 'despite Field Marshal Kaminskoi's definite order for an immediate retreat, General Bennigsen had nevertheless resolved to stand at Pultusk, at the risk of a battle against great superiority and under heavy responsibility'; 'Marshal Lannes had set his corps in motion again at 7 in the morning of the 26th'; 'it was General d'Aultanne with the division Gudin of Davout's corps, 9 battalions'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'I have been assured that General Bennigsen lodged at Pultusk on the 26th and that he commanded the corps that fought Marshal Lannes'; 'he had under his orders Generals Leewof, Nedmiorasky, Ostermann and Barclay de Tolly, and some others whom no one could name to me'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (24 Btln., 27 Esk., 55 Gesch. = 26.000 M.) unter Marschall Lannes über die Russen (66 Btln., 75 Esk., 200 Gesch. = 44.000 M.) unter Gen. d. Kav. von Bennigsen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gen. d. Kav. — General der Kavallerie"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Trotz des bestimmten Befehls des Feldmarschalls Kaminskoi zum sofortigen Rückzuge, hatte sich der General Bennigsen dennoch entschlossen, auf die Gefahr einer Schlacht gegen große Uebermacht und unter schwerer Verantwortung bei Pultusk halten zu bleiben."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der M. Lannes hatte am 26. Morgens 7 Uhr sein Korps wiederum in Bewegung gesetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Es war der General d'Aultanne mit der Division Gudin des Davoutschen Korps, 9 Bataillone."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "On m'a assuré que le général Bennigsen logeait le 26 à Pultusk et qu'il commandait le corps qui a combattu le maréchal Lannes."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "Il avait sous ses ordres les généraux Leewof, Nedmiorasky, Ostermann et Barclay de Tolly, quelques autres qu'on n'a pu me nommer."
+        }
+      ]
+    },
+    {
+      "id": "lannes-on-russian-command",
+      "dimension": "responsibility",
+      "value": "Marshal Lannes reported to the Emperor on 27 December that the Russian general in chief commanded in person and had General Bennigsen with him.",
+      "status": "disputed",
+      "phase": "inherited",
+      "rationale": "Read from the page images (pp. 462 and 465). A different account of side B's command from Bodart's, Höpfner's and Corbineau's (claim bodart-commanders), kept as a dispute and not resolved. Lannes does not name the general in chief. The major general's letter of 25 December placed the field marshal commanding the Russian army in chief at Nasielsk, where the division beaten on the Wkra had been beaten; Höpfner has Field Marshal Kaminskoi order the retreat that Bennigsen disobeyed and Buxhöwden obeyed (claim side-b-command), without saying in the pages read where the field marshal was on the 26th (our reading). The command was set before the battle, so the claim is tagged inherited. English renderings (ours): Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'the Russian general in chief commanded in person. He had General Bennigsen with him'; the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'the division that defended the Wkra was beaten at Pomichowo, Czarnowo and Nasielsk, where the field marshal who commands the Russian army in chief was'; Höpfner, 'despite Field Marshal Kaminskoi's definite order for an immediate retreat, General Bennigsen had nevertheless resolved to stand at Pultusk, at the risk of a battle against great superiority and under heavy responsibility'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Le général en chef russe commandait en personne. Il avait avec lui le général Bennigsen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "La division qui défendait la Wkra a été battue à Pomichowo, Czarnowo et Nasielsk où se trouvait le feld-maréchal qui commande en chef l'armée russe."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Trotz des bestimmten Befehls des Feldmarschalls Kaminskoi zum sofortigen Rückzuge, hatte sich der General Bennigsen dennoch entschlossen, auf die Gefahr einer Schlacht gegen große Uebermacht und unter schwerer Verantwortung bei Pultusk halten zu bleiben."
+        }
+      ]
+    },
+    {
+      "id": "lannes-decision",
+      "dimension": "responsibility",
+      "value": "Side A's commander decided the attack on the field. In Höpfner, Marshal Lannes set his corps moving again at 7 in the morning of the 26th, reconnoitred in person with 2 squadrons and drove the Cossacks from the woods in front, but could not make out the Russian position because of the height south of Pultusk; he waited for the light infantry and artillery of the advance guard, drove off the Cossack chain with a few cannon shots and had the 17th light occupy the rise. From there, about 10 in the morning, he overlooked the Russian position and soon recognised his opponent's superiority in numbers and the advantages of the defensive in that ground. He had on one side Napoleon's definite order to take the Narew bridge and the certain prospect of no support, the Emperor having told him that he would advance against Golymin with the other corps, and on the other a superior enemy whose presence had evidently not been reckoned on when he was detached; he decided to attack the Russians, and about 11 General Claparède began the attack on General Baggowut's detachment. Lannes reported that he arrived before Pultusk with his corps about 10, and that as soon as he was formed he had the enemy advance guard attacked by the 17th light and the 88th; General Victor was ordered to attack the left bridge with the 34th and a battalion of the 64th, supported by Beker's division, and Lannes sent the rest of the 64th and all the 88th against the right bridge to cut off the enemy's retreat.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Read from the page images (Höpfner pp. 112 and 113; Foucart pp. 462-464). Lannes is side A's commander at this engagement (Bodart), and both accounts show him deciding the attack on the field, so the claim is tagged commander_created; the order to take Pultusk and cross the Narew came from above (claim side-a-objectives). Höpfner's explanation, that the French marshals were too used to the most exact obedience to their Emperor's orders for Lannes to hesitate long, is his own judgement. Lannes's 'pont de gauche' and 'pont de droite' are not reconciled with Höpfner's account of the Russian wings (claim pultusk-ground). English renderings (ours): Höpfner, 'Marshal Lannes had set his corps in motion again at 7 in the morning of the 26th'; 'the marshal went forward in person with 2 squadrons to reconnoitre, drove the roving Cossacks out of the woods in front, but could not discover the Russians' position because of the height south of Pultusk'; 'he therefore awaited the arrival of the light infantry and artillery of the advance guard, drove off the advanced chain of Cossacks with a few cannon shots and had the 17th light regiment occupy the gentle height the Cossacks had held'; 'from this height the marshal overlooked the Russian position about 10 in the morning and very soon recognised his opponent's superiority in numbers, as well as the advantages of the defensive in this ground, which made every movement to attack difficult and did not allow the mass of the artillery to be brought into action together with the troops'; 'on the one side Napoleon's definite order to take the Narew bridge and the certain prospect of receiving no support, as the Emperor had told him that he would advance against Golymin with the other corps of the right wing and the centre'; 'side a superior enemy, on whose presence they had evidently not reckoned when the marshal was detached' (p. 113); 'however, the French marshals were too used to the most exact obedience to their Emperor's orders for Marshal Lannes to have long doubted what was to be done in this case; he decided to attack the Russians'; 'in this formation, with a strengthened right wing, the French advanced parallel to the Russian front, and about 11 o'clock General Claparède began the attack on General Baggowut's detachment'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'Sire, I arrived yesterday before Pultusk with my army corps about 10 o'clock'; 'as soon as I was formed, I had the enemy advance guard attacked by the 17th light and the 88th'; 'General Victor received the order to attack the left bridge with the 34th and a battalion of the 64th supported by the division Beker'; 'then I sent the rest of the 64th and the whole 88th against the right bridge to' (p. 463); 'cut off his retreat to the bridge, and I had him attacked by the 17th after a most lively fusillade' (p. 464).",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der M. Lannes hatte am 26. Morgens 7 Uhr sein Korps wiederum in Bewegung gesetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der Marschall ging persönlich mit 2 Schwadronen zur Rekognoszirung vor, vertrieb die herumstreifenden Kosaken aus den vorliegenden Gehölzen, konnte aber wegen der Erhebung südlich von Pultusk die Aufstellung der Russen nicht entdecken."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Er wartete daher die Ankunft der leichten Infanterie und Artillerie der Avantgarde ab, verjagte die vorgeschobene Kette der Kosaken durch einige Kanonenschüsse und ließ durch das 17. leichte Regiment die sanfte Erhebung besetzen, welche die Kosaken inne gehabt hatten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Von dieser Höhe übersah der Marschall gegen 10 Uhr Vormittags die russische Aufstellung und erkannte sehr bald die Ueberlegenheit seines Gegners an Zahl, so wie die Vortheile der Defensive in diesem Boden, der jede Bewegung zum Angriff erschwerte und nicht gestattete, die Masse der Artillerie gleichzeitig mit den Truppen ins Gefecht zu bringen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Auf der einen Seite der bestimmte Befehl Napoleons zur Wegnahme der Narewbrücke und die gewisse Aussicht, keine Unterstützung zu erhalten, da ihm der Kaiser mitgetheilt hatte, daß er mit den übrigen Korps des rechten Flügels und des Centrums gegen Golymin vorgehen würde;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Seite ein überlegener Feind, auf dessen Anwesenheit man bei Detaschirung des Marschalls offenbar nicht gerechnet hatte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Indessen die französischen Marschälle waren zu sehr an die genaueste Befolgung der Befehle ihres Kaisers gewöhnt, als daß der M. Lannes lange gezweifelt hätte, was in diesem Falle zu thun sei; er beschloß, die Russen anzugreifen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "In dieser Formation, mit verstärktem rechten Flügel, rückten die Franzosen parallel mit der russischen Front vor, und gegen 11 Uhr begann der General Claparède den Angriff gegen das Detaschement des Generals Baggowut."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Sire, je suis arrivé hier avec mon corps d'armée devant Pultusk vers 10 heures."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Dès que j'ai été formé, j'ai fait attaquer l'avant-garde ennemie par le 17e léger et le 88e."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Le général Victor a reçu l'ordre d'attaquer le pont de gauche avec le 34e et un bataillon du 64e soutenus par la division Beker¹."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Alors j'ai fait marcher sur le pont de droite le restant du 64e et tout le 88e pour"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "lui couper la retraite sur le pont, et je l'ai fait attaquer par le 17e après une fusillade des plus vives."
+        }
+      ]
+    },
+    {
+      "id": "daultanne-decision",
+      "dimension": "responsibility",
+      "value": "The 3rd division of Davout's corps joined the battle on its own general's decision. In Foucart's narrative Davout had it follow the Russian troops retreating on Pultusk from 7 in the morning. In the 3rd corps's journal its general, about to take up his night position rather than commit himself against the very superior forces of Kamenski's corps, heard a heavy cannonade toward Pultusk and continued his movement to approach the 5th corps and second its attacks; the circumstances were too urgent for him to concert with the marshal, but he had him warned of his arrival and of the attack he was going to make. In Höpfner the general, when the heavy fire became audible, believed he had to support Lannes even without an order, and hurried up. Davout sent the division before noon an order to rejoin him, which reached Daultanne when he was already engaged against the Russian extreme right, and after Daultanne's pencil note that Lannes was attacking Pultusk and that the division was falling on the enemy's flank, a second order that reached him only at 3 in the morning. About 8 in the evening Lannes had Daultanne asked not to withdraw, as the 5th corps was going to renew its attacks; in his report Lannes makes no mention of the 3rd division, which fought on his left all day (the editor). The editor writes that the combat of Golymin was fought in analogous circumstances, by army corps that concurred in a common action without general direction for the whole engagement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Foucart pp. 462, 466-469, 471 and 473; Höpfner p. 115). Daultanne is not side A's commander in Bodart, and the passages show the decision as his own, not Lannes's, so it is not attributed to Lannes and the phase is unresolved. The editor's comparison with Golymin implies that Pultusk too had no general direction (our reading). Davout's letter to the major general, dated 26 December, enclosed the pencil note. English renderings (ours): Foucart, 'for his part, Marshal Davout, informed that the Russian troops that had spent the night near Strzegocin were retreating on Pultusk by Kensy and Lady, had them followed from 7 in the morning by his 3rd division, General Daultanne, with 170 horses (dragoons and chasseurs)'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the general, not wishing to commit himself against the very superior forces of Kamenski's corps, was making his dispositions to take up his night position when a heavy cannonade was heard toward Pultusk'; 'the general then continued his movement forward to approach the 5th corps and second it in its attacks'; 'the circumstances were too urgent for General Daultanne to concert with the marshal, but he had him warned of his arrival and of the attack he was going to make'; Höpfner, 'it was General d'Aultanne with the division Gudin of Davout's corps, 9 battalions'; 'when, after some halt on the road from Strzegocin to Pultusk, the heavy fire became audible, the general had believed he must support Marshal Lannes even without an order, and had hurried up'; the editor, 'Marshal Davout sent the 3rd division before noon the order to rejoin him,'; 'at the moment this order reached him, General Daultanne was already engaged against the extreme right of the Russians, which he held in check all day and kept from falling on Marshal Lannes's left flank'; 'on receiving this note, Marshal Davout sent General Daultanne a second order, which reached him only at 3 in the morning and gave rise to the following report'; 'it was probably at this moment that General Daultanne wrote to Marshal Davout the following note in pencil'; 'Marshal Lannes is attacking Pultusk. The 3rd division arrives very opportunely. It falls on the enemy's flank' (p. 468); 'the roads do not allow the artillery to come up; nevertheless 2 8-pounders support the valour of this division' (p. 469); 'in his report Marshal Lannes makes no mention of the 3rd division of the 3rd corps, which fought on his left all day'; 'yet General Daultanne, who because of the urgency of the circumstances had been unable to go to the marshal, had at least warned him of his arrival and of the attack he was going to make'; 'the marshal, besides, had him asked about 8 in the evening not to withdraw, as the 5th corps was going to renew its attacks'; 'the combat of Golymin was fought, as we shall see, in analogous circumstances, against columns in retreat coming from different directions, by army corps that concurred in a common action, but without there having been general direction during the whole duration of the engagement'; Davout, 'Marshal Davout to the major general'; 'Garnowo, 26 December 1806'; 'General Daultanne, learning that Marshal Lannes was attacking Pultusk, informed me of it by the enclosed note'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "De son côté, le maréchal Davout, informé que les troupes russes qui avaient couché près de Strzegocin, effectuaient leur retraite sur Pultusk par Kensy et Lady, les faisait suivre dès 7 heures du matin par sa 3e division, général Daultanne, avec 170 chevaux (dragons et chasseurs)."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le général ne voulant point se compromettre contre les forces très supérieures du corps de Kamenski, faisait ses dispositions pour prendre sa position de nuit, lorsqu'une forte canonnade se fit entendre vers Pultusk."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le général continua alors son mouvement en avant pour s'approcher du 5e corps et le seconder dans ses attaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "Les circonstances étaient trop urgentes pour que le général Daultanne pût se concerter avec le maréchal, mais il le fit prévenir de son arrivée et de l'attaque qu'il allait former."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Es war der General d'Aultanne mit der Division Gudin des Davoutschen Korps, 9 Bataillone."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Als nach einigem Halt auf der Straße von Strzegocin nach Pultusk das heftige Feuer hörbar wurde, hatte der General geglaubt, den M. Lannes auch ohne Befehl unterstützen zu müssen, und war herbeigeeilt."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Le maréchal Davout envoya avant midi à la 3e division l'ordre de le rejoindre,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Au moment où cet ordre lui parvint, le général Daultanne était déjà engagé contre l'extrême droite des Russes à laquelle il tint tête toute la journée et qu'il empêcha de tomber sur le flanc gauche du maréchal Lannes;"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "A la réception de ce billet, le maréchal Davout envoya au général Daultanne un second ordre qui ne lui parvint qu'à 3 heures du matin et donna lieu au rapport suivant."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "1. Ce fut probablement à ce moment que le général Daultanne écrivit au maréchal Davout le billet suivant au crayon :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "Le maréchal Lannes attaque Pultusk. La 3e division arrive fort à propos. Elle tombe sur le flanc de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "les chemins ne permettent pas à l'artillerie d'arriver; cependant 2 pièces de 8 secondent la valeur de cette division."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Dans son rapport, le maréchal Lannes ne fait aucune mention de la 3e division du 3e corps qui combattit à sa gauche toute la journée."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Cependant le général Daultanne, qui, vu l'urgence des circonstances, n'avait pu se rendre auprès du maréchal, l'avait du moins prévenu de son arrivée et de l'attaque qu'il allait former."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Le maréchal le fit, du reste, inviter vers 8 heures du soir à ne point se retirer, attendu que le 5e corps allait renouveler ses attaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "Le combat de Golymin fut livré, ainsi que nous allons le voir, dans des circonstances analogues, contre des colonnes en retraite, venant de différentes directions, par des corps d'armée qui concoururent à une action commune, mais sans qu'il y ait eu de direction générale pendant toute la durée de l'engagement."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "Garnowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "Le général Daultanne, instruit que le maréchal Lannes attaquait Pultusk, m'en a informé par le billet ci-joint."
+        }
+      ]
+    },
+    {
+      "id": "side-b-command",
+      "dimension": "responsibility",
+      "value": "Side B's commander decided to stand. In Höpfner, despite Field Marshal Kaminskoi's definite order for an immediate retreat, General Bennigsen resolved to stand at Pultusk, at the risk of a battle against great superiority and under heavy responsibility: in his view a continued retreat would dissolve the army, make a union of the forces impossible and deliver all the war material to the French, while holding the enemy at Pultusk would give the formations already separated from it time to reunite higher up the Narew. He at once asked General Count Buxhöwden most urgently to serve at least as his reserve. Buxhöwden, already marching from Makow to Pultusk with the 5th Division under the field marshal's earlier order, received a new order to assemble the 5th and 7th Divisions at Makow, take in Bennigsen and go back together to the Russian frontier; after a council of war he obeyed it and returned to Makow. His letter to Bennigsen, which judged an immediate retreat of all the troops the best course and, in agreement with the field marshal, ordered the artillery park sent back to the Russian frontier, reached Bennigsen too late to have any effect. In the battle Bennigsen, intent on holding Pultusk, sent General Ostermann-Tolstoy with the Tula and 1 more battalion of the Reval regiment in support; when the Cossacks reported a strong enemy column on the Strzegocin road, he took back the whole right wing of the main body's infantry so as not to be outflanked, and he had a great battery set up on the flank of the French who had pushed into the wood. After midnight the order to retreat was given, and the retreat began toward the morning of 27 December.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images (pp. 108, 109 and 113-118). Bennigsen is side B's commander in Bodart; Höpfner shows him deciding to stand against his superior's order, so the claim is tagged commander_created. Höpfner names no order or report of Bennigsen's for his reasons (dependency note). Lannes's report has the Russian general in chief commanding in person (claim lannes-on-russian-command). English renderings (ours): 'despite Field Marshal Kaminskoi's definite order for an immediate retreat, General Bennigsen had nevertheless resolved to stand at Pultusk, at the risk of a battle against great superiority and under heavy responsibility'; 'a continued retreat must, in the general's view, after the preceding exertions necessarily dissolve the army, make a union of the forces impossible, and in the end deliver all the war material into the hands of the French'; 'all this seemed to the general to amount to a defeat, whereas, if it succeeded in holding up the enemy at Pultusk, the other formations, already separated from Pultusk, gained the time to reunite higher up the Narew'; 'to that end, informing him of his decision, he had at once most urgently asked General Count Buxhöwden to serve him at least as a reserve'; 'in consequence of the field marshal's earlier order, General Count Buxhöwden had already marched off from Makow to Pultusk with the 5th Division very early on the 26th'; 'when, scarcely ½ Meile from Makow, a hussar orderly brought him a letter from the field marshal, in which he found the order to assemble the 5th and 7th Divisions at Makow, to take in General Bennigsen, and to go back together to the Russian frontier'; 'after a council of war had been held, the general resolved to follow the field marshal's order, and returned to Makow with the troops'; 'to General Bennigsen he wrote that an immediate retreat of all the troops to gain time seemed to him the best thing to do, and that in agreement with' (p. 108); 'the field marshal he ordered the artillery park to be sent back at once to the Russian frontier' (p. 109); 'this letter reached General Bennigsen so late that it had to remain wholly without effect'; 'while General Bennigsen, who had the holding of Pultusk particularly at heart, sent General Ostermann-Tolstoy with the Tula and 1 more battalion of the Reval' (p. 113); 'Musketeer Regiment in support as far as the ravine' (p. 114); 'the fight had in this way lasted several hours undecided against the two advanced Russian detachments, when the approach of a strong enemy column on the road from Strzegocin was reported to General Bennigsen by the Cossacks'; 'General Bennigsen could not make out the strength of the new enemy and had to fear being attacked in the right flank by great superiority'; 'he therefore took back the whole right wing of the main body's infantry, so as not to be outflanked'; 'General Bennigsen had a great battery [set up] on the right flank of the [French who had pushed forward] in the wood as far as the road from Strzegocin' (p. 116); '[the French who had] pushed forward [...] set up, and inflicted great losses on them' (p. 117); 'the Russians rested in the position they had held until after midnight, when the order to retreat was given, which was indeed fully justified by the circumstances and was begun toward the morning of 27 December'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Trotz des bestimmten Befehls des Feldmarschalls Kaminskoi zum sofortigen Rückzuge, hatte sich der General Bennigsen dennoch entschlossen, auf die Gefahr einer Schlacht gegen große Uebermacht und unter schwerer Verantwortung bei Pultusk halten zu bleiben."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Ein fortgesetzter Rückzug mußte, nach des Generals Ansicht, bei den vorangegangenen Anstrengungen nothwendig die Armee auflösen, eine Vereinigung der Streitkräfte unmöglich machen, und den Franzosen zuletzt alles Kriegsmaterial in die Hände liefern."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Dies Alles schien dem General einer Niederlage gleich zu kommen, wogegen, wenn es gelang, den Feind bei Pultusk aufzuhalten, die übrigen Abtheilungen, die bereits von Pultusk getrennt waren, die Zeit gewannen, sich am Narew weiter aufwärts wieder zu vereinigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Er hatte zu dem Ende unter Mittheilung seines Entschlusses sofort den General Grafen Buxhöwden auf das Dringendste ersucht, ihm wenigstens als Reserve zu dienen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "In Folge des frühern Befehls des Feldmarschalls war der General Graf Buxhöwden bereits am 26. in aller Frühe mit der 5. Division von Makow nach Pultusk abmarschirt,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "als ihm, kaum ½ Meile von Makow entfernt, eine Husaren-Ordonnanz ein Schreiben des Feldmarschalls brachte, in welchem er den Befehl fand, die 5. und 7. Division bei Makow zu versammeln, den General Bennigsen aufzunehmen, und gemeinschaftlich nach der russischen Grenze zurückzugehen;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Nach abgehaltenem Kriegsrath beschloß der General, dem Befehle des Feldmarschalls Folge zu geben, und kehrte nach Makow mit den Truppen zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Dem General Bennigsen schrieb er: daß ihm der sofortige Rückzug aller Truppen zum Zeitgewinn das Beste schiene, was zu thun sei, und daß er in Uebereinstimmung mit"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "dem Feldmarschall befehle, den Artillerie-Park sofort nach der russischen Grenze zurückzuschicken."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Dem General Bennigsen ging dies Schreiben so spät zu, daß es ohne alle Wirkung bleiben mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "während der General Bennigsen, dem die Festhaltung von Pultusk besonders am Herzen lag, den General Ostermann-Tolstoy mit dem Tulaschen und noch 1 Bataillon des Revalschen"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p114-figures-v1",
+          "section": "p114",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 114 (transcribed from the page image)",
+          "quote": "Musketier-Regiments zur Unterstützung bis an den Ravin vorschickte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Das Gefecht hatte auf diese Weise mehrere Stunden unentschieden gegen die beiden vorgeschobenen russischen Detaschements gedauert, als dem General Bennigsen die Annäherung einer starken feindlichen Kolonne auf der Straße von Strzegocin durch die Kosaken gemeldet wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General Bennigsen konnte die Kräfte des neuen Feindes nicht übersehen und mußte befürchten, in der rechten Flanke von großer Uebermacht angegriffen zu werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Er nahm deshalb den ganzen rechten Flügel des Gros der Infanterie zurück, um nicht umgangen zu werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General Bennigsen ließ eine große Batterie in der rechten Flanke der bis an den Weg von Strzegocin im Gehölz"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "vorgedrungenen Franzosen errichten und fügte ihnen große Verluste zu."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Die Russen ruhten bis nach Mitternacht in der behaupteten Aufstellung, als der Befehl zum Rückzuge gegeben wurde, der allerdings durch die Umstände vollständig gerechtfertigt und gegen Morgen des 27. Dezembers angetreten wurde."
+        }
+      ]
+    },
+    {
+      "id": "bodart-winner",
+      "dimension": "outcome",
+      "value": "Bodart codes the battle of Pultusk on 26 December 1806 as a victory of the French under Marshal Lannes over the Russians under General of Cavalry von Bennigsen. Lannes reported on 27 December that the force of about 8,000 infantry and 3 cavalry regiments the enemy had sent against his right, attacked by the 17th light, had been overthrown and had come back to the bridge in the greatest disorder; that the enemy, seeing his left forced about 3 in the afternoon, had detached a column from his right to try a second time to outflank the French right; that the fighting lasted from 10 in the morning until 6 in the evening; and that the enemy, harassed all night, had been able to pass only part of his troops to the left bank, the rest filing off by the right bank of the Narew on Rozan; the bridge had been burnt. The 3rd corps's journal records that the night of the 26th to the 27th was extremely quiet, and that General Daultanne, learning that the enemy had recrossed the Narew and that Lannes met no difficulty in entering Pultusk, set off at 8 in the morning to rejoin the 3rd corps. General Corbineau wrote on 28 December that the corps that had fought Lannes had withdrawn on Rozan by the right bank of the Narew and that Lannes was master of the Narew. In Höpfner the Russians rested in their position until after midnight, when the order to retreat was given, and the retreat began toward the morning of 27 December.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's heading and entry, read from the page image in the frame transcription; Foucart and Höpfner from the page images (pp. 462, 464, 466, 471, 473 and 515; Höpfner p. 118). The sources read agree that side B left Pultusk to side A in the night and morning after the battle; they differ on how the fighting ended (claims hoepfner-result and side-a-reports-on-the-evening). English renderings (ours): Bodart, as in claim bodart-strength; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'at the same time the enemy sent about 8,000 infantry and 3 cavalry regiments against my right, seeking to outflank me'; 'then I sent the rest of the 64th and the whole 88th against the right bridge to' (p. 463); 'cut off his retreat to the bridge, and I had him attacked by the 17th after a most lively fusillade' (p. 464); 'the enemy was overthrown and came back to the bridge in the greatest disorder'; 'the enemy, seeing his left forced about 3 in the afternoon, detached a column from his right to try a second time to outflank our right, but the presence of General Gazan was enough to make it go back into line'; 'we fought from 10 in the morning until 6 in the evening in mud up to mid-thigh'; 'the enemy, having been harassed all night, could pass only part of his troops to the left bank. The other part is filing off by the right bank of the Narew on Rozan'; 'the bridge was burnt; it is being repaired'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the night of the 26th to the 27th was extremely quiet'; 'General Daultanne, having learned that the enemy had recrossed the Narew and that Marshal Lannes met no difficulty in entering Pultusk, set off at 8 in the morning to rejoin the 3rd corps at Garnowo'; '(journal of operations of the 3rd corps)'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'the corps that fought against Marshal Lannes at Pultusk withdrew on Rozan by the right bank of the Narew,'; 'Marshal Lannes is master of the Narew'; Höpfner, 'the Russians rested in the position they had held until after midnight, when the order to retreat was given, which was indeed fully justified by the circumstances and was begun toward the morning of 27 December'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (24 Btln., 27 Esk., 55 Gesch. = 26.000 M.) unter Marschall Lannes über die Russen (66 Btln., 75 Esk., 200 Gesch. = 44.000 M.) unter Gen. d. Kav. von Bennigsen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "L'ennemi a fait porter en même temps environ 8,000 hommes d'infanterie et 3 régiments de cavalerie sur ma droite cherchant à me déborder."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Alors j'ai fait marcher sur le pont de droite le restant du 64e et tout le 88e pour"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "lui couper la retraite sur le pont, et je l'ai fait attaquer par le 17e après une fusillade des plus vives."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "L'ennemi voyant sa gauche forcée sur les 3 heures après midi, a détaché une colonne de sa droite pour chercher une seconde fois à déborder notre droite, mais la présence du général Gazan a suffi pour la faire rentrer en ligne."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "L'ennemi a été culbuté et est revenu sur le pont dans le plus grand désordre."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Nous nous sommes battus depuis 10 heures du matin jusqu'à 6 heures du soir dans la boue jusqu'à mi-cuisse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "L'ennemi ayant été harcelé toute la nuit, n'a pu passer sur la rive gauche qu'une partie de ses troupes. L'autre file par la rive droite de la Narew sur Rozan."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Le pont a été brûlé; on s'occupe à le réparer."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "La nuit du 26 au 27 fut extrêmement tranquille."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "M. le général Daultanne ayant eu connaissance que l'ennemi avait repassé la Narew et que M. le maréchal Lannes n'éprouvait aucune difficulté pour entrer dans Pultusk, se mit en mouvement à 8 heures du matin pour rejoindre à Garnowo le 3e corps"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "(Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Le corps qui a combattu contre M. le maréchal Lannes à Pultusk s'est retiré sur Rozan par la rive droite de la Narew,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "M. le maréchal Lannes est maître de la Narew;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Die Russen ruhten bis nach Mitternacht in der behaupteten Aufstellung, als der Befehl zum Rückzuge gegeben wurde, der allerdings durch die Umstände vollständig gerechtfertigt und gegen Morgen des 27. Dezembers angetreten wurde."
+        }
+      ]
+    },
+    {
+      "id": "hoepfner-result",
+      "dimension": "outcome",
+      "value": "Höpfner gives a different result. Both sides, he writes, claim the victory, and the victory of the Russians is hardly to be doubted: Lannes was repulsed at all points, and Bennigsen's retreat the next day, after the attack had been beaten off, lay in circumstances that the marshal had no part in shaping. In his account more about the night fight in the wood could hardly be stated or cleared up now, but the result on the French left is certain: the French were thrown back there with loss. On the French right, General Baggowut, after being thrown back over the ravine with the loss of his guns, recrossed it with reinforcements, threw the French back and retook the lost guns, and General Somow decided the fight there for the Russians with a bayonet attack of the Tula regiment after dark. Lannes led his troops back into the position they had held before the attack, and General d'Aultanne posted himself at the edge of the woods behind, on the Strzegocin road, to secure the marshal's left flank. By Russian statements in his footnote the French withdrew further, and General Lambert, left behind when the Russian army marched off the next morning, found nothing of the French on the field and far beyond but wounded and much baggage and guns that could not be moved. The Russians lost no guns in the battle itself.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Höpfner, read from the page images (pp. 117-119). A different result from Bodart's frozen victory of the French (claim bodart-winner), kept as a dispute and not resolved. Höpfner sets the Russian against the French reports on the fight in the wood (claim side-a-reports-on-the-evening) before giving his result; side A's own documents on the evening are in claim side-a-reports-on-the-evening. English renderings (ours): 'both sides ascribe the victory to themselves'; 'the victory of the Russians is hardly to be doubted; Marshal Lannes was repulsed at all points, and if General Bennigsen had the retreat begun the next day after the attack had been beaten off, this lay in circumstances in whose shaping the marshal had no part'; 'to state and clear up anything more about this night fight would hardly be practicable now'; 'the result is certain, that the French were thrown back with loss on their left wing'; 'General Baggowut was thrown back at all points with the loss of his guns' (p. 117); 'into and over the ravine' (p. 118); 'reinforced by the Murom and the 2nd battalion of the Reval Musketeer Regiment and supported by a battery of General Ostermann, the Russian general went over the ravine again, threw the French back and retook the lost guns'; 'until General Somow with the Tula Musketeer Regiment, by a bayonet attack, decided the fight on this wing too in favour of the Russians, after darkness had already fallen'; 'Marshal Lannes led his troops back into the position they had held before the attack'; 'General d'Aultanne posted himself at the edge of the woods lying behind, on the road to Strzegocin, to secure the marshal's left flank'; 'by Russian statements the French had withdrawn further, and General Lambert, who had been left behind the next morning when the Russian army marched off, had found nothing of the French on the battlefield and far beyond it but wounded rolling about in the mud and a mass of baggage and guns that no human power could have carried away'; 'the Russians lost no guns in the battle itself'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Beide Theile schreiben sich den Sieg zu."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Der Sieg der Russen ist wohl unzweifelhaft; der M. Lannes wurde auf allen Punkten zurückgewiesen, und wenn der General Bennigsen nach abgeschlagenem Angriff am folgenden Tage den Rückzug antreten ließ, so lag dies in Verhältnissen, an deren Gestaltung der Marschall sehr unschuldig war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Ein Mehreres über dieses Nachtgefecht anzugeben und aufzuklären, möchte jetzt wohl unthunlich sein."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Das Resultat steht fest, daß die Franzosen auf ihrem linken Flügel mit Verlust zurückgewiesen worden sind."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Der General Baggowut wurde auf allen Punkten mit Verlust seiner Geschütze"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "bis in und über den Ravin zurückgeworfen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Durch das Muromsche und 2. Bataillon des Revalschen Musketier-Regiments verstärkt und durch eine Batterie des Generals Ostermann unterstützt, ging der russische General aufs Neue über den Ravin, warf die Franzosen und eroberte die verloren gegangenen Geschütze zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "bis der General Somow mit dem Musketier-Regiment Tula durch einen Bajonettangriff auch auf diesem Flügel das Gefecht zu Gunsten der Russen bereits bei eingetretener Dunkelheit entschied."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Der M. Lannes führte seine Truppen in die Aufstellung zurück, die sie vor dem Angriff inne gehabt hatten;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "der General d'Aultanne stellte sich am Rande der rückwärts liegenden Gehölze auf der Straße nach Strzegocin auf, um die linke Flanke des Marschalls zu sichern."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "1) Nach russischen Angaben hätten sich die Franzosen mehr zurückgezogen, und der General Lambert, der am folgenden Morgen beim Abzuge der russischen Armee zurückgelassen worden, habe auf dem Schlachtfelde und weit darüber hinaus von Franzosen nichts gefunden als Verwundete, die sich im Koth umhergewälzt hätten und eine Menge Gepäck und Geschütz, die aber keine menschliche Macht habe fortschaffen können."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Die Russen haben in der Schlacht selbst keine Geschütze verloren."
+        }
+      ]
+    },
+    {
+      "id": "side-a-reports-on-the-evening",
+      "dimension": "outcome",
+      "value": "Side A's own documents on how the fighting ended. General Daultanne reported to Marshal Davout, under the date 26 December 1806, that very unfortunate events had occurred: despite the 3rd division's efforts to second the attack of Lannes's troops on Pultusk, it had not been possible to become decidedly master of the position, which had been taken, but Lannes's troops could not hold it; the division had to keep its ground until 8 in the evening, had to yield to circumstances and was very lucky to have been able to make a retrograde movement. In the 3rd corps's journal the 34th regiment (5th corps), facing very superior forces in the darkness, was forced to retreat; after the most vigorous cavalry charge, about 8 in the evening, an hour passed without a shot, the 5th corps was found occupying the same position as before the action, and Daultanne took position at the edge of the wood a few hundred paces off. Lannes wrote that if a battalion of the 88th, charged by cavalry, had not given way, the whole enemy column would have been taken. In Höpfner the French reports say that darkness fell over the infantry fight in the wood and d'Aultanne lost touch with Lannes in it; that the Russians threw themselves with cavalry into the gap and on the right flank of Gudin's division; that several battalions of the division were broken and General Suchet's battalions thrown back in disorder toward the woods, and only the 85th, in the second line of Gudin's division, received the Russians calmly and threw them back; and that the last attack took place at 8 in the evening, when a violent storm ended all fighting.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Read from the page images (Foucart pp. 462, 464, 466, 469-472; Höpfner p. 117). These are side A's documents and French reports; they report the position taken and not held and the 5th corps back where it started, but do not call the result a defeat, and Lannes's report of the 27th claims the enemy overthrown (claim bodart-winner). They agree with Höpfner's account that Lannes's troops returned to their starting position (claim hoepfner-result; our comparison). Daultanne's report, dated 26 December, answered an order that reached him at 3 in the morning (claim daultanne-decision). English renderings (ours): Daultanne, 'General Daultanne to Marshal Davout at Skaszewo or Golymin'; 'Przewodowo, 26 December 1806'; 'I have the honour to report to you that since my last report very unfortunate events have occurred, since, despite the unhappy efforts the 3rd division was able to make to second the attack of Marshal Lannes's troops on Pultusk, it was not possible to become decidedly master of this position, which had nevertheless been taken,' (p. 471); 'but the troops of Marshal Lannes could not hold it' (p. 472); 'the 3rd division was obliged to keep its ground until 8 in the evening'; 'it was necessary to yield to the circumstances, and [we were] very lucky to have been able to make a retrograde movement in the difficult position in which events had placed these troops'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'meanwhile the 34th regiment (5th corps), having had to deal with very superior forces, and the darkness of the night not allowing it to judge the enemy's movements well, was forced to retreat'; 'the lines still had to withstand several cavalry charges, the most vigorous of which took place about 8 in the evening, at the moment when a terrible storm was heard and, driven by a violent wind, the snow was falling in large flakes'; 'an hour having passed without a single musket shot being heard, the 5th corps was reconnoitred and found occupying the same position as before the action,'; 'which decided General Daultanne to take position at the edge of the wood a few hundred paces off and to have the division, which was exhausted with fatigue, bivouac there,'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'if a battalion of the 88th, which was charged by the cavalry, had not given way, this whole column would have been prisoners of war'; Höpfner, 'the French reports state, on the contrary, that darkness fell over the infantry fight in the wood, that General d'Aultanne lost touch with Marshal Lannes in it, and that the Russians, with the cavalry brought up, threw themselves into the gap and on the right flank of the division Gudin'; 'thereupon several battalions of the division were broken, and General Suchet's battalions thrown back in disorder toward the woods,'; 'and only the 85th Regiment in the second line of the division Gudin received the Russians calmly and threw them back'; 'and the last attack took place at 8 in the evening, when a violent storm put an end to all fighting'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DAULTANNE AU MARÉCHAL DAVOUT A SKASZEWO OU GOLYMIN."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Przewodowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "J'ai l'honneur de vous rendre compte que depuis mon dernier rapport il s'est passé des événements bien fâcheux, puisque malgré les malheureux efforts que la 3e division a pu faire pour seconder l'attaque des troupes de M. le maréchal Lannes sur Pultusk, l'on n'a pas pu parvenir à se rendre décidément maître de cette position qui cependant avait été enlevée,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "mais les troupes de M. le maréchal Lannes n'ont pu s'y maintenir."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "la 3e division a été obligée de conserver son terrain jusqu'à 8 heures du soir."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "il a fallu céder aux circonstances et très heureux d'avoir pu faire un mouvement rétrograde dans la position difficile où les événements avaient placé ces troupes."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "Cependant le 34e régiment (5e corps) ayant eu affaire à des forces très-supérieures et l'obscurité de la nuit ne lui permettant pas de bien juger des mouvements de l'ennemi, fut contraint à la retraite."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p470-figures-v1",
+          "section": "p470",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 470 (transcribed from the page image)",
+          "quote": "Les lignes eurent encore à soutenir plusieurs charges de cavalerie, dont la plus vigoureuse eut lieu vers les 8 heures du soir, à l'instant qu'un orage terrible se faisait entendre, et que, poussée par un vent violent, la neige tombait à gros flocons."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p470-figures-v1",
+          "section": "p470",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 470 (transcribed from the page image)",
+          "quote": "Une heure s'étant écoulée sans qu'un seul coup de fusil se fût fait entendre, on envoya reconnaître le 5e corps que l'on trouva occupant la même position qu'avant l'action,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p470-figures-v1",
+          "section": "p470",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 470 (transcribed from the page image)",
+          "quote": "ce qui détermina le général Daultanne à prendre position sur la lisière du bois qui était à quelques cent pas et à y faire bivouaquer la division qui était exténuée de fatigues,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Si un bataillon du 88e qui a été chargé par la cavalerie n'eût pas plié, toute cette colonne était prisonnière de guerre."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Die französischen Berichte geben dagegen an, daß über das Infanterie-Gefecht im Gehölze die Dunkelheit hereingebrochen sei, der General d'Aultanne in derselben die Verbindung mit dem M. Lannes verloren habe, und daß die Russen sich mit der herbeigezogenen Kavallerie in die Lücke und in die rechte Flanke der Division Gudin geworfen hätten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Hierauf seien mehrere Bataillone der Division gesprengt, die Bataillone des Generals Suchet in Unordnung gegen die Waldungen zurückgeworfen worden,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "und erst das 85. Regiment im zweiten Treffen der Division Gudin habe die Russen mit Ruhe empfangen und zurückgewiesen;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "und der letzte Angriff habe um 8 Uhr Abends stattgefunden, wo ein heftiges Unwetter allem Gefecht ein Ende gemacht habe."
+        }
+      ]
+    },
+    {
+      "id": "bodart-losses",
+      "dimension": "outcome",
+      "value": "Bodart gives the French losses as 3,300 men (5 generals, 140 officers) killed and wounded and 700 prisoners, together 4,000 men (= 15·4%), and the Russian losses as 3,500 men (= 8·0%) and 12 cannon.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. His 700 French prisoners are Höpfner's 700 prisoners actually taken by the Russians, and his Russian 3,500 the 3500 dead and wounded of the Russian reports in Höpfner (claims side-a-losses-reported and side-b-losses-reported; our comparison). His 12 cannon are the 12 guns the French said they found on the field, while Höpfner says the Russians lost no guns in the battle itself. His French 3,300 killed and wounded lie above the 6—700 dead and 1500 wounded the French gave, 2,100 to 2,200 (our arithmetic), and Lannes's figures, and below the Russians' 7000. His 15·4% is 4,000 of his 26,000 and his 8·0% 3,500 of his 44,000 (our arithmetic); the bracket after '8·0%' is printed so. The passages read (claim side-a-losses-reported) name as wounded Generals Claparède, Wedell and Bonnard (Höpfner) and Boussart, Treillard and Vedel (Lannes), five names if Wedell and Vedel are one man, besides Lannes's slight wound (our count and reading); whom Bodart's 5 generals count is not shown. Which source Bodart used was not checked. English renderings (ours): Bodart, 'French losses: 3,300 men (5 generals, 140 officers) killed and wounded, 700 [men] prisoners, together 4,000 men (= 15.4%). | Russian losses: 3,500 men = 8.0%), 12 cannon'; 'Gen.' is Général en chef oder General, 'Offz.' Offizier, 'verw.' verwundet and 'M.' Mann in Bodart's list of abbreviations; 'Verl.', 'Gefg.' and 'zus.' are not in it, and we read them as Verlust, Gefangene and zusammen, and '„' as the ditto mark for 'M.'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Franz. Verl.: 3.300 M. (5 Gen. 140 Offz.) tot u. verw. 700 „ Gefg. zus. 4.000 M. (= 15·4%). | Russ. Verl.: 3.500 M. = 8·0%), 12 Kanonen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Gen. — Général en chef oder General"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "Offz. — Offizier"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "vw., verw. — verwundet"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p048",
+          "locator": "Bodart (1908), p. 48",
+          "quote": "M. — Mann"
+        }
+      ]
+    },
+    {
+      "id": "side-a-losses-reported",
+      "dimension": "outcome",
+      "value": "Side A's losses as reported. Lannes put the loss of his corps, killed and wounded, at about 1,000 men on 27 December: General Boussart and General Treillard were wounded and their horses killed, General Claparède's horse was killed and General Vedel was wounded twice; the dragoon division had 22 men killed, 2 of them officers, and 34 dragoons wounded, 2 of them officers, with 88 horses killed and 22 wounded. On 28 December he wrote that, from what he had seen, his dead and wounded were more numerous than he had reported the day before. General Corbineau wrote that the marshal estimated his loss at 700 wounded and 400 killed. A line in Foucart's small type gives the 3rd division 2 officers and 85 men killed and 19 officers and 516 men wounded, and Daultanne reported many wounded, especially in the 12th and 21st regiments. In Höpfner the French give their loss as 6—700 dead and 1500 wounded, among them Generals Claparède, Wedell and Bonnard, Lannes being slightly wounded; the Russians believe they put about 7000 French out of action, by the official reports even 10,000; 700 prisoners were actually taken; the French admit in their report only that one battalion of the 88th was surprised by the Russian cavalry and largely destroyed; and Höpfner, who calls the losses impossible to state, holds that the French loss must have been considerably greater than the Russian.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Read from the page images (Foucart pp. 462, 465, 471, 472 and 514-516; Höpfner pp. 114, 118 and 119). Lannes's about 1,000 is for his corps only, and he revised it upward the next day; Corbineau's 700 wounded and 400 killed make 1,100 (our arithmetic), the marshal's estimate at second hand. The 3rd division's line, which names no source, makes 87 killed and 535 wounded, 622 in all (our arithmetic), for the division Lannes's report omits (claim daultanne-decision). The French figures in Höpfner make 2,100 to 2,200 (our arithmetic), and he does not name the French report; his view that the loss was greater is his inference from the artillery fire and the failed attacks. Bodart's 700 prisoners and 3,300 are compared in claim bodart-losses. English renderings (ours): Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'General Boussart was wounded and his horse killed; General Treillard was wounded and his horse killed'; 'General Claparède had his horse killed'; 'General Vedel was wounded twice....'; 'the dragoon division had 22 men killed, of whom 2 officers, and 34 dragoons wounded, of whom 2 officers very seriously, 88 horses killed and 22 wounded'; 'I put the loss of my army corps, killed as well as wounded, at 1,000 men or about'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 28 December 1806'; 'I am having the state of our losses drawn up and, from what I have seen, the number of our dead and wounded is greater than I had reported to Your Majesty yesterday'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'the marshal estimates his loss at 700 wounded and 400 killed'; the line, '3rd division. — Killed: officers, 2; men, 85. Wounded: officers, 19; men, 516'; Daultanne, 'General Daultanne to Marshal Davout at Skaszewo or Golymin'; 'Przewodowo, 26 December 1806'; 'there are many wounded, particularly in the 12th and 21st regiments'; Höpfner, 'to state the loss of both sides in the battle is quite impossible'; 'the French give theirs as 6-700 dead and 1500 wounded; among the latter were Generals Claparède, Wedell and Bonnard; Marshal Lannes was slightly wounded'; 'the Russians believe they put about 7000 French out of action; 700 prisoners were actually taken away'; 'by the official reports even 10,000 men'; 'the French seem to have suffered very considerable losses in this,'; 'but admit in their report only that the one battalion of the 88th Regiment was surprised by the Russian cavalry in thick driving snow and for the greater part destroyed'; 'it is surely certain that the loss of the French must have been considerably greater than that of the Russians, as throughout the fight they were exposed to the violent artillery fire of their opponents and could oppose to it only a small number of guns, and all their attacks failed'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Le général Boussart a été blessé et son cheval tué; le général Treillard a été blessé et son cheval tué."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Le général Claparède a eu son cheval tué."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Le général Vedel a été blessé deux fois...."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "La division de dragons a eu 22 hommes tués dont 2 officiers, et 34 dragons blessés dont 2 officiers très-grièvement, 88 chevaux tués et 22 blessés."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Je porte la perte de mon corps d'armée, tant tués que blessés, à 1,000 hommes ou environ."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Je fais dresser l'état de nos pertes et, d'après ce que j'ai vu, le nombre de nos morts et de nos blessés est plus considérable que je ne l'avais marqué hier à Votre Majesté."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "M. le maréchal estime sa perte à 700 blessés et 400 tués."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "3e division. — Tués : officiers, 2; troupe, 85. Blessés : officiers, 19; troupe, 516."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DAULTANNE AU MARÉCHAL DAVOUT A SKASZEWO OU GOLYMIN."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Przewodowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "Il y a beaucoup de blessés, particulièrement dans les 12e et 21e régiments."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Den Verlust beider Theile in der Schlacht anzugeben, ist ganz unmöglich."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Die Franzosen geben den ihrigen auf 6—700 Todte und 1500 Verwundete an; unter Letzteren befanden sich die Generale Claparède, Wedell und Bonnard; der M. Lannes war leicht verwundet."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Die Russen glauben den Franzosen gegen 7000 Mann außer Gefecht gesetzt zu haben²); 700 Gefangene wurden wirklich mitgenommen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "2) Nach den offiziellen Berichten sogar 10,000 Mann."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p114-figures-v1",
+          "section": "p114",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 114 (transcribed from the page image)",
+          "quote": "Die Franzosen scheinen dabei sehr bedeutende Verluste erlitten zu haben,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p114-figures-v1",
+          "section": "p114",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 114 (transcribed from the page image)",
+          "quote": "gestehen aber in ihrem Bericht nur ein, daß das eine Bataillon des 88. Regiments im dichten Schneegestöber von der russischen Kavallerie überrascht und zum großen Theil aufgerieben worden sei."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Gewiß ist wohl, daß der Verlust der Franzosen bedeutend größer gewesen sein muß, als der der Russen, da sie während des ganzen Gefechtes dem heftigen Artillerie-Feuer ihrer Gegner ausgesetzt waren und demselben nur eine geringe Anzahl Geschütze entgegensetzen konnten, auch alle Angriffe verunglückt sind."
+        }
+      ]
+    },
+    {
+      "id": "side-b-losses-reported",
+      "dimension": "outcome",
+      "value": "Side B's losses as reported. In Höpfner the Russian reports put their own loss at 3500 dead and wounded, while the French state that after the Russians' retreat they found on the field over 2000 dead, 1500 wounded who could not be moved, 12 guns and many vehicles of all kinds; Höpfner says the Russians lost no guns in the battle itself and that the loss of both sides cannot be stated. Lannes reported on 27 December that the enemy had left on the field over 3,000 killed and wounded, some pieces of cannon and many caissons, that 1,000 to 1,200 wounded were found in the town and that about 600 prisoners were taken; on 28 December, that many more Russian dead had been found on the field than had been thought, the 34th alone having killed 800 to 1,000, and that the houses and churches of the town were full of wounded. Corbineau wrote that the town was full of Russian wounded and stragglers, estimated at 2,000, and that 600 prisoners able to bear arms, many officers among them, were taken in the battle. On the 3rd division's march its scouts reported a body of cavalry covering a Russian column of artillery and baggage stuck in the mud between Kensy and Lady; when the division's first echelon advanced to charge, the cavalry was driven back behind the village of Moszyn, abandoning 14 pieces of ordnance and many wagons (the journal), and Davout wrote that the enemy fell back at the approach of the troops and abandoned 14 pieces, many caissons and baggage. Daultanne wrote that the movement Davout ordered forced him to abandon 23 pieces of cannon that the enemy had had to leave.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Read from the page images (Höpfner pp. 118 and 119; Foucart pp. 462, 465-467, 471-473 and 514-516). Höpfner's Russian 3500 is Bodart's 3,500 (claim bodart-losses); the French count of over 2000 dead and 1500 wounded makes over 3,500 (our arithmetic), near Lannes's over 3,000 left on the field. Lannes's 1,000-1,200 and Corbineau's 2,000 wounded and stragglers in the town may overlap the wounded left on the field (our reading). The 14 pieces were abandoned on the 3rd division's march, before it reached the field (the journal); whether the 23 pieces include them, and whether any are Bodart's 12 cannon, is not shown. English renderings (ours): Höpfner, 'to state the loss of both sides in the battle is quite impossible'; 'the Russian reports put their own loss at 3500 dead and wounded'; 'the French on the other hand state that after the Russians' retreat they [had] found over 2000 dead, 1500 wounded who could not be transported, 12 guns and many vehicles of all kinds on the battlefield' (p. 118); '[had] found' (p. 119); 'the Russians lost no guns in the battle itself'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'the enemy left on the battlefield, killed as well as wounded, more than 3,000 men, some pieces of cannon and many caissons'; 'we found 1,000 to 1,200 wounded in the town'; 'we took about 600 prisoners'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 28 December 1806'; 'I had the battlefield gone over this morning, and many more Russian dead were found than had been thought'; 'the 34th alone killed 800 to 1,000 of them'; 'there are also many more wounded in the town than was expected; the houses and the churches are full'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'the town is full of Russian wounded and stragglers; their number is estimated at 2,000'; 'during the battle 600 prisoners were taken in' (p. 515); 'a state to bear arms, among whom there are a great number of officers' (p. 516); the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the 3rd division had scarcely come out of the village of Strzegocin when it was warned by its scouts that a fairly considerable body of cavalry was covering the march of a column of artillery and baggage that was stuck in the mud between Kensy and Lady'; 'the general had the division formed, and as soon as the first echelon advanced to charge, the cavalry kept almost always out of range; it was driven back behind the village of Moszyn, abandoning to us 14 pieces of ordnance and a great number of wagons of every kind'; Davout, 'Marshal Davout to the major general'; 'Garnowo, 26 December 1806'; 'he did find the enemy, who fell back at the approach of His Majesty's troops and abandoned 14 pieces of ordnance, many caissons and baggage'; Daultanne, 'General Daultanne to Marshal Davout at Skaszewo or Golymin'; 'Przewodowo, 26 December 1806'; 'it is most unfortunate that the movement you order forces [us] to abandon 23 pieces of cannon that the enemy had been forced to leave'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Den Verlust beider Theile in der Schlacht anzugeben, ist ganz unmöglich."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Den eigenen Verlust setzen die russischen Berichte auf 3500 Todte und Verwundete;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "die Franzosen führen dagegen an, daß sie nach dem Rückzuge der Russen über 2000 Todte, 1500 nicht transportable Verwundete, 12 Geschütze und viele Fahrzeuge aller Art auf dem Schlachtfelde vor-"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "gefunden hätten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Die Russen haben in der Schlacht selbst keine Geschütze verloren."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "L'ennemi a laissé sur le champ de bataille, tant tués que blessés, plus de 3,000 hommes, quelques pièces de canon et beaucoup de caissons."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Nous avons trouvé dans la ville 1,000 à 1,200 blessés."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p465-figures-v1",
+          "section": "p465",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 465 (transcribed from the page image)",
+          "quote": "Nous avons fait environ 600 prisonniers."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "J'ai fait parcourir le champ de bataille ce matin, et on a trouvé beaucoup plus de morts russes qu'on ne l'avait cru."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Le 34e à lui seul en a tué de 800 à 1,000."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Il y a aussi bien plus de blessés dans la ville qu'on ne s'y attendait, les maisons et les églises sont pleines."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "La ville est pleine de blessés et fuyards russes; on en estime le nombre à 2,000."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "On a fait pendant le combat 600 prisonniers en"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "état de porter les armes, parmi lesquels il y a un grand nombre d'officiers."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "La 3e division avait à peine débouché du village de Strzegocin qu'elle fut prévenue par ses éclaireurs qu'un corps de cavalerie assez considérable couvrait la marche d'une colonne d'artillerie et d'équipages qui se trouvait engagée dans les boues entre Kensy et Lady."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le général fit former la division et dès que le premier échelon s'avança pour charger, la cavalerie se tint presque toujours hors de portée; elle fut ramenée jusque derrière le village de Moszyn, en nous abandonnant 14 bouches à feu et une grande quantité de chariots de toute sorte."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL DAVOUT AU MAJOR GÉNÉRAL."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "Garnowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p473-figures-v1",
+          "section": "p473",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 473 (transcribed from the page image)",
+          "quote": "il a effectivement trouvé l'ennemi qui s'est replié à l'approche des troupes de Sa Majesté et a abandonné 14 bouches à feu, beaucoup de caissons et de bagages."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DAULTANNE AU MARÉCHAL DAVOUT A SKASZEWO OU GOLYMIN."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Przewodowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "Il est bien fâcheux que le mouvement que vous m'ordonnez force à abandonner 23 pièces de canon que l'ennemi avait été forcé de laisser."
+        }
+      ]
+    },
+    {
+      "id": "pultusk-ground",
+      "dimension": "terrain",
+      "value": "Pultusk is a town in Russian Poland on the right bank of the Narew, 50 km north of Warsaw (Bodart). In Höpfner the battlefield is bounded on the east by the Narew and on the south and south-west by woods, rises gently northward from them and falls again toward Pultusk, so that a gently rising but fairly extended height hides a position at Pultusk from an enemy coming out of the woods; in the thaw the rich loam had dissolved into a pulp that hindered every arm, and guns could be moved only with the utmost exertion; the approach through the woods bounding the field on the west seems to have been particularly difficult. The Russian left leaned on Pultusk and the right on the wood of Mosino; General Baggowut stood on the road to Warsaw beyond a ravine running down to the Narew; the Mosino brook, in that season, did not allow a wider turning movement, so the wood had to be taken; and woods a few thousand paces off in front hid the enemy's strength. Lannes found the enemy established on the plain before the town, his right resting on a bridge at the far end of the town and his left on another bridge at its entrance; his men fought in mud to mid-thigh, the wind and hail knocked them over, and all his artillery stuck in the marshes. In the 3rd corps's journal the thaw had been complete for two days, rare in Poland in that season; the ground was clayey and marshy and the roads frightful, two hours being needed for a short league; the enemy was formed on the plateau of Pultusk, his right, bent back at a right angle, crowning the heights over Moszyn; and that part of his line would have been thrown into the ravine of Bialowizna but for a strong reserve posted in a thicket parallel to the road. The journal of the 5th dragoon division, quoted by the editor, has marshy ground where the horses sank in the mud to their bellies and shifting, very muddy ground before the town. On 28 December Lannes wrote that one could not take a step without sinking into the mud to mid-thigh; the editor's note and Corbineau give the Narew as 25 to 30 toises wide at Pultusk.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Bodart's location line, read from the page image in the frame transcription; Höpfner and Foucart from the page images (Höpfner pp. 109-112; Foucart pp. 462-464, 466-469, 514, 515 and 517). The ground and the weather were given, so the claim is tagged inherited; the choice of the position was Bennigsen's (claim side-b-command). Lannes's two bridges are not reconciled with Höpfner's wings, which rest on the town and the Mosino wood (our comparison). The dragoon journal's first paragraph is dated 'Le 22' as printed, though its note mark is set in Lannes's account of the 26th; the figure is not corrected. Höpfner's plan of the battle was not inspected. English renderings (ours): Bodart, '1806 26/12. Battle at Pultusk (4.)'; 'victory of the French (24 battalions, 27 squadrons, 55 guns = 26,000 men) under Marshal Lannes over the Russians (66 battalions, 75 squadrons, 200 guns = 44,000 men) under General of Cavalry von Bennigsen'; '(town in Russian Poland, on the right bank of the Narew, 50 km north of Warsaw)'; Höpfner, 'the battlefield at Pultusk is bounded on the east by the Narew, on the south and south-west by woods, rises gently from these woods toward the north and falls again toward Pultusk, so that from an enemy debouching from these woods a position at Pultusk is hidden by a gently rising but fairly extended height'; 'but at the time of the battle, the thaw having set in, the rich loam soil had dissolved into a pulp, so that every arm found an obstacle in it, and the movement of the guns could be accomplished only with the utmost exertion'; 'an approach to the Russian position through the woods that bound the battlefield on the west seems to have been particularly difficult'; 'the left wing leaned on Pultusk, the right wing on the wood of Mosino'; 'on the road to Warsaw and beyond a ravine that runs down toward the Narew'; 'as the state of the Mosino brook in that season did not well allow a wider turning movement, so that the enemy necessarily had to take that wood to advance further'; 'the flaw of the position at Pultusk, that it was surrounded in front, at a few thousand paces' distance, by wood that hid the enemy's strength and dispositions'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'I found the enemy established on the plain before this town; his advance guard' (p. 462); 'the enemy fell back on his main body, which had its right resting on the bridge at the far end of the town, and its left on another bridge at the entrance of the town'; 'we fought from 10 in the morning until 6 in the evening in mud up to mid-thigh'; 'Your Majesty saw the weather of the day; the wind and the hail knocked our soldiers over'; 'all our artillery had stuck in the marshes, and despite all General Foucher's efforts it could hardly serve us and it is at this moment in bad condition...'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the thaw had been complete for two days, which in this season is rare in Poland'; 'the ground the army was crossing was clayey and marshy; the roads were frightful... Two hours were needed to cover a short league'; 'the enemy was formed on the plateau of Pultusk, on which he rested his left, and his right, bending back at a right angle, crowned the heights that overhang Moszyn'; 'this part of the enemy line would have been entirely thrown into the ravine of Bialowizna but for the help of a strong reserve which, placed in a thicket parallel to the road, stopped our first echelons'; the dragoon journal, 'on the 22nd, as soon as the 5th corps could defile at 10 in the morning, the division moved into the position it had occupied the day before'; 'the 1st brigade, General Boussart, directed to the left, followed the movements of the division Suchet in marshy ground where the horses sank in the mud up to their bellies, and so intimidated the enemy that he did not dare to undertake a charge'; 'the 2nd brigade, General Viallannes, stayed alone facing the town, occupying the centre of the army corps on shifting and very muddy ground, manoeuvring under the enemy's guns and opposing every attempt at this point'; '(journal of march of the 5th dragoon division)'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 28 December 1806'; 'it is impossible to form an idea of the country; one cannot take a step without sinking into the mud up to mid-thigh'; the editor, 'the Narew is 25 to 30 toises wide at Pultusk'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'the width of the river is 25 to 30 toises'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "(Stadt in Russisch-Polen, am rechten Ufer des Narew, 50 km nördl. von Warschau)."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Das Schlachtfeld bei Pultusk wird im Osten durch den Narew, im Süden und Süd-West durch Waldungen begrenzt, erhebt sich von diesen Waldungen sanft gegen Norden und senkt sich wiederum gegen Pultusk, so daß einem Feinde, der aus diesen Waldungen debouschirt, eine Aufstellung bei Pultusk durch eine sanft ansteigende, aber ziemlich ausgedehnte Erhebung verdeckt wird."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "jedoch zur Zeit der Schlacht war bei eingetretenem Thauwetter der fette Lehmboden breiartig aufgelöst, so daß jede Waffe in ihm ein Hinderniß fand, und die Bewegung der Geschütze nur mit höchster Anstrengung zu bewerkstelligen war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Besonders schwierig scheint eine Annäherung zur Stellung der Russen durch die Gehölze gewesen zu sein, welche das Schlachtfeld westlich begrenzen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Der linke Flügel lehnte sich an Pultusk, der rechte Flügel an das Gehölz von Mosino."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "auf der Straße nach Warschau und jenseits eines Ravins, das gegen den Narew hinabzieht,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "als die Beschaffenheit des Mosino-Baches in der damaligen Jahreszeit nicht füglich eine weitere Umgehung gestattete, jenes Gehölz daher nothwendig vom Feinde zum weitern Vorschreiten erobert werden mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der Mangel der Stellung bei Pultusk, daß sie in der Front auf wenige tausend Schritt Entfernung durch Wald umgeben war, welcher die Stärke und die Anordnungen des Feindes verdeckte,"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "J'ai trouvé l'ennemi établi sur la plaine devant cette ville; son avant-garde"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "l'ennemi s'est replié sur son corps de bataille qui avait la droite appuyée au pont à l'extrémité de la ville, et la gauche à un autre pont à l'entrée de la ville."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Nous nous sommes battus depuis 10 heures du matin jusqu'à 6 heures du soir dans la boue jusqu'à mi-cuisse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Votre Majesté a vu la journée qu'il a fait; le vent et la grêle renversaient nos soldats."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Toute notre artillerie s'était embourbée dans les marais, et malgré tous les efforts du général Foucher, elle n'a pu guère nous servir et elle est dans ce moment en mauvais état..."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le dégel était complet depuis deux jours, ce qui en cette saison est rare en Pologne."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le terrain que l'armée parcourait était glaiseux et marécageux; les chemins étaient affreux... Il fallait deux heures pour faire une petite lieue."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "L'ennemi était formé sur le plateau de Pultusk où il appuyait sa gauche, et sa droite, se reployant à angle droit, couronnait les hauteurs qui pendent sur Moszyn."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "cette partie de la ligne ennemie eût été entièrement culbutée dans le ravin de Bialowizna, sans le secours d'une forte réserve qui, placée dans un taillis et parallèlement à la route, arrêta nos premiers échelons."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "1. « Le 22, aussitôt que le 5e corps put défiler à 10 heures du matin, la division se porta dans la position qu'elle avait occupée la veille."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "(Journal de marche de la 5e division de dragons.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "« La 1re brigade, général Boussart, dirigée sur la gauche, suivit les mouvements de la division Suchet dans un terrain marécageux où les chevaux entraient dans la boue jusqu'au ventre et intimida tellement l'ennemi qu'il n'osa pas entreprendre une charge."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "« La 2e brigade, général Viallannes, resta seule en face de la ville, occupant le centre du corps d'armée dans un terrain mouvant et très-bourbeux, manœuvrant sous le canon de l'ennemi et s'opposant à toutes les tentatives sur ce point."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Il est impossible de se faire une idée du pays, on ne peut faire un pas sans enfoncer dans la boue jusqu'à mi-cuisse."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "1. La Narew a de 25 à 30 toises de largeur à Pultusk."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p517-figures-v1",
+          "section": "p517",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 517 (transcribed from the page image)",
+          "quote": "la largeur de la rivière est de 25 à 30 toises."
+        }
+      ]
+    },
+    {
+      "id": "side-a-logistics",
+      "dimension": "logistics",
+      "value": "Side A's means. In Höpfner, the march on Pultusk, continued with Becker's dragoon division, brought the main body of the advance guard, the cavalry and Suchet's division in the evening only to Zbroszki, and Gazan's division to Vinica, so that the troops covered only 2¾ Meilen in about 14 hours, and part of the artillery was brought along only with the most incredible efforts. At Pultusk the artillery that had come along stood on the right wing and in the centre, while the left wing had been unable to bring any guns. Lannes reported that all his artillery stuck in the marshes and, despite all General Foucher's efforts, could hardly serve and was now in bad condition; that the country offered no resources, having been totally ravaged by the Russians; and that a bridge at Sierock would serve to draw supplies from Warsaw. On 28 December he wrote that all the artillery had at last been got out of the mud; Corbineau wrote that it had, except for some caissons and two pieces, and that Pultusk would offer no resources to the corps occupying it, the country for several leagues around being marshy and sterile. The 3rd division doubled the teams of an 8-pounder to bring it near Moszyn; Daultanne's pencil note says the roads did not let the artillery come up, though 2 pieces of 8 supported the division, and his report says the munitions were exhausted and it was almost impossible to bring up the caissons.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 107 and 113; Foucart pp. 462, 464, 466, 468, 469, 471, 472 and 514-516). The sentence on the march begins on Höpfner's p. 106, which is not registered, so its subject and date are not cited here. The ground and the thaw were given, while the march and the order of battle were commanders' choices, so the phase is unresolved. English renderings (ours): Höpfner, '[had] continued the march on Pultusk with the dragoon division Becker, but in the evening could get only as far as Zbroszki with the main body of the advance guard, the cavalry and the division Suchet, and as far as Vinica with the division Gazan, so that the troops could cover only 2¾ Meilen in about 14 hours' (p. 107); 'only by the most incredible efforts had it been possible to bring part of the artillery along'; 'the artillery that had come along stood on the right wing and in the centre in the intervals; the left wing had been unable to bring any guns'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'all our artillery had stuck in the marshes, and despite all General Foucher's efforts it could hardly serve us and it is at this moment in bad condition...'; 'the country offers no resources; it has been totally ravaged by the Russians'; 'if a bridge could be built at Sierock, it would serve us to draw supplies from Warsaw'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 28 December 1806'; 'we have at last managed to get all the artillery out of the mud'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'Marshal Lannes's artillery has been got out of the mud, except for some caissons and two pieces of artillery'; 'the town of Pultusk will offer no resources to the army corps occupying it, the country around it for several leagues being marshy and sterile'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'approaching the village of Moszyn, around which a cloud of Cossacks was hovering, the general, by doubling the teams of an 8-pounder, managed to bring it near enough to fire a few rounds on the village, so as to oblige the enemy to unmask the forces he might have there, but only a few hundred Cossacks came out of it'; 'it was probably at this moment that General Daultanne wrote to Marshal Davout the following note in pencil'; 'Marshal Lannes is attacking Pultusk. The 3rd division arrives very opportunely. It falls on the enemy's flank' (p. 468); 'the roads do not allow the artillery to come up; nevertheless 2 8-pounders support the valour of this division' (p. 469); Daultanne, 'General Daultanne to Marshal Davout at Skaszewo or Golymin'; 'Przewodowo, 26 December 1806'; 'the munitions are exhausted and it is almost impossible to bring up the caissons'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "mit der Dragoner-Division Becker den Marsch auf Pultusk fortgesetzt, konnte aber am Abend mit dem Gros der Avantgarde, der Kavallerie und der Division Suchet nur bis Zbroszki, mit der Division Gazan bis Vinica gelangen, so daß die Truppen in etwa 14 Stunden nur 2¾ Meilen zurücklegen konnten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Nur durch die unglaublichsten Anstrengungen war es gelungen, einen Theil der Artillerie mit fortzubringen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "die mitgekommene Artillerie stand auf dem rechten Flügel und im Centrum in den Intervallen; der linke Flügel hatte keine Geschütze mitführen können."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "Toute notre artillerie s'était embourbée dans les marais, et malgré tous les efforts du général Foucher, elle n'a pu guère nous servir et elle est dans ce moment en mauvais état..."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Le pays n'offre aucune ressource; il a été totalement ravagé par les Russes."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Si on pouvait faire établir un pont à Sierock, il nous servirait à tirer des vivres de Varsovie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p514-figures-v1",
+          "section": "p514",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 514 (transcribed from the page image)",
+          "quote": "On est arrivé enfin à retirer toute l'artillerie des boues."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p516-figures-v1",
+          "section": "p516",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 516 (transcribed from the page image)",
+          "quote": "L'artillerie de M. le maréchal Lannes est tirée des boues à l'exception de quelques caissons et de deux pièces d'artillerie."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "La ville de Pultusk n'offrira aucune ressource au corps d'armée qui l'occupe, le pays qui l'environne à plusieurs lieues étant marécageux et stérile."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "En approchant du village de Moszyn, autour duquel voltigeait une nuée de cosaques, le général, en faisant doubler les attelages d'une pièce de 8, parvint à l'amener assez près pour faire tirer quelques coups sur le village, afin d'obliger l'ennemi à démasquer les forces qu'il pouvait y avoir, mais il n'en sortit que quelques centaines de cosaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "1. Ce fut probablement à ce moment que le général Daultanne écrivit au maréchal Davout le billet suivant au crayon :"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "Le maréchal Lannes attaque Pultusk. La 3e division arrive fort à propos. Elle tombe sur le flanc de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "les chemins ne permettent pas à l'artillerie d'arriver; cependant 2 pièces de 8 secondent la valeur de cette division."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL DAULTANNE AU MARÉCHAL DAVOUT A SKASZEWO OU GOLYMIN."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Przewodowo, 26 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p472-figures-v1",
+          "section": "p472",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 472 (transcribed from the page image)",
+          "quote": "c'est que les munitions sont épuisées et qu'il est presque impossible de faire avancer les caissons."
+        }
+      ]
+    },
+    {
+      "id": "side-b-logistics",
+      "dimension": "logistics",
+      "value": "Side B's means. In Höpfner the Russians at Pultusk lacked everything: no preparations at all had been made to supply the army regularly in that inhospitable region, everything having been reckoned only for a march through; the contractor then given the supply made many promises that he could not keep for lack of ready money, so that the troops struggled continually with the greatest want. Ammunition was as short, and on the 25th General Löwenstern had to go back to Tykoczyn to bring up ammunition from the reserve park. The French cavalry's reconnaissance before Pultusk on the afternoon of the 25th alarmed the Russian troops, already overstrained, who believed they could not rest fully and camped in order of battle that night. Heavy artillery had been sent back, and the 3 Prussian batteries with the army in the retreat were not at the battle. General Corbineau wrote that a Russian magazine of grain and flour at Pultusk had been shipped to Ostrolenka by the Narew, and that the Russians' main hospital and administrations were at Ostrolenka on the 26th.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Höpfner pp. 107 and 109; Foucart pp. 515 and 517). Höpfner names no source for the supply (dependency note). The want was inherited from the retreat, while the decision to stand at Pultusk was Bennigsen's (claim side-b-command), so the phase is unresolved. English renderings (ours): Höpfner, 'the Russians at Pultusk lacked everything'; 'no preparations at all had been made to supply the army regularly in these inhospitable regions, since everything had been reckoned only for the march through'; 'in the emergency the supply was now given to a Jewish contractor, who, so as not to miss the lucrative business, made many promises that he could not keep for lack of ready money, so that the troops had to struggle continually with the greatest want'; 'ammunition was lacking just as much, although they had as yet come little to grips with the enemy, and as early as the 25th General Löwenstern had to go back to Tykoczyn to bring up ammunition from the reserve park'; 'the heads of the French cavalry arrived before Pultusk to reconnoitre as early as the afternoon of the 25th, when the first Russian troops had scarcely arrived there from Strzegocin'; 'yet this alarm had the great disadvantage that the Russian troops, who had already suffered such excessive exertions, believed they could not give themselves up to complete rest, but camped in order of battle already in the night'; 'that heavy artillery had been sent back is confirmed simply by the fact that the 3 Prussian batteries present with the army on the retreat were not present at the battle'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'a magazine of grain and flour that the Russians had at Pultusk was loaded on boats and carried to Ostrolenka by the Narew'; 'the Russians' main hospital and their administrations were at Ostrolenka on the 26th'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Es fehlte den Russen bei Pultusk an Allem."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Man hatte durchaus keine Vorbereitungen getroffen, die Armee in diesen unwirthbaren Gegenden regelmäßig zu verpflegen, da ja Alles nur auf den Durchmarsch berechnet war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "In der Noth übertrug man nun einem jüdischen Lieferanten die Verpflegung, der auch, um sich das einträgliche Geschäft nicht entgehen zu lassen, viele Versprechungen machte, die er aus Mangel an baarem Gelde aber nicht erfüllen konnte, so daß die Truppen fortgesetzt mit dem größten Mangel kämpfen mußten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "An Munition fehlte es eben so sehr, obgleich man mit dem Feinde erst wenig handgemein geworden war, und schon am 25. mußte der General Löwenstern nach Tykoczyn zurückgehen, um Munition aus dem Reserve-Park herbeizuführen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Die Spitzen der französischen Kavallerie trafen schon am Nachmittag des 25. zur Rekognoszirung vor Pultusk ein, als daselbst kaum die ersten russischen Truppen von Strzegocin her angelangt waren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "doch hatte diese Allarmirung immerhin den großen Nachtheil, daß die russischen Truppen, die bereits so übermäßige Anstrengungen erlitten hatten, sich keiner vollständigen Ruhe überlassen zu dürfen glaubten, vielmehr in der Nacht bereits in Schlachtordnung lagerten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Daß schwere Artillerie zurückgeschickt worden war, bestätigt sich schon dadurch, daß die bei der Armee auf dem Rückzuge anwesend gewesenen 3 preußischen Batterien bei der Schlacht nicht gegenwärtig waren."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p517-figures-v1",
+          "section": "p517",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 517 (transcribed from the page image)",
+          "quote": "Un magasin de blé et de farine qu'avaient les Russes à Pultusk, a été embarqué et transporté à Ostrolenka par la Narew."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p517-figures-v1",
+          "section": "p517",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 517 (transcribed from the page image)",
+          "quote": "L'hôpital principal des Russes et leurs administrations étaient à Ostrolenka le 26."
+        }
+      ]
+    },
+    {
+      "id": "side-a-information",
+      "dimension": "information",
+      "value": "Side A's information. The major general's letter of 25 December told Lannes what was presumed: the division beaten on the Wkra had withdrawn to Strzegocin and was thought to be going on to Pultusk or Golymin, and one or two regiments might still be at Sierock. In Foucart's narrative Lannes knew of the enemy's march on Pultusk from General Beker's reconnaissance of the 25th, and in Höpfner the heads of the French cavalry reconnoitred before Pultusk that afternoon. The end of a headquarters letter, printed by Foucart just before his narrative of the morning of the battle, says that it was not yet known whether Lannes had taken Pultusk. In Höpfner, Lannes's own reconnaissance could not discover the Russian position because of the height south of Pultusk, and only about 10, from the rise, did he see it and recognise his opponent's superiority in numbers; the Emperor had told him that he would advance against Golymin with the other corps, so he could expect no support. General d'Aultanne had Lannes informed of his approach and reconnoitred the Russian position in person; in the 3rd corps's journal the circumstances were too urgent for him to concert with the marshal; the division's scouts had reported the cavalry covering a Russian column; an 8-pounder fired on the village of Moszyn to make the enemy unmask his forces, but only a few hundred Cossacks came out; and in the dark the 34th could not judge the enemy's movements. Davout's second order reached Daultanne only at 3 in the morning, and Lannes's report of 27 December makes no mention of the 3rd division (the editor).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Foucart pp. 439, 440, 462, 466-469 and 471; Höpfner pp. 107, 112 and 116). The page of that letter's end (p. 462) shows neither its writer nor its addressee; that it comes from headquarters is our reading of its orders to the corps. Its heading and dateline, read on the page image of p. 461 but not registered or cited, are 'LE MAJOR GÉNÉRAL AU GRAND-DUC DE BERG' and 'Lopaczyn, 26 décembre 1806, 9 heures du matin'. English renderings (ours): the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'this beaten division has withdrawn to Strzegocin, and from there it is thought that it is going to Pultusk or to Golymin'; 'it is possible that there are still one or two regiments at Sierock, which must naturally be taken'; Foucart, 'on the morning of the 26th, Marshal Lannes, who had learned of the enemy's march on Pultusk from General Beker's reconnaissance of the 25th, was moving on that town'; Höpfner, 'the heads of the French cavalry arrived before Pultusk to reconnoitre as early as the afternoon of the 25th, when the first Russian troops had scarcely arrived there from Strzegocin'; the letter, 'that of Marshal Davout will remain at Golymin so that one of his divisions is on the high road to Pultusk to act if necessary, for we do not yet know whether Marshal Lannes has taken Pultusk'; Höpfner, 'Marshal Lannes had set his corps in motion again at 7 in the morning of the 26th'; 'the marshal went forward in person with 2 squadrons to reconnoitre, drove the roving Cossacks out of the woods in front, but could not discover the Russians' position because of the height south of Pultusk'; 'from this height the marshal overlooked the Russian position about 10 in the morning and very soon recognised his opponent's superiority in numbers, as well as the advantages of the defensive in this ground, which made every movement to attack difficult and did not allow the mass of the artillery to be brought into action together with the troops'; 'on the one side Napoleon's definite order to take the Narew bridge and the certain prospect of receiving no support, as the Emperor had told him that he would advance against Golymin with the other corps of the right wing and the centre'; 'General d'Aultanne had Marshal Lannes informed of his approach and went forward in person to reconnoitre the Russian position'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the circumstances were too urgent for General Daultanne to concert with the marshal, but he had him warned of his arrival and of the attack he was going to make'; 'the 3rd division had scarcely come out of the village of Strzegocin when it was warned by its scouts that a fairly considerable body of cavalry was covering the march of a column of artillery and baggage that was stuck in the mud between Kensy and Lady'; 'approaching the village of Moszyn, around which a cloud of Cossacks was hovering, the general, by doubling the teams of an 8-pounder, managed to bring it near enough to fire a few rounds on the village, so as to oblige the enemy to unmask the forces he might have there, but only a few hundred Cossacks came out of it'; 'meanwhile the 34th regiment (5th corps), having had to deal with very superior forces, and the darkness of the night not allowing it to judge the enemy's movements well, was forced to retreat'; the editor, 'on receiving this note, Marshal Davout sent General Daultanne a second order, which reached him only at 3 in the morning and gave rise to the following report'; 'in his report Marshal Lannes makes no mention of the 3rd division of the 3rd corps, which fought on his left all day'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "Cette division battue s'est retirée sur Strzegocin, et de là on pense qu'elle va sur Pultusk ou sur Golymin."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "il est possible qu'il y ait encore un ou deux régiments sur Sierock, lesquels naturellement doivent être pris."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Le 26 au matin, le maréchal Lannes qui était instruit de la marche de l'ennemi sur Pultusk par la reconnaissance du général Beker du 25, se portait sur cette ville."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Die Spitzen der französischen Kavallerie trafen schon am Nachmittag des 25. zur Rekognoszirung vor Pultusk ein, als daselbst kaum die ersten russischen Truppen von Strzegocin her angelangt waren."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "celui du maréchal Davout restera à Golymin de manière qu'une de ses divisions soit sur la grande route de Pultusk pour agir si cela est nécessaire, car nous ne savons pas encore si le maréchal Lannes s'est emparé de Pultusk."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der M. Lannes hatte am 26. Morgens 7 Uhr sein Korps wiederum in Bewegung gesetzt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der Marschall ging persönlich mit 2 Schwadronen zur Rekognoszirung vor, vertrieb die herumstreifenden Kosaken aus den vorliegenden Gehölzen, konnte aber wegen der Erhebung südlich von Pultusk die Aufstellung der Russen nicht entdecken."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Von dieser Höhe übersah der Marschall gegen 10 Uhr Vormittags die russische Aufstellung und erkannte sehr bald die Ueberlegenheit seines Gegners an Zahl, so wie die Vortheile der Defensive in diesem Boden, der jede Bewegung zum Angriff erschwerte und nicht gestattete, die Masse der Artillerie gleichzeitig mit den Truppen ins Gefecht zu bringen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Auf der einen Seite der bestimmte Befehl Napoleons zur Wegnahme der Narewbrücke und die gewisse Aussicht, keine Unterstützung zu erhalten, da ihm der Kaiser mitgetheilt hatte, daß er mit den übrigen Korps des rechten Flügels und des Centrums gegen Golymin vorgehen würde;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General d'Aultanne ließ den M. Lannes von seiner Annäherung benachrichtigen und ging persönlich zur Rekognoszirung der russischen Aufstellung vor."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "Les circonstances étaient trop urgentes pour que le général Daultanne pût se concerter avec le maréchal, mais il le fit prévenir de son arrivée et de l'attaque qu'il allait former."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "La 3e division avait à peine débouché du village de Strzegocin qu'elle fut prévenue par ses éclaireurs qu'un corps de cavalerie assez considérable couvrait la marche d'une colonne d'artillerie et d'équipages qui se trouvait engagée dans les boues entre Kensy et Lady."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p468-figures-v1",
+          "section": "p468",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 468 (transcribed from the page image)",
+          "quote": "En approchant du village de Moszyn, autour duquel voltigeait une nuée de cosaques, le général, en faisant doubler les attelages d'une pièce de 8, parvint à l'amener assez près pour faire tirer quelques coups sur le village, afin d'obliger l'ennemi à démasquer les forces qu'il pouvait y avoir, mais il n'en sortit que quelques centaines de cosaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "Cependant le 34e régiment (5e corps) ayant eu affaire à des forces très-supérieures et l'obscurité de la nuit ne lui permettant pas de bien juger des mouvements de l'ennemi, fut contraint à la retraite."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "A la réception de ce billet, le maréchal Davout envoya au général Daultanne un second ordre qui ne lui parvint qu'à 3 heures du matin et donna lieu au rapport suivant."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Dans son rapport, le maréchal Lannes ne fait aucune mention de la 3e division du 3e corps qui combattit à sa gauche toute la journée."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        }
+      ]
+    },
+    {
+      "id": "side-b-information",
+      "dimension": "information",
+      "value": "Side B's information, in Höpfner. The French cavalry's reconnaissance before Pultusk on the afternoon of the 25th alarmed the Russians, who camped that night in order of battle. The flaw of the position was that woods a few thousand paces off in front hid the enemy's strength and dispositions, though the great vigilance of the Cossacks, present wherever the enemy could be expected, partly made up for it. On the morning of 26 December the Cossacks reported the enemy's approach from several sides; the French left wing was hidden by wooded ground, so the Russians could not see the French strength there. After several hours of fighting the Cossacks reported a strong enemy column on the Strzegocin road; Bennigsen could not make out the strength of this new enemy and had to fear an attack on his right flank by great superiority, so he took back his right wing. Buxhöwden's letter, which judged an immediate retreat of all the troops the best course, reached Bennigsen too late to have any effect. Höpfner explains the Russians' purely defensive conduct in part by their poor view of the enemy's strength in the bushy terrain, especially on the right wing.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Höpfner, read from the page images (pp. 107-109, 112, 113, 115, 116 and 119); he names no source for the Russian reports he summarises (dependency note). English renderings (ours): 'the heads of the French cavalry arrived before Pultusk to reconnoitre as early as the afternoon of the 25th, when the first Russian troops had scarcely arrived there from Strzegocin'; 'yet this alarm had the great disadvantage that the Russian troops, who had already suffered such excessive exertions, believed they could not give themselves up to complete rest, but camped in order of battle already in the night'; 'the flaw of the position at Pultusk, that it was surrounded in front, at a few thousand paces' distance, by wood that hid the enemy's strength and dispositions'; 'one must not overlook, however, that the great vigilance of the Cossacks, their presence at every place where the enemy was to be expected, made the said flaw of the position somewhat harmless'; 'on the morning of 26 December the enemy's approach was reported by the Cossacks from several sides'; 'the left wing was hidden by the wooded ground, so that the Russians could not make out the strength of the French there'; 'the fight had in this way lasted several hours undecided against the two advanced Russian detachments, when the approach of a strong enemy column on the road from Strzegocin was reported to General Bennigsen by the Cossacks'; 'General Bennigsen could not make out the strength of the new enemy and had to fear being attacked in the right flank by great superiority'; 'he therefore took back the whole right wing of the main body's infantry, so as not to be outflanked'; 'to General Bennigsen he wrote that an immediate retreat of all the troops to gain time seemed to him the best thing to do, and that in agreement with' (p. 108); 'the field marshal he ordered the artillery park to be sent back at once to the Russian frontier' (p. 109); 'this letter reached General Bennigsen so late that it had to remain wholly without effect'; 'that the Russians confined themselves to merely beating off the attacks of the French and nowhere carried out a counterstroke is explained by the exhaustion of the troops, by the state of the ground for movement, by the inadequate view of the enemy's strength in the bushy terrain, especially on the right wing, and by the fact that they wanted nothing other than to beat off an attack, which they also fully achieved with great economy of force'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "Die Spitzen der französischen Kavallerie trafen schon am Nachmittag des 25. zur Rekognoszirung vor Pultusk ein, als daselbst kaum die ersten russischen Truppen von Strzegocin her angelangt waren."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p107-figures-v1",
+          "section": "p107",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 107 (transcribed from the page image)",
+          "quote": "doch hatte diese Allarmirung immerhin den großen Nachtheil, daß die russischen Truppen, die bereits so übermäßige Anstrengungen erlitten hatten, sich keiner vollständigen Ruhe überlassen zu dürfen glaubten, vielmehr in der Nacht bereits in Schlachtordnung lagerten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Der Mangel der Stellung bei Pultusk, daß sie in der Front auf wenige tausend Schritt Entfernung durch Wald umgeben war, welcher die Stärke und die Anordnungen des Feindes verdeckte,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Man darf indessen nicht übersehen, daß die große Wachsamkeit der Kosaken, ihre Anwesenheit an allen Orten, wo der Feind zu erwarten, in etwas den gedachten Mangel der Stellung unschädlich machten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Am Morgen des 26. Dezembers wurde der Anmarsch des Feindes durch die Kosaken von mehreren Seiten gemeldet."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Der linke Flügel war durch das bewaldete Terrain verdeckt, so daß die Russen dort die Stärke der Franzosen nicht übersehen konnten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Das Gefecht hatte auf diese Weise mehrere Stunden unentschieden gegen die beiden vorgeschobenen russischen Detaschements gedauert, als dem General Bennigsen die Annäherung einer starken feindlichen Kolonne auf der Straße von Strzegocin durch die Kosaken gemeldet wurde."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General Bennigsen konnte die Kräfte des neuen Feindes nicht übersehen und mußte befürchten, in der rechten Flanke von großer Uebermacht angegriffen zu werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Er nahm deshalb den ganzen rechten Flügel des Gros der Infanterie zurück, um nicht umgangen zu werden."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Dem General Bennigsen schrieb er: daß ihm der sofortige Rückzug aller Truppen zum Zeitgewinn das Beste schiene, was zu thun sei, und daß er in Uebereinstimmung mit"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "dem Feldmarschall befehle, den Artillerie-Park sofort nach der russischen Grenze zurückzuschicken."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Dem General Bennigsen ging dies Schreiben so spät zu, daß es ohne alle Wirkung bleiben mußte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Daß die Russen sich darauf beschränkten, die Angriffe der Franzosen nur abzuwehren, nirgends einen Gegenstoß vollführten, erklärt sich aus der Erschöpfung der Truppen, aus dem Zustande des Bodens zur Bewegung, aus der mangelhaften Uebersicht von der Stärke des Feindes in dem bebuschten Terrain, besonders auf dem rechten Flügel, so wie daraus, daß sie eben nichts Anderes wollten, als einen Angriff abschlagen, was ihnen mit großer Oekonomie der Kräfte auch vollständig gelang."
+        }
+      ]
+    },
+    {
+      "id": "side-a-objectives",
+      "dimension": "objectives",
+      "value": "Side A's objectives. The major general wrote to Lannes on 25 December that the Emperor intended him to leave Nasielsk for Pultusk, cross the Narew there and build a bridgehead at once, with Beker's division under his orders besides his light cavalry; in Höpfner Lannes had Napoleon's definite order to take the Narew bridge. The end of a headquarters letter, printed by Foucart just before his narrative of the morning of the battle, has Davout's corps stay at Golymin with one of its divisions on the high road to Pultusk, to act if necessary, as it was not yet known whether Lannes had taken Pultusk. Davout had his 3rd division follow the Russians retreating on Pultusk; its general continued his movement to approach the 5th corps and second its attacks, and Davout's order sent before noon called it back to him.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read from the page images (Foucart pp. 439, 440, 462, 466, 467 and 471; Höpfner p. 112). Lannes's objective was set from above, while the 3rd division's was its own general's decision (claim daultanne-decision), so the claim's single phase is unresolved. On the headquarters letter, see claim side-a-information. English renderings (ours): the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'the Emperor's intention, Marshal, is that you leave Nasielsk to make for Pultusk, cross the Narew there and build a bridgehead there at once'; 'besides your light cavalry, you will have under your orders the divi-' (p. 439); '-sion Beker, which spent the night at Poniaty, on the road to Pultusk' (p. 440); Höpfner, 'on the one side Napoleon's definite order to take the Narew bridge and the certain prospect of receiving no support, as the Emperor had told him that he would advance against Golymin with the other corps of the right wing and the centre'; 'side a superior enemy, on whose presence they had evidently not reckoned when the marshal was detached' (p. 113); 'however, the French marshals were too used to the most exact obedience to their Emperor's orders for Marshal Lannes to have long doubted what was to be done in this case; he decided to attack the Russians'; the letter, 'that of Marshal Davout will remain at Golymin so that one of his divisions is on the high road to Pultusk to act if necessary, for we do not yet know whether Marshal Lannes has taken Pultusk'; Foucart, 'for his part, Marshal Davout, informed that the Russian troops that had spent the night near Strzegocin were retreating on Pultusk by Kensy and Lady, had them followed from 7 in the morning by his 3rd division, General Daultanne, with 170 horses (dragoons and chasseurs)'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the general then continued his movement forward to approach the 5th corps and second it in its attacks'; the editor, 'Marshal Davout sent the 3rd division before noon the order to rejoin him,'.",
+      "citations": [
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "L'intention de l'Empereur, M. le Maréchal, est que vous partiez de Nasielsk pour vous diriger sur Pultusk, d'y passer la Narew et d'y construire sur-le-champ une tête de pont."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Indépendamment de votre cavalerie légère, vous aurez sous vos ordres la divi-"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p440-figures-v1",
+          "section": "p440",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 440 (transcribed from the page image)",
+          "quote": "sion Beker qui a couché à Poniaty, sur la route de Pultusk."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p112-figures-v1",
+          "section": "p112",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 112 (transcribed from the page image)",
+          "quote": "Auf der einen Seite der bestimmte Befehl Napoleons zur Wegnahme der Narewbrücke und die gewisse Aussicht, keine Unterstützung zu erhalten, da ihm der Kaiser mitgetheilt hatte, daß er mit den übrigen Korps des rechten Flügels und des Centrums gegen Golymin vorgehen würde;"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Seite ein überlegener Feind, auf dessen Anwesenheit man bei Detaschirung des Marschalls offenbar nicht gerechnet hatte."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Indessen die französischen Marschälle waren zu sehr an die genaueste Befolgung der Befehle ihres Kaisers gewöhnt, als daß der M. Lannes lange gezweifelt hätte, was in diesem Falle zu thun sei; er beschloß, die Russen anzugreifen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "celui du maréchal Davout restera à Golymin de manière qu'une de ses divisions soit sur la grande route de Pultusk pour agir si cela est nécessaire, car nous ne savons pas encore si le maréchal Lannes s'est emparé de Pultusk."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "De son côté, le maréchal Davout, informé que les troupes russes qui avaient couché près de Strzegocin, effectuaient leur retraite sur Pultusk par Kensy et Lady, les faisait suivre dès 7 heures du matin par sa 3e division, général Daultanne, avec 170 chevaux (dragons et chasseurs)."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p467-figures-v1",
+          "section": "p467",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 467 (transcribed from the page image)",
+          "quote": "Le général continua alors son mouvement en avant pour s'approcher du 5e corps et le seconder dans ses attaques."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p471-figures-v1",
+          "section": "p471",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 471 (transcribed from the page image)",
+          "quote": "Le maréchal Davout envoya avant midi à la 3e division l'ordre de le rejoindre,"
+        }
+      ]
+    },
+    {
+      "id": "side-b-objectives",
+      "dimension": "objectives",
+      "value": "Side B's objective in Höpfner: by the halt at Pultusk General Bennigsen wanted nothing but a pause in the retreat and to hold up the enemy; even at best he could not think of taking the offensive again; the Russians did not seek the tactical decision but accepted it only where it could not be avoided; and holding the enemy at Pultusk would give the formations already separated from it time to reunite higher up the Narew. The position covered the Russian line of retreat on Ostrolenka, and in the worst case the Narew bridge had to be held for a retreat to the left bank and the link with Anrepp's division. The Russians wanted nothing else than to beat off an attack, which they fully achieved with great economy of force.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Höpfner, read from the page images (pp. 108, 109, 111 and 119). Bennigsen chose to stand against his superior's order (claim side-b-command), so the claim is tagged commander_created. Höpfner gives the aim as his own reading of Bennigsen's conduct; he names no order or report of Bennigsen's. English renderings (ours): 'by the halt at Pultusk General Bennigsen wanted nothing but to make a pause in the retreat and merely to hold up the enemy'; 'even in the most favourable case he could not, in the existing circumstances, think of taking the offensive again'; 'they did not seek the tactical decision; they accepted it only when it could not be avoided in reaching the aim indicated'; 'despite Field Marshal Kaminskoi's definite order for an immediate retreat, General Bennigsen had nevertheless resolved to stand at Pultusk, at the risk of a battle against great superiority and under heavy responsibility'; 'all this seemed to the general to amount to a defeat, whereas, if it succeeded in holding up the enemy at Pultusk, the other formations, already separated from Pultusk, gained the time to reunite higher up the Narew'; 'the position at Pultusk covered the Russians' line of retreat on Ostrolenka and against an attack from the Warsaw road'; 'in the position at Pultusk an attack was to be expected on the road from Warsaw and from Nasielsk against the left wing, and on the road from Strzegocin by Przewodowo against the right wing, and for the worst case the Narew bridge had to be held for the retreat to the left bank and for the link with the division Anrepp'; 'that the Russians confined themselves to merely beating off the attacks of the French and nowhere carried out a counterstroke is explained by the exhaustion of the troops, by the state of the ground for movement, by the inadequate view of the enemy's strength in the bushy terrain, especially on the right wing, and by the fact that they wanted nothing other than to beat off an attack, which they also fully achieved with great economy of force'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Der General Bennigsen wollte durch den Halt bei Pultusk nichts als eine Pause im Rückzuge eintreten lassen und den Feind nur aufhalten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Auch im günstigsten Falle konnte er unter den vorhandenen Umständen nicht daran denken, wiederum die Offensive zu ergreifen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p109-figures-v1",
+          "section": "p109",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 109 (transcribed from the page image)",
+          "quote": "Man suchte nicht die taktische Entscheidung, man nahm sie nur an, wenn sie sich zur Erreichung des angedeuteten Zweckes nicht vermeiden ließ."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Trotz des bestimmten Befehls des Feldmarschalls Kaminskoi zum sofortigen Rückzuge, hatte sich der General Bennigsen dennoch entschlossen, auf die Gefahr einer Schlacht gegen große Uebermacht und unter schwerer Verantwortung bei Pultusk halten zu bleiben."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p108-figures-v1",
+          "section": "p108",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 108 (transcribed from the page image)",
+          "quote": "Dies Alles schien dem General einer Niederlage gleich zu kommen, wogegen, wenn es gelang, den Feind bei Pultusk aufzuhalten, die übrigen Abtheilungen, die bereits von Pultusk getrennt waren, die Zeit gewannen, sich am Narew weiter aufwärts wieder zu vereinigen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Die Stellung bei Pultusk deckte die Rückzugslinie der Russen auf Ostrolenka und gegen einen Angriff von der Warschauer Straße her,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p111-figures-v1",
+          "section": "p111",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 111 (transcribed from the page image)",
+          "quote": "Man hatte in der Stellung bei Pultusk einen Angriff auf der Straße von Warschau und von Nasielsk gegen den linken, und auf der Straße von Strzegocin über Przewodowo gegen den rechten Flügel zu erwarten, und mußte für den schlimmsten Fall die Narewbrücke zum Rückzug auf das linke Ufer und zur Verbindung mit der Division Anrepp behaupten."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Daß die Russen sich darauf beschränkten, die Angriffe der Franzosen nur abzuwehren, nirgends einen Gegenstoß vollführten, erklärt sich aus der Erschöpfung der Truppen, aus dem Zustande des Bodens zur Bewegung, aus der mangelhaften Uebersicht von der Stärke des Feindes in dem bebuschten Terrain, besonders auf dem rechten Flügel, so wie daraus, daß sie eben nichts Anderes wollten, als einen Angriff abschlagen, was ihnen mit großer Oekonomie der Kräfte auch vollständig gelang."
+        }
+      ]
+    },
+    {
+      "id": "posture",
+      "dimension": "posture",
+      "value": "Side A attacked. Bodart has a victory of the French. In Höpfner, Lannes decided to attack the Russians; the French advanced parallel to the Russian front, and about 11 General Claparède began the attack on General Baggowut's detachment, while General Suchet attacked the Mosino wood with the 34th regiment; later General d'Aultanne attacked the Russian right flank with half battalions at 50 paces' interval, and the French right and centre went to the attack again. Lannes reported that as soon as he was formed he had the enemy's advance guard attacked, then ordered the left bridge attacked and sent troops against the right bridge; the 3rd corps's journal has the 3rd division attack the enemy's flank by half battalions and echelons at 50 paces. Side B defended its position. Its charges and counterattacks were made within it: General Koschin's attack on Wedell's flank, Barclay's renewed attack, Baggowut's recrossing of the ravine and Somow's bayonet attack (Höpfner); and Lannes reported that the enemy sent about 8,000 infantry and 3 cavalry regiments against his right to outflank him, and later a column from his right to try again. In Höpfner the Russians only beat off the French attacks and nowhere made a counterstroke, and 29 Russian battalions never came into action.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Coded A_attacked: side A attacked side B's position at Pultusk; side B's charges and counterattacks were made within its own defended position, which by the brief do not make the defender an attacker, and Höpfner says the Russians nowhere made a counterstroke. Lannes, side A's commander at this engagement (Bodart), decided the attack on the field (claim lannes-decision), so the claim is tagged commander_created; the order to take Pultusk came from above (claim side-a-objectives), and the 3rd division's attack was its own general's decision (claim daultanne-decision). English renderings (ours): Bodart, as in claim bodart-strength; Höpfner, 'however, the French marshals were too used to the most exact obedience to their Emperor's orders for Marshal Lannes to have long doubted what was to be done in this case; he decided to attack the Russians'; 'in this formation, with a strengthened right wing, the French advanced parallel to the Russian front, and about 11 o'clock General Claparède began the attack on General Baggowut's detachment'; 'during this fight on the Russian left wing, General Suchet with the infantry of the left wing had turned against General Barclay de Tolly, pushed forward a swarm of skirmishers and attacked the Mosino wood with the 34th Regiment'; 'with half battalions, 50 paces' interval between them, General d'Aultanne at once went to the attack in thick driving snow'; 'during this victorious fight in the Mosino wood the French had set up the artillery they had brought on the height the Russian cavalry had left, fired on General Baggowut's detachment in its right flank, and had then gone to the attack again with the right wing and the centre, together with the second line'; 'General Koschin seized the moment when General Wedell offered him his left flank and was at the same time attacked in front by 1 battalion of the Starokol Regiment and 1 Jäger battalion, and threw himself on his flank'; 'General Barclay, so considerably reinforced, went over to the attack again'; 'General Baggowut was thrown back at all points with the loss of his guns' (p. 117); 'into and over the ravine' (p. 118); 'reinforced by the Murom and the 2nd battalion of the Reval Musketeer Regiment and supported by a battery of General Ostermann, the Russian general went over the ravine again, threw the French back and retook the lost guns'; 'until General Somow with the Tula Musketeer Regiment, by a bayonet attack, decided the fight on this wing too in favour of the Russians, after darkness had already fallen'; 'that the Russians confined themselves to merely beating off the attacks of the French and nowhere carried out a counterstroke is explained by the exhaustion of the troops, by the state of the ground for movement, by the inadequate view of the enemy's strength in the bushy terrain, especially on the right wing, and by the fact that they wanted nothing other than to beat off an attack, which they also fully achieved with great economy of force'; '29 Russian battalions did not come into action at all'; Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'as soon as I was formed, I had the enemy advance guard attacked by the 17th light and the 88th'; 'General Victor received the order to attack the left bridge with the 34th and a battalion of the 64th supported by the division Beker'; 'at the same time the enemy sent about 8,000 infantry and 3 cavalry regiments against my right, seeking to outflank me'; 'then I sent the rest of the 64th and the whole 88th against the right bridge to' (p. 463); 'cut off his retreat to the bridge, and I had him attacked by the 17th after a most lively fusillade' (p. 464); 'the enemy, seeing his left forced about 3 in the afternoon, detached a column from his right to try a second time to outflank our right, but the presence of General Gazan was enough to make it go back into line'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'the general had all the battalions make a change of direction to the left, which gave him an oblique line on the enemy's flank'; 'the general deployment was carried out at once and the attack began immediately by half battalions and by echelons at 50 paces'.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "1806 26./12. SCHLACHT bei Pultusk (4.)"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p377",
+          "locator": "Bodart (1908), p. 377",
+          "quote": "Sieg der Franzosen (24 Btln., 27 Esk., 55 Gesch. = 26.000 M.) unter Marschall Lannes über die Russen (66 Btln., 75 Esk., 200 Gesch. = 44.000 M.) unter Gen. d. Kav. von Bennigsen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "Indessen die französischen Marschälle waren zu sehr an die genaueste Befolgung der Befehle ihres Kaisers gewöhnt, als daß der M. Lannes lange gezweifelt hätte, was in diesem Falle zu thun sei; er beschloß, die Russen anzugreifen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p113-figures-v1",
+          "section": "p113",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 113 (transcribed from the page image)",
+          "quote": "In dieser Formation, mit verstärktem rechten Flügel, rückten die Franzosen parallel mit der russischen Front vor, und gegen 11 Uhr begann der General Claparède den Angriff gegen das Detaschement des Generals Baggowut."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p115-figures-v1",
+          "section": "p115",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 115 (transcribed from the page image)",
+          "quote": "Während dieses Gefechts auf dem russischen linken Flügel hatte sich der General Suchet mit der Infanterie des linken Flügels gegen den General Barclay de Tolly gewandt, einen Schwarm Tirailleurs vorgeschoben, und das Mosiner Gehölz mit dem 34. Regiment angegriffen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Mit halben Bataillonen, 50 Schritt Intervalle untereinander, ging der General d'Aultanne im dichten Schneegestöber alsbald zum Angriff vor."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Während dieses siegreichen Gefechts im Gehölz von Mosino hatten die Franzosen auf der von der russischen Kavallerie verlassenen Höhe die mitgeführte Artillerie aufgestellt, das Detaschement des Generals Baggowut in der rechten Flanke beschossen, und waren dann mit dem rechten Flügel und dem Centrum, in Gemeinschaft mit dem zweiten Treffen, zum abermaligen Angriff vorgegangen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p114-figures-v1",
+          "section": "p114",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 114 (transcribed from the page image)",
+          "quote": "Der General Koschin nahm den Augenblick wahr, wo der General Wedell ihm die linke Flanke bot und zugleich von 1 Bataillon des Starokolschen Regiments und 1 Jägerbataillon in der Front angegriffen wurde, und warf sich ihm in die Flanke."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General Barclay, so bedeutend verstärkt, ging wiederum zum Angriff über."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "Durch das Muromsche und 2. Bataillon des Revalschen Musketier-Regiments verstärkt und durch eine Batterie des Generals Ostermann unterstützt, ging der russische General aufs Neue über den Ravin, warf die Franzosen und eroberte die verloren gegangenen Geschütze zurück."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "bis der General Somow mit dem Musketier-Regiment Tula durch einen Bajonettangriff auch auf diesem Flügel das Gefecht zu Gunsten der Russen bereits bei eingetretener Dunkelheit entschied."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "Daß die Russen sich darauf beschränkten, die Angriffe der Franzosen nur abzuwehren, nirgends einen Gegenstoß vollführten, erklärt sich aus der Erschöpfung der Truppen, aus dem Zustande des Bodens zur Bewegung, aus der mangelhaften Uebersicht von der Stärke des Feindes in dem bebuschten Terrain, besonders auf dem rechten Flügel, so wie daraus, daß sie eben nichts Anderes wollten, als einen Angriff abschlagen, was ihnen mit großer Oekonomie der Kräfte auch vollständig gelang."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p119-figures-v1",
+          "section": "p119",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 119 (transcribed from the page image)",
+          "quote": "29 russische Bataillone sind gar nicht zum Gefecht gekommen."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "Der General Baggowut wurde auf allen Punkten mit Verlust seiner Geschütze"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p118-figures-v1",
+          "section": "p118",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 118 (transcribed from the page image)",
+          "quote": "bis in und über den Ravin zurückgeworfen."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Dès que j'ai été formé, j'ai fait attaquer l'avant-garde ennemie par le 17e léger et le 88e."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Le général Victor a reçu l'ordre d'attaquer le pont de gauche avec le 34e et un bataillon du 64e soutenus par la division Beker¹."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "L'ennemi a fait porter en même temps environ 8,000 hommes d'infanterie et 3 régiments de cavalerie sur ma droite cherchant à me déborder."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p463-figures-v1",
+          "section": "p463",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 463 (transcribed from the page image)",
+          "quote": "Alors j'ai fait marcher sur le pont de droite le restant du 64e et tout le 88e pour"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "lui couper la retraite sur le pont, et je l'ai fait attaquer par le 17e après une fusillade des plus vives."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "L'ennemi voyant sa gauche forcée sur les 3 heures après midi, a détaché une colonne de sa droite pour chercher une seconde fois à déborder notre droite, mais la présence du général Gazan a suffi pour la faire rentrer en ligne."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "le général fit exécuter un changement de direction à gauche à tous les bataillons, ce qui lui donna une ligne oblique sur le flanc de l'ennemi."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "Le déploiement général s'exécuta de suite et l'attaque commença aussitôt par demi-bataillons et par échelons à 50 pas."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "fortification",
+      "dimension": "fortification",
+      "value": "The passages read name no works on either side in the fighting. Side B held the town, the Mosino wood and the ground beyond a ravine, with the main body's artillery in front of the first line at the most favourable points and a battery commanding the road to Strzegocin and Golymin (Höpfner); Lannes wrote that a formidable artillery the enemy had at the head of the bridge crushed his men whenever they advanced too far; and the 3rd corps's journal has a strong Russian reserve posted in a thicket parallel to the road. In Höpfner Bennigsen had a great battery set up on the flank of the French in the wood during the battle. Side A was ordered on 25 December to build a bridgehead once across the Narew; on 28 December, after the Russians had gone, Lannes held the left bank at the bridgehead with a company of grenadiers (Corbineau).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Coded none_named: the cited passages describe where both sides stood and name no entrenchments, redoubts, abatis or other works used in the fighting. Lannes's 'à la tête du pont' places artillery at the end of the bridge without naming a work (our reading), and a battery or a thicket is not a work under the brief. The bridgehead of the order of 25 December was to be built after the crossing, and the one Corbineau names on the 28th was held after the battle. none_named reports the passages read, not proof that no works existed; Höpfner's plan of the battle was not inspected. English renderings (ours): Höpfner, 'the left wing leaned on Pultusk, the right wing on the wood of Mosino'; 'the artillery of the main body stood in front of the first line, placed at the most favourable points'; '2 battalions of the Tenginsk regiment stood in reserve; the 3rd battalion covered a battery that commanded the road to Strzegocin and Golymin; the Polish horse regiment stood between the wood and Mosino'; 'on the road to Warsaw and beyond a ravine that runs down toward the Narew'; 'General Bennigsen had a great battery [set up] on the right flank of the [French who had pushed forward] in the wood as far as the road from Strzegocin' (p. 116); '[the French who had] pushed forward [...] set up, and inflicted great losses on them' (p. 117); Lannes, 'Marshal Lannes to the Emperor'; 'Pultusk, 27 December 1806'; 'the left withstood the fire of about 15,000 men, and but for a formidable artillery they had at the head of the bridge, whose fire crushed us when we advanced too far, this whole force would have been thrown into the river'; the journal, 'here are the operations of the 3rd division of the 3rd corps during the day of the 26th'; '(extract of the journal of operations of the 3rd corps)'; 'this part of the enemy line would have been entirely thrown into the ravine of Bialowizna but for the help of a strong reserve which, placed in a thicket parallel to the road, stopped our first echelons'; the major general, 'the major general to Marshal Lannes'; 'Slostowo, 25 December 1806'; 'the Emperor's intention, Marshal, is that you leave Nasielsk to make for Pultusk, cross the Narew there and build a bridgehead there at once'; Corbineau, 'General Corbineau to the Emperor'; 'Pultusk, 28 December 1806'; 'he has on the left bank, at the bridgehead, a company of grenadiers'.",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Der linke Flügel lehnte sich an Pultusk, der rechte Flügel an das Gehölz von Mosino."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "Die Artillerie des Gros stand vor dem ersten Treffen an den günstigsten Punkten aufgestellt."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "2 Bataillone des Tenginskischen Regiments standen in Reserve; das 3. Bataillon deckte eine Batterie, welche die Straße nach Strzegocin und Golymin beherrschte; das polnische Reiter-Regiment stand zwischen dem Gehölz und Mosino."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p110-figures-v1",
+          "section": "p110",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 110 (transcribed from the page image)",
+          "quote": "auf der Straße nach Warschau und jenseits eines Ravins, das gegen den Narew hinabzieht,"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p116-figures-v1",
+          "section": "p116",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 116 (transcribed from the page image)",
+          "quote": "Der General Bennigsen ließ eine große Batterie in der rechten Flanke der bis an den Weg von Strzegocin im Gehölz"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p117-figures-v1",
+          "section": "p117",
+          "locator": "Höpfner, Der Krieg von 1806 und 1807, Bd. 3 (1851), p. 117 (transcribed from the page image)",
+          "quote": "vorgedrungenen Franzosen errichten und fügte ihnen große Verluste zu."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "LE MARÉCHAL LANNES A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p462-figures-v1",
+          "section": "p462",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 462 (transcribed from the page image)",
+          "quote": "Pultusk, 27 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p464-figures-v1",
+          "section": "p464",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 464 (transcribed from the page image)",
+          "quote": "La gauche a résisté au feu d'environ 15,000 hommes, et sans une artillerie formidable qu'ils avaient à la tête du pont et dont le feu nous écrasait quand nous avancions trop, toute cette troupe était culbutée dans la rivière."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "Voici quelles furent les opérations de la 3e division du 3e corps pendant la journée du 26."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p466-figures-v1",
+          "section": "p466",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 466 (transcribed from the page image)",
+          "quote": "(Extrait du Journal des opérations du 3e corps.)"
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p469-figures-v1",
+          "section": "p469",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 469 (transcribed from the page image)",
+          "quote": "cette partie de la ligne ennemie eût été entièrement culbutée dans le ravin de Bialowizna, sans le secours d'une forte réserve qui, placée dans un taillis et parallèlement à la route, arrêta nos premiers échelons."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "LE MAJOR GÉNÉRAL AU MARÉCHAL LANNES."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "Slostowo, 25 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p439-figures-v1",
+          "section": "p439",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 439 (transcribed from the page image)",
+          "quote": "L'intention de l'Empereur, M. le Maréchal, est que vous partiez de Nasielsk pour vous diriger sur Pultusk, d'y passer la Narew et d'y construire sur-le-champ une tête de pont."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "LE GÉNÉRAL CORBINEAU A L'EMPEREUR."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "Pultusk, 28 décembre 1806."
+        },
+        {
+          "source_id": "foucart-pologne-1882-t1-p515-figures-v1",
+          "section": "p515",
+          "locator": "Foucart, Campagne de Pologne (1806-1807): Pultusk et Golymin, t. I (1882), p. 515 (transcribed from the page image)",
+          "quote": "il a sur la rive gauche, à la tête de pont, une compagnie de grenadiers;"
+        }
+      ],
+      "code": "none_named"
+    }
+  ],
+  "open_questions": [
+    "Deferred: Höpfner's plan of the battle (his p. 108, note 1), not inspected; his pp. 102-106 (the orders and marches before the battle, and the start of the sentence that ends on p. 107) and pp. 120-122 (the rest of his judgement of the battle), seen only in the OCR or not read; p. 26 (the army's totals by the report of 23 October), not used, since p. 109 gives the force at Pultusk; Foucart, Campagne de Pologne, t. I, p. 461, read on the page image only for the heading and dateline of the major general's letter that ends on p. 462, not registered or cited; p. 474 (the rest of Davout's letter of 26 December) and p. 513 (the end of the letter before Lannes's of 28 December), not read; the state of the Russian troops Lannes sent on 28 December and his position return, which the passages read do not print; the journal of the 5th dragoon division and the 3rd corps's journal beyond the extracts, Daultanne's earlier report, Bennigsen's report, the Russian official reports and Prince Eugen of Württemberg's diary on which Höpfner draws, not seen. No figure seen only in the OCR is restated.",
+    "Most consequential gap: side A's strength engaged. Bodart's 24 battalions and 26,000 match Lannes's corps without the 3rd division of Davout's corps (Höpfner's 24 battalions and 'some 20,000'), while Höpfner puts the French with that division at about 30,000; no passage read gives the 3rd division's strength on 26 December beyond its 9 battalions, 170 horses and 2 guns, and the summary return in t. II gives only whole corps. The pages of 28 December (pp. 514-517) were the one targeted follow-up: they add Lannes's revised view of his losses and Corbineau's figures for the losses, the prisoners and the Russian strength, but not Lannes's position return. A return of the 3rd corps for late December, or the fold-out situations in t. II, could close the gap.",
+    "Disputes kept as separate claims or within them: the result (a French victory, Bodart; both sides claimed it and the Russian victory is hardly to be doubted, Höpfner; the position taken but not held, Daultanne's report and the 3rd corps's journal); the Russian command (Bennigsen, Bodart, Höpfner and Corbineau's hearsay; the Russian general in chief in person with Bennigsen, Lannes); side B's strength (44,000, Bodart; 40,600, Höpfner; 40,000 to 50,000 infantry and 5,000 or 6,000 cavalry, Lannes; 30,000 to 35,000 infantry and 4,500 to 5,000 cavalry, Corbineau's general estimate); side B's squadrons and guns (75 squadrons and 200 guns, Bodart; 55 squadrons and 7 foot and 2½ horse batteries, with the guns in action undetermined and Prince Eugen's 150 rejected, Höpfner; about 50 pieces in battery, Lannes); side A's strength (26,000, Bodart; some 20,000 for Lannes's corps and about 30,000 with Gudin's division, Höpfner); side A's losses (3,300 killed and wounded and 700 prisoners, Bodart; about 1,000 and then more, Lannes; 700 wounded and 400 killed, Corbineau; 6—700 dead and 1500 wounded as the French give them, about 7000 or by the official reports 10,000 as the Russians claim, Höpfner; the 3rd division's own line); side B's losses and guns (3,500 and 12 cannon, Bodart; 3500 by the Russian reports, over 2000 dead, 1500 wounded and 12 guns by the French, and no guns lost in the battle itself, Höpfner; over 3,000 left on the field and about 600 prisoners, Lannes; 2,000 wounded and stragglers in the town and 600 prisoners, Corbineau; 14 pieces abandoned near Moszyn on the march and 23 pieces to be abandoned, the journal, Davout and Daultanne); the Russian wings (on the town and the Mosino wood, Höpfner; on two bridges, Lannes); and the dragoon journal's 'Le 22', printed so for the day of the battle.",
+    "Families and dependence: Bodart (a compilation; his 66 Russian battalions and his 24 French battalions match Höpfner's, his 700 prisoners and Russian 3,500 match the figures in Höpfner, and his 12 cannon the French claim there, while his 75 squadrons, 200 guns, 44,000 and French 3,300 match no figure in the passages read); Foucart, Campagne de Pologne, t. I and t. II, one family with his Campagne de Prusse (the same author's edition of the French side's documents: the major general's letters of 25 and 26 December, Lannes's reports of 27 and 28 December, Corbineau's letter of 28 December with its hearsay, the extract of the 3rd corps's journal of operations, Davout's corps's own record, Daultanne's pencil note and report, Davout's letter, the editor's narrative and notes, a quotation of the 5th dragoon division's journal and the summary return); Höpfner, Bd. 3 (the Prussian side's history of the campaign, the same work and family as his first, second and fourth volumes; he gives Bennigsen's motives, dispositions and strength without naming a source, sets the Russian and the French reports against each other, gives the losses as each side gives them and judges the battle a Russian victory)."
+  ]
+}
+```
+
 
 ### B378a: TREFFEN bei Golymin (26./12. 1806)
 
@@ -39409,3 +42240,61 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `foucart-pologne-1882-t1-p440-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p440-figures.txt
 - `foucart-pologne-1882-t2-n486-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-n486.jpg
 - `foucart-pologne-1882-t2-n486-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-n486-figures.txt
+- `hoepfner-1851-bd3-p107-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p107.jpg
+- `hoepfner-1851-bd3-p107-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p107-figures.txt
+- `hoepfner-1851-bd3-p108-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p108.jpg
+- `hoepfner-1851-bd3-p108-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p108-figures.txt
+- `hoepfner-1851-bd3-p109-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p109.jpg
+- `hoepfner-1851-bd3-p109-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p109-figures.txt
+- `hoepfner-1851-bd3-p110-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p110.jpg
+- `hoepfner-1851-bd3-p110-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p110-figures.txt
+- `hoepfner-1851-bd3-p111-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p111.jpg
+- `hoepfner-1851-bd3-p111-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p111-figures.txt
+- `hoepfner-1851-bd3-p112-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p112.jpg
+- `hoepfner-1851-bd3-p112-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p112-figures.txt
+- `hoepfner-1851-bd3-p113-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p113.jpg
+- `hoepfner-1851-bd3-p113-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p113-figures.txt
+- `hoepfner-1851-bd3-p114-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p114.jpg
+- `hoepfner-1851-bd3-p114-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p114-figures.txt
+- `hoepfner-1851-bd3-p115-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p115.jpg
+- `hoepfner-1851-bd3-p115-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p115-figures.txt
+- `hoepfner-1851-bd3-p116-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p116.jpg
+- `hoepfner-1851-bd3-p116-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p116-figures.txt
+- `hoepfner-1851-bd3-p117-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p117.jpg
+- `hoepfner-1851-bd3-p117-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p117-figures.txt
+- `hoepfner-1851-bd3-p118-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p118.jpg
+- `hoepfner-1851-bd3-p118-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p118-figures.txt
+- `hoepfner-1851-bd3-p119-image-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p119.jpg
+- `hoepfner-1851-bd3-p119-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-p119-figures.txt
+- `foucart-pologne-1882-t1-p462-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p462.jpg
+- `foucart-pologne-1882-t1-p462-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p462-figures.txt
+- `foucart-pologne-1882-t1-p463-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p463.jpg
+- `foucart-pologne-1882-t1-p463-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p463-figures.txt
+- `foucart-pologne-1882-t1-p464-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p464.jpg
+- `foucart-pologne-1882-t1-p464-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p464-figures.txt
+- `foucart-pologne-1882-t1-p465-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p465.jpg
+- `foucart-pologne-1882-t1-p465-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p465-figures.txt
+- `foucart-pologne-1882-t1-p466-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p466.jpg
+- `foucart-pologne-1882-t1-p466-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p466-figures.txt
+- `foucart-pologne-1882-t1-p467-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p467.jpg
+- `foucart-pologne-1882-t1-p467-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p467-figures.txt
+- `foucart-pologne-1882-t1-p468-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p468.jpg
+- `foucart-pologne-1882-t1-p468-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p468-figures.txt
+- `foucart-pologne-1882-t1-p469-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p469.jpg
+- `foucart-pologne-1882-t1-p469-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p469-figures.txt
+- `foucart-pologne-1882-t1-p470-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p470.jpg
+- `foucart-pologne-1882-t1-p470-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p470-figures.txt
+- `foucart-pologne-1882-t1-p471-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p471.jpg
+- `foucart-pologne-1882-t1-p471-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p471-figures.txt
+- `foucart-pologne-1882-t1-p472-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p472.jpg
+- `foucart-pologne-1882-t1-p472-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p472-figures.txt
+- `foucart-pologne-1882-t1-p473-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p473.jpg
+- `foucart-pologne-1882-t1-p473-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p473-figures.txt
+- `foucart-pologne-1882-t1-p514-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p514.jpg
+- `foucart-pologne-1882-t1-p514-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p514-figures.txt
+- `foucart-pologne-1882-t1-p515-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p515.jpg
+- `foucart-pologne-1882-t1-p515-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p515-figures.txt
+- `foucart-pologne-1882-t1-p516-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p516.jpg
+- `foucart-pologne-1882-t1-p516-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p516-figures.txt
+- `foucart-pologne-1882-t1-p517-image-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p517.jpg
+- `foucart-pologne-1882-t1-p517-figures-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the page image; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t1-p517-figures.txt

@@ -2025,3 +2025,53 @@ side's letters and the 3rd corps's journal in extract, and t. II's summary retur
 editor's comment, on authentic documents that he does not name.
 
 Use: the draft for B377c. No model inputs are changed. The registry now holds 3,064 records.
+
+## Höpfner Bd. 3 and *Campagne de Pologne* t. I page images for Pultusk, 2026-10-18
+
+58 records for sub-batch 2e-ii: 29 page images with their figure transcriptions. No OCR parent or
+selection is added.
+
+- **Höpfner, *Der Krieg von 1806 und 1807*, Theil 2, Bd. 3** (`hoepfner-1851-bd3-ocr-v1`,
+  registered in sub-batch 2e-i): 13 page images with transcriptions, each whole:
+  - pp. 107–119: the end of the march on Pultusk on the 25th, the Russian want of supply and
+    ammunition, Bennigsen's decision to stand against Kaminskoi's order, Buxhöwden's return to
+    Makow, the Russian force, order of battle and ground, Lannes's reconnaissance and decision,
+    the fighting on both wings, d'Aultanne's arrival with Gudin's division, the night, the losses
+    as each side gives them, and the start of Höpfner's judgement.
+
+  Leaf numbers are n = printed + 10, as recorded, checked on the images (n117–n129). The image of
+  p. 26, downloaded and transcribed in sub-batch 2e-i, stays unregistered: p. 109 gives the
+  Russian force at Pultusk.
+- **Foucart, *Campagne de Pologne*, t. I** (`foucart-pologne-1882-t1-ocr-v1`): 16 page images
+  with transcriptions, each whole:
+  - pp. 462–473: the end of the major general's letter to the grand-duc de Berg of 26 December;
+    the editor's narrative of the morning of the 26th; Lannes's report to the Emperor of
+    27 December, with the editor's footnote quoting the 5th dragoon division's journal of march;
+    the editor's note on the 3rd division of the 3rd corps; the extract of the 3rd corps's journal
+    of operations on that division's day; Daultanne's pencil note to Davout, in a footnote; a loss
+    line for the division; the editor's account of Davout's two orders; Daultanne's report to
+    Davout dated 26 December; the editor's quotation of the journal for the morning of the 27th;
+    his paragraph comparing Golymin; and the beginning of Davout's letter to the major general of
+    26 December;
+  - pp. 514–517: Lannes's letter to the Emperor of 28 December and General Corbineau's to the
+    Emperor of the same day, with the editor's footnote on the Narew's width and the editor's
+    lines after the letter.
+
+  Leaf numbers are n = printed + 25 for pp. 462–473 (n487–n498) and + 27 for pp. 514–517
+  (n541–n544), as recorded, checked on the images. P. 461 was read on the image for the heading
+  and dateline of the letter that ends on p. 462 (the major general to the grand-duc de Berg,
+  Lopaczyn, 26 December 1806, 9 in the morning) and is not registered.
+
+Every figure is transcribed from the image, on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence: as recorded for the two parents. In the passages read Höpfner sets the
+Russian against the French reports on the fighting, gives each side's losses as that side gives
+them, rejects the 150 guns of Prince Eugen of Württemberg's diary and judges the battle a Russian
+victory. He names no source for Bennigsen's motives, dispositions or strength. Foucart's t. I
+prints Lannes's two letters, Davout's, Daultanne's pencil note and report, and Corbineau's letter,
+which gives the Russian commander and generals by hearsay ('On m'a assuré'). It quotes the 3rd
+corps's journal and the 5th dragoon division's journal in extract, and gives the 3rd division's
+loss line without a source.
+
+Use: the draft for B377d. No model inputs are changed. The registry now holds 3,122 records.

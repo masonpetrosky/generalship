@@ -2513,6 +2513,140 @@ primary-verified; no separate review was made.
   tokens. At the 1806 group's rate so far, about 1.2 million an entry, they would need about
   330 million.
 
+## 1806 first pass, sub-batch 2e-ii: Pultusk (2026-10-18)
+
+The second part of batch 2e of `fourth-coalition 1806`: the battle at Pultusk, where Lannes's 5th
+corps, joined on its left during the afternoon by the 3rd division of Davout's corps, attacked
+Bennigsen's Russian army in front of the Narew bridge.
+
+| Entry | Engagement | Date (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B377d | Pultusk (battle) | 26 December 1806 | 24 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the group's two families. Every cited passage was read from a registered
+  page image ([source additions](source-additions.md)):
+  - Höpfner, Bd. 3 (1851), each page transcribed whole (pp. 107–119): the march on the 25th, the
+    Russian want of supply and ammunition, Bennigsen's decision to stand against Kaminskoi's order
+    and Buxhöwden's return to Makow, the Russian force and order of battle, the ground, Lannes's
+    reconnaissance and decision, the fighting on both wings, d'Aultanne's arrival, the night, the
+    losses as each side gives them, and his judgement that the Russians won. He names no source
+    for Bennigsen's motives, dispositions or strength.
+  - Foucart's *Campagne de Pologne*, t. I: the end of a headquarters letter and the editor's
+    narrative of the morning of the 26th (p. 462); Lannes's report to the Emperor of 27 December,
+    with a footnote quoting the 5th dragoon division's journal (pp. 462–466); the editor's note that
+    Lannes's report omits the 3rd division; the extract of the 3rd corps's journal of operations
+    on that division's day (pp. 466–471); a loss line for the division; the editor's account of
+    Davout's two orders, with Daultanne's pencil note (pp. 468–469); Daultanne's report to Davout
+    (pp. 471–472); the journal's quoted entry for the morning of the 27th, the editor's comparison
+    with Golymin and Davout's letter to the major general of 26 December (p. 473); and, as the one
+    targeted follow-up, Lannes's letter of 28 December and General Corbineau's to the Emperor of
+    the same day (pp. 514–517). The major general's letter to Lannes of 25 December (pp. 439–440)
+    and the t. II summary return were reused from sub-batch 2e-i.
+
+  The pages were found by searching the volumes' OCR. 58 records were registered: 29 page images
+  (13 of Höpfner and 16 of t. I) with their figure transcriptions. Every registered page is cited.
+  No figure in a value is taken from the OCR.
+- **Not used.** Höpfner's p. 26, transcribed in sub-batch 2e-i, is not registered: p. 109 gives the
+  Russian force at Pultusk. *Campagne de Pologne* t. I p. 461 was read on the image for the heading
+  and dateline of the letter that ends on p. 462 (the major general to the grand-duc de Berg,
+  Lopaczyn, 26 December, 9 in the morning). It is not registered, so the values call that letter
+  a headquarters letter and name neither its writer nor its addressee.
+- **Draft.** 24 claims with 428 citations: 22 supported and 2 disputed. Phases: 11 unresolved,
+  6 post_outcome, 4 commander_created and 3 inherited.
+  - The posture is coded `A_attacked` and tagged commander_created. Lannes decided the attack on the
+    field, under Napoleon's order to take the Narew bridge. Side B's charges and counterattacks
+    were made inside its own position: Koschin's, Barclay's, Baggowut's recrossing of the ravine
+    and Somow's bayonet attack. Höpfner says the Russians nowhere made a counterstroke.
+  - The fortification is coded `none_named` and left unresolved. The passages name no works.
+    Lannes's 'artillerie formidable … à la tête du pont' places guns at the bridge without naming a
+    work. The bridgehead in the order of 25 December was to be built after the crossing, and the
+    one Corbineau names on the 28th was held after the battle.
+  - The 3rd division joined on its own general's decision: Höpfner says without an order, and the
+    journal says there was no time to concert with Lannes. It is not attributed to Lannes, and that
+    claim is unresolved. Bennigsen's decision to stand against his superior's order is
+    commander_created.
+  - The boundary leaves Golymin (a separate entry), Czarnowo and Nasielsk before it, and the
+    pursuit after the 27th outside the entry. The 14 pieces a Russian column abandoned near Moszyn
+    on the 3rd division's march are reported with their place and time.
+- **Disputes kept visible.**
+  - The result. Bodart has a French victory, and the sources agree that the Russians left Pultusk in
+    the night and morning after. But Höpfner holds the Russian victory hardly to be doubted, with
+    Lannes repulsed at all points and back in his starting position. Daultanne reported the
+    position taken but not held, and the 3rd corps's journal found the 5th corps back where it had
+    started. Höpfner's account is kept as a disputed claim.
+  - The Russian command. Bodart, Höpfner and Corbineau's hearsay give Bennigsen. Lannes reported
+    the Russian general in chief commanding in person, with Bennigsen beside him. This is kept as a
+    disputed claim.
+  - Side B's strength:
+    - 44,000 (Bodart);
+    - 40,600 (Höpfner);
+    - 40,000 to 50,000 infantry and 5,000 or 6,000 cavalry (Lannes);
+    - 30,000 to 35,000 infantry and 4,500 to 5,000 cavalry (Corbineau, a general estimate).
+  - Side B's squadrons and guns. Bodart gives 75 squadrons and 200 guns. Höpfner gives 55 squadrons
+    and 7 foot and 2½ horse batteries; he could not determine the guns in action and rejects Prince
+    Eugen's 150. Lannes reported about 50 pieces in battery.
+  - Side A's strength. Bodart gives 24 battalions and 26,000. Höpfner gives 24 battalions and some
+    20,000 for Lannes's corps, and about 30,000 once Gudin's 9 battalions arrived.
+  - Side A's losses:
+    - 3,300 killed and wounded and 700 prisoners (Bodart);
+    - about 1,000, then more (Lannes);
+    - 700 wounded and 400 killed (Corbineau);
+    - 6—700 dead and 1500 wounded as the French give them, against the Russians' 7000 or, by the
+      official reports, 10,000 (Höpfner);
+    - 87 killed and 535 wounded for the 3rd division by its own line (our arithmetic).
+  - Side B's losses and guns:
+    - 3,500 and 12 cannon (Bodart);
+    - 3500 by the Russian reports, against over 2000 dead, 1500 wounded and 12 guns by the French,
+      and no guns lost in the battle itself (Höpfner);
+    - over 3,000 left on the field and about 600 prisoners (Lannes);
+    - 2,000 wounded and stragglers in the town (Corbineau);
+    - 14 pieces abandoned near Moszyn and 23 pieces that Davout's order made Daultanne give up.
+  - The Russian wings: on the town and the Mosino wood (Höpfner), or on two bridges (Lannes).
+  - The dragoon journal's 'Le 22', as printed, for the day of the battle.
+- **Gaps.** The most consequential gap is still side A's engaged strength. Bodart's 24 battalions
+  and 26,000 match Lannes's corps without the 3rd division. No passage read gives that division's
+  strength on the 26th beyond its 9 battalions, 170 horses and 2 guns. The one targeted
+  follow-up, the letters of 28 December, added Lannes's revised losses and Corbineau's figures and
+  hearsay, but no return. A 3rd corps return for late December, or the fold-out situations in t. II,
+  could close the gap.
+  - Deferred:
+    - Höpfner's plan of the battle, not inspected;
+    - his pp. 102–106 and 120–122, seen only in the OCR;
+    - *Campagne de Pologne* t. I pp. 474–513, not read, left for Golymin;
+    - the state of the Russian troops Lannes sent on the 28th and his position return, which the
+      pages do not print;
+    - not seen: the journals beyond the extracts, Daultanne's earlier report, Bennigsen's report,
+      the Russian official reports and Prince Eugen's diary.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed the pages whole from the images, the figures on full-resolution crops, and settled
+    OCR misreads on the images, among them 'Garnowo' on p. 473 (OCR 'Gamowo') and the colon of
+    'Tués :' on p. 471;
+  - reread every cited passage against its transcription and the claims against the passages. It
+    widened quotes so that each statement's subject is cited: Daultanne's opening sentence, with the
+    division's efforts to second Lannes; Höpfner's sentences on the Russian cavalry in the gap,
+    the broken battalions and the night fight he could not clear up; the village of Moszyn in the
+    sentence on the 8-pounder; the first echelon's advance before the 14 pieces were abandoned; the
+    hussar orderly's letter that turned Buxhöwden back; and the French guns on the height before
+    their renewed attack;
+  - cited the sentence that names the subject where Höpfner uses a pronoun or a title: Bennigsen
+    before the right wing was taken back, Lannes for the reconnaissance and the order to take the
+    bridge, and Baggowut as 'the Russian general' who retook his guns;
+  - corrected three readings: Lannes's 'culbuté' refers to the column sent against his right, not
+    to the Russian left; the ravine of Bialowizna is where the Russian line would have been thrown,
+    not a feature placed behind it; and Buxhöwden's late letter to Bennigsen advised an immediate
+    retreat, and did not announce his return to Makow;
+  - checked that no number in a value lacks a cited passage, which removed page numbers from two
+    values; kept Höpfner's '2¾ Meilen' unconverted; and wrote out in each claim the renderings of
+    citations grouped across claims.
+
+  The evidence check passes on all 3,122 sources and 48 drafts (960 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 1.2 million tokens by the session's token counter. The group has used about
+  26 million tokens for 22 entries, about 1.2 million an entry.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

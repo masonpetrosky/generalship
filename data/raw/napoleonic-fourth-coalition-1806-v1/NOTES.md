@@ -84,7 +84,10 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   n12, not registered.
   In 2e-i, t. I pp. 372-376, 390-401 and 439-440 were registered (n = printed + 25), and t. II's
   unnumbered summary return of December 1806 on leaf n486, the first text page after the
-  half-title 'SITUATIONS' on n484.
+  half-title 'SITUATIONS' on n484. In 2e-ii, t. I pp. 462-473 (n = printed + 25) and 514-517
+  (n = printed + 27) were registered, checked on the images. T. I p. 461 (its leaf n486), with
+  the heading and dateline of the major general's letter to the grand-duc de Berg (Lopaczyn,
+  26 December, 9 a.m.) that ends on p. 462, was read on the image and not registered.
 - Höpfner Theil 2, Bd. 4 (1851; bub_gb_9PVKAAAAcAAJ), registered in 2d-i: leaf n = printed + 12
   for pp. 15-31 and for the Breslau pages registered in 2d-ii (p. 36 to p. 118), checked on the
   images. Chapter 15 opens the volume's text, and chapter 16, on
@@ -92,11 +95,13 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   Völderndorff's fourth book has its own pagination (11748199bsb, n = printed + 333), noted in
   case it replaces a family later.
 - Höpfner Theil 2, Bd. 3 (1851; 10594714bsb, Bayerische Staatsbibliothek), registered in 2e-i:
-  leaf n = printed + 10 for pp. 23-24 and 82-95, checked on the images. The title page (n5) and the
+  leaf n = printed + 10 for pp. 23-24 and 82-95 (2e-i) and pp. 107-119 (2e-ii), checked on the
+  images. The title page (n5) and the
   preface to the second part (n7-n8) were read on the images and are not registered. The second
   edition (1855; bub_gb_l74TAAAAYAAJ) was compared in the OCR only. The image of p. 26 (n36: the
-  army's totals by the report of 23 October and Höpfner's comment on them) is in this directory,
-  untracked and unregistered; transcribe and register it with the Pultusk pages.
+  army's totals by the report of 23 October and Höpfner's comment on them) was downloaded in 2e-i
+  and not registered: p. 109 gives the Russian force at Pultusk, so the entry did not need it,
+  and the image was moved out of this directory in 2e-ii.
 - Grouped renderings: the rendering check reads only R_ names written in a claim's own rationale,
   so a module-level string joining renderings (a letter's heading and dateline) is not seen; write
   the rend(...) call into each claim.
@@ -146,8 +151,15 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   registered (the Höpfner Bd. 3 OCR parent and 36 page images with figure transcriptions). About
   3.7 million tokens. The one targeted follow-up, for side A's strength, found t. II's summary
   return, which gives the 3rd corps but not the troops engaged.
-- Next: sub-batch 2e-ii, Pultusk B377d, then 2e-iii, Golymin B378a. Leads, from the OCR: Höpfner
-  Bd. 3 p. 26 (image here, see above) and p. 27 (an estimate of the Russian army's strength); his
-  account of Pultusk and Golymin from p. 96 (the volume's errata correct pp. 129 and 135);
-  *Campagne de Pologne* t. I pp. 438-502 and the first pages of t. II. Search the OCR for each
-  place, and fix each entry's families before reading a new work.
+- 2026-10-18, sub-batch 2e-ii: Pultusk drafted from Bodart, Foucart (*Campagne de Pologne* t. I
+  and t. II) and Höpfner Bd. 3; primary-verified. 58 records registered (29 page images with figure
+  transcriptions: Höpfner pp. 107-119 and *Campagne de Pologne* t. I pp. 462-473 and 514-517).
+  About 1.2 million tokens. The one targeted follow-up, Lannes's and Corbineau's letters of
+  28 December (pp. 514-517), added Lannes's revised losses and Corbineau's figures and hearsay, but
+  no strength for the 3rd division of Davout's corps.
+- Next: sub-batch 2e-iii, Golymin B378a, the group's last entry, then the group check. Leads:
+  Höpfner Bd. 3 from p. 122, where his Golymin section begins (the volume's errata correct pp. 129
+  and 135); *Campagne de Pologne* t. I p. 461 (the major general's letter to the grand-duc de Berg,
+  read on the image, not registered), p. 473 (registered in 2e-ii) and pp. 474-502, and the first
+  pages of t. II. Search the OCR for each place, and fix the entry's families before reading a new
+  work.
