@@ -2762,8 +2762,9 @@ primary-verified; no separate review was made.
 
   The one targeted follow-up, the grand-duc de Berg's letter of 28 December, added his statement
   that the whole of Buxhœvden's corps had fought at Golymin. Corbineau's letter of the same day
-  denies it, and in Höpfner only troops of the 7th Division were there (our reading). Gallizin's report in Plotho's Tagebuch, Danielewski's figures or a
-  7th corps return for late December could narrow the gap.
+  denies it, and in Höpfner only troops of the 7th Division were there (our reading). Gallizin's
+  report in Plotho's Tagebuch, Danielewski's figures or a 7th corps return for late December could
+  narrow the gap.
   - Not seen: the journals beyond the extracts, Desjardins's report, Gallizin's report, Danielewski
     and Mathieu Dumas.
   - Bodart's officer-loss table for the engagement is not in the frame transcription.
@@ -2800,6 +2801,80 @@ primary-verified; no separate review was made.
   was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
 - **Usage.** About 2.1 million tokens by the session's token counter. The group has used about
   28 million tokens for 23 entries, about 1.2 million an entry.
+
+## 1806 group check (2026-10-18)
+
+After sub-batch 2e-iii the main session checked the 23 drafts of `fourth-coalition 1806` together.
+The check was bounded and is primary-verified; no separate review was made.
+
+- **Scope.** Scratch checks, run over every draft of the group and kept outside the repository:
+  - every digit in a claim's value against the page-image quotes of the same claim;
+  - every digit in a boundary note or open question, page references aside;
+  - every English rendering marked as OCR that holds a digit or a number word;
+  - each citation's locator against its section, and each draft's source families against the
+    ceiling of Bodart and two more;
+  - figures that one source gives for two entries;
+  - how the drafts read Bodart's dagger (†).
+
+  The passages behind each flag were read. Out of scope: re-reading the cited passages of each
+  sub-batch, which its own verification did, and the leads that the sub-batches recorded.
+- **Fixed: Bodart's dagger.** His explanatory pages (pp. 45–48) do not define the dagger. Some
+  entries list daggered names under the heading 'Gefallene Generale' ('fallen generals'), as at
+  Austerlitz and Auerstädt. Others print a daggered line with no heading, as at Saalfeld, Jena and
+  Golymin.
+  - Saalfeld (B371b) and Jena (B372a) read such a line as 'fallen' without saying that the reading
+    was ours. Auerstedt (B373a) said 'fallen' without citing the heading its entry prints.
+  - The same reading stood in three drafts of `third-coalition 1805`. Caldiero (B367a) and
+    Dürnstein (B368c), whose entries have no heading, rendered the dagger as '+' and called the
+    general killed. Austerlitz (B369c) did not cite its heading.
+
+  The six drafts now cite the heading where the entry prints it and report the names as listed
+  under it. Elsewhere they say that Bodart prints a dagger before the name and read it as fallen,
+  labelled as our reading. That reading cites the heading of the group's entry that prints it:
+  Austerlitz (p. 369) for 1805 and Auerstädt (p. 373) for 1806. The dagger is rendered as printed.
+  Herbrechtingen (B364d) reports the dagger without reading it and is unchanged. Golymin (B378a)
+  also leaves it unread, but its open question on disputes called Bodart's Fénérols 'the general
+  killed'. It now gives the name as marked with his dagger, and the death from the Grand Duke's
+  report. 13 claims and one open question changed in seven drafts, with 10 citations added: 4 in
+  the 1805 group, which now holds 3,298 citations, and 6 in this one. No status, phase or code
+  changed.
+- **No change after reading.**
+  - The first check finds no value digit in the group without a page-image quote in its claim.
+  - The 77 boundary and open-question digits are:
+    - 18 entry IDs;
+    - 7 edition years and numbers in the notes on families;
+    - 34 page numbers in lists the check does not skip, 29 of them in Jena's record of an OCR
+      search, its hits and the pages read;
+    - 18 figures, each a sum labelled as ours or a figure quoted in a claim of the same draft. The
+      exception is Erfurt's '8 or 3', the hour of a dateline that the page image leaves uncertain,
+      which its open question records as such.
+  - The 65 flags of OCR renderings hold three kinds of text:
+    - page numbers of neighbouring renderings;
+    - text between renderings that the check's quote matching takes in across apostrophes, with
+      page numbers and figures compared from other claims;
+    - number words and ordinals such as the pronoun 'one', 'first', 'half', 'a dozen' and 'a
+      hundred thousand men', which the figure rule allows.
+  - Locators match their sections. Every draft cites Bodart and at most two other families.
+  - Figures that one source gives for two entries are reported as covering both and added to
+    neither. These are the 5th and later Bulletins' strengths and results for Jena and Auerstedt
+    together, and the 29th Bulletin's 16,000 prisoners for Lübeck and Ratkau. The boundary notes
+    of entries that share a day or a force place each captured body in one entry.
+- **Recorded, not changed.**
+  - The registry gives Foucart's *Campagne de Prusse* and *Campagne de Pologne* separate
+    independence groups. The group counts them as one family, as sub-batch 2c-iv recorded, so Hameln,
+    Nienburg and Groß-Glogau, which cite both, stay within Bodart and two families. Registry
+    records are not edited.
+  - Batches 2a to 2c-iii give some renderings inline or by reference ('as in claim …'), where
+    later sub-batches write each claim's renderings out. A sample read in B374b found every quote
+    rendered.
+  - The group holds 23 drafts with 440 claims (426 supported, 5 disputed and 9 unknown) and 6,489
+    citations.
+- **Verification.** The evidence check passes on all 3,186 sources and 49 drafts (983 claims, 15
+  unknown). The packets of both groups were regenerated. The 1805 packet's list of registered
+  Napoleonic sources also gains the sources registered since it was last written. `make reproduce`
+  was run, and `make check` passes (239 tests).
+- **Usage.** About 0.4 million tokens. With the check the group used about 28.4 million tokens,
+  about 1.2 million an entry.
 
 ## Roadmap record to 2026-10-06
 

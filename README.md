@@ -40,8 +40,8 @@ As of 2026-10-17:
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples and the 23 of the 1806
-  war against Prussia have drafts. A check of the 1806 drafts together is next
-  ([roadmap](docs/roadmap.md)).
+  war against Prussia have drafts, and each group's drafts have been checked together. The 19
+  engagements of 1807 are next ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

@@ -165,6 +165,11 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   474-493 and 518). About 2.1 million tokens. The one targeted follow-up, the grand-duc de Berg's
   letter of 28 December (p. 518), added his statement that Buxhœvden's whole corps had fought at
   Golymin, which Corbineau's letter of the same day denies (in Höpfner only troops of the 7th
-  Division were there, by our reading), but no strength for either side. Batch 2e, and with it the group's first pass, is complete.
-- Next: the group check of the 23 drafts together, bounded as for `third-coalition 1805`, then
-  the README's status line, then `fourth-coalition 1807` (19 entries).
+  Division were there, by our reading), but no strength for either side. Batch 2e, and with it
+  the group's first pass, is complete.
+- 2026-10-18, group check of the 23 drafts (research log): B371b, B372a and B373a now cite
+  Bodart's heading 'Gefallene Generale' (Auerstädt, p. 373) for the generals he marks with a
+  dagger, and Saalfeld's and Jena's reading of the dagger as fallen is labelled as ours; the same
+  fix was made in three 1805 drafts. B378a's open question on disputes no longer reads the dagger
+  as killed. About 0.4 million tokens.
+- Next: `fourth-coalition 1807` (19 entries).

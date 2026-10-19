@@ -105,5 +105,12 @@ sketch, garbled OCR) and Einsiedel (1812) were looked at and not used: neither s
   Alombert and Colin (t. IV) and Schönhals (1873); primary-verified. 46 records registered (the two OCR
   parents, two selections, 21 page images with figure transcriptions). The targeted follow-ups, for side
   A's strength at both, searched t. IV's appendix of situations for returns of the 3rd and 6th corps.
-- Next: B369a Ober-Hollabrunn, B369c Austerlitz and B370a Steken (Schönhals, the Correspondance t. XI and
-  others still to be chosen), then verify the group.
+- 2026-10-17, batch 1f: Ober-Hollabrunn (B369a), Austerlitz (B369c) and Steken (B370a), drafted from
+  Bodart, Victoires et conquêtes (t. XV), Schönhals (1873) and, for Steken, Völderndorff (1826);
+  primary-verified. 55 records registered (the Völderndorff parent, three selections, 25 page images and
+  26 figure transcriptions). The group's first pass is complete.
+- 2026-10-17, group check of the 22 drafts (research log): fixed B364a's misread journal dating and three
+  uncited figures in B364a and B364c.
+- 2026-10-18, the `fourth-coalition 1806` group check: B367a, B368c and B369c now cite Bodart's heading
+  'Gefallene Generale' (Austerlitz, p. 369) for the generals he marks with a dagger, and Caldiero's and
+  Dürnstein's reading of the dagger as fallen is labelled as ours.

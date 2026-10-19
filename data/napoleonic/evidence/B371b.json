@@ -9,7 +9,7 @@
     {
       "id": "bodart-strength",
       "dimension": "strength",
-      "value": "Bodart gives side A (French) 12,000 men with 14 guns under Marshal Lannes, and side B (Prussians and Saxons) 8 battalions and 7 squadrons, 9,000 men with 42 guns, under Lieutenant-General Prince Louis Ferdinand of Prussia, whom he marks as fallen. By his stated rule his strengths are the forces available for the engagement, rounded up.",
+      "value": "Bodart gives side A (French) 12,000 men with 14 guns under Marshal Lannes, and side B (Prussians and Saxons) 8 battalions and 7 squadrons, 9,000 men with 42 guns, under Lieutenant-General Prince Louis Ferdinand of Prussia, whose name he marks with a dagger (claim bodart-commanders). By his stated rule his strengths are the forces available for the engagement, rounded up.",
       "status": "supported",
       "phase": "unresolved",
       "rationale": "Bodart's printed entry, read from the page image in the frame transcription; one claim among several. His 12,000 for side A lies between the French reports of the troops engaged, Lannes's hardly more than 4,000 of the division Suchet and the 2nd Bulletin's half of that division (claim foucart-side-a), and Höpfner's estimate of about 14,000 French engaged (claim hoepfner-side-a); no return of Lannes's corps was found (open questions). His 14 guns equal General Foucher's 2 four-pounders that fired from the start and the 10 eight-pounders and 2 howitzers that arrived at the end of the action (our arithmetic; claim foucart-side-a). His 9,000 for side B is above Höpfner's 8300 for the prince's advanced guard and the 8000 available in Höpfner's first reason for the defeat (claim hoepfner-side-b); his 7 squadrons are fewer than Höpfner's 9 in second line and the one left with the light troops, 10 in all (our arithmetic); his 42 guns are more than the 27 pieces whose fire Foucher's 2 four-pounders sustained (claim foucart-side-b) and the 33 guns lost in Höpfner's account (claim side-b-losses-reported). The figures are forces available, which the commanders' dispositions shaped, so the phase is unresolved. English rendering (ours) of Bodart's rules: p. 46, 'the strengths given are always those forces that were disposable for the battle'; p. 47, 'the strength and loss figures were rounded up by the author'. English rendering (ours) of the entry: 'victory of the French (12,000 men with 14 guns) under Marshal Lannes over the Prussians and Saxons (8 battalions, 7 squadrons = 9,000 men with 42 guns) under Lieutenant-General Prince Louis Ferdinand of Prussia †'. 'Gen.-Lt.' is General-Leutnant, 'Pz.' Prinz, 'Btln.' Bataillon and 'Esk.' Eskadron in Bodart's list of abbreviations.",
@@ -377,10 +377,10 @@
     {
       "id": "bodart-commanders",
       "dimension": "responsibility",
-      "value": "Bodart names Marshal Lannes as side A's commander and Lieutenant-General Prince Louis Ferdinand of Prussia as side B's, and lists the prince as fallen. Lannes wrote that evening that the prince had been killed by a hussar of the 10th regiment; the 2nd Bulletin calls the force Lannes attacked Prince Hohenlohe's advanced guard, commanded by Prince Louis of Prussia.",
+      "value": "Bodart names Marshal Lannes as side A's commander and Lieutenant-General Prince Louis Ferdinand of Prussia as side B's, and prints a dagger before the prince's name, which we read as marking him fallen (our reading). Lannes wrote that evening that the prince had been killed by a hussar of the 10th regiment; the 2nd Bulletin calls the force Lannes attacked Prince Hohenlohe's advanced guard, commanded by Prince Louis of Prussia.",
       "status": "supported",
       "phase": "inherited",
-      "rationale": "Bodart's printed entry and his line of the fallen, read from the page image in the frame transcription; Lannes's letter and the Bulletin from the page images (pp. 464, 522 and 524). Lannes commanded his corps under the Emperor's orders (claim side-a-command); the prince commanded Prince Hohenlohe's advanced guard under Hohenlohe's orders (claim side-b-command). The commands were set before the action, so the claim is inherited. English renderings (ours): Bodart, as in claim bodart-strength for the entry; '† Prussian Lieutenant-General Prince Louis Ferdinand of Prussia'; Lannes, as in claim foucart-side-a (p. 464); the Bulletin, as in claim foucart-side-a for the heading and date (p. 522); 'Marshal Lannes entered Coburg on the 8th, moved on the 9th on Gräfenthal; he attacked, on the 10th, at Saalfeld, the advanced guard of Prince Hohenlohe, commanded by Prince Louis of Prussia, one of the champions of the war' (p. 524). 'Gen.-Lt.' is General-Leutnant and 'Pz.' Prinz in Bodart's list of abbreviations.",
+      "rationale": "Bodart's printed entry, his line with the dagger and the heading at Auerstädt, read from the page images in the frame transcription; Lannes's letter and the Bulletin from the page images (pp. 464, 522 and 524). Lannes commanded his corps under the Emperor's orders (claim side-a-command); the prince commanded Prince Hohenlohe's advanced guard under Hohenlohe's orders (claim side-b-command). The commands were set before the action, so the claim is inherited. Bodart's explanatory pages transcribed (pp. 45-48) do not define the dagger; we read it from his lines of the same form under the heading 'Gefallene Generale' in other entries, as at Auerstädt (p. 373), and the reading agrees with Lannes's letter. English renderings (ours): Bodart, as in claim bodart-strength for the entry; '† Prussian Lieutenant-General Prince Louis Ferdinand of Prussia'; 'fallen generals:' (p. 373); Lannes, as in claim foucart-side-a (p. 464); the Bulletin, as in claim foucart-side-a for the heading and date (p. 522); 'Marshal Lannes entered Coburg on the 8th, moved on the 9th on Gräfenthal; he attacked, on the 10th, at Saalfeld, the advanced guard of Prince Hohenlohe, commanded by Prince Louis of Prussia, one of the champions of the war' (p. 524). 'Gen.-Lt.' is General-Leutnant and 'Pz.' Prinz in Bodart's list of abbreviations.",
       "citations": [
         {
           "source_id": "bodart-1908-transcription-v1",
@@ -393,6 +393,12 @@
           "section": "p371",
           "locator": "Bodart (1908), p. 371",
           "quote": "† preuß. Gen.-Lt. Pz. Louis Ferdinand v. Preußen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Gefallene Generale:"
         },
         {
           "source_id": "bodart-1908-transcription-v1",
@@ -1027,10 +1033,10 @@
     {
       "id": "bodart-losses",
       "dimension": "outcome",
-      "value": "Bodart gives the French losses as about 200 men (14 officers) and the Prussian-Saxon losses as 700 men killed and wounded and 1,100 prisoners, together 1,800 men (1 general, 28 officers) (= 20%), 33 guns (= 75%) and 4 colours; he lists Prince Louis Ferdinand among the fallen.",
+      "value": "Bodart gives the French losses as about 200 men (14 officers) and the Prussian-Saxon losses as 700 men killed and wounded and 1,100 prisoners, together 1,800 men (1 general, 28 officers) (= 20%), 33 guns (= 75%) and 4 colours; he prints a dagger before Prince Louis Ferdinand's name, which we read as marking him fallen (our reading; claim bodart-commanders).",
       "status": "supported",
       "phase": "post_outcome",
-      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. His 1,800 is 20% of his 9,000 (our arithmetic), as printed, but his 33 guns are 79% of his 42 (our arithmetic), not the printed 75%. His 1 general and 28 officers make 29 (our arithmetic), the same total as Höpfner's 5 officers killed or dead of wounds and 24 wounded (our arithmetic); his 33 guns equal Höpfner's 15 Prussian and 18 Saxon (our arithmetic) and the 33 guns in the parenthesis of Suchet's report; his 1,800 is the upper end of Höpfner's 17—1800 killed, wounded and prisoners; his 700 killed and wounded are near the 2nd Bulletin's 600 left on the field (claim side-b-losses-reported). His French loss of about 200 men is above Suchet's 172 for his division (claim side-a-losses-reported). English rendering (ours): 'French losses: about 200 men (14 officers)'; 'Prussian-Saxon losses: 700 men killed and wounded, 1,100 [men] prisoners, together 1,800 men (1 general, 28 officers) (= 20%), 33 cannon (= 75%), 4 colours'; '† Prussian Lieutenant-General Prince Louis Ferdinand of Prussia'. 'Offz.' is Offizier and 'Gen.' Général en chef oder General in Bodart's list of abbreviations.",
+      "rationale": "Bodart's printed losses, read from the page image in the frame transcription. His 1,800 is 20% of his 9,000 (our arithmetic), as printed, but his 33 guns are 79% of his 42 (our arithmetic), not the printed 75%. His 1 general and 28 officers make 29 (our arithmetic), the same total as Höpfner's 5 officers killed or dead of wounds and 24 wounded (our arithmetic); his 33 guns equal Höpfner's 15 Prussian and 18 Saxon (our arithmetic) and the 33 guns in the parenthesis of Suchet's report; his 1,800 is the upper end of Höpfner's 17—1800 killed, wounded and prisoners; his 700 killed and wounded are near the 2nd Bulletin's 600 left on the field (claim side-b-losses-reported). His French loss of about 200 men is above Suchet's 172 for his division (claim side-a-losses-reported). English rendering (ours): 'French losses: about 200 men (14 officers)'; 'Prussian-Saxon losses: 700 men killed and wounded, 1,100 [men] prisoners, together 1,800 men (1 general, 28 officers) (= 20%), 33 cannon (= 75%), 4 colours'; '† Prussian Lieutenant-General Prince Louis Ferdinand of Prussia'; the heading at Auerstädt as in claim bodart-commanders (p. 373). 'Offz.' is Offizier and 'Gen.' Général en chef oder General in Bodart's list of abbreviations.",
       "citations": [
         {
           "source_id": "bodart-1908-transcription-v1",
@@ -1049,6 +1055,12 @@
           "section": "p371",
           "locator": "Bodart (1908), p. 371",
           "quote": "† preuß. Gen.-Lt. Pz. Louis Ferdinand v. Preußen."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p373",
+          "locator": "Bodart (1908), p. 373",
+          "quote": "Gefallene Generale:"
         },
         {
           "source_id": "bodart-1908-transcription-v1",

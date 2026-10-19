@@ -31,11 +31,10 @@ directory and a validator bound to cohort v1, and a campaign group's packet is w
 frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
 check now rebuilds every selection from its parent.
 
-**Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
-(23 entries). All 23 entries are drafted; a check of the 23 drafts together is next, then
-`fourth-coalition 1807` (19 entries). On
-2026-10-16 the owner set no usage cap and had the main session research, draft and verify each
-group itself, without subagents
+**Next:** first passes by complete campaign group. The next group is `fourth-coalition 1807`
+(19 entries), now that all 23 entries of `fourth-coalition 1806` are drafted and checked
+together. On 2026-10-16 the owner set no usage cap and had the main session research, draft and
+verify each group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
 Usage is logged per group.
 
@@ -59,8 +58,9 @@ Usage is logged per group.
   Gaëta and Amantea (B370c, B370d, B371a and B379c). The check before release removed one citation
   that took Gaëta past the brief's three source families. The group used about 2.3 million tokens.
 - `fourth-coalition 1806`, all 23 entries in five batches, from Foucart's edition of the French
-  documents and Höpfner's Prussian history. The group has used about 28 million tokens, and the
-  check of its drafts together is next:
+  documents and Höpfner's Prussian history. A bounded check of the 23 drafts together followed. It
+  corrected how seven drafts, four of this group and three of 1805, read Bodart's dagger. The group
+  used about 28.4 million tokens, the check included:
   - batch 2a: Saalfeld, Jena and Auerstedt (B371b, B372a and B373a), about 6.2 million tokens;
   - sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (B373b and B374a–c), about 2.4 million
     tokens;
@@ -74,7 +74,8 @@ Usage is logged per group.
   - sub-batch 2d-ii: Breslau (B378b), about 1.9 million tokens;
   - sub-batch 2e-i: Czarnowo (B377c), about 3.7 million tokens;
   - sub-batch 2e-ii: Pultusk (B377d), about 1.2 million tokens;
-  - sub-batch 2e-iii: Golymin (B378a), about 2.1 million tokens.
+  - sub-batch 2e-iii: Golymin (B378a), about 2.1 million tokens;
+  - the check of the drafts together, about 0.4 million tokens.
 
 The cohort's other 276 engagements would need about 160 to 185 million tokens at the 1805 and
 Naples groups' rates, roughly 11 to 12 sessions, and about 335 million, roughly 22 sessions, at
