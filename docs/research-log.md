@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1814 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1814-first-pass-v1.md) adds **3/3 drafts, 57 claims, 4 explicit unknowns and 79 citations**, addressing nine dimensions and six side records. Orthez and Toulouse retain conflicting strength/date/population alternatives and Oman's Orthez arithmetic mismatch. Bayonne retains the whole February 23–April 18 frozen siege, separate April 14 sortie forces, Hope/Colville succession and source disagreements about the sortie result and notification date.
+
+Pre-reading assignments stay within Bodart, Oman and Lapène. One bounded Bayonne closure cross-check; no fourth family, subagent, separate review or second opinion. The registry appends **64 records**, reaching **5,441**: 29 historical images, 20 exact-range narrative files (43 sections) and 15 manual transcriptions. Five old title/preface images were re-inspected. All old 5,377 sources and 307 dossiers remain unchanged.
+
+Primary verification binds final hashes, assignments, arithmetic, **10 visible digit-flag dispositions**, source/evidence checks, refreshed packet, `make reproduce`, `make check` and report inspection. Coverage is **310/325 in 15/16 complete groups**, leaving **15 entries** in `hundred-days-1815 1815`. No feature admission, new rating/outcome fit, synthetic job or calibration score; calibration stays **47 prepared, unscored**, final numerical reservation unchanged. Usage unavailable. The final group was not begun here.
+
 ## Liberation 1814 complete first pass, 2026-10-19
 
 The [campaign record](research/liberation-1814-first-pass-v1.md) adds **34/34 drafts, 504 claims, 71 explicit unknowns and 554 citations**, addressing nine dimensions and 68 side records. Complete intervals and repeated-name IDs remain frozen. Available/engaged/component/garrison/captive populations and horse counts remain separate; local/superior command changes and source disputes stay explicit. La Rothière and Paris printed arithmetic, Arcis’s date/total conflict and Reims’s 250/2,500 captive discrepancy are retained.

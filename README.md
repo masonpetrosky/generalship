@@ -42,8 +42,8 @@ As of 2026-10-19:
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
   war against Prussia, the 19 of the 1807 group, and the Peninsula groups of 1808 (17) and
   1809 (19), 1810 (11), 1811 (19) and 1812 (8), plus the Fifth Coalition of 1809 (36),
-  Russia 1812 (31), Liberation 1813 (52), Peninsula 1813 (12) and Liberation 1814 (34),
-  have drafts: **307/325 across fourteen complete groups**,
+  Russia 1812 (31), Liberation 1813 (52), Peninsula 1813 (12), Liberation 1814 (34) and Peninsula 1814 (3),
+  have drafts: **310/325 across fifteen complete groups**,
   primary-verified by campaign.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
@@ -53,8 +53,9 @@ As of 2026-10-19:
   The [Peninsula 1813 pass](docs/research/peninsula-1813-first-pass-v1.md) keeps initial, engaged,
   siege and covering forces separate and preserves chronology disputes. The
   [Liberation 1814 pass](docs/research/liberation-1814-first-pass-v1.md) retains conflicting totals,
-  daily command changes and full blockade intervals. Next: the three entries of
-  `peninsula 1814` ([roadmap](docs/roadmap.md)).
+  daily command changes and full blockade intervals. The
+  [Peninsula 1814 pass](docs/research/peninsula-1814-first-pass-v1.md) preserves troop/date alternatives
+  and Bayonne’s whole siege. Next: the fifteen entries of `hundred-days-1815 1815` ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

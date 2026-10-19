@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1814 first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1814-first-pass-v1.md) appends **64 records**, reaching **5,441**: 29 new historical page images, 20 exact-range narrative files (43 anchor/context sections) and 15 manual-transcription files. Five previously registered title/preface images were re-inspected. Existing Oman VII and Lapène complete OCR parents, metadata, scan maps and bibliography remain pinned; all old 5,377 registry records and bytes are unchanged.
+
+Oman VII is Oxford/Clarendon **1930**, confirmed on title and dated preface, rather than the catalogue's 1902 series date. Lapène is Paris/Toulouse **1823**, French despite the metadata language field, and declares participation in Taupin's artillery and praise for the French army. Both national narratives mediate other contingents and original documents; embedded reports are not new independent families. No new full book was fetched or asserted read in full.
+
+Every adopted passage/number was inspected on the retained image. Narrative sections rebuild from exact page-bounded parent ranges with whitespace collapsed only; manual sections carry original-language image readings and marked English renderings. Printed population/date alternatives remain explicit, including the April 1 French Toulouse states and Bayonne's disputed closure. [Raw notes](../data/raw/napoleonic-peninsula-1814-v1/NOTES.md), [alignment audit](../data/raw/napoleonic-peninsula-1814-v1/selection-audit-v1.json) and the [primary record](../data/raw/napoleonic-peninsula-1814-v1/primary-verification-v1.json) retain page inventory, scope, hashes and ten visible flag dispositions. Draft evidence only; no feature admission.
+
 ## Liberation 1814 first pass, 2026-10-19
 
 The [campaign record](research/liberation-1814-first-pass-v1.md) appends **384 records**, reaching **5,377**: 169 new historical page images, one tome-II title image, 151 exact-range narrative files (341 anchor/context sections) and 63 manual-transcription files. One further historical image is reused unchanged, giving 170 historical pages supporting adopted excerpts. Existing complete Vaudoncourt France/Italy and Plotho III parents, metadata, scan maps and bibliographic records remain pinned; all old 4,993 registry records and bytes are unchanged.

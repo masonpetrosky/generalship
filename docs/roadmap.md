@@ -41,7 +41,7 @@ registry, and the worked campaign specification remains not estimable. All resul
 are retained. Compact packets, brief v3's checklist and reproducible research screens are in
 use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or subagent ran.
 
-**Research coverage:** 307 of 325 entries in fourteen of 16 complete groups, all primary-verified:
+**Research coverage:** 310 of 325 entries in fifteen of 16 complete groups, all primary-verified:
 
 | Group | Drafts | Recorded usage |
 | --- | ---: | ---: |
@@ -59,12 +59,14 @@ use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or
 | `liberation 1813` | 52 | unavailable; no complete meter exposed |
 | `peninsula 1813` | 12 | unavailable; no complete meter exposed |
 | `liberation 1814` | 34 | unavailable; no complete meter exposed |
+| `peninsula 1814` | 3 | unavailable; no complete meter exposed |
 
 The [research log](research-log.md) retains every batch, whole-group check and correction.
-The remaining 18 entries have no drafts: `peninsula 1814` (3) and
-`hundred-days-1815 1815` (15). The [Liberation 1814 pass](research/liberation-1814-first-pass-v1.md)
-preserves all 34 intervals, source-specific force populations, command changes, arithmetic
-and chronology disputes. Next: `peninsula 1814` (3 entries), using brief v3's checklist and stopping rule.
+The remaining 15 entries have no drafts: `hundred-days-1815 1815` (15).
+The [Peninsula 1814 pass](research/peninsula-1814-first-pass-v1.md) preserves Orthez/Toulouse
+strength alternatives, dated/component populations and the whole Bayonne siege with its
+notification-date and sortie-result disputes. Next: `hundred-days-1815 1815` (15 entries),
+using brief v3's checklist and stopping rule.
 This is source research; the final numerical evaluation reservation below remains unchanged.
 The [1808 pass](research/peninsula-1808-first-pass-v1.md) records two source-family effort
 overruns; its dossier screen does not erase them. Fix source-family assignments before substantive
