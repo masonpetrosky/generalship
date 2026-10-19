@@ -1,10 +1,10 @@
 {
   "kind": "napoleonic_research_screen",
   "version": 1,
-  "drafts": 85,
+  "drafts": 104,
   "flag_counts": {
     "source_family_ceiling": 1,
-    "value_digits_without_same_claim_image_quote": 101
+    "value_digits_without_same_claim_image_quote": 120
   },
   "dossiers": [
     {
@@ -3219,6 +3219,64 @@
       "flags": []
     },
     {
+      "battle_id": "B393a",
+      "dossier_sha256": "5d6f529877a8ebcaaacfb18652987051d9bdca518832427278c3dcad4583e2bd",
+      "claims": 14,
+      "citations": 12,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p143-figures-v1",
+        "jourdan-1899-p144-figures-v1",
+        "toreno-1835-t2-p240-figures-v1",
+        "toreno-1835-t2-p241-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "spanish-joined-force",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "8000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B393b",
+      "dossier_sha256": "acebfd008ed10e8d14590d2f7649083bd104bea17b8064da466126076fb82a38",
+      "claims": 15,
+      "citations": 11,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "le-noble-1809-operations",
+        "oman-peninsular-war"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "le-noble-1821-p41-figures-v1",
+        "le-noble-1821-p45-figures-v1",
+        "oman-1902-t1-p582-figures-v1",
+        "oman-1902-t1-p589-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "french-infantry-subset",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "13000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
       "battle_id": "B393c",
       "dossier_sha256": "81ad6b368d5ea0b61413b8f72ffe0fea2de88494c3564af5cafea0e4bed3110b",
       "claims": 18,
@@ -3256,6 +3314,498 @@
             "11"
           ],
           "dimension": "responsibility"
+        }
+      ]
+    },
+    {
+      "battle_id": "B394a",
+      "dossier_sha256": "43bd68c624cafcf175698d60537c26c2e49672711406e148468809c39dabfa74",
+      "claims": 13,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "saint-cyr-catalogne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "saint-cyr-1821-p119-figures-v1",
+        "saint-cyr-1821-p121-figures-v1",
+        "saint-cyr-1821-p122-figures-v1",
+        "toreno-1835-t2-p336-figures-v1",
+        "toreno-1835-t2-p373-misprint-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "reding-prebattle-force",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "5000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B394b",
+      "dossier_sha256": "91899e163386bc43635fe45605e2f860e80f85ae0239b948a4d9e2919712204e",
+      "claims": 15,
+      "citations": 12,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "le-noble-1809-operations",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "le-noble-1821-p130-figures-v1",
+        "le-noble-1821-p133-figures-v1",
+        "le-noble-1821-p136-figures-v1",
+        "le-noble-1821-p138-figures-v1",
+        "toreno-1835-t2-p374-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "braga-approach-force",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "20"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "braga-opponent-estimate",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "17",
+            "40000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B394c",
+      "dossier_sha256": "6c9e8770a33fad927fc2e441efbc22a6009aafcff2b24253105a174be3011437",
+      "claims": 15,
+      "citations": 11,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p186-figures-v1",
+        "toreno-1835-t2-p313-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "french-assembled-corps",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "11000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B395a",
+      "dossier_sha256": "b2f0f24ca421deea1f8d7c773089776500a4625fd2e84cac261eb26f7f874350",
+      "claims": 15,
+      "citations": 13,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p184-figures-v1",
+        "toreno-1835-t2-p317-figures-v1",
+        "toreno-1835-t2-p318-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B395b",
+      "dossier_sha256": "adb6a2550b2116deee9b1e53ab2f605df8b9a6d1fa1d30278f2f1dd64fadcb32",
+      "claims": 14,
+      "citations": 13,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "le-noble-1809-operations",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "le-noble-1821-p151-figures-v1",
+        "le-noble-1821-p159-figures-v1",
+        "le-noble-1821-p167-figures-v1",
+        "toreno-1835-t2-p375-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "porto-french-approach-force",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "20000"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "porto-mixed-opponent-assembly",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "60000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B403a",
+      "dossier_sha256": "519242612a5e2be3d0c7f1e1a9e0c879b34a8aeddbb43ed00d0a4787fb4546b1",
+      "claims": 14,
+      "citations": 12,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "le-noble-1809-operations",
+        "oman-peninsular-war"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "le-noble-1821-p247-figures-v1",
+        "le-noble-1821-p248-figures-v1",
+        "oman-1903-t2-p335-figures-v1",
+        "oman-1903-t2-p336-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "porto-first-crossing-subset",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "25",
+            "27000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B405b",
+      "dossier_sha256": "74545db10cb04bc55eb802572179bba75f73d170143654767dae582dd4c7dee2",
+      "claims": 15,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "suchet-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "suchet-1834-t1-p18-figures-v1",
+        "suchet-1834-t1-p19-figures-v1",
+        "toreno-1835-t3-p24-figures-v1",
+        "toreno-1835-t3-p25-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B407b",
+      "dossier_sha256": "d724d10d8736cc5cd12844a162389a887bc44286f362e2cd584e23fc9377ef80",
+      "claims": 13,
+      "citations": 9,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "suchet-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "suchet-1834-t1-p27-figures-v1",
+        "suchet-1834-t1-p28-figures-v1",
+        "toreno-1835-t3-p29-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "suchet-initial-force",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "13",
+            "9000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B408b",
+      "dossier_sha256": "998e0fae99cd9252842ab6dda048d63b3553861aca12f774e41e05f25879a15a",
+      "claims": 14,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "suchet-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "suchet-1834-t1-p34-figures-v1",
+        "suchet-1834-t1-p35-figures-v1",
+        "toreno-1835-t3-p32-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "belchite-french-unit-population",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "22"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "belchite-spanish-reinforcement-claim",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "4000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B410b",
+      "dossier_sha256": "2c10efbaa7e1ba4d32da0c65d734932f1448f12bf388438256688fa01cbd5cd1",
+      "claims": 14,
+      "citations": 14,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "oman-peninsular-war"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p253-figures-v1",
+        "jourdan-1899-p256-figures-v1",
+        "jourdan-1899-p257-figures-v1",
+        "oman-1903-t2-p509-figures-v1",
+        "oman-1903-t2-p512-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B411b",
+      "dossier_sha256": "5a26b94ef498896c6fd9d0467baf39c67f0ae4925c843d821258951e809b8450",
+      "claims": 13,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p267-figures-v1",
+        "jourdan-1899-p268-figures-v1",
+        "toreno-1835-t3-p61-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B411c",
+      "dossier_sha256": "29577c2bc4fb17e4107eccd286b17e66d94c56316075ed44421b187fe0eb0d7f",
+      "claims": 14,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p270-figures-v1",
+        "jourdan-1899-p271-figures-v1",
+        "toreno-1835-t3-p67-figures-v1",
+        "toreno-1835-t3-p68-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "almonacid-spanish-opponent-estimate",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "10",
+            "3000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B413a",
+      "dossier_sha256": "c89390e4412cda14bb9847397e6e364b3caa98318618a9264f01786a110ed29a",
+      "claims": 14,
+      "citations": 11,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "saint-cyr-catalogne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "saint-cyr-1821-p258-figures-v1",
+        "saint-cyr-1821-p259-figures-v1",
+        "saint-cyr-1821-p260-figures-v1",
+        "toreno-1835-t3-p110-figures-v1",
+        "toreno-1835-t3-p111-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B413b",
+      "dossier_sha256": "625fea7f445b84444ec0db26a5027e394769d9e06325b9bd456de606fb64fc39",
+      "claims": 15,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p279-figures-v1",
+        "toreno-1835-t3-p150-figures-v1",
+        "toreno-1835-t3-p151-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "spanish-reported-size",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "21",
+            "25000"
+          ],
+          "dimension": "strength"
+        }
+      ]
+    },
+    {
+      "battle_id": "B414c",
+      "dossier_sha256": "054a31907d251dde6efe0ee6747da61287a39fbf5561b9b6d6ba6d15fe4e74aa",
+      "claims": 14,
+      "citations": 10,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p283-figures-v1",
+        "toreno-1835-t3-p160-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": []
+    },
+    {
+      "battle_id": "B415a",
+      "dossier_sha256": "1a0b69d5e0608b1b177e58e175b686c2ff376bfd244526c6dcbc4986691ce140",
+      "claims": 15,
+      "citations": 12,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "jourdan-memoires-espagne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "jourdan-1899-p285-figures-v1",
+        "toreno-1835-t3-p165-figures-v1",
+        "toreno-1835-t3-p166-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "alba-date-dispute",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "26"
+          ],
+          "dimension": "information"
+        }
+      ]
+    },
+    {
+      "battle_id": "B415c",
+      "dossier_sha256": "3f70f0a5beb85fe66271c3d75104e4e30a90638700a2980564867130b9efd75a",
+      "claims": 17,
+      "citations": 17,
+      "source_families": [
+        "bodart-kriegs-lexikon-1908",
+        "saint-cyr-catalogne",
+        "toreno-levantamiento-guerra"
+      ],
+      "source_ids": [
+        "bodart-1908-transcription-v1",
+        "saint-cyr-1821-p161-figures-v1",
+        "saint-cyr-1821-p163-figures-v1",
+        "saint-cyr-1821-p269-figures-v1",
+        "toreno-1835-t3-p117-figures-v1",
+        "toreno-1835-t3-p118-figures-v1",
+        "toreno-1835-t3-p90-figures-v1",
+        "toreno-1835-t3-p91-figures-v1"
+      ],
+      "completion_brief_version": 3,
+      "flags": [
+        {
+          "claim_id": "gerona-early-opponent-alternative",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "3000",
+            "5673"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "gerona-french-siege-and-cover",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "12000",
+            "18000",
+            "22"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "gerona-effective-late-subset",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "8"
+          ],
+          "dimension": "strength"
+        },
+        {
+          "claim_id": "gerona-capitulation-entry",
+          "kind": "value_digits_without_same_claim_image_quote",
+          "digits": [
+            "10"
+          ],
+          "dimension": "outcome"
         }
       ]
     }

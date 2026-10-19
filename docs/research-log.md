@@ -12,6 +12,28 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1809 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1809-first-pass-v1.md) adds **19/19 drafts, 273 claims,
+79 explicit unknowns and 217 citations**. All nine dimensions and 38 per-side completion
+records are covered; army continuity remains unknown for every side. Work is primary-verified.
+No subagent, separate review, second-opinion prompt, follow-up cycle or model job ran.
+
+Source-family assignments were fixed before substantive reading. All dossier and indexed
+checked-parent family sets match the three assigned families including Bodart. The 167 new
+source records include five new OCR parents and 73 inspected image/excerpt pairs. Catalogue
+errors for Suchet (1834 edition) and Oman II (1903) are corrected explicitly. Earlier raw inputs,
+3,558 source records and 85 drafts remain unchanged.
+
+Corunna’s outcome dispute, the May Porto crossing-clock conflict and Alba’s 28 versus frozen
+26 November date remain unresolved. Present/absent/engaged populations, superior/local authority
+and overlapping LaBisbal/Gerona operations remain separate. Original Portuguese returns and many
+matched own-side local musters are still missing. The 19 new digit flags have primary dispositions.
+Evidence checks, research screen, `make reproduce` and `make check` passed; packet and reports
+were inspected. Frozen inputs, calibration and model results are unchanged; no feature admitted.
+Coverage: **104/325 in 6/16 complete groups**, 221 remaining. Next: `fifth-coalition 1809`,
+**36 cohort land entries**, distinct from its broader 37-entry frame group. Usage unavailable.
+
 ## Peninsula 1808 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1808-first-pass-v1.md) adds all 17 frozen entries:

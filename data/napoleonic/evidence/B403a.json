@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "battle_id": "B403a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Oporto entry, 1809-05-12 to 1809-05-12; no replacement boundary established. Phase labels are research hypotheses, not causal findings. No feature or commander credit is admitted.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French) 13,000; side B (Anglo-Portuguese) 27,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Claim-relevant rendering of the contextual quote/table. Bodart’s rounded-up available-for-engagement convention is shared, not an opening muster. Source-specific component/time distinctions remain. English rendering (ours): \"Side A: 13,000. Side B: 27,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p403",
+          "locator": "Bodart (1908), p. 403, Oporto entry; full page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (27.000 M.) unter Gen.-Lt. Sir Wellesley über die Franzosen (13.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Soult; side B under Wellesley.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Claim-relevant rendering; this printed label does not establish continuous field presence or a sole credited commander. English rendering (ours): \"French-side command: Soult; opponent-side command: Wellesley.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p403",
+          "locator": "Bodart (1908), p. 403, Oporto entry; full page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (27.000 M.) unter Gen.-Lt. Sir Wellesley über die Franzosen (13.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side B as Bodart’s winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source convention frozen; outcome is not a causal attribution or evidence of skill. English rendering (ours): \"Bodart places side B first, his recorded victor.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p403",
+          "locator": "Bodart (1908), p. 403, Oporto entry; full page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (27.000 M.) unter Gen.-Lt. Sir Wellesley über die Franzosen (13.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded assigned-family passages for Oporto do not establish this dimension at the frozen engagement. No inference from outcome, reputation or place name.",
+      "citations": []
+    },
+    {
+      "id": "porto-first-crossing-subset",
+      "dimension": "strength",
+      "value": "Oman describes side B’s first landing as a subaltern and 25 men; this is a tiny initial subset, not Bodart’s 27,000 allied available army.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Staged crossing population. No whole-army numerical own-side return is established by these checked pages.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p336-figures-v1",
+          "section": "p336",
+          "locator": "oman-t2, printed p. 336, Internet Archive leaf 367; inspected page-image excerpt",
+          "quote": "a subaltern and twenty-five men rushed up into the empty enclosure of the Seminary"
+        }
+      ]
+    },
+    {
+      "id": "paget-crossing-command",
+      "dimension": "responsibility",
+      "value": "Oman places Edward Paget in command of the crossing movement under Wellesley.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Specific movement command; not replacement of Wellesley as army chief.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p336-figures-v1",
+          "section": "p336",
+          "locator": "oman-t2, printed p. 336, Internet Archive leaf 367; inspected page-image excerpt",
+          "quote": "General Edward Paget, whom Wellesley had placed in command of the whole movement."
+        }
+      ]
+    },
+    {
+      "id": "foy-delaborde-local-response",
+      "dimension": "responsibility",
+      "value": "Le Noble describes Foy attacking the Seminary and Delaborde supporting him after warning Soult.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Foy is the subject in the preceding sentence; contingent response versus Soult’s superior command. English rendering (ours): \"He attacks it, and Delaborde arrives to support him with the 70th, led by Arnaud.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p248-figures-v1",
+          "section": "p248",
+          "locator": "le-noble, printed p. 248, Internet Archive leaf 258; inspected page-image excerpt",
+          "quote": "Il l’attaque, et le général Delaborde arrive pour le soutenir avec le 70e à la tête duquel marchait le général Arnaud."
+        }
+      ]
+    },
+    {
+      "id": "porto-may-main-attack",
+      "dimension": "posture",
+      "value": "Oman attributes the main river-crossing offensive to Wellesley, with Murray’s separate crossing a diversion.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language passage; source-specific observation, not an admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p335-figures-v1",
+          "section": "p335",
+          "locator": "oman-t2, printed p. 335, Internet Archive leaf 366; inspected page-image excerpt",
+          "quote": "Wellesley had resolved to endeavour to seize the abandoned Seminary, and to throw his main body across the river at this point if possible."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "porto-may-information-conflict",
+      "dimension": "information",
+      "value": "Le Noble places the first British crossings in the night of 11–12 May; Oman describes Wellesley deciding around high noon. The clocks remain disputed.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Opposed retrospective accounts, not a reconciled event clock; Oman’s negligence language is his judgment. English rendering (ours): \"The British began crossing during the night of 11–12; [Oman] they seemed asleep at high noon, encouraging him.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p247-figures-v1",
+          "section": "p247",
+          "locator": "le-noble, printed p. 247, Internet Archive leaf 257; inspected page-image excerpt",
+          "quote": "Les Anglais commencèrent à passer dans la nuit du 11 au 12."
+        },
+        {
+          "source_id": "oman-1903-t2-p335-figures-v1",
+          "section": "p335",
+          "locator": "oman-t2, printed p. 335, Internet Archive leaf 366; inspected page-image excerpt",
+          "quote": "But they seemed asleep at high noon, and their manifest negligence encouraged him."
+        }
+      ]
+    },
+    {
+      "id": "seminary-prepared-wall",
+      "dimension": "fortification",
+      "value": "Oman describes the first landed British troops adapting the garden wall with wood and earth as a firing platform.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Commander-created local defensive preparation after the landing; not evidence that the whole army began fortified.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p336-figures-v1",
+          "section": "p336",
+          "locator": "oman-t2, printed p. 336, Internet Archive leaf 367; inspected page-image excerpt",
+          "quote": "they set themselves to lining the garden wall and to piling up wood and earth against it"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "porto-may-french-local-return-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Le Noble’s checked response narrative gives French regiments and successive participation without a numerical local own-force muster; no whole army/initial reaction equivalence.",
+      "citations": []
+    },
+    {
+      "id": "porto-may-allied-whole-return-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The first landing and the later main body are distinct; the checked Oman pages do not establish a numerical whole-allied local return matched to 12 May.",
+      "citations": []
+    },
+    {
+      "id": "porto-river-and-seminary",
+      "dimension": "terrain",
+      "value": "Oman places the main crossing at the Seminary on the opposite river bank.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "River and landing location, not an inferred effect size.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p335-figures-v1",
+          "section": "p335",
+          "locator": "oman-t2, printed p. 335, Internet Archive leaf 366; inspected page-image excerpt",
+          "quote": "Wellesley had resolved to endeavour to seize the abandoned Seminary, and to throw his main body across the river at this point if possible."
+        }
+      ]
+    },
+    {
+      "id": "porto-seminary-crossing-objective",
+      "dimension": "objectives",
+      "value": "Oman describes Wellesley’s immediate objective as seizing the Seminary and crossing his main body there if possible.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Source-attributed immediate objective, not a measured campaign contribution.",
+      "citations": [
+        {
+          "source_id": "oman-1903-t2-p335-figures-v1",
+          "section": "p335",
+          "locator": "oman-t2, printed p. 335, Internet Archive leaf 366; inspected page-image excerpt",
+          "quote": "Wellesley had resolved to endeavour to seize the abandoned Seminary, and to throw his main body across the river at this point if possible."
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Separate the whole advancing allied army from the river-crossing subset and French town garrison from detached formations.",
+    "Deferred: original dated returns and command reports for the alternative populations/timing above. No deeper research cycle is implied by this draft.",
+    "Source dependence: Bodart is a later compilation. Assigned participant memoirs, national histories and transmitted reports are interested/mediated; volumes and embedded documents are not extra independent witnesses."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "porto-may-french-local-return-unknown"
+        ],
+        "strength_population_and_time": "Bodart gives whole-engagement available strength, not a dated opening return. Le Noble’s checked response narrative gives French regiments and successive participation without a numerical local own-force muster; no whole army/initial reaction equivalence.",
+        "command_claim_ids": [
+          "bodart-command",
+          "foy-delaborde-local-response"
+        ],
+        "command_scope": "Printed label and additional local/superior observations remain separate. Bodart lists side A under Soult; side B under Wellesley. Le Noble describes Foy attacking the Seminary and Delaborde supporting him after warning Soult.",
+        "army_continuity": "Unknown: these passages do not establish a cross-engagement army identity; repeated commanders or formation names are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "porto-first-crossing-subset",
+          "porto-may-allied-whole-return-unknown"
+        ],
+        "strength_population_and_time": "Bodart gives whole-engagement available strength, not a dated opening return. Oman describes side B’s first landing as a subaltern and 25 men; this is a tiny initial subset, not Bodart’s 27,000 allied available army. The first landing and the later main body are distinct; the checked Oman pages do not establish a numerical whole-allied local return matched to 12 May.",
+        "command_claim_ids": [
+          "bodart-command",
+          "paget-crossing-command"
+        ],
+        "command_scope": "Printed label and additional local/superior observations remain separate. Bodart lists side A under Soult; side B under Wellesley. Oman places Edward Paget in command of the crossing movement under Wellesley.",
+        "army_continuity": "Unknown: these passages do not establish a cross-engagement army identity; repeated commanders or formation names are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "le-noble-1821-ocr-v1",
+      "oman-1903-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The nine dimensions and per-side population/time and authority checklist are covered by passage-backed observations or explicit unknowns within the preassigned three-family ceiling. The main remaining gap is deferred; no extra research cycle or feature admission follows.",
+    "deferred_decision_relevant_gaps": [
+      "Separate the whole advancing allied army from the river-crossing subset and French town garrison from detached formations."
+    ]
+  }
+}

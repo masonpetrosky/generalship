@@ -40,13 +40,14 @@ As of 2026-10-19:
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
-  war against Prussia, the 19 of the 1807 group and the 17 of the Peninsula in 1808 have
-  drafts: 85/325 across five complete groups, each primary-verified together. The
-  [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
+  war against Prussia, the 19 of the 1807 group, and the Peninsula groups of 1808 (17) and
+  1809 (19) have drafts: **104/325 across six complete groups**, primary-verified by campaign.
+  The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
   were weakly recovered on the provisional label schedule. No historical outcome was fitted.
-  The [1808 pass](docs/research/peninsula-1808-first-pass-v1.md) retains strength/command disputes
-  and two research-effort deviations. The 19 entries of `peninsula 1809` are next ([roadmap](docs/roadmap.md)).
+  The [1809 pass](docs/research/peninsula-1809-first-pass-v1.md) retains population, command and date
+  disputes under preassigned source families. Next: the 36 land entries of `fifth-coalition 1809`
+  ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

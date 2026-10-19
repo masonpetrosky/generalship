@@ -5,6 +5,25 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1809 first pass, 2026-10-19
+
+The [campaign pass](research/peninsula-1809-first-pass-v1.md) appends **167 source records**,
+bringing the registry to **3,725**: five complete unmodified OCR parents, five metadata captures,
+five scan maps, **73 image/manual-excerpt pairs** and five title images, plus one order-heading image. The old 3,558 records
+and pinned inputs remain unchanged; existing Toreno II, Saint-Cyr and Oman I parents are reused.
+
+New parents: Jourdan’s memoirs (undated title, catalogue1899), Le Noble’s anonymous-title
+1821 operations memoir (catalogue author attribution), Suchet I (second edition1834),
+Toreno III (1835) and Oman II (1903). Suchet’s archive date1829 and Oman’s1902 do not describe
+the scanned title pages. These are interested historical public-domain works; source-family
+dependence is explicit. Toreno’s Portuguese accounts are mediation, not inspected originals.
+
+All adopted passages/numbers were read on retained registered images; manual excerpts normalize
+typography and line division explicitly, preserve original language and bind parent/image hashes.
+Archive scan labels and OCR are navigation; printed pages control locators, including Toreno II’s
+Valls misprint373 at leaf342. Pre-reading assignments, uncited navigation limits and the page
+inventory are retained in the raw folder. No fourth family was added to resolve a gap.
+
 ## Peninsula 1808 first pass, 2026-10-19
 
 The [campaign pass](research/peninsula-1808-first-pass-v1.md) appends **175 source records**:

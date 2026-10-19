@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "battle_id": "B393b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen La Coruña entry, 1809-01-16 to 1809-01-16; no replacement boundary established. Phase labels are research hypotheses, not causal findings. No feature or commander credit is admitted.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French) 15,500 infantry and 4,500 cavalry, total 20,000; side B (British) 12,000 infantry and 3,000 cavalry, total 15,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Claim-relevant rendering of the contextual quote/table. Bodart’s rounded-up available-for-engagement convention is shared, not an opening muster. Source-specific component/time distinctions remain. English rendering (ours): \"Side A: 15,500 infantry and 4,500 cavalry, total 20,000. Side B: 12,000 infantry and 3,000 cavalry, total 15,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p393",
+          "locator": "Bodart (1908), p. 393, La Coruña entry; full page image inspected",
+          "quote": "Sieg der Engländer (12.000 Inft., 3.000 Kav. = 15.000 M.) unter Gen.-Lt. Sir John Moore † über die Franzosen (15.500 Inft., 4.500 Kav. = 20.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Soult; side B under John Moore.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Claim-relevant rendering; this printed label does not establish continuous field presence or a sole credited commander. English rendering (ours): \"French-side command: Soult; opponent-side command: John Moore.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p393",
+          "locator": "Bodart (1908), p. 393, La Coruña entry; full page image inspected",
+          "quote": "Sieg der Engländer (12.000 Inft., 3.000 Kav. = 15.000 M.) unter Gen.-Lt. Sir John Moore † über die Franzosen (15.500 Inft., 4.500 Kav. = 20.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side B as Bodart’s winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source convention frozen; outcome is not a causal attribution or evidence of skill. English rendering (ours): \"Bodart places side B first, his recorded victor.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p393",
+          "locator": "Bodart (1908), p. 393, La Coruña entry; full page image inspected",
+          "quote": "Sieg der Engländer (12.000 Inft., 3.000 Kav. = 15.000 M.) unter Gen.-Lt. Sir John Moore † über die Franzosen (15.500 Inft., 4.500 Kav. = 20.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded assigned-family passages for La Coruña do not establish this dimension at the frozen engagement. No inference from outcome, reputation or place name.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded assigned-family passages for La Coruña do not establish this dimension at the frozen engagement. No inference from outcome, reputation or place name.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded assigned-family passages for La Coruña do not establish this dimension at the frozen engagement. No inference from outcome, reputation or place name.",
+      "citations": []
+    },
+    {
+      "id": "french-infantry-subset",
+      "dimension": "strength",
+      "value": "Le Noble gives side A fewer than 13,000 bayonets in three infantry divisions; cavalry is mentioned separately without a local number.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own infantry subset, not a whole-army total; do not reconcile by silently adding Bodart’s cavalry. English rendering (ours): \"Our three infantry divisions, comprising only ten regiments, did not number thirteen thousand bayonets.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p41-figures-v1",
+          "section": "p41",
+          "locator": "le-noble, printed p. 41, Internet Archive leaf 53; inspected page-image excerpt",
+          "quote": "Nos trois divisions d’infanterie, composées seulement de dix régimens, ne comptaient pas treize mille baïonnettes."
+        }
+      ]
+    },
+    {
+      "id": "british-remaining-force",
+      "dimension": "strength",
+      "value": "Oman gives side B about 15,000 remaining to oppose Soult, all infantry except some 200 gunners after embarkation of cavalry and most artillery.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Different population/components from Bodart’s 12,000 infantry plus 3,000 cavalry. Oman mediates parliamentary returns; originals not inspected.",
+      "citations": [
+        {
+          "source_id": "oman-1902-t1-p582-figures-v1",
+          "section": "p582",
+          "locator": "oman-t1, printed p. 582, Internet Archive leaf 619; inspected page-image excerpt",
+          "quote": "so that about 15,000 men, all infantry save some 200 gunners, remained behind to oppose Soult."
+        }
+      ]
+    },
+    {
+      "id": "french-divisional-tasks",
+      "dimension": "responsibility",
+      "value": "Le Noble assigns Delaborde Palavia, Mermet Elvina and Merle the central reserve task within Soult’s attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Delaborde was ordered to seize Palavia, Mermet Elvina, while Merle in the centre was to act according to the first attacks.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p41-figures-v1",
+          "section": "p41",
+          "locator": "le-noble, printed p. 41, Internet Archive leaf 53; inspected page-image excerpt",
+          "quote": "Le général Delaborde eut l’ordre de s’emparer du village de Palavia, le général Mermet de celui d’Elvina, et le général Merle, placé au centre, devait se tenir prêt à agir d’après le résultat des premières attaques."
+        }
+      ]
+    },
+    {
+      "id": "soult-attack",
+      "dimension": "posture",
+      "value": "Le Noble describes assigned French assaults on the British villages.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Delaborde was ordered to seize Palavia, Mermet Elvina; Merle was to act according to the first attacks.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p41-figures-v1",
+          "section": "p41",
+          "locator": "le-noble, printed p. 41, Internet Archive leaf 53; inspected page-image excerpt",
+          "quote": "Le général Delaborde eut l’ordre de s’emparer du village de Palavia, le général Mermet de celui d’Elvina, et le général Merle, placé au centre, devait se tenir prêt à agir d’après le résultat des premières attaques."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "moore-to-hope",
+      "dimension": "responsibility",
+      "value": "Oman describes Moore sending Hope a message to take army command after his mortal wound; this does not establish the exact receipt time.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Oman cites Hardinge through James Moore; no independent inspection of that letter. Baird’s exact replacement timing remains unresolved.",
+      "citations": [
+        {
+          "source_id": "oman-1902-t1-p589-figures-v1",
+          "section": "p589",
+          "locator": "oman-t1, printed p. 589, Internet Archive leaf 628; inspected page-image excerpt",
+          "quote": "he found strength to send a message to Hope to bid him take command of the army."
+        }
+      ]
+    },
+    {
+      "id": "corunna-enclosures",
+      "dimension": "terrain",
+      "value": "Oman describes stone field walls and ravines obstructing French cavalry, distinct from constructed battlefield fortifications.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English-language passage; source-specific observation, not an admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1902-t1-p589-figures-v1",
+          "section": "p589",
+          "locator": "oman-t1, printed p. 589, Internet Archive leaf 628; inspected page-image excerpt",
+          "quote": "the ground was so much cut up with rough stone walls, dividing the fields of the villages of San Cristobal and Elvina"
+        }
+      ]
+    },
+    {
+      "id": "moore-rearms-men",
+      "dimension": "logistics",
+      "value": "Oman describes Moore replacing battered muskets and distributing new cartridges before the battle.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language passage; source-specific observation, not an admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1902-t1-p582-figures-v1",
+          "section": "p582",
+          "locator": "oman-t1, printed p. 582, Internet Archive leaf 619; inspected page-image excerpt",
+          "quote": "Moore made his men change their rusty and battered muskets for new ones, before ordering the store to be destroyed. He also distributed new cartridges"
+        }
+      ]
+    },
+    {
+      "id": "french-victory-claim",
+      "dimension": "outcome",
+      "value": "Le Noble’s footnote calls 16 January a French victory, conflicting with Bodart’s British victor. Later city capitulation is a separate event.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Interested retrospective victory claim retained. The page separately dates Alcedo’s city capitulation to 19 January; do not use that to rewrite the frozen field outcome. English rendering (ours): \"The battle won by the French army on 16 January 1809.\"",
+      "citations": [
+        {
+          "source_id": "le-noble-1821-p45-figures-v1",
+          "section": "p45",
+          "locator": "le-noble, printed p. 45, Internet Archive leaf 57; inspected page-image excerpt",
+          "quote": "de la bataille gagnée par l’armée française, le 16 janvier 1809."
+        }
+      ]
+    },
+    {
+      "id": "french-whole-field-return-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The checked French account quantifies infantry only; an independently matched cavalry/whole-field return remains unknown.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Reconcile available infantry with embarked cavalry/artillery, and date Moore/Hope/Baird control during the battle and evacuation.",
+    "Deferred: original dated returns and command reports for the alternative populations/timing above. No deeper research cycle is implied by this draft.",
+    "Source dependence: Bodart is a later compilation. Assigned participant memoirs, national histories and transmitted reports are interested/mediated; volumes and embedded documents are not extra independent witnesses."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-infantry-subset",
+          "french-whole-field-return-unknown"
+        ],
+        "strength_population_and_time": "Bodart gives whole-engagement available strength, not a dated opening return. Le Noble gives side A fewer than 13,000 bayonets in three infantry divisions; cavalry is mentioned separately without a local number. The checked French account quantifies infantry only; an independently matched cavalry/whole-field return remains unknown.",
+        "command_claim_ids": [
+          "bodart-command",
+          "french-divisional-tasks"
+        ],
+        "command_scope": "Printed label and additional local/superior observations remain separate. Bodart lists side A under Soult; side B under John Moore. Le Noble assigns Delaborde Palavia, Mermet Elvina and Merle the central reserve task within Soult’s attack.",
+        "army_continuity": "Unknown: these passages do not establish a cross-engagement army identity; repeated commanders or formation names are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "british-remaining-force"
+        ],
+        "strength_population_and_time": "Bodart gives whole-engagement available strength, not a dated opening return. Oman gives side B about 15,000 remaining to oppose Soult, all infantry except some 200 gunners after embarkation of cavalry and most artillery.",
+        "command_claim_ids": [
+          "bodart-command",
+          "moore-to-hope"
+        ],
+        "command_scope": "Printed label and additional local/superior observations remain separate. Bodart lists side A under Soult; side B under John Moore. Oman describes Moore sending Hope a message to take army command after his mortal wound; this does not establish the exact receipt time.",
+        "army_continuity": "Unknown: these passages do not establish a cross-engagement army identity; repeated commanders or formation names are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "oman-1902-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The nine dimensions and per-side population/time and authority checklist are covered by passage-backed observations or explicit unknowns within the preassigned three-family ceiling. The main remaining gap is deferred; no extra research cycle or feature admission follows.",
+    "deferred_decision_relevant_gaps": [
+      "Reconcile available infantry with embarked cavalry/artillery, and date Moore/Hope/Baird control during the battle and evacuation."
+    ]
+  }
+}
