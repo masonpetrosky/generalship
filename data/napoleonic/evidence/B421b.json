@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "battle_id": "B421b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Olivenza interval 1811-01-11–1811-01-22 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 7,000 (5,500 infantry, 1,000 cavalry, 500 artillery/engineers); side B (Spanish): 4,200 garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 7,000 (5,500 infantry, 1,000 cavalry, 500 artillery/engineers); side B (Spanish): 4,200 garrison.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p421",
+          "locator": "Bodart (1908), p. 421, Olivenza; full retained page image inspected",
+          "quote": "Die Franzosen (5.500 Inft., 1.000 Kav., 500 Art. und Genie, zus. 7.000 M.) unter Marschall Soult zwingen die spanische Besatzung (4.200 M.) unter M. d. C. Don Herch zur Übergabe des Platzes. Die Garnison geriet in Kriegsgefangenschaft. Die Franzosen fanden nur 18 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Soult; side B under Herch.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Soult; opposing command: Herch.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p421",
+          "locator": "Bodart (1908), p. 421, Olivenza; full retained page image inspected",
+          "quote": "Die Franzosen (5.500 Inft., 1.000 Kav., 500 Art. und Genie, zus. 7.000 M.) unter Marschall Soult zwingen die spanische Besatzung (4.200 M.) unter M. d. C. Don Herch zur Übergabe des Platzes. Die Garnison geriet in Kriegsgefangenschaft. Die Franzosen fanden nur 18 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p421",
+          "locator": "Bodart (1908), p. 421, Olivenza; full retained page image inspected",
+          "quote": "Die Franzosen (5.500 Inft., 1.000 Kav., 500 Art. und Genie, zus. 7.000 M.) unter Marschall Soult zwingen die spanische Besatzung (4.200 M.) unter M. d. C. Don Herch zur Übergabe des Platzes. Die Garnison geriet in Kriegsgefangenschaft. Die Franzosen fanden nur 18 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "french-siege-roster",
+      "dimension": "strength",
+      "value": "Side A: Belmas lists 6,425 men present in Girard’s infantry/cavalry roster; 1,041 horses are separate.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Roster page lists four infantry regiments and 27th chasseurs; artillery/engineers are not in this subtotal. Not all-arms 7,000 or a synchronized opening return. English rendering (ours): \"State of troops employed at the siege of Olivenza: Girard; men present, total 6,425; horses, 1,041.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1837-t3-1811-p645-figures-v1",
+          "section": "p645-s1",
+          "locator": "belmas2, printed p. 645, Internet Archive leaf 648; retained page image inspected",
+          "quote": "État des troupes employées au siège d’Olivenza. Général Girard. Hommes présents. Total 6425. Chevaux 1041."
+        }
+      ]
+    },
+    {
+      "id": "belmas-garrison",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives 4,000 garrison including cavalry, artillery and sappers.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French enemy estimate, distinct from Bodart’s 4,200. English rendering (ours): \"Manuel Herch commanded in the place with four thousand men, including cavalry, artillery and sappers.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1837-t3-1811-p635-figures-v1",
+          "section": "p635-s1",
+          "locator": "belmas2, printed p. 635, Internet Archive leaf 638; retained page image inspected",
+          "quote": "Le maréchal de camp D. Manuel Herch commandait dans la place avec quatre mille hommes, y compris un escadron des hussards d’Estramadure, deux compagnies d’artillerie et une compagnie de sapeurs."
+        }
+      ]
+    },
+    {
+      "id": "soult-siege-order",
+      "dimension": "responsibility",
+      "value": "Side A: Soult ordered immediate investment and siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Marshal Soult ordered its immediate investment and siege.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1837-t3-1811-p635-selections-v1",
+          "section": "p635-s1",
+          "locator": "belmas2, printed p. 635, Internet Archive leaf 638; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le maréchal Soult ordonna aussitôt d'investir la place et de commencer le ^ége."
+        }
+      ]
+    },
+    {
+      "id": "mortier-local-corps",
+      "dimension": "responsibility",
+      "value": "Side A: Mortier commanded V Corps under army commander Soult.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Soult is named as army commander immediately above on this same roster image. English rendering (ours): \"Marshal Mortier, Duke of Treviso, commanding the fifth corps.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1837-t3-1811-p645-selections-v1",
+          "section": "p645-s1",
+          "locator": "belmas2, printed p. 645, Internet Archive leaf 648; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le maréchal Mortier, duc de Trévise , commandant le cinquième corps"
+        }
+      ]
+    },
+    {
+      "id": "french-investment",
+      "dimension": "posture",
+      "value": "Side A undertook the investment and siege.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He ordered its immediate investment and siege.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1837-t3-1811-p635-selections-v1",
+          "section": "p635-s1",
+          "locator": "belmas2, printed p. 635, Internet Archive leaf 638; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le maréchal Soult ordonna aussitôt d'investir la place et de commencer le ^ége."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "spanish-reinforcement",
+      "dimension": "strength",
+      "value": "Side B: Toreno reports 3,000 sent as reinforcements during the siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "A flow during the siege, not total opening garrison; no double addition to French garrison estimates. English rendering (ours): \"Mendizabal sent a reinforcement of three thousand men.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p21-figures-v1",
+          "section": "p21-s1",
+          "locator": "toreno4, printed p. 21, Internet Archive leaf 26; retained page image inspected",
+          "quote": "Mendizábal cometió el desacuerdo de enviar un refuerzo de 3000 hombres,"
+        }
+      ]
+    },
+    {
+      "id": "herk-governor",
+      "dimension": "responsibility",
+      "value": "Side B: Herk was fortress governor.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The governor was field marshal Manuel Herk.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p21-selections-v1",
+          "section": "p21-s1",
+          "locator": "toreno4, printed p. 21, Internet Archive leaf 26; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Era gobernador el mariscal de cam- po Don Manuel Herk"
+        }
+      ]
+    },
+    {
+      "id": "olivenza-defences",
+      "dimension": "fortification",
+      "value": "Side B occupied regular works and a covered way, described by Toreno as weak and neglected.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"It had regular fortification with a covered way and bastions, but was weak and neglected.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p21-selections-v1",
+          "section": "p21-s2",
+          "locator": "toreno4, printed p. 21, Internet Archive leaf 26; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "e- p« !«•&■»• nia fortificación regular con camino cubierto y nueve baluartes, pero flaca de suyo y descuida- da"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "spanish-ammunition",
+      "dimension": "logistics",
+      "value": "Toreno reports little ammunition or heavy artillery in the place.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source assessment; no readiness score. English rendering (ours): \"There was scarcely ammunition or heavy artillery inside.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p21-selections-v1",
+          "section": "p21-s3",
+          "locator": "toreno4, printed p. 21, Internet Archive leaf 26; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "apenas hadia dentro muni- ciones de guerra, apenas artillería gruesa"
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Match dated local strengths and effective local versus superior authority at Olivenza; preserve source-specific alternatives.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-siege-roster"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 7,000 (5,500 infantry, 1,000 cavalry, 500 artillery/engineers); side B (Spanish): 4,200 garrison. Side A: Belmas lists 6,425 men present in Girard’s infantry/cavalry roster; 1,041 horses are separate.",
+        "command_claim_ids": [
+          "bodart-command",
+          "soult-siege-order",
+          "mortier-local-corps"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Soult; side B under Herch. Side A: Soult ordered immediate investment and siege. Side A: Mortier commanded V Corps under army commander Soult.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "belmas-garrison",
+          "spanish-reinforcement"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 7,000 (5,500 infantry, 1,000 cavalry, 500 artillery/engineers); side B (Spanish): 4,200 garrison. Side B: Belmas gives 4,000 garrison including cavalry, artillery and sappers. Side B: Toreno reports 3,000 sent as reinforcements during the siege.",
+        "command_claim_ids": [
+          "bodart-command",
+          "herk-governor"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Soult; side B under Herch. Side B: Herk was fortress governor.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1837-t3-ocr-v1",
+      "toreno-1835-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Match dated local strengths and effective local versus superior authority at Olivenza; preserve source-specific alternatives."
+    ]
+  }
+}

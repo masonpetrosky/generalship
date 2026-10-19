@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "battle_id": "B426b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Figueras interval 1811-04-04–1811-08-19 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 15,000; side B (Spanish): 7,000 (3,000 line troops, 4,000 guerrillas).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 15,000; side B (Spanish): 7,000 (3,000 line troops, 4,000 guerrillas).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p426",
+          "locator": "Bodart (1908), p. 426, Figueras; full retained page image inspected",
+          "quote": "Die Franzosen (15.000 M.) unter Marschall Macdonald zwingen nach 4½ monatlicher Blokade die spanische Garnison (3.000 M. Linientruppen, 4.000 Guerillas zus. 7.000 M.) unter Brigadier Don Martinez zur Kapitulation, infolge deren die Besatzung in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Macdonald; side B under Martinez.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Macdonald; opposing command: Martinez.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p426",
+          "locator": "Bodart (1908), p. 426, Figueras; full retained page image inspected",
+          "quote": "Die Franzosen (15.000 M.) unter Marschall Macdonald zwingen nach 4½ monatlicher Blokade die spanische Garnison (3.000 M. Linientruppen, 4.000 Guerillas zus. 7.000 M.) unter Brigadier Don Martinez zur Kapitulation, infolge deren die Besatzung in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p426",
+          "locator": "Bodart (1908), p. 426, Figueras; full retained page image inspected",
+          "quote": "Die Franzosen (15.000 M.) unter Marschall Macdonald zwingen nach 4½ monatlicher Blokade die spanische Garnison (3.000 M. Linientruppen, 4.000 Guerillas zus. 7.000 M.) unter Brigadier Don Martinez zur Kapitulation, infolge deren die Besatzung in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "martinez-reinforcement",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives 3,000 entering under Martinez after the capture, before the blockade closed.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Post-capture reinforcement, not 4-April opening garrison or full later defenders. English rendering (ours): \"They arrived too late to prevent brigadier Martinez entering with three thousand men.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p188-figures-v1",
+          "section": "p188-s2",
+          "locator": "belmas0, printed p. 188, Internet Archive leaf 226; retained page image inspected",
+          "quote": "mais elles n’arrivèrent pas assez à temps pour empêcher le brigadier Martinez de se jeter dans la place avec trois mille hommes."
+        }
+      ]
+    },
+    {
+      "id": "may-garrison",
+      "dimension": "strength",
+      "value": "Side B: Toreno reports over 4,000 regular troops and somatenes already garrisoning Figueras before the May relief.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "May phase after capture/reinforcement, not frozen 4-April start or surrendered survivors. English rendering (ours): \"More than four thousand regular troops and somatenes already garrisoned Figueras.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p138-figures-v1",
+          "section": "p138-s2",
+          "locator": "toreno4, printed p. 138, Internet Archive leaf 143; retained page image inspected",
+          "quote": "Mas de 4000 hombres de tropa reglada y somatenes guarnecían ya á Figueras,"
+        }
+      ]
+    },
+    {
+      "id": "macdonald-circumvallation",
+      "dimension": "responsibility",
+      "value": "Side A: Macdonald ordered works to prevent the garrison escaping.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Macdonald had works raised around the place to prevent the garrison escaping.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p206-selections-v1",
+          "section": "p206-s1",
+          "locator": "belmas0, printed p. 206, Internet Archive leaf 242; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "le maréchal Macdonald , pour empêcher la garnison de s'échapper, avait fait élever autour de la place"
+        }
+      ]
+    },
+    {
+      "id": "blockading-works",
+      "dimension": "fortification",
+      "value": "Side A built circumvallation works; side B held the castle.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Spanish castle is inherited, French circumvallation commander-created. No single inherited advantage code is admitted. English rendering (ours): \"The enemy closely surrounded the castle with a double circumvallation line.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p206-selections-v1",
+          "section": "p206-s1",
+          "locator": "belmas0, printed p. 206, Internet Archive leaf 242; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "le maréchal Macdonald , pour empêcher la garnison de s'échapper, avait fait élever autour de la place"
+        },
+        {
+          "source_id": "toreno-1835-t4-1811-p174-selections-v1",
+          "section": "p174-s1",
+          "locator": "toreno4, printed p. 174, Internet Archive leaf 179; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Tenia el enemigo estrechamente cercado estrecha aFi- .-I O , . güeras. aquel castillo con linea dohle de circunvala- ción"
+        }
+      ],
+      "code": "both_fortified"
+    },
+    {
+      "id": "martinez-governor",
+      "dimension": "responsibility",
+      "value": "Side B: Martinez held fortress command during Macdonald’s blockade.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Macdonald repeatedly and unsuccessfully summoned governor Juan Antonio Martinez to surrender.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p174-selections-v1",
+          "section": "p174-s2",
+          "locator": "toreno4, printed p. 174, Internet Archive leaf 179; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "El mariscal Macdonald habia en vano in- timado varias veces la rendición al goberna- dor Don Juan Antonio Martínez"
+        }
+      ]
+    },
+    {
+      "id": "blockade-food-exhaustion",
+      "dimension": "logistics",
+      "value": "Toreno reports successive consumption of provisions, horses and other animals.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Late-blockade observation; not an inherited readiness score. English rendering (ours): \"Provisions, horses and unclean animals were successively consumed.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p174-selections-v1",
+          "section": "p174-s3",
+          "locator": "toreno4, printed p. 174, Internet Archive leaf 179; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "consumi- dos sucesivamente los víveres, los caballos, los animales inmundos"
+        }
+      ]
+    },
+    {
+      "id": "french-blockade-posture",
+      "dimension": "posture",
+      "value": "Side A initiated a blockade after the capture.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"At this news French troops were directed from Girona and Montlouis to blockade the fort.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p188-selections-v1",
+          "section": "p188-s1",
+          "locator": "belmas0, printed p. 188, Internet Archive leaf 226; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "A cette nouvelle, des troupes françaises furent dirigées de Girone et de Montlouis pour bloquer le fort"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Frozen blockade start 4 April precedes the inspected capture night 9–10 April; retain this chronology conflict. French dated besieger headcount absent; Spanish reinforcement, May garrison and August survivors differ. Do not double count capture/3-May field action.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 15,000; side B (Spanish): 7,000 (3,000 line troops, 4,000 guerrillas).",
+        "command_claim_ids": [
+          "bodart-command",
+          "macdonald-circumvallation"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Macdonald; side B under Martinez. Side A: Macdonald ordered works to prevent the garrison escaping.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "martinez-reinforcement",
+          "may-garrison"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 15,000; side B (Spanish): 7,000 (3,000 line troops, 4,000 guerrillas). Side B: Belmas gives 3,000 entering under Martinez after the capture, before the blockade closed. Side B: Toreno reports over 4,000 regular troops and somatenes already garrisoning Figueras before the May relief.",
+        "command_claim_ids": [
+          "bodart-command",
+          "martinez-governor"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Macdonald; side B under Martinez. Side B: Martinez held fortress command during Macdonald’s blockade.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "toreno-1835-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Frozen blockade start 4 April precedes the inspected capture night 9–10 April; retain this chronology conflict. French dated besieger headcount absent; Spanish reinforcement, May garrison and August survivors differ. Do not double count capture/3-May field action."
+    ]
+  }
+}

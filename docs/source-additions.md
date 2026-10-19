@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1811 first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1811-first-pass-v1.md) appends **161 records**, reaching **4,237**: three unmodified full OCR parents, three metadata responses, three scan maps, 64 historical page images, three title images, 51 exact-range narrative selections and 34 manual numerical transcriptions. Existing Belmas I/III and Toreno IV parents are reused. All 4,076 prior records and pinned bytes remain unchanged.
+
+New parents: Suchet II (Paris Anselin, second edition 1834), Oman IV (Oxford Clarendon 1911) and V (1914). Inspected titles override catalogue 1829/1902. Historical public-domain originals; no modern archive license asserted. Interested participant/national accounts, embedded reports and uninspected originals remain explicit. Augoyat's 1839 *Précis* was a bibliographic exclusion after title inspection, not evidence within Belmas or an added family.
+
+All adopted passages and numbers are image-inspected. Narrative ranges are bound to the actual OCR page and preserve every parent character except whitespace; numerical transcriptions bind image/parent hashes and keep people/horse/formation populations distinct. The [raw notes](../data/raw/napoleonic-peninsula-1811-v1/NOTES.md) record navigation, scope and missing own-side returns. Full books are retained, not asserted read. Use: all 19 frozen `peninsula 1811` land entries through their full endpoints; draft evidence only, with no model input admission.
+
 ## Peninsula 1810 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1810-first-pass-v1.md) appends **117 records**, bringing the registry to **4,076**: six unmodified full OCR parents, six metadata responses, six scan maps, 38 inspected historical page images, six title images and Marbot’s deposit verso, 36 exact-range narrative selections and 18 manual numerical/supplemental transcriptions. Existing Suchet I (1834 second edition) and Toreno III (1835) parents are reused. All 3,959 old records and pinned bytes remain unchanged.

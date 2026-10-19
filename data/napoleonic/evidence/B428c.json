@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "battle_id": "B428c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Guadalaviar interval 1811-12-26–1811-12-26 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 18,000; side B (Spanish): 22,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 18,000; side B (Spanish): 22,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Guadalaviar; full retained page image inspected",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Marschall Suchet über die Spanier (22.000 M.) unter Gen.-Kpt. Blake."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Suchet; side B under Blake.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Suchet; opposing command: Blake.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Guadalaviar; full retained page image inspected",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Marschall Suchet über die Spanier (22.000 M.) unter Gen.-Kpt. Blake."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Guadalaviar; full retained page image inspected",
+          "quote": "Sieg der Franzosen (18.000 M.) unter Marschall Suchet über die Spanier (22.000 M.) unter Gen.-Kpt. Blake."
+        }
+      ]
+    },
+    {
+      "id": "suchet-december-concentration",
+      "dimension": "strength",
+      "value": "Side A: Suchet reports about 33,000 after Reille arrived on 24 December, with Pannetier still behind.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Count spans consecutive inspected pages. December concentration, not Valencia’s 3-November opening or all actually engaged on 26 December; Pannetier excluded in text. English rendering (ours): \"The marshal headed approximately thirty-three thousand men.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1811-p209-figures-v1",
+          "section": "p209-s1",
+          "locator": "suchet2, printed p. 209, Internet Archive leaf 224; retained page image inspected",
+          "quote": "Le maréchal se trouvait à la tête de trente-"
+        },
+        {
+          "source_id": "suchet-1834-t2-1811-p210-figures-v1",
+          "section": "p210-s1",
+          "locator": "suchet2, printed p. 210, Internet Archive leaf 225; retained page image inspected",
+          "quote": "trois mille hommes à peu près"
+        }
+      ]
+    },
+    {
+      "id": "spanish-river-line-force",
+      "dimension": "strength",
+      "value": "Side B: Toreno gives about 22,000 in the Spanish river-line dispositions.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "November–December position; guerrillas/civilians guarding points to the sea are separately described. Not post-crossing enclosed/surrendered population. English rendering (ours): \"The troops totalled about twenty-two thousand men.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p304-figures-v1",
+          "section": "p304-s1",
+          "locator": "toreno4, printed p. 304, Internet Archive leaf 309; retained page image inspected",
+          "quote": "componiendo la totalidad de las tropas unos 22,000 hombres."
+        }
+      ]
+    },
+    {
+      "id": "suchet-crossing-plan",
+      "dimension": "responsibility",
+      "value": "Side A: Suchet chose to attack the Spanish left after reinforcement.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Suchet named immediately above; deployment created during the interval. English rendering (ours): \"He decided to carry out his original plan to attack the Spanish position on the left.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p307-selections-v1",
+          "section": "p307-s1",
+          "locator": "toreno4, printed p. 307, Internet Archive leaf 312; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "decidió poner en práctica su primer plan v de atacar la posición española por la izquierda"
+        }
+      ]
+    },
+    {
+      "id": "blake-local-response",
+      "dimension": "responsibility",
+      "value": "Side B: Blake left Valencia after being informed of the attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same page distinguishes Mahy, Zayas and their sectors; no exact exclusive authority or replacement boundary inferred. English rendering (ours): \"Informed of the attack, Blake left Valencia.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p308-selections-v1",
+          "section": "p308-s1",
+          "locator": "toreno4, printed p. 308, Internet Archive leaf 313; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Advertido Blake del ataque salió de Valen- cia"
+        }
+      ]
+    },
+    {
+      "id": "canal-crossing-selection",
+      "dimension": "terrain",
+      "value": "French planners selected a crossing above the canal heads to avoid the right-bank canal network.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "River/canals inherited; choice of crossing is commander-created and may be a mediator, not a pre-command advantage. English rendering (ours): \"To avoid the canal labyrinth on the right bank they chose a point upstream of the canal heads.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1811-p211-selections-v1",
+          "section": "p211-s1",
+          "locator": "suchet2, printed p. 211, Internet Archive leaf 226; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Afin d'éviter sur la rive 2e décembre, droite le labyrinthe des canaux , on avait choisi un point supérieur à celui où ils prennent nais- sance"
+        }
+      ]
+    },
+    {
+      "id": "prepared-bridges",
+      "dimension": "logistics",
+      "value": "French troops built separate infantry and artillery/cavalry crossings overnight.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"On the night of the twenty-fifth to twenty-sixth trestle bridges were built for infantry and a boat bridge farther on for artillery and cavalry.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1811-p211-selections-v1",
+          "section": "p211-s2",
+          "locator": "suchet2, printed p. 211, Internet Archive leaf 226; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Dans la nuit du 25 au 26, deux ponts de chevalets furent construits pour l'infanterie , et plus loin un pont de bateaux pour le passage de l'artillerie et de la cavalerie"
+        }
+      ]
+    },
+    {
+      "id": "french-crossing-offensive",
+      "dimension": "posture",
+      "value": "Side A’s Harispe attacked the Spanish left after crossing.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"In the morning Harispe was the first to attack the extreme Spanish left.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p308-selections-v1",
+          "section": "p308-s2",
+          "locator": "toreno4, printed p. 308, Internet Archive leaf 313; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Por la mañana el primero que atacó en lo mas estremo de nues- tra izquierda fue el general Harispe"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "spanish-river-works",
+      "dimension": "fortification",
+      "value": "Side B held a connected line of bastions and fieldworks.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Construction existed before the crossing; exact authorship/date and replacement boundary not established. No purely inherited coding inferred. English rendering (ours): \"A continuous line of bastions, redans and indented works.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1811-p204-selections-v1",
+          "section": "p204-s1",
+          "locator": "suchet2, printed p. 204, Internet Archive leaf 219; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "une ligne continue de bastions , de redans et de crémaillères"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Reconcile November position and December reinforced concentration against actual engaged/city-enclosed returns; date sector authority and relief arrivals. Shared crossing observations do not create extra campaign credit between Guadalaviar and Valencia.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "suchet-december-concentration"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 18,000; side B (Spanish): 22,000. Side A: Suchet reports about 33,000 after Reille arrived on 24 December, with Pannetier still behind.",
+        "command_claim_ids": [
+          "bodart-command",
+          "suchet-crossing-plan"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Suchet; side B under Blake. Side A: Suchet chose to attack the Spanish left after reinforcement.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "spanish-river-line-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 18,000; side B (Spanish): 22,000. Side B: Toreno gives about 22,000 in the Spanish river-line dispositions.",
+        "command_claim_ids": [
+          "bodart-command",
+          "blake-local-response"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Suchet; side B under Blake. Side B: Blake left Valencia after being informed of the attack.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "suchet-1834-t2-ocr-v1",
+      "toreno-1835-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Reconcile November position and December reinforced concentration against actual engaged/city-enclosed returns; date sector authority and relief arrivals. Shared crossing observations do not create extra campaign credit between Guadalaviar and Valencia."
+    ]
+  }
+}

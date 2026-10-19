@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "battle_id": "B424c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Fuentes de Onor interval 1811-05-03–1811-05-05 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 45,000 (40,000 infantry, 5,000 cavalry); side B (Anglo-Portuguese): 35,000 (33,000 infantry, 2,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 45,000 (40,000 infantry, 5,000 cavalry); side B (Anglo-Portuguese): 35,000 (33,000 infantry, 2,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Fuentes de Onor; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (33.000 Inft., 2.000 Kav. = 35.000 M.) unter Gen.-Lt. Marquis Wellesley über die Franzosen (40.000 Inft., 5.000 Kav. = 45.000 M.) unter Marschall Masséna."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Masséna; side B under Wellesley.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Masséna; opposing command: Wellesley.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Fuentes de Onor; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (33.000 Inft., 2.000 Kav. = 35.000 M.) unter Gen.-Lt. Marquis Wellesley über die Franzosen (40.000 Inft., 5.000 Kav. = 45.000 M.) unter Marschall Masséna."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Fuentes de Onor; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (33.000 Inft., 2.000 Kav. = 35.000 M.) unter Gen.-Lt. Marquis Wellesley über die Franzosen (40.000 Inft., 5.000 Kav. = 45.000 M.) unter Marschall Masséna."
+        }
+      ]
+    },
+    {
+      "id": "belmas-allied-concentration",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives 45,000 concentrated around Almeida, excluding militia and Spanish bands.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French enemy estimate for concentration, not a dated field return. Alternative to Bodart and Oman. English rendering (ours): \"It numbered forty-five thousand, excluding militia and Spanish bands.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p177-figures-v1",
+          "section": "p177-s1",
+          "locator": "belmas0, printed p. 177, Internet Archive leaf 215; retained page image inspected",
+          "quote": "Elle comptait quarante-cinq mille hommes, non compris les milices et les bandes espagnoles."
+        }
+      ]
+    },
+    {
+      "id": "oman-available-force",
+      "dimension": "strength",
+      "value": "Side B: Oman gives 34,000 infantry, 1,850 cavalry and 1,250 artillery/sappers available on 1 May.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Dated narrative availability, not all engaged; same-page text excludes Pack’s Almeida blockade detachment. British and Portuguese components are included, not added twice; originals uninspected.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p307-figures-v1",
+          "section": "p307-s1",
+          "locator": "oman4, printed p. 307, Internet Archive leaf 352; retained page image inspected",
+          "quote": "The total force available for a general action on May 1st was 34,000 infantry, of which 23,000 were British, 1,850 cavalry, including the 312 Portuguese, and 1,250 artillery, sappers, &c."
+        }
+      ]
+    },
+    {
+      "id": "massena-objective",
+      "dimension": "objectives",
+      "value": "Side A: Masséna sought the Castelbom communication and to push the enemy onto the Coa.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Masséna sought to seize the enemy’s Castelbom communication and throw it onto the Coa.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p178-selections-v1",
+          "section": "p178-s1",
+          "locator": "belmas0, printed p. 178, Internet Archive leaf 216; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Masséna chercha à s'emparer de la seule communication de Tamemi sur Castelbom , et à le culbuter sur la Coa"
+        }
+      ]
+    },
+    {
+      "id": "massena-attack-direction",
+      "dimension": "responsibility",
+      "value": "Side A: Masséna directed the attack on Fuentes and subsequent turning manoeuvre.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Concrete operational task; not sole effective authority over every contingent. English rendering (ours): \"Masséna sought to seize the enemy communication.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p178-selections-v1",
+          "section": "p178-s1",
+          "locator": "belmas0, printed p. 178, Internet Archive leaf 216; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Masséna chercha à s'emparer de la seule communication de Tamemi sur Castelbom , et à le culbuter sur la Coa"
+        }
+      ]
+    },
+    {
+      "id": "french-offensive",
+      "dimension": "posture",
+      "value": "Side A attacked Fuentes on 3 May.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"For that purpose he had Fuentes attacked on the third of May.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p178-selections-v1",
+          "section": "p178-s2",
+          "locator": "belmas0, printed p. 178, Internet Archive leaf 216; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "c'est dans ce but qu'il fit attaquer le 3 mai le village de Fuentes de Oiioro."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "wellington-right-detachment",
+      "dimension": "responsibility",
+      "value": "Side B: Wellington detached Seventh Division to cover his right.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Wellington is named in the preceding paragraph; his created deployment is distinct from inherited terrain.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p317-selections-v1",
+          "section": "p317-s1",
+          "locator": "oman4, printed p. 317, Internet Archive leaf 364; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "The most serious movement that he made was to detach the 7th Division as an outlying force to cover his right"
+        }
+      ]
+    },
+    {
+      "id": "dos-casas-ravine",
+      "dimension": "terrain",
+      "value": "The allied position stood behind the steep Dos Casas ravine.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"Wellington took position at Fuentes behind the steep Dos Casas ravine covering his front.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p177-selections-v1",
+          "section": "p177-s1",
+          "locator": "belmas0, printed p. 177, Internet Archive leaf 215; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Lord Wellington prit position au village de Fuentes de Onoro , derrière le ravin escarpé de Duas- Casas qui couvrait son front"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French dated own-side local return remains missing within inspected Belmas passage; allied concentration and available-for-action counts differ. Ruined Fort Concepcion on the flank is not proof of an operational fortified advantage; cavalry/Almeida detachments require separate scopes.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 45,000 (40,000 infantry, 5,000 cavalry); side B (Anglo-Portuguese): 35,000 (33,000 infantry, 2,000 cavalry).",
+        "command_claim_ids": [
+          "bodart-command",
+          "massena-attack-direction"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Masséna; side B under Wellesley. Side A: Masséna directed the attack on Fuentes and subsequent turning manoeuvre.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "belmas-allied-concentration",
+          "oman-available-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 45,000 (40,000 infantry, 5,000 cavalry); side B (Anglo-Portuguese): 35,000 (33,000 infantry, 2,000 cavalry). Side B: Belmas gives 45,000 concentrated around Almeida, excluding militia and Spanish bands. Side B: Oman gives 34,000 infantry, 1,850 cavalry and 1,250 artillery/sappers available on 1 May.",
+        "command_claim_ids": [
+          "bodart-command",
+          "wellington-right-detachment"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Masséna; side B under Wellesley. Side B: Wellington detached Seventh Division to cover his right.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1911-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French dated own-side local return remains missing within inspected Belmas passage; allied concentration and available-for-action counts differ. Ruined Fort Concepcion on the flank is not proof of an operational fortified advantage; cavalry/Almeida detachments require separate scopes."
+    ]
+  }
+}

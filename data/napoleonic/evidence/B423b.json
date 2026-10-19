@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "battle_id": "B423b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Campo Maior interval 1811-03-14–1811-03-20 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 4,500; side B (Portuguese): 2,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 4,500; side B (Portuguese): 2,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Campo Maior; full retained page image inspected",
+          "quote": "Die Franzosen (4.500 M.) unter Marschall Mortier nötigen die portugiesische Besatzung (2.000 M.) unter Major de Tallaya zur Kapitulation. Die Garnison geriet in Kriegsgefangenschaft, 52 Geschütze wurden erbeutet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Mortier; side B under Tallaya.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Mortier; opposing command: Tallaya.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Campo Maior; full retained page image inspected",
+          "quote": "Die Franzosen (4.500 M.) unter Marschall Mortier nötigen die portugiesische Besatzung (2.000 M.) unter Major de Tallaya zur Kapitulation. Die Garnison geriet in Kriegsgefangenschaft, 52 Geschütze wurden erbeutet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Campo Maior; full retained page image inspected",
+          "quote": "Die Franzosen (4.500 M.) unter Marschall Mortier nötigen die portugiesische Besatzung (2.000 M.) unter Major de Tallaya zur Kapitulation. Die Garnison geriet in Kriegsgefangenschaft, 52 Geschütze wurden erbeutet."
+        }
+      ]
+    },
+    {
+      "id": "mortier-siege-command",
+      "dimension": "responsibility",
+      "value": "Side A: Mortier directed V Corps’s frontier siege operations.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Mortier remained on the Guadiana with V Corps to continue attacks on fortified points of the Alentejo frontier.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p175-selections-v1",
+          "section": "p175-s1",
+          "locator": "belmas0, printed p. 175, Internet Archive leaf 213; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le maréchal Mortier était resté sur' la Gua- diana avec le cinquième corps, pour continuer l'attaque des points fortifiés que l'ennemi tenait encore sur la frontière de l'Alentejo"
+        }
+      ]
+    },
+    {
+      "id": "oman-portuguese-garrison",
+      "dimension": "strength",
+      "value": "Side B: Oman estimates at most 800 garrison, with artillery the only regulars.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "British mediation of Portuguese evidence; source total includes local levies and an inferred component, not an inspected Portuguese muster. Bodart’s 2,000 remains alternative.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p255-figures-v1",
+          "section": "p255-s1",
+          "locator": "oman4, printed p. 255, Internet Archive leaf 296; retained page image inspected",
+          "quote": "With no regulars save the company of artillery, and no more than 800 men in all to protect a long enceinte,"
+        }
+      ]
+    },
+    {
+      "id": "talaya-local-authority",
+      "dimension": "responsibility",
+      "value": "Side B: Major José Joaquim Talaya held local fortress command.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Elvas governor’s reinforcement instruction is on this same page; original Portuguese order uninspected.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p254-selections-v1",
+          "section": "p254-s1",
+          "locator": "oman4, printed p. 254, Internet Archive leaf 295; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Major Jose Joaquim Talaya, who was left in charge of the place"
+        }
+      ]
+    },
+    {
+      "id": "campo-works",
+      "dimension": "fortification",
+      "value": "Side B defended an old fortress with an outdated enceinte.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p254-selections-v1",
+          "section": "p254-s2",
+          "locator": "oman4, printed p. 254, Internet Archive leaf 295; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Campo Mayor was an old-fashioned fortress, which had not been remodelled since the War of the Spanish Succession"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "french-siege-posture",
+      "dimension": "posture",
+      "value": "Side A took the outlying fort and opened siege trenches.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p255-selections-v1",
+          "section": "p255-s1",
+          "locator": "oman4, printed p. 255, Internet Archive leaf 296; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "The French seized Fort Sao Joao on the night of their arrival (March 14th) and opened trenches on each side of it"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "delivery-date",
+      "dimension": "outcome",
+      "value": "Belmas places surrender on 21 March, after the frozen endpoint of 20 March.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Oman p255 describes conditional terms on the 20th with twenty-four hours for relief. Preserve agreement/delivery distinction; the 25-March cavalry encounter is outside this siege. English rendering (ours): \"The place surrendered on the twenty-first of March.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p175-selections-v1",
+          "section": "p175-s2",
+          "locator": "belmas0, printed p. 175, Internet Archive leaf 213; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Cette place se rendit le 2 1 mars"
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Original Portuguese dated garrison return unavailable in assigned sources; Oman’s no-more-than-800 includes an inferred levy component. French local headcount only Bodart reference. Preserve 20/21-March agreement/delivery and exclude 25-March cavalry action.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 4,500; side B (Portuguese): 2,000.",
+        "command_claim_ids": [
+          "bodart-command",
+          "mortier-siege-command"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Mortier; side B under Tallaya. Side A: Mortier directed V Corps’s frontier siege operations.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-portuguese-garrison"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 4,500; side B (Portuguese): 2,000. Side B: Oman estimates at most 800 garrison, with artillery the only regulars.",
+        "command_claim_ids": [
+          "bodart-command",
+          "talaya-local-authority"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Mortier; side B under Tallaya. Side B: Major José Joaquim Talaya held local fortress command.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1911-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Original Portuguese dated garrison return unavailable in assigned sources; Oman’s no-more-than-800 includes an inferred levy component. French local headcount only Bodart reference. Preserve 20/21-March agreement/delivery and exclude 25-March cavalry action."
+    ]
+  }
+}

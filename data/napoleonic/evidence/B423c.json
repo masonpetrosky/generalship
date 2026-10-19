@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "battle_id": "B423c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Sabugal interval 1811-04-03–1811-04-03 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 12,000; side B (Anglo-Portuguese): 10,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 12,000; side B (Anglo-Portuguese): 10,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Sabugal; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (10.000 M.) unter Gen.-Lt. Mqs. Wellesley über die Franzosen (12.000 M.) unter Div.-Gen. Gf Reynier."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Reynier; side B under Wellesley.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Reynier; opposing command: Wellesley.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Sabugal; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (10.000 M.) unter Gen.-Lt. Mqs. Wellesley über die Franzosen (12.000 M.) unter Div.-Gen. Gf Reynier."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p423",
+          "locator": "Bodart (1908), p. 423, Sabugal; full retained page image inspected",
+          "quote": "Sieg der Anglo-Portugiesen (10.000 M.) unter Gen.-Lt. Mqs. Wellesley über die Franzosen (12.000 M.) unter Div.-Gen. Gf Reynier."
+        }
+      ]
+    },
+    {
+      "id": "coa-crossing",
+      "dimension": "terrain",
+      "value": "II Corps occupied the stone bridge on the Coa at the junction of Guarda/Castelbranco roads.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"The second corps took position at Sabugal by a stone bridge over the Coa at the junction of the main roads.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p170-selections-v1",
+          "section": "p170-s1",
+          "locator": "belmas0, printed p. 170, Internet Archive leaf 208; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le deuxième corps prit position à Sabugal , où se trouve sur la Coa un beau pont en pierre, à la jonction des grandes routes de Guarda et de Cas- telbranco"
+        }
+      ]
+    },
+    {
+      "id": "reynier-local-command",
+      "dimension": "responsibility",
+      "value": "Side A: Reynier directed the corps retreat toward Alfayates.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "English rendering (ours): \"Finally Reynier was obliged to retire toward Alfayates.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p171-selections-v1",
+          "section": "p171-s1",
+          "locator": "belmas0, printed p. 171, Internet Archive leaf 209; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "à la fin , le général Reynier fut obligé de se retirer sur Alfayates"
+        }
+      ]
+    },
+    {
+      "id": "allied-planned-attack-force",
+      "dimension": "strength",
+      "value": "Side B: Oman describes over 30,000 launched against Reynier in Wellington’s plan.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Operational attack force, not all proven engaged in the small actual action. Bodart’s 10,000 remains a different reference population; do not infer engaged totals from losses.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p190-figures-v1",
+          "section": "p190-s1",
+          "locator": "oman4, printed p. 190, Internet Archive leaf 225; retained page image inspected",
+          "quote": "Meanwhile the whole of the rest of the army, five divisions and two cavalry brigades, over 30,000 men, was launched against Reynier."
+        }
+      ]
+    },
+    {
+      "id": "wellington-erskine-task",
+      "dimension": "responsibility",
+      "value": "Side B: Wellington’s plan assigned Erskine the turning column.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Wellington’s main-body plan is explicit above on this full page; delegated turning role is not sole army authority.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p190-selections-v1",
+          "section": "p190-s1",
+          "locator": "oman4, printed p. 190, Internet Archive leaf 225; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "If Erskine, who was to command it, so decided, the column might cross even higher up"
+        }
+      ]
+    },
+    {
+      "id": "allied-attack",
+      "dimension": "posture",
+      "value": "Side B attacked II Corps at Sabugal.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Wellington is the named antecedent in the immediately preceding line. English rendering (ours): \"On the third of April he attacked the second corps at Sabugal with superior forces.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p171-selections-v1",
+          "section": "p171-s2",
+          "locator": "belmas0, printed p. 171, Internet Archive leaf 209; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "et, le 3 avril, il attaqua le deuxième corps à Sabugal avec des for- ces supérieures"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French dated own-side local headcount is missing; allied 30,000 planned attack population is not actual engaged strength. Establish Wellington/Erskine/local brigade command timing and matched returns without deriving opening forces from casualties.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 12,000; side B (Anglo-Portuguese): 10,000.",
+        "command_claim_ids": [
+          "bodart-command",
+          "reynier-local-command"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Reynier; side B under Wellesley. Side A: Reynier directed the corps retreat toward Alfayates.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "allied-planned-attack-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 12,000; side B (Anglo-Portuguese): 10,000. Side B: Oman describes over 30,000 launched against Reynier in Wellington’s plan.",
+        "command_claim_ids": [
+          "bodart-command",
+          "wellington-erskine-task"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Reynier; side B under Wellesley. Side B: Wellington’s plan assigned Erskine the turning column.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1911-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French dated own-side local headcount is missing; allied 30,000 planned attack population is not actual engaged strength. Establish Wellington/Erskine/local brigade command timing and matched returns without deriving opening forces from casualties."
+    ]
+  }
+}

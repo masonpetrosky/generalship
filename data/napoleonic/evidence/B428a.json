@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "battle_id": "B428a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Arroyomolinos interval 1811-10-27–1811-10-27 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 3,000 (2,400 infantry, 600 cavalry); side B (British): 5,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 3,000 (2,400 infantry, 600 cavalry); side B (British): 5,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Arroyomolinos; full retained page image inspected",
+          "quote": "Sieg der Engländer (5.000 M.) unter GM. Sir Rowland Hill über die Franzosen (2.400 Inft., 600 Kav. = 3.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Girard; side B under Hill.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Girard; opposing command: Hill.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Arroyomolinos; full retained page image inspected",
+          "quote": "Sieg der Engländer (5.000 M.) unter GM. Sir Rowland Hill über die Franzosen (2.400 Inft., 600 Kav. = 3.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p428",
+          "locator": "Bodart (1908), p. 428, Arroyomolinos; full retained page image inspected",
+          "quote": "Sieg der Engländer (5.000 M.) unter GM. Sir Rowland Hill über die Franzosen (2.400 Inft., 600 Kav. = 3.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "oman-converging-forces",
+      "dimension": "strength",
+      "value": "Oman estimates at most 4,000 French locally and 10,000 allies converging.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French local remainder after Remond marched away, versus whole allied converging force, not all engaged. British mediation of opponent strength; Bodart 3,000/5,000 remains alternative.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p603-figures-v1",
+          "section": "p603-s1",
+          "locator": "oman4, printed p. 603, Internet Archive leaf 666; retained page image inspected",
+          "quote": "not more than 4,000 men—while 10,000 of the Allies were converging upon him from three separate quarters."
+        }
+      ]
+    },
+    {
+      "id": "hill-column-direction",
+      "dimension": "responsibility",
+      "value": "Side B: Hill directed Wilson’s flanking column to block the Truxillo road.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Rest of same sentence assigns the frontal infantry and central allied cavalry columns; no sole credit assigned to each listed officer.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p602-selections-v1",
+          "section": "p602-s1",
+          "locator": "oman4, printed p. 602, Internet Archive leaf 665; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Hill directed Wilson's brigade, supported by three Portuguese battalions, to march round the town on its southward side, and block the Truxillo road"
+        }
+      ]
+    },
+    {
+      "id": "girard-retreat-direction",
+      "dimension": "responsibility",
+      "value": "Side A: Girard ordered immediate retreat along the Merida road.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p603-selections-v1",
+          "section": "p603-s1",
+          "locator": "oman4, printed p. 603, Internet Archive leaf 666; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Girard had ordered an instant retreat along the Merida road"
+        }
+      ]
+    },
+    {
+      "id": "arroyomolinos-date-alternative",
+      "dimension": "information",
+      "value": "Oman dates Hill’s attack approach to 28 October, versus frozen Bodart 27 October.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Explicit source chronology difference preserved; no frozen-date change.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p602-selections-v1",
+          "section": "p602-s2",
+          "locator": "oman4, printed p. 602, Internet Archive leaf 665; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "At half-past two o'clock on the morning of the 28th the weather was still tempestuous"
+        }
+      ]
+    },
+    {
+      "id": "allied-attack",
+      "dimension": "posture",
+      "value": "Hill’s plan attacked frontally while other columns blocked escape roads.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p602-selections-v1",
+          "section": "p602-s3",
+          "locator": "oman4, printed p. 602, Internet Archive leaf 665; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "while the rest of the infantry should attack the enemy in front"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "sierra-road-geometry",
+      "dimension": "terrain",
+      "value": "The town stood below the steep Sierra with no direct northern track.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p602-selections-v1",
+          "section": "p602-s4",
+          "locator": "oman4, printed p. 602, Internet Archive leaf 665; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Arroyo dos Molinos lies under the shoulder of the precipitous Sierra de Montanches, with no track going directly northwards from it"
+        }
+      ]
+    },
+    {
+      "id": "french-own-side-gap",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Assigned Belmas I 1811 overview was searched through the autumn narrative; it supplies no local Arroyomolinos headcount in the inspected/navigation range. French local count above is mediated by Oman, not a French original.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French own-side local account/return remains absent from assigned Belmas overview; Oman mediates enemy count. Preserve 27/28-October chronology, local remainder versus converging army and Hill/Girard authority scopes.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-converging-forces",
+          "french-own-side-gap"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 3,000 (2,400 infantry, 600 cavalry); side B (British): 5,000. Oman estimates at most 4,000 French locally and 10,000 allies converging. Assigned Belmas I 1811 overview was searched through the autumn narrative; it supplies no local Arroyomolinos headcount in the inspected/navigation range. French local count above is mediated by Oman, not a French original.",
+        "command_claim_ids": [
+          "bodart-command",
+          "girard-retreat-direction"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Girard; side B under Hill. Side A: Girard ordered immediate retreat along the Merida road.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-converging-forces"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 3,000 (2,400 infantry, 600 cavalry); side B (British): 5,000. Oman estimates at most 4,000 French locally and 10,000 allies converging.",
+        "command_claim_ids": [
+          "bodart-command",
+          "hill-column-direction"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Girard; side B under Hill. Side B: Hill directed Wilson’s flanking column to block the Truxillo road.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1911-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French own-side local account/return remains absent from assigned Belmas overview; Oman mediates enemy count. Preserve 27/28-October chronology, local remainder versus converging army and Hill/Girard authority scopes."
+    ]
+  }
+}

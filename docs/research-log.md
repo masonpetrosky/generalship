@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1811 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1811-first-pass-v1.md) adds **19/19 drafts, 254 claims, 63 explicit unknowns and 197 citations**. All nine dimensions and 38 side-level completion records are covered; army continuity and replacement boundaries remain unknown. Tarifa/Valencia keep their January 1812 endpoints. Work is primary-verified, without subagents, separate review, second opinions, follow-up cycles or model jobs.
+
+Final family sets match the pre-reading assignments. The registry appends 161 records (three new books, 64 cited historical page images, exact-range selections and manual numerical transcriptions), reaching 4,237. The old 4,076 records/pinned bytes and 151 dossiers are unchanged. Figueras's distinct operations and start-date conflict, La Bañeza's army/division/date crosswalk, Arroyomolinos's date alternative and incomplete own-side local returns stay explicit. The campaign record gives per-entry counts/gaps and source dependence; all 22 new digit-screen flags have primary dispositions.
+
+Evidence/source checks, research screen, `make reproduce` and `make check` passed; packet and reports inspected. No model/calibration/frozen input changed or feature admitted. Coverage: **170/325 in 9/16 complete groups**, **155 remaining**. Next: `peninsula 1812`, **8 land entries**. Usage unavailable; no complete meter exposed.
+
 ## Peninsula 1810 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1810-first-pass-v1.md) adds **11/11 drafts, 146 claims, 27 explicit unknowns and 125 citations**. Brief-v3 dimensions and all 22 side-level completion records are covered; army continuity and replacement times remain unknown. The complete intervals retain Tortosa into January 1811 and Cádiz through August 1812. Work is primary-verified, with no separate review, subagent, second opinion, targeted follow-up cycle or model job.

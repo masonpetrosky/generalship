@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "battle_id": "B424a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Figueras interval 1811-04-09–1811-04-09 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 1,800 garrison; side B (Spanish): 4,000, mostly guerrillas.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 1,800 garrison; side B (Spanish): 4,000, mostly guerrillas.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Figueras; full retained page image inspected",
+          "quote": "4.000 Spanier (zumeist Guerrilleros) unter Rovira überrumpeln die französische Garnison (1.800 M.) unter Oberst Guillot, bemächtigen sich der Stadt und Festungswerke und nehmen die Garnison gefangen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Guillot; side B under Rovira.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Guillot; opposing command: Rovira.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Figueras; full retained page image inspected",
+          "quote": "4.000 Spanier (zumeist Guerrilleros) unter Rovira überrumpeln die französische Garnison (1.800 M.) unter Oberst Guillot, bemächtigen sich der Stadt und Festungswerke und nehmen die Garnison gefangen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p424",
+          "locator": "Bodart (1908), p. 424, Figueras; full retained page image inspected",
+          "quote": "4.000 Spanier (zumeist Guerrilleros) unter Rovira überrumpeln die französische Garnison (1.800 M.) unter Oberst Guillot, bemächtigen sich der Stadt und Festungswerke und nehmen die Garnison gefangen."
+        }
+      ]
+    },
+    {
+      "id": "french-account-assault-party",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives 500 miquelets entering the fort on the night of 9–10 April.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Assault subset; not Bodart’s 4,000 broadly available Spanish force or Martinez’s later reinforcement. English rendering (ours): \"On the night of the ninth to tenth, Rovira entered with five hundred miquelets through a secret provision-store door opening into the ditch.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p188-figures-v1",
+          "section": "p188-s1",
+          "locator": "belmas0, printed p. 188, Internet Archive leaf 226; retained page image inspected",
+          "quote": "Dans la nuit du 9 au 10 avril, Rovira, chef de bandes, pénétra, avec cinq cents miquelets, dans ce fort par une porte secrète du magasin aux vivres qui donnait dans le fossé;"
+        }
+      ]
+    },
+    {
+      "id": "french-garrison-locations",
+      "dimension": "strength",
+      "value": "Side A: Toreno gives 600 in the castle and 700 in the town.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Separate locations; not silently merged into one simultaneous assault denominator or Bodart’s 1,800. English rendering (ours): \"There were six hundred French garrison in the castle and seven hundred in the town.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-figures-v1",
+          "section": "p135-s1",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected",
+          "quote": "Dentro del castillo habia 600 franceses de guarnición, en la villa de Figueras se contaban 700."
+        }
+      ]
+    },
+    {
+      "id": "spanish-approach-party",
+      "dimension": "strength",
+      "value": "Side B: Toreno describes 500 departing with Martinez/Rovira, joined by another 500 at Ridaura.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Approach concentration, not proof all entered the postern; compare Belmas’s 500 entry party. English rendering (ours): \"Martinez and Rovira left Esquirol with five hundred; another five hundred joined them at Ridaura.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-figures-v1",
+          "section": "p135-s2",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected",
+          "quote": "Martinez y Rovira salieron de Esquirol cerca de Olot con 500 hombres y pasaron á Ridaura. Aquí se les incorporaron otros 500,"
+        }
+      ]
+    },
+    {
+      "id": "rovira-martinez-approach",
+      "dimension": "responsibility",
+      "value": "Side B: Martinez and Rovira jointly led the approach.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Martinez and Rovira left Esquirol near Olot.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-selections-v1",
+          "section": "p135-s1",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Martínez y Rovira salieron de Esquirol cerca de Olot"
+        }
+      ]
+    },
+    {
+      "id": "concealed-approach",
+      "dimension": "information",
+      "value": "Spanish soldiers covered their weapons and approached crouching to avoid detection.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Their soldiers covered weapons so they would not shine in any light, and advanced bent low.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-selections-v1",
+          "section": "p135-s2",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "sus soldados llevaban cubiertas las armas para que no relum- brasen si acaso había alguna luz, y se adelanta- ron muy agachados"
+        }
+      ]
+    },
+    {
+      "id": "surprise-attack",
+      "dimension": "posture",
+      "value": "Side B attacked the French-held fort by a concealed approach.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"They advanced crouching with weapons covered.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-selections-v1",
+          "section": "p135-s2",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "sus soldados llevaban cubiertas las armas para que no relum- brasen si acaso había alguna luz, y se adelanta- ron muy agachados"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "castle-works",
+      "dimension": "fortification",
+      "value": "Side A’s castle had a hornwork, covered way and ditch.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"Casas led his troops past the San Zenon hornwork through the covered way and down into the ditch.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t4-1811-p135-selections-v1",
+          "section": "p135-s3",
+          "locator": "toreno4, printed p. 135, Internet Archive leaf 140; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Subió Casas con su tropa por la esplanada frente del hornabeque de San Zenon , metióse por el ca- mino cubierto y descendió al foso"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French local governor authority beyond Bodart’s Guillot label is unverified. Preserve 9-April frozen date versus night 9–10/10-April narrative. Entry party, approach force, town garrison and later reinforcement remain distinct.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-garrison-locations"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 1,800 garrison; side B (Spanish): 4,000, mostly guerrillas. Side A: Toreno gives 600 in the castle and 700 in the town.",
+        "command_claim_ids": [
+          "bodart-command"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Guillot; side B under Rovira.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-account-assault-party",
+          "spanish-approach-party"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 1,800 garrison; side B (Spanish): 4,000, mostly guerrillas. Side B: Belmas gives 500 miquelets entering the fort on the night of 9–10 April. Side B: Toreno describes 500 departing with Martinez/Rovira, joined by another 500 at Ridaura.",
+        "command_claim_ids": [
+          "bodart-command",
+          "rovira-martinez-approach"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Guillot; side B under Rovira. Side B: Martinez and Rovira jointly led the approach.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "toreno-1835-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French local governor authority beyond Bodart’s Guillot label is unverified. Preserve 9-April frozen date versus night 9–10/10-April narrative. Entry party, approach force, town garrison and later reinforcement remain distinct."
+    ]
+  }
+}

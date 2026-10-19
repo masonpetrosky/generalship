@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "battle_id": "B422b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Chiclana interval 1811-03-05–1811-03-05 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 10,000 (9,500 infantry, 500 cavalry); side B (Anglo-Spanish): 12,000 (11,200 infantry, 800 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 10,000 (9,500 infantry, 500 cavalry); side B (Anglo-Spanish): 12,000 (11,200 infantry, 800 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p422",
+          "locator": "Bodart (1908), p. 422, Chiclana; full retained page image inspected",
+          "quote": "Sieg der Anglo-Spanier (11.200 Inft., 800 Kav., 24 Gesch. = 12.000 M.) unter Gen.-Lt. Sir Graham und Gen.-Lt. de La Peña über die Franzosen (9.500 Inft., 500 Kav. = 10.000 M.) unter Marschall Victor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Victor; side B under Graham and La Peña.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Victor; opposing command: Graham and La Peña.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p422",
+          "locator": "Bodart (1908), p. 422, Chiclana; full retained page image inspected",
+          "quote": "Sieg der Anglo-Spanier (11.200 Inft., 800 Kav., 24 Gesch. = 12.000 M.) unter Gen.-Lt. Sir Graham und Gen.-Lt. de La Peña über die Franzosen (9.500 Inft., 500 Kav. = 10.000 M.) unter Marschall Victor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p422",
+          "locator": "Bodart (1908), p. 422, Chiclana; full retained page image inspected",
+          "quote": "Sieg der Anglo-Spanier (11.200 Inft., 800 Kav., 24 Gesch. = 12.000 M.) unter Gen.-Lt. Sir Graham und Gen.-Lt. de La Peña über die Franzosen (9.500 Inft., 500 Kav. = 10.000 M.) unter Marschall Victor."
+        }
+      ]
+    },
+    {
+      "id": "french-split-force",
+      "dimension": "strength",
+      "value": "Side A: Belmas separates Villatte’s 3,000 containing Zayas from about 6,000 under Victor against the expedition.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Tasked subsets, not all simultaneous opponents in Graham’s sector. Source-specific alternative to Bodart’s 10,000. English rendering (ours): \"He sent Villatte with three thousand to contain Zayas and moved with about six thousand of Laval and Ruffin against the Anglo-Spanish army.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p173-figures-v1",
+          "section": "p173-s1",
+          "locator": "belmas0, printed p. 173, Internet Archive leaf 211; retained page image inspected",
+          "quote": "Aussitôt il envoie le général Villatte avec trois mille hommes contenir Zayas, et se porte, avec ce qu’il avait de troupes, environ six mille hommes, des divisions Laval et Ruffin, contre l’armée anglo-espagnole,"
+        }
+      ]
+    },
+    {
+      "id": "victor-local-dispositions",
+      "dimension": "responsibility",
+      "value": "Side A: Victor directed Villatte separately from the Laval/Ruffin attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Victor arrived at Chiclana on the fifth of March with his reserves.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p173-selections-v1",
+          "section": "p173-s1",
+          "locator": "belmas0, printed p. 173, Internet Archive leaf 211; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le maréchal Victor arriva le 5 mars à Chiclana avec ses réserves"
+        }
+      ]
+    },
+    {
+      "id": "graham-expedition-force",
+      "dimension": "strength",
+      "value": "Side B: Oman gives Graham 5,196 after reinforcements at Tarifa.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "British-led expedition contingent before the field action; includes Portuguese flank companies, not the entire Anglo-Spanish army or all actually engaged.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p98-figures-v1",
+          "section": "p98-s1",
+          "locator": "oman4, printed p. 98, Internet Archive leaf 121; retained page image inspected",
+          "quote": "Having now just 5,196 men, Graham divided the infantry into two brigades."
+        }
+      ]
+    },
+    {
+      "id": "belmas-expedition-alternative",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives a 7,000 British and 15,000 Spanish expedition concentration.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French retrospective expedition estimate; differs from Oman’s British contingent and Bodart’s field population. Not a count of troops actually engaged. English rendering (ours): \"Seven thousand English under Graham landed to join fifteen thousand Spaniards under La Peña at Tarifa.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p172-figures-v1",
+          "section": "p172-s1",
+          "locator": "belmas0, printed p. 172, Internet Archive leaf 210; retained page image inspected",
+          "quote": "Un corps anglais, de sept mille hommes, commandé par le général Graham, avait quitté Cadix et était débarqué le 27 février à Algéciras, pour se joindre à quinze mille Espagnols venus aussi de Cadix sous les ordres du général la Peña et déjà débarqués à Tarifa."
+        }
+      ]
+    },
+    {
+      "id": "allied-contingent-authority",
+      "dimension": "responsibility",
+      "value": "Side B: Graham led the British expedition, La Peña the Spanish contingent.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Graham’s authority is in the cited numerical passage above; coalition/sector roles do not establish a single commander’s sole effective control. English rendering (ours): \"Under General La Peña, already landed at Tarifa.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p172-selections-v1",
+          "section": "p172-s2",
+          "locator": "belmas0, printed p. 172, Internet Archive leaf 210; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "sous les ordres du général la Pena et déjà débarqués à Tarifa"
+        },
+        {
+          "source_id": "belmas-1836-t1-1811-p172-figures-v1",
+          "section": "p172-s1",
+          "locator": "belmas0, printed p. 172, Internet Archive leaf 210; retained page image inspected",
+          "quote": "Un corps anglais, de sept mille hommes, commandé par le général Graham, avait quitté Cadix et était débarqué le 27 février à Algéciras, pour se joindre à quinze mille Espagnols venus aussi de Cadix sous les ordres du général la Peña et déjà débarqués à Tarifa."
+        }
+      ]
+    },
+    {
+      "id": "victor-attack",
+      "dimension": "posture",
+      "value": "Side A emerged from the woods and attacked the British rear of the column.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He emerged from the woods and attacked the English at the rear of the column.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1811-p174-selections-v1",
+          "section": "p174-s1",
+          "locator": "belmas0, printed p. 174, Internet Archive leaf 212; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "il dé* bouche des bois et attaque les Anglais, qui se trou- vaient à la queue de la colonne"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Dated local engaged strengths and La Peña/Graham decision authority remain unestablished; French subset and expedition totals differ in scope. Do not duplicate the long Cádiz blockade or December Tarifa siege.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-split-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 10,000 (9,500 infantry, 500 cavalry); side B (Anglo-Spanish): 12,000 (11,200 infantry, 800 cavalry). Side A: Belmas separates Villatte’s 3,000 containing Zayas from about 6,000 under Victor against the expedition.",
+        "command_claim_ids": [
+          "bodart-command",
+          "victor-local-dispositions"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Victor; side B under Graham and La Peña. Side A: Victor directed Villatte separately from the Laval/Ruffin attack.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "graham-expedition-force",
+          "belmas-expedition-alternative"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 10,000 (9,500 infantry, 500 cavalry); side B (Anglo-Spanish): 12,000 (11,200 infantry, 800 cavalry). Side B: Oman gives Graham 5,196 after reinforcements at Tarifa. Side B: Belmas gives a 7,000 British and 15,000 Spanish expedition concentration.",
+        "command_claim_ids": [
+          "bodart-command",
+          "allied-contingent-authority"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Victor; side B under Graham and La Peña. Side B: Graham led the British expedition, La Peña the Spanish contingent.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1911-t4-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Dated local engaged strengths and La Peña/Graham decision authority remain unestablished; French subset and expedition totals differ in scope. Do not duplicate the long Cádiz blockade or December Tarifa siege."
+    ]
+  }
+}
