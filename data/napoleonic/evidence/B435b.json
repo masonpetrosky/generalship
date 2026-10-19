@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "battle_id": "B435b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Krasnoi interval 1812-08-14–1812-08-14 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: about 20,000 French, including 15,000 cavalry; side B: 7,000 Russians (5,500 infantry, 1,500 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: about 20,000 French, including 15,000 cavalry; side B: 7,000 Russians (5,500 infantry, 1,500 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p435",
+          "locator": "Bodart (1908), p. 435, Krasnoi; full retained image inspected",
+          "quote": "Sieg der Franzosen (ca. 20.000 M., worunter 15.000 Reiter) unter Marschall Ney über die Russen (5.500 Inft., 1.500 Kav., 14 Kan., zus. 7.000 M.) unter Gen.-Lt. Newjerowsky."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Ney; side B under Neverowski.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Ney; side B: Neverowski.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p435",
+          "locator": "Bodart (1908), p. 435, Krasnoi; full retained image inspected",
+          "quote": "Sieg der Franzosen (ca. 20.000 M., worunter 15.000 Reiter) unter Marschall Ney über die Russen (5.500 Inft., 1.500 Kav., 14 Kan., zus. 7.000 M.) unter Gen.-Lt. Newjerowsky."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p435",
+          "locator": "Bodart (1908), p. 435, Krasnoi; full retained image inspected",
+          "quote": "Sieg der Franzosen (ca. 20.000 M., worunter 15.000 Reiter) unter Marschall Ney über die Russen (5.500 Inft., 1.500 Kav., 14 Kan., zus. 7.000 M.) unter Gen.-Lt. Newjerowsky."
+        }
+      ]
+    },
+    {
+      "id": "chambray-neverovsky-estimate",
+      "dimension": "strength",
+      "value": "Side B: Chambray gives Neverovsky 6,000 infantry and 1,200 cavalry, with eight guns.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French enemy estimate, 7,200 people if summed, distinct from Bodart 7,000; no Russian own-side local total established in checked action page. English rendering (ours): \"Neverovsky’s division of Raevsky’s corps comprised six thousand infantry, twelve hundred cavalry and eight guns.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p165-figures-v1",
+          "section": "p165-s1",
+          "locator": "cham1, printed p. 165, Internet Archive leaf 166; retained page image inspected",
+          "quote": "La division Néwérowski, du corps de Raiewski, composée de six mille hommes d’infanterie, douze cents hommes de cavalerie et de huit bouches à feu"
+        }
+      ]
+    },
+    {
+      "id": "ledru-ney-murat-scope",
+      "dimension": "responsibility",
+      "value": "Chambray distinguishes Le Dru’s leading division of Ney’s III Corps from Murat’s cavalry turning movement.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Full page names Murat’s parallel crossing; no universal single-commander tactical credit. English rendering (ours): \"Le Dru’s division marched at the head of the third corps.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p165-selections-v1",
+          "section": "p165-s1",
+          "locator": "cham1, printed p. 165, Internet Archive leaf 166; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "La division Le Dru , qui mar- chait en tête du troisième corps"
+        }
+      ]
+    },
+    {
+      "id": "neverovsky-retreat-direction",
+      "dimension": "responsibility",
+      "value": "Boutourlin places Neverovsky in local command of the Russian retreating force.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Qualitative enemy superiority remains attributed, not verified. English rendering (ours): \"Neverovsky found himself facing an infantry corps much more numerous than the one he commanded.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p254-selections-v1",
+          "section": "p254-s1",
+          "locator": "bout0, printed p. 254, Internet Archive leaf 267; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le général Néwérofskoî se voyant en présence d'un corps d'infanterie très-supérieur en nombre à celui qu'il commandait"
+        }
+      ]
+    },
+    {
+      "id": "french-attack",
+      "dimension": "posture",
+      "value": "French infantry attacked the town while Murat’s cavalry turned the position across the ravine.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Murat’s cavalry extended right, crossed the ravine and turned the position.\" Attacking posture is supported, but the cited passage does not explicitly establish a new decision by the engagement commander; phase remains unresolved.",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p165-selections-v1",
+          "section": "p165-s2",
+          "locator": "cham1, printed p. 165, Internet Archive leaf 166; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "la ca- valerie de Murât , s'étendant sur la droite, tra- versait le ravin et tournait la position"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "open-country",
+      "dimension": "terrain",
+      "value": "Chambray describes open country around Neverovsky’s retreat.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Roadside trees described below, not a coded absence of works. English rendering (ours): \"The country was open.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p165-selections-v1",
+          "section": "p165-s3",
+          "locator": "cham1, printed p. 165, Internet Archive leaf 166; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "le pays était découvert"
+        }
+      ]
+    },
+    {
+      "id": "own-side-return-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Own-side dated local people total remains unknown; the supported numerical alternative is an enemy historian’s estimate or a component rather than a matched own-side return.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French local own-side people total and Russian own-side count remain missing. Chambray’s 6,000 infantry/1,200 cavalry enemy estimate and Bodart’s 5,500/1,500 are alternatives. August Krasnoi remains distinct from the November multi-day entry.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: about 20,000 French, including 15,000 cavalry; side B: 7,000 Russians (5,500 infantry, 1,500 cavalry). Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "ledru-ney-murat-scope"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Ney; side B under Neverowski. Chambray distinguishes Le Dru’s leading division of Ney’s III Corps from Murat’s cavalry turning movement.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "chambray-neverovsky-estimate",
+          "own-side-return-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: about 20,000 French, including 15,000 cavalry; side B: 7,000 Russians (5,500 infantry, 1,500 cavalry). Side B: Chambray gives Neverovsky 6,000 infantry and 1,200 cavalry, with eight guns. Own-side dated local people total remains unknown; the supported numerical alternative is an enemy historian’s estimate or a component rather than a matched own-side return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "neverovsky-retreat-direction"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Ney; side B under Neverowski. Boutourlin places Neverovsky in local command of the Russian retreating force.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t1-ocr-v1",
+      "chambray-1823-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French local own-side people total and Russian own-side count remain missing. Chambray’s 6,000 infantry/1,200 cavalry enemy estimate and Bodart’s 5,500/1,500 are alternatives. August Krasnoi remains distinct from the November multi-day entry."
+    ]
+  }
+}

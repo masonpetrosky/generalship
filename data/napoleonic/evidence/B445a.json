@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "battle_id": "B445a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Borisow interval 1812-11-23–1812-11-23 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 3,600 French (2,500 infantry, 1,100 cavalry); side B: 2,800 Russians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 3,600 French (2,500 infantry, 1,100 cavalry); side B: 2,800 Russians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p445",
+          "locator": "Bodart (1908), p. 445, Borisow; full retained image inspected",
+          "quote": "Sieg der Franzosen (2.500 Inft., 1.100 Kav., 12 Gesch. = 3.600 M.) unter Marschall Oudinot über die Russen (2.800 M.) unter Admiral Gf. Tschitschagoff."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Oudinot; side B under Tschitschagow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Oudinot; side B: Tschitschagow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p445",
+          "locator": "Bodart (1908), p. 445, Borisow; full retained image inspected",
+          "quote": "Sieg der Franzosen (2.500 Inft., 1.100 Kav., 12 Gesch. = 3.600 M.) unter Marschall Oudinot über die Russen (2.800 M.) unter Admiral Gf. Tschitschagoff."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p445",
+          "locator": "Bodart (1908), p. 445, Borisow; full retained image inspected",
+          "quote": "Sieg der Franzosen (2.500 Inft., 1.100 Kav., 12 Gesch. = 3.600 M.) unter Marschall Oudinot über die Russen (2.800 M.) unter Admiral Gf. Tschitschagoff."
+        }
+      ]
+    },
+    {
+      "id": "napoleon-oudinot-direction",
+      "dimension": "responsibility",
+      "value": "Chambray describes Napoleon approving Oudinot’s local attack and bridge-recovery plan.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reproduced 22-November correspondence mediated through Chambray; original uninspected. English rendering (ours): \"He wrote to Oudinot approving his resolution to advance against and attack the enemy.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p277-selections-v1",
+          "section": "p277-s1",
+          "locator": "cham2, printed p. 277, Internet Archive leaf 283; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "il écrivit à Oudinot qu'il ap- prouvait sa résolution de marcher à l'ennemi pour l'attaquer"
+        }
+      ]
+    },
+    {
+      "id": "pahlen-local-chichagov-superior",
+      "dimension": "responsibility",
+      "value": "Boutourlin distinguishes newly appointed advance-guard commander PahlenII at Lochnitsa from Chichagov’s headquarters.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "BodartChichagov label retained as superior scope; exact effective command boundary unset. English rendering (ours): \"His advance guard, newly under Major-General Pahlen the Second, was pushed toward Lochnitsa.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p356-selections-v1",
+          "section": "p356-s1",
+          "locator": "bout1, printed p. 356, Internet Archive leaf 365; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "son avant-garde , dont le général-major comte y Pahlen 11% venait de prendre le commandement, y fut poussée sur Lochnitsa"
+        }
+      ]
+    },
+    {
+      "id": "russian-pursuit-expectation",
+      "dimension": "information",
+      "value": "Boutourlin says the Russian advance guard expected only to pursue the weak detachment previously beaten at Borisov.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reported expectation; not a verified correct assessment or a model information score. English rendering (ours): \"It expected only to pursue the weak detachment defeated at Borisov.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p356-selections-v1",
+          "section": "p356-s2",
+          "locator": "bout1, printed p. 356, Internet Archive leaf 365; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Elle comptait n'avoir qu'à poursuivre le faible détachement battu à Borissow"
+        }
+      ]
+    },
+    {
+      "id": "french-counteroffensive",
+      "dimension": "posture",
+      "value": "Boutourlin describes the French attack driving Pahlen’s advance guard toward Borisov.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "23-November action distinct from Russian 21-November assault; no reversal of side labels. English rendering (ours): \"Pahlen was overturned and driven toward Borisov by the enemy’s impetuous attack.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p356-selections-v1",
+          "section": "p356-s3",
+          "locator": "bout1, printed p. 356, Internet Archive leaf 365; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le comte Pahlen , trop faible pour résister 1 long-temps à l'impétueuse attaque de l'ennemi, fut culbuté et rejeté surBorissow"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "bridge-recovery-objective",
+      "dimension": "objectives",
+      "value": "Chambray describes the aim of recovering Borisov bridge, with an alternative crossing if it was destroyed.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same passage gives fallback bridging/redoubts; aim is not demonstrated success. English rendering (ours): \"And try to seize the Borisov bridge.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p277-selections-v1",
+          "section": "p277-s2",
+          "locator": "cham2, printed p. 277, Internet Archive leaf 283; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "et tâcher de s'emparer du pont de Borisow"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Both own-side matched local headcounts missing; no deduction from21-November survivors or later cavalry totals. Oudinot’s local attack and Napoleon’s instruction, PahlenII’s advance guard and Chichagov’s main army distinct. Lochnitsa crosswalk retained without merging two Borisov entries.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 3,600 French (2,500 infantry, 1,100 cavalry); side B: 2,800 Russians. Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "napoleon-oudinot-direction"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Oudinot; side B under Tschitschagow. Chambray describes Napoleon approving Oudinot’s local attack and bridge-recovery plan.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 3,600 French (2,500 infantry, 1,100 cavalry); side B: 2,800 Russians. Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "pahlen-local-chichagov-superior"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Oudinot; side B under Tschitschagow. Boutourlin distinguishes newly appointed advance-guard commander PahlenII at Lochnitsa from Chichagov’s headquarters.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t2-ocr-v1",
+      "chambray-1823-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Both own-side matched local headcounts missing; no deduction from21-November survivors or later cavalry totals. Oudinot’s local attack and Napoleon’s instruction, PahlenII’s advance guard and Chichagov’s main army distinct. Lochnitsa crosswalk retained without merging two Borisov entries."
+    ]
+  }
+}

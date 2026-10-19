@@ -18,6 +18,14 @@ The [v2 correction](research/peninsula-1811-correction-v2.md) preserves Oman's i
 
 Current campaign totals: **19 drafts, 255 claims, 63 unknowns, 199 citations**, **162 added sources**, **4,238 registered sources overall**. The additional arithmetic claim brings the campaign to 23 digit flags, all primary-disposed. Evidence checks, `make reproduce`, `make check` and the prepared packet were refreshed. Coverage remains **170/325 in 9/16 complete groups**; no frozen/model/calibration input changed. No separate review, subagent or new source family. Next: `peninsula 1812`, eight entries. Usage unavailable.
 
+## Russia 1812 complete first pass, 2026-10-19
+
+The [campaign record](research/russia-1812-first-pass-v1.md) adds **31/31 drafts, 416 claims, 139 explicit unknowns and 306 citations**, addressing all nine dimensions and 62 side-level completion records. Army continuity and replacement boundaries remain unresolved. The complete intervals, including Riga through 18 December and separate repeated-name encounters, are preserved. Pre-reading family assignments match every final three-family set including Bodart; no fourth family, separate targeted follow-up cycle, subagent, separate review, second opinion or model job.
+
+The registry adds **223 records**, reaching **4,547**, from Chambray I/II (1823), Boutourlin I/II (1824), Droysen I (1851) and Hauthal (1859), with 86 cited historical images and 15 title/preface images. Earlier 4,324 source records and 178 dossiers remain unchanged. Available/engaged and component/whole-army populations remain distinct. Russian-calendar conversions are labelled; real date/place disagreements and Chambray's internal 28,700/29,700 Beresina discrepancy stay explicit. Primary verification includes arithmetic, full-interval authority, 33 digit-flag dispositions, source/evidence checks, current packet, `make reproduce`, `make check` and report inspection.
+
+No frozen/model input changed or feature admitted; calibration remains 47 prepared/unscored. Coverage is **209/325 in 11/16 complete groups**, **116 remaining**. Next chronological group: `liberation 1813`, **52 cohort entries**, including one without an exact start date. Usage unknown; no complete meter exposed.
+
 ## Peninsula 1812 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1812-first-pass-v1.md) adds **8/8 drafts, 120 claims, 24 explicit unknowns and 99 citations**, covering all nine dimensions and 16 side-level checklists. Army continuity and replacement boundaries stay unknown. Source families were fixed before substantive reading and match every final three-family set; no fourth family, follow-up cycle, separate review, subagent, second opinion or model job ran.

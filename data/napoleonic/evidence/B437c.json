@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "battle_id": "B437c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Schewardino interval 1812-09-05–1812-09-05 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 36,000 French (26,000 infantry, 10,000 cavalry); side B: 20,000 Russians (16,000 infantry, 4,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 36,000 French (26,000 infantry, 10,000 cavalry); side B: 20,000 Russians (16,000 infantry, 4,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p437",
+          "locator": "Bodart (1908), p. 437, Schewardino; full retained image inspected",
+          "quote": "53 Btln. 26.000 | Infanterie | 16.000 Btln. 28"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p437",
+          "locator": "Bodart (1908), p. 437, Schewardino; full retained image inspected",
+          "quote": "132 Esk. 10.000 | Kavallerie | 4.000 Esk. 38"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p437",
+          "locator": "Bodart (1908), p. 437, Schewardino; full retained image inspected",
+          "quote": "36.000 | Gesamt-Stärke | 20.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon; side B under Bagration.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Napoleon; side B: Bagration.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p437",
+          "locator": "Bodart (1908), p. 437, Schewardino; full retained image inspected",
+          "quote": "Napoleon I. | Gen. d. Inf. Fürst Bagration"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p437",
+          "locator": "Bodart (1908), p. 437, Schewardino; full retained image inspected",
+          "quote": "Franzosen | Russen"
+        }
+      ]
+    },
+    {
+      "id": "napoleon-assault-tasks",
+      "dimension": "responsibility",
+      "value": "Chambray distinguishes Napoleon’s order from Poniatowski, Murat and Davout’s divisions executing the assault.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Napoleon ordered the position taken immediately; Poniatowski’s corps, Murat’s cavalry and divisions of Davout’s corps were employed.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p285-selections-v1",
+          "section": "p285-s1",
+          "locator": "cham1, printed p. 285, Internet Archive leaf 278; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Napo- léonayant ordonné d'enlever à Finstant cette po- sition , le corps de Poniatov^ski, la cavalerie de Murât et trois divisions du corps de Davout y fu- rent employés"
+        }
+      ]
+    },
+    {
+      "id": "french-redoubt-assault",
+      "dimension": "posture",
+      "value": "The French coalition initiated the assault on the Russian redoubt position.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Russian retaking attacks inside the defence do not establish independent initiation. English rendering (ours): \"Napoleon ordered the position taken immediately.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p285-selections-v1",
+          "section": "p285-s1",
+          "locator": "cham1, printed p. 285, Internet Archive leaf 278; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Napo- léonayant ordonné d'enlever à Finstant cette po- sition , le corps de Poniatov^ski, la cavalerie de Murât et trois divisions du corps de Davout y fu- rent employés"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "russian-redoubt",
+      "dimension": "fortification",
+      "value": "Chambray attributes a closed redoubt atop the knoll to Kutusov’s order.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Source attribution, not neutral terrain or sole tactical credit; footnote says no palisade/fraise. English rendering (ours): \"Kutusov had a closed redoubt built on top of this knoll.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p284-selections-v1",
+          "section": "p284-s1",
+          "locator": "cham1, printed p. 284, Internet Archive leaf 277; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Kutusof avait fait construire une re- doute fermée sur le sommet de ce mamelon"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "bagration-defensive-sector",
+      "dimension": "responsibility",
+      "value": "Chambray assigns Bagration the sector between the Kalotcha and woods, with named divisions defending it.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Antecedent Bagration is explicit in preceding sentence; Kutusov’s superior works order is separate. English rendering (ours): \"This general rested his right on the Kalotcha.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p284-selections-v1",
+          "section": "p284-s2",
+          "locator": "cham1, printed p. 284, Internet Archive leaf 277; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Ce général appuyait sa droite à la Kalot- cha"
+        }
+      ]
+    },
+    {
+      "id": "river-knoll-woods",
+      "dimension": "terrain",
+      "value": "Chambray places the redoubt on a knoll between the Kalotcha and woods.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Full retained page describes knoll and wood; natural features distinct from created redoubt. English rendering (ours): \"He rested his right on the Kalotcha.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p284-selections-v1",
+          "section": "p284-s2",
+          "locator": "cham1, printed p. 284, Internet Archive leaf 277; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Ce général appuyait sa droite à la Kalot- cha"
+        }
+      ]
+    },
+    {
+      "id": "redoubt-observation-purpose",
+      "dimension": "objectives",
+      "value": "Boutourlin characterizes the redoubt’s purpose as discovering the direction of French marching columns.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Russian retrospective explanation of aim, not a demonstrated tactical or campaign effect. English rendering (ours): \"The disputed redoubt had been raised only to discover the direction of the French columns during their march.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p313-selections-v1",
+          "section": "p313-s1",
+          "locator": "bout0, printed p. 313, Internet Archive leaf 326; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "La redoute disputée, n'ayant été élevée que pour découvrir la direction des co- lonnes françaises pendant leur marche"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Neither checked own-side passage supplies a matched complete headcount. Kutusov’s superior works order, Bagration’s sector and French subordinate tasks are distinct; Shevardino is not additional credit for Borodino.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 36,000 French (26,000 infantry, 10,000 cavalry); side B: 20,000 Russians (16,000 infantry, 4,000 cavalry). Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "napoleon-assault-tasks"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Bagration. Chambray distinguishes Napoleon’s order from Poniatowski, Murat and Davout’s divisions executing the assault.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 36,000 French (26,000 infantry, 10,000 cavalry); side B: 20,000 Russians (16,000 infantry, 4,000 cavalry). Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "bagration-defensive-sector"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Bagration. Chambray assigns Bagration the sector between the Kalotcha and woods, with named divisions defending it.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t1-ocr-v1",
+      "chambray-1823-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Neither checked own-side passage supplies a matched complete headcount. Kutusov’s superior works order, Bagration’s sector and French subordinate tasks are distinct; Shevardino is not additional credit for Borodino."
+    ]
+  }
+}

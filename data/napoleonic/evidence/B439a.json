@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "battle_id": "B439a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Moshaïsk interval 1812-09-10–1812-09-10 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-headcounts-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bodart supplies avant-garde/rearguard labels but no opening headcounts; its losses and wounded prisoners are not strengths.",
+      "citations": []
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Murat; side B under Miloradowitsch.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Murat; side B: Miloradowitsch.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p439",
+          "locator": "Bodart (1908), p. 439, Moshaïsk; full retained image inspected",
+          "quote": "Sieg der französischen Avantgarde unter König Murat über die russische Nachhut unter Gen.-Lt. Miloradowitsch."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p439",
+          "locator": "Bodart (1908), p. 439, Moshaïsk; full retained image inspected",
+          "quote": "Sieg der französischen Avantgarde unter König Murat über die russische Nachhut unter Gen.-Lt. Miloradowitsch."
+        }
+      ]
+    },
+    {
+      "id": "mojaisk-date-alternative",
+      "dimension": "outcome",
+      "value": "Chambray dates French occupation of Mojaisk after cavalry combat to 9 September, versus frozen 10 September.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Frozen date retained; occupation, rearguard combats and later command handover are not silently treated as the same moment. English rendering (ours): \"On the ninth the French advance guard took Mojaisk after a cavalry combat and Napoleon immediately moved his headquarters there.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p327-figures-v1",
+          "section": "p327-s1",
+          "locator": "cham1, printed p. 327, Internet Archive leaf 316; retained page image inspected",
+          "quote": "Le 9, l’avant-garde française s’empara de Mojaïsk, à la suite d’un combat de cavalerie, et Napoléon y transporta aussitôt son quartier-général."
+        }
+      ]
+    },
+    {
+      "id": "platov-miloradovich-handover",
+      "dimension": "responsibility",
+      "value": "Boutourlin dates Platov’s recall and replacement by Miloradovich to the night 28–29 August Russian calendar (=9–10 September Gregorian).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Explicit phase handover explains possible authority scope difference; exact replacement fields still unset. English rendering (ours): \"In the night from the twenty-eighth to twenty-ninth Platov was recalled and Miloradovich replaced him in command of the rearguard.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p352-figures-v1",
+          "section": "p352-s1",
+          "locator": "bout0, printed p. 352, Internet Archive leaf 365; retained page image inspected",
+          "quote": "Dans la nuit du 28 au 29, Platof fut rappelé, et le général Miloradowich le remplaça dans le commandement de l’arrière-garde."
+        }
+      ]
+    },
+    {
+      "id": "murat-pursuit-command",
+      "dimension": "responsibility",
+      "value": "Boutourlin has Murat pressing the Russian rearguard out of the town.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Pressed too vigorously by the king of Naples, it evacuated the town to rejoin the army.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p352-selections-v1",
+          "section": "p352-s1",
+          "locator": "bout0, printed p. 352, Internet Archive leaf 365; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "trop vivement pressée par le roi deNaples, elle évacua la ville pour se replier sur l'armée"
+        }
+      ]
+    },
+    {
+      "id": "french-pursuit-posture",
+      "dimension": "posture",
+      "value": "Boutourlin describes French pressure against a withdrawing Russian rearguard.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Pressed by the king of Naples, it evacuated the town.\" Attacking posture is supported, but the cited passage does not explicitly establish a new decision by the engagement commander; phase remains unresolved.",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p352-selections-v1",
+          "section": "p352-s1",
+          "locator": "bout0, printed p. 352, Internet Archive leaf 365; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "trop vivement pressée par le roi deNaples, elle évacua la ville pour se replier sur l'armée"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Both local people totals unknown; Bodart’s wounded Borodino prisoners/losses are not opening strengths. Chambray9-September occupation, frozen10-September encounter and Platov–Miloradovich overnight handover remain distinct unresolved phases.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-headcounts-unknown",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart supplies avant-garde/rearguard labels but no opening headcounts; its losses and wounded prisoners are not strengths. Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "murat-pursuit-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Miloradowitsch. Boutourlin has Murat pressing the Russian rearguard out of the town.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-headcounts-unknown",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart supplies avant-garde/rearguard labels but no opening headcounts; its losses and wounded prisoners are not strengths. Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "platov-miloradovich-handover"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Miloradowitsch. Boutourlin dates Platov’s recall and replacement by Miloradovich to the night 28–29 August Russian calendar (=9–10 September Gregorian).",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t1-ocr-v1",
+      "chambray-1823-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Both local people totals unknown; Bodart’s wounded Borodino prisoners/losses are not opening strengths. Chambray9-September occupation, frozen10-September encounter and Platov–Miloradovich overnight handover remain distinct unresolved phases."
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "battle_id": "B431c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Ekau interval 1812-07-19–1812-07-19 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 6,600 Prussians; side B: 6,000 Russians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 6,600 Prussians; side B: 6,000 Russians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Ekau; full retained image inspected",
+          "quote": "Sieg der Preußen (8 Btln., 6 Esk., 32 Gesch. = 6.600 M.) unter Gen. d. Inf. v. Grawert über die Russen (8 Btln., 13 Esk., 10 Gesch. = 6.000 M.) unter GM. v. Löwis."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Grawert; side B under Löwis.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Grawert; side B: Löwis.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Ekau; full retained image inspected",
+          "quote": "Sieg der Preußen (8 Btln., 6 Esk., 32 Gesch. = 6.600 M.) unter Gen. d. Inf. v. Grawert über die Russen (8 Btln., 13 Esk., 10 Gesch. = 6.000 M.) unter GM. v. Löwis."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Ekau; full retained image inspected",
+          "quote": "Sieg der Preußen (8 Btln., 6 Esk., 32 Gesch. = 6.600 M.) unter Gen. d. Inf. v. Grawert über die Russen (8 Btln., 13 Esk., 10 Gesch. = 6.000 M.) unter GM. v. Löwis."
+        }
+      ]
+    },
+    {
+      "id": "macdonald-absent-prussian-action",
+      "dimension": "responsibility",
+      "value": "Droysen places Macdonald with Grandjean toward Jakobstadt while the Prussians fought Lewis at Ekau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Macdonald’s superior command does not establish local presence; Bodart’s Grawert remains a distinct local attribution. English rendering (ours): \"While the marshal was with Grandjean on the road from Friedrichstadt toward Jakobstadt, the Prussian corps encountered Lewis at Ekau.\"",
+      "citations": [
+        {
+          "source_id": "droysen-1851-t1-russia1812-p358-selections-v1",
+          "section": "p358-s1",
+          "locator": "droy, printed p. 358, Internet Archive leaf 375; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Während ſich der Marſchall mit der Diviſton Grandjean auf dem Wege von Friedrichsſtadt gen Jacobſtadt befand (19. Juli), traf das preußiſche Corps auf den Feind unter Ge— neral Lewis bei Eckau"
+        }
+      ]
+    },
+    {
+      "id": "essen-lewis-detachment",
+      "dimension": "responsibility",
+      "value": "Boutourlin says Essen detached Lewis from Riga toward Ekau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Context on the inspected page names Essen as commander of Riga/Dunamund and describes battalions/squadrons, without a people total. English rendering (ours): \"For this purpose he detached Lieutenant-General Lewis.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p3-selections-v1",
+          "section": "p3-s1",
+          "locator": "bout1, printed p. 3, Internet Archive leaf 12; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Il détacha à cet effet le lieutenant-général Lewis"
+        }
+      ]
+    },
+    {
+      "id": "prussian-combined-attack",
+      "dimension": "posture",
+      "value": "Boutourlin describes a combined Prussian attack followed by Lewis’s withdrawal to Dahlenkirchen.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Attributed tactical narrative, no causal effect estimate. English rendering (ours): \"This combined attack obliged Lewis to fall back to Dahlenkirchen.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p3-selections-v1",
+          "section": "p3-s2",
+          "locator": "bout1, printed p. 3, Internet Archive leaf 12; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Cette attaque combinée obligea Lewis à se replier à Dahlenkir- chen"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "riga-direction",
+      "dimension": "objectives",
+      "value": "Droysen describes the Prussian centre’s assigned advance toward Riga through Ekau/Mitau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Operational direction, not proof that Ekau itself was the ultimate campaign objective. English rendering (ours): \"The centre, the Prussian division, advancing on Ekau and Mitau, was to turn toward Riga.\"",
+      "citations": [
+        {
+          "source_id": "droysen-1851-t1-russia1812-p358-selections-v1",
+          "section": "p358-s2",
+          "locator": "droy, printed p. 358, Internet Archive leaf 375; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "wäh— rend das Centrum, die preußiſche Divifton, auf Eckau und Mitau vorgehend, ſich gegen Riga wenden follt,. Während"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Neither checked own-side account supplies a matched local people total. Grawert/local versus Macdonald/superior presence, Russian Essen–Lewis delegation and full replacement boundaries remain distinct; battalion counts are not headcounts.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 6,600 Prussians; side B: 6,000 Russians. Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "macdonald-absent-prussian-action"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Grawert; side B under Löwis. Droysen places Macdonald with Grandjean toward Jakobstadt while the Prussians fought Lewis at Ekau.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 6,600 Prussians; side B: 6,000 Russians. Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "essen-lewis-detachment"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Grawert; side B under Löwis. Boutourlin says Essen detached Lewis from Riga toward Ekau.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t2-ocr-v1",
+      "droysen-1851-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Neither checked own-side account supplies a matched local people total. Grawert/local versus Macdonald/superior presence, Russian Essen–Lewis delegation and full replacement boundaries remain distinct; battalion counts are not headcounts."
+    ]
+  }
+}

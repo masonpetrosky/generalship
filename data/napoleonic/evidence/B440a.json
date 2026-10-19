@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "battle_id": "B440a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Winkowo interval 1812-10-18–1812-10-18 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 20,000 French (12,000 infantry, 8,000 cavalry); side B: 36,000 Russians (30,000 infantry, 6,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 20,000 French (12,000 infantry, 8,000 cavalry); side B: 36,000 Russians (30,000 infantry, 6,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p440",
+          "locator": "Bodart (1908), p. 440, Winkowo; full retained image inspected",
+          "quote": "Sieg der Russen (30.000 Inft., 6.000 Kav. = 36.000 M.) unter FM. Fürst Kutusow über die Franzosen (12.000 Inft., 8.000 Kav. = 20.000 M.) unter König Murat."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Murat; side B under Kutusow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Murat; side B: Kutusow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p440",
+          "locator": "Bodart (1908), p. 440, Winkowo; full retained image inspected",
+          "quote": "Sieg der Russen (30.000 Inft., 6.000 Kav. = 36.000 M.) unter FM. Fürst Kutusow über die Franzosen (12.000 Inft., 8.000 Kav. = 20.000 M.) unter König Murat."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p440",
+          "locator": "Bodart (1908), p. 440, Winkowo; full retained image inspected",
+          "quote": "Sieg der Russen (30.000 Inft., 6.000 Kav. = 36.000 M.) unter FM. Fürst Kutusow über die Franzosen (12.000 Inft., 8.000 Kav. = 20.000 M.) unter König Murat."
+        }
+      ]
+    },
+    {
+      "id": "murat-available-force",
+      "dimension": "strength",
+      "value": "Side A: Chambray gives Murat 20,000, including 8,000 cavalry.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side detached-force narrative, not a dated return. The same page’s Russian 100,000-plus is wider army, not Bodart 36,000 engaged. English rendering (ours): \"Murat’s army numbered only twenty thousand, including eight thousand cavalry.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p7-figures-v1",
+          "section": "p7-s1",
+          "locator": "cham2, printed p. 7, Internet Archive leaf 15; retained page image inspected",
+          "quote": "celle de Murât n’en comptait plus que vingt mille, parmi lesquels il y avait huit mille hommes de cavalerie"
+        }
+      ]
+    },
+    {
+      "id": "kutuzov-attack-decision",
+      "dimension": "responsibility",
+      "value": "Chambray attributes the decision to attack Murat unexpectedly to Kutusov.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Claimed mental state attributed to historian, not established intention or information score. English rendering (ours): \"Kutusov, convinced he could no longer keep Napoleon mistaken, decided to attack Murat unexpectedly.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p7-selections-v1",
+          "section": "p7-s1",
+          "locator": "cham2, printed p. 7, Internet Archive leaf 15; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "utiisof , convaincu qu^il ne pouvait espérer de tenir Napoléon plus long-tems dans Ter- reur, s'était décidé à attaquer inopinément Murât"
+        }
+      ]
+    },
+    {
+      "id": "russian-attack",
+      "dimension": "posture",
+      "value": "Chambray describes a Russian surprise attack against Murat.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He decided to attack Murat unexpectedly.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p7-selections-v1",
+          "section": "p7-s1",
+          "locator": "cham2, printed p. 7, Internet Archive leaf 15; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "utiisof , convaincu qu^il ne pouvait espérer de tenir Napoléon plus long-tems dans Ter- reur, s'était décidé à attaquer inopinément Murât"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "bennigsen-local-direction",
+      "dimension": "responsibility",
+      "value": "Boutourlin distinguishes Kutusov’s decision from Bennigsen’s conduct of the planned operation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart’s Kutusov label retained as superior scope; actual implementation not automatic exclusive credit. English rendering (ours): \"He charged General Bennigsen with conducting the planned operation.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p141-selections-v1",
+          "section": "p141-s1",
+          "locator": "bout1, printed p. 141, Internet Archive leaf 150; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "et chargea le général Beningsen de la conduite de l'opération projetée"
+        }
+      ]
+    },
+    {
+      "id": "murat-detached-command",
+      "dimension": "responsibility",
+      "value": "Chambray lists Murat’s detached command including Poniatowski’s corps and other infantry/cavalry formations.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Footnote lists Claparède, Dufour and cavalry; no formation-to-headcount conversion. English rendering (ours): \"Murat had Poniatowski’s corps under his orders.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p7-selections-v1",
+          "section": "p7-s2",
+          "locator": "cham2, printed p. 7, Internet Archive leaf 15; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Murât avait cous ses ordres le coips^ de Poniatowski"
+        }
+      ]
+    },
+    {
+      "id": "toll-envelopment-aim",
+      "dimension": "objectives",
+      "value": "Boutourlin attributes to Toll the aim of cutting Murat’s retreat at Voronovo and pushing him toward the Nara.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Intended interception, not proof of achievement or campaign effect. English rendering (ours): \"To try to take his whole corps by anticipating him on the Voronovo retreat road and driving him onto the Nara.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p140-selections-v1",
+          "section": "p140-s1",
+          "locator": "bout1, printed p. 140, Internet Archive leaf 149; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "pour tâcher d'enlever tout son corps en le pré- venant sur sa route de retraite, à Woronowo, et en le refoulant sur la Nara"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Murat20,000 available force distinct from wider Russian army. Russian local own-side engaged headcount missing; Bennigsen’s operation role and Kutusov’s superior decision distinct. Reported surprise is not a quantified causal effect.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "murat-available-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 20,000 French (12,000 infantry, 8,000 cavalry); side B: 36,000 Russians (30,000 infantry, 6,000 cavalry). Side A: Chambray gives Murat 20,000, including 8,000 cavalry.",
+        "command_claim_ids": [
+          "bodart-command",
+          "murat-detached-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Kutusow. Chambray lists Murat’s detached command including Poniatowski’s corps and other infantry/cavalry formations.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 20,000 French (12,000 infantry, 8,000 cavalry); side B: 36,000 Russians (30,000 infantry, 6,000 cavalry). Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "kutuzov-attack-decision",
+          "bennigsen-local-direction"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Kutusow. Chambray attributes the decision to attack Murat unexpectedly to Kutusov. Boutourlin distinguishes Kutusov’s decision from Bennigsen’s conduct of the planned operation.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t2-ocr-v1",
+      "chambray-1823-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Murat20,000 available force distinct from wider Russian army. Russian local own-side engaged headcount missing; Bennigsen’s operation role and Kutusov’s superior decision distinct. Reported surprise is not a quantified causal effect."
+    ]
+  }
+}

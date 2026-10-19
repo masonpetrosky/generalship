@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "battle_id": "B441b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Malojaroslawez interval 1812-10-24–1812-10-24 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 24,000 French; side B: 24,000 Russians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 24,000 French; side B: 24,000 Russians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Malojaroslawez; full retained image inspected",
+          "quote": "24.000 | — | 24.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon; side B under Kutusow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Napoleon; side B: Kutusow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Malojaroslawez; full retained image inspected",
+          "quote": "Napoleon I. | FM. Fürst Kutusow"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Malojaroslawez; full retained image inspected",
+          "quote": "Franzosen | Russen"
+        }
+      ]
+    },
+    {
+      "id": "russian-wider-army",
+      "dimension": "strength",
+      "value": "Side B: Boutourlin gives about 80,000 under arms in the Russian army gathering before Malojaroslavets, excluding Cossacks.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Wider gathering army, not Bodart 24,000 local engaged; enemy Chambray 110,000 estimate is a different whole-army population. English rendering (ours): \"The total Russian army about to gather before Malojaroslavets amounted to about eighty thousand under arms, excluding Cossacks.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p158-figures-v1",
+          "section": "p158-s1",
+          "locator": "bout1, printed p. 158, Internet Archive leaf 167; retained page image inspected",
+          "quote": "La force totale de l’armée russe, qui allait se réunir devant Malo-Jaroslawets, s’élevait à environ 80 mille hommes sous les armes, sans y comprendre les kosaques."
+        }
+      ]
+    },
+    {
+      "id": "dokhturov-local-kutuzov-superior",
+      "dimension": "responsibility",
+      "value": "Boutourlin places Dokhturov locally directing the Russian attack, distinct from Kutusov’s superior army command.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same page gives his assault orders and corps deployments; no uninterrupted whole-day sole authority inferred. English rendering (ours): \"General Dokhturov arrived before Malojaroslavets.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p158-selections-v1",
+          "section": "p158-s1",
+          "locator": "bout1, printed p. 158, Internet Archive leaf 167; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "le général Dok- torof arriva devant Malo-Jaroslawets"
+        }
+      ]
+    },
+    {
+      "id": "eugene-delzons-local-command",
+      "dimension": "responsibility",
+      "value": "Boutourlin distinguishes the arriving viceroy Eugene and his orders to Delzons from Napoleon’s superior command label.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source sentence continues on following page; only the order relationship is adopted, not its uninspected wording. English rendering (ours): \"The viceroy, arriving then with his entire corps, gave orders to Delzons.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p158-selections-v1",
+          "section": "p158-s2",
+          "locator": "bout1, printed p. 158, Internet Archive leaf 167; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "mais le vice-roi qui arrivait dans ce moment suivi de tout son corps , ordonna au général Delzons"
+        }
+      ]
+    },
+    {
+      "id": "russian-town-attack",
+      "dimension": "posture",
+      "value": "Dokhturov attacked the town already occupied by Delzons’s battalions.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "French recovery attacks are subsequent responses; no blanket both_attacked coding. English rendering (ours): \"Finding the town already occupied by Delzons’s battalions, he had it attacked.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p158-selections-v1",
+          "section": "p158-s3",
+          "locator": "bout1, printed p. 158, Internet Archive leaf 167; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "et trouvant la ville déjà occupée par les deux bataillons de la division Delzons , il la fit attaquer"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "luja-town-slope",
+      "dimension": "terrain",
+      "value": "Chambray places the town on a fairly steep slope above the Luja valley.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"The small town of Malojaroslavets was built on the slope of a fairly steep hill.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p90-selections-v1",
+          "section": "p90-s1",
+          "locator": "cham2, printed p. 90, Internet Archive leaf 96; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "La petite ville de Malojaroslawetz était bâ- tie sur le penchant d'une colline assez escarpée"
+        }
+      ]
+    },
+    {
+      "id": "reported-french-movement",
+      "dimension": "information",
+      "value": "Chambray says Miloradovich’s report informed Kutusov of Ney’s movement toward Fominskoe and Moscow’s evacuation.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same inspected passage includes evacuation; report lineage/original uninspected, no perfect intelligence inferred. English rendering (ours): \"A report from Miloradovich had informed the Russian general that Ney had withdrawn toward Fominskoe.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p90-selections-v1",
+          "section": "p90-s2",
+          "locator": "cham2, printed p. 90, Internet Archive leaf 96; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Un rapport de Mi- loradowitz avait, dans le même tems , fait con- naître au général russe que Ney s'était retiré sur Fominskoé"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "No French matched local own-side people total; Russian80,000 excludes Cossacks and is the gathering army, not24,000 engaged. Napoleon/Kutusov superior labels distinct from Eugene/Delzons/Dokhturov local tasks; town possession is not campaign contribution.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 24,000 French; side B: 24,000 Russians. Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "eugene-delzons-local-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Kutusow. Boutourlin distinguishes the arriving viceroy Eugene and his orders to Delzons from Napoleon’s superior command label.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "russian-wider-army"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 24,000 French; side B: 24,000 Russians. Side B: Boutourlin gives about 80,000 under arms in the Russian army gathering before Malojaroslavets, excluding Cossacks.",
+        "command_claim_ids": [
+          "bodart-command",
+          "dokhturov-local-kutuzov-superior"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Kutusow. Boutourlin places Dokhturov locally directing the Russian attack, distinct from Kutusov’s superior army command.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t2-ocr-v1",
+      "chambray-1823-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "No French matched local own-side people total; Russian80,000 excludes Cossacks and is the gathering army, not24,000 engaged. Napoleon/Kutusov superior labels distinct from Eugene/Delzons/Dokhturov local tasks; town possession is not campaign contribution."
+    ]
+  }
+}

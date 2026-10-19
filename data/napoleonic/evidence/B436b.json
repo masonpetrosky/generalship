@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "battle_id": "B436b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Walutina-Gora interval 1812-08-19–1812-08-19 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 35,000 French (25,000 infantry, 10,000 cavalry); side B: 25,000 Russians (19,000 infantry, 6,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 35,000 French (25,000 infantry, 10,000 cavalry); side B: 25,000 Russians (19,000 infantry, 6,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p436",
+          "locator": "Bodart (1908), p. 436, Walutina-Gora; full retained image inspected",
+          "quote": "25.000 | Infanterie | 19.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p436",
+          "locator": "Bodart (1908), p. 436, Walutina-Gora; full retained image inspected",
+          "quote": "10.000 | Kavallerie | 6.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p436",
+          "locator": "Bodart (1908), p. 436, Walutina-Gora; full retained image inspected",
+          "quote": "35.000 | Gesamt-Stärke | 25.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Ney; side B under Tuchkov I.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Ney; side B: Tuchkov I.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p436",
+          "locator": "Bodart (1908), p. 436, Walutina-Gora; full retained image inspected",
+          "quote": "Marschall Ney | Gen.-Lt. Tutschkow I."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p436",
+          "locator": "Bodart (1908), p. 436, Walutina-Gora; full retained image inspected",
+          "quote": "Franzosen | Russen"
+        }
+      ]
+    },
+    {
+      "id": "russian-opening-late-infantry",
+      "dimension": "strength",
+      "value": "Side B: Boutourlin gives Major-General Tuchkov 2,400 infantry initially and a cumulative 15,200 under arms at the end.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reinforcement sequence 2,400+2,200+2,000+4,500+4,100=15,200 checked. Opening and cumulative/end-phase infantry are distinct, neither a complete all-arms 25,000. Original returns uninspected. English rendering (ours): \"Tuchkov began with two thousand four hundred infantry; at the end the total infantry under arms was fifteen thousand two hundred.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p284-figures-v1",
+          "section": "p284-s1",
+          "locator": "bout0, printed p. 284, Internet Archive leaf 297; retained page image inspected",
+          "quote": "le général-major Touczkof n’avait commencé l’affaire qu’avec 2,400 hommes d’infanterie"
+        },
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p284-figures-v1",
+          "section": "p284-s2",
+          "locator": "bout0, printed p. 284, Internet Archive leaf 297; retained page image inspected",
+          "quote": "la force totale de l’infanterie russe, à la fin du combat, était de 15,200 hommes sous les armes"
+        }
+      ]
+    },
+    {
+      "id": "barclay-rearguard-direction",
+      "dimension": "responsibility",
+      "value": "Chambray describes Barclay returning to direct the rearguard resistance, alongside Korf’s prior delaying role.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source continues that he went in person to the rearguard; Bodart’s Tuchkov label and major-general versus lieutenant-general Tuchkov in Boutourlin remain unresolved identities/scope. English rendering (ours): \"Barclay felt the need to oppose immediate strong resistance to the French advance.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p182-selections-v1",
+          "section": "p182-s1",
+          "locator": "cham1, printed p. 182, Internet Archive leaf 181; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Barklay sentit la nécessité d'opposer sur-le-champ une vive résistance à la marche des Français"
+        }
+      ]
+    },
+    {
+      "id": "razout-local-attack",
+      "dimension": "responsibility",
+      "value": "Chambray identifies Razout’s leading division attacking across the stream within Ney’s advance.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Razout’s advance division crossed the stream, attacked the Russians and drove them back.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p182-selections-v1",
+          "section": "p182-s2",
+          "locator": "cham1, printed p. 182, Internet Archive leaf 181; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "la division Razout , qui mar* chait à l'avant-garde , ayant franchi le ruisseau , attaqua les Russes et les repoussa"
+        }
+      ]
+    },
+    {
+      "id": "french-advance-attack",
+      "dimension": "posture",
+      "value": "French advance forces attacked across the stream.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Crossed the stream and attacked the Russians.\" Attacking posture is supported, but the cited passage does not explicitly establish a new decision by the engagement commander; phase remains unresolved.",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p182-selections-v1",
+          "section": "p182-s2",
+          "locator": "cham1, printed p. 182, Internet Archive leaf 181; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "la division Razout , qui mar* chait à l'avant-garde , ayant franchi le ruisseau , attaqua les Russes et les repoussa"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "muddy-stream",
+      "dimension": "terrain",
+      "value": "Chambray calls the Kolodnia a muddy stream crossing the Moscow road.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"The Kolodnia, a muddy stream.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p182-selections-v1",
+          "section": "p182-s3",
+          "locator": "cham1, printed p. 182, Internet Archive leaf 181; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "la Kolodnia , ruisseau fangeux"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French own-side local all-arms count missing; Boutourlin’s enemy estimate is formation-based and its editor contests Gudin’s number, so not adopted as our reconstruction. Russian 2,400 initial/15,200 cumulative infantry, Korf/Barclay and the two Tuchkov ranks remain distinct.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 35,000 French (25,000 infantry, 10,000 cavalry); side B: 25,000 Russians (19,000 infantry, 6,000 cavalry). Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "razout-local-attack"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Ney; side B under Tuchkov I. Chambray identifies Razout’s leading division attacking across the stream within Ney’s advance.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "russian-opening-late-infantry"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 35,000 French (25,000 infantry, 10,000 cavalry); side B: 25,000 Russians (19,000 infantry, 6,000 cavalry). Side B: Boutourlin gives Major-General Tuchkov 2,400 infantry initially and a cumulative 15,200 under arms at the end.",
+        "command_claim_ids": [
+          "bodart-command",
+          "barclay-rearguard-direction"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Ney; side B under Tuchkov I. Chambray describes Barclay returning to direct the rearguard resistance, alongside Korf’s prior delaying role.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t1-ocr-v1",
+      "chambray-1823-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French own-side local all-arms count missing; Boutourlin’s enemy estimate is formation-based and its editor contests Gudin’s number, so not adopted as our reconstruction. Russian 2,400 initial/15,200 cumulative infantry, Korf/Barclay and the two Tuchkov ranks remain distinct."
+    ]
+  }
+}

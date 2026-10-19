@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "battle_id": "B433b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Ostrowno interval 1812-07-25–1812-07-27 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 28,000 French (21,000 infantry, 7,000 cavalry); side B: 20,000 Russians (12,000 infantry, 8,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 28,000 French (21,000 infantry, 7,000 cavalry); side B: 20,000 Russians (12,000 infantry, 8,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p433",
+          "locator": "Bodart (1908), p. 433, Ostrowno; full retained image inspected",
+          "quote": "Sieg der Franzosen (35 Btln., 44 Esk. = 21.000 Inft., 7.000 Kav., zus. 28.000 M.) unter Marschall König Murat über die Russen (24 Btln., 64 Esk., 2 Kosaken-Regmt. = 12.000 Inft., 8.000 Kav., zus. 20.000 M.) unter Gen.-Lt. Konownitzyn."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Murat; side B under Konownitzyn.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Murat; side B: Konownitzyn.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p433",
+          "locator": "Bodart (1908), p. 433, Ostrowno; full retained image inspected",
+          "quote": "Sieg der Franzosen (35 Btln., 44 Esk. = 21.000 Inft., 7.000 Kav., zus. 28.000 M.) unter Marschall König Murat über die Russen (24 Btln., 64 Esk., 2 Kosaken-Regmt. = 12.000 Inft., 8.000 Kav., zus. 20.000 M.) unter Gen.-Lt. Konownitzyn."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p433",
+          "locator": "Bodart (1908), p. 433, Ostrowno; full retained image inspected",
+          "quote": "Sieg der Franzosen (35 Btln., 44 Esk. = 21.000 Inft., 7.000 Kav., zus. 28.000 M.) unter Marschall König Murat über die Russen (24 Btln., 64 Esk., 2 Kosaken-Regmt. = 12.000 Inft., 8.000 Kav., zus. 20.000 M.) unter Gen.-Lt. Konownitzyn."
+        }
+      ]
+    },
+    {
+      "id": "ostermann-first-day-strength",
+      "dimension": "strength",
+      "value": "Side B: Boutourlin gives Ostermann about 11,000 in the first-day combat before Delzons’s reinforcement arrived.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "One phase of full 25–27-July interval, not Bodart’s full 20,000 or a count for each day. English rendering (ours): \"Count Ostermann had sustained the combat for several hours with about eleven thousand men.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p217-figures-v1",
+          "section": "p217-s1",
+          "locator": "bout0, printed p. 217, Internet Archive leaf 230; retained page image inspected",
+          "quote": "Le comte Ostermann, qui depuis plusieurs heures soutenait le combat avec environ 11 mille hommes"
+        }
+      ]
+    },
+    {
+      "id": "reinforced-russian-alternative",
+      "dimension": "strength",
+      "value": "Side B: Chambray gives the reinforced Ostermann force about 25,000, including 5,000 cavalry.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French enemy estimate after reinforcement, not identical time/population to Boutourlin’s first-day 11,000 or Bodart’s 20,000. English rendering (ours): \"Barclay reinforced him with Konovnitsyn’s division, bringing his troops to about twenty-five thousand, including five thousand cavalry.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p93-figures-v1",
+          "section": "p93-s1",
+          "locator": "cham1, printed p. 93, Internet Archive leaf 102; retained page image inspected",
+          "quote": "Barklay le renforça avec la division Konownitzin, ce qui porta les troupes sous ses ordres à environ vingt-cinq mille hommes, dont cinq mille de cavalerie"
+        }
+      ]
+    },
+    {
+      "id": "murat-delzons-task",
+      "dimension": "responsibility",
+      "value": "Chambray has Murat directing Delzons to cross the ravine and advance against the enemy.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Murat ordered him to cross the ravine and advance against the enemy.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p93-selections-v1",
+          "section": "p93-s1",
+          "locator": "cham1, printed p. 93, Internet Archive leaf 102; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Murât lui ordonne de passer le ravin et de marcher à l'ennemi"
+        }
+      ]
+    },
+    {
+      "id": "french-ravine-attack",
+      "dimension": "posture",
+      "value": "Chambray describes the French attack across the ravine.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "One phase, not an inference that every encounter in the three-day interval shared identical deployment. English rendering (ours): \"Cross the ravine and advance against the enemy.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p93-selections-v1",
+          "section": "p93-s1",
+          "locator": "cham1, printed p. 93, Internet Archive leaf 102; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Murât lui ordonne de passer le ravin et de marcher à l'ennemi"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "ostermann-local-command",
+      "dimension": "responsibility",
+      "value": "Boutourlin names Ostermann as first-day local Russian commander.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart’s Konownitzyn label and later reinforced command scope remain distinct; no uninterrupted sole authority inferred. English rendering (ours): \"Count Ostermann had sustained the combat for several hours.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t1-russia1812-p217-selections-v1",
+          "section": "p217-s1",
+          "locator": "bout0, printed p. 217, Internet Archive leaf 230; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le comte Ostermann, qui depuis plusieurs heures soutenait le combat"
+        }
+      ]
+    },
+    {
+      "id": "ravine-river-woods",
+      "dimension": "terrain",
+      "value": "Chambray describes the Russian line behind a ravine, right on the Dvina and left on thick woods.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"Ostermann’s corps stood behind the ravine, right resting on the Dvina, left on thick woods.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p93-selections-v1",
+          "section": "p93-s2",
+          "locator": "cham1, printed p. 93, Internet Archive leaf 102; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le corps d'Osterman était placé derrière ce ravin , la droite appuyée à la Dwina , la gauche à des bois épais"
+        }
+      ]
+    },
+    {
+      "id": "pahlen-late-rearguard",
+      "dimension": "responsibility",
+      "value": "Chambray describes Barclay replacing the worn Ostermann corps with a new rearguard under Pahlen for the next day’s approach to Vitebsk.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Late phase within 25–27 July. Konovnitsyn reinforcement/command and Ostermann/Pahlen roles are not silently flattened into one commander; exact handover clock unset. English rendering (ours): \"Ostermann’s corps having suffered greatly, Barclay replaced it with a new rearguard under Pahlen.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t1-russia1812-p94-selections-v1",
+          "section": "p94-s1",
+          "locator": "cham1, printed p. 94, Internet Archive leaf 103; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le corps d'Osterman ayant beaucoup souf- fert, Barklay composa pour le remplacer une"
+        },
+        {
+          "source_id": "chambray-1823-t1-russia1812-p95-selections-v1",
+          "section": "p95-s1",
+          "locator": "cham1, printed p. 95, Internet Archive leaf 104; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "nouvelle arrière-garde , qu'il mit sous les ordres de Pahlen"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Full 25–27-July interval retained. Russian 11,000 first phase, reinforced enemy estimate 25,000 and Bodart 20,000 are unmerged. French local own-side people total and exact Ostermann/Konovnitsyn succession remain unknown.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 28,000 French (21,000 infantry, 7,000 cavalry); side B: 20,000 Russians (12,000 infantry, 8,000 cavalry). Side A: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "murat-delzons-task"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Konownitzyn. Chambray has Murat directing Delzons to cross the ravine and advance against the enemy.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "ostermann-first-day-strength",
+          "reinforced-russian-alternative"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 28,000 French (21,000 infantry, 7,000 cavalry); side B: 20,000 Russians (12,000 infantry, 8,000 cavalry). Side B: Boutourlin gives Ostermann about 11,000 in the first-day combat before Delzons’s reinforcement arrived. Side B: Chambray gives the reinforced Ostermann force about 25,000, including 5,000 cavalry.",
+        "command_claim_ids": [
+          "bodart-command",
+          "ostermann-local-command",
+          "pahlen-late-rearguard"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Murat; side B under Konownitzyn. Boutourlin names Ostermann as first-day local Russian commander. Chambray describes Barclay replacing the worn Ostermann corps with a new rearguard under Pahlen for the next day’s approach to Vitebsk.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t1-ocr-v1",
+      "chambray-1823-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Full 25–27-July interval retained. Russian 11,000 first phase, reinforced enemy estimate 25,000 and Bodart 20,000 are unmerged. French local own-side people total and exact Ostermann/Konovnitsyn succession remain unknown."
+    ]
+  }
+}

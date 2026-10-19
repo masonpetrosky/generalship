@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "battle_id": "B444a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Krasnoi interval 1812-11-15–1812-11-19 preserved. Russian-calendar dates in Boutourlin are retained with Gregorian conversions explicitly labelled (+12 days in 1812). Tactical/campaign replacement boundaries remain unset. Adjacent field encounters, siege/blockade and crossings remain distinct, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A: 50,000 French; side B: 90,000 Russians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bodart compilation populations retained as printed, with available/engaged, irregulars and phase exclusions explicit. Not a matched dated local return. English rendering (ours): \"Bodart side A: 50,000 French; side B: 90,000 Russians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p444",
+          "locator": "Bodart (1908), p. 444, Krasnoi; full retained image inspected",
+          "quote": "90.000 | — | 50.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon; side B under Kutusow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Labels do not establish continuous local authority, contingent scope or replacement boundaries. English rendering (ours): \"Side A: Napoleon; side B: Kutusow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p444",
+          "locator": "Bodart (1908), p. 444, Krasnoi; full retained image inspected",
+          "quote": "FM. Fürst Kutusow | Napoleon I."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution; numerical losses in source quote not adopted as strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p444",
+          "locator": "Bodart (1908), p. 444, Krasnoi; full retained image inspected",
+          "quote": "Russen | Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "smolensk-arrival-table",
+      "dimension": "strength",
+      "value": "Side A: Chambray’s preceding Smolensk-arrival table gives 37,000 infantry and 5,100 cavalry, excluding artillery.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Arrival dates vary by corps before Krasnoi, not a simultaneous 15-November opening return. Printed cavalry rows 2,000+1,900+1,200=5,100 and infantry rows 14,000+10,000+6,000+5,000+800+700+500=37,000 checked; no casualty subtraction into a new strength. English rendering (ours): \"Combatants of the Moscow army’s corps on their arrival at Smolensk: totals thirty-seven thousand infantry and five thousand one hundred cavalry, excluding artillery.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p195-figures-v1",
+          "section": "p195-s1",
+          "locator": "cham2, printed p. 195, Internet Archive leaf 201; retained page image inspected",
+          "quote": "Nombre de combattans des différens corps de l’armée de Moskou le jour de leur arrivée à Smolensk. Totaux: Infanterie, non compris l’artillerie, 37,000; Cavalerie, non compris l’artillerie, 5,100."
+        }
+      ]
+    },
+    {
+      "id": "napoleon-katova-deployment",
+      "dimension": "responsibility",
+      "value": "Chambray describes Napoleon’s deployment between Katova and Krasnoi, covering retreating Davout divisions.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Multi-day operation, not sole control or additive credit for each corps/encounter. English rendering (ours): \"Napoleon rested his left on the Katova ravine, his right before Krasnoi.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p208-selections-v1",
+          "section": "p208-s1",
+          "locator": "cham2, printed p. 208, Internet Archive leaf 214; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Napoléon appuyait sa gauche au ravin qui passe à Katowa, sa droite était en avant de Krasnoi"
+        }
+      ]
+    },
+    {
+      "id": "katova-ravine",
+      "dimension": "terrain",
+      "value": "Chambray places the French left by the Katova ravine parallel to the main road.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Deployment is commander-created; ravine itself inherited. English rendering (ours): \"The left rested on the ravine passing Katova.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p208-selections-v1",
+          "section": "p208-s1",
+          "locator": "cham2, printed p. 208, Internet Archive leaf 214; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "Napoléon appuyait sa gauche au ravin qui passe à Katowa, sa droite était en avant de Krasnoi"
+        }
+      ]
+    },
+    {
+      "id": "russian-local-versus-main-army",
+      "dimension": "responsibility",
+      "value": "Boutourlin distinguishes Miloradovich’s local covering corps and Raevsky’s pursuit from the Russian army’s cantoned main body.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same page separately places main army at Jurova and names Raevsky; BodartKutusov is superior scope, not proof all 90,000 engaged. English rendering (ours): \"Miloradovich withdrew to Ugramova, leaving only his Cossacks on the main road.\"",
+      "citations": [
+        {
+          "source_id": "boutourlin-1824-t2-russia1812-p210-selections-v1",
+          "section": "p210-s1",
+          "locator": "bout1, printed p. 210, Internet Archive leaf 219; retained page image inspected; exact page-bounded OCR selection, spelling retained",
+          "quote": "le général Miloradowich se replia à Ou- gramowa, ne laissant que ses kosaques sur la grande route"
+        }
+      ]
+    },
+    {
+      "id": "ney-late-crossing-direction",
+      "dimension": "responsibility",
+      "value": "Chambray describes Ney directing the Dnieper passage between Syrokorenie and Gusinoe on the night 18–19 November.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Separated image excerpts, not a continuous full paragraph. Late-phase remnant crossing, not an opening strength or an additional independent campaign outcome. Source’s later 21 November reunion is outside the frozen endpoint and not merged into it. English rendering (ours): \"Ney decided to cross between Syrokorenie and Gusinoe; this passage occurred during the night of the eighteenth to nineteenth of November.\"",
+      "citations": [
+        {
+          "source_id": "chambray-1823-t2-russia1812-p229-figures-v1",
+          "section": "p229-s1",
+          "locator": "cham2, printed p. 229, Internet Archive leaf 235; retained page image inspected",
+          "quote": "Ney se décida à effectuer son passage dans un endroit situé entre les villages de Syrokorenie et Gusinoe. Ce passage extraordinaire s’effectua pendant la nuit du 18 au 19 novembre"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "posture-unknown",
+      "dimension": "posture",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for the full frozen engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "15–19-November frozen interval retained. Earlier Smolensk arrival42,100 excluding artillery is not a simultaneous Krasnoi opening strength. No matched Russian own-side local total; Kutusov/main army, Miloradovich/Raevsky and French multiple corps/guard roles remain distinct.",
+    "Original dated local returns/orders uninspected; own-side national retrospective histories still mediate allied contingents and original witnesses. Numerical agreement is not independent corroboration.",
+    "Bodart is a later compilation. Volumes, copies and embedded reports remain one family. Primary verification establishes extraction and provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "smolensk-arrival-table"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 50,000 French; side B: 90,000 Russians. Side A: Chambray’s preceding Smolensk-arrival table gives 37,000 infantry and 5,100 cavalry, excluding artillery.",
+        "command_claim_ids": [
+          "bodart-command",
+          "napoleon-katova-deployment",
+          "ney-late-crossing-direction"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Kutusow. Chambray describes Napoleon’s deployment between Katova and Krasnoi, covering retreating Davout divisions. Chambray describes Ney directing the Dnieper passage between Syrokorenie and Gusinoe on the night 18–19 November.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, reinforcement and surviving populations remain distinct. Bodart side A: 50,000 French; side B: 90,000 Russians. Side B: no matched own-side local people total established in bounded passages. Formation names, later losses/prisoners, reinforcements and wider army strength do not supply a missing opening return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "russian-local-versus-main-army"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon; side B under Kutusow. Boutourlin distinguishes Miloradovich’s local covering corps and Raevsky’s pursuit from the Russian army’s cantoned main body.",
+        "army_continuity": "Unknown: no cross-engagement army identity established; repeated names and campaign membership do not establish continuity or additive credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "boutourlin-1824-t2-ocr-v1",
+      "chambray-1823-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both sides addressed with image-inspected observations, source-specific alternatives or explicit unknowns in preassigned families. Campaign-wide primary verification; no deeper follow-up cycle, independent review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "15–19-November frozen interval retained. Earlier Smolensk arrival42,100 excluding artillery is not a simultaneous Krasnoi opening strength. No matched Russian own-side local total; Kutusov/main army, Miloradovich/Raevsky and French multiple corps/guard roles remain distinct."
+    ]
+  }
+}

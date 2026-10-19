@@ -9,6 +9,14 @@ bytes, rights and dependence metadata.
 
 One new manual source record, `oman-1911-t4-1811-p632-figures-v2`, binds the existing unchanged Oman IV p632 image and parent. It preserves the 20,358 printed summary alongside the officer/men and Portuguese totals summing to 20,650. Difference 292 matches the KGL artillery row, explicitly an arithmetic/table inference rather than an actual muster correction. All v1 records and bytes remain unchanged. Registry: **4,238 sources**, with **162 additions** across the Peninsula 1811 pass and correction. See the [v2 record](research/peninsula-1811-correction-v2.md).
 
+## Russia 1812 first pass, 2026-10-19
+
+The [campaign record](research/russia-1812-first-pass-v1.md) appends **223 records**, reaching **4,547**: six complete unmodified OCR parents, six metadata responses, six scan maps, 86 cited historical page images, 15 title/preface images, 64 exact-range narrative-selection files (111 passages) and 40 manual numerical-transcription files. Earlier 4,324 records and pinned bytes remain immutable.
+
+Printed titles identify Chambray I/II (Paris, 1823; anonymous M*** with archive/library attribution), Boutourlin I/II (Paris/St Petersburg, 1824), Droysen I (Berlin, second unchanged edition, 1851), and Hauthal (Leipzig, second edition, 1859). Preface dates are distinct from edition dates. Historical publications predate 1930; no modern archive licence asserted. Boutourlin's Russian views and explicit Russian-calendar convention, Droysen's fragmentary/copied papers, Hauthal's patriotic framing/Cerrini dependence and allied-contingent mediation are retained. No original returns/orders were separately inspected, and embedded documents/copies are not independent families.
+
+All adopted passages/numbers were checked on retained registered images. Narrative selections preserve exact page-bounded half-open parent ranges, whitespace collapsed only; manual numerical transcriptions retain population/time distinctions and discrepancies. A duplicate Chambray tome-II scan and unused images supply no claim and remain outside the repository. The [raw notes](../data/raw/napoleonic-russia-1812-v1/NOTES.md) and [primary record](../data/raw/napoleonic-russia-1812-v1/primary-verification-v1.json) retain reading scope, image/parent hashes, arithmetic and digit-flag dispositions. Full books are navigation snapshots, not full-book reading claims. Use is draft evidence only; no feature admission.
+
 ## Peninsula 1812 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1812-first-pass-v1.md) appends **86 records**, reaching **4,324**: two unmodified full OCR parents, two metadata responses, two scan maps, 34 cited historical page images, two title images, 25 exact-range narrative-selection files (40 passages) and 19 manual numerical-transcription files. All 4,238 earlier records and pinned bytes remain unchanged; existing Belmas I, Suchet II, Toreno IV/V and Oman V parents are reused.
