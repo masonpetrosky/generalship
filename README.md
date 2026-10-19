@@ -42,14 +42,16 @@ As of 2026-10-19:
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
   war against Prussia, the 19 of the 1807 group, and the Peninsula groups of 1808 (17) and
   1809 (19), 1810 (11), 1811 (19) and 1812 (8), plus the Fifth Coalition of 1809 (36),
-  Russia 1812 (31) and Liberation 1813 (52), have drafts: **261/325 across twelve complete groups**,
+  Russia 1812 (31), Liberation 1813 (52) and Peninsula 1813 (12), have drafts: **273/325 across thirteen complete groups**,
   primary-verified by campaign.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
   were weakly recovered on the provisional label schedule. No historical outcome was fitted.
   The [Liberation 1813 pass](docs/research/liberation-1813-first-pass-v1.md) preserves daily force
   and command changes, conflicting counts and the complete fortress intervals through May 1814.
-  Next: the 12 entries of `peninsula 1813` ([roadmap](docs/roadmap.md)).
+  The [Peninsula 1813 pass](docs/research/peninsula-1813-first-pass-v1.md) keeps initial, engaged,
+  siege and covering forces separate and preserves chronology disputes. Next: the 34 entries of
+  `liberation 1814` ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

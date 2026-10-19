@@ -41,7 +41,7 @@ registry, and the worked campaign specification remains not estimable. All resul
 are retained. Compact packets, brief v3's checklist and reproducible research screens are in
 use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or subagent ran.
 
-**Research coverage:** 261 of 325 entries in twelve of 16 complete groups, all primary-verified:
+**Research coverage:** 273 of 325 entries in thirteen of 16 complete groups, all primary-verified:
 
 | Group | Drafts | Recorded usage |
 | --- | ---: | ---: |
@@ -57,11 +57,14 @@ use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or
 | `peninsula 1812` | 8 | unavailable; no complete meter exposed |
 | `russia-1812 1812` | 31 | unavailable; no complete meter exposed |
 | `liberation 1813` | 52 | unavailable; no complete meter exposed |
+| `peninsula 1813` | 12 | unavailable; no complete meter exposed |
 
 The [research log](research-log.md) retains every batch, whole-group check and correction.
-The remaining 64 entries have no drafts. The [Liberation 1813 pass](research/liberation-1813-first-pass-v1.md)
-preserves the complete 52-entry group, including null-dated Küstrin and blockades ending in 1814.
-Next: `peninsula 1813` (12 entries), using brief v3's field checklist and stopping rule.
+The remaining 52 entries have no drafts: `liberation 1814` (34), `peninsula 1814` (3) and
+`hundred-days-1815 1815` (15). The [Peninsula 1813 pass](research/peninsula-1813-first-pass-v1.md)
+preserves all twelve intervals, source-specific force populations, command succession and chronology
+alternatives. Next: `liberation 1814` (34 entries), using brief v3's field checklist and stopping rule.
+This is source research; the final numerical evaluation reservation below remains unchanged.
 The [1808 pass](research/peninsula-1808-first-pass-v1.md) records two source-family effort
 overruns; its dossier screen does not erase them. Fix source-family assignments before substantive
 reading in every new pass, as the [1809 pass](research/peninsula-1809-first-pass-v1.md) did.

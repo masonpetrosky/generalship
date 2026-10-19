@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1813 first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1813-first-pass-v1.md) appends **190 records**, reaching **4,993**: two complete unmodified OCR parents, two metadata responses, two scan maps, 74 historical page images, 13 title/preface images, 69 exact-range narrative files (140 anchor/context sections) and 28 manual-transcription files. Unchanged Oman VI and Suchet II parents are reused; the old 4,803 registry records and bytes remain pinned.
+
+Printed titles identify Oman VII (Oxford, 1930; the catalogue’s 1902 is a series date) and Lapène (Paris/Toulouse, 1823, French despite a German catalogue label). Oman VII uses the brief’s author-dead-more-than-70-years alternative, with pinned library life dates 1860–1946. Lapène’s preface claims Taupin artillery command and eyewitness/documentary access while explicitly praising the French army. Retrospective national interests, mediated other contingents and uninspected original returns/orders remain visible; volumes and embedded reports do not add families.
+
+All adopted passages and figures were inspected on retained images. Narrative context rebuilds from exact parent ranges; manual image transcriptions retain original-language quantities and image corrections, including the Urugne 1793/OCR 1795 distinction and Pampeluna’s printed 23 October. [Raw notes](../data/raw/napoleonic-peninsula-1813-v1/NOTES.md) and the [primary record](../data/raw/napoleonic-peninsula-1813-v1/primary-verification-v1.json) retain the page inventory, reading scope, hashes, arithmetic and 22 visible digit-flag dispositions. Draft evidence only; no feature admission.
+
 ## Liberation 1813 first pass, 2026-10-19
 
 The [campaign record](research/liberation-1813-first-pass-v1.md) appends **256 records**, reaching **4,803**: six complete unmodified OCR parents, six item-metadata responses, six scan maps, 95 cited historical page images, 18 title/preface images, 77 exact-range narrative-context files (143 anchor/context sections) and 48 manual-transcription files. Previous 4,547 registry records and bytes remain unchanged.

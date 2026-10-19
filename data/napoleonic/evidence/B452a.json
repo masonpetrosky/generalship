@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "battle_id": "B452a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Vitoria interval 1813-06-21–1813-06-21 preserved. Tactical/campaign replacement boundaries unset. Daily operations and siege/relief engagements remain separate; no additive campaign or commander credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French): 51,000 infantry and 9,000 cavalry=60,000 men; side B: 78,000 infantry and 12,000 cavalry=90,000 men.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation convention: available battle forces rounded up, with printed engaged/initial/siege/covering scopes explicitly retained. Not matched local returns. English rendering (ours): \"Bodart: side A (French): 51,000 infantry and 9,000 cavalry=60,000 men; side B: 78,000 infantry and 12,000 cavalry=90,000 men.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "Streitkräfte:"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "78.000 | Infanterie | 51.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "12.000 | Kavallerie | 9.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "90 Gesch. 90.000 [1] | Gesamt-Stärke | 60.000 Gesch. 144"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "[1] hievon 42.000 Briten „ 25.000 Portugiesen „ 23.000 Spanier zus. 90.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart labels side A: König Joseph; side B: Genliss. Lord Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Frozen compilation labels; local, superior and contingent authority require additional evidence. No equal commander credit inferred. English rendering (ours): \"Bodart labels side A: König Joseph; side B: Genliss. Lord Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "Genliss. Lord Wellington | König Joseph"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Winner convention unchanged. No losses adopted as opening forces. English rendering (ours): \"Bodart places side B first as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,Vitoria; full retained image inspected",
+          "quote": "Anglo-Portugiesen und Spanier | Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "lapene-infantry",
+      "dimension": "strength",
+      "value": "Side A: Lapène gives 45,000 bayonets for the infantry then at Vitoria, excluding the detachments he describes.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side retrospective infantry population; not all arms or an original dated return. English rendering (ours): \"The army’s infantry was then reduced to 45,000 bayonets.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p35-figures-v1",
+          "section": "p35-s1",
+          "locator": "lap, printed p. 35, Internet Archive leaf 40; retained full page image inspected",
+          "quote": "L’infanterie de l’armée se réduisait alors à 45,000 baïonnettes"
+        }
+      ]
+    },
+    {
+      "id": "oman-allied-count",
+      "dimension": "strength",
+      "value": "Side B: Oman’s battle comparison gives 75,000, excluding Pakenham and Giron but including Longa and Morillo.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "British retrospective comparison, not equivalent to Bodart 90,000 available. Source-specific exclusions retained.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p388-figures-v1",
+          "section": "p388-s1",
+          "locator": "o6, printed p. 388, Internet Archive leaf 411; retained full page image inspected",
+          "quote": "he fought with a superiority of 75,000 to 57,000, not with two to one"
+        },
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p388-figures-v1",
+          "section": "p388-s2",
+          "locator": "o6, printed p. 388, Internet Archive leaf 411; retained full page image inspected",
+          "quote": "Not counting Pakenham and Giron, but including Longa and Morillo."
+        }
+      ]
+    },
+    {
+      "id": "oman-french-count",
+      "dimension": "strength",
+      "value": "Side A: Oman’s same battle comparison gives 57,000 French, an opponent estimate.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Separate from Lapène’s infantry-only 45,000 and Bodart’s available 60,000; no average.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p388-figures-v1",
+          "section": "p388-s1",
+          "locator": "o6, printed p. 388, Internet Archive leaf 411; retained full page image inspected",
+          "quote": "he fought with a superiority of 75,000 to 57,000, not with two to one"
+        }
+      ]
+    },
+    {
+      "id": "lapene-council",
+      "dimension": "responsibility",
+      "value": "Side A: Jourdan favoured withdrawal to the Salinas heights; the commanders of the component armies opposed it and the decision was to remain near Vitoria.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "French retrospective account; no equal credit inferred. Bodart’s Joseph label does not erase Jourdan’s role. English rendering (ours): \"Jourdan favoured the latter course; the commanders of the South, Centre and Portugal armies disagreed; their view to stay around Vitoria was adopted.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p35-selections-v1",
+          "section": "p35-s1",
+          "locator": "lap, printed p. 35, Internet Archive leaf 40; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le'marechal Jourdan 'pen- chait pour le'dernieripartiy"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p36-selections-v1",
+          "section": "p36-s1",
+          "locator": "lap, printed p. 36, Internet Archive leaf 41; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Les considerations exposees par le marechal n’ob- tiennent point l’assentiment desgenerauxenchefdes arımees partielles du Midi, du Centre et du Portugal"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p36-selections-v1",
+          "section": "p36-s2",
+          "locator": "lap, printed p. 36, Internet Archive leaf 41; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "opinent pour-rester en.place au-dessus et autourde Vittoria. Ge dernier avis est adopte"
+        }
+      ]
+    },
+    {
+      "id": "oman-king-decision",
+      "dimension": "responsibility",
+      "value": "Side A: Oman quotes Jourdan as saying the King resolved after consideration to stand at Vitoria.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Jourdan testimony mediated through Oman, not independently inspected memoir original.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p388-selections-v1",
+          "section": "p388-s1",
+          "locator": "o6, printed p. 388, Internet Archive leaf 411; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "After mature consideration of the circumstance the King resolved to stand fast at Vittoria"
+        }
+      ]
+    },
+    {
+      "id": "oman-allied-command",
+      "dimension": "responsibility",
+      "value": "Side B: Wellington planned the general attack; Hill led the southern attack and Graham the detached northern column.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Subordinate columns and overall decision distinguished.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p395-selections-v1",
+          "section": "p395-s1",
+          "locator": "o6, printed p. 395, Internet Archive leaf 418; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Wellington spent the 20th in arranging for the general attack, which he had determined to deliver if Joseph stood his ground"
+        },
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p395-selections-v1",
+          "section": "p395-s2",
+          "locator": "o6, printed p. 395, Internet Archive leaf 418; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Hill, with the large 2nd Division"
+        },
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p396-selections-v1",
+          "section": "p396-s1",
+          "locator": "o6, printed p. 396, Internet Archive leaf 419; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Graham's column-head was at Olano"
+        }
+      ]
+    },
+    {
+      "id": "oman-offensive",
+      "dimension": "posture",
+      "value": "Side B attacked the French position according to Wellington’s general plan.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Source-specific retrospective observation, not admitted as a model feature.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p395-selections-v1",
+          "section": "p395-s1",
+          "locator": "o6, printed p. 395, Internet Archive leaf 418; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Wellington spent the 20th in arranging for the general attack, which he had determined to deliver if Joseph stood his ground"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "lapene-convoy",
+      "dimension": "logistics",
+      "value": "Lapène reports the baggage vehicles remained crowded together at Vitoria before the battle.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reported congestion, not a quantified causal effect. English rendering (ours): \"Thousands of baggage and luxury vehicles remained piled together at Vitoria.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p36-selections-v1",
+          "section": "p36-s3",
+          "locator": "lap, printed p. 36, Internet Archive leaf 41; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Des milliers de voitures d’equipages et deluxe, qui, depuis la reprise des, operations actives, encombraient la marche de l’armee, restent de me- me entasses pele-mele a Vittoria"
+        }
+      ]
+    },
+    {
+      "id": "oman-terrain",
+      "dimension": "terrain",
+      "value": "The Vitoria battlefield was rolling ground drained by the narrow Zadorra rather than an entirely flat plain.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source-specific retrospective observation, not admitted as a model feature.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p384-selections-v1",
+          "section": "p384-s1",
+          "locator": "o6, printed p. 384, Internet Archive leaf 407; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "is a plain only by comparison with the high hills which surround it on all sides, being an oval expanse of rolling ground drained by the swift and narrow Zadorra river"
+        }
+      ]
+    },
+    {
+      "id": "oman-uncertain-opponent",
+      "dimension": "information",
+      "value": "Oman says Wellington overestimated Reille’s force without knowing Maucune had departed.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Retrospective account of a specific knowledge gap, not complete information sets.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p396-selections-v1",
+          "section": "p396-s2",
+          "locator": "o6, printed p. 396, Internet Archive leaf 419; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Wellington over-estimated Reille's force, which Graham had to fight, not knowing of Maucune's departure"
+        }
+      ]
+    },
+    {
+      "id": "oman-flank-objective",
+      "dimension": "objectives",
+      "value": "Wellington intended a detached turning force against the French flank and rear.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source-specific retrospective observation, not admitted as a model feature.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-peninsula1813-p395-selections-v1",
+          "section": "p395-s3",
+          "locator": "o6, printed p. 395, Internet Archive leaf 418; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "he intended to operate with a great detached turning force against the enemy's flank and rear"
+        }
+      ]
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension; no inference from outcome, reputation or adjacent engagement.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Own-side original local all-arms returns remain missing. Lapène 45,000 bayonets, Oman 57,000 French/75,000 allied and Bodart 60,000/90,000 are distinct populations. Army commanders’ detailed local authority and whether named city works were used in this field action remain unresolved.",
+    "Original local returns and orders uninspected. Oman mediates British/Portuguese/Spanish reports; French memoirs and national retrospective accounts mediate opponent figures. Embedded reports and volumes are not additional independent families.",
+    "Frozen winner and cohort unchanged. Primary verification checks extraction/provenance, not historical truth or causal identification. No features, army identities or ratings admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "lapene-infantry",
+          "oman-french-count"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 51,000 infantry and 9,000 cavalry=60,000 men; side B: 78,000 infantry and 12,000 cavalry=90,000 men. Side A: Lapène gives 45,000 bayonets for the infantry then at Vitoria, excluding the detachments he describes. Side A: Oman’s same battle comparison gives 57,000 French, an opponent estimate.",
+        "command_claim_ids": [
+          "bodart-command",
+          "lapene-council",
+          "oman-king-decision"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: König Joseph; side B: Genliss. Lord Wellington. Side A: Jourdan favoured withdrawal to the Salinas heights; the commanders of the component armies opposed it and the decision was to remain near Vitoria. Side A: Oman quotes Jourdan as saying the King resolved after consideration to stand at Vitoria.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-allied-count"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 51,000 infantry and 9,000 cavalry=60,000 men; side B: 78,000 infantry and 12,000 cavalry=90,000 men. Side B: Oman’s battle comparison gives 75,000, excluding Pakenham and Giron but including Longa and Morillo.",
+        "command_claim_ids": [
+          "bodart-command",
+          "oman-allied-command"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: König Joseph; side B: Genliss. Lord Wellington. Side B: Wellington planned the general attack; Hill led the southern attack and Graham the detached northern column.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both side checklists addressed with source-specific observations, alternatives or explicit unknowns within preassigned families. Whole-campaign primary verification; deeper research requires a named admission or attribution decision.",
+    "deferred_decision_relevant_gaps": [
+      "Own-side original local all-arms returns remain missing. Lapène 45,000 bayonets, Oman 57,000 French/75,000 allied and Bodart 60,000/90,000 are distinct populations. Army commanders’ detailed local authority and whether named city works were used in this field action remain unresolved."
+    ]
+  }
+}

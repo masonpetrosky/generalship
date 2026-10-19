@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1813 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1813-first-pass-v1.md) adds **12/12 drafts, 183 claims, 13 explicit unknowns and 237 citations**, covering nine dimensions and 24 side checklists. Full frozen intervals, available/engaged/component/garrison/covering populations and local/superior authority remain distinct. La Salud’s initial detachment and reinforcement, San Sebastián’s siege/covering forces, Nivelle’s internal population-label ambiguity and Pampeluna’s 23/31 October alternative are retained.
+
+Pre-reading three-family assignments match all twelve final sets: Bodart, Oman and Suchet or Lapène. Only La Salud used a targeted follow-up, the printed Lamarque report. No fourth family, separate review, subagent or second opinion. The registry appends **190 records**, reaching **4,993**, including two new books, 74 historical page images and 13 title/preface images; the old 4,803 sources and 261 dossiers remain unchanged.
+
+Primary verification binds all final hashes, the 22 visible digit-flag dispositions, arithmetic, refreshed packet, evidence checks, `make reproduce`, `make check` and report inspection. Coverage is **273/325 across 13/16 complete groups**, leaving **52 entries**. No historical/synthetic job or feature admission; calibration remains **47 prepared, unscored**. Usage unavailable. Next: `liberation 1814`, 34 entries; the final numerical evaluation reservation is unchanged.
+
 ## Liberation 1813 complete first pass, 2026-10-19
 
 The [campaign record](research/liberation-1813-first-pass-v1.md) adds **52/52 drafts, 696 claims, 302 explicit unknowns and 447 citations**, with nine dimensions and 104 side completion records. Full frozen intervals include null-dated Küstrin and operations ending in May 1814. Source-specific available/engaged/terminal populations, command succession, chronology and outcome alternatives remain visible; no army continuity or replacement boundary is invented.

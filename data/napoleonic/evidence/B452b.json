@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "battle_id": "B452b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen La Salud interval 1813-07-09–1813-07-09 preserved. Tactical/campaign replacement boundaries unset. Daily operations and siege/relief engagements remain separate; no additive campaign or commander credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French): 4,000 men; side B: 7,000 men.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation convention: available battle forces rounded up, with printed engaged/initial/siege/covering scopes explicitly retained. Not matched local returns. English rendering (ours): \"Bodart: side A (French): 4,000 men; side B: 7,000 men.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,La Salud; full retained image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Gf. Lamarque über die Spanier (7.000 M.) unter Gen.-Lt. Baron d'Eroles."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart labels side A: Div.-Gen. Gf. Lamarque; side B: Gen.-Lt. Baron d'Eroles.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Frozen compilation labels; local, superior and contingent authority require additional evidence. No equal commander credit inferred. English rendering (ours): \"Bodart labels side A: Div.-Gen. Gf. Lamarque; side B: Gen.-Lt. Baron d'Eroles.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,La Salud; full retained image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Gf. Lamarque über die Spanier (7.000 M.) unter Gen.-Lt. Baron d'Eroles."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Winner convention unchanged. No losses adopted as opening forces. English rendering (ours): \"Bodart places side A first as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p452",
+          "locator": "Bodart1908,p.452,La Salud; full retained image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Gf. Lamarque über die Spanier (7.000 M.) unter Gen.-Lt. Baron d'Eroles."
+        }
+      ]
+    },
+    {
+      "id": "lamarque-initial-detachment",
+      "dimension": "strength",
+      "value": "Side A: Lamarque reports forming 1,500 men in the La Salud position during the July 9 retreat.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side report reprinted by Suchet; before Beurmann’s reinforcement, not a total for all phases. English rendering (ours): \"I formed my fifteen hundred men, determined to fight whatever appeared.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p476-figures-v1",
+          "section": "p476-s1",
+          "locator": "s2, printed p. 476, Internet Archive leaf 491; retained full page image inspected",
+          "quote": "Je formai mes quinze cents hommes, déterminé à combattre tout ce qui se présenterait."
+        }
+      ]
+    },
+    {
+      "id": "lamarque-opponent-estimate",
+      "dimension": "strength",
+      "value": "Side B: Lamarque says a prisoner reported 8,000–9,000 men at the position, including brigades under Manso, Fleires, Villamil and a reserve under d’Eroles.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Prisoner hearsay mediated by the opponent’s interested report; not a Spanish own-side return or reconciled with Bodart 7,000. English rendering (ours): \"A prisoner told me the three brigades, cavalry and d’Eroles’s reserve—eight to nine thousand men—were on this point.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-figures-v1",
+          "section": "p477-s1",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected",
+          "quote": "Un prisonnier m’apprit que les trois brigades de Manso, de Fleires, de Villamil, beaucoup de cavalerie, une réserve du baron d’Eroles, composée d’un régiment que les Russes ont renvoyé, c’est-à-dire huit à neuf mille hommes, étaient sur ce point."
+        }
+      ]
+    },
+    {
+      "id": "lamarque-reinforcement",
+      "dimension": "responsibility",
+      "value": "Side A: Lamarque reports to superior Decaen; Beurmann later arrived with reinforcements.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Embedded report one Suchet family. Reinforcement battalions not converted into people or added to the initial count. English rendering (ours): \"Report of division general Lamarque to commander-in-chief Count Decaen; General Beurmann arrived with the reinforcing battalions.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p473-selections-v1",
+          "section": "p473-s1",
+          "locator": "s2, printed p. 473, Internet Archive leaf 488; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Rapport de M. le général de division Lamarque , à S. Exe. le général en chef comte Decaen"
+        },
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p478-selections-v1",
+          "section": "p478-s1",
+          "locator": "s2, printed p. 478, Internet Archive leaf 493; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "le général Beur- mann arriva avec les quatre bataillons du 23e léger et du i i5e"
+        }
+      ]
+    },
+    {
+      "id": "lamarque-spanish-command",
+      "dimension": "responsibility",
+      "value": "Side B: Lamarque identifies Manso, Fleires, Villamil and d’Eroles’s reserve via prisoner information; unified effective command remains unestablished.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Opponent hearsay, no automatic attribution to every named commander. English rendering (ours): \"The three brigades of Manso, Fleires, Villamil, cavalry, and a reserve of Baron d’Eroles.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-figures-v1",
+          "section": "p477-s2",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected",
+          "quote": "les trois brigades de Manso, de Fleires, de Villamil, beaucoup de cavalerie, une réserve du baron d’Eroles"
+        }
+      ]
+    },
+    {
+      "id": "lamarque-spanish-attack",
+      "dimension": "posture",
+      "value": "Side B attacked Lamarque’s La Salud position on July 9.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "July 9 phase only; local French recovery of lost ground and Beurmann’s subsequent relief attack kept distinct. Not proof of a single posture for preceding July 6–8 movements. English rendering (ours): \"I formed my men to fight whatever appeared; the attack began vigorously against the right and centre.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p476-selections-v1",
+          "section": "p476-s1",
+          "locator": "s2, printed p. 476, Internet Archive leaf 491; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Je formai mes quinze cents hommes , déterminé à com- battre tout ce qui se présenterait"
+        },
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-selections-v1",
+          "section": "p477-s1",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "L'attaque commença avec la plus grande viva- cité sur la droite et sur le centre"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "lamarque-ammunition",
+      "dimension": "logistics",
+      "value": "Lamarque says his mountain guns ceased firing for lack of ammunition and cartridge boxes were exhausted.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Observation during battle, not an opening readiness score. English rendering (ours): \"The mountain guns no longer fired for want of ammunition; everywhere cartridges were requested and boxes exhausted.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-selections-v1",
+          "section": "p477-s2",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "nos deux pièces de montagnes ne tiraient plus faute de munitions"
+        },
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p478-selections-v1",
+          "section": "p478-s2",
+          "locator": "s2, printed p. 478, Internet Archive leaf 493; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "tout côté on demandait des cartouches , les caisses étaient épuisées"
+        }
+      ]
+    },
+    {
+      "id": "lamarque-missed-orders",
+      "dimension": "information",
+      "value": "Lamarque says the messengers cancelling Decaen’s planned move on Vich failed to reach him.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The messengers telling me you had abandoned the Vich movement did not reach me.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p473-selections-v1",
+          "section": "p473-s2",
+          "locator": "s2, printed p. 473, Internet Archive leaf 488; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Les émissaires que S. Exe. m'a envoyés de San-Celonï pour m'annoncer que vous aviez renoncé au projet de vous porter sur Vich , ne m'étant pas parvenus"
+        }
+      ]
+    },
+    {
+      "id": "lamarque-rock-position",
+      "dimension": "terrain",
+      "value": "Lamarque describes an immense sheer precipice behind his La Salud position.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Behind us was the immense sheer precipice by which we had climbed.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-selections-v1",
+          "section": "p477-s3",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "ayant derrière nous l'immense précipice coupé à pic par où nous avions gravi"
+        }
+      ]
+    },
+    {
+      "id": "lamarque-no-works",
+      "dimension": "fortification",
+      "value": "The inspected La Salud passages describe heights, ridges and a sheer precipice, with no named works used by either side.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Bounded absence only; not a claim that no works existed. English rendering (ours): \"Monistrol was to occupy the ridges and small heights; a sheer precipice stood behind us.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p476-selections-v1",
+          "section": "p476-s2",
+          "locator": "s2, printed p. 476, Internet Archive leaf 491; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Je chargeai l'adjudant commandant Mo- nistrol de garnir toutes les crêtes et les petits mamelons"
+        },
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p477-selections-v1",
+          "section": "p477-s3",
+          "locator": "s2, printed p. 477, Internet Archive leaf 492; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "ayant derrière nous l'immense précipice coupé à pic par où nous avions gravi"
+        }
+      ],
+      "code": "none_named"
+    },
+    {
+      "id": "lamarque-report-date",
+      "dimension": "information",
+      "value": "The printed La Salud report is signed by Baron Max. Lamarque at Girone on 17 July 1813.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Document date, not battle date. Identifies the embedded retrospective communication used above. English rendering (ours): \"Division general, signed Baron Max. Lamarque, Girone, 17 July 1813.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p480-figures-v1",
+          "section": "p480-s1",
+          "locator": "s2, printed p. 480, Internet Archive leaf 495; retained full page image inspected",
+          "quote": "Le général de division, Signé : baron Max. Lamarque. Girone, 17 juillet 1813."
+        }
+      ]
+    },
+    {
+      "id": "lamarque-vich-objective",
+      "dimension": "objectives",
+      "value": "Lamarque’s earlier orders were to reach the Vich plateau through La Salud; the cancellation failed to reach him.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Earlier task explains the detachment’s presence; not an inferred July 9 attack purpose. English rendering (ours): \"We were to take position below La Salud, by which I was to enter the Vich plateau; you had abandoned the Vich project.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p473-selections-v1",
+          "section": "p473-s3",
+          "locator": "s2, printed p. 473, Internet Archive leaf 488; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "pour nous poster au pied de la position de la Salud , par où je devais pénétrer sur le plateau de Vich"
+        },
+        {
+          "source_id": "suchet-1834-t2-peninsula1813-p473-selections-v1",
+          "section": "p473-s4",
+          "locator": "s2, printed p. 473, Internet Archive leaf 488; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "vous aviez renoncé au projet de vous porter sur Vich"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Initial French 1,500 and later Beurmann reinforcement cannot be equated mechanically to Bodart 4,000; Spanish 8,000–9,000 is prisoner hearsay versus Bodart 7,000. Spanish own-side command/return missing. OmanVI navigation found no LaSaludpassage. Signed report date 17 July retained; event date unchanged.",
+    "Original local returns and orders uninspected. Oman mediates British/Portuguese/Spanish reports; French memoirs and national retrospective accounts mediate opponent figures. Embedded reports and volumes are not additional independent families.",
+    "Frozen winner and cohort unchanged. Primary verification checks extraction/provenance, not historical truth or causal identification. No features, army identities or ratings admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "lamarque-initial-detachment"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 4,000 men; side B: 7,000 men. Side A: Lamarque reports forming 1,500 men in the La Salud position during the July 9 retreat.",
+        "command_claim_ids": [
+          "bodart-command",
+          "lamarque-reinforcement"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: Div.-Gen. Gf. Lamarque; side B: Gen.-Lt. Baron d'Eroles. Side A: Lamarque reports to superior Decaen; Beurmann later arrived with reinforcements.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "lamarque-opponent-estimate"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 4,000 men; side B: 7,000 men. Side B: Lamarque says a prisoner reported 8,000–9,000 men at the position, including brigades under Manso, Fleires, Villamil and a reserve under d’Eroles.",
+        "command_claim_ids": [
+          "bodart-command",
+          "lamarque-spanish-command"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: Div.-Gen. Gf. Lamarque; side B: Gen.-Lt. Baron d'Eroles. Side B: Lamarque identifies Manso, Fleires, Villamil and d’Eroles’s reserve via prisoner information; unified effective command remains unestablished.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "oman-1922-t6-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": true,
+      "decision_it_could_change": "Whether Bodart’s French total is a matched opening force or includes later reinforcements; local authority and July9posture.",
+      "result": "Read SuchetII note34, Lamarque’s report signed Girone17July1813, pp473–480. Initial detachment and later reinforcement separated; no people total inferred from battalions. No fourth family."
+    },
+    "stopping_reason": "All nine dimensions and both side checklists addressed with source-specific observations, alternatives or explicit unknowns within preassigned families. Whole-campaign primary verification; deeper research requires a named admission or attribution decision.",
+    "deferred_decision_relevant_gaps": [
+      "Initial French 1,500 and later Beurmann reinforcement cannot be equated mechanically to Bodart 4,000; Spanish 8,000–9,000 is prisoner hearsay versus Bodart 7,000. Spanish own-side command/return missing. OmanVI navigation found no LaSaludpassage. Signed report date 17 July retained; event date unchanged."
+    ]
+  }
+}

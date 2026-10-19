@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "battle_id": "B460a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen der Bidassoa und Rhune interval 1813-10-07–1813-10-09 preserved. Tactical/campaign replacement boundaries unset. Daily operations and siege/relief engagements remain separate; no additive campaign or commander credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French): 32,000 available; 14,000 came into the fighting; side B: 42,000 available; 32,000 came into the fighting.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation convention: available battle forces rounded up, with printed engaged/initial/siege/covering scopes explicitly retained. Not matched local returns. English rendering (ours): \"Bodart: side A (French): 32,000 available; 14,000 came into the fighting; side B: 42,000 available; 32,000 came into the fighting.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p460",
+          "locator": "Bodart1908,p.460,der Bidassoa und Rhune; full retained image inspected",
+          "quote": "Sieg der Anglo-Portugiesen und Spanier (42.000 M.) unter Generalissimus Lord Wellington über die Franzosen (32.000 M.) unter Marschall Soult."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p460",
+          "locator": "Bodart1908,p.460,der Bidassoa und Rhune; full retained image inspected",
+          "quote": "In den Kampf kamen 32.000 Verbündete gegen 14.000 Franzosen."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart labels side A: Marschall Soult; side B: Generalissimus Lord Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Frozen compilation labels; local, superior and contingent authority require additional evidence. No equal commander credit inferred. English rendering (ours): \"Bodart labels side A: Marschall Soult; side B: Generalissimus Lord Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p460",
+          "locator": "Bodart1908,p.460,der Bidassoa und Rhune; full retained image inspected",
+          "quote": "Sieg der Anglo-Portugiesen und Spanier (42.000 M.) unter Generalissimus Lord Wellington über die Franzosen (32.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Winner convention unchanged. No losses adopted as opening forces. English rendering (ours): \"Bodart places side B first as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p460",
+          "locator": "Bodart1908,p.460,der Bidassoa und Rhune; full retained image inspected",
+          "quote": "Sieg der Anglo-Portugiesen und Spanier (42.000 M.) unter Generalissimus Lord Wellington über die Franzosen (32.000 M.) unter Marschall Soult."
+        }
+      ]
+    },
+    {
+      "id": "bodart-entrenchments",
+      "dimension": "fortification",
+      "value": "Side A held the French entrenchments named on the Bidassoa and Rhune.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Works named; builder and time not established. English rendering (ours): \"French entrenchments on the Bidassoa and French side of La Rhune.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p460",
+          "locator": "Bodart1908,p.460,der Bidassoa und Rhune; full retained image inspected",
+          "quote": "(Französische Schanzen an der Bidassoa [Grenzfluß zwischen Frankreich und Spanien, mündet bei Irun], sowie auf der französischen Seite des Berges La Rhune, 15 km östl. von Irun)."
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "oman-estuary-allied",
+      "dimension": "strength",
+      "value": "Side B: Oman gives some 24,000 men for Wellington’s intended estuary attack, separate from the Rhune sector.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "British own-side retrospective, component of October 7 plan; not whole October 7–9 aggregate.",
+      "citations": [
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p122-figures-v1",
+          "section": "p122-s1",
+          "locator": "o7, printed p. 122, Internet Archive leaf 145; retained full page image inspected",
+          "quote": "Against this thin line Wellington was about to let loose some 24,000 men"
+        }
+      ]
+    },
+    {
+      "id": "oman-maucune",
+      "dimension": "strength",
+      "value": "Side A: Oman gives Maucune’s division 4,000 bayonets in the Biriatou-to-sea sector before the crossing.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Opponent estimate and sector component; reserves and Rhune defenders separate.",
+      "citations": [
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p122-figures-v1",
+          "section": "p122-s2",
+          "locator": "o7, printed p. 122, Internet Archive leaf 145; retained full page image inspected",
+          "quote": "It chanced to be the weakest division in the French army—only 4,000 bayonets in eight battalions."
+        }
+      ]
+    },
+    {
+      "id": "own-french-return-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: Lapène’s bounded passages establish local commanders and works but no complete local people return beyond Bodart; opponent component remains separate.",
+      "citations": []
+    },
+    {
+      "id": "lapene-local-command",
+      "dimension": "responsibility",
+      "value": "Side A: Maucune directed defence of the estuary passages and Taupin the Bayonette/Jolimont camp.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Maucune’s division guarded the crossings; Taupin was entrusted with Jolimont/Bayonette camp.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p117-selections-v1",
+          "section": "p117-s1",
+          "locator": "lap, printed p. 117, Internet Archive leaf 122; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le ge- neral Maucune, dont la division est encore chargee de la defense de ces passages"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p119-selections-v1",
+          "section": "p119-s1",
+          "locator": "lap, printed p. 119, Internet Archive leaf 124; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "La defense du camp de Jolimont ou de la Baion- nette"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p119-selections-v1",
+          "section": "p119-s2",
+          "locator": "lap, printed p. 119, Internet Archive leaf 124; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "tait confiee au general Taupin"
+        }
+      ]
+    },
+    {
+      "id": "lapene-allied-command",
+      "dimension": "responsibility",
+      "value": "Side B: Wellington decided to cross the Bidassoa; Freire led the fourth Spanish army across by Behobie.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own Spanish original uninspected; mediated through French account. English rendering (ours): \"Wellington decided to attempt the river mouth crossing; the fourth Spanish army was under Manuel Freire.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p116-selections-v1",
+          "section": "p116-s1",
+          "locator": "lap, printed p. 116, Internet Archive leaf 121; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Il se decide, sur ces motifs, & tenter le passage de la Bidassoa, proche de son embouchure"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p117-selections-v1",
+          "section": "p117-s2",
+          "locator": "lap, printed p. 117, Internet Archive leaf 122; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "La 4”° arımee,espagnole , aux ordres de’don Ma- nuel Frayre"
+        }
+      ]
+    },
+    {
+      "id": "lapene-allied-offensive",
+      "dimension": "posture",
+      "value": "Side B took the offensive and crossed the lower Bidassoa on October 7.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Opening-day operation; not a single posture assigned to every October 7–9 counteraction. English rendering (ours): \"He decided to cross near the mouth; on 7 Octoberat dawn the enemy crossed opposite Hendaye.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p116-selections-v1",
+          "section": "p116-s1",
+          "locator": "lap, printed p. 116, Internet Archive leaf 121; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Il se decide, sur ces motifs, & tenter le passage de la Bidassoa, proche de son embouchure"
+        },
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p117-selections-v1",
+          "section": "p117-s3",
+          "locator": "lap, printed p. 117, Internet Archive leaf 122; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le 7 octobre, au point du jour, l’ennemi fran- chit la riviere en face d’Hendaye"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "oman-soult-redoubts",
+      "dimension": "fortification",
+      "value": "Side A held river-bank redoubts Soult had ordered thrown up near Biriatou and the Louis XIV height.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Explicit commander construction for river defence; separate from older Urugne works.",
+      "citations": [
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p121-selections-v1",
+          "section": "p121-s1",
+          "locator": "o7, printed p. 121, Internet Archive leaf 144; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Soult had ordered redoubts to be thrown up on the modest heights along the French bank, at Biriatou, on the knoll known from a reminiscence of 1659 as the height of Louis XIV"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "lapene-old-urugne-redoubt",
+      "dimension": "fortification",
+      "value": "Side A used the Urugne redoubt described as built in the earlier war and newly restored.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Original structure inherited; restoration agency unknown. OCR 1795 is not adopted. English rendering (ours): \"An older redoubt built in 1793 behind and left of Urugne, newly restored, supported the French.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p119-figures-v1",
+          "section": "p119-s1",
+          "locator": "lap, printed p. 119, Internet Archive leaf 124; retained full page image inspected",
+          "quote": "Mais une redoute construite en arrière et à gauche d’Urugne, dans la guerre de 1793, et nouvellement relevée, prête son appui aux Français"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "oman-tidal-information",
+      "dimension": "information",
+      "value": "Oman says Wellington collected information about low-tide fords, including crossings near Fuenterabia little known beyond local shrimpers.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Local source information mediated; not omniscience or a numerical information score.",
+      "citations": [
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p121-selections-v1",
+          "section": "p121-s2",
+          "locator": "o7, printed p. 121, Internet Archive leaf 144; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Wellington had been collecting information as to the fords up and down the river"
+        },
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p122-selections-v1",
+          "section": "p122-s1",
+          "locator": "o7, printed p. 122, Internet Archive leaf 145; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Only shrimpers had ever explored them"
+        }
+      ]
+    },
+    {
+      "id": "oman-river-sector",
+      "dimension": "terrain",
+      "value": "A steep-sided gorge divided the Vera and estuary sectors and prevented direct observation between them.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source-specific retrospective observation, not admitted as a model feature.",
+      "citations": [
+        {
+          "source_id": "oman-1930-t7-peninsula1813-p121-selections-v1",
+          "section": "p121-s3",
+          "locator": "o7, printed p. 121, Internet Archive leaf 144; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "It is impossible to see anything happening on the Vera front from Behobie, or vice versa, owing to the high crests of the intervening hills above the winding river"
+        }
+      ]
+    },
+    {
+      "id": "lapene-position-objective",
+      "dimension": "objectives",
+      "value": "Wellington’s planned crossing aimed to take the French positions behind the Bidassoa.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"His next object was to take the strong positions occupied by the French behind the torrent.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p116-selections-v1",
+          "section": "p116-s2",
+          "locator": "lap, printed p. 116, Internet Archive leaf 121; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Son projet est ensuite d’enlever les fortes posi- tions occupees par les Francais derriere ce torrent"
+        }
+      ]
+    },
+    {
+      "id": "lapene-port-supply",
+      "dimension": "logistics",
+      "value": "Lapène describes San Sebastián’s port as providing secure communications with England and shelter for supply convoys before the crossing.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source’s operational context, not a quantified contribution from the preceding siege. English rendering (ours): \"The port made communications with England secure and direct and sheltered maritime supply convoys.\"",
+      "citations": [
+        {
+          "source_id": "lapene-1823-campagnes-peninsula1813-p116-selections-v1",
+          "section": "p116-s3",
+          "locator": "lap, printed p. 116, Internet Archive leaf 121; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "le port rend les communications avec l’An- gleterre süresiet immediates; il offreenfin un asile aux convois maritimes destines ä alimenter cette armee"
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Local French own-side people total and matched October 7–9 daily returns missing. Bodart available 32,000/42,000 and engaged 14,000/32,000 remain separate from estuary 24,000 versusMaucune 4,000 bayonets. Source names/years retain OCR errors but no claim adopts their corrupted digits; exact daily command boundaries unresolved.",
+    "Original local returns and orders uninspected. Oman mediates British/Portuguese/Spanish reports; French memoirs and national retrospective accounts mediate opponent figures. Embedded reports and volumes are not additional independent families.",
+    "Frozen winner and cohort unchanged. Primary verification checks extraction/provenance, not historical truth or causal identification. No features, army identities or ratings admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-maucune",
+          "own-french-return-unknown"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 32,000 available; 14,000 came into the fighting; side B: 42,000 available; 32,000 came into the fighting. Side A: Oman gives Maucune’s division 4,000 bayonets in the Biriatou-to-sea sector before the crossing. Side A: Lapène’s bounded passages establish local commanders and works but no complete local people return beyond Bodart; opponent component remains separate.",
+        "command_claim_ids": [
+          "bodart-command",
+          "lapene-local-command"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: Marschall Soult; side B: Generalissimus Lord Wellington. Side A: Maucune directed defence of the estuary passages and Taupin the Bayonette/Jolimont camp.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-estuary-allied"
+        ],
+        "strength_population_and_time": "Populations and times remain separate. Bodart: side A (French): 32,000 available; 14,000 came into the fighting; side B: 42,000 available; 32,000 came into the fighting. Side B: Oman gives some 24,000 men for Wellington’s intended estuary attack, separate from the Rhune sector.",
+        "command_claim_ids": [
+          "bodart-command",
+          "lapene-allied-command"
+        ],
+        "command_scope": "Local/superior/contingent scopes remain distinct. Bodart labels side A: Marschall Soult; side B: Generalissimus Lord Wellington. Side B: Wellington decided to cross the Bidassoa; Freire led the fourth Spanish army across by Behobie.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and both side checklists addressed with source-specific observations, alternatives or explicit unknowns within preassigned families. Whole-campaign primary verification; deeper research requires a named admission or attribution decision.",
+    "deferred_decision_relevant_gaps": [
+      "Local French own-side people total and matched October 7–9 daily returns missing. Bodart available 32,000/42,000 and engaged 14,000/32,000 remain separate from estuary 24,000 versusMaucune 4,000 bayonets. Source names/years retain OCR errors but no claim adopts their corrupted digits; exact daily command boundaries unresolved."
+    ]
+  }
+}

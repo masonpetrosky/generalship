@@ -1,0 +1,54 @@
+# Peninsula 1813: bounded first-pass record
+
+All 12 frozen entries at base `341243c951cb10beb7ff7c6352f19f277ced7063`. The assignment was fixed before substantive reading. Each entry has Bodart plus Oman and either Suchet (the four eastern entries) or Lapène (the other eight). Oman VI/VII and embedded reports count as one family. No fourth family, subagent, separate review or second opinion.
+
+Every adopted passage and number was inspected on a retained registered image. Complete OCR books are navigation snapshots, not claims of full-book reading. Forty-three uncited navigation images were moved outside the repository before sealing. Printed pagination controls over scan labels; no old source was refreshed.
+
+## Bibliography and dependence
+
+- Oman VI: Oxford, Clarendon Press, 1922; unchanged parent, metadata and map reused from the Peninsula 1812 pass. Its preface pp.iv–vii was inspected for mediated returns and unvisited Castalla/Pyrenees ground.
+- Oman VII: Oxford, Clarendon Press, 1930, printed title leaf 6; preface dated 1 July 1930, leaf 12. The catalogue’s 1902 is a series date. Pinned library metadata identifies the author as 1860–1946; the brief’s author-dead-more-than-70-years alternative is recorded. Preface III discusses visits/helpers; V–VI stresses political interpretation, which is not adopted as a measured causal effect.
+- Suchet II: Paris, Anselin, 1834, deuxième édition; unchanged parent, metadata, map and title image reused from the Peninsula 1811 pass. French commander memoir and embedded Lamarque report form one family. Original manuscript reports and local returns remain uninspected.
+- Lapène: Paris/Toulouse, 1823; title leaf 6 and preface leaves 8–10 inspected. The archive’s German language label is wrong for the printed French book. Preface p.6 says he commanded Taupin’s artillery, claims eyewitness/documentary authority and explicitly praises the French army. Those claims do not establish historical truth or independent origins.
+
+British, Portuguese, Spanish and French observations mediated through these national retrospectives are labelled. Copies, embedded documents, multiple volumes and translated renderings add no independent witness. Historical publication/access metadata are retained; no modern archive licence is asserted.
+
+## Source and selection accounting
+
+The registry appends **190 records**, reaching **4,993**: two new complete unmodified OCR parents, two metadata responses, two scan maps, **74 historical page images**, **13 title/preface images**, **69 exact-range narrative files (140 anchor/context sections)** and **28 manual-transcription files**. The old 4,803 records, all pinned bytes and 261 earlier dossiers remain unchanged. The two reused complete parents are not new records.
+
+Narrative context is rebuilt from exact half-open page ranges in the unchanged parent, whitespace collapsed only. The short final anchor is exact OCR and retains defects. The alignment audit distinguishes initial image-checked navigation wording from final parent text. Numerical/name/date lines have separate manual image transcriptions, with original-language wording and marked English renderings; typography, footnote marks and line layout are normalized as stated. No OCR correction is presented as a historical dispute.
+
+## Entry-by-entry checked and deferred scope
+
+| Frozen entry | Claims / explicit unknowns | Checked and deferred |
+| --- | ---: | --- |
+| B447c Yecla | 13 / 2 | Suchet’s 4,500 men and 200 horses are an opponent observation, against Bodart’s 4,000 Spanish. The horses are not added as people. Harispe’s local movement is separate from Suchet’s superior plan; a French local total and Spanish own-side return remain missing. |
+| B448a Castalla | 16 / 2 | Oman’s at-most 13,000 French and at-least 18,000 allied differ from Bodart’s 15,000/17,000. Suchet’s 600 voltigeurs are a detached component. Murray’s construction of fieldworks is explicit; the Whittingham attack-order dispute remains unresolved. |
+| B452a Vitoria | 15 / 1 | Lapène’s 45,000 bayonets, Oman’s 57,000 French/75,000 allied, and Bodart’s 60,000/90,000 are different populations. Joseph’s decision, Jourdan’s council role and the component army commanders remain distinct. No matched own-side all-arms return or proof of city-works use in the field action. |
+| B452b La Salud | 14 / 0 | The one targeted follow-up inspected Lamarque’s report, printed in Suchet II note 34, pp.473–480. His initial 1,500 men precede Beurmann’s reinforcement; four battalions are not converted to people or pooled into Bodart’s 4,000. Spanish 8,000–9,000 is prisoner hearsay. Decaen is superior; Spanish unified command remains unresolved. Report signed Girone, 17 July 1813. |
+| B453a den Pyrenäen | 16 / 1 | The complete 25 July–2 August interval is preserved. Opening Cole sector (11,000 in line plus 2,000 Portuguese in touch), late-July French organization (60,000 bayonets) and 2 August Echalar estimates (12,000 allied; doubtful 25,000 French in line) remain separate. Different offensive days, a reported false message and late ration failure are scoped; no single opening total or army identity. |
+| B457a Vera | 13 / 0 | The 31 August–1 September interval includes San Marcial, Vera and the flooded retreat. Clausel’s 20,000 and the Spanish 10,000 bayonets are components, not Bodart’s full denominators. Soult’s columns, Freire, Miller and Inglis have distinct roles; Vera’s barricaded bridge/fortified houses and bridging/ration delays are retained. No complete own-side local totals. |
+| B458a San-Sebastian | 16 / 1 | The whole 9 July–8 September siege is preserved. The approximately 3,000-man opening garrison, Robinson’s approximately 1,500 and Spry’s 1,600 assault troops are different populations; the 90,000 covering army is separate. Rey/Songeon and Graham/Wellington/Oswald/Leith roles differ. The 31 August storm, 8 September capitulation and 9 September exit are separate stages. |
+| B458b Ordal | 17 / 2 | Adam’s 1,500–1,600 advance guard and Torres’s 2,300 bayonets plus a horse squadron are components. Oman separates Suchet’s and Decaen’s columns; French own-side complete local strength is absent. Local succession Adam→Reeves→Carey follows wounds. Ruined Reding trenches are inherited. Suchet’s printed 12 September is retained; OCR 11 is not a historical dispute. |
+| B460a der Bidassoa und Rhune | 16 / 1 | The complete 7–9 October interval is preserved. Bodart available/engaged counts remain distinct from Oman’s 24,000 estuary force and Maucune’s 4,000 bayonets. Soult-ordered new redoubts differ from an older restored Urugne redoubt. The image prints 1793, not OCR 1795. Low-tide information, sector visibility and port supply are scoped; daily own-side returns remain missing. |
+| B464a Pampeluna | 16 / 1 | Oman’s approximately 3,800 combatants after late-June arrivals and at-most 9,500 mid-period blockaders do not fill the full June–October denominator. Cassan, successive cordons, O’Donnell and Carlos de España have distinct scopes; Bodart’s Don Carlos v. Bourbon label is unresolved. Lapène prints capitulation on 23 October against the frozen 31 October endpoint. Neither is silently repaired. |
+| B464b der Nivelle | 14 / 1 | Oman labels the same 82,000 initially infantry and later infantry-and-gunners; the ambiguity stays visible. His 62,000 French includes gunners/sappers, unlike remote cavalry and other excluded populations. Command sectors, renewed fortification orders, visibility from Great Rhune and the planned centre concentration are recorded. French own-side complete local return remains missing. |
+| B467b Bayonne | 17 / 1 | The full 9–13 December interval preserves the allied opening crossing and French main attack on 13 December as separate operations. Reconstructed 63,500 allied bayonets, mediated 1 December French 51,000+3,500 and Hill’s local 14,000 are distinct. Arcangues works and Bayonne’s camp are named. Villefranque broke on 12 December; Ustaritz held, so complete isolation is not inferred. |
+
+## Inspected cited pages
+
+The following inventory lists every newly retained historical page by printed page and Archive leaf. Bodart’s unchanged existing pp.447, 448, 452, 453, 457, 458, 460, 464 and 467 were also inspected. Title/preface images are additional and not counted as historical pages below.
+
+- Oman VI: p.286 (leaf 309), p.290 (leaf 313), p.292 (leaf 315), p.293 (leaf 316), p.384 (leaf 407), p.388 (leaf 411), p.395 (leaf 418), p.396 (leaf 419), p.567 (leaf 594), p.622 (leaf 653), p.688 (leaf 727), p.730 (leaf 769), p.731 (leaf 770).
+- Oman VII: p.19 (leaf 36), p.36 (leaf 55), p.42 (leaf 61), p.43 (leaf 62), p.44 (leaf 63), p.45 (leaf 64), p.99 (leaf 120), p.100 (leaf 121), p.102 (leaf 125), p.103 (leaf 126), p.121 (leaf 144), p.122 (leaf 145), p.150 (leaf 177), p.151 (leaf 178), p.152 (leaf 179), p.154 (leaf 181), p.164 (leaf 191), p.168 (leaf 195), p.224 (leaf 253), p.239 (leaf 270), p.242 (leaf 273), p.262 (leaf 295), p.263 (leaf 296), p.264 (leaf 297).
+- Suchet II: p.298 (leaf 313), p.299 (leaf 314), p.301 (leaf 316), p.302 (leaf 317), p.336 (leaf 351), p.337 (leaf 352), p.473 (leaf 488), p.476 (leaf 491), p.477 (leaf 492), p.478 (leaf 493), p.480 (leaf 495).
+- Lapène: p.35 (leaf 40), p.36 (leaf 41), p.53 (leaf 58), p.64 (leaf 69), p.65 (leaf 70), p.70 (leaf 75), p.71 (leaf 76), p.73 (leaf 78), p.84 (leaf 89), p.98 (leaf 103), p.99 (leaf 104), p.100 (leaf 105), p.110 (leaf 115), p.114 (leaf 119), p.115 (leaf 120), p.116 (leaf 121), p.117 (leaf 122), p.119 (leaf 124), p.127 (leaf 132), p.135 (leaf 140), p.144 (leaf 149), p.145 (leaf 150), p.177 (leaf 182), p.180 (leaf 185), p.190 (leaf 195), p.191 (leaf 196).
+
+## Stopping and verification
+
+All nine dimensions and 24 side checklists have source-specific observations, alternatives or explicit unknowns. Army continuity is unknown for all 24 sides; tactical/campaign replacement boundaries remain null. The single follow-up was La Salud’s report; no other entry used a separate follow-up cycle. Full contemporary information sets, original own-side returns and exact appointment boundaries remain incomplete. This first pass does not settle those questions.
+
+Primary verification binds every final dossier, new source record, selection audit, family assignment, arithmetic, all 22 visible digit-screen dispositions, generated packet and validation logs. The digit flags concern spelled-out French quantities, ordinal dates, surrounding-page dates and frozen comparisons; they remain visible. Source matching proves provenance, not entailment or historical truth.
+
+`make reproduce` and `make check` passed, and generated reports were inspected. Stored historical failures/unimproved results remain intact. No historical fit, synthetic job, calibration scoring or feature admission ran. Calibration remains 47 prepared, unscored tasks. Usage is unavailable because no complete trustworthy meter is exposed.
