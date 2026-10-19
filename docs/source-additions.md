@@ -2075,3 +2075,71 @@ corps's journal and the 5th dragoon division's journal in extract, and gives the
 loss line without a source.
 
 Use: the draft for B377d. No model inputs are changed. The registry now holds 3,122 records.
+
+## Höpfner Bd. 3 and *Campagne de Pologne* t. I page images for Golymin, 2026-10-18
+
+64 records for sub-batch 2e-iii: 32 page images with their figure transcriptions. No OCR parent or
+selection is added.
+
+- **Höpfner, *Der Krieg von 1806 und 1807*, Theil 2, Bd. 3** (`hoepfner-1851-bd3-ocr-v1`,
+  registered in sub-batch 2e-i): 7 page images with transcriptions, each whole:
+  - pp. 101–102: Prince Gallizin's retreat on the 25th and the detachment he kept, General
+    Pahlen's retreat by Sonsk and his junction with General Tschaplitz, and Field Marshal
+    Kaminskoi's orders to Buxhöwden's divisions;
+  - pp. 122–126: the end of Höpfner's judgement on Pultusk; the section 'Gefecht bei Golymin am
+    26. Dezember', whose footnote refers to his plan of the area and names his sources; Gallizin's
+    halt and dispositions, the French attacks, Pahlen's and Tschaplitz's arrival, the retreat on
+    Makow, the losses by Gallizin's report and the French estimate, and the start of the
+    5th Division's march of the 27th.
+
+  Leaf numbers are n = printed + 10, as recorded, checked on the images (n111–n112 and
+  n132–n136). Pp. 100, 103 and 127, on which sentences of these pages begin or end, are not
+  registered; p. 100 was seen only in the OCR.
+- **Foucart, *Campagne de Pologne*, t. I** (`foucart-pologne-1882-t1-ocr-v1`): 25 page images
+  with transcriptions, each whole:
+  - pp. 458–461: the major general's orders of 26 December:
+    - to Soult (3 a.m.), to Augereau and to the grand-duc de Berg (6 a.m.);
+    - a dispatch to Lannes that the editor summarises (7½ a.m.);
+    - to Davout (7½ a.m.);
+    - the beginning of the letter to the grand-duc de Berg of 9 a.m., which ends on p. 462
+      (registered in 2e-ii).
+
+    P. 461, read on the image in 2e-ii, is now registered.
+  - pp. 474–493:
+    - the rest of Davout's letter to the major general of 26 December, with Captain Scitivaux's
+      billet to the Emperor in the editor's footnote;
+    - the extract of the 3rd corps's journal of operations, and two small-type lines after it;
+    - General Rapp's letter to the Emperor of 27 December;
+    - the grand-duc de Berg's report of 27 December, with its postscript;
+    - General Curély's recollections, quoted, and the editor's commentary;
+    - the editor's account of the 7th corps's movements. By his introduction it follows General
+      Desjardins's report and the 'Journal de marche du 3e corps d'armée'.
+    - the report on General Durosnel's brigade (Pomorze, 26 December, 2 p.m.), printed without a
+      heading and signed by him;
+    - General Corbineau's letter to the Emperor of 26 December, 10 p.m., and his note of three
+      quarters past 10, with the editor's line dating it.
+  - p. 518, the one targeted follow-up:
+    - General Lasalle's letter to the grand-duc de Berg of 28 December;
+    - the beginning of the grand-duc de Berg's letter to the Emperor of the same day (Makow, half
+      past noon), which continues on p. 519 (not registered).
+
+  Leaf numbers are n = printed + 25 for pp. 458–461 and 474–493 (n483–n486 and n499–n518) and
+  + 27 for p. 518 (n545), as recorded, checked on the images.
+
+Every figure is transcribed from the image, on full-resolution crops as the notes record, and no
+figure is taken from the OCR.
+
+Rights and dependence: as recorded for the two parents.
+
+- **Höpfner.** In the passages read he names his sources for the combat: Gallizin's report in
+  Plotho's Tagebuch, Danielewski's work and the French reports in Mathieu Dumas. He says they
+  differ so completely that his account is only an attempt. He follows Danielewski against
+  Gallizin's report for Dochtorow's force, and gives the Russian losses by Gallizin's report.
+- **Foucart's t. I.**
+  - It prints the major general's orders; Davout's, Rapp's, the grand-duc de Berg's and
+    Corbineau's letters; Scitivaux's billet; and the report on Durosnel's brigade.
+  - It quotes the 3rd corps's journal in extract and General Curély's recollections.
+  - The editor's account of the 7th corps follows a report and a journal he names. The 1st
+    division's loss line after the journal names no source.
+
+Use: the draft for B378a. No model inputs are changed. The registry now holds 3,186 records.

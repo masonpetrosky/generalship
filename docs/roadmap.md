@@ -32,13 +32,14 @@ frame. Brief v2 adds the coded posture and fortification dimensions of decision 
 check now rebuilds every selection from its parent.
 
 **Next:** first passes by complete campaign group. The current group is `fourth-coalition 1806`
-(23 entries). Batch 2e is under way: Czarnowo and Pultusk are drafted, and Golymin is next. On
+(23 entries). All 23 entries are drafted; a check of the 23 drafts together is next, then
+`fourth-coalition 1807` (19 entries). On
 2026-10-16 the owner set no usage cap and had the main session research, draft and verify each
 group itself, without subagents
 ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
 Usage is logged per group.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and 22 of the 23 entries of
+**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and all 23 entries of
 `fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
 
 - `third-coalition 1805`, all 22 entries in six batches:
@@ -57,8 +58,9 @@ Usage is logged per group.
 - `third-coalition 1806`, the French conquest of Naples: Campo Tenese, Maida and the sieges of
   Gaëta and Amantea (B370c, B370d, B371a and B379c). The check before release removed one citation
   that took Gaëta past the brief's three source families. The group used about 2.3 million tokens.
-- `fourth-coalition 1806`, in progress, from Foucart's edition of the French documents and
-  Höpfner's Prussian history:
+- `fourth-coalition 1806`, all 23 entries in five batches, from Foucart's edition of the French
+  documents and Höpfner's Prussian history. The group has used about 28 million tokens, and the
+  check of its drafts together is next:
   - batch 2a: Saalfeld, Jena and Auerstedt (B371b, B372a and B373a), about 6.2 million tokens;
   - sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (B373b and B374a–c), about 2.4 million
     tokens;
@@ -71,11 +73,12 @@ Usage is logged per group.
   - sub-batch 2d-i: Groß-Glogau (B377b), about 2.3 million tokens;
   - sub-batch 2d-ii: Breslau (B378b), about 1.9 million tokens;
   - sub-batch 2e-i: Czarnowo (B377c), about 3.7 million tokens;
-  - sub-batch 2e-ii: Pultusk (B377d), about 1.2 million tokens.
+  - sub-batch 2e-ii: Pultusk (B377d), about 1.2 million tokens;
+  - sub-batch 2e-iii: Golymin (B378a), about 2.1 million tokens.
 
-The cohort's other 277 engagements would need about 160 to 185 million tokens at the two finished
-groups' rates, roughly 11 to 12 sessions, and about 330 million, roughly 22 sessions, at the 1806
-group's rate so far of about 1.2 million an entry. At sub-batch 2b-ii's rate of about 590,000 an
+The cohort's other 276 engagements would need about 160 to 185 million tokens at the 1805 and
+Naples groups' rates, roughly 11 to 12 sessions, and about 335 million, roughly 22 sessions, at
+the 1806 group's rate of about 1.2 million an entry. At sub-batch 2b-ii's rate of about 590,000 an
 entry they would need about 165 million. Batch 2a's three entries, the group's largest battles,
 took about 2 million each. The Civil War work below is complete as recorded, and its cohorts,
 ledgers and runs are unchanged.

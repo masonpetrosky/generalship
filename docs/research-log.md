@@ -2647,6 +2647,160 @@ primary-verified; no separate review was made.
 - **Usage.** About 1.2 million tokens by the session's token counter. The group has used about
   26 million tokens for 22 entries, about 1.2 million an entry.
 
+## 1806 first pass, sub-batch 2e-iii: Golymin (2026-10-18)
+
+The third and last part of batch 2e of `fourth-coalition 1806`: the engagement at Golymin. There
+Augereau's 7th corps, the 1st and, from nightfall, 2nd divisions of Davout's 3rd corps and the
+grand-duc de Berg's reserve cavalry attacked Prince Gallizin's Russian detachment. Gallizin had
+halted before Golymin on his retreat, where troops of Dochtorow's 7th Division waited to take him
+in, and Pahlen and Tschaplitz joined him in the afternoon. With it all 23 entries of the group are
+drafted.
+
+| Entry | Engagement | Date (Bodart) | Claims |
+| --- | --- | --- | --- |
+| B378a | Golymin (engagement) | 26 December 1806 | 23 |
+
+The main session researched, drafted and verified the entry without subagents. The work is
+primary-verified; no separate review was made.
+
+- **Sources.** Bodart and the group's two families. Every cited passage was read from a registered
+  page image ([source additions](source-additions.md)):
+  - Höpfner, Bd. 3 (1851), each page transcribed whole (pp. 101–102 and 122–126):
+    - Gallizin's retreat on the 25th, Pahlen's retreat by Sonsk and Kaminskoi's orders to
+      Buxhöwden's divisions;
+    - then the Golymin section. His footnote names his sources (Gallizin's report in Plotho's
+      Tagebuch, Danielewski, and the French reports in Mathieu Dumas) and calls his account only
+      an attempt, because they differ so completely.
+    - It continues with Gallizin's halt and dispositions, the French attacks, the fight for the
+      woods, Pahlen's and Tschaplitz's arrival, the night retreat on Makow, and the losses by
+      Gallizin's report.
+  - Foucart's *Campagne de Pologne*, t. I:
+    - the orders of the 26th through the major general (pp. 458–461, with p. 461 now registered);
+    - Davout's letter of 26 December, with Captain Scitivaux's billet in a footnote (pp. 473–476);
+    - the extract of the 3rd corps's journal of operations and two small-type lines after it
+      (pp. 476–478);
+    - Rapp's letter and the grand-duc de Berg's report, both of 27 December (pp. 478–483);
+    - General Curély's recollections and the editor's commentary (pp. 484–487);
+    - the editor's account of the 7th corps (pp. 487–490). By his introduction it follows General
+      Desjardins's report and the 'Journal de marche du 3e corps d'armée', as printed.
+    - the report on General Durosnel's brigade (pp. 490–491);
+    - General Corbineau's letter of 10 in the evening and note of three quarters past 10
+      (pp. 491–493);
+    - as the one targeted follow-up, the grand-duc de Berg's letter of 28 December (p. 518).
+
+    Pp. 462 and 473, Corbineau's letter of 28 December (pp. 515 and 517) and the t. II summary
+    return were reused from sub-batches 2e-i and 2e-ii.
+
+  The pages were found by searching the volumes' OCR. 64 records were registered: 32 page images
+  (7 of Höpfner and 25 of t. I) with their figure transcriptions. Every registered page is cited.
+  No figure in a value is taken from the OCR.
+- **Not used:**
+  - Höpfner's plan of the area of Golymin, not inspected;
+  - his p. 100, seen only in the OCR, and pp. 103 and 127, not read. The sentences that run onto
+    those pages are cited only in their parts on the registered pages.
+  - *Campagne de Pologne* t. I pp. 494 and 519, not read;
+  - General Lasalle's letter of 28 December, printed whole on p. 518, not used.
+- **Draft.** 23 claims with 636 citations: 20 supported and 3 disputed. Phases: 12 unresolved,
+  5 post_outcome, 4 commander_created and 2 inherited.
+  - The posture is coded `A_attacked` and tagged commander_created. Side A's corps attacked a
+    detachment that had halted before Golymin because its troops were too exhausted to march on.
+    Where the passages name who ordered an attack, it was a marshal or general on the field. Side
+    B's cavalry charges and its two battalions' attack in the woods were made in the fight for its
+    own position.
+  - The fortification is coded `none_named` and left unresolved. The passages name no works.
+    Woods, bushes, a burnt village, a battery and an impracticable marsh are not works under the
+    brief.
+  - Side A's command is a disputed claim. Bodart names Davoust. The editor writes that the corps
+    fought without any general direction during the whole of the engagement. A small-type line
+    after the 3rd corps's journal says Davout received no order from the grand-duc de Berg during
+    the whole affair, and the journal says darkness made any concert impossible.
+
+    No passage read shows Davout commanding Augereau's corps or the cavalry. Each decision is
+    attributed to the commander the passages name.
+  - The boundary runs from Gallizin's arrival at 8 in the morning to the retreat on Makow in the
+    night. Outside it are Pultusk (a separate entry), Czarnowo, Nasielsk and Sonsk before it, and
+    the pursuit from the morning of the 27th. The guns and vehicles the Russians abandoned on the
+    French march, and those taken on the road to Gotskowo, are reported with their place and time.
+- **Disputes kept visible:**
+  - The result. Bodart has a French victory, and the grand-duc de Berg reported the field yielded.
+    Höpfner has no decision on either wing until dark. His account is kept as a disputed claim.
+  - Whether Buxhœvden's corps fought at Golymin. It is kept as a disputed claim:
+    - the grand-duc de Berg's letter of the 28th says the whole corps that had fought at Golymin
+      had passed;
+    - Corbineau's letter of the same day says that corps fought neither at Pultusk nor at Golymin;
+    - Höpfner has troops of its 7th Division.
+  - Dochtorow's force: two regiments by Danielewski, whom Höpfner follows, or the whole division by
+    Gallizin's report.
+  - Side B's strength: 22,000 (Bodart), against 50,000 by the general opinion the grand-duc de Berg
+    reports. Höpfner gives no total.
+  - Side A's losses:
+    - about 1,000 with 4 generals and 53 officers (Bodart);
+    - 644 for three divisions without the cavalry, from their loss lines (our arithmetic);
+    - equal to the Russians' by the French estimate, and probably considerably more (Höpfner).
+  - Side B's losses: 600 killed and wounded with 19 officers and 200 prisoners (Bodart), against
+    3 officers and 80 men dead, 16 officers and 473 men wounded and 203 missing (Gallizin's report
+    in Höpfner).
+  - The guns, not added because the counts may overlap:
+    - 13 pieces (Davout);
+    - 26 cannon (the 3rd corps's journal);
+    - 10 pieces and one more with a caisson (the editor's account of the 7th corps);
+    - 4 pieces on the Gotskowo road (the report on Durosnel's brigade).
+  - The times:
+    - the attack ordered about 2 in the afternoon (Curély);
+    - Augereau's 2nd brigade halted about 2 (the editor's note);
+    - Morand's attack about half past 3, and Augereau's corps at grips an hour after nightfall (the
+      3rd corps's journal).
+  - Who repulsed the Russians at Sonsk on the 25th: the grand-duc de Berg (the editor), or
+    Durosnel's and Wathier's light cavalry brigades (Höpfner).
+  - Curély's Russian army from Pultusk, which the editor corrects to a column from Bielice.
+  - The general killed: Fénérols (Bodart), Fénérolz (the grand-duc de Berg).
+- **Gaps.** The most consequential gap is both sides' engaged strength.
+  - Bodart gives 27,000 French and 22,000 Russians without battalions, squadrons or guns.
+  - Höpfner gives no total and names the Russian regiments only in part.
+  - The French documents give impressions, and the t. II summary return gives whole corps in the
+    middle of December.
+
+  The one targeted follow-up, the grand-duc de Berg's letter of 28 December, added his statement
+  that the whole of Buxhœvden's corps had fought at Golymin. Corbineau's letter of the same day
+  denies it, and in Höpfner only troops of the 7th Division were there (our reading). Gallizin's report in Plotho's Tagebuch, Danielewski's figures or a
+  7th corps return for late December could narrow the gap.
+  - Not seen: the journals beyond the extracts, Desjardins's report, Gallizin's report, Danielewski
+    and Mathieu Dumas.
+  - Bodart's officer-loss table for the engagement is not in the frame transcription.
+- **Verification.** The pages and the draft were checked before release. The check:
+  - transcribed the pages whole from the images, the figures on full-resolution crops, and settled
+    OCR misreads on the images:
+    - Höpfner's '1½', '7½' and '2¼' (OCR '13', '74' and '21') and 'Kalęczyn' with its ogonek;
+    - Foucart's 'SCITIVAUX' (OCR 'SOITIVAUX'), 'blessure' (OCR 'Llessure') and several '1re'.
+
+    It kept printed forms: 'Lefrauc' beside 'Lefranc', 'Gostkowo' beside 'Gotskowo', and 'ordes'.
+  - reread every cited passage against its transcription and the claims against the passages. It
+    corrected:
+    - Milhaud's and Klein's charges, which the grand-duc de Berg reports as charges, not as
+      overthrowing the enemy;
+    - Curély's 'coup de canon' and the order of the cry 'Halte!' and the brigade's break;
+    - Corbineau's cannon that 'fired three shots';
+    - several attributions: the editor's commentary on p. 487 against his account of the 7th
+      corps; the two small-type lines after the journal; and the report on Durosnel's brigade,
+      printed without a heading and signed by him;
+  - labelled arithmetic and comparisons as ours, among them the return's 14,450 for the 7th corps,
+    and Bodart's Russian 600, which fits Gallizin's 572 killed and wounded rounded up;
+  - cited the sentence that names the subject where a pronoun or title stands:
+    - Höpfner's 'der Fürst' and 'Er' for Gallizin;
+    - Sarrut's brigade for the 'elle' that the Russian cavalry met;
+    - the 7th corps account's 'maréchal' (Augereau) and the journal's 'M. le Maréchal' (Davout);
+  - cited the sentence that makes Colonel Kreuz the rear guard;
+  - checked each rationale's page list against the cited pages, which corrected several lists;
+  - marked with their page the sentences that run across pages;
+  - checked that no number in a value or open question lacks a cited passage, which rewrote one
+    page reference;
+  - wrote out in each claim the renderings of citations grouped across claims.
+
+  The evidence check passes on all 3,186 sources and 49 drafts (983 claims, 15 unknown). The packet
+  was regenerated, `make reproduce` was run, and `make check` passes (239 tests).
+- **Usage.** About 2.1 million tokens by the session's token counter. The group has used about
+  28 million tokens for 23 entries, about 1.2 million an entry.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

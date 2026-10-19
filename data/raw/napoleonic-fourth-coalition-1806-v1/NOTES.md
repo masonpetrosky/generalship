@@ -87,7 +87,9 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   half-title 'SITUATIONS' on n484. In 2e-ii, t. I pp. 462-473 (n = printed + 25) and 514-517
   (n = printed + 27) were registered, checked on the images. T. I p. 461 (its leaf n486), with
   the heading and dateline of the major general's letter to the grand-duc de Berg (Lopaczyn,
-  26 December, 9 a.m.) that ends on p. 462, was read on the image and not registered.
+  26 December, 9 a.m.) that ends on p. 462, was read on the image and not registered. In 2e-iii,
+  t. I pp. 458-461 and 474-493 (n = printed + 25), p. 461 among them, and p. 518 (n = printed +
+  27) were registered, checked on the images.
 - Höpfner Theil 2, Bd. 4 (1851; bub_gb_9PVKAAAAcAAJ), registered in 2d-i: leaf n = printed + 12
   for pp. 15-31 and for the Breslau pages registered in 2d-ii (p. 36 to p. 118), checked on the
   images. Chapter 15 opens the volume's text, and chapter 16, on
@@ -95,8 +97,8 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   Völderndorff's fourth book has its own pagination (11748199bsb, n = printed + 333), noted in
   case it replaces a family later.
 - Höpfner Theil 2, Bd. 3 (1851; 10594714bsb, Bayerische Staatsbibliothek), registered in 2e-i:
-  leaf n = printed + 10 for pp. 23-24 and 82-95 (2e-i) and pp. 107-119 (2e-ii), checked on the
-  images. The title page (n5) and the
+  leaf n = printed + 10 for pp. 23-24 and 82-95 (2e-i), pp. 107-119 (2e-ii) and pp. 101-102 and
+  122-126 (2e-iii), checked on the images. The title page (n5) and the
   preface to the second part (n7-n8) were read on the images and are not registered. The second
   edition (1855; bub_gb_l74TAAAAYAAJ) was compared in the OCR only. The image of p. 26 (n36: the
   army's totals by the report of 23 October and Höpfner's comment on them) was downloaded in 2e-i
@@ -157,9 +159,12 @@ edition, 1855), for 2e. Editions of one work are one family; record which editio
   About 1.2 million tokens. The one targeted follow-up, Lannes's and Corbineau's letters of
   28 December (pp. 514-517), added Lannes's revised losses and Corbineau's figures and hearsay, but
   no strength for the 3rd division of Davout's corps.
-- Next: sub-batch 2e-iii, Golymin B378a, the group's last entry, then the group check. Leads:
-  Höpfner Bd. 3 from p. 122, where his Golymin section begins (the volume's errata correct pp. 129
-  and 135); *Campagne de Pologne* t. I p. 461 (the major general's letter to the grand-duc de Berg,
-  read on the image, not registered), p. 473 (registered in 2e-ii) and pp. 474-502, and the first
-  pages of t. II. Search the OCR for each place, and fix the entry's families before reading a new
-  work.
+- 2026-10-18, sub-batch 2e-iii: Golymin drafted from Bodart, Foucart (*Campagne de Pologne* t. I
+  and t. II) and Höpfner Bd. 3; primary-verified. 64 records registered (32 page images with figure
+  transcriptions: Höpfner pp. 101-102 and 122-126 and *Campagne de Pologne* t. I pp. 458-461,
+  474-493 and 518). About 2.1 million tokens. The one targeted follow-up, the grand-duc de Berg's
+  letter of 28 December (p. 518), added his statement that Buxhœvden's whole corps had fought at
+  Golymin, which Corbineau's letter of the same day denies (in Höpfner only troops of the 7th
+  Division were there, by our reading), but no strength for either side. Batch 2e, and with it the group's first pass, is complete.
+- Next: the group check of the 23 drafts together, bounded as for `third-coalition 1805`, then
+  the README's status line, then `fourth-coalition 1807` (19 entries).
