@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "battle_id": "B386a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Stralsund 15 July–20 August; September Rügen convention is later context, not an extension of the frozen battle. Tactical and campaign replacement boundaries are unset; phases are research hypotheses. No feature admission or historical rating fit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A about 40,000 under Brune; side B Swedish defenders under Peyron; people count absent.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read on the registered page image. His general rule is forces disposable for the engagement, rounded upward (shared research-conventions index); a stated siege endpoint or engaged subset takes precedence over treating it as an opening count. Population/timing alternatives are not reconciled. English rendering (ours): \"The French, about 40,000 under Marshal Brune, compel the Swedish garrison under Major-General Peyron to surrender the place. Most of the garrison had already escaped to Rügen. The French captured 500 guns.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p386",
+          "locator": "Bodart (1908), p. 386",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter Marschall Brune zwingen die schwedische Besatzung unter GM. Peyron zur Übergabe des Platzes. Der größte Teil der Garnison hatte sich bereits nach Rügen gerettet. Die Franzosen erbeuteten 500 Geschütze."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Marschall Brune; side B under GM. Peyron.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed attribution, not automatic allocation of tactical or campaign credit. Titles and spellings remain source-specific; additional passages distinguish superior from local authority. English rendering (ours): \"The French, about 40,000 under Marshal Brune, compel the Swedish garrison under Major-General Peyron to surrender the place. Most of the garrison had already escaped to Rügen. The French captured 500 guns.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p386",
+          "locator": "Bodart (1908), p. 386",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter Marschall Brune zwingen die schwedische Besatzung unter GM. Peyron zur Übergabe des Platzes. Der größte Teil der Garnison hatte sich bereits nach Rügen gerettet. Die Franzosen erbeuteten 500 Geschütze."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side A as Bodart's winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Retains the frozen winner convention. A capitulation date and physical handover can differ; historical source disputes remain separate. English rendering (ours): \"The French, about 40,000 under Marshal Brune, compel the Swedish garrison under Major-General Peyron to surrender the place. Most of the garrison had already escaped to Rügen. The French captured 500 guns.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p386",
+          "locator": "Bodart (1908), p. 386",
+          "quote": "Die Franzosen (ca. 40.000 M.) unter Marschall Brune zwingen die schwedische Besatzung unter GM. Peyron zur Übergabe des Platzes. Der größte Teil der Garnison hatte sich bereits nach Rügen gerettet. Die Franzosen erbeuteten 500 Geschütze."
+        }
+      ]
+    },
+    {
+      "id": "french-planned-army",
+      "dimension": "strength",
+      "value": "Napoleon’s 22 July disposition projects 34,000 infantry and 4,000 cavalry, 38,000 total, for Brune’s army.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Linearized table totals from the image; planned composition, not a verified simultaneous siege return. Bodart’s about 40,000 differs in timing/scope. English rendering (ours): \"Infantry 34,000, cavalry 4,000; total 38,000.\" English rendering of heading (ours): \"To Marshal Berthier, Dresden, 22 July 1807.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t15-p437-figures-v1",
+          "section": "p437-1807-07-22",
+          "locator": "napoleon-t15, printed p. 437 (page-image transcription)",
+          "quote": "Infanterie. Cavalerie.\n34,000 4,000\nTotal. 38,000"
+        },
+        {
+          "source_id": "napoleon-t15-p436-figures-v1",
+          "section": "p436-1807-07-22",
+          "locator": "napoleon-t15, printed p. 436 (page-image transcription)",
+          "quote": "12936. — AU MARÉCHAL BERTHIER.\nDresde, 22 juillet 1807."
+        }
+      ]
+    },
+    {
+      "id": "swedish-treaty-establishment",
+      "dimension": "strength",
+      "value": "Key-Åberg distinguishes a secret convention ceiling of 14,000 for the Swedish field army from an apparent 16,000 implied by comparing public treaty terms; neither is an actual Stralsund garrison return.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Treaty obligations and planned Finnish reinforcements; actual siege defender number remains unknown. English rendering (ours): \"should be raised to a higher strength than 14,000 men\" English rendering (ours): \"ought to amount to 16,000 men.\"",
+      "citations": [
+        {
+          "source_id": "key-aberg-p108-figures-v1",
+          "section": "p108",
+          "locator": "key-aberg, printed p. 108 (page-image transcription)",
+          "quote": "skulle uppbringas till högre numerär än 14,000 man"
+        },
+        {
+          "source_id": "key-aberg-p108-figures-v1",
+          "section": "p108",
+          "locator": "key-aberg, printed p. 108 (page-image transcription)",
+          "quote": "borde uppgå till 16,000 man."
+        }
+      ]
+    },
+    {
+      "id": "french-siege-offices",
+      "dimension": "responsibility",
+      "value": "Napoleon instructs Berthier to put Chasseloup over engineering and Brune to use Reille for capitulation discussions.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Order 12936 begins on p 436 with 22 July dateline. Intended appointments, not proof of execution; Brune superior siege authority remains distinct. English rendering (ours): \"Order General Chasseloup to take command of the engineers there.\" English rendering (ours): \"he is to employ General Reille, my aide-de-camp.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t15-p437-figures-v1",
+          "section": "p437-1807-07-22",
+          "locator": "napoleon-t15, printed p. 437 (page-image transcription)",
+          "quote": "Ordonnez au général Chasseloup d’y prendre le commandement du génie."
+        },
+        {
+          "source_id": "napoleon-t15-p438-figures-v1",
+          "section": "p438-1807-07-22",
+          "locator": "napoleon-t15, printed p. 438 (page-image transcription)",
+          "quote": "il emploie le général Reille, mon aide de camp."
+        }
+      ]
+    },
+    {
+      "id": "swedish-wider-authority",
+      "dimension": "responsibility",
+      "value": "Key-Åberg describes Gustaf IV Adolf’s political refusal of peace and General Toll’s later convention with Brune; these are wider/late authorities, not proof that Peyron directed every phase.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "King, local commandant and later negotiator are separate offices; exact tactical authority transfer remains unknown. English rendering (ours): \"Gustaf IV Adolf, as is known, had no thought of making peace with Napoleon\" English rendering (ours): \"a convention concluded between General Toll and Marshal Brune at Stralsund on 7 September\"",
+      "citations": [
+        {
+          "source_id": "key-aberg-p110-figures-v1",
+          "section": "p110",
+          "locator": "key-aberg, printed p. 110 (page-image transcription)",
+          "quote": "hade Gustaf IV Adolf, såsom kändt är, ingen tanke på att ingå fred med Napoléon"
+        },
+        {
+          "source_id": "key-aberg-p117-figures-v1",
+          "section": "p117",
+          "locator": "key-aberg, printed p. 117 (page-image transcription)",
+          "quote": "en mellan general Toll och marskalk Brune den 7 Sept. i Stralsund afsluten konvention"
+        }
+      ]
+    },
+    {
+      "id": "allied-nonparticipation",
+      "dimension": "strength",
+      "value": "Key-Åberg says the Swedish border defenders alone faced the July advance, while Blücher’s Prussians were inactive after peace and British auxiliaries stayed on Rügen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Narrative participation distinction; do not add treaty allies to siege defender headcount. English rendering (ours): \"whose borders were defended solely by the Swedish troops.\" English rendering (ours): \"the British auxiliary troops prudently kept out of danger on Rügen.\"",
+      "citations": [
+        {
+          "source_id": "key-aberg-p110-figures-v1",
+          "section": "p110",
+          "locator": "key-aberg, printed p. 110 (page-image transcription)",
+          "quote": "hvars gränser försvarades endast och allenast af de svenska trupperna."
+        },
+        {
+          "source_id": "key-aberg-p110-figures-v1",
+          "section": "p110",
+          "locator": "key-aberg, printed p. 110 (page-image transcription)",
+          "quote": "de engelska hjelptrupperna höllo sig försigtigtvis utom all fara på ön Rügen."
+        }
+      ]
+    },
+    {
+      "id": "fortress",
+      "dimension": "fortification",
+      "value": "The Swedish army was driven within Stralsund’s walls by the evening of 14 July.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"On the evening of 14 July the Swedish army had been driven back within Stralsund’s walls\"",
+      "citations": [
+        {
+          "source_id": "key-aberg-p110-figures-v1",
+          "section": "p110",
+          "locator": "key-aberg, printed p. 110 (page-image transcription)",
+          "quote": "Om aftonen d. 14 Juli var den svenska armén tillbakadrifven inom Stralsunds murar"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "siege-posture",
+      "dimension": "posture",
+      "value": "Napoleon orders sufficient artillery for three simultaneous attacks.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"so that three attacks can be made at once and this place quickly taken.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t15-p437-figures-v1",
+          "section": "p437-1807-07-22",
+          "locator": "napoleon-t15, printed p. 437 (page-image transcription)",
+          "quote": "de manière que l’on fasse à la fois trois attaques et que cette place soit promptement enlevée."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "evacuation-not-destruction",
+      "dimension": "outcome",
+      "value": "Key-Åberg describes Swedish evacuation of Stralsund, then Rügen under the September convention permitting return to Sweden.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Fortress loss, later island evacuation and survival of the army are separate outcomes. English rendering (ours): \"the Swedes evacuated Stralsund and soon afterwards also the island of Rügen\" English rendering (ours): \"was allowed to return unhindered to Sweden.\"",
+      "citations": [
+        {
+          "source_id": "key-aberg-p117-figures-v1",
+          "section": "p117",
+          "locator": "key-aberg, printed p. 117 (page-image transcription)",
+          "quote": "utrymde svenskarne Stralsund och snart derefter äfven ön Rügen"
+        },
+        {
+          "source_id": "key-aberg-p117-figures-v1",
+          "section": "p117",
+          "locator": "key-aberg, printed p. 117 (page-image transcription)",
+          "quote": "fick obehindradt återvända till Sverige."
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Most consequential gap: actual Swedish dated garrison return and king/Peyron/Toll command instrument; deferred military archives.",
+    "Three families: Bodart, Napoleon correspondence, Key-Åberg. The latter is a Swedish diplomatic history with mediated military accounts, not a direct siege roll."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-planned-army"
+        ],
+        "strength_population_and_time": "Bodart about 40,000 versus Napoleon’s planned 38,000; present/engaged return unknown.",
+        "command_claim_ids": [
+          "bodart-command",
+          "french-siege-offices"
+        ],
+        "command_scope": "Brune siege, Napoleon strategic orders through Berthier; Chasseloup engineering, Reille prospective negotiation.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "swedish-treaty-establishment",
+          "allied-nonparticipation"
+        ],
+        "strength_population_and_time": "Actual Swedish siege strength unknown; treaty 14,000/16,000 field-army provisions are not observed garrison counts.",
+        "command_claim_ids": [
+          "bodart-command",
+          "swedish-wider-authority"
+        ],
+        "command_scope": "Peyron in Bodart; king’s wider direction and Toll’s later negotiation separate; exact handover unresolved.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The per-side strength and authority checklist and all nine dimensions are recorded within the three-family ceiling; unresolved populations, source alternatives and replacement boundaries remain explicit.",
+    "deferred_decision_relevant_gaps": [
+      "Most consequential gap: actual Swedish dated garrison return and king/Peyron/Toll command instrument; deferred military archives.",
+      "Three families: Bodart, Napoleon correspondence, Key-Åberg. The latter is a Swedish diplomatic history with mediated military accounts, not a direct siege roll."
+    ]
+  }
+}

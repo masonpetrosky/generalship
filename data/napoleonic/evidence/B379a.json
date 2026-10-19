@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "battle_id": "B379a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Mohrungen on 25 January; no automatic credit to each named contingent commander. Tactical and campaign replacement boundaries are unset; phases are research hypotheses. No feature admission or historical rating fit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French) about 12,000 men; side B (Russian) about 9,000 men.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read on the registered page image. His general rule is forces disposable for the engagement, rounded upward (shared research-conventions index); a stated siege endpoint or engaged subset takes precedence over treating it as an opening count. Population/timing alternatives are not reconciled. English rendering (ours): \"Victory of the French (about 12,000 men) under Marshal Bernadotte over the Russians (about 9,000 men) under Major-General Markow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Bernadotte über die Russen (ca. 9.000 M.) unter GM. Markow."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Marschall Bernadotte; side B under GM. Markow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed attribution, not automatic allocation of tactical or campaign credit. Titles and spellings remain source-specific; additional passages distinguish superior from local authority. English rendering (ours): \"Victory of the French (about 12,000 men) under Marshal Bernadotte over the Russians (about 9,000 men) under Major-General Markow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Bernadotte über die Russen (ca. 9.000 M.) unter GM. Markow."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side A as Bodart's winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Retains the frozen winner convention. A capitulation date and physical handover can differ; historical source disputes remain separate. English rendering (ours): \"Victory of the French (about 12,000 men) under Marshal Bernadotte over the Russians (about 9,000 men) under Major-General Markow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p379",
+          "locator": "Bodart (1908), p. 379",
+          "quote": "Sieg der Franzosen (ca. 12.000 M.) unter Marschall Bernadotte über die Russen (ca. 9.000 M.) unter GM. Markow."
+        }
+      ]
+    },
+    {
+      "id": "present-formations",
+      "dimension": "strength",
+      "value": "Side A: Höpfner reports 9 battalions and 11 squadrons present near midday, including Pacthod’s garrison, Bernadotte’s arrival and Drouet’s two infantry regiments.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "No conversion to people; later arrivals need separate treatment. English rendering (ours): \"where Bernadotte had arrived with a battalion and the dragoon brigade from Pr. Holland, and Drouet with 2 infantry regiments from Saalfeld, so that including Pacthod’s Mohrungen garrison 9 battalions and 11 squadrons were present.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p182-figures-v1",
+          "section": "p182",
+          "locator": "hoepfner-1851-bd3, printed p. 182 (page-image transcription)",
+          "quote": "wo zur Zeit der M. Bernadotte mit einem Bataillon und der Dragoner-Brigade von Pr. Holland, der General Drouet mit 2 Infanterie-Regimentern von Saalfeld angelangt waren, so daß mit der Besatzung von Mohrungen, unter dem General Pacthod, 9 Bat. und 11 Schwadr. anwesend waren."
+        }
+      ]
+    },
+    {
+      "id": "french-russian-estimate",
+      "dimension": "strength",
+      "value": "Side B: the French bulletin estimates the opposing division as apparently 12,000 men at the encounter.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Opposing estimate, not a Russian return; differs from Bodart’s 9,000. English rendering (ours): \"The enemy division appeared to be 12,000 strong.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p237-figures-v1",
+          "section": "p237",
+          "locator": "napoleon-t14, printed p. 237 (page-image transcription)",
+          "quote": "La division ennemie paraissait forte de 12,000 hommes."
+        }
+      ]
+    },
+    {
+      "id": "dupont-absent-account",
+      "dimension": "responsibility",
+      "value": "The earlier French bulletin places Rivaud with Ponte-Corvo and says Dupont arrived too late to participate.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Retained against the later bulletin; not reconciled. English rendering (ours): \"advanced with Rivaud’s division to meet the enemy\" English rendering (ours): \"Dupont’s division arrived as the combat was ending and could not participate.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p237-figures-v1",
+          "section": "p237",
+          "locator": "napoleon-t14, printed p. 237 (page-image transcription)",
+          "quote": "se porta, avec la division Rivaud, au-devant de l’ennemi"
+        },
+        {
+          "source_id": "napoleon-t14-p237-figures-v1",
+          "section": "p237",
+          "locator": "napoleon-t14, printed p. 237 (page-image transcription)",
+          "quote": "La division Dupont arriva au moment où le combat finissait et ne put y prendre part."
+        }
+      ]
+    },
+    {
+      "id": "dupont-present-account",
+      "dimension": "responsibility",
+      "value": "The next French bulletin places Drouet with Ponte-Corvo and describes Dupont’s flank attack; it names Pahlen and Galitzin as Russian commanders.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Bodart and Höpfner name Markow; the French title Ponte-Corvo and the Bernadotte spelling are associated by this shared engagement description, not a resolved global person registry. English rendering (ours): \"Marshal Prince of Ponte-Corvo arrived at Mohrungen with Drouet’s division\" English rendering (ours): \"At that very moment Dupont emerged from the Holland road with the 32nd and 96th regiments. He turned the enemy’s right.\" English rendering (ours): \"Counts Pahlen and Galitzin commanded the Russians.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p262-figures-v1",
+          "section": "p262-1807-01-29",
+          "locator": "napoleon-t14, printed p. 262 (page-image transcription)",
+          "quote": "Le maréchal prince de Ponte-Corvo arriva à Mohrungen avec la division Drouet"
+        },
+        {
+          "source_id": "napoleon-t14-p262-figures-v1",
+          "section": "p262-1807-01-29",
+          "locator": "napoleon-t14, printed p. 262 (page-image transcription)",
+          "quote": "A l’instant même le général Dupont débouchait de la route de Holland avec les 32e et 96e régiments. Il tourna la droite de l’ennemi."
+        },
+        {
+          "source_id": "napoleon-t14-p262-figures-v1",
+          "section": "p262-1807-01-29",
+          "locator": "napoleon-t14, printed p. 262 (page-image transcription)",
+          "quote": "Les comtes Pahlen et Galitzin commandaient les Russes."
+        }
+      ]
+    },
+    {
+      "id": "local-decision",
+      "dimension": "responsibility",
+      "value": "Höpfner says Bernadotte collected available troops and ordered the attack; Markow halted his advance and formed on heights after learning the marshal was present.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"The marshal immediately assembled available troops and advanced to attack the Russians\" English rendering (ours): \"General Markow in turn learned through prisoners of the marshal’s presence at Mohrungen\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "Der Marschall sammelte sofort die disponiblen Truppen und rückte zum Angriff der Russen vor"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "Der General Markow, der seinerseits durch die Gefangenen Kenntniß von der Anwesenheit des Marschalls in Mohrungen erfuhr"
+        }
+      ]
+    },
+    {
+      "id": "markow-information",
+      "dimension": "information",
+      "value": "Markow learned from prisoners of the marshal’s presence, according to Höpfner.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"General Markow learned through prisoners of the marshal’s presence at Mohrungen\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "Der General Markow, der seinerseits durch die Gefangenen Kenntniß von der Anwesenheit des Marschalls in Mohrungen erfuhr"
+        }
+      ]
+    },
+    {
+      "id": "attack-purpose",
+      "dimension": "objectives",
+      "value": "Höpfner gives Bernadotte’s purpose as buying time for joining troops and securing the retreat to Osterode.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"to give the other troops approaching from Pr. Holland time to unite and secure the general retreat to Osterode.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "um den übrigen von Pr. Holland anrückenden Truppen die Zeit zur Vereinigung zu verschaffen und den allgemeinen Rückzug nach Osterode zu sichern."
+        }
+      ]
+    },
+    {
+      "id": "russian-heights",
+      "dimension": "terrain",
+      "value": "Markow formed on the heights before Georgenthal in Höpfner.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"and formed on the heights before Georgenthal:\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "und formirte sich auf den Anhöhen vor Georgenthal:"
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "dimension": "posture",
+      "value": "Bernadotte advanced to attack Markow’s formed position.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"The marshal collected available troops and advanced to attack the Russians\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p183-figures-v1",
+          "section": "p183",
+          "locator": "hoepfner-1851-bd3, printed p. 183 (page-image transcription)",
+          "quote": "Der Marschall sammelte sofort die disponiblen Truppen und rückte zum Angriff der Russen vor"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Most consequential gap: a Russian contemporary return and Markow/Anrepp/cavalry command reports could resolve numerical strength and scope; deferred.",
+    "Three families: Bodart, Höpfner, Napoleon correspondence/bulletins. Höpfner’s Russian narrative is mediated through Russian/Prussian reports; the two bulletins are one family."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "present-formations"
+        ],
+        "strength_population_and_time": "Available men in Bodart; formations present near midday in Höpfner; French bulletin participation disputed.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-decision",
+          "dupont-absent-account",
+          "dupont-present-account"
+        ],
+        "command_scope": "Bernadotte/Ponte-Corvo directs; Drouet/Rivaud and Dupont accounts disagree; superior operational orders not settled.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-russian-estimate"
+        ],
+        "strength_population_and_time": "Bodart about 9,000 versus French apparent 12,000; no own Russian return inspected.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-decision",
+          "dupont-present-account"
+        ],
+        "command_scope": "Markow in Bodart/Höpfner; Pahlen/Galitzin in the French bulletin; allocation of authority unresolved.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The per-side strength and authority checklist and all nine dimensions are recorded within the three-family ceiling; unresolved populations, source alternatives and replacement boundaries remain explicit.",
+    "deferred_decision_relevant_gaps": [
+      "Most consequential gap: a Russian contemporary return and Markow/Anrepp/cavalry command reports could resolve numerical strength and scope; deferred.",
+      "Three families: Bodart, Höpfner, Napoleon correspondence/bulletins. Höpfner’s Russian narrative is mediated through Russian/Prussian reports; the two bulletins are one family."
+    ]
+  }
+}

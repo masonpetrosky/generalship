@@ -317,6 +317,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B378c.json`; SHA-256 `e0bc72ef52218eb9372e24519f1659abd8328233b2675e3f73263677c7582775`; 13 claims, 2 unknowns.
+
 
 ### B379a: GEFECHT bei Mohrungen (25./1. 1807)
 
@@ -363,6 +365,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B379a.json`; SHA-256 `4a88365f02f820a5d9f76adc3997f18dcf1b0a448bb7f96064fcdef3449c9e04`; 14 claims, 2 unknowns.
+
 
 ### B379b: GEFECHT bei Waltersdorf (5./2. 1807)
 
@@ -407,6 +411,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B379b.json`; SHA-256 `27378e4547dece8bc987f0793834cb1717880d8e23f60f380a482b01a39db29e`; 12 claims, 3 unknowns.
 
 
 ### B380a: TREFFEN bei Hof (6./2. 1807)
@@ -453,6 +459,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B380a.json`; SHA-256 `0b9bccc03aff1beb0c5d6cd149f072297a6a1d8316e8655f23ee851869b98bd2`; 12 claims, 2 unknowns.
 
 
 ### B380b: SCHLACHT bei Preußisch-Eylau (7., 8./2. 1807)
@@ -520,6 +528,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B380b.json`; SHA-256 `c0fd0aa524918344fa378bdf726a75b410c9cf0a861afc211073b17967c37f56`; 15 claims, 3 unknowns.
+
 
 ### B381a: BELAGERUNG und EINNAHME von Schweidnitz (10./1.—16./2. 1807)
 
@@ -564,6 +574,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B381a.json`; SHA-256 `564536b224efaa116f90981b7047de3a110468ab431a0e621e298b8d8246e555`; 13 claims, 2 unknowns.
 
 
 ### B381b: TREFFEN bei Ostrolenka (16./2. 1807)
@@ -613,6 +625,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B381b.json`; SHA-256 `6b1f7c173790aeab6774eec6a2dbdbda3354b469817575ab1f26d709135810f8`; 13 claims, 2 unknowns.
+
 
 ### B381c: EINSCHLIESSUNG, BELAGERUNG und EINNAHME von Danzig (10./3.—24./5. 1807)
 
@@ -660,6 +674,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B381c.json`; SHA-256 `f115318edb574dbd7e183a5f3c5f047a1d2bcf3bb30048b8f01963df3741ebb5`; 16 claims, 2 unknowns.
+
 
 ### B382a: BELAGERUNG und EINNAHME von Neisse (23./2.—1./6. 1807)
 
@@ -705,6 +721,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B382a.json`; SHA-256 `8ca11615c10e378bf2181afee3bff67202f46ad26fa3922d81982e83be9bdd0c`; 15 claims, 3 unknowns.
 
 
 ### B382b: TREFFEN bei Lomitten (5./6. 1807)
@@ -752,6 +770,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B382b.json`; SHA-256 `17b4a1294f561be13fc6b595bd1dc3461a15a4fb37a364043a59f0b82cf57154`; 14 claims, 3 unknowns.
+
 
 ### B382c: TREFFEN bei Guttstadt und Deppen (5., 6./6. 1807)
 
@@ -798,6 +818,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B382c.json`; SHA-256 `8937df8f658aa2c9fbb064c3eb4cc3a11a10f6842c2783825b203a0b392e234e`; 13 claims, 4 unknowns.
 
 
 ### B383a: SCHLACHT bei Heilsberg (10./6. 1807)
@@ -860,6 +882,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B383a.json`; SHA-256 `59cc84d92a732827d229133446cbaf13fe6f59d3708d140fe3d85a4ae856ec6b`; 14 claims, 2 unknowns.
+
 
 ### B383b: SCHLACHT bei Friedland (14./6. 1807)
 
@@ -916,6 +940,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B383b.json`; SHA-256 `69f5ce68116dffe973f93d349dca19f31f7f5d7f528b64e262789425812b7532`; 13 claims, 4 unknowns.
+
 
 ### B384b: ERSTÜRMUNG des verschanzten Lagers und KAPITULATION von Glatz (24./6. 1807)
 
@@ -963,6 +989,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B384b.json`; SHA-256 `b7fd471d2f83098f66ef1710e2cf93051cdae412d99626922916b92314169abb`; 13 claims, 3 unknowns.
 
 
 ### B384c: Vergebliche EINSCHLIESSUNG und BELAGERUNG von Kolberg (20./3.—2./7. 1807)
@@ -1013,6 +1041,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B384c.json`; SHA-256 `ec2986f69ee9e47a72924a382f9882c44bb852c2ab79e10e35c8392d071c9253`; 13 claims, 3 unknowns.
+
 
 ### B385a: KAPITULATION zu Buenos-Ayres (6./7. 1807)
 
@@ -1056,6 +1086,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B385a.json`; SHA-256 `5597c5b40e37dc2f165afc7a6c6d4a72e1484fd0a29ccdbcadb82ce011a55568`; 15 claims, 3 unknowns.
 
 
 ### B385b: Vergebliche EINSCHLIESSUNG und BELAGERUNG von Kosel (24./1.—14./7. 1807)
@@ -1101,6 +1133,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B385b.json`; SHA-256 `420b091c1151189505f5ac8a2ab54a030896df03401c6c4670013277b1652602`; 15 claims, 3 unknowns.
+
 
 ### B385c: Vergebliche BLOKADE und BELAGERUNG von Graudenz (22./1.—27./7. 1807)
 
@@ -1144,6 +1178,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
  "override_reason": null
 }
 ```
+
+Existing draft: `data/napoleonic/evidence/B385c.json`; SHA-256 `4bc99137b01e3327cdd073209f154101a9ca0095944ec445d0e2320ea2eca586`; 13 claims, 3 unknowns.
 
 
 ### B386a: BELAGERUNG und EINNAHME von Stralsund (15./7.—20./8. 1807)
@@ -1191,6 +1227,8 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
+Existing draft: `data/napoleonic/evidence/B386a.json`; SHA-256 `af56b0fcc004131659e21bf1213ec4a75f4676738b63f8f1b16bb277051728f3`; 15 claims, 4 unknowns.
+
 
 ## Napoleonic sources already registered
 
@@ -1205,3 +1243,98 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `hoepfner-1851-bd4-ocr-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd4-djvu.txt
 - `foucart-pologne-1882-t2-ocr-v1`: Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin), d'après les archives de la guerre (title page, read on the Internet Archive's page image n12, not registered; the Internet Archive's title reads "Campagne de Pologne, novembre-décembre 1806 - janvier 1807 (Pultusk et Golymin)"); group `foucart-campagne-de-pologne`; data/raw/napoleonic-fourth-coalition-1806-v1/foucart-pologne-1882-t2-djvu.txt
 - `hoepfner-1851-bd3-ocr-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1806-v1/hoepfner-1851-bd3-djvu.txt
+- `napoleon-correspondance-t14-ocr-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-djvu.txt
+- `napoleon-correspondance-t15-ocr-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-djvu.txt
+- `whitelocke-trial-1808-ocr-v1`: Trial of Lieutenant General John Whitelocke, commander in chief of the expedition against Buenos Ayres; group `whitelocke-court-martial-1808`; data/raw/napoleonic-fourth-coalition-1807-v1/whitelocke-trial-djvu.txt
+- `groussac-liniers-1907-ocr-v1`: Santiago de Liniers, conde de Buenos Aires, 1753–1810; group `groussac-liniers-1907`; data/raw/napoleonic-fourth-coalition-1807-v1/groussac-liniers-djvu.txt
+- `key-aberg-1890-ocr-v1`: De diplomatiska förbindelserna mellan Sverige och Storbritannien under Gustaf IV Adolfs krig emot Napoléon intill konventionen i Stralsund den 7 sept. 1807; group `key-aberg-diplomatic-relations-1890`; data/raw/napoleonic-fourth-coalition-1807-v1/key-aberg-djvu.txt
+- `hoepfner-1851-bd4-p124-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p124-figures.txt
+- `hoepfner-1851-bd4-p125-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p125-figures.txt
+- `hoepfner-1851-bd4-p126-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p126-figures.txt
+- `hoepfner-1851-bd4-p129-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p129-figures.txt
+- `napoleon-t14-p215-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p215-figures.txt
+- `hoepfner-1851-bd3-p182-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p182-figures.txt
+- `hoepfner-1851-bd3-p183-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p183-figures.txt
+- `napoleon-t14-p237-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p237-figures.txt
+- `napoleon-t14-p262-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p262-figures.txt
+- `hoepfner-1851-bd3-p210-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p210-figures.txt
+- `hoepfner-1851-bd3-p211-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p211-figures.txt
+- `napoleon-t14-p287-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p287-figures.txt
+- `hoepfner-1851-bd3-p214-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p214-figures.txt
+- `hoepfner-1851-bd3-p215-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p215-figures.txt
+- `napoleon-t14-p289-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p289-figures.txt
+- `hoepfner-1851-bd3-p281-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p281-figures.txt
+- `napoleon-t14-p322-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p322-figures.txt
+- `hoepfner-1851-bd3-p282-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p282-figures.txt
+- `napoleon-t14-p323-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p323-figures.txt
+- `hoepfner-1851-bd3-p283-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p283-figures.txt
+- `hoepfner-1851-bd3-p227-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p227-figures.txt
+- `hoepfner-1851-bd3-p229-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p229-figures.txt
+- `napoleon-t14-p294-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p294-figures.txt
+- `napoleon-t14-p295-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p295-figures.txt
+- `hoepfner-1851-bd3-p269-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p269-figures.txt
+- `hoepfner-1851-bd3-p302-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p302-figures.txt
+- `napoleon-t14-p293-figures-v1`: Correspondance de Napoléon Ier, tome XIV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t14-p293-figures.txt
+- `hoepfner-1851-bd4-p138-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p138-figures.txt
+- `hoepfner-1851-bd4-p139-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p139-figures.txt
+- `hoepfner-1851-bd4-p140-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p140-figures.txt
+- `hoepfner-1851-bd4-p136-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p136-figures.txt
+- `hoepfner-1851-bd3-p385-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p385-figures.txt
+- `hoepfner-1851-bd3-p377-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p377-figures.txt
+- `hoepfner-1851-bd3-p378-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p378-figures.txt
+- `napoleon-t15-p66-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p66-figures.txt
+- `hoepfner-1851-bd3-p376-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p376-figures.txt
+- `napoleon-t15-p288-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p288-figures.txt
+- `hoepfner-1851-bd3-p577-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p577-figures.txt
+- `napoleon-t15-p326-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p326-figures.txt
+- `hoepfner-1851-bd3-p578-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p578-figures.txt
+- `hoepfner-1851-bd3-p581-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p581-figures.txt
+- `hoepfner-1851-bd3-p580-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p580-figures.txt
+- `hoepfner-1851-bd3-p601-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p601-figures.txt
+- `hoepfner-1851-bd3-p603-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p603-figures.txt
+- `hoepfner-1851-bd3-p617-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p617-figures.txt
+- `napoleon-t15-p328-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p328-figures.txt
+- `hoepfner-1851-bd3-p602-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p602-figures.txt
+- `hoepfner-1851-bd3-p618-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p618-figures.txt
+- `hoepfner-1851-bd3-p657-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p657-figures.txt
+- `hoepfner-1851-bd3-p661-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p661-figures.txt
+- `napoleon-t15-p335-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p335-figures.txt
+- `hoepfner-1851-bd3-p662-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p662-figures.txt
+- `hoepfner-1851-bd4-p229-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p229-figures.txt
+- `hoepfner-1851-bd4-p231-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p231-figures.txt
+- `hoepfner-1851-bd4-p230-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p230-figures.txt
+- `hoepfner-1851-bd4-p276-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p276-figures.txt
+- `hoepfner-1851-bd4-p275-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p275-figures.txt
+- `hoepfner-1851-bd4-p187-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p187-figures.txt
+- `hoepfner-1851-bd4-p185-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p185-figures.txt
+- `hoepfner-1851-bd4-p189-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p189-figures.txt
+- `hoepfner-1851-bd4-p280-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p280-figures.txt
+- `hoepfner-1851-bd4-p438-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p438-figures.txt
+- `hoepfner-1851-bd4-p439-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p439-figures.txt
+- `hoepfner-1851-bd4-p717-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p717-figures.txt
+- `hoepfner-1851-bd4-p736-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p736-figures.txt
+- `hoepfner-1851-bd4-p718-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p718-figures.txt
+- `hoepfner-1851-bd4-p403-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p403-figures.txt
+- `hoepfner-1851-bd4-p401-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p401-figures.txt
+- `hoepfner-1851-bd4-p408-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p408-figures.txt
+- `hoepfner-1851-bd4-p419-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p419-figures.txt
+- `hoepfner-1851-bd4-p412-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p412-figures.txt
+- `hoepfner-1851-bd4-p579-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p579-figures.txt
+- `hoepfner-1851-bd4-p580-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p580-figures.txt
+- `napoleon-t15-p121-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p121-figures.txt
+- `napoleon-t15-p67-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p67-figures.txt
+- `hoepfner-1851-bd4-p577-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p577-figures.txt
+- `hoepfner-1851-bd4-p578-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p578-figures.txt
+- `groussac-liniers-p131-figures-v1`: Santiago de Liniers, conde de Buenos Aires, 1753–1810; group `groussac-liniers-1907`; data/raw/napoleonic-fourth-coalition-1807-v1/groussac-liniers-p131-figures.txt
+- `whitelocke-trial-p91-figures-v1`: Trial of Lieutenant General John Whitelocke, commander in chief of the expedition against Buenos Ayres; group `whitelocke-court-martial-1808`; data/raw/napoleonic-fourth-coalition-1807-v1/whitelocke-trial-p91-figures.txt
+- `whitelocke-trial-p92-figures-v1`: Trial of Lieutenant General John Whitelocke, commander in chief of the expedition against Buenos Ayres; group `whitelocke-court-martial-1808`; data/raw/napoleonic-fourth-coalition-1807-v1/whitelocke-trial-p92-figures.txt
+- `groussac-liniers-p136-figures-v1`: Santiago de Liniers, conde de Buenos Aires, 1753–1810; group `groussac-liniers-1907`; data/raw/napoleonic-fourth-coalition-1807-v1/groussac-liniers-p136-figures.txt
+- `groussac-liniers-p137-figures-v1`: Santiago de Liniers, conde de Buenos Aires, 1753–1810; group `groussac-liniers-1907`; data/raw/napoleonic-fourth-coalition-1807-v1/groussac-liniers-p137-figures.txt
+- `napoleon-t15-p437-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p437-figures.txt
+- `key-aberg-p108-figures-v1`: De diplomatiska förbindelserna mellan Sverige och Storbritannien under Gustaf IV Adolfs krig emot Napoléon intill konventionen i Stralsund den 7 sept. 1807; group `key-aberg-diplomatic-relations-1890`; data/raw/napoleonic-fourth-coalition-1807-v1/key-aberg-p108-figures.txt
+- `napoleon-t15-p438-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p438-figures.txt
+- `key-aberg-p110-figures-v1`: De diplomatiska förbindelserna mellan Sverige och Storbritannien under Gustaf IV Adolfs krig emot Napoléon intill konventionen i Stralsund den 7 sept. 1807; group `key-aberg-diplomatic-relations-1890`; data/raw/napoleonic-fourth-coalition-1807-v1/key-aberg-p110-figures.txt
+- `key-aberg-p117-figures-v1`: De diplomatiska förbindelserna mellan Sverige och Storbritannien under Gustaf IV Adolfs krig emot Napoléon intill konventionen i Stralsund den 7 sept. 1807; group `key-aberg-diplomatic-relations-1890`; data/raw/napoleonic-fourth-coalition-1807-v1/key-aberg-p117-figures.txt
+- `hoepfner-1851-bd3-p579-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p579-figures.txt
+- `napoleon-t15-p334-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p334-figures.txt
+- `napoleon-t15-p436-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p436-figures.txt

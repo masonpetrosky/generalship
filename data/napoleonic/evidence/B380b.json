@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "battle_id": "B380b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Preussisch-Eylau 7–8 February; two-day entry and source-specific available/engaged populations retained. Tactical and campaign replacement boundaries are unset; phases are research hypotheses. No feature admission or historical rating fit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French) 75,000 men; side B (Russian and Prussian) 83,000 men, including 8,500 Prussians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read on the registered page image. His general rule is forces disposable for the engagement, rounded upward (shared research-conventions index); a stated siege endpoint or engaged subset takes precedence over treating it as an opening count. Population/timing alternatives are not reconciled. English rendering (ours): \"Total strength: French 75,000; Russian and Prussian 83,000.\" English rendering of footnotes (ours): Of these, Prussians: eleven battalions, thirty-five squadrons and six batteries, 8,500 men.",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p380",
+          "locator": "Bodart (1908), p. 380",
+          "quote": "ca 200 Gesch. 75.000 | Gesamt-Stärke | 83.000 [1] Gesch. ca. 300"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p380",
+          "locator": "Bodart (1908), p. 380",
+          "quote": "[1] hievon Preußen: 11 Btln. 35 Esk. 6 Batter. } = 8.500 M."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon I.; side B under Russ. Gen. d. Kav. Fh. v. Bennigsen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed attribution, not automatic allocation of tactical or campaign credit. Titles and spellings remain source-specific; additional passages distinguish superior from local authority. English rendering (ours): \"French: Napoleon I; Russian commander: Bennigsen.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p380",
+          "locator": "Bodart (1908), p. 380",
+          "quote": "Franzosen | Russen und Preußen\nNapoleon I. | Russ. Gen. d. Kav. Fh. v. Bennigsen"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side A as Bodart's winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Retains the frozen winner convention. A capitulation date and physical handover can differ; historical source disputes remain separate. English rendering (ours): \"Battle entry with French on the printed winner’s left and opponents on the right.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p380",
+          "locator": "Bodart (1908), p. 380",
+          "quote": "1807 7., 8./2. SCHLACHT bei Preußisch-Eylau (1.)\n(Stadt in Preußen, Provinz Ostpreußen, 33 km südl. von Königsberg).\nFranzosen | Russen und Preußen\nNapoleon I. | Russ. Gen. d. Kav. Fh. v. Bennigsen"
+        }
+      ]
+    },
+    {
+      "id": "russian-combatants",
+      "dimension": "strength",
+      "value": "Side B: Höpfner gives about 58,000 Russian combatants in 126 battalions and 145 squadrons, excluding Cossacks, in the battle position.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Russian-only observation; not the same denominator as Bodart’s Russian-Prussian available-force total. English rendering (ours): \"The Russian army counted about 58,000 combatants in 126 battalions and 145 squadrons, excluding Cossacks\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p227-figures-v1",
+          "section": "p227",
+          "locator": "hoepfner-1851-bd3, printed p. 227 (page-image transcription)",
+          "quote": "Die russische Armee zählte in 126 Bat. und 145 Schwadr. (ohne Kosaken) etwa 58,000 Kombattanten"
+        }
+      ]
+    },
+    {
+      "id": "french-strength-alternatives",
+      "dimension": "strength",
+      "value": "Side A: Höpfner reports Dumas’s 68,500 including Davout and Ney, rejects it, and infers about 80,000 French entered combat; both are retained as mediated estimates.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Dumas’s original has not been inspected; no claim of independent corroboration. Höpfner’s figure is explicitly an inference, not a return; no averaging. English rendering (ours): \"Dumas gives the French army including Davout’s and Ney’s corps as 118 battalions,148 squadrons and 68,500 men.\" English rendering (ours): \"One may therefore assume about 80,000 French entered combat at Eylau\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p229-figures-v1",
+          "section": "p229",
+          "locator": "hoepfner-1851-bd3, printed p. 229 (page-image transcription)",
+          "quote": "Mathieu Dumas giebt in seinem Werke die Stärke der französischen Armee, incl. der Korps der Marschälle Davout und Ney, auf 118 Bataillone, 148 Schwadronen¹) und 68,500 Mann an."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p229-figures-v1",
+          "section": "p229",
+          "locator": "hoepfner-1851-bd3, printed p. 229 (page-image transcription)",
+          "quote": "Man kann daher annehmen, daß gegen 80,000 Franzosen bei Eylau ins Gefecht gegangen sind"
+        }
+      ]
+    },
+    {
+      "id": "french-direction",
+      "dimension": "responsibility",
+      "value": "The French bulletin has Napoleon advance Augereau’s corps and Murat lead cavalry, supported by Bessières; Davout’s flank approach and Ney’s late arrival remain separate roles.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Imperial bulletin’s own command narrative, not allocation of individual causal credit. Day/date of bulletin fixed by its heading on p 293. English rendering (ours): \"He ordered Marshal Augereau’s corps forward\" English rendering (ours): \"the Grand Duke of Berg at the head of the cavalry, supported by Bessières at the head of the Guard\" English rendering (ours): \"At the same moment Ney’s corps emerged through Althof on the left\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p294-figures-v1",
+          "section": "p294",
+          "locator": "napoleon-t14, printed p. 294 (page-image transcription)",
+          "quote": "Il fit avancer le corps du maréchal Augereau"
+        },
+        {
+          "source_id": "napoleon-t14-p294-figures-v1",
+          "section": "p294",
+          "locator": "napoleon-t14, printed p. 294 (page-image transcription)",
+          "quote": "le grand-duc de Berg, à la tête de la cavalerie, et soutenu par le maréchal Bessières à la tête de la Garde"
+        },
+        {
+          "source_id": "napoleon-t14-p295-figures-v1",
+          "section": "p295",
+          "locator": "napoleon-t14, printed p. 295 (page-image transcription)",
+          "quote": "Au même moment, le corps du maréchal Ney débouchait par Althof sur la gauche"
+        }
+      ]
+    },
+    {
+      "id": "russian-sectors",
+      "dimension": "responsibility",
+      "value": "Under Bennigsen’s overall attribution, Höpfner assigns Russian right to Tutschkow I, centre to Sacken, left to Ostermann Tolstoy, reserves to Dochtorow, cavalry to Gallizin and artillery to Rjeswoi.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Source spellings retained; exact appointment boundaries and L’Estocq’s separate effective authority are not resolved here. English rendering (ours): \"Tutschkow I commanded the right, Sacken the centre, Ostermann Tolstoy the left, Dochtorow the reserves, Gallizin all cavalry and Rjeswoi all artillery.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p227-figures-v1",
+          "section": "p227",
+          "locator": "hoepfner-1851-bd3, printed p. 227 (page-image transcription)",
+          "quote": "Den rechten Flügel der Armee kommandirte der General Tutschkow I., das Centrum der General Sacken, den linken Flügel der General Ostermann Tolstoy, die Reserven der General Dochtorow, die gesammte Kavallerie der Fürst Gallizin, und die gesammte Artillerie der General Rjeswoi."
+        }
+      ]
+    },
+    {
+      "id": "french-victory-account",
+      "dimension": "outcome",
+      "value": "The French bulletin claims victory was decided by Davout’s flank arrival.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "English rendering (ours): \"Victory, long uncertain, was decided and won when Davout emerged on the plateau and outflanked the enemy\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p295-figures-v1",
+          "section": "p295",
+          "locator": "napoleon-t14, printed p. 295 (page-image transcription)",
+          "quote": "La victoire, longtemps incertaine, fut décidée et gagnée lorsque le maréchal Davout déboucha sur le plateau et déborda l’ennemi"
+        }
+      ]
+    },
+    {
+      "id": "victory-doubted",
+      "dimension": "outcome",
+      "value": "Höpfner questions whether a French victory had been won at all; he also reports Bennigsen urging pursuit of the defeated French.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "The first is Höpfner’s retrospective judgement; the second is his rendering of Bennigsen’s proclamation, not an inspected Russian original. Frozen Bodart outcome unchanged. English rendering (ours): \"if such a victory had been won at all.\" English rendering (ours): \"to pursue the defeated French in order to restore peace to the world.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p269-figures-v1",
+          "section": "p269",
+          "locator": "hoepfner-1851-bd3, printed p. 269 (page-image transcription)",
+          "quote": "wenn ein solcher Sieg überhaupt erfochten worden war."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p302-figures-v1",
+          "section": "p302",
+          "locator": "hoepfner-1851-bd3, printed p. 302 (page-image transcription)",
+          "quote": "die besiegten Franzosen zu verfolgen, um der Welt den Frieden zurückzugeben."
+        }
+      ]
+    },
+    {
+      "id": "snow-visibility",
+      "dimension": "information",
+      "value": "The French bulletin attributes lost direction during the attack to thick snow obscuring both armies.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Interested explanation; no invented measured visibility or readiness score. English rendering (ours): \"thick snow prevented seeing two paces and covered both armies. In this obscurity the point of direction was lost\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p294-figures-v1",
+          "section": "p294",
+          "locator": "napoleon-t14, printed p. 294 (page-image transcription)",
+          "quote": "qu’une neige épaisse, et telle qu’on ne distinguait pas à deux pas, couvrit les deux armées. Dans cette obscurité, le point de direction fut perdu"
+        }
+      ]
+    },
+    {
+      "id": "sloping-heights",
+      "dimension": "terrain",
+      "value": "Höpfner places the Russian main force on gently sloping heights within canister range of the town.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"on gently sloping heights and within canister range of the town.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p227-figures-v1",
+          "section": "p227",
+          "locator": "hoepfner-1851-bd3, printed p. 227 (page-image transcription)",
+          "quote": "auf sanft abfallenden Höhen und auf Kartätschschußweite von der Stadt."
+        }
+      ]
+    },
+    {
+      "id": "main-attacks",
+      "dimension": "posture",
+      "value": "The French attacked the town position in the initial combat; the bulletin says the Russians opened the next day’s attack by cannonade before French corps advanced.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The frozen entry spans both days; main attacks across the field, not only a position-internal counterattack. English rendering (ours): \"Soult ordered the 46th and 18th line regiments to take it.\" English rendering (ours): \"At daybreak the enemy began the attack with a lively cannonade on Eylau and Saint-Hilaire’s division.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t14-p293-figures-v1",
+          "section": "p293",
+          "locator": "napoleon-t14, printed p. 293 (page-image transcription)",
+          "quote": "Le maréchal Soult ordonna au 46e et au 18e régiment de ligne de l’enlever."
+        },
+        {
+          "source_id": "napoleon-t14-p293-figures-v1",
+          "section": "p293",
+          "locator": "napoleon-t14, printed p. 293 (page-image transcription)",
+          "quote": "A la pointe du jour, l’ennemi commença l’attaque par une vive canonnade sur la ville d’Eylau et sur la division Saint-Hilaire."
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Most consequential gap: dated French and Russian/Prussian returns separating arrivals and engaged troops; deferred original returns and L’Estocq’s battle journal.",
+    "Bodart winner remains frozen despite French victory claim and Prussian/Russian contrary accounts. Three families: Bodart, Napoleon, Höpfner. No original Russian proclamation inspected."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-strength-alternatives"
+        ],
+        "strength_population_and_time": "Bodart available 75,000; Höpfner’s mediated Dumas 68,500 versus inferred engaged 80,000; neither an inspected French return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "french-direction"
+        ],
+        "command_scope": "Napoleon directs with distinct corps/cavalry roles; no automatic attribution to each marshal.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "russian-combatants"
+        ],
+        "strength_population_and_time": "Bodart joint 83,000, footnoted Prussians 8,500; Höpfner Russian 58,000 excludes Cossacks; timing/coverage differ.",
+        "command_claim_ids": [
+          "bodart-command",
+          "russian-sectors"
+        ],
+        "command_scope": "Bennigsen overall; source-specific sectors; exact independent Prussian command boundary unresolved.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The per-side strength and authority checklist and all nine dimensions are recorded within the three-family ceiling; unresolved populations, source alternatives and replacement boundaries remain explicit.",
+    "deferred_decision_relevant_gaps": [
+      "Most consequential gap: dated French and Russian/Prussian returns separating arrivals and engaged troops; deferred original returns and L’Estocq’s battle journal.",
+      "Bodart winner remains frozen despite French victory claim and Prussian/Russian contrary accounts. Three families: Bodart, Napoleon, Höpfner. No original Russian proclamation inspected."
+    ]
+  }
+}

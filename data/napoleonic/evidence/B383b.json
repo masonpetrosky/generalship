@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "battle_id": "B383b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Friedland 14 June; source clock, attack order and later reconstruction remain separate. Tactical and campaign replacement boundaries are unset; phases are research hypotheses. No feature admission or historical rating fit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A 87,000; side B 61,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Read on the registered page image. His general rule is forces disposable for the engagement, rounded upward (shared research-conventions index); a stated siege endpoint or engaged subset takes precedence over treating it as an opening count. Population/timing alternatives are not reconciled. English rendering (ours): \"Total strength: French 87,000; Russian 61,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p383",
+          "locator": "Bodart (1908), p. 383",
+          "quote": "87.000 | Gesamt-Stärke | 61.000"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon I.; side B under Gen. d. Kav. Fh. v. Bennigsen.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed attribution, not automatic allocation of tactical or campaign credit. Titles and spellings remain source-specific; additional passages distinguish superior from local authority. English rendering (ours): \"French: Napoleon I; Russian commander: Bennigsen.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p383",
+          "locator": "Bodart (1908), p. 383",
+          "quote": "Franzosen | Russen\nNapoleon I. | Gen. d. Kav. Fh. v. Bennigsen"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side A as Bodart's winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Retains the frozen winner convention. A capitulation date and physical handover can differ; historical source disputes remain separate. English rendering (ours): \"Battle entry with French on the printed winner’s left and opponents on the right.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p383",
+          "locator": "Bodart (1908), p. 383",
+          "quote": "1807 14./6. SCHLACHT bei Friedland (1.)\n(Stadt in Preußen, Ostpreußen, an der Alle, 43 km südöstl. von Königsberg).\nFranzosen | Russen\nNapoleon I. | Gen. d. Kav. Fh. v. Bennigsen"
+        }
+      ]
+    },
+    {
+      "id": "morning-engaged",
+      "dimension": "strength",
+      "value": "Höpfner estimates about 40,000 French fighting 46,000 Russians after Verdier arrived at about 10 a. m.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Source clock and staged fighting population; not a replacement for Bodart’s whole-day available totals. English rendering (ours): \"At 10 o’clock Verdier’s division of Lannes’s corps finally arrived, so that about 40,000 French were now fighting 46,000 Russians.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p657-figures-v1",
+          "section": "p657",
+          "locator": "hoepfner-1851-bd3, printed p. 657 (page-image transcription)",
+          "quote": "Um 10 Uhr langte endlich die Division Verdier des Lannesschen Korps an, so daß nunmehr etwa 40,000 Franzosen gegen 46,000 Russen fochten."
+        }
+      ]
+    },
+    {
+      "id": "directed-total",
+      "dimension": "strength",
+      "value": "Höpfner infers that Napoleon ought to have had about 85,000 men with all troops directed on Friedland after detachments.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Author’s reconstruction, not an actual simultaneous engaged return; source dependency on French campaign material remains possible. English rendering (ours): \"although with all troops directed on Friedland, after deducting the various detachments, he must have been about 85,000 strong\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p661-figures-v1",
+          "section": "p661",
+          "locator": "hoepfner-1851-bd3, printed p. 661 (page-image transcription)",
+          "quote": "obgleich er mit den sämmtlichen auf Friedland dirigirten Truppen, nach Abzug der verschiedenen Detaschements, etwa 85,000 Mann stark sein mußte"
+        }
+      ]
+    },
+    {
+      "id": "attack-authority",
+      "dimension": "responsibility",
+      "value": "The printed order gives Ney movement initiative subject to Napoleon’s order to begin, while Napoleon places himself with the reserve.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Order 12756 begins on p 334. The edition credits Thibaudeau and Mathieu Dumas on p 335; this is a historical printed transmission, not an inspected autograph or independent corroboration of Höpfner’s translation. English rendering (ours): \"I shall be with the reserve.\" English rendering (ours): \"One must always advance by the right and leave the movement initiative to Marshal Ney, who will await my orders to begin.\" English rendering of heading (ours): \"Order 12756, at the bivouac behind Posthenen, 14 June 1807.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t15-p335-figures-v1",
+          "section": "p335-1807-06-14",
+          "locator": "napoleon-t15, printed p. 335 (page-image transcription)",
+          "quote": "Je me trouverai à la réserve."
+        },
+        {
+          "source_id": "napoleon-t15-p335-figures-v1",
+          "section": "p335-1807-06-14",
+          "locator": "napoleon-t15, printed p. 335 (page-image transcription)",
+          "quote": "On doit toujours avancer par la droite, et on doit laisser l’initiative du mouvement au maréchal Ney, qui attendra mes ordres pour commencer."
+        },
+        {
+          "source_id": "napoleon-t15-p334-figures-v1",
+          "section": "p334-1807-06-14",
+          "locator": "napoleon-t15, printed p. 334 (page-image transcription)",
+          "quote": "12756. — ORDRES.\nAu bivouac en arrière de Posthenen, 14 juin 1807."
+        }
+      ]
+    },
+    {
+      "id": "russian-retreat-order",
+      "dimension": "responsibility",
+      "value": "Höpfner attributes the retreat order to Bennigsen after observers on Friedland’s tower reported the whole French army approaching, at about 5 p. m.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The preceding paragraph names Bennigsen and reports his memoir account; exact execution and subordinate authority remain unresolved. English rendering (ours): \"He now immediately ordered the retreat\" English rendering (ours): \"Bennigsen had eagerly wished for darkness and was told at about five o’clock by officers he had posted to observe from Friedland’s tower that the whole French army was approaching. He immediately ordered the retreat.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p662-figures-v1",
+          "section": "p662",
+          "locator": "hoepfner-1851-bd3, printed p. 662 (page-image transcription)",
+          "quote": "Er befahl nun sogleich den Rückzug"
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p662-figures-v1",
+          "section": "p662",
+          "locator": "hoepfner-1851-bd3, printed p. 662 (page-image transcription)",
+          "quote": "Der General Bennigsen hatte sehnlichst die Dunkelheit herbeigewünscht, und wurde gegen 5 Uhr von einigen Offizieren, die er auf dem Thurm von Friedland zum Beobachten aufgestellt hatte, benachrichtigt, daß die ganze französische Armee im Anmarsch sei. Er befahl nun sogleich den Rückzug"
+        }
+      ]
+    },
+    {
+      "id": "late-arrival",
+      "dimension": "information",
+      "value": "Höpfner says the Guard and 1st Corps arrived gradually at 4 p. m. and Napoleon ordered the attack at 5 p. m.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reported sequence and local clock; not commander knowledge of an exact strength denominator. English rendering (ours): \"At 4 o’clock the Guards and 1st Corps arrived gradually.\" English rendering (ours): \"At 5 o’clock Napoleon ordered the attack.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p662-figures-v1",
+          "section": "p662",
+          "locator": "hoepfner-1851-bd3, printed p. 662 (page-image transcription)",
+          "quote": "Um 4 Uhr trafen die Garden und das 1. Korps allmälig ein."
+        },
+        {
+          "source_id": "hoepfner-1851-bd3-p662-figures-v1",
+          "section": "p662",
+          "locator": "hoepfner-1851-bd3, printed p. 662 (page-image transcription)",
+          "quote": "Um 5 Uhr befahl Napoleon den Angriff."
+        }
+      ]
+    },
+    {
+      "id": "ordered-attack",
+      "dimension": "posture",
+      "value": "Napoleon ordered the attack after staged reinforcement.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"At 5 o’clock Napoleon ordered the attack.\"",
+      "citations": [
+        {
+          "source_id": "hoepfner-1851-bd3-p662-figures-v1",
+          "section": "p662",
+          "locator": "hoepfner-1851-bd3, printed p. 662 (page-image transcription)",
+          "quote": "Um 5 Uhr befahl Napoleon den Angriff."
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Not established by the bounded passages inspected for strength and responsibility; no additional thematic search in this first pass.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Most consequential gap: a dated Russian return and the arrival/engagement series could resolve whole-day versus morning counts; deferred.",
+    "Three families: Bodart, Höpfner, Napoleon correspondence. The printed order’s compiler transmission is explicit; no independent original-order verification."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "morning-engaged",
+          "directed-total"
+        ],
+        "strength_population_and_time": "Whole-day available versus 10 a. m. fighting estimate and reconstructed directed total; none are added.",
+        "command_claim_ids": [
+          "bodart-command",
+          "attack-authority"
+        ],
+        "command_scope": "Napoleon overall, Ney initiative conditional on order; Lannes/Mortier and later corps stage the battle.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "morning-engaged"
+        ],
+        "strength_population_and_time": "Bodart 61,000 available versus Höpfner’s morning 46,000 fighting; dated Russian own return not inspected.",
+        "command_claim_ids": [
+          "bodart-command",
+          "russian-retreat-order"
+        ],
+        "command_scope": "Bennigsen orders retreat in mediated memoir account; subordinate execution unresolved.",
+        "army_continuity": "Unknown: these passages identify formations and commanders, not a verified army identity or its continuity across appointments."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The per-side strength and authority checklist and all nine dimensions are recorded within the three-family ceiling; unresolved populations, source alternatives and replacement boundaries remain explicit.",
+    "deferred_decision_relevant_gaps": [
+      "Most consequential gap: a dated Russian return and the arrival/engagement series could resolve whole-day versus morning counts; deferred.",
+      "Three families: Bodart, Höpfner, Napoleon correspondence. The printed order’s compiler transmission is explicit; no independent original-order verification."
+    ]
+  }
+}

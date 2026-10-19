@@ -5,6 +5,28 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Fourth Coalition 1807 first pass, 2026-10-19
+
+The [campaign pass](research/fourth-coalition-1807-first-pass-v1.md) appends **195 records**:
+90 inspected page images, 90 manual selected-excerpt transcriptions, five complete OCR parents
+and ten Internet Archive metadata/scan-data captures. Existing Bodart and Höpfner III/IV parents
+are reused without revision. Full paths, SHA-256, rights, parent/facsimile bindings, document
+dates and inspection limits are in `data/sources.json`; retained input notes list the pages.
+
+New parent families: Napoleon's *Correspondance*, XIV (1863) and XV (1864), one interested
+imperial family; Whitelocke's 1808 trial publication (commercial shorthand, not claimed certified);
+Groussac's *Santiago de Liniers* (1907), a retrospective Argentine history using trial material;
+and Key-Åberg's Swedish diplomatic history (1890), with mediated military accounts. All were
+published before 1930. Höpfner is Prussian war-archive history with mediated Russian and allied
+figures. Embedded documents, volumes and translated orders are not extra independent families.
+
+All quoted passages and numeric strength observations were read on retained images. Selected
+narrative was also manually transcribed from images; it is explicitly not an OCR-range selection.
+Initial provisional wrong-leaf/unused downloads were corrected or removed before registration;
+no pre-existing snapshot or registry entry changed. New excerpt files have editorial notes and
+section-date maps; source hashes and quote checks pass. Missing actual Spanish and Swedish
+returns remain visible rather than treating treaty or reconstructed totals as observed strength.
+
 ## Trans-Mississippi 1862 first passes (cohort v2), 2026-09-25
 
 The first passes for Sibley's New Mexico campaign, Pea Ridge, the White River, Cache River and the

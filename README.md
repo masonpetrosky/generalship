@@ -17,7 +17,7 @@ wins a commander caused. No validated commander ranking exists here yet.
 
 ## Status
 
-As of 2026-10-18:
+As of 2026-10-19:
 
 - **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
   is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
@@ -39,12 +39,13 @@ As of 2026-10-18:
   2026-10-06 ([scoping note](docs/napoleonic-scoping.md)). Bodart's 1908 list is transcribed and
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
-  engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples and the 23 of the 1806
-  war against Prussia have drafts, and each group's drafts have been checked together. The
+  engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
+  war against Prussia and the 19 of the 1807 group have drafts: 68/325 across four complete
+  groups, each primary-verified together. The
   [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
   were weakly recovered on the provisional label schedule. No historical outcome was fitted.
-  The 19 engagements of 1807 are next, under a tighter brief ([roadmap](docs/roadmap.md)).
+  The 17 engagements of the Peninsula in 1808 are next, under brief v3 ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 
