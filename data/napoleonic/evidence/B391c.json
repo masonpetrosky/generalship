@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "battle_id": "B391c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Somosierra, frozen span 1808-11-30 to 1808-11-30. Replacement boundaries unset; phases are research hypotheses. This draft admits no features, changes no frozen winner and allocates no tactical or campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A (French and Polish) about 7,000 infantry and 1,000 cavalry, total 8,000; side B (Spanish) 12,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available-for-engagement figures under Bodart’s rounded-up convention (shared research-conventions index), unless the entry specifies a surrender population. Not an opening muster; components are not added twice. English rendering of the claim-relevant portion (ours): \"side A (French and Polish) about 7,000 infantry and 1,000 cavalry, total 8,000; side B (Spanish) 12,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p391",
+          "locator": "Bodart (1908), p. 391, Somosierra entry; page image inspected",
+          "quote": "Sieg der Franzosen (10 Btln., 1 Esk. = ca. 7.000 Inft., 1.000 Reiter, zus. 8.000 M.) unter Napoleon I. über die Spanier (15 Btl., 14 Kan. = 12.000 M.) unter Gen.-Lt. Benito de San-Juan."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon and side B under Benito de San-Juan.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed attribution does not establish uninterrupted command over this date span or automatic individual credit. English rendering of the claim-relevant portion (ours): \"French-side command: Napoleon; opponent-side command: Benito de San-Juan.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p391",
+          "locator": "Bodart (1908), p. 391, Somosierra entry; page image inspected",
+          "quote": "Sieg der Franzosen (10 Btln., 1 Esk. = ca. 7.000 Inft., 1.000 Reiter, zus. 8.000 M.) unter Napoleon I. über die Spanier (15 Btl., 14 Kan. = 12.000 M.) unter Gen.-Lt. Benito de San-Juan."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "The frozen frame records side A as Bodart’s winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen source convention; success in a capitulation and success in its preceding battle remain separate records. English rendering of the claim-relevant portion (ours): \"Victory or successful resistance by side A.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p391",
+          "locator": "Bodart (1908), p. 391, Somosierra entry; page image inspected",
+          "quote": "Sieg der Franzosen (10 Btln., 1 Esk. = ca. 7.000 Inft., 1.000 Reiter, zus. 8.000 M.) unter Napoleon I. über die Spanier (15 Btl., 14 Kan. = 12.000 M.) unter Gen.-Lt. Benito de San-Juan."
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded strength/command passages do not establish this dimension for the frozen Somosierra engagement; not inferred from location, reputation or outcome.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded strength/command passages do not establish this dimension for the frozen Somosierra engagement; not inferred from location, reputation or outcome.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "The bounded strength/command passages do not establish this dimension for the frozen Somosierra engagement; not inferred from location, reputation or outcome.",
+      "citations": []
+    },
+    {
+      "id": "spanish-posting-population",
+      "dimension": "strength",
+      "value": "Toreno gives side B 12,000 assigned to San Juan for the pass; a separate advance guard was posted at Sepúlveda.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Assignment for pass defence, before the later detachment/retreat sequence; not necessarily the same population as all still at the pass on the battle morning. English rendering (ours): \"12,000 men and some guns in all.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t2-p166-figures-v1",
+          "section": "p166",
+          "locator": "toreno-t2, printed p. 166, Internet Archive leaf 171; inspected page-image excerpt",
+          "quote": "en todo 12,000 hombres y algunos cañones."
+        }
+      ]
+    },
+    {
+      "id": "french-dispatch-enemy-estimate",
+      "dimension": "strength",
+      "value": "Napoleon’s evening letter gives 9,000 opponents occupying Somosierra.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Opponent estimate after action, not a French own-force figure. The following separate Sepúlveda force is not included. English rendering (ours): \"A corps of 9,000 men occupied Somosierra.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t18-p86-figures-v1",
+          "section": "p86-letter14522",
+          "locator": "napoleon-t18, printed p. 86, Internet Archive leaf 95; inspected page-image excerpt",
+          "quote": "Un corps de 9,000 hommes occupait la Somo-Sierra;"
+        }
+      ]
+    },
+    {
+      "id": "bulletin-enemy-alternative",
+      "dimension": "strength",
+      "value": "The subsequent French bulletin gives 13,000 Spanish reserve troops defending the pass.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Same official French publication family, different document and date; not independent corroboration or an averaged estimate. English rendering (ours): \"A division of 13,000 Spanish reserve troops defended the mountain passage.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t18-p87-figures-v1",
+          "section": "p87-bulletin14524",
+          "locator": "napoleon-t18, printed p. 87, Internet Archive leaf 96; inspected page-image excerpt",
+          "quote": "Une division de 13,000 hommes de l’armée de réserve espagnole défendait le passage de cette montagne."
+        }
+      ]
+    },
+    {
+      "id": "san-juan-superior-orders",
+      "dimension": "responsibility",
+      "value": "Toreno puts San Juan’s assignment under the Central Junta’s defence arrangements directed through Morla and Castelar.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"After Burgos the Central Junta entrusted Morla and Castelar with defending Madrid and the Guadarrama, Fonfría, Navacerrada and Somosierra passes.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t2-p166-figures-v1",
+          "section": "p166",
+          "locator": "toreno-t2, printed p. 166, Internet Archive leaf 171; inspected page-image excerpt",
+          "quote": "La junta central después de la rota de Burgos habia encargado á Don Tomás de Morla y al marqués de Castelar atendiesen á la defensa de Madrid, y de los pasos de Guadarrama, Fonfria, Navacerrada y Somosierra."
+        }
+      ]
+    },
+    {
+      "id": "polish-command-attribution",
+      "dimension": "responsibility",
+      "value": "The French bulletin credits Montbrun with leading the Polish Guard charge.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Retains the bulletin’s attributed command and causal rhetoric without treating it as an established effect or reconciling other possible charge leaders. English rendering (ours): \"A charge by General Montbrun at the head of the Polish Guard light cavalry decided the affair.\"",
+      "citations": [
+        {
+          "source_id": "napoleon-t18-p88-figures-v1",
+          "section": "p88-bulletin14524",
+          "locator": "napoleon-t18, printed p. 88, Internet Archive leaf 97; inspected page-image excerpt",
+          "quote": "Une charge que fit le général Montbrun, à la tête des chevau-légers polonais de la Garde, décida l’affaire"
+        }
+      ]
+    },
+    {
+      "id": "napoleon-ordered-charge",
+      "dimension": "posture",
+      "value": "Toreno reports an order to gallop up the road in reaction to resistance; the quoted pronoun does not itself identify a subordinate charge leader.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "The continuation names the Polish lancers; Bodart names Napoleon. The page is retained in full. English rendering (ours): \"Irritated and impatient with the resistance, he then ordered a galloping charge up the road.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t2-p167-figures-v1",
+          "section": "p167",
+          "locator": "toreno-t2, printed p. 167, Internet Archive leaf 172; inspected page-image excerpt",
+          "quote": "Irritado este é impaciente con la resistencia, mandó entonces soltar á escape por la calzada"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "san-juan-fieldworks",
+      "dimension": "fortification",
+      "value": "Side B’s San Juan hastily built field works at the top of the pass.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"At the top of the pass he had hastily raised some field works.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t2-p167-figures-v1",
+          "section": "p167",
+          "locator": "toreno-t2, printed p. 167, Internet Archive leaf 172; inspected page-image excerpt",
+          "quote": "En lo alto del puerto habia levantado aceleradamente algunas obras de campaña"
+        }
+      ],
+      "code": "B_fortified"
+    },
+    {
+      "id": "mountain-flanks",
+      "dimension": "terrain",
+      "value": "Higher lateral mountains overlooked the road and summit, according to Toreno.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"The high road up to the pass was dominated by lateral mountains following its turns.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1835-t2-p167-figures-v1",
+          "section": "p167",
+          "locator": "toreno-t2, printed p. 167, Internet Archive leaf 172; inspected page-image excerpt",
+          "quote": "Dominado el camino real hasta lo alto del puerto por montañas laterales que le siguen en sus vueltas y sesgos"
+        }
+      ]
+    },
+    {
+      "id": "french-own-strength-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No comparable own-force French return for the actual attacking force was established in the letters/bulletin read. Regimental names, loss figures and enemy estimates do not supply it.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Reconcile pass defenders versus detached Sepúlveda troops and the differing French dispatch/bulletin estimates; identify the actual Polish charge command from reports.",
+    "Deferred: the dated original returns and reports identified above, and any deeper source-lineage reconciliation. No additional research cycle follows merely from this gap.",
+    "Source dependence: Bodart is a later compilation. Toreno, Foy, Oman, Saint-Cyr and the official Correspondance are interested or retrospective source families, and embedded/reprinted reports are not extra independent witnesses. Agreement does not establish independence."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-own-strength-unknown"
+        ],
+        "strength_population_and_time": "Bodart’s engagement-level available force; no dated opening return. Source-specific alternatives below retain their own moment and population. Alternatives/limits: No comparable own-force French return for the actual attacking force was established in the letters/bulletin read. Regimental names, loss figures and enemy estimates do not supply it.",
+        "command_claim_ids": [
+          "bodart-command",
+          "polish-command-attribution"
+        ],
+        "command_scope": "Printed side-A commander Napoleon; local/superior authority and transitions remain limited to the additional passages cited below. The French bulletin credits Montbrun with leading the Polish Guard charge.",
+        "army_continuity": "Unknown: these passages do not establish a cross-engagement army identity."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "spanish-posting-population",
+          "french-dispatch-enemy-estimate",
+          "bulletin-enemy-alternative"
+        ],
+        "strength_population_and_time": "Bodart’s engagement-level available force; no dated opening return. Civilians, recruits, regular troops and surrender survivors are not interchangeable. Alternatives/limits: Toreno gives side B 12,000 assigned to San Juan for the pass; a separate advance guard was posted at Sepúlveda. Napoleon’s evening letter gives 9,000 opponents occupying Somosierra. The subsequent French bulletin gives 13,000 Spanish reserve troops defending the pass.",
+        "command_claim_ids": [
+          "bodart-command",
+          "san-juan-superior-orders"
+        ],
+        "command_scope": "Printed side-B commander Benito de San-Juan; local/superior authority and transitions remain limited to the additional passages cited below. Toreno puts San Juan’s assignment under the Central Junta’s defence arrangements directed through Morla and Castelar.",
+        "army_continuity": "Unknown: repeated names and formation labels do not establish continuity."
+      }
+    },
+    "additional_source_ids_checked": [],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "The per-side strength/command checklist and nine dimensions are covered by supported observations or explicit unknowns. The remaining decision-relevant gap is deferred; no feature admission follows.",
+    "deferred_decision_relevant_gaps": [
+      "Reconcile pass defenders versus detached Sepúlveda troops and the differing French dispatch/bulletin estimates; identify the actual Polish charge command from reports."
+    ]
+  }
+}

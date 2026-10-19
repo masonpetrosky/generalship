@@ -12,6 +12,28 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1808 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1808-first-pass-v1.md) adds all 17 frozen entries:
+**231 claims, 68 explicit unknowns, 189 citations**, with brief v3's nine dimensions and
+34 per-side strength/command/continuity checklists. All are primary-verified; no separate
+review, subagent, follow-up cycle, second-opinion prompt or model job ran.
+
+Bailén battle versus surrender, local versus superior command, field versus corps numbers,
+Foy/Toreno surrender alternatives and the Lannes arrival-date conflict remain explicit.
+Oman's Portuguese account is mediated through Neves/Arteche, not an inspected original return.
+All 34 army-continuity records remain unknown, and no historical feature is admitted.
+
+There are 175 new source records, including 74 image/excerpt pairs and seven title images.
+Two effort overruns are disclosed: extra Foy reading at Valencia and incidental Medina context.
+Those extra observations/locators are retained outside the three-family dossiers; this does
+not undo the overrun or establish complete compliance with the research ceiling. The gate
+was not relaxed. The 12 new digit flags have primary dispositions in the retained manifest.
+Source/evidence checks, research screen, `make reproduce` and `make check` validate the batch;
+the packet and reports are regenerated and inspected. Earlier 68 drafts, old source entries,
+frozen frame/cohort, calibration and model outputs retain their bytes. Coverage is **85/325
+in 5/16 complete groups**; 240 remain, next `peninsula 1809` (19). Usage is unavailable.
+
 ## Fourth Coalition 1807 complete first pass, 2026-10-19
 
 The [complete campaign record](research/fourth-coalition-1807-first-pass-v1.md) adds all

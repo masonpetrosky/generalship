@@ -5,6 +5,31 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1808 first pass, 2026-10-19
+
+The [campaign pass](research/peninsula-1808-first-pass-v1.md) appends **175 source records**:
+seven complete unmodified OCR parents, seven metadata captures, six scan-data maps,
+74 inspected image/manual-excerpt pairs and seven title images. The registry now contains
+3,558 records. Existing source entries and raw inputs are unchanged.
+
+New parents: Foy IV (1827), Toreno I/II (1835), Oman I (1902), Saint-Cyr's Catalonia journal
+(1821), and Napoleon's Correspondance XVII/XVIII (both 1865, read on their title images).
+All are historical public-domain publications. The two Toreno volumes are one family;
+the two Napoleon volumes share the earlier official imperial family. Oman transmits
+Neves through Arteche and uses Foy; embedded reports are not independent witnesses.
+
+Every cited figure and passage was read on retained images. Manual excerpt records have
+parent/image SHA bindings, explicit typography normalization and section-specific document
+dates or nulls. IA page labels were unreliable; printed pagination controls locators.
+Toreno I's scan-map retrieval failed; Toreno II XML is the unchanged archive ZIP member.
+No modern text or invented replacement map was added. The full inventory and bibliographic
+limits are in the retained NOTES.md and source registry.
+
+The Valencia Foy p42 image/excerpt is retained for the explicit research-overrun appendix,
+not used to evade the dossier's three-family gate. Incidental Foy Medina context is also
+recorded. These are effort deviations, not additional independent corroboration. Own-side
+returns, source disputes and missing army identities remain visible.
+
 ## Fourth Coalition 1807 first pass, 2026-10-19
 
 The [campaign pass](research/fourth-coalition-1807-first-pass-v1.md) appends **197 records**:
