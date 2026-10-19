@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "battle_id": "B481c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Belfort interval 1813-12-24–1814-04-12 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 3,000 initial French garrison; 2,000 at close; side B: 2,800 Austrians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 3,000 initial French garrison; 2,000 at close; side B: 2,800 Austrians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "Die Österreicher (2.800 M.) unter GM. Drechsel nötigen die französische Garnison (urspr. 3.000 M., zum Schluß noch 2.000 M. stark) unter Oberst Legrand infolge Mangels an Lebensmitteln zur Übergabe des Platzes. Die Besatzung durfte nach Waffenstreckung frei abziehen. Die Österreicher fanden 71 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Oberst Legrand; side B under GM. Drechsel.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Oberst Legrand; side B under GM. Drechsel.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "Die Österreicher (2.800 M.) unter GM. Drechsel nötigen die französische Garnison (urspr. 3.000 M., zum Schluß noch 2.000 M. stark) unter Oberst Legrand infolge Mangels an Lebensmitteln zur Übergabe des Platzes. Die Besatzung durfte nach Waffenstreckung frei abziehen. Die Österreicher fanden 71 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "Die Österreicher (2.800 M.) unter GM. Drechsel nötigen die französische Garnison (urspr. 3.000 M., zum Schluß noch 2.000 M. stark) unter Oberst Legrand infolge Mangels an Lebensmitteln zur Übergabe des Platzes. Die Besatzung durfte nach Waffenstreckung frei abziehen. Die Österreicher fanden 71 Geschütze vor."
+        }
+      ]
+    },
+    {
+      "id": "bodart-investment",
+      "dimension": "posture",
+      "value": "Side B invested or attacked the side A garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Investment is an offensive posture even where the defender ultimately holds. Timing/decision origin unresolved. English rendering (ours): \"Side B besieges, blockades, storms or compels the French-side garrison to capitulate.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "1813 24./12. bis 1814 12./4. EINSCHLIESSUNG und KAPITULATION von Belfort"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "Die Österreicher (2.800 M.) unter GM. Drechsel nötigen die französische Garnison (urspr. 3.000 M., zum Schluß noch 2.000 M. stark) unter Oberst Legrand infolge Mangels an Lebensmitteln zur Übergabe des Platzes. Die Besatzung durfte nach Waffenstreckung frei abziehen. Die Österreicher fanden 71 Geschütze vor."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "bodart-permanent-works",
+      "dimension": "fortification",
+      "value": "Side A defended named permanent fortress works.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Permanent works inherited for this tactical hypothesis; construction and campaign contribution unestablished. English rendering (ours): \"The place is fortified, a fortress, or defended fortress works are named.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p481",
+          "locator": "Bodart (1908), p. 481, Belfort; full retained image inspected",
+          "quote": "(Stadt und Festung in Frankreich, Hauptstadt des gleichnamigen Territoriums, 75 km nordöstl. von Besançon)."
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "vaud-belfort-garrison",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A: approximately 1,000 defenders under Legrand, observation time unspecified.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Belfort, defended by about a thousand under Legrand.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-france-t1-t3p1-liberation1813-piii-143-figures-v1",
+          "section": "piii-143-s1",
+          "locator": "v14, printed p. iii-143, Internet Archive leaf 986; retained page image inspected",
+          "quote": "Béfort, défendu par un millier d’hommes sous les ordres du colonel Legrand"
+        }
+      ]
+    },
+    {
+      "id": "plotho-belfort-forces",
+      "dimension": "strength",
+      "value": "Plotho at Drechsel’s late-January investment: side A 3,000 infantry + 70 mounted chasseurs; side B 2,700 infantry + 50 cavalry. Different populations/time from terminal accounts.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The blockade corps had twenty-seven hundred infantry and fifty cavalry; garrison three thousand infantry and seventy mounted chasseurs.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p489-figures-v1",
+          "section": "p489-s1",
+          "locator": "p3, printed p. 489, Internet Archive leaf 494; retained page image inspected",
+          "quote": "Das Blokadecorps bestand aus 2700 Mann Fußvolk, 50 Mann Reiterei und 4 Kanonen; die Besatzung aus 3000 Mann Fußvolk, 70 Chasseurs zu Pferde"
+        }
+      ]
+    },
+    {
+      "id": "plotho-belfort-command",
+      "dimension": "responsibility",
+      "value": "Drechsel took over investment on 28 January; Legrand commanded the garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"On the twenty-eighth of January Austrian major-general Drechsel took over.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p489-figures-v1",
+          "section": "p489-s2",
+          "locator": "p3, printed p. 489, Internet Archive leaf 494; retained page image inspected",
+          "quote": "übernahm am 28sten Januar der östreichische General-Major Drechsel"
+        }
+      ]
+    },
+    {
+      "id": "plotho-belfort-shortage",
+      "dimension": "logistics",
+      "value": "Plotho describes food, salt and wood shortage and foraging sorties during the siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "During-siege conditions, not an invented initial readiness value. English rendering (ours): \"Cattle, salt and wood.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p489-figures-v1",
+          "section": "p489-s3",
+          "locator": "p3, printed p. 489, Internet Archive leaf 494; retained page image inspected",
+          "quote": "an Vieh, Salz, so wie an Holz"
+        }
+      ]
+    },
+    {
+      "id": "vaud-belfort-date",
+      "dimension": "outcome",
+      "value": "Vaudoncourt gives 14 April for opening the gates; Plotho gives 16 April handover, against frozen 12 April. Date/definition dispute retained.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "English rendering (ours): \"To open the gates on the fourteenth of April.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-france-t1-t3p1-liberation1813-piii-143-selections-v1",
+          "section": "piii-143-s1",
+          "locator": "v14, printed p. iii-143, Internet Archive leaf 986; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "d'ouvrir ses portes le 1 4 avril"
+        },
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p490-figures-v1",
+          "section": "p490-s1",
+          "quote": "am 16ten April die Stadt und Festung Bedfort",
+          "locator": "Plotho III, printed p.490, IA leaf495; manual image reading supplies16April where OCR is corrupt."
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Belfort: 1,000 unspecified versus 3,000 infantry/70 mounted earlier, initial/terminal units not matched; 12/14/16 April endpoints unresolved. No numeric disease/morale predictor; original capitulation deferred.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-belfort-garrison",
+          "plotho-belfort-forces"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 3,000 initial French garrison; 2,000 at close; side B: 2,800 Austrians. Vaudoncourt side A: approximately 1,000 defenders under Legrand, observation time unspecified. Plotho at Drechsel’s late-January investment: side A 3,000 infantry + 70 mounted chasseurs; side B 2,700 infantry + 50 cavalry. Different populations/time from terminal accounts.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-belfort-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Oberst Legrand; side B under GM. Drechsel. Drechsel took over investment on 28 January; Legrand commanded the garrison.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "plotho-belfort-forces"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 3,000 initial French garrison; 2,000 at close; side B: 2,800 Austrians. Plotho at Drechsel’s late-January investment: side A 3,000 infantry + 70 mounted chasseurs; side B 2,700 infantry + 50 cavalry. Different populations/time from terminal accounts.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-belfort-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Oberst Legrand; side B under GM. Drechsel. Drechsel took over investment on 28 January; Legrand commanded the garrison.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t3-ocr-v1",
+      "vaudoncourt-1826-france-t1-t3p1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Belfort: 1,000 unspecified versus 3,000 infantry/70 mounted earlier, initial/terminal units not matched; 12/14/16 April endpoints unresolved. No numeric disease/morale predictor; original capitulation deferred."
+    ]
+  }
+}

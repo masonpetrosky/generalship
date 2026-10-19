@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "battle_id": "B459b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Altenburg interval 1813-09-28–1813-09-28 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 8,000 French (1,500 infantry, 6,500 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 8,000 French (1,500 infantry, 6,500 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Altenburg; full retained image inspected",
+          "quote": "Sieg der Verbündeten (Österreicher und Russen) unter Gen.-Lt. Fh. v. Thielmann über die Franzosen (1.500 Inft., 6.500 Kav. zus. 8.000 M.) unter Div.-Gen. Lefebvre-Desnouettes."
+        }
+      ]
+    },
+    {
+      "id": "bodart-headcount-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it.",
+      "citations": []
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Div.-Gen. Lefebvre-Desnouettes; side B under Gen.-Lt. Fh. v. Thielmann.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Div.-Gen. Lefebvre-Desnouettes; side B under Gen.-Lt. Fh. v. Thielmann.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Altenburg; full retained image inspected",
+          "quote": "Sieg der Verbündeten (Österreicher und Russen) unter Gen.-Lt. Fh. v. Thielmann über die Franzosen (1.500 Inft., 6.500 Kav. zus. 8.000 M.) unter Div.-Gen. Lefebvre-Desnouettes."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Altenburg; full retained image inspected",
+          "quote": "Sieg der Verbündeten (Österreicher und Russen) unter Gen.-Lt. Fh. v. Thielmann über die Franzosen (1.500 Inft., 6.500 Kav. zus. 8.000 M.) unter Div.-Gen. Lefebvre-Desnouettes."
+        }
+      ]
+    },
+    {
+      "id": "vaud-lefebvre-force",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A: Lefebvre-Desnouettes’ reinforced corps about 4,000 before 28 September; not Bodart’s 8,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"This brought it to about four thousand men.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p182-figures-v1",
+          "section": "p182-s1",
+          "locator": "v13, printed p. 182, Internet Archive leaf 185; retained page image inspected",
+          "quote": "Le corps de Lefebvre Desnouettes pouvait monter en tout à quatre mille hommes."
+        }
+      ]
+    },
+    {
+      "id": "vaud-altenburg-command",
+      "dimension": "responsibility",
+      "value": "Lefebvre-Desnouettes commanded the mixed corps; Platov attacked on 28 September, while Thielemann acted against its retreat.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Subject Platov and subsequent Thielemann operation on same page; Bodart label is not sole tactical authority. English rendering (ours): \"He attacked Lefebvre-Desnouettes at Altenburg on the twenty-eighth and forced him back to Zeitz.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p183-selections-v1",
+          "section": "p183-s1",
+          "locator": "v13, printed p. 183, Internet Archive leaf 186; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le 28, Platow marcha sur Altenburg et força le gcneVal Lefebvre Desnouettes à se replier sur Zeitz après un combat très-vif"
+        }
+      ]
+    },
+    {
+      "id": "vaud-altenburg-attack",
+      "dimension": "posture",
+      "value": "Side B attacked the mixed French-side corps.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"He attacked Lefebvre-Desnouettes at Altenburg.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p183-selections-v1",
+          "section": "p183-s2",
+          "locator": "v13, printed p. 183, Internet Archive leaf 186; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le 28, Platow marcha sur Altenburg"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-lefebvre-force"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 8,000 French (1,500 infantry, 6,500 cavalry). Vaudoncourt side A: Lefebvre-Desnouettes’ reinforced corps about 4,000 before 28 September; not Bodart’s 8,000.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-altenburg-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Lefebvre-Desnouettes; side B under Gen.-Lt. Fh. v. Thielmann. Lefebvre-Desnouettes commanded the mixed corps; Platov attacked on 28 September, while Thielemann acted against its retreat.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-headcount-b-unknown",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Side B: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-altenburg-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Lefebvre-Desnouettes; side B under Gen.-Lt. Fh. v. Thielmann. Lefebvre-Desnouettes commanded the mixed corps; Platov attacked on 28 September, while Thielemann acted against its retreat.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete."
+    ]
+  }
+}

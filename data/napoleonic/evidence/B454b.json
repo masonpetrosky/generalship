@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "battle_id": "B454b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen der Katzbach interval 1813-08-26–1813-08-26 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 60,000 French (52,000 infantry, 8,000 cavalry); side B: 80,000 Prussians/Russians (60,000 infantry, 20,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 60,000 French (52,000 infantry, 8,000 cavalry); side B: 80,000 Prussians/Russians (60,000 infantry, 20,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p454",
+          "locator": "Bodart (1908), p. 454, der Katzbach; full retained image inspected",
+          "quote": "130 Btln. 60.000 | Infanterie | 52.000 Btln. 75"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p454",
+          "locator": "Bodart (1908), p. 454, der Katzbach; full retained image inspected",
+          "quote": "220 Esk. 20.000 | Kavallerie | 8.000 Esk. 75"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p454",
+          "locator": "Bodart (1908), p. 454, der Katzbach; full retained image inspected",
+          "quote": "80.000 | Gesamt-Stärke | 60.000 Gesch. 170"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Marschall Macdonald; side B under Gen. d. Kav. v. Blücher.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Marschall Macdonald; side B under Gen. d. Kav. v. Blücher.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p454",
+          "locator": "Bodart (1908), p. 454, der Katzbach; full retained image inspected",
+          "quote": "Gen. d. Kav. v. Blücher | Marschall Macdonald"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p454",
+          "locator": "Bodart (1908), p. 454, der Katzbach; full retained image inspected",
+          "quote": "Preußen und Russen | Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "vaud-remaining-army",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A: Macdonald’s remaining army after Napoleon left numbered 80,000, including third, fifth and eleventh corps and second cavalry corps; broader than a local engaged total.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"This brought his army to eighty thousand men.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p144-figures-v1",
+          "section": "p144-s1",
+          "locator": "v13, printed p. 144, Internet Archive leaf 147; retained page image inspected",
+          "quote": "en tout environ quatre-vingt mille hommes"
+        }
+      ]
+    },
+    {
+      "id": "vaud-blucher-order",
+      "dimension": "responsibility",
+      "value": "Blücher decided to resume the offensive after judging Napoleon had departed.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"He then decided to resume the offensive.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p144-selections-v1",
+          "section": "p144-s2",
+          "locator": "v13, printed p. 144, Internet Archive leaf 147; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Il se décida alors b reprendre l’offehsive"
+        }
+      ]
+    },
+    {
+      "id": "vaud-macdonald-order",
+      "dimension": "responsibility",
+      "value": "Macdonald also planned an attack, believing the enemy concentrated at Jauer.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Macdonald had resolved to attack the enemy he believed concentrated at Jauer.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p145-selections-v1",
+          "section": "p145-s1",
+          "locator": "v13, printed p. 145, Internet Archive leaf 148; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "De son côté, le duc de Tarentc avait résolu d'attaquer l'ennemi , qu’il croyait concentré à Jauer"
+        }
+      ]
+    },
+    {
+      "id": "meeting-offensives",
+      "dimension": "posture",
+      "value": "Both sides planned offensive action on 26 August; this is a meeting of attacks, rather than merely a defender’s countercharge.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Separate narrated command decisions; no causal-effect estimate. English rendering (ours): \"Blücher decided to resume the offensive; Macdonald had also resolved to attack.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p144-selections-v1",
+          "section": "p144-s2",
+          "locator": "v13, printed p. 144, Internet Archive leaf 147; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Il se décida alors b reprendre l’offehsive"
+        },
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p145-selections-v1",
+          "section": "p145-s1",
+          "locator": "v13, printed p. 145, Internet Archive leaf 148; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "De son côté, le duc de Tarentc avait résolu d'attaquer l'ennemi , qu’il croyait concentré à Jauer"
+        }
+      ],
+      "code": "both_attacked"
+    },
+    {
+      "id": "vaud-rain-streams",
+      "dimension": "terrain",
+      "value": "Several days of rain swelled streams and obscured movements.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Rain swelled all streams and hid troop movements.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p145-selections-v1",
+          "section": "p145-s2",
+          "locator": "v13, printed p. 145, Internet Archive leaf 148; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "ne pluie liorriblc , qui durait depuis plusieurs jours et qui redoubla celui-là, avait grossi tous les ruisseaux et torrens, et dérobait à l’œil les mouvemens des deux armées"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-remaining-army"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 60,000 French (52,000 infantry, 8,000 cavalry); side B: 80,000 Prussians/Russians (60,000 infantry, 20,000 cavalry). Vaudoncourt side A: Macdonald’s remaining army after Napoleon left numbered 80,000, including third, fifth and eleventh corps and second cavalry corps; broader than a local engaged total.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-macdonald-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Marschall Macdonald; side B under Gen. d. Kav. v. Blücher. Macdonald also planned an attack, believing the enemy concentrated at Jauer.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 60,000 French (52,000 infantry, 8,000 cavalry); side B: 80,000 Prussians/Russians (60,000 infantry, 20,000 cavalry). Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-blucher-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Marschall Macdonald; side B under Gen. d. Kav. v. Blücher. Blücher decided to resume the offensive after judging Napoleon had departed.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete."
+    ]
+  }
+}

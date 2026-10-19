@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "battle_id": "B462b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Freiburg interval 1813-10-21–1813-10-21 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-headcount-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it.",
+      "citations": []
+    },
+    {
+      "id": "bodart-headcount-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it.",
+      "citations": []
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Marschall Oudinot; side B under Gen.-Lt. v. York.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Marschall Oudinot; side B under Gen.-Lt. v. York.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p462",
+          "locator": "Bodart (1908), p. 462, Freiburg; full retained image inspected",
+          "quote": "Sieg der Preußen unter Gen.-Lt. v. York über die Franzosen unter Marschall Oudinot."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p462",
+          "locator": "Bodart (1908), p. 462, Freiburg; full retained image inspected",
+          "quote": "Sieg der Preußen unter Gen.-Lt. v. York über die Franzosen unter Marschall Oudinot."
+        }
+      ]
+    },
+    {
+      "id": "plotho-freiburg-orders",
+      "dimension": "responsibility",
+      "value": "York ordered the attack at the Unstrut crossings; Horn formed the left and Hünerbein the reserve.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"York therefore gave the order to attack the enemy according to the following arrangement.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p477-selections-v1",
+          "section": "p477-s1",
+          "locator": "p2, printed p. 477, Internet Archive leaf 485; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "deshalb gab der General v. Pork den Befehl, den Feind nach der folgenden Anordnung anzugreifen"
+        }
+      ]
+    },
+    {
+      "id": "plotho-freiburg-attack",
+      "dimension": "posture",
+      "value": "Side B attacked by York’s order.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"York gave the order to attack.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p477-selections-v1",
+          "section": "p477-s2",
+          "locator": "p2, printed p. 477, Internet Archive leaf 485; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "gab der General v. Pork den Befehl, den Feind nach der folgenden Anordnung anzugreifen"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "plotho-unstrut",
+      "dimension": "terrain",
+      "value": "French columns crossed the Unstrut on several Freiburg bridges; the attack met narrow approaches.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Four thousand freed prisoners elsewhere on this page are not the French opening strength. English rendering (ours): \"Crossing the Unstrut by several bridges at Freiburg.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p477-selections-v1",
+          "section": "p477-s3",
+          "locator": "p2, printed p. 477, Internet Archive leaf 485; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "über mehrere Bruͤcken bei Freiburg die Unſtruͤtt paſ⸗ ſiten"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "local-authority-a-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-headcount-a-unknown",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Side A: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it. Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-authority-a-unknown"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Marschall Oudinot; side B under Gen.-Lt. v. York. Side A: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-headcount-b-unknown",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Side B: no pre-engagement headcount supplied by Bodart; losses, prisoners and surrender survivors do not supply it. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-freiburg-orders"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Marschall Oudinot; side B under Gen.-Lt. v. York. York ordered the attack at the Unstrut crossings; Horn formed the left and Hünerbein the reserve.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete."
+    ]
+  }
+}

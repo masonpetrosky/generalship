@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "battle_id": "B461a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Leipzig interval 1813-10-16–1813-10-19 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 175,000 French army total, including 130,000 infantry, 30,000 cavalry, 15,000 artillery; 6,100 Saxons/Württembergers crossed sides during the battle, not an opening subtraction; side B: 325,000 allied total (122,000 Russians, 105,000 Austrians, 80,000 Prussians, 18,000 Swedes) across the multi-day engagement, not a single opening return.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 175,000 French army total, including 130,000 infantry, 30,000 cavalry, 15,000 artillery; 6,100 Saxons/Württembergers crossed sides during the battle, not an opening subtraction; side B: 325,000 allied total (122,000 Russians, 105,000 Austrians, 80,000 Prussians, 18,000 Swedes) across the multi-day engagement, not a single opening return.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "240.000 | Infanterie | 130.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "60.000 | Kavallerie | 30.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "25.000 | Artillerie | 15.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "1.384 Gesch. 325.000 [1] | Gesamt-Stärke | 175.000 [4] 717 Gesch."
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "[1] hievon: 122.000 Russen 105.000 Österreicher 80.000 Preußen 18.000 Schweden 325.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "[4] Während der Schlacht vom 18. Oktober gingen 5.400 Sachsen 700 Württemberger zus. 6.100 M. mit 38 Gesch. zum Feinde über."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon I.; side B under FM. Fürst Schwarzenberg.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Napoleon I.; side B under FM. Fürst Schwarzenberg.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "FM. Fürst Schwarzenberg | Napoleon I."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p461",
+          "locator": "Bodart (1908), p. 461, Leipzig; full retained image inspected",
+          "quote": "Verbündete | Französische Armee"
+        }
+      ]
+    },
+    {
+      "id": "vaud-leipzig-french-inventory",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A army inventory: 134,000 infantry + 22,800 cavalry = 156,800; excludes first/fourteenth corps at Dresden and thirteenth at Hamburg. Not everyone engaged on 16 October.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Total one hundred fifty-six thousand eight hundred, excluding the named corps at Dresden and Hamburg.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p202-figures-v1",
+          "section": "p202-s1",
+          "locator": "v13, printed p. 202, Internet Archive leaf 205; retained page image inspected",
+          "quote": "134,000 22,800 Total général 156,800 NON COMPRIS, Les 1er et 14e corps, à Dresde. Le 13e corps, à Hambourg."
+        }
+      ]
+    },
+    {
+      "id": "vaud-leipzig-allied-inventory",
+      "dimension": "strength",
+      "value": "Vaudoncourt side B army inventory: 295,000 infantry + 54,000 cavalry = 349,000; includes armies not all in line on 16 October, excludes Austro-Bavarians, Wallmoden and Tolstoy/Chasteler.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "French reconstruction of opponent; not an allied muster or matched battle population. English rendering (ours): \"The allied armies total three hundred forty-nine thousand, excluding those three listed groups.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p203-figures-v1",
+          "section": "p203-s1",
+          "locator": "v13, printed p. 203, Internet Archive leaf 206; retained page image inspected",
+          "quote": "Total des armées coalisées 295,000 54,000 Total général 349,000 NON COMPRIS. L’armée austro-bavaroise en marche. L’armée du général Walmoden devant Hambourg. Le corps de Tolstoy et Chasteler devant Dresde."
+        }
+      ]
+    },
+    {
+      "id": "vaud-leipzig-decision",
+      "dimension": "responsibility",
+      "value": "Allied command decided to give battle before Colloredo, Bennigsen and the crown prince had joined.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The allies decided to give battle without waiting for those corps and the crown prince’s army.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p204-selections-v1",
+          "section": "p204-s1",
+          "locator": "v13, printed p. 204, Internet Archive leaf 207; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "I.es coalisés s’étant décidés à combattre, quoique Colloredo, Bc- ningsen et le prince royal de Suède n’eussent pàs encore joint"
+        }
+      ]
+    },
+    {
+      "id": "vaud-leipzig-defection",
+      "dimension": "responsibility",
+      "value": "Ryssel/Brause Saxon brigades and Normann’s Württemberg cavalry changed sides on 18 October; command membership changed during the interval.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Passage narrates their crossing; no inference of automatic commander credit or subtraction from opening populations. English rendering (ours): \"The two Saxon brigades of Ryssel and Brause.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p216-selections-v1",
+          "section": "p216-s1",
+          "locator": "v13, printed p. 216, Internet Archive leaf 219; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "les deux brigades saxonnes commandées par le général de Ryssel et le colonel"
+        }
+      ]
+    },
+    {
+      "id": "vaud-leipzig-allied-attack",
+      "dimension": "posture",
+      "value": "16 October: side B initiated the main battle; later French attacks do not imply a single unqualified daily posture.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"The allies had decided to give battle.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p204-selections-v1",
+          "section": "p204-s2",
+          "locator": "v13, printed p. 204, Internet Archive leaf 207; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "I.es coalisés s’étant décidés à combattre"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "vaud-retreat-order",
+      "dimension": "responsibility",
+      "value": "Napoleon decided on withdrawal; baggage began moving on the evening of 18 October, and he ordered suburb defence to cover the remaining corps.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Authorial strategic criticism/counterfactual casualties not adopted. English rendering (ours): \"These considerations led Napoleon to withdraw.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p219-selections-v1",
+          "section": "p219-s1",
+          "locator": "v13, printed p. 219, Internet Archive leaf 222; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Ces motifs décidèrent l’emperenr Napoléon à la retraite"
+        }
+      ]
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Leipzig: changing daily forces, not-yet-arrived armies, corps withdrawal and side changes make the full-interval aggregate unsuitable as an opening return. Effective command/replacement boundaries and matched daily own-side populations remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-leipzig-french-inventory"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 175,000 French army total, including 130,000 infantry, 30,000 cavalry, 15,000 artillery; 6,100 Saxons/Württembergers crossed sides during the battle, not an opening subtraction; side B: 325,000 allied total (122,000 Russians, 105,000 Austrians, 80,000 Prussians, 18,000 Swedes) across the multi-day engagement, not a single opening return. Vaudoncourt side A army inventory: 134,000 infantry + 22,800 cavalry = 156,800; excludes first/fourteenth corps at Dresden and thirteenth at Hamburg. Not everyone engaged on 16 October.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-leipzig-defection",
+          "vaud-retreat-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon I.; side B under FM. Fürst Schwarzenberg. Ryssel/Brause Saxon brigades and Normann’s Württemberg cavalry changed sides on 18 October; command membership changed during the interval. Napoleon decided on withdrawal; baggage began moving on the evening of 18 October, and he ordered suburb defence to cover the remaining corps.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-leipzig-allied-inventory"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 175,000 French army total, including 130,000 infantry, 30,000 cavalry, 15,000 artillery; 6,100 Saxons/Württembergers crossed sides during the battle, not an opening subtraction; side B: 325,000 allied total (122,000 Russians, 105,000 Austrians, 80,000 Prussians, 18,000 Swedes) across the multi-day engagement, not a single opening return. Vaudoncourt side B army inventory: 295,000 infantry + 54,000 cavalry = 349,000; includes armies not all in line on 16 October, excludes Austro-Bavarians, Wallmoden and Tolstoy/Chasteler.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-leipzig-decision",
+          "vaud-leipzig-defection"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon I.; side B under FM. Fürst Schwarzenberg. Allied command decided to give battle before Colloredo, Bennigsen and the crown prince had joined. Ryssel/Brause Saxon brigades and Normann’s Württemberg cavalry changed sides on 18 October; command membership changed during the interval.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Leipzig: changing daily forces, not-yet-arrived armies, corps withdrawal and side changes make the full-interval aggregate unsuitable as an opening return. Effective command/replacement boundaries and matched daily own-side populations remain incomplete."
+    ]
+  }
+}

@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Liberation 1813 first pass, 2026-10-19
+
+The [campaign record](research/liberation-1813-first-pass-v1.md) appends **256 records**, reaching **4,803**: six complete unmodified OCR parents, six item-metadata responses, six scan maps, 95 cited historical page images, 18 title/preface images, 77 exact-range narrative-context files (143 anchor/context sections) and 48 manual-transcription files. Previous 4,547 registry records and bytes remain unchanged.
+
+Printed titles identify Vaudoncourt’s Germany 1813 (Paris, 1819), Italy 1813–1814 (London, 1817, printed F. Guillaume) and combined France 1814–1815 I/II/III première partie (Paris, 1826), plus Plotho I–III (Berlin, 1817). Later fortress pages 135–143 belong to Vaudoncourt III première partie; section IDs preserve that volume distinction. Interested national interpretation, mediated allied contingents, preface claims and uninspected original returns/orders remain explicit; no duplicate volume/report becomes another witness. Historical publications predate 1930; no modern archive licence asserted.
+
+Every adopted passage and number was inspected on its registered image. Narrative context rebuilds from exact half-open parent ranges, whitespace collapsed only; final short quotations retain OCR defects. Initial navigation paraphrases were replaced before sealing, with the alignment audit retaining their diagnostic status rather than treating them as transcriptions. Manual image transcriptions carry numerical figures. Full books are navigation snapshots, not asserted read in full; unused images are outside the repository. [Raw notes](../data/raw/napoleonic-liberation-1813-v1/NOTES.md) and the [primary record](../data/raw/napoleonic-liberation-1813-v1/primary-verification-v1.json) retain reading scope, source/image hashes, arithmetic, limits and digit-flag dispositions. Draft evidence only; no feature admission.
+
 ## Albuera table transcription v2, 2026-10-19
 
 One new manual source record, `oman-1911-t4-1811-p632-figures-v2`, binds the existing unchanged Oman IV p632 image and parent. It preserves the 20,358 printed summary alongside the officer/men and Portuguese totals summing to 20,650. Difference 292 matches the KGL artillery row, explicitly an arithmetic/table inference rather than an actual muster correction. All v1 records and bytes remain unchanged. Registry: **4,238 sources**, with **162 additions** across the Peninsula 1811 pass and correction. See the [v2 record](research/peninsula-1811-correction-v2.md).

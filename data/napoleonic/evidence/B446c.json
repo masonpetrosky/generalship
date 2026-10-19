@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "battle_id": "B446c",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Kalisch interval 1813-02-13–1813-02-13 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 12,000 Saxons/French; side B: 15,000 Russians (8,000 infantry, 7,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 12,000 Saxons/French; side B: 15,000 Russians (8,000 infantry, 7,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p446",
+          "locator": "Bodart (1908), p. 446, Kalisch; full retained image inspected",
+          "quote": "Sieg der Russen (37 Btln., 40 Esk., 10 Kosakenregimenter, 72 Gesch. = 8.000 Inft., 7.000 Kav., zus. 15.000 M.) unter Gen.-Lt. Fh. v. Wintzingerode über die Sachsen und Franzosen (28 Btln., 14 Esk., 46 Gesch. = 12.000 M.) unter Gen. Gf. Reynier."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Gen. Gf. Reynier; side B under Gen.-Lt. Fh. v. Wintzingerode.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Gen. Gf. Reynier; side B under Gen.-Lt. Fh. v. Wintzingerode.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p446",
+          "locator": "Bodart (1908), p. 446, Kalisch; full retained image inspected",
+          "quote": "Sieg der Russen (37 Btln., 40 Esk., 10 Kosakenregimenter, 72 Gesch. = 8.000 Inft., 7.000 Kav., zus. 15.000 M.) unter Gen.-Lt. Fh. v. Wintzingerode über die Sachsen und Franzosen (28 Btln., 14 Esk., 46 Gesch. = 12.000 M.) unter Gen. Gf. Reynier."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p446",
+          "locator": "Bodart (1908), p. 446, Kalisch; full retained image inspected",
+          "quote": "Sieg der Russen (37 Btln., 40 Esk., 10 Kosakenregimenter, 72 Gesch. = 8.000 Inft., 7.000 Kav., zus. 15.000 M.) unter Gen.-Lt. Fh. v. Wintzingerode über die Sachsen und Franzosen (28 Btln., 14 Esk., 46 Gesch. = 12.000 M.) unter Gen. Gf. Reynier."
+        }
+      ]
+    },
+    {
+      "id": "vaud-local-command",
+      "dimension": "responsibility",
+      "value": "Reynier commanded the cantonments attacked by Russian forces under Wintzingerode.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Reynier’s cantonments were attacked on their left by Russian infantry and cavalry under Wintzingerode.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p31-selections-v1",
+          "section": "p31-s1",
+          "locator": "v13, printed p. 31, Internet Archive leaf 34; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le iS, le général Reynier, qui avait cantonné ses tronpes auprès de Kalisz , fut attaqué sur sa gauche par deux divisions d’infanterie russe , et environ six mille chevaux sous les ordres do général 'VVinlzingerode"
+        }
+      ]
+    },
+    {
+      "id": "vaud-russian-attack",
+      "dimension": "posture",
+      "value": "Side B attacked the French-side cantonments.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"He was attacked on his left by Russian infantry divisions.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p31-selections-v1",
+          "section": "p31-s2",
+          "locator": "v13, printed p. 31, Internet Archive leaf 34; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "fut attaqué sur sa gauche par deux divisions d’infanterie russe"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "plotho-town-works",
+      "dimension": "fortification",
+      "value": "Side A fought around a town protected by marshes, walls and towers.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"The town was fairly well fortified by marshes, walls and towers.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t1-liberation1813-p46-selections-v1",
+          "section": "p46-s1",
+          "locator": "p1, printed p. 46, Internet Archive leaf 57; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "die mit Moräſten, Mauern und Thürmen ziemlich gut befeſtigte Stadt"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Kalisch: matched local people totals and effective cantonment availability remain missing; six thousand chevaux is not silently counted as six thousand people. Separate original Saxon and Russian returns/orders deferred.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 12,000 Saxons/French; side B: 15,000 Russians (8,000 infantry, 7,000 cavalry). Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-local-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Gen. Gf. Reynier; side B under Gen.-Lt. Fh. v. Wintzingerode. Reynier commanded the cantonments attacked by Russian forces under Wintzingerode.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 12,000 Saxons/French; side B: 15,000 Russians (8,000 infantry, 7,000 cavalry). Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-local-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Gen. Gf. Reynier; side B under Gen.-Lt. Fh. v. Wintzingerode. Reynier commanded the cantonments attacked by Russian forces under Wintzingerode.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t1-ocr-v1",
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Kalisch: matched local people totals and effective cantonment availability remain missing; six thousand chevaux is not silently counted as six thousand people. Separate original Saxon and Russian returns/orders deferred."
+    ]
+  }
+}

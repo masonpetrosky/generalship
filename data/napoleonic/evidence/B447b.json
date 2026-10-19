@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "battle_id": "B447b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Möckern interval 1813-04-05–1813-04-05 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 50,000 French (46,000 infantry, 4,000 cavalry); side B: 24,000 Russians/Prussians (19,000 infantry, 5,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 50,000 French (46,000 infantry, 4,000 cavalry); side B: 24,000 Russians/Prussians (19,000 infantry, 5,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p447",
+          "locator": "Bodart (1908), p. 447, Möckern; full retained image inspected",
+          "quote": "Sieg der Russen und Preußen (43 Btln., 36 Esk., 4 Kosaken-Regimenter, 130 Gesch. = 19.000 Inft., 5.000 Kav. zus. 24.000 M.) unter Gen. d. Kav. Gf. Wittgenstein über die Franzosen (71 Btln., 31 Esk., 116 Gesch. = 46.000 Inft., 4.000 Kav. zus. 50.000 M.) unter Vizekönig von Italien Pz. Eugen Beauharnais."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Vizekönig von Italien Pz. Eugen Beauharnais; side B under Gen. d. Kav. Gf. Wittgenstein.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Vizekönig von Italien Pz. Eugen Beauharnais; side B under Gen. d. Kav. Gf. Wittgenstein.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p447",
+          "locator": "Bodart (1908), p. 447, Möckern; full retained image inspected",
+          "quote": "Sieg der Russen und Preußen (43 Btln., 36 Esk., 4 Kosaken-Regimenter, 130 Gesch. = 19.000 Inft., 5.000 Kav. zus. 24.000 M.) unter Gen. d. Kav. Gf. Wittgenstein über die Franzosen (71 Btln., 31 Esk., 116 Gesch. = 46.000 Inft., 4.000 Kav. zus. 50.000 M.) unter Vizekönig von Italien Pz. Eugen Beauharnais."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p447",
+          "locator": "Bodart (1908), p. 447, Möckern; full retained image inspected",
+          "quote": "Sieg der Russen und Preußen (43 Btln., 36 Esk., 4 Kosaken-Regimenter, 130 Gesch. = 19.000 Inft., 5.000 Kav. zus. 24.000 M.) unter Gen. d. Kav. Gf. Wittgenstein über die Franzosen (71 Btln., 31 Esk., 116 Gesch. = 46.000 Inft., 4.000 Kav. zus. 50.000 M.) unter Vizekönig von Italien Pz. Eugen Beauharnais."
+        }
+      ]
+    },
+    {
+      "id": "vaud-field-command",
+      "dimension": "responsibility",
+      "value": "York, Bülow and Borstel attacked separate French posts on the Ehle.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"York, Bülow and Borstel attacked separate French posts on the Ehle.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p59-selections-v1",
+          "section": "p59-s1",
+          "locator": "v13, printed p. 59, Internet Archive leaf 62; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Vers deux heures après midi , l’ennemi attaqua nos postes sur l'Ehle; savoir, le general York àDannigkow ( 19 ), en avant de Gommern; le général Bülovv à Zchdenik fao), entre Mocckern et Ncdlitzj et le gé- néral Borstel à Vehclitz (ai), entre Moeckern et Gommern"
+        }
+      ]
+    },
+    {
+      "id": "vaud-allied-attack",
+      "dimension": "posture",
+      "value": "Side B attacked the French positions along the Ehle.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Earlier French demonstrative advance kept distinct from this engagement. English rendering (ours): \"The enemy attacked our posts on the Ehle.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p59-selections-v1",
+          "section": "p59-s2",
+          "locator": "v13, printed p. 59, Internet Archive leaf 62; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "l’ennemi attaqua nos postes sur l'Ehle"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "vaud-river",
+      "dimension": "terrain",
+      "value": "French positions were covered by the shallow but marshy, difficult-to-cross Ehle.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The corps’ front was covered by the Ehle, shallow but marshy and difficult to cross.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p58-selections-v1",
+          "section": "p58-s1",
+          "locator": "v13, printed p. 58, Internet Archive leaf 61; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "le front du 1 1' corps était couvert par l’Ehle, rivière peu profonde, mais marécageuse et assez difficile à passer"
+        }
+      ]
+    },
+    {
+      "id": "plotho-hunerbein",
+      "dimension": "responsibility",
+      "value": "Hünerbein directed the local Dannigkow attack; Lobenthal led infantry and Hensel the flanking battery.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Local contingent roles, not coequal whole-army commanders. English rendering (ours): \"Hünerbein sent Hensel’s horse battery and cavalry around the village.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t1-liberation1813-p65-selections-v1",
+          "section": "p65-s1",
+          "locator": "p1, printed p. 65, Internet Archive leaf 76; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "deshalb ſchickte der General Huͤnerbein die reitende Batterie des Lieutenant Henſel mit einigen Esquadrons Reiterei links um das Dorf"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 50,000 French (46,000 infantry, 4,000 cavalry); side B: 24,000 Russians/Prussians (19,000 infantry, 5,000 cavalry). Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-field-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Vizekönig von Italien Pz. Eugen Beauharnais; side B under Gen. d. Kav. Gf. Wittgenstein. York, Bülow and Borstel attacked separate French posts on the Ehle.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 50,000 French (46,000 infantry, 4,000 cavalry); side B: 24,000 Russians/Prussians (19,000 infantry, 5,000 cavalry). Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-field-command",
+          "plotho-hunerbein"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Vizekönig von Italien Pz. Eugen Beauharnais; side B under Gen. d. Kav. Gf. Wittgenstein. York, Bülow and Borstel attacked separate French posts on the Ehle. Hünerbein directed the local Dannigkow attack; Lobenthal led infantry and Hensel the flanking battery.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t1-ocr-v1",
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete."
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "battle_id": "B463a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Hanau interval 1813-10-29–1813-10-30 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 60,000 French (48,000 infantry, 12,000 cavalry); side B: 40,000 Bavarians/Austrians (33,000 infantry, 7,000 cavalry); 23,000 Austrians and 17,000 Bavarians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 60,000 French (48,000 infantry, 12,000 cavalry); side B: 40,000 Bavarians/Austrians (33,000 infantry, 7,000 cavalry); 23,000 Austrians and 17,000 Bavarians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "48.000 | Infanterie | 33.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "12.000 | Kavallerie | 7.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "140 Gesch. 60.000 | Gesamt-Stärke | 40.000 [1] Gesch. 138"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "[1] hiev. 23.000 Österreicher. „ 17.000 Bayern."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Napoleon I.; side B under Gen. d. Kav. Gf. Wrede.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Napoleon I.; side B under Gen. d. Kav. Gf. Wrede.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "Napoleon I. | Gen. d. Kav. Gf. Wrede"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p463",
+          "locator": "Bodart (1908), p. 463, Hanau; full retained image inspected",
+          "quote": "Franzosen | Bayern und Österreicher"
+        }
+      ]
+    },
+    {
+      "id": "vaud-hanau-tirailleurs",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A on 30 October: Charpentier advanced with 3,000 tirailleurs, supported by Friant and cavalry; an attacking component, not the army total.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Charpentier was sent forward with three thousand skirmishers.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p229-figures-v1",
+          "section": "p229-s1",
+          "locator": "v13, printed p. 229, Internet Archive leaf 232; retained page image inspected",
+          "quote": "Le général Charpentier fut porté en avant avec trois mille tirailleurs"
+        }
+      ]
+    },
+    {
+      "id": "vaud-hanau-order",
+      "dimension": "responsibility",
+      "value": "Macdonald received the order to attack Rückingen heights on 30 October; Charpentier led the advance.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Macdonald received orders to attack Rückingen heights.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p229-selections-v1",
+          "section": "p229-s1",
+          "locator": "v13, printed p. 229, Internet Archive leaf 232; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "le duc de Tarente reçut l’ordre d’attaquer les hauteurs de Rückingen"
+        }
+      ]
+    },
+    {
+      "id": "vaud-hanau-assault",
+      "dimension": "posture",
+      "value": "30 October: side A attacked to pass the blocking allied line.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"He received the order to attack the heights.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p229-selections-v1",
+          "section": "p229-s2",
+          "locator": "v13, printed p. 229, Internet Archive leaf 232; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "reçut l’ordre d’attaquer les hauteurs de Rückingen"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "vaud-hanau-ground",
+      "dimension": "terrain",
+      "value": "The Austro-Bavarian army stood before Hanau with the Kinzig at its back.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"It was drawn up before Hanau with the Kinzig behind it.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p229-selections-v1",
+          "section": "p229-s3",
+          "locator": "v13, printed p. 229, Internet Archive leaf 232; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Celle-ci était rangée en ba- n. taille devant Hanau , ayant la Kintzig à dos"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "local-authority-b-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Hanau: available total and 3,000-man assault component not conflated; matched own-side allied return, Wrede’s effective sector orders and 29/30 daily populations remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-hanau-tirailleurs"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 60,000 French (48,000 infantry, 12,000 cavalry); side B: 40,000 Bavarians/Austrians (33,000 infantry, 7,000 cavalry); 23,000 Austrians and 17,000 Bavarians. Vaudoncourt side A on 30 October: Charpentier advanced with 3,000 tirailleurs, supported by Friant and cavalry; an attacking component, not the army total.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-hanau-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon I.; side B under Gen. d. Kav. Gf. Wrede. Macdonald received the order to attack Rückingen heights on 30 October; Charpentier led the advance.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 60,000 French (48,000 infantry, 12,000 cavalry); side B: 40,000 Bavarians/Austrians (33,000 infantry, 7,000 cavalry); 23,000 Austrians and 17,000 Bavarians. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-authority-b-unknown"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Napoleon I.; side B under Gen. d. Kav. Gf. Wrede. Side B: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Hanau: available total and 3,000-man assault component not conflated; matched own-side allied return, Wrede’s effective sector orders and 29/30 daily populations remain incomplete."
+    ]
+  }
+}

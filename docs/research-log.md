@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Liberation 1813 complete first pass, 2026-10-19
+
+The [campaign record](research/liberation-1813-first-pass-v1.md) adds **52/52 drafts, 696 claims, 302 explicit unknowns and 447 citations**, with nine dimensions and 104 side completion records. Full frozen intervals include null-dated Küstrin and operations ending in May 1814. Source-specific available/engaged/terminal populations, command succession, chronology and outcome alternatives remain visible; no army continuity or replacement boundary is invented.
+
+The three-family ceiling was fixed before reading: Bodart, Vaudoncourt and Plotho, counting all volumes/copies/embedded documents together. Final sets use two families on 26 entries and three on 26, all within assignment. No fourth family, separate follow-up cycle, subagent, separate review or second opinion. The registry adds **256 records**, reaching **4,803**, including six complete OCR parents, 95 cited historical images and 18 title/preface images. Previous 4,547 sources and 209 dossiers remain immutable. Narrative context has exact parent ranges and short exact OCR anchors; manual image transcriptions carry figures.
+
+Primary verification binds the 90 visible digit-flag dispositions, arithmetic (including Luckau’s inconsistent summary), source/evidence checks, regenerated packet, `make reproduce`, `make check` and generated-report inspection. Coverage is **261/325 across 12/16 complete groups**, leaving **64 entries**. No historical/synthetic model job or admission; calibration remains **47 prepared, unscored**. Usage unavailable. Next: `peninsula 1813`, twelve entries.
+
 ## Peninsula 1811 Albuera table correction, 2026-10-19
 
 The [v2 correction](research/peninsula-1811-correction-v2.md) preserves Oman's inconsistent Albuera totals: printed summary 20,358 versus 20,650 from British/Portuguese totals. The difference 292 matches the KGL artillery row; an omitted summary row is an inference, not a repaired actual muster. The unchanged image was re-inspected, v1 source/record retained, original dossier preserved in history, and a new manual source version registered.

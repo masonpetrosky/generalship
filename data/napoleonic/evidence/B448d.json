@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "battle_id": "B448d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Halle interval 1813-05-02–1813-05-02 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 2,600 French infantry; side B: 4,800 Prussians (3,300 infantry, 1,500 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 2,600 French infantry; side B: 4,800 Prussians (3,300 infantry, 1,500 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p448",
+          "locator": "Bodart (1908), p. 448, Halle; full retained image inspected",
+          "quote": "Sieg der Preußen (3.300 Inft, 1.500 Kav., 24 Gesch. = 4.800 M.) unter Gen.-Lt. v. Bülow über die Franzosen (2.600 Inft., 4 Gesch.) unter Brig.-Gen. Lacroix."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Brig.-Gen. Lacroix; side B under Gen.-Lt. v. Bülow.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Brig.-Gen. Lacroix; side B under Gen.-Lt. v. Bülow.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p448",
+          "locator": "Bodart (1908), p. 448, Halle; full retained image inspected",
+          "quote": "Sieg der Preußen (3.300 Inft, 1.500 Kav., 24 Gesch. = 4.800 M.) unter Gen.-Lt. v. Bülow über die Franzosen (2.600 Inft., 4 Gesch.) unter Brig.-Gen. Lacroix."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p448",
+          "locator": "Bodart (1908), p. 448, Halle; full retained image inspected",
+          "quote": "Sieg der Preußen (3.300 Inft, 1.500 Kav., 24 Gesch. = 4.800 M.) unter Gen.-Lt. v. Bülow über die Franzosen (2.600 Inft., 4 Gesch.) unter Brig.-Gen. Lacroix."
+        }
+      ]
+    },
+    {
+      "id": "plotho-assault-force",
+      "dimension": "strength",
+      "value": "Plotho side B: approximately 4,500 men assembled for Bülow’s Halle attack; formations remain separate labels.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Together four and a half infantry battalions, nine squadrons and three batteries, approximately forty-five hundred men.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t1-liberation1813-p211-figures-v1",
+          "section": "p211-s1",
+          "locator": "p1, printed p. 211, Internet Archive leaf 222; retained page image inspected",
+          "quote": "Zusammen 4½ Bataillons Fußvolk, 9 Esquadron Reiterei und 3 Batterien, ungefähr 4500 Mann stark."
+        }
+      ]
+    },
+    {
+      "id": "plotho-bulow",
+      "dimension": "responsibility",
+      "value": "Bülow decided to attack Halle, assigning the assembly and attack orders; Oppen had led his forward troops.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"He decided to undertake an attack on Halle.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t1-liberation1813-p211-selections-v1",
+          "section": "p211-s1",
+          "locator": "p1, printed p. 211, Internet Archive leaf 222; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "und enk⸗ ſchloß ſich einen Angriff auf Halle zu unternehmen"
+        }
+      ]
+    },
+    {
+      "id": "plotho-halle-attack",
+      "dimension": "posture",
+      "value": "Side B attacked on Bülow’s decision.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He decided to attack Halle.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t1-liberation1813-p211-selections-v1",
+          "section": "p211-s1",
+          "locator": "p1, printed p. 211, Internet Archive leaf 222; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "und enk⸗ ſchloß ſich einen Angriff auf Halle zu unternehmen"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "local-authority-a-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Halle: own-side French garrison return and Lacroix’s effective scope remain unestablished. Plotho’s 4,500 attackers differ from Bodart’s 4,800; neither is silently preferred.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 2,600 French infantry; side B: 4,800 Prussians (3,300 infantry, 1,500 cavalry). Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-authority-a-unknown"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Brig.-Gen. Lacroix; side B under Gen.-Lt. v. Bülow. Side A: local effective authority, superior/subordinate scope and continuous appointment not established beyond Bodart label.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "plotho-assault-force"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 2,600 French infantry; side B: 4,800 Prussians (3,300 infantry, 1,500 cavalry). Plotho side B: approximately 4,500 men assembled for Bülow’s Halle attack; formations remain separate labels.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-bulow"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Brig.-Gen. Lacroix; side B under Gen.-Lt. v. Bülow. Bülow decided to attack Halle, assigning the assembly and attack orders; Oppen had led his forward troops.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Halle: own-side French garrison return and Lacroix’s effective scope remain unestablished. Plotho’s 4,500 attackers differ from Bodart’s 4,800; neither is silently preferred."
+    ]
+  }
+}

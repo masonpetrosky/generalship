@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "battle_id": "B476a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Küstrin interval None–1814-03-07 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 5,000 initial French garrison; side B: 6,000 Prussians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 5,000 initial French garrison; side B: 6,000 Prussians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "Die Preußen (6.000 M.) unter GM. v. Hinrichs nötigen nach 11monatlicher Blokade die französische Besatzung (ursprünglich 5.000 M.) unter Brig.-Gen. Fournier d'Albe zur Kapitulation, wonach die Garnison nach Ausmarsch mit kriegerischen Ehren die Waffen strecken mußte und in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Brig.-Gen. Fournier d'Albe; side B under GM. v. Hinrichs.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Brig.-Gen. Fournier d'Albe; side B under GM. v. Hinrichs.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "Die Preußen (6.000 M.) unter GM. v. Hinrichs nötigen nach 11monatlicher Blokade die französische Besatzung (ursprünglich 5.000 M.) unter Brig.-Gen. Fournier d'Albe zur Kapitulation, wonach die Garnison nach Ausmarsch mit kriegerischen Ehren die Waffen strecken mußte und in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "Die Preußen (6.000 M.) unter GM. v. Hinrichs nötigen nach 11monatlicher Blokade die französische Besatzung (ursprünglich 5.000 M.) unter Brig.-Gen. Fournier d'Albe zur Kapitulation, wonach die Garnison nach Ausmarsch mit kriegerischen Ehren die Waffen strecken mußte und in Kriegsgefangenschaft geriet."
+        }
+      ]
+    },
+    {
+      "id": "bodart-investment",
+      "dimension": "posture",
+      "value": "Side B invested or attacked the side A garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Investment is an offensive posture even where the defender ultimately holds. Timing/decision origin unresolved. English rendering (ours): \"Side B besieges, blockades, storms or compels the French-side garrison to capitulate.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "1813 April bis 1814 7./3. EINSCHLIESSUNG und EINNAHME von Küstrin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "Die Preußen (6.000 M.) unter GM. v. Hinrichs nötigen nach 11monatlicher Blokade die französische Besatzung (ursprünglich 5.000 M.) unter Brig.-Gen. Fournier d'Albe zur Kapitulation, wonach die Garnison nach Ausmarsch mit kriegerischen Ehren die Waffen strecken mußte und in Kriegsgefangenschaft geriet."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "bodart-permanent-works",
+      "dimension": "fortification",
+      "value": "Side A defended named permanent fortress works.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Permanent works inherited for this tactical hypothesis; construction and campaign contribution unestablished. English rendering (ours): \"The place is fortified, a fortress, or defended fortress works are named.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p476",
+          "locator": "Bodart (1908), p. 476, Küstrin; full retained image inspected",
+          "quote": "(Preußische Festung in Brandenburg, am Einfluß der Warthe in die Oder, 25 km nordöstl. von Frankfurt an der Oder)."
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "vaud-custrin-garrison",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A: 3,000 under Fournier d’Albe in the blockade summary, not a dated effective return.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Küstrin, guarded by three thousand under Fournier d’Albe.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-france-t1-t3p1-liberation1813-piii-136-figures-v1",
+          "section": "piii-136-s2",
+          "locator": "v14, printed p. iii-136, Internet Archive leaf 979; retained page image inspected",
+          "quote": "Custrin, gardé par trois mille hommes sous les ordres du général Fournier d’Albe"
+        }
+      ]
+    },
+    {
+      "id": "plotho-custrin-command",
+      "dimension": "responsibility",
+      "value": "Fournier d’Albe governed; Hinrichs took over investment with Prussian Landwehr during April 1813 after earlier Russian detachments. Exact start day stays null.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"In April Hinrichs took over investment of the fortress.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p502-selections-v1",
+          "section": "p502-s1",
+          "locator": "p3, printed p. 502, Internet Archive leaf 507; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Im Monat April 1913 uͤbernahm der General: Major von Hinrichs die Einſchließung dieſer Feſtung"
+        }
+      ]
+    },
+    {
+      "id": "plotho-custrin-endpoints",
+      "dimension": "outcome",
+      "value": "Plotho separates capitulation concluded 7 March from physical surrender 30 March; Vaudoncourt labels the latter capitulation. Frozen end 7 March retained.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Both dates appear on this page; different event labels, not arbitrarily harmonized. English rendering (ours): \"The handover took place on the thirtieth of March.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t3-liberation1813-p503-selections-v1",
+          "section": "p503-s1",
+          "locator": "p3, printed p. 503, Internet Archive leaf 508; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "erfolgte die Uebergabe der Feſtung am Zoſten März"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Küstrin: null exact April start remains null. Agreement on 7 March and handover 30 March kept separate. Both sides’ matched local fit headcounts and full authority transition dates unavailable; national departures not equated to morale.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-custrin-garrison"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 5,000 initial French garrison; side B: 6,000 Prussians. Vaudoncourt side A: 3,000 under Fournier d’Albe in the blockade summary, not a dated effective return.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-custrin-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Brig.-Gen. Fournier d'Albe; side B under GM. v. Hinrichs. Fournier d’Albe governed; Hinrichs took over investment with Prussian Landwehr during April 1813 after earlier Russian detachments. Exact start day stays null.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 5,000 initial French garrison; side B: 6,000 Prussians. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-custrin-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Brig.-Gen. Fournier d'Albe; side B under GM. v. Hinrichs. Fournier d’Albe governed; Hinrichs took over investment with Prussian Landwehr during April 1813 after earlier Russian detachments. Exact start day stays null.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t3-ocr-v1",
+      "vaudoncourt-1826-france-t1-t3p1-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Küstrin: null exact April start remains null. Agreement on 7 March and handover 30 March kept separate. Both sides’ matched local fit headcounts and full authority transition dates unavailable; national departures not equated to morale."
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "battle_id": "B459d",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Wartenburg interval 1813-10-03–1813-10-03 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 15,000 French (13,500 infantry, 1,500 cavalry); side B: 16,000 Prussians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 15,000 French (13,500 infantry, 1,500 cavalry); side B: 16,000 Prussians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Wartenburg; full retained image inspected",
+          "quote": "Sieg der Preußen (27 Btln., 7 Esk., 32 Gesch. = 16.000 M.) unter Gen.-Lt. v. York über die Franzosen (13.500 Inft., 1.500 Kav., 24 Gesch. = 15.000 M.) unter Div.-Gen. Gf. Bertrand."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Div.-Gen. Gf. Bertrand; side B under Gen.-Lt. v. York.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Div.-Gen. Gf. Bertrand; side B under Gen.-Lt. v. York.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Wartenburg; full retained image inspected",
+          "quote": "Sieg der Preußen (27 Btln., 7 Esk., 32 Gesch. = 16.000 M.) unter Gen.-Lt. v. York über die Franzosen (13.500 Inft., 1.500 Kav., 24 Gesch. = 15.000 M.) unter Div.-Gen. Gf. Bertrand."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p459",
+          "locator": "Bodart (1908), p. 459, Wartenburg; full retained image inspected",
+          "quote": "Sieg der Preußen (27 Btln., 7 Esk., 32 Gesch. = 16.000 M.) unter Gen.-Lt. v. York über die Franzosen (13.500 Inft., 1.500 Kav., 24 Gesch. = 15.000 M.) unter Div.-Gen. Gf. Bertrand."
+        }
+      ]
+    },
+    {
+      "id": "vaud-bertrand-disposition",
+      "dimension": "responsibility",
+      "value": "Ney ordered Bertrand’s fourth corps into the Wartenburg position.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Ney had Bertrand take position at Wartenburg with fourth corps.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p192-selections-v1",
+          "section": "p192-s1",
+          "locator": "v13, printed p. 192, Internet Archive leaf 195; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "lit partir de Dessau le 4* corps, pour aller prendre position .à W.irlenburg"
+        }
+      ]
+    },
+    {
+      "id": "plotho-york-order",
+      "dimension": "responsibility",
+      "value": "York ordered prince Carl of Mecklenburg’s division through Bleddin for the flank attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Retained disposition on this page specifies Mecklenburg’s attack; not equal attribution to all listed commanders. English rendering (ours): \"General York.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p280-selections-v1",
+          "section": "p280-s1",
+          "locator": "p2, printed p. 280, Internet Archive leaf 288; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "deshalb gab der General v. Pork den Befehl"
+        }
+      ]
+    },
+    {
+      "id": "vaud-wartenburg-attack",
+      "dimension": "posture",
+      "value": "Side B began the attack under York.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"York began the attack at eight in the morning.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p192-selections-v1",
+          "section": "p192-s2",
+          "locator": "v13, printed p. 192, Internet Archive leaf 195; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "En vain le général York essaya-t-il de forcer cette position"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "vaud-wartenburg-ground",
+      "dimension": "terrain",
+      "value": "Bertrand’s position used dykes and marshes.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Hydraulic embankments alone do not establish military field works; fortification remains unknown. English rendering (ours): \"By means of dykes and marshes.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p192-selections-v1",
+          "section": "p192-s3",
+          "locator": "v13, printed p. 192, Internet Archive leaf 195; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "flanquée par des digues et des marais"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 15,000 French (13,500 infantry, 1,500 cavalry); side B: 16,000 Prussians. Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-bertrand-disposition"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Gf. Bertrand; side B under Gen.-Lt. v. York. Ney ordered Bertrand’s fourth corps into the Wartenburg position.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 15,000 French (13,500 infantry, 1,500 cavalry); side B: 16,000 Prussians. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-york-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Gf. Bertrand; side B under Gen.-Lt. v. York. York ordered prince Carl of Mecklenburg’s division through Bleddin for the flank attack.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t2-ocr-v1",
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Matched own-side local strength returns, effective command scope through the full interval, and replacement boundaries remain incomplete."
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "battle_id": "B468b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Modlin interval 1813-02-23–1813-12-25 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 5,200 initial French/Polish garrison; 3,000 at close; side B: 10,000 Russians.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 5,200 initial French/Polish garrison; 3,000 at close; side B: 10,000 Russians.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "Die Russen (10.000 M.) unter GM. Kleinmichel zwingen die französisch-polnische Besatzung (urspr. 5.200 M., 120 Gesch., zum Schluß noch 3.000 M. stark) unter Div.-Gen. Daendels zur Kapitulation, wonach die Garnison sich kriegsgefangen geben mußte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Div.-Gen. Daendels; side B under GM. Kleinmichel.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Div.-Gen. Daendels; side B under GM. Kleinmichel.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "Die Russen (10.000 M.) unter GM. Kleinmichel zwingen die französisch-polnische Besatzung (urspr. 5.200 M., 120 Gesch., zum Schluß noch 3.000 M. stark) unter Div.-Gen. Daendels zur Kapitulation, wonach die Garnison sich kriegsgefangen geben mußte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "Die Russen (10.000 M.) unter GM. Kleinmichel zwingen die französisch-polnische Besatzung (urspr. 5.200 M., 120 Gesch., zum Schluß noch 3.000 M. stark) unter Div.-Gen. Daendels zur Kapitulation, wonach die Garnison sich kriegsgefangen geben mußte."
+        }
+      ]
+    },
+    {
+      "id": "bodart-investment",
+      "dimension": "posture",
+      "value": "Side B invested or attacked the side A garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Investment is an offensive posture even where the defender ultimately holds. Timing/decision origin unresolved. English rendering (ours): \"Side B besieges, blockades, storms or compels the French-side garrison to capitulate.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "1813 23./2.—25./12. EINSCHLIESSUNG und KAPITULATION von Modlin"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "Die Russen (10.000 M.) unter GM. Kleinmichel zwingen die französisch-polnische Besatzung (urspr. 5.200 M., 120 Gesch., zum Schluß noch 3.000 M. stark) unter Div.-Gen. Daendels zur Kapitulation, wonach die Garnison sich kriegsgefangen geben mußte."
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "bodart-permanent-works",
+      "dimension": "fortification",
+      "value": "Side A defended named permanent fortress works.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Permanent works inherited for this tactical hypothesis; construction and campaign contribution unestablished. English rendering (ours): \"The place is fortified, a fortress, or defended fortress works are named.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p468",
+          "locator": "Bodart (1908), p. 468, Modlin; full retained image inspected",
+          "quote": "(Stadt und Festung in Russisch-Polen, am Einfluß des Narew in die Weichsel, 28 km nordwestl. von Warschau)."
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "vaud-initial-allocation",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A initial allocation: Modlin: 1,000 French + 1,000 Saxons + 6,000 Poles = 8,000 initially allocated under Daendels. Not a dated fit-for-duty return for the full siege interval.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Modlin: 1,000 French + 1,000 Saxons + 6,000 Poles = 8,000 initially allocated under Daendels.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p33-figures-v1",
+          "section": "p33-s3",
+          "locator": "v13, printed p. 33, Internet Archive leaf 36; retained page image inspected",
+          "quote": "celle de Modlin, de mille Français, mille Saxons et six mille Polonais, commandés par le général Daendels"
+        }
+      ]
+    },
+    {
+      "id": "vaud-daendels",
+      "dimension": "responsibility",
+      "value": "Daendels commanded Modlin and surrendered on 25 December in Vaudoncourt.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Daendels, commanding Modlin, met the same fate on the twenty-fifth.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p243-selections-v1",
+          "section": "p243-s2",
+          "locator": "v13, printed p. 243, Internet Archive leaf 246; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le' général Daendels ^qui commandait à Modlin , subit le même sort le a5 décembre"
+        }
+      ]
+    },
+    {
+      "id": "plotho-kleinmichel",
+      "dimension": "responsibility",
+      "value": "Kleinmichel commanded the Russian blockade at its end; Daendels was the captured garrison commander.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Russian major-general Kleinmichel, who commanded the blockade at its end.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p539-selections-v1",
+          "section": "p539-s1",
+          "locator": "p2, printed p. 539, Internet Archive leaf 547; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "der ruſſiſche General: Major Kleinmichel, der die Blokade zuletzt kommandirte"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-b-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Modlin: initial mixed garrison allocation versus Bodart’s 3,000 terminal garrison; own-side local fit strength and Russian blockade succession not established. No inferred morale from national composition.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-initial-allocation"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 5,200 initial French/Polish garrison; 3,000 at close; side B: 10,000 Russians. Vaudoncourt side A initial allocation: Modlin: 1,000 French + 1,000 Saxons + 6,000 Poles = 8,000 initially allocated under Daendels. Not a dated fit-for-duty return for the full siege interval.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-daendels"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Daendels; side B under GM. Kleinmichel. Daendels commanded Modlin and surrendered on 25 December in Vaudoncourt.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-b-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 5,200 initial French/Polish garrison; 3,000 at close; side B: 10,000 Russians. Side B: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-kleinmichel"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Daendels; side B under GM. Kleinmichel. Kleinmichel commanded the Russian blockade at its end; Daendels was the captured garrison commander.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t2-ocr-v1",
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Modlin: initial mixed garrison allocation versus Bodart’s 3,000 terminal garrison; own-side local fit strength and Russian blockade succession not established. No inferred morale from national composition."
+    ]
+  }
+}

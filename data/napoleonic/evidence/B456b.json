@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "battle_id": "B456b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Kulm interval 1813-08-29–1813-08-30 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 37,000 French (33,000 infantry, 4,000 cavalry); side B: 103,000 allies (90,000 infantry, 13,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 37,000 French (33,000 infantry, 4,000 cavalry); side B: 103,000 allies (90,000 infantry, 13,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p456",
+          "locator": "Bodart (1908), p. 456, Kulm; full retained image inspected",
+          "quote": "123 Btln. 90.000 | Infanterie | 33.000 Btln. 52"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p456",
+          "locator": "Bodart (1908), p. 456, Kulm; full retained image inspected",
+          "quote": "119 Esk. 13.000 | Kavallerie | 4.000 Esk. 29"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p456",
+          "locator": "Bodart (1908), p. 456, Kulm; full retained image inspected",
+          "quote": "226 Gesch. 103.000 | Gesamt-Stärke | 37.000 Gesch. 81"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Gen. Gf. Vandamme; side B under Gen. d. Inf. Barclay de Tolly.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Gen. Gf. Vandamme; side B under Gen. d. Inf. Barclay de Tolly.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p456",
+          "locator": "Bodart (1908), p. 456, Kulm; full retained image inspected",
+          "quote": "Gen. d. Inf. Barclay de Tolly | Gen. Gf. Vandamme"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p456",
+          "locator": "Bodart (1908), p. 456, Kulm; full retained image inspected",
+          "quote": "Verbündete | Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "vaud-kulm-aug29-russians",
+      "dimension": "strength",
+      "value": "Vaudoncourt side B on 29 August: Ostermann had about 12,000 men remaining; later reinforcements excluded.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"About twelve thousand men remained to Ostermann.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p158-figures-v1",
+          "section": "p158-s1",
+          "locator": "v13, printed p. 158, Internet Archive leaf 161; retained page image inspected",
+          "quote": "le général Ostermann qui avait encore environ douze mille hommes"
+        }
+      ]
+    },
+    {
+      "id": "vaud-kulm-french",
+      "dimension": "strength",
+      "value": "Vaudoncourt side A: 18,000 men in its discussion of Vandamme’s operation; exact local observation time less precise than the dated sequence.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Author’s tactical criticism is not adopted; only its stated force alternative. English rendering (ours): \"It was not with eighteen thousand men that he could master it.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p159-figures-v1",
+          "section": "p159-s1",
+          "locator": "v13, printed p. 159, Internet Archive leaf 162; retained page image inspected",
+          "quote": "avec dix-huit mille hommes"
+        }
+      ]
+    },
+    {
+      "id": "vaud-kulm-aug30-allies",
+      "dimension": "strength",
+      "value": "Vaudoncourt side B on 30 August: nearly 70,000 employed, including a stated 10,000 chevaux; more than 50,000 took part. Horse count not converted to people.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The allies employed nearly seventy thousand, including ten thousand horses; more than fifty thousand fought.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p160-figures-v1",
+          "section": "p160-s1",
+          "locator": "v13, printed p. 160, Internet Archive leaf 163; retained page image inspected",
+          "quote": "Le total des troupes ennemies qui furent employées contre le général Vandamme montait à près de soixante et dix mille hommes, dont dix mille chevaux. Plus de cinquante mille hommes donnèrent."
+        }
+      ]
+    },
+    {
+      "id": "vaud-kulm-command",
+      "dimension": "responsibility",
+      "value": "Schwarzenberg resolved to crush Vandamme on 30 August; Barclay directed the attack.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Schwarzenberg resolved to crush Vandamme, who was attacked on the thirtieth by troops under Barclay.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p159-selections-v1",
+          "section": "p159-s1",
+          "locator": "v13, printed p. 159, Internet Archive leaf 162; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le prince de ScHvvarlzenbcrg, voyant que le général Vandamme était resté en plaine , résolut de l’accahlcr"
+        }
+      ]
+    },
+    {
+      "id": "vaud-vandamme-advance",
+      "dimension": "responsibility",
+      "value": "Vandamme, posted at Nollendorf, pursued his advance toward Kulm on 29 August and then brought forward the rest of his corps.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Vandamme, posted at Nollendorf, wished to pursue his advantages.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p158-selections-v1",
+          "section": "p158-s2",
+          "locator": "v13, printed p. 158, Internet Archive leaf 161; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Le général Vandamme qui avait pris poste à Nollendorf (1) , voulut poursuivre ses «vanlages. 11 descendit sur Kulni avec huit ou dix halailinns , mais se voyant arrêté"
+        }
+      ]
+    },
+    {
+      "id": "vaud-aug30-attack",
+      "dimension": "posture",
+      "value": "30 August: side B attacked Vandamme.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He was attacked on the thirtieth by a large mass of troops.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1819-allemagne-liberation1813-p159-selections-v1",
+          "section": "p159-s2",
+          "locator": "v13, printed p. 159, Internet Archive leaf 162; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "les corps destinés à l’attaque de la position de Knim se mirent en marche"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Kulm: day-one Ostermann remainder, wider French operation force, and day-two allied available/engaged populations differ. Ostermann’s wound and Barclay/Schwarzenberg/Kleist authority do not establish exact command replacement boundaries.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-kulm-french"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 37,000 French (33,000 infantry, 4,000 cavalry); side B: 103,000 allies (90,000 infantry, 13,000 cavalry). Vaudoncourt side A: 18,000 men in its discussion of Vandamme’s operation; exact local observation time less precise than the dated sequence.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-vandamme-advance"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Gen. Gf. Vandamme; side B under Gen. d. Inf. Barclay de Tolly. Vandamme, posted at Nollendorf, pursued his advance toward Kulm on 29 August and then brought forward the rest of his corps.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "vaud-kulm-aug29-russians",
+          "vaud-kulm-aug30-allies"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 37,000 French (33,000 infantry, 4,000 cavalry); side B: 103,000 allies (90,000 infantry, 13,000 cavalry). Vaudoncourt side B on 29 August: Ostermann had about 12,000 men remaining; later reinforcements excluded. Vaudoncourt side B on 30 August: nearly 70,000 employed, including a stated 10,000 chevaux; more than 50,000 took part. Horse count not converted to people.",
+        "command_claim_ids": [
+          "bodart-command",
+          "vaud-kulm-command"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Gen. Gf. Vandamme; side B under Gen. d. Inf. Barclay de Tolly. Schwarzenberg resolved to crush Vandamme on 30 August; Barclay directed the attack.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1819-allemagne-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Kulm: day-one Ostermann remainder, wider French operation force, and day-two allied available/engaged populations differ. Ostermann’s wound and Barclay/Schwarzenberg/Kleist authority do not establish exact command replacement boundaries."
+    ]
+  }
+}

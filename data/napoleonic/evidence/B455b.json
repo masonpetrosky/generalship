@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "battle_id": "B455b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Hagelberg interval 1813-08-27–1813-08-27 preserved; a null exact start stays null. All 1814 endpoints remain in this 1813 source group. Tactical/campaign replacement boundaries unset. Separate encounters, sieges and blockades remain separate, without additive campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart: side A: 11,000 French (10,000 infantry, 1,000 cavalry); side B: 12,000 Prussians (10,400 infantry, 1,600 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Available battle forces rounded up under Bodart’s compilation convention; explicit engaged/initial/later distinctions retained. Not a matched dated local return. English rendering (ours): \"Bodart: side A: 11,000 French (10,000 infantry, 1,000 cavalry); side B: 12,000 Prussians (10,400 infantry, 1,600 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p455",
+          "locator": "Bodart (1908), p. 455, Hagelberg; full retained image inspected",
+          "quote": "Sieg der Preußen (10.400 Inft., 1.600 Kav., 11 Gesch. = 12.000 M.) unter GM. von Hirschfeld über die Franzosen (10 000 Inft., 1.000 Kav., 22 Gesch. = 11.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Div.-Gen. Baron Girard; side B under GM. von Hirschfeld.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels retain their stated scope. No continuous appointment or equal commander credit inferred. English rendering (ours): \"Bodart lists side A under Div.-Gen. Baron Girard; side B under GM. von Hirschfeld.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p455",
+          "locator": "Bodart (1908), p. 455, Hagelberg; full retained image inspected",
+          "quote": "Sieg der Preußen (10.400 Inft., 1.600 Kav., 11 Gesch. = 12.000 M.) unter GM. von Hirschfeld über die Franzosen (10 000 Inft., 1.000 Kav., 22 Gesch. = 11.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen outcome convention; quoted losses are not adopted as opening strength. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p455",
+          "locator": "Bodart (1908), p. 455, Hagelberg; full retained image inspected",
+          "quote": "Sieg der Preußen (10.400 Inft., 1.600 Kav., 11 Gesch. = 12.000 M.) unter GM. von Hirschfeld über die Franzosen (10 000 Inft., 1.000 Kav., 22 Gesch. = 11.000 M.) unter Div.-Gen. Baron Girard."
+        }
+      ]
+    },
+    {
+      "id": "plotho-hirschfeld",
+      "dimension": "responsibility",
+      "value": "Hirschfeld directed the Prussian attack; Girard returned from reconnaissance and attempted a local flank response.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Girard had just returned from reconnaissance.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p153-selections-v1",
+          "section": "p153-s1",
+          "locator": "p2, printed p. 153, Internet Archive leaf 161; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "der feindliche kommandi⸗ rende General Gerard"
+        }
+      ]
+    },
+    {
+      "id": "plotho-bayonet-order",
+      "dimension": "responsibility",
+      "value": "Hirschfeld ordered a bayonet advance after rain impaired firearms.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"Hirschfeld now ordered bayonets forward.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p154-selections-v1",
+          "section": "p154-s1",
+          "locator": "p2, printed p. 154, Internet Archive leaf 162; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "Da gebot der General v. Hirſchfeld dem Fußvolk vorzuruͤcken, und den Feind mit dem Bajonett anzugreifen"
+        }
+      ]
+    },
+    {
+      "id": "plotho-hagelberg-attack",
+      "dimension": "posture",
+      "value": "Side B attacked Lübnitz and the French position.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "English rendering (ours): \"The first column attacked Lübnitz.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p153-selections-v1",
+          "section": "p153-s2",
+          "locator": "p2, printed p. 153, Internet Archive leaf 161; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "der erſte Angriff auf das Dorf Luͤbnitz"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "plotho-late-cossacks",
+      "dimension": "strength",
+      "value": "Plotho places Tschernitschew’s Cossacks at pursuit, rather than establishing them in the opening attacker population.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Arrival/pursuit context on retained page; no unnumbered Cossacks converted into a people total. English rendering (ours): \"Tschernitschew with his Cossacks.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1817-t2-liberation1813-p154-selections-v1",
+          "section": "p154-s2",
+          "locator": "p2, printed p. 154, Internet Archive leaf 162; retained page image inspected; short exact OCR anchor in page-bounded context, spelling retained",
+          "quote": "General Tſcherniſchef mit 5 Koſaken- Regimentern"
+        }
+      ]
+    },
+    {
+      "id": "own-local-count-a-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+      "citations": []
+    },
+    {
+      "id": "terrain-unknown",
+      "dimension": "terrain",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this engagement. No inference from outcome, reputation, place name or an adjacent action.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Hagelberg: no matched people count established from Plotho’s battalions/squadrons/guns; Cossack pursuit timing not added to opening strength. French own-side return and Girard’s effective scope unresolved.",
+    "Original local returns and orders uninspected. French and Prussian national retrospective accounts mediate other national contingents; translations, volumes and embedded documents remain one family per author.",
+    "Bodart is a later compilation. Primary verification establishes extraction/provenance, not historical truth; frozen winner unchanged, no feature or commander score admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "own-local-count-a-unknown"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 11,000 French (10,000 infantry, 1,000 cavalry); side B: 12,000 Prussians (10,400 infantry, 1,600 cavalry). Side A: no matched own-side local people total established beyond the cited source-specific compilation/alternative. Formations, horses, later losses, prisoners and wider army totals do not fill the gap.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-hirschfeld"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Baron Girard; side B under GM. von Hirschfeld. Hirschfeld directed the Prussian attack; Girard returned from reconnaissance and attempted a local flank response.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "plotho-late-cossacks"
+        ],
+        "strength_population_and_time": "Source populations and observation times remain separate. Bodart: side A: 11,000 French (10,000 infantry, 1,000 cavalry); side B: 12,000 Prussians (10,400 infantry, 1,600 cavalry). Plotho places Tschernitschew’s Cossacks at pursuit, rather than establishing them in the opening attacker population.",
+        "command_claim_ids": [
+          "bodart-command",
+          "plotho-bayonet-order"
+        ],
+        "command_scope": "Local, superior and contingent roles remain distinct. Bodart lists side A under Div.-Gen. Baron Girard; side B under GM. von Hirschfeld. Hirschfeld ordered a bayonet advance after rain impaired firearms.",
+        "army_continuity": "Unknown: inspected passages do not establish cross-engagement army identity; repeated names and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "plotho-1817-t2-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "Both sides and all nine dimensions addressed with inspected observations, source alternatives or explicit unknowns in the preassigned families; full campaign primary verification, no deeper follow-up cycle or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Hagelberg: no matched people count established from Plotho’s battalions/squadrons/guns; Cossack pursuit timing not added to opening strength. French own-side return and Girard’s effective scope unresolved."
+    ]
+  }
+}

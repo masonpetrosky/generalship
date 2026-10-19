@@ -1,0 +1,410 @@
+python3 -m unittest discover -s tests -v
+test_alias_citations_do_not_add_values_or_votes (test_admission.AdmissionTests.test_alias_citations_do_not_add_values_or_votes) ... ok
+test_bad_binding_metadata_omission_and_changed_review_fail_closed (test_admission.AdmissionTests.test_bad_binding_metadata_omission_and_changed_review_fail_closed) ... ok
+test_calendar_date_comparison_handles_week_and_basic_iso_forms (test_admission.AdmissionTests.test_calendar_date_comparison_handles_week_and_basic_iso_forms) ... ok
+test_cli_rejects_test_artifact_without_traceback (test_admission.AdmissionTests.test_cli_rejects_test_artifact_without_traceback) ... ok
+test_coherent_scenarios_no_extra_battle_weight_or_silent_selection (test_admission.AdmissionTests.test_coherent_scenarios_no_extra_battle_weight_or_silent_selection) ... ok
+test_compatible_sides_require_joint_scenario_coverage (test_admission.AdmissionTests.test_compatible_sides_require_joint_scenario_coverage) ... ok
+test_duplicate_json_keys_frame_omission_and_duplicate_candidates (test_admission.AdmissionTests.test_duplicate_json_keys_frame_omission_and_duplicate_candidates) ... ok
+test_expanded_and_common_coverage_are_separate (test_admission.AdmissionTests.test_expanded_and_common_coverage_are_separate) ... ok
+test_explicit_estimate_keeps_integer_and_bounds (test_admission.AdmissionTests.test_explicit_estimate_keeps_integer_and_bounds) ... ok
+test_invalid_precedence_retains_already_evaluated_exclusions (test_admission.AdmissionTests.test_invalid_precedence_retains_already_evaluated_exclusions) ... ok
+test_later_report_prestate_and_null_section_date_are_distinct (test_admission.AdmissionTests.test_later_report_prestate_and_null_section_date_are_distinct) ... ok
+test_missing_boundary_and_crossing_state_interval_block (test_admission.AdmissionTests.test_missing_boundary_and_crossing_state_interval_block) ... ok
+test_missing_side_stays_in_denominator (test_admission.AdmissionTests.test_missing_side_stays_in_denominator) ... ok
+test_overlap_cycle_unknown_members_and_wrong_population (test_admission.AdmissionTests.test_overlap_cycle_unknown_members_and_wrong_population) ... ok
+test_positive_candidate_and_test_only_release_replay (test_admission.AdmissionTests.test_positive_candidate_and_test_only_release_replay) ... ok
+test_production_cohort_and_frame_cannot_be_silently_changed (test_admission.AdmissionTests.test_production_cohort_and_frame_cannot_be_silently_changed) ... ok
+test_production_ledger_covers_all_40_quantities_without_admission (test_admission.AdmissionTests.test_production_ledger_covers_all_40_quantities_without_admission) ... ok
+test_production_rejects_synthetic_proposal_and_release (test_admission.AdmissionTests.test_production_rejects_synthetic_proposal_and_release) ... ok
+test_release_checks_executing_code_not_other_checkout_files (test_admission.AdmissionTests.test_release_checks_executing_code_not_other_checkout_files) ... ok
+test_release_rows_coverage_and_implementation_hashes_bound (test_admission.AdmissionTests.test_release_rows_coverage_and_implementation_hashes_bound) ... ok
+test_research_cutoff_and_outcome_based_selection_are_rejected (test_admission.AdmissionTests.test_research_cutoff_and_outcome_based_selection_are_rejected) ... ok
+test_review_scope_or_adverse_finding_blocks_release (test_admission.AdmissionTests.test_review_scope_or_adverse_finding_blocks_release) ... ok
+test_same_observation_cannot_be_relabelled_into_disjoint_components (test_admission.AdmissionTests.test_same_observation_cannot_be_relabelled_into_disjoint_components) ... ok
+test_snapshot_replay_ignores_later_current_registry (test_admission.AdmissionTests.test_snapshot_replay_ignores_later_current_registry) ... ok
+test_subtraction_requires_nested_members_and_correct_interval (test_admission.AdmissionTests.test_subtraction_requires_nested_members_and_correct_interval) ... ok
+test_target_channel_and_profile_changes_cannot_be_relabelled (test_admission.AdmissionTests.test_target_channel_and_profile_changes_cannot_be_relabelled) ... ok
+test_transitive_post_state_and_target_leakage (test_admission.AdmissionTests.test_transitive_post_state_and_target_leakage) ... ok
+test_unknowns_are_blocked_and_null_never_zero (test_admission.AdmissionTests.test_unknowns_are_blocked_and_null_never_zero) ... ok
+test_unsupported_causal_and_information_profiles_excluded (test_admission.AdmissionTests.test_unsupported_causal_and_information_profiles_excluded) ... ok
+test_wrong_scope_cannot_be_rescued_by_scenario (test_admission.AdmissionTests.test_wrong_scope_cannot_be_rescued_by_scenario) ... ok
+test_committed_audit_matches_its_seeded_sample (test_audit.AuditTests.test_committed_audit_matches_its_seeded_sample) ... ok
+test_tampered_audits_fail (test_audit.AuditTests.test_tampered_audits_fail) ... ok
+test_wilson_interval (test_audit.AuditTests.test_wilson_interval) ... ok
+test_both_record_shapes_and_unknown_dispositions (test_audit.ReviewIndexTests.test_both_record_shapes_and_unknown_dispositions) ... ok
+test_every_historical_disposition_is_in_the_vocabulary (test_audit.ReviewIndexTests.test_every_historical_disposition_is_in_the_vocabulary) ... ok
+test_complete_campaign_holdout_and_one_prediction_per_battle (test_baseline.BaselineTests.test_complete_campaign_holdout_and_one_prediction_per_battle) ... ok
+test_equal_strength_balanced_results (test_baseline.BaselineTests.test_equal_strength_balanced_results) ... ok
+test_fit_satisfies_penalized_score_equations (test_baseline.BaselineTests.test_fit_satisfies_penalized_score_equations) ... ok
+test_heldout_outcome_cannot_change_own_prediction (test_baseline.BaselineTests.test_heldout_outcome_cannot_change_own_prediction) ... ok
+test_insufficient_campaigns_fail (test_baseline.BaselineTests.test_insufficient_campaigns_fail) ... ok
+test_invalid_fit_inputs_rejected (test_baseline.BaselineTests.test_invalid_fit_inputs_rejected) ... ok
+test_missing_zero_nonfinite_strength_rejected (test_baseline.BaselineTests.test_missing_zero_nonfinite_strength_rejected) ... ok
+test_more_strength_predicts_win_in_controlled_data (test_baseline.BaselineTests.test_more_strength_predicts_win_in_controlled_data) ... ok
+test_proper_scores_known_values (test_baseline.BaselineTests.test_proper_scores_known_values) ... ok
+test_side_relabeling_is_equivariant (test_baseline.BaselineTests.test_side_relabeling_is_equivariant) ... ok
+test_single_class_training_remains_finite (test_baseline.BaselineTests.test_single_class_training_remains_finite) ... ok
+test_committed_ledger_replays (test_command.LedgerTests.test_committed_ledger_replays) ... ok
+test_tampered_ledgers_fail (test_command.LedgerTests.test_tampered_ledgers_fail) ... ok
+test_contained_pairs_need_same_campaign_and_a_strictly_inner_interval (test_command.RuleTests.test_contained_pairs_need_same_campaign_and_a_strictly_inner_interval) ... ok
+test_rank_order_and_brevet_or_acting_ranks (test_command.RuleTests.test_rank_order_and_brevet_or_acting_ranks) ... ok
+test_floats_may_differ_in_the_last_bits_only (test_compare.CompareTests.test_floats_may_differ_in_the_last_bits_only) ... ok
+test_structure_strings_and_integers_must_match_exactly (test_compare.CompareTests.test_structure_strings_and_integers_must_match_exactly) ... ok
+test_authorization_must_name_the_current_ledger (test_estimate_eval.GateTests.test_authorization_must_name_the_current_ledger) ... ok
+test_only_option_a_is_implemented (test_estimate_eval.GateTests.test_only_option_a_is_implemented) ... ok
+test_record_must_disclaim_admission_and_baseline_change (test_estimate_eval.GateTests.test_record_must_disclaim_admission_and_baseline_change) ... ok
+test_converges_where_the_line_search_only_sees_rounding (test_estimate_eval.OptimizerTests.test_converges_where_the_line_search_only_sees_rounding) ... ok
+test_frozen_reference_matches_the_committed_baseline (test_estimate_eval.ReferenceTests.test_frozen_reference_matches_the_committed_baseline) ... ok
+test_evaluability_needs_six_rows_three_campaigns_and_both_outcomes (test_estimate_eval.RowTests.test_evaluability_needs_six_rows_three_campaigns_and_both_outcomes) ... ok
+test_fit_set_scores_every_row_once_out_of_campaign (test_estimate_eval.RowTests.test_fit_set_scores_every_row_once_out_of_campaign) ... ok
+test_post_start_rows_are_counted_not_fitted (test_estimate_eval.RowTests.test_post_start_rows_are_counted_not_fitted) ... ok
+test_partial_and_one_sided_are_bound_only_before_opponent_rows (test_estimates.ClassificationTests.test_partial_and_one_sided_are_bound_only_before_opponent_rows) ... ok
+test_rows_in_order (test_estimates.ClassificationTests.test_rows_in_order) ... ok
+test_committed_ledger_reproduces (test_estimates.LedgerTests.test_committed_ledger_reproduces) ... ok
+test_tampered_ledger_fails (test_estimates.LedgerTests.test_tampered_ledger_fails) ... ok
+test_basis_mixed_and_nested_sets (test_estimates.RowTests.test_basis_mixed_and_nested_sets) ... ok
+test_basis_order_and_other_bases_excluded_from_range (test_estimates.RuleTests.test_basis_order_and_other_bases_excluded_from_range) ... ok
+test_bound_with_residual_class_c_is_not_applied (test_estimates.RuleTests.test_bound_with_residual_class_c_is_not_applied) ... ok
+test_bounds_apply_only_on_point_basis_and_flag_conflict (test_estimates.RuleTests.test_bounds_apply_only_on_point_basis_and_flag_conflict) ... ok
+test_compiled_copies_group_and_take_restrictive_class (test_estimates.RuleTests.test_compiled_copies_group_and_take_restrictive_class) ... ok
+test_completed_sum_and_grade_d (test_estimates.RuleTests.test_completed_sum_and_grade_d) ... ok
+test_exact_rational_arithmetic (test_estimates.RuleTests.test_exact_rational_arithmetic) ... ok
+test_floor_applied (test_estimates.RuleTests.test_floor_applied) ... ok
+test_grade_a_median_range_and_rounding (test_estimates.RuleTests.test_grade_a_median_range_and_rounding) ... ok
+test_lower_bounds_apply_or_conflict (test_estimates.RuleTests.test_lower_bounds_apply_or_conflict) ... ok
+test_opponent_only_rule4_and_basis_filter (test_estimates.RuleTests.test_opponent_only_rule4_and_basis_filter) ... ok
+test_opponent_raises_high_but_never_sets_point (test_estimates.RuleTests.test_opponent_raises_high_but_never_sets_point) ... ok
+test_opponent_that_sets_high_carries_its_labels (test_estimates.RuleTests.test_opponent_that_sets_high_carries_its_labels) ... ok
+test_post_start_candidates_enter_hull_only_when_used (test_estimates.RuleTests.test_post_start_candidates_enter_hull_only_when_used) ... ok
+test_same_document_different_basis_stay_separate (test_estimates.RuleTests.test_same_document_different_basis_stay_separate) ... ok
+test_archived_dossier_is_preserved_and_bound_to_revision (test_evidence.EvidenceTests.test_archived_dossier_is_preserved_and_bound_to_revision) ... ok
+test_checksum_tampering_rejected (test_evidence.EvidenceTests.test_checksum_tampering_rejected) ... ok
+test_citation_requires_full_key (test_evidence.EvidenceTests.test_citation_requires_full_key) ... ok
+test_coverage_denominator_retains_unscorable_battles (test_evidence.EvidenceTests.test_coverage_denominator_retains_unscorable_battles) ... ok
+test_duplicate_claim_ids_fail (test_evidence.EvidenceTests.test_duplicate_claim_ids_fail) ... ok
+test_duplicate_join_keys_rejected (test_evidence.EvidenceTests.test_duplicate_join_keys_rejected) ... ok
+test_duplicate_phase_record_ids_fail (test_evidence.EvidenceTests.test_duplicate_phase_record_ids_fail) ... ok
+test_events_require_evidence_and_known_entities (test_evidence.EvidenceTests.test_events_require_evidence_and_known_entities) ... ok
+test_frozen_cohort_tampering_rejected (test_evidence.EvidenceTests.test_frozen_cohort_tampering_rejected) ... ok
+test_incomplete_dimension_coverage_fails (test_evidence.EvidenceTests.test_incomplete_dimension_coverage_fails) ... ok
+test_invented_quote_fails (test_evidence.EvidenceTests.test_invented_quote_fails) ... ok
+test_missing_numeric_is_distinct_from_zero (test_evidence.EvidenceTests.test_missing_numeric_is_distinct_from_zero) ... ok
+test_paths_cannot_escape_repository (test_evidence.EvidenceTests.test_paths_cannot_escape_repository) ... ok
+test_phase_records_cannot_silently_downgrade_schema (test_evidence.EvidenceTests.test_phase_records_cannot_silently_downgrade_schema) ... ok
+test_quantity_cannot_erase_population_or_precision (test_evidence.EvidenceTests.test_quantity_cannot_erase_population_or_precision) ... ok
+test_quantity_requires_specific_evidenced_strength_claim (test_evidence.EvidenceTests.test_quantity_requires_specific_evidenced_strength_claim) ... ok
+test_quote_on_another_page_is_not_valid_support (test_evidence.EvidenceTests.test_quote_on_another_page_is_not_valid_support) ... ok
+test_repository_dossiers_have_resolvable_passages (test_evidence.EvidenceTests.test_repository_dossiers_have_resolvable_passages) ... ok
+test_reversed_quantity_dates_fail (test_evidence.EvidenceTests.test_reversed_quantity_dates_fail) ... ok
+test_review_requires_an_actual_record (test_evidence.EvidenceTests.test_review_requires_an_actual_record) ... ok
+test_section_cannot_be_missing_or_invented (test_evidence.EvidenceTests.test_section_cannot_be_missing_or_invented) ... ok
+test_selection_sections_must_match_their_parent_ranges (test_evidence.EvidenceTests.test_selection_sections_must_match_their_parent_ranges) ... ok
+test_unknown_is_null_not_zero (test_evidence.EvidenceTests.test_unknown_is_null_not_zero) ... ok
+test_unstated_muster_date_stays_unknown (test_evidence.EvidenceTests.test_unstated_muster_date_stays_unknown) ... ok
+test_unsupported_known_claim_fails (test_evidence.EvidenceTests.test_unsupported_known_claim_fails) ... ok
+test_cohort_v2_contains_v1_and_every_source_battle (test_evidence.ResearchFrameTests.test_cohort_v2_contains_v1_and_every_source_battle) ... ok
+test_bound_eligibility_follows_rule_7 (test_imputation.ModelTests.test_bound_eligibility_follows_rule_7) ... ok
+test_intercept_is_unpenalized_and_level_effects_are_shrunk (test_imputation.ModelTests.test_intercept_is_unpenalized_and_level_effects_are_shrunk) ... ok
+test_period_boundaries (test_imputation.ModelTests.test_period_boundaries) ... ok
+test_truncated_quantiles_respect_bounds (test_imputation.ModelTests.test_truncated_quantiles_respect_bounds) ... ok
+test_committed_imputation_reproduces (test_imputation.ReplayTests.test_committed_imputation_reproduces) ... ok
+test_imputations_are_deterministic_and_ordered (test_imputation.RunThreeTests.test_imputations_are_deterministic_and_ordered) ... ok
+test_run_is_refused_without_an_authorization_naming_the_files (test_imputation.RunThreeTests.test_run_is_refused_without_an_authorization_naming_the_files) ... ok
+test_wider_imputation_spreads_draws (test_imputation.RunThreeTests.test_wider_imputation_spreads_draws) ... ok
+test_a_dependence_group_is_removed_whole (test_imputation_v2.PrestartViewTests.test_a_dependence_group_is_removed_whole) ... ok
+test_every_post_start_side_is_re_estimated_without_post_start_groups (test_imputation_v2.PrestartViewTests.test_every_post_start_side_is_re_estimated_without_post_start_groups) ... ok
+test_post_start_sides_without_pre_start_evidence_are_modelled (test_imputation_v2.PrestartViewTests.test_post_start_sides_without_pre_start_evidence_are_modelled) ... ok
+test_pre_start_evidence_is_kept (test_imputation_v2.PrestartViewTests.test_pre_start_evidence_is_kept) ... ok
+test_levels_come_from_the_profile (test_imputation_v2.ProfileTests.test_levels_come_from_the_profile) ... ok
+test_run_3_settings_reproduce_imputation_v1_exactly (test_imputation_v2.ReproductionTests.test_run_3_settings_reproduce_imputation_v1_exactly) ... ok
+test_the_committed_v1_output_is_reproduced (test_imputation_v2.ReproductionTests.test_the_committed_v1_output_is_reproduced) ... ok
+test_a_passage_merge_needs_a_listed_target (test_ledgers_v2.PassageMergeTests.test_a_passage_merge_needs_a_listed_target) ... ok
+test_command_checker_reads_the_cohort_its_ledger_binds (test_ledgers_v2.V2CheckerTests.test_command_checker_reads_the_cohort_its_ledger_binds) ... ok
+test_unbound_registry_is_only_for_subset_checks (test_ledgers_v2.V2CheckerTests.test_unbound_registry_is_only_for_subset_checks) ... ok
+test_v1_strength_ledger_still_binds_the_unchanged_engine (test_ledgers_v2.V2CheckerTests.test_v1_strength_ledger_still_binds_the_unchanged_engine) ... ok
+test_v2_strength_checker_requires_a_version_2_ledger (test_ledgers_v2.V2CheckerTests.test_v2_strength_checker_requires_a_version_2_ledger) ... ok
+test_v2_strength_checker_shares_the_v1_engine (test_ledgers_v2.V2CheckerTests.test_v2_strength_checker_shares_the_v1_engine) ... ok
+test_committed_v2_ledgers_replay (test_ledgers_v2.V2LedgerReplayTests.test_committed_v2_ledgers_replay) ... ok
+test_v1_ledger_rejects_the_v2_rank_order (test_ledgers_v2.V2RuleTests.test_v1_ledger_rejects_the_v2_rank_order) ... ok
+test_v2_rank_order_extends_v1_without_reordering_it (test_ledgers_v2.V2RuleTests.test_v2_rank_order_extends_v1_without_reordering_it) ... ok
+test_committed_ledger_replays_and_rebuilds (test_ledgers_v3.V3LedgerTests.test_committed_ledger_replays_and_rebuilds) ... ok
+test_links_and_zero_cells (test_ledgers_v3.V3LedgerTests.test_links_and_zero_cells) ... ok
+test_only_grade_d_sides_gain_inputs (test_ledgers_v3.V3LedgerTests.test_only_grade_d_sides_gain_inputs) ... ok
+test_tampering_fails (test_ledgers_v3.V3LedgerTests.test_tampering_fails) ... ok
+test_a_side_named_only_in_a_later_clause_is_flagged_for_review (test_napoleonic.NapoleonicFrameTests.test_a_side_named_only_in_a_later_clause_is_flagged_for_review) ... ok
+test_an_undecided_entry_or_a_bad_override_stops_the_build (test_napoleonic.NapoleonicFrameTests.test_an_undecided_entry_or_a_bad_override_stops_the_build) ... ok
+test_committed_frame_and_cohort_rebuild (test_napoleonic.NapoleonicFrameTests.test_committed_frame_and_cohort_rebuild) ... ok
+test_counts_and_denominators_are_consistent (test_napoleonic.NapoleonicFrameTests.test_counts_and_denominators_are_consistent) ... ok
+test_every_in_frame_entry_has_a_french_side_and_a_campaign_group (test_napoleonic.NapoleonicFrameTests.test_every_in_frame_entry_has_a_french_side_and_a_campaign_group) ... ok
+test_ids_are_unique_and_follow_page_and_position (test_napoleonic.NapoleonicFrameTests.test_ids_are_unique_and_follow_page_and_position) ... ok
+test_known_entries (test_napoleonic.NapoleonicFrameTests.test_known_entries) ... ok
+test_misprints_are_corrected_only_by_recorded_overrides (test_napoleonic.NapoleonicFrameTests.test_misprints_are_corrected_only_by_recorded_overrides) ... ok
+test_prose_forms_put_the_winner_where_the_grammar_does (test_napoleonic.NapoleonicFrameTests.test_prose_forms_put_the_winner_where_the_grammar_does) ... ok
+test_royalists_are_not_the_french_side (test_napoleonic.NapoleonicFrameTests.test_royalists_are_not_the_french_side) ... ok
+test_a_cohort_entry_with_a_resolvable_quote_passes (test_napoleonic_evidence.NapoleonicEvidenceTests.test_a_cohort_entry_with_a_resolvable_quote_passes) ... ok
+test_a_known_coded_claim_takes_one_listed_code (test_napoleonic_evidence.NapoleonicEvidenceTests.test_a_known_coded_claim_takes_one_listed_code) ... ok
+test_a_quote_from_another_page_fails (test_napoleonic_evidence.NapoleonicEvidenceTests.test_a_quote_from_another_page_fails) ... ok
+test_an_entry_outside_cohort_v1_fails (test_napoleonic_evidence.NapoleonicEvidenceTests.test_an_entry_outside_cohort_v1_fails) ... ok
+test_an_unknown_coded_claim_takes_no_code (test_napoleonic_evidence.NapoleonicEvidenceTests.test_an_unknown_coded_claim_takes_no_code) ... ok
+test_compact_packet_preserves_access_without_embedding_every_draft (test_napoleonic_evidence.NapoleonicEvidenceTests.test_compact_packet_preserves_access_without_embedding_every_draft) ... ok
+test_dossiers_are_named_by_frame_id_and_checked_against_cohort_v1 (test_napoleonic_evidence.NapoleonicEvidenceTests.test_dossiers_are_named_by_frame_id_and_checked_against_cohort_v1) ... ok
+test_only_coded_dimensions_take_a_code (test_napoleonic_evidence.NapoleonicEvidenceTests.test_only_coded_dimensions_take_a_code) ... ok
+test_packet_lists_the_group_with_each_printed_entry (test_napoleonic_evidence.NapoleonicEvidenceTests.test_packet_lists_the_group_with_each_printed_entry) ... ok
+test_posture_and_fortification_are_required_dimensions (test_napoleonic_evidence.NapoleonicEvidenceTests.test_posture_and_fortification_are_required_dimensions) ... ok
+test_calibration_stays_unscored_and_keeps_stratum_denominators (test_napoleonic_methods.MethodsTests.test_calibration_stays_unscored_and_keeps_stratum_denominators) ... ok
+test_changed_execution_bindings_are_refused_before_an_experiment (test_napoleonic_methods.MethodsTests.test_changed_execution_bindings_are_refused_before_an_experiment) ... ok
+test_completion_requires_both_side_scopes_and_valid_claim_references (test_napoleonic_methods.MethodsTests.test_completion_requires_both_side_scopes_and_valid_claim_references) ... ok
+test_joint_labels_stay_uncredited_and_aliases_are_not_assumed (test_napoleonic_methods.MethodsTests.test_joint_labels_stay_uncredited_and_aliases_are_not_assumed) ... ok
+test_partitions_preserve_the_frozen_cohort_and_groups (test_napoleonic_methods.MethodsTests.test_partitions_preserve_the_frozen_cohort_and_groups) ... ok
+test_pilot_and_input_bindings_replay (test_napoleonic_methods.MethodsTests.test_pilot_and_input_bindings_replay) ... ok
+test_printed_orientation_swap_preserves_the_schedule (test_napoleonic_methods.MethodsTests.test_printed_orientation_swap_preserves_the_schedule) ... ok
+test_recorded_outcomes_and_strengths_cannot_change_the_schedule (test_napoleonic_methods.MethodsTests.test_recorded_outcomes_and_strengths_cannot_change_the_schedule) ... ok
+test_views (test_ratings.AttributionTests.test_views) ... ok
+test_authorization_must_name_every_bound_file (test_ratings.GateTests.test_authorization_must_name_every_bound_file) ... ok
+test_components_and_not_connected (test_ratings.ModelTests.test_components_and_not_connected) ... ok
+test_laplace_interval_matches_quadrature_for_one_theta (test_ratings.ModelTests.test_laplace_interval_matches_quadrature_for_one_theta) ... ok
+test_unseen_commander_contributes_nothing_to_a_heldout_prediction (test_ratings.ModelTests.test_unseen_commander_contributes_nothing_to_a_heldout_prediction) ... ok
+test_winning_commander_gets_positive_theta_and_pooling_shrinks_it (test_ratings.ModelTests.test_winning_commander_gets_positive_theta_and_pooling_shrinks_it) ... ok
+test_no_signal_gives_no_ordered_ranking (test_ratings.ReportTests.test_no_signal_gives_no_ordered_ranking) ... ok
+test_coverage_counts_every_ledger_attribution (test_ratings_v3.CommittedRunTests.test_coverage_counts_every_ledger_attribution) ... ok
+test_mode_only_fit_gives_the_same_mode (test_ratings_v3.FitTests.test_mode_only_fit_gives_the_same_mode) ... ok
+test_pmap_matches_a_serial_map (test_ratings_v3.FitTests.test_pmap_matches_a_serial_map) ... ok
+test_a_held_out_outcome_cannot_move_its_own_prediction (test_ratings_v3.HeldoutTests.test_a_held_out_outcome_cannot_move_its_own_prediction) ... ok
+test_probabilities_are_averaged_over_imputations (test_ratings_v3.HeldoutTests.test_probabilities_are_averaged_over_imputations) ... ok
+test_serial_and_parallel_runs_are_identical (test_ratings_v3.HeldoutTests.test_serial_and_parallel_runs_are_identical) ... ok
+test_campaign_weighting_is_the_mean_over_campaigns (test_ratings_v3.ScoreTests.test_campaign_weighting_is_the_mean_over_campaigns) ... ok
+test_improvement_needs_both_weightings (test_ratings_v3.ScoreTests.test_improvement_needs_both_weightings) ... ok
+test_degenerate_splits_are_not_evaluable (test_ratings_v3.TemporalTests.test_degenerate_splits_are_not_evaluable) ... ok
+test_a_commander_takes_the_sign_of_the_side_commanded_in_each_row (test_ratings_v4.AttributionTests.test_a_commander_takes_the_sign_of_the_side_commanded_in_each_row) ... ok
+test_a_joint_command_side_gets_no_commander_term_unless_a_view_credits_it (test_ratings_v4.AttributionTests.test_a_joint_command_side_gets_no_commander_term_unless_a_view_credits_it) ... ok
+test_a_record_binding_other_code_is_refused (test_ratings_v4.AuthorizationTests.test_a_record_binding_other_code_is_refused) ... ok
+test_the_bound_code_is_the_runs_import_closure (test_ratings_v4.CodeBindingTests.test_the_bound_code_is_the_runs_import_closure) ... ok
+test_the_report_regenerates_from_the_committed_output (test_ratings_v4.CommittedRunTests.test_the_report_regenerates_from_the_committed_output) ... ok
+test_a_tie_in_evidence_goes_to_the_smaller_tau (test_ratings_v4.FitTests.test_a_tie_in_evidence_goes_to_the_smaller_tau) ... ok
+test_context_effects_take_the_sign_of_the_data (test_ratings_v4.FitTests.test_context_effects_take_the_sign_of_the_data) ... ok
+test_laplace_evidence_matches_quadrature_for_one_parameter (test_ratings_v4.FitTests.test_laplace_evidence_matches_quadrature_for_one_parameter) ... ok
+test_tau_zero_is_the_context_model (test_ratings_v4.FitTests.test_tau_zero_is_the_context_model) ... ok
+test_without_context_the_fit_is_run_3s_exactly (test_ratings_v4.FitTests.test_without_context_the_fit_is_run_3s_exactly) ... ok
+test_a_held_out_outcome_moves_neither_its_prediction_nor_tau_hat (test_ratings_v4.HeldoutTests.test_a_held_out_outcome_moves_neither_its_prediction_nor_tau_hat) ... ok
+test_serial_and_parallel_folds_are_identical (test_ratings_v4.HeldoutTests.test_serial_and_parallel_folds_are_identical) ... ok
+test_the_commander_model_uses_the_fold_tau_hat (test_ratings_v4.HeldoutTests.test_the_commander_model_uses_the_fold_tau_hat) ... ok
+test_a_consistent_gain_passes_and_a_noisy_one_does_not (test_ratings_v4.VerdictTests.test_a_consistent_gain_passes_and_a_noisy_one_does_not) ... ok
+test_both_weightings_are_required (test_ratings_v4.VerdictTests.test_both_weightings_are_required) ... ok
+test_scores_weight_battles_and_campaigns (test_ratings_v4.VerdictTests.test_scores_weight_battles_and_campaigns) ... ok
+test_folds_preserve_groups_and_forward_direction (test_recovery.RecoveryTests.test_folds_preserve_groups_and_forward_direction) ... ok
+test_permanent_army_pairing_has_identical_predictions_under_reallocation (test_recovery.RecoveryTests.test_permanent_army_pairing_has_identical_predictions_under_reallocation) ... ok
+test_simulation_ignores_supplied_real_response_and_is_deterministic (test_recovery.RecoveryTests.test_simulation_ignores_supplied_real_response_and_is_deterministic) ... ok
+test_sparse_solution_agrees_with_frozen_solver (test_recovery.RecoveryTests.test_sparse_solution_agrees_with_frozen_solver) ... ok
+test_a_corrected_bound_dossier_replays_through_a_view (test_replay.FrozenLedgerTests.test_a_corrected_bound_dossier_replays_through_a_view) ... ok
+test_every_frozen_binding_is_reachable (test_replay.FrozenLedgerTests.test_every_frozen_binding_is_reachable) ... ok
+test_broken_archive_hash (test_replay.ResolutionTests.test_broken_archive_hash) ... ok
+test_live_match_and_archive_chains (test_replay.ResolutionTests.test_live_match_and_archive_chains) ... ok
+test_missing_or_unreadable_files (test_replay.ResolutionTests.test_missing_or_unreadable_files) ... ok
+test_paths_outside_history_or_root (test_replay.ResolutionTests.test_paths_outside_history_or_root) ... ok
+test_repeated_path (test_replay.ResolutionTests.test_repeated_path) ... ok
+test_wrong_battle (test_replay.ResolutionTests.test_wrong_battle) ... ok
+test_conflicting_bindings (test_replay.ViewTests.test_conflicting_bindings) ... ok
+test_errors_leaving_a_view_name_repository_paths (test_replay.ViewTests.test_errors_leaving_a_view_name_repository_paths) ... ok
+test_nothing_to_substitute_yields_the_root_and_keeps_it (test_replay.ViewTests.test_nothing_to_substitute_yields_the_root_and_keeps_it) ... ok
+test_substitution_presents_the_bound_bytes_and_leaves_the_tree (test_replay.ViewTests.test_substitution_presents_the_bound_bytes_and_leaves_the_tree) ... ok
+test_unreachable_bindings_fail_closed_and_never_conflict (test_replay.ViewTests.test_unreachable_bindings_fail_closed_and_never_conflict) ... ok
+test_view_is_removed_after_an_error (test_replay.ViewTests.test_view_is_removed_after_an_error) ... ok
+test_no_file_approaches_the_github_file_size_limit (test_repository.RepositoryLimitTests.test_no_file_approaches_the_github_file_size_limit) ... ok
+test_bundle_is_complete_deterministic_and_explicitly_unreviewed (test_review_bundle.ReviewBundleTests.test_bundle_is_complete_deterministic_and_explicitly_unreviewed) ... ok
+test_changed_frozen_evidence_cannot_replace_existing_handoff (test_review_bundle.ReviewBundleTests.test_changed_frozen_evidence_cannot_replace_existing_handoff) ... ok
+test_extracted_verifier_detects_tampering (test_review_bundle.ReviewBundleTests.test_extracted_verifier_detects_tampering) ... ok
+test_bounded_migration_preserves_numbers_events_unknowns_and_old_sources (test_review_corrections.ReviewCorrectionTests.test_bounded_migration_preserves_numbers_events_unknowns_and_old_sources) ... ok
+test_estimation_provenance_cannot_be_dropped_or_fabricated (test_review_corrections.ReviewCorrectionTests.test_estimation_provenance_cannot_be_dropped_or_fabricated) ... ok
+test_estimation_status_is_distinct_from_printed_precision (test_review_corrections.ReviewCorrectionTests.test_estimation_status_is_distinct_from_printed_precision) ... ok
+test_legacy_dossier_still_validates_without_new_fields (test_review_corrections.ReviewCorrectionTests.test_legacy_dossier_still_validates_without_new_fields) ... ok
+test_migration_is_idempotent_and_rejects_divergence_before_writing (test_review_corrections.ReviewCorrectionTests.test_migration_is_idempotent_and_rejects_divergence_before_writing) ... ok
+test_missing_section_map_cannot_restore_a_diary_date (test_review_corrections.ReviewCorrectionTests.test_missing_section_map_cannot_restore_a_diary_date) ... ok
+test_partial_metadata_revision_cannot_lose_its_predecessor (test_review_corrections.ReviewCorrectionTests.test_partial_metadata_revision_cannot_lose_its_predecessor) ... ok
+test_same_return_and_scan_cannot_be_independent (test_review_corrections.ReviewCorrectionTests.test_same_return_and_scan_cannot_be_independent) ... ok
+test_section_date_contract_rejects_missing_sections_and_invented_dates (test_review_corrections.ReviewCorrectionTests.test_section_date_contract_rejects_missing_sections_and_invented_dates) ... ok
+test_section_dates_preserve_nulls_and_do_not_fall_back (test_review_corrections.ReviewCorrectionTests.test_section_dates_preserve_nulls_and_do_not_fall_back) ... ok
+test_source_metadata_versions_bind_old_records_and_unchanged_raw_bytes (test_review_corrections.ReviewCorrectionTests.test_source_metadata_versions_bind_old_records_and_unchanged_raw_bytes) ... ok
+test_tables_lists_and_links (test_site.MarkdownTests.test_tables_lists_and_links) ... ok
+test_text_is_escaped (test_site.MarkdownTests.test_text_is_escaped) ... ok
+test_a_claim_shows_its_passage_source_and_hash (test_site.SiteTests.test_a_claim_shows_its_passage_source_and_hash) ... ok
+test_every_engagement_commander_and_campaign_has_a_page (test_site.SiteTests.test_every_engagement_commander_and_campaign_has_a_page) ... ok
+test_every_internal_link_and_anchor_resolves (test_site.SiteTests.test_every_internal_link_and_anchor_resolves) ... ok
+test_authored_codes_labels_and_severity_order (test_strength_admission.StrengthAdmissionTests.test_authored_codes_labels_and_severity_order) ... ok
+test_declared_scenarios_must_match_generation_rule (test_strength_admission.StrengthAdmissionTests.test_declared_scenarios_must_match_generation_rule) ... ok
+test_earlier_state_with_cited_link_is_applicable (test_strength_admission.StrengthAdmissionTests.test_earlier_state_with_cited_link_is_applicable) ... ok
+test_engagement_interval_rules (test_strength_admission.StrengthAdmissionTests.test_engagement_interval_rules) ... ok
+test_inconclusive_records_never_form_rows (test_strength_admission.StrengthAdmissionTests.test_inconclusive_records_never_form_rows) ... ok
+test_mixed_basis_scenarios_and_other_document_class (test_strength_admission.StrengthAdmissionTests.test_mixed_basis_scenarios_and_other_document_class) ... ok
+test_pair_classes_orderings_and_rows (test_strength_admission.StrengthAdmissionTests.test_pair_classes_orderings_and_rows) ... ok
+test_reinforcements_post_outcome_and_unresolved_role (test_strength_admission.StrengthAdmissionTests.test_reinforcements_post_outcome_and_unresolved_role) ... ok
+test_release_audit_and_production_rejection (test_strength_admission.StrengthAdmissionTests.test_release_audit_and_production_rejection) ... ok
+test_release_rejects_scope_and_row_mutation (test_strength_admission.StrengthAdmissionTests.test_release_rejects_scope_and_row_mutation) ... ok
+test_screened_observations_enter_the_ledger_only (test_strength_admission.StrengthAdmissionTests.test_screened_observations_enter_the_ledger_only) ... ok
+test_unknown_estimation_is_a_label_not_a_block (test_strength_admission.StrengthAdmissionTests.test_unknown_estimation_is_a_label_not_a_block) ... ok
+test_unsupported_profile_is_invalid (test_strength_admission.StrengthAdmissionTests.test_unsupported_profile_is_invalid) ... ok
+test_run_three_point_reproduces_and_the_artifact_matches (test_uncertainty.CommittedRunTests.test_run_three_point_reproduces_and_the_artifact_matches) ... ok
+test_bootstrap_is_deterministic_and_degenerate_without_spread (test_uncertainty.UnitTests.test_bootstrap_is_deterministic_and_degenerate_without_spread) ... ok
+test_log_loss_matches_the_scored_runs (test_uncertainty.UnitTests.test_log_loss_matches_the_scored_runs) ... ok
+test_sign_test_is_exact (test_uncertainty.UnitTests.test_sign_test_is_exact) ... ok
+test_weightings (test_uncertainty.UnitTests.test_weightings) ... ok
+test_cli_bad_root_exits_nonzero_without_traceback (test_workflow.WorkflowTests.test_cli_bad_root_exits_nonzero_without_traceback) ... ok
+test_draft_quantities_do_not_change_baseline (test_workflow.WorkflowTests.test_draft_quantities_do_not_change_baseline) ... ok
+test_offline_build_is_reproducible_and_receipt_matches (test_workflow.WorkflowTests.test_offline_build_is_reproducible_and_receipt_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 252 tests in 197.233s
+
+OK
+python3 -m generalship check
+{
+  "pilot_battles": 127,
+  "eligible_battles": 23,
+  "eligible_campaigns": 13,
+  "draft_dossiers": 384,
+  "metrics": {
+    "strength_logistic": {
+      "brier": 0.2768816348133779,
+      "log_loss": 0.7495087606758415
+    },
+    "equal_odds": {
+      "brier": 0.25,
+      "log_loss": 0.6931471805599453
+    },
+    "training_prior": {
+      "brier": 0.2812731024902169,
+      "log_loss": 0.7560867667370473
+    }
+  },
+  "admission_candidate_statuses": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "admission_promoted_rows": 0,
+  "review_records": {
+    "reviews": 107,
+    "findings_by_disposition": {
+      "applied": 949,
+      "decided_by_primary": 11,
+      "deferred": 11,
+      "not_applied": 157,
+      "partly_applied": 1,
+      "primary_found_applied": 2
+    }
+  },
+  "extraction_audit": {
+    "audited": 150,
+    "verdicts": {
+      "correct": 142,
+      "minor": 8,
+      "material": 0
+    },
+    "material_error_rate_95": [
+      0.0,
+      0.0249702443680766
+    ],
+    "any_issue_rate_95": [
+      0.027269539920193826,
+      0.1017038783819546
+    ]
+  },
+  "estimate_ledger": {
+    "side_grades": {
+      "A": 59,
+      "B": 21,
+      "C": 26,
+      "D": 76
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 21,
+      "set2_AB": 29,
+      "set3_ABC": 37
+    },
+    "fitted": false
+  },
+  "command_ledger": {
+    "side_grades": {
+      "A": 155,
+      "B": 8,
+      "C": 16,
+      "D": 3
+    },
+    "nesting": {
+      "nested": 2,
+      "nesting_unresolved": 1,
+      "not_nested": 6
+    },
+    "rated": false
+  },
+  "estimate_ledger_v2": {
+    "in_scope": 305,
+    "side_grades": {
+      "A": 182,
+      "B": 57,
+      "C": 109,
+      "D": 262
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 61,
+      "set2_AB": 80,
+      "set3_ABC": 126
+    },
+    "fitted": false
+  },
+  "command_ledger_v2": {
+    "engagements": 305,
+    "side_grades": {
+      "A": 504,
+      "B": 24,
+      "C": 71,
+      "D": 11
+    },
+    "nesting": {
+      "nested": 4,
+      "nesting_unresolved": 2,
+      "not_nested": 10
+    },
+    "rated": false
+  },
+  "estimate_ledger_v3": {
+    "side_grades": {
+      "A": 236,
+      "B": 98,
+      "C": 113,
+      "D": 163
+    },
+    "filled_from_d": {
+      "A": 54,
+      "B": 41,
+      "C": 4
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 84,
+      "set2_AB": 124,
+      "set3_ABC": 181
+    },
+    "fitted": false
+  },
+  "napoleonic_frame": {
+    "entries_transcribed": 708,
+    "in_frame": 663,
+    "campaign_groups": 29
+  },
+  "napoleonic_dossiers": {
+    "drafts": 261,
+    "claims": 3874,
+    "unknown_claims": 932
+  },
+  "napoleonic_methods": {
+    "historical_outcomes_fitted": false,
+    "scenarios": [
+      "null",
+      "commander",
+      "stable_army_alias",
+      "switching_armies",
+      "source_bias"
+    ],
+    "calibration": "prepared_unscored"
+  },
+  "artifacts_written": false
+}
