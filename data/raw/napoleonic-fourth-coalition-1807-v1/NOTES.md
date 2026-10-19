@@ -8,7 +8,7 @@ See docs/research/fourth-coalition-1807-first-pass-v1.md for counts and per-entr
 All cited Bodart entries on pp378–386 were read on already registered images.
 New retained image pages and selected transcriptions:
 
-- hoepfner-1851-bd4: 124, 125, 126, 129, 136, 138, 139, 140, 185, 187, 189, 229, 230, 231, 275, 276, 280, 401, 403, 408, 412, 419, 438, 439, 577, 578, 579, 580, 717, 718, 736.
+- hoepfner-1851-bd4: 124, 125, 126, 129, 136, 138, 139, 140, 185, 187, 189, 229, 230, 231, 275, 276, 280, 401, 403, 408, 412, 419, 438, 439, 577, 578, 579, 580, 717, 718, 719, 736.
 - napoleon-t14: 215, 237, 262, 287, 289, 293, 294, 295, 322, 323.
 - hoepfner-1851-bd3: 182, 183, 210, 211, 214, 215, 227, 229, 269, 281, 282, 283, 302, 376, 377, 378, 385, 577, 578, 579, 580, 581, 601, 602, 603, 617, 618, 657, 661, 662.
 - napoleon-t15: 66, 67, 121, 288, 326, 328, 334, 335, 436, 437, 438.
@@ -40,3 +40,5 @@ because it reproduced an order, translated a memoir or appeared in a different v
 Primary verification fixed context/translation and section-format errors before commit.
 All cited images, registry records, excerpt hashes and dossier bindings are retained.
 primary-verification.json records the complete campaign and inspected triage flags.
+
+Post-commit provenance completion: p719’s earlier Graudenz order is now directly cited. The original B385c draft is preserved in evidence/history/B385c-a0983d6.json and the first primary verification record is unchanged. primary-verification-v2.json binds the completed citation graph; historical values and model inputs are unchanged.

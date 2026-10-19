@@ -15,7 +15,7 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 ## Fourth Coalition 1807 complete first pass, 2026-10-19
 
 The [complete campaign record](research/fourth-coalition-1807-first-pass-v1.md) adds all
-19 frozen entries: **261 claims, 53 explicit unknowns, 284 citations**. Every entry has
+19 frozen entries: **261 claims, 53 explicit unknowns, 285 citations**. Every entry has
 brief v3's nine dimensions and per-side completion checklist. Fifteen use three families,
 four use two; no targeted follow-up, subagent or separate review ran. All are primary-verified.
 The record gives each entry's counts, family denominator and deferred decision-relevant gap.
@@ -26,8 +26,8 @@ result disputes and the Buenos Aires date/fortification alternatives remain visi
 Russian/French accounts, imperial bulletins, Groussac's trial dependence and Key-Åberg's mediated
 military narrative are labelled. Actual Spanish/Swedish returns and army identities remain gaps.
 
-There are 195 new source records: five OCR parents, ten metadata/maps, 90 inspected images
-and 90 manual excerpt transcriptions. Source/section checks, research screen, `make check`
+There are 197 new source records: five OCR parents, ten metadata/maps, 91 inspected images
+and 91 manual excerpt transcriptions. Source/section checks, research screen, `make check`
 and `make reproduce` verify the batch; the packet and reports are regenerated and inspected.
 The earlier 49 drafts, original source records, frozen frame/cohort, calibration and model
 results retain their bytes. Coverage is **68/325 in 4/16 complete groups**, with 257 drafts

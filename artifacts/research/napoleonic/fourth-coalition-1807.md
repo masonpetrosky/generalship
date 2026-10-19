@@ -1179,7 +1179,7 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
-Existing draft: `data/napoleonic/evidence/B385c.json`; SHA-256 `4bc99137b01e3327cdd073209f154101a9ca0095944ec445d0e2320ea2eca586`; 13 claims, 3 unknowns.
+Existing draft: `data/napoleonic/evidence/B385c.json`; SHA-256 `360f71928cc62b6ce668fa4593b37e9aa51d96d190366b32e7a3e8dd4eadd0ca`; 13 claims, 3 unknowns.
 
 
 ### B386a: BELAGERUNG und EINNAHME von Stralsund (15./7.—20./8. 1807)
@@ -1338,3 +1338,4 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `hoepfner-1851-bd3-p579-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Dritter Band (title page, read on the Internet Archive's page image n5, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807: ein Beitrag zur Geschichte der Preußischen Armee. 3'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd3-p579-figures.txt
 - `napoleon-t15-p334-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p334-figures.txt
 - `napoleon-t15-p436-figures-v1`: Correspondance de Napoléon Ier, tome XV; group `napoleon-correspondance-official-edition`; data/raw/napoleonic-fourth-coalition-1807-v1/napoleon-t15-p436-figures.txt
+- `hoepfner-1851-bd4-p719-figures-v1`: Der Krieg von 1806 und 1807. Ein Beitrag zur Geschichte der Preußischen Armee nach den Quellen des Kriegs-Archivs bearbeitet. Zweiter Theil: Der Feldzug von 1807, Vierter Band (title page, read on the Internet Archive's page image n7, not registered; the Internet Archive's title reads 'Der Krieg von 1806 und 1807. Ein Beitr. zur Geschichte der Preuß. Armee etc. Berlin, Schropp 1850'); group `hoepfner-krieg-1806-1807`; data/raw/napoleonic-fourth-coalition-1807-v1/hoepfner-1851-bd4-p719-figures.txt

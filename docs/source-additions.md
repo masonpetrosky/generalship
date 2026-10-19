@@ -7,8 +7,8 @@ bytes, rights and dependence metadata.
 
 ## Fourth Coalition 1807 first pass, 2026-10-19
 
-The [campaign pass](research/fourth-coalition-1807-first-pass-v1.md) appends **195 records**:
-90 inspected page images, 90 manual selected-excerpt transcriptions, five complete OCR parents
+The [campaign pass](research/fourth-coalition-1807-first-pass-v1.md) appends **197 records**:
+91 inspected page images, 91 manual selected-excerpt transcriptions, five complete OCR parents
 and ten Internet Archive metadata/scan-data captures. Existing Bodart and Höpfner III/IV parents
 are reused without revision. Full paths, SHA-256, rights, parent/facsimile bindings, document
 dates and inspection limits are in `data/sources.json`; retained input notes list the pages.

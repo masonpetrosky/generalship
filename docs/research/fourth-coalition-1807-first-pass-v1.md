@@ -7,7 +7,7 @@ No subagent, separate reviewer, second-opinion prompt, model job or feature admi
 
 ## Coverage and stopping rule
 
-This pass adds **261 claims, 53 explicit unknowns and 284 citations**. All 19 dossiers cover
+This pass adds **261 claims, 53 explicit unknowns and 285 citations**. All 19 dossiers cover
 the nine dimensions and carry per-side strength population/time, authority, army-continuity,
 follow-up and stopping records. Fifteen use three families; four use two. The ceiling is
 an effort limit, not an independence finding. No extra targeted follow-up was performed;
@@ -36,7 +36,7 @@ checklists remain explicitly unknown; a unit name or repeated commander is insuf
 | B384c Kolberg | 13 | 3 | 14 | 3 | exact Gneisenau assumption and dated besieger returns |
 | B385a Buenos Aires | 15 | 3 | 17 | 3 | actual July Spanish militia/civilian roll and street command orders |
 | B385b Kosel | 15 | 3 | 15 | 2 | dated permanent command succession and a Bavarian own return |
-| B385c Graudenz | 13 | 3 | 12 | 2 | dated January and June allied returns and garrison returns |
+| B385c Graudenz | 13 | 3 | 13 | 2 | dated January and June allied returns and garrison returns |
 | B386a Stralsund | 15 | 4 | 17 | 3 | actual Swedish dated garrison return and king/Peyron/Toll command instrument |
 
 ## Evidence and substantive limits
@@ -71,8 +71,8 @@ checklists remain explicitly unknown; a unit name or repeated commander is insuf
 ## Primary verification
 
 Every cited passage was inspected on a retained image, with manual original-language excerpts
-and marked English renderings. The source registry binds **90 new page images and 90 excerpt
-transcriptions**, five complete OCR parents and ten metadata/scan-data captures: **195 new
+and marked English renderings. The source registry binds **91 new page images and 91 excerpt
+transcriptions**, five complete OCR parents and ten metadata/scan-data captures: **197 new
 records**. Existing Höpfner parents and Bodart images/transcription are reused unchanged.
 Selected narrative passages were transcribed directly from the inspected images alongside
 figures, retaining more reliable text than the OCR; these are identified as manual excerpts,
@@ -90,7 +90,7 @@ page context or mapped letter heading; two Bodart cross-claim population compari
 an English ordinal date token. It reports no new missing quote, locator mismatch or family
 ceiling breach. The existing 49 drafts' triage flags remain untouched. A triage pass is not an
 extraction-error estimate. Flag dispositions are in
-[`primary-verification.json`](../../data/raw/napoleonic-fourth-coalition-1807-v1/primary-verification.json).
+[`primary-verification-v2.json`](../../data/raw/napoleonic-fourth-coalition-1807-v1/primary-verification-v2.json).
 
 Validation: `python3 -m generalship napoleonic-evidence-check`,
 `python3 -m generalship napoleonic-research-screen`, `make check` and `make reproduce`.
@@ -103,3 +103,5 @@ admission are future work.
 Usage: the execution tools expose no trustworthy total token meter for this pass. Usage is
 **unavailable**, not zero and not estimated from earlier rates. No wall-time efficiency claim
 is made from this single pass.
+
+A post-commit provenance completion adds the already inspected p719 order as a direct Graudenz citation. The prior dossier bytes are preserved in `data/napoleonic/evidence/history/B385c-a0983d6.json`; the original primary-verification record and all previously pinned sources remain unchanged. No historical conclusion changed.
