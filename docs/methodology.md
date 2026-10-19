@@ -161,6 +161,16 @@ establish who would win under identical conditions. Cumulative contributions,
 performance per comparable opportunity, and evidence coverage should eventually
 be displayed separately, with uncertainty and no precision unsupported by evidence.
 
+The [Napoleonic methods checkpoint](research/napoleonic-methods-checkpoint-v1.md), completed
+2026-10-18, makes a worked campaign specification and its unknowns explicit. Its synthetic
+army-only case improves held-out prediction with zero commander effects; recovery of planted
+commander differences is weak on conservative printed labels. These are conditional simulation
+findings, not historical estimates. The [fixed design](napoleonic-methods-v1.md) reserves
+273 development and 52 final entries, retains group/temporal sensitivities and simple
+comparators, and requires a separate identification argument. Army continuity, eligible
+appointments and empirical campaign boundaries remain unestablished. No new historical
+outcome fit or feature admission follows from this checkpoint.
+
 ## AI's role and validation
 
 AI locates evidence, extracts claims, maps terminology, reconstructs decision

@@ -5,7 +5,7 @@ milestone. Completed work is recorded in the [research log](research-log.md), wh
 everything this roadmap recorded up to 2026-10-06. Registered sources are listed in
 [source additions](source-additions.md).
 
-## Current priority: the French Revolutionary and Napoleonic Wars (frame built)
+## Current priority: the French Revolutionary and Napoleonic Wars
 
 The owner chose the Napoleonic Wars on 2026-09-25 and decided the seven scoping questions on
 2026-10-06 ([scoping note](napoleonic-scoping.md),
@@ -31,12 +31,15 @@ directory and a validator bound to cohort v1, and a campaign group's packet is w
 frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
 check now rebuilds every selection from its parent.
 
-**Current task (2026-10-18):** the owner authorized the bounded
-[methods checkpoint](napoleonic-methods-v1.md) before the 1807 first pass. Its design fixes a
-campaign-contribution specification, an outcome-unused schedule audit and synthetic recovery
-experiment, development/final partitions, a compact research workflow and an unscored calibration
-sample. No subagents, independent review or second-opinion prompts are used. The design and code
-are committed before the synthetic job runs. No historical outcome fit is authorized.
+**Done (2026-10-18):** the bounded
+[methods checkpoint](research/napoleonic-methods-checkpoint-v1.md). Its design/code were pushed
+before execution. Five fixed synthetic scenarios ran with 100 recoveries and 20 validation
+repetitions each; no historical outcome was fitted. The army-only scenario improves prediction
+with zero commander effects. Planted commander effects are weakly recovered on conservative
+printed labels. Actual commander–army identification is not assessed without a verified army
+registry, and the worked campaign specification remains not estimable. All results and nulls
+are retained. Compact packets, brief v3's checklist and reproducible research screens are in
+use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or subagent ran.
 
 **Research coverage:** 49 of 325 entries in three of 16 complete groups, all primary-verified:
 
@@ -47,7 +50,7 @@ are committed before the synthetic job runs. No historical outcome fit is author
 | `fourth-coalition 1806` | 23 | about 28.4 million tokens |
 
 The [research log](research-log.md) retains every batch, whole-group check and correction.
-The remaining 276 entries have no drafts. Once the checkpoint is complete, the next group is
+The remaining 276 entries have no drafts. The next group is
 `fourth-coalition 1807` (19 entries), using brief v3's field checklist and stopping rule.
 Earlier usage rates describe the old workflow and are not a measured forecast for the new one.
 There is no usage cap; the main session researches, drafts and verifies each group, as the
@@ -95,7 +98,7 @@ run authorization are still required.
 | 0. Working research foundation | Complete (infrastructure only) |
 | 1. First reviewed campaign dossiers | Coverage complete. Cross-engagement identities, replacement boundaries and information sets remain |
 | 2. Baseline audit and expanded coverage | Full-war coverage done. Arsht reproduction route, independent extraction sample and paired comparison rows remain |
-| 3. Enriched prediction and command inference | Exploratory rating runs only. Campaign estimand, causal graph and locked test set remain |
+| 3. Enriched prediction and command inference | Exploratory historical ratings only. Napoleonic measurement specification, synthetic checkpoint and final-set reservation done; historical army/appointment identification and causal design remain |
 | 4. Inspectable research interface | Started: a static explorer. Opportunity-adjusted estimates, disputes views and scenario toggles remain |
 
 ### Milestone 0: working research foundation (complete)

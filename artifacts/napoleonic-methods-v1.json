@@ -1,0 +1,1644 @@
+{
+  "kind": "napoleonic_methods_result",
+  "version": 1,
+  "verification": "primary-verified",
+  "bindings": {
+    "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+    "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+    "data/napoleonic/methods-v1/calibration-population.json": "c97a1a205526de95b870e990ddd7f9d04b1774e86e9112c76e0c768c90d34fbb",
+    "data/napoleonic/methods-v1/campaign-pilot.json": "b0f24a4c21d02a3dcf623d16b8928d2f0bb8cb0c654823a125aa06f9d8ea6ffa",
+    "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+    "data/napoleonic/methods-v1/owner-decision.json": "d19b14f2f2c9660d244ad73a16377007c445adc89d01ff7b9e67c5cdb65d8506",
+    "data/napoleonic/methods-v1/protocol.json": "ac8dbc9caf7f19d0643e8291f2f6c6995dd940aaf7ce5f09126b9a14afe3af4a",
+    "data/napoleonic/methods-v1/research-conventions.json": "55c030d1f3a7f8e9ae44ce5ea92402014c86ea4985502b56e0329e57fe53cd0a",
+    "docs/napoleonic-methods-v1.md": "fa87d34496e52e4f0a71f7ac7869ce396fdf2410da3cd902f158be7ad25ad8be",
+    "generalship/__init__.py": "be4016ab30995b114c67537b324becf422ee5fc9bdfceda065336156a2ab3741",
+    "generalship/baseline.py": "731d9ad96dc85ca8f69bd7689e7ec64d9a1917b1a4b9d45c9c55b37348d42179",
+    "generalship/evidence.py": "76068ac4579378c2373c9b8fb9b38886f61a39b8db19cd7fb25eef0fafafc091",
+    "generalship/napoleonic.py": "3fba418397ffc20b1919d5e88c30194b490bc4877a28bfb489a9d4bbe729c8eb",
+    "generalship/napoleonic_methods.py": "a6d18be2145fdc91746107afcacc7ddc635dc07f49f16efe2be41dc50a16d637",
+    "generalship/recovery.py": "e50d539a67e7fe35fab1231d07b427e441c5bb310d083a94eec756ad60988256",
+    "generalship/research_checks.py": "098172d2558ae4ef094b59619e2e8e1e253a6470c18f3e92bf0a81818fd63f7b",
+    "generalship/sources.py": "7eeb1077f18938d68b2b7f8ff1c0455f9c565da430621a0572baf2ccc4719f41"
+  },
+  "protocol": {
+    "kind": "napoleonic_methods_protocol",
+    "version": 1,
+    "date": "2026-10-18",
+    "design": {
+      "path": "docs/napoleonic-methods-v1.md",
+      "sha256": "fa87d34496e52e4f0a71f7ac7869ce396fdf2410da3cd902f158be7ad25ad8be"
+    },
+    "inputs": {
+      "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+      "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+      "data/napoleonic/methods-v1/campaign-pilot.json": "b0f24a4c21d02a3dcf623d16b8928d2f0bb8cb0c654823a125aa06f9d8ea6ffa",
+      "data/napoleonic/methods-v1/owner-decision.json": "d19b14f2f2c9660d244ad73a16377007c445adc89d01ff7b9e67c5cdb65d8506",
+      "data/napoleonic/methods-v1/calibration-population.json": "c97a1a205526de95b870e990ddd7f9d04b1774e86e9112c76e0c768c90d34fbb",
+      "data/napoleonic/methods-v1/research-conventions.json": "55c030d1f3a7f8e9ae44ce5ea92402014c86ea4985502b56e0329e57fe53cd0a",
+      "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927"
+    },
+    "seed": 20261018,
+    "repetitions": 100,
+    "validation_repetitions": 20,
+    "fit_tau": 0.6,
+    "commander_sd": 0.6,
+    "army_sd": 0.8,
+    "group_sd": 0.35,
+    "source_bias_sd": 0.4,
+    "army_pools_per_side": 8,
+    "scenarios": [
+      "null",
+      "commander",
+      "stable_army_alias",
+      "switching_armies",
+      "source_bias"
+    ],
+    "validation_strategies": [
+      "war_year",
+      "whole_war",
+      "forward_time"
+    ],
+    "known_sample_per_stratum": 8,
+    "translation_sample_size": 8,
+    "calibration_status": "prepared_unscored_no_independent_review",
+    "historical_outcomes_fitted": false,
+    "admits_feature": false,
+    "changes_baseline": false
+  },
+  "environment": {
+    "python": "3.14.7",
+    "implementation": "CPython"
+  },
+  "schedule_audit": {
+    "cohort_entries": 325,
+    "cohort_sides": 650,
+    "campaign_groups": {
+      "fifth-coalition 1809": 36,
+      "fourth-coalition 1806": 23,
+      "fourth-coalition 1807": 19,
+      "hundred-days-1815 1815": 15,
+      "liberation 1813": 52,
+      "liberation 1814": 34,
+      "peninsula 1808": 17,
+      "peninsula 1809": 19,
+      "peninsula 1810": 11,
+      "peninsula 1811": 19,
+      "peninsula 1812": 8,
+      "peninsula 1813": 12,
+      "peninsula 1814": 3,
+      "russia-1812 1812": 31,
+      "third-coalition 1805": 22,
+      "third-coalition 1806": 4
+    },
+    "literal_labels": 375,
+    "labels_at_least_two_appearances": 75,
+    "labels_in_multiple_groups": 42,
+    "component_sizes": [
+      94,
+      25,
+      21,
+      7,
+      7,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "components": [
+      [
+        "admiral gf tschitschagoff",
+        "brig gen avis",
+        "brig gen lacroix",
+        "brig gen marie",
+        "brig gen sokolnicki",
+        "brigadier don martinez",
+        "div gen gf bertrand",
+        "div gen gf maison",
+        "div gen gouvion saint cyr",
+        "div gen lefebvre desnouettes",
+        "div gen peyri",
+        "englischen oberst w cox",
+        "erzhz ferdinand v österreich",
+        "fm erzhz karl v österreich",
+        "fm fürst blücher",
+        "fm fürst kutusow",
+        "fm fürst schwarzenberg",
+        "fm hz v wellington",
+        "fm v blücher",
+        "fml fh v hiller",
+        "fml fh v vukassovich",
+        "fml fh von kienmayer",
+        "fml fst m liechtenstein",
+        "fml gf riesch",
+        "fml pz v hohenzollern",
+        "gen d inf barclay de tolly",
+        "gen d inf fst hohenlohe",
+        "gen d inf fürst bagration",
+        "gen d inf fürst kutusow",
+        "gen d inf v kleist",
+        "gen d kav fh v bennigsen",
+        "gen d kav gf wittgenstein",
+        "gen d kav gf wrede",
+        "gen d kav v blücher",
+        "gen gf bertrand",
+        "gen gf maison",
+        "gen gf vandamme",
+        "gen kpt don g de la cuesta",
+        "gen kpt pz v hessen philippsthal",
+        "gen kutusow",
+        "gen lt benito de san juan",
+        "gen lt fh v sacken",
+        "gen lt fh v thielmann",
+        "gen lt fh v winzingerode",
+        "gen lt fürst gallitzin",
+        "gen lt gf ostermann",
+        "gen lt gf pahlen",
+        "gen lt gf steinheil",
+        "gen lt gf wittgenstein",
+        "gen lt hz eugen v württemberg",
+        "gen lt marquis wellesley",
+        "gen lt miloradowitsch",
+        "gen lt newjerowsky",
+        "gen lt pz eugen v württemberg",
+        "gen lt rajewskij",
+        "gen lt tutschkow i",
+        "gen lt v bülow",
+        "gen lt v pirch i",
+        "gen lt v york",
+        "gen lt v zieten",
+        "generalissimus erzhz karl v österreich",
+        "genliss erzhz karl v österreich",
+        "gfm hz v braunschweig",
+        "gm bianchi",
+        "gm d auvray",
+        "gm egermann",
+        "gm gf meerveldt",
+        "gm hillinger",
+        "gm olsufjew",
+        "gm v klüchzner",
+        "gm wrede",
+        "kronprinz v württemberg",
+        "könig murat",
+        "m d c don a de herrasti",
+        "major de tallaya",
+        "marschall bessières",
+        "marschall davoust",
+        "marschall gf grouchy",
+        "marschall gouvion st cyr",
+        "marschall macdonald",
+        "marschall masséna",
+        "marschall mortier",
+        "marschall ney",
+        "marschall oudinot",
+        "marschall pz murat",
+        "napoleon i",
+        "oberst czerwinka",
+        "oberstlt swinburne",
+        "preussischen gen lt v bülow",
+        "russ gen d kav fh v bennigsen",
+        "russ gen d kav gf wittgenstein",
+        "russischen gen d kav gf wittgenstein",
+        "russischen gen lt gf v saint priest",
+        "vizekönig von italien pz eugen beauharnais"
+      ],
+      [
+        "andreas hofer",
+        "brigadier andriani",
+        "div gen gf souham",
+        "fml mqs v chasteler",
+        "gen d inf gf wittgenstein",
+        "gen d kav graf kalckreuth",
+        "gen gouvion st cyr",
+        "gen kpt blake",
+        "gen kpt de la cuesta",
+        "gen kpt don blake",
+        "gen kpt gf o donnell",
+        "gen kpt gf vives",
+        "gen kpt reding",
+        "gen lt gf caldagues",
+        "gen lt lord w bentinck",
+        "gen lt senen de contreras",
+        "gen lt sir murray",
+        "gen lt venegas",
+        "gen suchet",
+        "m d c copons",
+        "m d c don garcia conde",
+        "m d c gf v alacha",
+        "marschall lefebvre",
+        "marschall suchet",
+        "marschall victor"
+      ],
+      [
+        "a de castro bischof von oporto",
+        "div gen delaborde",
+        "gen junot",
+        "gen kpt don areizaga",
+        "gen lt baron eben",
+        "gen lt dochtorow",
+        "gen lt don mendizabal",
+        "gen lt hz v albuquerque",
+        "gen lt marquis de belveder",
+        "gen lt sir john moore",
+        "gen lt sir wellesley",
+        "generalissimus fm lord wellington",
+        "generalissimus lord wellington",
+        "genliss fm lord wellington",
+        "genliss lord wellington",
+        "gm gf spangen",
+        "könig joseph",
+        "m d c don herch",
+        "marschall soult",
+        "oberst santocildes",
+        "port fm beresford"
+      ],
+      [
+        "brig gen baron barbanègre",
+        "fml merville",
+        "gen d inf miloradowitsch",
+        "gen d kav erzhz johann v österreich",
+        "gm gf a giulay",
+        "vizekönig eugen beauharnais",
+        "vizekönig pz eugen beauharnais"
+      ],
+      [
+        "div gen verdier",
+        "gen d kav von bennigsen",
+        "gen kpt don josé de palafox",
+        "gen lt pz louis ferdinand v preussen",
+        "major v benekendorf",
+        "major v höpfner",
+        "marschall lannes"
+      ],
+      [
+        "div gen gf kellermann",
+        "div gen gf marchand",
+        "fml gf klebelsberg",
+        "gen lt hz del parque"
+      ],
+      [
+        "div gen reynier",
+        "gen lt gf damas",
+        "gm sir j stuart",
+        "oberst mirabelli"
+      ],
+      [
+        "div gen savary",
+        "gen lt gf essen i",
+        "gm v lecoq",
+        "gm v strachwitz"
+      ],
+      [
+        "fml fh v auffenberg",
+        "fml fh v werneck",
+        "gen lt fst bagration",
+        "m pz murat"
+      ],
+      [
+        "brig gen baron barrié",
+        "div gen gf reynier",
+        "gen lt mqs wellesley"
+      ],
+      [
+        "brig gen baron de latour maubourg",
+        "oberst plaige",
+        "prinz august von preussen"
+      ],
+      [
+        "brig gen kosezky",
+        "div gen dombrowsky",
+        "gm gf lambert"
+      ],
+      [
+        "div gen baron girard",
+        "gm sir rowland hill",
+        "gm von hirschfeld"
+      ],
+      [
+        "div gen baron philippon",
+        "lord wellington",
+        "major duchemin"
+      ],
+      [
+        "div gen gf musnier",
+        "fml fh v bianchi",
+        "könig joachim murat"
+      ],
+      [
+        "div gen vandamme",
+        "gen lt v steensen",
+        "obstlt von haacke"
+      ],
+      [
+        "fml fh v jellachich",
+        "gen d kav prinz p v hessen homburg",
+        "marschall augereau"
+      ],
+      [
+        "gen d inf fürst hohenlohe",
+        "gen lt pz v oranien",
+        "grossherzog murat"
+      ],
+      [
+        "gen d inf v grawert",
+        "gm v löwis",
+        "oberst v horn"
+      ],
+      [
+        "gen d kav fürst schwarzenberg",
+        "gen d kav gf tormassow",
+        "gm v klengel"
+      ],
+      [
+        "gen d kav hz e v württemberg",
+        "gm markow",
+        "marschall bernadotte"
+      ],
+      [
+        "gen lt v deroy",
+        "gm v cornerut",
+        "obst v neumann"
+      ],
+      [
+        "bayr gen lt v deroy",
+        "gen lt v reinhart"
+      ],
+      [
+        "bayrischen gen lt v deroy",
+        "obstlt gf v götzen"
+      ],
+      [
+        "bayrischen gm fh v zoller",
+        "oberst chancel"
+      ],
+      [
+        "brig gen angereau",
+        "gf orlow denisow"
+      ],
+      [
+        "brig gen baron cassan",
+        "pz don carlos v bourbon"
+      ],
+      [
+        "brig gen bruny",
+        "gm v thümen"
+      ],
+      [
+        "brig gen castella",
+        "gm gf siewers"
+      ],
+      [
+        "brig gen dubreton",
+        "generalissimus gen lt lord wellington"
+      ],
+      [
+        "brig gen fournier d albe",
+        "gm v hinrichs"
+      ],
+      [
+        "brig gen gauthier",
+        "oberst v ingersleben"
+      ],
+      [
+        "brig gen gf lasalle",
+        "gm v romberg"
+      ],
+      [
+        "brig gen haucke",
+        "gen lt v radt"
+      ],
+      [
+        "brig gen lacoste",
+        "gen lt gf v saint priest"
+      ],
+      [
+        "brig gen pelletier",
+        "obst pulski"
+      ],
+      [
+        "brig gen poitevin de morelhon",
+        "gen d inft barclay de tolly"
+      ],
+      [
+        "brig gen schwartz",
+        "gen kpt don o donnell"
+      ],
+      [
+        "brig gen zayonczek",
+        "fml mondet"
+      ],
+      [
+        "brigadier abadia",
+        "div gen gf dorsenne"
+      ],
+      [
+        "brigadier don pareia navarro",
+        "div gen gf severoli"
+      ],
+      [
+        "div gen baron allix",
+        "gm fürst tschernyschew"
+      ],
+      [
+        "div gen baron monnet",
+        "gen lt earl of chatham"
+      ],
+      [
+        "div gen baron morand",
+        "gm v dörnberg"
+      ],
+      [
+        "div gen bizanet",
+        "gen lt lord graham"
+      ],
+      [
+        "div gen broussier",
+        "fml gf gyulay"
+      ],
+      [
+        "div gen carnot",
+        "lord graham"
+      ],
+      [
+        "div gen daendels",
+        "gm kleinmichel"
+      ],
+      [
+        "div gen dupont",
+        "fml fürst schwarzenberg"
+      ],
+      [
+        "div gen gf baraguay d hilliers",
+        "gen kpt gf v campoverde"
+      ],
+      [
+        "div gen gf bourk",
+        "gm v putlitz"
+      ],
+      [
+        "div gen gf grenier",
+        "gm gf starhemberg"
+      ],
+      [
+        "div gen gf harispe",
+        "m d c don mijares"
+      ],
+      [
+        "div gen gf lamarque",
+        "gen lt baron d eroles"
+      ],
+      [
+        "div gen gf lauriston",
+        "gen lt v yorck"
+      ],
+      [
+        "div gen gf lemarois",
+        "gen lt v wobeser"
+      ],
+      [
+        "div gen gf morand",
+        "gen d inf gf langeron"
+      ],
+      [
+        "div gen gf narbonne",
+        "gen lt gf tauenzien"
+      ],
+      [
+        "div gen gf rampon",
+        "gm v zielinsky"
+      ],
+      [
+        "div gen gf sebastiani",
+        "gen venegas"
+      ],
+      [
+        "div gen gouvion st cyr",
+        "gm pz rohan"
+      ],
+      [
+        "div gen graf sebastiani",
+        "gen lt don cartoajal"
+      ],
+      [
+        "div gen grandeau",
+        "preussischen gm v plötz"
+      ],
+      [
+        "div gen harispe",
+        "gen lt j o donnell"
+      ],
+      [
+        "div gen laplane",
+        "russ gen lt baron rosen"
+      ],
+      [
+        "div gen loison",
+        "gen lt leite"
+      ],
+      [
+        "div gen macdonald",
+        "obstlt cassan"
+      ],
+      [
+        "div gen marquis de lapoype",
+        "gen d inf gf tauenzien"
+      ],
+      [
+        "div gen marulaz",
+        "fml fürst a liechtenstein"
+      ],
+      [
+        "div gen maurice mathieu",
+        "gen lt baron eroles"
+      ],
+      [
+        "div gen mqs de lauriston",
+        "oberst péchy"
+      ],
+      [
+        "div gen musnier",
+        "m d c don carbon"
+      ],
+      [
+        "div gen pécheux",
+        "russischen gen lt gf wallmoden"
+      ],
+      [
+        "div gen rusca",
+        "gen adj fürst tschanischew"
+      ],
+      [
+        "div gen seras",
+        "fml fh v jellačić"
+      ],
+      [
+        "div gen thouvenot",
+        "gen lt sir john hope"
+      ],
+      [
+        "fm gf bellegarde",
+        "vizekönig prinz eugen beauharnais"
+      ],
+      [
+        "fml fh v lauer",
+        "oberst begani"
+      ],
+      [
+        "französischen div gen gf rapp",
+        "gen d inf herzog alexander v württemberg"
+      ],
+      [
+        "fzm gf kollowrat",
+        "oberst baron coutard"
+      ],
+      [
+        "fürst josef poniatowski",
+        "gen d kav erzhz ferdinand v österreich"
+      ],
+      [
+        "gen dupont",
+        "gen kpt gf castaños"
+      ],
+      [
+        "gen gf lecourbe",
+        "gm scheither"
+      ],
+      [
+        "gen gf rapp",
+        "kronprinz von württemberg"
+      ],
+      [
+        "gen gf reynier",
+        "gen lt fh v wintzingerode"
+      ],
+      [
+        "gen lt gf wallmoden",
+        "gen pz friedrich von hessen kassel"
+      ],
+      [
+        "gen lt konownitzyn",
+        "marschall könig murat"
+      ],
+      [
+        "gen lt lord wellington",
+        "marschall marmont"
+      ],
+      [
+        "gen lt v thiele",
+        "pz jerôme bonaparte"
+      ],
+      [
+        "gm barclay de tolly",
+        "marschall grosshz murat"
+      ],
+      [
+        "gm brig gen baron montemajo",
+        "gm geppert"
+      ],
+      [
+        "gm drechsel",
+        "oberst legrand"
+      ],
+      [
+        "gm fh v tettenborn",
+        "oberst devallant"
+      ],
+      [
+        "gm peyron",
+        "marschall brune"
+      ],
+      [
+        "marschall moncey",
+        "obst don caro"
+      ],
+      [
+        "oberst guillot",
+        "rovira"
+      ],
+      [
+        "brig gen bisson"
+      ],
+      [
+        "brig gen moreau"
+      ],
+      [
+        "brig gen rey"
+      ],
+      [
+        "brigadier oberst v hagen"
+      ],
+      [
+        "div gen victor"
+      ],
+      [
+        "fml fh v mack"
+      ],
+      [
+        "französischen brig gen rouyer"
+      ],
+      [
+        "gen d inf gf barclay de tolly"
+      ],
+      [
+        "gen lt don mariano alvarez"
+      ],
+      [
+        "gen lt gf deroy"
+      ],
+      [
+        "gen lt v blücher"
+      ],
+      [
+        "gen lt von blücher"
+      ],
+      [
+        "gen v bila"
+      ],
+      [
+        "gm wassiltschikoff"
+      ],
+      [
+        "kronpz v württemberg"
+      ],
+      [
+        "oberst daru"
+      ],
+      [
+        "oberst o daly"
+      ],
+      [
+        "obst liniers"
+      ]
+    ],
+    "heldout_rows_with_any_recurrent_label": 197,
+    "heldout_rows_with_both_recurrent_labels": 41,
+    "synthetic_schedule_rows": 297,
+    "synthetic_schedule_labels": 357,
+    "excluded_from_synthetic_schedule": [
+      {
+        "battle_id": "B365a",
+        "a_issue": "joint_or_complex_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B375a",
+        "a_issue": "missing_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B375d",
+        "a_issue": "missing_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B375e",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B376a",
+        "a_issue": "joint_or_complex_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B376b",
+        "a_issue": "joint_or_complex_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B384c",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B385a",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B385c",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B391b",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B392a",
+        "a_issue": "missing_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B396b",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B406b",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B411a",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B415c",
+        "a_issue": "missing_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B422b",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B422c",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B437b",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B446a",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B457b",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B458a",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B462a",
+        "a_issue": "missing_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B465a",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B469d",
+        "a_issue": null,
+        "b_issue": "missing_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B471c",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B475c",
+        "a_issue": null,
+        "b_issue": "joint_or_complex_printed_label",
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B479b",
+        "a_issue": "joint_or_complex_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      },
+      {
+        "battle_id": "B480b",
+        "a_issue": "joint_or_complex_printed_label",
+        "b_issue": null,
+        "same_label_on_both_sides": false
+      }
+    ],
+    "resolved_historical_army_sides": 0,
+    "commander_army_identification": "not_assessed_no_verified_cross_engagement_army_registry",
+    "interpretation": "Conservative printed-label recurrence; no title or alias merging, no attribution to joint commands, no resolved identity or causal claim. Missing labels remain in cohort counts."
+  },
+  "historical_outcomes_fitted": false,
+  "pilot_estimable": false,
+  "scenarios": {
+    "null": {
+      "repetitions": 100,
+      "recovery": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.1711097140515491,
+          "q025": 0.16258861391396348,
+          "q975": 0.1800523908701081
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.1711097140515491,
+          "q025": 0.16258861391396348,
+          "q975": 0.1800523908701081
+        },
+        "slope": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        },
+        "correlation": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        }
+      },
+      "validation": {
+        "war_year": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.005903659766697939,
+            "q025": -0.009705295341159204,
+            "q975": 0.018860440654565103
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.006458942188976744,
+            "q025": -0.008997501581638558,
+            "q975": 0.022258214444810975
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.0021441077988119854,
+            "q025": -0.026970143555250924,
+            "q975": 0.012268854574836272
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.003065795063653933,
+            "q025": -0.0490988398939505,
+            "q975": 0.019683843872807444
+          }
+        },
+        "whole_war": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.0020912534384607395,
+            "q025": -0.016333946553802194,
+            "q975": 0.009444958875657663
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.0011087113670414186,
+            "q025": -0.01389309113380549,
+            "q975": 0.011978192167140416
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.005748115466541659,
+            "q025": -0.032333849531748456,
+            "q975": 0.012250302940444444
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.007910729220167232,
+            "q025": -0.04939445042787163,
+            "q975": 0.012826399807966326
+          }
+        },
+        "forward_time": {
+          "repetitions": 20,
+          "rows": 107,
+          "groups": 5,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.0026297925282964653,
+            "q025": -0.00935177140559078,
+            "q975": 0.0133942984779047
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.0008388171481171849,
+            "q025": -0.021559449121409686,
+            "q975": 0.014710450834649974
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.0055678980714084165,
+            "q025": -0.037628572191898434,
+            "q975": 0.010192248209256268
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.008526846134512133,
+            "q025": -0.05809914143760868,
+            "q975": 0.017987347327776685
+          }
+        }
+      }
+    },
+    "commander": {
+      "repetitions": 100,
+      "recovery": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.5711482468938219,
+          "q025": 0.5305267001652366,
+          "q975": 0.6117066173684568
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.17873668059632075,
+          "q025": 0.16777153113080134,
+          "q975": 0.18856974226075449
+        },
+        "slope": {
+          "n": 100,
+          "mean": 0.08844941471441667,
+          "q025": 0.05785715503665868,
+          "q975": 0.11441126026263927
+        },
+        "correlation": {
+          "n": 100,
+          "mean": 0.2953936792870505,
+          "q025": 0.19786659850323848,
+          "q975": 0.38556844915745936
+        }
+      },
+      "validation": {
+        "war_year": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.005498492403110308,
+            "q025": -0.019041105028957526,
+            "q975": 0.0030854420657139875
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.005409209499666636,
+            "q025": -0.02733625027977449,
+            "q975": 0.012902023189787063
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.010853919405963234,
+            "q025": -0.03101272719963849,
+            "q975": 0.0007605906788800218
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.010430939832002209,
+            "q025": -0.03953941319739873,
+            "q975": 0.013840660344223044
+          }
+        },
+        "whole_war": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.0027216315872807995,
+            "q025": -0.019040616833680163,
+            "q975": 0.0070726217105550725
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.0027585667488254184,
+            "q025": -0.016330867545221218,
+            "q975": 0.009485424409980063
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.007070989345889038,
+            "q025": -0.025463382799330712,
+            "q975": 0.008480457648502795
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.006370633950963396,
+            "q025": -0.025152646350642408,
+            "q975": 0.011267860732406928
+          }
+        },
+        "forward_time": {
+          "repetitions": 20,
+          "rows": 107,
+          "groups": 5,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.003997877884108039,
+            "q025": -0.030644579950479794,
+            "q975": 0.016829422173474863
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.005633673532045062,
+            "q025": -0.04753680322950969,
+            "q975": 0.024225374719370522
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.00820946472607732,
+            "q025": -0.04015086029379204,
+            "q975": 0.016678535319864032
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.009929335586757243,
+            "q025": -0.05199957961455498,
+            "q975": 0.02205281861611997
+          }
+        }
+      }
+    },
+    "stable_army_alias": {
+      "repetitions": 100,
+      "recovery": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.18212680993206426,
+          "q025": 0.1732922663091603,
+          "q975": 0.19134685741644028
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.18212680993206426,
+          "q025": 0.1732922663091603,
+          "q975": 0.19134685741644028
+        },
+        "slope": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        },
+        "correlation": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        }
+      },
+      "validation": {
+        "war_year": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.013645466730200426,
+            "q025": -0.04218691998890882,
+            "q975": 0.004112299785745266
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.013548063354693307,
+            "q025": -0.04654634177856241,
+            "q975": 0.007255111871742334
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.017405760110299217,
+            "q025": -0.04226167936971079,
+            "q975": 0.003410732641579941
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.016826506251086372,
+            "q025": -0.05690297633475411,
+            "q975": 0.0024235238163239437
+          }
+        },
+        "whole_war": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.008859985681101938,
+            "q025": -0.0331471831815748,
+            "q975": 0.004432222485684207
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.008737127528869463,
+            "q025": -0.035022141364148045,
+            "q975": 0.00262603306017371
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.0124908656633492,
+            "q025": -0.033752756756772126,
+            "q975": 0.0059141740956163945
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.011984356632513762,
+            "q025": -0.03527189017534176,
+            "q975": 0.0023542511900162787
+          }
+        },
+        "forward_time": {
+          "repetitions": 20,
+          "rows": 107,
+          "groups": 5,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.008296125344798932,
+            "q025": -0.04196226302235881,
+            "q975": 0.016420136210334578
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.006525181536478695,
+            "q025": -0.03605255853271211,
+            "q975": 0.025769116642859226
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.012357954201520357,
+            "q025": -0.0446619026902725,
+            "q975": 0.018002642931818098
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.008862597037793102,
+            "q025": -0.04900969187040608,
+            "q975": 0.024792310961919105
+          }
+        }
+      },
+      "with_observed_synthetic_armies": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.13836166482999224,
+          "q025": 0.13354030459637917,
+          "q975": 0.1430131003544903
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.13836166482999224,
+          "q025": 0.13354030459637917,
+          "q975": 0.1430131003544903
+        },
+        "slope": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        },
+        "correlation": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        }
+      }
+    },
+    "switching_armies": {
+      "repetitions": 100,
+      "recovery": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.5846473764176039,
+          "q025": 0.5360401002142431,
+          "q975": 0.6290363649413949
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.17822470691533338,
+          "q025": 0.16179716708742733,
+          "q975": 0.18959648033776294
+        },
+        "slope": {
+          "n": 100,
+          "mean": 0.074063004459373,
+          "q025": 0.04407811330684634,
+          "q975": 0.10186205761164704
+        },
+        "correlation": {
+          "n": 100,
+          "mean": 0.2504479564532425,
+          "q025": 0.1580994035252206,
+          "q975": 0.34084776431160585
+        }
+      },
+      "validation": {
+        "war_year": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.0011514090682078278,
+            "q025": -0.02014252858680289,
+            "q975": 0.011729571426732853
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.0009678883743801656,
+            "q025": -0.03788378126233376,
+            "q975": 0.01234626818842648
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.005314516330150892,
+            "q025": -0.034859844437369544,
+            "q975": 0.011377520512565728
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.005532471265415103,
+            "q025": -0.04746772715762657,
+            "q975": 0.011548383764052985
+          }
+        },
+        "whole_war": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": -0.0018470223439621808,
+            "q025": -0.02556699480381006,
+            "q975": 0.01099473783950712
+          },
+          "force_group": {
+            "n": 20,
+            "mean": -0.0021175606530044796,
+            "q025": -0.02870810387391592,
+            "q975": 0.01147961295847652
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.005712687391591909,
+            "q025": -0.033013310163128154,
+            "q975": 0.011966016207492209
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": -0.005974976676045244,
+            "q025": -0.034232427739563885,
+            "q975": 0.012349245295859386
+          }
+        },
+        "forward_time": {
+          "repetitions": 20,
+          "rows": 107,
+          "groups": 5,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.0014834261605682112,
+            "q025": -0.023050416494351775,
+            "q975": 0.0183918662234801
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.0069922732262936715,
+            "q025": -0.05420607917214387,
+            "q975": 0.03094743688841723
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": -0.003638466459446091,
+            "q025": -0.0384954309614086,
+            "q975": 0.02719517047731978
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": 0.0025265425040100838,
+            "q025": -0.07414874869221745,
+            "q975": 0.04591930631890977
+          }
+        }
+      },
+      "with_observed_synthetic_armies": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.5810932539733941,
+          "q025": 0.5326933957967097,
+          "q975": 0.6221258353648529
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.16129181477787133,
+          "q025": 0.1470976732249201,
+          "q975": 0.17567193058722785
+        },
+        "slope": {
+          "n": 100,
+          "mean": 0.07187224978234268,
+          "q025": 0.04522089325359132,
+          "q975": 0.09795060314639269
+        },
+        "correlation": {
+          "n": 100,
+          "mean": 0.26830969392233245,
+          "q025": 0.17693092338043254,
+          "q975": 0.3620895394231435
+        }
+      }
+    },
+    "source_bias": {
+      "repetitions": 100,
+      "recovery": {
+        "rmse": {
+          "n": 100,
+          "mean": 0.17292598107727716,
+          "q025": 0.16496539344897676,
+          "q975": 0.17965940489857724
+        },
+        "estimated_sd": {
+          "n": 100,
+          "mean": 0.17292598107727716,
+          "q025": 0.16496539344897676,
+          "q975": 0.17965940489857724
+        },
+        "slope": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        },
+        "correlation": {
+          "n": 0,
+          "mean": null,
+          "q025": null,
+          "q975": null
+        }
+      },
+      "validation": {
+        "war_year": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.008348255642231014,
+            "q025": -0.010131978951684929,
+            "q975": 0.021361100703172643
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.007381328615431644,
+            "q025": -0.01881656506977134,
+            "q975": 0.02004550025794053
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": 0.008251600101878025,
+            "q025": -0.008051904497787626,
+            "q975": 0.01755784936277034
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": 0.006704271468037791,
+            "q025": -0.019610722660309516,
+            "q975": 0.0201055780791805
+          }
+        },
+        "whole_war": {
+          "repetitions": 20,
+          "rows": 297,
+          "groups": 16,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.005121311290164203,
+            "q025": -0.007461274936808095,
+            "q975": 0.014187802005449708
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.003272224833465362,
+            "q025": -0.008934654970861284,
+            "q975": 0.012562733174049512
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": 0.005604486635092729,
+            "q025": -0.009848560489097432,
+            "q975": 0.015526467777788846
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": 0.003587402432216643,
+            "q025": -0.012642208232730432,
+            "q975": 0.01645081598153938
+          }
+        },
+        "forward_time": {
+          "repetitions": 20,
+          "rows": 107,
+          "groups": 5,
+          "force_battle": {
+            "n": 20,
+            "mean": 0.006290303598053685,
+            "q025": -0.01229406218670245,
+            "q975": 0.013344952409654118
+          },
+          "force_group": {
+            "n": 20,
+            "mean": 0.0066780349434476804,
+            "q025": -0.021713861936113573,
+            "q975": 0.04107034707828904
+          },
+          "prior_battle": {
+            "n": 20,
+            "mean": 0.009313075562653718,
+            "q025": -0.013213008803623286,
+            "q975": 0.03413536635356031
+          },
+          "prior_group": {
+            "n": 20,
+            "mean": 0.006561048522580705,
+            "q025": -0.030910767172479252,
+            "q975": 0.03892676376397511
+          }
+        }
+      }
+    }
+  },
+  "admits_feature": false,
+  "changes_baseline": false
+}

@@ -29,7 +29,7 @@ As of 2026-10-18:
   ([record](docs/research/ledgers-v2.md)). The primary-verified [strength ledger v3](docs/ledgers-v3.md)
   fills 99 more sides from pinned upstream tables. The other 79 engagements are inconclusive, aggregate records,
   or involve a Native American belligerent, which the two-sided model does not cover.
-- **Latest result.** [Rating run 4](docs/research/commander-ratings-v4.md) tested commander
+- **Latest historical rating result.** [Rating run 4](docs/research/commander-ratings-v4.md) tested commander
   identity against a theater-and-period comparator, with τ estimated and outcome-dependent inputs
   removed, under a rule fixed before the run. **It found no improvement**: the battle-weighted gain
   cleared the campaign bootstrap's bound, the campaign-weighted gain did not, and Forrest's rows
@@ -40,10 +40,11 @@ As of 2026-10-18:
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples and the 23 of the 1806
-  war against Prussia have drafts, and each group's drafts have been checked together. A bounded
-  [methods checkpoint](docs/napoleonic-methods-v1.md) precedes the 19 engagements of 1807: campaign
-  measurement, synthetic recovery, fixed evaluation partitions and a tighter first-pass brief
-  ([roadmap](docs/roadmap.md)). It fits no historical outcomes.
+  war against Prussia have drafts, and each group's drafts have been checked together. The
+  [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
+  simulation improved prediction despite zero commander effects, and planted commander effects
+  were weakly recovered on the provisional label schedule. No historical outcome was fitted.
+  The 19 engagements of 1807 are next, under a tighter brief ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 
@@ -58,6 +59,7 @@ owner (the maintainer) sets the scope and authorizes each rating run.
    source snapshot is stored with its SHA-256. Gaps and disagreements become explicit unknowns
    or disputed claims, never model recollection. A first pass inspects up to three source
    families per battle, plus one targeted follow-up.
+   Napoleonic drafts also code posture and fortification and carry a per-side completion checklist.
 3. **Verification.** Every Civil War dossier batch had a separate, fresh-context AI review
    (GPT-6 Astra at `xhigh` reasoning effort, then Claude Opus 5.5 at `high` from 2026-09-24).
    The authoring agent checked each proposed correction against the source before applying it.
@@ -103,7 +105,8 @@ Beyond the Napoleonic work, the [roadmap](docs/roadmap.md) plans a campaign-leve
 defined before any enriched model (battle execution and campaign contribution are separate
 and never added together), opponent and army context, and graded outcomes rather than win or
 loss only. None of this is implemented yet. The [explorer](https://masonpetrosky.github.io/generalship/)
-is a first, static version of the planned research interface.
+is a first, static version of the planned research interface. A worked campaign specification
+and synthetic feasibility checks now exist; historical campaign estimation remains unimplemented.
 
 ## Run it
 

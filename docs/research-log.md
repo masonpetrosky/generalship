@@ -2942,6 +2942,54 @@ The next step within this checkpoint is the explicitly invoked synthetic job, fo
 inspection of all scenario results and the final offline checks. Research on 1807 is not part
 of the checkpoint.
 
+## Methods checkpoint execution and findings (2026-10-18)
+
+The synthetic job completed under the design and code pushed in
+`18262defc140e2796df677bb6639f73a7b06ea6d`, with no code, parameter or scenario changes after
+results were seen. All 17 result bindings were checked byte-for-byte against that commit.
+The execution receipt and saved log retain the actual command and result SHA-256.
+The work is primary-verified; calibration remains preparation only.
+
+- **Denominators.** 325 cohort entries, 650 side slots; 297 usable synthetic entries with 357
+  conservative printed-label keys. The 28 excluded entries remain in cohort coverage. These
+  provisional keys are not resolved commanders. Army identity is unestablished for every
+  historical side slot; no commander-versus-army identification claim is made.
+- **Execution.** Five scenarios, 100 recovery repetitions and 20 validation repetitions each.
+  No historical Napoleonic outcomes, forces or losses were fitted. All synthetic results,
+  repetition distributions, bindings, exclusions and environment are in
+  `artifacts/napoleonic-methods-v1.json`; the Markdown report regenerates from it offline.
+- **Predictive gain can be misattribution.** With zero true commander effects and persistent
+  hypothetical army differences, the commander-minus-force held-out log-loss difference is
+  -0.0136 by battle and -0.0135 by frozen group under war-year holdouts. Identical army and
+  commander columns remain confounded even when both are supplied; priors allocate the effect.
+- **Weak recovery.** With planted commander SD 0.6, mean centered RMSE is 0.5711, correlation
+  0.2954 and slope 0.0884. Sparse observations, title/alias splitting, shrinkage and
+  prior-dependent offsets limit this provisional experiment. This does not establish that
+  historical commanders lacked differences or forecast a resolved ledger's accuracy.
+- **Unhelpful cases retained.** Observing hypothetical switching army identities changes
+  commander RMSE only from 0.5846 to 0.5811. The source-bias case worsens war-year held-out
+  loss against force only by +0.0083; no favorable result is substituted. The null's
+  corresponding difference is +0.0059.
+- **Validation interpretation.** Whole-war validation holds out seven wars, but equal-group
+  scoring retains the 16 frozen war/year units on its 297 scored entries. Forward-time
+  scores cover 107 entries in five frozen groups. These are different test populations,
+  and the repetition ranges are not historical confidence intervals.
+- **Campaign and calibration.** The worked campaign remains not estimable, with null boundary,
+  replacement pool, inherited resources/information and outcome vector. The 47 calibration
+  tasks and eight translation passages remain unscored, with no reviewer. A later judgment
+  record must be separately versioned rather than changing the blank generated sample.
+
+Final verification passed: `make check` ran all 252 tests and the pipeline checks, and
+`make reproduce` regenerated the result report and preparations without a model job. The
+execution/log hashes and all preparation bindings replay. A checksum comparison of 4,793
+original protected paths found only the intended CLI/packet code and build-receipt changes;
+all existing historical inputs, earlier results and bound rating engines remain unchanged.
+
+See `docs/research/napoleonic-methods-checkpoint-v1.md` for the bounded handoff. The checkpoint
+ends here. The next research group is `fourth-coalition 1807`, with 19 entries and brief v3's
+checklist. No historical rating fit, new predictor admission or deeper campaign investigation
+is automatically authorized by these results.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current
