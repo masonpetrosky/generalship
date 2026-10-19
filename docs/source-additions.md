@@ -5,6 +5,16 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Peninsula 1810 first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1810-first-pass-v1.md) appends **117 records**, bringing the registry to **4,076**: six unmodified full OCR parents, six metadata responses, six scan maps, 38 inspected historical page images, six title images and Marbot’s deposit verso, 36 exact-range narrative selections and 18 manual numerical/supplemental transcriptions. Existing Suchet I (1834 second edition) and Toreno III (1835) parents are reused. All 3,959 old records and pinned bytes remain unchanged.
+
+New parents: Belmas I (1836) and III (1837), Oman III (1908), Marbot II (undated fifty-third edition, original-work deposit October 1891), Toreno IV (1835) and V (1837). Printed titles override catalogue date mismatches; Marbot’s printing is not falsely dated by its original deposit. Public-domain historical originals; interested national, institutional and participant narratives and uninspected underlying originals remain explicit.
+
+All adopted numbers and passages are image-inspected. Narrative selections retain exact parent characters with whitespace collapsed only and recorded half-open ranges; manual figure transcriptions bind both parent and image hashes. OCR errors, incomplete local returns and the masked portion of Belmas I p.184 remain visible. The [raw notes](../data/raw/napoleonic-peninsula-1810-v1/NOTES.md) document uncited navigation, exclusions and the source-family limit. Full books are retained, not asserted read.
+
+Use: all 11 frozen land entries of `peninsula 1810`, including the full Tortosa and Cádiz intervals. Draft evidence only; no model inputs admitted.
+
 ## Fifth Coalition 1809 first pass, 2026-10-19
 
 The [campaign record](research/fifth-coalition-1809-first-pass-v1.md) appends **234 records**,

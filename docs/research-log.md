@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1810 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1810-first-pass-v1.md) adds **11/11 drafts, 146 claims, 27 explicit unknowns and 125 citations**. Brief-v3 dimensions and all 22 side-level completion records are covered; army continuity and replacement times remain unknown. The complete intervals retain Tortosa into January 1811 and Cádiz through August 1812. Work is primary-verified, with no separate review, subagent, second opinion, targeted follow-up cycle or model job.
+
+Every final family set matches its pre-reading three-family assignment. The registry adds 117 records (six new books, 38 historical page images, exact-range narrative selections and manual numerical transcriptions), reaching 4,076. All old 3,959 records, 140 drafts and pinned inputs are unchanged. Garrison/field/covering forces and departing/arriving/surrendered populations stay distinct, including Oman’s absent-battery caveat. Cádiz’s incomplete appointment chain and Vich’s date alternative stay visible.
+
+Source/evidence checks, research screen, `make reproduce` and `make check` passed; packet and reports were inspected. No feature admitted, model rerun or calibration score added. Coverage: **151/325 in 8/16 complete groups**, **174 remaining**. Next: `peninsula 1811`, **19 land entries**. Usage unavailable; no rate forecast substituted.
+
 ## Fifth Coalition 1809 complete first pass, 2026-10-19
 
 The [campaign record](research/fifth-coalition-1809-first-pass-v1.md) adds **36/36 drafts,
