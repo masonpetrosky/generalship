@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Liberation 1814 first pass, 2026-10-19
+
+The [campaign record](research/liberation-1814-first-pass-v1.md) appends **384 records**, reaching **5,377**: 169 new historical page images, one tome-II title image, 151 exact-range narrative files (341 anchor/context sections) and 63 manual-transcription files. One further historical image is reused unchanged, giving 170 historical pages supporting adopted excerpts. Existing complete Vaudoncourt France/Italy and Plotho III parents, metadata, scan maps and bibliographic records remain pinned; all old 4,993 registry records and bytes are unchanged.
+
+The new title confirms France tome II, Paris 1826. Italy remains London 1817, printed F. Guillaume [Vaudoncourt]; Plotho III is Berlin 1817. These interested retrospectives mediate other contingents; originals and embedded documents are not independently authenticated families. Plotho’s bounded Italian search yielded no detailed matching Mincio/Parma passage. Its February appendix remains a monthly compilation, not an original local muster.
+
+Every adopted passage/number was inspected on the retained full-page image. Narrative sections rebuild from exact page-bounded parent ranges with whitespace collapsed only; manual sections preserve image readings and explicit printed arithmetic/disputes. [Raw notes](../data/raw/napoleonic-liberation-1814-v1/NOTES.md), [alignment audit](../data/raw/napoleonic-liberation-1814-v1/selection-audit-v1.json) and the [primary record](../data/raw/napoleonic-liberation-1814-v1/primary-verification-v1.json) retain page inventory, scope, hashes and 58 visible flag dispositions. Full books are navigation snapshots, not asserted read in full. Draft evidence only; no feature admission.
+
 ## Peninsula 1813 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1813-first-pass-v1.md) appends **190 records**, reaching **4,993**: two complete unmodified OCR parents, two metadata responses, two scan maps, 74 historical page images, 13 title/preface images, 69 exact-range narrative files (140 anchor/context sections) and 28 manual-transcription files. Unchanged Oman VI and Suchet II parents are reused; the old 4,803 registry records and bytes remain pinned.

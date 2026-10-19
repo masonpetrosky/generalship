@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Liberation 1814 complete first pass, 2026-10-19
+
+The [campaign record](research/liberation-1814-first-pass-v1.md) adds **34/34 drafts, 504 claims, 71 explicit unknowns and 554 citations**, addressing nine dimensions and 68 side records. Complete intervals and repeated-name IDs remain frozen. Available/engaged/component/garrison/captive populations and horse counts remain separate; local/superior command changes and source disputes stay explicit. La Rothière and Paris printed arithmetic, Arcis’s date/total conflict and Reims’s 250/2,500 captive discrepancy are retained.
+
+Pre-reading assignments stay within Bodart, Vaudoncourt and Plotho for all entries. No fourth family, separate targeted follow-up cycle, subagent, separate review or second opinion. The registry appends **384 records**, reaching **5,377**; 170 historical images (169 new, one reused) and a new tome-II title were inspected, with unchanged book parents. All old 4,993 sources and 273 dossiers remain unchanged.
+
+Primary verification binds final hashes, assignments, arithmetic, **58 visible digit-flag dispositions**, source/evidence checks, refreshed packet, `make reproduce`, `make check` and report inspection. Coverage is **307/325 in 14/16 complete groups**, leaving **18 entries**. No feature admission, new rating/outcome fit, synthetic job or calibration score; calibration stays **47 prepared, unscored**, final numerical reservation unchanged. Usage unavailable. Next: `peninsula 1814`, three entries; no further campaign begun here.
+
 ## Peninsula 1813 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1813-first-pass-v1.md) adds **12/12 drafts, 183 claims, 13 explicit unknowns and 237 citations**, covering nine dimensions and 24 side checklists. Full frozen intervals, available/engaged/component/garrison/covering populations and local/superior authority remain distinct. La Salud’s initial detachment and reinforcement, San Sebastián’s siege/covering forces, Nivelle’s internal population-label ambiguity and Pampeluna’s 23/31 October alternative are retained.
