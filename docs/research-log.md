@@ -12,6 +12,26 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Fifth Coalition 1809 complete first pass, 2026-10-19
+
+The [campaign record](research/fifth-coalition-1809-first-pass-v1.md) adds **36/36 drafts,
+493 claims, 162 explicit unknowns and 345 citations**. Nine dimensions and 72 per-side
+completion records are covered; army continuity remains unknown. Work is primary-verified.
+Source assignments preceded substantive reading; all three-family sets match after resolving the
+Bodart shorthand alias. No subagent, separate review, second opinion, follow-up cycle or model job ran.
+
+The 234 new source records retain nine books, their bibliography/navigation captures, 99 inspected
+image/excerpt pairs and nine title images. All 104 old drafts, 3,725 old source records and pinned
+inputs remain unchanged. Own-side dated local returns remain incomplete; the assigned later
+Kriegsarchiv Neumarkt–Ebelsberg volume is an explicit access gap. Präwald’s anomalous numeral,
+Wagram’s printed arithmetic discrepancy, Ostrowiec/Góra’s date crosswalk, garrison alternatives,
+Aspern’s outcome dispute and superior/local command distinctions remain visible.
+
+Evidence/source checks, research screen, `make reproduce` and `make check` passed; regenerated
+packet and reports were inspected. No feature admitted or frozen model/calibration input changed.
+Coverage: **140/325 in 7/16 complete groups**, **185 remaining**. Next: `peninsula 1810`, **11
+land entries**. Usage unavailable; no historical-rate forecast substituted.
+
 ## Peninsula 1809 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1809-first-pass-v1.md) adds **19/19 drafts, 273 claims,

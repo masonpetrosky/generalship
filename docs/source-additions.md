@@ -5,6 +5,30 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Fifth Coalition 1809 first pass, 2026-10-19
+
+The [campaign record](research/fifth-coalition-1809-first-pass-v1.md) appends **234 records**,
+bringing the registry to **3,959**: nine complete OCR parents, nine metadata responses, nine
+scan maps, **99 inspected image/manual-excerpt pairs** and nine title images. All prior 3,725
+records and pinned files remain unchanged. Full OCR books are retained, not asserted read.
+
+Parents: Pelet’s *Mémoires sur la guerre de 1809*, I–IV (1824, 1824, 1825, 1826); the Austrian
+Kriegsarchiv’s *Krieg 1809*, I, *Regensburg* (1907); Welden’s *Der Krieg von 1809* (1872 reprint,
+original preface 1819); anonymously printed *Das Heer von Inneröstreich* (1817, catalogue-attributed
+to Hormayr); Sołtyk’s Polish campaign relation (1841); Hargrove’s Walcheren account (1812).
+Printed title dates override catalogue mismatches. Public-domain originals; no assumed modern
+license. Interested national/participant accounts and mediated underlying documents remain explicit.
+
+All adopted digits and passages are image-inspected. Selected manual excerpts normalize typography,
+line division, ordinal markers and table layout, retain locators and SHA-256 parent/image bindings,
+and support marked English renderings. Scan labels and OCR are navigation only. The later
+Kriegsarchiv Neumarkt–Ebelsberg volume was not located; volume I does not establish those later
+actions. Checked uncited parent readings and excluded navigation material are documented in
+[NOTES.md](../data/raw/napoleonic-fifth-coalition-1809-v1/NOTES.md). Three assigned families including
+Bodart per entry; copies, volumes and embedded reports do not create independent witnesses.
+
+Use: all 36 frozen land entries of `fifth-coalition 1809`. Drafts only; no model input admission.
+
 ## Peninsula 1809 first pass, 2026-10-19
 
 The [campaign pass](research/peninsula-1809-first-pass-v1.md) appends **167 source records**,
