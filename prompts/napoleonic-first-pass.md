@@ -1,4 +1,4 @@
-# Napoleonic first pass: research brief, v2
+# Napoleonic first pass: research brief, v3
 
 You draft first-pass evidence dossiers for one campaign group of the Napoleonic cohort v1. The
 owner's scoping decisions of 2026-10-06 govern this work
@@ -10,6 +10,11 @@ snapshot.
 Version 2 (2026-10-16) adds the coded posture and fortification dimensions of decision 7 and the
 selection-range check. Since that date the main session does this work itself, without subagents
 and without a usage cap ([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
+
+Version 3 (2026-10-18), authorized by the [methods checkpoint](../docs/napoleonic-methods-v1.md),
+adds a completion checklist, explicit stopping reasons and compact packets. The existing 49
+drafts keep their original contracts; do not rewrite them to make a new checklist look complete.
+No independent reviewer or second-opinion prompt is part of this workflow.
 
 ## Read first
 
@@ -23,6 +28,23 @@ and without a usage cap ([record](../data/napoleonic/owner-decision-research-mod
 - An example first-pass dossier: `data/evidence/VA088.json`.
 
 ## Scope and effort
+
+**What "fully" means for this first pass.** For each side, identify the available strength
+observations with the source's population basis and time, who held engagement and superior
+authority, and the most consequential unresolved alternative. Record army continuity as
+unknown unless inspected passages establish it; a corps name or a repeated commander does not
+establish an army identity. Each dimension ends in a supported observation, alternatives or
+an explicit unknown. Stop once this checklist is covered within the source/follow-up ceiling.
+Additional detail needs a named measurement, admission or attribution decision it could change.
+
+Use short, atomic claim values. Keep distinct sources, population definitions and time scopes
+separate. Preserve the source-specific numbers; do not narrate every subordinate movement to
+support a side-strength observation. Put common source conventions in the shared convention
+index (`data/napoleonic/methods-v1/research-conventions.json`) and retain the citations needed
+to support each claim. This is not permission to replace an exact supporting passage with an
+unsupported cross-reference. Original-language quotations and marked English renderings remain
+required. Render a quote once within its claim; avoid copying the same explanatory paragraph
+into several values and open questions.
 
 - **Output.** One dossier per assigned entry, `data/napoleonic/evidence/<ID>.json`, named by its
   frame ID (for example `B369c.json`), with `schema_version` 1 and `status` "draft".
@@ -148,6 +170,52 @@ Follow `data/evidence/VA088.json`:
 - `boundary_note`;
 - `claims`;
 - `open_questions`.
+
+New drafts also carry `research_completion`, checked by `napoleonic-research-screen` and the
+normal build. The record is a research checklist, not a ledger, army registry or admitted
+feature. A claim ID may appear for both sides if it explicitly covers both; the primary must
+check its meaning. Use this shape, replacing the example references and notes:
+
+```json
+{
+  "brief_version": 3,
+  "sides": {
+    "A": {
+      "strength_claim_ids": ["side-a-strength"],
+      "strength_population_and_time": "State each source's population and date/moment, or say unknown.",
+      "command_claim_ids": ["side-a-command"],
+      "command_scope": "Distinguish the on-field decision maker, superior authority and uncertainty.",
+      "army_continuity": "Unknown unless source-backed continuity is established."
+    },
+    "B": {
+      "strength_claim_ids": ["side-b-strength"],
+      "strength_population_and_time": "State the basis/time or the inspected-source gap.",
+      "command_claim_ids": ["side-b-command"],
+      "command_scope": "State the authority and uncertainty.",
+      "army_continuity": "Unknown unless established."
+    }
+  },
+  "additional_source_ids_checked": [],
+  "targeted_follow_up": {
+    "performed": false,
+    "decision_it_could_change": null,
+    "result": null
+  },
+  "stopping_reason": "Checklist covered within the ceiling; remaining alternatives are preserved.",
+  "deferred_decision_relevant_gaps": []
+}
+```
+
+Every cited source is included automatically when counting families. List any additionally
+inspected, uncited registered sources in `additional_source_ids_checked`; do not silently omit
+a checked family to meet the ceiling. Record at most one targeted follow-up and its decision
+and result when performed. An unknown strength or responsibility claim is a valid reference.
+Completion claims do not make inherited/commander-created phase hypotheses causal findings.
+
+Run `python3 -m generalship napoleonic-research-screen` before finishing a group. Inspect its
+digit/locator/family flags against the passages. Number matches are only triage and do not
+prove entailment. Preserve a bound draft's original bytes in `data/napoleonic/evidence/history/`
+before revision: the checkpoint's pilot and calibration sample retain exact dossier hashes.
 
 Each claim has:
 

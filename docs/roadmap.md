@@ -31,58 +31,35 @@ directory and a validator bound to cohort v1, and a campaign group's packet is w
 frame. Brief v2 adds the coded posture and fortification dimensions of decision 7, and the source
 check now rebuilds every selection from its parent.
 
-**Next:** first passes by complete campaign group. The next group is `fourth-coalition 1807`
-(19 entries), now that all 23 entries of `fourth-coalition 1806` are drafted and checked
-together. On 2026-10-16 the owner set no usage cap and had the main session research, draft and
-verify each group itself, without subagents
-([record](../data/napoleonic/owner-decision-research-mode-2026-10-16.json)).
-Usage is logged per group.
+**Current task (2026-10-18):** the owner authorized the bounded
+[methods checkpoint](napoleonic-methods-v1.md) before the 1807 first pass. Its design fixes a
+campaign-contribution specification, an outcome-unused schedule audit and synthetic recovery
+experiment, development/final partitions, a compact research workflow and an unscored calibration
+sample. No subagents, independent review or second-opinion prompts are used. The design and code
+are committed before the synthetic job runs. No historical outcome fit is authorized.
 
-**Progress:** two groups, 26 entries, were drafted on 2026-10-17, and all 23 entries of
-`fourth-coalition 1806` by 2026-10-18, all primary-verified ([research log](research-log.md)).
+**Research coverage:** 49 of 325 entries in three of 16 complete groups, all primary-verified:
 
-- `third-coalition 1805`, all 22 entries in six batches:
-  - batch 1a: Wertingen, Günzburg and Haslach (B363a–c);
-  - batch 1b: the Ulm phase from Parsdorf to Eschenau (B364a–d, B365a, B365b, B365d and B366a);
-  - batch 1c: the Italian engagements, Verona, Caldiero, Pojano and Castelfranco (B365c, B367a,
-    B367b and B369b);
-  - batch 1d: the Tyrol and Vorarlberg, Scharnitz and Dornbirn (B368a and B368d);
-  - batch 1e: the Danube, Mariazell and Dürnstein (B368b and B368c);
-  - batch 1f: Ober-Hollabrunn, Austerlitz and Steken (B369a, B369c and B370a).
+| Group | Drafts | Recorded usage |
+| --- | ---: | ---: |
+| `third-coalition 1805` | 22 | about 14.6 million tokens |
+| `third-coalition 1806` (Naples) | 4 | about 2.3 million tokens |
+| `fourth-coalition 1806` | 23 | about 28.4 million tokens |
 
-  Each batch was verified as a campaign before release, and a bounded check of the 22 drafts
-  together followed. It fixed one misread dating and three uncited figures, and it records that
-  batches 1a–1c keep OCR-only dates and ordinals in values that later batches exclude. The leads
-  that batches 1e and 1f recorded are not added. The group used about 14.6 million tokens.
-- `third-coalition 1806`, the French conquest of Naples: Campo Tenese, Maida and the sieges of
-  Gaëta and Amantea (B370c, B370d, B371a and B379c). The check before release removed one citation
-  that took Gaëta past the brief's three source families. The group used about 2.3 million tokens.
-- `fourth-coalition 1806`, all 23 entries in five batches, from Foucart's edition of the French
-  documents and Höpfner's Prussian history. A bounded check of the 23 drafts together followed. It
-  corrected how seven drafts, four of this group and three of 1805, read Bodart's dagger. The group
-  used about 28.4 million tokens, the check included:
-  - batch 2a: Saalfeld, Jena and Auerstedt (B371b, B372a and B373a), about 6.2 million tokens;
-  - sub-batch 2b-i: Erfurt, Halle, Spandau and Prenzlau (B373b and B374a–c), about 2.4 million
-    tokens;
-  - sub-batch 2b-ii: Stettin, Pasewalk, Boldekow, Küstrin, Anklam and Wolgast (B374d and
-    B375a–e), about 3.5 million tokens;
-  - sub-batch 2c-i: Ratkau (B376b), about 0.3 million tokens;
-  - sub-batch 2c-ii: Lübeck (B376a), about 1.0 million tokens;
-  - sub-batch 2c-iii: Magdeburg (B376c), about 1.5 million tokens;
-  - sub-batch 2c-iv: Hameln and Nienburg (B376d and B377a), about 1.9 million tokens;
-  - sub-batch 2d-i: Groß-Glogau (B377b), about 2.3 million tokens;
-  - sub-batch 2d-ii: Breslau (B378b), about 1.9 million tokens;
-  - sub-batch 2e-i: Czarnowo (B377c), about 3.7 million tokens;
-  - sub-batch 2e-ii: Pultusk (B377d), about 1.2 million tokens;
-  - sub-batch 2e-iii: Golymin (B378a), about 2.1 million tokens;
-  - the check of the drafts together, about 0.4 million tokens.
+The [research log](research-log.md) retains every batch, whole-group check and correction.
+The remaining 276 entries have no drafts. Once the checkpoint is complete, the next group is
+`fourth-coalition 1807` (19 entries), using brief v3's field checklist and stopping rule.
+Earlier usage rates describe the old workflow and are not a measured forecast for the new one.
+There is no usage cap; the main session researches, drafts and verifies each group, as the
+[2026-10-16 decision](../data/napoleonic/owner-decision-research-mode-2026-10-16.json) requires.
 
-The cohort's other 276 engagements would need about 160 to 185 million tokens at the 1805 and
-Naples groups' rates, roughly 11 to 12 sessions, and about 335 million, roughly 22 sessions, at
-the 1806 group's rate of about 1.2 million an entry. At sub-batch 2b-ii's rate of about 590,000 an
-entry they would need about 165 million. Batch 2a's three entries, the group's largest battles,
-took about 2 million each. The Civil War work below is complete as recorded, and its cohorts,
-ledgers and runs are unchanged.
+**Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
+13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
+These events have already been transcribed and seen; this is not historical blinding. The
+[versioned design](napoleonic-methods-v1.md#4-evaluation-decisions-fixed-before-a-napoleonic-outcome-fit)
+keeps the frame unchanged, fixes comparator and sensitivity rules, and records the severe limit
+of only three final groups. A complete rating design, resolved ledgers and exact owner
+run authorization are still required.
 
 ## Open owner decisions
 

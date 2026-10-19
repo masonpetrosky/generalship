@@ -1,12 +1,15 @@
 PYTHON ?= python3
 
-.PHONY: check reproduce estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 packet review-bundle
+.PHONY: check reproduce estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 napoleonic-methods packet review-bundle
 check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship check
 
 reproduce:
 	$(PYTHON) -m generalship build
+
+napoleonic-methods:
+	$(PYTHON) -m generalship napoleonic-methods
 
 estimate-evaluation:
 	$(PYTHON) -m generalship estimate-evaluate

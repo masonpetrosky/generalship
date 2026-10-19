@@ -28,6 +28,7 @@ from .napoleonic import COHORT as NAPOLEONIC_COHORT, FRAME as NAPOLEONIC_FRAME, 
 from .dataset import build_dataset
 from .evidence import validate_all, validate_napoleonic
 from .napoleonic_packet import write_packet as write_napoleonic_packet
+from . import napoleonic_methods
 from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
 from .replay import bound_view, repository_text
 from .site import build_site
@@ -118,6 +119,15 @@ def run_build(root, write=False):
     records, profile = build_dataset(root)
     dossiers = validate_all(root)
     napoleonic_dossiers = validate_napoleonic(root)  # raises on an invalid draft, like the Civil War dossiers
+    methods = None
+    methods_protocol = None
+    if (root / napoleonic_methods.PROTOCOL).is_file():
+        methods_protocol, _, _, _ = napoleonic_methods.inputs(root)  # frame/partition/pilot checks, never a model job
+    if (root / napoleonic_methods.RESULT).is_file():
+        methods = napoleonic_methods.check(root, preparations=not write)
+    elif methods_protocol is not None and not write:
+        from .research_checks import check_artifacts
+        check_artifacts(root, methods_protocol)
     evaluation = evaluate(records)
     admission = check_admission(root)
     if admission['status'] == 'invalid' or admission['scenario_issues']:
@@ -164,6 +174,12 @@ def run_build(root, write=False):
         if audit_ok:
             write_json(output / "extraction-audit-v1.json", audit)
             (output / "extraction-audit-v1.md").write_text(audit_report(read_json(root / AUDIT), audit), encoding="utf-8")
+        methods_outputs = []
+        if methods is not None:
+            methods_outputs = napoleonic_methods.regenerate(root)
+        elif methods_protocol is not None:
+            from .research_checks import write_artifacts
+            methods_outputs = list(write_artifacts(root, methods_protocol))
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json",
                                                                root / "data/pilot/cohort-v2.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
@@ -176,6 +192,7 @@ def run_build(root, write=False):
                    "review-index.json"] + (["extraction-audit-v1.json", "extraction-audit-v1.md"] if audit_ok else [])
         outputs += ["strength-ledger-v3-check.json", "strength-compilation-agreement.json"] if (output / "strength-ledger-v3-check.json").is_file() else []
         outputs += ["napoleonic-evidence-checks.json"] if napoleonic_dossiers else []
+        outputs += [p.removeprefix('artifacts/') for p in methods_outputs]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             # Floating-point results can differ in the last bits across Python versions (for example,
@@ -207,6 +224,9 @@ def run_build(root, write=False):
                                                   if 'in_frame' in napoleonic else napoleonic),
             "napoleonic_dossiers": {"drafts": len(napoleonic_dossiers), "claims": sum(d['claims'] for d in napoleonic_dossiers),
                                     "unknown_claims": sum(d['unknown_claims'] for d in napoleonic_dossiers)},
+            "napoleonic_methods": None if methods is None else {'historical_outcomes_fitted': False,
+                                                               'scenarios': list(methods['scenarios']),
+                                                               'calibration': 'prepared_unscored'},
             "artifacts_written": write}
 
 
@@ -236,7 +256,11 @@ def main(argv=None):
     sub.add_parser('napoleonic-frame', help='Rebuild and write the Napoleonic frame v1 and cohort v1 from the Bodart transcription')
     nap_packet = sub.add_parser('napoleonic-packet', help='Write the research packet for one cohort v1 campaign group')
     nap_packet.add_argument('group', help="Campaign group, for example 'third-coalition 1805'")
+    nap_packet.add_argument('--full', action='store_true', help='Include all group drafts and the full source index')
+    nap_packet.add_argument('--battle-id', help='Load one entry and its draft instead of the group index')
     sub.add_parser('napoleonic-evidence-check', help='Verify source hashes and validate the Napoleonic draft dossiers')
+    sub.add_parser('napoleonic-methods', help='Run the explicitly authorized synthetic checkpoint; never fits historical outcomes')
+    sub.add_parser('napoleonic-research-screen', help='Run digit, locator and family triage; no historical judgments')
     site_parser = sub.add_parser('site', help='Write the static explorer (plain HTML) from committed files')
     site_parser.add_argument('--out', default='_site', help='Output directory (default _site, git-ignored)')
     site_parser.add_argument('--commit', default=os.environ.get('GITHUB_SHA', 'main'),
@@ -345,7 +369,15 @@ def main(argv=None):
             write_json(root / NAPOLEONIC_COHORT, cohort)
             result = {'frame': frame['counts'], 'cohort': cohort['counts'], 'outputs': [NAPOLEONIC_FRAME, NAPOLEONIC_COHORT]}
         elif args.command == 'napoleonic-packet':
-            result = write_napoleonic_packet(root, args.group)
+            result = write_napoleonic_packet(root, args.group, full=args.full, battle_id=args.battle_id)
+        elif args.command == 'napoleonic-methods':
+            from sys import stderr
+            checkpoint = napoleonic_methods.run(root, progress=lambda name: print(f'Completed synthetic scenario: {name}', file=stderr, flush=True))
+            result = {'output': napoleonic_methods.RESULT, 'report': napoleonic_methods.REPORT,
+                      'historical_outcomes_fitted': False, 'scenarios': list(checkpoint['scenarios'])}
+        elif args.command == 'napoleonic-research-screen':
+            from .research_checks import screen
+            result = screen(root)
         elif args.command == 'napoleonic-evidence-check':
             sources = verify_sources(root)  # every registered hash and section map, even before any draft exists
             checked = validate_napoleonic(root, sources)

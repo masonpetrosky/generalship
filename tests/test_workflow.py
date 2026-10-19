@@ -11,11 +11,18 @@ from generalship.sources import digest, read_json, write_json
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def copy_methods_design(root):
+    """The methods protocol binds its design even in a temporary offline data fixture."""
+    (root / 'docs').mkdir(exist_ok=True)
+    shutil.copyfile(ROOT / 'docs/napoleonic-methods-v1.md', root / 'docs/napoleonic-methods-v1.md')
+
+
 class WorkflowTests(unittest.TestCase):
     def test_draft_quantities_do_not_change_baseline(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             shutil.copytree(ROOT / 'data', root / 'data')
+            copy_methods_design(root)
             run_build(root, write=True)
             before = read_json(root / 'artifacts/baseline.json')
             path = root / 'data/evidence/TN003.json'
@@ -33,6 +40,11 @@ class WorkflowTests(unittest.TestCase):
             root = Path(temp)
             for directory in ('data', 'generalship'):
                 shutil.copytree(ROOT / directory, root / directory)
+            copy_methods_design(root)
+            if (ROOT / 'artifacts/napoleonic-methods-v1.json').is_file():
+                (root / 'artifacts').mkdir()
+                shutil.copyfile(ROOT / 'artifacts/napoleonic-methods-v1.json',
+                                root / 'artifacts/napoleonic-methods-v1.json')
             first = run_build(root, write=True)
             receipt = read_json(root / 'artifacts/receipt.json')
             second = run_build(root, write=True)

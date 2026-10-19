@@ -107,6 +107,20 @@ class NapoleonicEvidenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Not a cohort v1 campaign group'):
             packet.packet(ROOT, 'first-coalition 1796')
 
+    def test_compact_packet_preserves_access_without_embedding_every_draft(self):
+        compact = packet.packet(ROOT, 'fourth-coalition 1806')
+        full = packet.packet(ROOT, 'fourth-coalition 1806', full=True)
+        one = packet.packet(ROOT, 'fourth-coalition 1806', battle_id='B377c')
+        self.assertIn('data/napoleonic/evidence/B377c.json', compact)
+        self.assertIn('SHA-256', compact)
+        self.assertNotIn('"bodart-strength"', compact)
+        self.assertIn('"bodart-strength"', full)
+        self.assertIn('"bodart-strength"', one)
+        self.assertEqual(one.count('\n### B'), 1)
+        self.assertLess(len(compact), len(full) / 5)
+        with self.assertRaisesRegex(ValueError, 'is not in'):
+            packet.packet(ROOT, 'fourth-coalition 1806', battle_id='B363a')
+
 
 if __name__ == '__main__':
     unittest.main()

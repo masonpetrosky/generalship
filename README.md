@@ -17,7 +17,7 @@ wins a commander caused. No validated commander ranking exists here yet.
 
 ## Status
 
-As of 2026-10-17:
+As of 2026-10-18:
 
 - **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
   is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
@@ -40,8 +40,10 @@ As of 2026-10-17:
   frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples and the 23 of the 1806
-  war against Prussia have drafts, and each group's drafts have been checked together. The 19
-  engagements of 1807 are next ([roadmap](docs/roadmap.md)).
+  war against Prussia have drafts, and each group's drafts have been checked together. A bounded
+  [methods checkpoint](docs/napoleonic-methods-v1.md) precedes the 19 engagements of 1807: campaign
+  measurement, synthetic recovery, fixed evaluation partitions and a tighter first-pass brief
+  ([roadmap](docs/roadmap.md)). It fits no historical outcomes.
 
 ## How the research is produced
 
@@ -114,6 +116,7 @@ python3 -m generalship inspect TN003    # print one engagement's record (TN003 i
 python3 -m generalship packet TN003     # prepare a research assignment; makes no AI call
 python3 -m generalship admission-check  # offline proposal audit; promotes nothing
 python3 -m generalship site             # write the static explorer to _site/
+make napoleonic-methods                  # explicit synthetic checkpoint; never historical ratings
 ```
 
 `python3 -m generalship fetch` restores missing pinned upstream CSVs; it is the only command
@@ -138,6 +141,7 @@ path, or install it with `python3 -m pip install -e .`.
 - [Methodology and limitations](docs/methodology.md)
 - [Evidence contract and review workflow](docs/evidence-contract.md)
 - [Roadmap and current handoff](docs/roadmap.md)
+- [Napoleonic methods checkpoint](docs/napoleonic-methods-v1.md)
 - [Research log](docs/research-log.md): pilot campaign passes and the Shiloh source investigations
 - [Reviewed feature-admission design](docs/feature-admission.md)
 - [Source provenance and original-project audit](docs/sources.md)

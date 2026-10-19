@@ -2876,6 +2876,72 @@ The check was bounded and is primary-verified; no separate review was made.
 - **Usage.** About 0.4 million tokens. With the check the group used about 28.4 million tokens,
   about 1.2 million an entry.
 
+## Methods checkpoint preregistration and workflow preparation (2026-10-18)
+
+The owner accepted the project-assessment improvements and discontinued second-opinion prompts.
+When asked about calibration, the owner kept the no-subagents policy and requested preparation
+only. The exact messages are retained in `data/napoleonic/methods-v1/owner-decision.json`.
+This work is primary-verified; there is no separate review.
+
+- **Before execution.** `docs/napoleonic-methods-v1.md`, the frozen protocol and new experiment
+  code are committed before computing synthetic recovery results. The seed, five scenarios,
+  100 recovery repetitions and 20 validation repetitions per scenario are fixed. Tests use
+  small constructed data only, including agreement with run 4's logistic solver. No historical
+  Napoleonic outcome is fitted and no rating run or feature is authorized.
+- **Campaign specification.** Three observations replay five original-language passages from
+  already registered Alombert/Colin selections and three bound 1805 drafts. The primary read
+  those passages in context. They establish local directives and overlapping legal/effective
+  or superior/direct authority, not a complete campaign objective or replacement opportunity.
+  Campaign-onset dates, eligible alternatives, inherited totals, information and the campaign
+  outcome vector remain null. No historical contribution or readiness score is invented.
+- **Schedule.** The outcome-unused audit keeps all 325 entries and 650 sides in the denominator.
+  Conservative printed keys produce 375 labels, 75 with repeated appearances and 42 in more
+  than one group. 197 entries have at least one cross-group recurrent label and 41 have both.
+  Missing/joint/complex labels exclude 28 entries from the synthetic schedule, leaving 297.
+  These are not resolved people or credited appointments. There is no verified cross-engagement
+  army registry, so actual commander-versus-army identification is not assessed.
+- **Evaluation.** A frame-only rule reserves the 52 entries of 1814–1815 in three complete
+  groups; development is the 273 entries through 1813 in 13 groups. It preserves the frozen
+  cohort and groups. Numerical model-selection reservation is not historical blinding. The
+  protocol fixes broader-war and forward-time sensitivities and comparison against context,
+  force, training prior and equal odds; a weak comparator cannot lower the success bar.
+- **Workflow.** Brief v3 gives new drafts a checked side-by-side completion record, army
+  continuity uncertainty, one follow-up disposition and an explicit stopping reason. The
+  previous 49 drafts remain under their original contracts. Compact group packets retain
+  printed entries and paths/hashes; per-entry and explicit full views retain access to every
+  draft. The 23-entry 1806 packet is 224,233 bytes against its prior 5,217,415 bytes (about 95.7%
+  smaller). This is measured navigation size, not evidence quality or measured token savings.
+- **Calibration.** Frozen stratification prepares 47 claim tasks: eight each of 231 strength,
+  166 responsibility, 107 coding and 464 other known claims, plus all 15 unknowns. Eight cited
+  passages form a translation subsample. First-reading material omits claim values and author
+  rationales/renderings; a separate public key means blinding is procedural. Judgments and
+  reviewer remain null. There is no independent review or error-rate estimate.
+- **Research screen.** The retained digit/locator/family checker emits 75 same-claim image-digit
+  triage flags and one family-ceiling flag across the 49 legacy drafts; no quote or locator
+  mismatch is found. Dates, clocks, ages, explicitly labelled arithmetic and French elliptical
+  ranges explain many flags. The primary checked the flagged non-year quantities above 100:
+  the sums are labelled as ours; Verona's 300, 1,200 and 600 render the cited elliptical forms
+  `3 à 400`, `12 à 1,500` and `6 à 800`; the registered Koch page images 376 and 84 were also read. This is a bounded check of flagged interpretation,
+  not a new verification of every legacy claim. The flags remain visible.
+  - Dürnstein (B368c) cites four recorded family roots: Bodart, Alombert/Colin, Schönhals and
+    Moriggl (the latter for Dupont's division). Registry notes already describe partial
+    dependence between Alombert/Colin and Schönhals. The checker does not establish independent
+    witnesses or settle that lineage. It retains this historical ceiling flag and every
+    source/claim rather than deleting evidence to make the count pass. New brief-v3 passes
+    exceeding three recorded family roots fail the completion check.
+- **Preservation.** No existing source record, raw snapshot, dossier, frame, cohort, ledger or
+  bound rating-engine module is changed. Calibrated/pilot-bound draft revisions must now archive
+  their old bytes before correction, so these preparation records replay.
+
+Before committing, `make check` passed 252 tests and the pipeline checks; `make reproduce` ran
+offline. The final design also requires within-training-fold candidate selection and labels
+reused development scores exploratory. The eight methods contract tests were rerun after this
+clarification.
+
+The next step within this checkpoint is the explicitly invoked synthetic job, followed by
+inspection of all scenario results and the final offline checks. Research on 1807 is not part
+of the checkpoint.
+
 ## Roadmap record to 2026-10-06
 
 Moved verbatim from `docs/roadmap.md` on 2026-10-06, when the roadmap was cut to the current

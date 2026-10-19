@@ -1,0 +1,45 @@
+{
+  "kind": "napoleonic_methods_protocol",
+  "version": 1,
+  "date": "2026-10-18",
+  "design": {
+    "path": "docs/napoleonic-methods-v1.md",
+    "sha256": "fa87d34496e52e4f0a71f7ac7869ce396fdf2410da3cd902f158be7ad25ad8be"
+  },
+  "inputs": {
+    "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+    "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+    "data/napoleonic/methods-v1/campaign-pilot.json": "b0f24a4c21d02a3dcf623d16b8928d2f0bb8cb0c654823a125aa06f9d8ea6ffa",
+    "data/napoleonic/methods-v1/owner-decision.json": "d19b14f2f2c9660d244ad73a16377007c445adc89d01ff7b9e67c5cdb65d8506",
+    "data/napoleonic/methods-v1/calibration-population.json": "c97a1a205526de95b870e990ddd7f9d04b1774e86e9112c76e0c768c90d34fbb",
+    "data/napoleonic/methods-v1/research-conventions.json": "55c030d1f3a7f8e9ae44ce5ea92402014c86ea4985502b56e0329e57fe53cd0a",
+    "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927"
+  },
+  "seed": 20261018,
+  "repetitions": 100,
+  "validation_repetitions": 20,
+  "fit_tau": 0.6,
+  "commander_sd": 0.6,
+  "army_sd": 0.8,
+  "group_sd": 0.35,
+  "source_bias_sd": 0.4,
+  "army_pools_per_side": 8,
+  "scenarios": [
+    "null",
+    "commander",
+    "stable_army_alias",
+    "switching_armies",
+    "source_bias"
+  ],
+  "validation_strategies": [
+    "war_year",
+    "whole_war",
+    "forward_time"
+  ],
+  "known_sample_per_stratum": 8,
+  "translation_sample_size": 8,
+  "calibration_status": "prepared_unscored_no_independent_review",
+  "historical_outcomes_fitted": false,
+  "admits_feature": false,
+  "changes_baseline": false
+}

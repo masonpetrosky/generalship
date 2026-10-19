@@ -46,6 +46,11 @@ your task touches, not the whole log.
   could change and have a bounded scope, or follow an explicit owner request.
   Shiloh's Agate/overnight provenance follow-ups are parked; retain all evidence
   and unknowns. Coverage, verification and feature admission stay distinct.
+- New Napoleonic first passes follow brief v3's completion checklist and stopping rule.
+  Keep campaign contribution, the outcome-unused methods checkpoint and historical rating
+  runs distinct; see `docs/napoleonic-methods-v1.md`. `make reproduce` never runs the synthetic job.
+- The owner discontinued second-opinion prompts on 2026-10-18. Do not prepare them unless asked.
+  Calibration is preparation only; retain the no-subagents and primary-verification policies.
 
 ## Review policy
 

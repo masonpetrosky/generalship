@@ -220,6 +220,17 @@ Napoleonic drafts follow this contract with six differences.
 
   `python3 -m generalship napoleonic-packet "<campaign group>"` writes a campaign's packet.
 
+Since 2026-10-18, brief v3 adds `research_completion` to new Napoleonic drafts: per-side claim
+references, population/time and command-scope notes, army-continuity uncertainty, additional
+sources inspected, one follow-up disposition and a stopping reason. The reproducible research
+screen checks this record on drafts outside the checkpoint's frozen 49-draft population.
+Earlier drafts are not silently migrated. The record is not an admitted feature or a resolved
+army registry. Calibration/pilot-bound drafts must retain their old bytes in
+`data/napoleonic/evidence/history/` before correction so their original hashes replay.
+
+Packets now default to a compact index; `--battle-id <ID>` loads one draft and `--full` builds
+the explicit compatibility view. The archive and exact source passages remain available.
+
 ## Research and review
 
 1. Prepare an assignment with `python3 -m generalship packet TN003`.
