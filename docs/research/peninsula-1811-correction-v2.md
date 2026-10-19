@@ -1,0 +1,11 @@
+# Peninsula 1811: Albuera table correction v2
+
+2026-10-19. Primary-verified, correcting an arithmetic limitation in the [first-pass record](peninsula-1811-first-pass-v1.md). No separate reviewer or subagent ran.
+
+Oman IV, printed p.632, gives **529 British officers and 9,920 men**, plus **10,201 Portuguese**: **20,650** in total. The printed summary below gives **20,358**. The **292-person difference** equals the separately printed KGL artillery row: **10 officers plus 282 men**. An omitted KGL row in the summary is a plausible explanation, not proof of the actual number present. Both totals exclude Spanish troops, and staff-present cells remain question marks.
+
+The retained full page image was re-inspected. A new manual source version preserves both sets of printed figures. The v1 source, page image, original B425a dossier (now retained in `evidence/history/`), first-pass memo and primary verification record remain unchanged. The current dossier marks the summary as disputed and adds the alternative calculation with both cited table selections. No total is silently repaired or averaged, and no historical model input changes.
+
+Final campaign counts are **19 drafts, 255 claims, 63 explicit unknowns and 199 citations**, with **162 added source records** and **4,238 total registered sources**. Overall coverage remains **170/325 entries in 9/16 complete groups**, with **155 missing drafts**. Across all Napoleonic dossiers there are **2,642 claims and 467 explicit unknowns**. The new arithmetic claim adds one screening flag: **23 campaign digit flags**, all individually inspected and disposed. Source-family sets remain the preassigned three per entry; this is a correction of the same inspected page, without a new follow-up cycle.
+
+Validation: source/evidence check, regenerated reports and packet, `make reproduce` and `make check`. The [v2 verification record](../../data/raw/napoleonic-peninsula-1811-v1/primary-verification-v2.json) binds the current dossier/source hashes and validation logs. The frame, cohort, prior 151 dossiers, old source records, model results and 47 prepared/unscored calibration tasks remain unchanged. The next group is `peninsula 1812`, eight entries.

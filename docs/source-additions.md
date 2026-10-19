@@ -5,6 +5,10 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Albuera table transcription v2, 2026-10-19
+
+One new manual source record, `oman-1911-t4-1811-p632-figures-v2`, binds the existing unchanged Oman IV p632 image and parent. It preserves the 20,358 printed summary alongside the officer/men and Portuguese totals summing to 20,650. Difference 292 matches the KGL artillery row, explicitly an arithmetic/table inference rather than an actual muster correction. All v1 records and bytes remain unchanged. Registry: **4,238 sources**, with **162 additions** across the Peninsula 1811 pass and correction. See the [v2 record](research/peninsula-1811-correction-v2.md).
+
 ## Peninsula 1811 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1811-first-pass-v1.md) appends **161 records**, reaching **4,237**: three unmodified full OCR parents, three metadata responses, three scan maps, 64 historical page images, three title images, 51 exact-range narrative selections and 34 manual numerical transcriptions. Existing Belmas I/III and Toreno IV parents are reused. All 4,076 prior records and pinned bytes remain unchanged.

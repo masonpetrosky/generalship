@@ -765,7 +765,7 @@ Frame record (mechanical extract; the printed entry above is authoritative):
 }
 ```
 
-Existing draft: `data/napoleonic/evidence/B425a.json`; SHA-256 `d930cec005f3e838c260a72de77ab8e7aff9a70fb109ab2c81dbf823a08f9d3d`; 13 claims, 3 unknowns.
+Existing draft: `data/napoleonic/evidence/B425a.json`; SHA-256 `3602da09c4c30478d464cb7c5c5b030411bc9897df487e35b408ee860930f920`; 14 claims, 3 unknowns.
 
 
 ### B425b: BELAGERUNG und ERSTÜRMUNG von Tarragona (5./5.—29./6. 1811)
@@ -1279,7 +1279,6 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `oman-1911-t4-1811-p317-selections-v1`: A History of the Peninsular War, volume IV, December 1810–December 1811; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1911-t4-1811-p317-selections-v1.txt
 - `belmas-1836-t1-1811-p182-figures-v1`: Journaux des sièges faits ou soutenus par les Français dans la Péninsule, de 1807 à 1814, tome premier; group `belmas-sieges-peninsule`; data/raw/napoleonic-peninsula-1811-v1/belmas-1836-t1-1811-p182-figures-v1.txt
 - `belmas-1836-t1-1811-p182-selections-v1`: Journaux des sièges faits ou soutenus par les Français dans la Péninsule, de 1807 à 1814, tome premier; group `belmas-sieges-peninsule`; data/raw/napoleonic-peninsula-1811-v1/belmas-1836-t1-1811-p182-selections-v1.txt
-- `oman-1911-t4-1811-p632-figures-v1`: A History of the Peninsular War, volume IV, December 1810–December 1811; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1911-t4-1811-p632-figures-v1.txt
 - `belmas-1836-t1-1811-p181-selections-v1`: Journaux des sièges faits ou soutenus par les Français dans la Péninsule, de 1807 à 1814, tome premier; group `belmas-sieges-peninsule`; data/raw/napoleonic-peninsula-1811-v1/belmas-1836-t1-1811-p181-selections-v1.txt
 - `oman-1911-t4-1811-p373-selections-v1`: A History of the Peninsular War, volume IV, December 1810–December 1811; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1911-t4-1811-p373-selections-v1.txt
 - `oman-1911-t4-1811-p603-figures-v1`: A History of the Peninsular War, volume IV, December 1810–December 1811; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1911-t4-1811-p603-figures-v1.txt
@@ -1314,3 +1313,4 @@ Reuse these where relevant before registering new ones (`data/sources.json` hold
 - `oman-1914-t5-1811-p123-selections-v1`: A History of the Peninsular War, volume V, October 1811–August 31, 1812; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1914-t5-1811-p123-selections-v1.txt
 - `oman-1914-t5-1811-p113-selections-v1`: A History of the Peninsular War, volume V, October 1811–August 31, 1812; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1914-t5-1811-p113-selections-v1.txt
 - `belmas-1836-t1-1811-p203-selections-v1`: Journaux des sièges faits ou soutenus par les Français dans la Péninsule, de 1807 à 1814, tome premier; group `belmas-sieges-peninsule`; data/raw/napoleonic-peninsula-1811-v1/belmas-1836-t1-1811-p203-selections-v1.txt
+- `oman-1911-t4-1811-p632-figures-v2`: A History of the Peninsular War, volume IV, December 1810–December 1811; group `oman-peninsular-war`; data/raw/napoleonic-peninsula-1811-v1/oman-1911-t4-1811-p632-figures-v2.txt

@@ -12,6 +12,12 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Peninsula 1811 Albuera table correction, 2026-10-19
+
+The [v2 correction](research/peninsula-1811-correction-v2.md) preserves Oman's inconsistent Albuera totals: printed summary 20,358 versus 20,650 from British/Portuguese totals. The difference 292 matches the KGL artillery row; an omitted summary row is an inference, not a repaired actual muster. The unchanged image was re-inspected, v1 source/record retained, original dossier preserved in history, and a new manual source version registered.
+
+Current campaign totals: **19 drafts, 255 claims, 63 unknowns, 199 citations**, **162 added sources**, **4,238 registered sources overall**. The additional arithmetic claim brings the campaign to 23 digit flags, all primary-disposed. Evidence checks, `make reproduce`, `make check` and the prepared packet were refreshed. Coverage remains **170/325 in 9/16 complete groups**; no frozen/model/calibration input changed. No separate review, subagent or new source family. Next: `peninsula 1812`, eight entries. Usage unavailable.
+
 ## Peninsula 1811 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1811-first-pass-v1.md) adds **19/19 drafts, 254 claims, 63 explicit unknowns and 197 citations**. All nine dimensions and 38 side-level completion records are covered; army continuity and replacement boundaries remain unknown. Tarifa/Valencia keep their January 1812 endpoints. Work is primary-verified, without subagents, separate review, second opinions, follow-up cycles or model jobs.

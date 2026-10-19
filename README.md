@@ -46,7 +46,7 @@ As of 2026-10-19:
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
   were weakly recovered on the provisional label schedule. No historical outcome was fitted.
-  The [Peninsula 1811 pass](docs/research/peninsula-1811-first-pass-v1.md) preserves differing force
+  The [Peninsula 1811 pass and correction](docs/research/peninsula-1811-correction-v2.md) preserves differing force
   populations, command phases and chronology disputes, including January 1812 siege endpoints. Next: the 8 land entries of `peninsula 1812`
   ([roadmap](docs/roadmap.md)).
 

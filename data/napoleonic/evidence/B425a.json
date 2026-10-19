@@ -85,13 +85,13 @@
     {
       "id": "anglo-portuguese-subtotal",
       "dimension": "strength",
-      "value": "Side B: Oman’s table gives 20,358 British/Portuguese all arms, excluding the Spanish contingent.",
-      "status": "supported",
+      "value": "Side B: Oman’s printed summary gives 20,358 British/Portuguese all arms, excluding the Spanish contingent.",
+      "status": "disputed",
       "phase": "unresolved",
-      "rationale": "Printed component table, not whole allied force. British staff present columns show question marks above; retain that incompleteness. Portuguese original returns uninspected. No double addition of officers already included.",
+      "rationale": "Printed component table, not whole allied force. British staff present columns show question marks above; retain that incompleteness. Portuguese original returns uninspected. No double addition of officers already included. Internal arithmetic discrepancy: the same page’s separate British and Portuguese totals sum to 20,650, 292 higher; see oman-table-total-alternative. No actual muster is repaired from this inconsistency.",
       "citations": [
         {
-          "source_id": "oman-1911-t4-1811-p632-figures-v1",
+          "source_id": "oman-1911-t4-1811-p632-figures-v2",
           "section": "p632-s1",
           "locator": "oman4, printed p. 632, Internet Archive leaf 695; retained page image inspected",
           "quote": "GRAND TOTAL OF BERESFORD’S ARMY. Infantry: British, 8,738; Portuguese, 9,131 = 17,869. Cavalry: British, 1,164; Portuguese, 849 = 2,013. Artillery: British, 255; Portuguese, 221 = 476. Grand Total 20,358 of all arms."
@@ -205,9 +205,32 @@
       "phase": "unresolved",
       "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
       "citations": []
+    },
+    {
+      "id": "oman-table-total-alternative",
+      "dimension": "strength",
+      "value": "Side B: Oman’s separate totals print 529 British officers and 9,920 men, plus 10,201 Portuguese; their sum is 20,650, versus the printed 20,358 summary.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Arithmetic from the inspected printed columns: 529 + 9,920 + 10,201 = 20,650; 20,650 - 20,358 = 292, matching the separately listed KGL artillery row (10 officers + 282 men). This suggests an omitted KGL row in the printed summary, but that is an inference about the table, not proof of actual present strength. Staff-present cells are question marks. Spanish troops are excluded from both totals; no averaging or silent correction.",
+      "citations": [
+        {
+          "source_id": "oman-1911-t4-1811-p632-figures-v2",
+          "section": "p632-s2",
+          "locator": "Oman IV, printed p.632, IA leaf695; same retained full page image re-inspected for officer/men columns and KGL row",
+          "quote": "Present. Officers. Men. K.G.L. (Batteries of Cleeves and Sympher): 10 282. Staff: ? ?. Grand Total of British: 529 9,920. II. PORTUGUESE TROOPS. Grand Total of Portuguese 10,201."
+        },
+        {
+          "source_id": "oman-1911-t4-1811-p632-figures-v2",
+          "section": "p632-s1",
+          "locator": "oman4, printed p. 632, Internet Archive leaf 695; retained page image inspected",
+          "quote": "GRAND TOTAL OF BERESFORD’S ARMY. Infantry: British, 8,738; Portuguese, 9,131 = 17,869. Cavalry: British, 1,164; Portuguese, 849 = 2,013. Artillery: British, 255; Portuguese, 221 = 476. Grand Total 20,358 of all arms."
+        }
+      ]
     }
   ],
   "open_questions": [
+    "Oman IV p632 has inconsistent totals: 20,358 summary versus 20,650 from separate British/Portuguese totals; difference292 matches KGL artillery. Original returns are needed to resolve actual strength; both alternatives preserved.",
     "Matched dated French strength and full allied Spanish return remain unestablished. Oman’s British/Portuguese subtotal excludes Spaniards and leaves staff present unknown; retain coalition command scopes and avoid casualty-based opening reconstruction.",
     "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
     "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
@@ -231,9 +254,10 @@
       "B": {
         "strength_claim_ids": [
           "bodart-strength",
-          "anglo-portuguese-subtotal"
+          "anglo-portuguese-subtotal",
+          "oman-table-total-alternative"
         ],
-        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 18,000 (14,000 infantry, 4,000 cavalry); side B (Allied British/Portuguese/Spanish): 32,000 (30,000 infantry, 2,000 cavalry). Side B: Oman’s table gives 20,358 British/Portuguese all arms, excluding the Spanish contingent.",
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 18,000 (14,000 infantry, 4,000 cavalry); side B (Allied British/Portuguese/Spanish): 32,000 (30,000 infantry, 2,000 cavalry). Side B: Oman’s table gives 20,358 British/Portuguese all arms, excluding the Spanish contingent. Oman’s same-page totals are internally inconsistent: printed summary20,358 versus component-derived20,650, differing by the KGL artillery row292; unresolved, not an actual opening-return repair.",
         "command_claim_ids": [
           "bodart-command",
           "beresford-interception"
