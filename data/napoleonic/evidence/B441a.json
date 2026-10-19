@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "battle_id": "B441a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Burgos interval 1812-09-19–1812-10-21 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 2,000 garrison; side B (Anglo-Portuguese): 32,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 2,000 garrison; side B (Anglo-Portuguese): 32,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Burgos; full retained page image inspected",
+          "quote": "Die französische Besatzung (2.000 M. mit 26 Geschützen) unter Brig.-Gen. Dubreton behauptet sich erfolgreich gegen alle Angriffe (5 Stürme) des anglo-portugiesischen Heeres (32.000 M. mit 42 Gesch.) unter Generalissimus Gen.-Lt. Lord Wellington."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Dubreton; side B under Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Dubreton; opposing command: Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Burgos; full retained page image inspected",
+          "quote": "Die französische Besatzung (2.000 M. mit 26 Geschützen) unter Brig.-Gen. Dubreton behauptet sich erfolgreich gegen alle Angriffe (5 Stürme) des anglo-portugiesischen Heeres (32.000 M. mit 42 Gesch.) unter Generalissimus Gen.-Lt. Lord Wellington."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Burgos; full retained page image inspected",
+          "quote": "Die französische Besatzung (2.000 M. mit 26 Geschützen) unter Brig.-Gen. Dubreton behauptet sich erfolgreich gegen alle Angriffe (5 Stürme) des anglo-portugiesischen Heeres (32.000 M. mit 42 Gesch.) unter Generalissimus Gen.-Lt. Lord Wellington."
+        }
+      ]
+    },
+    {
+      "id": "french-castle-garrison",
+      "dimension": "strength",
+      "value": "Side A: Belmas gives 2,000 in Burgos castle under Dubreton.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Opening narrative garrison; Souham’s later relief army is not added to it. Not a dated original all-ranks return. English rendering (ours): \"Leaving two thousand men in Burgos castle under General Dubreton.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p239-figures-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected",
+          "quote": "laissant dans le château de Burgos deux mille hommes sous les ordres du général Dubreton,"
+        }
+      ]
+    },
+    {
+      "id": "dubreton-local-command",
+      "dimension": "responsibility",
+      "value": "Side A: Dubreton commanded the castle garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Belmas’s adjacent Clausel/Souham field-army succession is distinct from fortress authority. English rendering (ours): \"The castle garrison was under General Dubreton.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p239-figures-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected",
+          "quote": "laissant dans le château de Burgos deux mille hommes sous les ordres du général Dubreton,"
+        }
+      ]
+    },
+    {
+      "id": "allied-available-army",
+      "dimension": "strength",
+      "value": "Side B: Oman gives 28,000 Anglo-Portuguese and 11,000 Galicians at Wellington’s disposal.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Wider northern army availability, including covering forces, not local besiegers or all engaged. No silent replacement of Bodart’s 32,000 by their sum.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p19-figures-v1",
+          "section": "p19-s1",
+          "locator": "oman6, printed p. 19, Internet Archive leaf 36; retained page image inspected",
+          "quote": "the 28,000 Anglo-Portuguese and 11,000 Galicians who were at his disposition,"
+        }
+      ]
+    },
+    {
+      "id": "local-siege-headcount-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: local besieging all-ranks total is not recovered here. Wider army availability and gunners in the limited reserve are different populations; Bodart’s frozen parser field “5 Stürme” is an assault count, not people, so only its inspected narrative 32,000 is used.",
+      "citations": []
+    },
+    {
+      "id": "wellington-siege-direction",
+      "dimension": "responsibility",
+      "value": "Side B: Belmas says Wellington occupied the town and undertook the castle siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "French author’s critical framing retained as attribution; no verified counterfactual or campaign credit. Town occupation precedes frozen 19-September siege start. English rendering (ours): \"Wellington occupied Burgos on the eighteenth and, instead of pursuing the remnants of the Army of Portugal, undertook the castle siege.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p239-selections-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Lord Wellington occupa la ville de Burgos le 18, et, au Beu de poursuivre à outrance les débris de l'armée de Portugal, il entreprit le siège du château"
+        }
+      ]
+    },
+    {
+      "id": "allied-siege-posture",
+      "dimension": "posture",
+      "value": "Side B undertook the castle siege.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"He undertook the castle siege.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p239-selections-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Lord Wellington occupa la ville de Burgos le 18, et, au Beu de poursuivre à outrance les débris de l'armée de Portugal, il entreprit le siège du château"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "san-miguel-hornwork",
+      "dimension": "fortification",
+      "value": "Side A held an unfinished hornwork covering the northern plateau.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same page describes earthwork, ditch and recently added rear palisades. Works predate siege but authorship and replacement timing vary.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p23-selections-v1",
+          "section": "p23-s1",
+          "locator": "oman6, printed p. 23, Internet Archive leaf 40; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "The hornwork of San Miguel, which covered the important plateau to the north, had never been properly finished"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "northern-plateau",
+      "dimension": "terrain",
+      "value": "The northern plateau was covered by San Miguel’s hornwork.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Natural plateau context distinct from construction of the hornwork.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p23-selections-v1",
+          "section": "p23-s1",
+          "locator": "oman6, printed p. 23, Internet Archive leaf 40; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "The hornwork of San Miguel, which covered the important plateau to the north, had never been properly finished"
+        }
+      ]
+    },
+    {
+      "id": "garrison-delay-objective",
+      "dimension": "objectives",
+      "value": "Oman characterizes Dubreton’s instructions as delaying the enemy as long as possible.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Mediated instruction, original order uninspected; source’s subsequent praise and hypothetical campaign effect are not adopted.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p24-selections-v1",
+          "section": "p24-s1",
+          "locator": "oman6, printed p. 24, Internet Archive leaf 41; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Dubreton's orders were to keep his enemy detained as long as possible"
+        }
+      ]
+    },
+    {
+      "id": "insufficient-battering-train",
+      "dimension": "logistics",
+      "value": "Oman says Wellington lacked a sufficient battering train for a regular siege.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Same page distinguishes nearby limited reserve from distant arsenals. Author’s adequacy assessment, not a numerical readiness index or causal effect.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p25-selections-v1",
+          "section": "p25-s1",
+          "locator": "oman6, printed p. 25, Internet Archive leaf 42; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "He had no sufficient battering-train for a regular siege"
+        }
+      ]
+    },
+    {
+      "id": "burgos-withdrawal-night",
+      "dimension": "outcome",
+      "value": "Oman dates the final withdrawal from the works to the night of 21–22 October.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "21-October final orders are explicit above; frozen 19-September–21-October interval preserved. Orders and overnight departure are distinct, without redefining the frame.",
+      "citations": [
+        {
+          "source_id": "oman-1922-t6-1812-p48-figures-v1",
+          "section": "p48-s1",
+          "locator": "oman6, printed p. 48, Internet Archive leaf 65; retained page image inspected",
+          "quote": "On the night of the 21st–22nd, Pack’s brigade and the other troops left to hold the works retired,"
+        }
+      ]
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Wider allied army availability is not a local siege headcount; French original garrison/command orders remain uninspected. Relief field-army authority is distinct from Dubreton. Preserve 21-October orders versus night21–22 withdrawal, the frozen parser anomaly, and unresolved replacement/army identities.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-castle-garrison"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 2,000 garrison; side B (Anglo-Portuguese): 32,000. Side A: Belmas gives 2,000 in Burgos castle under Dubreton.",
+        "command_claim_ids": [
+          "bodart-command",
+          "dubreton-local-command"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Dubreton; side B under Wellington. Side A: Dubreton commanded the castle garrison.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "allied-available-army",
+          "local-siege-headcount-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 2,000 garrison; side B (Anglo-Portuguese): 32,000. Side B: Oman gives 28,000 Anglo-Portuguese and 11,000 Galicians at Wellington’s disposal. Side B: local besieging all-ranks total is not recovered here. Wider army availability and gunners in the limited reserve are different populations; Bodart’s frozen parser field “5 Stürme” is an assault count, not people, so only its inspected narrative 32,000 is used.",
+        "command_claim_ids": [
+          "bodart-command",
+          "wellington-siege-direction"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Dubreton; side B under Wellington. Side B: Belmas says Wellington occupied the town and undertook the castle siege.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1922-t6-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Wider allied army availability is not a local siege headcount; French original garrison/command orders remain uninspected. Relief field-army authority is distinct from Dubreton. Preserve 21-October orders versus night21–22 withdrawal, the frozen parser anomaly, and unresolved replacement/army identities."
+    ]
+  }
+}

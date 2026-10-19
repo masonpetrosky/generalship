@@ -41,13 +41,13 @@ As of 2026-10-19:
   cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
   engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
   war against Prussia, the 19 of the 1807 group, and the Peninsula groups of 1808 (17) and
-  1809 (19), 1810 (11) and 1811 (19), plus the Fifth Coalition of 1809 (36), have drafts: **170/325 across nine complete
+  1809 (19), 1810 (11), 1811 (19) and 1812 (8), plus the Fifth Coalition of 1809 (36), have drafts: **178/325 across ten complete
   groups**, primary-verified by campaign.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
   simulation improved prediction despite zero commander effects, and planted commander effects
   were weakly recovered on the provisional label schedule. No historical outcome was fitted.
-  The [Peninsula 1811 pass and correction](docs/research/peninsula-1811-correction-v2.md) preserves differing force
-  populations, command phases and chronology disputes, including January 1812 siege endpoints. Next: the 8 land entries of `peninsula 1812`
+  The [Peninsula 1812 pass](docs/research/peninsula-1812-first-pass-v1.md) preserves differing force
+  populations, command phases and chronology disputes, including separate Salamanca siege and field entries. Next: the 31 land entries of `russia-1812 1812`
   ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced

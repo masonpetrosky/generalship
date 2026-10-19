@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "battle_id": "B431a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Badajoz interval 1812-03-17–1812-04-09 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 5,000 garrison; side B (Anglo-Portuguese): 51,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 5,000 garrison; side B (Anglo-Portuguese): 51,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Badajoz; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen (51.000 M. mit 92 Geschützen) unter Lord Wellington nehmen nach dreiwöchentlicher Beschießung die von 5.000 Franzosen unter Div.-Gen. Baron Philippon verteidigten Festungswerke mit Sturm. Die britischen Truppen befleckten ihren Sieg durch beispiellose Exzesse während der dreitägigen Plünderung der Stadt."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Philippon; side B under Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Philippon; opposing command: Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Badajoz; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen (51.000 M. mit 92 Geschützen) unter Lord Wellington nehmen nach dreiwöchentlicher Beschießung die von 5.000 Franzosen unter Div.-Gen. Baron Philippon verteidigten Festungswerke mit Sturm. Die britischen Truppen befleckten ihren Sieg durch beispiellose Exzesse während der dreitägigen Plünderung der Stadt."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Badajoz; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen (51.000 M. mit 92 Geschützen) unter Lord Wellington nehmen nach dreiwöchentlicher Beschießung die von 5.000 Franzosen unter Div.-Gen. Baron Philippon verteidigten Festungswerke mit Sturm. Die britischen Truppen befleckten ihren Sieg durch beispiellose Exzesse während der dreitägigen Plünderung der Stadt."
+        }
+      ]
+    },
+    {
+      "id": "belmas-garrison",
+      "dimension": "strength",
+      "value": "Side A: Belmas gives 5,000 garrison.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side retrospective rounded count; not a dated original opening return or surrender survivor count. English rendering (ours): \"The garrison, five thousand strong.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p219-figures-v1",
+          "section": "p219-s1",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected",
+          "quote": "La garnison, forte de cinq mille hommes,"
+        }
+      ]
+    },
+    {
+      "id": "mediated-march15-garrison-table",
+      "dimension": "strength",
+      "value": "Side A: Oman’s reproduced 15-March table totals 5,003 including sick and non-combatants.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Components sum to the printed 5,003. Table cites Belmas IV and Jones; originals uninspected and derivative material is not independent corroboration. Oman explicitly questions the table against a later governor’s report; 5,003 is retained as the printed alternative, not a resolved truth.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p593-figures-v1",
+          "section": "p593-s1",
+          "locator": "oman5, printed p. 593, Internet Archive leaf 648; retained page image inspected",
+          "quote": "THE SIEGE OF BADAJOZ, MARCH 15–APRIL 6, 1812. (A) STRENGTH OF THE FRENCH GARRISON ON MARCH 15. Staff 25; Infantry: 3/9th Léger 580, 1/28th Léger 597, 1/58th Ligne 450, 3/88th Ligne 600, 3/103rd Ligne 540, 64th Ligne (2 companies) 130, Hesse-Darmstadt (2 batts.) 910, Juramentados 54 = 3,861 infantry. Cavalry 42; Artillery 261; Engineers and Sappers 260; Sick in Hospital 300; Civil Departments, non-combatants, &c. 254. Total 5,003."
+        }
+      ]
+    },
+    {
+      "id": "beresford-investing-corps",
+      "dimension": "strength",
+      "value": "Side B: Oman gives 12,000 bayonets in the initial investing corps under Beresford.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "16-March investment described above on the same page. Infantry population, distinct from covering army, all arms and Bodart’s 51,000. No inference that every bayonet assaulted.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p228-figures-v1",
+          "section": "p228-s1",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected",
+          "quote": "The investing corps of 12,000 bayonets was under Beresford,"
+        }
+      ]
+    },
+    {
+      "id": "beresford-local-role",
+      "dimension": "responsibility",
+      "value": "Side B: Beresford commanded the initial investing corps; Wellington remained superior army commander.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Wellington’s requests and the covering-force arrangements are explicit on the same inspected page. No uninterrupted sole siege command inferred.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p228-figures-v1",
+          "section": "p228-s1",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected",
+          "quote": "The investing corps of 12,000 bayonets was under Beresford,"
+        }
+      ]
+    },
+    {
+      "id": "belmas-allied-army",
+      "dimension": "strength",
+      "value": "Side B: Belmas gives 45,000 in Wellington’s army moving from Elvas to invest Badajoz on 16 March.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Enemy estimate of army movement; subsequent Graham/Hill covering detachments are not added to the local investing corps. Different scope/date from the frozen 17-March start and Bodart 51,000. English rendering (ours): \"He departed on the sixteenth of March with forty-five thousand men and invested Badajoz the same day.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p219-figures-v1",
+          "section": "p219-s2",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected",
+          "quote": "Il en partit le 16 mars avec quarante-cinq mille hommes, et vint le jour même investir Badajoz."
+        }
+      ]
+    },
+    {
+      "id": "philippon-governor",
+      "dimension": "responsibility",
+      "value": "Side A: Philippon governed the fortress.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Post-storm continuation describes his retreat into San Cristobal and next-day capitulation; no precise command-transfer clock inferred. English rendering (ours): \"General Philippon, governor of the place.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p219-selections-v1",
+          "section": "p219-s1",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le général Philippon, gouverneur"
+        }
+      ]
+    },
+    {
+      "id": "french-held-walls",
+      "dimension": "fortification",
+      "value": "Side A remained within fortress walls during the investment.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p228-selections-v1",
+          "section": "p228-s1",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "the garrison kept within the walls"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "allied-investment",
+      "dimension": "posture",
+      "value": "Side B’s divisions crossed and invested Badajoz.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p228-selections-v1",
+          "section": "p228-s2",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "the 3rd, 4th, and Light Divisions passed, and invested Badajoz without meeting any opposition"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "guadiana-covering-movement",
+      "dimension": "terrain",
+      "value": "Oman places Graham’s covering force crossing the Guadiana separately from the investment.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "River inherited; chosen covering deployment created, without a causal effect estimate.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p228-selections-v1",
+          "section": "p228-s3",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Graham with the 1st, 6th, and 7th Divisions, and Slade's and Le Marchant's horse, crossed the Guadiana"
+        }
+      ]
+    },
+    {
+      "id": "badajoz-storm-date",
+      "dimension": "outcome",
+      "value": "Belmas dates the escalade to the night of 6–7 April, before Bodart’s 9-April endpoint.",
+      "status": "disputed",
+      "phase": "post_outcome",
+      "rationale": "Frozen 17-March–9-April interval preserved; storm, governor’s later capitulation and subsequent events are not collapsed into one date. English rendering (ours): \"Badajoz was taken by escalade on the night of the sixth to seventh of April, after twenty-one days of siege.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p219-figures-v1",
+          "section": "p219-s3",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected",
+          "quote": "Badajoz fut pris par escalade dans la nuit du 6 au 7 avril, après vingt et un jours de siège."
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Different populations persist: 45,000/51,000 army, 12,000 investing bayonets, 5,000/5,003 garrison. Original dated all-ranks returns/orders and command timing through the full 9-April endpoint are uninspected; 6–7-April storm remains an explicit chronology alternative.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "belmas-garrison",
+          "mediated-march15-garrison-table"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 5,000 garrison; side B (Anglo-Portuguese): 51,000. Side A: Belmas gives 5,000 garrison. Side A: Oman’s reproduced 15-March table totals 5,003 including sick and non-combatants.",
+        "command_claim_ids": [
+          "bodart-command",
+          "philippon-governor"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Philippon; side B under Wellington. Side A: Philippon governed the fortress.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "beresford-investing-corps",
+          "belmas-allied-army"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 5,000 garrison; side B (Anglo-Portuguese): 51,000. Side B: Oman gives 12,000 bayonets in the initial investing corps under Beresford. Side B: Belmas gives 45,000 in Wellington’s army moving from Elvas to invest Badajoz on 16 March.",
+        "command_claim_ids": [
+          "bodart-command",
+          "beresford-local-role"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Philippon; side B under Wellington. Side B: Beresford commanded the initial investing corps; Wellington remained superior army commander.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1914-t5-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Different populations persist: 45,000/51,000 army, 12,000 investing bayonets, 5,000/5,003 garrison. Original dated all-ranks returns/orders and command timing through the full 9-April endpoint are uninspected; 6–7-April storm remains an explicit chronology alternative."
+    ]
+  }
+}

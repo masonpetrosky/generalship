@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "battle_id": "B432b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Salamanca interval 1812-07-22–1812-07-22 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 42,000 (38,000 infantry, 4,000 cavalry); side B (Anglo-Portuguese): 46,000 (40,000 infantry, 6,000 cavalry).",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 42,000 (38,000 infantry, 4,000 cavalry); side B (Anglo-Portuguese): 46,000 (40,000 infantry, 6,000 cavalry).\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "40.000 | Infanterie | 38.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "6.000 | Kavallerie | 4.000"
+        },
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "60 Gesch. 46.000 | Gesamt-Stärke | 42.000 Gesch. 74"
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Marmont; side B under Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Marmont; opposing command: Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "Gen.-Lt. Lord Wellington | Marschall Marmont"
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "Anglo-Portugiesen | Franzosen"
+        }
+      ]
+    },
+    {
+      "id": "oman-allied-battle-table",
+      "dimension": "strength",
+      "value": "Side B: Oman’s allied table prints 51,939, comprising 30,562 British, 18,017 Portuguese and 3,360 Spanish.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Officers plus men, not all personally engaged; national subtotals and officer/men columns sum to the printed total. British synthesis mediates Portuguese/Spanish returns; original dated local musters not inspected. Definition and timing crosswalk to Bodart’s 46,000 infantry/cavalry reference remains unresolved; no officer or Spanish-contingent exclusion is inferred for Bodart.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p599-figures-v1",
+          "section": "p599-s1",
+          "locator": "oman5, printed p. 599, Internet Archive leaf 654; retained page image inspected",
+          "quote": "GENERAL TOTAL. Strength. British: Officers 1,526, Men 29,036, Total 30,562. Portuguese: Officers 912, Men 17,105, Total 18,017. Spanish: Officers 160, Men 3,200, Total 3,360. Total: Officers 2,598, Men 49,341, Total 51,939."
+        }
+      ]
+    },
+    {
+      "id": "oman-inferred-french-strength",
+      "dimension": "strength",
+      "value": "Side A: Oman estimates about 48,500 at Salamanca from a 49,636-person 15-July return minus earlier losses and stragglers.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Explicit enemy historian’s inference, not a 22-July opening muster or French own-side count recovered here. Later paragraph excludes distant garrisons/depots/sick; “fighting” population still has train/combatant ambiguity. His rounded allied 50,000 is also distinct from the printed 51,939 table. No loss subtraction adopted as our own reconstruction.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p600-figures-v1",
+          "section": "p600-s1",
+          "locator": "oman5, printed p. 600, Internet Archive leaf 655; retained page image inspected",
+          "quote": "It consisted of the 49,636 officers and men accounted for by the return of July 15th printed on the next page, minus some 700 men lost at the combats of Castrillo and Castrejon [also called “combat of the Guarena”] on July 18, and such few hundreds more as may have fallen behind from fatigue during the long marches of July 20–1. Roughly speaking, it must have counted some 48,500 men, as opposed to Wellington’s 50,000."
+        }
+      ]
+    },
+    {
+      "id": "french-own-matched-return-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: no matched French own-side 22-July people total established in the bounded Marmont passages. Oman’s reconstruction and Bodart’s 42,000 are retained as source-specific alternatives, not converted into a resolved opening force.",
+      "citations": []
+    },
+    {
+      "id": "marmont-bonnet-disposition",
+      "dimension": "responsibility",
+      "value": "Side A: Marmont says he ordered Bonnet to occupy the French Arapile.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Interested self-account of an order, not proof that every later deployment followed his intent. English rendering (ours): \"I ordered General Bonnet to occupy the Arapile belonging to the position we were to take.\"",
+      "citations": [
+        {
+          "source_id": "marmont-1857-t4-1812-p235-selections-v1",
+          "section": "p235-s1",
+          "locator": "marmont4, printed p. 235, Internet Archive leaf 242; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Je donnai l'ordre au général Bonnet de ûiire occuper celui qui apparte- nait à la position que nous devions prendre"
+        }
+      ]
+    },
+    {
+      "id": "marmont-bonnet-clausel-succession",
+      "dimension": "responsibility",
+      "value": "Side A: Marmont reports command passing to Bonnet after his wounding, then to Clausel after Bonnet was wounded.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "The same page describes Marmont’s disabling wounds. Rapid succession is retained; exact handover times, effective control and tactical/campaign replacement boundaries remain unset. His claim that this meant no command is not adopted. English rendering (ours): \"Command passed first to General Bonnet, who was wounded shortly afterwards, then to General Clausel.\"",
+      "citations": [
+        {
+          "source_id": "marmont-1857-t4-1812-p240-selections-v1",
+          "section": "p240-s1",
+          "locator": "marmont4, printed p. 240, Internet Archive leaf 247; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le commandement passa d'abord au général Bonnet, qui, peu après, fut blessé, puis au général Clausel"
+        }
+      ]
+    },
+    {
+      "id": "wellington-pakenham-task",
+      "dimension": "responsibility",
+      "value": "Side B: Oman says Wellington personally initiated Pakenham’s turning movement.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Same page distinguishes D’Urban’s flank-cover task; reproduced diarists remain mediated and no exclusive commander credit follows.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p436-selections-v1",
+          "section": "p436-s1",
+          "locator": "oman5, printed p. 436, Internet Archive leaf 485; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Pakenham's turning movement was the most delicate part of the plan ; wherefore Wellington resolved to start it himself"
+        }
+      ]
+    },
+    {
+      "id": "allied-field-attack",
+      "dimension": "posture",
+      "value": "Side B attacked the French western plateau and marching left.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Principal allied attack retained; French manoeuvre and later responses are not automatically coded as independent initiation.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p436-selections-v1",
+          "section": "p436-s2",
+          "locator": "oman5, printed p. 436, Internet Archive leaf 485; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Pakenham was about to attack the western end of the plateau where Thomieres was moving"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "arapiles-knolls",
+      "dimension": "terrain",
+      "value": "Marmont describes the two isolated Arapiles knolls between the armies.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "English rendering (ours): \"Between us and the English were two isolated knolls called the Arapiles.\"",
+      "citations": [
+        {
+          "source_id": "marmont-1857-t4-1812-p235-selections-v1",
+          "section": "p235-s2",
+          "locator": "marmont4, printed p. 235, Internet Archive leaf 242; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "11 y avait, entre nous et les Anglais, deux mame- lons isolés appelés les Arapilès"
+        }
+      ]
+    },
+    {
+      "id": "marmont-expected-rearguard",
+      "dimension": "information",
+      "value": "Marmont says he expected a rearguard combat rather than a general battle.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Retrospective self-defence and asserted expectation, not verified Wellington intent, a morale score or a causal skill finding. English rendering (ours): \"I expected our respective positions to bring about not a battle but a favourable rearguard combat.\"",
+      "citations": [
+        {
+          "source_id": "marmont-1857-t4-1812-p237-selections-v1",
+          "section": "p237-s1",
+          "locator": "marmont4, printed p. 237, Internet Archive leaf 244; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Je comptais que nos positions respectives amène- raient non une bataille, mais un bon combat d'ar- rière-garde"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French matched own-side local total missing; Oman’s 48,500 is an inferred and definition-sensitive alternative, allied 51,939 includes officers/Spanish contingent. Exact Marmont–Bonnet–Clausel handovers and initial versus later posture remain uncertain; Marmont’s blame claims and counterfactual expectations are not validated.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-inferred-french-strength",
+          "french-own-matched-return-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 42,000 (38,000 infantry, 4,000 cavalry); side B (Anglo-Portuguese): 46,000 (40,000 infantry, 6,000 cavalry). Side A: Oman estimates about 48,500 at Salamanca from a 49,636-person 15-July return minus earlier losses and stragglers. Side A: no matched French own-side 22-July people total established in the bounded Marmont passages. Oman’s reconstruction and Bodart’s 42,000 are retained as source-specific alternatives, not converted into a resolved opening force.",
+        "command_claim_ids": [
+          "bodart-command",
+          "marmont-bonnet-disposition",
+          "marmont-bonnet-clausel-succession"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Marmont; side B under Wellington. Side A: Marmont says he ordered Bonnet to occupy the French Arapile. Side A: Marmont reports command passing to Bonnet after his wounding, then to Clausel after Bonnet was wounded.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "oman-allied-battle-table"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 42,000 (38,000 infantry, 4,000 cavalry); side B (Anglo-Portuguese): 46,000 (40,000 infantry, 6,000 cavalry). Side B: Oman’s allied table prints 51,939, comprising 30,562 British, 18,017 Portuguese and 3,360 Spanish.",
+        "command_claim_ids": [
+          "bodart-command",
+          "wellington-pakenham-task"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Marmont; side B under Wellington. Side B: Oman says Wellington personally initiated Pakenham’s turning movement.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "marmont-1857-t4-ocr-v1",
+      "oman-1914-t5-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French matched own-side local total missing; Oman’s 48,500 is an inferred and definition-sensitive alternative, allied 51,939 includes officers/Spanish contingent. Exact Marmont–Bonnet–Clausel handovers and initial versus later posture remain uncertain; Marmont’s blame claims and counterfactual expectations are not validated."
+    ]
+  }
+}

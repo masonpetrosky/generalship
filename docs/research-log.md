@@ -18,6 +18,14 @@ The [v2 correction](research/peninsula-1811-correction-v2.md) preserves Oman's i
 
 Current campaign totals: **19 drafts, 255 claims, 63 unknowns, 199 citations**, **162 added sources**, **4,238 registered sources overall**. The additional arithmetic claim brings the campaign to 23 digit flags, all primary-disposed. Evidence checks, `make reproduce`, `make check` and the prepared packet were refreshed. Coverage remains **170/325 in 9/16 complete groups**; no frozen/model/calibration input changed. No separate review, subagent or new source family. Next: `peninsula 1812`, eight entries. Usage unavailable.
 
+## Peninsula 1812 complete first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1812-first-pass-v1.md) adds **8/8 drafts, 120 claims, 24 explicit unknowns and 99 citations**, covering all nine dimensions and 16 side-level checklists. Army continuity and replacement boundaries stay unknown. Source families were fixed before substantive reading and match every final three-family set; no fourth family, follow-up cycle, separate review, subagent, second opinion or model job ran.
+
+The registry adds 86 records, reaching 4,324, including Marmont IV (1857), Oman VI (1922), 34 cited historical page images, exact-range selections and manual numerical transcriptions. All 4,238 earlier records and 170 dossiers remain unchanged. Table arithmetic was rechecked; local garrisons, investing corps, covering armies and inferred French Salamanca strength remain distinct. Peñíscola/Badajoz/Burgos chronology alternatives, Altafulla command attribution and Salamanca's fort-name crosswalk stay explicit. The campaign record and raw notes give complete per-entry counts and deferred gaps; 12 new digit flags have primary dispositions.
+
+Source/evidence checks, screen, packet regeneration, `make reproduce` and `make check` passed; generated reports inspected. No model/frozen input changed or feature admitted; calibration stays 47 prepared/unscored. Coverage is **178/325 in 10/16 complete groups**, **147 remaining**. Next chronological group: `russia-1812 1812`, **31 land entries**. Usage unknown; no complete meter exposed.
+
 ## Peninsula 1811 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1811-first-pass-v1.md) adds **19/19 drafts, 254 claims, 63 explicit unknowns and 197 citations**. All nine dimensions and 38 side-level completion records are covered; army continuity and replacement boundaries remain unknown. Tarifa/Valencia keep their January 1812 endpoints. Work is primary-verified, without subagents, separate review, second opinions, follow-up cycles or model jobs.

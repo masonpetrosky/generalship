@@ -41,7 +41,7 @@ registry, and the worked campaign specification remains not estimable. All resul
 are retained. Compact packets, brief v3's checklist and reproducible research screens are in
 use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or subagent ran.
 
-**Research coverage:** 170 of 325 entries in nine of 16 complete groups, all primary-verified:
+**Research coverage:** 178 of 325 entries in ten of 16 complete groups, all primary-verified:
 
 | Group | Drafts | Recorded usage |
 | --- | ---: | ---: |
@@ -54,10 +54,11 @@ use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or
 | `fifth-coalition 1809` | 36 | unavailable; no complete meter exposed |
 | `peninsula 1810` | 11 | unavailable; no complete meter exposed |
 | `peninsula 1811` | 19 | unavailable; no complete meter exposed |
+| `peninsula 1812` | 8 | unavailable; no complete meter exposed |
 
 The [research log](research-log.md) retains every batch, whole-group check and correction.
-The remaining 155 entries have no drafts. The next group is
-`peninsula 1812` (8 cohort land entries), using brief v3's field checklist and stopping rule.
+The remaining 147 entries have no drafts. The next chronological group is
+`russia-1812 1812` (31 cohort land entries), using brief v3's field checklist and stopping rule.
 The [1808 pass](research/peninsula-1808-first-pass-v1.md) records two source-family effort
 overruns; its dossier screen does not erase them. Fix source-family assignments before substantive
 reading in every new pass, as the [1809 pass](research/peninsula-1809-first-pass-v1.md) did.

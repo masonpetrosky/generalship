@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "battle_id": "B430b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Altafulla interval 1812-01-24–1812-01-24 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 8,000; side B (Spanish): 10,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 8,000; side B (Spanish): 10,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Altafulla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (8.000 M.) unter Div.-Gen. Maurice Mathieu über die Spanier (10.000 M.) unter Gen.-Lt. Baron Eroles."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Maurice Mathieu; side B under Eroles.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Maurice Mathieu; opposing command: Eroles.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Altafulla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (8.000 M.) unter Div.-Gen. Maurice Mathieu über die Spanier (10.000 M.) unter Gen.-Lt. Baron Eroles."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Altafulla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (8.000 M.) unter Div.-Gen. Maurice Mathieu über die Spanier (10.000 M.) unter Gen.-Lt. Baron Eroles."
+        }
+      ]
+    },
+    {
+      "id": "mathieu-relief-force",
+      "dimension": "strength",
+      "value": "Side A: Belmas gives 8,000 in Mathieu’s relief force approaching Tarragona.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side narrative approach population, not a dated count of all actually engaged at Altafulla. English rendering (ours): \"General Maurice Mathieu, governor of Barcelona, reinforced by Lamarque’s division, advanced to relieve the place with eight thousand men and camped at Villafranca on the twenty-second of January.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p224-figures-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected",
+          "quote": "Le général Maurice Mathieu, gouverneur de Barcelone, ayant été renforcé de la division Lamarque, se porta au secours de la place avec huit mille hommes, et vint camper à Villafranca le 22 janvier."
+        }
+      ]
+    },
+    {
+      "id": "mathieu-lamarque-task",
+      "dimension": "responsibility",
+      "value": "Side A: Mathieu, Barcelona governor, directed the relief force reinforced by Lamarque.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Numerical passage also supplies task and date; no personal continuous control over every unit inferred. English rendering (ours): \"Mathieu, governor of Barcelona, reinforced by Lamarque’s division, advanced to relieve the place.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p224-figures-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected",
+          "quote": "Le général Maurice Mathieu, gouverneur de Barcelone, ayant été renforcé de la division Lamarque, se porta au secours de la place avec huit mille hommes, et vint camper à Villafranca le 22 janvier."
+        }
+      ]
+    },
+    {
+      "id": "eroles-local-command",
+      "dimension": "responsibility",
+      "value": "Side B: Toreno places Eroles under attack at Altafulla by Mathieu and Lamarque.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Spanish local attribution agrees with Bodart’s Eroles label; Belmas’s Lacy label is retained separately as an unresolved command scope difference. English rendering (ours): \"Meanwhile Eroles sustained another enemy attack on the twenty-fourth of January. Generals Lamarque and Maurice Mathieu attacked him at Altafulla, coming from Barcelona with superior forces.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s1",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "En tanto Eróles sostuvo el 24 de enero otra acometida del enemigo. Embistiéronle los ge- J¡* Ag- üérales Lamarque y Maurice Mathieu en Alta- fulla , acorriendo ambos de Barcelona con su- periores fuerzas"
+        }
+      ]
+    },
+    {
+      "id": "french-field-attack",
+      "dimension": "posture",
+      "value": "Side A attacked Eroles’s force at Altafulla.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English rendering (ours): \"Mathieu and Lamarque attacked Eroles at Altafulla.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s1",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "En tanto Eróles sostuvo el 24 de enero otra acometida del enemigo. Embistiéronle los ge- J¡* Ag- üérales Lamarque y Maurice Mathieu en Alta- fulla , acorriendo ambos de Barcelona con su- periores fuerzas"
+        }
+      ],
+      "code": "A_attacked"
+    },
+    {
+      "id": "belmas-lacy-attribution",
+      "dimension": "responsibility",
+      "value": "Side B: Belmas attributes the position on Altafulla heights to Lacy.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Retained beside Toreno/Bodart’s local Eroles label; superior versus local attribution is not silently resolved. English rendering (ours): \"At his approach General Lacy had taken position on Altafulla heights.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p224-selections-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "A son approche , le général Lacy était venu prendre position sur les hauteurs d'Altafîilla"
+        }
+      ]
+    },
+    {
+      "id": "altafulla-heights",
+      "dimension": "terrain",
+      "value": "Belmas places the Spanish position on Altafulla heights.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Location only; effectiveness and any fieldworks remain unknown. English rendering (ours): \"Lacy had taken position on Altafulla heights.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p224-selections-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "A son approche , le général Lacy était venu prendre position sur les hauteurs d'Altafîilla"
+        }
+      ]
+    },
+    {
+      "id": "lacy-superior-instruction",
+      "dimension": "responsibility",
+      "value": "Side B: after regrouping, Eroles moved north on Lacy’s instructions.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Post-action superior instruction establishes a distinct role, not proof of Lacy’s presence or exclusive local authority during the battle. English rendering (ours): \"After regrouping, Eroles marched north of Catalonia on Lacy’s instructions.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s2",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Rehecho luego Eróles caminó por disposi- ción de Lacy al norte de Cataluña"
+        }
+      ]
+    },
+    {
+      "id": "spanish-own-headcount-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: Toreno’s inspected account supplies no own-side local headcount. “Superior forces” is not a number and two companies are not converted to people; Bodart’s 10,000 remains its own reference population.",
+      "citations": []
+    },
+    {
+      "id": "spanish-rally-point",
+      "dimension": "responsibility",
+      "value": "Side B: Toreno says Eroles designated Santas-Cruces monastery as the rally point for dispersed troops.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "The preceding inspected sentence names the Spanish general and dispersion; no battle-period command stability inferred. English rendering (ours): \"For them he designated Santas-Cruces monastery as the point of reunion.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s3",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "á las que señaló para punto de reunión el monasterio de Santas-Gruces"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "french-relief-objective",
+      "dimension": "objectives",
+      "value": "Side A: Belmas describes Mathieu’s movement as relief of Tarragona.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Explicit purpose in the inspected relief-force passage; broader strategic priorities and the Spanish objective remain unknown. English rendering (ours): \"He advanced to relieve the place.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p224-figures-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected",
+          "quote": "Le général Maurice Mathieu, gouverneur de Barcelone, ayant été renforcé de la division Lamarque, se porta au secours de la place avec huit mille hommes, et vint camper à Villafranca le 22 janvier."
+        }
+      ]
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Own-side Spanish dated headcount is missing. Belmas attributes the position to Lacy while Toreno/Bodart name Eroles locally; the subsequent Lacy instruction does not resolve battle-day authority. The height location is supported; detailed terrain, works and the Spanish operational objective remain unestablished.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "mathieu-relief-force"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 8,000; side B (Spanish): 10,000. Side A: Belmas gives 8,000 in Mathieu’s relief force approaching Tarragona.",
+        "command_claim_ids": [
+          "bodart-command",
+          "mathieu-lamarque-task"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Maurice Mathieu; side B under Eroles. Side A: Mathieu, Barcelona governor, directed the relief force reinforced by Lamarque.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "spanish-own-headcount-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 8,000; side B (Spanish): 10,000. Side B: Toreno’s inspected account supplies no own-side local headcount. “Superior forces” is not a number and two companies are not converted to people; Bodart’s 10,000 remains its own reference population.",
+        "command_claim_ids": [
+          "bodart-command",
+          "eroles-local-command",
+          "belmas-lacy-attribution",
+          "lacy-superior-instruction",
+          "spanish-rally-point"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Maurice Mathieu; side B under Eroles. Side B: Toreno places Eroles under attack at Altafulla by Mathieu and Lamarque. Side B: Belmas attributes the position on Altafulla heights to Lacy. Side B: after regrouping, Eroles moved north on Lacy’s instructions. Side B: Toreno says Eroles designated Santas-Cruces monastery as the rally point for dispersed troops.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "toreno-1837-t5-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Own-side Spanish dated headcount is missing. Belmas attributes the position to Lacy while Toreno/Bodart name Eroles locally; the subsequent Lacy instruction does not resolve battle-day authority. The height location is supported; detailed terrain, works and the Spanish operational objective remain unestablished."
+    ]
+  }
+}

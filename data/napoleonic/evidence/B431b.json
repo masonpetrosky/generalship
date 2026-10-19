@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "battle_id": "B431b",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Salamanca interval 1812-06-17–1812-06-27 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 700 garrison; side B (Anglo-Portuguese/Spanish): 50,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 700 garrison; side B (Anglo-Portuguese/Spanish): 50,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Salamanca; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen und Spanier (50.000 M.) unter Lord Wellington nehmen nach 10tägiger Beschießung die von 700 Franzosen mit 8 Geschützen unter Major Duchemin verteidigten Forts mit Sturm."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Duchemin; side B under Wellington.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Duchemin; opposing command: Wellington.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Salamanca; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen und Spanier (50.000 M.) unter Lord Wellington nehmen nach 10tägiger Beschießung die von 700 Franzosen mit 8 Geschützen unter Major Duchemin verteidigten Forts mit Sturm."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side B, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side B as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Salamanca; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen und Spanier (50.000 M.) unter Lord Wellington nehmen nach 10tägiger Beschießung die von 700 Franzosen mit 8 Geschützen unter Major Duchemin verteidigten Forts mit Sturm."
+        }
+      ]
+    },
+    {
+      "id": "belmas-fort-garrison",
+      "dimension": "strength",
+      "value": "Side A: Belmas gives 700 left on 17 June in Saint-Vincent, San-Gayetano and La Merced to defend the Tormes bridge.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Own-side garrison narrative; 24 guns are not people or Bodart’s eight-gun figure. English rendering (ours): \"He evacuated Salamanca on the seventeenth of June, leaving seven hundred men and twenty-four guns in Saint-Vincent and the San-Gayetano and La Merced redoubts to defend the Tormes bridge.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p229-figures-v1",
+          "section": "p229-s1",
+          "locator": "belmas0, printed p. 229, Internet Archive leaf 265; retained page image inspected",
+          "quote": "Il évacua Salamanque le 17 juin, laissant pour la défense du pont de la Tormès, sept cents hommes et vingt-quatre bouches à feu dans le fort Saint-Vincent et dans les redoutes de San-Gayétano et de la Merced."
+        }
+      ]
+    },
+    {
+      "id": "oman-fort-garrison-alternative",
+      "dimension": "strength",
+      "value": "Side A: Oman gives 800 men in the three forts.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Enemy synthesis alternative to Belmas/Bodart’s 700; 36 guns differ as well. No original French muster inspected or silent averaging.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p361-figures-v1",
+          "section": "p361-s1",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected",
+          "quote": "They made up a total of 800 men, and had thirty-six guns in position,"
+        }
+      ]
+    },
+    {
+      "id": "allied-siege-headcount-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side B: inspected Oman account tasks Clinton’s 6th Division to the forts and separates the remaining army on San Cristobal heights, but does not supply a dated siege headcount. Bodart’s 50,000 army is not all close besiegers.",
+      "citations": []
+    },
+    {
+      "id": "duchemin-local-command",
+      "dimension": "responsibility",
+      "value": "Side A: Oman names battalion chief Duchemin as fort-garrison commander.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Marmont’s field army is a separate force and superior context, not continuous local fortress command.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p361-selections-v1",
+          "section": "p361-s1",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "under the chefde bataillon Duchemin of the 65th"
+        }
+      ]
+    },
+    {
+      "id": "clinton-local-wellington-superior",
+      "dimension": "responsibility",
+      "value": "Side B: Clinton’s division invested the forts while Wellington established headquarters in Salamanca.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Wellington’s arrangements for attack and headquarters described on the same page; army commander and local task remain distinct.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p360-selections-v1",
+          "section": "p360-s1",
+          "locator": "oman5, printed p. 360, Internet Archive leaf 403; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Head -quarters were established that night in the city, and Clinton's division invested the forts"
+        }
+      ]
+    },
+    {
+      "id": "allied-fort-investment",
+      "dimension": "posture",
+      "value": "Side B invested and attacked the French-held forts.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "English-language source-specific observation; no admitted feature.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p360-selections-v1",
+          "section": "p360-s1",
+          "locator": "oman5, printed p. 360, Internet Archive leaf 403; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Head -quarters were established that night in the city, and Clinton's division invested the forts"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "san-cristobal-crosswalk",
+      "dimension": "terrain",
+      "value": "Belmas distinguishes Wellington’s field camp on San Cristoval heights from the French-held convent forts.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Bodart’s frozen alternative name “Fort San Cristobal und San Vicente” is preserved. Inspected accounts identify Saint-Vincent, San-Gayetano and La Merced as the siege targets; uncertain naming crosswalk is explicit, not a frame repair. English rendering (ours): \"Wellington forded the river and camped with his army on San Cristoval heights.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p229-selections-v1",
+          "section": "p229-s1",
+          "locator": "belmas0, printed p. 229, Internet Archive leaf 265; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Lord Wel- lington passa la rivière à gué, et vint camper avec toute son armée sur les hauteurs de San- Cristoval"
+        }
+      ]
+    },
+    {
+      "id": "french-crossfire-works",
+      "dimension": "fortification",
+      "value": "Side A’s three forts formed a mutually supporting triangle of fire.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Construction predates this siege; relative timing to commander replacement remains unresolved.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p361-selections-v1",
+          "section": "p361-s2",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "The three formed a triangle with crossing fires"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "inadequate-fort-sketch",
+      "dimension": "information",
+      "value": "Oman says Wellington had received a confused amateur sketch of the forts.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Reports the source’s characterization of information quality; Jones is cited on the page, original sketch uninspected, and no measured knowledge score inferred.",
+      "citations": [
+        {
+          "source_id": "oman-1914-t5-1812-p361-selections-v1",
+          "section": "p361-s3",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "had been sent a confused sketch of them drawn by an amateur's hand"
+        }
+      ]
+    },
+    {
+      "id": "june27-surrender",
+      "dimension": "outcome",
+      "value": "Belmas dates the fort governor’s surrender after a fire to 27 June.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Attributed siege explanation and date, not a causal estimate or July field-battle observation. English rendering (ours): \"On the twenty-seventh of June a violent fire, ignited by British shells and heated shot, engulfed the fort buildings and obliged the governor to surrender.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p230-figures-v1",
+          "section": "p230-s1",
+          "locator": "belmas0, printed p. 230, Internet Archive leaf 266; retained page image inspected",
+          "quote": "Dans la journée du 27 juin, un violent incendie, allumé par les obus et les boulets rouges des Anglais, ayant embrasé les bâtiments du fort, obligea le gouverneur à se rendre."
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "bridge-defence-objective",
+      "dimension": "objectives",
+      "value": "Side A: Belmas says the fort garrison was left to defend the Tormes bridge.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Explicit French task, distinct from Marmont’s field-army manoeuvres and the later July battle; no successful-effect estimate. English rendering (ours): \"Leaving troops for the defence of the Tormes bridge.\"",
+      "citations": [
+        {
+          "source_id": "belmas-1836-t1-1812-p229-figures-v1",
+          "section": "p229-s1",
+          "locator": "belmas0, printed p. 229, Internet Archive leaf 265; retained page image inspected",
+          "quote": "Il évacua Salamanque le 17 juin, laissant pour la défense du pont de la Tormès, sept cents hommes et vingt-quatre bouches à feu dans le fort Saint-Vincent et dans les redoutes de San-Gayétano et de la Merced."
+        }
+      ]
+    }
+  ],
+  "open_questions": [
+    "Local allied siege headcount is unestablished; 700/800 garrison and 8/24/36 guns are unresolved source populations. Preserve Bodart’s San Cristobal/San Vicente label while accounts distinguish the field ridge and three convent forts. Command boundaries and original returns/sketch are missing.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "belmas-fort-garrison",
+          "oman-fort-garrison-alternative"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 700 garrison; side B (Anglo-Portuguese/Spanish): 50,000. Side A: Belmas gives 700 left on 17 June in Saint-Vincent, San-Gayetano and La Merced to defend the Tormes bridge. Side A: Oman gives 800 men in the three forts.",
+        "command_claim_ids": [
+          "bodart-command",
+          "duchemin-local-command"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Duchemin; side B under Wellington. Side A: Oman names battalion chief Duchemin as fort-garrison commander.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "allied-siege-headcount-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 700 garrison; side B (Anglo-Portuguese/Spanish): 50,000. Side B: inspected Oman account tasks Clinton’s 6th Division to the forts and separates the remaining army on San Cristobal heights, but does not supply a dated siege headcount. Bodart’s 50,000 army is not all close besiegers.",
+        "command_claim_ids": [
+          "bodart-command",
+          "clinton-local-wellington-superior"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Duchemin; side B under Wellington. Side B: Clinton’s division invested the forts while Wellington established headquarters in Salamanca.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "belmas-1836-t1-ocr-v1",
+      "oman-1914-t5-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "Local allied siege headcount is unestablished; 700/800 garrison and 8/24/36 guns are unresolved source populations. Preserve Bodart’s San Cristobal/San Vicente label while accounts distinguish the field ridge and three convent forts. Command boundaries and original returns/sketch are missing."
+    ]
+  }
+}

@@ -9,6 +9,14 @@ bytes, rights and dependence metadata.
 
 One new manual source record, `oman-1911-t4-1811-p632-figures-v2`, binds the existing unchanged Oman IV p632 image and parent. It preserves the 20,358 printed summary alongside the officer/men and Portuguese totals summing to 20,650. Difference 292 matches the KGL artillery row, explicitly an arithmetic/table inference rather than an actual muster correction. All v1 records and bytes remain unchanged. Registry: **4,238 sources**, with **162 additions** across the Peninsula 1811 pass and correction. See the [v2 record](research/peninsula-1811-correction-v2.md).
 
+## Peninsula 1812 first pass, 2026-10-19
+
+The [campaign record](research/peninsula-1812-first-pass-v1.md) appends **86 records**, reaching **4,324**: two unmodified full OCR parents, two metadata responses, two scan maps, 34 cited historical page images, two title images, 25 exact-range narrative-selection files (40 passages) and 19 manual numerical-transcription files. All 4,238 earlier records and pinned bytes remain unchanged; existing Belmas I, Suchet II, Toreno IV/V and Oman V parents are reused.
+
+New parents are Marmont IV (Paris Perrotin, third edition 1857) and Oman VI (Oxford Clarendon 1922). Printed titles control edition/date, overriding Oman's aggregate catalogue 1902 label. Historical public-domain publications; no modern archive licence asserted. Interested memoirs/national syntheses and uninspected original returns remain explicit. Oman's French siege tables are derivative Belmas material, not extra independent witnesses. Detailed Belmas IV was not located within the bounded bibliography; no replacement family was used to erase that access gap.
+
+All adopted passages/numbers are image-inspected. Narrative selections retain exact parent character ranges and OCR spelling, with whitespace collapsed only; manual numerical transcriptions retain source-specific dates/populations and image/parent hashes. One Altafulla endpoint was extended to complete its OCR word before final validation. The [raw notes](../data/raw/napoleonic-peninsula-1812-v1/NOTES.md) document reading and limits. Full books are retained, not asserted read. Use is draft evidence for all eight frozen `peninsula 1812` land entries, with no model input admission.
+
 ## Peninsula 1811 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1811-first-pass-v1.md) appends **161 records**, reaching **4,237**: three unmodified full OCR parents, three metadata responses, three scan maps, 64 historical page images, three title images, 51 exact-range narrative selections and 34 manual numerical transcriptions. Existing Belmas I/III and Toreno IV parents are reused. All 4,076 prior records and pinned bytes remain unchanged.

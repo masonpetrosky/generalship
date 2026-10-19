@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "battle_id": "B432a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Castalla interval 1812-07-21–1812-07-21 preserved, including any source chronology dispute below. Tactical and campaign replacement boundaries remain unset. Adjacent siege, field and relief operations are distinct entries, not extra campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength",
+      "dimension": "strength",
+      "value": "Bodart side A (French): 4,000; side B (Spanish): 10,000.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Rounded-up available-for-engagement convention except explicitly labelled garrison, component or post-outcome populations. No dated opening return inferred; surrender survivors are not opening strength. English rendering (ours): \"Bodart side A (French): 4,000; side B (Spanish): 10,000.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Castalla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Harispe über die Spanier (10.000 M.) unter Gen.-Lt. J. O'Donnell."
+        }
+      ]
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart lists side A under Harispe; side B under J. O'Donnell.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Printed labels do not establish continuous local authority or appointment boundaries. English rendering (ours): \"French command: Harispe; opposing command: J. O'Donnell.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Castalla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Harispe über die Spanier (10.000 M.) unter Gen.-Lt. J. O'Donnell."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following Bodart.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source outcome convention, without causal commander attribution. English rendering (ours): \"Bodart records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Castalla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Harispe über die Spanier (10.000 M.) unter Gen.-Lt. J. O'Donnell."
+        }
+      ]
+    },
+    {
+      "id": "spanish-four-part-force",
+      "dimension": "strength",
+      "value": "Side B: Toreno gives 12,000 distributed in four parts for O’Donnell’s attack.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "Own-side force distributed across Castalla/Ibi and reserve sectors, not all actually engaged at Castalla. Distinct from Bodart and Suchet’s 10,000. English rendering (ours): \"He divided his troops into four parts, numbering twelve thousand men.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p123-figures-v1",
+          "section": "p123-s1",
+          "locator": "toreno5, printed p. 123, Internet Archive leaf 128; retained page image inspected",
+          "quote": "En cuatro trozos distribuyó su gente, cuyo número ascendia á 12,000 hombres."
+        }
+      ]
+    },
+    {
+      "id": "suchet-spanish-advance",
+      "dimension": "strength",
+      "value": "Side B: Suchet gives 10,000 in four columns advancing toward Castalla on 21 July.",
+      "status": "disputed",
+      "phase": "unresolved",
+      "rationale": "French enemy narrative; Roche’s separate Ibi force is not mechanically added to this figure or to Toreno’s entire distributed force. English rendering (ours): \"On the morning of the twenty-first Joseph O’Donnell advanced on Castalla with ten thousand men in four columns.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1812-p254-figures-v1",
+          "section": "p254-s1",
+          "locator": "suchet2, printed p. 254, Internet Archive leaf 269; retained page image inspected",
+          "quote": "Le 21 au matin, Joseph O-Donell, à la tête de dix mille hommes, en quatre colonnes, se porta sur Castalla."
+        }
+      ]
+    },
+    {
+      "id": "french-local-count-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Side A: the inspected Suchet/Toreno passages describe regiments and a reserve but supply no dated local all-ranks total. Bodart’s 4,000 stays its own reference; unit names and later reinforcements are not people counts.",
+      "citations": []
+    },
+    {
+      "id": "odonnell-plan",
+      "dimension": "responsibility",
+      "value": "Side B: Jose O’Donnell, commander of the second and third armies, conceived the attack plan.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Toreno separately names Roche, Michelena and Montijo’s assigned parts below; no sole control over every movement inferred. English rendering (ours): \"Jose O’Donnell, as before general of the second and third armies, had conceived it.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p123-selections-v1",
+          "section": "p123-s1",
+          "locator": "toreno5, printed p. 123, Internet Archive leaf 128; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Habíale concebido Don José Odonell, general como antes del segundo y ter- cero ejército"
+        }
+      ]
+    },
+    {
+      "id": "harispe-delort-local-scope",
+      "dimension": "responsibility",
+      "value": "Side A: Harispe remained with the Alcoy reserve; Mesclop commanded at Ibi and Delort was advanced toward Castalla.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Corrects scope of Bodart’s Harispe label without changing it. Local and superior tasks are distinct, no whole-day presence inferred. English rendering (ours): \"At Alcoy a reserve remained under Harispe; at Ibi his brigade was immediately commanded by Colonel Mesclop, while Delort advanced toward Castalla with the seventh line regiment.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p124-selections-v1",
+          "section": "p124-s1",
+          "locator": "toreno5, printed p. 124, Internet Archive leaf 129; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "en Alcoy una reserva á cuya cabeza permanecía el general Harispe; en Ibi una brigada de éste á las inmediatas órdenes del coronel Mesclop , estando avanzado hacia Gas- talla con el séptimo regimiento de línea el ge- neral Delort"
+        }
+      ]
+    },
+    {
+      "id": "spanish-initiating-attack",
+      "dimension": "posture",
+      "value": "Side B initiated the attack on the morning of 21 July.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Suchet’s Delort counterattack below is retained without treating a defender’s response as proof of a separately initiated whole-battle offensive. English rendering (ours): \"Our troops began the attack on the morning of the twenty-first.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p124-selections-v1",
+          "section": "p124-s2",
+          "locator": "toreno5, printed p. 124, Internet Archive leaf 129; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Rompieron los nuestros la acometida en la mañana del 2 1"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "delort-counterattack",
+      "dimension": "responsibility",
+      "value": "Side A: Suchet says Delort left the defensive and counterattacked.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Source-specific local response; no independent tactical skill or whole-battle posture credit inferred. English rendering (ours): \"General Delort, leaving the defensive, then moved and attacked vigorously.\"",
+      "citations": [
+        {
+          "source_id": "suchet-1834-t2-1812-p255-selections-v1",
+          "section": "p255-s1",
+          "locator": "suchet2, printed p. 255, Internet Archive leaf 270; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le général Delort , quittant la défensive , 18*2. se mit alors en mouvement , et attaqua avec viva- cité"
+        }
+      ]
+    },
+    {
+      "id": "cavalry-olive-groves",
+      "dimension": "terrain",
+      "value": "Toreno describes Delort’s cavalry emerging from olive groves to attack Spanish battalions.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Groves inherited; use of cover and timing are created deployment, potentially mediators. English rendering (ours): \"He ordered his cavalry to emerge from the olive groves and attack our battalions.\"",
+      "citations": [
+        {
+          "source_id": "toreno-1837-t5-1812-p124-selections-v1",
+          "section": "p124-s3",
+          "locator": "toreno5, printed p. 124, Internet Archive leaf 129; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "dispuso que saliendo sus ginetes de los oli- vares acometiesen á nuestros batallones"
+        }
+      ]
+    },
+    {
+      "id": "logistics-unknown",
+      "dimension": "logistics",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    },
+    {
+      "id": "fortification-unknown",
+      "dimension": "fortification",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bounded inspected passages do not establish this dimension for this frozen engagement. No inference from winner, reputation, place name or an adjacent operation.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "French local own-side headcount absent; Spanish 12,000 distributed versus French-account 10,000 advancing remains unresolved. Harispe’s reserve role differs from Delort’s local action; Ibi’s fort and final refuge in Castalla castle do not establish opening main-field fortification. Precise authority and army continuity remain unknown.",
+    "Original dated local returns and orders remain uninspected unless expressly stated; national retrospective and participant accounts are interested.",
+    "Bodart is a later compilation; volumes, reprints and embedded reports within each assigned author family are not independent witnesses. Primary verification proves extraction/provenance, not historical truth."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "french-local-count-unknown"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 4,000; side B (Spanish): 10,000. Side A: the inspected Suchet/Toreno passages describe regiments and a reserve but supply no dated local all-ranks total. Bodart’s 4,000 stays its own reference; unit names and later reinforcements are not people counts.",
+        "command_claim_ids": [
+          "bodart-command",
+          "harispe-delort-local-scope",
+          "delort-counterattack"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Harispe; side B under J. O'Donnell. Side A: Harispe remained with the Alcoy reserve; Mesclop commanded at Ibi and Delort was advanced toward Castalla. Side A: Suchet says Delort left the defensive and counterattacked.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength",
+          "spanish-four-part-force",
+          "suchet-spanish-advance"
+        ],
+        "strength_population_and_time": "Available, marching, present, engaged, garrison, reinforcement and surrendered populations remain distinct. Bodart side A (French): 4,000; side B (Spanish): 10,000. Side B: Toreno gives 12,000 distributed in four parts for O’Donnell’s attack. Side B: Suchet gives 10,000 in four columns advancing toward Castalla on 21 July.",
+        "command_claim_ids": [
+          "bodart-command",
+          "odonnell-plan"
+        ],
+        "command_scope": "Local, superior and contingent command labels remain distinct; no continuous appointment inferred. Bodart lists side A under Harispe; side B under J. O'Donnell. Side B: Jose O’Donnell, commander of the second and third armies, conceived the attack plan.",
+        "army_continuity": "Unknown: no cross-engagement army identity established. Repeated commander/formation names and shared campaign passages do not establish continuity or additive commander credit."
+      }
+    },
+    "additional_source_ids_checked": [
+      "suchet-1834-t2-ocr-v1",
+      "toreno-1837-t5-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": false,
+      "decision_it_could_change": null,
+      "result": null
+    },
+    "stopping_reason": "All nine dimensions and per-side population/time and command checklist addressed by inspected observations, source-specific alternatives or explicit unknowns within preassigned families. First-pass ceiling reached; no deeper follow-up cycle, separate review or feature admission.",
+    "deferred_decision_relevant_gaps": [
+      "French local own-side headcount absent; Spanish 12,000 distributed versus French-account 10,000 advancing remains unresolved. Harispe’s reserve role differs from Delort’s local action; Ibi’s fort and final refuge in Castalla castle do not establish opening main-field fortification. Precise authority and army continuity remain unknown."
+    ]
+  }
+}
