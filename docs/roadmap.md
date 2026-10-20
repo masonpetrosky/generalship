@@ -129,12 +129,19 @@ direction, expedition scope, troop command/delegation, later columns, reserve/se
 and succession. No new person/army identity, opening selection or model row is created.
 The specification stops here; wider strict-opening extraction remains paused.
 
-**Next recommended work:** a bounded existing-source check of the 1805 German-operations
-pilot's pre-operation appointment/mandate and prior objectives. Establish what its pinned
-orders can support about the authority and comparison window before adding troop totals or
-outcome observations. Retain unresolved bounds and stop under the existing family/follow-up
-ceiling. This is not a new campaign sweep, registry installation or historical fit; further
-source fetching or a numerical run is not queued by the specification.
+**Done (2026-10-20):** the bounded [1805 appointment/objective check](research/napoleonic-1805-appointment-check-v1.md)
+retains nine passages in seven contexts from one existing Alombert–Colin family, with one
+targeted appointment/mandate follow-up. Imperial preparation direction, public aims, Murat's
+reported nomination/scope question and task orders, and an announced personal-command event
+stay distinct. No new normalized date or comparison boundary is selected. The overall imperial
+pilot remains not estimable; its original record and all model inputs remain unchanged.
+
+**Next recommended work:** a separately scoped check of Murat's delegated operational
+appointment: can the same pinned correspondence establish its effective mandate/window
+while the Emperor's superior authority is retained? This is a different comparison unit,
+not a silent change to the imperial pilot or evidence of eligibility to replace the Emperor.
+Stop at the mandate/window result before resource or outcome extraction. Wider strict-opening
+research, new source fetching and numerical runs remain unqueued.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

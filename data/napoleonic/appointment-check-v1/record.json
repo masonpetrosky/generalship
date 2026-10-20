@@ -1,0 +1,466 @@
+{
+  "kind": "napoleonic_1805_appointment_source_check",
+  "version": 1,
+  "status": "primary_verified_source_supplement",
+  "date": "2026-10-20",
+  "scope": {
+    "target": "French overall operational command in the German operations of 1805, as proposed in the immutable methods pilot",
+    "research_group": "third-coalition 1805",
+    "design_cases": 1,
+    "cohort_changed": false,
+    "development_entries": 273,
+    "development_groups": 13,
+    "reserved_final_entries": 52,
+    "reserved_final_groups": 3,
+    "purpose": "Check appointment/mandate and prior objectives before further resource or outcome extraction.",
+    "family_ceiling": 3,
+    "families_used": [
+      "alombert-colin-1805"
+    ],
+    "targeted_followups": 1,
+    "targeted_followup_question": "Does the pinned tome-II appointment/command context establish the imperial campaign mandate or an effective transition? Read Murat’s nomination/scope question with its immediate continuation and the personal-command announcement.",
+    "stopping_rule": "Stop after this existing-source scope/window check. No new family/fetch, resource ledger, outcome coding, global registry, model fit or automatic follow-up series."
+  },
+  "input_sha256": {
+    "data/napoleonic/methods-v1/campaign-pilot.json": "b0f24a4c21d02a3dcf623d16b8928d2f0bb8cb0c654823a125aa06f9d8ea6ffa",
+    "docs/napoleonic-methods-v1.md": "fa87d34496e52e4f0a71f7ac7869ce396fdf2410da3cd902f158be7ad25ad8be",
+    "docs/napoleonic-command-units-v1.md": "5e487a5525afc58cb6360555dd3e00ac9b661a81879dcfef344f23b79d6c364a",
+    "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+    "data/sources.json": "0da12d4e8d274702cb045486d100d484cf8c050077097430f33f1713dc117c07"
+  },
+  "source_snapshot": [
+    {
+      "title": "P.-C. Alombert and J. Colin, La campagne de 1805 en Allemagne, tome II (third part, Du Rhin au Danube)",
+      "author": "P.-C. Alombert and J. Colin (Section historique de l'État-major de l'armée)",
+      "publication_year": 1902,
+      "publication_date": null,
+      "edition": "Paris: Librairie militaire R. Chapelot et Cie, 1902 (year printed on the title page in the OCR); tome II ('Troisième partie, Du Rhin au Danube'), Princeton University copy digitised by Google; Internet Archive OCR (Tesseract 5.0). Not checked against print.",
+      "archival_identifier": "Internet Archive alombert-la-campagne-de-1805-en-allemagne-v-2; Princeton University copy, digitised by Google",
+      "document_date": null,
+      "document_date_note": "A French General Staff narrative printing documents of August to October 1805. The registered pages are returns headed 'au passage du Rhin dans les premiers jours de vendémiaire an XIV' (vendémiaire an XIV began on 23 September 1805), with no day given, so no document date is recorded; the print year is not an event date.",
+      "independence_group": "alombert-colin-1805",
+      "dependency_note": "Official history of the French army's Section historique (published 'sous la direction de la Section historique de l'etat-major de l'armee'), by P.-C. Alombert (contrôleur de l'administration de l'armée) and J. Colin (chef d'escadron d'artillerie), printed 1902-1908; not a record of 1805 itself. It narrates and prints French orders, letters, reports and divisional journals of the campaign, so it is the French side's own record; it cites the Correspondance de Napoleon Ier by number and shares the headquarters papers of Napoleon and the marshals' reports, so it is not independent of them. Austrian-side statements are second-hand, from French documents and from Austrian publications it cites (for example Schonhals, Der Krieg 1805, Vienne 1873, in a footnote of the introduction). Krauss (1912) names this work as a basis of his account of the French side (his preface), so Krauss is not independent of it for French orders and movements.",
+      "rights": "Published 1902-1908; Internet Archive marks the item with the Creative Commons Public Domain Mark 1.0. Full OCR text retained; page images, where registered, are downscaled single pages.",
+      "retrieved_at": "2026-10-17",
+      "url": "https://archive.org/download/alombert-la-campagne-de-1805-en-allemagne-v-2/Alombert%20La%20Campagne%20de%201805%20en%20Allemagne%20%20v%202_djvu.txt",
+      "source_kind": "retrospective_official_history",
+      "id": "alombert-colin-t2-ocr-v1",
+      "path": "data/raw/napoleonic-third-coalition-1805-v1/alombert-colin-t2-djvu.txt",
+      "format": "text",
+      "sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "inspection": "Retained complete parent. Located the corps returns 'au passage du Rhin' of chapter II by keyword search and read only the registered page images of pp. 162, 163, 165 and 166 (the 5th corps, the 6th corps and the cavalry reserve); the OCR of these tables is garbled and was not used, and the rest of the volume was not read."
+    }
+  ],
+  "source_metadata_canonical_sha256": {
+    "alombert-colin-t2-ocr-v1": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794"
+  },
+  "inspection": {
+    "new_source_registrations": 0,
+    "new_fetches": 0,
+    "new_facsimile_inspections": 0,
+    "adopted_passages": 9,
+    "adopted_contexts": 7,
+    "mode": "Read pinned OCR contexts; all new normalized dates and receipt times remain null. Existing source metadata keeps its original inspection note; this supplement records the additional reading.",
+    "checked_and_not_adopted": [
+      "Tome-II introductory logistics and retrospective route-plan discussion: context, not an appointment or complete objective vector.",
+      "Murat’s adjacent letter to the Emperor acknowledges the lieutenant choice again but supplies no independent witness or clarification answering the preceding scope question.",
+      "The existing pilot’s October local directives remain as frozen, not pre-preparation appointment evidence.",
+      "Later Murat title/signature, staff correspondence and Kork headquarters contexts located by the same lieutenant/general-command search: useful context, not an original grant or selected answer resolving unrestricted general authority."
+    ],
+    "deferred": [
+      "Unpinned tome I and original appointment/mandate papers; no new fetch.",
+      "Any reply resolving Murat’s scope question beyond the inspected immediate continuation.",
+      "Eligible replacement pool, full tenure, endpoints, inherited state, complete objectives, non-battle opportunities and campaign outcomes."
+    ],
+    "search_limits": "One existing French official-history family; initial bounded earlier-preparation/order reading plus one targeted appointment/authority keyword follow-up within retained tome II. No claim to have read the whole volume or proved silence in the literature."
+  },
+  "contexts": {
+    "narrative-onset": {
+      "source_character_range": [
+        4436,
+        4778
+      ],
+      "source_line_range": [
+        364,
+        370
+      ],
+      "heading_ocr": null,
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "68a009f0c38765e1813278d6fbdba9e19b95838234a2430578c399ab8529c060"
+    },
+    "intelligence-order": {
+      "source_character_range": [
+        306946,
+        308267
+      ],
+      "source_line_range": [
+        12578,
+        12622
+      ],
+      "heading_ocr": "Camp de Boulogne, le 16 fructidor an xut (28 août 1805).",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "3f7dcf1a19b6ab1a444246a9f2d8aacd687d78aa266ac232ec488f8ac35854d4"
+    },
+    "route-and-supply-order": {
+      "source_character_range": [
+        211778,
+        214631
+      ],
+      "source_line_range": [
+        7857,
+        7947
+      ],
+      "heading_ocr": "Saint-Cloud, le 28 ruetidor an zut (15 septembre 105).",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "80a63bf8f59a3ef352a9a3def96a248e0db57f56497279a1ea4b00f7a82bef88"
+    },
+    "murat-berthier-letter": {
+      "source_character_range": [
+        419166,
+        422497
+      ],
+      "source_line_range": [
+        18365,
+        18506
+      ],
+      "heading_ocr": "Strasbourg, le 23 fruetidor an sut (1O sepuentbre 1895).",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "aa502383c18b04699ca5d0a1273ea328e2c79e7bb9eedb2ae8e11ad38276df11"
+    },
+    "senate-speech": {
+      "source_character_range": [
+        642120,
+        645044
+      ],
+      "source_line_range": [
+        28405,
+        28517
+      ],
+      "heading_ocr": "Paris, le Le vendémiaire an av (25 septembre 1805).",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "3dc3c327da8fdd7e60fe0d80087113b4ec531d9d370cabe38b3f319da7161c90"
+    },
+    "personal-command-announcement": {
+      "source_character_range": [
+        1081973,
+        1086970
+      ],
+      "source_line_range": [
+        48157,
+        48425
+      ],
+      "heading_ocr": "Au quartier général, à Mannheïr, le 5 vendémiaire an xuv \n(27 septembre 1805).",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "b6c1dae4b5604ccc088c788c8ae07a304ffd0d17a13179bdd9c46b3328858a9f"
+    },
+    "murat-leval-order": {
+      "source_character_range": [
+        449307,
+        450623
+      ],
+      "source_line_range": [
+        19911,
+        19949
+      ],
+      "heading_ocr": "Au quartier général de Strasbourg, le 26 fruetidor an it \n13 septembre 1805)",
+      "document_date": null,
+      "date_basis": "OCR wording only; not checked against print; no normalized document/event date inferred",
+      "context_sha256": "4fc1a74800270328b92289f5d31e6fa6d7fc188e427deb40bfaf087b67922664"
+    }
+  },
+  "passages": [
+    {
+      "id": "p001",
+      "context_id": "narrative-onset",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        4436,
+        4558
+      ],
+      "source_line_range": [
+        364,
+        366
+      ],
+      "quote": "Le mouvement de la Grande Armée vers le Rhin a \ncommencé le 26 août par le départ des dragons et de la \ndivision Nansouly.",
+      "quote_sha256": "1983d7e048bf58f5b7c2a12ac48f4541e9da10777f119fe099d548e5cd56d8a4",
+      "locator": "Alombert and Colin, tome II, narrative-onset; pinned OCR lines 364–366; character range [4436, 4558); running-page digits not image-verified",
+      "source_role": "retrospective_official_narrative",
+      "interpretation_en": "The historians report that movement toward the Rhine had begun with dragoons and the Nansouly division; the OCR gives an August date.",
+      "scope_limit": "Retrospective onset report, not a formal appointment or a selected comparison boundary. The reported day is not normalized or verified against print.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p002",
+      "context_id": "intelligence-order",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        307058,
+        307660
+      ],
+      "source_line_range": [
+        12587,
+        12596
+      ],
+      "quote": "Je désire que vous fassiez faire deux boites purtatives, à com- \nparliments : une pour moi, et l'autre pour vous. Elles seront dis- \ntribuées de telle sorte que, d'un eoup d'œil, on puisse connaître, \nà l'aide de cartes écrites, les mouvements de toutes les troupes \nautrichiennes, régiment par régiment, bataillon par bataillon, \net même jusqu'à eeux des détachements un peu eonsidérables. \nVous les partagerez en autant d'armées qu'il ÿ a d'armées autri- \nchiennes, el vous réserverez des cases pour les troupes que l'em- \npereur d'Allemagne a en Hongrie, en Bohême ou dans l'intérieur \nde ses États.",
+      "quote_sha256": "001a0c6000cbbef610eb734b6db94e8822cf4d74bdcb9cc42eece4f085bc6d7a",
+      "locator": "Alombert and Colin, tome II, intelligence-order; pinned OCR lines 12587–12596; character range [307058, 307660); running-page digits not image-verified",
+      "source_role": "reprinted_imperial_order",
+      "interpretation_en": "An order attributed to the Emperor instructs Berthier to prepare an organized representation of Austrian troops and armies. This is preparation/intelligence direction before the pilot’s existing October local-order contexts in the reported chronology.",
+      "scope_limit": "A request for information organization is not proof of the information actually received, earliest command authority, appointment start or eligible replacement pool.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p003",
+      "context_id": "route-and-supply-order",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        211872,
+        212358
+      ],
+      "source_line_range": [
+        7863,
+        7870
+      ],
+      "quote": "La route que vous avez tracée au général Marmont passe à \nSimmern; c'est l'ancienne route. J'en ai fait faire une autre qui \npasse le long du Rhin, beaucoup plus eourte, puisqu'elle abrège \nde deux journées de marche. Quoique j'imagine que le général \nMarmont n'a pas besoin d'être prévenu, faiteslui cependant \nconnaitre l'avantage de passer par cette nouvelle route, puis- \nqu'au lieu d'arriver à Mayence le cinquième jour complèmen- \ntaire, il ÿ arrivera le troisième (20 septembre).",
+      "quote_sha256": "c82a3b9304b2a1ff9cd3e8cd6f70137664990c53a0e641078c080c0b16138e23",
+      "locator": "Alombert and Colin, tome II, route-and-supply-order; pinned OCR lines 7863–7870; character range [211872, 212358); running-page digits not image-verified",
+      "source_role": "reprinted_imperial_order",
+      "interpretation_en": "The Emperor directs Berthier to notify Marmont of an alternative, shorter route. It is evidence of reported superior operational direction.",
+      "scope_limit": "Planned movement and arrival are not observations of execution or troop availability. Corrupted date digits in the OCR heading are retained literally; no normalized date or appointment boundary is installed.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p004",
+      "context_id": "route-and-supply-order",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        213129,
+        213339
+      ],
+      "source_line_range": [
+        7887,
+        7890
+      ],
+      "quote": "Dites à M. Otto qu'il est nécessaire de faire faire 300,000 \nrations de biscuit à Würtzbourg, et d'approvisionner la citadelle, \nafin de pouvoir donner aux opérations militaires toute la rapi- \ndité convenable;",
+      "quote_sha256": "65914a0a79a2d3cd84d0aa268e63e5d8cb61a370d1319a6fb95a0c735f7ea833",
+      "locator": "Alombert and Colin, tome II, route-and-supply-order; pinned OCR lines 7887–7890; character range [213129, 213339); running-page digits not image-verified",
+      "source_role": "reprinted_imperial_order",
+      "interpretation_en": "The Emperor orders provision of biscuit and supply preparation at Würtzbourg to give military operations suitable speed. This supplies a stated operational purpose and preparation directive.",
+      "scope_limit": "Requested supply is not an observed resource total or achieved advantage. No numeric quantity is selected as an input, and the purpose is not the complete assigned campaign-objective vector. Same letter/family as p003.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p005",
+      "context_id": "murat-berthier-letter",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        419656,
+        419839
+      ],
+      "source_line_range": [
+        18376,
+        18378
+      ],
+      "quote": "Sa Majesté, en me nommant sun lieutenant pour commander \nla Graude Armée en sun absence, a mis le comble à ses hontés; \nje vous prie de lui présenter l'expression de ma reconnaissance",
+      "quote_sha256": "82f2168f6b0c5f10295bcc832fe959aaa4e6f4ec0c6f119ca00e348b7b37e021",
+      "locator": "Alombert and Colin, tome II, murat-berthier-letter; pinned OCR lines 18376–18378; character range [419656, 419839); running-page digits not image-verified",
+      "source_role": "reprinted_appointee_letter",
+      "interpretation_en": "Murat reports that the Emperor appointed him lieutenant to command the Grande Armée during the Emperor’s absence.",
+      "scope_limit": "This is the appointee’s reported nomination, not the original appointment instrument, an independently corroborated mandate, or its effective start/end.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p006",
+      "context_id": "murat-berthier-letter",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        420013,
+        420239
+      ],
+      "source_line_range": [
+        18394,
+        18397
+      ],
+      "quote": "Je vous prie de me dire, Monsieur le Maréchal, si je duis \nnoveuper aussi des cantonnements des autres corps de l'armée, \nqui arriveront sur le Hhin avant Sa Majesté, et si je dois réelle \nment prendre le commandement général.",
+      "quote_sha256": "e67917208780316075d6aa6403d2271b3e36bf4a321c96115f3fe3f18fe0337d",
+      "locator": "Alombert and Colin, tome II, murat-berthier-letter; pinned OCR lines 18394–18397; character range [420013, 420239); running-page digits not image-verified",
+      "source_role": "reprinted_appointee_letter",
+      "interpretation_en": "In the same letter, Murat asks whether he should also attend to cantonments of the other corps arriving before the Emperor and whether he should actually take general command.",
+      "scope_limit": "Read together with p005: reported nomination coexists with an explicit scope/execution question. Do not invent an affirmative reply, deny all authority, or silently substitute Murat for the original imperial-command target.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p007",
+      "context_id": "senate-speech",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        642365,
+        642526
+      ],
+      "source_line_range": [
+        28415,
+        28417
+      ],
+      "quote": "Je vais quitter ma capitale pour me meltre à la Léte de l'armée, \nporter un prompt secours à mes alliés, et défendre les intérèts \nles plus chers de mes peuples.",
+      "quote_sha256": "639ea1b1bd824948cec42b688187b8fd9b5849ed1911d0adf511419ddea5351d",
+      "locator": "Alombert and Colin, tome II, senate-speech; pinned OCR lines 28415–28417; character range [642365, 642526); running-page digits not image-verified",
+      "source_role": "reprinted_public_speech",
+      "interpretation_en": "The Emperor’s reported speech announces an intention to go to the head of the army, bring prompt help to allies and defend his peoples’ interests.",
+      "scope_limit": "A public statement of intention and political rationale is not the appointment instrument, proof of its execution, independent goal assignment or measurable complete objective vector. Quotation is mediated by the official history.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p008",
+      "context_id": "personal-command-announcement",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        1086638,
+        1086851
+      ],
+      "source_line_range": [
+        48400,
+        48403
+      ],
+      "quote": "M. le maréchal prévient les corps d'armée que Sa Majesté \nl'Empereur est arrivé à Strasbourg le 4 vendémiaire (26 sep- \ntembre) et qu'il vient prendre en personne le commandement de \nses braves et fidèles soldats.",
+      "quote_sha256": "321efa9b9419156937917e5d26737ac8d69c855c55fc7e19ec5998faa624db60",
+      "locator": "Alombert and Colin, tome II, personal-command-announcement; pinned OCR lines 48400–48403; character range [1086638, 1086851); running-page digits not image-verified",
+      "source_role": "reprinted_corps_order",
+      "interpretation_en": "A corps order announces the Emperor’s reported arrival at Strasbourg and that he comes to take personal command.",
+      "scope_limit": "This announced personal-presence event does not establish his earliest superior authority, a pre-preparation replacement boundary, an exact handover from Murat, or composition/continuity of every local force. Document heading and reported arrival are different time referents; page-header OCR digits are unreliable.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    },
+    {
+      "id": "p009",
+      "context_id": "murat-leval-order",
+      "source_id": "alombert-colin-t2-ocr-v1",
+      "source_sha256": "77fc16cee44e26789d8f0efbdded7c108b67fbfe55b28422663e22567e376823",
+      "metadata_sha256": "db1b7e146aeae1434ccce1a0ee4ffff7b8d9957ffc2135f2c71bf53e37215794",
+      "source_character_range": [
+        449448,
+        449902
+      ],
+      "source_line_range": [
+        19921,
+        19928
+      ],
+      "quote": "Envoyez de suite au Be régiment de ouirassiers l'ordre d'aller \ns'établir à Huningue, el au 10, celui de se rendre à Neuf-Brisach. \nVous donnerez au général Puthod, commandant le département \ndu Haut-Rhin, pour instruction, de surveiller les mouvements \nque pourraient faire les Autrichiens sur le Rhin par le Brisgau \nsur les points de Brisach et d'Hnningne ; ilne devra, dans aucun, \nens, se laisser prévenir par eux pour l'oceupation du pont de \nBâle,",
+      "quote_sha256": "a6f005a104a55135ec71f473b792661301dc4ede4336b710c9b5c839144ce6be",
+      "locator": "Alombert and Colin, tome II, murat-leval-order; pinned OCR lines 19921–19928; character range [449448, 449902); running-page digits not image-verified",
+      "source_role": "reprinted_lieutenant_task_order",
+      "interpretation_en": "Murat directs Leval to issue cavalry movement orders and instructions for surveillance of Austrian movements and the Basel bridge. This is positive evidence of reported task direction, alongside his nomination and scope question.",
+      "scope_limit": "An issued task order is not evidence of its execution, a complete local people count, the earliest appointment date or unrestricted general command over the Grande Armée. Regimental identifiers are not headcounts.",
+      "facsimile_inspected": false,
+      "document_date": null,
+      "normalized_event_time": null,
+      "command_receipt_at": null
+    }
+  ],
+  "assessment": {
+    "reported_imperial_operational_direction": {
+      "status": "passage_backed_scoped_observations",
+      "evidence": [
+        "p002",
+        "p003",
+        "p004"
+      ]
+    },
+    "public_stated_aims": {
+      "status": "issuer_stated_public_rationale_not_complete_assigned_objectives",
+      "items": [
+        "Prompt help to allies",
+        "Defence of the interests of his peoples"
+      ],
+      "evidence": [
+        "p007"
+      ]
+    },
+    "reported_lieutenant_role": {
+      "actor_label": "Murat",
+      "global_person_id": null,
+      "status": "reported_nomination_and_task_orders_with_general_scope_question",
+      "evidence": [
+        "p005",
+        "p006",
+        "p009"
+      ],
+      "mandate_instrument": null,
+      "effective_start": null,
+      "effective_end": null
+    },
+    "personal_command_presence": {
+      "status": "reported_announcement_not_earliest_authority_or_handover",
+      "evidence": [
+        "p008"
+      ]
+    },
+    "replacement_at": null,
+    "appointment_start": null,
+    "endpoint_at": null,
+    "eligible_replacements": null,
+    "inherited_resources": null,
+    "contemporary_information_set": null,
+    "assigned_campaign_objective_vector": null,
+    "persistent_unit_id": null,
+    "responsible_person_id": null,
+    "estimable": false,
+    "contribution_estimate": null,
+    "reason": "Earlier scoped orders and a public aim statement are recoverable, but the original imperial-command comparison still lacks a defended appointment/window, inherited versus issuer-chosen goals, and eligible replacements under the same authority. A delegated lieutenant role is a different target, not a replacement-pool entry or silent pilot revision."
+  },
+  "boundaries": {
+    "supplements_frozen_pilot": true,
+    "overwrites_pilot": false,
+    "admitted_features": [],
+    "emitted_model_rows": [],
+    "historical_outcomes_fitted": false,
+    "calibration": "prepared_unscored",
+    "review": "primary_only",
+    "separate_review": false,
+    "subagents": false
+  }
+}

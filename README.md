@@ -36,26 +36,18 @@ As of 2026-10-20:
   carry 46% of it. In sample, results do vary with commander identity (τ about 0.6, calibrated
   p = 0.01), which is not evidence of skill ([results](#results-so-far)).
 - **Napoleonic first-pass coverage is complete.** Bodart's frozen 1805–1815 land cohort has **325/325
-  draft dossiers across all 16 campaign groups**, primary-verified by group. The final
-  [Hundred Days pass](docs/research/hundred-days-1815-first-pass-v1.md) preserves conflicting
-  strengths, later arrivals, command scopes and full siege intervals. Missing evidence and
-  source disputes remain; coverage does not admit features or establish commander effects.
+  draft dossiers across all 16 campaign groups**, primary-verified by group. Missing evidence
+  and source disputes remain; coverage does not admit features or establish commander effects.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been
-  fitted. A bounded [ledger design](docs/napoleonic-ledgers-v1.md) now preserves source-specific
-  quantities and command roles for four development entries. Their
-  [boundary/membership specification](docs/napoleonic-boundaries-v1.md) separates initial contact,
-  later siege phases and troop availability; all eight complete opening mappings remain unresolved.
-  Their [authority/continuity mapping](docs/napoleonic-authority-v1.md) now separates reported
-  roles and source-local identities; no cross-engagement army link is established. This pilot
-  stops here. The [development blocker inventory](artifacts/napoleonic-blocker-inventory-v1.md)
-  covers all 273 development entries. Its selected eight-entry 1812 Peninsular group now has a
-  [combined measurement table](artifacts/napoleonic-peninsula-1812-measurement-v1.md): six local
-  associations between troop totals and named roles, with all sixteen opening mappings still blocked.
-  The [12-entry feasibility checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
-  led to a [six-case command-unit and authority specification](docs/napoleonic-command-units-v1.md),
-  separating force identity, appointment authority and local personnel availability. Wider extraction is paused.
+  fitted. The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
+  and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
+  force identity and appointment authority; wider extraction is paused. The latest
+  [1805 appointment check](docs/research/napoleonic-1805-appointment-check-v1.md) recovers earlier
+  imperial direction, public aims and Murat's reported delegation with task orders. The overall
+  imperial-command comparison remains **not estimable**: boundary, mandate and replacement-pool
+  gaps remain, and OCR-only dates have not been promoted into a chronology.
 
 ## How the research is produced
 

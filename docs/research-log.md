@@ -4092,3 +4092,54 @@ contracts; it does not implement this new specification or validate historical t
 Reproduction left **all 8,008 protected pre-existing tracked files byte-identical**,
 including prior dossiers, sources, code, tests, reports, specifications and receipt.
 All 1,150 receipt input hashes, 20 output hashes and 5,667 source bindings were rechecked.
+
+## 1805 German-command appointment and objective check v1 (2026-10-20)
+
+Completed the accepted bounded [source check](research/napoleonic-1805-appointment-check-v1.md)
+of the existing French overall-command pilot in the German operations. The new
+[supplement](../data/napoleonic/appointment-check-v1/record.json) binds the immutable original
+pilot, methods/unit rules, partition, registry and the complete existing tome-II metadata.
+The pilot itself, dossiers, raw inputs and prepared packets are not rewritten.
+
+- **Effort:** one existing source family (`alombert-colin-1805`), nine adopted passages in
+  seven contexts and one targeted follow-up for appointment/mandate wording. The earlier
+  preparation narrative/orders, Murat's letter continuation and relevant lieutenant/task/
+  personal-command contexts were read in the pinned OCR. This was not a complete volume
+  reading, a new campaign sweep, an independent corroboration or an image-verification pass.
+- **Positive findings:** reported imperial intelligence, route and supply direction precedes
+  the old October local-order examples in the source's reported chronology. Murat reports
+  appointment as lieutenant during the Emperor's absence and issues specific troop and
+  surveillance orders. The public speech states help to allies and defence of the peoples'
+  interests; the corps order announces personal command at Strasbourg. Every item retains
+  its own genre, context, source ID, exact character/line locators, quotation and hashes.
+- **Scope qualification:** Murat's same letter asks whether he should attend to the other
+  corps' cantonments and actually take general command. Retain this alongside the positive
+  task orders. Neither deny all authority nor infer unrestricted general command or an exact
+  transfer. Issued preparations are not completed movements, inherited totals or achieved
+  advantages; public aims are not a complete assigned objective vector.
+- **Chronology:** no new normalized document date, event time, receipt time or comparison
+  boundary is selected. OCR date/page digits include visible corruption and were not repaired
+  from recollection. Literal headings remain available; no original appointment instrument
+  or additional facsimile was inspected.
+- **Result:** the original imperial-command comparison remains not estimable. Appointment
+  and comparison bounds, the replacement pool under the same authority, inherited state,
+  complete objectives and identification remain unresolved. A delegated lieutenant is a
+  different potential unit, not an automatic replacement for the Emperor. No person/army
+  identity, feature, model row, campaign outcome or contribution estimate was selected.
+
+The recommendation is a separate, bounded mandate/window check of Murat's delegated role,
+with the Emperor's superior authority retained. The new target must have its own scope;
+the imperial pilot keeps its stated result. Stop this check here. No automatic fetching,
+resource/outcome expansion, calibration score, synthetic job, separate review, subagent,
+second-opinion prompt or historical fit ran. The work is primary-verified. No source
+registration or metadata changed, so no source-additions entry is needed.
+
+Validation: the supplement's five prior-input bindings, complete source metadata/raw hash,
+all nine quote and seven context ranges/hashes, line locators, evidence IDs and explicit
+date/non-promotion nulls passed the data audit. The report's record binding and local links
+also passed. **356 existing tests passed** (281.752 seconds); full `make check` and
+`make reproduce` exited successfully. All **8,007 of 8,008 protected prior tracked files**
+remain byte-identical; the only changed protected file is the general receipt. Its diff is
+exactly one added evidence-input binding, with all earlier inputs, output hashes and source
+bindings unchanged. The receipt's **1,151 inputs, 20 outputs and 5,667 source bindings** were
+rechecked. No new code or admission/test framework was introduced.
