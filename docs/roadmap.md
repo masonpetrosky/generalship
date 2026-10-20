@@ -178,8 +178,20 @@ source passages and hashes. Its fixed sensitivities retain 194, 193 and 163 pair
 the printed-indecisive exclusion removes none and cannot establish label independence.
 The [run proposal](../data/napoleonic/benchmark-v1/run-proposal.json) binds the dataset,
 design, protocol and executing code. No historical fit ran or run authorization was
-created. This compiler-description target does not relax the opening profile,
+created during that preparation. This compiler-description target does not relax the opening profile,
 attribute command effects or use the 52 final-evaluation entries.
+
+**Done (2026-10-20):** the owner authorized and the primary executed the exact
+[compiler-strength benchmark run](research/napoleonic-benchmark-run-v1.md), preserving
+the frozen proposal and every input. On 194 eligible pairs, campaign-held-out log loss
+is 0.559365 for force size versus 0.680716 for the training prior; war-held-out scores
+also improve. **The forward check is weak:** 37 entries in 1813 nearly tie equal odds
+on log loss and are slightly worse on Brier. The unqualified-total sensitivity is
+worse on both metrics in its 30-entry forward check; its separate 163-entry
+campaign-weighted interval against the prior includes zero. All four fixed populations and three evaluations are published,
+with calibration, uncertainty and error concentration. The 52 final entries remain
+reserved. No commander model, feature admission, wider extraction or final evaluation
+is queued by this descriptive result.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
@@ -191,8 +203,6 @@ run authorization are still required.
 
 ## Open owner decisions
 
-- **Compiler-strength diagnostic:** the exact [development-only run proposal](../data/napoleonic/benchmark-v1/run-proposal.json)
-  is prepared. A separate owner authorization bound to its exact hash is required before fitting.
 - **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
   could supply the margins later.
 

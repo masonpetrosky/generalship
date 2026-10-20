@@ -1,0 +1,25 @@
+{
+  "kind": "napoleonic_benchmark_primary_arithmetic_verification",
+  "version": 1,
+  "status": "share_with_caveats",
+  "separate_review": false,
+  "historical_refits_performed": 0,
+  "bindings": {
+    "artifacts/napoleonic-benchmark-run-v1.json": "35ed5cc7066cf40287e26afc03b16409a9012e81157b472abf212727faa5d505",
+    "data/napoleonic/benchmark-v1/owner-run-authorization.json": "f847c992aecf69e28af3986205014b1826094879d5da6091b723e749031d15d2",
+    "data/napoleonic/benchmark-v1/run-proposal.json": "f33cbea825c477e6a831960cd43ff4da8d91391e1b8642b701c5f4faf970981d",
+    "generalship/napoleonic_benchmark_report.py": "e017c54acd3a859040b272bcfef7531b461bf559955e3384b572f6cabdb2332a"
+  },
+  "checks": {
+    "folds_checked": 80,
+    "optimizer_stationarity_checks": 80,
+    "predictions_checked": 1629,
+    "summary_metric_values_checked": 144,
+    "calibration_bins_checked": 360,
+    "per_group_metric_values_checked": 480,
+    "bootstrap_interval_endpoints_checked": 32
+  },
+  "absolute_score_equation_tolerance": 1e-07,
+  "absolute_arithmetic_tolerance": 2e-12,
+  "reserved_final_entries_used": 0
+}

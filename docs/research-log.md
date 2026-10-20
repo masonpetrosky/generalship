@@ -4460,3 +4460,97 @@ opening profile, wider measurement pause, closed Rastatt branch and prepared,
 unscored calibration remain unchanged. No second-opinion prompt, subagent or
 separate review ran. This is primary-verified preparation at the agreed stopping
 point; a later owner authorization must bind the exact proposal before fitting.
+
+## Napoleonic compiler-strength benchmark run v1, 2026-10-20
+
+The owner accepted the recommendation to authorize and execute the exact frozen
+development-only proposal, replying **“Sounds good, go ahead.”** The new
+`data/napoleonic/benchmark-v1/owner-run-authorization.json` records that reply,
+the approved command/scope, proposal commit `88be0e7` and proposal SHA-256
+`f33cbea825c477e6a831960cd43ff4da8d91391e1b8642b701c5f4faf970981d`.
+The original preparation decision, proposal, protocol, dataset and executing code
+retain their bytes. The explicit historical runner executed once, using CPython
+3.14.7, and produced the immutable
+[raw result](../artifacts/napoleonic-benchmark-run-v1.json), SHA-256
+`35ed5cc7066cf40287e26afc03b16409a9012e81157b472abf212727faa5d505`.
+It fits the 80 prescribed development folds across all four populations and three
+evaluations. No parameter tuning, population selection or final-set evaluation ran.
+
+The [results report](research/napoleonic-benchmark-run-v1.md) publishes every fixed
+population/evaluation under both scoring weightings, the campaign bootstrap,
+force calibration, campaign variation and signed error concentration. The raw
+result retains all models' calibration bins, coefficients, predictions, folds,
+group scores and engagement contributions.
+
+**Grouped prediction improves, but temporal transfer is weak.** On the primary
+194-pair population, campaign-held-out log loss is **0.559365** for force size,
+**0.680716** for the training-only prior and **0.693147** for equal odds.
+Equal-campaign log loss is 0.550669 versus 0.648723 and 0.693147. Primary Brier
+scores are 0.190518 versus 0.243379 and 0.250000 by battle; 0.188712 versus
+0.227805 and 0.250000 by campaign. War-held-out battle-weighted log loss is
+0.560831 versus 0.683644 for the prior. These are predictions of Bodart's recorded
+winners, not command effects.
+
+The fixed 1813 forward view trains on 157 entries and scores 37. Its force log
+loss **0.691122** nearly ties equal odds (0.693147), while Brier **0.251057** is
+slightly worse than 0.250000. The training recorded A-win share is 107/157 and
+the test share 13/37; the training-only Laplace prior is 0.679245 and transfers
+poorly. The unqualified-total forward sensitivity trains on 133 and scores 30;
+its force log loss 0.716775 and Brier 0.262276 are both worse than equal odds.
+This is retained without changing eligibility or selecting a preferred variant.
+
+The printed-indecisive exclusion removes no eligible rows and exactly duplicates
+the primary result; it does not establish label independence. The non-combat and
+unqualified-total populations retain 193 and 163 pairs. In the separate
+163-entry campaign evaluation, the unqualified-total equal-campaign bootstrap
+interval against the training prior includes zero: **[-0.127856, +0.013096]**.
+The other planned intervals and both comparators remain in the report. All
+intervals resample saved held-out campaign losses; they do not refit training
+sets or model source/label uncertainty. No interval is claimed for the coarse
+war or forward views, and no pass/fail skill rule was specified.
+
+Force has lower log loss than the prior in ten campaigns and higher loss in three.
+The top one/five/ten absolute engagement differences carry 2.32%/9.01%/15.73%
+of the sum of absolute differences, retaining losses as well as gains rather than
+dividing by a net improvement. Calibration reports the empty forward bin as
+unknown and preserves the two-entry smallest primary campaign bin.
+
+Primary verification:
+
+- The new saved-result checker uses a second arithmetic implementation and no
+  fitting. It verifies **80 fold memberships and optimizer score-equation pairs,
+  1,629 saved predictions, 144 summary and 480 group metric values, 360 calibration
+  bins and all 32 bootstrap endpoints**, including training-only priors and
+  reserved-final separation. Its
+  [verification record](../artifacts/napoleonic-benchmark-run-v1-verification.json)
+  binds the result, authorization, proposal and checker code. This is primary
+  verification, with no separate review.
+- All **four new focused tests** passed: altered predictions/metrics, contaminated
+  training membership and changed bootstrap bounds are rejected; the valid saved
+  run reconciles with the optimizer mocked and uncalled. These checks perform no
+  historical fit. The ordinary benchmark unit fixtures remain constructed cases.
+- All **384 tests passed** (259.438 seconds). Full `make check` and `make reproduce`
+  exited successfully. Both commands now verify the saved run; reproduction
+  regenerates only its readable report/verification record, never the historical
+  result. Every report file link resolves and the generated report was inspected.
+- The pre-run audit covered **8,033 tracked files**. Only Makefile, README, roadmap,
+  this log and the receipt change among those files. All prior raw evidence,
+  metadata, dossiers, packets, versioned records and numerical reports retain
+  their bytes. All **20 prior receipt output hashes**, **5,667 source bindings**
+  and every prior input hash are unchanged. The receipt has **1,165 inputs**,
+  adding only the new authorization and saved-report module to the previous
+  1,163. The new run and verification retain their separate bindings.
+- The six compiler-convention passages on pp. 45–47 were re-read against the
+  existing source context for the report's selection, winner-coding, available
+  personnel and rounding caveats. No source was fetched, registered, revised or
+  newly visually inspected; no source-additions entry is needed.
+
+All **52 final-evaluation entries remain reserved and unused numerically**.
+Source dependence, selection, mixed populations, rounding and strength-dependent
+winner coding limit interpretation. No enriched feature, commander ranking,
+tactical effect or campaign-contribution estimate is produced. Wider opening
+extraction remains paused and the appointment pilot branch stays closed. The
+prepared extraction-review calibration sample remains unscored, distinct from
+the statistical calibration reported here. No subagent, separate reviewer or
+second-opinion prompt ran. The task ends at the completed, primary-verified
+development diagnostic and its honest limitations.

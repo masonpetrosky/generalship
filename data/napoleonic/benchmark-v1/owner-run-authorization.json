@@ -1,0 +1,12 @@
+{
+  "kind": "napoleonic_benchmark_owner_run_authorization",
+  "version": 1,
+  "approved": true,
+  "proposal_sha256": "f33cbea825c477e6a831960cd43ff4da8d91391e1b8642b701c5f4faf970981d",
+  "command": "python3 -m generalship.napoleonic_benchmark_run --authorization data/napoleonic/benchmark-v1/owner-run-authorization.json --out artifacts/napoleonic-benchmark-run-v1.json",
+  "scope": "development_only_all_fixed_populations_and_evaluations_no_model_selection",
+  "owner_request": "Sounds good, go ahead",
+  "recorded_at_utc": "2026-10-20T17:09:07+00:00",
+  "proposal_commit": "88be0e7343cfac8a727ec3d546b52a9d8780a66c",
+  "accepted_recommendation_summary": "Run the frozen development-only Napoleonic compiler-strength benchmark on all eligible pairs, with every fixed sensitivity and evaluation; publish prediction errors, calibration, uncertainty and unimproved findings; preserve all 52 reserved-final entries."
+}

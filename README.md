@@ -46,10 +46,11 @@ As of 2026-10-20:
   with the unresolved opening mappings retained.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
-  improved prediction with zero commander effects. No Napoleonic historical outcome has been
-  fitted. A separate [compiler-strength benchmark dataset](artifacts/napoleonic-benchmark-v1.md)
-  now covers all 273 development entries, with 194 eligible pairs and every exclusion retained.
-  Its [exact run proposal](data/napoleonic/benchmark-v1/run-proposal.json) awaits owner run authorization.
+  improved prediction with zero commander effects. The first owner-authorized
+  [compiler-strength benchmark](docs/research/napoleonic-benchmark-run-v1.md) now reports historical
+  prediction on 194 eligible pairs from 273 development entries. Force size improves grouped
+  prediction, but the 1813 forward check is weak and sensitivity-dependent. Bodart's selection
+  and strength-dependent winner coding limit interpretation; all 52 final entries remain reserved.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The
@@ -104,6 +105,7 @@ of skill or a causal estimate, and the later runs leave the frozen baseline unch
 | [Rating run 2](docs/research/commander-ratings-v2.md) | 126 full-war battles with graded strengths | The same test on the full war | Lower under both weightings (0.6540 vs 0.6633 by battle, 0.6795 vs 0.6844 by campaign); every commander's interval includes zero |
 | [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651), but fragile: the campaign-weighted gain's 95% bootstrap interval includes zero, and Forrest's and Grant's rows carry much of the gain ([uncertainty](artifacts/commander-ratings-v3-uncertainty.md)); only Forrest's 80% interval excludes zero |
 | [Rating run 4](docs/research/commander-ratings-v4.md) | 301 battles on ledger v3, 120 with a modelled side | Do commanders beat a theater-and-period comparator, beyond campaign-resampling noise under both weightings, with τ estimated and leakage removed? | No: −0.0174 battle-weighted (bound −0.0054, cleared) but −0.0086 campaign-weighted (bound +0.0092, not cleared); the comparator itself did worse than force size alone, and Forrest's rows carry 46% of the gain. In sample τ ≈ 0.6 (95% profile interval 0.2–1.0, calibrated p = 0.01) |
+| [Napoleonic compiler-strength benchmark](docs/research/napoleonic-benchmark-run-v1.md) | 194 of 273 development entries | Do Bodart's printed personnel totals predict his recorded winners? | Campaign-held-out log loss 0.5594 versus 0.6807 for the training prior. The 37-entry 1813 forward check nearly ties equal odds on log loss and is slightly worse on Brier; the unqualified-total forward sensitivity is worse on both. This is a compiler-record diagnostic, with no commander effect. |
 
 Runs 2 and 3 passed the test fixed in advance for them, which is read only as lower held-out log
 loss on those rows and had no uncertainty threshold. Run 4's [pre-registered rule](docs/commander-ratings-v4.md)
