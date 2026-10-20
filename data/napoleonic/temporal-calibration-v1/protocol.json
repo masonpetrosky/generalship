@@ -1,0 +1,77 @@
+{
+  "kind": "napoleonic_temporal_calibration_protocol",
+  "version": 1,
+  "authorizes_historical_fit": false,
+  "reserved_final_numerical_use": false,
+  "candidate": "one_ridge1_logit_offset_on_latest_completed_campaign_year_block",
+  "models": [
+    "offset_force",
+    "same_base_force",
+    "expanding_force",
+    "expanding_prior",
+    "recent_prior",
+    "equal_odds"
+  ],
+  "populations": [
+    "primary",
+    "exclude_indecisive",
+    "exclude_no_combat",
+    "unqualified_totals"
+  ],
+  "feature": "(A-B)/(A+B)",
+  "force_ridge": 1.0,
+  "offset_ridge": 1.0,
+  "minimum_base_rows": 10,
+  "minimum_calibration_rows": 10,
+  "target_years": [
+    1805,
+    1806,
+    1807,
+    1808,
+    1809,
+    1810,
+    1811,
+    1812,
+    1813
+  ],
+  "decision_years": [
+    1808,
+    1809,
+    1810,
+    1811,
+    1812
+  ],
+  "secondary_years": [
+    1813
+  ],
+  "group_completion": "maximum_known_end_date_of_every_development_group_member",
+  "training_cutoff": "group_completion_strictly_before_January_1_of_target_year",
+  "calibration_block": "all_available_groups_in_latest_nonempty_completion_calendar_year",
+  "base_block": "all_earlier_available_complete_groups",
+  "calibration_time_guard": "every_base_group_must_finish_before_earliest_start_of_every_calibration_member",
+  "refit_base_after_offset": false,
+  "fallback": "none; retain unscored fold with reasons",
+  "weightings": [
+    "battle",
+    "equal_campaign"
+  ],
+  "calibration_edges": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "bootstrap": null,
+  "model_selection": false,
+  "decision_tolerance": 1e-12,
+  "continuation_rule": {
+    "primary": "lower_log_loss_and_nonhigher_Brier_than_every_comparator_under_both_weightings",
+    "year_consistency": "lower_log_loss_than_expanding_force_in_at_least_3_of_5_decision_years",
+    "sensitivity_veto": "unqualified_totals_must_not_worsen_log_loss_or_Brier_vs_expanding_force_under_either_weighting",
+    "1813_affects_decision": false,
+    "missing_required_scores": "not_assessable_not_passed",
+    "interpretation": "exploratory_continuation_only_not_feature_admission_or_rating_gate"
+  }
+}

@@ -4666,3 +4666,105 @@ limits. No feature is admitted, no commander rating or causal effect is
 estimated, wider strict-opening work remains paused and the appointment branch
 stays closed. Extraction-review calibration remains prepared and unscored;
 no subagent, separate review or second-opinion prompt ran.
+
+## Napoleonic temporal probability-correction design v1, 2026-10-20
+
+The owner accepted the recommendation to design one fixed, training-only
+probability-correction test, replying **“Sounds good, go ahead.”** The new
+[scope](../data/napoleonic/temporal-calibration-v1/scope.json) records that actual
+preparation request and explicitly withholds authorization for historical fitting.
+The [design](napoleonic-temporal-calibration-v1.md) and
+[prepared plan](../artifacts/napoleonic-temporal-calibration-plan-v1.md) are
+primary-verified. No historical outcome was loaded into a fit, no historical
+forecast was generated, and no run-authorization record or historical result
+was created.
+
+The date audit uses all **273 development entries / 13 frozen source groups**,
+including numerically excluded members. Several groups extend beyond their
+source-year label: the 1810 Peninsular group ends in 1812, for example. A group
+becomes available only after every member has a known end strictly before
+January 1 of the target year. The latest nonempty completion-year block is
+calibration; earlier complete groups are the base. The base must also finish
+before every calibration member begins. Unknown dates, overlap or fewer than
+ten eligible rows in either training block make a fold not estimable, without
+another window or a member-level repair. The original groups are never split
+or reassigned. These are retrospective event-date safeguards, not proof of
+publication dates or contemporary information availability.
+
+The single candidate fits the unchanged ridge-1 force model on base rows,
+freezes both coefficients, then estimates one ridge-1 additive logit offset on
+the disjoint calibration block. The base stays frozen afterward. A strictly
+convex one-parameter objective and score-equation check define the correction;
+it cannot improve the base's ordering within a fold. Comparators are the same
+uncorrected base, expanding force, expanding and recent Laplace priors, and
+equal odds. This prevents success from being defined only against an older,
+smaller force fit or a weak base-rate comparator.
+
+The main decision region is **1808–1812: 115/141 primary entries**, five annual
+folds and seven complete source groups. All 26 exclusions remain. The 68-entry
+1805–1807 warmup has 42 primary-eligible entries and no outer score. The reused
+1813 region retains **37/64 entries** and 27 exclusions as secondary diagnostics
+only. Its scores cannot enter or rescue the continuation decision. Two eligible
+development operations end in 1814; their IDs remain development under the
+unchanged start-cohort reservation. All **52 final entries remain unused
+numerically**. The unqualified-total region has 103/141 main and 30/64 secondary
+entries. All four existing populations are retained, including the indecisive
+no-op and the non-combat exclusion.
+
+The fixed exploratory rule requires lower main log loss and nonhigher Brier
+against every comparator under battle and equal-campaign weighting, improvement
+against expanding force in at least three of five years, and no worsening
+against expanding force in the unqualified-total sensitivity under either score
+or weighting. Missing required results mean not assessable. The rule is not a
+significance test, feature-admission contract or commander-rating gate. The
+small number of folds/groups, repeated calibration blocks, overlapping training,
+one compiler family and prior exposure of development outcomes remain explicit.
+No bootstrap confidence claim or best-window selection is proposed.
+
+The exact [run proposal](../data/napoleonic/temporal-calibration-v1/run-proposal.json)
+has SHA-256 **`b6b58138ba1b396160a0d9185e18a3b756f83788fb89da5f3431000a9d84b5f7`**
+and binds **16 files**, including the design, protocol, source dataset, executing
+code and both plan outputs. A future owner-authorized run proposes **72 parameter
+fits over 24 scorable population/year folds**. The runner checks the exact later
+authorization before reading outcome labels or invoking either fitter and refuses
+to overwrite the new result path. Checks/reproduction use only the planner;
+tests fit constructed cases only. A separate direct metadata calculation
+reconciled all **36 population/year splits** with the plan.
+
+All **13 focused tests passed**. They cover complete-group deferral caused by an
+ineligible late/unknown member, strict cutoff and base/calibration separation,
+duplicate/split groups, all denominators/final separation, input/proposal tampering,
+exact restoration of missing/corrupt outputs, offset score equations/objective and
+complement behavior, single-class/invalid inputs, held-out label and provenance
+poisoning, training-only priors, continuation failures/tolerances/sensitivity veto,
+exclusion of 1813 from the decision and rejection of absent/mismatched approval
+before labels or fitting. Positive authorization parsing uses a constructed
+temporary root with no historical inputs, never an owner approval record.
+
+All **405 tests passed** (252.140 seconds), and full `make check` and
+`make reproduce` exited successfully. The final 13 focused tests also passed
+after making their protected-file assertion preserve any later legitimate
+authorization/result rather than assume those files can never exist. The
+prepared outputs were inspected, their links resolve, and exact restoration
+reproduces both pinned hashes. The proposal remains unchanged.
+
+The preservation audit covers **8,045 prior tracked files**. Only Makefile,
+roadmap, this log and the receipt change among them; README remains unchanged.
+All **1,168 prior receipt input hashes**, **5,667 source bindings** and **20
+output hashes** retain their bytes. The receipt now has **1,173 inputs**, adding
+only the three new preparation JSON files and two Python modules. The design
+and two plan outputs have their separate proposal bindings. All prior source,
+dossier, packet, protocol, authorization, numerical result and 1813 diagnostic
+files are unchanged. Preparation ends at the exact executable proposal;
+the next action is its separately authorized run.
+
+Date provenance remains the unchanged `bodart-1908-transcription-v1`, raw SHA-256
+`bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986`, and frozen
+frame SHA-256 `af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea`.
+The plan retains controlling entry/field locators and hashes. This task checks
+encoded metadata and its temporal use; no new page inspection, date adjudication,
+source fetch, registry change or prepared evidence-packet update occurs. No
+source-additions entry is needed. All earlier evidence, model inputs, authorizations,
+numerical results and the 1813 diagnostic remain unchanged. Wider opening work,
+the closed appointment branch and unscored extraction-review calibration stay
+parked. No second-opinion prompt, separate review or subagent ran.

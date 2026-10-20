@@ -200,9 +200,21 @@ Coverage falls from 157/209 before 1813 to 37/64 in 1813. Same-row comparisons d
 case removal from differences between the two saved models. The five largest errors were
 checked against existing full entries and five pinned images; their literal totals, side
 assignments and recorded outcomes match. No refit, recalibration or historical correction ran.
-All 52 final entries remain unused numerically. **Recommended next:** design one bounded,
-development-only rolling-forward calibration comparison, with training-only correction,
-fixed comparators/coverage and a decision rule before any separately authorized fit.
+All 52 final entries remain unused numerically. This motivated the fixed temporal comparison below.
+
+**Done (2026-10-20):** the [temporal probability-correction design](napoleonic-temporal-calibration-v1.md)
+and [executable proposal](../data/napoleonic/temporal-calibration-v1/run-proposal.json) are prepared,
+primary-verified and bound to 16 input/code/plan files. One ridge-1 offset uses a disjoint,
+completed calibration block while its base model stays fixed. Whole-group completion and
+base-before-calibration guards prevent temporal overlap, including long operations whose
+source-year labels precede their end dates. The primary decision region is **115/141 entries
+in 1808–1812, five folds/seven groups**; 1813's 37/64 entries remain reused secondary diagnostics.
+All four existing populations, five comparators and a fixed exploratory continuation rule
+are retained. The proposal specifies 72 parameter fits across 24 population/year folds;
+**none ran during preparation**. No final entry, feature admission or historical correction
+is used. The [plan](../artifacts/napoleonic-temporal-calibration-plan-v1.md) retains all 273
+development entries, warmup/exclusions and every role assignment. Next is a separately
+authorized execution of this exact proposal, rather than another design packet.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
@@ -214,6 +226,8 @@ run authorization are still required.
 
 ## Open owner decisions
 
+- **Temporal probability-correction run:** the exact [proposal](../data/napoleonic/temporal-calibration-v1/run-proposal.json)
+  is ready for run authorization; preparation does not authorize historical fitting.
 - **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
   could supply the margins later.
 
