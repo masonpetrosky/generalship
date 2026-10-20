@@ -15,6 +15,7 @@ import re
 import shutil
 
 from .sources import read_csv, read_json
+from .napoleonic_site import NapoleonicPages
 
 REPOSITORY = 'https://github.com/masonpetrosky/generalship'
 COHORT = 'data/pilot/cohort-v2.json'
@@ -57,6 +58,13 @@ blockquote { margin: 6px 0; padding: 6px 12px; background: var(--quote); border-
 code { font-size: .88em; overflow-wrap: anywhere; } .card { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 12px 16px; margin: 12px 0; }
 .label { display: inline-block; font-size: .78rem; padding: 0 6px; margin: 1px 2px 1px 0; border: 1px solid var(--line); border-radius: 10px; color: var(--muted); }
 .claim { border-top: 1px solid var(--line); padding: 10px 0; } .cite { font-size: .9rem; margin: 6px 0 10px; }
+.claim, .cite, dd, blockquote { overflow-wrap: anywhere; }
+.claim h4 { margin: 6px 0; font-size: .95rem; }
+.research-status { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.research-status .card { margin: 8px 0; padding: 12px; }
+.research-status p { margin: 6px 0 0; font-size: .9rem; }
+dt { font-weight: 600; } dd { margin: 4px 0 12px; }
+@media (max-width: 640px) { .research-status { grid-template-columns: 1fr; gap: 0; } }
 """
 
 
@@ -191,6 +199,7 @@ class Site:
         self.nesting = command['nesting']
         self.registry = {c['id']: c for c in read_json(self.root / REGISTRY)['commanders']}
         self.dossiers = {b: read_json(p) for b in self.cohort if (p := self.root / f'data/evidence/{b}.json').is_file()}
+        self.napoleonic = NapoleonicPages(self)
         self.run_path = next((p for p in RUNS if (self.root / f'{p}.json').is_file()), None)
         self.run = read_json(self.root / f'{self.run_path}.json') if self.run_path else None
         self.by_campaign = defaultdict(list)
@@ -233,11 +242,14 @@ class Site:
 
     def write(self, rel, title, body, depth):
         up = '../' * depth
-        nav = (f'<a class="brand" href="{up}index.html">Generalship</a><a href="{up}commanders/index.html">Commanders</a>'
-               f'<a href="{up}campaigns/index.html">Campaigns</a><a href="{up}engagements/index.html">Engagements</a>'
+        nap_nav = f'<a href="{up}napoleonic/index.html">Napoleonic Wars</a>' if self.napoleonic.cohort else ''
+        nav = (f'<a class="brand" href="{up}index.html">Generalship</a>{nap_nav}'
+               f'<a href="{up}commanders/index.html">Civil War commanders</a>'
+               f'<a href="{up}campaigns/index.html">Civil War campaigns</a><a href="{up}engagements/index.html">Civil War engagements</a>'
                f'<a href="{up}sources.html">Sources</a><a href="{up}results/index.html">Results</a><a href="{REPOSITORY}">GitHub</a>')
         page = (f'<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
                 f'<meta name="viewport" content="width=device-width, initial-scale=1">'
+                '<link rel="icon" href="data:,">'
                 f'<title>{esc(title)} · Generalship</title><link rel="stylesheet" href="{up}style.css"></head>'
                 f'<body><header><nav>{nav}</nav></header><main>{body}</main>'
                 f'<footer>Built from commit <a href="{REPOSITORY}/tree/{esc(self.commit)}"><code>{esc(self.commit[:12])}</code></a>. '
@@ -252,11 +264,14 @@ class Site:
         src = self.sources.get(c['source_id'], {})
         where = c.get('locator') or (', '.join(f'{k} {v}' for k, v in c['row_key'].items()) + f"; column {c['column']}"
                                      if c.get('row_key') else '')
-        snap = (f' · <a href="{esc(self.blob(src["path"]))}">snapshot</a> <code>{esc(src["sha256"][:12])}…</code>'
+        snap = (f' · <a href="{esc(self.blob(src["path"]))}">snapshot</a> '
+                f'<code title="SHA-256: {esc(src["sha256"])}">{esc(src["sha256"][:12])}…</code>'
                 if src.get('path') else '')
-        return (f'<div class="cite"><blockquote>{esc(c.get("quote"))}</blockquote>'
+        section = f' · section <code>{esc(c["section"])}</code>' if c.get('section') else ''
+        quote = f'<blockquote>{esc(c["quote"])}</blockquote>' if c.get('quote') else ''
+        return (f'<div class="cite">{quote}'
                 f'<a href="{up}sources.html#{esc(c["source_id"])}">{esc(c["source_id"])}</a>'
-                f'{", " + esc(where) if where else ""}{snap}</div>')
+                f'{", " + esc(where) if where else ""}{section}{snap}</div>')
 
     def input_ref(self, inp, up):
         ref = inp.get('ref') or {}
@@ -289,6 +304,7 @@ class Site:
         self.commanders()
         self.campaign_pages()
         self.engagements()
+        self.napoleonic.build()
         self.source_page()
         return {'pages': self.pages, 'output': str(self.out), 'commit': self.commit, 'run': self.run_path}
 
@@ -302,18 +318,20 @@ class Site:
         else:
             text = 'lower held-out log loss under both weightings' if self.run['heldout_test']['improved'] else 'no held-out improvement'
         name = self.run_path.rsplit('/', 1)[-1]
-        return (f'<div class="card"><strong>Latest rating run ({self.run.get("run_version")}):</strong> {esc(text)}. '
+        return (f'<div class="card"><strong>Latest Civil War rating run ({self.run.get("run_version")}):</strong> {esc(text)}. '
                 f'<a href="{up}results/{self.report_name(self.run_path + ".md")}.html">Report</a> · '
                 f'<a href="{esc(self.blob(self.run_path + ".json"))}">{esc(name)}.json</a></div>')
 
     def home(self):
         claims = sum(len(d['claims']) for d in self.dossiers.values())
         cites = sum(len(c['citations']) for d in self.dossiers.values() for c in d['claims'])
-        stats = (f'<div class="card">{len(self.cohort)} engagements in {len(self.by_campaign)} campaign groups · '
+        stats = (f'<div class="card"><strong>Civil War research:</strong> {len(self.cohort)} engagements in {len(self.by_campaign)} campaign groups · '
                  f'{len(self.dossiers)} dossiers · {claims:,} claims · {cites:,} citations · {len(self.sources):,} registered sources · '
                  f'{len(self.strength)} engagements in the strength and command ledgers · {len(self.attributed)} commanders credited</div>')
         readme = (self.root / 'README.md').read_text(encoding='utf-8')
-        self.write('index.html', 'Overview', stats + self.verdict_box('') + markdown(readme, self.home_link), 0)
+        nap = (f'<div class="card"><strong><a href="napoleonic/index.html">Napoleonic research</a>:</strong> '
+               f'{self.napoleonic.summary()}</div>' if self.napoleonic.cohort else '')
+        self.write('index.html', 'Overview', nap + stats + self.verdict_box('') + markdown(readme, self.home_link), 0)
 
     def home_link(self, target):
         link = self.doc_link('README.md')(target)
@@ -454,14 +472,16 @@ class Site:
         self.write(f'engagements/{b}.html', rec['battle_name'], ''.join(parts), 1)
 
     def source_page(self):
-        cited = Counter(c['source_id'] for d in self.dossiers.values() for cl in d['claims'] for c in cl['citations'])
+        dossiers = [*self.dossiers.values(), *self.napoleonic.dossiers.values()]
+        cited = Counter(c['source_id'] for d in dossiers for cl in d['claims'] for c in cl['citations'])
         rows = [[f'<span id="{esc(s["id"])}"><code>{esc(s["id"])}</code></span>', esc(s.get('title')), esc(s.get('source_kind')),
                  esc(s.get('independence_group')), cited[s['id']],
-                 (f'<a href="{esc(self.blob(s["path"]))}">snapshot</a> <code>{esc(s["sha256"][:12])}…</code>' if s.get('path') else ''),
+                 (f'<a href="{esc(self.blob(s["path"]))}">snapshot</a> <code>{esc(s["sha256"])}</code>' if s.get('path') else ''),
                  (f'<a href="{esc(s["url"])}">origin</a>' if s.get('url') else '')]
                 for s in sorted(self.sources.values(), key=lambda s: s['id'])]
         self.write('sources.html', 'Sources', '<h1>Registered sources</h1><p>Every source in <code>data/sources.json</code> '
-                   'with its pinned snapshot and SHA-256 (the first 12 hex digits shown). Copies and reprints share an '
+                   'with its pinned snapshot and full SHA-256. Dossier citation counts include both the Civil War '
+                   'and Napoleonic cohorts. Copies and reprints share an '
                    'independence group and are not independent families.</p>'
                    + table(['ID', 'Title', 'Kind', 'Independence group', 'Dossier citations', 'Snapshot', 'Origin'], rows, {4}), 0)
 

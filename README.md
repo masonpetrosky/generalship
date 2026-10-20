@@ -7,8 +7,8 @@ and constraints they faced, including the advantages they created before battle.
 Every result should be traceable from commander to campaign to engagement to
 disputed assumptions and supporting passages.
 
-**[Explore the evidence](https://masonpetrosky.github.io/generalship/)**: every commander,
-campaign, engagement, claim, quoted passage and pinned source, rebuilt from each commit.
+**[Explore the evidence](https://masonpetrosky.github.io/generalship/)**: browse Civil War and
+Napoleonic engagements, claims, quoted passages and pinned sources, rebuilt from each commit.
 
 Inspired by [Ethan Arsht's military rankings](https://github.com/ethanarsht/military_rankings),
 this project starts with a reproducible battle-level baseline, then builds toward
@@ -38,6 +38,10 @@ As of 2026-10-20:
 - **Napoleonic first-pass coverage is complete.** Bodart's frozen 1805–1815 land cohort has **325/325
   draft dossiers across all 16 campaign groups**, primary-verified by group. Missing evidence
   and source disputes remain; coverage does not admit features or establish commander effects.
+  [Browse all 325 dossiers](https://masonpetrosky.github.io/generalship/napoleonic/index.html),
+  including 1,085 explicit unknowns and 140 disputed claims. The explorer preserves source
+  passages, scope notes and hashes, with research coverage, measurement readiness and model
+  admission shown separately.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been

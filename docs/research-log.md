@@ -4261,3 +4261,62 @@ including the receipt, original pilots, dossiers, packets, source registry, code
 tests and previous versioned records. The receipt remains at **1,153 inputs, 20
 outputs and 5,667 source bindings**. Only the new decision memo and current public
 status/roadmap/history prose change. No new admission/test framework or model job ran.
+
+## Napoleonic evidence explorer, 2026-10-20
+
+The owner accepted the recommendation to expose the completed Napoleonic dossiers in
+the static explorer. The new read-only renderer, `generalship/napoleonic_site.py`,
+uses the frozen cohort, frame and current dossiers directly. It generates **343 new
+pages: two indexes, 16 complete campaign pages and 325 engagement pages**. The full
+site has **1,266 HTML pages**, retaining the Civil War pages and reports.
+
+All **4,846 claims and 13,838 citations** are presented, including **1,085 explicit
+unknowns and 140 disputed claims**. Engagement pages prioritize strength and command
+responsibility and retain every other dimension, rationale, phase/code, boundary
+note and open question. Compiler-listed force/name strings remain distinct from
+resolved identities, selected opening strengths and command credit. Newer drafts'
+typed side notes link to their existing claims; older drafts retain their original
+records without inferred side mappings. Missing values display as unknown rather
+than zero. Research coverage, measurement applicability and model admission are
+explained separately. These are rendering checks, not renewed historical research
+or source adjudication.
+
+Global navigation and the overview identify Napoleonic research and scope the
+existing commander/campaign/engagement links to the Civil War. Source citation
+counts now cover both cohorts. Citation links retain section/locator, commit-pinned
+snapshot and full hash in the tooltip; the source registry page shows the full
+SHA-256. Source independence groups remain visible. A data-URI favicon prevents an
+unrelated missing-icon request. No framework, package or runtime dependency was added.
+
+Validation:
+
+- **Nine focused site tests passed.** Added checks cover exact cohort/group page
+  membership, every Napoleonic claim/value/rationale/passage/source/hash, explicit
+  evidence states, both compiler-side orientations and cross-cohort citation counts.
+  The existing link checker covers every generated page and anchor.
+- **All 360 tests passed** (261.349 seconds). Full `make check` and `make reproduce`
+  exited successfully. The prior numerical and measurement reports were inspected;
+  all 20 output hashes remain unchanged.
+- Browser plugin/skill was absent. Browser verification used bundled **Playwright
+  1.62.1 with installed Chrome**, with no installation. The flow was overview →
+  `third-coalition 1805` → Wertingen (`B363a`) → strength passage → its source/hash,
+  plus command/open-question anchors and typed notes/unknown/disputed claims at
+  `B379a`. Eight screen states passed identity/content/overlay/console/layout checks
+  at **1280×900 and 390×844**. The final pass had no console warnings/errors.
+- A separate Chrome scan loaded **all 343 new pages at 390×844**: every page returned
+  200, had meaningful content and one h1 heading, and had no document-width overflow,
+  page error or console warning/error. Desktop and mobile screenshots/temporary QA
+  scripts remain outside the repository. Browser verification covers Chrome.
+- Of **8,013 protected prior tracked files, 8,012 remain byte-identical**. Only the
+  general receipt changed: one new renderer input and the changed site-module hash.
+  It now has **1,154 inputs, 20 outputs and 5,667 source bindings**. All other prior
+  input bindings, output hashes and source bindings are unchanged. Raw sources,
+  registry, dossiers, packets, prior methods/pilots, ledgers and model inputs retain
+  their bytes. No evidence migration or source-additions entry is needed.
+
+The software change is primary-verified. It admits no predictor, assigns no new
+commander credit and starts no historical or synthetic job. The 273/13 development
+and 52/3 final-reservation partition is unchanged; calibration remains prepared and
+unscored. No subagent, separate reviewer or second-opinion prompt ran. The closed
+Rastatt branch stays closed. Publishing uses the existing Pages workflow; final
+shipping checks verify the remote commit and deployed pages.

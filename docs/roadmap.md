@@ -157,6 +157,12 @@ No new Rastatt/Murat tenure search or alternative-window packet is queued from i
 unknowns. Reopening needs a separately justified decision. Further resource/outcome extraction,
 source fetching, wider strict-opening research and numerical runs remain unqueued.
 
+**Done (2026-10-20):** the Napoleonic evidence explorer covers all 325 engagement dossiers
+and 16 complete campaign groups. It presents the 4,846 claims, including 1,085 explicit
+unknowns and 140 disputed claims, with source passages/hashes, original scope notes and
+separate research/measurement/admission explanations. This is a read-only interface;
+it does not select model inputs, resolve identities or reopen the stopped research branch.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -270,7 +276,8 @@ A familiar-looking list of great generals is not evidence of correctness.
 
 - An explorer that traces commander → campaign → engagement → assumption → passage. A static
   version exists (2026-10-06): commander, campaign, engagement, claim, passage, source and hash
-  pages, rebuilt and published from each pushed commit.
+  pages, rebuilt and published from each pushed commit. Since 2026-10-20 it also covers all
+  325 Napoleonic dossiers and 16 groups, retaining unknowns, disputes and scope limits.
 - Cumulative results, opportunity-adjusted estimates, coverage, uncertainty and source disputes,
   each shown separately.
 - Scenario toggles that explain what changes.
