@@ -12,6 +12,14 @@ distinct from the separate reviewer; *the owner* is the project maintainer; *Ast
 2026-09-24, then Claude Opus 5.5 at `high`). *Frozen* records and campaign groups are those of the
 127-engagement 1862–1863 pilot cohort.
 
+## Hundred Days 1815 complete first pass, 2026-10-19
+
+The [campaign record](research/hundred-days-1815-first-pass-v1.md) adds **15/15 drafts, 228 claims, 65 explicit unknowns and 254 citations**, covering nine dimensions and 30 side records. This completes **325/325 first-cohort drafts across 16/16 complete groups**, with 4,846 claims and 1,085 explicit unknowns. Italy, Belgium and the frontier sieges retain their full frozen intervals. Troop/population alternatives, delayed arrivals, local/superior command, Huningue’s internal mismatch and separate capitulation/departure milestones remain explicit.
+
+Pre-reading family assignments match every final three-family set. Five entries used one bounded targeted check each; the others none. Primary verification corrected Plotho’s Chavannes estimate to his June 28 section before Belfort’s frozen opening. No fourth family, subagents, separate review or second opinion. The registry appends **226 records**, reaching **5,667**; all old 5,441 records/bytes,310 dossiers and old screen rows remain unchanged. Every adopted passage/figure was inspected on a retained image;67 narrative files bind126 exact parent contexts, and 44 manual files retain image readings.
+
+Primary verification binds hashes, arithmetic, **29 visible digit-flag dispositions**, source/evidence checks, refreshed packet, `make reproduce`, `make check` and report inspection. Comparable coverage is complete; historical disputes, original returns, authority clocks and army identities remain unresolved. No feature admission, new historical rating/outcome fit or synthetic job; calibration remains **47 prepared/unscored**, final numerical reservation unchanged. Usage unavailable. Next recommended work: bounded strength/command ledger design using the completed evidence, before any admission or historical fit.
+
 ## Peninsula 1814 complete first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1814-first-pass-v1.md) adds **3/3 drafts, 57 claims, 4 explicit unknowns and 79 citations**, addressing nine dimensions and six side records. Orthez and Toulouse retain conflicting strength/date/population alternatives and Oman's Orthez arithmetic mismatch. Bayonne retains the whole February 23–April 18 frozen siege, separate April 14 sortie forces, Hope/Colville succession and source disagreements about the sortie result and notification date.

@@ -35,27 +35,15 @@ As of 2026-10-19:
   cleared the campaign bootstrap's bound, the campaign-weighted gain did not, and Forrest's rows
   carry 46% of it. In sample, results do vary with commander identity (τ about 0.6, calibrated
   p = 0.01), which is not evidence of skill ([results](#results-so-far)).
-- **Next: the French Revolutionary and Napoleonic Wars.** Chosen on 2026-09-25 and scoped on
-  2026-10-06 ([scoping note](docs/napoleonic-scoping.md)). Bodart's 1908 list is transcribed and
-  frozen as the [frame](docs/napoleonic-frame.md): 663 engagements of 1792–1815, with a first
-  cohort of 325 land engagements of 1805–1815. First passes began on 2026-10-17: the 22
-  engagements of the 1805 campaign, the 4 of the 1806 conquest of Naples, the 23 of the 1806
-  war against Prussia, the 19 of the 1807 group, and the Peninsula groups of 1808 (17) and
-  1809 (19), 1810 (11), 1811 (19) and 1812 (8), plus the Fifth Coalition of 1809 (36),
-  Russia 1812 (31), Liberation 1813 (52), Peninsula 1813 (12), Liberation 1814 (34) and Peninsula 1814 (3),
-  have drafts: **310/325 across fifteen complete groups**,
-  primary-verified by campaign.
-  The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) is complete: an army-only
-  simulation improved prediction despite zero commander effects, and planted commander effects
-  were weakly recovered on the provisional label schedule. No historical outcome was fitted.
-  The [Liberation 1813 pass](docs/research/liberation-1813-first-pass-v1.md) preserves daily force
-  and command changes, conflicting counts and the complete fortress intervals through May 1814.
-  The [Peninsula 1813 pass](docs/research/peninsula-1813-first-pass-v1.md) keeps initial, engaged,
-  siege and covering forces separate and preserves chronology disputes. The
-  [Liberation 1814 pass](docs/research/liberation-1814-first-pass-v1.md) retains conflicting totals,
-  daily command changes and full blockade intervals. The
-  [Peninsula 1814 pass](docs/research/peninsula-1814-first-pass-v1.md) preserves troop/date alternatives
-  and Bayonne’s whole siege. Next: the fifteen entries of `hundred-days-1815 1815` ([roadmap](docs/roadmap.md)).
+- **Napoleonic first-pass coverage is complete.** Bodart's frozen 1805–1815 land cohort has **325/325
+  draft dossiers across all 16 campaign groups**, primary-verified by group. The final
+  [Hundred Days pass](docs/research/hundred-days-1815-first-pass-v1.md) preserves conflicting
+  strengths, later arrivals, command scopes and full siege intervals. Missing evidence and
+  source disputes remain; coverage does not admit features or establish commander effects.
+  The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
+  of planted commander effects on the provisional label schedule; an army-only simulation
+  improved prediction with zero commander effects. No Napoleonic historical outcome has been
+  fitted. Next is a bounded strength/command ledger design ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

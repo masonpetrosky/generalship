@@ -5,6 +5,14 @@ Per-pass record of the sources registered in `data/sources.json`, moved verbatim
 sources are in [sources and provenance](sources.md); the registry is the authority for exact
 bytes, rights and dependence metadata.
 
+## Hundred Days 1815 first pass, 2026-10-19
+
+The [campaign record](research/hundred-days-1815-first-pass-v1.md) appends **226 records**, reaching **5,667**: five complete OCR parents, six metadata snapshots, five scan maps, **86 historical and 13 bibliographic images**,67 exact-range narrative files (126 sections) and 44 manual-transcription files. Colletta’s existing full OCR is reused unchanged. All old 5,441 registry records and pinned bytes remain unchanged.
+
+Inspected printed titles identify Colletta 1856 third-editionII; Plotho’s 1815 continuation printed 1818; Vaudoncourt 1826III part2 and IV narrative; Siborne 1844 second-editionI/II. Plotho remains the existing author family, and volumes/embedded reports are not independent witnesses. National retrospectives mediate other contingents; originals remain uninspected. VaudoncourtIII scan-map fetching timed out; no map was manufactured and printed-image locators control. Full OCR snapshots are navigation, not full-book reading claims.
+
+Every adopted passage/quantity was inspected on the retained image. Narrative sections reconstruct exact half-open parent ranges with whitespace collapsed only, preserving OCR errors. Manual excerpts retain original-language image readings and marked English renderings. All selected original-document dates are null for these retrospectives/compiled tables. [Raw notes](../data/raw/napoleonic-hundred-days-1815-v1/NOTES.md), [alignment audit](../data/raw/napoleonic-hundred-days-1815-v1/selection-audit-v1.json) and [primary record](../data/raw/napoleonic-hundred-days-1815-v1/primary-verification-v1.json) retain locators, source dependence, timing corrections, hashes and 29 flag dispositions. Draft evidence only; no feature admission or frozen-input change.
+
 ## Peninsula 1814 first pass, 2026-10-19
 
 The [campaign record](research/peninsula-1814-first-pass-v1.md) appends **64 records**, reaching **5,441**: 29 new historical page images, 20 exact-range narrative files (43 anchor/context sections) and 15 manual-transcription files. Five previously registered title/preface images were re-inspected. Existing Oman VII and Lapène complete OCR parents, metadata, scan maps and bibliography remain pinned; all old 5,377 registry records and bytes are unchanged.

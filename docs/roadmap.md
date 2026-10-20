@@ -41,7 +41,7 @@ registry, and the worked campaign specification remains not estimable. All resul
 are retained. Compact packets, brief v3's checklist and reproducible research screens are in
 use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or subagent ran.
 
-**Research coverage:** 310 of 325 entries in fifteen of 16 complete groups, all primary-verified:
+**First-pass research coverage complete (2026-10-19):** all 325 entries in all 16 complete groups, primary-verified. The dossiers hold 4,846 claims and 1,085 explicit unknowns; coverage is not reconciliation or feature admission:
 
 | Group | Drafts | Recorded usage |
 | --- | ---: | ---: |
@@ -60,13 +60,18 @@ use. Calibration is a prepared, unscored 47-task sample; no separate reviewer or
 | `peninsula 1813` | 12 | unavailable; no complete meter exposed |
 | `liberation 1814` | 34 | unavailable; no complete meter exposed |
 | `peninsula 1814` | 3 | unavailable; no complete meter exposed |
+| `hundred-days-1815 1815` | 15 | unavailable; no complete meter exposed |
 
 The [research log](research-log.md) retains every batch, whole-group check and correction.
-The remaining 15 entries have no drafts: `hundred-days-1815 1815` (15).
-The [Peninsula 1814 pass](research/peninsula-1814-first-pass-v1.md) preserves Orthez/Toulouse
-strength alternatives, dated/component populations and the whole Bayonne siege with its
-notification-date and sortie-result disputes. Next: `hundred-days-1815 1815` (15 entries),
-using brief v3's checklist and stopping rule.
+No first-cohort entry remains without a draft. The
+[Hundred Days pass](research/hundred-days-1815-first-pass-v1.md) completes the group including
+Italy, Belgian battles and frontier sieges, preserving strength, timing, command and closure
+alternatives. Exact army identities, authority clocks and matched original local returns remain
+unresolved. **Next recommended work:** design the source-specific Napoleonic strength and
+command ledgers in a bounded development-cohort scope using existing dossiers. Define population,
+time, dispute handling and admission rules before promoting any evidence; do not begin a historical
+outcome fit from coverage completion alone. No additional first-pass or historical deep dive is
+queued merely because an old packet retains an unknown.
 This is source research; the final numerical evaluation reservation below remains unchanged.
 The [1808 pass](research/peninsula-1808-first-pass-v1.md) records two source-family effort
 overruns; its dossier screen does not erase them. Fix source-family assignments before substantive

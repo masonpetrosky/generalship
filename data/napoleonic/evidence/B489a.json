@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "battle_id": "B489a",
+  "status": "draft",
+  "tactical_replacement_at": null,
+  "campaign_replacement_at": null,
+  "boundary_note": "Frozen Belfort interval 1815-06-29–1815-07-08 preserved. Side A is French, side B its opponents, independent of winner. Opening, engaged, available, later-arriving, component and terminal populations remain separate. Tactical/campaign replacement boundaries unset; no additive commander/campaign credit.",
+  "claims": [
+    {
+      "id": "bodart-strength-absent",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Bodart gives no strength for this entry. Casualties, unit names and later garrison figures are not converted to an opening headcount.",
+      "citations": []
+    },
+    {
+      "id": "bodart-command",
+      "dimension": "responsibility",
+      "value": "Bodart command labels: side A (French) Gen. Gf. Lecourbe; side B GM. Scheither.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Compilation labels, not equal or continuous responsibility for every force and phase. English rendering (ours): \"Bodart command labels: side A (French) Gen. Gf. Lecourbe; side B GM. Scheither.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p489",
+          "locator": "Bodart 1908, printed p.489, Belfort; retained full-page image inspected",
+          "quote": "Sieg der Franzosen unter Gen. Gf. Lecourbe über die Österreicher unter GM. Scheither."
+        }
+      ]
+    },
+    {
+      "id": "bodart-outcome",
+      "dimension": "outcome",
+      "value": "Frozen winner: side A, following the fixed Bodart frame.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Frozen coding retained; local tactical claims, siege milestones and campaign consequences remain distinct. English rendering (ours): \"The frozen entry records side A as winner.\"",
+      "citations": [
+        {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p489",
+          "locator": "Bodart 1908, printed p.489, Belfort; retained full-page image inspected",
+          "quote": "Sieg der Franzosen unter Gen. Gf. Lecourbe über die Österreicher unter GM. Scheither."
+        }
+      ]
+    },
+    {
+      "id": "plotho-chavannes-component",
+      "dimension": "strength",
+      "value": "In his June28 account, before the frozen Belfort opening, Plotho estimates Lecourbe’s rear guard at Chavannes as about 8,000 infantry and 500 cavalry (8,500 by our addition). Vaudoncourt dates Chavannes June29. The population is a local component with disputed timing, not a whole-interval strength.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Opponent estimate in Plotho’s June28 section, bounded by the next June29 heading. Vaudoncourt p288 dates Chavannes June29. Prior/disputed-timing component, not a matched original return or frozen siege opening. English rendering (ours): \"Colloredo’s first corps found Lecourbe’s rear guard at Chavannes, about 8,000 infantry and 500 cavalry.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1818-krieg-1815-hundred1815-p215-figures-v1",
+          "section": "p215-s1",
+          "locator": "plotho-1818-krieg-1815, printed 215, Internet Archive leaf 226; retained full page image inspected",
+          "quote": "Der 28ste Juni."
+        },
+        {
+          "source_id": "plotho-1818-krieg-1815-hundred1815-p223-figures-v1",
+          "section": "p223-s1",
+          "locator": "plotho-1818-krieg-1815, printed 223, Internet Archive leaf 234; retained full page image inspected",
+          "quote": "Das 1ste Armee-Corps (Graf Colloredo), welches gegen Bedfort marschirte, fand die feindliche Nachhut des Generals Lecourbe bei Chavannes, zwischen Dannemarie und Bedfort, ungefähr 8000 Mann Fußvolk und 500 Mann Reiterei, aufgestellt"
+        },
+        {
+          "source_id": "plotho-1818-krieg-1815-hundred1815-p224-figures-v1",
+          "section": "p224-s1",
+          "locator": "plotho-1818-krieg-1815, printed 224, Internet Archive leaf 235; retained full page image inspected",
+          "quote": "Der 29ste Juni."
+        }
+      ]
+    },
+    {
+      "id": "local-command-sequence",
+      "dimension": "responsibility",
+      "value": "Vaudoncourt assigns the June 29 Chavannes defense to Abbé and flanking moves to Colloredo; on June 30 Scheither advanced at Sevenans and Lecourbe brought a counterattack. Scheither is not treated as sole opponent for the whole interval.",
+      "status": "supported",
+      "phase": "unresolved",
+      "rationale": "Local and superior scopes across multiple days; Bodart’s Lecourbe/Scheither labels retained, not generalized. English rendering (ours): \"On the twenty-ninth General Abbé; on the thirtieth General Scheither advanced and Lecourbe came at once.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p288-selections-v1",
+          "section": "p288-s1",
+          "locator": "vaudoncourt-1826-t4, printed 288, Internet Archive leaf 294; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le 29-, le général Abbé"
+        },
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p290-selections-v1",
+          "section": "p290-s1",
+          "locator": "vaudoncourt-1826-t4, printed 290, Internet Archive leaf 296; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le 3o, le général Schei- ther"
+        }
+      ]
+    },
+    {
+      "id": "belfort-natural-line",
+      "dimension": "terrain",
+      "value": "The narrative describes side A’s withdrawal to the Savoureuse at Sevenans and a dispersed defensive line around Belfort.",
+      "status": "supported",
+      "phase": "inherited",
+      "rationale": "Physical line, no automatic common army identity or terrain score. English rendering (ours): \"They fell back on the Savoureuse at Sevenans.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p290-selections-v1",
+          "section": "p290-s2",
+          "locator": "vaudoncourt-1826-t4, printed 290, Internet Archive leaf 296; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "ils se repliè- rent sur la Savoureuse"
+        }
+      ]
+    },
+    {
+      "id": "belfort-redoubt",
+      "dimension": "fortification",
+      "value": "Vaudoncourt identifies the defended Perches redoubt during the later fighting within the interval.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Later local work; not proof of June 29 opening military works or construction agency. English rendering (ours): \"Who defended the Perches redoubt.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p295-selections-v1",
+          "section": "p295-s1",
+          "locator": "vaudoncourt-1826-t4, printed 295, Internet Archive leaf 301; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "qui défendaient la redoute des Perches"
+        }
+      ],
+      "code": "A_fortified"
+    },
+    {
+      "id": "belfort-convoy",
+      "dimension": "logistics",
+      "value": "Vaudoncourt says Lecourbe was awaiting provisions from Vesoul and attacked Essert/Bavilliers on July 5 as the convoy approached, allowing it to enter.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Mid-interval supply/commander action; not an exogenous opening readiness variable or proof of complete supply adequacy. English rendering (ours): \"Lecourbe anxiously awaited a convoy of provisions from Vesoul.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p295-selections-v1",
+          "section": "p295-s2",
+          "locator": "vaudoncourt-1826-t4, printed 295, Internet Archive leaf 301; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "Le général Lecourbe attendait avec impa- tience l'arrivée d'un convoi de vivres"
+        }
+      ]
+    },
+    {
+      "id": "belfort-opening-posture",
+      "dimension": "posture",
+      "value": "For the June 29 Chavannes phase, side B attacked Abbé’s position and attempted to turn the wings.",
+      "status": "supported",
+      "phase": "commander_created",
+      "rationale": "Opening-day episode inside the full June 29–July 8 entry; French counterattacks on other days remain separate. English rendering (ours): \"The enemy soon attacked him there.\"",
+      "citations": [
+        {
+          "source_id": "vaudoncourt-1826-t4-hundred1815-p288-selections-v1",
+          "section": "p288-s2",
+          "locator": "vaudoncourt-1826-t4, printed 288, Internet Archive leaf 294; retained full page image inspected; exact OCR anchor in retained full-page context",
+          "quote": "L'ennemi ne tarda pas à l'y attaquer"
+        }
+      ],
+      "code": "B_attacked"
+    },
+    {
+      "id": "belfort-final-phase",
+      "dimension": "outcome",
+      "value": "Plotho’s July 8 entry says Colloredo attacked again and captured Pérouse and Bavilliers, narrowing the investment; this does not replace Bodart’s frozen side A whole-interval winner.",
+      "status": "supported",
+      "phase": "post_outcome",
+      "rationale": "Source-specific local result on final frozen day versus whole-interval compilation coding; no silent winner reversal. English rendering (ours): \"July eighth: Colloredo’s first corps attacked Lecourbe again before Belfort; after hard fighting the Austrians captured Pérouse and Bavilliers, investing Belfort more closely.\"",
+      "citations": [
+        {
+          "source_id": "plotho-1818-krieg-1815-hundred1815-p247-figures-v1",
+          "section": "p247-s1",
+          "locator": "plotho-1818-krieg-1815, printed 247, Internet Archive leaf 258; retained full page image inspected",
+          "quote": "Der 8te Juli. Das 1ste Armee-Corps (Colloredo), griff heute das feindliche Corps des Generals Lecourbe in seiner Stellung vor Bedfort aufs neue an, und es kam zu einem heftigen Gefechte; nach hartnäckigem Kampfe eroberten die Oestreicher die Dörfer Perouse und Bavilliers, wodurch nun die Festung Bedfort noch enger als bisher eingeschlossen wurde."
+        }
+      ]
+    },
+    {
+      "id": "matched-original-strength-unknown",
+      "dimension": "strength",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No matched own-side original local returns for both sides and every national contingent were authenticated. Source-specific available, engaged, component, later and terminal quantities above remain alternatives, not a resolved opening ratio.",
+      "citations": []
+    },
+    {
+      "id": "effective-authority-boundary-unknown",
+      "dimension": "responsibility",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "Specific superior/local roles above do not establish complete effective-authority appointment clocks or a replacement pool. Tactical/campaign boundaries remain null; no equal attribution to every listed commander.",
+      "citations": []
+    },
+    {
+      "id": "information-unknown",
+      "dimension": "information",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No supported observation adopted from the bounded inspected passages. Missing state is not zero or evidence of no constraint; no inference from reputation, outcome or a different engagement.",
+      "citations": []
+    },
+    {
+      "id": "objectives-unknown",
+      "dimension": "objectives",
+      "value": null,
+      "status": "unknown",
+      "phase": "unresolved",
+      "rationale": "No supported observation adopted from the bounded inspected passages. Missing state is not zero or evidence of no constraint; no inference from reputation, outcome or a different engagement.",
+      "citations": []
+    }
+  ],
+  "open_questions": [
+    "Bodart has no overall strength; Plotho’s June28 Chavannes rear guard is an earlier component, versus Vaudoncourt’s June29 chronology. Full June 29–July 8 multi-day interval retained, not reduced to Sevenans or the later armistice. Own-side matched local returns, changing allied totals, exact authority clocks and opening fortification agency remain unknown; July 8 local capture and frozen whole-interval winner stay distinct.",
+    "Original local returns/orders and national contingent evidence remain mediated by the named historians. Volumes, copies and embedded reports count once per author; independent source origins are not presumed.",
+    "Frozen frame, cohort, dates and winner unchanged. Primary verification checks extraction/provenance, not historical truth or causal identification. No feature, historical army identity or rating admitted."
+  ],
+  "research_completion": {
+    "brief_version": 3,
+    "sides": {
+      "A": {
+        "strength_claim_ids": [
+          "bodart-strength-absent",
+          "plotho-chavannes-component",
+          "matched-original-strength-unknown"
+        ],
+        "strength_population_and_time": "Source-specific populations and times remain separate. Bodart gives no strength for this entry. Casualties, unit names and later garrison figures are not converted to an opening headcount. In his June28 account, before the frozen Belfort opening, Plotho estimates Lecourbe’s rear guard at Chavannes as about 8,000 infantry and 500 cavalry (8,500 by our addition). Vaudoncourt dates Chavannes June29. The population is a local component with disputed timing, not a whole-interval strength. No matched own-side original local returns for both sides and every national contingent were authenticated. Source-specific available, engaged, component, later and terminal quantities above remain alternatives, not a resolved opening ratio.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-command-sequence",
+          "effective-authority-boundary-unknown"
+        ],
+        "command_scope": "Superior, contingent, local, engineering and later succession scopes remain separate. Bodart command labels: side A (French) Gen. Gf. Lecourbe; side B GM. Scheither. Vaudoncourt assigns the June 29 Chavannes defense to Abbé and flanking moves to Colloredo; on June 30 Scheither advanced at Sevenans and Lecourbe brought a counterattack. Scheither is not treated as sole opponent for the whole interval. Specific superior/local roles above do not establish complete effective-authority appointment clocks or a replacement pool. Tactical/campaign boundaries remain null; no equal attribution to every listed commander.",
+        "army_continuity": "Unknown: the inspected passages do not establish cross-engagement army identity. Repeated corps/army names, commanders and campaign membership are insufficient."
+      },
+      "B": {
+        "strength_claim_ids": [
+          "bodart-strength-absent",
+          "matched-original-strength-unknown"
+        ],
+        "strength_population_and_time": "Source-specific populations and times remain separate. Bodart gives no strength for this entry. Casualties, unit names and later garrison figures are not converted to an opening headcount. No matched own-side original local returns for both sides and every national contingent were authenticated. Source-specific available, engaged, component, later and terminal quantities above remain alternatives, not a resolved opening ratio.",
+        "command_claim_ids": [
+          "bodart-command",
+          "local-command-sequence",
+          "effective-authority-boundary-unknown"
+        ],
+        "command_scope": "Superior, contingent, local, engineering and later succession scopes remain separate. Bodart command labels: side A (French) Gen. Gf. Lecourbe; side B GM. Scheither. Vaudoncourt assigns the June 29 Chavannes defense to Abbé and flanking moves to Colloredo; on June 30 Scheither advanced at Sevenans and Lecourbe brought a counterattack. Scheither is not treated as sole opponent for the whole interval. Specific superior/local roles above do not establish complete effective-authority appointment clocks or a replacement pool. Tactical/campaign boundaries remain null; no equal attribution to every listed commander.",
+        "army_continuity": "Unknown: the inspected passages do not establish cross-engagement army identity. Repeated corps/army names, commanders and campaign membership are insufficient."
+      }
+    },
+    "additional_source_ids_checked": [
+      "vaudoncourt-1826-t4-ocr-v1",
+      "plotho-1818-krieg-1815-ocr-v1"
+    ],
+    "targeted_follow_up": {
+      "performed": true,
+      "decision_it_could_change": "Whether Plotho’s Chavannes estimate belongs within the frozen Belfort interval, which would affect any future opening-strength use.",
+      "result": "One bounded date-heading cross-check, Plotho pp215/223–224 against Vaudoncourt IV p288: Plotho’s June28 precedes the frozen June29 opening; chronology differs from Vaudoncourt’s June29. Draft timing label corrected, full frame unchanged."
+    },
+    "stopping_reason": "All nine dimensions and both side checklists addressed with supported source-specific observations, alternatives or explicit unknowns within three preassigned source families and at most one bounded targeted follow-up. Main-session whole-campaign primary verification. Further research requires a named admission/attribution decision or explicit owner request.",
+    "deferred_decision_relevant_gaps": [
+      "Bodart has no overall strength; Plotho’s June28 Chavannes rear guard is an earlier component, versus Vaudoncourt’s June29 chronology. Full June 29–July 8 multi-day interval retained, not reduced to Sevenans or the later armistice. Own-side matched local returns, changing allied totals, exact authority clocks and opening fortification agency remain unknown; July 8 local capture and frozen whole-interval winner stay distinct."
+    ]
+  }
+}
