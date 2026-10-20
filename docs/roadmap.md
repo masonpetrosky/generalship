@@ -99,11 +99,21 @@ inter-engagement continuity pairs remain unresolved. Reported organization, troo
 superior direction, acting government and delegated negotiation stay distinct. No complete
 opening force/person/army pair is emitted. **Stop this four-entry measurement pilot here.**
 
-**Next recommended work:** a mechanical blocker inventory across the 273 development entries,
-grouped by complete campaign, to choose the next bounded measurement batch by reusable evidence.
-Record presence and inspection needs without claiming semantic reconciliation or using the
-52-entry final reservation for model selection. Further source research must name a specific
-admission decision it could change; unknowns alone do not restart historical deep dives.
+**Done (2026-10-19):** the mechanical [development blocker inventory](../artifacts/napoleonic-blocker-inventory-v1.md)
+covers all 273 entries/546 sides in 13 complete groups. Both dossier replacement boundaries are
+null throughout and typed quantity arrays are absent; separate Naples packages cover eight
+blocked sides. These are record-presence findings, not absent-evidence or admission judgments.
+The 52 reserved-final dossiers are excluded. The fixed 12-entry batch cap and existing-page
+comparison select `peninsula 1812`: eight entries with 24 directly linked non-Bodart strength
+and command pages, versus 32 pages for 1810 and 56 for 1813.
+
+**Next recommended work:** one combined population/time/authority measurement pass for all eight
+`peninsula 1812` entries/16 sides, inspecting the existing cited passages and full pinned pages
+under the [inventory protocol](napoleonic-blocker-inventory-v1.md). Determine whether any complete
+force/person pair can be matched to a shared opening boundary; preserve unsupported mappings
+and stop after this complete campaign. No new fetch or historical fit is queued. Further source
+research must name a specific admission decision it could change; unknowns alone do not restart
+historical deep dives.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

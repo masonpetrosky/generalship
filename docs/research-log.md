@@ -3903,3 +3903,48 @@ synthetic job, calibration scoring or Napoleonic historical fit. Stop this measu
 here. The next recommended action is a mechanical blocker inventory across the 273 development
 entries by complete campaign, to choose the next bounded measurement batch without claiming
 uninspected semantic reconciliation or selecting on the 52 reserved final entries.
+
+## Development measurement blocker inventory v1 (2026-10-19)
+
+Completed the accepted mechanical inventory across all **273 development entries/546 sides
+in 13 complete campaign groups**. The [protocol](napoleonic-blocker-inventory-v1.md) fixed a
+12-entry bound, excluded the stopped Naples pilot and compared the distinct existing non-Bodart
+image IDs directly linked from strength/responsibility citations. No final-reservation dossier
+was opened by the inventory; its 52 entries/three groups remain counted from the frozen partition.
+
+- **Observable blockers:** all 273 dossiers retain null tactical and campaign replacement
+  boundaries, and none has a typed quantity array. These are dossier-field findings: the separate
+  Naples packages retain 43 strength and 28 command observations and cover eight blocked sides;
+  the other 538 sides have no mapping in those indexed packages. Missing records are not proof
+  of missing historical evidence or 538 proven historical impossibilities.
+- **Coverage:** development dossiers hold 4,057 claims, 945 explicit unknowns and 129 disputes.
+  Brief-v3 completion records appear in 224 dossiers; the earlier 49 retain their original brief.
+  All entries and unknowns remain in their campaign denominators. No side attribution was inferred
+  from claim prose, and no known claim or completion checklist was treated as admission-ready.
+- **Next bounded batch:** `peninsula 1812`, all eight entries/16 sides, with 24 directly linked
+  non-Bodart strength/command pages. Other eligible complete groups have 32 pages (`peninsula
+  1810`, 11 entries) and 56 (`peninsula 1813`, 12 entries). All five non-Bodart families are shown
+  across the selected campaign; this is not a five-family allowance for a single entry. The
+  selected pages do not recur across entries, so this is a lower reading-volume choice, not a
+  claim of superior cross-entry page reuse or evidence quality. Selection is metadata-based and
+  not representative sampling or numerical model selection.
+- **Inspection limits:** early campaigns retain citations without direct facsimile metadata
+  links; the full comparison discloses every missing-link count rather than treating them as
+  zero-cost pages. A facsimile can still exist elsewhere or in a pilot mapping. This task neither
+  repaired those links nor re-inspected/adopted any historical passage.
+- **Implementation:** a standard-library inventory/checker, a hash-bound scope covering 281
+  existing inputs, and deterministic [JSON/Markdown output](../artifacts/napoleonic-blocker-inventory-v1.md).
+  The 5,874 strength/responsibility references retain claim/citation IDs, locators, quote hashes,
+  raw/metadata/image bindings and per-side completion-index presence. Tests cover final-dossier
+  and outcome/name exclusion, null versus absent fields, full group accounting, source drift,
+  missing links, duplicate image bytes, page reuse and deterministic bounded selection.
+- **Verification:** the primary checked the generated report, comparison and denominators;
+  actual focused/full test, reproduction and preservation results are retained in the
+  [primary record](../data/napoleonic/blocker-inventory-v1/verification.json).
+
+No dossier, source, prepared research packet, previous measurement record or model input changed.
+No subagent, separate review, second-opinion prompt, calibration score, synthetic job or historical
+fit ran. The next recommendation is one combined population/time/authority table for the complete
+1812 group using these existing passages and full pinned pages, testing whether any complete
+force/person pair can share an opening boundary. Stop after that campaign with unresolved sides
+visible; no automatic source-fetch or follow-up series is queued.

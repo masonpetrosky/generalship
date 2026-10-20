@@ -6,10 +6,12 @@ check:
 	$(PYTHON) -m generalship check
 	$(PYTHON) -m generalship.napoleonic_boundaries
 	$(PYTHON) -m generalship.napoleonic_authority
+	$(PYTHON) -m generalship.napoleonic_inventory
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship.napoleonic_authority --write
+	$(PYTHON) -m generalship.napoleonic_inventory --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:

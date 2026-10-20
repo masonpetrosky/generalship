@@ -49,7 +49,9 @@ As of 2026-10-19:
   later siege phases and troop availability; all eight complete opening mappings remain unresolved.
   Their [authority/continuity mapping](docs/napoleonic-authority-v1.md) now separates reported
   roles and source-local identities; no cross-engagement army link is established. This pilot
-  stops here. Next is a development-cohort blocker inventory ([roadmap](docs/roadmap.md)).
+  stops here. The [development blocker inventory](artifacts/napoleonic-blocker-inventory-v1.md)
+  now covers all 273 development entries and selects the eight-entry 1812 Peninsular group
+  for the next bounded measurement pass over existing pinned evidence.
 
 ## How the research is produced
 
