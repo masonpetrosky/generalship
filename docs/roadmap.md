@@ -114,11 +114,20 @@ There are 32 numerical strength observations, seven explicit strength unknowns, 
 appearances and six local associations between troop totals and named roles. **All 16 opening mappings remain
 blocked; zero complete opening pairs or model rows. Stop this campaign pass here.**
 
-**Next recommended work:** a bounded measurement-feasibility checkpoint using the two completed
-groups (12 entries/24 sides), distinguishing reusable local associations from the specific
-boundary/population/authority/army evidence needed for the strict opening target. Identify the
-research or methodological decision before wider extraction. No automatic follow-up series,
-new fetch or historical fit is queued; unknowns alone do not restart historical deep dives.
+**Done (2026-10-20):** the [measurement-feasibility checkpoint](research/napoleonic-measurement-feasibility-v1.md)
+assesses both completed groups (12 entries/24 sides). Substantive population, boundary and
+authority gaps remain beyond the deliberately null selections. Seven of 16 Peninsular sides
+explicitly lack a matched own-side local count; the six co-report associations never cover both
+sides of an entry. These purposive groups do not estimate corpus-wide feasibility. The checkpoint
+recommends pausing wider strict-opening extraction until the command unit and authority rules
+are defined; the opening target, reservation and admission/run gates remain unchanged.
+
+**Next recommended work:** one operational-unit and authority specification, using six existing
+cases to define appointment/force scope, containment/continuity rules and boundary-specific
+authority without assuming identities or lineages. Stop after the specification and worked cases.
+Keep campaign contribution distinct from opening battle measurement and a possible descriptive
+diagnostic. No new extraction, source fetch, campaign batch or historical fit is queued; any
+later source work must identify the concrete mapping it could change and have a bounded scope.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

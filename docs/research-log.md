@@ -3998,3 +3998,49 @@ prompt, calibration score or historical fit ran. Stop this campaign here. The ne
 action is a bounded feasibility checkpoint over the two completed measurement groups (12
 entries/24 sides), distinguishing which evidence the strict opening target requires before
 wider extraction. It does not authorize an automatic deep dive or historical model run.
+
+## Measurement feasibility checkpoint v1 (2026-10-20)
+
+Completed the owner's accepted assessment of the two finished measurement groups:
+`third-coalition 1806` and `peninsula 1812`, **12 entries/24 sides**. The
+[memo](research/napoleonic-measurement-feasibility-v1.md) checks every entry's existing
+population, boundary/membership and authority blockers and records exact input hashes.
+This is primary verification of a records synthesis, not a new facsimile-inspection pass.
+
+- **Finding:** no complete joint opening mapping is established in the existing packages.
+  Their deliberately null selections and fixed zero-row outputs are not an empirical
+  impossibility test. The two purposively selected groups cannot estimate corpus-wide yield,
+  error rates or future research cost. The 273/52 development/final reservation is unchanged.
+- **Reusable evidence:** Naples' four person co-references and the Peninsular group's six
+  troop-total/role co-reports are different relationships and are not pooled into a quality
+  measure. The latter cover six sides in six entries, with zero entries having indexed
+  co-reports on both sides. Seven of 16 Peninsular sides, in seven of eight entries, explicitly
+  retain unknown matched own-side local headcounts; Bodart's numbers remain visible. Badajoz
+  still has mixed-population and infantry-only alternatives. Relaxing the clock alone would
+  not resolve these population gaps.
+- **Method distinction:** local observation retention, boundary-level responsibility,
+  global identity, operational-entity continuity, admission and causal identification have
+  different requirements. Exact clocks, complete tenure histories and inspected original
+  returns are not universal prerequisites for every local measurement. An unopposed
+  investment, a wider army, later participation or a diagnostic subtraction still cannot
+  silently replace the strict target.
+- **Recommendation:** pause wider strict-opening extraction and define the operational
+  command unit and authority rules in one bounded specification, worked on six existing
+  cases. Preserve unknown lineages and joint authority. Stop there before another extraction
+  batch; a later source task must name the mapping it could change. The campaign-contribution
+  aim still needs appointment, objectives, inherited-state and identification evidence even
+  if battle opening counts become complete. A broader descriptive target is not adopted here.
+
+No new code, source, dossier, model input, prepared packet or verification record was created
+or changed. No subagent, separate review, second-opinion prompt, calibration scoring, synthetic
+job or historical fit ran. Calibration remains prepared/unscored. README status and the current
+roadmap now link the assessment and its recommendation.
+
+Validation: **356 tests passed** (229.793 seconds), and the complete `make check`
+and `make reproduce` commands exited successfully. The assessment recount verified all
+24 side slots, seven exact unknown-side IDs, six distinct co-report sides with no paired
+entry, and 12 unresolved Naples continuity pairs. All eight memo input hashes and local
+document/heading links passed. Reproduction left **all 7,750 protected pre-existing
+data/artifact/code/test/protocol files byte-identical**, including the prior receipt;
+all 1,150 receipt input hashes, 20 output hashes and 5,667 registry bindings were rechecked.
+No new test framework was needed for this documentation-only change.

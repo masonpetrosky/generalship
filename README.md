@@ -17,7 +17,7 @@ wins a commander caused. No validated commander ranking exists here yet.
 
 ## Status
 
-As of 2026-10-19:
+As of 2026-10-20:
 
 - **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
   is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
@@ -53,6 +53,8 @@ As of 2026-10-19:
   covers all 273 development entries. Its selected eight-entry 1812 Peninsular group now has a
   [combined measurement table](artifacts/napoleonic-peninsula-1812-measurement-v1.md): six local
   associations between troop totals and named roles, with all sixteen opening mappings still blocked.
+  The [12-entry feasibility checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
+  recommends defining the operational command unit and authority rules before wider extraction.
 
 ## How the research is produced
 
