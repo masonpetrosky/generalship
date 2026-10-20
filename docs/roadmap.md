@@ -67,11 +67,8 @@ No first-cohort entry remains without a draft. The
 [Hundred Days pass](research/hundred-days-1815-first-pass-v1.md) completes the group including
 Italy, Belgian battles and frontier sieges, preserving strength, timing, command and closure
 alternatives. Exact army identities, authority clocks and matched original local returns remain
-unresolved. **Next recommended work:** design the source-specific Napoleonic strength and
-command ledgers in a bounded development-cohort scope using existing dossiers. Define population,
-time, dispute handling and admission rules before promoting any evidence; do not begin a historical
-outcome fit from coverage completion alone. No additional first-pass or historical deep dive is
-queued merely because an old packet retains an unknown.
+unresolved. No additional first-pass or historical deep dive is queued merely because an old
+packet retains an unknown.
 This is source research; the final numerical evaluation reservation below remains unchanged.
 The [1808 pass](research/peninsula-1808-first-pass-v1.md) records two source-family effort
 overruns; its dossier screen does not erase them. Fix source-family assignments before substantive
@@ -79,6 +76,16 @@ reading in every new pass, as the [1809 pass](research/peninsula-1809-first-pass
 Earlier usage rates describe the old workflow and are not a measured forecast for the new one.
 There is no usage cap; the main session researches, drafts and verifies each group, as the
 [2026-10-16 decision](../data/napoleonic/owner-decision-research-mode-2026-10-16.json) requires.
+
+**Done (2026-10-19):** a bounded [strength/command ledger design](napoleonic-ledgers-v1.md),
+worked on the smallest complete development group, `third-coalition 1806` (four entries/eight
+sides). It indexes 31 strength/responsibility claims with 43 strength and 28 command-role
+observations; 46 distinct cited passages were re-inspected on 26 pinned images. The
+[result](../artifacts/napoleonic-ledger-design-v1.md) leaves all eight opening mappings blocked,
+with null army identities and null force/person selections. No input was admitted or historical
+outcome fitted. **Next recommended work:** specify contact, area, availability and relative
+ordering for these same four entries/eight sides using existing evidence, retaining unresolved
+mappings where necessary. Finish this bounded measurement step before expanding ledger extraction.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

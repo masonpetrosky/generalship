@@ -3769,3 +3769,49 @@ now adds Fort Henry, Fort Donelson and Corinth; follow the current priority abov
 for subsequent work.
 Use Antietam to test outcome ambiguity and Champion Hill to test inherited orders
 versus commander-created circumstances.
+
+
+## Napoleonic strength/command ledger design v1 (2026-10-19)
+
+Completed the owner's accepted bounded design using existing development-cohort dossiers.
+The [scope](../data/napoleonic/ledger-design-v1/scope.json) selects the smallest complete
+development group, then earliest year/key for ties: `third-coalition 1806`, four entries and
+eight sides (Campo Tenese, Maida, Gaëta and Amantea). This is not a representative yield sample
+or historical blinding. The Amantea interval remains December 1806 to February 1807.
+
+- [Design](napoleonic-ledgers-v1.md): separate source observations, population/state mappings,
+  command-role and identity mappings, discrepancies, transformations, verification and future
+  release. Opening contact/area/availability are not supplied by frozen dates. No automatic
+  rank-based commander selection, army continuity from names, source voting, imputation or
+  historical fit is permitted by these examples.
+- [Worked bundle](../data/napoleonic/ledger-design-v1/examples.json): all 31 strength/responsibility
+  claims indexed, with 43 strength and 28 command-role observations. It is bounded excerpt work,
+  not exhaustive atomic extraction. A frozen subset retains 53 complete existing source metadata
+  entries and their parent/facsimile closure. All 46 distinct adopted passages were re-inspected
+  on 26 pinned page images. No source record or raw file was added or changed.
+- **Result:** 18 strength observations blocked, 25 excluded for the opening target; all 28 role
+  observations blocked. All eight side-level opening mappings, army identities, responsible
+  people and selected strengths remain unresolved/null. Zero complete candidate engagements;
+  zero model rows emitted. These are applicability counts, not historical truth or quality grades.
+- **Material distinctions:** Campo Tenese wider-corps counts versus local/compiler figures;
+  Maida infantry/cavalry, rank-and-file and actual participation versus an all-arms opening target;
+  Gaëta blockade/reinforcement phases, detached posts, one-sided bounds, prisoners and
+  governor/acting-governor roles (Hotz/Storz correspondence unresolved); Amantea separately dated
+  columns and town population versus garrison. Colletta's initial assault is month-only: the
+  new mapping qualifies the old dossier's before-Bodart-dates shorthand and does not equate it
+  to Koch's earlier attempt. The bound dossier remains unchanged.
+- **Arithmetic:** 1,200+2,500+1,000=4,700 and 8,500+800+900=10,200 remain blocked proposals;
+  4,500+300=4,800 is excluded as an incomplete all-arms population, with artillery people absent.
+  No arithmetic result becomes a selected force.
+- **Implementation:** a standard-library, offline, non-promoting checker and reproducible JSON/
+  Markdown report; `napoleonic-ledger-design-check` is read-only and the full build/check includes
+  its binding/coverage gates. Constructed positive tests are explicitly synthetic, with no invented
+  historical approval. The 22 focused contract tests passed; final repository validation and
+  preservation evidence are recorded in the [primary record](../data/napoleonic/ledger-design-v1/verification.json).
+
+The work is primary-verified. No subagent, separate reviewer, second-opinion prompt, calibration
+judgment, new synthetic job or Napoleonic historical outcome fit ran. All prior dossiers, raw
+sources, frozen frame/cohort/evaluation partition and stored numerical results remain unchanged;
+calibration stays 47 prepared/unscored tasks. The next recommended task is a bounded contact,
+area, availability and ordering specification for the same four entries/eight sides, retaining
+unknowns where existing passages do not establish a mapping, before expanding extraction.

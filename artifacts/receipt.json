@@ -11,7 +11,7 @@
     "generalship/admission.py": "55927091b8f7fa4e6a1eaef8a3b57d54de341aff01dfc666eda678a360941993",
     "generalship/audit.py": "c269ee23a06f55638cdbee1fe317ea1900b5b777390ad06bbe0fa9f483be7c3c",
     "generalship/baseline.py": "731d9ad96dc85ca8f69bd7689e7ec64d9a1917b1a4b9d45c9c55b37348d42179",
-    "generalship/cli.py": "953e154d55014897404f0370a697650ef677425b9118e160c3fa4efe48efcd93",
+    "generalship/cli.py": "52557aa12e59e171226ab9c66cdd98a2ade8c663e5a5a1372c40c204144be0e8",
     "generalship/command.py": "58ffe17ebc42cc3d2ec5950e55d56a243caf662460df86059c845ade62ef6954",
     "generalship/compare.py": "b7e04e76ae0187c0509f390a4e4b1fb6b83ae43cbc9739626bf16756c0b76a78",
     "generalship/dataset.py": "aef68018c6fc856d997c796fca908d5e8877e8cc02ef2c40c44fb7e9e36f1ac5",
@@ -24,6 +24,7 @@
     "generalship/imputation.py": "d3275c226f4a874c4c1c16d6a372cc89a5f765cf1fe4b8eaaab92e66577f99a7",
     "generalship/imputation_v2.py": "41c8887e2eafc3ccda93aa7ac586148f8d9534fdd34036251c9de136dc1ef3d9",
     "generalship/napoleonic.py": "3fba418397ffc20b1919d5e88c30194b490bc4877a28bfb489a9d4bbe729c8eb",
+    "generalship/napoleonic_ledger_design.py": "229cb1a15f2cc3ace98ff33d0e094ec3df32244754cee61415738dc0249e7ad3",
     "generalship/napoleonic_methods.py": "a6d18be2145fdc91746107afcacc7ddc635dc07f49f16efe2be41dc50a16d637",
     "generalship/napoleonic_packet.py": "821af3bd235d5086d46ac93a1997cd57eeb9cf6e9312b840211bd620238b1e5a",
     "generalship/parallel.py": "6f059da9aaae9603d3cc6711a9f409472f198512deaaa095e82c44018d3c6c8b",
@@ -1106,6 +1107,13 @@
     "data/napoleonic/evidence/history/B425a-d930cec.json": "d930cec005f3e838c260a72de77ab8e7aff9a70fb109ab2c81dbf823a08f9d3d",
     "data/napoleonic/frame-overrides-v1.json": "3669b7b66f485f2223bad26ecd6972f3ff72493b41d0283da97549f24eaad4c0",
     "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+    "data/napoleonic/ledger-design-v1/examples.json": "21b9059b4b6def3dfa032da0c514b9a34beaab13c47ee700907078270b6e840d",
+    "data/napoleonic/ledger-design-v1/scope.json": "10a41b9dd7234d9259d16d8bc0a0ac9876b66e02940b532fa161b92bc27f8e96",
+    "data/napoleonic/ledger-design-v1/source-snapshot.json": "c0db418a0af73966d9c7071fe20a4169c38b59afce4ae41f0de69730360a3efe",
+    "data/napoleonic/ledger-design-v1/validation/check.log": "24ec69e8956b51bf5eee38b93e524c850a0ac3b453ae743b7848b07f39c96980",
+    "data/napoleonic/ledger-design-v1/validation/final-contract-check.log": "8074ed9d76db68a2851127842e232da9dfd7cdf4ca8fac7b08f0f771693df788",
+    "data/napoleonic/ledger-design-v1/validation/reproduce.log": "fda18d33578cac731568a40d7528578d282c95d7787c144f81a45b6506e9b31d",
+    "data/napoleonic/ledger-design-v1/verification.json": "04555f57c8e2d37fa4e02c952b70c1a696643adfd0d8675ccd9c4938369025e2",
     "data/napoleonic/methods-v1/calibration-population.json": "c97a1a205526de95b870e990ddd7f9d04b1774e86e9112c76e0c768c90d34fbb",
     "data/napoleonic/methods-v1/campaign-pilot.json": "b0f24a4c21d02a3dcf623d16b8928d2f0bb8cb0c654823a125aa06f9d8ea6ffa",
     "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
@@ -1115,7 +1123,8 @@
     "data/napoleonic/methods-v1/research-conventions.json": "55c030d1f3a7f8e9ae44ce5ea92402014c86ea4985502b56e0329e57fe53cd0a",
     "data/napoleonic/owner-decision-research-mode-2026-10-16.json": "bcf4df8ce8ccd86dfae2ee0835dab12e2bf12cff21c0b0899ac51751a4fa1179",
     "data/napoleonic/owner-decision-scoping-2026-10-06.json": "e890e6aa5e38d8dcbb19dbd7f1c2ddffa5c094f24dccc589c115635a60311c51",
-    "data/napoleonic/transcription-resolutions-v1.json": "cc0ece4c914c1e4778ab61fb6922e3b4a8ba66d6a37ee3b131ec114c28dd707e"
+    "data/napoleonic/transcription-resolutions-v1.json": "cc0ece4c914c1e4778ab61fb6922e3b4a8ba66d6a37ee3b131ec114c28dd707e",
+    "docs/napoleonic-ledgers-v1.md": "79641ce66734fd8084df0bdfb6533cec143404db58687d648af85b4c0eafb442"
   },
   "source_sha256": {
     "abstract-howell-p4-facsimile-v1": "795e75eb8c65902ff1319f93083feffa9ddd21a0dd0d2a81308674a52c0408b5",
@@ -6804,6 +6813,8 @@
     "napoleonic-methods-v1.md": "57bf44047c3e625b1c2e5885e7354813de345e2f884c3985caac331290d0f5f4",
     "napoleonic-research-screen.json": "5400feaee1139ff96f8b9d6e7c3eac6262cdfa1b97f200da25bcfacc3711a75c",
     "napoleonic-calibration-v1.json": "a67d670f20a77f2efe8bf714a4a67aae4711020ac315ae4506b093f1d8edc948",
-    "napoleonic-calibration-key-v1.json": "f445be223ad990d6dcd5bfcc4dc85c37ae1adeb21296602ae410a7153cf4ce7f"
+    "napoleonic-calibration-key-v1.json": "f445be223ad990d6dcd5bfcc4dc85c37ae1adeb21296602ae410a7153cf4ce7f",
+    "napoleonic-ledger-design-v1.json": "c7370149a27f337800466e57fb12406b0ffc0ca918de43bb27dda155987d0bca",
+    "napoleonic-ledger-design-v1.md": "345adf6b8435d706d0edc94233451e0650166052b11a8645433d44344d2b8c96"
   }
 }

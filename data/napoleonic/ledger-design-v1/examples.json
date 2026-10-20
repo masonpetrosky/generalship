@@ -1,0 +1,3787 @@
+{
+  "kind": "napoleonic_ledger_design_examples",
+  "version": 1,
+  "status": "design_only",
+  "scope_sha256": "10a41b9dd7234d9259d16d8bc0a0ac9876b66e02940b532fa161b92bc27f8e96",
+  "design_sha256": "79641ce66734fd8084df0bdfb6533cec143404db58687d648af85b4c0eafb442",
+  "source_snapshot": {
+    "path": "data/napoleonic/ledger-design-v1/source-snapshot.json",
+    "sha256": "c0db418a0af73966d9c7071fe20a4169c38b59afce4ae41f0de69730360a3efe"
+  },
+  "strength_records": [
+    {
+      "id": "B370c-A-bodart",
+      "battle_id": "B370c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 6000,
+        "upper": 6000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "6.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Source-listed engagement; no first-contact membership mapping.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-B-bodart",
+      "battle_id": "B370c",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 10000,
+        "upper": 10000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "10.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Source-listed engagement; no first-contact membership mapping.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-A-koch-corps",
+      "battle_id": "B370c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 12632,
+        "upper": 12632,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "12,632",
+      "unit": "people",
+      "basis": "all_arms",
+      "population": "wider_formation",
+      "state_description": "Army reorganization before the march; second corps, not a local boundary count.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p169-figures-v1",
+            "section": "p169",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+            "quote": "Le 2e, destiné à faire la conquête des Calabres, se composait de 12,632 hommes de toutes armes avec 12 bouches à feu, dont 6 de montagne, et fut mis sous les ordres du général Reynier."
+          },
+          "metadata_sha256": "74cbff6eecd0feba470acdc1454121e6ff3be69ab94a2f5a7efc9e5a2d514de1",
+          "raw_sha256": "daad55a28a94d84e2620a5802906f2c7d76938d484c8962d653f0f9d44b472b8",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p169-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-A-koch-nocera",
+      "battle_id": "B370c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 6000,
+        "upper": 6000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "6,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Concentrated near Nocera while the rest remained around Naples.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p169-figures-v1",
+            "section": "p169",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 169 (transcribed from the page image)",
+            "quote": "Il avait déjà 6,000 hommes concentrés aux environs de Nocera; le reste cantonnait autour de Naples."
+          },
+          "metadata_sha256": "74cbff6eecd0feba470acdc1454121e6ff3be69ab94a2f5a7efc9e5a2d514de1",
+          "raw_sha256": "daad55a28a94d84e2620a5802906f2c7d76938d484c8962d653f0f9d44b472b8",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p169-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-B-koch-corps",
+      "battle_id": "B370c",
+      "side": "B",
+      "amount": {
+        "kind": "approximate",
+        "lower": 12000,
+        "upper": 12000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "12,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "wider_formation",
+      "state_description": "Left corps on the Leo before the engagement.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 3,
+          "citation": {
+            "source_id": "koch-massena-t5-p173-figures-v1",
+            "section": "p173",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+            "quote": "Celui de gauche, commandé par le lieutenant-général Roger de Damas et composé de 15 bataillons et 6 escadrons (environ 12,000 hommes) occupait la rive gauche du Leo, gardant par sa droite la route de Naples à Cosenza."
+          },
+          "metadata_sha256": "ced70bdf882858fc3689c571f92a3a3413c38fdfe15895766095d151137009d2",
+          "raw_sha256": "fbd75254a23d165f9bbe3c10d1b4b79b8e72154d05f1bb1f1222449cc1220799",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p173-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-B-damas-illustration",
+      "battle_id": "B370c",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 12000,
+        "upper": 12000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "twelve thousand",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "wider_formation",
+      "state_description": "Illustrative army-corps composition in a geographical explanation.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "illustrative",
+      "receipt_at": null,
+      "note": "The printed qualifier is supposing, not a dated return. Four thousand recruits are a component, not an extra force.",
+      "evidence": [
+        {
+          "claim_id": "damas-side-b",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "damas-memoirs-1913-p391-figures-v1",
+            "section": "p391",
+            "locator": "Memoirs of the Comte Roger de Damas (1913), p. 391 (transcribed from the page image)",
+            "quote": "supposing that corps to be composed of only twelve thousand men, four thousand of them being raw recruits.³"
+          },
+          "metadata_sha256": "d9b9c77d04df8baf2785a534731efa18bd87d29d0a20240c0f90794e2b135a9e",
+          "raw_sha256": "8bd839ee7613b8c7d2bebb3848be4a5dbfacd38fc4f369b9d1800b87e7580473",
+          "document_date": null,
+          "facsimile_source_id": "damas-memoirs-1913-p391-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-bodart",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 4300,
+        "upper": 4300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4.300 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Printed 4,000 infantry plus 300 cavalry; artillery personnel not established.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Engländer und Neapolitaner (4.800 Inft.) unter GM. Sir J. Stuart über die Franzosen (4.000 Inft., 300 Kav. = 4.300 M.) unter Div.-Gen. Reynier."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-bodart-infantry",
+      "battle_id": "B370d",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 4800,
+        "upper": 4800,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4.800 Inft.",
+      "unit": "people",
+      "basis": "infantry",
+      "population": "component",
+      "state_description": "Compiler infantry figure, not an all-arms/with-officers mapping.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Engländer und Neapolitaner (4.800 Inft.) unter GM. Sir J. Stuart über die Franzosen (4.000 Inft., 300 Kav. = 4.300 M.) unter Div.-Gen. Reynier."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-koch-infantry",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 4500,
+        "upper": 4500,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4,500",
+      "unit": "people",
+      "basis": "infantry",
+      "population": "component",
+      "state_description": "Division in the wood on the night of the 3rd to 4th; Koch subsequently dates its advance to the 5th.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p189-figures-v1",
+            "section": "p189",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 189 (transcribed from the page image)",
+            "quote": "A peine Reynier en eut-il été informé qu'il rassembla ses troupes et marcha avec tant de diligence que sa division, forte de 4,500 hommes d'infanterie, de 300 chasseurs à cheval et d'une batterie d'artillerie légère, passa la nuit du 3 au 4 dans le bois de Fondaco del Fico, d'où elle déboucha le 5 dans la plaine, par la route tracée entre le pied des hauteurs de Maida et la rive gauche du Lamato."
+          },
+          "metadata_sha256": "bd1ba44c4ceb728739abac5ebcccca661c19f30b2c4707612ab3ecddff1218b4",
+          "raw_sha256": "7380dcf226c5f69c0ffc8f96ca9728e191c76a70b4888b6361030698e67e3827",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p189-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-koch-cavalry",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 300,
+        "upper": 300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "300",
+      "unit": "people",
+      "basis": "cavalry",
+      "population": "component",
+      "state_description": "Same narrative referent as infantry; light-artillery battery personnel uncounted.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p189-figures-v1",
+            "section": "p189",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 189 (transcribed from the page image)",
+            "quote": "A peine Reynier en eut-il été informé qu'il rassembla ses troupes et marcha avec tant de diligence que sa division, forte de 4,500 hommes d'infanterie, de 300 chasseurs à cheval et d'une batterie d'artillerie légère, passa la nuit du 3 au 4 dans le bois de Fondaco del Fico, d'où elle déboucha le 5 dans la plaine, par la route tracée entre le pied des hauteurs de Maida et la rive gauche du Lamato."
+          },
+          "metadata_sha256": "bd1ba44c4ceb728739abac5ebcccca661c19f30b2c4707612ab3ecddff1218b4",
+          "raw_sha256": "7380dcf226c5f69c0ffc8f96ca9728e191c76a70b4888b6361030698e67e3827",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p189-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-bunbury-command",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 7300,
+        "upper": 7300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "7300",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "wider_formation",
+      "state_description": "Command including Poles at Monteleone/elsewhere and excluding Scilla/Reggio.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "Returns held and lost; retrospective memory does not authenticate their original contents.",
+      "evidence": [
+        {
+          "claim_id": "bunbury-side-a",
+          "citation_index": 10,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "We had about 5300 men in the field, the enemy considerably more than 6000; I have unfortunately lost the French returns of their strength, which fell into my hands, and were in my possession many years."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        },
+        {
+          "claim_id": "bunbury-side-a",
+          "citation_index": 11,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "Including the Poles at Monteleone and other places, but exclusive of the troops left at Scilla and Reggio, Reynier had under his command 7300 men; and I believe he had in the action about 6300, including nearly 300 cavalry, an arm in which we were entirely deficient."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-bunbury-engaged",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "approximate",
+        "lower": 6300,
+        "upper": 6300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "6300",
+      "unit": "people",
+      "basis": "reported_engaged",
+      "population": "unresolved",
+      "state_description": "Belief about men actually in the action, including nearly 300 cavalry.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bunbury-side-a",
+          "citation_index": 10,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "We had about 5300 men in the field, the enemy considerably more than 6000; I have unfortunately lost the French returns of their strength, which fell into my hands, and were in my possession many years."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        },
+        {
+          "claim_id": "bunbury-side-a",
+          "citation_index": 11,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "Including the Poles at Monteleone and other places, but exclusive of the troops left at Scilla and Reggio, Reynier had under his command 7300 men; and I believe he had in the action about 6300, including nearly 300 cavalry, an arm in which we were entirely deficient."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-bunbury-more-than",
+      "battle_id": "B370d",
+      "side": "A",
+      "amount": {
+        "kind": "lower_bound",
+        "lower": 6000,
+        "upper": null,
+        "lower_inclusive": false,
+        "upper_inclusive": null
+      },
+      "printed_value": "6000",
+      "unit": "people",
+      "basis": "reported_engaged",
+      "population": "unresolved",
+      "state_description": "Enemy considerably more than 6,000 in the retrospective comparison.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bunbury-side-a",
+          "citation_index": 10,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "We had about 5300 men in the field, the enemy considerably more than 6000; I have unfortunately lost the French returns of their strength, which fell into my hands, and were in my possession many years."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-koch-embarked-english",
+      "battle_id": "B370d",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 7000,
+        "upper": 7000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "7,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "English expedition component embarked at Messina on 1 July, not a local action total.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p188-figures-v1",
+            "section": "p188",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 188 (transcribed from the page image)",
+            "quote": "7,000 hommes de"
+          },
+          "metadata_sha256": "e9e7da103ec86662a3275d48064e475d057a10238fee70b7e042076590c27278",
+          "raw_sha256": "3de63af01901bc116668b72465039b08c61e618daa9ddf20591e18af9e46d569",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p188-image-v1"
+        },
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p189-figures-v1",
+            "section": "p189",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 189 (transcribed from the page image)",
+            "quote": "pes anglaises et 3,000 de napolitaines ou siciliennes furent embarqués le 1er juillet à Messine sur des bâtiments de transport, et amenés, sous l'escorte de l'escadre anglaise, à l'embouchure du Lamato où ils débarquèrent sans opposition."
+          },
+          "metadata_sha256": "bd1ba44c4ceb728739abac5ebcccca661c19f30b2c4707612ab3ecddff1218b4",
+          "raw_sha256": "7380dcf226c5f69c0ffc8f96ca9728e191c76a70b4888b6361030698e67e3827",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p189-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-koch-embarked-neapolitan",
+      "battle_id": "B370d",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 3000,
+        "upper": 3000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "3,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Neapolitan/Sicilian expedition component in the same embarkation account.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p188-figures-v1",
+            "section": "p188",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 188 (transcribed from the page image)",
+            "quote": "7,000 hommes de"
+          },
+          "metadata_sha256": "e9e7da103ec86662a3275d48064e475d057a10238fee70b7e042076590c27278",
+          "raw_sha256": "3de63af01901bc116668b72465039b08c61e618daa9ddf20591e18af9e46d569",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p188-image-v1"
+        },
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p189-figures-v1",
+            "section": "p189",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 189 (transcribed from the page image)",
+            "quote": "pes anglaises et 3,000 de napolitaines ou siciliennes furent embarqués le 1er juillet à Messine sur des bâtiments de transport, et amenés, sous l'escorte de l'escadre anglaise, à l'embouchure du Lamato où ils débarquèrent sans opposition."
+          },
+          "metadata_sha256": "bd1ba44c4ceb728739abac5ebcccca661c19f30b2c4707612ab3ecddff1218b4",
+          "raw_sha256": "7380dcf226c5f69c0ffc8f96ca9728e191c76a70b4888b6361030698e67e3827",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p189-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-bunbury-march",
+      "battle_id": "B370d",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 4795,
+        "upper": 4795,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4795",
+      "unit": "people",
+      "basis": "rank_and_file",
+      "population": "component",
+      "state_description": "Marching rank and file; officers and the treatment of later arrivals are not resolved.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bunbury-side-b",
+          "citation_index": 8,
+          "citation": {
+            "source_id": "bunbury-1854-p241-figures-v1",
+            "section": "p241",
+            "locator": "Bunbury (1854), p. 241 (transcribed from the page image)",
+            "quote": "march, with 4795 rank and file, a great majority of whom had never seen an enemy."
+          },
+          "metadata_sha256": "bdc30e0218260f14795f0f43136d494153f4f83a2a1d6f04dea918366c6dd173",
+          "raw_sha256": "892eebadd40eb2874e36e937772f964e72ec84801b9e5b7333ddcfea5cfe5d78",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p241-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-bunbury-field",
+      "battle_id": "B370d",
+      "side": "B",
+      "amount": {
+        "kind": "approximate",
+        "lower": 5300,
+        "upper": 5300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "5300",
+      "unit": "people",
+      "basis": "reported_engaged",
+      "population": "unresolved",
+      "state_description": "About 5,300 in the field in the retrospective action comparison.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bunbury-side-b",
+          "citation_index": 12,
+          "citation": {
+            "source_id": "bunbury-1854-p253-figures-v1",
+            "section": "p253",
+            "locator": "Bunbury (1854), p. 253 (transcribed from the page image)",
+            "quote": "We had about 5300 men in the field, the enemy considerably more than 6000; I have unfortunately lost the French returns of their strength, which fell into my hands, and were in my possession many years."
+          },
+          "metadata_sha256": "f6cea6e691b86f8f729c0728214eccb6191115eab75c55e51ee1e65dec87205d",
+          "raw_sha256": "660c97bfd21a631be24e00a2d38c6ef443e73cb6f08848f7735749f911182d7a",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p253-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-bodart-blockade",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 3000,
+        "upper": 3000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "3.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "During blockade; distinct phase, not an approved contact boundary.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-bodart-late",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 12000,
+        "upper": 12000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "12.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Toward the end of the siege; distinct phase, not an approved contact boundary.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-bodart-original",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 4000,
+        "upper": 4000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Original garrison; distinct phase, not an approved contact boundary.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-bodart-reinforced",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 7000,
+        "upper": 7000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "7.000 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Garrison after successive reinforcements; distinct phase, not an approved contact boundary.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-lacour-bound",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "upper_bound",
+        "lower": null,
+        "upper": 2400,
+        "lower_inclusive": null,
+        "upper_inclusive": true
+      },
+      "printed_value": "2,400",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Lacour brigade at the early negotiations.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 3,
+          "citation": {
+            "source_id": "koch-massena-t5-p196-figures-v1",
+            "section": "p196",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 196 (transcribed from the page image)",
+            "quote": "Cette restriction piqua le général Lacour, et malgré la faiblesse de sa brigade qui ne dépassait pas 2,400 hommes, et son manque d'artillerie de siége, il ne voulut rien céder."
+          },
+          "metadata_sha256": "d7cba99d21f9b7e127d7c056e0764002556fec3fa278719fdce9a77978ddb93c",
+          "raw_sha256": "c59b2c1aa255362c87e11ef327ce07b7b6f1e2fb6baa3e57b32fb0dabf80ca9a",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p196-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-mid-may",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 4000,
+        "upper": 4000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Siege brigade after reinforcements up to the middle of May.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 4,
+          "citation": {
+            "source_id": "koch-massena-t5-p223-figures-v1",
+            "section": "p223",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 223 (transcribed from the page image)",
+            "quote": "Jusqu'au milieu du mois de mai, la brigade de siége n'avait encore été renforcée que de 5 compagnies d'artillerie, d'un détachement de pionniers noirs, d'une compagnie de mineurs, de 2 de sapeurs, du 10e de ligne, d'un bataillon corse et d'une compagnie de dragons, ce qui porta sa force totale à 4,000 hommes."
+          },
+          "metadata_sha256": "e6debd2bc23257591d38b945e8e4fca61dab850a5c916cc706c2784d239c101e",
+          "raw_sha256": "ded4efa49361656d9ed706ce68725237609613e1dc25c15e5d890d4d6f2048df",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p223-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-july",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "approximate",
+        "lower": 12000,
+        "upper": 12000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "une douzaine de mille",
+      "unit": "people",
+      "basis": "all_arms",
+      "population": "unresolved",
+      "state_description": "Successive reinforcements from 17 May until 6 July.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 6,
+          "citation": {
+            "source_id": "koch-massena-t5-p223-figures-v1",
+            "section": "p223",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 223 (transcribed from the page image)",
+            "quote": "Depuis ce moment jusqu'au 6 juillet, les troupes reçurent successivement des renforts qui portèrent leur nombre à une douzaine de mille hommes de toutes armes."
+          },
+          "metadata_sha256": "e6debd2bc23257591d38b945e8e4fca61dab850a5c916cc706c2784d239c101e",
+          "raw_sha256": "ded4efa49361656d9ed706ce68725237609613e1dc25c15e5d890d4d6f2048df",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p223-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-before-place",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 8500,
+        "upper": 8500,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "8,500",
+      "unit": "people",
+      "basis": "all_arms",
+      "population": "component",
+      "state_description": "At the night-of-5th-to-6th narrative referent: before the place. Area and opening membership remain unresolved.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 7,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Nuit du 5 au 6. — On continue les amorces de la deuxième parallèle"
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        },
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 8,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Le corps de siége se composait à cette époque de 8,500 hommes de toutes armes devant la place, de 800 sur le Garigliano et de 900 répartis dans les différents postes, depuis le camp jusqu'à Terracine; la force de la garnison s'élevait, d'après le rapport des déserteurs, à environ 6,200 hommes."
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-garigliano",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 800,
+        "upper": 800,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "800",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "At the night-of-5th-to-6th narrative referent: on the Garigliano. Area and opening membership remain unresolved.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "All-arms wording explicitly attaches to the 8,500 before the place; these detached/post components have no separately specified personnel basis.",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 7,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Nuit du 5 au 6. — On continue les amorces de la deuxième parallèle"
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        },
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 8,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Le corps de siége se composait à cette époque de 8,500 hommes de toutes armes devant la place, de 800 sur le Garigliano et de 900 répartis dans les différents postes, depuis le camp jusqu'à Terracine; la force de la garnison s'élevait, d'après le rapport des déserteurs, à environ 6,200 hommes."
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-koch-posts",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 900,
+        "upper": 900,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "900",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "At the night-of-5th-to-6th narrative referent: in posts from the camp to Terracina. Area and opening membership remain unresolved.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "All-arms wording explicitly attaches to the 8,500 before the place; these detached/post components have no separately specified personnel basis.",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 7,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Nuit du 5 au 6. — On continue les amorces de la deuxième parallèle"
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        },
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 8,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Le corps de siége se composait à cette époque de 8,500 hommes de toutes armes devant la place, de 800 sur le Garigliano et de 900 répartis dans les différents postes, depuis le camp jusqu'à Terracine; la force de la garnison s'élevait, d'après le rapport des déserteurs, à environ 6,200 hommes."
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-colletta-besiegers",
+      "battle_id": "B371a",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 14000,
+        "upper": 14000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "quattordicimila",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Besiegers whom the council wished to release for operations elsewhere.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-a",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "colletta-1856-v2-p28-figures-v1",
+            "section": "p28",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 28 (transcribed from the page image)",
+            "quote": "Il re piegando al più debole partito, Saliceti al più forte, fu deciso che, doppiando mezzi e fatiche di guerra, si accelerasse la resa di Gaeta, onde valersi nelle ribellate province di quattordicimila soldati, oppugnatori di quella fortezza, e che subito vi fusse spedito il Maresciallo Massena, del quale la fama e l'ingegno apportassero aiuto ed animo a'suoi, danno e sgomento al nemico."
+          },
+          "metadata_sha256": "dd1473fe4f9d0c2618f3a016dda11f43d1e1aff3be5a6742c77d7753141f4b4f",
+          "raw_sha256": "6ec11e5290bbca0a041329f2c19fc1bb272cfb39561dfca514ff6bb916da33d0",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p28-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-koch-garrison-bound",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "upper_bound",
+        "lower": null,
+        "upper": 6000,
+        "lower_inclusive": null,
+        "upper_inclusive": false
+      },
+      "printed_value": "6,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Garrison in the reconnaissance/narrative description.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p202-figures-v1",
+            "section": "p202",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 202 (transcribed from the page image)",
+            "quote": "La garnison de la place se composait de 2 bataillons du régiment des présides (galériens), 2 du régiment Principe Real, 2 du régiment de la reine Carolina, un bataillon des chasseurs d'Apulie, 2 corps francs (bandits insurgés), un petit détachement de cavalerie, 2 compagnies d'artillerie légère, un détachement d'artillerie de côte, le tout formant moins de 6,000 hommes."
+          },
+          "metadata_sha256": "ce983f09f1bdbefeb8c2e72c8b5f5cd7a452dd879f65f773fb407082ac1965c5",
+          "raw_sha256": "3f7f57249bf2d35a1910d2af2455e58f281faa5824301c66a88fae8fc9f2039d",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p202-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-koch-deserters",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "approximate",
+        "lower": 6200,
+        "upper": 6200,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "6,200",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Deserters report at the night-of-5th-to-6th referent.",
+      "boundary_relation": "unestablished",
+      "source_role": "hearsay_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 7,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Nuit du 5 au 6. — On continue les amorces de la deuxième parallèle"
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        },
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 8,
+          "citation": {
+            "source_id": "koch-massena-t5-p233-figures-v1",
+            "section": "p233",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 233 (transcribed from the page image)",
+            "quote": "Le corps de siége se composait à cette époque de 8,500 hommes de toutes armes devant la place, de 800 sur le Garigliano et de 900 répartis dans les différents postes, depuis le camp jusqu'à Terracine; la force de la garnison s'élevait, d'après le rapport des déserteurs, à environ 6,200 hommes."
+          },
+          "metadata_sha256": "b2f4932670514da9c6c9d3418ab6117062015d4f577a7ae1bc2b6881c3ba6dec",
+          "raw_sha256": "8dc90867c652e1a4f54399406d8c69e166d276776577ae4e5e05c43c1238e6a7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p233-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-colletta-july7",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "approximate",
+        "lower": 7000,
+        "upper": 7000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "settemila",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "On 7 July, called the first offenses by Colletta; contact definition remains unresolved.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-b",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "colletta-1856-v2-p30-figures-v1",
+            "section": "p30",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 30 (transcribed from the page image)",
+            "quote": "Al giorno delle prime offese, 7 luglio, montavano gli assediati intorno a settemila, metà degli assediatori;"
+          },
+          "metadata_sha256": "a256dc533262221b756dc469307dbfc0635fa405cfeed3963b5439a27b1bdd4b",
+          "raw_sha256": "fc467f2004e78b3206a5b461760e545c93b92be0c494717331a79ab0797fcdd4",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p30-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-colletta-prisoners",
+      "battle_id": "B371a",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 3400,
+        "upper": 3400,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "tremila e quattrocento",
+      "unit": "people",
+      "basis": "prisoners",
+      "population": "component",
+      "state_description": "Prisoners at surrender; additional hospital cases/escapes separately described.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-b",
+          "citation_index": 5,
+          "citation": {
+            "source_id": "colletta-1856-v2-p30-figures-v1",
+            "section": "p30",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 30 (transcribed from the page image)",
+            "quote": "Erano i prigioni tremila e quattrocento, alcune altre centinaia rimasero con gli stessi patti agli ospedali; altri per via di mare fuggirono liberi; ed altri, infedeli o incostanti, si diedero nascostamente al vincitore."
+          },
+          "metadata_sha256": "a256dc533262221b756dc469307dbfc0635fa405cfeed3963b5439a27b1bdd4b",
+          "raw_sha256": "fc467f2004e78b3206a5b461760e545c93b92be0c494717331a79ab0797fcdd4",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p30-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-bodart",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 4700,
+        "upper": 4700,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4.700 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Whole source-listed siege interval; simultaneous opening total unestablished.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p379",
+            "locator": "Bodart (1908), p. 379",
+            "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p379-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-bodart",
+      "battle_id": "B379c",
+      "side": "B",
+      "amount": {
+        "kind": "approximate",
+        "lower": 1300,
+        "upper": 1300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "1.300 M.",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Approximate garrison for the source-listed interval.",
+      "boundary_relation": "unestablished",
+      "source_role": "compiled_total",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p379",
+            "locator": "Bodart (1908), p. 379",
+            "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p379-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p046",
+            "locator": "Bodart (1908), p. 46",
+            "quote": "Bei den Stärkeangaben wurden stets jene Streitkräfte angeführt, welche für die Schlacht disponibel waren"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p046-image-v1"
+        },
+        {
+          "claim_id": "bodart-strength",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p047",
+            "locator": "Bodart (1908), p. 47",
+            "quote": "Die Stärke- und Verlustziffern wurden vom Autor nach oben abgerundet"
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p047-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-koch-huard",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 1200,
+        "upper": 1200,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "1,200",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Huard force investing the fortress on the 18th; December from narrative context.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 2,
+          "citation": {
+            "source_id": "koch-massena-t5-p281-figures-v1",
+            "section": "p281",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+            "quote": "En exécution de ses ordres, un corps de 1,200 hommes conduits par le colonel Huard, remplissant les"
+          },
+          "metadata_sha256": "4b62297377db0a5ccac3b20eb5caaa7fdebdff74eba2170dfabd40e7b56b75af",
+          "raw_sha256": "f10349f9dfeaf851a245e7d932128dd35b97abdba80dbc4892c121278ba170d7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p281-image-v1"
+        },
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 3,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "fonctions de général de brigade, forma l'investissement de la forteresse le 18."
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-koch-verdier",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 2500,
+        "upper": 2500,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "2,500",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Verdier departing on the 22nd; December from narrative context.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 4,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "Verdier se mit en mouvement le 22 avec 2,500 hommes et 6 bouches à feu;"
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-koch-reynier",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 1000,
+        "upper": 1000,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "1,000",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "component",
+      "state_description": "Column following the next day under Reynier; not proof of simultaneous unchanged strengths.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 5,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "il fut suivi le lendemain par une colonne de 1,000 hommes qu'amenait le général Reynier, lequel dirigea toutes les opérations du siége."
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-koch-prior-attempt",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 1300,
+        "upper": 1300,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "1,300",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "outside_entry",
+      "state_description": "First attempt departing Cosenza on 3 December, before frozen 18 December opening.",
+      "boundary_relation": "unestablished",
+      "source_role": "own_retrospective",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-a",
+          "citation_index": 6,
+          "citation": {
+            "source_id": "koch-massena-t5-p280-figures-v1",
+            "section": "p280",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+            "quote": "Tranquille sur ce point, Verdier, conformément aux ordres du maréchal, partit de Cosenza le 3 décembre pour réduire Amantea, à la tête de 1,300 hommes, 2 obusiers et 2 pièces de montagne."
+          },
+          "metadata_sha256": "a0d906dd7e8715e222c0c215f0746b29d8333e2d3c25fa86b49d1d55d3d65148",
+          "raw_sha256": "7fee26f6b6942093668d2db5b62063a2f10a0b550dd1369384ef149527724b79",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p280-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-colletta-initial-attempt",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "point",
+        "lower": 3200,
+        "upper": 3200,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "tremila duecento",
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Initial assault and withdrawal before a return after December; correspondence to Koch first attempt and placement before 18 December are unestablished.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "This qualifies the bound dossier shorthand before Bodart dates: Colletta supplies December, not a date before the 18th. No dossier bytes are overwritten.",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-a",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "colletta-1856-v2-p32-figures-v1",
+            "section": "p32",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+            "quote": "Il generale Verdier, con tremila duecento soldati, artiglierie ed attrezzi, andò ad assaltarla;"
+          },
+          "metadata_sha256": "d174e72c79987335e8e08dcf2967d5b4edb38736e467ac09a0c1d01c21c16958",
+          "raw_sha256": "576e76f583f435d223cdece960fce8423941ca79892f26f82063df189a75f78a",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p32-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-colletta-later-unknown",
+      "battle_id": "B379c",
+      "side": "A",
+      "amount": {
+        "kind": "unknown",
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null
+      },
+      "printed_value": null,
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Later return stronger and better equipped; passage supplies no personnel total.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-a",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "colletta-1856-v2-p32-figures-v1",
+            "section": "p32",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+            "quote": "Ma finito il dicembre, egli, più forte, meglio provvisto di macchine, ritornò agli assalti, conducendo dalle sue parti il colonnello Amato, pur cittadino di Amantea, congiunto è da fanciullezza compagno ed amico al Mirabelli;"
+          },
+          "metadata_sha256": "d174e72c79987335e8e08dcf2967d5b4edb38736e467ac09a0c1d01c21c16958",
+          "raw_sha256": "576e76f583f435d223cdece960fce8423941ca79892f26f82063df189a75f78a",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p32-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-koch-garrison-unknown",
+      "battle_id": "B379c",
+      "side": "B",
+      "amount": {
+        "kind": "unknown",
+        "lower": null,
+        "upper": null,
+        "lower_inclusive": null,
+        "upper_inclusive": null
+      },
+      "printed_value": null,
+      "unit": "people",
+      "basis": "unspecified_personnel",
+      "population": "unresolved",
+      "state_description": "Regulars, some hundreds of insurgents and inhabitants; no complete headcount.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p280-figures-v1",
+            "section": "p280",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+            "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+          },
+          "metadata_sha256": "a0d906dd7e8715e222c0c215f0746b29d8333e2d3c25fa86b49d1d55d3d65148",
+          "raw_sha256": "7fee26f6b6942093668d2db5b62063a2f10a0b550dd1369384ef149527724b79",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p280-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-koch-guns",
+      "battle_id": "B379c",
+      "side": "B",
+      "amount": {
+        "kind": "range",
+        "lower": 4,
+        "upper": 5,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "4 à 5",
+      "unit": "guns",
+      "basis": "guns",
+      "population": "component",
+      "state_description": "Ordnance in the first-attempt description; do not turn it into personnel.",
+      "boundary_relation": "unestablished",
+      "source_role": "opponent_estimate",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "koch-side-b",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p280-figures-v1",
+            "section": "p280",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+            "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+          },
+          "metadata_sha256": "a0d906dd7e8715e222c0c215f0746b29d8333e2d3c25fa86b49d1d55d3d65148",
+          "raw_sha256": "7fee26f6b6942093668d2db5b62063a2f10a0b550dd1369384ef149527724b79",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p280-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-colletta-inhabitants",
+      "battle_id": "B379c",
+      "side": "B",
+      "amount": {
+        "kind": "point",
+        "lower": 2500,
+        "upper": 2500,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      },
+      "printed_value": "duemilacinquecento",
+      "unit": "people",
+      "basis": "inhabitants",
+      "population": "town_population",
+      "state_description": "Town inhabitants, including people not established as defenders.",
+      "boundary_relation": "unestablished",
+      "source_role": "retrospective_history",
+      "derivation": "unknown",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "colletta-side-b",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "colletta-1856-v2-p31-figures-v1",
+            "section": "p31",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+            "quote": "Amantea è città di Calabria di duemilacinquecento abitatori, fondata quasi su la marina del Tirreno, sopra un gran sasso, già scoglio;"
+          },
+          "metadata_sha256": "4ff62b177970421241987be8bb8540f7a6faab7bf923174c9aa1e0a194cc041f",
+          "raw_sha256": "5eda7345407c060b400e4ad0da142ad5b5b9dc5a08a51df07db0c88d58f36de6",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p31-image-v1"
+        }
+      ]
+    }
+  ],
+  "command_records": [
+    {
+      "id": "B370c-A-command-bodart-label",
+      "battle_id": "B370c",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-B-command-bodart-label",
+      "battle_id": "B370c",
+      "side": "B",
+      "actor_label": "Damas",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Franzosen (6.000 M.) unter Div.-Gen. Reynier über die Neapolitaner (10.000 M.) unter Gen.-Lt. Gf. Damas."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-command-bodart-label",
+      "battle_id": "B370d",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Engländer und Neapolitaner (4.800 Inft.) unter GM. Sir J. Stuart über die Franzosen (4.000 Inft., 300 Kav. = 4.300 M.) unter Div.-Gen. Reynier."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-command-bodart-label",
+      "battle_id": "B370d",
+      "side": "B",
+      "actor_label": "Sir J. Stuart",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p370",
+            "locator": "Bodart (1908), p. 370",
+            "quote": "Sieg der Engländer und Neapolitaner (4.800 Inft.) unter GM. Sir J. Stuart über die Franzosen (4.000 Inft., 300 Kav. = 4.300 M.) unter Div.-Gen. Reynier."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p370-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-bodart-label",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "Masséna",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-command-bodart-label",
+      "battle_id": "B371a",
+      "side": "B",
+      "actor_label": "Hessen-Philippsthal",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p371",
+            "locator": "Bodart (1908), p. 371",
+            "quote": "Die Franzosen (während der Blokade 3.000 M., gegen Ende der Belagerung 12.000 M. stark mit 94 Geschützen) unter Marschall Masséna zwingen nach fünfmonatlicher Einschließung und mehr als viermonatlicher Belagerung die neapolitanische Besatzung (urspr. 4.000 M., infolge der wirksamen Unterstützung durch das englische Geschwader des C.-A. Sidney Smith stets mit Lebensmitteln versehen und infolge sukzessiver Verstärkungen auf 7.000 M. gebracht) unter Gen.-Kpt. Pz. v. Hessen-Philippsthal zur Kapitulation."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p371-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-bodart-label",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p379",
+            "locator": "Bodart (1908), p. 379",
+            "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p379-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-command-bodart-label",
+      "battle_id": "B379c",
+      "side": "B",
+      "actor_label": "Mirabelli",
+      "resolved_person_id": null,
+      "role": "printed_commander",
+      "force_scope": "Source-listed side",
+      "population": "unresolved",
+      "state_description": "Compiler label for whole entry; command phase/authority at boundary unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "bodart-commanders",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bodart-1908-transcription-v1",
+            "section": "p379",
+            "locator": "Bodart (1908), p. 379",
+            "quote": "Die Franzosen (4.700 M.) unter Div.-Gen. Reynier zwingen die neapolitanische Garnison (ca. 1.300 M.) unter Oberst Mirabelli zur Übergabe."
+          },
+          "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+          "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+          "document_date": null,
+          "facsimile_source_id": "bodart-1908-p379-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-A-command-koch-order",
+      "battle_id": "B370c",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "operational_order_recipient",
+      "force_scope": "Advance into Calabria",
+      "population": "unresolved",
+      "state_description": "Before Campo Tenese; receipt of a directive is not a command-transfer clock.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p173-figures-v1",
+            "section": "p173",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+            "quote": "commencées par Duhesme, et Reynier reçut l'ordre de pénétrer en Calabre."
+          },
+          "metadata_sha256": "ced70bdf882858fc3689c571f92a3a3413c38fdfe15895766095d151137009d2",
+          "raw_sha256": "fbd75254a23d165f9bbe3c10d1b4b79b8e72154d05f1bb1f1222449cc1220799",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p173-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-A-command-koch-council",
+      "battle_id": "B370c",
+      "side": "A",
+      "actor_label": "Joseph",
+      "resolved_person_id": null,
+      "role": "superior_directive",
+      "force_scope": "Council allocating attacks on two corps",
+      "population": "unresolved",
+      "state_description": "Pre-engagement decision; Massena attended. No automatic battle responsibility for either superior.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "koch-massena-t5-p173-figures-v1",
+            "section": "p173",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+            "quote": "Conformément à ce qui fut arrêté dans un conseil présidé par Joseph, et où assista Massena, on convint que Reynier attaquerait le corps de gauche pendant que Duhesme aborderait celui de droite."
+          },
+          "metadata_sha256": "ced70bdf882858fc3689c571f92a3a3413c38fdfe15895766095d151137009d2",
+          "raw_sha256": "fbd75254a23d165f9bbe3c10d1b4b79b8e72154d05f1bb1f1222449cc1220799",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p173-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370c-B-command-koch-corps-command",
+      "battle_id": "B370c",
+      "side": "B",
+      "actor_label": "Roger de Damas",
+      "resolved_person_id": null,
+      "role": "formation_command",
+      "force_scope": "Left corps on the Leo",
+      "population": "unresolved",
+      "state_description": "Pre-engagement disposition; exact boundary authority requires mapping.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 19,
+          "citation": {
+            "source_id": "koch-massena-t5-p173-figures-v1",
+            "section": "p173",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 173 (transcribed from the page image)",
+            "quote": "Celui de gauche, commandé par le lieutenant-général Roger de Damas et composé de 15 bataillons et 6 escadrons (environ 12,000 hommes) occupait la rive gauche du Leo, gardant par sa droite la route de Naples à Cosenza."
+          },
+          "metadata_sha256": "ced70bdf882858fc3689c571f92a3a3413c38fdfe15895766095d151137009d2",
+          "raw_sha256": "fbd75254a23d165f9bbe3c10d1b4b79b8e72154d05f1bb1f1222449cc1220799",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p173-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-A-command-koch-assembly",
+      "battle_id": "B370d",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "local_direction",
+      "force_scope": "Assembled division",
+      "population": "unresolved",
+      "state_description": "Gathering and marching before the action; Koch dates differ from the frozen record.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p189-figures-v1",
+            "section": "p189",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 189 (transcribed from the page image)",
+            "quote": "A peine Reynier en eut-il été informé qu'il rassembla ses troupes et marcha avec tant de diligence que sa division, forte de 4,500 hommes d'infanterie, de 300 chasseurs à cheval et d'une batterie d'artillerie légère, passa la nuit du 3 au 4 dans le bois de Fondaco del Fico, d'où elle déboucha le 5 dans la plaine, par la route tracée entre le pied des hauteurs de Maida et la rive gauche du Lamato."
+          },
+          "metadata_sha256": "bd1ba44c4ceb728739abac5ebcccca661c19f30b2c4707612ab3ecddff1218b4",
+          "raw_sha256": "7380dcf226c5f69c0ffc8f96ca9728e191c76a70b4888b6361030698e67e3827",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p189-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B370d-B-command-bunbury-expedition",
+      "battle_id": "B370d",
+      "side": "B",
+      "actor_label": "Sir John Stuart",
+      "resolved_person_id": null,
+      "role": "expedition_decision",
+      "force_scope": "Attack expedition",
+      "population": "unresolved",
+      "state_description": "Decision to make the attack; does not adjudicate subordinate execution or credit.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "bunbury-1854-p235-figures-v1",
+            "section": "p235",
+            "locator": "Bunbury (1854), p. 235 (transcribed from the page image)",
+            "quote": "Sir John Stuart having taken the resolution to make the attack, the secret was well kept;"
+          },
+          "metadata_sha256": "855d35b3da820303771f0a30b2916fb381c34014094b4eaaa5be78ffa6ac29d3",
+          "raw_sha256": "aabaab216476ca3277266b49dc999b3903b705a53e89144f31cb50cf023a00c4",
+          "document_date": null,
+          "facsimile_source_id": "bunbury-1854-p235-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-koch-lacour",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "Lacour",
+      "resolved_person_id": null,
+      "role": "local_negotiation",
+      "force_scope": "His brigade and early talks",
+      "population": "unresolved",
+      "state_description": "Early negotiation; no claim of whole-siege continuous authority.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 4,
+          "citation": {
+            "source_id": "koch-massena-t5-p196-figures-v1",
+            "section": "p196",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 196 (transcribed from the page image)",
+            "quote": "Cette restriction piqua le général Lacour, et malgré la faiblesse de sa brigade qui ne dépassait pas 2,400 hommes, et son manque d'artillerie de siége, il ne voulut rien céder."
+          },
+          "metadata_sha256": "d7cba99d21f9b7e127d7c056e0764002556fec3fa278719fdce9a77978ddb93c",
+          "raw_sha256": "c59b2c1aa255362c87e11ef327ce07b7b6f1e2fb6baa3e57b32fb0dabf80ca9a",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p196-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-koch-gardanne",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "Gardanne",
+      "resolved_person_id": null,
+      "role": "siege_troop_command",
+      "force_scope": "Siege troops",
+      "population": "unresolved",
+      "state_description": "17 May in context; exact effective time and whole-interval responsibility remain unknown.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 14,
+          "citation": {
+            "source_id": "koch-massena-t5-p223-figures-v1",
+            "section": "p223",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 223 (transcribed from the page image)",
+            "quote": "Le 17, le général de division Gardanne vint prendre le commandement des troupes de siége."
+          },
+          "metadata_sha256": "e6debd2bc23257591d38b945e8e4fca61dab850a5c916cc706c2784d239c101e",
+          "raw_sha256": "ded4efa49361656d9ed706ce68725237609613e1dc25c15e5d890d4d6f2048df",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p223-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-koch-massena-visit",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "Massena",
+      "resolved_person_id": null,
+      "role": "superior_visit",
+      "force_scope": "Trench works and siege command group",
+      "population": "unresolved",
+      "state_description": "18 May visit alongside artillery, engineer and siege-troop commanders.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 15,
+          "citation": {
+            "source_id": "koch-massena-t5-p223-figures-v1",
+            "section": "p223",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 223 (transcribed from the page image)",
+            "quote": "Le 18 mai, le maréchal Massena, accompagné des généraux du génie et de l'artillerie, ainsi que du commandant des troupes de siége, visite de nouveau les travaux des tranchées,"
+          },
+          "metadata_sha256": "e6debd2bc23257591d38b945e8e4fca61dab850a5c916cc706c2784d239c101e",
+          "raw_sha256": "ded4efa49361656d9ed706ce68725237609613e1dc25c15e5d890d4d6f2048df",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p223-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-koch-marshal-hq",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "le maréchal",
+      "resolved_person_id": null,
+      "role": "siege_direction",
+      "force_scope": "Operation of siege; HQ at Castellone",
+      "population": "unresolved",
+      "state_description": "Later in the narrative after the royal visit. Literal label retained; not a new resolved person.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 19,
+          "citation": {
+            "source_id": "koch-massena-t5-p229-figures-v1",
+            "section": "p229",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 229 (transcribed from the page image)",
+            "quote": "Le roi retourna immédiatement à Naples, et dès lors le maréchal crut devoir suivre l'opération du siége, et établit son quartier général à Castellone."
+          },
+          "metadata_sha256": "ec12c03b1adebd89e1827bfd05998862fa01b20f8383492327156f08c8723236",
+          "raw_sha256": "5c3c7d4fe47b50d42b6d88885f12fce5e2a27796172ddd8e7ccf88d5834e4eab",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p229-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-A-command-colletta-council",
+      "battle_id": "B371a",
+      "side": "A",
+      "actor_label": "Maresciallo Massena",
+      "resolved_person_id": null,
+      "role": "superior_deployment",
+      "force_scope": "Council decision to send the marshal",
+      "population": "unresolved",
+      "state_description": "Council policy and deployment; no credit inferred from the source praise.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 34,
+          "citation": {
+            "source_id": "colletta-1856-v2-p28-figures-v1",
+            "section": "p28",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 28 (transcribed from the page image)",
+            "quote": "Il re piegando al più debole partito, Saliceti al più forte, fu deciso che, doppiando mezzi e fatiche di guerra, si accelerasse la resa di Gaeta, onde valersi nelle ribellate province di quattordicimila soldati, oppugnatori di quella fortezza, e che subito vi fusse spedito il Maresciallo Massena, del quale la fama e l'ingegno apportassero aiuto ed animo a'suoi, danno e sgomento al nemico."
+          },
+          "metadata_sha256": "dd1473fe4f9d0c2618f3a016dda11f43d1e1aff3be5a6742c77d7753141f4b4f",
+          "raw_sha256": "6ec11e5290bbca0a041329f2c19fc1bb272cfb39561dfca514ff6bb916da33d0",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p28-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-command-koch-governor",
+      "battle_id": "B371a",
+      "side": "B",
+      "actor_label": "prince de Hesse",
+      "resolved_person_id": null,
+      "role": "garrison_governor",
+      "force_scope": "Fortress government",
+      "population": "unresolved",
+      "state_description": "At early negotiations; not automatically continuous until surrender.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 4,
+          "citation": {
+            "source_id": "koch-massena-t5-p196-figures-v1",
+            "section": "p196",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 196 (transcribed from the page image)",
+            "quote": "Le lendemain le prince de Hesse, gouverneur, renvoya son corps en témoignant ses regrets de cette méprise."
+          },
+          "metadata_sha256": "d7cba99d21f9b7e127d7c056e0764002556fec3fa278719fdce9a77978ddb93c",
+          "raw_sha256": "c59b2c1aa255362c87e11ef327ce07b7b6f1e2fb6baa3e57b32fb0dabf80ca9a",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p196-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-command-koch-hotz",
+      "battle_id": "B371a",
+      "side": "B",
+      "actor_label": "François Hotz",
+      "resolved_person_id": null,
+      "role": "acting_governor",
+      "force_scope": "Place and garrison at capitulation",
+      "population": "unresolved",
+      "state_description": "Dated reprinted capitulation, 18 July 1806; mapped document date retained.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "Translation/reprint in Koch, not an authenticated original or opening transfer time.",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 21,
+          "citation": {
+            "source_id": "koch-massena-t5-p422-figures-v1",
+            "section": "p422",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 422 (transcribed from the page image)",
+            "quote": "muni des pleins pouvoirs de M. le colonel François Hotz, commandant de la place et gouverneur par intérim, d'une part;"
+          },
+          "metadata_sha256": "789d11a8550c75d273420a824fd3e3e3d7784f9e61e4a7c021ff19c5afcf489d",
+          "raw_sha256": "239ce092cf56c0b0504f6a7acb752e27de5745adf5334b51200046148101948c",
+          "document_date": "1806-07-18",
+          "facsimile_source_id": "koch-massena-t5-p422-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B371a-B-command-colletta-storz",
+      "battle_id": "B371a",
+      "side": "B",
+      "actor_label": "Storz",
+      "resolved_person_id": null,
+      "role": "acting_governor",
+      "force_scope": "Fortress after the prince was wounded",
+      "population": "unresolved",
+      "state_description": "Successor in Colletta; effective transfer time unspecified.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "Hotz/Storz correspondence remains unresolved; no alias merge or causal use of evaluative prose.",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 25,
+          "citation": {
+            "source_id": "colletta-1856-v2-p30-figures-v1",
+            "section": "p30",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 30 (transcribed from the page image)",
+            "quote": "imperciocchè il colonnello Storz, che dopo la mortal ferita del primo ne faceva le veci, animoso anch'egli e risoluto alla guerra, aveva debole autorità di secondo, e comandava per consigli, male estremo degli assedii."
+          },
+          "metadata_sha256": "a256dc533262221b756dc469307dbfc0635fa405cfeed3963b5439a27b1bdd4b",
+          "raw_sha256": "fc467f2004e78b3206a5b461760e545c93b92be0c494717331a79ab0797fcdd4",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p30-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-koch-marshal",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "le maréchal",
+      "resolved_person_id": null,
+      "role": "superior_directive",
+      "force_scope": "Attack dispositions at Cosenza",
+      "population": "unresolved",
+      "state_description": "15 December before the frozen interval; not the local force investing on the 18th.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 10,
+          "citation": {
+            "source_id": "koch-massena-t5-p281-figures-v1",
+            "section": "p281",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+            "quote": "Cependant il fallait en finir : le maréchal se rendit le 15 décembre à Cosenza, où il arrêta les dernières dispositions concernant l'attaque d'Amantea."
+          },
+          "metadata_sha256": "4b62297377db0a5ccac3b20eb5caaa7fdebdff74eba2170dfabd40e7b56b75af",
+          "raw_sha256": "f10349f9dfeaf851a245e7d932128dd35b97abdba80dbc4892c121278ba170d7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p281-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-koch-huard",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "Huard",
+      "resolved_person_id": null,
+      "role": "investment_direction",
+      "force_scope": "Investment force",
+      "population": "unresolved",
+      "state_description": "Invested on the 18th; acting brigadier role does not alone resolve whole-siege responsibility.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 16,
+          "citation": {
+            "source_id": "koch-massena-t5-p281-figures-v1",
+            "section": "p281",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 281 (transcribed from the page image)",
+            "quote": "En exécution de ses ordres, un corps de 1,200 hommes conduits par le colonel Huard, remplissant les"
+          },
+          "metadata_sha256": "4b62297377db0a5ccac3b20eb5caaa7fdebdff74eba2170dfabd40e7b56b75af",
+          "raw_sha256": "f10349f9dfeaf851a245e7d932128dd35b97abdba80dbc4892c121278ba170d7",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p281-image-v1"
+        },
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 17,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "fonctions de général de brigade, forma l'investissement de la forteresse le 18."
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-koch-verdier",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "Verdier",
+      "resolved_person_id": null,
+      "role": "column_leader",
+      "force_scope": "Marching column",
+      "population": "unresolved",
+      "state_description": "Set out on the 22nd in narrative context; not an inferred opening commander.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 18,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "Verdier se mit en mouvement le 22 avec 2,500 hommes et 6 bouches à feu;"
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-koch-reynier",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "Reynier",
+      "resolved_person_id": null,
+      "role": "siege_direction",
+      "force_scope": "Operations of the siege",
+      "population": "unresolved",
+      "state_description": "Followed the next day and directed siege operations; opening transfer/authority timing unresolved.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 19,
+          "citation": {
+            "source_id": "koch-massena-t5-p282-figures-v1",
+            "section": "p282",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 282 (transcribed from the page image)",
+            "quote": "il fut suivi le lendemain par une colonne de 1,000 hommes qu'amenait le général Reynier, lequel dirigea toutes les opérations du siége."
+          },
+          "metadata_sha256": "68b24cc218d30b87c6fc88b9b52a2afdb9ac8cf5311222cccfef0b052491021f",
+          "raw_sha256": "4748678eae9621dfe05bf2e3b6a335d2a8f084c7b939187ed5ccfd66c6e79a26",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p282-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-A-command-colletta-verdier",
+      "battle_id": "B379c",
+      "side": "A",
+      "actor_label": "Verdier",
+      "resolved_person_id": null,
+      "role": "assault_direction",
+      "force_scope": "Initial assault force",
+      "population": "unresolved",
+      "state_description": "Initial attack before a later return after December; correspondence to Koch earlier attempt and placement before 18 December are unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-a-command",
+          "citation_index": 21,
+          "citation": {
+            "source_id": "colletta-1856-v2-p32-figures-v1",
+            "section": "p32",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+            "quote": "Il generale Verdier, con tremila duecento soldati, artiglierie ed attrezzi, andò ad assaltarla;"
+          },
+          "metadata_sha256": "d174e72c79987335e8e08dcf2967d5b4edb38736e467ac09a0c1d01c21c16958",
+          "raw_sha256": "576e76f583f435d223cdece960fce8423941ca79892f26f82063df189a75f78a",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p32-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-command-koch-mirabelli",
+      "battle_id": "B379c",
+      "side": "B",
+      "actor_label": "Mirabelli",
+      "resolved_person_id": null,
+      "role": "garrison_command",
+      "force_scope": "Regulars, insurgents and inhabitants",
+      "population": "unresolved",
+      "state_description": "First-attempt description; continuous authority at the defined opening remains unmapped.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 0,
+          "citation": {
+            "source_id": "koch-massena-t5-p280-figures-v1",
+            "section": "p280",
+            "locator": "Koch, Mémoires de Masséna, t. V, p. 280 (transcribed from the page image)",
+            "quote": "elle était armée de 4 à 5 pièces de canon et défendue par des troupes régulières, quelques centaines d'insurgés et ses habitants, le tout aux ordres du colonel Mirabelli, natif d'Amantea, qui jouissait d'une grande considération dans le canton."
+          },
+          "metadata_sha256": "a0d906dd7e8715e222c0c215f0746b29d8333e2d3c25fa86b49d1d55d3d65148",
+          "raw_sha256": "7fee26f6b6942093668d2db5b62063a2f10a0b550dd1369384ef149527724b79",
+          "document_date": null,
+          "facsimile_source_id": "koch-massena-t5-p280-image-v1"
+        }
+      ]
+    },
+    {
+      "id": "B379c-B-command-colletta-mirabelli",
+      "battle_id": "B379c",
+      "side": "B",
+      "actor_label": "Mirabelli",
+      "resolved_person_id": null,
+      "role": "garrison_command",
+      "force_scope": "Soldiers and other people governed by the colonel",
+      "population": "unresolved",
+      "state_description": "Continuation of sentence across pp. 31-32; total, full population membership and command clock unestablished.",
+      "boundary_relation": "unestablished",
+      "authority_at_boundary": "unestablished",
+      "receipt_at": null,
+      "note": "",
+      "evidence": [
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 1,
+          "citation": {
+            "source_id": "colletta-1856-v2-p31-figures-v1",
+            "section": "p31",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 31 (transcribed from the page image)",
+            "quote": "pochi soldati la guardavano e molti"
+          },
+          "metadata_sha256": "4ff62b177970421241987be8bb8540f7a6faab7bf923174c9aa1e0a194cc041f",
+          "raw_sha256": "5eda7345407c060b400e4ad0da142ad5b5b9dc5a08a51df07db0c88d58f36de6",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p31-image-v1"
+        },
+        {
+          "claim_id": "side-b-command",
+          "citation_index": 3,
+          "citation": {
+            "source_id": "colletta-1856-v2-p32-figures-v1",
+            "section": "p32",
+            "locator": "Colletta, Storia del Reame di Napoli, vol. II (1856), p. 32 (transcribed from the page image)",
+            "quote": "ni, gli uni e gli altri sotto il governo del colonnello Mirabelli, nato in quella città, ricco, nobile, usato all'armi ed all'onore;"
+          },
+          "metadata_sha256": "d174e72c79987335e8e08dcf2967d5b4edb38736e467ac09a0c1d01c21c16958",
+          "raw_sha256": "576e76f583f435d223cdece960fce8423941ca79892f26f82063df189a75f78a",
+          "document_date": null,
+          "facsimile_source_id": "colletta-1856-v2-p32-image-v1"
+        }
+      ]
+    }
+  ],
+  "side_records": [
+    {
+      "battle_id": "B370c",
+      "side": "A",
+      "frozen_start_date": "1806-03-09",
+      "frozen_end_date": "1806-03-09",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B370c-A-bodart",
+        "B370c-A-koch-corps",
+        "B370c-A-koch-nocera"
+      ],
+      "command_ids": [
+        "B370c-A-command-bodart-label",
+        "B370c-A-command-koch-order",
+        "B370c-A-command-koch-council"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B370c",
+      "side": "B",
+      "frozen_start_date": "1806-03-09",
+      "frozen_end_date": "1806-03-09",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B370c-B-bodart",
+        "B370c-B-koch-corps",
+        "B370c-B-damas-illustration"
+      ],
+      "command_ids": [
+        "B370c-B-command-bodart-label",
+        "B370c-B-command-koch-corps-command"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B370d",
+      "side": "A",
+      "frozen_start_date": "1806-07-04",
+      "frozen_end_date": "1806-07-04",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B370d-A-bodart",
+        "B370d-A-koch-infantry",
+        "B370d-A-koch-cavalry",
+        "B370d-A-bunbury-command",
+        "B370d-A-bunbury-engaged",
+        "B370d-A-bunbury-more-than"
+      ],
+      "command_ids": [
+        "B370d-A-command-bodart-label",
+        "B370d-A-command-koch-assembly"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B370d",
+      "side": "B",
+      "frozen_start_date": "1806-07-04",
+      "frozen_end_date": "1806-07-04",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B370d-B-bodart-infantry",
+        "B370d-B-koch-embarked-english",
+        "B370d-B-koch-embarked-neapolitan",
+        "B370d-B-bunbury-march",
+        "B370d-B-bunbury-field"
+      ],
+      "command_ids": [
+        "B370d-B-command-bodart-label",
+        "B370d-B-command-bunbury-expedition"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B371a",
+      "side": "A",
+      "frozen_start_date": "1806-03-04",
+      "frozen_end_date": "1806-07-18",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B371a-A-bodart-blockade",
+        "B371a-A-bodart-late",
+        "B371a-A-koch-lacour-bound",
+        "B371a-A-koch-mid-may",
+        "B371a-A-koch-july",
+        "B371a-A-koch-before-place",
+        "B371a-A-koch-garigliano",
+        "B371a-A-koch-posts",
+        "B371a-A-colletta-besiegers"
+      ],
+      "command_ids": [
+        "B371a-A-command-bodart-label",
+        "B371a-A-command-koch-lacour",
+        "B371a-A-command-koch-gardanne",
+        "B371a-A-command-koch-massena-visit",
+        "B371a-A-command-koch-marshal-hq",
+        "B371a-A-command-colletta-council"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B371a",
+      "side": "B",
+      "frozen_start_date": "1806-03-04",
+      "frozen_end_date": "1806-07-18",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B371a-B-bodart-original",
+        "B371a-B-bodart-reinforced",
+        "B371a-B-koch-garrison-bound",
+        "B371a-B-koch-deserters",
+        "B371a-B-colletta-july7",
+        "B371a-B-colletta-prisoners"
+      ],
+      "command_ids": [
+        "B371a-B-command-bodart-label",
+        "B371a-B-command-koch-governor",
+        "B371a-B-command-koch-hotz",
+        "B371a-B-command-colletta-storz"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B379c",
+      "side": "A",
+      "frozen_start_date": "1806-12-18",
+      "frozen_end_date": "1807-02-06",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B379c-A-bodart",
+        "B379c-A-koch-huard",
+        "B379c-A-koch-verdier",
+        "B379c-A-koch-reynier",
+        "B379c-A-koch-prior-attempt",
+        "B379c-A-colletta-initial-attempt",
+        "B379c-A-colletta-later-unknown"
+      ],
+      "command_ids": [
+        "B379c-A-command-bodart-label",
+        "B379c-A-command-koch-marshal",
+        "B379c-A-command-koch-huard",
+        "B379c-A-command-koch-verdier",
+        "B379c-A-command-koch-reynier",
+        "B379c-A-command-colletta-verdier"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    },
+    {
+      "battle_id": "B379c",
+      "side": "B",
+      "frozen_start_date": "1806-12-18",
+      "frozen_end_date": "1807-02-06",
+      "opening_boundary": null,
+      "army_id": null,
+      "responsible_person_id": null,
+      "selected_strength_id": null,
+      "strength_ids": [
+        "B379c-B-bodart",
+        "B379c-B-koch-garrison-unknown",
+        "B379c-B-koch-guns",
+        "B379c-B-colletta-inhabitants"
+      ],
+      "command_ids": [
+        "B379c-B-command-bodart-label",
+        "B379c-B-command-koch-mirabelli",
+        "B379c-B-command-colletta-mirabelli"
+      ],
+      "unknowns": [
+        "Contact/area/availability mapping unestablished.",
+        "Cross-engagement army continuity unestablished.",
+        "Person identity and competing-role dispositions not released.",
+        "Campaign appointment/replacement pool unestablished."
+      ]
+    }
+  ],
+  "claim_index": [
+    {
+      "battle_id": "B370c",
+      "claim_id": "bodart-strength",
+      "dimension": "strength",
+      "sha256": "29d8e8622b7b6a6fadf90471c56e17d353c550d17467f8e77882cd1b35c809db",
+      "observation_ids": [
+        "B370c-A-bodart",
+        "B370c-B-bodart"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "koch-side-a",
+      "dimension": "strength",
+      "sha256": "530b6c8de3e1a02ebcdfd9f94078bdd4b441a723621c98a66243d984ebc82b1b",
+      "observation_ids": [
+        "B370c-A-koch-corps",
+        "B370c-A-koch-nocera"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "koch-side-b",
+      "dimension": "strength",
+      "sha256": "a4a1b88ee2321fe89ae356a18696b542eab501134a17f7fee8fd20eddaa2d1bc",
+      "observation_ids": [
+        "B370c-B-koch-corps"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "damas-side-b",
+      "dimension": "strength",
+      "sha256": "442980959cfcb2be4c5f49c7eb02e189acb8414fd59431ec65a4dff0458f7685",
+      "observation_ids": [
+        "B370c-B-damas-illustration"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "bodart-commanders",
+      "dimension": "responsibility",
+      "sha256": "4bc8932ac492135e744aeb7ab984c7082f8a9fc243fbb9c741270f20757e5830",
+      "observation_ids": [
+        "B370c-A-command-bodart-label",
+        "B370c-B-command-bodart-label"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "side-a-command",
+      "dimension": "responsibility",
+      "sha256": "bdb7d35181358fc083c700165119f7cdd4d2b4d088776d48e0a5ce80afcd50d6",
+      "observation_ids": [
+        "B370c-A-command-koch-order",
+        "B370c-A-command-koch-council"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370c",
+      "claim_id": "side-b-command",
+      "dimension": "responsibility",
+      "sha256": "bca4dceb2177f4dd8d747566754c06d0f5e1ae667f59ceb315bb6dfa4a1a6a01",
+      "observation_ids": [
+        "B370c-B-command-koch-corps-command"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "bodart-strength",
+      "dimension": "strength",
+      "sha256": "adcfebbf75c97e2d0179b5f556a811eabea60e0c1623e98a868c18016191d72a",
+      "observation_ids": [
+        "B370d-A-bodart",
+        "B370d-B-bodart-infantry"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "koch-side-a",
+      "dimension": "strength",
+      "sha256": "41d988b833732dddf9fb90293050b3a80707e51e84f27457fa9bdf568b4ce666",
+      "observation_ids": [
+        "B370d-A-koch-infantry",
+        "B370d-A-koch-cavalry"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "bunbury-side-a",
+      "dimension": "strength",
+      "sha256": "af6fb1053b7f23ac8f3d4dd861209dd96b9e91f928a61f67a37943a2dc076b3a",
+      "observation_ids": [
+        "B370d-A-bunbury-command",
+        "B370d-A-bunbury-engaged",
+        "B370d-A-bunbury-more-than"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "koch-side-b",
+      "dimension": "strength",
+      "sha256": "3de156a57c9ffacd07f478d48fa82c1d45c7d4b723557101f75f351c0155f4f9",
+      "observation_ids": [
+        "B370d-B-koch-embarked-english",
+        "B370d-B-koch-embarked-neapolitan"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "bunbury-side-b",
+      "dimension": "strength",
+      "sha256": "1215bd64605c2dc857c3401a522bcdcd67aa6ca9081c2c3140e08a8e6c217bd0",
+      "observation_ids": [
+        "B370d-B-bunbury-march",
+        "B370d-B-bunbury-field"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "bodart-commanders",
+      "dimension": "responsibility",
+      "sha256": "9d83d4a0189d3cf3ded180695bb40e2b99b10a9c9c39f0fddf1ec61be47bd801",
+      "observation_ids": [
+        "B370d-A-command-bodart-label",
+        "B370d-B-command-bodart-label"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "side-a-command",
+      "dimension": "responsibility",
+      "sha256": "bcbbe782fa20a377a010f1a89226e90c4aa6c50f6a7b1c8597f787d51aa97816",
+      "observation_ids": [
+        "B370d-A-command-koch-assembly"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B370d",
+      "claim_id": "side-b-command",
+      "dimension": "responsibility",
+      "sha256": "5fea8ae55b16435307247caba7891545aa8bcae574a56ee3f10399eaf8ce1e43",
+      "observation_ids": [
+        "B370d-B-command-bunbury-expedition"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "bodart-strength",
+      "dimension": "strength",
+      "sha256": "291fad35e906922a5aef6f020dbc7fbcbe88469d0a9cf0aa3b5ff2f871a80aa4",
+      "observation_ids": [
+        "B371a-A-bodart-blockade",
+        "B371a-A-bodart-late",
+        "B371a-B-bodart-original",
+        "B371a-B-bodart-reinforced"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "koch-side-a",
+      "dimension": "strength",
+      "sha256": "e7271a0430df964dc0fedd528952d8ba49caef38ef7b70c0dbe1d066fa2826e8",
+      "observation_ids": [
+        "B371a-A-koch-lacour-bound",
+        "B371a-A-koch-mid-may",
+        "B371a-A-koch-july",
+        "B371a-A-koch-before-place",
+        "B371a-A-koch-garigliano",
+        "B371a-A-koch-posts",
+        "B371a-B-koch-deserters"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "colletta-side-a",
+      "dimension": "strength",
+      "sha256": "4d06b8dcfac8c783282b548523e7ab4e25ae6641aa9819dd61450965a4edb886",
+      "observation_ids": [
+        "B371a-A-colletta-besiegers"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "koch-side-b",
+      "dimension": "strength",
+      "sha256": "e497a78e39277dd0e19269b39ca8a6cf376b9eb3a964d69d9abf2e08f7a542f0",
+      "observation_ids": [
+        "B371a-B-koch-garrison-bound"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "colletta-side-b",
+      "dimension": "strength",
+      "sha256": "664427a1e4691c362e0a860b351f726a2b06810c374b5e3bf2586b8c4069d1a0",
+      "observation_ids": [
+        "B371a-B-colletta-july7",
+        "B371a-B-colletta-prisoners"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "bodart-commanders",
+      "dimension": "responsibility",
+      "sha256": "e1b940df42be0058ce8bf2dd446b749e140f8fca975b56f23166769470486478",
+      "observation_ids": [
+        "B371a-A-command-bodart-label",
+        "B371a-B-command-bodart-label"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "side-a-command",
+      "dimension": "responsibility",
+      "sha256": "dcc3e739a7665458e81508cfc8a4fd8f694c441550184a16ac9719d5fa2f2362",
+      "observation_ids": [
+        "B371a-A-command-koch-lacour",
+        "B371a-A-command-koch-gardanne",
+        "B371a-A-command-koch-massena-visit",
+        "B371a-A-command-koch-marshal-hq",
+        "B371a-A-command-colletta-council"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B371a",
+      "claim_id": "side-b-command",
+      "dimension": "responsibility",
+      "sha256": "65e1434297ed18cc5af0d5e7972109e9c8ca1051559f0650fea0fc2b242b341c",
+      "observation_ids": [
+        "B371a-B-command-koch-governor",
+        "B371a-B-command-koch-hotz",
+        "B371a-B-command-colletta-storz"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "bodart-strength",
+      "dimension": "strength",
+      "sha256": "6d62b43d246fd6b0d1c1b37250cac57cb0cf5db71d2c605f3861b9a2553c0fac",
+      "observation_ids": [
+        "B379c-A-bodart",
+        "B379c-B-bodart"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "koch-side-a",
+      "dimension": "strength",
+      "sha256": "81089f5a29fdc727c1cad8558e17807bf019104940029bf04ad91fc771d4ec36",
+      "observation_ids": [
+        "B379c-A-koch-huard",
+        "B379c-A-koch-verdier",
+        "B379c-A-koch-reynier",
+        "B379c-A-koch-prior-attempt"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "colletta-side-a",
+      "dimension": "strength",
+      "sha256": "9bf1120deb07c17a684969b3ba6ac3f3c998c76551762769cfd640f1bf76b376",
+      "observation_ids": [
+        "B379c-A-colletta-initial-attempt",
+        "B379c-A-colletta-later-unknown"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "koch-side-b",
+      "dimension": "strength",
+      "sha256": "d773af0d0a0f0bc1eae1d7f5c2363699e2acb3358e039da992fb01aff9685195",
+      "observation_ids": [
+        "B379c-B-koch-garrison-unknown",
+        "B379c-B-koch-guns"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "colletta-side-b",
+      "dimension": "strength",
+      "sha256": "d857f7c3329be32b6c884ddfc2f8bc3ccbbb48c7d1d6c992824ffdb02af348dc",
+      "observation_ids": [
+        "B379c-B-colletta-inhabitants"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "bodart-commanders",
+      "dimension": "responsibility",
+      "sha256": "48b5280f25e630e6cac4baeecb89902d37c183c9f76f57a8a757c22517fbe4fb",
+      "observation_ids": [
+        "B379c-A-command-bodart-label",
+        "B379c-B-command-bodart-label"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "side-a-command",
+      "dimension": "responsibility",
+      "sha256": "2537b86ec75d569f81fd00853ae5379f129203659d79f307c8a52af485c6d4a5",
+      "observation_ids": [
+        "B379c-A-command-koch-marshal",
+        "B379c-A-command-koch-huard",
+        "B379c-A-command-koch-verdier",
+        "B379c-A-command-koch-reynier",
+        "B379c-A-command-colletta-verdier"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    },
+    {
+      "battle_id": "B379c",
+      "claim_id": "side-b-command",
+      "dimension": "responsibility",
+      "sha256": "30e289b4582fbc1585f3a9f14d0ecd5a5bdc0b37d544301990a4521c66a41e9a",
+      "observation_ids": [
+        "B379c-B-command-koch-mirabelli",
+        "B379c-B-command-colletta-mirabelli"
+      ],
+      "disposition": "worked_excerpts",
+      "remaining_scope": "Unextracted clauses, components and narrative remain in the bound dossier; this is not complete atomic extraction."
+    }
+  ],
+  "discrepancies": [
+    {
+      "id": "B370c-A-strength-alternatives",
+      "battle_id": "B370c",
+      "side": "A",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B370c-A-bodart",
+        "B370c-A-koch-corps",
+        "B370c-A-koch-nocera"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B370c-B-strength-alternatives",
+      "battle_id": "B370c",
+      "side": "B",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B370c-B-bodart",
+        "B370c-B-koch-corps",
+        "B370c-B-damas-illustration"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B370d-A-strength-alternatives",
+      "battle_id": "B370d",
+      "side": "A",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B370d-A-bodart",
+        "B370d-A-koch-infantry",
+        "B370d-A-koch-cavalry",
+        "B370d-A-bunbury-command",
+        "B370d-A-bunbury-engaged",
+        "B370d-A-bunbury-more-than"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B370d-B-strength-alternatives",
+      "battle_id": "B370d",
+      "side": "B",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B370d-B-bodart-infantry",
+        "B370d-B-koch-embarked-english",
+        "B370d-B-koch-embarked-neapolitan",
+        "B370d-B-bunbury-march",
+        "B370d-B-bunbury-field"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B371a-A-strength-alternatives",
+      "battle_id": "B371a",
+      "side": "A",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B371a-A-bodart-blockade",
+        "B371a-A-bodart-late",
+        "B371a-A-koch-lacour-bound",
+        "B371a-A-koch-mid-may",
+        "B371a-A-koch-july",
+        "B371a-A-koch-before-place",
+        "B371a-A-koch-garigliano",
+        "B371a-A-koch-posts",
+        "B371a-A-colletta-besiegers"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B371a-B-strength-alternatives",
+      "battle_id": "B371a",
+      "side": "B",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B371a-B-bodart-original",
+        "B371a-B-bodart-reinforced",
+        "B371a-B-koch-garrison-bound",
+        "B371a-B-koch-deserters",
+        "B371a-B-colletta-july7",
+        "B371a-B-colletta-prisoners"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B379c-A-strength-alternatives",
+      "battle_id": "B379c",
+      "side": "A",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B379c-A-bodart",
+        "B379c-A-koch-huard",
+        "B379c-A-koch-verdier",
+        "B379c-A-koch-reynier",
+        "B379c-A-koch-prior-attempt",
+        "B379c-A-colletta-initial-attempt",
+        "B379c-A-colletta-later-unknown"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting. Colletta initial-attempt month does not independently place it before 18 December; correspondence to Koch chronology remains unresolved."
+    },
+    {
+      "id": "B379c-B-strength-alternatives",
+      "battle_id": "B379c",
+      "side": "B",
+      "kind": "population_phase_or_value",
+      "observation_ids": [
+        "B379c-B-bodart",
+        "B379c-B-koch-garrison-unknown",
+        "B379c-B-koch-guns",
+        "B379c-B-colletta-inhabitants"
+      ],
+      "resolution": null,
+      "note": "Retained source-specific observations; same-target applicability and source dependence are unresolved. No averaging or source voting."
+    },
+    {
+      "id": "B371a-A-command-roles",
+      "battle_id": "B371a",
+      "side": "A",
+      "kind": "authority_phase_or_identity",
+      "observation_ids": [
+        "B371a-A-command-bodart-label",
+        "B371a-A-command-koch-lacour",
+        "B371a-A-command-koch-gardanne",
+        "B371a-A-command-koch-massena-visit",
+        "B371a-A-command-koch-marshal-hq",
+        "B371a-A-command-colletta-council"
+      ],
+      "resolution": null,
+      "note": "Printed whole-siege label, brigade/negotiation, siege-troop and superior roles overlap; no automatic highest-rank selection."
+    },
+    {
+      "id": "B371a-B-command-roles",
+      "battle_id": "B371a",
+      "side": "B",
+      "kind": "authority_phase_or_identity",
+      "observation_ids": [
+        "B371a-B-command-bodart-label",
+        "B371a-B-command-koch-governor",
+        "B371a-B-command-koch-hotz",
+        "B371a-B-command-colletta-storz"
+      ],
+      "resolution": null,
+      "note": "Opening governor versus terminal acting governors; Hotz/Storz alias and effective transfer are unresolved."
+    },
+    {
+      "id": "B379c-A-command-roles",
+      "battle_id": "B379c",
+      "side": "A",
+      "kind": "authority_phase_or_identity",
+      "observation_ids": [
+        "B379c-A-command-bodart-label",
+        "B379c-A-command-koch-marshal",
+        "B379c-A-command-koch-huard",
+        "B379c-A-command-koch-verdier",
+        "B379c-A-command-koch-reynier",
+        "B379c-A-command-colletta-verdier"
+      ],
+      "resolution": null,
+      "note": "Opening investment, later marching columns, siege direction and superior directives need separate authority/time mappings."
+    }
+  ],
+  "sum_proposals": [
+    {
+      "id": "amantea-columns",
+      "battle_id": "B379c",
+      "side": "A",
+      "input_ids": [
+        "B379c-A-koch-huard",
+        "B379c-A-koch-verdier",
+        "B379c-A-koch-reynier"
+      ],
+      "arithmetic_sum": 4700,
+      "disjoint_membership": "unestablished",
+      "same_state_time": "unestablished",
+      "complete_target": "unestablished",
+      "note": "1,200 + 2,500 + 1,000 = 4,700 is arithmetic only; differently dated columns need retained membership/availability evidence."
+    },
+    {
+      "id": "gaeta-local-and-posts",
+      "battle_id": "B371a",
+      "side": "A",
+      "input_ids": [
+        "B371a-A-koch-before-place",
+        "B371a-A-koch-garigliano",
+        "B371a-A-koch-posts"
+      ],
+      "arithmetic_sum": 10200,
+      "disjoint_membership": "unestablished",
+      "same_state_time": "established",
+      "complete_target": "unestablished",
+      "note": "8,500 + 800 + 900 = 10,200 at one narrative referent; defined area, membership and first-contact relation remain unmapped."
+    },
+    {
+      "id": "maida-missing-artillery-personnel",
+      "battle_id": "B370d",
+      "side": "A",
+      "input_ids": [
+        "B370d-A-koch-infantry",
+        "B370d-A-koch-cavalry"
+      ],
+      "arithmetic_sum": 4800,
+      "disjoint_membership": "established",
+      "same_state_time": "established",
+      "complete_target": "incomplete",
+      "note": "4,500 + 300 = 4,800; the artillery battery is named but its people are missing. No assumed crew multiplier."
+    }
+  ],
+  "emitted_rows": [],
+  "historical_outcomes_fitted": false,
+  "calibration": "prepared_unscored"
+}

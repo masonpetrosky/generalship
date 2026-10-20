@@ -28,7 +28,7 @@ from .napoleonic import COHORT as NAPOLEONIC_COHORT, FRAME as NAPOLEONIC_FRAME, 
 from .dataset import build_dataset
 from .evidence import validate_all, validate_napoleonic
 from .napoleonic_packet import write_packet as write_napoleonic_packet
-from . import napoleonic_methods
+from . import napoleonic_methods, napoleonic_ledger_design
 from .audit import AUDIT, AuditError, check_audit, report_text as audit_report, review_index
 from .replay import bound_view, repository_text
 from .site import build_site
@@ -119,6 +119,11 @@ def run_build(root, write=False):
     records, profile = build_dataset(root)
     dossiers = validate_all(root)
     napoleonic_dossiers = validate_napoleonic(root)  # raises on an invalid draft, like the Civil War dossiers
+    ledger_design = None
+    if (root / napoleonic_ledger_design.SCOPE).is_file():
+        ledger_design = napoleonic_ledger_design.check(root)
+        if not write:
+            napoleonic_ledger_design.check_artifacts(root, ledger_design)
     methods = None
     methods_protocol = None
     if (root / napoleonic_methods.PROTOCOL).is_file():
@@ -180,6 +185,9 @@ def run_build(root, write=False):
         elif methods_protocol is not None:
             from .research_checks import write_artifacts
             methods_outputs = list(write_artifacts(root, methods_protocol))
+        ledger_design_outputs = []
+        if ledger_design is not None:
+            ledger_design_outputs = napoleonic_ledger_design.write_artifacts(root, ledger_design)
         inputs = sorted((root / "generalship").glob("*.py")) + [root / "data/sources.json", root / "data/pilot/cohort.json",
                                                                root / "data/pilot/cohort-v2.json"]
         inputs += sorted((root / "data/evidence").rglob("*.json"))
@@ -188,11 +196,14 @@ def run_build(root, write=False):
         inputs += sorted(p for p in (root / "data/command").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/audit").rglob('*') if p.is_file())
         inputs += sorted(p for p in (root / "data/napoleonic").rglob('*') if p.is_file())
+        if ledger_design is not None:
+            inputs.append(root / napoleonic_ledger_design.DESIGN)
         outputs = ["battles.json", "quality.json", "baseline.json", "evidence-checks.json", "research-queue.json", "pilot-report.md", "admission-check.json",
                    "review-index.json"] + (["extraction-audit-v1.json", "extraction-audit-v1.md"] if audit_ok else [])
         outputs += ["strength-ledger-v3-check.json", "strength-compilation-agreement.json"] if (output / "strength-ledger-v3-check.json").is_file() else []
         outputs += ["napoleonic-evidence-checks.json"] if napoleonic_dossiers else []
         outputs += [p.removeprefix('artifacts/') for p in methods_outputs]
+        outputs += [p.removeprefix('artifacts/') for p in ledger_design_outputs]
         write_json(output / "receipt.json", {
             "command": "python3 -m generalship build", "model_id": evaluation["model_id"],
             # Floating-point results can differ in the last bits across Python versions (for example,
@@ -227,6 +238,9 @@ def run_build(root, write=False):
             "napoleonic_methods": None if methods is None else {'historical_outcomes_fitted': False,
                                                                'scenarios': list(methods['scenarios']),
                                                                'calibration': 'prepared_unscored'},
+            "napoleonic_ledger_design": None if ledger_design is None else {
+                k: ledger_design[k] for k in ('engagements', 'sides', 'strength_observations',
+                    'command_observations', 'complete_candidate_engagements', 'emitted_model_rows')},
             "artifacts_written": write}
 
 
@@ -261,6 +275,8 @@ def main(argv=None):
     sub.add_parser('napoleonic-evidence-check', help='Verify source hashes and validate the Napoleonic draft dossiers')
     sub.add_parser('napoleonic-methods', help='Run the explicitly authorized synthetic checkpoint; never fits historical outcomes')
     sub.add_parser('napoleonic-research-screen', help='Run digit, locator and family triage; no historical judgments')
+    ledger_parser = sub.add_parser('napoleonic-ledger-design-check', help='Verify bounded ledger design examples; never admits inputs or fits outcomes')
+    ledger_parser.add_argument('--details', action='store_true', help='Print all observation decisions and reasons')
     site_parser = sub.add_parser('site', help='Write the static explorer (plain HTML) from committed files')
     site_parser.add_argument('--out', default='_site', help='Output directory (default _site, git-ignored)')
     site_parser.add_argument('--commit', default=os.environ.get('GITHUB_SHA', 'main'),
@@ -378,6 +394,12 @@ def main(argv=None):
         elif args.command == 'napoleonic-research-screen':
             from .research_checks import screen
             result = screen(root)
+        elif args.command == 'napoleonic-ledger-design-check':
+            checked = napoleonic_ledger_design.check(root)
+            result = checked if args.details else {k: checked[k] for k in ('status', 'scope_group',
+                'engagements', 'sides', 'indexed_claims', 'strength_observations', 'command_observations',
+                'strength_status_counts', 'command_status_counts', 'unresolved_opening_boundaries',
+                'complete_candidate_engagements', 'emitted_model_rows', 'historical_outcomes_fitted', 'calibration')}
         elif args.command == 'napoleonic-evidence-check':
             sources = verify_sources(root)  # every registered hash and section map, even before any draft exists
             checked = validate_napoleonic(root, sources)

@@ -1,0 +1,43 @@
+{
+  "kind": "napoleonic_ledger_design_scope",
+  "version": 1,
+  "status": "design_only",
+  "base_commit": "69a0b15b8bf1377af7f2c6c2729d0e0096f9cb53",
+  "selection_rule": "Smallest complete development-cohort campaign group; ties by earliest start year, then group key. Development uses the unchanged 1805-1813 reservation.",
+  "selected_group": "third-coalition 1806",
+  "battle_ids": [
+    "B370c",
+    "B370d",
+    "B371a",
+    "B379c"
+  ],
+  "engagement_denominator": 4,
+  "side_denominator": 8,
+  "development_engagements": 273,
+  "reserved_final_engagements": 52,
+  "bindings": {
+    "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+    "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+    "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+    "data/napoleonic/evidence/B370c.json": "f9348556da339253fcc63de9d959789a27c6fb7b56e2be9b560b4835f00db014",
+    "data/napoleonic/evidence/B370d.json": "641343559ad8c40ba705ccb9959f15eb28061f33be1d179f7f25f9ce31ae2c49",
+    "data/napoleonic/evidence/B371a.json": "8a0fe28d433e4943e875bf0555f173c0c4d5ddfbe6623cb3316c04d7ec5c7b7f",
+    "data/napoleonic/evidence/B379c.json": "848f3646d8f72f9750ca07a6cb3e43eb21302f96fa80e75bee79f4bcdd138825"
+  },
+  "authorization": {
+    "owner_message": "Sounds good, go ahead",
+    "accepted_recommendation": "A bounded design for strength and command ledgers using existing development-cohort dossiers, before feature admission or historical fitting.",
+    "new_source_fetching": false,
+    "historical_outcome_fit": false,
+    "synthetic_job": false,
+    "feature_admission": false,
+    "calibration_scoring": false,
+    "separate_review": false
+  },
+  "stopping_rule": "Cover all four entries and eight sides with source-specific observations and explicit unknown/dispute decisions; verify cited passages and tests. No further campaign, new source family, historical adjudication or fitted model.",
+  "historical_blinding": false,
+  "source_registry_at_selection": {
+    "path": "data/sources.json",
+    "sha256": "0da12d4e8d274702cb045486d100d484cf8c050077097430f33f1713dc117c07"
+  }
+}

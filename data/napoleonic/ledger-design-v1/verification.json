@@ -1,0 +1,129 @@
+{
+  "kind": "napoleonic_ledger_design_primary_verification",
+  "version": 1,
+  "verification": "primary-verified",
+  "independent_review": false,
+  "authorizes_feature_admission": false,
+  "historical_outcomes_fitted": false,
+  "bindings": {
+    "inputs": {
+      "data/napoleonic/ledger-design-v1/scope.json": "10a41b9dd7234d9259d16d8bc0a0ac9876b66e02940b532fa161b92bc27f8e96",
+      "data/napoleonic/ledger-design-v1/examples.json": "21b9059b4b6def3dfa032da0c514b9a34beaab13c47ee700907078270b6e840d",
+      "data/napoleonic/ledger-design-v1/source-snapshot.json": "c0db418a0af73966d9c7071fe20a4169c38b59afce4ae41f0de69730360a3efe",
+      "docs/napoleonic-ledgers-v1.md": "79641ce66734fd8084df0bdfb6533cec143404db58687d648af85b4c0eafb442",
+      "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+      "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+      "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+      "data/napoleonic/evidence/B370c.json": "f9348556da339253fcc63de9d959789a27c6fb7b56e2be9b560b4835f00db014",
+      "data/napoleonic/evidence/B370d.json": "641343559ad8c40ba705ccb9959f15eb28061f33be1d179f7f25f9ce31ae2c49",
+      "data/napoleonic/evidence/B371a.json": "8a0fe28d433e4943e875bf0555f173c0c4d5ddfbe6623cb3316c04d7ec5c7b7f",
+      "data/napoleonic/evidence/B379c.json": "848f3646d8f72f9750ca07a6cb3e43eb21302f96fa80e75bee79f4bcdd138825"
+    },
+    "code": {
+      "generalship/napoleonic_ledger_design.py": "229cb1a15f2cc3ace98ff33d0e094ec3df32244754cee61415738dc0249e7ad3",
+      "generalship/cli.py": "52557aa12e59e171226ab9c66cdd98a2ade8c663e5a5a1372c40c204144be0e8",
+      "generalship/sources.py": "7eeb1077f18938d68b2b7f8ff1c0455f9c565da430621a0572baf2ccc4719f41",
+      "generalship/evidence.py": "76068ac4579378c2373c9b8fb9b38886f61a39b8db19cd7fb25eef0fafafc091",
+      "tests/test_napoleonic_ledger_design.py": "19179a391278ee97f02473b8c54dab77e04ecb6a6f9b6b46d33b12fe4a464474",
+      "tests/test_workflow.py": "f75be382f3982ad34884aae5e8acafdc398308f7d13fe586a402f7767cb0b4d4"
+    }
+  },
+  "inspected_image_ids": [
+    "bodart-1908-p046-image-v1",
+    "bodart-1908-p047-image-v1",
+    "bodart-1908-p370-image-v1",
+    "bodart-1908-p371-image-v1",
+    "bodart-1908-p379-image-v1",
+    "bunbury-1854-p235-image-v1",
+    "bunbury-1854-p241-image-v1",
+    "bunbury-1854-p253-image-v1",
+    "colletta-1856-v2-p28-image-v1",
+    "colletta-1856-v2-p30-image-v1",
+    "colletta-1856-v2-p31-image-v1",
+    "colletta-1856-v2-p32-image-v1",
+    "damas-memoirs-1913-p391-image-v1",
+    "koch-massena-t5-p169-image-v1",
+    "koch-massena-t5-p173-image-v1",
+    "koch-massena-t5-p188-image-v1",
+    "koch-massena-t5-p189-image-v1",
+    "koch-massena-t5-p196-image-v1",
+    "koch-massena-t5-p202-image-v1",
+    "koch-massena-t5-p223-image-v1",
+    "koch-massena-t5-p229-image-v1",
+    "koch-massena-t5-p233-image-v1",
+    "koch-massena-t5-p280-image-v1",
+    "koch-massena-t5-p281-image-v1",
+    "koch-massena-t5-p282-image-v1",
+    "koch-massena-t5-p422-image-v1"
+  ],
+  "inspection": {
+    "mode": "primary",
+    "distinct_cited_passages": 46,
+    "all_adopted_passages_checked_on_pinned_images": true,
+    "new_source_fetches": 0,
+    "notes": [
+      "Re-inspected all 26 pinned page images supporting 46 distinct adopted passages.",
+      "Preserved source-specific bounds, printed qualifications and section-specific null/document dates.",
+      "Kept Gaeta Hotz/Storz and opening/terminal authority correspondence unresolved.",
+      "Qualified Colletta initial Amantea chronology: December alone does not prove a pre-18 December date; correspondence with Koch earlier attack is unresolved.",
+      "Kept detached Gaeta component bases unspecified where all-arms wording only explicitly attaches to the 8,500 before the place."
+    ]
+  },
+  "completed_checks": [
+    "All 46 distinct adopted passages re-inspected on 26 pinned images.",
+    "Bound scope/dossier/source metadata/raw/quote/section-date checks passed.",
+    "22 focused contract tests passed.",
+    "make reproduce passed and generated reports inspected.",
+    "make check passed: 274 tests and full offline check; artifacts_written false.",
+    "Final sealed bundle passed all 22 focused contract tests after a wording clarification."
+  ],
+  "limits": [
+    "Primary verification shares author blind spots and is not independent historical adjudication.",
+    "Worked excerpts are not an exhaustive atomic extraction or an admission-yield estimate.",
+    "No model rows, responsible people, army identities or historical effects are released."
+  ],
+  "validation": {
+    "python": "3.14.7",
+    "tests": 274,
+    "test_seconds": 232.274,
+    "execution_logs": [
+      {
+        "command": "make check",
+        "exit_code": 0,
+        "path": "data/napoleonic/ledger-design-v1/validation/check.log",
+        "sha256": "24ec69e8956b51bf5eee38b93e524c850a0ac3b453ae743b7848b07f39c96980"
+      },
+      {
+        "command": "make reproduce",
+        "exit_code": 0,
+        "path": "data/napoleonic/ledger-design-v1/validation/reproduce.log",
+        "sha256": "fda18d33578cac731568a40d7528578d282c95d7787c144f81a45b6506e9b31d"
+      },
+      {
+        "command": "python3 -m unittest discover -s tests -p test_napoleonic_ledger_design.py -v",
+        "exit_code": 0,
+        "path": "data/napoleonic/ledger-design-v1/validation/final-contract-check.log",
+        "sha256": "8074ed9d76db68a2851127842e232da9dfd7cdf4ca8fac7b08f0f771693df788"
+      }
+    ],
+    "report_inspection": {
+      "new_ledger_report": "All eight side mappings blocked; no selected strengths, people or armies; zero emitted rows.",
+      "frozen_baseline": "23/127 eligible, log loss 0.7495087606758415 versus equal odds 0.6931471805599453; unchanged and unimproved.",
+      "stored_methods_and_ratings": "Unchanged, including weak synthetic recovery and the no-improvement historical result."
+    }
+  },
+  "preservation": {
+    "base_commit": "69a0b15b8bf1377af7f2c6c2729d0e0096f9cb53",
+    "original_tracked_data_and_artifact_files_checked": 7631,
+    "original_data_files_changed": [],
+    "original_artifact_changes": [
+      "artifacts/receipt.json"
+    ],
+    "napoleonic_dossiers_unchanged": 325,
+    "calibration_tasks_prepared_unscored": 47,
+    "frozen_partition_unchanged": {
+      "development": 273,
+      "reserved_final": 52
+    }
+  }
+}

@@ -43,7 +43,9 @@ As of 2026-10-19:
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been
-  fitted. Next is a bounded strength/command ledger design ([roadmap](docs/roadmap.md)).
+  fitted. A bounded [ledger design](docs/napoleonic-ledgers-v1.md) now preserves source-specific
+  quantities and command roles for four development entries; all eight opening mappings remain
+  blocked. Next is their boundary/membership specification ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

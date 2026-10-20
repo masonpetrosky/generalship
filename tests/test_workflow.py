@@ -12,9 +12,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def copy_methods_design(root):
-    """The methods protocol binds its design even in a temporary offline data fixture."""
+    """Bound research designs also need to exist in temporary offline data fixtures."""
     (root / 'docs').mkdir(exist_ok=True)
     shutil.copyfile(ROOT / 'docs/napoleonic-methods-v1.md', root / 'docs/napoleonic-methods-v1.md')
+    shutil.copyfile(ROOT / 'docs/napoleonic-ledgers-v1.md', root / 'docs/napoleonic-ledgers-v1.md')
 
 
 class WorkflowTests(unittest.TestCase):
