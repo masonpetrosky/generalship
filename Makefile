@@ -10,6 +10,7 @@ check:
 	$(PYTHON) -m generalship.napoleonic_measurement
 	$(PYTHON) -m generalship.napoleonic_benchmark
 	$(PYTHON) -m generalship.napoleonic_benchmark_report
+	$(PYTHON) -m generalship.napoleonic_forward_diagnostic
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
@@ -18,6 +19,7 @@ reproduce:
 	$(PYTHON) -m generalship.napoleonic_measurement --write
 	$(PYTHON) -m generalship.napoleonic_benchmark --write
 	$(PYTHON) -m generalship.napoleonic_benchmark_report --write
+	$(PYTHON) -m generalship.napoleonic_forward_diagnostic --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:

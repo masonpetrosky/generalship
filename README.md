@@ -51,6 +51,8 @@ As of 2026-10-20:
   prediction on 194 eligible pairs from 273 development entries. Force size improves grouped
   prediction, but the 1813 forward check is weak and sensitivity-dependent. Bodart's selection
   and strength-dependent winner coding limit interpretation; all 52 final entries remain reserved.
+  The [1813 diagnostic](docs/research/napoleonic-forward-diagnostic-v1.md) finds average
+  overprediction despite retained ordering in the saved forecasts; no model is refitted.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The

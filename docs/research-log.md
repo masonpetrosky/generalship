@@ -4554,3 +4554,115 @@ prepared extraction-review calibration sample remains unscored, distinct from
 the statistical calibration reported here. No subagent, separate reviewer or
 second-opinion prompt ran. The task ends at the completed, primary-verified
 development diagnostic and its honest limitations.
+
+## Napoleonic 1813 forward diagnostic v1, 2026-10-20
+
+The owner accepted the bounded next recommendation, replying **“Sounds good, go
+ahead.”** The new [scope](../data/napoleonic/forward-diagnostic-v1/scope.json)
+binds the completed benchmark run and inputs. This is exploratory diagnosis of
+saved predictions, not another model run or pre-registered confirmation. The
+[memo](research/napoleonic-forward-diagnostic-v1.md) and
+[machine-readable diagnostic](../artifacts/napoleonic-forward-diagnostic-v1.json)
+retain all **64 development entries in 1813**, the **37 saved primary forecasts**
+and **27 excluded entries**, including their reasons and recorded outcomes.
+No historical refit, recalibration or new forecast is produced. All **52 final
+entries remain reserved and unused numerically**.
+
+Coverage falls from **157/209 (75.12%)** before 1813 to **37/64 (57.81%)** in
+1813. The complete development frames' recorded French/allied win shares are
+144/209 before 1813 and 18/64 in 1813; the eligible shares are 107/157 and 13/37.
+Thus the shift persists outside the eligible sample; eligibility raises the
+1813 share. The 1813 frame has 128 side records: 89 eligible side totals, 27
+missing extracts and 12 ambiguous extracts. Fifteen otherwise eligible sides
+lack an eligible opponent. Excluded entries are not silently discarded or
+assigned zero forces. Liberation contributes 29/52 eligible entries and
+Peninsula 8/12, leaving 23 and four excluded respectively.
+
+**Ordering and average calibration differ.** The saved force probabilities
+average **0.623880**, against recorded A-win share **0.351351**, an average
+overprediction of **27.25 percentage points**. Pair-count AUC is **247/312 =
+0.791667**, with no tied test pairs. Liberation's AUC is 0.826316 on 29 cases,
+Peninsula's 0.600000 on eight. Pooled pairs share entries and include
+cross-campaign comparisons; no confidence or uniform-transfer claim follows.
+The training force-balance association is descriptive, not a new validation.
+French/allied forces are smaller in 26/37 test entries, versus 77/157 earlier;
+their recorded win share within that broad stratum falls from 38/77 to 4/26.
+The strata do not hold exact force balance or historical context fixed and
+identify no historical mechanism.
+
+The exact Brier variance/covariance identity reconciles the saved **0.251056881**
+with equal odds **0.250000000**. Relative squared mean bias contributes
+**+0.052175701** and prediction variance minus twice covariance contributes
+**−0.051118820**, totaling **+0.001056881**. This is arithmetic accounting,
+not a causal decomposition, a fitted calibration curve or proof that changing
+the intercept would generalize. The original five calibration bins remain
+unchanged, including the empty bin as unknown and the seven-case highest bin.
+Original log loss remains 0.691121738 versus equal odds 0.693147181.
+
+The paired sensitivity comparison uses the two **already-saved** forward
+models. Primary log loss is 0.713348147 on the common 30 entries and 0.595865700
+on the removed seven, reconciling to 0.691121738 over all 37. The saved
+unqualified-total model scores 0.716775370 on the common 30. Its worsening of
+0.025653632 relative to the primary-all result splits into **+0.022226409 from
+case removal** and **+0.003427223 between saved models on the same rows**.
+Brier gives the same accounting. Different training populations remain a
+limitation; these are not causal effects of source annotations or a preferred
+variant selection.
+
+The five largest primary forward log losses already cover both 1813 campaigns:
+**B447b Möckern, B457a Vera, B459d Wartenburg, B455b Hagelberg and B448a
+Castalla**. The primary re-read their complete existing transcription entries
+and visually compared all five pinned pages (447, 457, 459, 455 and 448),
+including applicable notes and neighboring-entry boundaries. Their literal
+totals, side mapping and recorded outcomes match. No mechanical correction
+was found in this purposive five-case sample; this neither verifies the other
+32 test entries nor adjudicates historical truth. The new
+[inspection record](../data/napoleonic/forward-diagnostic-v1/evidence-checks.json)
+retains exact passages, English renderings, source IDs/locators, raw and
+metadata SHA-256s, image hashes and note-applicability findings. Text source
+`bodart-1908-transcription-v1` retains raw SHA-256
+`bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986`.
+No source was fetched, registered or revised; no source-additions entry or
+prepared-packet update is needed.
+
+Primary arithmetic checks also used a separate rank-sum AUC calculation and
+exact rational arithmetic for both Brier identities. They agree with the new
+pair-count and floating-point implementations. Eight focused tests cover ties
+and undefined single-class AUC, Brier accounting, paired-score decomposition,
+campaign-aware error selection, frozen-input tampering, altered passage
+figures/quotations/image hashes, full saved membership and final separation.
+The optimizer is mocked and verified uncalled in the saved-diagnostic test.
+Derived floating-point comparisons allow absolute rounding error up to `2e-12`
+across Python/platforms; structure, types, counts and SHA-256 bindings remain
+exact. A constructed comparison test rejects larger numeric changes and
+changed bindings or count types.
+
+The preservation audit covers **8,039 prior tracked files**. Only Makefile,
+README, roadmap, this log and the receipt change among them. All **1,165 prior
+receipt input hashes**, **5,667 source bindings** and **20 output hashes** are
+unchanged, including the original dataset, run, proposal, authorization and
+verification records. The receipt now has **1,168 inputs**, adding only the
+new scope, actual inspection record and diagnostic module. The diagnostic
+binds all 14 of its inputs, including both verifier modules; its scope records
+the post-implementation freeze explicitly. All 37 saved forecasts are also
+compared directly with the original result and remain exactly identical.
+Generated memo links resolve and its coverage, scores, arithmetic tables and
+passages were inspected by the primary.
+
+All **392 tests passed** (249.950 seconds), including all eight new focused
+tests. Full `make check` and `make reproduce` exited successfully after the
+final scope/code freeze. The saved diagnostic path verifies the original
+80-fold/1,629-prediction run without fitting and regenerates only its own
+arithmetic JSON and memo. All prior versioned records and generated reports
+retain their bytes.
+
+**Recommendation:** design one development-only rolling-forward calibration
+comparison with training-only correction, fixed folds/support, comparators,
+coverage and a decision rule before any further fit. The already-inspected
+1813 result is exploratory. This task authorizes neither that future run nor
+use of the final reservation. Compiler selection, strength-dependent winner
+coding, one source family, uncertain populations and missing pairs remain
+limits. No feature is admitted, no commander rating or causal effect is
+estimated, wider strict-opening work remains paused and the appointment branch
+stays closed. Extraction-review calibration remains prepared and unscored;
+no subagent, separate review or second-opinion prompt ran.

@@ -1,0 +1,2467 @@
+{
+  "kind": "napoleonic_1813_saved_forecast_diagnostic",
+  "version": 1,
+  "status": "exploratory_primary_verified",
+  "separate_review": false,
+  "absolute_arithmetic_tolerance": 2e-12,
+  "historical_refits_performed": 0,
+  "new_forecasts_generated": 0,
+  "reserved_final_entries_used": 0,
+  "reserved_final_entries": 52,
+  "input_sha256": {
+    "artifacts/napoleonic-benchmark-run-v1.json": "35ed5cc7066cf40287e26afc03b16409a9012e81157b472abf212727faa5d505",
+    "artifacts/napoleonic-benchmark-v1.json": "f30ab8de1874d17b5dacefd563551e4b5fd7e6758e44973439351db746ea8bfd",
+    "data/napoleonic/benchmark-v1/run-proposal.json": "f33cbea825c477e6a831960cd43ff4da8d91391e1b8642b701c5f4faf970981d",
+    "data/napoleonic/benchmark-v1/scope.json": "7d61a5644d8dccc92883cf3b4669032bb37e86a341651df13ba10a6acebf88d7",
+    "data/napoleonic/benchmark-v1/protocol.json": "aed335e5d2dcebf38fe281cbb129c73d7a3e0b9616ac7163aac4796246770ca8",
+    "data/napoleonic/benchmark-v1/context.json": "7b7348aa5dfb123d24e7974c09e9b481fa94940c5c84632559d13c0e3dbf7fc4",
+    "data/napoleonic/benchmark-v1/source-snapshot.json": "2ed17ee7d98c7d1de2f089dddcfffd1248f47ba6f798410741c2ea46b237b6da",
+    "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+    "data/raw/bodart-1908-v1/transcription.txt": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+    "data/sources.json": "0da12d4e8d274702cb045486d100d484cf8c050077097430f33f1713dc117c07",
+    "generalship/napoleonic_forward_diagnostic.py": "158d64795797fb9ee8078e6b865810fbcf4f3103beeaf196546c12bf10507408",
+    "generalship/napoleonic_benchmark_report.py": "e017c54acd3a859040b272bcfef7531b461bf559955e3384b572f6cabdb2332a",
+    "data/napoleonic/forward-diagnostic-v1/scope.json": "233a680e50595bf931d537379987de446ffed2dc8a52246caf30b2611b6487b2",
+    "data/napoleonic/forward-diagnostic-v1/evidence-checks.json": "5bbde148ae34b90223c66c3f000ebc44d0c02fa93c57cdd20a4cccfefb75ad47"
+  },
+  "saved_run_checks": {
+    "folds_checked": 80,
+    "optimizer_stationarity_checks": 80,
+    "predictions_checked": 1629,
+    "summary_metric_values_checked": 144,
+    "calibration_bins_checked": 360,
+    "per_group_metric_values_checked": 480,
+    "bootstrap_interval_endpoints_checked": 32
+  },
+  "coverage": {
+    "through_1812": {
+      "all": {
+        "n": 209,
+        "recorded_a_wins": 144,
+        "recorded_a_win_share": 0.6889952153110048
+      },
+      "eligible": {
+        "n": 157,
+        "recorded_a_wins": 107,
+        "recorded_a_win_share": 0.6815286624203821
+      },
+      "excluded": {
+        "n": 52,
+        "recorded_a_wins": 37,
+        "recorded_a_win_share": 0.7115384615384616
+      },
+      "paired_coverage": 0.7511961722488039,
+      "side_dispositions": {
+        "ambiguous": 20,
+        "eligible": 343,
+        "missing_extract": 55
+      }
+    },
+    "1813": {
+      "all": {
+        "n": 64,
+        "recorded_a_wins": 18,
+        "recorded_a_win_share": 0.28125
+      },
+      "eligible": {
+        "n": 37,
+        "recorded_a_wins": 13,
+        "recorded_a_win_share": 0.35135135135135137
+      },
+      "excluded": {
+        "n": 27,
+        "recorded_a_wins": 5,
+        "recorded_a_win_share": 0.18518518518518517
+      },
+      "paired_coverage": 0.578125,
+      "side_dispositions": {
+        "ambiguous": 12,
+        "eligible": 89,
+        "missing_extract": 27
+      }
+    }
+  },
+  "force_balance": {
+    "through_1812_training": {
+      "n": 157,
+      "mean": 0.021547693999940973,
+      "median": 0.007936507936507936,
+      "minimum": -0.8539325842696629,
+      "maximum": 0.8543046357615894,
+      "strata": {
+        "smaller": {
+          "n": 77,
+          "recorded_a_wins": 38,
+          "recorded_a_win_share": 0.4935064935064935
+        },
+        "equal": {
+          "n": 1,
+          "recorded_a_wins": 0,
+          "recorded_a_win_share": 0.0
+        },
+        "larger": {
+          "n": 79,
+          "recorded_a_wins": 69,
+          "recorded_a_win_share": 0.8734177215189873
+        }
+      },
+      "force_auc": {
+        "positive": 107,
+        "negative": 50,
+        "pairs": 5350,
+        "concordant": 4161,
+        "tied": 21,
+        "auc": 0.7797196261682243
+      }
+    },
+    "1813_test": {
+      "n": 37,
+      "mean": -0.09204905816531589,
+      "median": -0.09090909090909091,
+      "minimum": -0.6888888888888889,
+      "maximum": 0.42857142857142855,
+      "strata": {
+        "smaller": {
+          "n": 26,
+          "recorded_a_wins": 4,
+          "recorded_a_win_share": 0.15384615384615385
+        },
+        "equal": {
+          "n": 1,
+          "recorded_a_wins": 1,
+          "recorded_a_win_share": 1.0
+        },
+        "larger": {
+          "n": 10,
+          "recorded_a_wins": 8,
+          "recorded_a_win_share": 0.8
+        }
+      },
+      "force_auc": {
+        "positive": 13,
+        "negative": 24,
+        "pairs": 312,
+        "concordant": 247,
+        "tied": 0,
+        "auc": 0.7916666666666666
+      }
+    }
+  },
+  "discrimination": {
+    "positive": 13,
+    "negative": 24,
+    "pairs": 312,
+    "concordant": 247,
+    "tied": 0,
+    "auc": 0.7916666666666666
+  },
+  "brier_accounting": {
+    "n": 37,
+    "mean_probability": 0.6238804730638356,
+    "recorded_a_win_share": 0.35135135135135137,
+    "mean_bias": 0.2725291217124843,
+    "mean_bias_squared": 0.07427212218137808,
+    "prediction_variance": 0.022424180227145454,
+    "outcome_variance": 0.22790357925493063,
+    "covariance": 0.03677150033589045,
+    "equal_odds_bias_squared": 0.022096420745069387,
+    "bias_cost_difference": 0.05217570143630869,
+    "spread_covariance_difference": -0.05111882044463545,
+    "brier": 0.2510568809916732,
+    "force_minus_equal_brier": 0.0010568809916732258
+  },
+  "saved_calibration_bins": [
+    {
+      "lower": 0.0,
+      "upper": 0.2,
+      "n": 0,
+      "mean_probability": null,
+      "recorded_a_win_share": null
+    },
+    {
+      "lower": 0.2,
+      "upper": 0.4,
+      "n": 3,
+      "mean_probability": 0.3500401462986914,
+      "recorded_a_win_share": 0.0
+    },
+    {
+      "lower": 0.4,
+      "upper": 0.6,
+      "n": 12,
+      "mean_probability": 0.5095911868830152,
+      "recorded_a_win_share": 0.25
+    },
+    {
+      "lower": 0.6,
+      "upper": 0.8,
+      "n": 15,
+      "mean_probability": 0.6705208631995473,
+      "recorded_a_win_share": 0.26666666666666666
+    },
+    {
+      "lower": 0.8,
+      "upper": 1.0,
+      "n": 7,
+      "mean_probability": 0.8372214105537789,
+      "recorded_a_win_share": 0.8571428571428571
+    }
+  ],
+  "forward_scores": {
+    "force": {
+      "brier": 0.2510568809916732,
+      "log_loss": 0.6911217379489858
+    },
+    "equal_odds": {
+      "brier": 0.25,
+      "log_loss": 0.6931471805599454
+    },
+    "training_prior": {
+      "brier": 0.3354180096793126,
+      "log_loss": 0.873457684977024
+    }
+  },
+  "campaigns": {
+    "liberation 1813": {
+      "coverage": {
+        "all": {
+          "n": 52,
+          "recorded_a_wins": 15,
+          "recorded_a_win_share": 0.28846153846153844
+        },
+        "eligible": {
+          "n": 29,
+          "recorded_a_wins": 10,
+          "recorded_a_win_share": 0.3448275862068966
+        },
+        "excluded": {
+          "n": 23,
+          "recorded_a_wins": 5,
+          "recorded_a_win_share": 0.21739130434782608
+        },
+        "paired_coverage": 0.5576923076923077,
+        "side_dispositions": {
+          "ambiguous": 11,
+          "eligible": 73,
+          "missing_extract": 20
+        }
+      },
+      "mean_probability": 0.6282859065411686,
+      "auc": {
+        "positive": 10,
+        "negative": 19,
+        "pairs": 190,
+        "concordant": 157,
+        "tied": 0,
+        "auc": 0.8263157894736842
+      },
+      "scores": {
+        "log_loss": 0.6827444705789983,
+        "brier": 0.24701690952214742
+      }
+    },
+    "peninsula 1813": {
+      "coverage": {
+        "all": {
+          "n": 12,
+          "recorded_a_wins": 3,
+          "recorded_a_win_share": 0.25
+        },
+        "eligible": {
+          "n": 8,
+          "recorded_a_wins": 3,
+          "recorded_a_win_share": 0.375
+        },
+        "excluded": {
+          "n": 4,
+          "recorded_a_wins": 0,
+          "recorded_a_win_share": 0.0
+        },
+        "paired_coverage": 0.6666666666666666,
+        "side_dispositions": {
+          "ambiguous": 1,
+          "eligible": 16,
+          "missing_extract": 7
+        }
+      },
+      "mean_probability": 0.6079107767085037,
+      "auc": {
+        "positive": 3,
+        "negative": 5,
+        "pairs": 15,
+        "concordant": 9,
+        "tied": 0,
+        "auc": 0.6
+      },
+      "scores": {
+        "log_loss": 0.7214893321651903,
+        "brier": 0.26570177756870433
+      }
+    }
+  },
+  "paired_sensitivity": {
+    "common_ids": [
+      "B446c",
+      "B447a",
+      "B447b",
+      "B447c",
+      "B448a",
+      "B448b",
+      "B449b",
+      "B450a",
+      "B451b",
+      "B451c",
+      "B452b",
+      "B454a",
+      "B454b",
+      "B455a",
+      "B455b",
+      "B456a",
+      "B456b",
+      "B457a",
+      "B458b",
+      "B458c",
+      "B459d",
+      "B460a",
+      "B460b",
+      "B464a",
+      "B465b",
+      "B467a",
+      "B468a",
+      "B468c",
+      "B483a",
+      "B483c"
+    ],
+    "removed_ids": [
+      "B449a",
+      "B450b",
+      "B452a",
+      "B457b",
+      "B460c",
+      "B461a",
+      "B463a"
+    ],
+    "primary_all": {
+      "n": 37,
+      "log_loss": 0.6911217379489858,
+      "brier": 0.2510568809916732
+    },
+    "primary_common": {
+      "n": 30,
+      "log_loss": 0.7133481467890488,
+      "brier": 0.26045133356015054
+    },
+    "primary_removed": {
+      "n": 7,
+      "log_loss": 0.5958657000630015,
+      "brier": 0.21079494141248487
+    },
+    "unqualified_saved_common": {
+      "n": 30,
+      "log_loss": 0.7167753696640603,
+      "brier": 0.2622760030536296
+    },
+    "differences": {
+      "log_loss": {
+        "case_removal_difference": 0.022226408840062994,
+        "same_row_saved_model_difference": 0.0034272228750115152,
+        "total_difference": 0.02565363171507451
+      },
+      "brier": {
+        "case_removal_difference": 0.009394452568477318,
+        "same_row_saved_model_difference": 0.0018246694934790364,
+        "total_difference": 0.011219122061956355
+      }
+    }
+  },
+  "all_37_saved_predictions_by_loss": [
+    {
+      "battle_id": "B447b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.8439790670444647,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Möckern",
+      "log_loss_rank": 1,
+      "force_balance": 0.35135135135135137,
+      "personnel_totals": {
+        "A": 50000,
+        "B": 24000
+      },
+      "scores": {
+        "log_loss": 1.8577650951222782,
+        "brier": 0.712300665609245
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B457a",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.7341650595564073,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Vera",
+      "log_loss_rank": 2,
+      "force_balance": 0.08571428571428572,
+      "personnel_totals": {
+        "A": 38000,
+        "B": 32000
+      },
+      "scores": {
+        "log_loss": 1.3248796874536868,
+        "brier": 0.5389983346734631
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B459d",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6720103465117642,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Wartenburg",
+      "log_loss_rank": 3,
+      "force_balance": -0.03225806451612903,
+      "personnel_totals": {
+        "A": 15000,
+        "B": 16000
+      },
+      "scores": {
+        "log_loss": 1.1147732153387069,
+        "brier": 0.45159790581886133
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B455b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.665721156174038,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Hagelberg",
+      "log_loss_rank": 4,
+      "force_balance": -0.043478260869565216,
+      "personnel_totals": {
+        "A": 11000,
+        "B": 12000
+      },
+      "scores": {
+        "log_loss": 1.0957797725542908,
+        "brier": 0.44318465777769794
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B448a",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6549240690572493,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Castalla",
+      "log_loss_rank": 5,
+      "force_balance": -0.0625,
+      "personnel_totals": {
+        "A": 15000,
+        "B": 17000
+      },
+      "scores": {
+        "log_loss": 1.0639907964778275,
+        "brier": 0.42892553623050467
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B457b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6525370194672871,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Dennewitz",
+      "log_loss_rank": 6,
+      "force_balance": -0.06666666666666667,
+      "personnel_totals": {
+        "A": 70000,
+        "B": 80000
+      },
+      "scores": {
+        "log_loss": 1.0570971504932174,
+        "brier": 0.42580456177525067
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B451c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6411906088290876,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Luckau",
+      "log_loss_rank": 7,
+      "force_balance": -0.08629441624365482,
+      "personnel_totals": {
+        "A": 18000,
+        "B": 21400
+      },
+      "scores": {
+        "log_loss": 1.0249639753080504,
+        "brier": 0.41112539685061605
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B447a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6384992919614805,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Lüneburg",
+      "log_loss_rank": 8,
+      "force_balance": -0.09090909090909091,
+      "personnel_totals": {
+        "A": 2500,
+        "B": 3000
+      },
+      "scores": {
+        "log_loss": 1.017491278772457,
+        "brier": 0.4076813458353119
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B460b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6384992919614805,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Liebertwolkwitz",
+      "log_loss_rank": 9,
+      "force_balance": -0.09090909090909091,
+      "personnel_totals": {
+        "A": 50000,
+        "B": 60000
+      },
+      "scores": {
+        "log_loss": 1.017491278772457,
+        "brier": 0.4076813458353119
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B446c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6266165583093266,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Kalisch",
+      "log_loss_rank": 10,
+      "force_balance": -0.1111111111111111,
+      "personnel_totals": {
+        "A": 12000,
+        "B": 15000
+      },
+      "scores": {
+        "log_loss": 0.985149393553342,
+        "brier": 0.3926483111474257
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B460a",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6122852719093093,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "der Bidassoa und Rhune",
+      "log_loss_rank": 11,
+      "force_balance": -0.13513513513513514,
+      "personnel_totals": {
+        "A": 32000,
+        "B": 42000
+      },
+      "scores": {
+        "log_loss": 0.9474854466577175,
+        "brier": 0.37489325419705677
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B454b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.6076358649309438,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "der Katzbach",
+      "log_loss_rank": 12,
+      "force_balance": -0.14285714285714285,
+      "personnel_totals": {
+        "A": 60000,
+        "B": 80000
+      },
+      "scores": {
+        "log_loss": 0.9355649543746483,
+        "brier": 0.3692213443503762
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B460c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5818228505974454,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Bremen",
+      "log_loss_rank": 13,
+      "force_balance": -0.18518518518518517,
+      "personnel_totals": {
+        "A": 1100,
+        "B": 1600
+      },
+      "scores": {
+        "log_loss": 0.8718501338377965,
+        "brier": 0.33851782947733733
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": true,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B452a",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5726734704106077,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Vitoria",
+      "log_loss_rank": 14,
+      "force_balance": -0.2,
+      "personnel_totals": {
+        "A": 60000,
+        "B": 90000
+      },
+      "scores": {
+        "log_loss": 0.8502068516940561,
+        "brier": 0.32795490371212915
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": [
+            "1"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B468c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5651501572702269,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Torgau",
+      "log_loss_rank": 15,
+      "force_balance": -0.21212121212121213,
+      "personnel_totals": {
+        "A": 13000,
+        "B": 20000
+      },
+      "scores": {
+        "log_loss": 0.8327544966118919,
+        "brier": 0.31939470026256217
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B468a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5618695556182164,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Zamosc",
+      "log_loss_rank": 16,
+      "force_balance": -0.21739130434782608,
+      "personnel_totals": {
+        "A": 4500,
+        "B": 7000
+      },
+      "scores": {
+        "log_loss": 0.8252385947214846,
+        "brier": 0.31569739753061193
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B454a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5225601170534036,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Groß-Beeren",
+      "log_loss_rank": 17,
+      "force_balance": -0.28,
+      "personnel_totals": {
+        "A": 18000,
+        "B": 32000
+      },
+      "scores": {
+        "log_loss": 0.7393170265756502,
+        "brier": 0.27306907593486685
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B455a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.48883305494166557,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Dresden",
+      "log_loss_rank": 18,
+      "force_balance": -0.3333333333333333,
+      "personnel_totals": {
+        "A": 100000,
+        "B": 200000
+      },
+      "scores": {
+        "log_loss": 0.7157342487351216,
+        "brier": 0.26129164572027036
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B461a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.5099200505558279,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Leipzig",
+      "log_loss_rank": 19,
+      "force_balance": -0.3,
+      "personnel_totals": {
+        "A": 175000,
+        "B": 325000
+      },
+      "scores": {
+        "log_loss": 0.7131867390559941,
+        "brier": 0.2600184579588581
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [
+            "4"
+          ],
+          "context_footnote_markers": [
+            "1",
+            "4"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1",
+            "4"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B483a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.5247091892358429,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Mainz",
+      "log_loss_rank": 20,
+      "force_balance": -0.2765957446808511,
+      "personnel_totals": {
+        "A": 17000,
+        "B": 30000
+      },
+      "scores": {
+        "log_loss": 0.6449110951288519,
+        "brier": 0.22590135479684983
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B452b",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.5271502019234782,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "La Salud",
+      "log_loss_rank": 21,
+      "force_balance": -0.2727272727272727,
+      "personnel_totals": {
+        "A": 4000,
+        "B": 7000
+      },
+      "scores": {
+        "log_loss": 0.6402697579117735,
+        "brier": 0.22358693154100748
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B449b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.4446585383457324,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Königswartha",
+      "log_loss_rank": 22,
+      "force_balance": -0.40350877192982454,
+      "personnel_totals": {
+        "A": 8500,
+        "B": 20000
+      },
+      "scores": {
+        "log_loss": 0.5881721081981616,
+        "brier": 0.19772121572376317
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B458c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.413033002474771,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "der Göhrde",
+      "log_loss_rank": 23,
+      "force_balance": -0.45454545454545453,
+      "personnel_totals": {
+        "A": 4500,
+        "B": 12000
+      },
+      "scores": {
+        "log_loss": 0.5327866830084578,
+        "brier": 0.17059626113332418
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B456b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.40271405416896416,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Kulm",
+      "log_loss_rank": 24,
+      "force_balance": -0.4714285714285714,
+      "personnel_totals": {
+        "A": 37000,
+        "B": 103000
+      },
+      "scores": {
+        "log_loss": 0.5153593090183797,
+        "brier": 0.1621786094252034
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B448b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.39054291155018217,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Thorn",
+      "log_loss_rank": 25,
+      "force_balance": -0.4915254237288136,
+      "personnel_totals": {
+        "A": 4500,
+        "B": 13200
+      },
+      "scores": {
+        "log_loss": 0.4951867370515187,
+        "brier": 0.15252376576209342
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B451b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.3795896644425106,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Haynau",
+      "log_loss_rank": 26,
+      "force_balance": -0.5098039215686274,
+      "personnel_totals": {
+        "A": 5000,
+        "B": 15400
+      },
+      "scores": {
+        "log_loss": 0.4773741883125744,
+        "brier": 0.1440883133515778
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B458b",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.644220402429896,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Ordal",
+      "log_loss_rank": 27,
+      "force_balance": -0.08108108108108109,
+      "personnel_totals": {
+        "A": 17000,
+        "B": 20000
+      },
+      "scores": {
+        "log_loss": 0.43971437163048943,
+        "brier": 0.12657912204714517
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B483c",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.68974576142808,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Wesel",
+      "log_loss_rank": 28,
+      "force_balance": 0.0,
+      "personnel_totals": {
+        "A": 8000,
+        "B": 8000
+      },
+      "scores": {
+        "log_loss": 0.37143221098795765,
+        "brier": 0.09625769255184187
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B464a",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 0,
+      "force": 0.27998786290338135,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Pampeluna",
+      "log_loss_rank": 29,
+      "force_balance": -0.6888888888888889,
+      "personnel_totals": {
+        "A": 3500,
+        "B": 19000
+      },
+      "scores": {
+        "log_loss": 0.3284872100354781,
+        "brier": 0.07839320337320267
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B463a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.7866911635612152,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Hanau",
+      "log_loss_rank": 30,
+      "force_balance": 0.2,
+      "personnel_totals": {
+        "A": 60000,
+        "B": 40000
+      },
+      "scores": {
+        "log_loss": 0.2399195299952457,
+        "brier": 0.04550065970286826
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": [
+            "1"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B449a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.7930710819056446,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Groß-Görschen",
+      "log_loss_rank": 31,
+      "force_balance": 0.21518987341772153,
+      "personnel_totals": {
+        "A": 144000,
+        "B": 93000
+      },
+      "scores": {
+        "log_loss": 0.2318424246612095,
+        "brier": 0.04281957714370046
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": [
+            "1"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "1"
+          ],
+          "context_footnote_markers": [
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B450b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8130545530983698,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Bautzen und Wurschen",
+      "log_loss_rank": 32,
+      "force_balance": 0.26515151515151514,
+      "personnel_totals": {
+        "A": 167000,
+        "B": 97000
+      },
+      "scores": {
+        "log_loss": 0.20695707070349195,
+        "brier": 0.03494860011725023
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": [
+            "3"
+          ]
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [
+            "3"
+          ],
+          "context_footnote_markers": [
+            "3"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B450a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8218562659541003,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Weissig",
+      "log_loss_rank": 33,
+      "force_balance": 0.28846153846153844,
+      "personnel_totals": {
+        "A": 13400,
+        "B": 7400
+      },
+      "scores": {
+        "log_loss": 0.19618975815218098,
+        "brier": 0.03173518997981623
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B447c",
+      "campaign_group": "peninsula 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8378798754777008,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Yecla",
+      "log_loss_rank": 34,
+      "force_balance": 0.3333333333333333,
+      "personnel_totals": {
+        "A": 8000,
+        "B": 4000
+      },
+      "scores": {
+        "log_loss": 0.17688053546049326,
+        "brier": 0.02628293477512579
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B456a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8378798754777008,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Pirna",
+      "log_loss_rank": 35,
+      "force_balance": 0.3333333333333333,
+      "personnel_totals": {
+        "A": 40000,
+        "B": 20000
+      },
+      "scores": {
+        "log_loss": 0.17688053546049326,
+        "brier": 0.02628293477512579
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B465b",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8378798754777008,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Caldiero",
+      "log_loss_rank": 36,
+      "force_balance": 0.3333333333333333,
+      "personnel_totals": {
+        "A": 24000,
+        "B": 12000
+      },
+      "scores": {
+        "log_loss": 0.17688053546049326,
+        "brier": 0.02628293477512579
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    },
+    {
+      "battle_id": "B467a",
+      "campaign_group": "liberation 1813",
+      "held_out_group": "1813",
+      "y": 1,
+      "force": 0.8680203613464148,
+      "equal_odds": 0.5,
+      "training_prior": 0.6792452830188679,
+      "place": "Sehestedt",
+      "log_loss_rank": 37,
+      "force_balance": 0.42857142857142855,
+      "personnel_totals": {
+        "A": 10000,
+        "B": 4000
+      },
+      "scores": {
+        "log_loss": 0.14154010682454884,
+        "brier": 0.01741862501913092
+      },
+      "qualifiers": {
+        "A": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        },
+        "B": {
+          "approximate": false,
+          "footnote_markers": [],
+          "context_footnote_markers": []
+        }
+      }
+    }
+  ],
+  "all_27_exclusions": [
+    {
+      "battle_id": "B446b",
+      "place": "Pillau",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": 4000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B448c",
+      "place": "Spandau",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B448d",
+      "place": "Halle",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total"
+          ]
+        },
+        "B": {
+          "primary_value": 4800,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B451a",
+      "place": "Reichenbach",
+      "campaign_group": "liberation 1813",
+      "y": 1,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B453a",
+      "place": "den Pyrenäen",
+      "campaign_group": "peninsula 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B453b",
+      "place": "Bober und an der Katzbach",
+      "campaign_group": "liberation 1813",
+      "y": 1,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B458a",
+      "place": "San-Sebastian",
+      "campaign_group": "peninsula 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B459a",
+      "place": "Peterswalde",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B459b",
+      "place": "Altenburg",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": 8000,
+          "disposition": "eligible",
+          "reasons": []
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B459c",
+      "place": "Kassel",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "B:no_unambiguous_whole_side_personnel_total"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": 2700,
+          "disposition": "eligible",
+          "reasons": []
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B462a",
+      "place": "Lützen",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B462b",
+      "place": "Freiburg",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B462c",
+      "place": "Eisenach",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B464b",
+      "place": "der Nivelle",
+      "campaign_group": "peninsula 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B465a",
+      "place": "Dresden",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B466a",
+      "place": "Stettin",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 11500,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B466b",
+      "place": "Danzig",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 4000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B466c",
+      "place": "Arnhem",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": 10000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B467b",
+      "place": "Bayonne",
+      "campaign_group": "peninsula 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract",
+        "B:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B468b",
+      "place": "Modlin",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 10000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B469b",
+      "place": "Wittenberg",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 20000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B476a",
+      "place": "Küstrin",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 6000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B481a",
+      "place": "Groß-Glogau",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:missing_frame_extract"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "missing_extract",
+          "reasons": [
+            "missing_frame_extract"
+          ]
+        },
+        "B": {
+          "primary_value": 30000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B481c",
+      "place": "Belfort",
+      "campaign_group": "liberation 1813",
+      "y": 0,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 2800,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B482b",
+      "place": "Hüningen",
+      "campaign_group": "liberation 1813",
+      "y": 1,
+      "exclusions": [
+        "B:no_unambiguous_whole_side_personnel_total"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": 4000,
+          "disposition": "eligible",
+          "reasons": []
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total"
+          ]
+        }
+      }
+    },
+    {
+      "battle_id": "B483d",
+      "place": "Hamburg",
+      "campaign_group": "liberation 1813",
+      "y": 1,
+      "exclusions": [
+        "A:no_unambiguous_whole_side_personnel_total",
+        "A:explicit_phase_or_multiple_states"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total",
+            "explicit_phase_or_multiple_states"
+          ]
+        },
+        "B": {
+          "primary_value": 56000,
+          "disposition": "eligible",
+          "reasons": []
+        }
+      }
+    },
+    {
+      "battle_id": "B484a",
+      "place": "Magdeburg",
+      "campaign_group": "liberation 1813",
+      "y": 1,
+      "exclusions": [
+        "B:no_unambiguous_whole_side_personnel_total"
+      ],
+      "sides": {
+        "A": {
+          "primary_value": 20000,
+          "disposition": "eligible",
+          "reasons": []
+        },
+        "B": {
+          "primary_value": null,
+          "disposition": "ambiguous",
+          "reasons": [
+            "no_unambiguous_whole_side_personnel_total"
+          ]
+        }
+      }
+    }
+  ],
+  "passage_checks": [
+    {
+      "battle_id": "B447b",
+      "place": "Möckern",
+      "campaign_group": "liberation 1813",
+      "method": "Primary read of the complete existing transcription entry and visual comparison with the pinned page image, including applicable notes and neighboring-entry boundaries.",
+      "outcome_side_a": 0,
+      "personnel_totals": {
+        "A": 50000,
+        "B": 24000
+      },
+      "source_columns": {
+        "A": "right",
+        "B": "left"
+      },
+      "citation": {
+        "source_id": "bodart-1908-transcription-v1",
+        "section": "p447",
+        "locator": "Bodart (1908), p447, entry B447b; complete outcome/strength sentence",
+        "quote": "Sieg der Russen und Preußen (43 Btln., 36 Esk., 4 Kosaken-Regimenter, 130 Gesch. = 19.000 Inft., 5.000 Kav. zus. 24.000 M.) unter Gen. d. Kav. Gf. Wittgenstein über die Franzosen (71 Btln., 31 Esk., 116 Gesch. = 46.000 Inft., 4.000 Kav. zus. 50.000 M.) unter Vizekönig von Italien Pz. Eugen Beauharnais.",
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3"
+      },
+      "page_image": {
+        "source_id": "bodart-1908-p447-image-v1",
+        "path": "data/raw/bodart-1908-v1/p447.jpg",
+        "sha256": "2a15fc941eb9dc4c965eb5669d54bb410eeb7539a31e7c4e4631f81c9d2e3872",
+        "metadata_sha256": "849e433a600a15acfaa2b3a98b1e716c2491438d0791566f167475d0483e3ec0"
+      },
+      "interpretation_en": "Bodart reports a Russian/Prussian victory with 24,000 personnel against 50,000 French personnel. The printed aggregates include 19,000 infantry plus 5,000 cavalry and 46,000 infantry plus 4,000 cavalry respectively; formations and guns are separate.",
+      "note_check": "No applicable strength footnote. The full entry and casualty rows were checked; losses are not force totals.",
+      "disposition": "literal_totals_side_mapping_and_recorded_outcome_confirmed",
+      "correction_required": false,
+      "remaining_limits": [
+        "Compiler-record fidelity only; no independent historical adjudication.",
+        "Exact state time and complete combatant/all-ranks population remain unestablished."
+      ]
+    },
+    {
+      "battle_id": "B457a",
+      "place": "Vera",
+      "campaign_group": "peninsula 1813",
+      "method": "Primary read of the complete existing transcription entry and visual comparison with the pinned page image, including applicable notes and neighboring-entry boundaries.",
+      "outcome_side_a": 0,
+      "personnel_totals": {
+        "A": 38000,
+        "B": 32000
+      },
+      "source_columns": {
+        "A": "right",
+        "B": "left"
+      },
+      "citation": {
+        "source_id": "bodart-1908-transcription-v1",
+        "section": "p457",
+        "locator": "Bodart (1908), p457, entry B457a; complete outcome/strength sentence",
+        "quote": "Sieg der Anglo-Portugiesen und Spanier (32.000 M.) unter Generalissimus FM. Lord Wellington über die Franzosen (38.000 M.) unter Marschall Soult.",
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3"
+      },
+      "page_image": {
+        "source_id": "bodart-1908-p457-image-v1",
+        "path": "data/raw/bodart-1908-v1/p457.jpg",
+        "sha256": "aa9e4b6c8ee0ea4e4fe370bbf772e19237e39ae5a58c39df5487f8b521c7f781",
+        "metadata_sha256": "167a95544ce4f5411af5ad5751ee2bc753bfbe083d12ba92f2dd67e2ce9e53cf"
+      },
+      "interpretation_en": "Bodart reports an Anglo-Portuguese/Spanish victory with 32,000 personnel against 38,000 French personnel under Soult.",
+      "note_check": "The entry includes untranscribed officer-loss tables. The page-bottom Dennewitz strength note concerns a different entry and is not attached to Vera.",
+      "disposition": "literal_totals_side_mapping_and_recorded_outcome_confirmed",
+      "correction_required": false,
+      "remaining_limits": [
+        "Compiler-record fidelity only; no independent historical adjudication.",
+        "Exact state time and complete combatant/all-ranks population remain unestablished."
+      ]
+    },
+    {
+      "battle_id": "B459d",
+      "place": "Wartenburg",
+      "campaign_group": "liberation 1813",
+      "method": "Primary read of the complete existing transcription entry and visual comparison with the pinned page image, including applicable notes and neighboring-entry boundaries.",
+      "outcome_side_a": 0,
+      "personnel_totals": {
+        "A": 15000,
+        "B": 16000
+      },
+      "source_columns": {
+        "A": "right",
+        "B": "left"
+      },
+      "citation": {
+        "source_id": "bodart-1908-transcription-v1",
+        "section": "p459",
+        "locator": "Bodart (1908), p459, entry B459d; complete outcome/strength sentence",
+        "quote": "Sieg der Preußen (27 Btln., 7 Esk., 32 Gesch. = 16.000 M.) unter Gen.-Lt. v. York über die Franzosen (13.500 Inft., 1.500 Kav., 24 Gesch. = 15.000 M.) unter Div.-Gen. Gf. Bertrand.",
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3"
+      },
+      "page_image": {
+        "source_id": "bodart-1908-p459-image-v1",
+        "path": "data/raw/bodart-1908-v1/p459.jpg",
+        "sha256": "07560d466f1ae5e7dd2000c0be9c417f513ee1ed0d536eb885bc01420d55f740",
+        "metadata_sha256": "79e4a7401b9f4c0fe743dac59aedf54582062b240410f443053cb07abfd73acc"
+      },
+      "interpretation_en": "Bodart reports a Prussian victory with 16,000 personnel against 15,000 French personnel: 13,500 infantry plus 1,500 cavalry. The 32 and 24 guns are separate equipment quantities.",
+      "note_check": "Footnote 1 applies to the Prussian casualty row, not to strength. No applicable strength qualifier was found.",
+      "disposition": "literal_totals_side_mapping_and_recorded_outcome_confirmed",
+      "correction_required": false,
+      "remaining_limits": [
+        "Compiler-record fidelity only; no independent historical adjudication.",
+        "Exact state time and complete combatant/all-ranks population remain unestablished."
+      ]
+    },
+    {
+      "battle_id": "B455b",
+      "place": "Hagelberg",
+      "campaign_group": "liberation 1813",
+      "method": "Primary read of the complete existing transcription entry and visual comparison with the pinned page image, including applicable notes and neighboring-entry boundaries.",
+      "outcome_side_a": 0,
+      "personnel_totals": {
+        "A": 11000,
+        "B": 12000
+      },
+      "source_columns": {
+        "A": "right",
+        "B": "left"
+      },
+      "citation": {
+        "source_id": "bodart-1908-transcription-v1",
+        "section": "p455",
+        "locator": "Bodart (1908), p455, entry B455b; complete outcome/strength sentence",
+        "quote": "Sieg der Preußen (10.400 Inft., 1.600 Kav., 11 Gesch. = 12.000 M.) unter GM. von Hirschfeld über die Franzosen (10 000 Inft., 1.000 Kav., 22 Gesch. = 11.000 M.) unter Div.-Gen. Baron Girard.",
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3"
+      },
+      "page_image": {
+        "source_id": "bodart-1908-p455-image-v1",
+        "path": "data/raw/bodart-1908-v1/p455.jpg",
+        "sha256": "b2b05971054e44942bf7e42a9d8c6a4addcf5258f66e69a7097910f37584d28b",
+        "metadata_sha256": "7a733b5f26e1b5aa1537b6740f4f16e2348ce90af4f68fefeba8b151083995ca"
+      },
+      "interpretation_en": "Bodart reports a Prussian victory with 12,000 personnel: 10,400 infantry plus 1,600 cavalry, against 11,000 French personnel: 10,000 infantry plus 1,000 cavalry. The 11 and 22 guns are separate.",
+      "note_check": "The French infantry uses spaced thousands (10 000). The Dresden casualty note elsewhere on the page does not qualify this entry.",
+      "disposition": "literal_totals_side_mapping_and_recorded_outcome_confirmed",
+      "correction_required": false,
+      "remaining_limits": [
+        "Compiler-record fidelity only; no independent historical adjudication.",
+        "Exact state time and complete combatant/all-ranks population remain unestablished."
+      ]
+    },
+    {
+      "battle_id": "B448a",
+      "place": "Castalla",
+      "campaign_group": "peninsula 1813",
+      "method": "Primary read of the complete existing transcription entry and visual comparison with the pinned page image, including applicable notes and neighboring-entry boundaries.",
+      "outcome_side_a": 0,
+      "personnel_totals": {
+        "A": 15000,
+        "B": 17000
+      },
+      "source_columns": {
+        "A": "right",
+        "B": "left"
+      },
+      "citation": {
+        "source_id": "bodart-1908-transcription-v1",
+        "section": "p448",
+        "locator": "Bodart (1908), p448, entry B448a; complete outcome/strength sentence",
+        "quote": "Sieg der Anglo-Spanier (14.000 Inft., 3.000 Kav., 20 Gesch. = 17.000 M.) unter Gen.-Lt. Sir Murray über die Franzosen (12.000 Inft., 3.000 Kav., 12 Gesch. = 15.000 M.) unter Marschall Suchet.",
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3"
+      },
+      "page_image": {
+        "source_id": "bodart-1908-p448-image-v1",
+        "path": "data/raw/bodart-1908-v1/p448.jpg",
+        "sha256": "3a67444bba7752d9f6944676322b1c2ec371f37151d4c7bd04668104382ee136",
+        "metadata_sha256": "a0774b5e9840e2e63a818a6df94fc3b353026b8837cdcdc78a7ec140dfb30192"
+      },
+      "interpretation_en": "Bodart reports an Anglo-Spanish victory with 17,000 personnel: 14,000 infantry plus 3,000 cavalry, against 15,000 French personnel: 12,000 infantry plus 3,000 cavalry. Guns are separate.",
+      "note_check": "The approximate French loss below the strength passage is a casualty figure, not a strength qualifier. No applicable strength note was found.",
+      "disposition": "literal_totals_side_mapping_and_recorded_outcome_confirmed",
+      "correction_required": false,
+      "remaining_limits": [
+        "Compiler-record fidelity only; no independent historical adjudication.",
+        "Exact state time and complete combatant/all-ranks population remain unestablished."
+      ]
+    }
+  ]
+}

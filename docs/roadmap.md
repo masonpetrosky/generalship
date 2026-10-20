@@ -193,6 +193,17 @@ with calibration, uncertainty and error concentration. The 52 final entries rema
 reserved. No commander model, feature admission, wider extraction or final evaluation
 is queued by this descriptive result.
 
+**Done (2026-10-20):** the bounded [1813 forward diagnostic](research/napoleonic-forward-diagnostic-v1.md)
+retains all 64 entries, 37 saved forecasts and 27 exclusions. Mean predicted A-win probability
+is 0.623880 versus recorded share 0.351351, while descriptive test AUC is 0.791667.
+Coverage falls from 157/209 before 1813 to 37/64 in 1813. Same-row comparisons distinguish
+case removal from differences between the two saved models. The five largest errors were
+checked against existing full entries and five pinned images; their literal totals, side
+assignments and recorded outcomes match. No refit, recalibration or historical correction ran.
+All 52 final entries remain unused numerically. **Recommended next:** design one bounded,
+development-only rolling-forward calibration comparison, with training-only correction,
+fixed comparators/coverage and a decision rule before any separately authorized fit.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
