@@ -41,7 +41,9 @@ As of 2026-10-20:
   [Browse all 325 dossiers](https://masonpetrosky.github.io/generalship/napoleonic/index.html),
   including 1,085 explicit unknowns and 140 disputed claims. The explorer preserves source
   passages, scope notes and hashes, with research coverage, measurement readiness and model
-  admission shown separately.
+  admission shown separately. [Compare measurement evidence](https://masonpetrosky.github.io/generalship/napoleonic/comparisons/index.html)
+  for the 12 pilot engagements: alternative figures, populations, times and command roles,
+  with the unresolved opening mappings retained.
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been

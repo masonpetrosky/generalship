@@ -16,6 +16,7 @@ import shutil
 
 from .sources import read_csv, read_json
 from .napoleonic_site import NapoleonicPages
+from .napoleonic_comparison import CSS as COMPARISON_CSS
 
 REPOSITORY = 'https://github.com/masonpetrosky/generalship'
 COHORT = 'data/pilot/cohort-v2.json'
@@ -297,7 +298,7 @@ class Site:
         if self.out.exists():
             shutil.rmtree(self.out)
         self.out.mkdir(parents=True)
-        (self.out / 'style.css').write_text(CSS.lstrip(), encoding='utf-8')
+        (self.out / 'style.css').write_text((CSS + COMPARISON_CSS).lstrip(), encoding='utf-8')
         (self.out / '.nojekyll').write_text('', encoding='utf-8')
         self.home()
         self.results()

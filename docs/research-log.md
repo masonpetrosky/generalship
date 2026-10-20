@@ -4320,3 +4320,62 @@ and 52/3 final-reservation partition is unchanged; calibration remains prepared 
 unscored. No subagent, separate reviewer or second-opinion prompt ran. The closed
 Rastatt branch stays closed. Publishing uses the existing Pages workflow; final
 shipping checks verify the remote commit and deployed pages.
+
+## Napoleonic measurement-comparison view, 2026-10-20
+
+The owner accepted the bounded recommendation to compare the existing measurement
+evidence for **12 engagements / 24 sides**: the complete Naples 1806 and Peninsula
+1812 pilot groups. `generalship/napoleonic_comparison.py` reads the immutable ledger,
+boundary, authority and combined-measurement records directly. It adds **13 pages**
+(one index and 12 comparisons), bringing the static site to **1,279 HTML pages**.
+The Napoleonic overview, both pilot campaign pages and their 12 dossiers link to
+the comparison view; each comparison links back to the full dossier.
+
+All **82 strength observations** retain their population/basis, reported state or
+time, precision and source role, including **nine unknown counts and one gun count**.
+One-sided inequalities, approximation and the gun range are preserved. Town
+inhabitants remain distinct from defenders. All **73 command-role observations**
+retain their actor label, task/force scope, authority type, phase/time and unresolved
+identity. The Naples view uses the later authority mapping's 30 roles, including
+the two capitulation examples, alongside the 43 Peninsula roles. Appearance counts
+are not counts of distinct commanders.
+
+Recorded discrepancies, arithmetic limitations, six local co-report associations,
+boundary/area/membership alternatives and identity/continuity notes remain
+inspectable. A co-report is not an opening pair; a diagnostic subtraction or sum
+is not a selected strength. All **24 opening mappings remain unresolved**. The
+view selects no inputs, changes no identity or attribution and starts no model job.
+The 12 purposive entries do not estimate feasibility for the 325-entry cohort.
+
+Primary verification:
+
+- **14 focused site tests passed**, including five new tests for exact scope and
+  navigation, all strength/authority observations, precision/unknown/equipment
+  distinctions, observation-specific passage/image/hash links, and retained
+  findings. The existing all-site link/anchor check passes.
+- **All 365 tests passed** (235.628 seconds); full `make check` and `make reproduce`
+  exited successfully. The generated measurement and baseline reports were
+  inspected. All 20 prior receipt output hashes and 5,667 source bindings are
+  unchanged. The receipt has 1,155 inputs: the new renderer plus changed hashes
+  for the two existing site modules; all other prior input bindings are unchanged.
+- The 157 distinct citation objects rendered across the comparisons were read
+  and checked against their pinned text sections and raw hashes. Their 72 text
+  sources and 68 linked page images retain their registered hashes. This verifies
+  faithful presentation of existing evidence; it is not a new scan transcription,
+  historical adjudication or separate evidence review.
+- Browser plugin/skill was absent. Existing bundled Playwright 1.62.1 with
+  installed Chrome 155.0.8059.85 verified **35 screen states** at **1280×900 and
+  390×844**, including all 13 new pages at both sizes and one mobile dark-mode
+  state. The flow was overview → comparison index → Maida → bounded strength
+  passage → source/full hash, plus Gaëta delegation/boundary expansion and
+  dossier/comparison navigation. Amantea's equipment/unknown distinction was
+  checked. No document overflow, blank page, console warning/error or page error
+  was found; desktop/mobile screenshots were visually inspected. QA scripts,
+  screenshots and logs remain outside the repository. Browser coverage is Chrome.
+
+Raw inputs, source metadata, dossiers, packets, prior versioned records, model
+inputs and numerical reports retain their bytes. No evidence migration or source
+addition is needed. Calibration remains prepared and unscored; no subagent,
+separate reviewer or second-opinion prompt ran. The wider measurement pause and
+closed Rastatt branch remain in force. Publishing uses the existing Pages workflow;
+shipping verification checks the remote commit and deployed view.

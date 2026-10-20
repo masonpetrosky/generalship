@@ -163,6 +163,13 @@ unknowns and 140 disputed claims, with source passages/hashes, original scope no
 separate research/measurement/admission explanations. This is a read-only interface;
 it does not select model inputs, resolve identities or reopen the stopped research branch.
 
+**Done (2026-10-20):** the [measurement-comparison view](https://masonpetrosky.github.io/generalship/napoleonic/comparisons/index.html)
+covers the existing 12 pilot engagements / 24 sides in Naples 1806 and Peninsula 1812.
+It presents all 82 strength observations (including nine unknown counts and one gun count)
+and 73 command-role observations with population/time/scope, recorded compatibility findings,
+boundary and identity notes, and exact supporting passages/images/hashes. All 24 opening
+mappings remain unresolved. The read-only view uses existing records; wider extraction stays paused.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -206,7 +213,7 @@ run authorization are still required.
 | 1. First reviewed campaign dossiers | Coverage complete. Cross-engagement identities, replacement boundaries and information sets remain |
 | 2. Baseline audit and expanded coverage | Full-war coverage done. Arsht reproduction route, independent extraction sample and paired comparison rows remain |
 | 3. Enriched prediction and command inference | Exploratory historical ratings only. Napoleonic measurement specification, synthetic checkpoint and final-set reservation done; historical army/appointment identification and causal design remain |
-| 4. Inspectable research interface | Started: a static explorer. Opportunity-adjusted estimates, disputes views and scenario toggles remain |
+| 4. Inspectable research interface | Static explorer plus source/population/time/authority comparisons for the 12 measurement-pilot entries. Opportunity-adjusted estimates, wider disputes views and scenario toggles remain |
 
 ### Milestone 0: working research foundation (complete)
 

@@ -3,6 +3,7 @@
 from collections import Counter, defaultdict
 
 from .napoleonic import COHORT, FRAME
+from .napoleonic_comparison import ComparisonPages
 from .sources import read_json
 
 
@@ -12,6 +13,7 @@ class NapoleonicPages:
         self.cohort = []
         self.entries, self.dossiers = {}, {}
         self.groups = defaultdict(list)
+        self.comparisons = None
         if not (site.root / COHORT).is_file():
             return
         self.cohort = read_json(site.root / COHORT)['battle_ids']
@@ -20,6 +22,7 @@ class NapoleonicPages:
             self.entries[b] = frame[b]
             self.dossiers[b] = read_json(site.root / f'data/napoleonic/evidence/{b}.json')
             self.groups[frame[b]['campaign_group']].append(b)
+        self.comparisons = ComparisonPages(self)
 
     def counts(self, ids):
         return Counter(c['status'] for b in ids for c in self.dossiers[b]['claims'])
@@ -57,6 +60,7 @@ class NapoleonicPages:
         self.campaigns()
         for b in self.cohort:
             self.engagement(b)
+        self.comparisons.build()
 
     def index(self):
         from .site import esc, table
@@ -73,6 +77,9 @@ class NapoleonicPages:
                 f'<div class="card">{self.summary()}</div>'
                 + f'<p><a href="engagements.html">Browse all {len(self.cohort)} engagements</a> · '
                 + f'<a href="{self.site.blob(COHORT)}">Frozen cohort</a></p>'
+                + '<div class="card"><a href="comparisons/index.html"><strong>Compare measurement evidence</strong></a>'
+                + '<p>Compare strength, timing and command scope for the 12 engagements in the two completed '
+                + 'measurement pilots. Alternatives and unknowns remain explicit.</p></div>'
                 + self.status()
                 + '<h2>Campaign groups</h2>'
                 + table(['Campaign group', 'Drafts / entries', 'Claims', 'Unknown', 'Disputed'], rows, {1, 2, 3, 4})
@@ -109,6 +116,8 @@ class NapoleonicPages:
                     f'<h1>{esc(name)}</h1><p>Complete frozen source group: {len(ids)} entries, '
                     f'{len(ids)} draft dossiers. {counts["unknown"]} explicit unknowns and '
                     f'{counts["disputed"]} disputed claims remain visible.</p>' + self.status()
+                    + ('<p><a href="../comparisons/index.html">Compare this group’s measurement evidence</a></p>'
+                       if set(ids) <= self.comparisons.ids else '')
                     + table(['Engagement', 'Frame start', 'Campaign group', 'Dossier', 'Claims', 'Unknown', 'Disputed'],
                             self.engagement_rows(ids, '../../'), {4, 5, 6}))
             self.site.write(f'napoleonic/campaigns/{slug(name)}.html', name, body, 2)
@@ -150,6 +159,10 @@ class NapoleonicPages:
                  '<h2>Compiler-listed forces and names</h2><p>Side A is France and its allies; '
                  'side B is the opposing side. These are Bodart’s printed labels, not resolved '
                  'identities, selected opening strengths or automatic command credit.</p>']
+        if b in self.comparisons.ids:
+            parts.insert(1, '<div class="card"><a href="../comparisons/' + b + '.html">'
+                         '<strong>Compare this engagement’s measurement evidence</strong></a>'
+                         '<p>Alternative figures, command scopes and unresolved opening mappings, with supporting passages.</p></div>')
         a = e['french_side']
         other = 'loser' if a == 'winner' else 'winner'
         parts.append(table(['Side', 'Printed force label', 'Printed commander names'],
