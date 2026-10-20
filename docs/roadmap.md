@@ -143,13 +143,19 @@ general-command scope and an effective appointment window remain unresolved. The
 superior authority is retained. No original pilot is revised, no replacement eligibility is
 inferred and no resource/outcome extraction begins. The source check stops here.
 
-**Next recommended work:** one bounded methodological go/no-go decision for a mission-defined
-pilot using the already inspected Rastatt park-cover instruction and its prescribed stopping
-condition. Declare force/task scope, retained superior authority, earlier preparation and any
-analytical window convention; keep prescribed and observed coverage distinct. Decide whether
-existing evidence supports the intended use, or reject the candidate. Stop at that decision.
-Further tenure research, resource/outcome extraction, source fetching, wider strict-opening
-research and numerical runs remain unqueued.
+**Done (2026-10-20):** the [Rastatt window go/no-go decision](research/napoleonic-rastatt-window-decision-v1.md)
+re-inspects one existing passage/context. **No-go for the historical comparison on current
+evidence; this candidate is closed at the window gate.** The prescribed stopping condition
+governs headquarters residence, not every protection/observation/reporting duty. Source-relative
+event rules are permissible, but the operative start, observed authority coverage and closure
+are unestablished. Alternative conventions do not supply those observations. Retained superior
+authority and earlier preparation are explicit; no analytical window, model row or feature is
+selected. All earlier records remain unchanged.
+
+**Research disposition:** retain the positive task observations and stop this pilot branch.
+No new Rastatt/Murat tenure search or alternative-window packet is queued from its remaining
+unknowns. Reopening needs a separately justified decision. Further resource/outcome extraction,
+source fetching, wider strict-opening research and numerical runs remain unqueued.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

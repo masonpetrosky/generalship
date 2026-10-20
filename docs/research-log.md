@@ -4211,3 +4211,53 @@ the two new scope/record input bindings. All earlier inputs and all **20 output 
 and 5,667 source bindings** remain unchanged; the new input count is **1,153**. Original
 pilots, dossiers, prepared packets, source registry, code, tests and earlier versioned
 records retain their bytes. No model job or new admission/test framework ran.
+
+## Rastatt mission window go-no-go decision v1, 2026-10-20
+
+The owner accepted the bounded methodological decision recommended after the Murat
+delegation check. The primary re-inspected existing passage `m010` and its complete
+context `c07`, from `alombert-colin-t2-ocr-v1` in family `alombert-colin-1805`.
+The [decision memo](research/napoleonic-rastatt-window-decision-v1.md) binds the exact
+source/metadata, passage/context, parent record/scope and methods inputs. This is one
+design case using one existing passage/context, with zero new passages, sources,
+fetches or facsimile inspections. The parent 13-passage/ten-context record is unchanged.
+
+**Decision: no-go for a historical replacement comparison on the current record;
+close this candidate at the window gate.** The park-passage condition governs
+headquarters residence at Rastatt. It does not supply an operative assignment start
+or establish the full protection/observation/reporting interval. Guard authority,
+instructions conveyed through Murat, personal observation near Kehl and the Emperor's
+superior authority remain distinct. Park passage alone would not establish performance
+of every duty or isolate Murat's contribution.
+
+Four possible windows were assessed: document heading to passage for the whole
+mission; arrival-to-passage for residence alone; operative assignment to the stated
+residence-ending event; and calendar/planned-date alternatives. No window is selected.
+Starting only at successful arrival would omit delay/failure to move headquarters
+from an assignment comparison. Event-relative rules are permissible when properly
+defined; they must address non-passage, changed orders and incomplete observation,
+and must not fix the incumbent's completion time for every replacement. Earlier
+preparation would be inherited for a later task boundary, not credited as total
+appointment contribution. Uncollected resource/outcome values alone are not a failed
+window gate. The unresolved operative anchor and duty/endpoint match drive this
+bounded research-allocation decision.
+
+The roadmap closes this branch while retaining positive task observations. No new
+tenure search, alternative-window packet, resource/outcome extraction, admission or
+numerical run is queued. Reopening requires a separately justified decision. This
+does not establish corpus-wide infeasibility or alter the strict-opening target.
+The 325-entry cohort, 273/13 development partition and 52/3 final reservation are
+unchanged. Calibration remains prepared/unscored; no second-opinion prompt, separate
+review or subagent ran. The decision is primary-verified.
+
+Validation: exact source/context/quote and canonical metadata replay, the memo's
+ten hash bindings, prior input bindings, local links/anchors, unchanged counts/nulls
+and the receipt audit passed. **All 356 tests passed** (231.339 seconds), and full
+`make check` exited successfully, including existing source and measurement checks.
+No code, data input or executable contract changed, so `make reproduce` was not
+needed; the offline reproducibility test passed and every prior generated artifact
+retains its bytes. **All 8,014 protected prior tracked files remain byte-identical**,
+including the receipt, original pilots, dossiers, packets, source registry, code,
+tests and previous versioned records. The receipt remains at **1,153 inputs, 20
+outputs and 5,667 source bindings**. Only the new decision memo and current public
+status/roadmap/history prose change. No new admission/test framework or model job ran.

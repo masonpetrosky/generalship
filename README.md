@@ -43,12 +43,12 @@ As of 2026-10-20:
   improved prediction with zero commander effects. No Napoleonic historical outcome has been
   fitted. The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
-  force identity and appointment authority; wider extraction is paused. The latest
+  force identity and appointment authority; wider extraction is paused. The
   [Murat delegation check](docs/research/napoleonic-murat-delegation-v1.md) supports specific
-  tasks and prescribed relative time conditions under imperial authority. His general-command
-  scope and effective appointment window remain unresolved. Both this candidate and the
-  [overall imperial pilot](docs/research/napoleonic-1805-appointment-check-v1.md) remain
-  **not estimable**; no resource/outcome extraction follows from the source checks.
+  tasks under imperial authority. The [Rastatt window decision](docs/research/napoleonic-rastatt-window-decision-v1.md)
+  closes that narrower comparison candidate: the order's residence condition does not establish
+  an effective whole-mission window or observed execution. It remains **not estimable**, with
+  no resource/outcome extraction. The earlier imperial and Murat records are preserved.
 
 ## How the research is produced
 
