@@ -54,7 +54,8 @@ As of 2026-10-20:
   [combined measurement table](artifacts/napoleonic-peninsula-1812-measurement-v1.md): six local
   associations between troop totals and named roles, with all sixteen opening mappings still blocked.
   The [12-entry feasibility checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
-  recommends defining the operational command unit and authority rules before wider extraction.
+  led to a [six-case command-unit and authority specification](docs/napoleonic-command-units-v1.md),
+  separating force identity, appointment authority and local personnel availability. Wider extraction is paused.
 
 ## How the research is produced
 

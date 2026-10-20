@@ -122,12 +122,19 @@ sides of an entry. These purposive groups do not estimate corpus-wide feasibilit
 recommends pausing wider strict-opening extraction until the command unit and authority rules
 are defined; the opening target, reservation and admission/run gates remain unchanged.
 
-**Next recommended work:** one operational-unit and authority specification, using six existing
-cases to define appointment/force scope, containment/continuity rules and boundary-specific
-authority without assuming identities or lineages. Stop after the specification and worked cases.
-Keep campaign contribution distinct from opening battle measurement and a possible descriptive
-diagnostic. No new extraction, source fetch, campaign batch or historical fit is queued; any
-later source work must identify the concrete mapping it could change and have a bounded scope.
+**Done (2026-10-20):** the [operational-unit and authority specification](napoleonic-command-units-v1.md)
+defines the appointment/force comparison unit, organizational levels, continuity/containment
+rules and use-specific authority evidence. Six existing cases distinguish council/local
+direction, expedition scope, troop command/delegation, later columns, reserve/sector tasks
+and succession. No new person/army identity, opening selection or model row is created.
+The specification stops here; wider strict-opening extraction remains paused.
+
+**Next recommended work:** a bounded existing-source check of the 1805 German-operations
+pilot's pre-operation appointment/mandate and prior objectives. Establish what its pinned
+orders can support about the authority and comparison window before adding troop totals or
+outcome observations. Retain unresolved bounds and stop under the existing family/follow-up
+ceiling. This is not a new campaign sweep, registry installation or historical fit; further
+source fetching or a numerical run is not queued by the specification.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

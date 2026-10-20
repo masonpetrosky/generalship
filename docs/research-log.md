@@ -4044,3 +4044,51 @@ document/heading links passed. Reproduction left **all 7,750 protected pre-exist
 data/artifact/code/test/protocol files byte-identical**, including the prior receipt;
 all 1,150 receipt input hashes, 20 output hashes and 5,667 registry bindings were rechecked.
 No new test framework was needed for this documentation-only change.
+
+## Operational command-unit and authority specification v1 (2026-10-20)
+
+Completed the accepted [specification](napoleonic-command-units-v1.md) and six worked cases
+from the two completed measurement groups. This is a primary-verified design over existing
+assertions, not renewed historical extraction, page-image inspection or feature admission.
+The parent denominator remains 12 entries/24 sides; six design cases are not a new cohort.
+
+- **Unit decision:** a campaign comparison concerns a person's appointment over a defined
+  operational authority/force scope and window. Force identity, appointment holder and
+  locally available personnel are separate. Declare organizational level and distinguish
+  containment, administrative membership, task attachment and identity; a campaign label,
+  corps numeral, recurring commander or troop count cannot supply a default army ID.
+- **Continuity rules:** retain evidenced organizational continuity through a change of
+  holder while distinguishing the authority episodes. Reorganizations, renamings, splits,
+  mergers and detachments need explicit evidence and qualified relations. Missing links
+  remain unresolved; separate local handles do not prove distinct historical entities.
+- **Authority/use rules:** local role retention, global person linkage, entity continuity,
+  point responsibility, campaign appointment and numerical use have different requirements.
+  Preserve source-relative timing, overlapping scopes and unknown effective transfers.
+  Delegation supplies its stated task; a visit or support order supplies neither exclusive
+  local command nor personnel availability. Tenure, analytical window and event time stay
+  distinct. No invented clock, fractional credit or automatic whole-entry attribution.
+- **Six cases:** Campo Tenese council/local direction; Maida expedition/field scope; Gaëta
+  troop command and capitulation delegation; Amantea investment/later columns; Castalla
+  reserve/sector/support tasks; July Salamanca subordinate task and Bonnet–Clausel succession.
+  Stable parent record and passage IDs retain source IDs, locators and hashes. Each case
+  states retained local evidence and the specific unresolved authority/entity/population use.
+- **Result and limit:** zero new global person IDs, persistent army links, selected opening
+  mappings, admitted features or model rows. The cases do not empirically validate a complete
+  split/merger policy or identify commander effects. A later registry/release still needs its
+  own implementation, primary verification and immutable migration records.
+
+The design stops after the six cases. Its next recommendation is the existing 1805
+German-operations pilot's bounded appointment/mandate and prior-objective source check,
+before additional troop/outcome work. No automatic extraction batch, new fetch or rating run
+was started. Earlier evidence, source metadata, prepared packets and numerical results
+remain unchanged; calibration stays prepared/unscored. No subagent, separate review,
+second-opinion prompt or synthetic job ran.
+
+Validation: **356 existing tests passed** (234.983 seconds); the full `make check`
+and `make reproduce` commands exited successfully. The primary checked the eight rules,
+six requested cases, named parent records/passages and all eight input hashes. Local
+document and heading links passed. The existing suite replays provenance and earlier
+contracts; it does not implement this new specification or validate historical truth.
+Reproduction left **all 8,008 protected pre-existing tracked files byte-identical**,
+including prior dossiers, sources, code, tests, reports, specifications and receipt.
+All 1,150 receipt input hashes, 20 output hashes and 5,667 source bindings were rechecked.
