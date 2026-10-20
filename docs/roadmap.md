@@ -213,8 +213,23 @@ All four existing populations, five comparators and a fixed exploratory continua
 are retained. The proposal specifies 72 parameter fits across 24 population/year folds;
 **none ran during preparation**. No final entry, feature admission or historical correction
 is used. The [plan](../artifacts/napoleonic-temporal-calibration-plan-v1.md) retains all 273
-development entries, warmup/exclusions and every role assignment. Next is a separately
-authorized execution of this exact proposal, rather than another design packet.
+development entries, warmup/exclusions and every role assignment. Its later authorized
+execution is recorded below; the preparation and exact proposal remain immutable.
+
+**Done (2026-10-20):** the owner authorized the exact
+[temporal probability-correction run](research/napoleonic-temporal-calibration-run-v1.md).
+It **fails the fixed exploratory continuation rule**. On 115/141 main entries in 1808–1812,
+battle-weighted log loss is 0.663652 corrected versus 0.632991 for expanding force;
+Brier is 0.234834 versus 0.223525. Equal-campaign scores and the unqualified-total
+sensitivity also worsen, and only two of five decision years improve in log loss.
+The reused 1813 scores improve but cannot enter or rescue the decision. All four
+populations, six models, exclusions, parameters and scores are preserved and primary-verified
+without refitting. All 52 final entries remain unused numerically.
+
+**Research disposition:** close this correction branch and retain the uncorrected descriptive
+baseline. No alternate calibration/window search, final evaluation, commander model or wider
+evidence extraction is queued by the failed result. The earlier evidence and numerical records,
+paused opening work, closed appointment branch and prepared extraction-review sample are unchanged.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
@@ -226,8 +241,6 @@ run authorization are still required.
 
 ## Open owner decisions
 
-- **Temporal probability-correction run:** the exact [proposal](../data/napoleonic/temporal-calibration-v1/run-proposal.json)
-  is ready for run authorization; preparation does not authorize historical fitting.
 - **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
   could supply the margins later.
 

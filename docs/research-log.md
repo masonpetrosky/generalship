@@ -4768,3 +4768,130 @@ source-additions entry is needed. All earlier evidence, model inputs, authorizat
 numerical results and the 1813 diagnostic remain unchanged. Wider opening work,
 the closed appointment branch and unscored extraction-review calibration stay
 parked. No second-opinion prompt, separate review or subagent ran.
+
+## Napoleonic temporal probability-correction run v1, 2026-10-20
+
+The owner accepted **“Execute the exact frozen temporal probability-correction
+proposal”**, replying **“Sounds good, go ahead.”** The new
+[actual authorization](../data/napoleonic/temporal-calibration-v1/owner-run-authorization.json)
+binds proposal SHA-256
+`b6b58138ba1b396160a0d9185e18a3b756f83788fb89da5f3431000a9d84b5f7`,
+the exact command and development-only scope. Its own SHA-256 is
+`e4b3faa644689e135aab8893114533fb83d0f9c02b5ea79eb8cb02ba66e7caae`.
+The primary executed that command once, using CPython 3.14.7. The runner
+checked authorization before outcome access and fitting and refuses to
+overwrite an existing result path. The earlier preparation-only scope, protocol, design,
+plan and proposal remain unchanged records of that earlier task.
+
+The immutable [raw result](../artifacts/napoleonic-temporal-calibration-run-v1.json)
+has SHA-256
+`39213035280b48ffa6ef10031ba6631715dba58b6bdcb0d95e034e17585067a2`.
+It retains all four fixed populations, six models, complete annual role
+assignments, parameters/offset score equations, predictions, calibration bins,
+year/group scores, paired losses, concentration and the fixed decision. The
+[report](research/napoleonic-temporal-calibration-run-v1.md) is primary-verified;
+there was no separate review.
+
+**The correction fails the fixed exploratory continuation rule.** Main
+1808–1812 coverage remains **115/141 entries**, five years/seven source groups,
+with 26 exclusions. Battle-weighted corrected log loss is **0.663652398** versus
+**0.632990740** for expanding force; Brier is **0.234834355** versus
+**0.223525340**. Equal-campaign scores worsen too: log loss **0.638446083**
+versus **0.623784780**, Brier **0.224998624** versus **0.220290107**. Against
+the same uncorrected base, battle scores worsen; the tiny equal-campaign
+log-loss improvement is accompanied by worse Brier, so that comparison also
+fails. Improvements against the prior comparators and equal odds are retained,
+but do not satisfy a rule requiring success against every comparator.
+
+Only **1810 and 1811 improve against expanding force (2/5 years, required ≥3)**.
+The unqualified-total sensitivity has **103/141 main entries** and worsens
+against expanding force under both scores/weightings: battle log loss
+**0.684243174** versus **0.653678666**, Brier **0.242120839** versus
+**0.232353626**. The printed-indecisive exclusion remains a no-op; removing
+one non-combat warmup row changes subsequent fits without rescuing the result.
+All six failed aggregate comparisons and all six satisfied comparisons remain
+in the decision record. No population or model is selected after execution.
+
+The reused secondary **1813 region remains 37/64 entries**. Its primary
+corrected log loss improves to **0.601048725** from **0.691121738** for expanding
+force, and Brier to **0.207721280** from **0.251056881**. These favorable scores
+cannot enter or rescue the continuation decision. The unqualified secondary
+has **30/64 entries**. The 68-entry warmup has no outer score, including its
+42 primary-eligible entries. Every region/exclusion remains visible. All
+**52 final entries stay numerically unused**, including no calibration,
+selection or scoring. The two development operations ending in 1814 keep
+their frozen start-cohort IDs; no reserved entry is reclassified.
+
+The 24 scorable population/year folds performed **72 parameter fits**:
+48 force fits and 24 offsets. Deliberate repeated blocks and the indecisive
+no-op remain repeated fit calls, not independent replications. There are
+**589 population-entry prediction rows / 3,534 probability values**; entries
+repeat across sensitivities. Within each fold the offset preserves base
+ordering. The primary correction improves log loss in three of seven main
+source groups and worsens in four. Against expanding force, the largest one,
+five and ten absolute main paired differences carry **3.53%, 13.54%, 24.86%**
+of the **15.383860** absolute-difference total. The denominator retains gains
+and losses without cancellation and assigns no command credit.
+
+The new [saved-result verifier](../generalship/napoleonic_temporal_calibration_report.py)
+performs no fitting. A second arithmetic implementation checks all **36 annual
+role assignments**, using every member for group completion and earliest
+calibration start; all **48 force and 24 offset score equations**; every
+prediction; **80 summaries / 1,632 score values / 4,800 calibration bins**;
+**2,945 paired case contributions**, every concentration record and the fixed
+continuation decision. Maximum absolute force score-equation residual is
+`3.277378368693462e-13`; offset residual is `8.49364356625415e-10`, within the
+fixed tolerances of 1e-7 and 1e-9. Saved arithmetic tolerance is 2e-12.
+These observed residuals are from the CPython 3.14.7 primary check; the durable
+verification record retains checked counts/tolerances rather than residual
+last bits that can differ across Python versions and math libraries.
+The verifier matches **141 original 1813 prediction rows** across all four
+populations without refitting. The new equal-campaign secondary summary
+weights the two original source groups, while the old forward report used
+one held-out year; that weight difference is explicit.
+
+All **21 focused tests passed**, including eight new saved-result tests.
+They reject changed time roles/training contamination, force/offset parameters,
+probabilities, both weighted scores, empty-bin zero substitution, paired losses,
+concentration and a relabelled decision. They verify that neither fitter nor
+the historical runner's outcome loader is called during saved verification,
+and that arbitrary secondary scores cannot change the separate decision
+recomputation. Historical refits during verification remain zero. Tests use
+constructed fits only; the new tests inspect saved results without fitting.
+
+The six existing convention passages were rechecked against the unchanged
+transcription and three pinned images, printed pp. 45–47. Source ID remains
+`bodart-1908-transcription-v1`, raw SHA-256
+`bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986`;
+the existing context retains exact locators, quotes and image hashes. The
+scope/measurement/label limits remain: compiler selection, strength-dependent
+winner coding, rounded or qualified totals, missing pairs, uncertain force
+clock/population, retrospective date availability and familiar development
+outcomes. Five main years/seven groups, repeated blocks, overlapping training
+and one compiler family limit replication. No significance or confidence claim
+is made. No new source, date adjudication, registry change or dossier/packet
+evidence change occurs, so no source-additions entry or packet update is needed.
+
+**Disposition:** retain the uncorrected descriptive baseline and close this
+correction branch. Failure does not trigger another correction/window search,
+final-set evaluation, commander rating or wider historical extraction. No
+feature is admitted or tactical/campaign effect estimated. All earlier evidence,
+numerical records and final reservations are preserved; the stopped appointment
+branch, paused opening work and prepared/unscored extraction-review sample remain
+unchanged. No second-opinion prompt, separate review or subagent ran.
+
+All **413 tests passed** (267.576 seconds), and final full `make check` and
+`make reproduce` exited successfully. The final 21 focused tests passed after
+the verification-record portability fix. Reproduction uses only the frozen
+metadata planner and saved-result verifier for this job; it does not fit the
+historical correction again. The generated report's scores, coverage, decision,
+limits and eight relative links were inspected.
+
+The preservation audit covers **8,055 prior tracked files**. Only Makefile,
+README, roadmap, this log and the receipt change among them; six new files
+contain the authorization, immutable result, report, verification, verifier
+and tests. All **1,173 prior receipt input hashes**, **5,667 source bindings**
+and **20 output hashes** are unchanged. The receipt now has **1,175 inputs**,
+adding only the actual run authorization and saved-result verifier module.
+The earlier dataset, source snapshots, dossiers, prepared packets, proposals,
+executing code, numerical runs and diagnostic all retain their bytes.

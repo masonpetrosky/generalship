@@ -1,0 +1,30 @@
+{
+  "kind": "napoleonic_temporal_calibration_primary_arithmetic_verification",
+  "version": 1,
+  "status": "share_with_caveats_failed_continuation",
+  "separate_review": false,
+  "historical_refits_performed": 0,
+  "reserved_final_entries_used": 0,
+  "bindings": {
+    "artifacts/napoleonic-temporal-calibration-run-v1.json": "39213035280b48ffa6ef10031ba6631715dba58b6bdcb0d95e034e17585067a2",
+    "data/napoleonic/temporal-calibration-v1/owner-run-authorization.json": "e4b3faa644689e135aab8893114533fb83d0f9c02b5ea79eb8cb02ba66e7caae",
+    "data/napoleonic/temporal-calibration-v1/run-proposal.json": "b6b58138ba1b396160a0d9185e18a3b756f83788fb89da5f3431000a9d84b5f7",
+    "generalship/napoleonic_temporal_calibration_report.py": "c6a78a6b2515e770f03fe8fcc5937b379c95fb37b3f4833425563dbf4dc43f5b"
+  },
+  "checks": {
+    "annual_role_assignments_checked": 36,
+    "force_stationarity_checks": 48,
+    "offset_stationarity_checks": 24,
+    "probability_values_checked": 3534,
+    "prediction_rows_checked": 589,
+    "summaries_checked": 80,
+    "metric_values_checked": 1632,
+    "calibration_bins_checked": 4800,
+    "paired_case_contributions_checked": 2945,
+    "original_forward_prediction_rows_matched": 141
+  },
+  "absolute_force_score_tolerance": 1e-07,
+  "absolute_offset_score_tolerance": 1e-09,
+  "absolute_arithmetic_tolerance": 2e-12,
+  "continuation": "does_not_pass"
+}
