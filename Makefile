@@ -8,12 +8,14 @@ check:
 	$(PYTHON) -m generalship.napoleonic_authority
 	$(PYTHON) -m generalship.napoleonic_inventory
 	$(PYTHON) -m generalship.napoleonic_measurement
+	$(PYTHON) -m generalship.napoleonic_benchmark
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship.napoleonic_authority --write
 	$(PYTHON) -m generalship.napoleonic_inventory --write
 	$(PYTHON) -m generalship.napoleonic_measurement --write
+	$(PYTHON) -m generalship.napoleonic_benchmark --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:

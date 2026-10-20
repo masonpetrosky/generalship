@@ -1,0 +1,46 @@
+{
+  "authorizes_historical_fit": false,
+  "bootstrap": {
+    "draws": 10000,
+    "evaluations": [
+      "leave_campaign_out"
+    ],
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "seed": 20261020,
+    "unit": "held_out_campaign_group"
+  },
+  "calibration_edges": [
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "comparators": [
+    "equal_odds",
+    "training_laplace_prior"
+  ],
+  "evaluations": [
+    "leave_campaign_out",
+    "leave_war_out",
+    "forward_1813"
+  ],
+  "feature": "(A-B)/(A+B)",
+  "kind": "napoleonic_compiler_benchmark_protocol",
+  "minimum_training_rows": 2,
+  "model_selection": false,
+  "populations": [
+    "primary",
+    "exclude_indecisive",
+    "exclude_no_combat",
+    "unqualified_totals"
+  ],
+  "profile": "compiler_personnel_total_v1",
+  "reserved_final_numerical_use": false,
+  "ridge": 1.0,
+  "version": 1
+}

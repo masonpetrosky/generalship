@@ -47,7 +47,10 @@ As of 2026-10-20:
   The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been
-  fitted. The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
+  fitted. A separate [compiler-strength benchmark dataset](artifacts/napoleonic-benchmark-v1.md)
+  now covers all 273 development entries, with 194 eligible pairs and every exclusion retained.
+  Its [exact run proposal](data/napoleonic/benchmark-v1/run-proposal.json) awaits owner run authorization.
+  The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The
   [Murat delegation check](docs/research/napoleonic-murat-delegation-v1.md) supports specific

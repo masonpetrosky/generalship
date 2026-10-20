@@ -170,6 +170,17 @@ and 73 command-role observations with population/time/scope, recorded compatibil
 boundary and identity notes, and exact supporting passages/images/hashes. All 24 opening
 mappings remain unresolved. The read-only view uses existing records; wider extraction stays paused.
 
+**Done (2026-10-20):** the separate [compiler-strength benchmark preparation](napoleonic-benchmark-v1.md)
+covers all 273 development entries / 546 sides. **194 pairs (71.1%)** have eligible
+printed personnel totals; 82 side extracts are missing and 32 ambiguous. The
+[report](../artifacts/napoleonic-benchmark-v1.md) retains every entry, population/time/units,
+source passages and hashes. Its fixed sensitivities retain 194, 193 and 163 pairs;
+the printed-indecisive exclusion removes none and cannot establish label independence.
+The [run proposal](../data/napoleonic/benchmark-v1/run-proposal.json) binds the dataset,
+design, protocol and executing code. No historical fit ran or run authorization was
+created. This compiler-description target does not relax the opening profile,
+attribute command effects or use the 52 final-evaluation entries.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -180,6 +191,8 @@ run authorization are still required.
 
 ## Open owner decisions
 
+- **Compiler-strength diagnostic:** the exact [development-only run proposal](../data/napoleonic/benchmark-v1/run-proposal.json)
+  is prepared. A separate owner authorization bound to its exact hash is required before fitting.
 - **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
   could supply the margins later.
 
