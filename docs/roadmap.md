@@ -83,9 +83,18 @@ sides). It indexes 31 strength/responsibility claims with 43 strength and 28 com
 observations; 46 distinct cited passages were re-inspected on 26 pinned images. The
 [result](../artifacts/napoleonic-ledger-design-v1.md) leaves all eight opening mappings blocked,
 with null army identities and null force/person selections. No input was admitted or historical
-outcome fitted. **Next recommended work:** specify contact, area, availability and relative
-ordering for these same four entries/eight sides using existing evidence, retaining unresolved
-mappings where necessary. Finish this bounded measurement step before expanding ledger extraction.
+outcome fitted.
+
+**Done (2026-10-19):** the same entries' [boundary/membership specification](napoleonic-boundaries-v1.md),
+with 40 adopted passages on 23 re-inspected pinned images, 29 events, 18 source-specific orderings,
+seven scenarios and 30 membership cases. Six local component candidates, seven conditional
+exclusions and 17 unresolved cases preserve the distinction between troops at contact, distant
+posts, later departures and later presence. All eight complete opening/force mappings remain
+unresolved; no force, person or army is selected. The old design and dossier bytes are unchanged.
+**Next recommended work:** a bounded person/authority and army-continuity mapping for these
+same four entries, identifying which remaining ambiguities prevent a usable force/command pair
+before expanding extraction. Further source research must name the specific admission decision
+it could change; unknowns alone do not restart historical deep dives.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

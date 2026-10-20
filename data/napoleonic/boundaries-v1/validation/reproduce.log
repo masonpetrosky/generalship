@@ -1,0 +1,195 @@
+python3 -m generalship.napoleonic_boundaries --write
+{
+  "kind": "napoleonic_boundary_check",
+  "version": 1,
+  "status": "primary-verified specification",
+  "engagements": 4,
+  "sides": 8,
+  "prior_strength_observations_indexed": 43,
+  "events": 29,
+  "orderings": 18,
+  "scenarios": 7,
+  "passages": 40,
+  "source_snapshot_entries": 51,
+  "membership_cases": 30,
+  "membership_counts": {
+    "candidate_component": 6,
+    "excluded_area": 4,
+    "excluded_population": 1,
+    "excluded_timing": 2,
+    "unresolved": 17
+  },
+  "scenario_status_counts": {
+    "later_phase": 2,
+    "noncontact_marker": 1,
+    "source_relative_candidate": 2,
+    "unresolved_operation_link": 2
+  },
+  "unresolved_joint_opening_sides": 8,
+  "complete_candidate_engagements": 0,
+  "emitted_model_rows": [],
+  "historical_outcomes_fitted": false,
+  "calibration": "prepared_unscored",
+  "development_engagements": 273,
+  "reserved_final_engagements": 52
+}
+python3 -m generalship build
+{
+  "pilot_battles": 127,
+  "eligible_battles": 23,
+  "eligible_campaigns": 13,
+  "draft_dossiers": 384,
+  "metrics": {
+    "strength_logistic": {
+      "brier": 0.2768816348133779,
+      "log_loss": 0.7495087606758415
+    },
+    "equal_odds": {
+      "brier": 0.25,
+      "log_loss": 0.6931471805599453
+    },
+    "training_prior": {
+      "brier": 0.2812731024902169,
+      "log_loss": 0.7560867667370473
+    }
+  },
+  "admission_candidate_statuses": {
+    "blocked": 18,
+    "excluded": 22
+  },
+  "admission_promoted_rows": 0,
+  "review_records": {
+    "reviews": 107,
+    "findings_by_disposition": {
+      "applied": 949,
+      "decided_by_primary": 11,
+      "deferred": 11,
+      "not_applied": 157,
+      "partly_applied": 1,
+      "primary_found_applied": 2
+    }
+  },
+  "extraction_audit": {
+    "audited": 150,
+    "verdicts": {
+      "correct": 142,
+      "minor": 8,
+      "material": 0
+    },
+    "material_error_rate_95": [
+      0.0,
+      0.0249702443680766
+    ],
+    "any_issue_rate_95": [
+      0.027269539920193826,
+      0.1017038783819546
+    ]
+  },
+  "estimate_ledger": {
+    "side_grades": {
+      "A": 59,
+      "B": 21,
+      "C": 26,
+      "D": 76
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 21,
+      "set2_AB": 29,
+      "set3_ABC": 37
+    },
+    "fitted": false
+  },
+  "command_ledger": {
+    "side_grades": {
+      "A": 155,
+      "B": 8,
+      "C": 16,
+      "D": 3
+    },
+    "nesting": {
+      "nested": 2,
+      "nesting_unresolved": 1,
+      "not_nested": 6
+    },
+    "rated": false
+  },
+  "estimate_ledger_v2": {
+    "in_scope": 305,
+    "side_grades": {
+      "A": 182,
+      "B": 57,
+      "C": 109,
+      "D": 262
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 61,
+      "set2_AB": 80,
+      "set3_ABC": 126
+    },
+    "fitted": false
+  },
+  "command_ledger_v2": {
+    "engagements": 305,
+    "side_grades": {
+      "A": 504,
+      "B": 24,
+      "C": 71,
+      "D": 11
+    },
+    "nesting": {
+      "nested": 4,
+      "nesting_unresolved": 2,
+      "not_nested": 10
+    },
+    "rated": false
+  },
+  "estimate_ledger_v3": {
+    "side_grades": {
+      "A": 236,
+      "B": 98,
+      "C": 113,
+      "D": 163
+    },
+    "filled_from_d": {
+      "A": 54,
+      "B": 41,
+      "C": 4
+    },
+    "rows_by_set_fit_eligible": {
+      "set1_A": 84,
+      "set2_AB": 124,
+      "set3_ABC": 181
+    },
+    "fitted": false
+  },
+  "napoleonic_frame": {
+    "entries_transcribed": 708,
+    "in_frame": 663,
+    "campaign_groups": 29
+  },
+  "napoleonic_dossiers": {
+    "drafts": 325,
+    "claims": 4846,
+    "unknown_claims": 1085
+  },
+  "napoleonic_methods": {
+    "historical_outcomes_fitted": false,
+    "scenarios": [
+      "null",
+      "commander",
+      "stable_army_alias",
+      "switching_armies",
+      "source_bias"
+    ],
+    "calibration": "prepared_unscored"
+  },
+  "napoleonic_ledger_design": {
+    "engagements": 4,
+    "sides": 8,
+    "strength_observations": 43,
+    "command_observations": 28,
+    "complete_candidate_engagements": 0,
+    "emitted_model_rows": []
+  },
+  "artifacts_written": true
+}

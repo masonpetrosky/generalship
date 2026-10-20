@@ -44,8 +44,10 @@ As of 2026-10-19:
   of planted commander effects on the provisional label schedule; an army-only simulation
   improved prediction with zero commander effects. No Napoleonic historical outcome has been
   fitted. A bounded [ledger design](docs/napoleonic-ledgers-v1.md) now preserves source-specific
-  quantities and command roles for four development entries; all eight opening mappings remain
-  blocked. Next is their boundary/membership specification ([roadmap](docs/roadmap.md)).
+  quantities and command roles for four development entries. Their
+  [boundary/membership specification](docs/napoleonic-boundaries-v1.md) separates initial contact,
+  later siege phases and troop availability; all eight complete opening mappings remain unresolved.
+  Next is a bounded authority/army-identity mapping ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 

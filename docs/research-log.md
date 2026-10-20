@@ -3815,3 +3815,49 @@ sources, frozen frame/cohort/evaluation partition and stored numerical results r
 calibration stays 47 prepared/unscored tasks. The next recommended task is a bounded contact,
 area, availability and ordering specification for the same four entries/eight sides, retaining
 unknowns where existing passages do not establish a mapping, before expanding extraction.
+
+## Naples opening-boundary/membership specification v1 (2026-10-19)
+
+Completed the owner's accepted next step for the same four development entries/eight sides.
+The [scope](../data/napoleonic/boundaries-v1/scope.json) binds the frozen frame, cohort,
+evaluation partition, four dossiers and immutable ledger-design v1 records. No source was
+fetched, added or re-registered; no dossier or prepared dossier packet changed.
+
+- [Specification](napoleonic-boundaries-v1.md): one proposed contact/area/availability rule for
+  both sides, with initial encounters, investments, formal battery openings and later states
+  kept distinct. Named local areas have explicit outer-limit unknowns; no invented radius,
+  march speed, synchronized clock or whole-town combatant population.
+- [Source-bound records](../data/napoleonic/boundaries-v1/records.json): 40 adopted passages
+  checked against 23 existing pinned page images, a frozen closure of 51 complete metadata
+  records, 29 source-qualified events, 18 before/after relations, seven shared scenarios and
+  30 membership cases. All 43 old strength alternatives remain indexed. These are worked cases,
+  not exhaustive atomic extraction, independent review or a yield sample.
+- **Result:** six conditional local component candidates, four area exclusions, one population
+  exclusion, two timing exclusions and 17 unresolved cases. All eight complete joint opening
+  mappings and force/person/army selections remain unresolved/null; zero complete candidate
+  engagements or model rows. A component at an investment marker does not prove hostile contact.
+- **Material findings:** Koch's approach contacts precede the main Campo Tenese attack; Damas's
+  reported 2 pm is not a synchronized earlier-contact clock. Bunbury's Maida artillery exchange
+  precedes the riverside skirmish and main clash; the 20th light company, Ross's body and tower
+  guards have distinct membership questions. Gaëta's initial rifle fire, 4 March battery
+  construction, July garrison fire and 7 July formal opening cannot be collapsed. Amantea's
+  later departing columns fail an explicit 18 December investment scenario; the 4,700 sum
+  remains unestablished for a later formal opening. Colletta's initial dawn assault is undated;
+  only a subsequent night assault is explicitly placed in December. Neither is independently
+  aligned to Koch's 3–8 December attempt or placed before 18 December. This refines v1's
+  month-only shorthand while retaining the bound record.
+- **Unknowns retained:** nonparticipation does not imply absence; prior presence does not prove
+  continued availability; a later presence report does not establish an arrival clock. No edge
+  is invented between Koch and Damas's clocks, Gaëta's July state epoch and the onset of garrison
+  fire, or Reynier's column and an exact formal trench opening.
+- **Implementation/verification:** an offline standard-library checker and deterministic
+  [report](../artifacts/napoleonic-boundaries-v1.md), integrated through `make check` and
+  `make reproduce` without changing v1's bound CLI/checker/tests. Twenty-three focused tests
+  passed; full validation and preservation results are recorded in the
+  [primary record](../data/napoleonic/boundaries-v1/verification.json).
+
+The work is primary-verified. No subagent, separate reviewer, second-opinion prompt, calibration
+judgment, new synthetic job or Napoleonic historical outcome fit ran. The 273/52 numerical
+reservation and prior model results remain unchanged. Stop this boundary step here; the next
+recommended task is the same four entries' person/authority and army-continuity mapping, with
+remaining blockers exposed before wider extraction.

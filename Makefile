@@ -4,8 +4,10 @@ PYTHON ?= python3
 check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship check
+	$(PYTHON) -m generalship.napoleonic_boundaries
 
 reproduce:
+	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:
