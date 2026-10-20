@@ -1,0 +1,37 @@
+{
+  "kind": "napoleonic_loss_measurement_pilot_protocol",
+  "version": 1,
+  "grain": "one frozen entry and source side; loss quantities remain separate observations",
+  "expected_entries": 22,
+  "expected_sides": 44,
+  "side_orientation": "A is France and its allies, using frozen french_side; retain printed winner/loser columns only as provenance",
+  "categories": [
+    "killed",
+    "wounded",
+    "killed_and_wounded",
+    "captured",
+    "missing",
+    "reported_personnel_total",
+    "personnel_percent",
+    "officer_subset",
+    "guns",
+    "flags",
+    "other_material"
+  ],
+  "rules": [
+    "Missing or unstated is null, never zero. Explicit printed zero retains its evidence.",
+    "Never split a combined killed-and-wounded count into separate categories.",
+    "Preserve wounded prisoners, officer subsets, surrender populations and alternative time spans; do not sum overlapping categories.",
+    "Retain printed aggregates and exact source arithmetic disagreements. Derived arithmetic is labelled and never repairs the source.",
+    "Retain qualifiers, ranges, approximate figures, units, population, event scope and source notes.",
+    "Do not turn material counts or percentages into personnel, and do not silently derive missing personnel counts from strength.",
+    "Treat source-local counts as reported claims, not historically adjudicated losses.",
+    "Keep existing dossier disputes as linked, unreconciled alternatives; reinspection status must be explicit.",
+    "Assess named component pair coverage separately by engagement type. No arbitrary coverage threshold substitutes for comparable definitions."
+  ],
+  "universal_measure_go_rule": "A single common loss measure is supportable for the whole fixed group only if its explicitly defined personnel category and population/time interpretation are supported on both sides of every entry without zero imputation, overlapping-category sums, unresolved arithmetic or mixing material and personnel. Report narrower component coverage even when this fails.",
+  "interpretation": "A supported loss component describes attrition recorded by this source, not strategic value, commander credit or campaign contribution. No utility weights or graded victory score are assigned.",
+  "historical_fits": false,
+  "new_model_inputs": false,
+  "reserved_final_use": false
+}

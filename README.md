@@ -56,6 +56,9 @@ As of 2026-10-20:
   A subsequent [fixed temporal correction test](docs/research/napoleonic-temporal-calibration-run-v1.md)
   **fails its continuation rule**: it worsens the main 1808–1812 scores against the expanding
   force baseline. The favorable reused 1813 result cannot rescue it; this correction branch is closed.
+  The [1805 loss-measurement pilot](docs/research/napoleonic-1805-loss-feasibility-v1.md) preserves
+  all 22 entries but supports paired killed/wounded counts in only six: a common loss-based
+  grade across the complete group is not supported. Components and unknowns remain visible.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The

@@ -4895,3 +4895,143 @@ and **20 output hashes** are unchanged. The receipt now has **1,175 inputs**,
 adding only the actual run authorization and saved-result verifier module.
 The earlier dataset, source snapshots, dossiers, prepared packets, proposals,
 executing code, numerical runs and diagnostic all retain their bytes.
+
+## 1805 loss-measurement feasibility pilot v1, 2026-10-20
+
+The owner accepted the bounded recommendation to audit all **22 entries of
+`third-coalition 1805`** using existing pinned passages, preserve loss categories,
+missingness and disputes, and end with one go/no-go decision on a comparable
+loss-based outcome. The verbatim reply was **“Sounds good, go ahead.”** The
+new [scope](../data/napoleonic/loss-pilot-v1/scope.json) records that actual
+authorization and the exact existing development IDs. The scope and
+[protocol](../data/napoleonic/loss-pilot-v1/protocol.json) were written before
+the complete loss extraction. No historical fit, final-set numerical use,
+new source fetch or broader extraction is authorized. One controlling source
+family, `bodart-kriegs-lexikon-1908`, is used for numerical extraction.
+
+The primary inspected all **eight entry images, printed pp. 363–370**, and
+**three convention images, pp. 45–47**. The new
+[source record](../data/napoleonic/loss-pilot-v1/observations.json) retains
+**72 entry/footnote passages**, **seven convention passages**, exact locators,
+source metadata hashes, image IDs/hashes and **140 typed quantities**. This is
+primary verification, not a separate historical review. Copies and page images
+remain one family. All 22 entries / 44 A/B sides are retained, including the
+nine sides with no numerical personnel-loss observation.
+
+**Decision: no-go for one common loss-based grade across the complete group.**
+The [report](research/napoleonic-1805-loss-feasibility-v1.md) and
+[measurement JSON](../artifacts/napoleonic-1805-loss-pilot-v1.json) distinguish
+source presence from comparable measurement:
+
+| All-ranks component | Sides with a figure / 44 | Paired entries / 22 |
+| --- | ---: | ---: |
+| Separate killed | 0 | 0 |
+| Separate wounded | 0 | 0 |
+| Combined killed and wounded | 16 | 6 |
+| Captured | 15 | 1 |
+| Separate missing | 0 | 0 |
+| Reported aggregate or unsplit personnel loss | 28 | 10 |
+
+Some numerical personnel-loss observation exists on **35/44 sides** and on
+both sides of **14/22 entries**. Missingness is asymmetric: **8/22 A sides**
+and **1/22 B sides** have no numerical personnel-loss observation. A is France
+and its allies, using the unchanged frozen side orientation. These are source
+coverage counts, not zero historical casualties or an error-rate estimate.
+Combined killed/wounded figures are never split. Detailed officer tables,
+omitted from the existing raw transcription, are not all-ranks breakdowns;
+their omission is explicit. Headline officer subsets are retained separately.
+
+The six paired killed/wounded entries are `B363a`, `B363b`, `B365c`, `B367a`,
+`B368c` and `B369c`. Only **Verona (`B365c`)** has numerical prisoner figures
+and both printed killed/wounded-plus-prisoner aggregates with matching
+source-declared composition. The ten co-reported total pairs otherwise mix
+unspecified composition, blood losses, prisoner subsets and surrender/status
+claims. Complete coverage with one shared definition is absent; no arbitrary
+sample-size threshold substitutes for that requirement.
+
+The images support three narrative captivity observations: Memmingen's 6,000,
+Ulm's 24,000 and Trochtelfingen's 1,700 refer to explicitly named populations
+entering captivity. They are source-local co-reference observations, not fills
+of the old frame's loss columns. Ulm separately permits conditional officer
+return and reports French blockade/bombardment losses over 12–17 October.
+Dornbirn's named 4,000 may withdraw freely to Bohemia under a one-year
+non-service condition; that strength is not coded as a prisoner loss or proof
+of later compliance. Castelfranco retains its fighting-plus-capitulation scope.
+
+Nested quantities stay separate. Hollabrunn's 1,800 prisoners are within its
+approximately 3,000 personnel-loss total; no 4,800 total or inferred 1,200
+killed/wounded count is created. The Austerlitz 6,000 Austrian losses are within
+the 36,000 coalition total, with their own 16,000 Austrian strength denominator.
+Officer subsets, guns, flags/eagles, ammunition wagons and horses are not
+added into all-ranks losses. **Ten printed personnel sums reconcile**, but
+source arithmetic does not prove historically unique people.
+
+All **19 printed personnel-percentage observations** are retained beside
+their count arithmetic. The original images confirm, among others:
+
+- Haslach: 1,500 losses / 6,000 strength gives **25%**, while the source prints **32%**.
+- Dürnstein: 6,600 / 8,000 gives **82.5%**, while the source prints **88%**.
+- Caldiero: 8,000 / 46,000 gives **17.391304%**, while the source prints **18.4%**.
+
+Both printed counts and percentages remain unchanged. Small residuals are not
+automatically labelled errors; rounding and alternative unstated denominators
+remain possible explanations, not established repairs. For Dürnstein's
+arithmetic only, this pilot records the explicit 25,000 / 8,000 strength-table
+row with its own citation. The older benchmark selected no denominator for
+that entry. Its dataset, frame extracts, eligibility and results are preserved;
+the new source-local denominator is not admitted as a predictor or silently
+installed into any frozen input. No missing casualty count is inferred from
+a percentage.
+
+All 22 existing dossiers are linked by SHA-256, with their outcome-claim IDs
+and statuses retained. The three existing disputed outcome pointers are
+`B363c/side-a-victory-claim`, `B364a/date-of-captures` and `B367a/koch-indecisive`.
+Their underlying non-Bodart passages were **not re-inspected in this pilot**;
+they remain unreconciled prior records, not new source-verified alternatives
+or silently resolved disputes. No dossier or prepared packet evidence changed.
+
+The [companion notebook](research/napoleonic-1805-loss-audit-v1.ipynb) executes
+four code cells top to bottom using only the Python standard library. It
+recomputes the principal coverage, preserves unknowns/subsets and independently
+rechecks the 19 percentage calculations. All saved stdout outputs match a
+fresh execution. Notebook-format fields were validated directly because
+optional `nbformat`, `nbclient` and `nbconvert` are absent; no dependency was
+installed. A static HTML preview generated from the saved notebook was inspected
+in the in-app browser: summary, source/assumption text, counts, component table
+and arithmetic examples are readable. Tables are used because exact definitions
+and denominators matter here; a chart would not add information to this small audit.
+
+All **ten focused tests passed**. They cover complete membership and quantities,
+refusal of changed frozen records or a reserved-final ID, literal/value and unit
+checks, wrong-entry/source-side anchors, unknown versus an explicit zero fixture,
+combined-category preservation, nested subsets, the distinction between
+capitulation and explicit captivity, direct denominator side assignment, and
+the notebook's format/saved outputs/top-to-bottom execution. Patching the model
+fitters and outcome loader confirms that this audit invokes none of them.
+
+Full `make check` passed: **423 tests in 270.019 seconds**, followed by all
+repository data-contract and generated-report checks. `make reproduce` completed
+successfully. A final preservation audit compared all **8,061 prior tracked
+files**: only the Makefile, README, roadmap, research log and build receipt
+changed, alongside eight new pilot files. All **1,175 prior input hashes**,
+**5,667 source bindings** and **20 output hashes** are unchanged. The receipt
+adds only the pilot scope, protocol, observations and audit module (1,179 inputs
+now). All **76 local report links** resolve; `git diff --check` passed.
+
+The raw source remains `bodart-1908-transcription-v1`, SHA-256
+`bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986`.
+The new source-local observation record has SHA-256
+`6aab931bff48695c71e4d2a9ef4e52d56e5e081a97494afaadd15f2b5cc776b8`.
+No source was added or fetched, so no source-additions entry is needed.
+Source selection, rounded and qualified totals, uncertain clock/population,
+strength-dependent winner coding and one compiler family remain limitations.
+This single complete group does not establish feasibility or coverage across
+all 273 development entries. Attrition alone supplies no strategic value,
+readiness, objective achievement, causal command credit or campaign contribution.
+
+**Stop here:** retain the source-local component table and the no-go result.
+No common scalar grade, historical model, new admitted input, final-set use,
+new source search or wider extraction follows automatically. All 52 final
+entries remain reserved. The failed probability-correction branch, stopped
+appointment work, paused opening research and prepared/unscored extraction-review
+sample are unchanged. No second-opinion prompt, separate review or subagent ran.

@@ -231,6 +231,20 @@ baseline. No alternate calibration/window search, final evaluation, commander mo
 evidence extraction is queued by the failed result. The earlier evidence and numerical records,
 paused opening work, closed appointment branch and prepared extraction-review sample are unchanged.
 
+**Done (2026-10-20):** the bounded [1805 loss-measurement pilot](research/napoleonic-1805-loss-feasibility-v1.md)
+inspects all 22 entries / 44 sides in `third-coalition 1805`, using one existing Bodart family.
+It retains 140 typed quantities from 72 entry/footnote passages plus seven source conventions,
+checked on 11 pinned images. Numerical personnel-loss observations exist for 35/44 sides and
+14/22 pairs, but paired killed/wounded counts cover only 6/22 entries and prisoner counts 1/22.
+Only Verona has both printed killed/wounded-plus-prisoner totals with matching source-declared
+composition. Categories, missingness, conditional surrender, subsets and printed percentage
+discrepancies remain explicit. The three existing disputed outcome-claim pointers are retained,
+without re-adjudicating their sources. **No-go for one common loss-based grade across this group.**
+
+The source-local component table is retained and this pilot stops. It does not estimate feasibility
+across the entire development cohort or strategic value. No model, new admitted input, source fetch,
+frozen-input correction or final-set use follows. Broader extraction is not automatically queued.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -241,8 +255,9 @@ run authorization are still required.
 
 ## Open owner decisions
 
-- **Graded outcomes:** see [owner ideas](#owner-ideas-to-design-later). Bodart's loss figures
-  could supply the margins later.
+- **Graded outcomes:** the complete 22-entry [1805 pilot](research/napoleonic-1805-loss-feasibility-v1.md)
+  does not support one common loss-based grade. A broader strategic-outcome approach remains
+  undecided; see [owner ideas](#owner-ideas-to-design-later).
 
 ## The American Civil War: where things stand
 

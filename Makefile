@@ -13,6 +13,7 @@ check:
 	$(PYTHON) -m generalship.napoleonic_forward_diagnostic
 	$(PYTHON) -m generalship.napoleonic_temporal_calibration
 	$(PYTHON) -m generalship.napoleonic_temporal_calibration_report
+	$(PYTHON) -m generalship.napoleonic_losses
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
@@ -24,6 +25,7 @@ reproduce:
 	$(PYTHON) -m generalship.napoleonic_forward_diagnostic --write
 	$(PYTHON) -m generalship.napoleonic_temporal_calibration --write
 	$(PYTHON) -m generalship.napoleonic_temporal_calibration_report --write
+	$(PYTHON) -m generalship.napoleonic_losses --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:
