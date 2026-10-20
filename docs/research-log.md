@@ -3861,3 +3861,45 @@ judgment, new synthetic job or Napoleonic historical outcome fit ran. The 273/52
 reservation and prior model results remain unchanged. Stop this boundary step here; the next
 recommended task is the same four entries' person/authority and army-continuity mapping, with
 remaining blockers exposed before wider extraction.
+
+## Naples person/authority and army-continuity mapping v1 (2026-10-19)
+
+Completed the owner's accepted bounded follow-on for the same four development entries/eight
+sides. The [scope](../data/napoleonic/authority-v1/scope.json) binds both preceding designs,
+records and verification chains. Existing raw sources, source registry, dossiers, prepared
+packet, earlier code/reports and numerical results retain their bytes.
+
+- [Mappings](../data/napoleonic/authority-v1/mappings.json): all 28 old command-role observations
+  retained with their original labels, scopes and times; two additional examples from the already
+  pinned Gaëta capitulation describe Masséna's siege-corps command and Franceschi's delegated
+  powers. Thirty appearances are not thirty people or extra engagement weights. All 41 adopted
+  passages were re-inspected on 24 existing pinned images. The two frozen metadata snapshots
+  are reused; four additional existing records (Koch pp.187/190 transcriptions and facsimiles)
+  are frozen in a supplement. No source was fetched or registered; the family ceiling is unchanged.
+- **Identity result:** four source-local co-references (Damas in Koch's continuous Campo Tenese
+  episode, Stuart in Bunbury's expedition, Masséna and Hotz within the capitulation) and eight
+  unresolved cross-source/entry/title/role hypotheses. No global person ID is installed. Literal
+  Hotz/Storz, Hesse variants, Stuart/Stewart, Mirabelli, recurring Reynier/Verdier, implicit marshal
+  and the cavalry/staff Franceschi references keep their stated uncertainty.
+- **Authority result:** five reconciliation cases preserve council versus local direction,
+  expedition versus field orders, Gaëta troop command/superior direction/delegation and governor
+  succession, and Amantea's broader command versus investment/column leadership. Gardanne's
+  appointment and Masséna's visit do not establish an exclusive transfer. The capitulation's
+  18 July, 11 pm label is not an appointment or succession clock. No responsible person is selected.
+- **Organization/continuity result:** three source-reported organization/office contexts and
+  all 12 same-side inter-engagement pairs recorded; zero persistent army links established.
+  First/second corps, local divisions, siege troops, detachments and staff offices do not resolve
+  the required army-entity level or continuous lineage. No claim that all pairs are different armies.
+- **Admission result:** all eight complete opening force/person/army mappings remain blocked;
+  zero complete candidate engagements or emitted model rows. The missing joint boundary,
+  complete population, person/authority mapping and army definition/continuity stay explicit.
+- **Verification:** the offline standard-library checker replays both parent contracts and checks
+  exact role/identity-question/side/pair accounting, quotations, source-local link constraints and
+  non-promotion. The 21 focused tests passed; final repository validation, reproduction and
+  preservation results are in the [primary record](../data/napoleonic/authority-v1/verification.json).
+
+The work is primary-verified, with no subagent, separate review, second-opinion prompt, new
+synthetic job, calibration scoring or Napoleonic historical fit. Stop this measurement pilot
+here. The next recommended action is a mechanical blocker inventory across the 273 development
+entries by complete campaign, to choose the next bounded measurement batch without claiming
+uninspected semantic reconciliation or selecting on the 52 reserved final entries.

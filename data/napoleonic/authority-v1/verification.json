@@ -1,0 +1,100 @@
+{
+  "kind": "napoleonic_authority_primary_verification",
+  "version": 1,
+  "verification": "primary-verified",
+  "verified_at": "2026-10-19",
+  "independent_review": false,
+  "authorizes_feature_admission": false,
+  "historical_outcomes_fitted": false,
+  "bindings": {
+    "inputs": {
+      "data/napoleonic/authority-v1/mappings.json": "eb40cf4628603c46c3d3a4ad686b1112ea24e0507602f69e1571376114f9ebb7",
+      "data/napoleonic/authority-v1/scope.json": "489f98772a415c2cc0f496462b96ceadf250a011fe506654d17ad4035ef60e32",
+      "data/napoleonic/authority-v1/source-supplement.json": "1363844e576fd81cd09d2d9deeda3f7fb8c7a73288853cf91f1132ff0ec1598c",
+      "data/napoleonic/boundaries-v1/records.json": "a3227d0f7c71dcdb594202cb524f6d59b2ef8377bd9c7b8dfb2bf3e63797b278",
+      "data/napoleonic/boundaries-v1/scope.json": "d00148df83c8f2c311eceb958b4dbcfb0b9db32ae0c638aabce482b31bbd4d12",
+      "data/napoleonic/boundaries-v1/source-snapshot.json": "7dfca53b184e87146504d0d6a362cf0a501ce424c2feb018104f3a5d40803ca8",
+      "data/napoleonic/boundaries-v1/verification.json": "41eb5b461c48e897827585be50f0e6773db13b5a6316a4b96bde91bd4c7852f7",
+      "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+      "data/napoleonic/evidence/B370c.json": "f9348556da339253fcc63de9d959789a27c6fb7b56e2be9b560b4835f00db014",
+      "data/napoleonic/evidence/B370d.json": "641343559ad8c40ba705ccb9959f15eb28061f33be1d179f7f25f9ce31ae2c49",
+      "data/napoleonic/evidence/B371a.json": "8a0fe28d433e4943e875bf0555f173c0c4d5ddfbe6623cb3316c04d7ec5c7b7f",
+      "data/napoleonic/evidence/B379c.json": "848f3646d8f72f9750ca07a6cb3e43eb21302f96fa80e75bee79f4bcdd138825",
+      "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+      "data/napoleonic/ledger-design-v1/examples.json": "21b9059b4b6def3dfa032da0c514b9a34beaab13c47ee700907078270b6e840d",
+      "data/napoleonic/ledger-design-v1/scope.json": "10a41b9dd7234d9259d16d8bc0a0ac9876b66e02940b532fa161b92bc27f8e96",
+      "data/napoleonic/ledger-design-v1/source-snapshot.json": "c0db418a0af73966d9c7071fe20a4169c38b59afce4ae41f0de69730360a3efe",
+      "data/napoleonic/ledger-design-v1/verification.json": "04555f57c8e2d37fa4e02c952b70c1a696643adfd0d8675ccd9c4938369025e2",
+      "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+      "docs/napoleonic-authority-v1.md": "da7512adf082a3a134d8dc3c8d467f9c365047fadcb9042efb73ef04bea0e38e",
+      "docs/napoleonic-boundaries-v1.md": "1212759677c2cc380d04198435264165e1763b746c087516e00937c5bcf7295c",
+      "docs/napoleonic-ledgers-v1.md": "79641ce66734fd8084df0bdfb6533cec143404db58687d648af85b4c0eafb442"
+    },
+    "code": {
+      "generalship/napoleonic_authority.py": "bed9dfa6e91938186576e0a11cfe07b6224b139c60632a50d8e8301f31c18fb4",
+      "tests/test_napoleonic_authority.py": "896134a0297aaa1b7c0ae20b2fe3dca25530c8604d61f93a1a6ad9efe74b9db0"
+    }
+  },
+  "inspected_image_ids": [
+    "bodart-1908-p370-image-v1",
+    "bodart-1908-p371-image-v1",
+    "bodart-1908-p379-image-v1",
+    "bunbury-1854-p235-image-v1",
+    "bunbury-1854-p240-image-v1",
+    "colletta-1856-v2-p28-image-v1",
+    "colletta-1856-v2-p30-image-v1",
+    "colletta-1856-v2-p31-image-v1",
+    "colletta-1856-v2-p32-image-v1",
+    "koch-massena-t5-p169-image-v1",
+    "koch-massena-t5-p173-image-v1",
+    "koch-massena-t5-p174-image-v1",
+    "koch-massena-t5-p175-image-v1",
+    "koch-massena-t5-p176-image-v1",
+    "koch-massena-t5-p187-image-v1",
+    "koch-massena-t5-p189-image-v1",
+    "koch-massena-t5-p190-image-v1",
+    "koch-massena-t5-p196-image-v1",
+    "koch-massena-t5-p223-image-v1",
+    "koch-massena-t5-p229-image-v1",
+    "koch-massena-t5-p280-image-v1",
+    "koch-massena-t5-p281-image-v1",
+    "koch-massena-t5-p282-image-v1",
+    "koch-massena-t5-p422-image-v1"
+  ],
+  "scope_note": "All 41 adopted passages re-inspected on 24 existing pinned page images; 28 old roles plus two capitulation examples; no new registered source or fetched raw file.",
+  "identity_limit": "Four source-local co-references do not create global person IDs. Eight identity hypotheses and all 12 cross-entry army-continuity pairs remain unresolved.",
+  "authority_limit": "No date of a document, visit or departure is used as an exact appointment/transfer clock; no rank-based or whole-interval commander assignment.",
+  "validation": {
+    "status": "passed",
+    "python": "3.14.7",
+    "make_check": {
+      "exit_code": 0,
+      "tests": 318,
+      "seconds": 224.031
+    },
+    "focused": {
+      "exit_code": 0,
+      "tests": 21
+    },
+    "make_reproduce": {
+      "exit_code": 0
+    },
+    "logs": {
+      "data/napoleonic/authority-v1/validation/check.log": "e28ad3c86658343168026bafdc474575706cf5a9f5ff7c0cbb7a7cf56db327b0",
+      "data/napoleonic/authority-v1/validation/focused.log": "2928064b9bc25ec085376cb9d6c63eca4daf2bd4a3c7115c5e67413f6a12f4d5",
+      "data/napoleonic/authority-v1/validation/reproduce.log": "6b9971f151abc9a0036e82d90625c4ee7f4436ada31da5723d48f28facb25e3e"
+    }
+  },
+  "preservation": {
+    "base_commit": "2f36db149502bd5f27a958a9fb521b506b340e68",
+    "existing_protected_files_compared": 7715,
+    "unchanged": 7714,
+    "expected_changed_files": [
+      "artifacts/receipt.json"
+    ],
+    "source_registry_entries": 5667,
+    "napoleonic_dossiers": 325,
+    "note": "Compared every pre-existing data/artifact/module/test file and both earlier design documents by SHA-256; only the general receipt changes. Earlier verification chains also replay unchanged."
+  },
+  "source_policy": "All four supplement entries are exact copies of already registered metadata; no source registration, raw file, packet or dossier change."
+}

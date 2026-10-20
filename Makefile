@@ -5,9 +5,11 @@ check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship check
 	$(PYTHON) -m generalship.napoleonic_boundaries
+	$(PYTHON) -m generalship.napoleonic_authority
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
+	$(PYTHON) -m generalship.napoleonic_authority --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:

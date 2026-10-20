@@ -91,10 +91,19 @@ seven scenarios and 30 membership cases. Six local component candidates, seven c
 exclusions and 17 unresolved cases preserve the distinction between troops at contact, distant
 posts, later departures and later presence. All eight complete opening/force mappings remain
 unresolved; no force, person or army is selected. The old design and dossier bytes are unchanged.
-**Next recommended work:** a bounded person/authority and army-continuity mapping for these
-same four entries, identifying which remaining ambiguities prevent a usable force/command pair
-before expanding extraction. Further source research must name the specific admission decision
-it could change; unknowns alone do not restart historical deep dives.
+
+**Done (2026-10-19):** the same entries' [person/authority and army-continuity mapping](napoleonic-authority-v1.md).
+All 28 prior roles and two capitulation examples are mapped from 41 passages on 24 pinned images.
+Four source-local co-references are supported; eight identity hypotheses and all 12 same-side
+inter-engagement continuity pairs remain unresolved. Reported organization, troop command,
+superior direction, acting government and delegated negotiation stay distinct. No complete
+opening force/person/army pair is emitted. **Stop this four-entry measurement pilot here.**
+
+**Next recommended work:** a mechanical blocker inventory across the 273 development entries,
+grouped by complete campaign, to choose the next bounded measurement batch by reusable evidence.
+Record presence and inspection needs without claiming semantic reconciliation or using the
+52-entry final reservation for model selection. Further source research must name a specific
+admission decision it could change; unknowns alone do not restart historical deep dives.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

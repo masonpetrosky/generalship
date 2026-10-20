@@ -47,7 +47,9 @@ As of 2026-10-19:
   quantities and command roles for four development entries. Their
   [boundary/membership specification](docs/napoleonic-boundaries-v1.md) separates initial contact,
   later siege phases and troop availability; all eight complete opening mappings remain unresolved.
-  Next is a bounded authority/army-identity mapping ([roadmap](docs/roadmap.md)).
+  Their [authority/continuity mapping](docs/napoleonic-authority-v1.md) now separates reported
+  roles and source-local identities; no cross-engagement army link is established. This pilot
+  stops here. Next is a development-cohort blocker inventory ([roadmap](docs/roadmap.md)).
 
 ## How the research is produced
 
