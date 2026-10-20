@@ -44,10 +44,11 @@ As of 2026-10-20:
   fitted. The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The latest
-  [1805 appointment check](docs/research/napoleonic-1805-appointment-check-v1.md) recovers earlier
-  imperial direction, public aims and Murat's reported delegation with task orders. The overall
-  imperial-command comparison remains **not estimable**: boundary, mandate and replacement-pool
-  gaps remain, and OCR-only dates have not been promoted into a chronology.
+  [Murat delegation check](docs/research/napoleonic-murat-delegation-v1.md) supports specific
+  tasks and prescribed relative time conditions under imperial authority. His general-command
+  scope and effective appointment window remain unresolved. Both this candidate and the
+  [overall imperial pilot](docs/research/napoleonic-1805-appointment-check-v1.md) remain
+  **not estimable**; no resource/outcome extraction follows from the source checks.
 
 ## How the research is produced
 

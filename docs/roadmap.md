@@ -136,12 +136,20 @@ reported nomination/scope question and task orders, and an announced personal-co
 stay distinct. No new normalized date or comparison boundary is selected. The overall imperial
 pilot remains not estimable; its original record and all model inputs remain unchanged.
 
-**Next recommended work:** a separately scoped check of Murat's delegated operational
-appointment: can the same pinned correspondence establish its effective mandate/window
-while the Emperor's superior authority is retained? This is a different comparison unit,
-not a silent change to the imperial pilot or evidence of eligibility to replace the Emperor.
-Stop at the mandate/window result before resource or outcome extraction. Wider strict-opening
-research, new source fetching and numerical runs remain unqueued.
+**Done (2026-10-20):** the separately scoped [Murat delegation check](research/napoleonic-murat-delegation-v1.md)
+retains 13 passages in ten contexts from one existing family. Specific delegated tasks,
+conditional cross-corps coordination and prescribed relative time conditions are supported;
+general-command scope and an effective appointment window remain unresolved. The Emperor's
+superior authority is retained. No original pilot is revised, no replacement eligibility is
+inferred and no resource/outcome extraction begins. The source check stops here.
+
+**Next recommended work:** one bounded methodological go/no-go decision for a mission-defined
+pilot using the already inspected Rastatt park-cover instruction and its prescribed stopping
+condition. Declare force/task scope, retained superior authority, earlier preparation and any
+analytical window convention; keep prescribed and observed coverage distinct. Decide whether
+existing evidence supports the intended use, or reject the candidate. Stop at that decision.
+Further tenure research, resource/outcome extraction, source fetching, wider strict-opening
+research and numerical runs remain unqueued.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

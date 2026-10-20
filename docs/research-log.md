@@ -4143,3 +4143,71 @@ remain byte-identical; the only changed protected file is the general receipt. I
 exactly one added evidence-input binding, with all earlier inputs, output hashes and source
 bindings unchanged. The receipt's **1,151 inputs, 20 outputs and 5,667 source bindings** were
 rechecked. No new code or admission/test framework was introduced.
+
+## Murat delegated authority source check v1, 2026-10-20
+
+The owner accepted the roadmap recommendation to check Murat's delegated operational
+mandate/window with the Emperor's superior authority retained. The
+[new scope](../data/napoleonic/murat-delegation-v1/scope.json) was frozen before the new
+reading. It is a separate unit from the immutable imperial overall-command pilot;
+it does not establish Murat's eligibility to replace the Emperor. The
+[record](../data/napoleonic/murat-delegation-v1/record.json) and
+[memo](research/napoleonic-murat-delegation-v1.md) preserve the result.
+
+- **Coverage:** 13 adopted passages in ten contexts from one existing family,
+  `alombert-colin-1805`, using `alombert-colin-t2-ocr-v1`. Four clips explicitly reuse the
+  prior appointment supplement. Seven authority observations and five window findings
+  distinguish the uses. This is one design case, not an appointment-coverage estimate.
+  The 325-entry cohort, 273/13 development partition and 52/3 reserved-final partition
+  remain unchanged.
+- **Positive findings:** nomination and reported receipt coexist with the general-scope
+  question. Imperial instructions support Rhine security/preparations, conditional
+  coordination with Lannes, a prospective attachment, and a reported crossing-delay
+  power affecting named corps. The Emperor retains superior decisions. The Rastatt
+  order supplies protection/guard directions, headquarters residence until the park
+  passes, personal observation and reporting; the guard is under the park director
+  during movement. Separate mission orders specify flank cover and intelligence.
+- **Qualification:** in an undated letter, Murat reports receiving crossing orders as
+  cavalry-reserve commander while other corps receive direct orders, yet claims he
+  would act as lieutenant if the Emperor did not arrive and expects compliance. This
+  is neither superior confirmation nor proof of actual obedience or revocation.
+  Nomination, specific cross-corps powers and uncertainty about general command must
+  all remain visible.
+- **Time:** prescribed relative conditions are positive findings. Actual assumption,
+  passage, reporting and effective general-command transfer remain unestablished.
+  The undated letter is not assigned a neighboring date. Literal OCR headings remain
+  inspectable; all normalized document/event/receipt dates in the adopted passages
+  stay null. The arrival announcement is not an endpoint for every delegated role.
+- **Effort and stopping:** initial direct-correspondence reading plus one bounded
+  scope/transition follow-up in selected blocks of the same pinned parent. No new
+  source registration, fetch, facsimile inspection or metadata change; no source-additions
+  entry is needed. This is not a full-volume search or a claim of silence elsewhere.
+- **Decision:** specific tasks are supported, but the continuous general mandate and
+  effective appointment interval are unresolved. No analytical window is selected.
+  The whole appointment is not ready for resource/outcome extraction and remains
+  not estimable. Local authority retention does not require a global person ID or
+  full tenure. Replacements, inherited state, objective/outcome vectors and contribution
+  remain null; no model row or feature is emitted.
+
+Stop this source check here. The next recommendation is one methodological go/no-go
+decision about a mission-defined pilot using the existing Rastatt instruction and
+its prescribed stopping condition. Declare task/force scope, retained superior authority,
+earlier preparation and any analytical window convention; distinguish prescribed and
+observed coverage and reject the candidate if required coverage cannot be defended.
+No further tenure search, resource/outcome extraction, fetching or numerical run is
+queued automatically. Calibration remains prepared/unscored. No separate reviewer,
+subagent or second-opinion prompt ran; verification was by the primary.
+
+Validation: the new supplement's eight input bindings, source snapshot and canonical
+metadata/raw hashes, all 13 quote and ten context spans/hashes, line locators, four
+reused clips, evidence references, counts and null/non-promotion boundaries passed
+the explicit primary data replay. The new memo's bindings and local links were checked.
+The existing suite checks prior repository contracts, not this supplement's historical
+interpretations. **All 356 tests passed** (341.677 seconds); full `make check` and
+`make reproduce` exited successfully. Generated reports were inspected; their bytes
+and numerical results remain unchanged. Of **8,011 protected prior tracked files,
+8,010 remain byte-identical**; only `artifacts/receipt.json` changed. Its diff is exactly
+the two new scope/record input bindings. All earlier inputs and all **20 output hashes
+and 5,667 source bindings** remain unchanged; the new input count is **1,153**. Original
+pilots, dossiers, prepared packets, source registry, code, tests and earlier versioned
+records retain their bytes. No model job or new admission/test framework ran.
