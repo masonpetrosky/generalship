@@ -1,0 +1,38 @@
+{
+  "kind": "napoleonic-objective-pilot-protocol",
+  "version": 1,
+  "scope_path": "data/napoleonic/objective-pilot-v1/scope.json",
+  "scope_sha256": "a251a54edc75732cd1c0006653c3573cec55d00c2f795b867cbb83966b53bc0b",
+  "grain": "One source-qualified objective proposition within an entry side, with all four entries/eight sides retained in coverage. Propositions and cross-entry result references are not extra engagement weights.",
+  "evidence_rules": [
+    "Inspect every adopted quotation in its pinned section and any linked pinned facsimile; keep exact source ID, locator, raw hash, metadata hash and image hash.",
+    "Index all eight existing objective claims and retain the disposition of their citations; draft labels do not establish a prior objective or attainment.",
+    "Keep reported prior intent, a contemporaneously dated pre-action document, retrospective interpretation, speculative motive and inference from observed resistance distinct. A narrative reports an earlier intention without proving when it was recorded or known.",
+    "Keep prescribed action, intended military effect, broader goal and expected consequence distinct. Carrying out an attack is not proof of strategic benefit.",
+    "Record observed result separately, with source-qualified time/area and exact match or gap against the proposition. Victory, surrender, resistance or a later departure does not establish every objective.",
+    "Preserve alternative clocks, scopes, authorities and source dependence. Later events may illustrate follow-through but cannot be silently assigned to the battle or summed as independent outcomes.",
+    "Unknown objective, timing, criterion or result stays null with a reason. Do not invent a deadline, synchronised time, causal credit, ordinal score, utility weight, force-preservation total or replacement pool."
+  ],
+  "allowed_statement_kinds": [
+    "prescribed_action",
+    "intended_effect",
+    "broader_goal",
+    "expected_consequence",
+    "retrospective_commentary",
+    "inferred_disposition"
+  ],
+  "allowed_attainment": [
+    "reported_action_executed",
+    "reported_effect_observed",
+    "reported_effect_not_observed",
+    "reported_incomplete_or_mixed",
+    "not_established",
+    "not_assessable"
+  ],
+  "decision_rules": [
+    "Assess descriptive components separately from common graded outcomes. Retrospective source-supported components may be retained with their provenance limits.",
+    "A comparable grade requires defended objective/success criteria, population, timing and aggregation across the included cases; a tally of heterogeneous objectives supplies none of these automatically.",
+    "Report whole-group/side coverage and component-specific denominators. Do not treat more listed objectives as more opportunity, value or command contribution.",
+    "No numerical grade, new model input, historical fit, final-set use or automatic wider extraction is authorized."
+  ]
+}

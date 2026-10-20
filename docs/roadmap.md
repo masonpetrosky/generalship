@@ -245,6 +245,21 @@ The source-local component table is retained and this pilot stops. It does not e
 across the entire development cohort or strategic value. No model, new admitted input, source fetch,
 frozen-input correction or final-set use follows. Broader extraction is not automatically queued.
 
+**Done (2026-10-20):** the bounded [Naples objective/result pilot](research/napoleonic-naples-objective-pilot-v1.md)
+retains all four `third-coalition 1806` entries/eight sides, including Amantea's 1806–1807 interval.
+It separates 19 source-qualified propositions using 39 adopted passages, 26 inspected pinned
+images and four existing author families. Seven sides have a source-reported intention before
+the relevant action, with Gaëta's early refusal and later council kept distinct; one has only an
+inferred disposition. No adopted objective has a supplied, dated pre-action document; that
+does not rule out descriptive use of retrospective accounts. Eight success criteria stay null.
+The reported captures of Gaëta and Amantea remain separate from speed, redeployment and
+pacification; partial junction, directional retreat, conditional release and OCR limits remain
+explicit. **Retain the descriptive components; no common numerical grade is supported here.**
+
+This pilot stops with its table and feasibility decision. Prior records, model inputs and the
+52-entry final reservation remain unchanged. No wider extraction, source search, historical
+fit or reopening of the stopped appointment/opening branches is queued.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -257,7 +272,9 @@ run authorization are still required.
 
 - **Graded outcomes:** the complete 22-entry [1805 pilot](research/napoleonic-1805-loss-feasibility-v1.md)
   does not support one common loss-based grade. A broader strategic-outcome approach remains
-  undecided; see [owner ideas](#owner-ideas-to-design-later).
+  undecided. The [Naples objective/result pilot](research/napoleonic-naples-objective-pilot-v1.md)
+  supports source-qualified descriptive components, with no defended common value scale;
+  see [owner ideas](#owner-ideas-to-design-later).
 
 ## The American Civil War: where things stand
 

@@ -5035,3 +5035,126 @@ new source search or wider extraction follows automatically. All 52 final
 entries remain reserved. The failed probability-correction branch, stopped
 appointment work, paused opening research and prepared/unscored extraction-review
 sample are unchanged. No second-opinion prompt, separate review or subagent ran.
+
+## Naples objective-and-result pilot v1, 2026-10-20
+
+Completed the owner's accepted bounded next step: an objective/result pilot on
+all four engagements in frozen `third-coalition 1806` (Campo Tenese, Maida,
+Gaëta and Amantea), using existing pinned sources. The complete group/eight sides
+was fixed before the completed encoding. Amantea retains December 1806–February
+1807; this source group is neither one appointment nor a corpus-wide yield sample.
+The [scope](../data/napoleonic/objective-pilot-v1/scope.json) and
+[protocol](../data/napoleonic/objective-pilot-v1/protocol.json) preserve the
+accepted request, prior commit and exact input bindings.
+
+The [source-linked table and feasibility decision](research/napoleonic-naples-objective-pilot-v1.md)
+retain **19 source-qualified propositions** from **39 adopted passages**, checked
+against **26 existing pinned images** and four existing author families (Koch,
+Damas, Bunbury and Colletta). Every adopted quotation has a section character
+range, locator, raw/metadata hashes and image hashes where applicable. Each entry
+uses at most two narrative families plus its frozen Bodart frame context; no
+source was fetched or registered. Six adopted passages remain OCR-only, with
+that limitation visible. The source-additions log needs no new entry.
+
+All **eight prior objective claims and 49 citation indices** remain accounted for:
+22 cite an adopted excerpt or containing context; 27 remain prior-reference-only
+pointers. Those pointers are not new verified propositions or resolved disputes.
+No dossier, raw transcription, source metadata, existing packet or prior pilot
+record was changed. Purpose-specific encoding refines how the existing claims
+can be used; it does not silently revise their frozen statuses.
+
+The table separates prescribed action, intended effect, broader goal, expected
+consequence, retrospective commentary and inferred disposition. For **7/8 sides**,
+a source reports intent before the relevant action; **1/8** retains only an inferred
+disposition. Gaëta B also has a distinct later council intention; its early refusal,
+the general royal/regency command and the late council stay separate. None of the adopted objectives has a supplied, contemporaneously
+dated pre-action document (**0/8**). This is an inspected-evidence finding, not a
+claim that such documents never existed; retrospective source accounts can still
+support descriptive history. A reported event date does not date its recording
+or prove what a commander knew. Eight of 19 success criteria remain null.
+
+Material findings and retained limits:
+
+- **Campo Tenese:** Koch's council directive supports an ordered attack, not by
+  itself destruction of the entire corps or conquest of Calabria. His next-day
+  pursuit aim remains later than the battle's prior purpose. Damas's plan to
+  hold while joining the wings is separate from measured delay. His p. 396
+  account reports some joining and an advanced guard not joining; no complete
+  junction or no-junction replacement is made. Two quotations from the existing
+  full OCR selection were checked against the existing image because the old
+  figure transcription omits that paragraph. His later inch-by-inch judgment
+  remains commentary, not a documented prior mandate.
+- **Maida:** the reported advance, intended camp/flank maneuver, expectation of
+  retreat to Catanzaro, general insurrection and relief of Gaëta remain distinct.
+  The reported retreat is a qualified directional match, with no verified arrival
+  time or attributed causal effect. Movement from the camp prevents a battlefield
+  victory from proving the exact intended geometry. The later Gaëta agreement
+  and occupation do not show the anticipated relief through abandonment. This
+  cross-entry reference is not another battle weight or campaign credit.
+- **Gaëta:** a purpose to take the place can be linked to reported surrender on
+  18 July and entry on 19 July, with distinct source-qualified events. The printed
+  translated capitulation's dateline is an outcome document, not a prior objective
+  or appointment date. Its embarkation/non-service terms do not establish later
+  compliance or permanent destruction. Speed and redeployment remain unestablished
+  as mission achievements. The late council's OCR duration `dix4iait jours*` has no
+  allowed pinned p. 243 facsimile; the literal is retained and its numeric duration
+  stays null. No deadline or automatic failure is invented. Colletta's early
+  higher-command refusal and Koch's speculative origin explanation stay separate;
+  Hotz/Storz and exclusive whole-siege command are not reconciled.
+- **Amantea:** the renewed attack dispositions and reported capitulation support
+  a local capture component. Earlier attempts, the 18 December investment and
+  later siege clocks stay distinct. Koch's 33 days and Colletta's 40 excluding
+  the first assault are not averaged or made an efficiency denominator. Capture
+  does not prove regional pacification: a necessary-condition rationale is not
+  sufficiency. The defenders' fidelity language and resistance supply no adopted
+  prior operational mandate, deadline or relief criterion; that side remains in
+  the denominator with an inferred disposition.
+
+**Decision:** retain the descriptive objective/result components and explicit
+gaps. These sources do not defend a common numerical outcome grade, value scale
+or aggregation across these different tasks and windows. The relation labels
+are not ordinal scores or a tally of successes; unknown is not failure. Local
+results do not identify campaign contribution or a commander's causal share.
+
+The [companion audit notebook](research/napoleonic-naples-objective-audit-v1.ipynb)
+executes four code cells top to bottom using the standard library. It independently
+recounts the eight side keys, provenance/criterion coverage and relation categories,
+and checks the material partial/unknown cases. Saved stdout outputs match fresh
+execution. Notebook-format fields were validated directly: optional `nbformat`,
+`nbclient` and `nbconvert` are absent, and no package was installed. A static HTML
+preview generated from the saved notebook was inspected in the in-app browser;
+summary, data/scope notes, coverage, criterion table, partial-result checks and
+takeaways are readable. Exact tables suit this qualitative, explicitly table-scoped
+pilot; no meaningful numeric trend or ordered outcome chart is supplied.
+
+Primary verification corrected the initial timing summary: Colletta's existing
+context reports early defensive preparation/refusal and a general royal instruction
+to the regency. These now remain separate from the late council purpose. No new
+source or historical appointment decision was required.
+
+The ten focused tests check complete scope/side denominators; changed frozen bytes;
+source range/metadata/image bindings; prevention of fabricated pre-action documents,
+scores, normalized durations and criteria; commentary/resistance distinctions; all
+prior-citation dispositions; duplicate/cross-final references; the material partial
+cases; and notebook format, input hashes, saved outputs and fresh execution. Model
+fitters and outcome-loading functions are patched to confirm they are not invoked.
+
+Full `make check` passed: **433 tests in 248.448 seconds**, followed by all
+repository source/data-contract and generated-report checks. `make reproduce`
+completed successfully. A preservation audit compared all **8,069 prior tracked
+files**: only the Makefile, README, roadmap, research log and build receipt
+changed, alongside eight new pilot files. All **1,179 prior input hashes**,
+**5,667 source bindings** and **20 output hashes** are unchanged. The receipt
+adds only the pilot scope, protocol, observations and audit module (1,183 inputs
+now). All **37 local file links** and **64 internal passage links** in the report
+resolve. `git diff --check` passed.
+
+The final observation SHA-256 is
+`eed95ce2214a9aaca05c01a3817980da38bcfa6b4a15ae6d3b2e70d7faf8ce72`.
+
+**Stop here.** No source search, broader extraction, common scalar/ordinal grade,
+feature admission, historical fit or final-set evaluation follows automatically.
+All 52 final entries remain reserved. The earlier loss, strict-opening, identity,
+appointment/window and failed probability-correction records keep their dispositions.
+The work is primary-verified; no subagent, separate review, second-opinion prompt
+or calibration scoring ran.

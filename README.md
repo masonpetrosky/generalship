@@ -59,6 +59,9 @@ As of 2026-10-20:
   The [1805 loss-measurement pilot](docs/research/napoleonic-1805-loss-feasibility-v1.md) preserves
   all 22 entries but supports paired killed/wounded counts in only six: a common loss-based
   grade across the complete group is not supported. Components and unknowns remain visible.
+  The [Naples objective/result pilot](docs/research/napoleonic-naples-objective-pilot-v1.md)
+  retains 19 propositions across four engagements/eight sides. Local accomplishments and broader
+  expectations can be described, but the evidence does not support one common numerical grade.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The
