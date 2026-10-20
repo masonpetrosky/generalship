@@ -1,0 +1,5031 @@
+{
+  "kind": "napoleonic_combined_measurement_report",
+  "version": 1,
+  "verification": "primary-verified",
+  "bindings": {
+    "data/napoleonic/peninsula-1812-measurement-v1/scope.json": "71d28249ae01f09742370f5df8a238b71904f41df15ae6c30db5957a32cf4a58",
+    "data/napoleonic/peninsula-1812-measurement-v1/records.json": "20623489a5f9b20cfcbf6b91cbab3bc5ce765ed0045b8f7487f4a783e0e8d514",
+    "data/napoleonic/peninsula-1812-measurement-v1/source-snapshot.json": "180c1685d41b6db39a2ce6b5bd5676e27ddb87cbe9d3356e17b17a7bb01d59b1",
+    "docs/napoleonic-peninsula-1812-measurement-v1.md": "e1c7a3c9d2cba23f9530e2577b19218d8165a3f0cca118d5b867faee2c48868f",
+    "generalship/napoleonic_measurement.py": "dffa9f0cc79fa59adb212588e3d9c9cf10cea7be7248fa252d9757ccaf44aace",
+    "tests/test_napoleonic_measurement.py": "675c66f937d0993236c13291c8dec5327b7986d8c791013e1f2b40c28b6f7975"
+  },
+  "counts": {
+    "entries": 8,
+    "sides": 16,
+    "indexed_claims": 59,
+    "passages": 56,
+    "images": 28,
+    "source_metadata_records": 68,
+    "strength_observations": 39,
+    "known_strength_observations": 32,
+    "explicit_strength_unknowns": 7,
+    "authority_appearances": 43,
+    "source_local_co_reports": 6,
+    "arithmetic_checks": 7,
+    "blocked_sides": 16,
+    "complete_opening_pairs": 0,
+    "emitted_model_rows": 0
+  },
+  "records": {
+    "kind": "napoleonic_combined_measurement",
+    "version": 1,
+    "status": "measurement_only",
+    "scope_sha256": "71d28249ae01f09742370f5df8a238b71904f41df15ae6c30db5957a32cf4a58",
+    "design_sha256": "e1c7a3c9d2cba23f9530e2577b19218d8165a3f0cca118d5b867faee2c48868f",
+    "source_snapshot_sha256": "180c1685d41b6db39a2ce6b5bd5676e27ddb87cbe9d3356e17b17a7bb01d59b1",
+    "passages": [
+      {
+        "id": "p001",
+        "battle_ids": [
+          "B430a"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Ciudad-Rodrigo; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen (40.000 M.) unter Gen.-Lt. Mqs. Wellesley nehmen nach zweiwöchentlicher Beschießung die von 1.800 Franzosen unter Brig.-Gen. Baron Barrié verteidigten Festungswerke und die Stadt mit Sturm. Nach Einnahme der Stadt gaben sich die englischen Soldaten den größten Exzessen hin, indem sie unter anderem die Stadt nach deren Plünderung fast ganz einäscherten."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p430-image-v1",
+        "image_sha256": "ade665f32e4f54b7ceb18df957501b57cc2b6c70699008565ba0384fdf611cb3",
+        "english_interpretations": [
+          "Bodart side A (French): 1,800 garrison; side B (Anglo-Portuguese): 40,000.",
+          "French command: Barrié; opposing command: Wellesley."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430a",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430a",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p002",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Altafulla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (8.000 M.) unter Div.-Gen. Maurice Mathieu über die Spanier (10.000 M.) unter Gen.-Lt. Baron Eroles."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p430-image-v1",
+        "image_sha256": "ade665f32e4f54b7ceb18df957501b57cc2b6c70699008565ba0384fdf611cb3",
+        "english_interpretations": [
+          "Bodart side A (French): 8,000; side B (Spanish): 10,000.",
+          "French command: Maurice Mathieu; opposing command: Eroles."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p003",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p430",
+          "locator": "Bodart (1908), p. 430, Peniscola; full retained page image inspected",
+          "quote": "Die Franzosen (2.100 Inft., 400 Art. = 2.500 M.) unter Div.-Gen. Gf. Severoli zwingen die spanische Garnison (1.000 M.) unter Brigadier Don Pareia-Navarro zur Kapitulation, wonach der Besatzung freier Abzug bewilligt wurde. Die Franzosen fanden 66 Geschütze vor."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p430-image-v1",
+        "image_sha256": "ade665f32e4f54b7ceb18df957501b57cc2b6c70699008565ba0384fdf611cb3",
+        "english_interpretations": [
+          "Bodart side A (French): 2,500 (2,100 infantry, 400 artillery); side B (Spanish): 1,000 garrison.",
+          "French command: Severoli; opposing command: Pareia-Navarro."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430c",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430c",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p004",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Badajoz; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen (51.000 M. mit 92 Geschützen) unter Lord Wellington nehmen nach dreiwöchentlicher Beschießung die von 5.000 Franzosen unter Div.-Gen. Baron Philippon verteidigten Festungswerke mit Sturm. Die britischen Truppen befleckten ihren Sieg durch beispiellose Exzesse während der dreitägigen Plünderung der Stadt."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p431-image-v1",
+        "image_sha256": "4fdcb0eb82cce1357c0b1ed352ae7a26c95ddb9bded408c1ea0c2cfcef4d1379",
+        "english_interpretations": [
+          "Bodart side A (French): 5,000 garrison; side B (Anglo-Portuguese): 51,000.",
+          "French command: Philippon; opposing command: Wellington."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p005",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p431",
+          "locator": "Bodart (1908), p. 431, Salamanca; full retained page image inspected",
+          "quote": "Die Anglo-Portugiesen und Spanier (50.000 M.) unter Lord Wellington nehmen nach 10tägiger Beschießung die von 700 Franzosen mit 8 Geschützen unter Major Duchemin verteidigten Forts mit Sturm."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p431-image-v1",
+        "image_sha256": "4fdcb0eb82cce1357c0b1ed352ae7a26c95ddb9bded408c1ea0c2cfcef4d1379",
+        "english_interpretations": [
+          "Bodart side A (French): 700 garrison; side B (Anglo-Portuguese/Spanish): 50,000.",
+          "French command: Duchemin; opposing command: Wellington."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p006",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Castalla; full retained page image inspected",
+          "quote": "Sieg der Franzosen (4.000 M.) unter Div.-Gen. Harispe über die Spanier (10.000 M.) unter Gen.-Lt. J. O'Donnell."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p432-image-v1",
+        "image_sha256": "acf57c07f1b31fa698189c1988b618403aa34ba6d5d82a94ca9c484fd2e694f1",
+        "english_interpretations": [
+          "Bodart side A (French): 4,000; side B (Spanish): 10,000.",
+          "French command: Harispe; opposing command: J. O'Donnell."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p007",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "40.000 | Infanterie | 38.000"
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p432-image-v1",
+        "image_sha256": "acf57c07f1b31fa698189c1988b618403aa34ba6d5d82a94ca9c484fd2e694f1",
+        "english_interpretations": [
+          "Infantry: allied 40,000; French 38,000."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p008",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "6.000 | Kavallerie | 4.000"
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p432-image-v1",
+        "image_sha256": "acf57c07f1b31fa698189c1988b618403aa34ba6d5d82a94ca9c484fd2e694f1",
+        "english_interpretations": [
+          "Cavalry: allied 6,000; French 4,000."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "bodart-strength",
+            "citation_index": 1
+          }
+        ]
+      },
+      {
+        "id": "p009",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "60 Gesch. 46.000 | Gesamt-Stärke | 42.000 Gesch. 74"
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p432-image-v1",
+        "image_sha256": "acf57c07f1b31fa698189c1988b618403aa34ba6d5d82a94ca9c484fd2e694f1",
+        "english_interpretations": [
+          "Total strength: allied 46,000 with 60 guns; French 42,000 with 74 guns."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "bodart-strength",
+            "citation_index": 2
+          }
+        ]
+      },
+      {
+        "id": "p010",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p432",
+          "locator": "Bodart (1908), p. 432, Salamanca; full retained page image inspected",
+          "quote": "Gen.-Lt. Lord Wellington | Marschall Marmont"
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p432-image-v1",
+        "image_sha256": "acf57c07f1b31fa698189c1988b618403aa34ba6d5d82a94ca9c484fd2e694f1",
+        "english_interpretations": [
+          "French command: Marmont; opposing command: Wellington."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p011",
+        "battle_ids": [
+          "B441a"
+        ],
+        "citation": {
+          "source_id": "bodart-1908-transcription-v1",
+          "section": "p441",
+          "locator": "Bodart (1908), p. 441, Burgos; full retained page image inspected",
+          "quote": "Die französische Besatzung (2.000 M. mit 26 Geschützen) unter Brig.-Gen. Dubreton behauptet sich erfolgreich gegen alle Angriffe (5 Stürme) des anglo-portugiesischen Heeres (32.000 M. mit 42 Gesch.) unter Generalissimus Gen.-Lt. Lord Wellington."
+        },
+        "raw_sha256": "bf12437b6d19226ce127ce5d81e59d20358a5b1999ffe00f5ac6a8f8c20ef986",
+        "metadata_sha256": "de88431f09dedd86bd5b0b98c2a3e7fe17ea50db746bc5d22109b4220023c0f3",
+        "document_date": null,
+        "image_source_id": "bodart-1908-p441-image-v1",
+        "image_sha256": "e53293e44f24e31cb6cdd3135d69cc10216e62140c4749ca0d319ac8386a1905",
+        "english_interpretations": [
+          "Bodart side A (French): 2,000 garrison; side B (Anglo-Portuguese): 32,000.",
+          "French command: Dubreton; opposing command: Wellington."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "bodart-strength",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "bodart-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p012",
+        "battle_ids": [
+          "B430a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p587-figures-v1",
+          "section": "p587-s1",
+          "locator": "oman5, printed p. 587, Internet Archive leaf 642; retained page image inspected",
+          "quote": "CIUDAD RODRIGO. A. THE FRENCH GARRISON. The garrison, according to Belmas, iv. pp. 282–3, stood on the day of the investment as follows: 34th Léger, one battalion, 975 officers and men effective; 113th Ligne, one battalion, 577; Artillery, 2 companies, 168; Engineers, 15; Non-combatants (Civil officers, &c.), 36; Sick in Hospital, 163; Staff, 3. Total 1,937."
+        },
+        "raw_sha256": "25825749a1b19cba99ae44f55e5b388898c398cf5ea390ab326dc6215f52d9a4",
+        "metadata_sha256": "a638240da3b76f7306c528e11ac9364d5028a2ab7845b7944ea4008e6061a80d",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p587-image-v1",
+        "image_sha256": "6986b652e2072704997909787395fdd7760befe0ebdbd36a28f702fc7754b9ba",
+        "english_interpretations": [
+          "CIUDAD RODRIGO. A. THE FRENCH GARRISON. The garrison, according to Belmas, iv. pp. 282–3, stood on the day of the investment as follows: 34th Léger, one battalion, 975 officers and men effective; 113th Ligne, one battalion, 577; Artillery, 2 companies, 168; Engineers, 15; Non-combatants (Civil officers, &c.), 36; Sick in Hospital, 163; Staff, 3. Total 1,937."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430a",
+            "claim_id": "mediated-french-investment-return",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p013",
+        "battle_ids": [
+          "B430a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p165-selections-v1",
+          "section": "p165-s1",
+          "locator": "oman5, printed p. 165, Internet Archive leaf 196; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "The governor was General Barrie"
+        },
+        "raw_sha256": "36e0316419538b95adf43c68bcfda42e1898d091160b319591225f8824fc6aa4",
+        "metadata_sha256": "8a280920ead34bcc7bb837620f26cb4b79d25d7d0e25eb67ab21f1e113ea114b",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p165-image-v1",
+        "image_sha256": "34ee9671691bb2c47b178ec27eab55b5b93da8b840ce67b27e3be5fad59ce60a",
+        "english_interpretations": [
+          "The governor was General Barrie"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430a",
+            "claim_id": "barrie-governor",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p014",
+        "battle_ids": [
+          "B430a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p166-selections-v1",
+          "section": "p166-s1",
+          "locator": "oman5, printed p. 166, Internet Archive leaf 197; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Wellington's general plan was to follow the same line which Ney had adopted in 1810, i.e. to seize the Greater Teson hill, establish a first parallel there, and then sap down to the lower Little Teson"
+        },
+        "raw_sha256": "dd294b0d16acfb73097d270d43f08781d7c1625c43667aa0ce95eda11b357c9d",
+        "metadata_sha256": "e679d6505a10689a72f2416fe0b4b4f70712990fa17e988dc3de58948dadc997",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p166-image-v1",
+        "image_sha256": "8559e247071046ea4ccf19c1aae7dd096d1445377fffa94cf58716593fb3c92a",
+        "english_interpretations": [
+          "Wellington's general plan was to follow the same line which Ney had adopted in 1810, i.e. to seize the Greater Teson hill, establish a first parallel there, and then sap down to the lower Little Teson"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430a",
+            "claim_id": "wellington-siege-plan",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p015",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p224-figures-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected",
+          "quote": "Le général Maurice Mathieu, gouverneur de Barcelone, ayant été renforcé de la division Lamarque, se porta au secours de la place avec huit mille hommes, et vint camper à Villafranca le 22 janvier."
+        },
+        "raw_sha256": "013f9a8cceffb8209bc9f5e5bec5eed57ebf64cdfa8be7ac90b24073eebca786",
+        "metadata_sha256": "a496c88a2d37235a81bb6612e08620ae01fa345bf643a0343555b3eb97c49c60",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p224-image-v1",
+        "image_sha256": "bbcc1f86931531fb1d99dd7f270a34a363281044aca5bbfe9f9b6958aecb1c64",
+        "english_interpretations": [
+          "General Maurice Mathieu, governor of Barcelona, reinforced by Lamarque’s division, advanced to relieve the place with eight thousand men and camped at Villafranca on the twenty-second of January.",
+          "Mathieu, governor of Barcelona, reinforced by Lamarque’s division, advanced to relieve the place."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "mathieu-relief-force",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "mathieu-lamarque-task",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p016",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s1",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "En tanto Eróles sostuvo el 24 de enero otra acometida del enemigo. Embistiéronle los ge- J¡* Ag- üérales Lamarque y Maurice Mathieu en Alta- fulla , acorriendo ambos de Barcelona con su- periores fuerzas"
+        },
+        "raw_sha256": "81e6a720265caaa2ebe3da34d57b86c7d43419fdeebc5247ac36ff5ce36f7bad",
+        "metadata_sha256": "ecdde8356ff14f4f93b81ca3eb2d81627c8694a9c78d200c9ee8868c362801e0",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p11-image-v1",
+        "image_sha256": "185b76c0b047c262ef3091eeb2bfbf46ccfc569ba4f47b9cbc7d649e1f1f6cc5",
+        "english_interpretations": [
+          "Meanwhile Eroles sustained another enemy attack on the twenty-fourth of January. Generals Lamarque and Maurice Mathieu attacked him at Altafulla, coming from Barcelona with superior forces."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "eroles-local-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p017",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p224-selections-v1",
+          "section": "p224-s1",
+          "locator": "belmas0, printed p. 224, Internet Archive leaf 260; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "A son approche , le général Lacy était venu prendre position sur les hauteurs d'Altafîilla"
+        },
+        "raw_sha256": "d65c0eca98746edeca495b205b1f6b421e30e0b6bb2e2951d6692b6ed0e8f1b8",
+        "metadata_sha256": "6dc724b4ac7be89d8d2d63062c4642cac46c39546a791062635e4f976b9d4fde",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p224-image-v1",
+        "image_sha256": "bbcc1f86931531fb1d99dd7f270a34a363281044aca5bbfe9f9b6958aecb1c64",
+        "english_interpretations": [
+          "At his approach General Lacy had taken position on Altafulla heights."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "belmas-lacy-attribution",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p018",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s2",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Rehecho luego Eróles caminó por disposi- ción de Lacy al norte de Cataluña"
+        },
+        "raw_sha256": "81e6a720265caaa2ebe3da34d57b86c7d43419fdeebc5247ac36ff5ce36f7bad",
+        "metadata_sha256": "ecdde8356ff14f4f93b81ca3eb2d81627c8694a9c78d200c9ee8868c362801e0",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p11-image-v1",
+        "image_sha256": "185b76c0b047c262ef3091eeb2bfbf46ccfc569ba4f47b9cbc7d649e1f1f6cc5",
+        "english_interpretations": [
+          "After regrouping, Eroles marched north of Catalonia on Lacy’s instructions."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "lacy-superior-instruction",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p019",
+        "battle_ids": [
+          "B430b"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p11-selections-v1",
+          "section": "p11-s3",
+          "locator": "toreno5, printed p. 11, Internet Archive leaf 16; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "á las que señaló para punto de reunión el monasterio de Santas-Gruces"
+        },
+        "raw_sha256": "81e6a720265caaa2ebe3da34d57b86c7d43419fdeebc5247ac36ff5ce36f7bad",
+        "metadata_sha256": "ecdde8356ff14f4f93b81ca3eb2d81627c8694a9c78d200c9ee8868c362801e0",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p11-image-v1",
+        "image_sha256": "185b76c0b047c262ef3091eeb2bfbf46ccfc569ba4f47b9cbc7d649e1f1f6cc5",
+        "english_interpretations": [
+          "For them he designated Santas-Cruces monastery as the point of reunion."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430b",
+            "claim_id": "spanish-rally-point",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p020",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "toreno-1835-t4-1812-p332-figures-v1",
+          "section": "p332-s1",
+          "locator": "toreno4, printed p. 332, Internet Archive leaf 337; retained page image inspected",
+          "quote": "Tenia la plaza mil hombres de guarnición y estaba abundantemente provista."
+        },
+        "raw_sha256": "5d8a7f18a7351890f133cd9cc540e6aefa563ab170d7406e62b139c7bb04a6e3",
+        "metadata_sha256": "2a3053e9c0c6a5d1eda0133f68fb37eb46e584219c494a4ddf573e51c62f4312",
+        "document_date": null,
+        "image_source_id": "toreno-1835-t4-1812-p332-image-v1",
+        "image_sha256": "5ce4598d0614929fa911213311425e344c67331f36a37118c960f52ffc865ba4",
+        "english_interpretations": [
+          "The place had a thousand men in garrison and was abundantly supplied."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430c",
+            "claim_id": "spanish-garrison",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p021",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "suchet-1834-t2-1812-p235-selections-v1",
+          "section": "p235-s1",
+          "locator": "suchet2, printed p. 235, Internet Archive leaf 250; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le 20 janvier , le général Severoli s'établit devant la place avec deux bataillons de sa division , deux du 114e et un de la Vistule"
+        },
+        "raw_sha256": "f5bd5872ae51031ab9c050b221db11a6ed7b5f9298715cc3a8f8d3192d5dda70",
+        "metadata_sha256": "31c24518f6d3b412e2e2626ae53d54d404dd8b200f1d8b7432a3ba6b17989324",
+        "document_date": null,
+        "image_source_id": "suchet-1834-t2-1812-p235-image-v1",
+        "image_sha256": "ce232b1ae9dcc2c57da44daaa9c23afd448a918babd6210ce7bb72468db0fdec",
+        "english_interpretations": [
+          "On the twentieth of January Severoli established himself before the place with battalions of his division, the one-hundred-fourteenth and the Vistula."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430c",
+            "claim_id": "severoli-local-investment",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p022",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "toreno-1835-t4-1812-p332-selections-v1",
+          "section": "p332-s1",
+          "locator": "toreno4, printed p. 332, Internet Archive leaf 337; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Era gobernador Don Pedro García Navarro"
+        },
+        "raw_sha256": "9ff79b9f428d5dded32cb2939870e769e421aa43951227f6110e851b22b26e0b",
+        "metadata_sha256": "291ecc8d3e9908905c0ca148360da59c4669678b163f0b5792b2ad7b204c007e",
+        "document_date": null,
+        "image_source_id": "toreno-1835-t4-1812-p332-image-v1",
+        "image_sha256": "5ce4598d0614929fa911213311425e344c67331f36a37118c960f52ffc865ba4",
+        "english_interpretations": [
+          "The governor was Pedro Garcia Navarro."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B430c",
+            "claim_id": "garcia-navarro-governor",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p023",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p219-figures-v1",
+          "section": "p219-s1",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected",
+          "quote": "La garnison, forte de cinq mille hommes,"
+        },
+        "raw_sha256": "d1a771c8d89c2a71948b2e8380007e5f499d6f0cc78626278a15d7ada561fda7",
+        "metadata_sha256": "de4b95811dba4a62410f3a40714202197a6f03947d671d404503b8ee4d259ca8",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p219-image-v1",
+        "image_sha256": "2a61e99c188b4824e05b3c87443de2834bb911547bb4df0815a4167c82db45b3",
+        "english_interpretations": [
+          "The garrison, five thousand strong."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "belmas-garrison",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p024",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p593-figures-v1",
+          "section": "p593-s1",
+          "locator": "oman5, printed p. 593, Internet Archive leaf 648; retained page image inspected",
+          "quote": "THE SIEGE OF BADAJOZ, MARCH 15–APRIL 6, 1812. (A) STRENGTH OF THE FRENCH GARRISON ON MARCH 15. Staff 25; Infantry: 3/9th Léger 580, 1/28th Léger 597, 1/58th Ligne 450, 3/88th Ligne 600, 3/103rd Ligne 540, 64th Ligne (2 companies) 130, Hesse-Darmstadt (2 batts.) 910, Juramentados 54 = 3,861 infantry. Cavalry 42; Artillery 261; Engineers and Sappers 260; Sick in Hospital 300; Civil Departments, non-combatants, &c. 254. Total 5,003."
+        },
+        "raw_sha256": "b203b35a7957ac96fe0f80b4ea49d97ff063d9ecb26e1c1aeb8bb08a7c09fb28",
+        "metadata_sha256": "38aff514e43655225636ed6e1fe41a58f7f29c7f753f0f43c103fdaffe03844d",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p593-image-v1",
+        "image_sha256": "fee606322cc0df462353e85a1e2c700f707d067d45b11b19ee0588704fe4cc7e",
+        "english_interpretations": [
+          "THE SIEGE OF BADAJOZ, MARCH 15–APRIL 6, 1812. (A) STRENGTH OF THE FRENCH GARRISON ON MARCH 15. Staff 25; Infantry: 3/9th Léger 580, 1/28th Léger 597, 1/58th Ligne 450, 3/88th Ligne 600, 3/103rd Ligne 540, 64th Ligne (2 companies) 130, Hesse-Darmstadt (2 batts.) 910, Juramentados 54 = 3,861 infantry. Cavalry 42; Artillery 261; Engineers and Sappers 260; Sick in Hospital 300; Civil Departments, non-combatants, &c. 254. Total 5,003."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "mediated-march15-garrison-table",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p025",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p228-figures-v1",
+          "section": "p228-s1",
+          "locator": "oman5, printed p. 228, Internet Archive leaf 265; retained page image inspected",
+          "quote": "The investing corps of 12,000 bayonets was under Beresford,"
+        },
+        "raw_sha256": "ff4026a2e6bb61fa8872fd2360f77a7abaab84b21a108ff3c90dc83998dac7b3",
+        "metadata_sha256": "eef1db43bf985a6cc628794ebe49c7b1e8ab0ef658b28d6260e5693094699d58",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p228-image-v1",
+        "image_sha256": "dd4049634331514f3dcc4b4b647cef3fb2f6fb94c8b0b5a435303d674e8585e5",
+        "english_interpretations": [
+          "The investing corps of 12,000 bayonets was under Beresford,"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "beresford-investing-corps",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "beresford-local-role",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p026",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p219-figures-v1",
+          "section": "p219-s2",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected",
+          "quote": "Il en partit le 16 mars avec quarante-cinq mille hommes, et vint le jour même investir Badajoz."
+        },
+        "raw_sha256": "d1a771c8d89c2a71948b2e8380007e5f499d6f0cc78626278a15d7ada561fda7",
+        "metadata_sha256": "de4b95811dba4a62410f3a40714202197a6f03947d671d404503b8ee4d259ca8",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p219-image-v1",
+        "image_sha256": "2a61e99c188b4824e05b3c87443de2834bb911547bb4df0815a4167c82db45b3",
+        "english_interpretations": [
+          "He departed on the sixteenth of March with forty-five thousand men and invested Badajoz the same day."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "belmas-allied-army",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p027",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p219-selections-v1",
+          "section": "p219-s1",
+          "locator": "belmas0, printed p. 219, Internet Archive leaf 255; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le général Philippon, gouverneur"
+        },
+        "raw_sha256": "f7b476f56a846c4de652cbd6b22873ecacf0eb1f9fd523ca8a345666cd15f481",
+        "metadata_sha256": "8f5838d1e1c5a286accf7b52a24ccccf53ea7e9ab1980769132b9b0c898c8d8b",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p219-image-v1",
+        "image_sha256": "2a61e99c188b4824e05b3c87443de2834bb911547bb4df0815a4167c82db45b3",
+        "english_interpretations": [
+          "General Philippon, governor of the place."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431a",
+            "claim_id": "philippon-governor",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p028",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p229-figures-v1",
+          "section": "p229-s1",
+          "locator": "belmas0, printed p. 229, Internet Archive leaf 265; retained page image inspected",
+          "quote": "Il évacua Salamanque le 17 juin, laissant pour la défense du pont de la Tormès, sept cents hommes et vingt-quatre bouches à feu dans le fort Saint-Vincent et dans les redoutes de San-Gayétano et de la Merced."
+        },
+        "raw_sha256": "c4108b2d8527d148de8bb2e20b870c8396d2e3ac69c2930a8fd7eaa476a8d541",
+        "metadata_sha256": "7cc73e2a9c57c6602ddfcae36844bc2616d3e935d55affbb11bf2b8518d38560",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p229-image-v1",
+        "image_sha256": "607a5e5790998816952aed31e4c105789ad1fb7e26e2ec72423bfd6375e92cfa",
+        "english_interpretations": [
+          "He evacuated Salamanca on the seventeenth of June, leaving seven hundred men and twenty-four guns in Saint-Vincent and the San-Gayetano and La Merced redoubts to defend the Tormes bridge."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "belmas-fort-garrison",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p029",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p361-figures-v1",
+          "section": "p361-s1",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected",
+          "quote": "They made up a total of 800 men, and had thirty-six guns in position,"
+        },
+        "raw_sha256": "46fa8ea358acff2cb29679884b792bf894a0891f560db9803eded4c3c2e60a32",
+        "metadata_sha256": "d9cdf7affecd2a21898928e842416ba798cc7140989a7c61d4ced5d7967d0283",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p361-image-v1",
+        "image_sha256": "92dc91fe72f1d16b2d89f210e1591a48d7005f344e039786899971619101e6ac",
+        "english_interpretations": [
+          "They made up a total of 800 men, and had thirty-six guns in position,"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "oman-fort-garrison-alternative",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p030",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p361-selections-v1",
+          "section": "p361-s1",
+          "locator": "oman5, printed p. 361, Internet Archive leaf 404; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "under the chefde bataillon Duchemin of the 65th"
+        },
+        "raw_sha256": "4c443f24eed5ce5cfee01ac2b77a01029fb07af7566eb7c39e604f725f881d86",
+        "metadata_sha256": "ffe8254729adcb1cfc92c1bf5e1afe0c68ea741e1d1559e68e236b798d1a95db",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p361-image-v1",
+        "image_sha256": "92dc91fe72f1d16b2d89f210e1591a48d7005f344e039786899971619101e6ac",
+        "english_interpretations": [
+          "under the chefde bataillon Duchemin of the 65th"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "duchemin-local-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p031",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p360-selections-v1",
+          "section": "p360-s1",
+          "locator": "oman5, printed p. 360, Internet Archive leaf 403; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Head -quarters were established that night in the city, and Clinton's division invested the forts"
+        },
+        "raw_sha256": "220045a106ba96701901dff8a4d0e33e8072f95110d067e6630e79fc755de755",
+        "metadata_sha256": "ea6fac32cf1550a338d5af026d27a92fe65686118de0f1c842811a54d05b5971",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p360-image-v1",
+        "image_sha256": "89b8022e8cbf273861fff3a0ea269d6197351c0e7440ef42cf5cd21410a5024d",
+        "english_interpretations": [
+          "Head -quarters were established that night in the city, and Clinton's division invested the forts"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B431b",
+            "claim_id": "clinton-local-wellington-superior",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p032",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p123-figures-v1",
+          "section": "p123-s1",
+          "locator": "toreno5, printed p. 123, Internet Archive leaf 128; retained page image inspected",
+          "quote": "En cuatro trozos distribuyó su gente, cuyo número ascendia á 12,000 hombres."
+        },
+        "raw_sha256": "bd19bda0d25027498763983262239010e8293c97381a875397af763c5b09ee2e",
+        "metadata_sha256": "9b2940795aa75fc0786e507f6e6a6c9928c15a3c60eb8309d80d615bc05da755",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p123-image-v1",
+        "image_sha256": "bd847b8517d9239fe04f4ca63f24f9fd716e479a30c02fe23cb9976e361e3796",
+        "english_interpretations": [
+          "He divided his troops into four parts, numbering twelve thousand men."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "spanish-four-part-force",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p033",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "suchet-1834-t2-1812-p254-figures-v1",
+          "section": "p254-s1",
+          "locator": "suchet2, printed p. 254, Internet Archive leaf 269; retained page image inspected",
+          "quote": "Le 21 au matin, Joseph O-Donell, à la tête de dix mille hommes, en quatre colonnes, se porta sur Castalla."
+        },
+        "raw_sha256": "b87308bd712a87c109c77d7c353d3c5934075c6ba2b93805d38ace9b304ccb16",
+        "metadata_sha256": "b5dab942b551dfbc0c6048db43764420cf8a0b13020cb0353451ab517b5d98ca",
+        "document_date": null,
+        "image_source_id": "suchet-1834-t2-1812-p254-image-v1",
+        "image_sha256": "7388bfda43ed764d82a926e1ff487566d7f1808abfd5c5f6e7ab77ec062e691f",
+        "english_interpretations": [
+          "On the morning of the twenty-first Joseph O’Donnell advanced on Castalla with ten thousand men in four columns."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "suchet-spanish-advance",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p034",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p123-selections-v1",
+          "section": "p123-s1",
+          "locator": "toreno5, printed p. 123, Internet Archive leaf 128; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Habíale concebido Don José Odonell, general como antes del segundo y ter- cero ejército"
+        },
+        "raw_sha256": "3c9d07cb0057b4e7fbf2198b6b2caa3c16141ebd31b9a2c0fd322d19f66ba6ad",
+        "metadata_sha256": "81437ca17f7294811c502d41bc22b103e8fbd7529b5cc80e8a01f54d5e2cb0f5",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p123-image-v1",
+        "image_sha256": "bd847b8517d9239fe04f4ca63f24f9fd716e479a30c02fe23cb9976e361e3796",
+        "english_interpretations": [
+          "Jose O’Donnell, as before general of the second and third armies, had conceived it."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "odonnell-plan",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p035",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "toreno-1837-t5-1812-p124-selections-v1",
+          "section": "p124-s1",
+          "locator": "toreno5, printed p. 124, Internet Archive leaf 129; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "en Alcoy una reserva á cuya cabeza permanecía el general Harispe; en Ibi una brigada de éste á las inmediatas órdenes del coronel Mesclop , estando avanzado hacia Gas- talla con el séptimo regimiento de línea el ge- neral Delort"
+        },
+        "raw_sha256": "8185f7f3e5d55557927b1c929493c37d69adaf0484a25f73667c0c322cc61121",
+        "metadata_sha256": "a3d15bac6b781fbc00eea1bbce12d64be2555736ca8eac5f079688d1655cc8be",
+        "document_date": null,
+        "image_source_id": "toreno-1837-t5-1812-p124-image-v1",
+        "image_sha256": "0b749fc1929eb34cbdd0cdc3a99f15fdcd159dd4e3e736ed7ee387fb8617ee88",
+        "english_interpretations": [
+          "At Alcoy a reserve remained under Harispe; at Ibi his brigade was immediately commanded by Colonel Mesclop, while Delort advanced toward Castalla with the seventh line regiment."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "harispe-delort-local-scope",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p036",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "suchet-1834-t2-1812-p255-selections-v1",
+          "section": "p255-s1",
+          "locator": "suchet2, printed p. 255, Internet Archive leaf 270; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le général Delort , quittant la défensive , 18*2. se mit alors en mouvement , et attaqua avec viva- cité"
+        },
+        "raw_sha256": "4e9f59d3851047f08e386efab1560534a5e0a560f7f4c7b914ff224fb89ccfbb",
+        "metadata_sha256": "c1516caacb262e9f22a4cdbc9c6ccb481ec37ae8eba9fd30579508c88686b114",
+        "document_date": null,
+        "image_source_id": "suchet-1834-t2-1812-p255-image-v1",
+        "image_sha256": "60da3df57506fb92893620a5d5fda5b6ba842d25ef1a6f744ef6e308484f0ea0",
+        "english_interpretations": [
+          "General Delort, leaving the defensive, then moved and attacked vigorously."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432a",
+            "claim_id": "delort-counterattack",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p037",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p599-figures-v1",
+          "section": "p599-s1",
+          "locator": "oman5, printed p. 599, Internet Archive leaf 654; retained page image inspected",
+          "quote": "GENERAL TOTAL. Strength. British: Officers 1,526, Men 29,036, Total 30,562. Portuguese: Officers 912, Men 17,105, Total 18,017. Spanish: Officers 160, Men 3,200, Total 3,360. Total: Officers 2,598, Men 49,341, Total 51,939."
+        },
+        "raw_sha256": "90644e57c2040760f5e814d2a86b5b26ddbcf256c5de703ab9935af023125425",
+        "metadata_sha256": "4dc20c6864b600b5d23a566ee17ed30f813c9c8977335809015d1c64998faf68",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p599-image-v1",
+        "image_sha256": "35138f31d63bd23097a34faacab7940d26d74095d70bb4692204c65c6ba4889e",
+        "english_interpretations": [
+          "GENERAL TOTAL. Strength. British: Officers 1,526, Men 29,036, Total 30,562. Portuguese: Officers 912, Men 17,105, Total 18,017. Spanish: Officers 160, Men 3,200, Total 3,360. Total: Officers 2,598, Men 49,341, Total 51,939."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "oman-allied-battle-table",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p038",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p600-figures-v1",
+          "section": "p600-s1",
+          "locator": "oman5, printed p. 600, Internet Archive leaf 655; retained page image inspected",
+          "quote": "It consisted of the 49,636 officers and men accounted for by the return of July 15th printed on the next page, minus some 700 men lost at the combats of Castrillo and Castrejon [also called “combat of the Guarena”] on July 18, and such few hundreds more as may have fallen behind from fatigue during the long marches of July 20–1. Roughly speaking, it must have counted some 48,500 men, as opposed to Wellington’s 50,000."
+        },
+        "raw_sha256": "7dc56b402c922d16431a1716c30f69c62d4a016f44b06d23d14c0c1ade8e7f5d",
+        "metadata_sha256": "5d356f8104777ba180f8228441ed2cd54e0418d2b2725980011452fa5f42143f",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p600-image-v1",
+        "image_sha256": "974892603415c2969a26f18643a61914a3cae3f9779ef99f304cb5a49d4571cb",
+        "english_interpretations": [
+          "It consisted of the 49,636 officers and men accounted for by the return of July 15th printed on the next page, minus some 700 men lost at the combats of Castrillo and Castrejon [also called “combat of the Guarena”] on July 18, and such few hundreds more as may have fallen behind from fatigue during the long marches of July 20–1. Roughly speaking, it must have counted some 48,500 men, as opposed to Wellington’s 50,000."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "oman-inferred-french-strength",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p039",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "marmont-1857-t4-1812-p235-selections-v1",
+          "section": "p235-s1",
+          "locator": "marmont4, printed p. 235, Internet Archive leaf 242; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Je donnai l'ordre au général Bonnet de ûiire occuper celui qui apparte- nait à la position que nous devions prendre"
+        },
+        "raw_sha256": "00e52a0707f83f9bf18a73b60e1d3cbc1440b9c75585929bcc66860c92fa1587",
+        "metadata_sha256": "8f04699642b08c650035911721e7c93d65d8171e2b1557f31554273f91511dc0",
+        "document_date": null,
+        "image_source_id": "marmont-1857-t4-1812-p235-image-v1",
+        "image_sha256": "fc7d69cb0c525eb75f84d8939a96128e0a4f8fd7bea157d24dedd491bd7121bc",
+        "english_interpretations": [
+          "I ordered General Bonnet to occupy the Arapile belonging to the position we were to take."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "marmont-bonnet-disposition",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p040",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "marmont-1857-t4-1812-p240-selections-v1",
+          "section": "p240-s1",
+          "locator": "marmont4, printed p. 240, Internet Archive leaf 247; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Le commandement passa d'abord au général Bonnet, qui, peu après, fut blessé, puis au général Clausel"
+        },
+        "raw_sha256": "2be0238e09fba924a558e4000db6001239ad038defec673521b8475384fbe67f",
+        "metadata_sha256": "6d1d943005478688ee3f39312e55b892ff727b738446f6f141b5630eff293075",
+        "document_date": null,
+        "image_source_id": "marmont-1857-t4-1812-p240-image-v1",
+        "image_sha256": "e1f9d9a4cc23fdf215f8a6bb7531b06eb246502a5738a62de09d7ea5027183e6",
+        "english_interpretations": [
+          "Command passed first to General Bonnet, who was wounded shortly afterwards, then to General Clausel."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "marmont-bonnet-clausel-succession",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p041",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-1812-p436-selections-v1",
+          "section": "p436-s1",
+          "locator": "oman5, printed p. 436, Internet Archive leaf 485; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Pakenham's turning movement was the most delicate part of the plan ; wherefore Wellington resolved to start it himself"
+        },
+        "raw_sha256": "e1aff942e29f4908f434ddda8901c5ff8e576d9602b37cdc313dffea3bd9d097",
+        "metadata_sha256": "2f52bd3c19e533bf42b15d985e311d4d90d4583220afa8ba1492027e77d57eb5",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p436-image-v1",
+        "image_sha256": "1d290e40ab3835be8afffcfce1b70b6df09b0c5e5abd2096ef05e560d124ee53",
+        "english_interpretations": [
+          "Pakenham's turning movement was the most delicate part of the plan ; wherefore Wellington resolved to start it himself"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B432b",
+            "claim_id": "wellington-pakenham-task",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p042",
+        "battle_ids": [
+          "B441a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p239-figures-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected",
+          "quote": "laissant dans le château de Burgos deux mille hommes sous les ordres du général Dubreton,"
+        },
+        "raw_sha256": "b66ac54953516974f8e94ef5569538d2cc7f7405c42599a67ac58ac825e82b23",
+        "metadata_sha256": "eb3f06f1ebec4f79734f81835c90ae9a7f9cf8491ec1292ea1630be02eb470be",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p239-image-v1",
+        "image_sha256": "61557867b3795bc600f826c8eda5eba6fafd59a97e578efd762a031b60f04900",
+        "english_interpretations": [
+          "Leaving two thousand men in Burgos castle under General Dubreton.",
+          "The castle garrison was under General Dubreton."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "french-castle-garrison",
+            "citation_index": 0
+          },
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "dubreton-local-command",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p043",
+        "battle_ids": [
+          "B441a"
+        ],
+        "citation": {
+          "source_id": "oman-1922-t6-1812-p19-figures-v1",
+          "section": "p19-s1",
+          "locator": "oman6, printed p. 19, Internet Archive leaf 36; retained page image inspected",
+          "quote": "the 28,000 Anglo-Portuguese and 11,000 Galicians who were at his disposition,"
+        },
+        "raw_sha256": "ccf4e1a550025f8cd4500f0b37962ff02066301a6de525a64b6c1cba6c903921",
+        "metadata_sha256": "535dbe918de93b424221c6e27346b7d6a20429a2569910f611c18d783f484add",
+        "document_date": null,
+        "image_source_id": "oman-1922-t6-1812-p19-image-v1",
+        "image_sha256": "29aa1fd03c2757febe35658e8c652ba2c11eda90905cb81fb0a9148b67bb8248",
+        "english_interpretations": [
+          "the 28,000 Anglo-Portuguese and 11,000 Galicians who were at his disposition,"
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "allied-available-army",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p044",
+        "battle_ids": [
+          "B441a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-1812-p239-selections-v1",
+          "section": "p239-s1",
+          "locator": "belmas0, printed p. 239, Internet Archive leaf 275; retained page image inspected; exact page-bounded OCR selection, spelling retained; exact page-bounded OCR selection, spelling retained",
+          "quote": "Lord Wellington occupa la ville de Burgos le 18, et, au Beu de poursuivre à outrance les débris de l'armée de Portugal, il entreprit le siège du château"
+        },
+        "raw_sha256": "fad423fac44c413dbe108fb7663f6d5225382e60b23d89c69265069ebdbd2e6d",
+        "metadata_sha256": "c8e7170fb3ff8f358d82f79aa0e644ed8ea080536be7ec24818b00625f71849d",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p239-image-v1",
+        "image_sha256": "61557867b3795bc600f826c8eda5eba6fafd59a97e578efd762a031b60f04900",
+        "english_interpretations": [
+          "Wellington occupied Burgos on the eighteenth and, instead of pursuing the remnants of the Army of Portugal, undertook the castle siege."
+        ],
+        "origins": [
+          {
+            "kind": "dossier_citation",
+            "battle_id": "B441a",
+            "claim_id": "wellington-siege-direction",
+            "citation_index": 0
+          }
+        ]
+      },
+      {
+        "id": "p045",
+        "battle_ids": [
+          "B430a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-ocr-v1",
+          "locator": "A History of the Peninsular War, volume V, October 1811–August 31, 1812; printed p. 166; image oman-1914-t5-1812-p166-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "there \nwas  now  on  the  crest  of  the  Greater  Teson  the  new  Redout \nRenaud,  which  had  to  be  got  rid  of  before  the  preliminary \npreparation  could  be  made."
+        },
+        "raw_sha256": "3c92a0d7d1fce9adf549ff6ef605165d3120a7675732455252cbd52f7bd1982b",
+        "metadata_sha256": "f86e8df704df5e356075e197aa71221ef0d3362ce2835b771d17378945147238",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p166-image-v1",
+        "image_sha256": "8559e247071046ea4ccf19c1aae7dd096d1445377fffa94cf58716593fb3c92a",
+        "english_interpretations": [
+          "Oman: the Renaud redoubt had to be removed before preliminary preparations. This states a necessary preliminary operation, not its exact contact time or complete force membership."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "oman-1914-t5-1812-p166-selections-v1",
+            "start": 473189,
+            "end": 473363
+          }
+        ]
+      },
+      {
+        "id": "p046",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "toreno-1835-t4-ocr-v1",
+          "locator": "Historia del levantamiento, guerra y revolución de España, tomo IV; printed p. 332; image toreno-1835-t4-1812-p332-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "Acercóse  el  general  Severoli  el  20  de  ene- \nro á  Peñíscola  ,  y  envió  un  parlamentario  con \nproposiciones  que  fueron  desechadas."
+        },
+        "raw_sha256": "496fed03c15dae49801fb04fd6e6342838d0e49f9ce67ef324567db75ae5cf07",
+        "metadata_sha256": "6e0e1b668b4ea9f3b51b7686fd9d7913e59fc7e5d01a4eb662c751ee9135990c",
+        "document_date": null,
+        "image_source_id": "toreno-1835-t4-1812-p332-image-v1",
+        "image_sha256": "5ce4598d0614929fa911213311425e344c67331f36a37118c960f52ffc865ba4",
+        "english_interpretations": [
+          "English interpretation (ours): Severoli approached Peñíscola on 20 January and sent a negotiator with terms that were rejected. Approach/demand is not by itself a documented hostile act."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "toreno-1835-t4-1812-p332-selections-v1",
+            "start": 587501,
+            "end": 587645
+          }
+        ]
+      },
+      {
+        "id": "p047",
+        "battle_ids": [
+          "B430c"
+        ],
+        "citation": {
+          "source_id": "toreno-1835-t4-ocr-v1",
+          "locator": "Historia del levantamiento, guerra y revolución de España, tomo IV; printed p. 332; image toreno-1835-t4-1812-p332-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "El  28  arrojaron  bombas  desde  una  batería \nde  morteros  distante  600  toesas."
+        },
+        "raw_sha256": "496fed03c15dae49801fb04fd6e6342838d0e49f9ce67ef324567db75ae5cf07",
+        "metadata_sha256": "6e0e1b668b4ea9f3b51b7686fd9d7913e59fc7e5d01a4eb662c751ee9135990c",
+        "document_date": null,
+        "image_source_id": "toreno-1835-t4-1812-p332-image-v1",
+        "image_sha256": "5ce4598d0614929fa911213311425e344c67331f36a37118c960f52ffc865ba4",
+        "english_interpretations": [
+          "English interpretation (ours): On the 28th they threw bombs from a mortar battery 600 toises away. This is an explicit bombardment marker, not proof there was no earlier hostile contact."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "toreno-1835-t4-1812-p332-selections-v1",
+            "start": 587775,
+            "end": 587859
+          }
+        ]
+      },
+      {
+        "id": "p048",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-ocr-v1",
+          "locator": "A History of the Peninsular War, volume V, October 1811–August 31, 1812; printed p. 228; image oman-1914-t5-1812-p228-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "On  the  16th, \nhowever,  the  3rd,  4th,  and  Light  Divisions  passed,  and  invested \nBadajoz  without  meeting  any  opposition"
+        },
+        "raw_sha256": "3c92a0d7d1fce9adf549ff6ef605165d3120a7675732455252cbd52f7bd1982b",
+        "metadata_sha256": "f86e8df704df5e356075e197aa71221ef0d3362ce2835b771d17378945147238",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p228-image-v1",
+        "image_sha256": "dd4049634331514f3dcc4b4b647cef3fb2f6fb94c8b0b5a435303d674e8585e5",
+        "english_interpretations": [
+          "Oman: the three named divisions crossed on the 16th and invested Badajoz without opposition. Do not designate that movement as established first hostile contact."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "oman-1914-t5-1812-p228-selections-v1",
+            "start": 642307,
+            "end": 642439
+          }
+        ]
+      },
+      {
+        "id": "p049",
+        "battle_ids": [
+          "B431a"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-ocr-v1",
+          "locator": "A History of the Peninsular War, volume V, October 1811–August 31, 1812; printed p. 593; image oman-1914-t5-1812-p593-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "I  am  inclined  to  think  that  the  total  of  the  garrison  must  have  been  a  few \nhundreds  over  what  he  allows."
+        },
+        "raw_sha256": "3c92a0d7d1fce9adf549ff6ef605165d3120a7675732455252cbd52f7bd1982b",
+        "metadata_sha256": "f86e8df704df5e356075e197aa71221ef0d3362ce2835b771d17378945147238",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p593-image-v1",
+        "image_sha256": "fee606322cc0df462353e85a1e2c700f707d067d45b11b19ee0588704fe4cc7e",
+        "english_interpretations": [
+          "Oman expresses his judgment that Belmas’s allowed garrison total is low by a few hundreds. Preserve this criticism; it supplies neither an exact correction nor a preferred opening count."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "oman-1914-t5-1812-p593-figures-v1",
+            "start": 1645967,
+            "end": 1646091
+          }
+        ]
+      },
+      {
+        "id": "p050",
+        "battle_ids": [
+          "B431b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-ocr-v1",
+          "locator": "A History of the Peninsular War, volume V, October 1811–August 31, 1812; printed p. 360; image oman-1914-t5-1812-p360-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "The \nrest  of  the  army  took  up  its  bivouacs,  with  the  cavalry  out \nin  front,  and  remained  practically  without  movement  on  the \nground  now  selected,  for  the  next  two  days"
+        },
+        "raw_sha256": "3c92a0d7d1fce9adf549ff6ef605165d3120a7675732455252cbd52f7bd1982b",
+        "metadata_sha256": "f86e8df704df5e356075e197aa71221ef0d3362ce2835b771d17378945147238",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p360-image-v1",
+        "image_sha256": "89b8022e8cbf273861fff3a0ea269d6197351c0e7440ef42cf5cd21410a5024d",
+        "english_interpretations": [
+          "Oman distinguishes the rest of the army’s bivouacs from Clinton’s division investing the forts. No headcount or exact combat-area membership is supplied."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "oman-1914-t5-1812-p360-selections-v1",
+            "start": 1007575,
+            "end": 1007769
+          }
+        ]
+      },
+      {
+        "id": "p051",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "suchet-1834-t2-ocr-v1",
+          "locator": "Mémoires du maréchal Suchet, duc d’Albufera, sur ses campagnes en Espagne, depuis 1808 jusqu’en 1814, tome second; printed p. 254; image suchet-1834-t2-1812-p254-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "il  donna  ordre  en \nmême  temps  au  24e  de  dragons  ,  cantonné  à  Onil \net  Biar  ,  de  le  rejoindre  ,  et  au  colonel  Mesclop \nde  venir  l'appuyer."
+        },
+        "raw_sha256": "d8c409ee92ae5efe00cbe2f757cbb08d84def07bc665577a62de9a866ce4b90f",
+        "metadata_sha256": "418814280f4d483cbf06f2c33ab7af3ddc565e834b7094fff802d99d6a306110",
+        "document_date": null,
+        "image_source_id": "suchet-1834-t2-1812-p254-image-v1",
+        "image_sha256": "7388bfda43ed764d82a926e1ff487566d7f1808abfd5c5f6e7ab77ec062e691f",
+        "english_interpretations": [
+          "English interpretation (ours): Delort ordered the 24th dragoons at Onil and Biar to join and Mesclop to support him. Orders and later joining do not prove initial presence."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "suchet-1834-t2-1812-p254-figures-v1",
+            "start": 418211,
+            "end": 418372
+          }
+        ]
+      },
+      {
+        "id": "p052",
+        "battle_ids": [
+          "B432a"
+        ],
+        "citation": {
+          "source_id": "suchet-1834-t2-ocr-v1",
+          "locator": "Mémoires du maréchal Suchet, duc d’Albufera, sur ses campagnes en Espagne, depuis 1808 jusqu’en 1814, tome second; printed p. 255; image suchet-1834-t2-1812-p255-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "La  vue  du  général  Harispe  ,  qui  accou- \nrait d'Alcoy  avec  le  116e"
+        },
+        "raw_sha256": "d8c409ee92ae5efe00cbe2f757cbb08d84def07bc665577a62de9a866ce4b90f",
+        "metadata_sha256": "418814280f4d483cbf06f2c33ab7af3ddc565e834b7094fff802d99d6a306110",
+        "document_date": null,
+        "image_source_id": "suchet-1834-t2-1812-p255-image-v1",
+        "image_sha256": "60da3df57506fb92893620a5d5fda5b6ba842d25ef1a6f744ef6e308484f0ea0",
+        "english_interpretations": [
+          "English interpretation (ours): Harispe was coming from Alcoy with the 116th in the later narrative. This does not put him or the regiment at first contact or establish his exact arrival/assumption time."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "suchet-1834-t2-1812-p255-selections-v1",
+            "start": 420765,
+            "end": 420840
+          }
+        ]
+      },
+      {
+        "id": "p053",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "marmont-1857-t4-ocr-v1",
+          "locator": "Mémoires du maréchal Marmont duc de Raguse, de 1792 à 1841, tome quatrième; printed p. 235; image marmont-1857-t4-1812-p235-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "Telles  étaient  les  disposftions  faites  à \ndix  heures  du  matin."
+        },
+        "raw_sha256": "cf0935024d7afebc5e9364e1e86189ba35dcd7a6bfcf7b5c6b1b6b19c7f2c19c",
+        "metadata_sha256": "c3a06d6814eb0b0134e83d91a587c46b2070a3aabb1a5f39e1ac343aa4996684",
+        "document_date": null,
+        "image_source_id": "marmont-1857-t4-1812-p235-image-v1",
+        "image_sha256": "fc7d69cb0c525eb75f84d8939a96128e0a4f8fd7bea157d24dedd491bd7121bc",
+        "english_interpretations": [
+          "English interpretation (ours): Marmont dates the narrated dispositions to ten in the morning. Retain his reported clock without synchronizing it to another author’s contact boundary."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "marmont-1857-t4-1812-p235-selections-v1",
+            "start": 377453,
+            "end": 377523
+          }
+        ]
+      },
+      {
+        "id": "p054",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "marmont-1857-t4-ocr-v1",
+          "locator": "Mémoires du maréchal Marmont duc de Raguse, de 1792 à 1841, tome quatrième; printed p. 240; image marmont-1857-t4-1812-p240-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "Il  était  environ  trois  heures  du  soir."
+        },
+        "raw_sha256": "cf0935024d7afebc5e9364e1e86189ba35dcd7a6bfcf7b5c6b1b6b19c7f2c19c",
+        "metadata_sha256": "c3a06d6814eb0b0134e83d91a587c46b2070a3aabb1a5f39e1ac343aa4996684",
+        "document_date": null,
+        "image_source_id": "marmont-1857-t4-1812-p240-image-v1",
+        "image_sha256": "e1f9d9a4cc23fdf215f8a6bb7531b06eb246502a5738a62de09d7ea5027183e6",
+        "english_interpretations": [
+          "English interpretation (ours): Marmont reports approximately three in the afternoon at his wounding. This is not an exact transfer clock."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "marmont-1857-t4-1812-p240-selections-v1",
+            "start": 384783,
+            "end": 384827
+          }
+        ]
+      },
+      {
+        "id": "p055",
+        "battle_ids": [
+          "B432b"
+        ],
+        "citation": {
+          "source_id": "oman-1914-t5-ocr-v1",
+          "locator": "A History of the Peninsular War, volume V, October 1811–August 31, 1812; printed p. 436; image oman-1914-t5-1812-p436-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "The  time  was  about \na  quarter  to  four  in  the  afternoon."
+        },
+        "raw_sha256": "3c92a0d7d1fce9adf549ff6ef605165d3120a7675732455252cbd52f7bd1982b",
+        "metadata_sha256": "f86e8df704df5e356075e197aa71221ef0d3362ce2835b771d17378945147238",
+        "document_date": null,
+        "image_source_id": "oman-1914-t5-1812-p436-image-v1",
+        "image_sha256": "1d290e40ab3835be8afffcfce1b70b6df09b0c5e5abd2096ef05e560d124ee53",
+        "english_interpretations": [
+          "Oman reports approximately quarter to four in the attack-initiation narrative. It is a source-specific later action clock, not a shared first-contact timestamp."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "oman-1914-t5-1812-p436-selections-v1",
+            "start": 1218173,
+            "end": 1218237
+          }
+        ]
+      },
+      {
+        "id": "p056",
+        "battle_ids": [
+          "B441a"
+        ],
+        "citation": {
+          "source_id": "belmas-1836-t1-ocr-v1",
+          "locator": "Journaux des sièges faits ou soutenus par les Français dans la Péninsule, de 1807 à 1814, tome premier; printed p. 239; image belmas-1836-t1-1812-p239-image-v1; full retained page inspected; exact parent OCR substring",
+          "quote": "Le  18  au  matin,  il  continua  sa  retraite , \nlaissant  dans  le  château  de  Burgos  deux  mille \nhommes  sous  les  ordres  du  général  Dubreton"
+        },
+        "raw_sha256": "cab7770afca7cfc69c087a690a4c7d5caa95576c2470463ecd479e0a3568a710",
+        "metadata_sha256": "a5f99aefd26903b4c9b4bc2beb853498be34a878bf63ee6aa0b8e7eb417b65c3",
+        "document_date": null,
+        "image_source_id": "belmas-1836-t1-1812-p239-image-v1",
+        "image_sha256": "61557867b3795bc600f826c8eda5eba6fafd59a97e578efd762a031b60f04900",
+        "english_interpretations": [
+          "English interpretation (ours): On the morning of the 18th, the retreat continued, leaving 2,000 in Burgos castle under Dubreton. This is a dated local detachment report, not proof of complete combatant membership at first hostile contact."
+        ],
+        "origins": [
+          {
+            "kind": "existing_parent_context",
+            "via_source_id": "belmas-1836-t1-1812-p239-figures-v1",
+            "start": 425241,
+            "end": 425393
+          }
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "id": "B430a-A-s01",
+        "kind": "strength",
+        "battle_id": "B430a",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 1800,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French fortress defenders",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p001"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-A-a01",
+        "kind": "authority",
+        "battle_id": "B430a",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Barrié",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p001"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-B-s01",
+        "kind": "strength",
+        "battle_id": "B430a",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 40000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Anglo-Portuguese source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p001"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-B-a01",
+        "kind": "authority",
+        "battle_id": "B430a",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellesley",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p001"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-A-s01",
+        "kind": "strength",
+        "battle_id": "B430b",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 8000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p002"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-A-a01",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Maurice Mathieu",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p002"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-s01",
+        "kind": "strength",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 10000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Spanish source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p002"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-a01",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Eroles",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p002"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-A-s01",
+        "kind": "strength",
+        "battle_id": "B430c",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 2500,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "2,100 infantry plus 400 artillery personnel",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p003"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-A-a01",
+        "kind": "authority",
+        "battle_id": "B430c",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Severoli",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p003"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-B-s01",
+        "kind": "strength",
+        "battle_id": "B430c",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 1000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Spanish garrison",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p003"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-B-a01",
+        "kind": "authority",
+        "battle_id": "B430c",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Pareia-Navarro",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p003"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-A-s01",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 5000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French garrison",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p004"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-A-a01",
+        "kind": "authority",
+        "battle_id": "B431a",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Philippon",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p004"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-B-s01",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 51000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Anglo-Portuguese source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p004"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-B-a01",
+        "kind": "authority",
+        "battle_id": "B431a",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p004"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-A-s01",
+        "kind": "strength",
+        "battle_id": "B431b",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 700,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French fort garrison",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p005"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-A-a01",
+        "kind": "authority",
+        "battle_id": "B431b",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Duchemin",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p005"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-B-s01",
+        "kind": "strength",
+        "battle_id": "B431b",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 50000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Anglo-Portuguese/Spanish source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p005"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-B-a01",
+        "kind": "authority",
+        "battle_id": "B431b",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p005"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-s01",
+        "kind": "strength",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 4000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p006"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-a01",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Harispe",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p006"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-s01",
+        "kind": "strength",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 10000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Spanish source-listed force",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p006"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-a01",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "J. O'Donnell",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p006"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-s01",
+        "kind": "strength",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 42000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "38,000 infantry plus 4,000 cavalry",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p007",
+          "p008",
+          "p009"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-a01",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Marmont",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p010"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-B-s01",
+        "kind": "strength",
+        "battle_id": "B432b",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 46000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "40,000 infantry plus 6,000 cavalry",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p007",
+          "p008",
+          "p009"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-B-a01",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p010"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-A-s01",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "A",
+        "claim_id": "bodart-strength",
+        "value": 2000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "French castle garrison",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p011"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-A-a01",
+        "kind": "authority",
+        "battle_id": "B441a",
+        "side": "A",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Dubreton",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p011"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-s01",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "bodart-strength",
+        "value": 32000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Anglo-Portuguese source-listed army",
+        "reported_time": "Whole printed entry; no synchronized first-contact count",
+        "source_role": "compiler",
+        "note": "Keep the compiler observation separate; its boundary, complete combat-unit membership and authority match are unestablished.",
+        "evidence": [
+          "p011"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-a01",
+        "kind": "authority",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "bodart-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "compiler_label",
+        "population_or_scope": "Printed side label",
+        "reported_time": "Whole source-listed entry",
+        "source_role": "compiler",
+        "note": "The printed label is not an appointment interval, continuous local control, global person ID or army identity.",
+        "evidence": [
+          "p011"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-A-s02",
+        "kind": "strength",
+        "battle_id": "B430a",
+        "side": "A",
+        "claim_id": "mediated-french-investment-return",
+        "value": 1937,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Mixed garrison including 163 sick and 36 non-combatants",
+        "reported_time": "Day of investment, as the reproduced table is headed",
+        "source_role": "mediated_table",
+        "note": "Oman explicitly cites Belmas IV, pp.282-283; the original return is not inspected. Known non-combatant categories prevent using the total as the opening combat-unit population.",
+        "evidence": [
+          "p012"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-A-a02",
+        "kind": "authority",
+        "battle_id": "B430a",
+        "side": "A",
+        "claim_id": "barrie-governor",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Barrié",
+        "authority_type": "garrison_government",
+        "population_or_scope": "Ciudad Rodrigo fortress",
+        "reported_time": "Siege narrative; effective appointment clock unstated",
+        "source_role": "source_report",
+        "note": "Oman mediates the appointment story; no continuous authority or exact opening match follows.",
+        "evidence": [
+          "p013"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-B-a02",
+        "kind": "authority",
+        "battle_id": "B430a",
+        "side": "B",
+        "claim_id": "wellington-siege-plan",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "superior_direction",
+        "population_or_scope": "Greater/Little Teson siege approach and parallels",
+        "reported_time": "Planned siege sequence",
+        "source_role": "source_report",
+        "note": "A plan is not proof of every force component or local effective authority at first contact.",
+        "evidence": [
+          "p014"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-A-s02",
+        "kind": "strength",
+        "battle_id": "B430b",
+        "side": "A",
+        "claim_id": "mathieu-relief-force",
+        "value": 8000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Relief force reinforced by Lamarque, approaching Tarragona",
+        "reported_time": "Approach ending at Villafranca on 22 January",
+        "source_role": "own_side_narrative",
+        "note": "No inference that this unchanged population was all available on the Altafulla heights at first contact on the 24th.",
+        "evidence": [
+          "p015"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-A-a02",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "A",
+        "claim_id": "mathieu-lamarque-task",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Maurice Mathieu",
+        "authority_type": "force_direction",
+        "population_or_scope": "Tarragona relief force, reinforced by Lamarque",
+        "reported_time": "Movement and camp on 22 January",
+        "source_role": "source_report",
+        "note": "Barcelona governorship and the relief task are distinct scopes; exact local opening command not selected.",
+        "evidence": [
+          "p015"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-a02",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "eroles-local-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Eróles",
+        "authority_type": "local_direction",
+        "population_or_scope": "Spanish force attacked at Altafulla",
+        "reported_time": "24 January attack in Toreno",
+        "source_role": "source_report",
+        "note": "Preserve beside Belmas’s Lacy attribution; do not infer an exclusive hierarchy.",
+        "evidence": [
+          "p016"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-a03",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "belmas-lacy-attribution",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Lacy",
+        "authority_type": "reported_local_position",
+        "population_or_scope": "Altafulla heights",
+        "reported_time": "On Mathieu’s approach; attack on 24 January in page context",
+        "source_role": "source_report",
+        "note": "Belmas attributes the position to Lacy; source/role discrepancy with Eroles remains unresolved.",
+        "evidence": [
+          "p017"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-a04",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "lacy-superior-instruction",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Lacy",
+        "authority_type": "post_action_instruction",
+        "population_or_scope": "Eroles’s northward movement",
+        "reported_time": "After Eroles regrouped",
+        "source_role": "source_report",
+        "note": "Later superior instruction does not prove Lacy’s battlefield presence or opening troop control.",
+        "evidence": [
+          "p018"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-a05",
+        "kind": "authority",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "spanish-rally-point",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Eróles",
+        "authority_type": "post_action_rally",
+        "population_or_scope": "Dispersed Spanish troops; Santas-Cruces rally point",
+        "reported_time": "After the attack and dispersion",
+        "source_role": "source_report",
+        "note": "A post-action rally order is not a substitute for initial local command.",
+        "evidence": [
+          "p019"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-B-s02",
+        "kind": "strength",
+        "battle_id": "B430c",
+        "side": "B",
+        "claim_id": "spanish-garrison",
+        "value": 1000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Peñíscola garrison, categories unspecified",
+        "reported_time": "Siege description before the 20-January approach narrative",
+        "source_role": "own_side_narrative",
+        "note": "No dated original all-ranks return or resolved sick/non-combatant classification; Garcia/Pareia label correspondence stays unresolved.",
+        "evidence": [
+          "p020"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-A-a02",
+        "kind": "authority",
+        "battle_id": "B430c",
+        "side": "A",
+        "claim_id": "severoli-local-investment",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Severoli",
+        "authority_type": "investment_direction",
+        "population_or_scope": "Battalions of his division, 114th and Vistula before Peñíscola",
+        "reported_time": "20 January establishment before the place",
+        "source_role": "source_report",
+        "note": "Do not convert five battalions to people or equate establishment and preparations with first hostile contact.",
+        "evidence": [
+          "p021"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-B-a02",
+        "kind": "authority",
+        "battle_id": "B430c",
+        "side": "B",
+        "claim_id": "garcia-navarro-governor",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Pedro García Navarro",
+        "authority_type": "garrison_government",
+        "population_or_scope": "Peñíscola place",
+        "reported_time": "Siege narrative",
+        "source_role": "source_report",
+        "note": "Preserve literal name; no automatic global match to Bodart’s Pareia-Navarro or verified appointment interval.",
+        "evidence": [
+          "p022"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-A-s02",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "A",
+        "claim_id": "belmas-garrison",
+        "value": 5000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Garrison, personnel categories unspecified",
+        "reported_time": "Retrospective passage recounting the storm and losses",
+        "source_role": "own_side_narrative",
+        "note": "Not an opening return or survivor count. The narrative’s 5,000 is not silently synchronized to March 15 or first contact.",
+        "evidence": [
+          "p023"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-A-s03",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "A",
+        "claim_id": "mediated-march15-garrison-table",
+        "value": 5003,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Mixed garrison including 300 hospital sick and 254 civil/non-combatants",
+        "reported_time": "15 March table reproduced by Oman",
+        "source_role": "mediated_table",
+        "note": "Belmas IV and Jones are cited; originals uninspected. Oman questions this table from later reports; no preferred source or reconstructed opening total selected.",
+        "evidence": [
+          "p024"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-B-s02",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "B",
+        "claim_id": "beresford-investing-corps",
+        "value": 12000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Investing infantry bayonets; not a complete all-arms force",
+        "reported_time": "16 March unopposed investment in page context",
+        "source_role": "own_side_history",
+        "note": "Distinct from covering forces and the wider 45,000/51,000 armies. An unopposed investment is not proof of first hostile contact.",
+        "evidence": [
+          "p025"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-B-s03",
+        "kind": "strength",
+        "battle_id": "B431a",
+        "side": "B",
+        "claim_id": "belmas-allied-army",
+        "value": 45000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Army leaving Elvas and investing Badajoz; covering detachments described separately",
+        "reported_time": "16 March movement",
+        "source_role": "opponent_narrative",
+        "note": "Do not substitute this army for the local investing corps or add Graham/Hill’s detachments to it.",
+        "evidence": [
+          "p026"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-B-a02",
+        "kind": "authority",
+        "battle_id": "B431a",
+        "side": "B",
+        "claim_id": "beresford-local-role",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Beresford",
+        "authority_type": "investment_direction",
+        "population_or_scope": "Initial investing corps",
+        "reported_time": "16 March investment in Oman",
+        "source_role": "source_report",
+        "note": "Local corps direction stays distinct from superior army direction; no whole-siege exclusive authority assumed.",
+        "evidence": [
+          "p025"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431a-A-a02",
+        "kind": "authority",
+        "battle_id": "B431a",
+        "side": "A",
+        "claim_id": "philippon-governor",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Philippon",
+        "authority_type": "garrison_government",
+        "population_or_scope": "Badajoz place; later retreat/capitulation context",
+        "reported_time": "Retrospective storm narrative",
+        "source_role": "source_report",
+        "note": "Later named government does not establish the effective opening appointment or transfer time.",
+        "evidence": [
+          "p027"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-A-s02",
+        "kind": "strength",
+        "battle_id": "B431b",
+        "side": "A",
+        "claim_id": "belmas-fort-garrison",
+        "value": 700,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Personnel left in Saint-Vincent, San-Gayetano and La Merced to defend the bridge",
+        "reported_time": "17 June evacuation and detachment narrative",
+        "source_role": "own_side_narrative",
+        "note": "The 24 guns are equipment, not people. Do not merge this force with Marmont’s field army or silently resolve the 700/800 alternatives.",
+        "evidence": [
+          "p028"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-A-s03",
+        "kind": "strength",
+        "battle_id": "B431b",
+        "side": "A",
+        "claim_id": "oman-fort-garrison-alternative",
+        "value": 800,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Three-fort garrison: flank companies and an artillery company",
+        "reported_time": "Siege description",
+        "source_role": "opponent_history",
+        "note": "Alternative to 700; 36 guns are a separate equipment count. Personnel-category coverage and exact first-contact state remain unresolved.",
+        "evidence": [
+          "p029"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-A-a02",
+        "kind": "authority",
+        "battle_id": "B431b",
+        "side": "A",
+        "claim_id": "duchemin-local-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Duchemin",
+        "authority_type": "garrison_direction",
+        "population_or_scope": "Three-fort garrison",
+        "reported_time": "Siege description",
+        "source_role": "source_report",
+        "note": "Battalion-chief rank does not change his reported local task; no global ID or continuous appointment inferred.",
+        "evidence": [
+          "p030"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-B-a02",
+        "kind": "authority",
+        "battle_id": "B431b",
+        "side": "B",
+        "claim_id": "clinton-local-wellington-superior",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Clinton",
+        "authority_type": "investment_direction",
+        "population_or_scope": "Division investing the forts",
+        "reported_time": "Night headquarters/investment on 17 June in page context",
+        "source_role": "source_report",
+        "note": "The rest of the army remains on the field position; division is not a headcount.",
+        "evidence": [
+          "p031"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-B-a03",
+        "kind": "authority",
+        "battle_id": "B431b",
+        "side": "B",
+        "claim_id": "clinton-local-wellington-superior",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "superior_direction",
+        "population_or_scope": "Attack arrangements and army headquarters at Salamanca",
+        "reported_time": "17 June reception/arrangements and that night",
+        "source_role": "source_report",
+        "note": "Do not make army headquarters and local troop task one exclusive role.",
+        "evidence": [
+          "p031"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-s02",
+        "kind": "strength",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "spanish-four-part-force",
+        "value": 12000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Four distributed parts, with Castalla/Ibi wings, reserve and other sectors",
+        "reported_time": "Plan/deployment before the 21-July attacks",
+        "source_role": "own_side_history",
+        "note": "Not all necessarily available at the first Castalla contact. Roche’s Ibi action and distant reserves require explicit area and timing membership.",
+        "evidence": [
+          "p032"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-s03",
+        "kind": "strength",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "suchet-spanish-advance",
+        "value": 10000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "O’Donnell’s four columns moving on Castalla",
+        "reported_time": "Morning of 21 July",
+        "source_role": "opponent_narrative",
+        "note": "Keep separate from Toreno’s 12,000 and Roche’s Ibi force; no mechanical addition or exact population reconciliation.",
+        "evidence": [
+          "p033"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-a02",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "odonnell-plan",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "José Odonell",
+        "authority_type": "superior_direction",
+        "population_or_scope": "Second/third armies and attack plan",
+        "reported_time": "Plan before action",
+        "source_role": "source_report",
+        "note": "Plan authorship is not proof of instantaneous control over every column; spellings are not normalized into a global person ID.",
+        "evidence": [
+          "p034"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-a02",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "harispe-delort-local-scope",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Harispe",
+        "authority_type": "reserve_direction",
+        "population_or_scope": "Reserve at Alcoy",
+        "reported_time": "Initial distribution; later approach is separately reported by Suchet",
+        "source_role": "source_report",
+        "note": "Bodart’s Harispe label does not automatically name the commander at the first Castalla contact.",
+        "evidence": [
+          "p035"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-a03",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "harispe-delort-local-scope",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Mesclop",
+        "authority_type": "local_direction",
+        "population_or_scope": "Brigade at Ibi",
+        "reported_time": "Initial Ibi distribution",
+        "source_role": "source_report",
+        "note": "Ibi and Castalla contacts are not silently synchronized into a single local population.",
+        "evidence": [
+          "p035"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-a04",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "harispe-delort-local-scope",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Delort",
+        "authority_type": "advance_guard_direction",
+        "population_or_scope": "7th line advanced toward Castalla",
+        "reported_time": "Initial Castalla deployment",
+        "source_role": "source_report",
+        "note": "Later Mesclop/cavalry support does not establish their availability at first contact.",
+        "evidence": [
+          "p035"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-a05",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "delort-counterattack",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Delort",
+        "authority_type": "counterattack_direction",
+        "population_or_scope": "Reunited force counterattacking",
+        "reported_time": "After initial withdrawal/support sequence",
+        "source_role": "source_report",
+        "note": "Counterattack direction cannot establish a complete initial force or allocate causal skill.",
+        "evidence": [
+          "p036"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-B-s02",
+        "kind": "strength",
+        "battle_id": "B432b",
+        "side": "B",
+        "claim_id": "oman-allied-battle-table",
+        "value": 51939,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "British, Portuguese and Spanish officers and men in the printed strength columns",
+        "reported_time": "Army at Salamanca table; exact common muster/first-contact match unstated",
+        "source_role": "mediated_table",
+        "note": "Includes 2,598 officers and 49,341 men; original national returns uninspected. Do not assume all were personally engaged or delete officers/Spanish to reconcile Bodart.",
+        "evidence": [
+          "p037"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-s02",
+        "kind": "strength",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "oman-inferred-french-strength",
+        "value": 48500,
+        "unit": "people",
+        "precision": "approximate",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Oman’s reconstructed army total; combatant/train definition remains disputed",
+        "reported_time": "Inference for 22 July from 15-July return, earlier losses and straggling",
+        "source_role": "historian_reconstruction",
+        "note": "Explicitly approximate; keep the historian’s calculation separate from a dated original opening muster. Do not perform another loss subtraction.",
+        "evidence": [
+          "p038"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-a02",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "marmont-bonnet-disposition",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Marmont",
+        "authority_type": "superior_direction",
+        "population_or_scope": "Orders for the French Arapile and army dispositions",
+        "reported_time": "Before the main action; reported 10-am dispositions in the same page",
+        "source_role": "source_report",
+        "note": "A reported disposition clock is not synchronized first contact or a complete force count.",
+        "evidence": [
+          "p039"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-a03",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "marmont-bonnet-disposition",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Bonnet",
+        "authority_type": "subordinate_task",
+        "population_or_scope": "Occupation of the French Arapile",
+        "reported_time": "Order before the main action",
+        "source_role": "source_report",
+        "note": "Subordinate task does not establish initial whole-army responsibility.",
+        "evidence": [
+          "p039"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-a04",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "marmont-bonnet-clausel-succession",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Bonnet",
+        "authority_type": "reported_succession",
+        "population_or_scope": "Command after Marmont’s disabling wound",
+        "reported_time": "After Marmont’s reported approximate 3-pm wounding",
+        "source_role": "source_report",
+        "note": "Exact effective handover and Bonnet’s subsequent wound time remain unknown; no single commander for the entire entry.",
+        "evidence": [
+          "p040"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-a05",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "marmont-bonnet-clausel-succession",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Clausel",
+        "authority_type": "reported_succession",
+        "population_or_scope": "Command after Bonnet was wounded",
+        "reported_time": "After Bonnet’s brief succession in Marmont’s account",
+        "source_role": "source_report",
+        "note": "No exact handover clock, complete command scope or automatic cross-entry identity/army link.",
+        "evidence": [
+          "p040"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-B-a02",
+        "kind": "authority",
+        "battle_id": "B432b",
+        "side": "B",
+        "claim_id": "wellington-pakenham-task",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "local_attack_direction",
+        "population_or_scope": "Initiating Pakenham’s turning movement; D’Urban given a flank task",
+        "reported_time": "Oman’s later attack-plan sequence, approximate quarter-to-four context",
+        "source_role": "source_report",
+        "note": "Do not synchronize this later initiative with Marmont’s clocks or call it the first hostile act of the whole engagement.",
+        "evidence": [
+          "p041"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-A-s02",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "A",
+        "claim_id": "french-castle-garrison",
+        "value": 2000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Castle garrison under Dubreton",
+        "reported_time": "18 September morning detachment in full page context",
+        "source_role": "own_side_narrative",
+        "note": "Local garrison stays distinct from Clausel/Souham’s field/relief armies; no category-complete opening muster.",
+        "evidence": [
+          "p042"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-A-a02",
+        "kind": "authority",
+        "battle_id": "B441a",
+        "side": "A",
+        "claim_id": "dubreton-local-command",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Dubreton",
+        "authority_type": "garrison_direction",
+        "population_or_scope": "Burgos castle garrison",
+        "reported_time": "18-September detachment and siege narrative",
+        "source_role": "source_report",
+        "note": "The reported field-army succession Clausel/Souham is a different force and scope.",
+        "evidence": [
+          "p042"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-s02",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "allied-available-army",
+        "value": 28000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Anglo-Portuguese troops at Wellington’s disposal",
+        "reported_time": "Northern army strategic availability discussion",
+        "source_role": "own_side_history",
+        "note": "Not a local besieging headcount; do not add it to a garrison or substitute the sum with Galicians for Bodart’s 32,000.",
+        "evidence": [
+          "p043"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-s03",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "allied-available-army",
+        "value": 11000,
+        "unit": "people",
+        "precision": "reported_point",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Galicians at Wellington’s disposal",
+        "reported_time": "Same strategic availability discussion",
+        "source_role": "own_side_history",
+        "note": "Separate contingent; availability for wider operations does not place every person at the castle opening.",
+        "evidence": [
+          "p043"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-a02",
+        "kind": "authority",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "wellington-siege-direction",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Wellington",
+        "authority_type": "siege_direction",
+        "population_or_scope": "Town occupation and undertaking the castle siege",
+        "reported_time": "18 September occupation, before frozen 19-September start",
+        "source_role": "source_report",
+        "note": "Belmas’s criticism/counterfactual is not adopted as campaign contribution; earliest local hostile act remains unestablished.",
+        "evidence": [
+          "p044"
+        ],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430a-B-s02",
+        "kind": "strength",
+        "battle_id": "B430a",
+        "side": "B",
+        "claim_id": "allied-local-headcount-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side B: no dated own-side local headcount recovered in the inspected passages. The named divisions are not converted to people; Bodart’s 40,000 remains broadly available strength.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430b-B-s02",
+        "kind": "strength",
+        "battle_id": "B430b",
+        "side": "B",
+        "claim_id": "spanish-own-headcount-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side B: Toreno’s inspected account supplies no own-side local headcount. “Superior forces” is not a number and two companies are not converted to people; Bodart’s 10,000 remains its own reference population.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B430c-A-s02",
+        "kind": "strength",
+        "battle_id": "B430c",
+        "side": "A",
+        "claim_id": "french-own-local-count-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side A: Suchet names the besieging battalions without a people total in the checked passage; Bodart’s 2,500 is not independently replaced by a formation-derived count.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B431b-B-s02",
+        "kind": "strength",
+        "battle_id": "B431b",
+        "side": "B",
+        "claim_id": "allied-siege-headcount-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side B: inspected Oman account tasks Clinton’s 6th Division to the forts and separates the remaining army on San Cristobal heights, but does not supply a dated siege headcount. Bodart’s 50,000 army is not all close besiegers.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-A-s02",
+        "kind": "strength",
+        "battle_id": "B432a",
+        "side": "A",
+        "claim_id": "french-local-count-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side A: the inspected Suchet/Toreno passages describe regiments and a reserve but supply no dated local all-ranks total. Bodart’s 4,000 stays its own reference; unit names and later reinforcements are not people counts.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432b-A-s03",
+        "kind": "strength",
+        "battle_id": "B432b",
+        "side": "A",
+        "claim_id": "french-own-matched-return-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "Side A: no matched French own-side 22-July people total established in the bounded Marmont passages. Oman’s reconstruction and Bodart’s 42,000 are retained as source-specific alternatives, not converted into a resolved opening force.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B441a-B-s04",
+        "kind": "strength",
+        "battle_id": "B441a",
+        "side": "B",
+        "claim_id": "local-siege-headcount-unknown",
+        "value": null,
+        "unit": "people",
+        "precision": "unknown",
+        "actor_label": null,
+        "authority_type": null,
+        "population_or_scope": "Unestablished matched own-side local people count",
+        "reported_time": "Opening boundary and/or matched local state unestablished",
+        "source_role": "explicit_unknown",
+        "note": "A matched local besieging all-ranks count is unestablished in this pass’s assigned pages. Wider army availability cannot supply it; the original dossier’s explicit unknown remains indexed. Bodart’s assault count is not read as people.",
+        "evidence": [],
+        "resolved_person_id": null
+      },
+      {
+        "id": "B432a-B-a03",
+        "kind": "authority",
+        "battle_id": "B432a",
+        "side": "B",
+        "claim_id": "suchet-spanish-advance",
+        "value": null,
+        "unit": null,
+        "precision": null,
+        "actor_label": "Joseph O-Donell",
+        "authority_type": "column_direction",
+        "population_or_scope": "Four columns advancing toward Castalla",
+        "reported_time": "21 July morning in Suchet",
+        "source_role": "source_report",
+        "note": "Source-local name/number association only; do not merge spellings or equate the four columns with every Spanish sector.",
+        "evidence": [
+          "p033"
+        ],
+        "resolved_person_id": null
+      }
+    ],
+    "co_reports": [
+      {
+        "id": "altafulla-mathieu",
+        "battle_id": "B430b",
+        "strength_id": "B430b-A-s02",
+        "authority_id": "B430b-A-a02",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "The same French sentence reports Mathieu’s 8,000 relief force on the approach; membership at the later Altafulla contact remains unestablished."
+      },
+      {
+        "id": "peniscola-garcia",
+        "battle_id": "B430c",
+        "strength_id": "B430c-B-s02",
+        "authority_id": "B430c-B-a02",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "Toreno’s adjacent garrison/governor description associates the force and label locally; no automatic match to Pareia-Navarro or exact appointment boundary."
+      },
+      {
+        "id": "badajoz-beresford",
+        "battle_id": "B431a",
+        "strength_id": "B431a-B-s02",
+        "authority_id": "B431a-B-a02",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "Oman’s 12,000 bayonets and Beresford are co-reported; infantry-only scope and an unopposed investment prevent a complete all-arms opening pair."
+      },
+      {
+        "id": "salamanque-duchemin",
+        "battle_id": "B431b",
+        "strength_id": "B431b-A-s03",
+        "authority_id": "B431b-A-a02",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "Oman explicitly gives the 800-man three-fort garrison under Duchemin; source alternative, personnel-category and boundary gaps persist."
+      },
+      {
+        "id": "castalla-odonnell",
+        "battle_id": "B432a",
+        "strength_id": "B432a-B-s03",
+        "authority_id": "B432a-B-a03",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "Suchet explicitly couples Joseph O-Donell and 10,000 in four advancing columns. This does not reconcile Toreno’s distributed 12,000 or identify every first-contact component."
+      },
+      {
+        "id": "burgos-dubreton",
+        "battle_id": "B441a",
+        "strength_id": "B441a-A-s02",
+        "authority_id": "B441a-A-a02",
+        "basis": "same_source_local_context",
+        "status": "co_reported_not_opening_matched",
+        "note": "Belmas explicitly couples 2,000 castle personnel with Dubreton, dated the 18th in full context; no complete first-contact force selection."
+      }
+    ],
+    "arithmetic_checks": [
+      {
+        "id": "rodrigo-total",
+        "battle_id": "B430a",
+        "terms": [
+          975,
+          577,
+          168,
+          15,
+          36,
+          163,
+          3
+        ],
+        "result": 1937,
+        "unit": "people",
+        "kind": "printed_sum",
+        "evidence": [
+          "p012"
+        ],
+        "opening_feature": null,
+        "note": "All listed categories reproduce the printed total, without establishing historical accuracy."
+      },
+      {
+        "id": "rodrigo-residual",
+        "battle_id": "B430a",
+        "terms": [
+          1937,
+          -163,
+          -36
+        ],
+        "result": 1738,
+        "unit": "people",
+        "kind": "diagnostic_residual",
+        "evidence": [
+          "p012"
+        ],
+        "opening_feature": null,
+        "note": "Subtracting sick/civil non-combatants does not establish combat-unit classification of every remaining category or persistence to first contact. Not a candidate strength."
+      },
+      {
+        "id": "badajoz-infantry",
+        "battle_id": "B431a",
+        "terms": [
+          580,
+          597,
+          450,
+          600,
+          540,
+          130,
+          910,
+          54
+        ],
+        "result": 3861,
+        "unit": "people",
+        "kind": "printed_sum",
+        "evidence": [
+          "p024"
+        ],
+        "opening_feature": null,
+        "note": "Infantry rows only; not complete all-arms personnel."
+      },
+      {
+        "id": "badajoz-total",
+        "battle_id": "B431a",
+        "terms": [
+          25,
+          3861,
+          42,
+          261,
+          260,
+          300,
+          254
+        ],
+        "result": 5003,
+        "unit": "people",
+        "kind": "printed_sum",
+        "evidence": [
+          "p024"
+        ],
+        "opening_feature": null,
+        "note": "Mixed categories reproduce the source total; original returns and historian criticism remain unresolved."
+      },
+      {
+        "id": "badajoz-residual",
+        "battle_id": "B431a",
+        "terms": [
+          5003,
+          -300,
+          -254
+        ],
+        "result": 4449,
+        "unit": "people",
+        "kind": "diagnostic_residual",
+        "evidence": [
+          "p024"
+        ],
+        "opening_feature": null,
+        "note": "Category subtraction is not a date bridge, classification audit or opening all-arms count. Not a candidate strength."
+      },
+      {
+        "id": "salamanca-national",
+        "battle_id": "B432b",
+        "terms": [
+          30562,
+          18017,
+          3360
+        ],
+        "result": 51939,
+        "unit": "people",
+        "kind": "printed_sum",
+        "evidence": [
+          "p037"
+        ],
+        "opening_feature": null,
+        "note": "The three national totals sum to the printed general total; no Bodart crosswalk is inferred."
+      },
+      {
+        "id": "salamanca-ranks",
+        "battle_id": "B432b",
+        "terms": [
+          2598,
+          49341
+        ],
+        "result": 51939,
+        "unit": "people",
+        "kind": "printed_sum",
+        "evidence": [
+          "p037"
+        ],
+        "opening_feature": null,
+        "note": "Officer and men columns reproduce the same total; do not treat the two sums as independent witnesses."
+      }
+    ],
+    "entries": [
+      {
+        "battle_id": "B430a",
+        "place": "Ciudad-Rodrigo",
+        "frozen_interval": {
+          "start": "1812-01-07",
+          "end": "1812-01-20"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B430a-boundary-1",
+            "label": "Required preliminary operation against Renaud redoubt",
+            "reported_time": "Necessary preliminary operation; exact contact date/time not on the assigned page",
+            "status": "source_relative_only",
+            "evidence": [
+              "p045"
+            ]
+          },
+          {
+            "id": "B430a-boundary-2",
+            "label": "Investment-day garrison table",
+            "reported_time": "Investment day; not a complete common contact clock",
+            "status": "source_relative_only",
+            "evidence": [
+              "p012"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Ciudad Rodrigo works and Greater/Little Teson local approaches"
+          ],
+          "outside_proposed": [
+            "Distant army camps and supporting operations outside the local contact area"
+          ],
+          "unresolved": [
+            "Exact outpost/contact limits; location and availability of every division/component"
+          ]
+        },
+        "findings": [
+          {
+            "text": "The mixed investment table totals 1,937 and includes sick/civil non-combatants; the 1,738 subtraction residual remains diagnostic only.",
+            "evidence": [
+              "p012"
+            ]
+          },
+          {
+            "text": "Oman’s siege plan requires the Renaud preliminary operation; a siege plan is not an actual common first-contact clock.",
+            "evidence": [
+              "p045",
+              "p014"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B430b",
+        "place": "Altafulla",
+        "frozen_interval": {
+          "start": "1812-01-24",
+          "end": "1812-01-24"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B430b-boundary-1",
+            "label": "Relief approach and Villafranca camp",
+            "reported_time": "22 January",
+            "status": "source_relative_only",
+            "evidence": [
+              "p015"
+            ]
+          },
+          {
+            "id": "B430b-boundary-2",
+            "label": "Attack on Altafulla heights",
+            "reported_time": "24 January; exact initial contact/outposts unresolved",
+            "status": "source_relative_only",
+            "evidence": [
+              "p016",
+              "p017"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Altafulla heights and immediate attack approaches"
+          ],
+          "outside_proposed": [
+            "Tarragona garrison sortie toward Reus as a distinct operation"
+          ],
+          "unresolved": [
+            "Outer local area; camp-to-contact persistence and subordinate membership"
+          ]
+        },
+        "findings": [
+          {
+            "text": "Mathieu’s 8,000 and task are explicitly co-reported for the relief approach, not a synchronized all-arms return at the later attack.",
+            "evidence": [
+              "p015"
+            ]
+          },
+          {
+            "text": "Belmas’s Lacy position attribution and Toreno’s Eroles local account remain alternatives. Eroles’s later regrouping and Lacy’s later instruction do not retrospectively settle opening authority.",
+            "evidence": [
+              "p017",
+              "p016",
+              "p018"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B430c",
+        "place": "Peniscola",
+        "frozen_interval": {
+          "start": "1812-01-20",
+          "end": "1812-02-02"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B430c-boundary-1",
+            "label": "Arrival, rejected terms and siege preparation",
+            "reported_time": "20 January approach",
+            "status": "source_relative_only",
+            "evidence": [
+              "p046",
+              "p021"
+            ]
+          },
+          {
+            "id": "B430c-boundary-2",
+            "label": "Explicit mortar bombardment",
+            "reported_time": "28 January in Toreno; earlier hostile acts unestablished",
+            "status": "source_relative_only",
+            "evidence": [
+              "p047"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Peñíscola land-facing works, immediate hills/beaches and siege approaches"
+          ],
+          "outside_proposed": [
+            "Remote operations and naval availability without demonstrated land-force assignment"
+          ],
+          "unresolved": [
+            "First hostile act between arrival and bombardment; marsh/causeway/outpost membership; exact local personnel boundary"
+          ]
+        },
+        "findings": [
+          {
+            "text": "Approach, rejected negotiation and preparations precede a separately reported bombardment marker; neither date is silently selected as first hostile contact.",
+            "evidence": [
+              "p046",
+              "p047"
+            ]
+          },
+          {
+            "text": "Toreno co-reports the 1,000-man garrison and Pedro García Navarro locally. Bodart’s Pareia-Navarro remains a separate literal identity hypothesis.",
+            "evidence": [
+              "p020",
+              "p022",
+              "p003"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B431a",
+        "place": "Badajoz",
+        "frozen_interval": {
+          "start": "1812-03-17",
+          "end": "1812-04-09"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B431a-boundary-1",
+            "label": "Unopposed investment",
+            "reported_time": "16 March in Oman/Belmas; frozen source interval starts 17 March",
+            "status": "source_relative_only",
+            "evidence": [
+              "p048",
+              "p026"
+            ]
+          },
+          {
+            "id": "B431a-boundary-2",
+            "label": "15-March garrison state",
+            "reported_time": "Dated table before investment; no established first-contact persistence",
+            "status": "source_relative_only",
+            "evidence": [
+              "p024"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Badajoz fortress walls and immediate investment approaches"
+          ],
+          "outside_proposed": [
+            "Graham/Hill covering operations toward Santa-Martha, Mérida and beyond"
+          ],
+          "unresolved": [
+            "Earliest local fire/outpost act; all-arms investing population; state persistence from the 15th"
+          ]
+        },
+        "findings": [
+          {
+            "text": "The 16-March investment is explicitly unopposed. It is not automatically the hostile-contact boundary.",
+            "evidence": [
+              "p048"
+            ]
+          },
+          {
+            "text": "The 5,003 mixed table includes sick and non-combatants, and Oman himself questions it; the 4,449 subtraction residual is not an opening strength.",
+            "evidence": [
+              "p049",
+              "p024"
+            ]
+          },
+          {
+            "text": "Beresford and 12,000 investing bayonets are co-reported; 12,000 infantry, 45,000 marching army and Bodart’s 51,000 remain different scopes.",
+            "evidence": [
+              "p025",
+              "p026"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B431b",
+        "place": "Salamanca",
+        "frozen_interval": {
+          "start": "1812-06-17",
+          "end": "1812-06-27"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B431b-boundary-1",
+            "label": "Evacuation and leaving the fort garrison",
+            "reported_time": "17 June in Belmas",
+            "status": "source_relative_only",
+            "evidence": [
+              "p028"
+            ]
+          },
+          {
+            "id": "B431b-boundary-2",
+            "label": "Clinton’s investment and headquarters that night",
+            "reported_time": "17 June narrative in Oman",
+            "status": "source_relative_only",
+            "evidence": [
+              "p031"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Saint-Vincent, San-Gayetano, La Merced and local bridge/siege approaches"
+          ],
+          "outside_proposed": [
+            "The wider field-army position on San Cristobal heights"
+          ],
+          "unresolved": [
+            "First fire versus investment; local infantry/artillery availability and fort/outpost boundaries"
+          ]
+        },
+        "findings": [
+          {
+            "text": "The 700/800 personnel alternatives are preserved. Oman co-reports Duchemin’s three-fort command and 800; equipment counts do not settle personnel.",
+            "evidence": [
+              "p028",
+              "p029",
+              "p030"
+            ]
+          },
+          {
+            "text": "Clinton’s investing division is distinct from the rest of the army’s bivouacs and Wellington’s headquarters; Bodart’s 50,000 is not automatically the besieging population.",
+            "evidence": [
+              "p050",
+              "p031"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B432a",
+        "place": "Castalla",
+        "frozen_interval": {
+          "start": "1812-07-21",
+          "end": "1812-07-21"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B432a-boundary-1",
+            "label": "Spanish attacks toward Castalla/Ibi",
+            "reported_time": "21 July morning; contacts not synchronized across sectors",
+            "status": "source_relative_only",
+            "evidence": [
+              "p033",
+              "p035"
+            ]
+          },
+          {
+            "id": "B432a-boundary-2",
+            "label": "Orders to join and later Harispe approach",
+            "reported_time": "After initial local movements in Suchet; exact joining/arrival clocks unknown",
+            "status": "source_relative_only",
+            "evidence": [
+              "p051",
+              "p052"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Initial Castalla positions and immediate approaches toward Ibi, as a proposed local core"
+          ],
+          "outside_proposed": [
+            "Alcoy reserve before its separately reported approach; remote camps without demonstrated initial availability"
+          ],
+          "unresolved": [
+            "Whether Ibi’s separate contact belongs inside the same earliest boundary; availability of Mesclop, dragoons and other wings/reserves"
+          ]
+        },
+        "findings": [
+          {
+            "text": "Toreno’s 12,000 distributed in four parts and Suchet’s 10,000 advancing columns are not mechanically reconciled or added to Roche’s Ibi force.",
+            "evidence": [
+              "p032",
+              "p033"
+            ]
+          },
+          {
+            "text": "Toreno separates Harispe at Alcoy, Mesclop at Ibi and Delort near Castalla. Suchet reports support orders and a later Harispe approach: neither rank nor later presence selects initial command.",
+            "evidence": [
+              "p051",
+              "p052",
+              "p035"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B432b",
+        "place": "Salamanca",
+        "frozen_interval": {
+          "start": "1812-07-22",
+          "end": "1812-07-22"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B432b-boundary-1",
+            "label": "French dispositions",
+            "reported_time": "Ten in the morning, Marmont’s reported clock",
+            "status": "source_relative_only",
+            "evidence": [
+              "p053"
+            ]
+          },
+          {
+            "id": "B432b-boundary-2",
+            "label": "Marmont wounding and subsequent Bonnet/Clausel succession",
+            "reported_time": "Approximately three in the afternoon, Marmont; exact effective transfers unknown",
+            "status": "source_relative_only",
+            "evidence": [
+              "p054",
+              "p040"
+            ]
+          },
+          {
+            "id": "B432b-boundary-3",
+            "label": "Later attack-initiation narrative in Oman",
+            "reported_time": "Approximately quarter to four in the surrounding narrative; exact referent and earliest hostile act unestablished",
+            "status": "source_relative_only",
+            "evidence": [
+              "p055",
+              "p041"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Arapiles knolls, western plateau and local field approaches"
+          ],
+          "outside_proposed": [
+            "Distant garrisons, depots and hospitals rather than automatic battle personnel"
+          ],
+          "unresolved": [
+            "Earliest preceding outpost/artillery contact, common clocks, full local component availability and category crosswalk"
+          ]
+        },
+        "findings": [
+          {
+            "text": "The 51,939 allied table includes officers and Spanish troops; Oman’s roughly 48,500 French total is a reconstruction from an earlier return, losses and straggling. No ratio or preferred source is selected.",
+            "evidence": [
+              "p037",
+              "p038"
+            ]
+          },
+          {
+            "text": "Marmont’s ten-am dispositions and approximate three-pm wound, then succession, are kept separate from Oman’s quarter-to-four action narrative. No invented synchronized boundary or transfer timestamp.",
+            "evidence": [
+              "p053",
+              "p054",
+              "p055",
+              "p040"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      },
+      {
+        "battle_id": "B441a",
+        "place": "Burgos",
+        "frozen_interval": {
+          "start": "1812-09-19",
+          "end": "1812-10-21"
+        },
+        "boundary_candidates": [
+          {
+            "id": "B441a-boundary-1",
+            "label": "Garrison detachment and town occupation",
+            "reported_time": "18 September morning detachment; town occupation on the 18th in Belmas",
+            "status": "source_relative_only",
+            "evidence": [
+              "p056",
+              "p044"
+            ]
+          },
+          {
+            "id": "B441a-boundary-2",
+            "label": "Frozen source-listed siege start",
+            "reported_time": "19 September in Bodart; no actual first-contact clock established",
+            "status": "source_relative_only",
+            "evidence": [
+              "p011"
+            ]
+          }
+        ],
+        "area": {
+          "inside_proposed": [
+            "Burgos castle and immediate siege approaches"
+          ],
+          "outside_proposed": [
+            "Clausel/Souham relief/field armies and wider northern allied availability"
+          ],
+          "unresolved": [
+            "First local hostile act, complete besieging population and exact garrison category/availability at that contact"
+          ]
+        },
+        "findings": [
+          {
+            "text": "Belmas explicitly co-reports 2,000 castle personnel under Dubreton in the 18th-morning detachment context. It is a local association without a complete first-contact population audit.",
+            "evidence": [
+              "p056",
+              "p042"
+            ]
+          },
+          {
+            "text": "Oman’s 28,000 Anglo-Portuguese and 11,000 Galicians are strategic availability, not local besiegers. The field-army succession is distinct from Dubreton’s fortress command.",
+            "evidence": [
+              "p043",
+              "p042"
+            ]
+          }
+        ],
+        "stopping_reason": "Existing assigned pages inspected; no complete shared first-contact population/authority mapping established. Stop after this campaign; no new source follow-up."
+      }
+    ],
+    "side_records": [
+      {
+        "battle_id": "B430a",
+        "side": "A",
+        "strength_ids": [
+          "B430a-A-s01",
+          "B430a-A-s02"
+        ],
+        "authority_ids": [
+          "B430a-A-a01",
+          "B430a-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Bodart’s 1,800 and the mixed 1,937 table have different or unresolved category/time meanings. No complete boundary-matched combat-unit population.",
+          "authority_and_identity": "Barrié is reported governor, without a complete effective appointment interval, global person mapping or force match at the proposed contact.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p001",
+          "p012",
+          "p013",
+          "p045"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "side": "B",
+        "strength_ids": [
+          "B430a-B-s01",
+          "B430a-B-s02"
+        ],
+        "authority_ids": [
+          "B430a-B-a01",
+          "B430a-B-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Bodart’s 40,000 is a wider source-listed force; a matched own-side local headcount is not recovered.",
+          "authority_and_identity": "Wellesley/Wellington source labels and the planned approach do not establish all local/subordinate authority at one opening boundary.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p001",
+          "p012",
+          "p014",
+          "p045"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "side": "A",
+        "strength_ids": [
+          "B430b-A-s01",
+          "B430b-A-s02"
+        ],
+        "authority_ids": [
+          "B430b-A-a01",
+          "B430b-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Approach force on the 22nd is not proven complete, unchanged and locally available at first contact on the 24th.",
+          "authority_and_identity": "Mathieu’s reported relief/attack task does not establish every component’s opening authority or a global identity/appointment mapping.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p002",
+          "p015",
+          "p016",
+          "p017"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "side": "B",
+        "strength_ids": [
+          "B430b-B-s01",
+          "B430b-B-s02"
+        ],
+        "authority_ids": [
+          "B430b-B-a01",
+          "B430b-B-a02",
+          "B430b-B-a03",
+          "B430b-B-a04",
+          "B430b-B-a05"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Spanish own-side local people count is unestablished; Bodart’s 10,000 has no resolved matched population.",
+          "authority_and_identity": "Local Eroles and Lacy attributions remain disputed; later orders do not settle their battle-day scopes.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p002",
+          "p015",
+          "p016",
+          "p017",
+          "p018",
+          "p019"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "side": "A",
+        "strength_ids": [
+          "B430c-A-s01",
+          "B430c-A-s02"
+        ],
+        "authority_ids": [
+          "B430c-A-a01",
+          "B430c-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Bodart’s 2,100 infantry/400 artillery remain separate from the named siege battalions; no independent matched own-side people return.",
+          "authority_and_identity": "Severoli’s establishment before the place is reported, without a complete effective authority mapping at first hostile contact.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p003",
+          "p021",
+          "p046",
+          "p047"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "side": "B",
+        "strength_ids": [
+          "B430c-B-s01",
+          "B430c-B-s02"
+        ],
+        "authority_ids": [
+          "B430c-B-a01",
+          "B430c-B-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "The 1,000 garrison figure lacks a complete category audit and contact-matched date; nearby naval forces are not automatically garrison personnel.",
+          "authority_and_identity": "García Navarro/Pareia-Navarro correspondence and appointment timing are unestablished.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p003",
+          "p020",
+          "p021",
+          "p022",
+          "p046",
+          "p047"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "side": "A",
+        "strength_ids": [
+          "B431a-A-s01",
+          "B431a-A-s02",
+          "B431a-A-s03"
+        ],
+        "authority_ids": [
+          "B431a-A-a01",
+          "B431a-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Belmas’s 5,000 is in a retrospective storm/loss account; the disputed 15-March mixed table is not a complete verified first-contact combat-unit population.",
+          "authority_and_identity": "Philippon’s later government/capitulation context does not establish a complete effective opening appointment interval.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p004",
+          "p023",
+          "p024",
+          "p026",
+          "p027",
+          "p048"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "side": "B",
+        "strength_ids": [
+          "B431a-B-s01",
+          "B431a-B-s02",
+          "B431a-B-s03"
+        ],
+        "authority_ids": [
+          "B431a-B-a01",
+          "B431a-B-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "12,000 bayonets omits a resolved all-arms count; 45,000/51,000 armies are not the local corps.",
+          "authority_and_identity": "Beresford’s investing corps and Wellington’s superior army role must be mapped to a common boundary and scope, with identities and effective authority unestablished.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p004",
+          "p024",
+          "p025",
+          "p026",
+          "p048"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "side": "A",
+        "strength_ids": [
+          "B431b-A-s01",
+          "B431b-A-s02",
+          "B431b-A-s03"
+        ],
+        "authority_ids": [
+          "B431b-A-a01",
+          "B431b-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "700 and 800 remain source alternatives with unresolved category/time correspondence to earliest contact.",
+          "authority_and_identity": "Duchemin’s local garrison role is reported without a complete effective opening appointment/identity mapping.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p005",
+          "p028",
+          "p029",
+          "p030",
+          "p031"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "side": "B",
+        "strength_ids": [
+          "B431b-B-s01",
+          "B431b-B-s02"
+        ],
+        "authority_ids": [
+          "B431b-B-a01",
+          "B431b-B-a02",
+          "B431b-B-a03"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "No local all-ranks siege headcount is supplied; division and whole army cannot be interchanged.",
+          "authority_and_identity": "Clinton’s troop task and Wellington’s superior arrangements differ; exact local opening responsibility remains unestablished.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p005",
+          "p028",
+          "p031"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "side": "A",
+        "strength_ids": [
+          "B432a-A-s01",
+          "B432a-A-s02"
+        ],
+        "authority_ids": [
+          "B432a-A-a01",
+          "B432a-A-a02",
+          "B432a-A-a03",
+          "B432a-A-a04",
+          "B432a-A-a05"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Bodart’s 4,000 has no matched own-side local all-ranks replacement. Later joining forces cannot be backdated to first contact.",
+          "authority_and_identity": "Harispe’s reserve/superior role, Delort’s local direction, Mesclop’s Ibi task and later reinforcement are distinct; no automatic Harispe opening assignment.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p006",
+          "p033",
+          "p035",
+          "p036",
+          "p051",
+          "p052"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "side": "B",
+        "strength_ids": [
+          "B432a-B-s01",
+          "B432a-B-s02",
+          "B432a-B-s03"
+        ],
+        "authority_ids": [
+          "B432a-B-a01",
+          "B432a-B-a02",
+          "B432a-B-a03"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Distributed 12,000 versus advancing 10,000 leaves sector membership and complete first-contact categories unresolved.",
+          "authority_and_identity": "José Odonell/Joseph O-Donell are locally reported labels, without a global person mapping or complete effective control over every sector.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p006",
+          "p032",
+          "p033",
+          "p034",
+          "p035",
+          "p051",
+          "p052"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "side": "A",
+        "strength_ids": [
+          "B432b-A-s01",
+          "B432b-A-s02",
+          "B432b-A-s03"
+        ],
+        "authority_ids": [
+          "B432b-A-a01",
+          "B432b-A-a02",
+          "B432b-A-a03",
+          "B432b-A-a04",
+          "B432b-A-a05"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "42,000 infantry/cavalry reference and roughly 48,500 reconstructed army have unresolved combatant/train/time correspondence; no own-side matched opening total.",
+          "authority_and_identity": "Marmont’s early directions and Bonnet/Clausel succession do not establish a single continuous commander, precise handovers or resolved person/army identities.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p007",
+          "p008",
+          "p009",
+          "p010",
+          "p038",
+          "p039",
+          "p040",
+          "p041",
+          "p053",
+          "p054",
+          "p055"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "side": "B",
+        "strength_ids": [
+          "B432b-B-s01",
+          "B432b-B-s02"
+        ],
+        "authority_ids": [
+          "B432b-B-a01",
+          "B432b-B-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "46,000 compiler infantry/cavalry and 51,939 mixed national officer/men table have unresolved definition and first-contact correspondence.",
+          "authority_and_identity": "Wellington’s reported local attack initiation is later task evidence, not authority over a category-complete population at earliest hostile contact.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p007",
+          "p008",
+          "p009",
+          "p010",
+          "p037",
+          "p040",
+          "p041",
+          "p053",
+          "p054",
+          "p055"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "side": "A",
+        "strength_ids": [
+          "B441a-A-s01",
+          "B441a-A-s02"
+        ],
+        "authority_ids": [
+          "B441a-A-a01",
+          "B441a-A-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "The 2,000 local garrison lacks a category-complete, contact-matched muster; field-army reinforcements are not garrison strength.",
+          "authority_and_identity": "Dubreton’s local role is explicit, but the exact first-contact population/authority interval and global mapping remain unresolved.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p011",
+          "p042",
+          "p044",
+          "p056"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "side": "B",
+        "strength_ids": [
+          "B441a-B-s01",
+          "B441a-B-s02",
+          "B441a-B-s03",
+          "B441a-B-s04"
+        ],
+        "authority_ids": [
+          "B441a-B-a01",
+          "B441a-B-a02"
+        ],
+        "selected_boundary": null,
+        "selected_strength": null,
+        "selected_person_id": null,
+        "army_id": null,
+        "status": "blocked",
+        "blockers": {
+          "joint_boundary_and_area": "Earliest hostile contact and common local combat area are not jointly established for all components.",
+          "complete_population": "Bodart’s 32,000 and the wider 28,000/11,000 availability observations do not establish a local siege headcount.",
+          "authority_and_identity": "Wellington’s undertaking the siege does not establish all local subordinate scopes at an exact first hostile contact.",
+          "army_continuity": "No fixed army-entity level or verified cross-entry continuity/appointment mapping is established by these pages."
+        },
+        "evidence": [
+          "p011",
+          "p043",
+          "p044",
+          "p056"
+        ]
+      }
+    ],
+    "claim_index": [
+      {
+        "battle_id": "B430a",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B430a-A-s01",
+          "B430a-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430a-A-a01",
+          "B430a-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "claim_id": "mediated-french-investment-return",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B430a-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "claim_id": "allied-local-headcount-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B430a-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "claim_id": "barrie-governor",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430a-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B430a",
+        "claim_id": "wellington-siege-plan",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430a-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-A-s01",
+          "B430b-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-A-a01",
+          "B430b-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "mathieu-relief-force",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "mathieu-lamarque-task",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "eroles-local-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "belmas-lacy-attribution",
+        "dimension": "responsibility",
+        "status": "disputed",
+        "observation_ids": [
+          "B430b-B-a03"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "lacy-superior-instruction",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-B-a04"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "spanish-own-headcount-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B430b-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B430b",
+        "claim_id": "spanish-rally-point",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430b-B-a05"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B430c-A-s01",
+          "B430c-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430c-A-a01",
+          "B430c-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "spanish-garrison",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B430c-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "french-own-local-count-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B430c-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "severoli-local-investment",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430c-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B430c",
+        "claim_id": "garcia-navarro-governor",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B430c-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-A-s01",
+          "B431a-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-A-a01",
+          "B431a-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "belmas-garrison",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "mediated-march15-garrison-table",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B431a-A-s03"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "beresford-investing-corps",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "beresford-local-role",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "belmas-allied-army",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B431a-B-s03"
+        ]
+      },
+      {
+        "battle_id": "B431a",
+        "claim_id": "philippon-governor",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431a-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B431b-A-s01",
+          "B431b-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431b-A-a01",
+          "B431b-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "belmas-fort-garrison",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B431b-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "oman-fort-garrison-alternative",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B431b-A-s03"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "allied-siege-headcount-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B431b-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "duchemin-local-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431b-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B431b",
+        "claim_id": "clinton-local-wellington-superior",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B431b-B-a02",
+          "B431b-B-a03"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B432a-A-s01",
+          "B432a-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432a-A-a01",
+          "B432a-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "spanish-four-part-force",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B432a-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "suchet-spanish-advance",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B432a-B-s03",
+          "B432a-B-a03"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "french-local-count-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B432a-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "odonnell-plan",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432a-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "harispe-delort-local-scope",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432a-A-a02",
+          "B432a-A-a03",
+          "B432a-A-a04"
+        ]
+      },
+      {
+        "battle_id": "B432a",
+        "claim_id": "delort-counterattack",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432a-A-a05"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B432b-A-s01",
+          "B432b-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432b-A-a01",
+          "B432b-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "oman-allied-battle-table",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B432b-B-s02"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "oman-inferred-french-strength",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B432b-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "french-own-matched-return-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B432b-A-s03"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "marmont-bonnet-disposition",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432b-A-a02",
+          "B432b-A-a03"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "marmont-bonnet-clausel-succession",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432b-A-a04",
+          "B432b-A-a05"
+        ]
+      },
+      {
+        "battle_id": "B432b",
+        "claim_id": "wellington-pakenham-task",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B432b-B-a02"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "bodart-strength",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B441a-A-s01",
+          "B441a-B-s01"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "bodart-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B441a-A-a01",
+          "B441a-B-a01"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "french-castle-garrison",
+        "dimension": "strength",
+        "status": "supported",
+        "observation_ids": [
+          "B441a-A-s02"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "dubreton-local-command",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B441a-A-a02"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "allied-available-army",
+        "dimension": "strength",
+        "status": "disputed",
+        "observation_ids": [
+          "B441a-B-s02",
+          "B441a-B-s03"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "local-siege-headcount-unknown",
+        "dimension": "strength",
+        "status": "unknown",
+        "observation_ids": [
+          "B441a-B-s04"
+        ]
+      },
+      {
+        "battle_id": "B441a",
+        "claim_id": "wellington-siege-direction",
+        "dimension": "responsibility",
+        "status": "supported",
+        "observation_ids": [
+          "B441a-B-a02"
+        ]
+      }
+    ],
+    "emitted_model_rows": [],
+    "historical_outcomes_fitted": false,
+    "calibration": "prepared_unscored"
+  }
+}

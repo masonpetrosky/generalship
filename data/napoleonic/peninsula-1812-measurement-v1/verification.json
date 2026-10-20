@@ -1,0 +1,140 @@
+{
+  "kind": "napoleonic_combined_measurement_primary_verification",
+  "version": 1,
+  "verification": "primary-verified",
+  "verifier_role": "primary AI author and verifier",
+  "verified_at": "2026-10-19",
+  "independent_review": false,
+  "subagents": false,
+  "authorizes_feature_admission": false,
+  "historical_outcomes_fitted": false,
+  "calibration": "prepared_unscored",
+  "bindings": {
+    "inputs": {
+      "artifacts/napoleonic-blocker-inventory-v1.json": "ee47705a42e31e248ee2ad0450cdabc94e69669eae10febe610106d3b77e58b6",
+      "data/napoleonic/blocker-inventory-v1/scope.json": "7abb2bcaca3d8ea27aa7a4d268eb747ee4d19bce184a12187fe72f3250e2ca5c",
+      "data/napoleonic/blocker-inventory-v1/verification.json": "4386509d3094ebaf3055e9abfa72f1736a2a10d919127f8208004cb808a6abc4",
+      "data/napoleonic/cohort-v1.json": "626167ff6f0306cc67cc39fedf8aa8a85286dfcf52c9b24f0d408408bac6b86c",
+      "data/napoleonic/evidence/B430a.json": "808b4ab88c5f17f467cf4f998276174293b01b3401664ba5cb6b2faa5d3ce8a3",
+      "data/napoleonic/evidence/B430b.json": "f260cec48337655f6a60570d754c77f65916f9559d17ebc4f865e0e0501908e9",
+      "data/napoleonic/evidence/B430c.json": "36c69cd9dbec6d6bcad4605ca4b85c0c00bcff37107b51101fcc841aab84bea3",
+      "data/napoleonic/evidence/B431a.json": "48463c92a7f5a27ee7cd337d3cb308b3d0eeffc28247d1caa67d08060e5a2a55",
+      "data/napoleonic/evidence/B431b.json": "d429aafee7b2c7a5f517a3e051ef9c3fd65351ee84d5272e46ab8ff9c7edd625",
+      "data/napoleonic/evidence/B432a.json": "1953bb23f9de3f17b33322ee845b38bc0cf10d545a63380bf6eb801e75ba0569",
+      "data/napoleonic/evidence/B432b.json": "d213b184ac6ff43b7654c9282b73ad6d17fe5e43930aa06e5034c9c5cd3d26cb",
+      "data/napoleonic/evidence/B441a.json": "8bc8844d8c31dddcef813a296b1926f9ff21d2d87e9a59aeb70d282e2f15e69a",
+      "data/napoleonic/frame-v1.json": "af6016fc4d8505de0e5ebba4d3cd106178a07dd542c4c6ab7ed34770f1af75ea",
+      "data/napoleonic/methods-v1/evaluation.json": "eae74dfcda9e5b14653882ae6a5ff03e79b8d6dfc76b291463d4792ce4fcd927",
+      "data/napoleonic/peninsula-1812-measurement-v1/records.json": "20623489a5f9b20cfcbf6b91cbab3bc5ce765ed0045b8f7487f4a783e0e8d514",
+      "data/napoleonic/peninsula-1812-measurement-v1/scope.json": "71d28249ae01f09742370f5df8a238b71904f41df15ae6c30db5957a32cf4a58",
+      "data/napoleonic/peninsula-1812-measurement-v1/source-snapshot.json": "180c1685d41b6db39a2ce6b5bd5676e27ddb87cbe9d3356e17b17a7bb01d59b1",
+      "data/sources.json": "0da12d4e8d274702cb045486d100d484cf8c050077097430f33f1713dc117c07",
+      "docs/napoleonic-peninsula-1812-measurement-v1.md": "e1c7a3c9d2cba23f9530e2577b19218d8165a3f0cca118d5b867faee2c48868f",
+      "generalship/napoleonic_measurement.py": "dffa9f0cc79fa59adb212588e3d9c9cf10cea7be7248fa252d9757ccaf44aace",
+      "tests/test_napoleonic_measurement.py": "675c66f937d0993236c13291c8dec5327b7986d8c791013e1f2b40c28b6f7975"
+    },
+    "outputs": {
+      "artifacts/napoleonic-peninsula-1812-measurement-v1.json": "792f77d588767ca03cdf8137ee852acc4fc78021b4a517ad0a58621ea2681176",
+      "artifacts/napoleonic-peninsula-1812-measurement-v1.md": "e92ee1a22535515639167031f1bd3635469f320394d34d075616d022d6149819"
+    }
+  },
+  "counts": {
+    "entries": 8,
+    "sides": 16,
+    "indexed_claims": 59,
+    "passages": 56,
+    "images": 28,
+    "source_metadata_records": 68,
+    "strength_observations": 39,
+    "known_strength_observations": 32,
+    "explicit_strength_unknowns": 7,
+    "authority_appearances": 43,
+    "source_local_co_reports": 6,
+    "arithmetic_checks": 7,
+    "blocked_sides": 16,
+    "complete_opening_pairs": 0,
+    "emitted_model_rows": 0
+  },
+  "inspected_image_ids": [
+    "belmas-1836-t1-1812-p219-image-v1",
+    "belmas-1836-t1-1812-p224-image-v1",
+    "belmas-1836-t1-1812-p229-image-v1",
+    "belmas-1836-t1-1812-p239-image-v1",
+    "bodart-1908-p430-image-v1",
+    "bodart-1908-p431-image-v1",
+    "bodart-1908-p432-image-v1",
+    "bodart-1908-p441-image-v1",
+    "marmont-1857-t4-1812-p235-image-v1",
+    "marmont-1857-t4-1812-p240-image-v1",
+    "oman-1914-t5-1812-p165-image-v1",
+    "oman-1914-t5-1812-p166-image-v1",
+    "oman-1914-t5-1812-p228-image-v1",
+    "oman-1914-t5-1812-p360-image-v1",
+    "oman-1914-t5-1812-p361-image-v1",
+    "oman-1914-t5-1812-p436-image-v1",
+    "oman-1914-t5-1812-p587-image-v1",
+    "oman-1914-t5-1812-p593-image-v1",
+    "oman-1914-t5-1812-p599-image-v1",
+    "oman-1914-t5-1812-p600-image-v1",
+    "oman-1922-t6-1812-p19-image-v1",
+    "suchet-1834-t2-1812-p235-image-v1",
+    "suchet-1834-t2-1812-p254-image-v1",
+    "suchet-1834-t2-1812-p255-image-v1",
+    "toreno-1835-t4-1812-p332-image-v1",
+    "toreno-1837-t5-1812-p11-image-v1",
+    "toreno-1837-t5-1812-p123-image-v1",
+    "toreno-1837-t5-1812-p124-image-v1"
+  ],
+  "inspection_scope": "All 28 assigned full images inspected: 24 non-Bodart strength/command pages plus four Bodart pages. All 54 original relevant citation references replayed; 44 distinct original passages and 12 added same-page context passages total 56. Full books and pages outside this set are not asserted read.",
+  "source_policy": "All 68 metadata records are exact copies of existing records and their parent/facsimile closure. No new source registration, fetching, raw file, dossier or prepared packet. Original returns mediated through histories remain uninspected originals.",
+  "historical_dispositions": {
+    "source_local_associations": 6,
+    "complete_opening_pairs": 0,
+    "blocked_sides": 16,
+    "null_selected_fields": [
+      "selected_boundary",
+      "selected_strength",
+      "selected_person_id",
+      "army_id"
+    ],
+    "arithmetic": "Five printed-sum checks and two diagnostic category residuals; 1,738/4,449 are not opening-strength candidates.",
+    "identity": "Literal labels/roles remain source-specific; no global person ID, synchronized clock, appointment transfer or army continuity inferred.",
+    "uncertainty": "Preserve differing populations, source alternatives, unknown category/time/area membership and effective authority. A source-backed proposition can be historically wrong."
+  },
+  "validation": {
+    "status": "passed",
+    "python": "3.14.7",
+    "make_check": {
+      "exit_code": 0,
+      "tests": 356,
+      "seconds": 260.923
+    },
+    "focused": {
+      "exit_code": 0,
+      "tests": 21,
+      "seconds": 3.157
+    },
+    "make_reproduce": {
+      "exit_code": 0
+    },
+    "final_narrative_recheck": "Clock-referent and Burgos inspection-scope wording clarified without changing quotes, amounts, counts, code or contracts; focused checks rerun on final records, then reproduction and read-only record validation passed.",
+    "direct_recount": "The primary separately recounted all 54 original citation references, eight entry totals, sixteen sides and seven arithmetic operations; this is not separate review.",
+    "logs": {
+      "data/napoleonic/peninsula-1812-measurement-v1/validation/check.log": "7144815543b7764b345a500b7f92aaedddcdbcef835cd7d0a42a25364e46d5ed",
+      "data/napoleonic/peninsula-1812-measurement-v1/validation/focused.log": "0dfec8bfc03d3258e48d11b1f62f670fccb1ef283aebe449481605da24ecfd00",
+      "data/napoleonic/peninsula-1812-measurement-v1/validation/reproduce.log": "c4c290d27a7b69e855ff752018746bba130dd902fde503659f038e08d941a96e"
+    }
+  },
+  "preservation": {
+    "base_commit": "8d26ab9f586c42bd8660de815362caca528ec517",
+    "existing_protected_files_compared": 7737,
+    "unchanged": 7736,
+    "expected_changed_files": [
+      "artifacts/receipt.json"
+    ],
+    "source_registry_entries": 5667,
+    "napoleonic_dossiers": 325,
+    "note": "Every pre-existing tracked data/artifact/module/test file and four earlier measurement/inventory protocols compared by SHA-256; only the general build receipt changes."
+  },
+  "stopping_disposition": "Stop this complete campaign. Next recommended work is a bounded feasibility checkpoint over the two completed groups, not an automatic further extraction or historical fit."
+}

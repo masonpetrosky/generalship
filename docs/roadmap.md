@@ -107,13 +107,18 @@ The 52 reserved-final dossiers are excluded. The fixed 12-entry batch cap and ex
 comparison select `peninsula 1812`: eight entries with 24 directly linked non-Bodart strength
 and command pages, versus 32 pages for 1810 and 56 for 1813.
 
-**Next recommended work:** one combined population/time/authority measurement pass for all eight
-`peninsula 1812` entries/16 sides, inspecting the existing cited passages and full pinned pages
-under the [inventory protocol](napoleonic-blocker-inventory-v1.md). Determine whether any complete
-force/person pair can be matched to a shared opening boundary; preserve unsupported mappings
-and stop after this complete campaign. No new fetch or historical fit is queued. Further source
-research must name a specific admission decision it could change; unknowns alone do not restart
-historical deep dives.
+**Done (2026-10-19):** the complete `peninsula 1812`
+[combined population/time/authority pass](../artifacts/napoleonic-peninsula-1812-measurement-v1.md).
+All 59 strength/responsibility claims are indexed from 56 passages on 28 re-inspected images.
+There are 32 numerical strength observations, seven explicit strength unknowns, 43 authority
+appearances and six local associations between troop totals and named roles. **All 16 opening mappings remain
+blocked; zero complete opening pairs or model rows. Stop this campaign pass here.**
+
+**Next recommended work:** a bounded measurement-feasibility checkpoint using the two completed
+groups (12 entries/24 sides), distinguishing reusable local associations from the specific
+boundary/population/authority/army evidence needed for the strict opening target. Identify the
+research or methodological decision before wider extraction. No automatic follow-up series,
+new fetch or historical fit is queued; unknowns alone do not restart historical deep dives.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

@@ -50,8 +50,9 @@ As of 2026-10-19:
   Their [authority/continuity mapping](docs/napoleonic-authority-v1.md) now separates reported
   roles and source-local identities; no cross-engagement army link is established. This pilot
   stops here. The [development blocker inventory](artifacts/napoleonic-blocker-inventory-v1.md)
-  now covers all 273 development entries and selects the eight-entry 1812 Peninsular group
-  for the next bounded measurement pass over existing pinned evidence.
+  covers all 273 development entries. Its selected eight-entry 1812 Peninsular group now has a
+  [combined measurement table](artifacts/napoleonic-peninsula-1812-measurement-v1.md): six local
+  associations between troop totals and named roles, with all sixteen opening mappings still blocked.
 
 ## How the research is produced
 

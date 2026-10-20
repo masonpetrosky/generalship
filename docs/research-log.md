@@ -3948,3 +3948,53 @@ fit ran. The next recommendation is one combined population/time/authority table
 1812 group using these existing passages and full pinned pages, testing whether any complete
 force/person pair can share an opening boundary. Stop after that campaign with unresolved sides
 visible; no automatic source-fetch or follow-up series is queued.
+
+## Peninsula 1812 combined measurement pass v1 (2026-10-19)
+
+Completed the accepted bounded pass for all eight entries/16 sides selected by the development
+inventory. The [protocol](napoleonic-peninsula-1812-measurement-v1.md) combines population, time,
+local area and authority in one table and stops after the complete campaign.
+
+- **Inspection:** all 24 existing non-Bodart strength/command images plus four Bodart images
+  re-inspected, with 56 adopted passages. All original citations of the 59 strength/responsibility
+  claims are retained; 12 additional context passages are exact substrings of existing registered
+  OCR parents on these same inspected pages. Complete metadata and parent/facsimile closure of
+  68 existing records is frozen. No source registration, raw file or dossier changed.
+- **Observations:** 39 strength records (32 numerical observations, seven explicit unknowns) and
+  43 authority appearances, retaining literal actor labels, populations, source-specific times
+  and exact claim/citation references. Appearances are not distinct people. No normalization of
+  Eróles/Eroles, Wellesley/Wellington, García/Pareia-Navarro, or Odonell/O-Donell installs an identity.
+- **Local progress:** six source-local people/actor associations: Mathieu’s relief force,
+  Peñíscola’s garrison/governor, Beresford’s investing bayonets, Duchemin’s three-fort garrison,
+  Suchet’s Joseph O-Donell columns and Dubreton’s castle garrison. These are useful recorded
+  associations, not six complete opening pairs or independent corroborations.
+- **Boundary/authority findings:** Peñíscola’s approach/rejected terms and later explicit
+  bombardment are distinct markers. Badajoz’s 16-March investment is explicitly unopposed;
+  the 15-March table is a different state. June Salamanca separates the local investing division
+  and three forts from the wider field army. Castalla separates Harispe’s Alcoy reserve,
+  Mesclop’s Ibi task, Delort’s local direction, support orders and Harispe’s later approach.
+  July Salamanca retains Marmont’s reported ten-am dispositions/approximate three-pm wound and
+  Bonnet–Clausel succession separately from Oman’s quarter-to-four attack narrative; no shared
+  clock or exact handover is manufactured. Burgos’s 18th-morning detachment under Dubreton
+  precedes the frozen 19-September start without establishing first hostile contact.
+- **Arithmetic:** seven checks retain printed component totals and two diagnostic subtraction
+  residuals: 1,738 at Rodrigo and 4,449 at Badajoz after removing explicitly listed sick/civil
+  categories. These do not resolve classification, state persistence or boundary membership and
+  are not opening-strength candidates. The 51,939 Salamanca total checks by national and rank
+  columns; Oman's approximate French 48,500 remains his reconstruction, not our selected muster.
+- **Result:** all 16 side mappings remain blocked, selected boundary/strength/person/army null,
+  zero complete opening pairs and zero model rows. Every side lists its specific population and
+  authority gap, common-boundary/area uncertainty and unestablished army continuity. No source
+  hierarchy, reputation check, loss-derived feature or silent army/local-force substitution.
+- **Validation:** the offline checker replays citations and OCR ranges, source metadata/raw/image
+  hashes, exact claim/side/campaign accounting, source-local page constraints, arithmetic and
+  non-promotion. Focused/full test, reproduction and preservation evidence is retained in the
+  [primary record](../data/napoleonic/peninsula-1812-measurement-v1/verification.json). The generated
+  [combined report](../artifacts/napoleonic-peninsula-1812-measurement-v1.md) was inspected.
+
+The work is primary-verified. Earlier frozen records, prepared packet, raw inputs, dossiers and
+historical/synthetic results retain their bytes. No subagent, separate review, second-opinion
+prompt, calibration score or historical fit ran. Stop this campaign here. The next recommended
+action is a bounded feasibility checkpoint over the two completed measurement groups (12
+entries/24 sides), distinguishing which evidence the strict opening target requires before
+wider extraction. It does not authorize an automatic deep dive or historical model run.

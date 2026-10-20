@@ -7,11 +7,13 @@ check:
 	$(PYTHON) -m generalship.napoleonic_boundaries
 	$(PYTHON) -m generalship.napoleonic_authority
 	$(PYTHON) -m generalship.napoleonic_inventory
+	$(PYTHON) -m generalship.napoleonic_measurement
 
 reproduce:
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship.napoleonic_authority --write
 	$(PYTHON) -m generalship.napoleonic_inventory --write
+	$(PYTHON) -m generalship.napoleonic_measurement --write
 	$(PYTHON) -m generalship build
 
 napoleonic-methods:
