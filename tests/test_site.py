@@ -254,6 +254,191 @@ class SiteTests(unittest.TestCase):
         self.assertIn('same-side status', gaeta.lower())
         self.assertIn('Source labels', gaeta)
 
+    def outcome_card(self, battle, record, kind):
+        page = (self.out / f'napoleonic/outcomes/{battle}.html').read_text()
+        match = re.search(r'<article class="observation" id="' + kind + '-' + re.escape(record)
+                          + r'">(.*?)</article>', page, re.S)
+        self.assertIsNotNone(match, (battle, record))
+        return match.group(1), page
+
+    def test_outcome_views_keep_separate_complete_pilots_and_navigation(self):
+        loss = read_json(ROOT / 'data/napoleonic/loss-pilot-v1/observations.json')
+        objective = read_json(ROOT / 'data/napoleonic/objective-pilot-v1/observations.json')
+        loss_ids = {e['battle_id'] for e in loss['entries']}
+        objective_ids = set(objective['entry_ids'])
+        self.assertFalse(loss_ids & objective_ids)
+        pages = self.out / 'napoleonic/outcomes'
+        self.assertEqual({p.stem for p in pages.glob('*.html')}, loss_ids | objective_ids | {'index', 'losses', 'objectives'})
+        index = (pages / 'index.html').read_text()
+        self.assertIn('26 of 325 cohort entries', index)
+        self.assertIn('do not estimate corpus-wide feasibility', index)
+        self.assertIn('proposition counts are not success counts', index)
+        self.assertIn('outcomes/index.html', (self.out / 'napoleonic/index.html').read_text())
+        for b in read_json(ROOT / 'data/napoleonic/cohort-v1.json')['battle_ids']:
+            dossier = (self.out / f'napoleonic/engagements/{b}.html').read_text()
+            self.assertEqual(f'../outcomes/{b}.html' in dossier, b in loss_ids | objective_ids)
+            if b in loss_ids | objective_ids:
+                page = (pages / f'{b}.html').read_text()
+                self.assertIn(f'../engagements/{b}.html', page)
+                self.assertIn('side-A', self.pages[pages / f'{b}.html'].ids)
+                self.assertIn('side-B', self.pages[pages / f'{b}.html'].ids)
+                self.assertNotIn('>None<', page)
+                self.assertIn('no common grade or commander credit', page)
+        for year, path in [(1805, 'losses'), (1806, 'objectives')]:
+            campaign = (self.out / f'napoleonic/campaigns/third-coalition-{year}.html').read_text()
+            self.assertIn(f'../outcomes/{path}.html', campaign)
+
+    def test_loss_view_preserves_all_quantities_scopes_unknowns_and_conditions(self):
+        data = read_json(ROOT / 'data/napoleonic/loss-pilot-v1/observations.json')
+        count = 0
+        for e in data['entries']:
+            page = (self.out / f'napoleonic/outcomes/{e["battle_id"]}.html').read_text()
+            for side, r in e['sides'].items():
+                for field in ('time_scope', 'population_scope'):
+                    self.assertIn(html.escape(r[field].replace('_', ' ')), page)
+                for note in r['notes']:
+                    self.assertIn(html.escape(note), page)
+                for q in r['quantities']:
+                    count += 1
+                    card, _ = self.outcome_card(e['battle_id'], q['id'], 'quantity')
+                    for field in ('literal', 'population', 'qualifier', 'basis'):
+                        value = q[field] if field == 'literal' else q[field].replace('_', ' ')
+                        self.assertIn(html.escape(value), card, (q['id'], field))
+                    self.assertIn(f'{q["value"]:,} {q["unit"].replace("_", " ")}', card)
+                    if q.get('note'):
+                        self.assertIn(html.escape(q['note']), card)
+                    for field in ('explicit_subset_denominator', 'direct_source_denominator'):
+                        if field in q:
+                            self.assertIn(html.escape(q[field]['literal']), card)
+                            self.assertIn(html.escape(q[field]['population'].replace('_', ' ')), card)
+                    for pid in q['evidence']:
+                        self.assertIn(f'href="#passage-{pid}"', card)
+                condition = r['surrender_condition']
+                if condition:
+                    self.assertIn(html.escape(condition['kind'].replace('_', ' ')), page)
+                    if condition.get('note'):
+                        self.assertIn(html.escape(condition['note']), page)
+        self.assertEqual(count, 140)
+        unknown = (self.out / 'napoleonic/outcomes/B368d.html').read_text()
+        self.assertEqual(unknown.count('Unknown numerical loss.'), 2)
+        self.assertNotIn('4,000 people</h4>', unknown)
+        self.assertIn('conditional free withdrawal no capture count', unknown)
+        wertingen = (self.out / 'napoleonic/outcomes/B363a.html').read_text()
+        self.assertIn('About 500 people', wertingen)
+        self.assertIn('Officer subset: 52 people', wertingen)
+        self.assertIn('Guns: 6 guns', wertingen)
+
+    def test_loss_view_preserves_category_denominators_arithmetic_and_dossier_disputes(self):
+        index = (self.out / 'napoleonic/outcomes/losses.html').read_text()
+        self.assertIn('35/44 sides', index)
+        self.assertIn('14/22 pairs', index)
+        self.assertIn('<td>Killed and wounded</td><td>16/44</td><td>6/22</td>', index)
+        self.assertIn('<td>Prisoners / captured</td><td>15/44</td><td>1/22</td>', index)
+        self.assertIn('<td>Killed</td><td>0/44</td><td>0/22</td>', index)
+        data = read_json(ROOT / 'artifacts/napoleonic-1805-loss-pilot-v1.json')
+        for r in data['profile']['percent_checks']:
+            page = (self.out / f'napoleonic/outcomes/{r["battle_id"]}.html').read_text()
+            self.assertIn(html.escape(r['interpretation']), page)
+            self.assertIn(f'<dt>Printed minus implied (percentage points)</dt><dd>{r["printed_minus_implied_pp"]}</dd>', page)
+        for e in data['observations']['entries']:
+            page = (self.out / f'napoleonic/outcomes/{e["battle_id"]}.html').read_text()
+            for side in e['sides'].values():
+                for rule in side['source_arithmetic']:
+                    self.assertIn(html.escape(rule['interpretation']), page)
+                    for qid in rule['parts'] + [rule['total']]:
+                        self.assertIn(f'href="#quantity-{qid}"', page)
+            for claim in e['existing_dossier']['outcome_claims']:
+                self.assertIn(f'../engagements/{e["battle_id"]}.html#claim-{claim["claim_id"]}', page)
+                self.assertIn(f' · {claim["status"]}</li>', page)
+        self.assertEqual(len(data['profile']['existing_disputed_outcome_pointers']), 3)
+
+    def test_objective_view_keeps_all_propositions_criteria_windows_and_evidence_roles(self):
+        data = read_json(ROOT / 'data/napoleonic/objective-pilot-v1/observations.json')
+        missing = 0
+        for r in data['components']:
+            card, page = self.outcome_card(r['battle_id'], r['id'], 'component')
+            for field in ('objective', 'precedence_note', 'criterion_note', 'observed_result', 'result_window'):
+                self.assertIn(html.escape(r[field]), card, (r['id'], field))
+            for field in ('statement_kind', 'scope_level', 'reported_precedence', 'recording_provenance'):
+                self.assertIn(html.escape(r[field].replace('_', ' ')), card, (r['id'], field))
+            for limit in r['limits']:
+                self.assertIn(html.escape(limit), card)
+            if r['success_criterion'] is None:
+                missing += 1
+                self.assertIn('<dt>Success criterion</dt><dd><span class="muted">Unestablished</span>', card)
+            else:
+                self.assertIn(html.escape(r['success_criterion']), card)
+            for field, heading in [('objective_evidence', 'Intention evidence'), ('result_evidence', None),
+                                   ('context_evidence', 'Context evidence')]:
+                for pid in r[field]:
+                    self.assertIn(f'href="#passage-{pid}"', card)
+                if heading and r[field]:
+                    self.assertIn(heading, card)
+            for battle in r['related_entries']:
+                self.assertIn(f'href="{battle}.html"', card)
+            self.assertIn('Unknown criteria or achievement are not failures', page)
+        self.assertEqual(len(data['components']), 19)
+        self.assertEqual(missing, 8)
+        index = (self.out / 'napoleonic/outcomes/objectives.html').read_text()
+        for text in ('7/8 sides', '1/8 has only inferred disposition', '0/8 has an adopted objective',
+                     '8/19 success criteria', '6/39 adopted passages are OCR-only', '33/39 were checked',
+                     'December 1806–February 1807'):
+            self.assertIn(text, index)
+        gaeta = (self.out / 'napoleonic/outcomes/B371a.html').read_text()
+        self.assertIn('component-gaeta-early-defence', gaeta)
+        self.assertIn('component-gaeta-hold', gaeta)
+        self.assertIn('dix4iait jours*', gaeta)
+
+    def test_outcome_passages_retain_exact_quotes_source_locators_renderings_and_hashes(self):
+        sources = {s['id']: s for s in read_json(ROOT / 'data/sources.json')['sources']}
+        loss = read_json(ROOT / 'data/napoleonic/loss-pilot-v1/observations.json')
+        objective = read_json(ROOT / 'data/napoleonic/objective-pilot-v1/observations.json')
+        pages = self.out / 'napoleonic/outcomes'
+        cases = [('losses', c['id'], c) for c in loss['conventions']]
+        cases += [(e['battle_id'], pid, loss['passages'][pid]) for e in loss['entries'] for pid in e['source_passages']]
+        seen = set()
+        for b in objective['entry_ids']:
+            page = (pages / f'{b}.html').read_text()
+            for pid in re.findall(r'<article class="passage" id="passage-([^"]+)"', page):
+                cases.append((b, pid, objective['passages'][pid]))
+                seen.add(pid)
+        self.assertEqual(len(seen), 39)
+        self.assertEqual(len(loss['passages']), 72)
+        self.assertEqual(len(loss['conventions']), 7)
+        for name, pid, r in cases:
+            page = (pages / f'{name}.html').read_text()
+            block = re.search(r'<article class="passage" id="passage-' + re.escape(pid) + r'">(.*?)</article>', page, re.S).group(1)
+            c = r.get('citation', r)
+            for field in ('quote', 'source_id', 'section', 'locator'):
+                self.assertIn(html.escape(c[field]), block, (name, pid, field))
+            self.assertIn('<blockquote>' + html.escape(c['quote']) + '</blockquote>', block)
+            self.assertIn(r['raw_sha256'], block)
+            if r.get('metadata_sha256'):
+                self.assertIn(r['metadata_sha256'], block)
+            self.assertIn('/blob/abc123/' + sources[c['source_id']]['path'], block)
+            if r.get('english_rendering') or r.get('interpretation_en'):
+                self.assertIn(html.escape(r.get('english_rendering') or r['interpretation_en']), block)
+            images = r.get('images', [])
+            if r.get('image_source_id'):
+                images = [{'source_id': r['image_source_id'], 'sha256': r['image_sha256']}]
+            self.assertEqual('OCR-only passage.' in block, not images)
+            for image in images:
+                self.assertIn(image['sha256'], block)
+                self.assertIn('/blob/abc123/' + sources[image['source_id']]['path'], block)
+
+    def test_prior_objective_citation_statuses_are_not_promoted_to_new_verification(self):
+        data = read_json(ROOT / 'data/napoleonic/objective-pilot-v1/observations.json')
+        count = 0
+        for r in data['prior_objective_claims']:
+            page = (self.out / f'napoleonic/outcomes/{r["battle_id"]}.html').read_text()
+            self.assertIn(f'../engagements/{r["battle_id"]}.html#claim-{r["claim_id"]}', page)
+            for c in r['citations']:
+                count += 1
+                self.assertIn(f'Citation {c["citation_index"]}: {c["source_id"]}', page)
+                self.assertIn(html.escape(c['note']), page)
+                self.assertIn(c['disposition'].replace('_', ' '), page)
+        self.assertEqual(count, 49)
+
     def test_source_counts_include_both_research_cohorts(self):
         class SourceRows(HTMLParser):
             def __init__(self):

@@ -260,6 +260,14 @@ This pilot stops with its table and feasibility decision. Prior records, model i
 52-entry final reservation remain unchanged. No wider extraction, source search, historical
 fit or reopening of the stopped appointment/opening branches is queued.
 
+**Done (2026-10-20):** the [outcome evidence views](https://masonpetrosky.github.io/generalship/napoleonic/outcomes/index.html)
+present the two completed pilots separately: all 22 loss entries / 44 sides and all four Naples
+objective/result entries / eight sides. The 29 new pages retain 140 typed loss quantities,
+19 objective propositions, coverage denominators, unknown criteria, conditional surrender,
+arithmetic discrepancies and OCR-only limits, with exact passage/image/hash links. Campaigns
+and dossiers link to their covered pilot. This primary-verified presentation uses existing
+records; it supplies no common grade, new evidence, model input or commander credit.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
@@ -306,7 +314,7 @@ run authorization are still required.
 | 1. First reviewed campaign dossiers | Coverage complete. Cross-engagement identities, replacement boundaries and information sets remain |
 | 2. Baseline audit and expanded coverage | Full-war coverage done. Arsht reproduction route, independent extraction sample and paired comparison rows remain |
 | 3. Enriched prediction and command inference | Exploratory historical ratings only. Napoleonic measurement specification, synthetic checkpoint and final-set reservation done; historical army/appointment identification and causal design remain |
-| 4. Inspectable research interface | Static explorer plus source/population/time/authority comparisons for the 12 measurement-pilot entries. Opportunity-adjusted estimates, wider disputes views and scenario toggles remain |
+| 4. Inspectable research interface | Static explorer, comparisons for the 12 measurement-pilot entries, and separate loss/objective views for the 26 outcome-pilot entries. Opportunity-adjusted estimates, wider disputes views and scenario toggles remain |
 
 ### Milestone 0: working research foundation (complete)
 
@@ -378,6 +386,7 @@ A familiar-looking list of great generals is not evidence of correctness.
   version exists (2026-10-06): commander, campaign, engagement, claim, passage, source and hash
   pages, rebuilt and published from each pushed commit. Since 2026-10-20 it also covers all
   325 Napoleonic dossiers and 16 groups, retaining unknowns, disputes and scope limits.
+  The completed measurement and outcome pilots have dedicated source-linked views.
 - Cumulative results, opportunity-adjusted estimates, coverage, uncertainty and source disputes,
   each shown separately.
 - Scenario toggles that explain what changes.

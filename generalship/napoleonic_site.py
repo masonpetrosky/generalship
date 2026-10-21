@@ -4,6 +4,7 @@ from collections import Counter, defaultdict
 
 from .napoleonic import COHORT, FRAME
 from .napoleonic_comparison import ComparisonPages
+from .napoleonic_outcomes import OutcomePages
 from .sources import read_json
 
 
@@ -14,6 +15,7 @@ class NapoleonicPages:
         self.entries, self.dossiers = {}, {}
         self.groups = defaultdict(list)
         self.comparisons = None
+        self.outcomes = None
         if not (site.root / COHORT).is_file():
             return
         self.cohort = read_json(site.root / COHORT)['battle_ids']
@@ -23,6 +25,7 @@ class NapoleonicPages:
             self.dossiers[b] = read_json(site.root / f'data/napoleonic/evidence/{b}.json')
             self.groups[frame[b]['campaign_group']].append(b)
         self.comparisons = ComparisonPages(self)
+        self.outcomes = OutcomePages(self)
 
     def counts(self, ids):
         return Counter(c['status'] for b in ids for c in self.dossiers[b]['claims'])
@@ -61,6 +64,7 @@ class NapoleonicPages:
         for b in self.cohort:
             self.engagement(b)
         self.comparisons.build()
+        self.outcomes.build()
 
     def index(self):
         from .site import esc, table
@@ -80,6 +84,9 @@ class NapoleonicPages:
                 + '<div class="card"><a href="comparisons/index.html"><strong>Compare measurement evidence</strong></a>'
                 + '<p>Compare strength, timing and command scope for the 12 engagements in the two completed '
                 + 'measurement pilots. Alternatives and unknowns remain explicit.</p></div>'
+                + '<div class="card"><a href="outcomes/index.html"><strong>Inspect outcome evidence</strong></a>'
+                + '<p>Separate views of the completed 22-entry loss pilot and four-entry Naples objective/result pilot, '
+                + 'with source passages, missing values and coverage denominators.</p></div>'
                 + self.status()
                 + '<h2>Campaign groups</h2>'
                 + table(['Campaign group', 'Drafts / entries', 'Claims', 'Unknown', 'Disputed'], rows, {1, 2, 3, 4})
@@ -118,6 +125,7 @@ class NapoleonicPages:
                     f'{counts["disputed"]} disputed claims remain visible.</p>' + self.status()
                     + ('<p><a href="../comparisons/index.html">Compare this group’s measurement evidence</a></p>'
                        if set(ids) <= self.comparisons.ids else '')
+                    + self.outcomes.campaign_link(name)
                     + table(['Engagement', 'Frame start', 'Campaign group', 'Dossier', 'Claims', 'Unknown', 'Disputed'],
                             self.engagement_rows(ids, '../../'), {4, 5, 6}))
             self.site.write(f'napoleonic/campaigns/{slug(name)}.html', name, body, 2)
@@ -163,6 +171,10 @@ class NapoleonicPages:
             parts.insert(1, '<div class="card"><a href="../comparisons/' + b + '.html">'
                          '<strong>Compare this engagement’s measurement evidence</strong></a>'
                          '<p>Alternative figures, command scopes and unresolved opening mappings, with supporting passages.</p></div>')
+        if b in self.outcomes.ids:
+            parts.insert(1, '<div class="card"><a href="../outcomes/' + b + '.html">'
+                         '<strong>Inspect this engagement’s outcome evidence</strong></a>'
+                         '<p>Completed pilot components, unknowns and exact supporting passages.</p></div>')
         a = e['french_side']
         other = 'loser' if a == 'winner' else 'winner'
         parts.append(table(['Side', 'Printed force label', 'Printed commander names'],

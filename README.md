@@ -62,6 +62,8 @@ As of 2026-10-20:
   The [Naples objective/result pilot](docs/research/napoleonic-naples-objective-pilot-v1.md)
   retains 19 propositions across four engagements/eight sides. Local accomplishments and broader
   expectations can be described, but the evidence does not support one common numerical grade.
+  [Inspect both outcome pilots](https://masonpetrosky.github.io/generalship/napoleonic/outcomes/index.html)
+  in the explorer, with separate loss and objective/result views, unknowns and exact source passages.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The

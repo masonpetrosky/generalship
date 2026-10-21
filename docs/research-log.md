@@ -5158,3 +5158,76 @@ All 52 final entries remain reserved. The earlier loss, strict-opening, identity
 appointment/window and failed probability-correction records keep their dispositions.
 The work is primary-verified; no subagent, separate review, second-opinion prompt
 or calibration scoring ran.
+
+## Napoleonic outcome evidence views, 2026-10-20
+
+The owner accepted adding both completed outcome pilots to the explorer, bounded
+to the existing records and ending with browser verification and publication.
+`generalship/napoleonic_outcomes.py` adds **29 pages**, bringing the static site
+to **1,308 HTML pages**: an outcome index, separate loss and objective indexes,
+22 loss-entry views and four Naples objective/result views. The Napoleonic
+overview, both covered campaign pages and all 26 covered dossiers link to the
+views. Each entry links back to its dossier; the Naples entries also link to
+their existing measurement comparison. Other dossiers do not acquire pilot coverage.
+
+The 1805 view retains **22 entries / 44 sides and 140 quantities**. Some numerical
+personnel-loss evidence covers **35/44 sides and 14/22 pairs**; combined
+killed/wounded figures cover **6/22 pairs**, prisoners **1/22**, with matching
+source-declared killed/wounded-plus-prisoner totals on both sides in **1/22**.
+The all-ranks category table keeps all denominators, including the zero coverage
+of separate killed, wounded and missing counts. Officer/national subsets,
+equipment, approximate qualifiers, printed source columns, time/population notes,
+surrender/release terms and printed-percentage discrepancies remain distinct.
+Missing loss figures are unknown, not zero. Printed sums keep their observation
+links and limits; the three prior disputed outcome claims remain dossier pointers,
+not re-adjudicated evidence.
+
+The Naples view retains **four entries / eight sides and 19 propositions**.
+Intention, recording provenance, statement kind, scope, criterion, reported
+result, result window and limits are displayed separately. **Eight criteria
+remain unknown**, and **six of 39 adopted passages remain OCR-only**. Gaëta's
+early refusal and later council intention stay separate, including the garbled
+duration with no normalized deadline. Amantea B retains an inferred disposition.
+The eight prior objective claims and 49 citation dispositions remain inspectable;
+prior-reference-only pointers are not new verified propositions. Cross-entry
+result references do not add battle weights. The 1805 and Naples groups do not
+overlap and their different components are not merged into one outcome measure.
+
+Primary verification:
+
+- **20 focused site tests passed**, including six new tests for exact pilot
+  membership/navigation, all quantities and propositions, category denominators,
+  unknowns/subsets/conditions, arithmetic/dispute pointers, evidence roles,
+  passage/image/hash links and prior-citation dispositions. The all-site internal
+  link and fragment check passes.
+- Full `make check` passed, including **439 tests in 265.451 seconds** and all
+  source/data-contract and generated-report checks. `make reproduce` succeeded.
+  All 77 distinct commit-bound repository targets in the outcome pages exist locally.
+  The receipt retains **5,667 source bindings and all 20 prior output hashes**;
+  1,182 of 1,183 prior input hashes are unchanged. Only the existing Napoleonic
+  site module changes, with the outcome renderer added (1,184 inputs now).
+  The generated pilot decisions and earlier failed temporal-correction report
+  were inspected and retain their results. Only the renderer/navigation, six
+  site tests, README, roadmap, this log and build receipt change. `git diff --check` passed.
+- All **118 distinct stored passages** (72 loss entry/footnotes, seven source
+  conventions and 39 objective passages) were read and checked for exact presence
+  in their pinned text sections. Their **30 text sources and 37 linked image
+  bindings** retain their registered raw hashes. This checks faithful presentation
+  of existing evidence, not new image transcription or historical adjudication.
+- Browser plugin/skill was unavailable. Existing bundled Playwright with installed
+  **Chrome 155.0.8059.85** verified **72 screen states** at **1280×900 and 390×844**,
+  including all 29 new pages at both sizes and one mobile dark-mode state. The
+  interaction flow was overview → pilot → entry → exact passage → expanded hashes
+  → source registry; campaign/dossier returns, the Haslach percentage discrepancy,
+  conditional free withdrawal, Gaëta's OCR-only criterion, Amantea's inferred
+  disposition and cross-entry references were also exercised. No blank page,
+  framework overlay, document overflow, console warning/error or page error was
+  found. Eight screenshots were visually inspected. QA scripts, screenshots and
+  logs remain outside the repository; browser coverage is Chrome.
+
+Both pilots keep their stopping decisions. These source-qualified descriptions
+support no common numerical grade, new model input, historical fit or commander
+credit. No raw input, source metadata, dossier, prepared packet or prior pilot/run
+record is revised; no source addition or evidence migration is needed. All 52
+reserved-final entries remain unused numerically. Calibration stays prepared and
+unscored. No subagent, separate reviewer or second-opinion prompt ran.
