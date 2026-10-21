@@ -26,6 +26,8 @@ COMMAND = 'data/command/responsibility-v2.json'
 REGISTRY = 'data/command/commanders-v2.json'
 RUNS = ('artifacts/commander-ratings-v4', 'artifacts/commander-ratings-v3')  # the newest present run is shown
 REPORTS = (('README.md', 'Overview'),
+           ('artifacts/bodart-ratings-v1.md', 'Bodart: broader provisional command-label ratings'),
+           ('docs/bodart-ratings-v1.md', 'Bodart ratings: fixed experiment and admission'),
            ('artifacts/bodart-bulk-v1.md', 'Bodart: direct battle table, 1618–1905'),
            ('artifacts/commander-comparison-v1.md', 'Civil War: Arsht-style scores versus commander estimates'),
            ('docs/research/commander-ratings-v4.md', 'Rating run 4: memo'),
@@ -39,6 +41,9 @@ REPORTS = (('README.md', 'Overview'),
            ('docs/evidence-contract.md', 'Evidence contract'),
            ('docs/roadmap.md', 'Roadmap'))
 DOWNLOADS = {'artifacts/bodart-bulk-v1.csv': 'downloads/bodart-bulk-v1.csv',
+             'artifacts/bodart-ratings-v1.csv': 'downloads/bodart-ratings-v1.csv',
+             'artifacts/bodart-ratings-v1.json': 'downloads/bodart-ratings-v1.json',
+             'data/bodart/ratings-v1/cohort.json': 'downloads/bodart-ratings-v1-cohort.json',
              'artifacts/bodart-bulk-v1.json': 'downloads/bodart-bulk-v1.json',
              'data/bodart/image-checks-v1.json': 'downloads/bodart-image-checks-v1.json'}
 SIDES = ('US', 'Confederate')
