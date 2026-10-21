@@ -15,7 +15,7 @@ import re
 import shutil
 
 from .sources import read_csv, read_json
-from .bodart_bulk import source_registry_with_bulk
+from .bodart_aliases import source_registry_with_aliases
 from .napoleonic_site import NapoleonicPages
 from .napoleonic_comparison import CSS as COMPARISON_CSS
 
@@ -26,6 +26,8 @@ COMMAND = 'data/command/responsibility-v2.json'
 REGISTRY = 'data/command/commanders-v2.json'
 RUNS = ('artifacts/commander-ratings-v4', 'artifacts/commander-ratings-v3')  # the newest present run is shown
 REPORTS = (('README.md', 'Overview'),
+           ('artifacts/bodart-ratings-v2.md', 'Bodart: names consolidated, same battles'),
+           ('docs/bodart-ratings-v2.md', 'Bodart ratings: alias migration design'),
            ('artifacts/bodart-ratings-v1.md', 'Bodart: broader provisional command-label ratings'),
            ('docs/bodart-ratings-v1.md', 'Bodart ratings: fixed experiment and admission'),
            ('artifacts/bodart-bulk-v1.md', 'Bodart: direct battle table, 1618–1905'),
@@ -41,6 +43,10 @@ REPORTS = (('README.md', 'Overview'),
            ('docs/evidence-contract.md', 'Evidence contract'),
            ('docs/roadmap.md', 'Roadmap'))
 DOWNLOADS = {'artifacts/bodart-bulk-v1.csv': 'downloads/bodart-bulk-v1.csv',
+             'artifacts/bodart-ratings-v2.csv': 'downloads/bodart-ratings-v2.csv',
+             'artifacts/bodart-ratings-v2.json': 'downloads/bodart-ratings-v2.json',
+             'data/bodart/aliases-v1/aliases.json': 'downloads/bodart-aliases-v1.json',
+             'data/bodart/ratings-v2/cohort.json': 'downloads/bodart-ratings-v2-cohort.json',
              'artifacts/bodart-ratings-v1.csv': 'downloads/bodart-ratings-v1.csv',
              'artifacts/bodart-ratings-v1.json': 'downloads/bodart-ratings-v1.json',
              'data/bodart/ratings-v1/cohort.json': 'downloads/bodart-ratings-v1-cohort.json',
@@ -204,7 +210,7 @@ class Site:
         self.battles = {r['battle']: r for r in read_csv(self.root / 'data/raw/cwsac_battles.csv')}
         self.campaigns = {r['campaign']: r for r in read_csv(self.root / 'data/raw/cwsac_campaigns.csv')}
         self.cohort = read_json(self.root / COHORT)['battle_ids']
-        self.sources = source_registry_with_bulk(self.root)
+        self.sources = source_registry_with_aliases(self.root)
         self.strength = {e['battle_id']: e for e in read_json(self.root / STRENGTH)['engagements']}
         command = read_json(self.root / COMMAND)
         self.command = {e['battle_id']: e for e in command['engagements']}
@@ -506,6 +512,7 @@ class Site:
                 for s in sorted(self.sources.values(), key=lambda s: s['id'])]
         self.write('sources.html', 'Sources', '<h1>Registered sources</h1><p>Every source in <code>data/sources.json</code> '
                    'and the companion bulk-table registry <code>data/bodart/sources-v1.json</code>, '
+                   'plus alias evidence in <code>data/bodart/aliases-v1/sources.json</code>, '
                    'with pinned snapshots and full SHA-256. Dossier citation counts include both the Civil War '
                    'and Napoleonic cohorts. Copies and reprints share an '
                    'independence group and are not independent families.</p>'

@@ -108,6 +108,23 @@ class SiteTests(unittest.TestCase):
             self.assertEqual((self.out / 'downloads' / name).read_bytes(), (ROOT / source).read_bytes())
         self.assertIn('artifacts-bodart-ratings-v1.html', (self.out / 'index.html').read_text())
 
+    def test_alias_rerun_shows_comparison_and_retains_scoped_evidence(self):
+        page = (self.out / 'results/artifacts-bodart-ratings-v2.html').read_text()
+        for text in ('542 unchanged engagements', '655 estimated labels', '68 provisional orders',
+                     '0.618308', '0.696562', '0.638346', 'Marquis-Wellesley', 'B355c', 'B312c'):
+            self.assertIn(text, page)
+        for source, name in [('artifacts/bodart-ratings-v2.csv', 'bodart-ratings-v2.csv'),
+                             ('artifacts/bodart-ratings-v2.json', 'bodart-ratings-v2.json'),
+                             ('data/bodart/aliases-v1/aliases.json', 'bodart-aliases-v1.json'),
+                             ('data/bodart/ratings-v2/cohort.json', 'bodart-ratings-v2-cohort.json')]:
+            self.assertIn('../downloads/' + name, page)
+            self.assertEqual((self.out / 'downloads' / name).read_bytes(), (ROOT / source).read_bytes())
+        sources = (self.out / 'sources.html').read_text()
+        self.assertIn('data/bodart/aliases-v1/sources.json', sources)
+        for source in read_json(ROOT / 'data/bodart/aliases-v1/sources.json')['sources']:
+            self.assertIn('id="' + source['id'] + '"', sources)
+        self.assertIn('artifacts-bodart-ratings-v2.html', (self.out / 'index.html').read_text())
+
     def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
         from generalship.napoleonic_surprises import RUN
         ids = {p['battle_id'] for p in read_json(ROOT / RUN)['populations']['primary']['leave_campaign_out']['predictions']}

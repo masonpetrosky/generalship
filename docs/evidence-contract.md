@@ -5,6 +5,9 @@ Run `python3 -m generalship check` to verify its source hashes, dossiers, and ba
 The new bulk table's additions are in `data/bodart/sources-v1.json`, checked by
 `python3 -m generalship.bodart_bulk` and combined on the public Sources page. This
 companion preserves the exact main-registry bytes bound by existing studies.
+The scoped alias evidence uses `data/bodart/aliases-v1/sources.json`, checked by
+`python3 -m generalship.bodart_ratings_v2` and included on the public Sources page.
+Its identity migration applies only to the separately admitted v2 experiment.
 
 ## Source records
 

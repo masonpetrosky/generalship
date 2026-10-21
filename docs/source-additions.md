@@ -2339,3 +2339,28 @@ with Public Domain Mark 1.0. The new records share the existing source family, l
 and compilation date. Source conventions are in the already registered pp. 45–47 images.
 This adds a versioned source representation and explicit field-level migration only for
 the new bulk table; it does not replace old OCR, transcription, frame or model inputs.
+
+## 2026-10-21 — Bodart index evidence for eight scoped alias groups
+
+`data/bodart/aliases-v1/sources.json` adds 16 records without changing the main or
+bulk registries: complete, unedited Internet Archive images of printed pp. 920,
+929, 933, 934, 935, 939, 947 and 954, plus one primary manual selection per image.
+Each selection binds its facsimile, the existing Bodart OCR parent and exact hashes.
+There are nine selected index passages because p.920 supplies both Bonaparte and
+Bennigsen. All selected passages and page-reference lists were inspected on images.
+
+IDs are `bodart-1908-alias-pNNN-image-v1` and `bodart-1908-alias-pNNN-manual-v1`.
+Raw snapshots are under `data/raw/bodart-aliases-v1/`. The alias manifest preserves
+exact source IDs, locators, quotations, hashes and scoped row/side occurrences.
+The Bonaparte cross-reference separates Napoleon from Jérôme/Joseph; the Wellington
+entry links the pages printing Wellesley and Wellington. Other entries support
+Archduke Karl, Melas, Koburg, Gouvion Saint-Cyr, Bennigsen and Kray variants.
+The index omits p.312 under Karl and p.355 under Melas; neither omission is repaired.
+Printed Marquis-Wellesley titles remain unchanged and are not endorsed as accurate.
+
+Rights, publication and source-family dependence are the same as the other Bodart
+snapshots above. These are additional representations of one compilation, not new
+independent witnesses. Primary verification supports the bounded compiler-identity
+mapping, not universal person resolution or command-role adjudication. V2 applies
+the map only to the original 542 admitted rows; v1, raw inputs, old registries and
+the 52 reserved-final entries remain unchanged.

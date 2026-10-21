@@ -8,15 +8,17 @@ use his ranking as a target. This is an exploratory project for fun. Provisional
 inputs and unsuccessful experiments stay visible; the estimates do not establish causal
 wins above replacement.
 
-**[Explore the broader provisional ratings](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-ratings-v1.html)**:
-542 field engagements from 1619–1904, 669 printed command labels, and 72 provisional orders
-within connected opponent groups. Napoleon I leads the largest group. Bonaparte remains
-a separate printed label; spelling variants and historical identities are not fully resolved.
-Most conditional intervals overlap widely. [Download estimates](artifacts/bodart-ratings-v1.csv).
+**[Explore the broader provisional ratings](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-ratings-v2.html)**:
+542 field engagements from 1619–1904, 655 command labels, and 68 provisional orders
+within connected opponent groups. Eight source-backed name groups now consolidate aliases:
+Napoleon I has one 38-engagement record, and Wellington one 10-engagement record.
+They lead the largest group, followed by Gouvion Saint-Cyr. Most conditional intervals
+overlap widely; other identities remain unresolved. [Download estimates](artifacts/bodart-ratings-v2.csv).
 
-The fixed force-adjusted model improves held-out log loss over force-only: **0.638346 versus
-0.663196 per battle**, and **0.701488 versus 0.719430 with equal decade weights** (lower is
-better). The latter still loses to equal odds, 0.693147. This is a development diagnostic,
+The unchanged model improves held-out log loss over force-only: **0.618308 versus
+0.663196 per battle**, and **0.696562 versus 0.719430 with equal decade weights** (lower is
+better). It also improves on the [first run](artifacts/bodart-ratings-v1.md), 0.638346 / 0.701488.
+The equal-decade result still loses to equal odds, 0.693147. This is a development diagnostic,
 not evidence of correct personal skill rankings or an isolated benefit from AI. Of the
 542 included rows, 354 have checked force pairs; OCR and command-label uncertainty remain.
 All 52 reserved-final entries stay excluded.
@@ -87,6 +89,7 @@ Python 3.11 or newer; standard library only. From the repository root:
 ```sh
 make bodart-bulk                        # regenerate the broad source table; no fit or fetch
 make bodart-ratings                     # regenerate the broad ratings report from its saved run
+make bodart-ratings-v2                  # regenerate the alias-cleanup report; no historical fit
 make commander-comparison              # regenerate the comparison from saved results; no fit
 make check                             # offline tests and data-contract checks
 make reproduce                         # regenerate committed derived artifacts offline

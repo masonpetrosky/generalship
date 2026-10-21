@@ -5566,3 +5566,72 @@ JavaScript-disabled access. No document overflow, console warning/error or page 
 occurred. Desktop/mobile screenshots were inspected and kept outside the repository.
 The CI workflow runs the fast saved-result verifier before the full Python 3.11/3.14
 suite so platform-specific failures are visible promptly.
+
+## 2026-10-21 — Eight source-backed alias groups and a paired rerun
+
+The owner accepted the small name cleanup followed by the same model. The
+[v2 contract](bodart-ratings-v2.md) fixes the eight groups and exact 542-row/fold
+comparison before fitting. No new dossier, secondary review, subagent, second-opinion
+prompt or imported ranking/data was used. This batch admits scoped compiler co-reference
+only; it does not resolve command responsibility or the opening/causal specification.
+
+The primary inspected eight retained Bodart index images (pp.920,929,933–935,939,947,954)
+and transcribed nine selected passages. The companion registry adds 16 source records;
+the main and bulk registries remain byte-identical. The public site combines 5,695
+records from those registries. Index evidence explicitly redirects Bonaparte/Napoleon
+to Napoleon I and groups the Wellesley/Wellington battle pages. It also supports Karl,
+Melas, Koburg, Gouvion Saint-Cyr, Bennigsen and Kray variants. Karl's p.312 and Melas's
+p.355 index omissions remain recorded, and Marquis-Wellesley titles remain uncorrected.
+The map follows same scoped literals where those page references are omitted, rather
+than claiming a complete or historically infallible index.
+
+The eight groups contain 22 old labels and **111 side appearances**, of which **46**
+receive a different canonical key. Twelve rows reverse A/B orientation; forces swap,
+the log force ratio changes sign and the binary outcome is complemented. All original
+raw strings, forces, years, outcomes, source locators and row IDs remain intact in the
+parent. All 52 final IDs remain excluded; no previously excluded entry is rescued.
+
+The [rerun](../artifacts/bodart-ratings-v2.md) has **655 labels / 68 orders / 201 opponent
+components**, versus 669 / 72 / 204. The largest component has 176 labels and 48 orders,
+versus 178 and 51. Counts fall as duplicates merge, while three old components connect.
+Napoleon I now has 38 included engagements, Wellington 10 and Gouvion Saint-Cyr 10;
+they occupy the first three orders in the largest component. These are model associations,
+not validation by familiar reputations. Most conditional intervals overlap broadly.
+
+| Model | Battle log loss | Equal-decade log loss | Battle Brier | Equal-decade Brier |
+| --- | ---: | ---: | ---: | ---: |
+| Equal odds | 0.693147 | 0.693147 | 0.250000 | 0.250000 |
+| Force only | 0.663196 | 0.719430 | 0.234880 | 0.261950 |
+| Original labels | 0.638346 | 0.701488 | 0.223695 | 0.253022 |
+| Consolidated labels | 0.618308 | 0.696562 | 0.215952 | 0.251044 |
+
+The same 28 decade folds and 542 predictions improve point scores, but equal-decade
+loss still exceeds equal odds. Grouping changes both exposure and partial pooling;
+these differences do not prove correct personal ranks or isolate AI's contribution.
+Held-out label availability changes from 39/183/320 with both/one/neither label seen
+to 54/181/307. No setting, prior, alias or selection rule was tuned after this result.
+
+The frozen v1 solver/code is reused unchanged. Full/fold maximum penalized gradient
+is below 1.84e-11. The fixed personnel-checked sensitivity still has **354 rows**, now
+337 labels and 57 orders. Napoleon/Wellington remain first/second under both fixed
+prior sensitivities. Other sparse orders remain sensitive. Original v1 files, all
+5,667 original source hashes and all 20 old receipt output hashes remain unchanged.
+
+The batch stops here. The next proposed extension uses the existing bulk table for a
+compact Seven Years' War comparison; 19 current rows fall in 1756–1763, without claiming
+complete war coverage. Additional identity candidates and deeper adjudication are deferred.
+
+Primary verification: **494 tests passed in 276.857 seconds**, followed by every
+offline `make check` source/contract/report check. `make reproduce` and an additional
+Python 3.12 saved-result verification passed. Seven focused alias tests cover exact
+occurrences, retained omissions, source-byte changes, same-person opponent collisions,
+orientation, comparator invariance and saved-run checks with fitting blocked. No
+historical job is rerun by tests or reproduction. Existing packets/evidence are unchanged.
+
+Bundled Playwright and installed Chrome (Browser plugin absent) verified the 1,315-page
+site: home/Results/design/original-report navigation, leading ranked rows, four exact
+downloads, source-registry entries, desktop 1280×1000/mobile 390×844, horizontal table
+scrolling, dark mode and JavaScript-disabled access. No document overflow, console
+warning/error or page error occurred. Screenshots were inspected and retained outside
+the repository. The report preserves broad intervals, all source qualifiers and the
+unsuccessful equal-decade comparison against equal odds.

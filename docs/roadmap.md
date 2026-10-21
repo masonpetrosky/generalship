@@ -45,12 +45,22 @@ disconnected components, OCR errors and broad conditional intervals limit interp
 models and inputs are unchanged. The primary verifies the saved fit and forecasts;
 ordinary reproduction verifies this saved run without refitting it.
 
-**Next:** make a small source-backed alias map for repeated labels in the largest opponent
-component, beginning with Bonaparte/Napoleon, rank/nobility variants and `v.`/`von` variants.
-Record exact supporting source passages and unresolved alternatives, then compare the
-effect on exposure and connectivity before defining a versioned rerun. Do not create a
-dossier for every new row or queue another general audit. The 1814–1815 final reservation
-remains protected; historical causal identification is a longer-term question.
+**Completed (2026-10-21):** the [alias cleanup and rerun](../artifacts/bodart-ratings-v2.md)
+consolidates eight source-backed name groups on the exact same 542 rows and 28 decade
+folds. Eight Bodart index images support 22 original labels across 111 side appearances;
+omitted index references and questionable printed titles stay visible. There are now
+655 labels, 68 orders and 201 opponent components. Napoleon has one 38-engagement record,
+Wellington one 10-engagement record. Point log loss improves from 0.638346 to 0.618308 per
+battle and from 0.701488 to 0.696562 per decade, still worse than equal odds under decade
+weighting. The fitting engine, settings, raw readings, v1 records and final reservation
+are unchanged. This is scoped compiler identity, not independent historical adjudication.
+
+**Next:** use the existing bulk table for a compact comparison outside the Napoleonic core,
+starting with the Seven Years' War (1756–1763); 19 current model rows fall in those years,
+without claiming they form a complete war cohort. Reuse the extraction and alias-map pattern,
+keep missing force/name readings visible, and inspect consequential exceptions selectively.
+Further general audits and per-entry dossiers are not queued. The 1814–1815 final
+reservation remains protected; historical causal identification is a longer-term question.
 
 ## Napoleonic work already completed
 
