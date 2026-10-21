@@ -70,6 +70,15 @@ class SiteTests(unittest.TestCase):
                     broken.append((str(path.relative_to(self.out)), href))
         self.assertEqual(broken, [])
 
+    def test_commander_comparison_preserves_negative_result_and_evidence_links(self):
+        page = (self.out / 'results/artifacts-commander-comparison-v1.html').read_text()
+        self.assertIn('a better ranking is not demonstrated', page)
+        self.assertIn('301 scored battles', page)
+        self.assertIn('91/313 saved commanders', page)
+        self.assertIn('0.656313', page)
+        self.assertIn('0.650044', page)
+        self.assertEqual(page.count('https://masonpetrosky.github.io/generalship/commanders/'), 91)
+
     def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
         from generalship.napoleonic_surprises import RUN
         ids = {p['battle_id'] for p in read_json(ROOT / RUN)['populations']['primary']['leave_campaign_out']['predictions']}

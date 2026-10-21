@@ -5,11 +5,29 @@ milestone. Completed work is recorded in the [research log](research-log.md), wh
 everything this roadmap recorded up to 2026-10-06. Registered sources are listed in
 [source additions](source-additions.md).
 
-## Current priority: the French Revolutionary and Napoleonic Wars
+## Current priority: compare ratings, then scale structured battle data
 
-**Current approach:** the owner clarified on 2026-10-20 that this is a project for fun.
-Prioritize interesting exploratory results and quick iteration, with assumptions and major
-uncertainties visible. Further measurement audits are not the default next step.
+**Owner direction, 2026-10-20:** the goal is to see whether AI can improve on WAR-style
+ratings of generals. Prioritize useful provisional results and fast iteration. Use
+source-linked structured tables for expansion, with unknowns visible and targeted
+research on consequential exceptions. Full dossiers, further measurement audits and
+unrelated interface features are not the default next task.
+
+**Completed (2026-10-20):** the [Civil War comparison](../artifacts/commander-comparison-v1.md)
+puts Arsht-style cumulative residual scores beside existing shrunk commander estimates
+on 301 battles in 108 groups, with provisional within-side orders for 91 of 313 saved
+commanders. A better ranking is not demonstrated: the full model is slightly worse under
+equal campaign weighting; the simpler variant's campaign uncertainty spans no improvement.
+Coverage, uncertainty, order changes and held-out prediction are visible. Saved forecasts
+and rating run 4's unsuccessful verdict are unchanged; no model was fitted. This adapts
+the scoring idea rather than reproducing Arsht's published rankings, and both score columns
+already use our AI-researched inputs.
+
+**After the comparison:** use its results to choose one compact modelling or bulk-data
+extension. Historical causal identification and archival completeness are longer-term
+questions, rather than prerequisites for displaying labelled exploratory estimates.
+
+## Napoleonic work already completed
 
 The owner chose the Napoleonic Wars on 2026-09-25 and decided the seven scoping questions on
 2026-10-06 ([scoping note](napoleonic-scoping.md),

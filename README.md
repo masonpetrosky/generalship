@@ -1,209 +1,92 @@
 # Generalship
 
-**An evidence-first research project for measuring historical command performance.**
+**Can AI improve WAR-style ratings of historical generals?**
 
-The long-term aim is to compare what commanders accomplished with the opportunities
-and constraints they faced, including the advantages they created before battle.
-Every result should be traceable from commander to campaign to engagement to
-disputed assumptions and supporting passages.
+Inspired by [Ethan Arsht’s military rankings](https://github.com/ethanarsht/military_rankings),
+we use AI to assemble source-backed battle data and compare simple residual scores with
+commander models. This is an exploratory project for fun. Provisional estimates, uncertain
+inputs and unsuccessful experiments stay visible; the estimates do not establish causal
+wins above replacement.
 
-**[Explore the evidence](https://masonpetrosky.github.io/generalship/)**: browse Civil War and
-Napoleonic engagements, claims, quoted passages and pinned sources, rebuilt from each commit.
-
-Try the **[Napoleonic surprise explorer](https://masonpetrosky.github.io/generalship/napoleonic/surprises.html)**:
-find battles that surprised the saved troop-strength model, browse outnumbered victories, or pick a battle to explore.
-
-Inspired by [Ethan Arsht's military rankings](https://github.com/ethanarsht/military_rankings),
-this project starts with a reproducible battle-level baseline, then builds toward
-campaign-level contribution. A battle residual is **not** an estimate of how many
-wins a commander caused. No validated commander ranking exists here yet.
-
-## Status
-
-As of 2026-10-20:
-
-- **American Civil War: first-pass research is complete.** The [full-war frame](docs/cohort-v2.md)
-  is every engagement in the pinned Civil War Sites Advisory Commission (CWSAC) battle list:
-  384 engagements in 119 campaign groups, 1861–1865. No inclusion rule depends on outcome,
-  commander reputation or available force figures. Every engagement has a draft evidence
-  dossier ([coverage table](artifacts/pilot-report.md#draft-evidence-dossiers)).
-- **Model inputs.** Separately reviewed v2 ledgers grade each side's strength evidence and name
-  one responsible commander per side for the 305 in-scope engagements
-  ([record](docs/research/ledgers-v2.md)). The primary-verified [strength ledger v3](docs/ledgers-v3.md)
-  fills 99 more sides from pinned upstream tables. The other 79 engagements are inconclusive, aggregate records,
-  or involve a Native American belligerent, which the two-sided model does not cover.
-- **Latest historical rating result.** [Rating run 4](docs/research/commander-ratings-v4.md) tested commander
-  identity against a theater-and-period comparator, with τ estimated and outcome-dependent inputs
-  removed, under a rule fixed before the run. **It found no improvement**: the battle-weighted gain
-  cleared the campaign bootstrap's bound, the campaign-weighted gain did not, and Forrest's rows
-  carry 46% of it. In sample, results do vary with commander identity (τ about 0.6, calibrated
-  p = 0.01), which is not evidence of skill ([results](#results-so-far)).
-- **Napoleonic first-pass coverage is complete.** Bodart's frozen 1805–1815 land cohort has **325/325
-  draft dossiers across all 16 campaign groups**, primary-verified by group. Missing evidence
-  and source disputes remain; coverage does not admit features or establish commander effects.
-  [Browse all 325 dossiers](https://masonpetrosky.github.io/generalship/napoleonic/index.html),
-  including 1,085 explicit unknowns and 140 disputed claims. The explorer preserves source
-  passages, scope notes and hashes, with research coverage, measurement readiness and model
-  admission shown separately. [Compare measurement evidence](https://masonpetrosky.github.io/generalship/napoleonic/comparisons/index.html)
-  for the 12 pilot engagements: alternative figures, populations, times and command roles,
-  with the unresolved opening mappings retained.
-  The [methods checkpoint](docs/research/napoleonic-methods-checkpoint-v1.md) found weak recovery
-  of planted commander effects on the provisional label schedule; an army-only simulation
-  improved prediction with zero commander effects. The first owner-authorized
-  [compiler-strength benchmark](docs/research/napoleonic-benchmark-run-v1.md) now reports historical
-  prediction on 194 eligible pairs from 273 development entries. Force size improves grouped
-  prediction, but the 1813 forward check is weak and sensitivity-dependent. Bodart's selection
-  and strength-dependent winner coding limit interpretation; all 52 final entries remain reserved.
-  The [1813 diagnostic](docs/research/napoleonic-forward-diagnostic-v1.md) finds average
-  overprediction despite retained ordering in the saved forecasts; no model is refitted.
-  A subsequent [fixed temporal correction test](docs/research/napoleonic-temporal-calibration-run-v1.md)
-  **fails its continuation rule**: it worsens the main 1808–1812 scores against the expanding
-  force baseline. The favorable reused 1813 result cannot rescue it; this correction branch is closed.
-  The [1805 loss-measurement pilot](docs/research/napoleonic-1805-loss-feasibility-v1.md) preserves
-  all 22 entries but supports paired killed/wounded counts in only six: a common loss-based
-  grade across the complete group is not supported. Components and unknowns remain visible.
-  The [Naples objective/result pilot](docs/research/napoleonic-naples-objective-pilot-v1.md)
-  retains 19 propositions across four engagements/eight sides. Local accomplishments and broader
-  expectations can be described, but the evidence does not support one common numerical grade.
-  [Inspect both outcome pilots](https://masonpetrosky.github.io/generalship/napoleonic/outcomes/index.html)
-  in the explorer, with separate loss and objective/result views, unknowns and exact source passages.
-  The [1805 context-code audit](docs/research/napoleonic-1805-context-admission-v1.md) retains all
-  22 entries: six fortification candidates and sixteen unresolved fields. Realized attacker posture
-  cannot serve unchanged as a pre-contact predictor, so the joint experiment is not prepared.
-  The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
-  and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
-  force identity and appointment authority; wider extraction is paused. The
-  [Murat delegation check](docs/research/napoleonic-murat-delegation-v1.md) supports specific
-  tasks under imperial authority. The [Rastatt window decision](docs/research/napoleonic-rastatt-window-decision-v1.md)
-  closes that narrower comparison candidate: the order's residence condition does not establish
-  an effective whole-mission window or observed execution. It remains **not estimable**, with
-  no resource/outcome extraction. The earlier imperial and Murat records are preserved.
-
-## How the research is produced
-
-AI agents do the research, under rules meant to make every claim checkable. The project
-owner (the maintainer) sets the scope and authorizes each rating run.
-
-1. **A frozen frame.** The engagement list comes from a pinned, checksum-verified source
-   table and is fixed before modelling, with defeats and inconclusive results included.
-2. **Draft dossiers.** Agents research by complete campaign. Each dossier covers seven
-   dimensions: strength, terrain, logistics, information, objectives, responsibility and
-   outcome. Every claim quotes an exact passage with its source ID and locator, and every
-   source snapshot is stored with its SHA-256. Gaps and disagreements become explicit unknowns
-   or disputed claims, never model recollection. A first pass inspects up to three source
-   families per battle, plus one targeted follow-up.
-   Napoleonic drafts also code posture and fortification and carry a per-side completion checklist.
-3. **Verification.** Every Civil War dossier batch had a separate, fresh-context AI review
-   (GPT-6 Astra at `xhigh` reasoning effort, then Claude Opus 5.5 at `high` from 2026-09-24).
-   The authoring agent checked each proposed correction against the source before applying it.
-   Since 2026-10-06, by owner policy, the authoring agent verifies its own work against the
-   sources and checks before committing, and labels it primary-verified. A separate review runs
-   only when the owner asks for one.
-4. **Gated model inputs.** Draft dossiers never change model inputs. The frozen baseline uses
-   only the pinned source tables. Rating runs use versioned strength and command ledgers
-   (separately reviewed through v2, primary-verified since), and each run is bound to the SHA-256
-   of its exact inputs, and from run 4 its code, by a recorded owner authorization.
-
-AI reviews and AI verification are not human historical adjudication or proof that sources are
-independent; a passage-backed claim can still be historically wrong. The code itself never
-calls a model, and only the explicit `fetch` command uses the network. See
-[AI's role and validation](docs/methodology.md#ais-role-and-validation) and the
-[evidence contract](docs/evidence-contract.md).
+**[See the Civil War comparison](https://masonpetrosky.github.io/generalship/results/artifacts-commander-comparison-v1.html)**:
+Arsht-style cumulative scores beside shrunk commander estimates, with uncertainty and the
+same held-out battles. [Downloadable report and data](artifacts/commander-comparison-v1.md).
 
 ## Results so far
 
-Every result below is scored on held-out campaigns: each campaign in turn is left out of the
-fit and then predicted. Lower Brier score and log loss are better. None of these is a ranking
-of skill or a causal estimate, and the later runs leave the frozen baseline unchanged.
+The comparison covers **301 Civil War battles in 108 source campaign groups** and shows
+provisional within-side orders for **91 commanders** with at least two credited battles.
+The other 222 saved commanders retain their coverage records without an assigned order.
+Both methods put Grant first among the 49 Union commanders and Forrest first among the
+42 Confederates. Most model intervals overlap widely.
 
-| Run | Battles | Question | Result |
-| --- | --- | --- | --- |
-| [Pilot baseline](artifacts/pilot-report.md) | 23 of the 127 pilot engagements | Does relative force size beat equal odds? | No: Brier 0.277 against 0.250 |
-| [Strength evaluation](docs/research/estimate-evaluation-v1.md) | 21–37 pilot battles with graded strengths | Do reviewed strength estimates predict results? | Weakly: worse than equal odds on the 21 grade A rows; on the 37 A–C rows, better than equal odds but not than the training prior (campaign-weighted) |
-| [Rating run 1](docs/research/commander-ratings-v1.md) | 37 pilot battles | Does adding commanders lower held-out log loss? | No detectable commander signal, so no ordered list |
-| [Rating run 2](docs/research/commander-ratings-v2.md) | 126 full-war battles with graded strengths | The same test on the full war | Lower under both weightings (0.6540 vs 0.6633 by battle, 0.6795 vs 0.6844 by campaign); every commander's interval includes zero |
-| [Rating run 3](docs/research/commander-ratings-v3.md) | 301 in-scope battles, 162 with a modelled side | The same test with missing strengths modelled (grade E) | Lower again (0.6476 vs 0.6597; 0.6586 vs 0.6651), but fragile: the campaign-weighted gain's 95% bootstrap interval includes zero, and Forrest's and Grant's rows carry much of the gain ([uncertainty](artifacts/commander-ratings-v3-uncertainty.md)); only Forrest's 80% interval excludes zero |
-| [Rating run 4](docs/research/commander-ratings-v4.md) | 301 battles on ledger v3, 120 with a modelled side | Do commanders beat a theater-and-period comparator, beyond campaign-resampling noise under both weightings, with τ estimated and leakage removed? | No: −0.0174 battle-weighted (bound −0.0054, cleared) but −0.0086 campaign-weighted (bound +0.0092, not cleared); the comparator itself did worse than force size alone, and Forrest's rows carry 46% of the gain. In sample τ ≈ 0.6 (95% profile interval 0.2–1.0, calibrated p = 0.01) |
-| [Napoleonic compiler-strength benchmark](docs/research/napoleonic-benchmark-run-v1.md) | 194 of 273 development entries | Do Bodart's printed personnel totals predict his recorded winners? | Campaign-held-out log loss 0.5594 versus 0.6807 for the training prior. The 37-entry 1813 forward check nearly ties equal odds on log loss and is slightly worse on Brier; the unqualified-total forward sensitivity is worse on both. This is a compiler-record diagnostic, with no commander effect. |
+**A better ranking is not demonstrated.** On the same held-out campaigns:
 
-Runs 2 and 3 passed the test fixed in advance for them, which is read only as lower held-out log
-loss on those rows and had no uncertainty threshold. Run 4's [pre-registered rule](docs/commander-ratings-v4.md)
-added that threshold, and the result did not meet it. The residual still mixes command with army
-quality, subordinates, theater, opponents, coding choices and modelling error, so the ordered lists
-in the run 2 and 3 reports are point summaries, not rankings. Each record names the `make` target
-that reproduces it.
+| Model | Battle log loss | Campaign log loss |
+| --- | ---: | ---: |
+| Strength-only baseline | 0.656313 | 0.667838 |
+| Full commander model | 0.650044 | 0.668521 |
+| Simpler commander variant, saved diagnostic | 0.644558 | 0.662931 |
 
-## Planned work
+Lower is better. The full model is slightly better per battle and slightly worse when each
+campaign counts equally. The simpler variant has better point results, with campaign
+uncertainty spanning no improvement. These are reused development results, not a new final
+test. Both score columns already use our AI-researched data; this is an adaptation of
+Arsht’s scoring idea, not a reproduction of his published rankings or a test isolating AI’s
+benefit over his data. See the [comparison](artifacts/commander-comparison-v1.md) and the
+[unchanged run-4 record](docs/research/commander-ratings-v4.md).
 
-Beyond the Napoleonic work, the [roadmap](docs/roadmap.md) plans a campaign-level estimand
-defined before any enriched model (battle execution and campaign contribution are separate
-and never added together), opponent and army context, and graded outcomes rather than win or
-loss only. None of this is implemented yet. The [explorer](https://masonpetrosky.github.io/generalship/)
-is a first, static version of the planned research interface. A worked campaign specification
-and synthetic feasibility checks now exist; historical campaign estimation remains unimplemented.
+## Data and evidence
+
+- **American Civil War:** 384 engagements in 119 source campaign groups, all with first-pass
+  dossiers. Strength and command ledgers cover 305 in-scope engagements; four nested records
+  are excluded from the 301-battle model. In 120 battles, at least one strength is modelled.
+- **Napoleonic Wars:** 325 land engagements of 1805–1815 across 16 groups, all with first-pass
+  dossiers. The existing compiler-strength benchmark scores 194 of 273 development entries;
+  52 final entries remain reserved. Force size improves grouped prediction, while the 1813
+  forward check is weak and sensitivity-dependent. No Napoleonic commander ranking exists.
+- **Sources:** preserved snapshots, exact passages, locators and SHA-256 hashes. Missing
+  evidence, conflicting accounts and differences between people present and engaged remain
+  explicit. AI verification checks extraction; it does not establish historical truth.
+
+[Browse the evidence](https://masonpetrosky.github.io/generalship/), or explore
+[Napoleonic battles that surprised the troop-count model](https://masonpetrosky.github.io/generalship/napoleonic/surprises.html).
+
+## Working approach
+
+Reuse existing data, compare results quickly, and expand through source-linked structured
+battle tables. Research consequential exceptions selectively. A complete seven-dimension
+dossier is not required for each exploratory table row. New predictors still need their
+admission contract before entering a frozen model. Existing research and model records
+remain intact. The [roadmap](docs/roadmap.md) holds the current priority; the
+[research log](docs/research-log.md) retains completed batches and experiments.
 
 ## Run it
 
-Requires Python 3.11 or newer and nothing else. From the repository root:
+Python 3.11 or newer; standard library only. From the repository root:
 
 ```sh
-make check                              # tests plus source, evidence and pipeline validation
-make reproduce                          # regenerate the committed artifacts offline
-python3 -m generalship inspect TN003    # print one engagement's record (TN003 is Shiloh)
-python3 -m generalship packet TN003     # prepare a research assignment; makes no AI call
-python3 -m generalship admission-check  # offline proposal audit; promotes nothing
-python3 -m generalship site             # write the static explorer to _site/
-make napoleonic-methods                  # explicit synthetic checkpoint; never historical ratings
+make commander-comparison              # regenerate the comparison from saved results; no fit
+make check                             # offline tests and data-contract checks
+make reproduce                         # regenerate committed derived artifacts offline
+python3 -m generalship site             # build the explorer in _site/
+python3 -m generalship inspect TN003    # inspect one engagement (Shiloh)
 ```
 
-`python3 -m generalship fetch` restores missing pinned upstream CSVs; it is the only command
-that uses the network. Checked-in historical snapshots are restored from Git, not silently
-refreshed. To run from another directory, use
-`python3 -m generalship --root /path/to/generalship check` with the package on the Python
-path, or install it with `python3 -m pip install -e .`.
+Historical rating jobs remain explicit commands; ordinary tests and reproduction do not
+rerun them. `python3 -m generalship fetch` explicitly restores missing pinned upstream CSVs.
+Historical snapshots are restored from Git. To work from another directory, install with
+`python3 -m pip install -e .` and use the CLI’s `--root` option.
 
-## Repository layout
+## Documentation and attribution
 
-| Path | Contents |
-| --- | --- |
-| `generalship/` | Python package and command-line interface |
-| `data/` | Source registry (`sources.json`) and raw snapshots, cohorts, dossiers (`evidence/`), strength and command ledgers, and authorization records |
-| `artifacts/` | Reports, predictions, research packets, review records and the input/output hash receipt |
-| `docs/` | Methodology, evidence contract, designs and roadmap; `docs/research/` holds pass, ledger and run records |
-| `tests/` | Offline tests |
-| `design/`, `reviews/`, `prompts/`, `scripts/` | Supporting material for the Shiloh packets and review, and the researcher prompt |
+- [Methodology and limits](docs/methodology.md)
+- [Evidence contract](docs/evidence-contract.md) and [feature admission](docs/feature-admission.md)
+- [Sources and original-project audit](docs/sources.md), [source registry](data/sources.json)
+- [Full Civil War cohort](docs/cohort-v2.md), [Napoleonic frame](docs/napoleonic-frame.md)
+- [Earlier commander experiments](docs/research/commander-ratings-v4.md)
 
-## Documentation
-
-- [Methodology and limitations](docs/methodology.md)
-- [Evidence contract and review workflow](docs/evidence-contract.md)
-- [Roadmap and current handoff](docs/roadmap.md)
-- [Napoleonic methods checkpoint](docs/napoleonic-methods-v1.md)
-- [Research log](docs/research-log.md): pilot campaign passes and the Shiloh source investigations
-- [Reviewed feature-admission design](docs/feature-admission.md)
-- [Source provenance and original-project audit](docs/sources.md)
-- [Source manifest](data/sources.json), [pilot cohort](data/pilot/cohort.json) and
-  [full-war cohort](data/pilot/cohort-v2.json)
-
-## Terms
-
-| Term | Meaning |
-| --- | --- |
-| Engagement, campaign group | One record in the CWSAC battle list, and the list's grouping of records into campaigns. Research, review and evaluation keep whole campaigns together. |
-| Cohort | A fixed list of engagements chosen before modelling: v1 is the 127-engagement 1862–1863 pilot, v2 the 384-engagement full war. |
-| Dossier | An engagement's research record in `data/evidence/`: source-cited claims across the seven dimensions. |
-| Explicit unknown | A claim recording that the inspected sources do not establish a dimension. |
-| Source family | Sources that share an origin; copies and reprints count once. |
-| First pass | The bounded research protocol: up to three source families per battle and one targeted follow-up. |
-| Primary | The main AI agent that prepares and maintains the evidence, as distinct from the separate reviewer. |
-| Owner | The project maintainer. Owner decisions and run authorizations are recorded with dates. |
-| Strength grades | A–C: reported figures, from A (directly applicable) to C (for example an opponent's estimate); D: no usable figure; E: a modelled typical size for a D side, used in runs 3 and 4. |
-| Admission | The reviewed contract an enriched predictor must pass before it can join the frozen baseline. The rating runs are exploratory diagnostics outside it. |
-
-## License and attribution
-
-Project code is MIT-licensed. Third-party data keeps its own terms and attribution; see
-[NOTICE](NOTICE.md). The engagement frame and baseline strengths come from four pinned,
-checksum-verified CWSAC tables in Jeffrey B. Arnold's
-[American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/). Nothing needs
-a paid service. GitHub Actions runs `make check` on Python 3.11 and 3.14 and publishes the explorer.
+Project code is MIT-licensed. Third-party sources retain their own terms; see [NOTICE](NOTICE.md).
+The Civil War frame comes from pinned CWSAC tables in Jeffrey B. Arnold’s
+[American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/).
+GitHub Actions checks Python 3.11 and 3.14 and publishes the explorer from each pushed commit.

@@ -74,6 +74,15 @@ published rankings: different cohort, total personnel rather than force categori
 explicit missingness exclusions, fixed regularization, and held-out campaigns.
 An exact numerical reproduction remains a separate milestone.
 
+The [Civil War comparison](../artifacts/commander-comparison-v1.md) applies the residual
+scoring idea to our existing saved forecasts and responsibility ledger. It is an
+Arsht-style adaptation, not a reproduction of his published scores. The notebook was
+re-inspected on 2026-10-21 UTC: zero-based cells 159–167 (fit) and 196–198 (score/order),
+SHA-256 `85500155549b0aa432530a9eed9d086c3664ddf21a50ce76411a81710a02f5a3`.
+The computational reference is recorded in the comparison JSON; it supplies no historical
+input and is not redistributed. Both columns already use our AI-researched data, so
+their comparison does not isolate the effect of AI research versus Arsht's original data.
+
 ## Source additions
 
 **Author groups across campaigns (cohort v2).** Full-war passes may register one author's reports

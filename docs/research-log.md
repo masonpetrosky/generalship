@@ -5376,3 +5376,47 @@ were visually inspected. The site now has **1,309 HTML pages**. All 5,667 source
 bindings and 20 prior output hashes remain unchanged; only the two existing site
 modules change in the old input receipt, with the surprise renderer added. No
 research dossier, prepared packet, source record or saved prediction changes.
+
+
+## 2026-10-20 — Civil War scoring comparison and faster project direction
+
+The owner clarified that the aim is to test whether AI can improve on WAR-style ratings
+of generals, and accepted a compact comparison using existing Civil War inputs rather
+than more archival research or interface features. AGENTS.md, the methodology and current
+roadmap now prioritize provisional comparisons, bulk source-linked tables and selective
+research on consequential exceptions. The public README is reduced from 16,827 to 5,442 bytes.
+Existing dossier and frozen-input contracts remain in place when applicable.
+
+`make commander-comparison` writes `artifacts/commander-comparison-v1.{json,md}` from the
+saved run-4 forecasts and responsibility ledger, offline, with no new fit. It compares
+Arsht-style cumulative and per-battle residual scores with the saved shrunk commander
+estimates. The same attribution rules apply to both: joint-command sides receive no
+individual credit and the four nested records remain excluded. The comparison retains
+all 384 cohort engagements in its coverage accounting, 301 scored battles in 108 groups,
+120 battles with a modelled strength, all 313 saved commander records, and 91 provisional
+within-side orders (49 Union, 42 Confederate). The 211 single-battle and 11 zero-battle
+commanders receive no order; zero-battle estimates remain null. Battle-level residuals,
+input hashes, raw means, model intervals and the original unsuccessful verdict are retained.
+
+The result does not demonstrate a better ranking. Full-model held-out log loss is
+0.650044 per battle versus 0.656313 for strength only, but 0.668521 versus 0.667838 with
+equal campaign weighting. The saved simpler commander variant gives 0.644558 and 0.662931;
+its campaign-bootstrap interval still spans no improvement. Both point orders put Grant
+and Forrest first within their respective sides. Lee moves 7 to 19 and Rosecrans 8 to 20;
+these are model-dependent descriptive changes, not verified skill differences. The original
+Arsht notebook was re-inspected at its pinned commit (cells 159–167 and 196–198), with its
+SHA-256 retained in the comparison and source audit. This adapts the scoring idea, not the
+published scores. Both columns already use our AI-researched data, so the comparison does
+not isolate the benefit of AI over Arsht's dataset. No new historical source is registered
+or redistributed, no predictor is admitted, and no research packet or old model record changes.
+
+Primary verification: five calculation/coverage/corruption tests and one site test were
+added; all **465 tests passed in 250.372 seconds**, followed by the full `make check`
+source/contract/generated-report checks. `make reproduce` succeeded. The 23 site tests
+passed, including all internal links and anchors. With no Browser plugin exposed, bundled
+Playwright and installed Chrome checked entry navigation, metric and order tables, all
+91 commander links, a commander/evidence route, anchors, desktop/mobile overflow,
+horizontal table scrolling, dark mode and no-JavaScript rendering. No console or page
+errors occurred; screenshots were inspected and temporary QA files stay outside the repo.
+The site has 1,310 pages. All 5,667 existing source bindings and all 20 prior output hashes
+remain unchanged. The comparison is linked from the overview, commander index and results.

@@ -46,6 +46,14 @@ those biases. The 127 records are a research cohort, not 127 research-complete d
 
 ## Research depth and coverage
 
+The owner's 2026-10-20 direction prioritizes quick exploratory model comparisons and
+source-linked structured tables for wider coverage. Reuse existing data, extract fields
+in bulk and investigate consequential exceptions selectively. A complete dossier is
+not required for every new table row. The rules below govern dossier work when that work
+is requested; they are not a prerequisite for every experiment. Provisional estimates
+may be displayed with their uncertainty and unsuccessful validation results visible.
+This changes research allocation, not frozen inputs or feature-admission requirements.
+
 Build comparable first-pass dossiers across the frozen cohort before pursuing
 fine-grained historical resolution in individual battles. The first pass uses
 the existing seven dimensions: strength, terrain, logistics, information,

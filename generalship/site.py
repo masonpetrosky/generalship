@@ -25,6 +25,7 @@ COMMAND = 'data/command/responsibility-v2.json'
 REGISTRY = 'data/command/commanders-v2.json'
 RUNS = ('artifacts/commander-ratings-v4', 'artifacts/commander-ratings-v3')  # the newest present run is shown
 REPORTS = (('README.md', 'Overview'),
+           ('artifacts/commander-comparison-v1.md', 'Civil War: Arsht-style scores versus commander estimates'),
            ('docs/research/commander-ratings-v4.md', 'Rating run 4: memo'),
            ('artifacts/commander-ratings-v4.md', 'Rating run 4: report'),
            ('docs/commander-ratings-v4.md', 'Rating run 4: design'),
@@ -318,7 +319,7 @@ class Site:
         if self.run.get('run_version') == 4:
             v = self.run['verdict']
             text = ('lower held-out log loss than the context model, beyond campaign-resampling noise, under both weightings'
-                    if v['improved'] else 'no improvement over the context model under the pre-registered rule; no ordered ranking is given')
+                    if v['improved'] else 'no improvement over the context model under the pre-registered rule; the original report gives no ordered ranking')
         else:
             text = 'lower held-out log loss under both weightings' if self.run['heldout_test']['improved'] else 'no held-out improvement'
         name = self.run_path.rsplit('/', 1)[-1]
@@ -369,6 +370,9 @@ class Site:
                  'a candidate, successor or superior, alphabetical '
                  'within each side. θ is the latest run\'s pooled residual rating: how a commander\'s battles went relative to '
                  'what the run\'s comparator predicts, pulled towards zero. It is not skill, and the order here is not a ranking.</p>')
+        if any(p == 'artifacts/commander-comparison-v1.md' for p, _ in self.reports):
+            intro += ('<p><a href="../results/artifacts-commander-comparison-v1.html">Compare provisional '
+                      'commander orders with Arsht-style residual scores</a>, with coverage and uncertainty.</p>')
         self.write('commanders/index.html', 'Commanders', intro + self.verdict_box('../') + table(
             ['Commander', 'Side', 'Battles credited', 'Battles modelled', 'θ', '80% interval', 'Labels'], rows, {2, 3, 4}), 1)
 

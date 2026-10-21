@@ -30,8 +30,14 @@ your task touches, not the whole log.
 
 ## Research scope and stopping rule
 
-- Prioritize comparable first-pass coverage across the current frozen cohort, grouped
-  by complete source campaigns. Read the current priority in `docs/roadmap.md`;
+- Owner direction, 2026-10-20: prioritize testing whether AI improves WAR-style general
+  ratings, with quick, provisional comparisons and scalable structured battle tables.
+  Reuse existing inputs before adding research. For new extensions, extract source-linked
+  fields in bulk, preserve unknowns and investigate consequential exceptions selectively;
+  a full seven-dimension dossier is not a prerequisite for an exploratory table.
+  No new enriched predictor enters a frozen model without its admission contract.
+- If a dossier first pass is explicitly needed, prioritize comparable coverage across
+  its frozen cohort, grouped by complete source campaigns. Read `docs/roadmap.md`;
   an unresolved question in an old packet is not automatically the next task.
 - Default first pass: inspect up to three source families per battle and make at
   most one targeted follow-up for its most consequential gap. Reuse relevant

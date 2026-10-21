@@ -1,8 +1,9 @@
 PYTHON ?= python3
 
-.PHONY: check reproduce estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 napoleonic-methods packet review-bundle
+.PHONY: check reproduce commander-comparison estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 napoleonic-methods packet review-bundle
 check:
 	$(PYTHON) -m unittest discover -s tests -v
+	$(PYTHON) -m generalship.commander_comparison
 	$(PYTHON) -m generalship check
 	$(PYTHON) -m generalship.napoleonic_boundaries
 	$(PYTHON) -m generalship.napoleonic_authority
@@ -18,6 +19,7 @@ check:
 	$(PYTHON) -m generalship.napoleonic_context_admission
 
 reproduce:
+	$(PYTHON) -m generalship.commander_comparison --write
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship.napoleonic_authority --write
 	$(PYTHON) -m generalship.napoleonic_inventory --write
@@ -31,6 +33,9 @@ reproduce:
 	$(PYTHON) -m generalship.napoleonic_objectives --write
 	$(PYTHON) -m generalship.napoleonic_context_admission --write
 	$(PYTHON) -m generalship build
+
+commander-comparison:
+	$(PYTHON) -m generalship.commander_comparison --write
 
 napoleonic-methods:
 	$(PYTHON) -m generalship napoleonic-methods
