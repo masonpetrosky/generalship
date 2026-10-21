@@ -78,6 +78,8 @@ class SiteTests(unittest.TestCase):
         self.assertIn('0.656313', page)
         self.assertIn('0.650044', page)
         self.assertEqual(page.count('https://masonpetrosky.github.io/generalship/commanders/'), 91)
+        self.assertEqual(page.count(' †</a>'), 19)
+        self.assertIn('not_connected', page)
 
     def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
         from generalship.napoleonic_surprises import RUN

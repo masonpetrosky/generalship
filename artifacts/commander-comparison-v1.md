@@ -36,6 +36,8 @@ These shifts describe the models’ choices. They do not establish that the new 
 
 Both orders use the same commanders with at least two credited battles, separately within each side. **Raw order** sorts cumulative residuals; **model order** sorts the stored θ point estimates. Exact ties share an order. The raw mean is also shown to expose the effect of battle count. Intervals for θ and model rank are the saved model-based approximations, conditional on its assumptions. Raw-score uncertainty was not estimated. Broad overlapping rank intervals make fine ordinal differences unreliable.
 
+The opponent network has disconnected components. Comparing θ across them depends on shared model priors, rather than an identified chain of opponents. **† marks 19 commanders with no other eligible same-side commander in their component**, preserving the saved run’s `not_connected` flag. The displayed point order should not be read as an established comparison between components.
+
 ### Union
 
 | Model order | Commander | W–L | Modelled strength battles | Raw order | Raw total / battle | θ [95%] | Rank [80%] |
@@ -44,21 +46,21 @@ Both orders use the same commanders with at least two credited battles, separate
 | 2 | [G.K. Warren](https://masonpetrosky.github.io/generalship/commanders/us-g-k-warren.html) | 4–0 | 1/4 | 2 | +1.505 / +0.376 | +0.462 [-0.580, +1.502] | 2–33 |
 | 3 | [George B. McClellan](https://masonpetrosky.github.io/generalship/commanders/us-george-b-mcclellan.html) | 3–0 | 0/3 | 4 | +1.152 / +0.384 | +0.409 [-0.648, +1.479] | 2–35 |
 | 4 | [John McNeil](https://masonpetrosky.github.io/generalship/commanders/us-john-mcneil.html) | 3–0 | 1/3 | 3 | +1.490 / +0.497 | +0.407 [-0.681, +1.441] | 2–35 |
-| 5 | [William W. Averell](https://masonpetrosky.github.io/generalship/commanders/us-william-w-averell.html) | 3–0 | 1/3 | 6 | +1.074 / +0.358 | +0.342 [-0.734, +1.414] | 3–37 |
+| 5 | [William W. Averell †](https://masonpetrosky.github.io/generalship/commanders/us-william-w-averell.html) | 3–0 | 1/3 | 6 | +1.074 / +0.358 | +0.342 [-0.734, +1.414] | 3–37 |
 | 6 | [Philip Sheridan](https://masonpetrosky.github.io/generalship/commanders/us-philip-sheridan.html) | 6–2 | 1/8 | 13 | +0.786 / +0.098 | +0.291 [-0.671, +1.268] | 4–36 |
-| 7 | [John G. Foster](https://masonpetrosky.github.io/generalship/commanders/us-john-g-foster.html) | 2–0 | 2/2 | 18 | +0.653 / +0.326 | +0.257 [-0.834, +1.338] | 3–40 |
+| 7 | [John G. Foster †](https://masonpetrosky.github.io/generalship/commanders/us-john-g-foster.html) | 2–0 | 2/2 | 18 | +0.653 / +0.326 | +0.257 [-0.834, +1.338] | 3–40 |
 | 8 | [Frederick Steele](https://masonpetrosky.github.io/generalship/commanders/us-frederick-steele.html) | 3–0 | 2/3 | 5 | +1.084 / +0.361 | +0.256 [-0.821, +1.344] | 3–39 |
 | 9 | [Edward O.C. Ord](https://masonpetrosky.github.io/generalship/commanders/us-edward-o-c-ord.html) | 2–0 | 1/2 | 9 | +0.879 / +0.440 | +0.252 [-0.844, +1.353] | 3–39 |
-| 10 | [Alfred Torbert](https://masonpetrosky.github.io/generalship/commanders/us-alfred-torbert.html) | 2–0 | 1/2 | 17 | +0.682 / +0.341 | +0.234 [-0.889, +1.341] | 3–40 |
+| 10 | [Alfred Torbert †](https://masonpetrosky.github.io/generalship/commanders/us-alfred-torbert.html) | 2–0 | 1/2 | 17 | +0.682 / +0.341 | +0.234 [-0.889, +1.341] | 3–40 |
 | 11 | [George Stoneman](https://masonpetrosky.github.io/generalship/commanders/us-george-stoneman.html) | 2–0 | 1/2 | 10 | +0.879 / +0.439 | +0.230 [-0.875, +1.341] | 3–40 |
-| 12 | [Benjamin M. Prentiss](https://masonpetrosky.github.io/generalship/commanders/us-benjamin-m-prentiss.html) | 2–0 | 0/2 | 7 | +0.906 / +0.453 | +0.222 [-0.880, +1.329] | 3–40 |
-| 13 | [John G. Parke](https://masonpetrosky.github.io/generalship/commanders/us-john-g-parke.html) | 2–0 | 1/2 | 20 | +0.633 / +0.316 | +0.220 [-0.865, +1.326] | 4–40 |
-| 14 | [David G. Farragut](https://masonpetrosky.github.io/generalship/commanders/us-david-g-farragut.html) | 2–0 | 2/2 | 14 | +0.757 / +0.379 | +0.193 [-0.931, +1.298] | 4–41 |
-| 15 | [James Negley](https://masonpetrosky.github.io/generalship/commanders/us-james-negley.html) | 2–0 | 1/2 | 11 | +0.877 / +0.439 | +0.183 [-0.915, +1.303] | 4–41 |
+| 12 | [Benjamin M. Prentiss †](https://masonpetrosky.github.io/generalship/commanders/us-benjamin-m-prentiss.html) | 2–0 | 0/2 | 7 | +0.906 / +0.453 | +0.222 [-0.880, +1.329] | 3–40 |
+| 13 | [John G. Parke †](https://masonpetrosky.github.io/generalship/commanders/us-john-g-parke.html) | 2–0 | 1/2 | 20 | +0.633 / +0.316 | +0.220 [-0.865, +1.326] | 4–40 |
+| 14 | [David G. Farragut †](https://masonpetrosky.github.io/generalship/commanders/us-david-g-farragut.html) | 2–0 | 2/2 | 14 | +0.757 / +0.379 | +0.193 [-0.931, +1.298] | 4–41 |
+| 15 | [James Negley †](https://masonpetrosky.github.io/generalship/commanders/us-james-negley.html) | 2–0 | 1/2 | 11 | +0.877 / +0.439 | +0.183 [-0.915, +1.303] | 4–41 |
 | 16 | [George G. Meade](https://masonpetrosky.github.io/generalship/commanders/us-george-g-meade.html) | 3–1 | 0/4 | 23 | +0.361 / +0.090 | +0.176 [-0.868, +1.212] | 4–40 |
 | 17 | [Ambrose E. Burnside](https://masonpetrosky.github.io/generalship/commanders/us-ambrose-e-burnside.html) | 5–2 | 3/7 | 15 | +0.702 / +0.100 | +0.161 [-0.799, +1.132] | 5–40 |
 | 18 | [Joseph A. Mower](https://masonpetrosky.github.io/generalship/commanders/us-joseph-a-mower.html) | 2–0 | 1/2 | 16 | +0.691 / +0.346 | +0.154 [-0.963, +1.257] | 4–42 |
-| 19 | [A.J. Smith](https://masonpetrosky.github.io/generalship/commanders/us-a-j-smith.html) | 2–0 | 1/2 | 19 | +0.634 / +0.317 | +0.149 [-0.964, +1.259] | 4–42 |
+| 19 | [A.J. Smith †](https://masonpetrosky.github.io/generalship/commanders/us-a-j-smith.html) | 2–0 | 1/2 | 19 | +0.634 / +0.317 | +0.149 [-0.964, +1.259] | 4–42 |
 | 20 | [William S. Rosecrans](https://masonpetrosky.github.io/generalship/commanders/us-william-s-rosecrans.html) | 4–1 | 0/5 | 8 | +0.903 / +0.181 | +0.130 [-0.885, +1.164] | 5–41 |
 | 21 | [James G. Blunt](https://masonpetrosky.github.io/generalship/commanders/us-james-g-blunt.html) | 4–2 | 4/6 | 21 | +0.591 / +0.099 | +0.088 [-0.928, +1.078] | 6–41 |
 | 22 | [Cuvier Grover](https://masonpetrosky.github.io/generalship/commanders/us-cuvier-grover.html) | 2–1 | 3/3 | 24 | +0.298 / +0.099 | +0.083 [-0.993, +1.173] | 5–43 |
@@ -67,7 +69,7 @@ Both orders use the same commanders with at least two credited battles, separate
 | 25 | [Alfred Pleasonton](https://masonpetrosky.github.io/generalship/commanders/us-alfred-pleasonton.html) | 2–1 | 2/3 | 25 | +0.248 / +0.083 | +0.011 [-1.071, +1.094] | 7–44 |
 | 26 | [Samuel R. Curtis](https://masonpetrosky.github.io/generalship/commanders/us-samuel-r-curtis.html) | 2–1 | 1/3 | 26 | +0.167 / +0.056 | +0.007 [-1.059, +1.083] | 7–44 |
 | 27 | [David Hunter](https://masonpetrosky.github.io/generalship/commanders/us-david-hunter.html) | 1–1 | 0/2 | 34 | -0.258 / -0.129 | -0.024 [-1.094, +1.068] | 7–45 |
-| 28 | [James M. Williams](https://masonpetrosky.github.io/generalship/commanders/us-james-m-williams.html) | 1–1 | 1/2 | 28 | -0.110 / -0.055 | -0.032 [-1.138, +1.069] | 7–45 |
+| 28 | [James M. Williams †](https://masonpetrosky.github.io/generalship/commanders/us-james-m-williams.html) | 1–1 | 1/2 | 28 | -0.110 / -0.055 | -0.032 [-1.138, +1.069] | 7–45 |
 | 29 | [George Crook](https://masonpetrosky.github.io/generalship/commanders/us-george-crook.html) | 1–1 | 0/2 | 31 | -0.206 / -0.103 | -0.034 [-1.119, +1.057] | 7–45 |
 | 30 | [Horatio G. Wright](https://masonpetrosky.github.io/generalship/commanders/us-horatio-g-wright.html) | 1–1 | 0/2 | 32 | -0.211 / -0.105 | -0.035 [-1.113, +1.053] | 7–45 |
 | 31 | [Jacob D. Cox](https://masonpetrosky.github.io/generalship/commanders/us-jacob-d-cox.html) | 1–1 | 1/2 | 29 | -0.151 / -0.075 | -0.040 [-1.149, +1.071] | 7–45 |
@@ -75,7 +77,7 @@ Both orders use the same commanders with at least two credited battles, separate
 | 33 | [Fitz John Porter](https://masonpetrosky.github.io/generalship/commanders/us-fitz-john-porter.html) | 2–2 | 2/4 | 38 | -0.617 / -0.154 | -0.066 [-1.102, +0.966] | 8–45 |
 | 34 | [Nathaniel Lyon](https://masonpetrosky.github.io/generalship/commanders/us-nathaniel-lyon.html) | 1–1 | 0/2 | 33 | -0.233 / -0.117 | -0.069 [-1.175, +1.037] | 8–45 |
 | 35 | [Nathaniel P. Banks](https://masonpetrosky.github.io/generalship/commanders/us-nathaniel-p-banks.html) | 4–3 | 1/7 | 36 | -0.309 / -0.044 | -0.088 [-1.074, +0.908] | 9–44 |
-| 36 | [John T. Wilder](https://masonpetrosky.github.io/generalship/commanders/us-john-t-wilder.html) | 1–1 | 2/2 | 30 | -0.158 / -0.079 | -0.113 [-1.197, +0.992] | 9–46 |
+| 36 | [John T. Wilder †](https://masonpetrosky.github.io/generalship/commanders/us-john-t-wilder.html) | 1–1 | 2/2 | 30 | -0.158 / -0.079 | -0.113 [-1.197, +0.992] | 9–46 |
 | 37 | [James Shackelford](https://masonpetrosky.github.io/generalship/commanders/us-james-shackelford.html) | 1–1 | 1/2 | 35 | -0.302 / -0.151 | -0.154 [-1.275, +0.943] | 9–46 |
 | 38 | [Benjamin Franklin Butler](https://masonpetrosky.github.io/generalship/commanders/us-benjamin-franklin-butler.html) | 2–3 | 2/5 | 46 | -1.389 / -0.278 | -0.166 [-1.182, +0.850] | 11–46 |
 | 39 | [H. Judson Kilpatrick](https://masonpetrosky.github.io/generalship/commanders/us-h-judson-kilpatrick.html) | 2–2 | 3/4 | 37 | -0.505 / -0.126 | -0.238 [-1.286, +0.795] | 12–47 |
@@ -87,7 +89,7 @@ Both orders use the same commanders with at least two credited battles, separate
 | 45 | [Franz Sigel](https://masonpetrosky.github.io/generalship/commanders/us-franz-sigel.html) | 0–2 | 0/2 | 41 | -1.134 / -0.567 | -0.283 [-1.382, +0.825] | 13–47 |
 | 46 | [Joseph Hooker](https://masonpetrosky.github.io/generalship/commanders/us-joseph-hooker.html) | 1–2 | 1/3 | 40 | -0.906 / -0.302 | -0.308 [-1.404, +0.752] | 13–47 |
 | 47 | [William T. Sherman](https://masonpetrosky.github.io/generalship/commanders/us-william-t-sherman.html) | 5–5 | 5/10 | 45 | -1.286 / -0.129 | -0.377 [-1.295, +0.541] | 18–47 |
-| 48 | [Quincy A. Gillmore](https://masonpetrosky.github.io/generalship/commanders/us-quincy-a-gillmore.html) | 1–3 | 1/4 | 48 | -1.647 / -0.412 | -0.383 [-1.442, +0.651] | 16–48 |
+| 48 | [Quincy A. Gillmore †](https://masonpetrosky.github.io/generalship/commanders/us-quincy-a-gillmore.html) | 1–3 | 1/4 | 48 | -1.647 / -0.412 | -0.383 [-1.442, +0.651] | 16–48 |
 | 49 | [Winfield Scott Hancock](https://masonpetrosky.github.io/generalship/commanders/us-winfield-scott-hancock.html) | 0–4 | 3/4 | 49 | -2.484 / -0.621 | -0.567 [-1.609, +0.474] | 22–49 |
 
 ### Confederate
@@ -98,22 +100,22 @@ Both orders use the same commanders with at least two credited battles, separate
 | 2 | [P.G.T. Beauregard](https://masonpetrosky.github.io/generalship/commanders/cs-p-g-t-beauregard.html) | 6–1 | 2/7 | 2 | +3.130 / +0.447 | +0.636 [-0.331, +1.606] | 2–23 |
 | 3 | [Patrick R. Cleburne](https://masonpetrosky.github.io/generalship/commanders/cs-patrick-r-cleburne.html) | 2–0 | 0/2 | 8 | +1.277 / +0.639 | +0.431 [-0.649, +1.537] | 2–30 |
 | 4 | [Joseph E. Johnston](https://masonpetrosky.github.io/generalship/commanders/cs-joseph-e-johnston.html) | 5–4 | 3/9 | 4 | +1.570 / +0.174 | +0.392 [-0.567, +1.352] | 3–29 |
-| 5 | [William C. Quantrill](https://masonpetrosky.github.io/generalship/commanders/cs-william-c-quantrill.html) | 2–0 | 2/2 | 5 | +1.365 / +0.682 | +0.389 [-0.720, +1.485] | 2–31 |
-| 6 | [John B. Magruder](https://masonpetrosky.github.io/generalship/commanders/cs-john-b-magruder.html) | 2–0 | 1/2 | 6 | +1.341 / +0.670 | +0.362 [-0.732, +1.453] | 2–32 |
+| 5 | [William C. Quantrill †](https://masonpetrosky.github.io/generalship/commanders/cs-william-c-quantrill.html) | 2–0 | 2/2 | 5 | +1.365 / +0.682 | +0.389 [-0.720, +1.485] | 2–31 |
+| 6 | [John B. Magruder †](https://masonpetrosky.github.io/generalship/commanders/cs-john-b-magruder.html) | 2–0 | 1/2 | 6 | +1.341 / +0.670 | +0.362 [-0.732, +1.453] | 2–32 |
 | 7 | [Thomas J. Jackson](https://masonpetrosky.github.io/generalship/commanders/cs-thomas-j-jackson.html) | 6–2 | 1/8 | 3 | +2.700 / +0.338 | +0.359 [-0.608, +1.340] | 3–30 |
 | 8 | [James Longstreet](https://masonpetrosky.github.io/generalship/commanders/cs-james-longstreet.html) | 4–3 | 4/7 | 9 | +1.259 / +0.180 | +0.338 [-0.613, +1.315] | 3–31 |
 | 9 | [Wade Hampton](https://masonpetrosky.github.io/generalship/commanders/cs-wade-hampton.html) | 2–0 | 0/2 | 10 | +1.224 / +0.612 | +0.324 [-0.769, +1.416] | 3–33 |
-| 10 | [Nathan Evans](https://masonpetrosky.github.io/generalship/commanders/cs-nathan-evans.html) | 2–1 | 1/3 | 11 | +1.027 / +0.342 | +0.257 [-0.808, +1.313] | 3–34 |
-| 11 | [John C. Breckinridge](https://masonpetrosky.github.io/generalship/commanders/cs-john-c-breckinridge.html) | 3–2 | 1/5 | 12 | +0.889 / +0.178 | +0.234 [-0.766, +1.219] | 4–33 |
+| 10 | [Nathan Evans †](https://masonpetrosky.github.io/generalship/commanders/cs-nathan-evans.html) | 2–1 | 1/3 | 11 | +1.027 / +0.342 | +0.257 [-0.808, +1.313] | 3–34 |
+| 11 | [John C. Breckinridge †](https://masonpetrosky.github.io/generalship/commanders/cs-john-c-breckinridge.html) | 3–2 | 1/5 | 12 | +0.889 / +0.178 | +0.234 [-0.766, +1.219] | 4–33 |
 | 12 | [James R. Chalmers](https://masonpetrosky.github.io/generalship/commanders/cs-james-r-chalmers.html) | 2–1 | 1/3 | 14 | +0.555 / +0.185 | +0.233 [-0.830, +1.303] | 4–34 |
 | 13 | [Tom Green](https://masonpetrosky.github.io/generalship/commanders/cs-tom-green.html) | 3–2 | 3/5 | 13 | +0.819 / +0.164 | +0.184 [-0.831, +1.197] | 4–34 |
-| 14 | [George A. Anderson](https://masonpetrosky.github.io/generalship/commanders/cs-george-a-anderson.html) | 1–1 | 1/2 | 16 | +0.427 / +0.214 | +0.137 [-0.967, +1.252] | 4–37 |
+| 14 | [George A. Anderson †](https://masonpetrosky.github.io/generalship/commanders/cs-george-a-anderson.html) | 1–1 | 1/2 | 16 | +0.427 / +0.214 | +0.137 [-0.967, +1.252] | 4–37 |
 | 15 | [John S. Bowen](https://masonpetrosky.github.io/generalship/commanders/cs-john-s-bowen.html) | 1–2 | 2/3 | 23 | -0.041 / -0.014 | +0.118 [-0.965, +1.208] | 5–36 |
 | 16 | [George Pickett](https://masonpetrosky.github.io/generalship/commanders/cs-george-pickett.html) | 1–1 | 1/2 | 17 | +0.344 / +0.172 | +0.111 [-0.987, +1.213] | 5–37 |
 | 17 | [John C. Pemberton](https://masonpetrosky.github.io/generalship/commanders/cs-john-c-pemberton.html) | 1–2 | 2/3 | 26 | -0.131 / -0.044 | +0.094 [-1.004, +1.179] | 5–37 |
 | 18 | [John Hunt Morgan](https://masonpetrosky.github.io/generalship/commanders/cs-john-hunt-morgan.html) | 2–4 | 1/6 | 29 | -0.363 / -0.060 | +0.072 [-0.926, +1.087] | 6–36 |
 | 19 | [Robert E. Lee](https://masonpetrosky.github.io/generalship/commanders/cs-robert-e-lee.html) | 8–10 | 5/18 | 7 | +1.325 / +0.074 | +0.046 [-0.762, +0.849] | 9–35 |
-| 20 | [Richard H. Anderson](https://masonpetrosky.github.io/generalship/commanders/cs-richard-h-anderson.html) | 1–1 | 1/2 | 20 | +0.173 / +0.087 | +0.038 [-1.054, +1.115] | 6–38 |
+| 20 | [Richard H. Anderson †](https://masonpetrosky.github.io/generalship/commanders/cs-richard-h-anderson.html) | 1–1 | 1/2 | 20 | +0.173 / +0.087 | +0.038 [-1.054, +1.115] | 6–38 |
 | 21 | [Richard S. Ewell](https://masonpetrosky.github.io/generalship/commanders/cs-richard-s-ewell.html) | 2–2 | 1/4 | 15 | +0.528 / +0.132 | +0.038 [-0.995, +1.083] | 6–37 |
 | 22 | [Humphrey Marshall](https://masonpetrosky.github.io/generalship/commanders/cs-humphrey-marshall.html) | 1–1 | 2/2 | 21 | +0.137 / +0.069 | +0.035 [-1.076, +1.145] | 6–38 |
 | 23 | [John B. Floyd](https://masonpetrosky.github.io/generalship/commanders/cs-john-b-floyd.html) | 1–1 | 1/2 | 18 | +0.296 / +0.148 | +0.028 [-1.080, +1.149] | 6–38 |
@@ -129,8 +131,8 @@ Both orders use the same commanders with at least two credited battles, separate
 | 33 | [William T. Martin](https://masonpetrosky.github.io/generalship/commanders/cs-william-t-martin.html) | 0–2 | 2/2 | 31 | -0.659 / -0.329 | -0.169 [-1.289, +0.949] | 9–40 |
 | 34 | [Earl Van Dorn](https://masonpetrosky.github.io/generalship/commanders/cs-earl-van-dorn.html) | 1–4 | 3/5 | 39 | -1.299 / -0.260 | -0.208 [-1.223, +0.822] | 11–40 |
 | 35 | [John S. Marmaduke](https://masonpetrosky.github.io/generalship/commanders/cs-john-s-marmaduke.html) | 3–7 | 2/10 | 38 | -1.206 / -0.121 | -0.221 [-1.154, +0.704] | 13–40 |
-| 36 | [Thomas C. Hindman](https://masonpetrosky.github.io/generalship/commanders/cs-thomas-c-hindman.html) | 0–2 | 0/2 | 37 | -0.971 / -0.485 | -0.235 [-1.330, +0.886] | 10–41 |
-| 37 | [John B. Gordon](https://masonpetrosky.github.io/generalship/commanders/cs-john-b-gordon.html) | 0–2 | 0/2 | 33 | -0.671 / -0.336 | -0.245 [-1.338, +0.859] | 11–41 |
+| 36 | [Thomas C. Hindman †](https://masonpetrosky.github.io/generalship/commanders/cs-thomas-c-hindman.html) | 0–2 | 0/2 | 37 | -0.971 / -0.485 | -0.235 [-1.330, +0.886] | 10–41 |
+| 37 | [John B. Gordon †](https://masonpetrosky.github.io/generalship/commanders/cs-john-b-gordon.html) | 0–2 | 0/2 | 33 | -0.671 / -0.336 | -0.245 [-1.338, +0.859] | 11–41 |
 | 38 | [Lawrence O'Bryan Branch](https://masonpetrosky.github.io/generalship/commanders/cs-lawrence-obryan-branch.html) | 0–2 | 0/2 | 32 | -0.664 / -0.332 | -0.249 [-1.333, +0.848] | 11–41 |
 | 39 | [D. H. Hill](https://masonpetrosky.github.io/generalship/commanders/cs-d-h-hill.html) | 0–2 | 2/2 | 36 | -0.895 / -0.447 | -0.249 [-1.360, +0.836] | 11–41 |
 | 40 | [Richard Taylor](https://masonpetrosky.github.io/generalship/commanders/cs-richard-taylor.html) | 1–6 | 3/7 | 40 | -1.850 / -0.264 | -0.408 [-1.416, +0.602] | 16–41 |

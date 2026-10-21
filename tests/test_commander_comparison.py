@@ -95,6 +95,8 @@ class CommanderComparisonTests(unittest.TestCase):
         self.assertIn('not a reproduction of his published rankings', text)
         self.assertIn('a better ranking is not demonstrated', text)
         self.assertEqual(text.count('https://masonpetrosky.github.io/generalship/commanders/'), 91)
+        self.assertEqual(text.count('†]('), 19)
+        self.assertIn('Comparing θ across them depends on shared model priors', text)
 
 
 if __name__ == '__main__':

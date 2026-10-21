@@ -18,7 +18,8 @@ The comparison covers **301 Civil War battles in 108 source campaign groups** an
 provisional within-side orders for **91 commanders** with at least two credited battles.
 The other 222 saved commanders retain their coverage records without an assigned order.
 Both methods put Grant first among the 49 Union commanders and Forrest first among the
-42 Confederates. Most model intervals overlap widely.
+42 Confederates. Most model intervals overlap widely. Disconnected opponent networks
+limit comparisons; the report marks the saved model’s connectivity flags.
 
 **A better ranking is not demonstrated.** On the same held-out campaigns:
 

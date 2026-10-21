@@ -5384,7 +5384,7 @@ The owner clarified that the aim is to test whether AI can improve on WAR-style 
 of generals, and accepted a compact comparison using existing Civil War inputs rather
 than more archival research or interface features. AGENTS.md, the methodology and current
 roadmap now prioritize provisional comparisons, bulk source-linked tables and selective
-research on consequential exceptions. The public README is reduced from 16,827 to 5,442 bytes.
+research on consequential exceptions. The public README is reduced from 16,827 to 5,549 bytes.
 Existing dossier and frozen-input contracts remain in place when applicable.
 
 `make commander-comparison` writes `artifacts/commander-comparison-v1.{json,md}` from the
@@ -5420,3 +5420,12 @@ horizontal table scrolling, dark mode and no-JavaScript rendering. No console or
 errors occurred; screenshots were inspected and temporary QA files stay outside the repo.
 The site has 1,310 pages. All 5,667 existing source bindings and all 20 prior output hashes
 remain unchanged. The comparison is linked from the overview, commander index and results.
+
+
+Final presentation correction: the saved `not_connected` flag was present in the
+comparison JSON but initially absent from the rendered table. The 19 flagged commanders
+now carry a visible dagger, with the exact same-side-peer meaning explained. The report
+also states that orders across disconnected opponent-network components depend on shared
+model priors. This changes the display only; the comparison JSON, all estimates, forecasts,
+attribution, coverage and order positions are unchanged. The five comparison and 23 site
+tests were rerun with assertions for the visible flags.

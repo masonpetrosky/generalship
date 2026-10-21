@@ -236,7 +236,12 @@ def report(d):
               'estimates. Exact ties share an order. The raw mean is also shown to expose the effect of battle '
               'count. Intervals for θ and model rank are the saved model-based approximations, conditional '
               'on its assumptions. Raw-score uncertainty was not estimated. Broad overlapping rank intervals '
-              'make fine ordinal differences unreliable.', '']
+              'make fine ordinal differences unreliable.', '',
+              'The opponent network has disconnected components. Comparing θ across them depends on '
+              'shared model priors, rather than an identified chain of opponents. '
+              f'**† marks {sum("not_connected" in r["labels"] for r in ordered)} commanders with no other eligible '
+              'same-side commander in their component**, preserving the saved run’s `not_connected` flag. '
+              'The displayed point order should not be read as an established comparison between components.', '']
     for side, title in (('US', 'Union'), ('Confederate', 'Confederate')):
         lines += ['### ' + title, '',
                   '| Model order | Commander | W–L | Modelled strength battles | Raw order | Raw total / battle | θ [95%] | Rank [80%] |',
@@ -244,7 +249,8 @@ def report(d):
         for r in sorted((r for r in d['commanders'] if r['ordered'] and r['side'] == side),
                         key=lambda r: (-r['theta'], r['name'])):
             link = f'https://masonpetrosky.github.io/generalship/commanders/{r["id"]}.html'
-            lines.append(f'| {r["model_order"]} | [{r["name"]}]({link}) | {r["wins"]}–{r["losses"]} | '
+            name = r['name'] + (' †' if 'not_connected' in r['labels'] else '')
+            lines.append(f'| {r["model_order"]} | [{name}]({link}) | {r["wins"]}–{r["losses"]} | '
                          f'{r["modelled_strength_rows"]}/{r["battles"]} | {r["raw_order"]} | '
                          f'{r["raw_total"]:+.3f} / {r["raw_per_battle"]:+.3f} | '
                          f'{r["theta"]:+.3f} [{r["theta_95"][0]:+.3f}, {r["theta_95"][1]:+.3f}] | '
