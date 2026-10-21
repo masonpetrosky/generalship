@@ -1,0 +1,33 @@
+{
+  "kind": "napoleonic_context_admission_audit_protocol",
+  "version": 1,
+  "use": "Proposed retrospective pre-engagement prediction of the frozen recorded A-side result, not a commander information-set forecast or causal effect.",
+  "status": "Proposed audit profile only; the existing Civil War admission validator does not implement or approve this Napoleonic use. No release or model rows are emitted.",
+  "unit": "One frozen engagement, with one posture and one fortification field; source claims and scenarios are not extra engagements.",
+  "boundary": "Immediately before the first hostile contact belonging to the frozen engagement, including initial outpost/picket action. A later main assault, investment, capitulation or pursuit phase cannot silently replace it.",
+  "boundary_rules": [
+    "A cited source-relative ordering may establish earlier state without an exact clock. A deliberately null old replacement timestamp is not itself an exclusion.",
+    "Name the candidate contact anchor and area from the existing passages; preserve earlier-contact and scope alternatives. If the relevant relation remains uncertain, block that observation.",
+    "Later document/publication date alone does not exclude a reconstructed earlier state. Historical command receipt and knowledge remain unknown unless separately evidenced."
+  ],
+  "posture_target": "Audit the existing realized-offensive-role code as defined by brief v3. Attacking, investing, pursuing, or a later counterattack is an event/action, not automatically a pre-contact condition. Do not relabel realized action as prior intent. A planned-role predictor would be a separately defined variable/profile, not an admitted value here.",
+  "fortification_target": "The source-qualified category of named works in the relevant positions at the boundary. Retain A_fortified/B_fortified/both_fortified as named-positive categories; they do not establish physical absence for an unmentioned side. none_named means only no works named in inspected position descriptions covering both sides, never unfortified or two zero indicators.",
+  "eligibility_rules": [
+    "Integrity, literal quotation and raw/metadata/image bindings must pass before an audit result is valid.",
+    "eligible_candidate means the proposed field definition, source-supported pre-boundary referent and relevant scope are supported, with alternatives handled coherently. It is not an admitted input or production-validator result.",
+    "Known post-boundary action/state, wrong position/population or a known incompatible variable is excluded for this proposed use; retain every reason.",
+    "Unknown timing, locality or unresolved material same-use alternatives are blocked; no source vote, default phase tag or reputation selects a value.",
+    "A pre-existing work may support presence before an attack where the passage establishes that ordering and scope; permanence alone cannot repair an unresolved earlier-contact or different-place mapping.",
+    "A none_named value needs relevant descriptions of both positions and no material same-scope positive-work evidence. A later or wider description cannot prove opening absence.",
+    "Different phases/scopes may reconcile apparently different codes, but an inapplicable alternative never enters a scenario. No averaging or weights are supplied.",
+    "Record claim-level dispositions separately from the 44 engagement-field candidate statuses; assess complete two-field rows separately. No benchmark denominator or frozen strength value is silently promoted to opening use."
+  ],
+  "precedence": [
+    "invalid",
+    "excluded",
+    "blocked",
+    "eligible_candidate"
+  ],
+  "go_no_go": "A joint posture-plus-fortification experiment may be prepared from this pilot only if the two variable definitions and their boundary applicability are defensible on some complete entries without mislabelling actions, physical absence, or unresolved alternatives. A field-specific design disposition may be retained even when the joint proposal is no-go. Count all 22 entries and every failed/unknown field; no arbitrary quota is a feasibility criterion.",
+  "stopping_rule": "Finish existing-record audit, exact counts, source-linked table and one bounded go/no-go decision. No source fetch, new historical fit, feature admission, final-set use, wider extraction or reopening of stopped appointment/opening pilots follows automatically."
+}

@@ -5231,3 +5231,95 @@ credit. No raw input, source metadata, dossier, prepared packet or prior pilot/r
 record is revised; no source addition or evidence migration is needed. All 52
 reserved-final entries remain unused numerically. Calibration stays prepared and
 unscored. No subagent, separate reviewer or second-opinion prompt ran.
+
+## Napoleonic 1805 context-code admission audit, 2026-10-20
+
+The owner accepted a bounded audit of attacker posture and fortification across
+all 22 frozen `third-coalition 1805` engagements, using existing pinned sources,
+with exact proposed-use counts and a go/no-go decision before preparing an
+experiment. The scope, original claim/source snapshot and protocol were fixed
+before semantic assessment at base commit `e8612ffbefa123d18a22d924fcbeeae8bab81f40`.
+The [report](research/napoleonic-1805-context-admission-v1.md),
+[artifact](../artifacts/napoleonic-1805-context-admission-v1.json) and
+[executed notebook](research/napoleonic-1805-context-admission-audit-v1.ipynb)
+retain the complete group and all alternatives.
+
+The proposed profile is retrospective prediction immediately before first hostile
+contact belonging to the frozen entry, including outposts. Source-relative ordering
+can suffice without an exact clock; neither an old null replacement timestamp nor
+a later publication date is itself a reason to exclude. Works beyond the first
+outpost hit can qualify if they were already held within the reported engagement
+positions. A charge may be hostile contact without shots; Parsdorf remains blocked
+because the preceding pursuit may belong to the same action, not because its
+battalion reportedly surrendered without a blow.
+
+| Unit | Eligible candidate | Blocked | Excluded | Total |
+| --- | ---: | ---: | ---: | ---: |
+| Posture fields | 0 | 0 | 22 | 22 |
+| Fortification fields | 6 | 16 | 0 | 22 |
+| Original source claims | 6 | 20 | 25 | 51 |
+
+**No-go for preparing the unchanged joint experiment: zero complete two-field
+rows.** All 24 realized-posture claims describe action during the engagement,
+not unchanged pre-contact intent. This is a variable/use mismatch, not a claim
+that prior intentions cannot be researched. The other excluded claim is
+Schönhals's later occupation of Schloss St Sigmund at Mariazell; another unknown
+alternative keeps the whole fortification field blocked. Alternatives and
+repeated citations are not extra rows, votes or scenario weights.
+
+The six fortification candidates are Neresheim (`none_named`), Verona
+(`both_fortified`), Caldiero (`B_fortified`), Scharnitz (`B_fortified`), Austerlitz
+(`A_fortified`) and Steken (`none_named`). These are source-qualified named-work
+categories. `none_named` means no works named in inspected descriptions of both
+initial positions; it never supplies physical absence or two zero indicators.
+Positive categories likewise do not establish the other side's absence or the
+proportion of the force protected. Caldiero's already-held line and Austerlitz's
+Santon qualify before initial contact elsewhere. Scharnitz's 4/5 November and
+Verona's 17/18 October alternatives are retained. Hohenems construction before
+contact is not mislabelled late: Dornbirn remains blocked for position/operation
+scope and the alternative main-body location. Sources and coding can remain
+historically wrong despite exact quotations.
+
+The primary agent inspected **405 prior citation occurrences / 374 distinct
+citation objects**, plus **five existing-source context excerpts**. All **91 text
+sources and 77 associated image records** retain exact raw and complete metadata
+hashes. **Ten images were visually re-inspected** here; other facsimiles are
+byte-bound earlier records, not new visual checks. The 379 passage records retain
+source IDs, section/locator, exact quote/range, raw/metadata SHA-256, document-date
+nulls and image bindings. Nine author/family groups across this campaign are not
+nine independent witnesses per entry. Dependency notes, including the
+Alombert/Krauss and Dürnstein source ancestry, remain explicit. No source vote,
+reputation judgment or invented receipt time resolves a dispute.
+
+The offline verifier checks the frozen records, complete group and claim keys,
+source/metadata/image bytes, every prior citation index, passage ranges, document
+dates, semantic use, missingness, alternatives and non-promotion. Fourteen new
+focused tests pass, including material late-position, reporting-category,
+source-dependence, reserved-final and no-fit cases. The notebook's four code cells
+execute top to bottom using only the standard library, with saved outputs checked
+by tests. A rendered HTML preview was checked in installed Chrome at 1280×900 and
+390×844; four output blocks and code expansion work with no document overflow or
+page errors. Desktop and mobile screenshots were visually inspected. All 144
+local links in the source-linked report resolve.
+
+Full `make check` passed: **453 tests in 262.315 seconds**, followed by all source,
+data-contract and generated-report checks. `make reproduce` succeeded. All
+**1,184 prior input hashes, 5,667 source bindings and 20 prior output hashes**
+are unchanged; the receipt adds only the audit module and four records, for
+1,189 inputs. The earlier failed temporal-correction result and stopped loss
+and objective/result decisions were inspected and retained. A final focused
+14-test run also passed after recording the notebook's actual Python 3.14.7
+execution environment (minimum supported version remains 3.11).
+
+This complete-group audit stops with its table and decision. It is not an
+implemented production admission profile, adequate model sample or commander
+effect. Any fortification-only design would need explicit reporting/missingness,
+source/coding sensitivities, coextensive force/target rows and grouped evaluation
+before a separately authorized fit. A planned-role variable needs its own
+definition and evidence audit. Existing compiler strengths are not promoted to
+opening forces. All physical-absence indicators, receipt/knowledge times and
+commander credit remain null. No raw source, source metadata, original dossier,
+prepared packet, prior pilot/run or frozen model input changes. No wider
+extraction, source fetch, historical fit, feature admission or final-set use
+follows. The work is primary-verified; calibration remains prepared and unscored,
+and no subagent, separate reviewer or second-opinion prompt ran.

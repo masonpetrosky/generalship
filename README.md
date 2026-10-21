@@ -64,6 +64,9 @@ As of 2026-10-20:
   expectations can be described, but the evidence does not support one common numerical grade.
   [Inspect both outcome pilots](https://masonpetrosky.github.io/generalship/napoleonic/outcomes/index.html)
   in the explorer, with separate loss and objective/result views, unknowns and exact source passages.
+  The [1805 context-code audit](docs/research/napoleonic-1805-context-admission-v1.md) retains all
+  22 entries: six fortification candidates and sixteen unresolved fields. Realized attacker posture
+  cannot serve unchanged as a pre-contact predictor, so the joint experiment is not prepared.
   The [12-entry measurement checkpoint](docs/research/napoleonic-measurement-feasibility-v1.md)
   and [command-unit specification](docs/napoleonic-command-units-v1.md) separate local quantities,
   force identity and appointment authority; wider extraction is paused. The

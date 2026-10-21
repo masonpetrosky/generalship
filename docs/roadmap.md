@@ -268,6 +268,20 @@ arithmetic discrepancies and OCR-only limits, with exact passage/image/hash link
 and dossiers link to their covered pilot. This primary-verified presentation uses existing
 records; it supplies no common grade, new evidence, model input or commander credit.
 
+**Done (2026-10-20):** the bounded [1805 context-code admission audit](research/napoleonic-1805-context-admission-v1.md)
+retains all 22 entries / 44 fields and 51 source-specific claims. It tests the existing realized
+posture and fortification codes for proposed retrospective prediction before first hostile contact.
+All 22 posture fields are excluded for that use: actions cannot silently become prior intent.
+Six fortification fields remain eligible candidates as source-qualified named-work categories;
+sixteen remain blocked. `none_named` never becomes physical absence or two zero indicators.
+**No-go for preparing the unchanged joint experiment: zero complete two-field rows.**
+
+This complete-group audit stops. A fortification-only profile or a new planned-role variable
+would require its own definition, coextensive force/target rows, reporting and source sensitivities,
+and grouped evaluation before a separately authorized fit. No wider extraction, production
+admission profile, historical fit, commander credit or final-set use follows. The report and
+executed companion notebook retain the exact counts, alternatives, passages and image limits.
+
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).
 These events have already been transcribed and seen; this is not historical blinding. The
