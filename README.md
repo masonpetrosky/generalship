@@ -8,11 +8,23 @@ use his ranking as a target. This is an exploratory project for fun. Provisional
 inputs and unsuccessful experiments stay visible; the estimates do not establish causal
 wins above replacement.
 
-**[Explore the expanded battle table, 1618–1905](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-bulk-v1.html)**:
-1,682 detected entries from Bodart’s compilation, with source pages, commander strings,
-personnel readings and explicit unknowns. [Download the CSV](artifacts/bodart-bulk-v1.csv).
-It combines 708 existing checked entries with 974 new OCR candidates; 34 new entries have
-scoped image corrections. This provisional table is not a new ratings run.
+**[Explore the broader provisional ratings](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-ratings-v1.html)**:
+542 field engagements from 1619–1904, 669 printed command labels, and 72 provisional orders
+within connected opponent groups. Napoleon I leads the largest group. Bonaparte remains
+a separate printed label; spelling variants and historical identities are not fully resolved.
+Most conditional intervals overlap widely. [Download estimates](artifacts/bodart-ratings-v1.csv).
+
+The fixed force-adjusted model improves held-out log loss over force-only: **0.638346 versus
+0.663196 per battle**, and **0.701488 versus 0.719430 with equal decade weights** (lower is
+better). The latter still loses to equal odds, 0.693147. This is a development diagnostic,
+not evidence of correct personal skill rankings or an isolated benefit from AI. Of the
+542 included rows, 354 have checked force pairs; OCR and command-label uncertainty remain.
+All 52 reserved-final entries stay excluded.
+
+The [source table](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-bulk-v1.html)
+retains all 1,682 candidate entries, source pages, commander strings, personnel readings and
+unknowns. It combines 708 checked transcription entries with 974 OCR candidates, including
+34 with scoped image checks. [Download the source CSV](artifacts/bodart-bulk-v1.csv).
 
 ## Results so far
 
@@ -50,7 +62,8 @@ benefit over his data. See the [comparison](artifacts/commander-comparison-v1.md
 - **Napoleonic Wars:** 325 land engagements of 1805–1815 across 16 groups, all with first-pass
   dossiers. The existing compiler-strength benchmark scores 194 of 273 development entries;
   52 final entries remain reserved. Force size improves grouped prediction, while the 1813
-  forward check is weak and sensitivity-dependent. No Napoleonic commander ranking exists.
+  forward check is weak and sensitivity-dependent. The separate broad Bodart experiment
+  above includes provisional command-label orders; the old frozen Napoleonic model is unchanged.
 - **Sources:** preserved snapshots, exact passages, locators and SHA-256 hashes. Missing
   evidence, conflicting accounts and differences between people present and engaged remain
   explicit. AI verification checks extraction; it does not establish historical truth.
@@ -73,6 +86,7 @@ Python 3.11 or newer; standard library only. From the repository root:
 
 ```sh
 make bodart-bulk                        # regenerate the broad source table; no fit or fetch
+make bodart-ratings                     # regenerate the broad ratings report from its saved run
 make commander-comparison              # regenerate the comparison from saved results; no fit
 make check                             # offline tests and data-contract checks
 make reproduce                         # regenerate committed derived artifacts offline

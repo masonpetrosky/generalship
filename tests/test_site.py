@@ -93,6 +93,21 @@ class SiteTests(unittest.TestCase):
             self.assertEqual((self.out / 'downloads' / name).read_bytes(), (ROOT / source).read_bytes())
         self.assertIn('artifacts-bodart-bulk-v1.html', (self.out / 'results/index.html').read_text())
 
+    def test_bodart_rating_page_keeps_coverage_intervals_and_exact_downloads(self):
+        page = (self.out / 'results/artifacts-bodart-ratings-v1.html').read_text()
+        self.assertIn('542 field engagements', page)
+        self.assertIn('72 ordered labels', page)
+        self.assertIn('95% interval', page)
+        self.assertIn('204 disconnected opponent components', page)
+        self.assertIn('0.701488', page)
+        self.assertIn('printed labels are not resolved historical identities', page)
+        for source, name in [('artifacts/bodart-ratings-v1.csv', 'bodart-ratings-v1.csv'),
+                             ('artifacts/bodart-ratings-v1.json', 'bodart-ratings-v1.json'),
+                             ('data/bodart/ratings-v1/cohort.json', 'bodart-ratings-v1-cohort.json')]:
+            self.assertIn('../downloads/' + name, page)
+            self.assertEqual((self.out / 'downloads' / name).read_bytes(), (ROOT / source).read_bytes())
+        self.assertIn('artifacts-bodart-ratings-v1.html', (self.out / 'index.html').read_text())
+
     def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
         from generalship.napoleonic_surprises import RUN
         ids = {p['battle_id'] for p in read_json(ROOT / RUN)['populations']['primary']['leave_campaign_out']['predictions']}

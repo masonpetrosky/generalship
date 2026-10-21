@@ -5498,3 +5498,71 @@ and Results navigation, exact CSV/JSON/check-record download bytes, new source l
 desktop and mobile rendering, horizontal table scrolling, dark mode and no-JavaScript
 use. No console/page errors or document overflow occurred. Screenshots were inspected;
 QA scripts and images remain outside the repository. The site now has 1,311 HTML pages.
+
+## 2026-10-21 — First broader provisional command-label ratings
+
+The owner accepted the broader provisional ranking from our direct Bodart table.
+This authorizes the separately defined descriptive experiment, not the earlier
+opening/causal specification. The [design/admission](bodart-ratings-v1.md), complete
+inclusion ledger, implementation and eight toy tests were pushed at
+`ea022c1517aeea317f39a548fe1355d8b3201581` before the first fit. No Arsht input/code,
+new source fetch, dossier predictor, subagent, separate review or second-opinion prompt
+was used. The primary retained the old frozen records and all 52 reserved-final IDs.
+
+The [saved run/report](../artifacts/bodart-ratings-v1.md) has **542/1,682 engagements**
+from 1619–1904, **669 normalized printed labels**, **204 opponent components** and
+**72 orders** for labels with at least three appearances. Component 1 has 178 labels
+and 51 orders. The other 597 labels have no assigned order. The 1,140 excluded entries
+retain explicit reasons; reasons overlap. The primary's pre-fit source check found
+joint names without “und”; embedded ranks are now excluded conservatively, which
+also omits some valid single names with nationality prefixes. Four entries sharing
+the normalized `joubert` label were excluded for spanning more than 60 years.
+
+The symmetric model adjusts for log personnel ratio and opposing label, with no
+intercept and fixed Gaussian prior SDs 2 for force and 1 for labels. All fits converged;
+the largest full/fold penalized gradient is below 1.84e-11. Its 28 decade-held-out folds
+score the same 542 rows under every comparator:
+
+| Model | Battle log loss | Equal-decade log loss | Battle Brier | Equal-decade Brier |
+| --- | ---: | ---: | ---: | ---: |
+| Equal odds | 0.693147 | 0.693147 | 0.250000 | 0.250000 |
+| Force only | 0.663196 | 0.719430 | 0.234880 | 0.261950 |
+| Force + command labels | 0.638346 | 0.701488 | 0.223695 | 0.253022 |
+
+Command labels improve the force-only point scores under both weightings, while the
+equal-decade score still loses to equal odds. This is a development diagnostic, not a
+forward test, complete-campaign holdout, proof of personal skill or isolated AI benefit.
+Only 39 forecasts have both labels seen in training, 183 have one, and 320 have neither.
+
+Napoleon I leads the largest component, with Bonaparte still a separate source label;
+both orders are unchanged under prior SD 0.5 and 2. Most intervals overlap broadly.
+Suchet's order changes from 28 to 13/42 under those fixed priors, illustrating sensitivity
+rather than a settled personal ranking. Approximate marginal 95% intervals use inverse
+Hessian solves checked against dense Cholesky on toy data; they omit source, identity,
+army, campaign and model uncertainty. There is no cross-component ranking or causal WAR.
+
+Included source status is **346 existing image-checked entries, eight OCR candidates
+with scoped field checks and 188 unchecked OCR candidates**. Both personnel fields are
+checked in **354/542** engagements. The fixed checked-personnel sensitivity has 351
+labels and 61 orders, on a different cohort; it is not an equal-coverage accuracy test.
+OCR years can change decade assignments. Nobility/geographic variants, aliases, spelling
+fragmentation and homonyms remain explicit limits rather than invented identities.
+
+The next useful bounded task is a source-backed alias map for repeated labels in the
+largest component, measuring exposure/connectivity changes before a versioned rerun.
+No new general audit or per-entry dossier series is queued.
+
+Primary verification: **486 tests passed in 259.437 seconds**, followed by every
+offline `make check` source/contract/report check. `make reproduce` passed; the new
+historical job was not rerun. A separate Python 3.12 saved-result check also passed.
+All 5,667 original source hashes and all 20 original receipt output hashes remain
+unchanged. The saved-run tests reject training/holdout overlap, prediction changes and
+bound-input changes; the ordinary path is explicitly tested with fitting/network blocked.
+
+With the Browser plugin absent, bundled Playwright and installed Chrome checked the
+1,313-page site: result/design navigation, exact bytes of four downloads, all 19 report
+tables, desktop 1280×1000 and mobile 390×844, mobile table scrolling, dark mode and
+JavaScript-disabled access. No document overflow, console warning/error or page error
+occurred. Desktop/mobile screenshots were inspected and kept outside the repository.
+The CI workflow runs the fast saved-result verifier before the full Python 3.11/3.14
+suite so platform-specific failures are visible promptly.

@@ -1,10 +1,11 @@
 PYTHON ?= python3
 
-.PHONY: check reproduce bodart-bulk commander-comparison estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 napoleonic-methods packet review-bundle
+.PHONY: check reproduce bodart-ratings bodart-bulk commander-comparison estimate-evaluation commander-ratings estimate-evaluation-v2 commander-ratings-v2 strength-imputation commander-ratings-v3 rating-uncertainty strength-imputation-v2 commander-ratings-v4 napoleonic-methods packet review-bundle
 check:
 	$(PYTHON) -m unittest discover -s tests -v
 	$(PYTHON) -m generalship.commander_comparison
 	$(PYTHON) -m generalship.bodart_bulk
+	$(PYTHON) -m generalship.bodart_ratings
 	$(PYTHON) -m generalship check
 	$(PYTHON) -m generalship.napoleonic_boundaries
 	$(PYTHON) -m generalship.napoleonic_authority
@@ -21,6 +22,7 @@ check:
 
 reproduce:
 	$(PYTHON) -m generalship.bodart_bulk --write
+	$(PYTHON) -m generalship.bodart_ratings --write
 	$(PYTHON) -m generalship.commander_comparison --write
 	$(PYTHON) -m generalship.napoleonic_boundaries --write
 	$(PYTHON) -m generalship.napoleonic_authority --write
@@ -41,6 +43,9 @@ commander-comparison:
 
 bodart-bulk:
 	$(PYTHON) -m generalship.bodart_bulk --write
+
+bodart-ratings:
+	$(PYTHON) -m generalship.bodart_ratings --write
 
 napoleonic-methods:
 	$(PYTHON) -m generalship napoleonic-methods

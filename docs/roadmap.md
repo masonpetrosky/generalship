@@ -34,12 +34,23 @@ There are 1,040 paired personnel readings and 70 unresolved years. The CSV keeps
 IDs/hashes, exact locators, raw readings and image-correction provenance. The OCR replay
 retains errors; no historical outcome is fitted, cohort migrated or predictor admitted.
 
-**Next:** use this table for one compact exploratory modelling extension, with an explicit
-row/command-unit definition, uncertainty and coverage accounting. Resolve consequential
-name and force ambiguities selectively; do not create a dossier for every new row or
-queue another general audit. The existing 1814–1815 final reservation remains protected.
-Historical causal identification and archival completeness are longer-term questions,
-rather than prerequisites for displaying labelled exploratory estimates.
+**Completed (2026-10-21):** the [broader provisional ratings](../artifacts/bodart-ratings-v1.md)
+use a separately admitted descriptive model on 542 field engagements from the direct
+table, with 669 printed command labels and 72 orders within connected opponent components.
+The [fixed design](bodart-ratings-v1.md), implementation and cohort were pushed before the
+fit. Command labels improve decade-held-out point log loss versus force-only under both
+weightings; equal-decade performance still loses to equal odds. Unresolved aliases, 204
+disconnected components, OCR errors and broad conditional intervals limit interpretation.
+354/542 force pairs are checked; all 52 reserved-final entries are excluded. Earlier frozen
+models and inputs are unchanged. The primary verifies the saved fit and forecasts;
+ordinary reproduction verifies this saved run without refitting it.
+
+**Next:** make a small source-backed alias map for repeated labels in the largest opponent
+component, beginning with Bonaparte/Napoleon, rank/nobility variants and `v.`/`von` variants.
+Record exact supporting source passages and unresolved alternatives, then compare the
+effect on exposure and connectivity before defining a versioned rerun. Do not create a
+dossier for every new row or queue another general audit. The 1814–1815 final reservation
+remains protected; historical causal identification is a longer-term question.
 
 ## Napoleonic work already completed
 
@@ -330,7 +341,8 @@ These events have already been transcribed and seen; this is not historical blin
 [versioned design](napoleonic-methods-v1.md#4-evaluation-decisions-fixed-before-a-napoleonic-outcome-fit)
 keeps the frame unchanged, fixes comparator and sensitivity rules, and records the severe limit
 of only three final groups. A complete rating design, resolved ledgers and exact owner
-run authorization are still required.
+run authorization are still required for that original opening/causal specification.
+The separately authorized broad printed-label experiment above does not claim to resolve it.
 
 ## Open owner decisions
 
