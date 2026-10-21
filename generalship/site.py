@@ -241,7 +241,7 @@ class Site:
     def report_name(path):
         return slug(path.rsplit('.', 1)[0])
 
-    def write(self, rel, title, body, depth):
+    def write(self, rel, title, body, depth, *, styles=(), scripts=()):
         up = '../' * depth
         nap_nav = f'<a href="{up}napoleonic/index.html">Napoleonic Wars</a>' if self.napoleonic.cohort else ''
         nav = (f'<a class="brand" href="{up}index.html">Generalship</a>{nap_nav}'
@@ -251,7 +251,10 @@ class Site:
         page = (f'<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
                 f'<meta name="viewport" content="width=device-width, initial-scale=1">'
                 '<link rel="icon" href="data:,">'
-                f'<title>{esc(title)} · Generalship</title><link rel="stylesheet" href="{up}style.css"></head>'
+                f'<title>{esc(title)} · Generalship</title><link rel="stylesheet" href="{up}style.css">'
+                + ''.join(f'<link rel="stylesheet" href="{up}{esc(path)}">' for path in styles)
+                + ''.join(f'<script src="{up}{esc(path)}" defer></script>' for path in scripts)
+                + '</head>'
                 f'<body><header><nav>{nav}</nav></header><main>{body}</main>'
                 f'<footer>Built from commit <a href="{REPOSITORY}/tree/{esc(self.commit)}"><code>{esc(self.commit[:12])}</code></a>. '
                 'Exploratory research: no rating here is a measure of skill, a causal effect or a ranking of record. '

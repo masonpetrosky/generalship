@@ -1,10 +1,12 @@
 """Read-only pages for the frozen Napoleonic cohort; no attribution or admission."""
 
 from collections import Counter, defaultdict
+from urllib.parse import quote
 
 from .napoleonic import COHORT, FRAME
 from .napoleonic_comparison import ComparisonPages
 from .napoleonic_outcomes import OutcomePages
+from .napoleonic_surprises import SurprisePages
 from .sources import read_json
 
 
@@ -16,6 +18,7 @@ class NapoleonicPages:
         self.groups = defaultdict(list)
         self.comparisons = None
         self.outcomes = None
+        self.surprises = None
         if not (site.root / COHORT).is_file():
             return
         self.cohort = read_json(site.root / COHORT)['battle_ids']
@@ -26,6 +29,7 @@ class NapoleonicPages:
             self.groups[frame[b]['campaign_group']].append(b)
         self.comparisons = ComparisonPages(self)
         self.outcomes = OutcomePages(self)
+        self.surprises = SurprisePages(self)
 
     def counts(self, ids):
         return Counter(c['status'] for b in ids for c in self.dossiers[b]['claims'])
@@ -65,6 +69,7 @@ class NapoleonicPages:
             self.engagement(b)
         self.comparisons.build()
         self.outcomes.build()
+        self.surprises.build()
 
     def index(self):
         from .site import esc, table
@@ -81,6 +86,9 @@ class NapoleonicPages:
                 f'<div class="card">{self.summary()}</div>'
                 + f'<p><a href="engagements.html">Browse all {len(self.cohort)} engagements</a> · '
                 + f'<a href="{self.site.blob(COHORT)}">Frozen cohort</a></p>'
+                + ('<div class="card"><a href="surprises.html"><strong>Which battles defied troop numbers?</strong></a>'
+                   '<p>Browse model surprises and outnumbered victories. Search by battle or name, filter a campaign, '
+                   'or pick a battle to explore.</p></div>' if self.surprises.rows else '')
                 + '<div class="card"><a href="comparisons/index.html"><strong>Compare measurement evidence</strong></a>'
                 + '<p>Compare strength, timing and command scope for the 12 engagements in the two completed '
                 + 'measurement pilots. Alternatives and unknowns remain explicit.</p></div>'
@@ -126,6 +134,8 @@ class NapoleonicPages:
                     + ('<p><a href="../comparisons/index.html">Compare this group’s measurement evidence</a></p>'
                        if set(ids) <= self.comparisons.ids else '')
                     + self.outcomes.campaign_link(name)
+                    + (f'<p><a href="../surprises.html?campaign={quote(name, safe="")}">Explore this group’s model surprises</a></p>'
+                       if any(b in self.surprises.ids for b in ids) else '')
                     + table(['Engagement', 'Frame start', 'Campaign group', 'Dossier', 'Claims', 'Unknown', 'Disputed'],
                             self.engagement_rows(ids, '../../'), {4, 5, 6}))
             self.site.write(f'napoleonic/campaigns/{slug(name)}.html', name, body, 2)
@@ -175,6 +185,10 @@ class NapoleonicPages:
             parts.insert(1, '<div class="card"><a href="../outcomes/' + b + '.html">'
                          '<strong>Inspect this engagement’s outcome evidence</strong></a>'
                          '<p>Completed pilot components, unknowns and exact supporting passages.</p></div>')
+        if b in self.surprises.ids:
+            parts.insert(1, '<div class="card"><a href="../surprises.html?q=' + b + '#battle-' + b + '">'
+                         '<strong>See this engagement’s model surprise</strong></a>'
+                         '<p>Compare its recorded result with the saved troop-strength model.</p></div>')
         a = e['french_side']
         other = 'loser' if a == 'winner' else 'winner'
         parts.append(table(['Side', 'Printed force label', 'Printed commander names'],

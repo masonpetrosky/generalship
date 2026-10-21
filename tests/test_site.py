@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import tempfile
 import unittest
+from urllib.parse import unquote, urlsplit
 
 from generalship.site import build_site, markdown, slug
 from generalship.sources import read_json
@@ -60,13 +61,44 @@ class SiteTests(unittest.TestCase):
             for href in parser.hrefs:
                 if href.startswith(('http://', 'https://', 'mailto:', 'data:')):
                     continue
-                target, _, frag = href.partition('#')
+                parsed = urlsplit(href)
+                target, frag = unquote(parsed.path), parsed.fragment
                 dest = (path.parent / target).resolve() if target else path
                 if not dest.is_file():
                     broken.append((str(path.relative_to(self.out)), href))
                 elif frag and dest.suffix == '.html' and frag not in self.pages[dest].ids:
                     broken.append((str(path.relative_to(self.out)), href))
         self.assertEqual(broken, [])
+
+    def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
+        from generalship.napoleonic_surprises import RUN
+        ids = {p['battle_id'] for p in read_json(ROOT / RUN)['populations']['primary']['leave_campaign_out']['predictions']}
+        page = (self.out / 'napoleonic/surprises.html').read_text()
+        self.assertEqual(set(re.findall('id="battle-([^"]+)"', page)), ids)
+        self.assertEqual(page.count('class="sx-battle"'), 194)
+        self.assertIn('194/273 development engagements', page)
+        self.assertIn('79 lack an eligible pair', page)
+        self.assertIn('not validated historical win probabilities', page)
+        self.assertIn('<noscript>', page)
+        for bid in read_json(ROOT / 'data/napoleonic/cohort-v1.json')['battle_ids']:
+            dossier = (self.out / f'napoleonic/engagements/{bid}.html').read_text()
+            self.assertEqual(f'../surprises.html?q={bid}#battle-{bid}' in dossier, bid in ids)
+        self.assertIn('surprises.html', (self.out / 'napoleonic/index.html').read_text())
+
+    def test_surprise_cards_keep_winner_orientation_and_original_strength_labels(self):
+        from generalship.napoleonic_surprises import DATA
+        page = (self.out / 'napoleonic/surprises.html').read_text()
+        for e in read_json(ROOT / DATA)['entries']:
+            if not e['eligible']:
+                continue
+            card = re.search('<article class="sx-battle" id="battle-' + e['battle_id'] + '"(.*?)</article>', page, re.S).group(1)
+            for side in ('A', 'B'):
+                self.assertIn(html.escape(e['sides'][side]['printed']), card)
+            self.assertIn(f'engagements/{e["battle_id"]}.html#dimension-strength', card)
+            self.assertIn(f'engagements/{e["battle_id"]}.html#dimension-outcome', card)
+            self.assertIn('/blob/abc123/' + DATA, card)
+        self.assertTrue((self.out / 'napoleonic/surprises.css').is_file())
+        self.assertTrue((self.out / 'napoleonic/surprises.js').is_file())
 
     def test_a_claim_shows_its_passage_source_and_hash(self):
         page = (self.out / 'engagements/VA111.html').read_text(encoding='utf-8')

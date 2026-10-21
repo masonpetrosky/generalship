@@ -7,6 +7,10 @@ everything this roadmap recorded up to 2026-10-06. Registered sources are listed
 
 ## Current priority: the French Revolutionary and Napoleonic Wars
 
+**Current approach:** the owner clarified on 2026-10-20 that this is a project for fun.
+Prioritize interesting exploratory results and quick iteration, with assumptions and major
+uncertainties visible. Further measurement audits are not the default next step.
+
 The owner chose the Napoleonic Wars on 2026-09-25 and decided the seven scoping questions on
 2026-10-06 ([scoping note](napoleonic-scoping.md),
 [record](../data/napoleonic/owner-decision-scoping-2026-10-06.json)):
@@ -281,6 +285,12 @@ would require its own definition, coextensive force/target rows, reporting and s
 and grouped evaluation before a separately authorized fit. No wider extraction, production
 admission profile, historical fit, commander credit or final-set use follows. The report and
 executed companion notebook retain the exact counts, alternatives, passages and image limits.
+
+**Done (2026-10-20):** the [Napoleonic surprise explorer](https://masonpetrosky.github.io/generalship/napoleonic/surprises.html)
+turns the saved benchmark predictions into a browsable page: 194 engagements, 54 recorded
+outnumbered victories, battle/name search, campaign filters and a random battle picker.
+Model surprises and outnumbered victories have separate orders, with troop totals and
+evidence links on each card. This is a playful view of existing results; no model is refitted.
 
 **Evaluation reserved before a historical outcome fit:** development is 1805–1813 (273 entries,
 13 intact groups); 1814–1815 is reserved for final numerical evaluation (52 entries, three groups).

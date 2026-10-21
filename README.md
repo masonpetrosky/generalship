@@ -10,6 +10,9 @@ disputed assumptions and supporting passages.
 **[Explore the evidence](https://masonpetrosky.github.io/generalship/)**: browse Civil War and
 Napoleonic engagements, claims, quoted passages and pinned sources, rebuilt from each commit.
 
+Try the **[Napoleonic surprise explorer](https://masonpetrosky.github.io/generalship/napoleonic/surprises.html)**:
+find battles that surprised the saved troop-strength model, browse outnumbered victories, or pick a battle to explore.
+
 Inspired by [Ethan Arsht's military rankings](https://github.com/ethanarsht/military_rankings),
 this project starts with a reproducible battle-level baseline, then builds toward
 campaign-level contribution. A battle residual is **not** an estimate of how many

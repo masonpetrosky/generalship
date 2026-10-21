@@ -5323,3 +5323,56 @@ prepared packet, prior pilot/run or frozen model input changes. No wider
 extraction, source fetch, historical fit, feature admission or final-set use
 follows. The work is primary-verified; calibration remains prepared and unscored,
 and no subagent, separate reviewer or second-opinion prompt ran.
+
+## Napoleonic surprise explorer, 2026-10-20
+
+The owner clarified that Generalship is a project for fun and accepted building
+an exploratory “which battles most defied troop numbers?” page instead of another
+fortification coverage audit. The new page at `napoleonic/surprises.html` uses
+only the saved primary campaign-held-out compiler-strength forecasts: **194
+engagements in 13 groups**, from 273 development entries. The 79 exclusions remain
+in the linked extract; all 52 final entries remain unscored.
+
+Two views answer different questions. “Model surprises” orders by one minus the
+saved estimate for the recorded winner, complementing the A-side probability when
+B won. “Outnumbered victories” retains **54** winners with fewer compiler-reported
+personnel and orders by opposing-to-winning total. Preßburg leads the first view;
+Graz leads the second at 22,000 against 5,000 reported personnel (4.4:1). These are
+faithful presentations of the existing records, not new historical adjudications
+or commander scores.
+
+The page adds battle/name search, campaign filters, pagination, a random battle
+picker, copyable URL state, and source disclosures. Cards retain winner orientation,
+reported headcounts, original strength labels and approximation flags, printed
+commander names as context, saved model estimates and direct dossier strength/outcome
+links. The Napoleonic overview, 13 covered campaign groups and 194 scored dossiers
+link into the page. Percentages are rounded for display; ordering uses the saved
+precision. The model's source-coding/selection limits and weak 1813 forward check
+remain visible in the methods disclosure. No fitting, source fetch, new evidence,
+feature admission or attribution runs.
+
+The implementation uses standard-library Python to generate one HTML page and
+small CSS/JavaScript assets. Ranked cards and proportional troop bars retain direct
+text labels; the full 194-card list and native source disclosures work with
+JavaScript disabled. Mobile search/filter fields collapse while the browse modes
+and random picker stay visible. Dark mode, keyboard paths, reduced-motion scrolling,
+URL reload/back/forward and selected-battle deep links are supported.
+
+Primary verification includes four new data/orientation/integrity tests and two
+site tests for exact membership, source labels and navigation; the all-site link
+check now understands query strings. The browser flow is overview → surprise
+view → filter/search → numbers/source → battle dossier → surprise view. Browser
+plugin was not available; bundled Playwright with installed Chrome 155.0.8059.85
+checked desktop 1280×1000 and mobile 390×844, dark mode and no-JavaScript behavior.
+Screenshots and temporary QA scripts remain outside the repository. Source and
+saved-run records are unchanged. The lighter exploratory approach is recorded in
+the roadmap; the superseded fortification inventory is not queued.
+
+All **459 tests passed in 280.159 seconds**, followed by the source/contract and
+generated-report checks; `make reproduce` succeeded. The final site tests passed
+22/22. Browser QA passed **19 states** with no document overflow, page errors or
+console warnings/errors; desktop and mobile screenshots, including dark mode,
+were visually inspected. The site now has **1,309 HTML pages**. All 5,667 source
+bindings and 20 prior output hashes remain unchanged; only the two existing site
+modules change in the old input receipt, with the surprise renderer added. No
+research dossier, prepared packet, source record or saved prediction changes.
