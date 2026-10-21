@@ -1,0 +1,817 @@
+{
+  "kind": "bodart_bulk_primary_image_field_checks",
+  "version": 1,
+  "verified_by": "primary agent",
+  "verified_at": "2026-10-21",
+  "scope": "Year and place headers plus two selected personnel fields for every detected entry on 11 fixed image pages. Dates, commander strings, identities and historical accuracy are not verified. Null means no eligible unambiguous total under this extraction rule, not zero or necessarily no printed personnel quantity.",
+  "selection": {
+    "seed": 20261021,
+    "endpoints": [
+      49,
+      600
+    ],
+    "bands": [
+      [
+        51,
+        99
+      ],
+      [
+        100,
+        149
+      ],
+      [
+        150,
+        199
+      ],
+      [
+        200,
+        249
+      ],
+      [
+        250,
+        267
+      ],
+      [
+        491,
+        524
+      ],
+      [
+        525,
+        549
+      ],
+      [
+        550,
+        574
+      ],
+      [
+        575,
+        599
+      ]
+    ],
+    "pages": [
+      49,
+      85,
+      124,
+      187,
+      200,
+      262,
+      516,
+      535,
+      570,
+      595,
+      600
+    ],
+    "purpose": "Small coverage spread for primary verification and parser development; not a blind accuracy estimate or representative simple random sample."
+  },
+  "migration": "New direct image readings override only the four named fields in the new bulk table. All original OCR bytes and the initial readings below remain visible. Existing transcription, frozen cohorts and old model records are unchanged.",
+  "entries": [
+    {
+      "id": "BC049-1",
+      "row_id": "BL049-001",
+      "page": 49,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p049-image-v1",
+      "source_sha256": "58a9c5f2bfa116cefcdbd39c1d808738ed2136df45d6cb6c9925f8803c55d001",
+      "locator": "printed p.49, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1619,
+        "place": "Groß-Zablat",
+        "winner_personnel": 5000,
+        "loser_personnel": 3000
+      },
+      "reading_notes": "Sieg der Kaiserlichen ... Buquoy (5.000 M.) ... Böhmischen Insurgenten (3.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1619,
+        "place": "Groß-Zablat",
+        "winner_personnel": 5000,
+        "loser_personnel": 3000
+      }
+    },
+    {
+      "id": "BC049-2",
+      "row_id": "BL049-009",
+      "page": 49,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p049-image-v1",
+      "source_sha256": "58a9c5f2bfa116cefcdbd39c1d808738ed2136df45d6cb6c9925f8803c55d001",
+      "locator": "printed p.49, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1620,
+        "place": "Prag (am Weißen Berge)",
+        "winner_personnel": 40000,
+        "loser_personnel": 21000
+      },
+      "reading_notes": "Kaiserlichen und Spanier (40.000 M. mit 7.500 Reitern) ... Insurgenten (21.000 M., worunter 11.000 Reiter)",
+      "initial_ocr_readings": {
+        "year": 1620,
+        "place": "Prag (am Weißen Berge)",
+        "winner_personnel": 40000,
+        "loser_personnel": 21000
+      }
+    },
+    {
+      "id": "BC049-3",
+      "row_id": "BL049-019",
+      "page": 49,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p049-image-v1",
+      "source_sha256": "58a9c5f2bfa116cefcdbd39c1d808738ed2136df45d6cb6c9925f8803c55d001",
+      "locator": "printed p.49, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1621,
+        "place": "Neuhäusel (Érsekujvár)",
+        "winner_personnel": 15000,
+        "loser_personnel": 12000
+      },
+      "reading_notes": "Ungarn ... Thurzó (15.000 M.) ... Kaiserlichen (12.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1621,
+        "place": "Neuhäusel (Ersekujvär)",
+        "winner_personnel": 15000,
+        "loser_personnel": 12000
+      }
+    },
+    {
+      "id": "BC049-4",
+      "row_id": "BL049-028",
+      "page": 49,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p049-image-v1",
+      "source_sha256": "58a9c5f2bfa116cefcdbd39c1d808738ed2136df45d6cb6c9925f8803c55d001",
+      "locator": "printed p.49, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1621,
+        "place": "Choczim (Chotin)",
+        "winner_personnel": 50000,
+        "loser_personnel": 200000
+      },
+      "reading_notes": "Polen und Kosaken (50.000 M.) ... Türken und Tartaren (200.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1621,
+        "place": "Choczim (Chotin)",
+        "winner_personnel": 50000,
+        "loser_personnel": 200000
+      }
+    },
+    {
+      "id": "BC085-1",
+      "row_id": "BL085-002",
+      "page": 85,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p085-image-v1",
+      "source_sha256": "017f77c76996cb53a70549d7b25c6b7782fa5ed8464e8f241257bd7732bab80c",
+      "locator": "printed p.85, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1658,
+        "place": "Lippa",
+        "winner_personnel": 10000,
+        "loser_personnel": null
+      },
+      "reading_notes": "Ungarn und Siebenbürger (10.000 M.); no Turkish headcount printed",
+      "initial_ocr_readings": {
+        "year": 1658,
+        "place": "Lippa",
+        "winner_personnel": 10000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC085-2",
+      "row_id": "BL085-008",
+      "page": 85,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p085-image-v1",
+      "source_sha256": "017f77c76996cb53a70549d7b25c6b7782fa5ed8464e8f241257bd7732bab80c",
+      "locator": "printed p.85, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1658,
+        "place": "Kopenhagen (im Öre Sund)",
+        "winner_personnel": 14000,
+        "loser_personnel": 13000
+      },
+      "reading_notes": "Holländer und Dänen (... 14.000 M.) ... Schweden (... 13.000 M.); personnel alongside ships and guns",
+      "initial_ocr_readings": {
+        "year": null,
+        "place": "Kopenhagen (im Öre Sund)",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC085-3",
+      "row_id": "BL085-019",
+      "page": 85,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p085-image-v1",
+      "source_sha256": "017f77c76996cb53a70549d7b25c6b7782fa5ed8464e8f241257bd7732bab80c",
+      "locator": "printed p.85, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1659,
+        "place": "Zajkány",
+        "winner_personnel": 20000,
+        "loser_personnel": 12000
+      },
+      "reading_notes": "Türken (20.000 M.) ... Ungarn und Siebenbürger (12.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1659,
+        "place": "Zajkäny",
+        "winner_personnel": 20000,
+        "loser_personnel": 12000
+      }
+    },
+    {
+      "id": "BC085-4",
+      "row_id": "BL085-028",
+      "page": 85,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p085-image-v1",
+      "source_sha256": "017f77c76996cb53a70549d7b25c6b7782fa5ed8464e8f241257bd7732bab80c",
+      "locator": "printed p.85, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1659,
+        "place": "Nyborg",
+        "winner_personnel": 9000,
+        "loser_personnel": 6000
+      },
+      "reading_notes": "Verbündete (9.000 M.) ... Schweden (6.000 M.); loss table below is excluded",
+      "initial_ocr_readings": {
+        "year": 1659,
+        "place": "Nyborg",
+        "winner_personnel": 9000,
+        "loser_personnel": 6000
+      }
+    },
+    {
+      "id": "BC124-1",
+      "row_id": "BL124-003",
+      "page": 124,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p124-image-v1",
+      "source_sha256": "19388643ddded9021bc1080d42ad2a6c63bcae0e037f03f3fe8edf16f3b2d786",
+      "locator": "printed p.124, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1701,
+        "place": "Carpi",
+        "winner_personnel": 15000,
+        "loser_personnel": null
+      },
+      "reading_notes": "Kaiserlichen (15.000 M.) ... Franzosen (5.000 Reiter); mounted component reading retained, no M. total selected",
+      "initial_ocr_readings": {
+        "year": 1701,
+        "place": "Carpi",
+        "winner_personnel": 15000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC124-2",
+      "row_id": "BL124-013",
+      "page": 124,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p124-image-v1",
+      "source_sha256": "19388643ddded9021bc1080d42ad2a6c63bcae0e037f03f3fe8edf16f3b2d786",
+      "locator": "printed p.124, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1701,
+        "place": "Riga (= an der Düna)",
+        "winner_personnel": 8000,
+        "loser_personnel": 20000
+      },
+      "reading_notes": "7.700 Inft., 300 Reiter = 8.000 M.; 17.000 Inft., 3.000 Reiter = 20.000 M.",
+      "initial_ocr_readings": {
+        "year": 1701,
+        "place": "Riga (= an der Düna)",
+        "winner_personnel": 8000,
+        "loser_personnel": 20000
+      }
+    },
+    {
+      "id": "BC124-3",
+      "row_id": "BL124-022",
+      "page": 124,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p124-image-v1",
+      "source_sha256": "19388643ddded9021bc1080d42ad2a6c63bcae0e037f03f3fe8edf16f3b2d786",
+      "locator": "printed p.124, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1701,
+        "place": "Chiari",
+        "winner_personnel": 22000,
+        "loser_personnel": 38000
+      },
+      "reading_notes": "13.000 Inft., 9.000 Reiter = 22.000 M.; 30.000 Inf., 8.000 Reiter = 38.000 M.",
+      "initial_ocr_readings": {
+        "year": 1701,
+        "place": "Chiari",
+        "winner_personnel": null,
+        "loser_personnel": 38000
+      }
+    },
+    {
+      "id": "BC124-4",
+      "row_id": "BL124-034",
+      "page": 124,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p124-image-v1",
+      "source_sha256": "19388643ddded9021bc1080d42ad2a6c63bcae0e037f03f3fe8edf16f3b2d786",
+      "locator": "printed p.124, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1701,
+        "place": "Kasaritsch",
+        "winner_personnel": 6000,
+        "loser_personnel": null
+      },
+      "reading_notes": "Schweden (6.000 M.) ... Russen (8.000 Reiter); mounted component reading, no M. total selected",
+      "initial_ocr_readings": {
+        "year": 1701,
+        "place": "Kasaritsch (6.) i Ort im europäischen Rußland, Livland). Sieg der Schweden (6.000 M) unter GM. Gf. Schlippenbach über die Rossen",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC187-1",
+      "row_id": "BL187-001",
+      "page": 187,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p187-image-v1",
+      "source_sha256": "66089dcbd2213491aa6ca59c8b235de760d4758212a9a1913fdce3beb253aca1",
+      "locator": "printed p.187, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1738,
+        "place": "Mehadia",
+        "winner_personnel": 40000,
+        "loser_personnel": 2300
+      },
+      "reading_notes": "Türkische Besatzung (2.300 M., 13 Gesch.) kapituliert vor österreichischer Hauptarmee (40.000 M.) ohne Schwertstreich",
+      "initial_ocr_readings": {
+        "year": 1788,
+        "place": "Mehadia",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC187-2",
+      "row_id": "BL187-007",
+      "page": 187,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p187-image-v1",
+      "source_sha256": "66089dcbd2213491aa6ca59c8b235de760d4758212a9a1913fdce3beb253aca1",
+      "locator": "printed p.187, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1738,
+        "place": "Orsova (Alt-Orsova)",
+        "winner_personnel": 2000,
+        "loser_personnel": 20000
+      },
+      "reading_notes": "Österreichische Besatzung (2.000 M.) ... Türken (20.000 M.); later relief army not counted",
+      "initial_ocr_readings": {
+        "year": 1738,
+        "place": "Orsova (Alt-Orsova)",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC187-3",
+      "row_id": "BL187-018",
+      "page": 187,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p187-image-v1",
+      "source_sha256": "66089dcbd2213491aa6ca59c8b235de760d4758212a9a1913fdce3beb253aca1",
+      "locator": "printed p.187, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1738,
+        "place": "Mehadia",
+        "winner_personnel": 10000,
+        "loser_personnel": 20000
+      },
+      "reading_notes": "Österreicher (10.000 M.) ... Türken (20.000 M.)",
+      "initial_ocr_readings": {
+        "year": null,
+        "place": "Mehadia",
+        "winner_personnel": 10000,
+        "loser_personnel": 20000
+      }
+    },
+    {
+      "id": "BC187-4",
+      "row_id": "BL187-025",
+      "page": 187,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p187-image-v1",
+      "source_sha256": "66089dcbd2213491aa6ca59c8b235de760d4758212a9a1913fdce3beb253aca1",
+      "locator": "printed p.187, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1738,
+        "place": "Orsova",
+        "winner_personnel": 30000,
+        "loser_personnel": null
+      },
+      "reading_notes": "Türken (30.000 M.) ... österreichische Besatzung (noch 1.000 M.); explicit later-state garrison remains excluded",
+      "initial_ocr_readings": {
+        "year": 1738,
+        "place": "Orsova",
+        "winner_personnel": 30000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC200-1",
+      "row_id": "BL200-002",
+      "page": 200,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p200-image-v1",
+      "source_sha256": "b040e55a58feda72650acf9000a018b9300c5bf9a58fa7d428b2ddc09e9e0e85",
+      "locator": "printed p.200, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1744,
+        "place": "Budweis",
+        "winner_personnel": 2000,
+        "loser_personnel": 1000
+      },
+      "reading_notes": "Österreicher (2.000 M. Panduren, 2 Gesch.) nehmen den von 1.000 Preußen verteidigten Platz; later noch 900 M. captured is excluded",
+      "initial_ocr_readings": {
+        "year": 1744,
+        "place": "Budweis",
+        "winner_personnel": 2000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC200-2",
+      "row_id": "BL200-009",
+      "page": 200,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p200-image-v1",
+      "source_sha256": "b040e55a58feda72650acf9000a018b9300c5bf9a58fa7d428b2ddc09e9e0e85",
+      "locator": "printed p.200, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1744,
+        "place": "Tabor",
+        "winner_personnel": 2400,
+        "loser_personnel": 1600
+      },
+      "reading_notes": "Österreicher (2.400 M., 8 Gesch.) ... preußische Besatzung (1.600 M.)",
+      "initial_ocr_readings": {
+        "year": 1744,
+        "place": "Tabor",
+        "winner_personnel": 2400,
+        "loser_personnel": 1600
+      }
+    },
+    {
+      "id": "BC200-3",
+      "row_id": "BL200-018",
+      "page": 200,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p200-image-v1",
+      "source_sha256": "b040e55a58feda72650acf9000a018b9300c5bf9a58fa7d428b2ddc09e9e0e85",
+      "locator": "printed p.200, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1744,
+        "place": "Freiburg im Breisgau",
+        "winner_personnel": 70000,
+        "loser_personnel": 7000
+      },
+      "reading_notes": "Franzosen (70.000 M.) ... österreichische Besatzung (7.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1744,
+        "place": "Freiburg im Breisgau",
+        "winner_personnel": 70000,
+        "loser_personnel": 7000
+      }
+    },
+    {
+      "id": "BC200-4",
+      "row_id": "BL200-029",
+      "page": 200,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p200-image-v1",
+      "source_sha256": "b040e55a58feda72650acf9000a018b9300c5bf9a58fa7d428b2ddc09e9e0e85",
+      "locator": "printed p.200, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1745,
+        "place": "Vilshofen",
+        "winner_personnel": 10000,
+        "loser_personnel": null
+      },
+      "reading_notes": "Österreicher (10.000 M.); later 3.000 M. garrison in capture clause remains excluded",
+      "initial_ocr_readings": {
+        "year": 1745,
+        "place": "Vilshofen",
+        "winner_personnel": 10000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC262-1",
+      "row_id": "BL262-002",
+      "page": 262,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p262-image-v1",
+      "source_sha256": "43c56bf48d1db8231db895908f58032c5ca77caaf992870cfd008b6a49756695",
+      "locator": "printed p.262, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1782,
+        "place": "Gibraltar",
+        "winner_personnel": 18000,
+        "loser_personnel": 25000
+      },
+      "reading_notes": "Engländer (32 Linienschiffe, 2.200 Kan., 18.000 M.) ... spanisch-französische Flotte (... 25.000 M.); only 12 ships each reportedly fought",
+      "initial_ocr_readings": {
+        "year": 1782,
+        "place": "Gibraltar",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC262-2",
+      "row_id": "BL262-013",
+      "page": 262,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p262-image-v1",
+      "source_sha256": "43c56bf48d1db8231db895908f58032c5ca77caaf992870cfd008b6a49756695",
+      "locator": "printed p.262, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1779,
+        "place": "Gibraltar",
+        "winner_personnel": 7000,
+        "loser_personnel": null
+      },
+      "reading_notes": "1779 9./8. bis 1782 21./10.; Engländer (7.000 M.); Spanish/French components not summed",
+      "initial_ocr_readings": {
+        "year": 1782,
+        "place": "Gibraltar",
+        "winner_personnel": 7000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC262-3",
+      "row_id": "BL262-025",
+      "page": 262,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p262-image-v1",
+      "source_sha256": "43c56bf48d1db8231db895908f58032c5ca77caaf992870cfd008b6a49756695",
+      "locator": "printed p.262, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1783,
+        "place": "Cuddalore",
+        "winner_personnel": 20000,
+        "loser_personnel": 10000
+      },
+      "reading_notes": "4.000 europäische, 16.000 eingeborne Truppen, zus. 20.000 M.; 2.500 europäische, 7.500 eingeborne Truppen, zus. 10.000 M.",
+      "initial_ocr_readings": {
+        "year": 1783,
+        "place": "Cuddalore (6.) Hafenstadt an der Ostküste Vorderindiens, 33 km südl. von Pondichery)- Sieg der Engländer (4 000 europäische. [16.000 eingeborne Truppen, zus. 20.000 M.) unter GM. Stewart über die FraOBOSen (2.500 europäische, 7.500 eingeborne Truppen,",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC262-4",
+      "row_id": "BL262-033",
+      "page": 262,
+      "entry_ordinal": 4,
+      "source_id": "bodart-1908-bulk-p262-image-v1",
+      "source_sha256": "43c56bf48d1db8231db895908f58032c5ca77caaf992870cfd008b6a49756695",
+      "locator": "printed p.262, entry 4; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1783,
+        "place": "Cuddalore",
+        "winner_personnel": 8000,
+        "loser_personnel": 9000
+      },
+      "reading_notes": "Franzosen (... 8.000 M.) ... Engländer (... 9.000 M.); ships and guns excluded from personnel",
+      "initial_ocr_readings": {
+        "year": null,
+        "place": "Cuddalore",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC516-1",
+      "row_id": "BL516-001",
+      "page": 516,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p516-image-v1",
+      "source_sha256": "c0ce54d490f696fe717fd4875514d6b6c79dabf59ce884117e99c5f445df56c5",
+      "locator": "printed p.516, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1855,
+        "place": "Eupatoria",
+        "winner_personnel": 22000,
+        "loser_personnel": 18000
+      },
+      "reading_notes": "Türken und Franzosen (... = 22.000 M.) ... Russen (... = 18.000 M.)",
+      "initial_ocr_readings": {
+        "year": 1855,
+        "place": "Eupatoria",
+        "winner_personnel": 22000,
+        "loser_personnel": 18000
+      }
+    },
+    {
+      "id": "BC516-2",
+      "row_id": "BL516-011",
+      "page": 516,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p516-image-v1",
+      "source_sha256": "c0ce54d490f696fe717fd4875514d6b6c79dabf59ce884117e99c5f445df56c5",
+      "locator": "printed p.516, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1855,
+        "place": "Tschernaja (Traktir)",
+        "winner_personnel": 50000,
+        "loser_personnel": 74000
+      },
+      "reading_notes": "Gesamt-Stärke: 50.000 / 74.000; following traten in den Kampf row 40.000 / 50.000 is a different population",
+      "initial_ocr_readings": {
+        "year": 1855,
+        "place": "der Tschemaja",
+        "winner_personnel": 50000,
+        "loser_personnel": 74000
+      }
+    },
+    {
+      "id": "BC535-1",
+      "row_id": "BL535-003",
+      "page": 535,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p535-image-v1",
+      "source_sha256": "6ca3a31ef533206c5baa88ab2dd5f1d972aab194f539489113f492e1032df10a",
+      "locator": "printed p.535, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1864,
+        "place": "Wilderness",
+        "winner_personnel": 118000,
+        "loser_personnel": 62000
+      },
+      "reading_notes": "Gesamt-Stärke 118.000 / 62.000; 318 / 224 are guns, not personnel",
+      "initial_ocr_readings": {
+        "year": 1864,
+        "place": "der Wilderness",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC535-2",
+      "row_id": "BL535-049",
+      "page": 535,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p535-image-v1",
+      "source_sha256": "6ca3a31ef533206c5baa88ab2dd5f1d972aab194f539489113f492e1032df10a",
+      "locator": "printed p.535, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1864,
+        "place": "Spotsylvania-Court-House",
+        "winner_personnel": 100000,
+        "loser_personnel": 50000
+      },
+      "reading_notes": "Gesamt-Stärke 100.000 / 50.000",
+      "initial_ocr_readings": {
+        "year": 1864,
+        "place": "Spotsylvania - Court - House",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC570-1",
+      "row_id": "BL570-002",
+      "page": 570,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p570-image-v1",
+      "source_sha256": "6479602c254c298f2db5667e701a4dcb4d43c1075fc1bb16bd1500c946cb0b40",
+      "locator": "printed p.570, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1871,
+        "place": "Buzenval (am Mont-Valérien)",
+        "winner_personnel": 23000,
+        "loser_personnel": 83000
+      },
+      "reading_notes": "Gesamt-Stärke 23.000 / 83.000",
+      "initial_ocr_readings": {
+        "year": 1871,
+        "place": "Buzenval",
+        "winner_personnel": 23000,
+        "loser_personnel": 83000
+      }
+    },
+    {
+      "id": "BC570-2",
+      "row_id": "BL570-019",
+      "page": 570,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p570-image-v1",
+      "source_sha256": "6479602c254c298f2db5667e701a4dcb4d43c1075fc1bb16bd1500c946cb0b40",
+      "locator": "printed p.570, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1870,
+        "place": "Longwy",
+        "winner_personnel": 8000,
+        "loser_personnel": 2000
+      },
+      "reading_notes": "1870 16./4. bis 1871 25./1.; Deutschen (8.000 M.) ... französische Garnison (2.000 M., 130 Gesch.)",
+      "initial_ocr_readings": {
+        "year": 1870,
+        "place": "1871 25./1. von Longwy",
+        "winner_personnel": 8000,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC570-3",
+      "row_id": "BL570-026",
+      "page": 570,
+      "entry_ordinal": 3,
+      "source_id": "bodart-1908-bulk-p570-image-v1",
+      "source_sha256": "6479602c254c298f2db5667e701a4dcb4d43c1075fc1bb16bd1500c946cb0b40",
+      "locator": "printed p.570, entry 3; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1871,
+        "place": "Dijon (Talant, Fontaine, Pouilly)",
+        "winner_personnel": 40000,
+        "loser_personnel": 6300
+      },
+      "reading_notes": "Französische Vogesen-Armee (ca. 40.000 M.) ... Deutschen (6.300 M.)",
+      "initial_ocr_readings": {
+        "year": 1871,
+        "place": "Dijon",
+        "winner_personnel": null,
+        "loser_personnel": 6300
+      }
+    },
+    {
+      "id": "BC595-1",
+      "row_id": "BL595-002",
+      "page": 595,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p595-image-v1",
+      "source_sha256": "07135d7804984e648c115f6434b86ea843ca48360a3b5fedb6cba576fb5f2fbf",
+      "locator": "printed p.595, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1904,
+        "place": "Lagoulin (Janselin-, Juschulin-, Pjelin-Pässe)",
+        "winner_personnel": 20000,
+        "loser_personnel": 24000
+      },
+      "reading_notes": "Japaner (ca. 20.000 M.) ... Russen (24.000 M., 95 Gesch.); OCR reads 90.000 / 84.000",
+      "initial_ocr_readings": {
+        "year": 1904,
+        "place": "Lagoulin",
+        "winner_personnel": 90000,
+        "loser_personnel": 84000
+      }
+    },
+    {
+      "id": "BC595-2",
+      "row_id": "BL595-016",
+      "page": 595,
+      "entry_ordinal": 2,
+      "source_id": "bodart-1908-bulk-p595-image-v1",
+      "source_sha256": "07135d7804984e648c115f6434b86ea843ca48360a3b5fedb6cba576fb5f2fbf",
+      "locator": "printed p.595, entry 2; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1904,
+        "place": "Simutschön",
+        "winner_personnel": null,
+        "loser_personnel": null
+      },
+      "reading_notes": "Japaner ... Oku über Russen ... Sarubajew; no personnel strength printed; 900 / 1.000 below are losses",
+      "initial_ocr_readings": {
+        "year": 1904,
+        "place": "Simutschön",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    },
+    {
+      "id": "BC600-1",
+      "row_id": "BL600-002",
+      "page": 600,
+      "entry_ordinal": 1,
+      "source_id": "bodart-1908-bulk-p600-image-v1",
+      "source_sha256": "a6863cf19c4d03c91c792b82cd9656eea96d105bb2f9204f022d808116421332",
+      "locator": "printed p.600, entry 1; header and opening description or Gesamt-Stärke/Bemannung row",
+      "checked_fields": {
+        "year": 1905,
+        "place": "Tsushima",
+        "winner_personnel": 14000,
+        "loser_personnel": 16000
+      },
+      "reading_notes": "Bemannung 14.000 / 16.000; tonnage, horsepower and guns are separate rows",
+      "initial_ocr_readings": {
+        "year": 1905,
+        "place": "Tsushima",
+        "winner_personnel": null,
+        "loser_personnel": null
+      }
+    }
+  ]
+}

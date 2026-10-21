@@ -54,6 +54,12 @@ is requested; they are not a prerequisite for every experiment. Provisional esti
 may be displayed with their uncertainty and unsuccessful validation results visible.
 This changes research allocation, not frozen inputs or feature-admission requirements.
 
+The owner also chose independence from Arsht's work: new extensions use historical
+sources and our own model definitions, without importing his data or code or treating
+his ranking as the target. The [whole-volume Bodart table](../artifacts/bodart-bulk-v1.md)
+is a provisional source extraction with explicit OCR and scoped image-check status.
+It does not add predictors to existing models or authorize ratings from every printed name.
+
 Build comparable first-pass dossiers across the frozen cohort before pursuing
 fine-grained historical resolution in individual battles. The first pass uses
 the existing seven dimensions: strength, terrain, logistics, information,

@@ -2311,3 +2311,31 @@ Rights and dependence: as recorded for the two parents.
     division's loss line after the journal names no source.
 
 Use: the draft for B378a. No model inputs are changed. The registry now holds 3,186 records.
+
+
+## 2026-10-20 — Bodart whole-volume OCR layout and scoped image sample (UTC 2026-10-21)
+
+Added 12 records in the companion `data/bodart/sources-v1.json`, for 5,679 combined
+records on the public Sources page. `data/sources.json` and its 5,667 records remain
+byte-identical: older frozen studies bind that complete file. All additions belong
+to `bodart-kriegs-lexikon-1908`, not independent witnesses. The bulk checker verifies
+their metadata, parents and raw hashes offline as part of `make check`.
+
+- `bodart-1908-layout-xml-v1`: original Internet Archive DjVu XML for
+  `bub_gb_A0kNAAAAYAAJ`, 23,090,024 uncompressed bytes. SHA-1
+  `296c67df9bae96ca58e2bf736dbaccc28ce54115` matches the previously pinned item metadata.
+  Lossless gzip level 9 with mtime=0 retains every WORD text, coordinate and recognition
+  confidence. Pinned gzip SHA-256:
+  `16c2f754940bfd1e423904e74a31753241c73576b20553e7c5aeef7e5d991424`.
+  It supplies provisional extraction, not image verification.
+- `bodart-1908-bulk-pNNN-image-v1`, for printed pp. 49, 85, 124, 187, 200, 262, 516,
+  535, 570, 595 and 600: complete original `page/n{printed+1}.jpg` responses, unedited
+  and without resizing. Every page was inspected for the 34 entries' year/place headers
+  and selected personnel fields. The registered hashes and `data/bodart/image-checks-v1.json`
+  retain the exact readings, locators, initial OCR, null reasons and correction scope.
+
+Rights: Bodart, Wien/Leipzig, C. W. Stern, 1908; the pinned item metadata marks the work
+with Public Domain Mark 1.0. The new records share the existing source family, limitations
+and compilation date. Source conventions are in the already registered pp. 45–47 images.
+This adds a versioned source representation and explicit field-level migration only for
+the new bulk table; it does not replace old OCR, transcription, frame or model inputs.

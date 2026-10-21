@@ -5429,3 +5429,72 @@ also states that orders across disconnected opponent-network components depend o
 model priors. This changes the display only; the comparison JSON, all estimates, forecasts,
 attribution, coverage and order positions are unchanged. The five comparison and 23 site
 tests were rerun with assertions for the visible flags.
+
+
+## 2026-10-20 — Direct whole-volume Bodart table (2026-10-21 UTC)
+
+The owner chose independence from Arsht's work and accepted a direct expansion from
+Bodart, instead of importing another project's dataset or code. README, AGENTS,
+methodology and roadmap now record this direction. The older scoring comparison is
+retained as historical work; exact reproduction of Arsht's project is no longer queued.
+
+`make bodart-bulk` produces one source-linked CSV, metadata/check JSON and a report,
+without model jobs or network access. The parser processes all 552 chronological
+battle-description pages (49–600), stopping before recapitulations and appendices.
+There are **1,682 detected entries**: 708 reuse the checked pp. 268–490 transcription,
+and 974 are new OCR candidates. The table has 1,040 paired personnel readings, 1,381
+paired printed commander strings, 121 naval entries and 70 unresolved year readings.
+Names are source strings, not identities or automatic allocations of command credit.
+These counts are detected-source coverage, not all historical battles or model eligibility.
+
+The 12 new sources use a companion registry, `data/bodart/sources-v1.json`. Appending
+to the main registry made the first reproduction attempt fail because older studies
+pin that entire file. The main registry was restored byte-for-byte; the bulk checker
+verifies its own additions, and the public Sources page combines them. Frozen scopes,
+source records and study code are not rewritten to accommodate this new dataset.
+
+The new losslessly compressed XML layout matches the original file's SHA-1 in our
+previously pinned Internet Archive metadata. Physical word positions reconstruct table
+columns even where XML lists an entire column before its labels. Only explicit personnel
+totals are selected; equipment, components, losses, later-state survivors and different
+engaged/available populations are not mechanically combined. The selected-force fields
+remain source-description readings, not a new strict-opening measurement ledger.
+
+The detector matches all 708 existing entry starts and counts per page. The vocabulary
+was developed on these pages, so this is a development replay. Against 1,416 checked
+personnel fields, the replay retains 831 agreements, 74 disagreements, 266 missing OCR
+readings and 245 fields without a comparable checked value. The final table always uses
+the existing checked transcription there. Austerlitz's OCR 66,000 versus checked 65,000
+remains an explicit disagreement; it is not silently reconciled.
+
+The primary inspected all 34 entry headers and selected personnel fields on 11 fixed
+pages outside that transcription (49, 85, 124, 187, 200, 262, 516, 535, 570, 595, 600).
+The sample combines endpoints with one seeded page in each of nine bands. It was also
+used to refine extraction, not held out for a blind accuracy claim. Before image
+corrections, the current parser has 43 matching personnel fields, two wrong values,
+15 missing readings and eight non-comparable fields. Lagoulin's scan reads 20,000 /
+24,000, while OCR reads 90,000 / 84,000. Corrections name only the checked fields, bind
+new image IDs/hashes and retain initial/raw readings. Commander strings and historical
+accuracy remain unverified; 940 new rows have no image-field check.
+
+Bodart's pp. 45–47 conventions remain material: selected consequential/high-loss
+engagements, rounded available forces, winner-left tables and winners assigned even
+to some indecisive results. Overseas engagements occur within the named European wars.
+The table is provisional; no new predictor, commander rating, cohort migration or
+historical fit is authorized or performed. Existing frozen inputs, reserved-final
+entries, research packets and saved model records remain intact. The report is
+published as one site page with exact CSV/JSON downloads; no per-entry dossiers are added.
+
+
+Primary verification: seven extraction/provenance tests and one site test were added.
+All **473 tests passed in 254.418 seconds**, followed by every offline `make check`
+source/contract/generated-report check. `make reproduce` succeeded after isolating the
+new source registry. The existing development table still yields 194 paired rows out
+of 273; all 5,667 main source records, frozen cohorts, dossier/packet bytes and saved
+model outputs remain unchanged. Only the new module and site code change the old receipt.
+
+With no Browser plugin exposed, bundled Playwright and installed Chrome verified home
+and Results navigation, exact CSV/JSON/check-record download bytes, new source links,
+desktop and mobile rendering, horizontal table scrolling, dark mode and no-JavaScript
+use. No console/page errors or document overflow occurred. Screenshots were inspected;
+QA scripts and images remain outside the repository. The site now has 1,311 HTML pages.

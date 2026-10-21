@@ -2,19 +2,21 @@
 
 **Can AI improve WAR-style ratings of historical generals?**
 
-Inspired by [Ethan Arsht’s military rankings](https://github.com/ethanarsht/military_rankings),
-we use AI to assemble source-backed battle data and compare simple residual scores with
-commander models. This is an exploratory project for fun. Provisional estimates, uncertain
+We use AI to assemble source-backed battle data and develop our own commander models.
+Data comes directly from historical sources; we do not import Arsht’s dataset or code or
+use his ranking as a target. This is an exploratory project for fun. Provisional estimates, uncertain
 inputs and unsuccessful experiments stay visible; the estimates do not establish causal
 wins above replacement.
 
-**[See the Civil War comparison](https://masonpetrosky.github.io/generalship/results/artifacts-commander-comparison-v1.html)**:
-Arsht-style cumulative scores beside shrunk commander estimates, with uncertainty and the
-same held-out battles. [Downloadable report and data](artifacts/commander-comparison-v1.md).
+**[Explore the expanded battle table, 1618–1905](https://masonpetrosky.github.io/generalship/results/artifacts-bodart-bulk-v1.html)**:
+1,682 detected entries from Bodart’s compilation, with source pages, commander strings,
+personnel readings and explicit unknowns. [Download the CSV](artifacts/bodart-bulk-v1.csv).
+It combines 708 existing checked entries with 974 new OCR candidates; 34 new entries have
+scoped image corrections. This provisional table is not a new ratings run.
 
 ## Results so far
 
-The comparison covers **301 Civil War battles in 108 source campaign groups** and shows
+The [Civil War comparison](artifacts/commander-comparison-v1.md) covers **301 battles in 108 source campaign groups** and shows
 provisional within-side orders for **91 commanders** with at least two credited battles.
 The other 222 saved commanders retain their coverage records without an assigned order.
 Both methods put Grant first among the 49 Union commanders and Forrest first among the
@@ -39,6 +41,9 @@ benefit over his data. See the [comparison](artifacts/commander-comparison-v1.md
 
 ## Data and evidence
 
+- **Bodart, 1618–1905:** all 552 battle-description pages processed; 1,682 candidate entries,
+  1,040 paired personnel readings, 121 naval entries and 70 unresolved year readings.
+  OCR errors are measured and retained; printed names are not resolved commander identities.
 - **American Civil War:** 384 engagements in 119 source campaign groups, all with first-pass
   dossiers. Strength and command ledgers cover 305 in-scope engagements; four nested records
   are excluded from the 301-battle model. In 120 battles, at least one strength is modelled.
@@ -67,6 +72,7 @@ remain intact. The [roadmap](docs/roadmap.md) holds the current priority; the
 Python 3.11 or newer; standard library only. From the repository root:
 
 ```sh
+make bodart-bulk                        # regenerate the broad source table; no fit or fetch
 make commander-comparison              # regenerate the comparison from saved results; no fit
 make check                             # offline tests and data-contract checks
 make reproduce                         # regenerate committed derived artifacts offline
@@ -88,6 +94,7 @@ Historical snapshots are restored from Git. To work from another directory, inst
 - [Earlier commander experiments](docs/research/commander-ratings-v4.md)
 
 Project code is MIT-licensed. Third-party sources retain their own terms; see [NOTICE](NOTICE.md).
+The original inspiration was [Ethan Arsht’s military rankings](https://github.com/ethanarsht/military_rankings).
 The Civil War frame comes from pinned CWSAC tables in Jeffrey B. Arnold’s
 [American Civil War Battle Data](https://acw-battle-data.readthedocs.io/en/latest/).
 GitHub Actions checks Python 3.11 and 3.14 and publishes the explorer from each pushed commit.

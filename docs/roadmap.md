@@ -5,13 +5,16 @@ milestone. Completed work is recorded in the [research log](research-log.md), wh
 everything this roadmap recorded up to 2026-10-06. Registered sources are listed in
 [source additions](source-additions.md).
 
-## Current priority: compare ratings, then scale structured battle data
+## Current priority: independent, broader commander modelling
 
 **Owner direction, 2026-10-20:** the goal is to see whether AI can improve on WAR-style
 ratings of generals. Prioritize useful provisional results and fast iteration. Use
 source-linked structured tables for expansion, with unknowns visible and targeted
 research on consequential exceptions. Full dossiers, further measurement audits and
-unrelated interface features are not the default next task.
+unrelated interface features are not the default next task. The owner then chose independence
+from Arsht's work: use historical sources and our own model definitions, without importing
+his dataset/code or treating his ranking as the target. Exact reproduction of his project
+is no longer a deliverable.
 
 **Completed (2026-10-20):** the [Civil War comparison](../artifacts/commander-comparison-v1.md)
 puts Arsht-style cumulative residual scores beside existing shrunk commander estimates
@@ -23,9 +26,20 @@ and rating run 4's unsuccessful verdict are unchanged; no model was fitted. This
 the scoring idea rather than reproducing Arsht's published rankings, and both score columns
 already use our AI-researched inputs.
 
-**After the comparison:** use its results to choose one compact modelling or bulk-data
-extension. Historical causal identification and archival completeness are longer-term
-questions, rather than prerequisites for displaying labelled exploratory estimates.
+**Completed (2026-10-20 local / 2026-10-21 UTC):** the
+[direct Bodart table](../artifacts/bodart-bulk-v1.md) processes all 552 battle-description
+pages (49–600), producing 1,682 candidate entries. It reuses 708 checked transcription
+entries and adds 974 OCR candidates, including 34 with scoped primary image checks.
+There are 1,040 paired personnel readings and 70 unresolved years. The CSV keeps source
+IDs/hashes, exact locators, raw readings and image-correction provenance. The OCR replay
+retains errors; no historical outcome is fitted, cohort migrated or predictor admitted.
+
+**Next:** use this table for one compact exploratory modelling extension, with an explicit
+row/command-unit definition, uncertainty and coverage accounting. Resolve consequential
+name and force ambiguities selectively; do not create a dossier for every new row or
+queue another general audit. The existing 1814–1815 final reservation remains protected.
+Historical causal identification and archival completeness are longer-term questions,
+rather than prerequisites for displaying labelled exploratory estimates.
 
 ## Napoleonic work already completed
 
@@ -354,7 +368,7 @@ run authorization are still required.
 | --- | --- |
 | 0. Working research foundation | Complete (infrastructure only) |
 | 1. First reviewed campaign dossiers | Coverage complete. Cross-engagement identities, replacement boundaries and information sets remain |
-| 2. Baseline audit and expanded coverage | Full-war coverage done. Arsht reproduction route, independent extraction sample and paired comparison rows remain |
+| 2. Baseline audit and expanded coverage | Civil War coverage and direct Bodart bulk table done; OCR/identity limits remain visible. Original-project reproduction retired by owner direction |
 | 3. Enriched prediction and command inference | Exploratory historical ratings only. Napoleonic measurement specification, synthetic checkpoint and final-set reservation done; historical army/appointment identification and causal design remain |
 | 4. Inspectable research interface | Static explorer, comparisons for the 12 measurement-pilot entries, and separate loss/objective views for the 26 outcome-pilot entries. Opportunity-adjusted estimates, wider disputes views and scenario toggles remain |
 
@@ -394,15 +408,17 @@ Acceptance requires that:
 
 ### Milestone 2: baseline audit and expanded coverage
 
-- Document an exact reproduction route for the original Arsht analysis and its access and
-  redistribution terms, as a track separate from the reduced baseline.
+- Expand directly from historical sources under our own data and model definitions.
+  Preserve the earlier original-project audit as historical context; exact reproduction
+  of Arsht's analysis is no longer queued.
 - Enrich the frozen cohort by complete campaigns, adding credible troop estimates without
   selecting only famous or easily scored battles.
 - Audit coverage by outcome, commander, campaign, engagement scale and evidence quality.
 
-Acceptance requires an immutable cohort, an exclusion ledger, an independent extraction sample,
-and paired comparison rows defined before model selection. Sparse evidence must not quietly
-become mediocre commander scores.
+An actual model extension needs an explicit cohort, exclusion ledger and paired comparison
+rows defined before model selection. Bulk OCR candidates retain their provisional status;
+primary checks do not become an independent extraction sample. Sparse evidence must not
+quietly become mediocre commander scores.
 
 ### Milestone 3: enriched prediction and command inference
 

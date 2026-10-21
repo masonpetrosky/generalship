@@ -36,6 +36,9 @@ your task touches, not the whole log.
   fields in bulk, preserve unknowns and investigate consequential exceptions selectively;
   a full seven-dimension dossier is not a prerequisite for an exploratory table.
   No new enriched predictor enters a frozen model without its admission contract.
+- Owner direction, 2026-10-20: develop independently from historical sources and our
+  own model definitions. Do not import Arsht's data or code or use his ranking as
+  the target. Preserve the earlier comparison as a historical result.
 - If a dossier first pass is explicitly needed, prioritize comparable coverage across
   its frozen cohort, grouped by complete source campaigns. Read `docs/roadmap.md`;
   an unresolved question in an old packet is not automatically the next task.

@@ -15,6 +15,7 @@ import re
 import shutil
 
 from .sources import read_csv, read_json
+from .bodart_bulk import source_registry_with_bulk
 from .napoleonic_site import NapoleonicPages
 from .napoleonic_comparison import CSS as COMPARISON_CSS
 
@@ -25,6 +26,7 @@ COMMAND = 'data/command/responsibility-v2.json'
 REGISTRY = 'data/command/commanders-v2.json'
 RUNS = ('artifacts/commander-ratings-v4', 'artifacts/commander-ratings-v3')  # the newest present run is shown
 REPORTS = (('README.md', 'Overview'),
+           ('artifacts/bodart-bulk-v1.md', 'Bodart: direct battle table, 1618–1905'),
            ('artifacts/commander-comparison-v1.md', 'Civil War: Arsht-style scores versus commander estimates'),
            ('docs/research/commander-ratings-v4.md', 'Rating run 4: memo'),
            ('artifacts/commander-ratings-v4.md', 'Rating run 4: report'),
@@ -36,6 +38,9 @@ REPORTS = (('README.md', 'Overview'),
            ('docs/methodology.md', 'Methodology'),
            ('docs/evidence-contract.md', 'Evidence contract'),
            ('docs/roadmap.md', 'Roadmap'))
+DOWNLOADS = {'artifacts/bodart-bulk-v1.csv': 'downloads/bodart-bulk-v1.csv',
+             'artifacts/bodart-bulk-v1.json': 'downloads/bodart-bulk-v1.json',
+             'data/bodart/image-checks-v1.json': 'downloads/bodart-image-checks-v1.json'}
 SIDES = ('US', 'Confederate')
 CSS = """
 :root { --fg: #1d232b; --muted: #5b6573; --bg: #fbfbf9; --card: #ffffff; --line: #dfe2e6; --accent: #1f5f99;
@@ -194,7 +199,7 @@ class Site:
         self.battles = {r['battle']: r for r in read_csv(self.root / 'data/raw/cwsac_battles.csv')}
         self.campaigns = {r['campaign']: r for r in read_csv(self.root / 'data/raw/cwsac_campaigns.csv')}
         self.cohort = read_json(self.root / COHORT)['battle_ids']
-        self.sources = {s['id']: s for s in read_json(self.root / 'data/sources.json')['sources']}
+        self.sources = source_registry_with_bulk(self.root)
         self.strength = {e['battle_id']: e for e in read_json(self.root / STRENGTH)['engagements']}
         command = read_json(self.root / COMMAND)
         self.command = {e['battle_id']: e for e in command['engagements']}
@@ -232,6 +237,8 @@ class Site:
                 return target
             path, _, frag = target.partition('#')
             resolved = posixpath.normpath(posixpath.join(posixpath.dirname(source_path), path))
+            if resolved in DOWNLOADS:
+                return '../' + DOWNLOADS[resolved]
             for p, _ in self.reports:
                 if p == resolved:
                     return f'../results/{self.report_name(p)}.html' + (f'#{frag}' if frag else '')
@@ -340,9 +347,14 @@ class Site:
 
     def home_link(self, target):
         link = self.doc_link('README.md')(target)
-        return link.replace('../results/', 'results/', 1) if link.startswith('../results/') else link
+        return link[3:] if link.startswith(('../results/', '../downloads/')) else link
 
     def results(self):
+        for source, destination in DOWNLOADS.items():
+            if (self.root / source).is_file():
+                target = self.out / destination
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes((self.root / source).read_bytes())
         items = []
         for p, title in self.reports:
             name = self.report_name(p)
@@ -488,7 +500,8 @@ class Site:
                  (f'<a href="{esc(s["url"])}">origin</a>' if s.get('url') else '')]
                 for s in sorted(self.sources.values(), key=lambda s: s['id'])]
         self.write('sources.html', 'Sources', '<h1>Registered sources</h1><p>Every source in <code>data/sources.json</code> '
-                   'with its pinned snapshot and full SHA-256. Dossier citation counts include both the Civil War '
+                   'and the companion bulk-table registry <code>data/bodart/sources-v1.json</code>, '
+                   'with pinned snapshots and full SHA-256. Dossier citation counts include both the Civil War '
                    'and Napoleonic cohorts. Copies and reprints share an '
                    'independence group and are not independent families.</p>'
                    + table(['ID', 'Title', 'Kind', 'Independence group', 'Dossier citations', 'Snapshot', 'Origin'], rows, {4}), 0)

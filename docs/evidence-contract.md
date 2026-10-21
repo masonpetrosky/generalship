@@ -1,7 +1,10 @@
 # Evidence contract, versions 1, 2 and 3
 
-The source registry is `data/sources.json`; dossiers are `data/evidence/<battle-id>.json`.
-Run `python3 -m generalship check` to verify every source hash, dossier, and baseline.
+The frozen studies' source registry is `data/sources.json`; dossiers are `data/evidence/<battle-id>.json`.
+Run `python3 -m generalship check` to verify its source hashes, dossiers, and baseline.
+The new bulk table's additions are in `data/bodart/sources-v1.json`, checked by
+`python3 -m generalship.bodart_bulk` and combined on the public Sources page. This
+companion preserves the exact main-registry bytes bound by existing studies.
 
 ## Source records
 
@@ -48,6 +51,13 @@ by `' '.join(text.split())`, and fails on any difference, a missing or extra ran
 parent. All 1,586 sections of the 431 selections then registered passed when the check was added.
 
 ## Dossiers and claims
+
+Bulk source tables may be prepared without dossiers. A machine reading must be labelled
+as such, retain its source ID/hash and exact locator, and remain separate from admitted
+model input. Scoped image corrections name the fields actually checked, bind their images,
+and retain the original reading. They do not verify other fields in the same row.
+The first such table and migration are in `artifacts/bodart-bulk-v1.md` and
+`data/bodart/image-checks-v1.json`. Existing frozen frames and records are unchanged.
 
 Each dossier identifies a frozen-cohort battle, draft/reviewed status, proposed
 tactical and campaign replacement dates (null until established), a boundary note,

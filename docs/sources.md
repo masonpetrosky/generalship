@@ -56,6 +56,11 @@ once frozen ledgers replayed through the archive chain. Each still rests on this
 
 ## Audit of the original project
 
+The owner chose independent development on 2026-10-20. This earlier audit remains context,
+not a dependency or a reproduction target. The new [whole-volume Bodart table](../artifacts/bodart-bulk-v1.md)
+comes directly from the pinned historical scan/OCR and our existing checked transcription,
+without importing Arsht's dataset or code. Its new OCR fields remain provisional.
+
 Reference: Ethan Arsht's [published notebook at commit d2d77e8](https://github.com/ethanarsht/military_rankings/blob/d2d77e89c054b2eae45320c0e5c69f0821f85ffa/battle_project.ipynb).
 The notebook was inspected; its code and dataset are not vendored here.
 

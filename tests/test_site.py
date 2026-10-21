@@ -81,6 +81,18 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(page.count(' †</a>'), 19)
         self.assertIn('not_connected', page)
 
+    def test_bodart_report_has_exact_downloads_and_provisional_reading_limits(self):
+        page = (self.out / 'results/artifacts-bodart-bulk-v1.html').read_text()
+        self.assertIn('1,682 candidate entries', page)
+        self.assertIn('No model was fitted', page)
+        self.assertIn('90,000 / 84,000', page)
+        for source, name in [('artifacts/bodart-bulk-v1.csv', 'bodart-bulk-v1.csv'),
+                             ('artifacts/bodart-bulk-v1.json', 'bodart-bulk-v1.json'),
+                             ('data/bodart/image-checks-v1.json', 'bodart-image-checks-v1.json')]:
+            self.assertIn('../downloads/' + name, page)
+            self.assertEqual((self.out / 'downloads' / name).read_bytes(), (ROOT / source).read_bytes())
+        self.assertIn('artifacts-bodart-bulk-v1.html', (self.out / 'results/index.html').read_text())
+
     def test_surprise_explorer_links_only_scored_engagements_and_works_as_static_html(self):
         from generalship.napoleonic_surprises import RUN
         ids = {p['battle_id'] for p in read_json(ROOT / RUN)['populations']['primary']['leave_campaign_out']['predictions']}
